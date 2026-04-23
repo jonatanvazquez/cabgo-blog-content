@@ -1,0 +1,14 @@
+{
+  "name": "cabgo-blog-content",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Content for cabgo.app/blog — JSON posts + hero images + generation scripts",
+  "type": "module",
+  "scripts": {
+    "build-index": "node scripts/build-index.mjs",
+    "gen-image": "node scripts/generate-hero-image.mjs"
+  },
+  "dependencies": {
+    "sharp": "^0.33.5"
+  }
+}

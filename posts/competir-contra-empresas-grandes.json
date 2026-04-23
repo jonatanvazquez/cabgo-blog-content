@@ -1,0 +1,291 @@
+{
+  "slug": "competir-contra-empresas-grandes",
+  "category": "strategy",
+  "title": {
+    "es": "Cómo competir contra Uber y Cabify sin incendiar tu caja",
+    "en": "How to compete against Uber and Cabify without burning through your cash"
+  },
+  "excerpt": {
+    "es": "No necesitas ganarle a los gigantes en todo. Necesitas ser significativamente mejor en dos o tres cosas que estructuralmente ellos no pueden copiar. Acá están las palancas reales.",
+    "en": "You don't need to beat the giants at everything. You need to be significantly better at two or three things they structurally can't copy. Here are the real levers."
+  },
+  "heroImage": "https://raw.githubusercontent.com/jonatanvazquez/cabgo-blog-content/main/images/competir-contra-empresas-grandes.jpg",
+  "heroImageAlt": {
+    "es": "Ilustración isométrica de un mapa de ciudad con marcadores destacados y conexiones entre negocios locales",
+    "en": "Isometric illustration of a city map with highlighted markers and connections between local businesses"
+  },
+  "publishedAt": "2026-04-17",
+  "readingMinutes": 10,
+  "keywords": {
+    "es": [
+      "competir contra Uber",
+      "competir Cabify",
+      "estrategia app taxi",
+      "operador regional taxi",
+      "B2B movilidad",
+      "retención conductores"
+    ],
+    "en": [
+      "compete against Uber",
+      "compete against Cabify",
+      "taxi app strategy",
+      "regional ride-hailing operator",
+      "B2B mobility",
+      "driver retention"
+    ]
+  },
+  "author": {
+    "name": "Equipo Cabgo",
+    "role": {
+      "es": "Plataforma de movilidad",
+      "en": "Mobility platform"
+    }
+  },
+  "cta": {
+    "heading": {
+      "es": "¿Listo para lanzar tu propia app de movilidad?",
+      "en": "Ready to launch your own mobility app?"
+    },
+    "body": {
+      "es": "Configura tu marca, tus tarifas y tus servicios en semanas, no en meses. Cabgo te entrega la plataforma, tú te quedas con la operación y la marca.",
+      "en": "Set up your brand, pricing and services in weeks, not months. Cabgo ships the platform — you keep the operation and the brand."
+    },
+    "buttonLabel": {
+      "es": "Empezar ahora",
+      "en": "Get started"
+    },
+    "buttonHref": "/empezar"
+  },
+  "seo": {
+    "metaTitle": {
+      "es": "Cómo competir contra Uber y Cabify — 6 palancas reales | Cabgo",
+      "en": "How to compete against Uber and Cabify — 6 real levers | Cabgo"
+    },
+    "metaDescription": {
+      "es": "Las ventajas estructurales que tiene un operador regional sobre los gigantes del ride-hailing, y cómo convertirlas en un negocio defendible sin quemar capital.",
+      "en": "The structural advantages a regional operator has over ride-hailing giants, and how to turn them into a defensible business without burning capital."
+    }
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Cualquier fundador de una app de movilidad tiene la misma conversación al menos una vez con inversionistas o con su propio equipo: ¿cómo vamos a competir contra Uber? La respuesta que funciona no es intentar ser un Uber más pequeño. Es ser algo que Uber estructuralmente no puede ser.",
+        "en": "Every mobility app founder has the same conversation at least once with investors or their own team: how do we compete against Uber? The answer that works isn't to try to be a smaller Uber. It's to be something Uber structurally cannot be."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Este artículo describe las palancas reales que tiene un operador regional o nacional para competirle a los gigantes. No son secretos — son ventajas estructurales que los grandes no pueden explotar sin destruir su propio modelo de negocio. El desafío es reconocerlas y construir alrededor de ellas.",
+        "en": "This article lays out the real levers a regional or national operator has to compete against the giants. They aren't secrets — they're structural advantages the big players can't exploit without destroying their own business model. The challenge is recognizing them and building around them."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "mito-escala",
+      "text": {
+        "es": "El mito de la escala",
+        "en": "The scale myth"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El argumento \"Uber tiene escala\" asume que la escala siempre es una ventaja. No lo es. La escala de Uber le permite ser eficiente cuando hay alta densidad de oferta y demanda — Ciudad de México, São Paulo, Buenos Aires centro. En zonas donde la densidad cae, su modelo colapsa: los tiempos de espera suben, los conductores abandonan, los clientes se van. Y Uber no tiene incentivos para arreglarlo — cada subsidio a una zona secundaria es dinero que no se extrae de una ciudad grande.",
+        "en": "The \"Uber has scale\" argument assumes scale is always an advantage. It isn't. Uber's scale lets them be efficient when there's high supply-and-demand density — Mexico City, São Paulo, central Buenos Aires. In zones where density drops, their model collapses: wait times go up, drivers leave, customers leave. And Uber has no incentive to fix it — every subsidy poured into a secondary zone is money that isn't being extracted from a major city."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El resultado es que ciudades enteras, barrios periféricos y horarios no-pico quedan mal atendidos. Ese es tu mercado. No compites contra Uber en Polanco o Vitacura — compites en las 47 ciudades secundarias del país donde Uber tiene un servicio degradado o inexistente.",
+        "en": "The result is that entire cities, peripheral neighborhoods and off-peak hours end up underserved. That's your market. You don't compete with Uber in Polanco or Vitacura — you compete in the 47 secondary cities in your country where Uber is degraded or absent."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "ventajas-locales",
+      "text": {
+        "es": "Ventajas estructurales del operador local",
+        "en": "The local operator's structural advantages"
+      }
+    },
+    {
+      "type": "list",
+      "style": "bullet",
+      "items": {
+        "es": [
+          "Conoces personalmente a tus conductores top — los gigantes no saben ni su nombre",
+          "Respondes en horas, no en días: tickets de soporte resueltos el mismo día",
+          "Adaptas tarifas en tiempo real a eventos locales: conciertos, feria, clima",
+          "Aceptas efectivo sin fricción porque conoces el mercado",
+          "Integras métodos de pago locales: transferencia, billeteras regionales, QR",
+          "Hablas el idioma de la ciudad: modismos, direcciones informales, rutas reales"
+        ],
+        "en": [
+          "You personally know your top drivers — the giants don't even know their names",
+          "You respond in hours, not days: support tickets resolved the same day",
+          "You adapt fares in real time to local events: concerts, fairs, weather",
+          "You accept cash frictionlessly because you know the market",
+          "You integrate local payment methods: bank transfer, regional wallets, QR",
+          "You speak the city's language: slang, informal addresses, real routes"
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "b2b",
+      "text": {
+        "es": "B2B: donde los gigantes pierden dinero",
+        "en": "B2B: where the giants lose money"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El mercado corporativo es donde la ventaja local se vuelve decisiva. Uber for Business funciona si eres una multinacional con oficinas en ciudades grandes. Para la empresa mediana local — una distribuidora, una clínica, una constructora — los gigantes no tienen representante, no negocian tarifas, no emiten la factura en el formato que la contabilidad necesita. Tú sí.",
+        "en": "The corporate market is where local advantage becomes decisive. Uber for Business works if you're a multinational with offices in big cities. For the mid-sized local company — a distributor, a clinic, a construction firm — the giants don't have a rep, don't negotiate rates, don't issue invoices in the format accounting needs. You do."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Un operador regional que construye 30 cuentas B2B con presencia local gana dos cosas: trips garantizados de lunes a viernes y conductores fidelizados porque tienen demanda estable. Cada cuenta vale entre $5.000 y $40.000 USD al año en GMV. Los gigantes no persiguen ese segmento porque el costo de adquisición no cierra. Para ti, una visita presencial de dos horas cierra la cuenta.",
+        "en": "A regional operator that builds 30 local B2B accounts wins two things: guaranteed Monday-to-Friday trips and loyal drivers with stable demand. Each account is worth $5,000 to $40,000 USD per year in GMV. The giants don't chase that segment because the acquisition cost doesn't pencil out. For you, a two-hour in-person visit closes the deal."
+      }
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "text": {
+        "es": "El 70% del crecimiento sostenible de operadoras regionales exitosas proviene de contratos corporativos, no de usuarios individuales. Planifica tu producto y tu equipo de ventas en consecuencia.",
+        "en": "70% of the sustainable growth of successful regional operators comes from corporate contracts, not individual users. Plan your product and sales team accordingly."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "diversificar",
+      "text": {
+        "es": "Diversificar servicios sin diluir marca",
+        "en": "Diversifying services without diluting your brand"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Uber es, antes que nada, una app de transporte. Después hicieron Uber Eats. Después Uber Freight. Cada producto nuevo les cuesta miles de ingenieros y años de integración. Tú puedes sumar servicios adyacentes — envíos de paquetería local, delivery de comida, viajes programados para empresas, taxis al aeropuerto con tarifa fija — en semanas si operas sobre una plataforma unificada.",
+        "en": "Uber is, first and foremost, a transport app. Then came Uber Eats. Then Uber Freight. Every new product costs them thousands of engineers and years of integration. You can add adjacent services — local parcel delivery, food delivery, scheduled corporate trips, fixed-fare airport rides — in weeks if you run on a unified platform."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La diversificación inteligente no es añadir features por añadir. Es identificar qué tres servicios comparten el mismo conductor, el mismo cliente o el mismo canal de ventas. Un operador de taxi en Quetzaltenango que añade delivery de farmacias no está diversificando por moda — está usando la misma flota inactiva entre pico de mañana y pico de tarde para generar ingresos adicionales sin costo marginal.",
+        "en": "Smart diversification isn't adding features for the sake of it. It's identifying which three services share the same driver, the same customer or the same sales channel. A taxi operator in Quetzaltenango adding pharmacy delivery isn't diversifying on trend — they're using the same fleet that sits idle between morning and evening peaks to generate extra revenue at zero marginal cost."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "soporte-humano",
+      "text": {
+        "es": "Atención humana como foso defensivo",
+        "en": "Human support as a defensive moat"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Soporte al cliente en los gigantes está diseñado para escalar, no para resolver. Un cliente con un problema complejo puede pasar cinco intercambios con un chatbot antes de hablar con un humano — si es que llega. El conductor con un reclamo de pago espera entre 3 y 7 días. Todos los operadores locales tienen la queja espejo: clientes que se fueron de Uber o Cabify por un incidente mal manejado.",
+        "en": "Customer support at the giants is designed to scale, not to resolve. A customer with a complex issue can go through five chatbot exchanges before reaching a human — if they ever do. A driver with a payment dispute waits 3 to 7 days. Every local operator hears the mirror complaint: customers who left Uber or Cabify over a mishandled incident."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Tu ventaja aquí es ridícula de construir. Un equipo de 2 a 4 agentes de soporte, un número de WhatsApp que responde en 10 minutos, un conductor que puede llamar a un gerente real cuando algo se rompe. Eso se convierte en retención, en NPS, en boca a boca. Y es imposible de replicar a escala sin hacer explotar el costo por trip.",
+        "en": "Your advantage here is almost silly to build. A team of 2 to 4 support agents, a WhatsApp number that answers in 10 minutes, a driver who can call a real manager when something breaks. That turns into retention, NPS, word of mouth. And it's impossible to replicate at scale without blowing up the cost per trip."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "metricas",
+      "text": {
+        "es": "Medir las cosas correctas",
+        "en": "Measuring the right things"
+      }
+    },
+    {
+      "type": "list",
+      "style": "bullet",
+      "intro": {
+        "es": "Métricas que los operadores locales ganadores persiguen y los gigantes no priorizan:",
+        "en": "Metrics winning local operators chase that the giants don't prioritize:"
+      },
+      "items": {
+        "es": [
+          "Tiempo de respuesta de soporte promedio — objetivo: menos de 15 minutos",
+          "Retención de conductores top a 6 meses — objetivo: más de 75%",
+          "Ratio de trips B2B sobre trips totales — objetivo creciente: 25% → 40%",
+          "NPS de conductores — objetivo: más de 50",
+          "Trips cancelados por \"no había conductor cerca\" — objetivo: menos de 3%"
+        ],
+        "en": [
+          "Average support response time — target: under 15 minutes",
+          "Top-driver retention at 6 months — target: over 75%",
+          "B2B trips as share of total trips — rising target: 25% → 40%",
+          "Driver NPS — target: over 50",
+          "Trips canceled for \"no nearby driver\" — target: under 3%"
+        ]
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Lo que se mide en Uber son tasas de conversión, tiempo de matching y market share. Lo que gana en mercados regionales se mide distinto: confianza, retención y red. Si usas las métricas del gigante para operar tu empresa, vas a tomar decisiones para una empresa que no eres.",
+        "en": "What's measured at Uber is conversion rates, matching time and market share. What wins in regional markets is measured differently: trust, retention and network. If you use the giant's metrics to run your company, you'll make decisions for a company you aren't."
+      }
+    },
+    {
+      "type": "quote",
+      "text": {
+        "es": "No ganamos porque fuimos más baratos. Ganamos porque cuando un conductor tenía un problema, respondía yo mismo en 20 minutos. Eso fue nuestra publicidad durante dos años.",
+        "en": "We didn't win because we were cheaper. We won because when a driver had a problem, I answered in 20 minutes myself. That was our marketing for two years."
+      },
+      "attribution": {
+        "es": "Operador regional con 800 conductores activos",
+        "en": "Regional operator with 800 active drivers"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "estrategia",
+      "text": {
+        "es": "La estrategia que funciona",
+        "en": "The strategy that works"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Un operador regional que ejecuta bien no intenta ser el Uber de su país. Intenta ser imprescindible para un conjunto específico de clientes — usualmente empresas, usualmente en ciudades mal atendidas, usualmente con mezcla de servicios. Llegar a 200 conductores con esta estrategia es mucho más realista y mucho más defendible que intentar los 2.000 conductores de una estrategia mass-market.",
+        "en": "A regional operator that executes well doesn't try to be the Uber of their country. They try to be indispensable to a specific set of customers — usually businesses, usually in underserved cities, usually with a mix of services. Reaching 200 drivers with this strategy is far more realistic and far more defensible than chasing the 2,000 drivers of a mass-market play."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Los gigantes van a seguir ahí. El juego no es expulsarlos — es crear un espacio donde ellos estructuralmente no pueden operar. Ese espacio existe en casi todos los mercados de LATAM, y el tiempo para ocuparlo es ahora.",
+        "en": "The giants will still be there. The game isn't to push them out — it's to carve a space where they structurally cannot operate. That space exists in almost every LATAM market, and the time to claim it is now."
+      }
+    }
+  ],
+  "heroImagePrompt": "Hero illustration about a local mobility operator competing strategically against giant ride-hailing companies. Show a small agile vehicle or glowing marker outmaneuvering a tall monolithic stack of buildings or boxes. Include abstract chess pieces or strategy elements, a B2B handshake icon and a map of connected local landmarks. Convey cleverness and local advantage, not conflict."
+}
