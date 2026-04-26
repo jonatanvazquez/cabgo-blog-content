@@ -1,0 +1,273 @@
+{
+  "slug": "fraude-conductores-ride-hailing",
+  "category": "product",
+  "title": {
+    "es": "Fraude de conductores en ride-hailing: los 5 patrones que sí ocurren y cómo detectarlos",
+    "en": "Driver fraud in ride-hailing: the 5 real patterns and how to detect them"
+  },
+  "excerpt": {
+    "es": "El fraude de conductores en operaciones regionales no llega como una alarma del sistema — llega como una anomalía menor que se repite. Estos son los cinco patrones más comunes y las señales que los exponen.",
+    "en": "Driver fraud in regional operations doesn't arrive as a system alert — it arrives as a minor anomaly that repeats. These are the five most common patterns and the signals that surface them."
+  },
+  "heroImage": "https://raw.githubusercontent.com/jonatanvazquez/cabgo-blog-content/main/images/fraude-conductores-ride-hailing.jpg",
+  "heroImageAlt": {
+    "es": "Ilustración isométrica de un panel de detección de fraude con trazas GPS anómalas y tarjetas de patrones flotando sobre un mapa de ciudad",
+    "en": "Isometric illustration of a fraud detection panel with anomalous GPS traces and pattern cards floating over a city map"
+  },
+  "heroImagePrompt": "Isometric fraud detection scene for a mobility platform. Central floating monitor displaying a city map with GPS route traces — one normal glowing teal trace and one anomalous red looping trace that doesn't match any street. Three pattern indicator cards arranged around the monitor: a ghost car icon with a question mark, two overlapping driver profile badges indicating multi-account fraud, and a group of small driver figures simultaneously logging off from the same zone. A small city grid below with a few taxis and faint route lines.",
+  "publishedAt": "2026-04-26",
+  "readingMinutes": 8,
+  "keywords": {
+    "es": [
+      "fraude conductores taxi",
+      "viajes fantasma ride-hailing",
+      "detectar fraude app movilidad",
+      "manipulación precio dinámico conductores",
+      "fraude referidos taxi",
+      "seguridad operación taxi",
+      "cancelaciones estratégicas conductor"
+    ],
+    "en": [
+      "driver fraud taxi app",
+      "ghost trips ride-hailing",
+      "detect fraud mobility app",
+      "surge price manipulation drivers",
+      "referral fraud taxi",
+      "taxi operation security",
+      "strategic cancellations driver"
+    ]
+  },
+  "author": {
+    "name": "Equipo Cabgo",
+    "role": {
+      "es": "Plataforma de movilidad",
+      "en": "Mobility platform"
+    }
+  },
+  "cta": {
+    "heading": {
+      "es": "¿Listo para lanzar tu propia app de movilidad?",
+      "en": "Ready to launch your own mobility app?"
+    },
+    "body": {
+      "es": "Configura tu marca, tus tarifas y tus servicios en semanas, no en meses. Cabgo te entrega la plataforma, tú te quedas con la operación y la marca.",
+      "en": "Set up your brand, pricing and services in weeks, not months. Cabgo ships the platform — you keep the operation and the brand."
+    },
+    "buttonLabel": {
+      "es": "Empezar ahora",
+      "en": "Get started"
+    },
+    "buttonHref": "/empezar"
+  },
+  "seo": {
+    "metaTitle": {
+      "es": "Fraude de conductores en ride-hailing: 5 patrones | Cabgo",
+      "en": "Driver fraud in ride-hailing: 5 patterns to detect | Cabgo"
+    },
+    "metaDescription": {
+      "es": "Cinco patrones de fraude en operaciones de movilidad regional y cómo detectarlos: viajes fantasma, manipulación de demanda y cuentas múltiples.",
+      "en": "Five driver fraud patterns in regional mobility operations and how to detect them: ghost trips, demand manipulation, and multi-account schemes."
+    }
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La primera señal de fraude en una operación de movilidad regional pocas veces aparece como una alerta del sistema. Aparece como una anomalía menor que el operador racionaliza: un conductor con calificación alta que de repente genera quejas, una zona con alta oferta pero tiempos de asignación lentos, una tasa de completación que sube sin que la satisfacción del pasajero mejore. Cuando esas anomalías se acumulan durante semanas sin intervención, lo que parecía una inconsistencia estadística resulta ser un patrón de fraude que ya costó entre el 3% y el 8% del ingreso bruto mensual.",
+        "en": "The first sign of fraud in a regional mobility operation rarely shows up as a system alert. It shows as a minor anomaly the operator rationalizes away: a high-rated driver who suddenly generates complaints, a zone with plenty of drivers but slow assignment times, a completion rate that climbs without any improvement in passenger satisfaction. When those anomalies accumulate over weeks without intervention, what looked like a statistical inconsistency turns out to be a fraud pattern that already cost between 3% and 8% of monthly gross revenue."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Este artículo es para operadores con 30 o más conductores activos y al menos 60 días de operación que empiezan a notar números que no cuadran pero no saben dónde buscar. Los cinco patrones descritos aquí son los más frecuentes en mercados regionales de LATAM: no son hipotéticos ni extraídos de contextos de gran escala — son los que aparecen cuando una operación de entre 40 y 200 conductores alcanza el volumen suficiente para que el fraude sea financieramente atractivo.",
+        "en": "This article is for operators with 30 or more active drivers and at least 60 days of operation who are starting to notice numbers that don't add up but don't know where to look. The five patterns described here are the most common in LATAM regional markets: they aren't hypothetical or drawn from large-scale contexts — they're the ones that appear when an operation with 40 to 200 drivers reaches enough volume for fraud to become financially attractive."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "viajes-fantasma",
+      "text": {
+        "es": "Viajes fantasma: cuando el servicio aparece completado pero no ocurrió",
+        "en": "Ghost trips: when the service shows as completed but never happened"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El viaje fantasma es el patrón de fraude más frecuente y el más difícil de detectar sin datos de geolocalización. El esquema básico funciona así: un conductor activo acepta una solicitud de un pasajero cómplice — en algunos casos una cuenta de pasajero que el mismo conductor controla —, marca el viaje como iniciado y luego como completado, y cobra el monto total sin que se haya producido ningún desplazamiento real. La plataforma registra un viaje completado. El conductor recibe su pago. El ingreso neto del fraude es equivalente a la comisión de la plataforma, que en operaciones regionales oscila entre el 15% y el 25% del valor del viaje.",
+        "en": "The ghost trip is the most frequent fraud pattern and the hardest to detect without geolocation data. The basic scheme works like this: an active driver accepts a request from a complicit passenger — in some cases an account the driver themselves controls —, marks the trip as started and then as completed, and collects the full fare without any actual movement occurring. The platform logs a completed trip. The driver gets paid. The net fraud income equals the platform's commission, which in regional operations runs between 15% and 25% of the trip value."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La señal detectable más confiable es la traza GPS durante el viaje. Un viaje fantasma muestra típicamente una de tres firmas: coordenadas que no se mueven o se mueven en un radio de menos de 200 metros durante el tiempo del viaje declarado, una traza que sale del dispositivo del conductor pero no coincide con ninguna ruta pública del área, o un tiempo de viaje inconsistente con la distancia cobrada. Los operadores que cruzan sistemáticamente el tiempo declarado con la distancia GPS encuentran entre el 0.5% y el 2.5% de viajes con discrepancias significativas en sus primeros tres meses. No todas son fraude intencional — algunas son errores técnicos en zonas de mala señal — pero los viajes con traza GPS plana o inexistente merecen conversación directa con el conductor.",
+        "en": "The most reliable detectable signal is the GPS trace during the trip. A typical ghost trip shows one of three signatures: coordinates that don't move or move within a radius of under 200 meters during the declared trip time, a trace that exits the driver's device but doesn't match any public route in the area, or a trip duration inconsistent with the distance charged. Operators who systematically cross-reference declared time with GPS distance find between 0.5% and 2.5% of trips with significant discrepancies in their first three months. Not all are intentional fraud — some are technical errors in poor-signal zones — but trips with flat or absent GPS traces warrant a direct conversation with the driver."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "manipulacion-surge",
+      "text": {
+        "es": "Coordinación para activar el precio dinámico: el fraude que parece mercado",
+        "en": "Coordinated surge manipulation: the fraud that looks like market forces"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La manipulación de demanda es un patrón colectivo que requiere coordinación entre conductores. El esquema funciona cuando tres a siete conductores activos en una zona de alta demanda se desconectan de manera simultánea en una ventana específica — usualmente 15 a 30 minutos antes del pico horario. El efecto es mecánico: la reducción abrupta de oferta activa dispara los tiempos de asignación, lo que en plataformas con precio dinámico activo activa el multiplicador de surge. Los conductores se reconectan cuando el multiplicador está encendido y trabajan durante la ventana inflada.",
+        "en": "Demand manipulation is a collective pattern that requires coordination between drivers. The scheme works when three to seven active drivers in a high-demand zone disconnect simultaneously during a specific window — typically 15 to 30 minutes before the peak hour. The effect is mechanical: the sudden drop in active supply spikes assignment times, which in platforms with active dynamic pricing triggers the surge multiplier. Drivers reconnect once the multiplier is live and work through the inflated window."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Lo que distingue la manipulación de demanda de un problema real de oferta es su carácter coordinado. Una caída genuina de oferta tiene dispersión geográfica y temporal — los conductores se desconectan en distintas zonas y a distintas horas por razones independientes. La manipulación produce un patrón de corte limpio: varios conductores se desconectan del mismo barrio dentro de una ventana de 5 a 10 minutos y se reconectan juntos 20 a 35 minutos después. Filtrar los logs de conexión-desconexión por zona y hora revela ese patrón con claridad. En operaciones regionales con precio dinámico activo, entre el 12% y el 28% de los eventos de surge en zonas de alta frecuencia muestran un perfil de desconexión consistente con coordinación.",
+        "en": "What distinguishes demand manipulation from a genuine supply problem is its coordinated character. A real supply drop has geographic and temporal dispersion — drivers go offline in different zones at different times for independent reasons. Manipulation produces a clean-cut pattern: multiple drivers disconnect from the same neighborhood within a 5-to-10-minute window and reconnect together 20 to 35 minutes later. Filtering connection-disconnection logs by zone and time reveals that pattern clearly. In regional operations with active dynamic pricing, between 12% and 28% of surge events in high-frequency zones show a disconnection profile consistent with coordination."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "cuentas-multiples",
+      "text": {
+        "es": "Cuentas múltiples: un conductor, dos perfiles, doble beneficio",
+        "en": "Multi-account fraud: one driver, two profiles, double benefit"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El fraude de cuentas múltiples es más común en plataformas con bonos de activación o referidos que en operaciones sin incentivos monetarios de entrada. El conductor crea una segunda cuenta con documentación de un familiar o conocido que accede a prestarla, y opera ambas de manera alternada: la cuenta principal en zonas y horas de alta demanda genuina, la secundaria para capturar bonos de activación sin que el perfil principal quede como beneficiario. En mercados sin validación biométrica obligatoria, el tiempo promedio para crear una cuenta secundaria funcional es de dos a cuatro días.",
+        "en": "Multi-account fraud is more common in platforms with activation or referral bonuses than in operations without monetary entry incentives. The driver creates a second account using documentation from a family member or acquaintance who agrees to lend it, and operates both alternately: the main account in high-demand zones and hours, the secondary one to collect activation bonuses without the main profile showing up as the beneficiary. In markets without mandatory biometric verification, the average time to set up a functional secondary account is two to four days."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La detección más directa no requiere análisis biométrico — requiere cruzar datos de dispositivo. Si dos cuentas de conductor distintas comparten el mismo device ID, el mismo número de teléfono asociado, o muestran patrones de conexión y desconexión en los mismos bloques de tiempo desde la misma ubicación geográfica, la probabilidad de que sea el mismo conductor operando ambas es alta. Las plataformas que habilitan la verificación de device ID de manera sistemática detectan entre el 2% y el 6% de cuentas duplicadas en operaciones con más de 100 conductores activos. Las que comparten tanto device ID como patrón geográfico y temporal requieren verificación directa antes de continuar activas.",
+        "en": "The most direct detection doesn't require biometric analysis — it requires cross-referencing device data. If two different driver accounts share the same device ID, the same associated phone number, or show connection and disconnection patterns in the same time blocks from the same geographic location, the probability that it's the same driver running both is high. Platforms that enable systematic device ID verification detect between 2% and 6% of duplicate accounts in operations with more than 100 active drivers. Those sharing both device ID and geographic and temporal pattern require direct verification before remaining active."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "cancelaciones-estrategicas",
+      "text": {
+        "es": "Cancelaciones selectivas: rechazar sin que aparezca como rechazo",
+        "en": "Selective cancellations: rejecting trips without it registering as a rejection"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La cancelación estratégica no busca robar dinero directamente — busca optimizar la experiencia del conductor a costa del pasajero y de la operación. El patrón más común: el conductor acepta la solicitud para que no cuente como rechazo en su tasa de aceptación, revisa los detalles del viaje después de aceptar, y si el destino es poco conveniente — viaje largo fuera de su zona, destino en área de baja demanda de retorno, tarifa baja con distancia extensa — cancela antes de llegar al pasajero alegando un motivo técnico. Desde el dashboard, aparece como una cancelación más. Desde la perspectiva del pasajero, es la segunda o tercera vez que le ocurre con la misma app en la misma semana.",
+        "en": "Strategic cancellation doesn't aim to steal money directly — it aims to optimize the driver's experience at the cost of the passenger and the operation. The most common pattern: the driver accepts the request so it doesn't count as a rejection in their acceptance rate, reviews trip details after accepting, and if the destination is inconvenient — long trip outside their zone, destination in a low-return-demand area, low fare with extended distance — cancels before reaching the passenger, citing a technical reason. From the dashboard it shows as one more cancellation. From the passenger's perspective, it's the second or third time it's happened on the same app in the same week."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La señal de alerta no es el número de cancelaciones — es el tiempo entre aceptación y cancelación cruzado con el tipo de viaje. Un conductor que cancela de manera consistente dentro de los 90 a 120 segundos posteriores a la aceptación, y lo hace desproporcionadamente en viajes de más de 15 minutos o hacia ciertas zonas, tiene un perfil de cancelación selectiva, no de cancelación por causa técnica. Identificar ese perfil en conductores con tasas de cancelación normales en el promedio pero con concentración en viajes largos o de baja rentabilidad es el primer punto de intervención antes de que el problema afecte la retención de pasajeros.",
+        "en": "The alert signal isn't the cancellation count — it's the time between acceptance and cancellation cross-referenced with trip type. A driver who consistently cancels within 90 to 120 seconds of accepting, and does so disproportionately on trips over 15 minutes or toward certain zones, shows a selective cancellation profile, not a technical or availability one. Identifying that profile in drivers with normal average cancellation rates but with concentration on long or low-revenue trips is the first intervention point before the problem degrades passenger retention."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "fraude-referidos",
+      "text": {
+        "es": "Fraude de referidos: cómo los bonos mal diseñados se explotan solos",
+        "en": "Referral fraud: how poorly designed bonuses exploit themselves"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El fraude de referidos aparece casi exclusivamente cuando el operador tiene activo un programa de incentivos que paga al momento del registro o de la primera activación del nuevo conductor. El patrón es predecible: el conductor referidor convence a alguien sin intención real de trabajar en la plataforma — un familiar, un amigo, a veces un contacto pagado — para registrarse y completar el mínimo de viajes que activa el bono, y luego desaparecer. El conductor referidor cobra el incentivo. La plataforma pierde el costo del bono más el tiempo de onboarding de un conductor que nunca iba a quedarse.",
+        "en": "Referral fraud appears almost exclusively when the operator has an active incentive program paying at the moment of registration or first driver activation. The pattern is predictable: the referring driver persuades someone without real intent to work on the platform — a family member, a friend, sometimes a paid contact — to register and complete the minimum trips that trigger the bonus, then disappear. The referring driver collects the incentive. The platform loses the bonus cost plus the onboarding time of a driver who was never going to stay."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El diseño del incentivo es la primera línea de defensa. Un bono que se paga cuando el nuevo conductor completa 30 días activos y mantiene una calificación mínima de 4.2 es estructuralmente resistente a este patrón porque exige un comportamiento sostenido que un conductor ficticio no puede simular durante un mes completo. Un bono que se paga al completar 10 o 15 viajes en la primera semana es explotable en 48 a 72 horas. La diferencia entre los dos no es solo el riesgo de fraude — es la calidad del conductor que cada estructura atrae. Los incentivos de activación rápida atraen conductores de bono, no conductores de plataforma.",
+        "en": "Incentive design is the first line of defense. A bonus paid when the new driver completes 30 active days and maintains a minimum 4.2 rating is structurally resistant to this pattern because it demands sustained behavior that a fictional driver can't simulate for a full month. A bonus paid on completing 10 or 15 trips in the first week is exploitable in 48 to 72 hours. The difference between the two isn't just fraud risk — it's the quality of driver each structure attracts. Fast-activation incentives attract bonus drivers, not platform drivers."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "deteccion-sistematica",
+      "text": {
+        "es": "Cuatro revisiones semanales que cubren los cinco patrones",
+        "en": "Four weekly reviews that cover all five patterns"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La mayoría de los operadores regionales no tienen un equipo dedicado a seguridad — tienen el mismo gestor de operaciones que hace todo lo demás. El objetivo no es construir un sistema de detección sofisticado desde el día uno; es establecer cuatro revisiones que pueden completarse en 20 a 30 minutos semanales y que cubren los cinco patrones con tiempo suficiente para intervenir antes de que escalen.",
+        "en": "Most regional operators don't have a dedicated security team — they have the same operations manager who handles everything else. The goal isn't to build a sophisticated detection system from day one; it's to establish four reviews that can be completed in 20 to 30 minutes per week and cover all five patterns with enough lead time to intervene before they escalate."
+      }
+    },
+    {
+      "type": "list",
+      "style": "bullet",
+      "intro": {
+        "es": "Las cuatro revisiones que detectan fraude antes de que se vuelva costoso:",
+        "en": "The four reviews that catch fraud before it becomes costly:"
+      },
+      "items": {
+        "es": [
+          "Revisar semanalmente los viajes con traza GPS plana o inconsistente con el tiempo declarado — cualquier viaje con distancia GPS menor al 30% de la distancia cobrada requiere verificación directa con el conductor",
+          "Filtrar los logs de conexión-desconexión por zona: grupos de tres o más conductores que se desconectan dentro de la misma ventana de 10 minutos en la misma zona más de dos veces por semana merecen revisión",
+          "Cruzar device IDs en cuentas nuevas contra el registro existente — dos cuentas activas con el mismo device ID son una señal de alerta inmediata que no admite espera",
+          "Analizar el perfil de cancelaciones por conductor: identificar quién cancela dentro de los 90 segundos de aceptar y en qué tipo de viaje, cruzando con destino y distancia para detectar el patrón selectivo"
+        ],
+        "en": [
+          "Review trips weekly for flat or time-inconsistent GPS traces — any trip where GPS distance is less than 30% of charged distance requires direct verification with the driver",
+          "Filter connection-disconnection logs by zone: clusters of three or more drivers going offline within the same 10-minute window in the same zone more than twice a week warrant review",
+          "Cross-reference device IDs on new accounts against existing records — two active accounts with the same device ID are an immediate alert that doesn't wait",
+          "Analyze each driver's cancellation profile: identify who cancels within 90 seconds of accepting and on what trip type, cross-referencing destination and distance to surface the selective pattern"
+        ]
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El umbral de intervención no tiene que ser certeza de fraude — tiene que ser anomalía suficiente para justificar una conversación directa con el conductor. La mayoría de las anomalías tienen explicación legítima: un GPS que no funciona en zonas con mala señal, una cancelación genuina por problema de vehículo, un referido que probó la plataforma y prefirió otra opción. Lo que no tiene explicación legítima es un patrón consistente en las mismas coordenadas, en las mismas horas, con los mismos conductores. El fraude es casi siempre un patrón repetido, no un evento aislado.",
+        "en": "The intervention threshold doesn't have to be certainty of fraud — it has to be enough anomaly to justify a direct conversation with the driver. Most anomalies have legitimate explanations: a GPS that doesn't work in poor-signal zones, a genuine cancellation due to a vehicle issue, a referral who tried the platform and chose another option. What doesn't have a legitimate explanation is a consistent pattern in the same coordinates, at the same times, with the same drivers. Fraud is almost always a repeated pattern, not an isolated event."
+      }
+    },
+    {
+      "type": "quote",
+      "text": {
+        "es": "Los primeros dos meses no vi nada. El tercero empecé a notar que un conductor siempre tenía viajes completados en zonas donde yo no veía coche moverse en el mapa. Cuando revisé el GPS, la traza no cuadraba con los tiempos. Era el mismo conductor, tres o cuatro veces por semana.",
+        "en": "For the first two months I saw nothing. In the third month I started noticing a driver who always showed completed trips in zones where I couldn't see a car moving on the map. When I checked the GPS, the trace didn't match the times. Same driver, three or four times a week."
+      },
+      "attribution": {
+        "es": "Operador de movilidad activo en una ciudad de 200,000 habitantes en el sureste de México",
+        "en": "Mobility operator in a city of 200,000 in southeastern Mexico"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Los cinco patrones descritos aquí — viajes fantasma, manipulación de surge, cuentas múltiples, cancelaciones selectivas y fraude de referidos — no son exclusivos de operaciones grandes ni de plataformas mal administradas. Aparecen en cualquier operación que alcanza el volumen suficiente para que el fraude sea rentable, lo que usualmente ocurre entre el mes 2 y el mes 5. El operador que los conoce antes de que aparezcan está en posición de detectarlos en su forma más temprana, antes de que se conviertan en un porcentaje significativo del ingreso mensual.",
+        "en": "The five patterns described here — ghost trips, surge manipulation, multi-account fraud, selective cancellations and referral fraud — aren't exclusive to large operations or poorly managed platforms. They appear in any operation that reaches enough volume for fraud to become profitable, which typically happens between months 2 and 5. The operator who knows them before they appear is positioned to catch them in their earliest form, before they become a meaningful share of monthly revenue."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La diferencia entre una operación que absorbe el fraude sin verlo y una que lo detecta y contiene no es tecnológica — es de hábito de revisión. Las cuatro revisiones semanales descritas en este artículo no requieren infraestructura sofisticada: requieren que alguien las ejecute de manera consistente. El fraude no escala donde no puede esconderse. Una operación que revisa sus logs con regularidad no es un objetivo atractivo para estos patrones — exactamente porque todos ellos requieren repetición para ser rentables, y la repetición es lo primero que expone una revisión sistemática.",
+        "en": "The difference between an operation that absorbs fraud without seeing it and one that detects and contains it isn't technological — it's a review habit. The four weekly checks described here don't require sophisticated infrastructure: they require someone to run them consistently. Fraud doesn't scale where it can't hide. An operation that reviews its logs regularly isn't an attractive target for any of these patterns — precisely because all of them require repetition to be profitable, and repetition is the first thing a systematic review surfaces."
+      }
+    }
+  ]
+}
