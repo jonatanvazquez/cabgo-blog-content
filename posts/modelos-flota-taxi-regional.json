@@ -1,0 +1,274 @@
+{
+  "slug": "modelos-flota-taxi-regional",
+  "category": "strategy",
+  "title": {
+    "es": "Modelos de flota en taxi regional: propia, afiliados y mixta",
+    "en": "Fleet models in regional taxi: owned vehicles, affiliates, and hybrid"
+  },
+  "excerpt": {
+    "es": "El modelo de flota es la decisión que más directamente traduce el capital disponible en estructura de costos. Propia, afiliados o mixta: cómo elegir y cuándo cambiar.",
+    "en": "Fleet model is the decision that most directly translates available capital into cost structure. Owned, affiliates, or mixed: how to choose and when to change."
+  },
+  "heroImage": "https://raw.githubusercontent.com/jonatanvazquez/cabgo-blog-content/main/images/modelos-flota-taxi-regional.jpg",
+  "heroImageAlt": {
+    "es": "Ilustración isométrica comparando flota propia con vehículos uniformes y flota de afiliados con vehículos variados, con una balanza de costos y panel de cobertura flotando entre ambos",
+    "en": "Isometric illustration comparing owned fleet with uniform branded vehicles and affiliate fleet with varied independent vehicles, with a cost-balance scale and coverage panel floating between them"
+  },
+  "heroImagePrompt": "Isometric fleet comparison scene for a regional mobility platform. Left side: three identical branded taxis in uniform livery parked in a neat row next to a small garage icon with a maintenance schedule board. Right side: four varied unbranded vehicles with different shapes and colors loosely arranged, representing independent affiliates. Center: a transparent floating balance scale tilting slightly toward the owned side. Above the scene, two floating KPI panels showing assignment time bars and coverage zone maps for each model. Clean geometric shapes, deep indigo to violet gradient, teal accents.",
+  "publishedAt": "2026-04-28",
+  "readingMinutes": 10,
+  "keywords": {
+    "es": [
+      "modelos flota taxi regional",
+      "flota propia vs afiliados ride-hailing",
+      "modelo mixto movilidad",
+      "cómo estructurar flota app taxi",
+      "afiliados conductor plataforma movilidad",
+      "costos flota ride-hailing LATAM",
+      "escalar flota operación taxi"
+    ],
+    "en": [
+      "fleet models regional taxi",
+      "owned fleet vs affiliates ride-hailing",
+      "hybrid fleet mobility model",
+      "how to structure taxi app fleet",
+      "affiliate driver mobility platform",
+      "fleet costs ride-hailing LATAM",
+      "scale fleet taxi operation"
+    ]
+  },
+  "author": {
+    "name": "Equipo Cabgo",
+    "role": {
+      "es": "Plataforma de movilidad",
+      "en": "Mobility platform"
+    }
+  },
+  "cta": {
+    "heading": {
+      "es": "¿Listo para lanzar tu propia app de movilidad?",
+      "en": "Ready to launch your own mobility app?"
+    },
+    "body": {
+      "es": "Configura tu marca, tus tarifas y tus servicios en semanas, no en meses. Cabgo te entrega la plataforma, tú te quedas con la operación y la marca.",
+      "en": "Set up your brand, pricing and services in weeks, not months. Cabgo ships the platform — you keep the operation and the brand."
+    },
+    "buttonLabel": {
+      "es": "Empezar ahora",
+      "en": "Get started"
+    },
+    "buttonHref": "/empezar"
+  },
+  "seo": {
+    "metaTitle": {
+      "es": "Modelos de flota en taxi: propia, afiliados y mixta | Cabgo",
+      "en": "Fleet models for regional taxi: owned vs affiliates | Cabgo"
+    },
+    "metaDescription": {
+      "es": "Qué modelo de flota — propia, afiliados o mixta — se adapta a tu capital y mercado, y señales de cuándo cambiar el modelo que ya no escala.",
+      "en": "Which fleet model — owned vehicles, affiliates, or mixed — fits your capital and market, and signals that your current model no longer scales."
+    }
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La decisión más subestimada al lanzar una app de movilidad regional no es la tecnología ni la estrategia de precios — es cómo se estructura la flota. Tres modelos dominan el mercado de operadores independientes en LATAM: flota propia, en la que el operador compra o financia los vehículos; modelo de afiliados, en el que los conductores usan su propio activo; y modelo mixto, que combina ambos en proporciones distintas según la etapa de la operación. La mayoría elige afiliados porque parece el camino de menor riesgo — no hay capital inmovilizado, el crecimiento de la flota no depende de financiamiento. Esa lógica es correcta en lo superficial. El problema es que los costos del modelo de afiliados no aparecen en el balance sino en los indicadores de calidad, retención y cobertura.",
+        "en": "The most underrated decision when launching a regional mobility app isn't technology or pricing strategy — it's how the fleet is structured. Three models dominate the independent operator market in Latin America: owned fleet, where the operator acquires or finances vehicles; affiliate model, where drivers supply their own assets; and hybrid, which combines both in proportions that shift with the operation's stage. Most operators default to affiliates because it looks like the lower-risk path — no capital tied up, fleet growth uncoupled from financing. That logic is correct on the surface. The problem is that the costs of the affiliate model don't show up on a balance sheet. They show up in quality metrics, driver retention, and coverage gaps."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Este artículo es para operadores en proceso de lanzamiento o con menos de seis meses de operación que todavía no han solidificado su modelo de flota, y para quienes llevan más tiempo y están encontrando fricciones que el modelo actual no resuelve. La elección no es definitiva: muchos de los operadores más sostenibles en mercados regionales comenzaron con afiliados y fueron incorporando vehículos propios en zonas de alta demanda a medida que el flujo de caja lo permitía. Lo que sí es costoso es no haber pensado el modelo antes de que sus limitaciones ya estén visibles en los datos.",
+        "en": "This article is for operators in pre-launch or within six months of going live who haven't yet locked in a fleet structure, and for those further along who are hitting friction their current model can't resolve. The choice isn't permanent: many of the most financially sustainable operators in regional LATAM markets started with affiliates and folded owned vehicles into high-demand zones as cash flow allowed. What is costly is not thinking through the model before its limitations are already visible in the data."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "modelo-define-costos",
+      "text": {
+        "es": "La elección del modelo define la estructura de costos antes que el modelo de ingresos",
+        "en": "Fleet model determines cost structure before the revenue model does"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La estructura de costos de una operación de movilidad cambia radicalmente según el modelo de flota. Con flota propia, los costos fijos son altos: depreciación del vehículo, mantenimiento programado, seguro comercial, y los períodos en que el activo no genera viajes pero sigue depreciándose. Con afiliados, esos costos se trasladan al conductor — a cambio, la comisión que la plataforma cobra es más baja porque el conductor asume el riesgo del activo. En modelos de afiliados puros, la comisión efectiva oscila entre el 15% y el 22% del valor del viaje. En modelos de flota propia, el operador retiene entre el 55% y el 75% del ingreso bruto. La diferencia en margen bruto es enorme, pero no significa que la flota propia sea siempre más rentable: requiere volumen sostenido para amortizar los costos fijos que el afiliado no tiene.",
+        "en": "An operation's cost structure changes fundamentally depending on fleet model. With owned fleet, fixed costs are high: vehicle depreciation, scheduled maintenance, commercial insurance, and periods when the asset isn't generating trips but is still losing value. With affiliates, those costs shift to the driver — in exchange, the platform takes a lower commission because the driver bears the asset risk. In pure affiliate models, the effective commission runs between 15% and 22% of the trip value. In owned-fleet models, the operator retains between 55% and 75% of gross revenue. The margin difference is large, but that doesn't make owned fleet inherently more profitable: it requires sustained trip volume to amortize fixed costs that affiliates simply don't carry."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El punto de equilibrio de un vehículo propio en operaciones de movilidad regional en LATAM se alcanza típicamente entre 18 y 28 viajes diarios, dependiendo del costo de adquisición, el precio del combustible local y el perfil de mantenimiento del vehículo. Por debajo de ese umbral, cada día de operación representa una pérdida sobre el costo del activo. Un modelo de afiliados no tiene ese umbral porque no hay activo propio, pero tampoco genera el margen que permite reinvertir en crecimiento o en incentivos de calidad de forma sostenida. Entender este equilibrio antes de comprometer capital — o de firmar los primeros contratos de afiliación — define qué modelo tiene sentido en cada fase de la operación.",
+        "en": "The break-even point for a single owned vehicle in LATAM regional mobility typically falls between 18 and 28 daily trips, depending on acquisition cost, local fuel price, and maintenance profile. Below that threshold, every operating day represents a net loss on the asset cost. An affiliate model doesn't have that threshold because there's no owned asset — but it also doesn't generate the margin that allows sustained reinvestment in growth or quality incentives. Understanding this equation before committing capital — or signing first affiliate contracts — is what makes the fleet choice defensible rather than default."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "flota-propia-control",
+      "text": {
+        "es": "Flota propia: cuándo el control sobre la experiencia justifica el capital inmovilizado",
+        "en": "Owned fleet: when control over the experience justifies the tied-up capital"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La flota propia tiene ventajas que el modelo de afiliados no puede replicar por diseño: control total sobre el estado del vehículo, identidad visual unificada, y la capacidad de redistribuir la flota según la demanda sin depender de que un conductor decida moverse. Un operador con 10 vehículos propios puede posicionar cuatro de ellos en el aeropuerto un viernes por la tarde sin negociarlo con nadie. Con afiliados, esa redistribución requiere incentivos adicionales o simplemente no ocurre. En rutas donde el operador tiene acuerdos corporativos o en corredores de alta tarifa, la capacidad de garantizar disponibilidad sin depender del criterio del conductor individual puede ser la diferencia entre sostener el contrato o perderlo en el primer mes de operación.",
+        "en": "Owned fleet has advantages the affiliate model structurally can't replicate: full vehicle condition control, unified visual identity, and the ability to redistribute supply based on demand without depending on a driver's willingness to move. An operator with 10 owned vehicles can position four of them at the airport on a Friday afternoon without negotiating it with anyone. With affiliates, that redeployment either requires an incentive or simply doesn't happen. On routes with corporate agreements or in high-fare corridors, the ability to guarantee availability without depending on individual driver preference can be the difference between sustaining a contract and losing it in the first operating month."
+      }
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "text": {
+        "es": "El break-even de un vehículo propio varía entre 18 y 28 viajes diarios. Si tu operación no puede garantizar ese volumen en la zona de destino del vehículo, el capital es más eficiente asignado en incentivos de cobertura para afiliados que en comprar activo fijo.",
+        "en": "A single owned vehicle breaks even between 18 and 28 daily trips. If your operation can't guarantee that volume in the vehicle's target zone, capital is more efficiently deployed in affiliate coverage incentives than in buying fixed assets."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El caso para flota propia se fortalece en mercados con demanda concentrada geográficamente: aeropuertos, terminales de autobús, corredores corporativos donde los pasajeros tienen expectativas de presentación más exigentes. En esos contextos, la flota propia puede capturar un segmento premium que el modelo de afiliados, con su variabilidad inevitable en el estado de los vehículos, no puede servir de forma consistente. Un conductor afiliado con vehículo de buen funcionamiento pero con señales visibles de desgaste — tapicería, climatización, limpieza — genera una experiencia que la plataforma no puede controlar. Ese segmento de demanda migra hacia la competencia no porque el precio sea peor sino porque la experiencia es impredecible de un viaje al siguiente.",
+        "en": "The case for owned fleet strengthens in markets with geographically concentrated demand: airports, bus terminals, corporate corridors where passengers have higher presentation expectations. In those contexts, owned fleet can capture a premium segment that the affiliate model — with its inevitable vehicle condition variability — can't serve consistently. An affiliated driver with a mechanically sound vehicle but visible wear — upholstery, air conditioning, cleanliness — creates an experience the platform can't control. That demand segment migrates to a competitor not because the price is worse but because the experience is unpredictable from one trip to the next."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "modelo-afiliados-costos",
+      "text": {
+        "es": "Modelo de afiliados: la promesa del crecimiento rápido y sus tres costos reales",
+        "en": "Affiliate model: the promise of fast growth and its three real costs"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El argumento central para el modelo de afiliados es la velocidad: en mercados donde hay conductores con vehículos propios dispuestos a monetizarlos, pasar de 5 a 50 afiliados en 30 días es posible sin ningún capital adicional de flota. Ese crecimiento tiene valor real — 50 conductores en 30 días es la masa crítica que hace que los tiempos de asignación bajen y la tasa de completación empiece a funcionar dentro de rangos aceptables. El modelo también alinea el riesgo del activo con quien lo usa: si la demanda cae en un período difícil, el operador no tiene 15 vehículos depreciándose sin generar viajes.",
+        "en": "The central argument for the affiliate model is speed: in markets where drivers with their own vehicles are ready to monetize them, growing from 5 to 50 affiliates in 30 days is possible without any additional fleet capital. That growth has real value — 50 drivers in 30 days is the critical mass that brings assignment times down and pushes completion rates into acceptable territory. The model also aligns asset risk with the person using it: if demand drops during a difficult period, the operator isn't sitting on 15 depreciating vehicles generating no trips."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Los tres costos que el modelo de afiliados no muestra en el análisis inicial son estos. El primero es el control de calidad del vehículo: el operador puede establecer requisitos mínimos en el onboarding, pero no tiene mecanismo efectivo para garantizar que un vehículo aprobado en enero sigue cumpliendo esos estándares seis meses después. El segundo es la lealtad del conductor: los afiliados con vehículo propio frecuentemente operan en múltiples plataformas simultáneamente y dirigen su disponibilidad hacia donde la demanda o los incentivos sean mejores en cada momento. La retención de conductores de alto rendimiento en modelos puramente de afiliados es entre un 20% y un 35% más baja que en modelos con algún componente de flota propia. El tercero es la redistribución de la oferta: los conductores afiliados optimizan su propio ingreso, no la cobertura de la plataforma, lo que resulta en zonas de alta demanda mal cubiertas en horarios pico cuando el incentivo de redireccionarse no está activo.",
+        "en": "Three costs that the affiliate model doesn't surface in the initial analysis. First, vehicle quality control: the operator can set minimum standards at onboarding, but has no effective mechanism to guarantee that a vehicle approved in January still meets those standards six months later. Second, driver loyalty: affiliates with their own vehicles frequently operate across multiple platforms simultaneously and direct their availability toward wherever demand or incentives are better at any given moment. High-performing driver retention in purely affiliate models runs 20% to 35% lower than in models with some owned-fleet component. Third, supply redistribution: affiliated drivers optimize their own income, not the platform's coverage — which results in high-demand zones being poorly served during peak hours whenever the incentive to move there isn't active."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "modelo-mixto-decision",
+      "text": {
+        "es": "El modelo mixto: cómo decidir qué parte de la flota controlar directamente",
+        "en": "The hybrid model: deciding which part of the fleet to control directly"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La mayoría de los operadores con más de 18 meses de operación sostenible en mercados regionales de LATAM termina usando alguna variante del modelo mixto: un núcleo de vehículos propios o bajo acuerdo de largo plazo — entre el 15% y el 30% de la flota activa — rodeado de afiliados que cubren la variabilidad de demanda. Ese núcleo cumple dos funciones que el modelo de afiliados puro no puede asegurar: garantiza cobertura mínima en las zonas y franjas horarias de mayor demanda, y actúa como ancla de calidad que establece el estándar de servicio que los pasajeros pueden esperar de la plataforma sin importar qué conductor reciben.",
+        "en": "Most operators with more than 18 months of sustainable operation in LATAM regional markets end up using some variant of the hybrid model: a core of owned or long-term-agreement vehicles — between 15% and 30% of active fleet — surrounded by affiliates who absorb demand variability. That core serves two functions a pure affiliate model can't guarantee: it provides minimum coverage in the highest-demand zones and time slots, and acts as a quality anchor that sets the service standard passengers can expect from the platform regardless of which driver they get."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La decisión de qué parte de la flota controlar directamente no debería estar basada en preferencia — debería estar basada en datos de operación. Dos preguntas orientan esa decisión: ¿Cuáles son las rutas o zonas donde la calidad del vehículo es un diferenciador directo con la competencia? ¿Cuáles son las franjas horarias donde la falta de disponibilidad ha causado cancelaciones medibles en los últimos 30 días? Lo que queda fuera de esas respuestas puede cubrirse con afiliados sin sacrificar calidad operativa. Lo que está dentro señala dónde la flota propia genera el mayor retorno sobre el capital inmovilizado.",
+        "en": "The decision of which part of the fleet to control directly shouldn't be based on preference — it should be based on operational data. Two questions frame it: which routes or zones have vehicle quality as a direct competitive differentiator? Which time slots have measurable cancellations caused by availability gaps in the past 30 days? Whatever falls outside those answers can be covered with affiliates without sacrificing operational quality. What falls inside marks where owned fleet delivers the highest return on committed capital."
+      }
+    },
+    {
+      "type": "list",
+      "style": "bullet",
+      "intro": {
+        "es": "Cuatro señales que indican dónde la flota propia genera más retorno que los afiliados:",
+        "en": "Four signals that indicate where owned fleet generates more return than affiliates:"
+      },
+      "items": {
+        "es": [
+          "Las zonas de mayor demanda muestran tiempos de asignación por encima de 90 segundos en más de tres franjas horarias al día — la flota propia posicionada anticipadamente resuelve ese déficit sin depender de que un afiliado decida moverse hacia allí",
+          "La tasa de cancelación antes de que llegue el conductor supera el 20% en rutas de alta tarifa — esas rutas son el primer candidato para cobertura con vehículo propio porque el costo de cada cancelación es mayor",
+          "El segmento corporativo o de aeropuerto representa más del 15% del ingreso mensual — ese segmento tolera pagar más pero no tolera la variabilidad de presentación de un vehículo afiliado sin protocolo de mantenimiento visible",
+          "Los conductores de mayor volumen y mejor calificación son todos afiliados sin contrato de exclusividad — el riesgo de que la competencia los atraiga con mejores condiciones es directo y no tiene defensa sin algún mecanismo de retención estructural"
+        ],
+        "en": [
+          "High-demand zones show assignment times above 90 seconds across more than three time slots per day — owned fleet pre-positioned in those zones closes the coverage gap without depending on an affiliate choosing to move there",
+          "Passenger cancellation rate before driver arrival exceeds 20% on high-fare routes — those routes are the first candidate for owned-vehicle coverage because the cost of each cancellation is higher",
+          "The corporate or airport segment accounts for more than 15% of monthly revenue — that segment accepts premium pricing but has zero tolerance for the presentation variability of an affiliate vehicle without a visible maintenance protocol",
+          "Your highest-volume, best-rated drivers are all non-exclusive affiliates — the risk of a competitor attracting them with better terms is direct, and there is no structural defense without some retention mechanism beyond the commission rate"
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "flota-impacto-kpis",
+      "text": {
+        "es": "Cómo el modelo de flota impacta los indicadores operativos",
+        "en": "How fleet model shapes operational metrics"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Cada modelo de flota produce una firma distinta en los KPIs de operación. Los operadores con modelo mixto que tienen un núcleo propio muestran tiempos de primera asignación más bajos durante los picos de demanda porque pueden posicionar vehículos de forma anticipada en las zonas correctas. Los modelos puramente de afiliados, en cambio, tienen menor variabilidad en los costos operativos pero mayor variabilidad en los tiempos de asignación — especialmente en los primeros 6 a 12 meses, antes de que la plataforma tenga suficiente base de conductores para absorber la demanda en los horarios más exigentes sin huecos de cobertura.",
+        "en": "Each fleet model produces a distinct signature in operational KPIs. Operators with a hybrid model that includes an owned core tend to show lower first-assignment times during demand peaks because they can pre-position vehicles in the right zones. Pure affiliate models, by contrast, carry lower operational cost variability but higher assignment-time variability — especially in the first 6 to 12 months, before the platform has enough driver supply to absorb demand at peak hours without coverage gaps."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La calificación promedio de conductores también tiende a ser más consistente en operaciones con componente de flota propia, no porque esos conductores sean inherentemente mejores sino porque el operador puede establecer protocolos de vehículo que el conductor de flota propia tiene que cumplir como condición de uso. Un afiliado puede no presentarse a una revisión de mantenimiento si no hay incentivo estructural que lo motive. Un conductor de flota propia no tiene esa opción. Esa asimetría no es menor: en operaciones donde el pasajero promedio hace entre 3 y 8 viajes al mes, una experiencia negativa con un vehículo deteriorado es suficiente para reducir la frecuencia de uso o abandonar la plataforma completamente.",
+        "en": "Average driver ratings also tend to be more consistent in operations with an owned-fleet component — not because those drivers are inherently better, but because the operator can establish vehicle protocols that owned-fleet drivers must follow as a condition of use. An affiliate can skip a maintenance check if there's no structural incentive to show up. An owned-fleet driver doesn't have that option. That asymmetry is not trivial: in operations where the average passenger takes 3 to 8 trips per month, one negative experience with a deteriorated vehicle is enough to reduce usage frequency or abandon the platform entirely."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "senales-modelo-no-escala",
+      "text": {
+        "es": "Señales de que el modelo actual ya no escala con la operación",
+        "en": "Signs that your current fleet model no longer scales"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El modelo de flota que funciona con 20 conductores puede convertirse en un cuello de botella con 80. Las señales son tres. La primera: la tasa de completación tiene alta variabilidad por franja horaria — baja en los picos precisamente cuando más importa — y los ajustes de incentivos a afiliados no logran mantenerla estable más de dos semanas seguidas. Esa señal indica que la oferta de afiliados no es suficientemente controlable para los picos, y que un núcleo de vehículos propios en esas franjas resolvería lo que los incentivos no pueden sostener. La segunda: el ingreso por hora activa de los conductores cae sin que haya caído el volumen de viajes, porque demasiados afiliados están conectados en zonas de baja demanda mientras las zonas de alta demanda tienen huecos. Ese es un problema de distribución que solo se resuelve con capacidad de redistribución activa — que los afiliados no conceden sin costo adicional.",
+        "en": "The fleet model that works at 20 drivers can become a bottleneck at 80. Three signals indicate the current model no longer scales. First: completion rate shows high time-slot variability — it drops during peak hours precisely when it matters most — and affiliate incentive adjustments can't hold it stable for more than two weeks at a time. That signal means affiliate supply isn't controllable enough to cover demand peaks, and that an owned-fleet core in those slots would solve what incentives can't sustain. Second: driver active-hour earnings fall without a drop in trip volume, because too many affiliates are online in low-demand zones while high-demand zones have coverage gaps. That's a distribution problem that only resolves with active redistribution capacity — which affiliates don't grant without additional cost."
+      }
+    },
+    {
+      "type": "quote",
+      "text": {
+        "es": "Empecé solo con afiliados porque era lo que podía pagar. A los ocho meses los números iban bien, pero los viernes en la noche nunca me alcanzaba la flota donde la necesitaba. Compré tres vehículos propios y los puse en la zona del estadio y el centro comercial. Eso cubrió solo el 30% de los viajes del pico, pero eliminó el 70% de las quejas por tiempo de espera.",
+        "en": "I started with affiliates only because it was what I could afford. Eight months in the numbers were good, but Friday nights I could never get fleet where I needed it. I bought three owned vehicles and positioned them around the stadium and the shopping center. That covered only 30% of peak trips but eliminated 70% of the wait-time complaints."
+      },
+      "attribution": {
+        "es": "Operador de movilidad en una ciudad de 300,000 habitantes en el noreste de México",
+        "en": "Mobility operator in a city of 300,000 in northeastern Mexico"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La elección entre flota propia, afiliados y mixta no tiene una respuesta correcta universal — tiene una respuesta correcta en función del capital disponible, la densidad del mercado y el segmento de demanda que el operador está construyendo. Los operadores que alcanzan sostenibilidad en 12 a 18 meses no son necesariamente los que eligieron el modelo correcto desde el inicio: son los que monitorearon las señales de que el modelo necesitaba ajuste y lo ajustaron antes de que el daño en los KPIs fuera difícil de revertir.",
+        "en": "The choice between owned fleet, affiliates, and hybrid has no universally correct answer — it has the right answer given available capital, market density, and the demand segment the operator is building. Operators who reach financial sustainability within 12 to 18 months aren't necessarily those who chose the right model from day one: they're the ones who watched for signals that the model needed adjustment and adjusted before the KPI damage became hard to reverse."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El modelo de flota que funciona no es el más sofisticado ni el que minimiza el capital en papel — es el que puede proveer cobertura predecible en las rutas y franjas donde la demanda es real y el margen sostiene la operación. Construir ese entendimiento desde los primeros 90 días — y revisar si el modelo sigue siendo el correcto cada vez que la flota se duplica — es la diferencia entre crecer la flota como consecuencia del éxito y reducirla como consecuencia del error.",
+        "en": "The fleet model that works isn't the most sophisticated one or the one that minimizes capital on paper — it's the one that delivers predictable coverage on the routes and time slots where demand is real and margin sustains the operation. Building that understanding in the first 90 days — and revisiting whether the model still fits every time the fleet doubles — is the difference between growing the fleet as a result of success and shrinking it as a result of error."
+      }
+    }
+  ]
+}
