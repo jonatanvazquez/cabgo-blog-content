@@ -1,0 +1,276 @@
+{
+  "slug": "taxi-aeropuerto-tarifa-fija",
+  "category": "strategy",
+  "title": {
+    "es": "Taxi al aeropuerto con tarifa fija: cómo operarlo rentable",
+    "en": "Fixed-rate airport taxi: how to run it profitably"
+  },
+  "excerpt": {
+    "es": "Un taxi de aeropuerto con tarifa fija solo es rentable si opera como traslado programado. La tarifa correcta incluye el retorno vacío del conductor — ese costo es donde la mayoría de operadores pierde el margen.",
+    "en": "A fixed-rate airport taxi only works as a scheduled transfer service, not on-demand. The right fare includes the driver's empty return leg — that's where most operators lose their margin."
+  },
+  "heroImage": "https://raw.githubusercontent.com/jonatanvazquez/cabgo-blog-content/main/images/taxi-aeropuerto-tarifa-fija.jpg",
+  "heroImageAlt": {
+    "es": "Ilustración isométrica de una terminal de aeropuerto regional con un sedán limpio y maletas en el maletero, un panel de reserva confirmada flotante y un arco de contrato hacia un hotel en el fondo",
+    "en": "Isometric illustration of a regional airport terminal with a clean sedan and luggage in the trunk, a floating confirmed booking panel, and a contract arc connecting to a hotel in the background"
+  },
+  "heroImagePrompt": "Isometric airport transfer scene for a regional mobility platform. Left: a small regional airport terminal facade with a departure board and a teal-marked ground pickup zone with a confirmation pin. Center: a clean sedan with two large suitcases loaded in the open trunk and a driver figure in a neat shirt holding a name placard. Right: a floating booking confirmation card showing a driver name, pickup clock set 24 hours ahead, and a fare breakdown splitting the outbound trip cost from the empty return leg cost. Background: a small hotel building with a faint dotted arc connecting to the vehicle as a corporate contract symbol.",
+  "publishedAt": "2026-04-30",
+  "readingMinutes": 9,
+  "keywords": {
+    "es": [
+      "taxi aeropuerto tarifa fija",
+      "servicio traslado aeropuerto regional",
+      "cómo operar taxi aeropuerto rentable",
+      "reserva anticipada taxi aeropuerto",
+      "contratos hoteleros movilidad regional",
+      "tarifa fija aeropuerto LATAM",
+      "flota aeropuerto ride-hailing"
+    ],
+    "en": [
+      "fixed rate airport taxi",
+      "airport transfer service regional",
+      "how to run airport taxi profitably",
+      "advance booking airport taxi",
+      "hotel contracts mobility platform",
+      "fixed fare airport LATAM",
+      "airport fleet ride-hailing"
+    ]
+  },
+  "author": {
+    "name": "Equipo Cabgo",
+    "role": {
+      "es": "Plataforma de movilidad",
+      "en": "Mobility platform"
+    }
+  },
+  "cta": {
+    "heading": {
+      "es": "¿Listo para lanzar tu propia app de movilidad?",
+      "en": "Ready to launch your own mobility app?"
+    },
+    "body": {
+      "es": "Configura tu marca, tus tarifas y tus servicios en semanas, no en meses. Cabgo te entrega la plataforma, tú te quedas con la operación y la marca.",
+      "en": "Set up your brand, pricing and services in weeks, not months. Cabgo ships the platform — you keep the operation and the brand."
+    },
+    "buttonLabel": {
+      "es": "Empezar ahora",
+      "en": "Get started"
+    },
+    "buttonHref": "/empezar"
+  },
+  "seo": {
+    "metaTitle": {
+      "es": "Taxi al aeropuerto con tarifa fija: cómo operarlo | Cabgo",
+      "en": "Fixed-rate airport taxi: how to run it profitably | Cabgo"
+    },
+    "metaDescription": {
+      "es": "Cómo estructurar un taxi al aeropuerto con tarifa fija: precio real, reserva anticipada, perfil del vehículo y el camino a contratos hoteleros.",
+      "en": "How to structure a fixed-fare airport taxi: real cost pricing, advance booking, vehicle profile, and the path to hotel contracts."
+    }
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Los viajes al aeropuerto tienen la tarifa promedio más alta de cualquier ruta en la mayoría de las operaciones de movilidad regional — típicamente entre 2.5x y 4x el ticket urbano estándar. Sin embargo, son también los que más operadores mal ejecutan: tarifa fija calculada sin incluir el retorno vacío del conductor, viajes asignados de forma reactiva a quienes estén conectados en ese momento, y pasajeros llegando al terminal a las 5 a.m. sin confirmación de que su conductor salió de casa. El problema no es la tarifa fija ni el aeropuerto como ruta — es tratar un traslado de aeropuerto con la misma lógica que un viaje on-demand al mercado del centro.",
+        "en": "Airport trips carry the highest average fare of any route in most regional mobility operations — typically 2.5x to 4x the standard urban ticket. Yet they're also among the most poorly executed services: fixed rates calculated without the driver's empty return leg, trips assigned reactively to whoever happens to be online, and passengers arriving at the terminal at 5 a.m. with no confirmation that their driver left home. The problem isn't the fixed rate or the airport as a route — it's running an airport transfer with the same logic as an on-demand trip to the downtown market."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Este artículo es para operadores que ya tienen una base de viajes regulares y están evaluando agregar el aeropuerto como servicio, o que ya lo ofrecen pero no han conseguido que sea una fuente de ingreso consistente. El argumento central es que el aeropuerto rentable no es una opción más en el menú de la app — es un servicio de traslado programado con lógica propia: precio basado en el costo real del trayecto completo, vehículo de perfil específico, reserva anticipada como condición de operación, y una progresión natural hacia contratos con hoteles y empresas que convierten la ruta en el ingreso más predecible de la flota.",
+        "en": "This article is for operators who already have a regular trip base and are evaluating the airport as a new service, or who already offer it but haven't made it a consistent revenue stream. The central argument is that a profitable airport service isn't another option in the app menu — it's a scheduled transfer service with its own logic: pricing built on the full route's real cost, a specific vehicle profile, advance booking as an operational prerequisite, and a natural progression toward hotel and corporate contracts that turn the route into the most predictable revenue in the fleet."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "aeropuerto-logica-distinta",
+      "text": {
+        "es": "El aeropuerto opera con una lógica distinta al on-demand",
+        "en": "Airport trips operate on a different logic than on-demand"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Un viaje on-demand en la ciudad tiene una estructura relativamente simétrica: el pasajero solicita, la plataforma asigna el conductor más cercano disponible, y el sistema funciona cuando hay suficiente oferta en la zona. Un viaje al aeropuerto tiene una estructura diferente en tres dimensiones. La primera es la anticipación: un pasajero con vuelo a las 6:30 no puede esperar un conductor disponible en el radio de 800 metros — necesita saber con 12 a 24 horas de anticipación que su viaje está confirmado y con quién. La segunda es la puntualidad: llegar tarde a un vuelo no es un inconveniente menor — es el error que produce una reseña de una estrella y un pasajero que no vuelve. La tercera es la distancia: la mayoría de los aeropuertos en ciudades secundarias de LATAM están a 15 a 35 km del centro urbano, lo que significa que el trayecto de retorno vacío del conductor es parte del costo real del viaje y tiene que estar incorporado en la tarifa.",
+        "en": "An on-demand city trip has a relatively symmetric structure: the passenger requests, the platform assigns the nearest available driver, and the system works when there's enough supply in the zone. An airport trip is structured differently across three dimensions. First, anticipation: a passenger with a 6:30 a.m. flight cannot wait for an available driver within 800 meters — they need to know 12 to 24 hours in advance that their trip is confirmed and with whom. Second, punctuality: arriving late to a flight is not a minor inconvenience — it's the error that produces a one-star review and a passenger who never returns. Third, distance: most airports in secondary LATAM cities sit 15 to 35 km from the urban center, which means the driver's empty return leg is part of the real cost of the trip and must be included in the fare."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Esas tres dimensiones — anticipación, puntualidad y distancia — requieren una respuesta operativa que el flujo on-demand puro no tiene. La asignación reactiva no garantiza disponibilidad para vuelos tempranos. Una flota de afiliados estándar no asegura puntualidad cuando el conductor decide levantarse a las 4:30 a.m. sin haber confirmado el viaje la noche anterior. Y una tarifa calculada solo sobre el trayecto de ida ignora que el conductor lleva 45 minutos de retorno vacío como parte del costo de ese viaje. Agregar el aeropuerto al menú de la app sin cambiar nada más es la razón por la que tantas operaciones lo abandonan en menos de 90 días sin entender bien qué salió mal.",
+        "en": "Those three dimensions — anticipation, punctuality, and distance — require an operational response that pure on-demand doesn't have. Reactive assignment doesn't guarantee availability for early morning flights. A standard affiliate fleet doesn't ensure punctuality when the driver decides to wake up at 4:30 a.m. without having confirmed the trip the night before. And a fare calculated only on the outbound leg ignores the 45-minute empty return that's part of the trip's real cost. Adding the airport to the app menu without changing anything else is why so many operations drop the service within 90 days without quite understanding what went wrong."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "calcular-tarifa-sin-margen",
+      "text": {
+        "es": "Cómo fijar la tarifa sin dejar margen en la mesa",
+        "en": "How to set the fare without leaving margin on the table"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La tarifa fija de aeropuerto se calcula sobre el costo real del viaje completo, no sobre lo que cobra el taxi de la calle ni sobre el punto en que el pasajero deja de quejarse. El costo real incluye el trayecto de ida, una ventana de espera en el terminal si el vuelo se retrasa — 15 a 30 minutos antes de que apliquen cargos adicionales es un estándar razonable — y el trayecto de regreso vacío. Sobre ese costo operativo total se aplica el margen de la plataforma más un buffer para los escenarios de retraso que no generan ingreso extra. En la práctica, esto lleva a que la tarifa correcta de aeropuerto para la mayoría de ciudades secundarias de LATAM oscile entre un 30% y un 55% por encima de lo que costaría el mismo trayecto como viaje on-demand en hora pico.",
+        "en": "The fixed airport fare is calculated on the real cost of the complete trip, not on what the street taxi charges or on the point at which the passenger stops complaining. The real cost includes the outbound leg, a terminal waiting window if the flight is delayed — 15 to 30 minutes before additional charges apply is a reasonable standard — and the empty return leg. On top of that total operational cost goes the platform margin plus a buffer for delay scenarios that generate no extra revenue. In practice, this puts the right airport fare for most secondary LATAM cities at 30% to 55% above what the same route would cost as an on-demand trip at peak dynamic pricing."
+      }
+    },
+    {
+      "type": "list",
+      "style": "bullet",
+      "intro": {
+        "es": "Las cinco variables que determinan el costo real de un viaje de aeropuerto:",
+        "en": "The five variables that determine the real cost of an airport trip:"
+      },
+      "items": {
+        "es": [
+          "Distancia ida y vuelta desde el origen más frecuente al aeropuerto — no solo el trayecto de ida que el pasajero paga",
+          "Tiempo promedio de espera real en el terminal en los últimos 30 días, incluyendo demoras de vuelo que no generan tarifa adicional",
+          "Precio local de combustible por kilómetro, diferenciando entre conductor afiliado con vehículo propio y flota controlada directamente",
+          "Costo de limpieza y preparación del vehículo si el estándar para aeropuerto es superior al de viajes regulares",
+          "Tarifa de referencia de la competencia local — taxi formal, otras apps, transfers privados — como techo de precio, no como punto de partida"
+        ],
+        "en": [
+          "Round-trip distance from the most common pickup zone to the airport — not just the outbound leg the passenger pays for",
+          "Actual average terminal waiting time over the past 30 days, including flight delays that produce no additional revenue",
+          "Local fuel cost per kilometer, distinguishing between an affiliate's personal vehicle cost and a directly controlled fleet vehicle",
+          "Cleaning and vehicle preparation cost if the airport presentation standard is higher than for regular trips",
+          "Competitor reference pricing — licensed taxi, other apps, private transfers — as a price ceiling, not as a starting point"
+        ]
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El error más frecuente en la fijación de tarifa es usar el precio de la competencia como punto de partida en lugar de como referencia de techo. Si el taxi formal cobra $18 USD por el mismo trayecto y el operador fija $14 USD para ganar mercado rápido, el resultado es una tarifa que no cubre el costo real del viaje una vez incluidos los retornos vacíos y los retrasos. El aeropuerto no se gana en precio — se gana en experiencia: confirmación anticipada, conductor puntual, vehículo en buen estado. Un pasajero que lleva tres meses usando el mismo traslado sin un solo problema paga $18 sin comparar con alternativas. Uno que pagó $14 y esperó cuarenta minutos en la banqueta no vuelve.",
+        "en": "The most frequent pricing mistake is using the competitor's fare as a starting point rather than a ceiling reference. If the licensed taxi charges $18 USD for the same route and the operator sets $14 USD to gain market share quickly, the result is a fare that doesn't cover the real trip cost once empty return legs and delays are included. The airport isn't won on price — it's won on experience: advance confirmation, a punctual driver, a vehicle in good condition. A passenger who has used the same transfer for three months without a single problem pays $18 without shopping around. One who paid $14 and waited forty minutes on the curb doesn't come back."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "perfil-vehiculo-aeropuerto",
+      "text": {
+        "es": "El perfil del vehículo que no puedes ignorar",
+        "en": "The vehicle profile you cannot ignore"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El perfil del vehículo para el aeropuerto no es un capricho estético — es parte del producto. Un pasajero en un traslado de aeropuerto lleva equipaje, probablemente está más estresado de lo habitual, y en muchos casos va a un vuelo que representa un gasto significativo en su presupuesto. La experiencia del vehículo — espacio para maletas, limpieza del interior, funcionamiento del aire acondicionado, nivel de ruido en cabina — determina si ese pasajero usa la plataforma la próxima vez o llama directamente al transfer del hotel. En ciudades donde el aeropuerto está a 25 km o más, ese tiempo en el vehículo es suficiente para que una experiencia deficiente deje huella aunque el conductor haya llegado puntual.",
+        "en": "Vehicle profile for airport service isn't an aesthetic preference — it's part of the product. A passenger on an airport transfer is carrying luggage, likely more stressed than usual, and in many cases heading to a flight that represents a significant line item in their budget. The vehicle experience — luggage space, interior cleanliness, working air conditioning, cabin noise level — determines whether that passenger books the platform next time or calls the hotel's private shuttle directly. In cities where the airport is 25 km or more away, that in-vehicle time is long enough for a poor experience to leave a mark even when the driver arrived on time."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "En términos prácticos, el perfil mínimo para un vehículo de aeropuerto en un mercado regional de LATAM incluye: maletero con capacidad para dos maletas grandes, climatización funcional en cualquier época del año, limpieza documentada antes de cada turno de aeropuerto, y un conductor con protocolo de llegada puntual que el operador puede verificar. El modelo no tiene que ser de lujo — tiene que ser predecible. Un sedán de cuatro a seis años en buen estado de presentación supera a un SUV deteriorado para el pasajero que acaba de volar dos horas y solo quiere llegar a casa. En operaciones con un componente de flota propia, los vehículos designados para el aeropuerto son siempre parte del núcleo controlado, no del pool general de afiliados de libre disponibilidad — exactamente por esta razón.",
+        "en": "In practical terms, the minimum vehicle profile for airport service in a regional LATAM market includes: trunk capacity for two large suitcases, year-round functional air conditioning, documented cleaning before each airport shift, and a driver with a punctual arrival protocol the operator can verify. The model doesn't need to be luxury — it needs to be predictable. A four-to-six-year-old sedan in good presentable condition outperforms a deteriorated SUV for a passenger who just flew two hours and wants to get home. In operations with an owned-fleet component, vehicles designated for airport runs are always part of the controlled core, never the general affiliate pool — for exactly this reason."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "reserva-anticipada-base",
+      "text": {
+        "es": "Por qué la reserva anticipada cambia el modelo completo",
+        "en": "Why advance booking changes the entire model"
+      }
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "text": {
+        "es": "Sin reserva anticipada, el viaje de aeropuerto no existe como producto. Solo existe como un viaje de larga distancia que el sistema intenta cubrir con el conductor más cercano disponible, que puede no ser el más puntual ni tener espacio para el equipaje del pasajero.",
+        "en": "Without advance booking, the airport service doesn't exist as a product. It exists only as a long-distance trip the system tries to cover with the nearest available driver — who may not be the most punctual or have room for the passenger's luggage."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La reserva anticipada para viajes de aeropuerto no es una funcionalidad adicional — es el mecanismo que convierte un servicio informal en un producto vendible. Con una reserva confirmada 12 a 24 horas antes, el operador puede asignar el conductor específico que tiene el vehículo correcto y disponibilidad verificada para el horario del vuelo. El conductor puede planificar su turno sin incertidumbre. El pasajero puede dormir sabiendo que su viaje está confirmado, no simplemente «en la plataforma esperando asignación». Esa certeza vale más que un descuento del 10% para la mayoría de los pasajeros frecuentes de aeropuerto — es la razón principal por la que los transfers privados con confirmación anticipada siguen capturando una porción significativa del mercado incluso cuando las apps ofrecen tarifas menores.",
+        "en": "Advance booking for airport trips isn't an optional feature — it's the mechanism that turns an informal service into a sellable product. With a booking confirmed 12 to 24 hours ahead, the operator can assign the specific driver who has the right vehicle and verified availability for the flight time. The driver can plan their shift without uncertainty. The passenger can sleep knowing their trip is confirmed, not simply 'in the platform waiting for assignment.' That certainty is worth more than a 10% discount to most frequent airport passengers — it's the primary reason why pre-confirmed private transfers continue to capture a significant share of the market even when apps offer lower fares."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La implementación más sencilla de reserva anticipada para operaciones sin ese flujo nativo es la toma de reservas por WhatsApp o llamada directa para los viajes de aeropuerto, separada del flujo on-demand regular. Es un paso manual que escala mal cuando el volumen crece, pero es infinitamente superior a no tener reserva anticipada durante los primeros seis a doce meses. Lo que importa en esa etapa no es el canal — es que el pasajero reciba confirmación con el nombre del conductor y la hora de recogida antes de dormirse la noche anterior al vuelo. Ese estándar, por rudimentario que sea el canal, establece la diferencia entre un servicio de aeropuerto que los pasajeros recomiendan y uno que simplemente aparece en el menú de la app.",
+        "en": "The simplest implementation of advance booking for operations without a native flow is WhatsApp or phone reservations for airport trips, separate from the regular on-demand flow. It's a manual step that scales poorly as volume grows, but it's infinitely better than no advance booking during the first six to twelve months. What matters at that stage isn't the channel — it's that the passenger receives confirmation with the driver's name and pickup time before going to sleep the night before their flight. That standard, however rudimentary the channel, establishes the difference between an airport service passengers recommend and one that simply exists in the app menu."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "cuentas-corporativas-hoteles",
+      "text": {
+        "es": "De la app al contrato: hoteles y cuentas corporativas",
+        "en": "From app to contract: hotels and corporate accounts"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El aeropuerto es la puerta de entrada natural a las cuentas corporativas y hoteleras, que son el segmento de demanda con mayor predictibilidad y menor costo de adquisición en una operación de movilidad regional. Un hotel de cuatro estrellas en una ciudad secundaria que gestiona 40 a 80 huéspedes con vuelos semanales tiene un problema concreto: cómo garantizar transporte confiable al aeropuerto para sus clientes sin depender del shuttle de la cadena ni del taxi de la calle. Un operador con el servicio de aeropuerto funcionando tiene exactamente el producto que ese hotel necesita — la diferencia entre tenerlo o no como cliente es si alguien se presentó a proponer el acuerdo.",
+        "en": "The airport is the natural entry point to hotel and corporate accounts — the highest-predictability, lowest-acquisition-cost demand segment in a regional mobility operation. A four-star hotel in a secondary city managing 40 to 80 guests with weekly flights has a concrete problem: how to guarantee reliable airport transport for its guests without depending on the chain's shuttle or a street taxi. An operator with a working airport service has exactly the product that hotel needs — the difference between having them as a client or not is whether someone showed up to propose the agreement."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El argumento de venta para un hotel o empresa con viajeros frecuentes no es la tecnología — es la predictibilidad y la responsabilidad. Tarifas acordadas con anticipación, conductor asignado con nombre y teléfono, confirmación de llegada al pasajero, y un mecanismo de facturación que funcione para el área contable del cliente. Un contrato con un hotel de 60 habitaciones o una empresa con cinco viajeros por semana puede representar entre $2.800 y $6.500 USD en ingresos recurrentes mensuales, con márgenes similares a los del traslado individual, pero con costo de adquisición cero después de la firma. La progresión natural es: servicio de aeropuerto funcionando en la app, primer contrato hotelero en los primeros tres meses de operación estable, expansión a cuentas corporativas locales dentro del primer año.",
+        "en": "The sales argument for a hotel or a company with frequent travelers isn't technology — it's predictability and accountability. Pre-agreed fares, a named driver with a phone number, passenger arrival confirmation, and a billing mechanism that works for the client's accounting department. A contract with a 60-room hotel or a company with five weekly travelers can represent between $2,800 and $6,500 USD in monthly recurring revenue, at margins similar to individual transfers, but with zero acquisition cost after signing. The natural progression is: airport service working in the app, first hotel contract within three months of stable operation, expansion to local corporate accounts within the first year."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "errores-frecuentes-aeropuerto",
+      "text": {
+        "es": "Los errores que convierten el aeropuerto en un drenaje",
+        "en": "The mistakes that turn the airport into a drain"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Los patrones que destruyen el servicio de aeropuerto en operaciones regionales son consistentes y casi siempre aparecen en los primeros 60 días. El primero es la tarifa calculada sobre el trayecto de ida sin incluir el retorno vacío: el operador descubre que el conductor gana menos por hora en el aeropuerto que en la ciudad, deja de asignar sus mejores conductores a esa ruta, y la calidad cae exactamente donde más importa. El segundo es la ausencia de confirmación anticipada: el pasajero solicita a las 11 p.m. para un vuelo a las 5 a.m. y el sistema no tiene conductor disponible, lo que termina en una cancelación de último momento que el pasajero no olvida. El tercero es agregar el aeropuerto como una opción más del menú sin diferenciarlo operativamente del resto de los viajes — sin vehículo designado, sin protocolo de puntualidad, sin estándar de presentación. El resultado es un producto con el nombre correcto pero sin la experiencia que lo justifica.",
+        "en": "The patterns that destroy airport service in regional operations are consistent and almost always appear within the first 60 days. The first is a fare calculated on the outbound leg without including the empty return: the operator discovers that drivers earn less per active hour on airport runs than in the city, stops assigning quality drivers to the route, and service quality drops exactly where it matters most. The second is the absence of advance confirmation: the passenger books at 11 p.m. for a 5 a.m. flight and the system has no driver available, resulting in a last-minute cancellation the passenger doesn't forget. The third is adding the airport as another app menu option without differentiating it operationally — no designated vehicle, no punctuality protocol, no presentation standard. The result is a product with the right name but without the experience that makes it worth choosing."
+      }
+    },
+    {
+      "type": "quote",
+      "text": {
+        "es": "El primer mes agregué el aeropuerto al menú sin cambiar nada más. En tres semanas tuve cuatro cancelaciones de último momento porque no había conductor disponible a las 4 de la mañana. Perdí esos cuatro clientes. El segundo mes asigné el aeropuerto a dos conductores específicos con vehículos en buen estado y empecé a tomar reservas por WhatsApp el día anterior. Cero cancelaciones en los siguientes noventa días. En el cuarto mes firmé mi primer contrato con un hotel.",
+        "en": "The first month I added the airport to the app menu without changing anything else. Within three weeks I had four last-minute cancellations because no driver was available at 4 a.m. I lost those four clients. The second month I assigned airport runs to two specific drivers with good vehicles and started taking reservations by WhatsApp the day before. Zero cancellations over the next ninety days. By the fourth month I signed my first hotel contract."
+      },
+      "attribution": {
+        "es": "Operadora de movilidad en una ciudad de 180.000 habitantes con aeropuerto regional en el occidente de Colombia",
+        "en": "Mobility operator in a city of 180,000 with a regional airport in western Colombia"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Un servicio de aeropuerto rentable no requiere más tecnología que el resto de la operación — requiere un modelo operativo distinto. La tarifa cubre el viaje completo incluyendo el retorno vacío. El conductor es específico, tiene el vehículo correcto y sabe con quién sale y a qué hora. El pasajero tiene confirmación la noche anterior. Esas tres condiciones no son sofisticadas — son la base mínima sin la cual el aeropuerto produce experiencias inconsistentes y conduce a los mejores pasajeros hacia la competencia.",
+        "en": "A profitable airport service doesn't require more technology than the rest of the operation — it requires a different operational model. The fare covers the full trip including the empty return. The driver is a specific person with the right vehicle who knows their passenger and pickup time. The passenger has confirmation the night before. Those three conditions aren't sophisticated — they're the minimum baseline without which the airport produces inconsistent experiences and routes the best passengers to competitors."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El camino desde el servicio de aeropuerto como producto básico hasta el contrato con el hotel más grande de la ciudad no es largo cuando la operación funciona bien. Lo que lo separa no es la escala — es si el producto demostró ser confiable suficientes veces seguidas como para que alguien con viajeros frecuentes en su agenda decidiera que la alternativa informal ya no tiene sentido. Ese umbral de confianza se construye en los primeros 30 a 60 traslados ejecutados correctamente, y una vez cruzado, la ruta del aeropuerto deja de ser el servicio más difícil de gestionar en la plataforma para convertirse en el más predecible de toda la flota.",
+        "en": "The path from airport service as a basic product to a signed contract with the city's largest hotel isn't long when the operation works well. What separates the two isn't scale — it's whether the product proved reliable enough consecutive times for someone managing frequent travelers to decide that the informal alternative no longer makes sense. That reliability threshold is built in the first 30 to 60 transfers executed correctly, and once crossed, the airport route stops being the hardest service to manage in the platform and becomes the most predictable in the entire fleet."
+      }
+    }
+  ]
+}
