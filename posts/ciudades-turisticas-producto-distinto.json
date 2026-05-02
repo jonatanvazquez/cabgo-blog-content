@@ -1,0 +1,278 @@
+{
+  "slug": "ciudades-turisticas-producto-distinto",
+  "category": "market",
+  "title": {
+    "es": "Por qué las ciudades turísticas necesitan una operación distinta",
+    "en": "Why tourist cities need a different mobility operation"
+  },
+  "excerpt": {
+    "es": "Una ciudad turística parece un caso más de movilidad regional hasta que llega la temporada baja. El operador que construye solo para turistas pierde la flota cada invierno.",
+    "en": "A tourist city looks like a standard secondary market until low season hits. The operator who builds only for tourists loses their fleet every year."
+  },
+  "heroImage": "https://raw.githubusercontent.com/jonatanvazquez/cabgo-blog-content/main/images/ciudades-turisticas-producto-distinto.jpg",
+  "heroImageAlt": {
+    "es": "Ilustración isométrica de una plaza colonial con turistas y maletas junto a un hotel costero conectado por contrato a un conductor, con un calendario de doble temporada flotante",
+    "en": "Isometric illustration of a colonial plaza with tourists and luggage next to a coastal hotel connected by a contract arc to a driver, with a floating two-season calendar panel"
+  },
+  "heroImagePrompt": "Isometric split scene for a tourist city mobility platform. Left: a whitewashed colonial town plaza with cobblestone streets, a church facade, and tourists carrying rolling suitcases hailing a taxi at a teal-marked hotel pickup zone. Center foreground: a floating fare comparison card — a fixed-rate tag with a green checkmark beside a dynamic-pricing tag with a red X, illustrating the tourist-city pricing choice. Right: a beach boardwalk with a palm tree and a hotel high-rise, a small signed contract document arc connecting the hotel concierge desk to a clean sedan with a driver figure. Bottom: a two-bar demand calendar showing an orange high-season bar and a blue low-season trough with a break-even threshold line crossing midway between them.",
+  "publishedAt": "2026-05-02",
+  "readingMinutes": 9,
+  "keywords": {
+    "es": [
+      "app taxi ciudades turísticas",
+      "operación movilidad turismo LATAM",
+      "ride-hailing destinos turísticos",
+      "tarifa fija turismo movilidad",
+      "temporada alta operación taxi",
+      "contratos hoteleros taxi turismo",
+      "movilidad ciudades turísticas México"
+    ],
+    "en": [
+      "taxi app tourist cities",
+      "ride-hailing tourism markets LATAM",
+      "mobility operation tourist destination",
+      "fixed fare tourism taxi",
+      "high season taxi operation",
+      "hotel contracts mobility tourism",
+      "tourist city ride-hailing strategy"
+    ]
+  },
+  "author": {
+    "name": "Equipo Cabgo",
+    "role": {
+      "es": "Plataforma de movilidad",
+      "en": "Mobility platform"
+    }
+  },
+  "cta": {
+    "heading": {
+      "es": "¿Listo para lanzar tu propia app de movilidad?",
+      "en": "Ready to launch your own mobility app?"
+    },
+    "body": {
+      "es": "Configura tu marca, tus tarifas y tus servicios en semanas, no en meses. Cabgo te entrega la plataforma, tú te quedas con la operación y la marca.",
+      "en": "Set up your brand, pricing and services in weeks, not months. Cabgo ships the platform — you keep the operation and the brand."
+    },
+    "buttonLabel": {
+      "es": "Empezar ahora",
+      "en": "Get started"
+    },
+    "buttonHref": "/empezar"
+  },
+  "seo": {
+    "metaTitle": {
+      "es": "Ciudades turísticas: por qué necesitan otro modelo | Cabgo",
+      "en": "Tourist cities need a different mobility model | Cabgo"
+    },
+    "metaDescription": {
+      "es": "Cómo operar una plataforma de movilidad en una ciudad turística: tarifas fijas, aeropuerto, contratos hoteleros y cómo sostener la operación en temporada baja.",
+      "en": "How to run a mobility platform in a tourist city: fixed fares, airport service, hotel contracts, and managing low season to keep the fleet active year-round."
+    }
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Una operación de movilidad en una ciudad turística parece, desde afuera, un caso estándar de ride-hailing regional. La plataforma es la misma, los conductores son similares, el vehículo es el mismo sedán. Lo que cambia, de forma fundamental, es quién está del otro lado de la pantalla: no un residente que conoce la ciudad y tiene patrones de movilidad repetibles, sino un visitante que llega sin referencias locales, que puede irse mañana, que valora la certeza por encima de la tarifa y que en muchos casos no va a volver. Esa diferencia de perfil no es un detalle operativo — es el argumento central para construir un modelo de producto distinto desde el primer día.",
+        "en": "A mobility operation in a tourist city looks, from the outside, like a standard case of regional ride-hailing. Same platform, similar drivers, the same sedan. What changes, fundamentally, is who is on the other side of the screen: not a resident who knows the city and has repeatable mobility patterns, but a visitor who arrives without local references, who may leave tomorrow, who values certainty over price, and who in many cases won't return. That difference in passenger profile isn't an operational footnote — it's the central reason to build a different product model from day one."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Este artículo es para operadores que ya operan en destinos turísticos — ciudades coloniales, balnearios, pueblos con flujo de visitantes estacional o permanente — o que están evaluando una ciudad turística como próximo mercado. El argumento no es que el modelo de una ciudad secundaria regular sea incorrecto, sino que aplicarlo sin adaptación produce unit economics atípicos, problemas de retención de conductores en temporada baja y una experiencia de pasajero que no captura el segmento de mayor valor de ese tipo de mercado.",
+        "en": "This post is for operators already running in tourist destinations — colonial cities, beach towns, places with seasonal or year-round visitor flow — or evaluating a tourist city as a next market. The argument isn't that the standard secondary-city model is wrong; it's that applying it without adaptation produces atypical unit economics, driver retention problems in low season, and a passenger experience that fails to capture the highest-value segment in that kind of market."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "turista-residente-diferencias",
+      "text": {
+        "es": "El turista y el residente piden cosas distintas",
+        "en": "Tourists and residents ask for different things"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El residente que usa una app de movilidad tiene historial: sabe cuánto cuesta el trayecto habitual, tiene un conductor favorito si la plataforma lo permite, y no se estresa por el precio del viaje al trabajo porque lo ha hecho cien veces. El turista no tiene ninguna de esas referencias. No sabe si $8 USD por el trayecto al hotel es caro o barato para esa ciudad. No conoce qué conductor en la plataforma es confiable. Y tiene un costo de incertidumbre mayor: si la app falla en una ciudad desconocida, se queda varado en un lugar sin referencias de alternativas. Por eso el turista no optimiza precio — optimiza certeza. Esa diferencia de motivación tiene consecuencias directas para el diseño del producto, la estructura de tarifas y el canal de adquisición.",
+        "en": "A resident who uses a mobility app has history: they know what the usual route costs, may have a preferred driver if the platform allows it, and don't stress about the commute fare they've paid a hundred times. A tourist has none of those references. They don't know whether $8 USD to the hotel is expensive or reasonable for that city. They don't know which driver on the platform is reliable. And they carry a higher cost of uncertainty: if the app fails in an unfamiliar city, they're stranded without local alternatives. That's why tourists don't optimize for price — they optimize for certainty. That difference in motivation has direct consequences for product design, fare structure, and acquisition channel."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La segunda diferencia es la temporalidad del valor. Un residente recurrente en una operación regional representa entre $180 y $430 USD de LTV a 12 meses — como detallamos en el artículo sobre unit economics. Un turista que visita una sola vez tiene un LTV de cero más allá de los viajes que hace en esa visita, salvo que sea un visitante frecuente o que la plataforma tenga mecanismos de retención entre visitas. Eso no significa que el turista no valga — el ticket individual puede ser 2x o 3x el de un residente si la ruta lo justifica. Significa que la métrica de valor del turista no es el LTV sino el ticket máximo por viaje y la probabilidad de que recomiende la plataforma a otros visitantes.",
+        "en": "The second difference is the time horizon of value. A recurring resident in a regional operation represents between $180 and $430 USD in 12-month LTV — as detailed in the unit economics post. A tourist visiting once has a LTV of essentially zero beyond the trips they take on that visit, unless they're a frequent visitor or the platform has between-visit retention tools. That doesn't make the tourist low value — their individual ticket can be 2x or 3x a resident's if the route justifies it. It means the tourist's value metric isn't LTV but maximum ticket per trip and the likelihood they recommend the platform to other visitors."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "temporada-alta-dos-perfiles",
+      "text": {
+        "es": "La temporada alta no es más de lo mismo",
+        "en": "High season isn't just more of the same"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "En una ciudad turística, la temporada alta no es un pico de demanda residencial — es una superposición de dos tipos de demanda con perfiles completamente distintos. Los residentes mantienen sus patrones habituales: ir al trabajo, visitar a la familia, hacer mandados. Los turistas agregan una capa nueva con rutas, horarios y comportamientos distintos: traslados de aeropuerto en horarios que dependen del calendario de vuelos, visitas a zonas que los residentes no frecuentan, y salidas nocturnas de restaurantes y bares en áreas que la plataforma no tenía como cobertura prioritaria. Una plataforma calibrada solo para la demanda residente llega a la temporada alta sin conductores posicionados en las zonas de demanda turística, con tarifas que no reflejan los trayectos largos al resort o al malecón, y sin el flujo de reserva anticipada que el turista necesita para el traslado del aeropuerto.",
+        "en": "In a tourist city, high season isn't just more residential demand — it's an overlay of two demand types with completely different profiles. Residents maintain their usual patterns: commuting, visiting family, running errands. Tourists add an entirely new demand layer with different routes, schedules, and behaviors: airport transfers timed to the flight calendar, visits to zones residents rarely frequent, and late-night departures from restaurants and bars in areas the platform didn't treat as priority coverage. A platform calibrated only for residential demand enters high season without drivers positioned in tourist demand zones, with fares that don't reflect the longer routes to the resort or the waterfront, and without the advance booking flow that tourists require for airport transfers."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La preparación para la temporada alta en una ciudad turística tiene que comenzar seis a ocho semanas antes, no seis a ocho días. Eso implica mapear las zonas de demanda turística específica — el aeropuerto, los hoteles principales, las playas o atracciones más visitadas, el centro histórico — e identificar qué conductores tienen disponibilidad para cubrir esas rutas con el vehículo y el estándar de presentación adecuados. Implica también definir una estructura de tarifas específica para las rutas turísticas de mayor ticket que incorpore los tiempos de espera extendidos y la distancia real de los trayectos. La demanda turística en temporada alta es suficientemente predecible como para planificarse con anticipación; la única razón por la que la mayoría de operadores la gestiona de forma reactiva es que no establecieron ese proceso de preparación desde el inicio.",
+        "en": "Preparing for high season in a tourist city must begin six to eight weeks out, not six to eight days. That means mapping tourist-specific demand zones — the airport, major hotels, the most-visited beaches or attractions, the historic center — and identifying which drivers have availability for those routes with the right vehicle and presentation standard. It also means defining a specific fare structure for the highest-ticket tourist routes that incorporates extended waiting times and real route distances. Tourist demand in high season is predictable enough to plan for; the only reason most operators manage it reactively is that they never established a preparation process from the start."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "tarifas-fijas-destinos-turisticos",
+      "text": {
+        "es": "Por qué las tarifas fijas dominan en destinos turísticos",
+        "en": "Why fixed fares dominate in tourist destinations"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El precio dinámico en una ciudad residencial tiene dos efectos simultáneos: atrae conductores a zonas de alta demanda y señaliza al pasajero que hay escasez de oferta. El pasajero residente conoce ese contexto — sabe que es viernes por la noche y que hay surge — y acepta el multiplicador o espera. El turista no tiene ese contexto. Ve un multiplicador de 2.1x la primera vez que abre la app en una ciudad desconocida, no sabe si eso es normal o si lo están estafando, y cierra la app para buscar un taxi en la calle. Ese escenario, que en una ciudad residencial produce una cancelación y una queja, en una ciudad turística produce una reseña en TripAdvisor que lee la próxima persona que busca transporte para ese destino.",
+        "en": "Dynamic pricing in a residential city has two simultaneous effects: it pulls drivers toward high-demand zones and signals to the passenger that supply is scarce. The resident passenger knows that context — it's Friday night, there's surge — and either accepts the multiplier or waits. The tourist has no such context. They see a 2.1x multiplier the first time they open the app in an unfamiliar city, can't tell whether that's normal or a scam, and close the app to find a street cab. That scenario, which in a residential city produces one cancellation and one complaint, in a tourist city produces a TripAdvisor review that the next visitor searching for transport reads before arriving."
+      }
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "text": {
+        "es": "En una ciudad turística, el pasajero que llega por primera vez no compara tu tarifa con la de la competencia local — la compara con lo que esperaba pagar. Una tarifa fija publicada en la app y visible antes de confirmar elimina esa incertidumbre antes de que se convierta en cancelación.",
+        "en": "In a tourist city, a first-time passenger doesn't compare your fare against local competitors — they compare it against what they expected to pay. A fixed fare published in the app and visible before confirming eliminates that uncertainty before it becomes a cancellation."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Las tarifas fijas por ruta son exactamente lo que el pasajero turístico necesita y lo que el operador puede ofrecer sin perder margen cuando las rutas están bien calculadas. Una tarifa fija de aeropuerto al hotel central, de hotel a zona gastronómica, de centro histórico al malecón — publicada en la app y en el mostrador del hotel — comunica certeza antes de que el pasajero haga la primera solicitud. Esa certeza tiene un valor diferencial para el turista que no tiene el residente habitual, y ese valor permite fijar la tarifa con un margen más generoso que el que el operador aplicaría en la misma ruta dentro de la demanda dinámica estándar.",
+        "en": "Fixed rates by route are exactly what tourist passengers need — and what an operator can offer without sacrificing margin when routes are priced correctly. A fixed fare from the airport to the central hotel district, from the hotel to the dining area, from the historic center to the waterfront — published in the app and at the hotel desk — communicates certainty before the passenger makes their first request. That certainty carries a premium that tourists assign but regular residents don't, and that premium allows the operator to set fixed fares with more generous margins than they'd apply to the same route within standard dynamic pricing."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "aeropuerto-hoteles-columna-vertebral",
+      "text": {
+        "es": "El aeropuerto y los hoteles como columna del modelo",
+        "en": "The airport and hotels as the model's backbone"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El aeropuerto en una ciudad turística no es un servicio adicional — es la columna del modelo de ingresos. Un pasajero turístico que llega al aeropuerto local tiene una sola necesidad inmediata y ninguna referencia local: transporte confiable al hotel. Si la plataforma no está presente de forma visible — con la app funcionando, con un conductor esperando para pasajeros con reserva anticipada — ese pasajero va con el transfer que vio en el mostrador del hotel o con el taxi de la fila. Si está presente y la experiencia es buena, el pasajero tiene la app instalada, el conductor ya evaluado con cinco estrellas, y todos los viajes siguientes del trip — hotel a playa, playa a restaurante, restaurante al bar — disponibles para la plataforma. El aeropuerto no es el viaje más frecuente; es el viaje que determina si los siguientes ocurren en la plataforma o en otro lado.",
+        "en": "The airport in a tourist city isn't an additional service — it's the revenue model's backbone. A tourist passenger arriving at the local airport has one immediate need and zero local references: reliable transport to the hotel. If the platform isn't visibly present — with a working app and a driver waiting for passengers with advance bookings — that passenger takes the hotel desk transfer or the taxi line. If the platform is there and the experience is good, the passenger has the app installed, the driver rated five stars, and every subsequent trip of that visit — hotel to beach, beach to restaurant, restaurant to bar — available to the platform. The airport isn't the most frequent trip; it's the trip that determines whether the subsequent ones happen on the platform or somewhere else."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Los contratos hoteleros son la segunda pieza del núcleo. Un hotel de 80 a 150 habitaciones en un destino turístico gestiona decenas de pasajeros con necesidades de transporte a lo largo de la semana. El concierge recomienda transporte varias veces al día. Si el operador tiene un acuerdo con el hotel — tarifas acordadas, conductor identificado, mecanismo de confirmación — el concierge recomienda la plataforma por defecto, no porque la tecnología sea superior sino porque el servicio es predecible y el operador es alguien en quien puede confiar cuando un huésped tiene un problema a las 2 de la mañana. Un solo contrato con un hotel de ese tamaño puede representar entre $1.800 y $4.500 USD en ingresos recurrentes mensuales, con costo de adquisición cero después del primer acuerdo firmado.",
+        "en": "Hotel contracts are the second piece of the core. An 80-to-150-room hotel in a tourist destination manages dozens of passengers with transport needs throughout the week. The hotel concierge recommends transport multiple times daily. If the operator has an agreement with the hotel — agreed fares, an identified driver, a confirmation mechanism — the concierge recommends the platform by default, not because the technology is superior but because the service is predictable and the operator is someone they can rely on when a guest has a problem at 2 a.m. A single contract with a hotel of that size can represent $1,800 to $4,500 USD in monthly recurring revenue, with zero acquisition cost after the first signed agreement."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "temporada-baja-el-riesgo-real",
+      "text": {
+        "es": "La temporada baja: el riesgo que el modelo tiene que anticipar",
+        "en": "Low season: the risk the model must anticipate"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La temporada baja en una ciudad turística no es un bache temporal — es la prueba de si el modelo de negocio es sostenible o si el operador construyó una operación que solo funciona cuatro o cinco meses al año. En destinos con estacionalidad pronunciada, la demanda total puede caer entre un 45% y un 70% en los meses de menor flujo turístico. Una operación que nunca construyó demanda residencial sólida porque priorizar el turismo era más fácil en temporada alta llega a la temporada baja sin la base de pasajeros recurrentes que cubre los costos fijos. Los conductores que en temporada alta ganaban $4.50 a $6.00 USD por hora activa pasan a ganar $1.80 a $2.40 USD y empiezan a desconectarse de la plataforma. Cuando llega la siguiente temporada alta, el operador no tiene conductores con experiencia en el servicio y tiene que reconstruir la flota desde cero.",
+        "en": "Low season in a tourist city isn't a temporary dip — it's the test of whether the business model is sustainable or whether the operator built an operation that only works four or five months a year. In destinations with sharp seasonality, total demand can fall between 45% and 70% during the lowest tourist-flow months. An operation that never built solid residential demand — because chasing tourism was easier in high season — arrives at low season without the recurring passenger base that covers fixed costs. Drivers who earned $4.50 to $6.00 USD per active hour in peak season now earn $1.80 to $2.40 USD and start disconnecting from the platform. When the next high season arrives, the operator has no experienced service drivers and must rebuild the fleet from scratch."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La respuesta a la temporada baja no es reducir la operación y esperar — es construir demanda residencial durante la temporada alta. Esto requiere que el operador trate a los pasajeros residentes con la misma atención que a los turistas: tarifas competitivas para rutas cotidianas, conductores disponibles en horas de demanda laboral regular, y un canal de adquisición activo para residentes que no dependa del flujo turístico. Una operación que en temporada alta tiene 60% turistas y 40% residentes puede sostener la estructura de costos durante la temporada baja con la base residente si los unit economics de ese segmento son correctos. Una operación 90% turística no tiene ese colchón y tiene que hacer una apuesta de reactivación completa cada año.",
+        "en": "The response to low season isn't to scale back and wait — it's to build residential demand during high season. This requires the operator to treat resident passengers with the same care as tourists: competitive fares for everyday routes, drivers available during regular commute hours, and an active resident acquisition channel that doesn't depend on tourist flow. An operation that in high season is 60% tourists and 40% residents can sustain its cost structure through low season with the resident base if the unit economics of that segment are sound. A 90% tourist operation has no such cushion and must make a full reactivation push every year."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "metricas-que-cambian-en-turismo",
+      "text": {
+        "es": "Las métricas que cambian en un mercado turístico",
+        "en": "The metrics that shift in a tourist market"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Los unit economics de un mercado turístico no son simplemente más altos que los de un mercado residencial — tienen una forma diferente. El ticket promedio es mayor, pero el costo de soporte por viaje también lo es porque los turistas tienen más incidencias de primera vez, más preguntas, y mayores expectativas de respuesta inmediata. El CAC del canal turístico es más alto que el del canal residencial porque requiere presencia física en el aeropuerto y relaciones activas con hoteles, no solo marketing digital. Y el break-even mensual en temporada baja puede requerir el doble de viajes diarios que en temporada alta si el ingreso promedio cae con el precio dinámico — ese cálculo tiene que hacerse con los datos de ambas temporadas, no con el promedio anual.",
+        "en": "Unit economics in a tourist market aren't simply higher than in a residential one — they have a different shape. Average ticket is higher, but support cost per trip is also higher because tourists generate more first-time incidents, more questions, and higher expectations for immediate response. Tourist-channel CAC is higher than residential-channel CAC because it requires physical presence at the airport and active hotel relationships, not just digital marketing. And monthly break-even in low season may require twice the daily trips as high season if average revenue drops with dynamic pricing — that calculation must be done with data from both seasons, not just the annual average."
+      }
+    },
+    {
+      "type": "list",
+      "style": "bullet",
+      "intro": {
+        "es": "Métricas que se comportan distinto en una ciudad turística respecto a una ciudad secundaria estándar:",
+        "en": "Metrics that behave differently in a tourist city versus a standard secondary market:"
+      },
+      "items": {
+        "es": [
+          "El CAC efectivo del turista es más alto que el del residente porque incluye el costo de tiempo y relación para establecer presencia en el aeropuerto y acuerdos hoteleros antes de que generen retorno",
+          "El LTV del turista frecuente — el que visita dos o tres veces al año — puede superar al del residente ocasional si la plataforma tiene mecanismos de retención entre visitas como recordatorios antes del próximo vuelo",
+          "La tasa de cancelación en temporada alta puede triplicar la de un mercado residencial si el precio dinámico activa sin comunicación previa — ese número tiene que monitorearse semana a semana durante el pico",
+          "El ingreso por conductor por hora activa en temporada alta puede estar entre un 30% y un 60% por encima del umbral de retención, pero cae por debajo en temporada baja si la demanda residencial no está construida",
+          "El ticket promedio en un mercado turístico suele estar entre 1.5x y 2.5x el de un mercado residencial equivalente, pero el margen por viaje no escala en la misma proporción porque los viajes turísticos tienen mayor costo de soporte",
+          "El break-even mensual en temporada baja puede requerir el doble de viajes diarios que en temporada alta si la tarifa promedio cae — ese cálculo debe hacerse con datos de ambas temporadas, nunca con el promedio anual"
+        ],
+        "en": [
+          "Effective tourist CAC is higher than resident CAC because it includes the time and relationship cost of establishing airport presence and hotel agreements before they generate returns",
+          "Frequent-tourist LTV — a visitor who returns two or three times a year — can exceed that of an occasional resident if the platform has between-visit retention tools such as reminders before the next flight",
+          "Cancellation rate in high season can triple that of a residential market if dynamic pricing activates without prior communication — that number needs weekly monitoring during the peak period",
+          "Driver active-hour earnings in high season can run 30% to 60% above the retention threshold, but fall below it in low season if residential demand hasn't been built alongside the tourist base",
+          "Average ticket in a tourist market typically runs 1.5x to 2.5x that of an equivalent residential market, but per-trip margin doesn't scale proportionally because tourist trips carry higher support costs",
+          "Monthly break-even in low season may require twice the daily trips as high season if average fare drops with dynamic pricing — that calculation must be done with both-season data, never with the annual average"
+        ]
+      }
+    },
+    {
+      "type": "quote",
+      "text": {
+        "es": "El primer verano fui al 100% con turistas: aeropuerto, hoteles, playas. Los números eran increíbles. En noviembre, los turistas se fueron y me quedé con catorce conductores y sin pasajeros. Me tardé tres meses en entender que tenía que haber construido la base local mientras todavía había flujo turístico que me daba margen para invertir en ese segmento.",
+        "en": "The first summer I went all-in on tourists: airport, hotels, beaches. The numbers were incredible. In November the tourists left and I had fourteen drivers and no passengers. It took me three months to understand I should have been building the local base while the tourist flow still gave me the margin to invest in that segment."
+      },
+      "attribution": {
+        "es": "Operador de movilidad en un balneario del Pacífico mexicano con temporada alta de diciembre a marzo",
+        "en": "Mobility operator in a Mexican Pacific beach resort with high season from December to March"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Una ciudad turística rentable para una plataforma de movilidad no es la que captura más viajes en temporada alta — es la que construye un modelo de doble temporada que genera ingresos en ambas fases del año. Eso significa diseñar el producto con dos perfiles de pasajero en mente desde el inicio: el turista que paga más por certeza y no regresa si la experiencia falla, y el residente que paga menos pero genera la base de demanda que sostiene la estructura en los meses de bajo flujo turístico. La plataforma, las tarifas y los canales de adquisición tienen que estar calibrados para ambos — no para uno u otro dependiendo de la temporada.",
+        "en": "A tourist city that works profitably for a mobility platform isn't the one that captures the most trips in high season — it's the one that builds a two-season model generating revenue in both phases of the year. That means designing the product with two passenger profiles in mind from the start: the tourist who pays more for certainty and won't return if the experience fails, and the resident who pays less but generates the demand base that sustains the cost structure during low tourist-flow months. The platform, fares, and acquisition channels must be calibrated for both — not for one or the other depending on the season."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Los operadores que tienen éxito en mercados turísticos comparten un patrón: trataron el aeropuerto y los hoteles como el canal de adquisición primario para el segmento turista, pero invirtieron la primera temporada alta en construir simultáneamente la demanda residente. Cuando llegó la primera temporada baja, tenían el 40% al 50% de la demanda residual cubierta con residentes recurrentes — suficiente para mantener la flota activa y los conductores en la plataforma sin incentivos de permanencia permanentes. Ese umbral no requiere escala masiva: en una ciudad turística de 80.000 a 150.000 residentes, 300 a 500 pasajeros recurrentes representan entre 1.800 y 4.000 viajes mensuales en temporada baja — el volumen suficiente para que la operación sea sostenible mientras el siguiente pico turístico se aproxima.",
+        "en": "Operators who succeed in tourist markets share a pattern: they treated the airport and hotels as the primary acquisition channel for the tourist segment, but invested the first high season in simultaneously building resident demand. When low season arrived, they had 40% to 50% of residual demand covered by recurring residents — enough to keep the fleet active and drivers on the platform without permanent loyalty incentives. That threshold doesn't require massive scale: in a tourist city of 80,000 to 150,000 residents, 300 to 500 recurring passengers represent between 1,800 and 4,000 monthly trips in low season — enough volume for the operation to be self-sustaining while the next tourist peak approaches."
+      }
+    }
+  ]
+}
