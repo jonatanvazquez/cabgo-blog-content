@@ -1,0 +1,260 @@
+{
+  "slug": "surge-pricing-cuando-activarlo",
+  "category": "strategy",
+  "title": {
+    "es": "Surge pricing: cuándo activarlo y cómo comunicarlo sin perder pasajeros",
+    "en": "Surge pricing: when to turn it on and how to communicate it without losing riders"
+  },
+  "excerpt": {
+    "es": "El surge mal calibrado activa cuando no debe, sube más de lo que el mercado tolera y el pasajero lo ve sin contexto. Esas tres fallas juntas destruyen más conversión de la que el surge genera.",
+    "en": "Poorly calibrated surge activates when it shouldn't, rises beyond market tolerance, and shows the passenger no context. Those three failures together destroy more conversion than surge generates."
+  },
+  "heroImage": "https://raw.githubusercontent.com/jonatanvazquez/cabgo-blog-content/main/images/surge-pricing-cuando-activarlo.jpg",
+  "heroImageAlt": {
+    "es": "Ilustración isométrica de una pantalla de confirmación de viaje con multiplicador 1.7x y etiqueta de alta demanda, junto a un mapa de ciudad con zonas de calor en teal y conductores reposicionándose, y un panel de configuración con sliders de umbral y techo",
+    "en": "Isometric illustration of a trip confirmation screen showing a 1.7x multiplier badge and alta demanda label, alongside a city heatmap with teal demand zones and repositioning driver icons, and an admin configuration panel with threshold and cap sliders"
+  },
+  "heroImagePrompt": "Isometric surge pricing control room for a regional mobility platform. Left: a top-down city grid with hexagonal demand zones glowing teal above high-activity areas and small driver-car icons moving toward them from adjacent zones. Center: a large smartphone screen showing a ride confirmation dialog with a green 1.7x multiplier badge labeled 'alta demanda' and a total fare figure below it. Right: a floating admin configuration panel with three vertical slider controls representing threshold, cap, and message settings, each with an indicator dot at a calibrated midpoint position. Background: an abstract dusk city skyline with a soft indigo to violet gradient and subtle glowing route lines.",
+  "publishedAt": "2026-05-03",
+  "readingMinutes": 9,
+  "keywords": {
+    "es": [
+      "surge pricing ride-hailing regional",
+      "precio dinámico taxi app",
+      "cuándo activar surge pricing",
+      "techo multiplicador precio dinámico",
+      "comunicar precio dinámico pasajero",
+      "umbral surge pricing LATAM",
+      "precio dinámico movilidad regional"
+    ],
+    "en": [
+      "surge pricing ride-hailing regional",
+      "dynamic pricing taxi app",
+      "when to activate surge pricing",
+      "surge pricing multiplier cap",
+      "communicating surge pricing passengers",
+      "surge pricing threshold LATAM",
+      "dynamic pricing regional mobility"
+    ]
+  },
+  "author": {
+    "name": "Equipo Cabgo",
+    "role": {
+      "es": "Plataforma de movilidad",
+      "en": "Mobility platform"
+    }
+  },
+  "cta": {
+    "heading": {
+      "es": "¿Listo para lanzar tu propia app de movilidad?",
+      "en": "Ready to launch your own mobility app?"
+    },
+    "body": {
+      "es": "Configura tu marca, tus tarifas y tus servicios en semanas, no en meses. Cabgo te entrega la plataforma, tú te quedas con la operación y la marca.",
+      "en": "Set up your brand, pricing and services in weeks, not months. Cabgo ships the platform — you keep the operation and the brand."
+    },
+    "buttonLabel": {
+      "es": "Empezar ahora",
+      "en": "Get started"
+    },
+    "buttonHref": "/empezar"
+  },
+  "seo": {
+    "metaTitle": {
+      "es": "Surge pricing: cuándo activarlo y cómo comunicarlo | Cabgo",
+      "en": "How to configure surge pricing without losing riders | Cabgo"
+    },
+    "metaDescription": {
+      "es": "Cómo calibrar el surge pricing en una operación regional: umbral de activación, techo del multiplicador y cómo comunicar el precio al pasajero.",
+      "en": "How to calibrate surge pricing for a regional mobility operation: activation threshold, multiplier cap, and passenger communication."
+    }
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El surge pricing está activado por defecto en casi todas las plataformas de movilidad desde el primer día de operación. El problema no está en que esté activo — está en que la mayoría de los operadores nunca ajustaron las tres variables que determinan si funciona como herramienta o como fuente de fricción: el umbral de activación, el techo del multiplicador y el mensaje que el pasajero ve antes de confirmar el viaje. Un surge con umbral demasiado bajo activa con cualquier desequilibrio menor de oferta y demanda, incluyendo los que se resolverían solos en tres minutos sin incremento de precio. Un techo demasiado alto produce cancelaciones masivas exactamente cuando la plataforma más necesita conversión. Y un multiplicador sin contexto genera la reacción más adversa de todas: el pasajero ve que el precio subió sin entender por qué, y cierra la app para buscar una alternativa.",
+        "en": "Surge pricing is active by default on almost every mobility platform from day one of operation. The problem isn't that it's on — it's that most operators never adjusted the three variables that determine whether it works as a tool or as a source of friction: the activation threshold, the multiplier cap, and the message the passenger sees before confirming the trip. A surge with too low a threshold activates on any minor supply-demand imbalance, including ones that would resolve themselves in three minutes without a price increase. A cap set too high produces mass cancellations exactly when the platform most needs conversion. And a multiplier with no context generates the worst reaction of all: the passenger sees the price went up without understanding why, and closes the app to look for an alternative."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Este artículo no discute si el precio dinámico es mejor que las tarifas fijas — esa es una decisión estratégica que depende del mercado y del perfil del pasajero. Este artículo es para operadores que ya tienen surge activo o están por configurarlo por primera vez, y necesitan entender qué calibrar para que el mecanismo haga lo que se supone que debe hacer: atraer conductores a zonas de demanda real, gestionar picos sin perder pasajeros recurrentes, y no destruir la confianza en la tarifa base con activaciones frecuentes que el pasajero percibe como ruido en lugar de como señal de escasez.",
+        "en": "This article doesn't debate whether dynamic pricing is better than fixed fares — that's a strategic decision that depends on the market and the passenger profile. This article is for operators who already have surge active or are about to configure it for the first time, and need to understand what to calibrate so the mechanism does what it's supposed to: attract drivers to zones with real demand, manage peaks without losing recurring passengers, and not destroy confidence in the base fare with frequent activations the passenger reads as noise rather than as a scarcity signal."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "surge-que-resuelve",
+      "text": {
+        "es": "Lo que el surge resuelve — y lo que no puede resolver solo",
+        "en": "What surge solves — and what it cannot solve on its own"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El surge pricing tiene dos funciones operativas distintas que se confunden con frecuencia como si fueran la misma. La primera es atraer conductores hacia zonas de alta demanda: cuando el multiplicador es suficientemente alto, los conductores disponibles en zonas adyacentes deciden reposicionarse porque el ingreso adicional compensa el tiempo de desplazamiento. En mercados con ticket promedio de $3 a $5 USD, un multiplicador de 1.2x genera un incremento de $0.60 a $1.00 USD por viaje — insuficiente para mover a un conductor que está a ocho minutos de distancia. Un multiplicador de 1.5x a 1.8x genera entre $1.50 y $4.50 USD adicionales y sí produce reposicionamiento. La segunda función es gestionar la demanda: el precio más alto hace que algunos pasajeros esperen o busquen alternativas, reduciendo la cola de solicitudes sin asignar. Esa segunda función solo existe en mercados donde el pasajero tiene opciones reales. En una ciudad de 100,000 habitantes con una sola plataforma de movilidad dominante, el surge no reduce demanda — solo genera frustración.",
+        "en": "Surge pricing has two distinct operational functions that are frequently confused as one. The first is attracting drivers to high-demand zones: when the multiplier is high enough, drivers available in adjacent zones choose to reposition because the additional revenue compensates their travel time. In markets with an average ticket of $3 to $5 USD, a 1.2x multiplier generates an increase of $0.60 to $1.00 USD per trip — not enough to move a driver who is eight minutes away. A 1.5x to 1.8x multiplier generates between $1.50 and $4.50 USD extra, which does produce repositioning. The second function is demand management: the higher price makes some passengers wait or look for alternatives, reducing the queue of unassigned requests. That second function only works in markets where the passenger has real options. In a city of 100,000 with a single dominant mobility platform, surge doesn't reduce demand — it generates frustration."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El error más frecuente es asumir que el surge hace ambas cosas bien con cualquier configuración. En operaciones con 60 a 150 conductores activos, el surge puede activar con desequilibrios menores que se resolverían solos en menos de cuatro minutos — no porque haya escasez real de oferta, sino porque el umbral nunca se calibró para el tamaño de la flota. El resultado es un multiplicador que se activa decenas de veces al día sin producir reposicionamiento de conductores, y que genera una experiencia de pasajero donde el precio al abrir la app es distinto al esperado en una fracción significativa de las solicitudes. Esa inconsistencia erosiona la confianza en la tarifa base más que cualquier pico puntual bien comunicado.",
+        "en": "The most common mistake is assuming surge does both things well with any configuration. In operations with 60 to 150 active drivers, surge can activate on minor imbalances that would resolve themselves in under four minutes — not because there is real supply scarcity, but because the threshold was never calibrated for the fleet size. The result is a multiplier that activates dozens of times a day without producing driver repositioning, and that creates a passenger experience where the price when opening the app differs from what they expected in a significant share of requests. That inconsistency erodes confidence in the base fare more than any well-communicated peak event."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "umbral-activacion-surge",
+      "text": {
+        "es": "El umbral de activación: cómo calibrarlo para tu flota",
+        "en": "The activation threshold: how to calibrate it for your fleet"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El umbral de activación define a partir de qué desequilibrio entre demanda y oferta la plataforma sube el multiplicador. La mayoría de las plataformas usan un ratio de solicitudes por conductor disponible en un radio y período definidos: cuando ese ratio supera un valor configurado, el surge activa. El problema no es la mecánica — es que ese valor rara vez se ajusta al tamaño real de la flota ni a los patrones de demanda del mercado específico. Una ciudad con demanda concentrada en dos o tres horas pico muy marcadas tiene una distribución de desequilibrio completamente distinta a una con demanda distribuida durante todo el día. En la primera, el umbral puede ser más sensible porque la escasez real es pronunciada en ventanas específicas. En la segunda, el mismo umbral activa decenas de veces al día sin escasez real — solo variación normal de la demanda distribuida.",
+        "en": "The activation threshold defines at what supply-demand imbalance the platform raises the multiplier. Most platforms use a requests-per-available-driver ratio within a defined radius and time window: when that ratio exceeds a configured value, surge activates. The problem isn't the mechanism — it's that the value is rarely adjusted to actual fleet size or the specific market's demand patterns. A city where demand concentrates in two or three sharp daily peaks has a completely different imbalance distribution from one with demand spread throughout the day. In the first, the threshold can be more sensitive because real scarcity is pronounced during specific windows. In the second, the same threshold activates dozens of times daily without real scarcity — just normal variation in distributed demand."
+      }
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "text": {
+        "es": "Una forma práctica de calibrar el umbral: analiza el tiempo de asignación promedio por zona durante dos semanas. Cuando ese tiempo supera cuatro a seis minutos en una zona, hay un desequilibrio real que el surge puede resolver atrayendo oferta. Por debajo de ese tiempo, el surge sube el precio sin que haya conductores disponibles para reposicionarse hacia la zona.",
+        "en": "A practical way to calibrate the threshold: analyze average assignment time by zone over two weeks. When that time exceeds four to six minutes in a zone, there is a real imbalance that surge can resolve by attracting supply. Below that time, surge raises the price without available drivers to reposition toward the zone."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "techo-multiplicador-surge",
+      "text": {
+        "es": "El techo del multiplicador — por qué 1.7x suele ser suficiente",
+        "en": "The multiplier cap — why 1.7x is usually enough"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Si el umbral determina cuándo activa el surge, el techo determina hasta dónde llega — y es la variable con mayor impacto en si el mecanismo atrae oferta o destruye conversión. En la mayoría de los mercados secundarios de LATAM, la tasa de cancelación empieza a subir de forma notoria a partir de 1.8x a 2.0x y supera el 35% por encima de 2.5x. Por encima de ese nivel, el surge captura menos ingreso del que destruye en viajes perdidos y experiencias negativas generadas por pasajeros que completaron el viaje sintiéndose penalizados. El multiplicador que maximiza el ingreso capturado sin destruir conversión en la mayoría de los mercados secundarios está entre 1.5x y 1.8x — no en los límites técnicos de 3x o 4x que permiten algunas plataformas. Ese techo no es un número universal: es el punto donde la elasticidad del pasajero local produce la primera cancelación masiva, y varía según el ingreso per cápita y la densidad de alternativas de transporte disponibles.",
+        "en": "If the threshold determines when surge activates, the cap determines how far it goes — and it is the variable with the most direct impact on whether the mechanism attracts supply or destroys conversion. In most secondary LATAM markets, cancellation rates start rising noticeably above 1.8x to 2.0x and exceed 35% above 2.5x. Above that level, surge captures less revenue than it destroys in lost trips and negative experiences from passengers who completed the ride feeling penalized. The multiplier that maximizes captured revenue without destroying conversion in most secondary markets sits between 1.5x and 1.8x — not at the technical limits of 3x or 4x that some platforms allow. That cap isn't a universal number: it's the point where local passenger elasticity produces the first mass cancellation, and it varies with per-capita income and the density of available transport alternatives."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El argumento más importante para un techo bajo no es el ingreso marginal — es quién cancela cuando el surge es alto. Los pasajeros que completan el viaje con un multiplicador de 2.5x son generalmente pasajeros sin alternativas o visitantes sin contexto local. Los que cancelan son los pasajeros frecuentes con opciones: el que lleva seis meses en la app, sabe que puede esperar veinte minutos a que el precio baje, o llamar directamente a un conductor de confianza. Perder ese pasajero un viernes de alta demanda no es una transacción perdida — es el inicio de una desvinculación de la plataforma para sus viajes regulares. Un techo de 1.6x o 1.7x preserva esa relación mientras sigue moviendo suficiente oferta para resolver el desequilibrio real en la zona.",
+        "en": "The most important argument for a low cap isn't marginal revenue — it's who cancels when surge is high. Passengers who complete a trip at 2.5x are generally those with no alternatives or visitors without local context. Those who cancel are the frequent riders with options: the passenger six months on the app who knows they can wait twenty minutes for the price to drop, or call a trusted driver directly. Losing that passenger on a high-demand Friday isn't a lost transaction — it's the start of disengagement from the platform for their regular trips. A cap of 1.6x or 1.7x preserves that relationship while still moving enough supply to resolve the real imbalance in the zone."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "comunicar-surge-sin-cancelar",
+      "text": {
+        "es": "Cómo mostrar el surge sin que el pasajero cancele",
+        "en": "How to display surge without triggering cancellations"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La forma en que el surge aparece en la pantalla de confirmación del viaje tiene un efecto medible en la tasa de cancelación, independientemente del multiplicador. Hay tres variantes comunes: mostrar el multiplicador numérico (1.8x), mostrar la tarifa proyectada sin contexto ($5.40), o mostrar la tarifa con una línea de contexto ('$5.40 — alta demanda en tu zona'). El multiplicador abstracto produce la mayor tasa de cancelación porque el pasajero tiene que traducirlo a un número real en tiempo real — y en ese intervalo de incertidumbre de tres a cinco segundos, la probabilidad de cancelación sube. La tarifa sin contexto produce confusión: el pasajero sabe que algo cambió pero no sabe si es normal o si es un error. La tarifa con contexto produce la menor cancelación porque comunica que el incremento tiene una causa temporal y conocida, aplica a todos por igual, y la plataforma está siendo transparente antes de que el pasajero confirme.",
+        "en": "How surge appears on the trip confirmation screen has a measurable impact on the cancellation rate, independent of the multiplier level. There are three common variants: showing the abstract multiplier (1.8x), showing the projected fare without context ($5.40), or showing the fare with a context line ('$5.40 — alta demanda in your area'). The abstract multiplier produces the highest cancellation rate because the passenger has to translate it into a real number in real time — and during that three-to-five-second uncertainty window, cancellation probability rises. The fare without context produces confusion: the passenger knows something changed but doesn't know whether it's normal or an error. The fare with context produces the lowest cancellation because it communicates that the increase has a known, temporary cause, applies equally to everyone, and the platform is being transparent before the passenger confirms."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El contexto mínimo que reduce la cancelación es una línea de texto junto a la tarifa que explica la razón del incremento y señala que es temporal. En la mayoría de las plataformas, ese texto es un campo configurable en el panel de administración — no requiere desarrollo técnico. Lo que sí requiere es que alguien lo configure con un texto concreto en el idioma del pasajero, en lugar del mensaje genérico en inglés que viene por defecto. Un paso adicional que reduce la cancelación aún más es indicar cuándo se espera que el precio vuelva a la tarifa base: 'alta demanda — precio normal en aproximadamente 15 minutos' transforma la experiencia de penalización en información comprensible. Ese cambio de encuadre tiene efecto en la decisión del pasajero en el momento exacto en que la conversión más importa.",
+        "en": "The minimum context that reduces cancellations is a line of text next to the fare explaining the reason for the increase and indicating it's temporary. On most platforms, that text is a configurable field in the admin panel — no technical development required. What it does require is that someone configure it with a concrete message in the passenger's language, rather than the generic English text that comes as default. An additional step that reduces cancellations further is indicating when the price is expected to return to the base fare: 'alta demanda — regular price in approximately 15 minutes' transforms the experience from feeling penalized to receiving useful information. That reframing has a measurable effect on the passenger's decision at exactly the moment when conversion matters most."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "surge-mercados-turisticos-excepcion",
+      "text": {
+        "es": "Surge en mercados turísticos: cuándo no aplicarlo",
+        "en": "Surge in tourist markets: when not to apply it"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El precio dinámico tiene efectos distintos cuando el pasajero no tiene contexto sobre qué es una tarifa normal en esa ciudad. En un mercado residencial, el pasajero que ve 1.8x un viernes por la noche entiende que hay alta demanda — ese contexto reduce la fricción. En un mercado turístico, el visitante que abre la app por primera vez en una ciudad desconocida y ve 1.8x no tiene esa referencia: no sabe si el multiplicador es normal, si lo están cobrando diferente por ser extranjero, o si debe buscar una alternativa antes de confirmar. La incertidumbre produce cancelación con mayor probabilidad porque el turista tiene menos costo de cambio — puede ir a TripAdvisor, buscar el número del transfer del hotel, o pedirle al concierge una recomendación en menos de un minuto. La respuesta correcta en esos mercados para los picos de demanda es un aumento planificado de oferta con conductores adicionales en las zonas de mayor flujo, no un multiplicador automático.",
+        "en": "Dynamic pricing has different effects when the passenger has no context about what a normal fare looks like in that city. In a residential market, a passenger who sees 1.8x on a Friday night understands there's high demand — that context reduces friction. In a tourist market, a visitor opening the app for the first time in an unfamiliar city who sees 1.8x has no such reference: they don't know whether the multiplier is normal, whether they're being charged differently for being a foreigner, or whether they should look for an alternative before confirming. Uncertainty produces cancellation more readily because tourists have lower switching costs — they can pull up TripAdvisor, find the hotel shuttle number, or ask the concierge for a recommendation in under a minute. The right response in those markets for demand peaks is a planned increase in supply with additional drivers positioned in the highest-flow zones, not an automatic multiplier."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La distinción práctica en una ciudad turística es desactivar el precio dinámico para las rutas de mayor ticket — aeropuerto, hotel a atracción principal, traslados entre zonas turísticas — y mantenerlo activo solo para la demanda residencial, donde el pasajero tiene el contexto para interpretar el multiplicador sin fricción. Para los momentos de alta demanda turística real, la respuesta es posicionar conductores adicionales con anticipación en las zonas de mayor flujo — como requiere la planificación de temporada alta — en lugar de dejar que el surge active automáticamente cuando el sistema detecta el desequilibrio.",
+        "en": "The practical distinction in a tourist city is to deactivate dynamic pricing for the highest-ticket routes — airport, hotel to main attraction, transfers between tourist zones — and keep it active only for residential demand, where the passenger has the context to interpret the multiplier without friction. For moments of genuine high tourist demand, the answer is positioning additional drivers in advance in the highest-flow zones — as high-season planning requires — rather than letting surge activate automatically when the system detects the imbalance."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "errores-comunes-surge",
+      "text": {
+        "es": "Los errores que convierten el surge en ruido para el pasajero",
+        "en": "The mistakes that turn surge into noise for the passenger"
+      }
+    },
+    {
+      "type": "list",
+      "style": "bullet",
+      "intro": {
+        "es": "Los cuatro patrones que hacen que el surge dañe más de lo que ayuda:",
+        "en": "The four patterns that make surge do more harm than good:"
+      },
+      "items": {
+        "es": [
+          "Surge sin comunicación de contexto al pasajero: mostrar el multiplicador sin explicar la causa genera tasas de cancelación hasta un 40% más altas que mostrar la tarifa con una etiqueta de 'alta demanda en tu zona'",
+          "Umbral no calibrado para el tamaño de la flota: en operaciones de 60 a 100 conductores, el surge puede activar con desequilibrios que se resolverían solos en tres a cuatro minutos sin incremento de precio",
+          "Techo demasiado alto para la sensibilidad del mercado local: cada ciudad tiene un punto donde la cancelación supera el beneficio del ingreso marginal — ese número hay que medirlo con datos propios, no asumir que es el límite técnico de la plataforma",
+          "Surge activo sin notificación al conductor: si los conductores no reciben alerta cuando el surge activa en una zona, no hay reposicionamiento — el pasajero paga más pero la oferta disponible en la zona no cambia"
+        ],
+        "en": [
+          "Surge without passenger context communication: showing the multiplier without explaining the cause generates cancellation rates up to 40% higher than showing the fare with an 'alta demanda in your area' label",
+          "Threshold not calibrated for fleet size: in 60-to-100-driver operations, surge can activate on imbalances that would resolve themselves in three to four minutes without a price increase",
+          "Cap set too high for local market price sensitivity: every city has a point where cancellation exceeds the marginal revenue benefit — that number must be measured from your own operational data, not assumed to be the platform's technical limit",
+          "Surge active without driver notification: if drivers don't receive an alert when surge activates in a zone, there is no repositioning — the passenger pays more but available supply in the zone doesn't change"
+        ]
+      }
+    },
+    {
+      "type": "quote",
+      "text": {
+        "es": "Tenía el surge activo desde el primer día con el umbral por defecto. En una ciudad de 120,000 habitantes activaba cuarenta veces al día. Mis pasajeros recurrentes dejaron de confiar en el precio de la app porque nunca sabían cuánto iban a pagar. Tardé cuatro meses en entender por qué el NPS caía semana a semana mientras los viajes seguían subiendo.",
+        "en": "I had surge active from day one with the default threshold. In a city of 120,000 it was activating forty times a day. My regular passengers stopped trusting the app's pricing because they never knew what they were going to pay. It took me four months to understand why NPS kept falling week after week while trips were still growing."
+      },
+      "attribution": {
+        "es": "Operador de movilidad en una ciudad de 120,000 habitantes en el norte de México",
+        "en": "Mobility operator in a city of 120,000 in northern Mexico"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El surge pricing bien calibrado es uno de los mecanismos más valiosos en la operación de una plataforma de movilidad regional porque equilibra oferta y demanda automáticamente, sin que el operador tenga que intervenir manualmente en cada pico. Pero esa eficiencia solo existe cuando las tres variables están ajustadas correctamente: un umbral que activa en desequilibrios reales, un techo que mueve conductores sin producir cancelaciones masivas, y un mensaje al pasajero que transforma el incremento de precio en información comprensible en lugar de una penalización inesperada. Ninguna de esas tres calibraciones requiere infraestructura técnica adicional — requieren que el operador las haya revisado deliberadamente al menos una vez desde el lanzamiento de la plataforma.",
+        "en": "Well-calibrated surge pricing is one of the most valuable mechanisms in a regional mobility platform's operation because it balances supply and demand automatically, without the operator manually intervening at each peak. But that efficiency only exists when all three variables are properly set: a threshold that activates on real imbalances, a cap that moves drivers without triggering mass cancellations, and a passenger message that transforms the price increase into understandable information rather than an unexpected penalty. None of those three calibrations require additional technical infrastructure — they require that the operator has reviewed them deliberately at least once since the platform launched."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La señal más clara de que el surge está funcionando correctamente no es cuánto ingreso adicional genera en los picos — es que los conductores se reposicionan cuando activa y los pasajeros frecuentes siguen completando viajes aunque el precio sea más alto de lo habitual. Cuando esas dos cosas ocurren al mismo tiempo, el surge está haciendo lo que debe: resolver un problema real de escasez de oferta con un precio que refleja ese desequilibrio y una comunicación que el pasajero acepta porque la entiende. Ese es el estándar contra el que vale la pena comparar la configuración actual, independientemente de cuánto tiempo lleve activa.",
+        "en": "The clearest signal that surge is working correctly isn't how much additional revenue it generates at peaks — it's that drivers reposition when it activates and frequent passengers keep completing trips even when the price is higher than usual. When both of those things happen simultaneously, surge is doing what it's supposed to: resolving a real supply scarcity problem with a price that reflects that imbalance and a communication that passengers accept because they understand it. That's the standard worth measuring your current configuration against, regardless of how long it has been active."
+      }
+    }
+  ]
+}
