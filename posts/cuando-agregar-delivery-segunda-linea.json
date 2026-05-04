@@ -1,0 +1,269 @@
+{
+  "slug": "cuando-agregar-delivery-segunda-linea",
+  "category": "strategy",
+  "title": {
+    "es": "Cuándo agregar delivery a tu operación de movilidad — y cuándo no",
+    "en": "When to add delivery to your mobility operation — and when not to"
+  },
+  "excerpt": {
+    "es": "La lógica de los mismos conductores para dos servicios parece impecable. El problema es que la demanda de delivery y la de pasajeros colisionan exactamente en los mismos horarios.",
+    "en": "The same-driver logic for two services sounds airtight. The problem is that delivery demand and passenger demand collide at exactly the same peak hours."
+  },
+  "heroImage": "https://raw.githubusercontent.com/jonatanvazquez/cabgo-blog-content/main/images/cuando-agregar-delivery-segunda-linea.jpg",
+  "heroImageAlt": {
+    "es": "Ilustración isométrica de una operación de movilidad dividida en dos lados: izquierda con un viaje de pasajero fluido y derecha con pedidos de delivery acumulados y conductores en modo dual, con un panel central de reloj marcando el horario de colisión entre ambos servicios",
+    "en": "Isometric illustration of a mobility operation split in two: left side showing a smooth passenger trip, right side showing stacked delivery orders with dual-mode driver icons, and a central clock panel marking the peak-hour overlap between both services"
+  },
+  "heroImagePrompt": "Isometric scene of a ride-hailing operator dashboard split diagonally. Left half: a clean sedan on a lit urban street grid, a single smartphone floating above showing a passenger trip-request card with a green assignment arc connecting to a driver icon — calm and orderly. Right half: the same city grid with stacked cardboard package-box icons and four driver markers showing blinking dual-mode status badges, several delivery orders listed as unaccepted. Center: a floating analog clock panel marked with a 6–8 PM band and two upward demand-bar charts both pointing toward a single shared driver-pool icon. Background deep indigo to violet gradient, teal highlight on the ride-hailing side only, clean geometric shapes.",
+  "publishedAt": "2026-05-04",
+  "readingMinutes": 9,
+  "keywords": {
+    "es": [
+      "agregar delivery app taxi",
+      "delivery ride-hailing segunda línea",
+      "diversificar operación movilidad LATAM",
+      "flota conductores delivery pasajeros",
+      "delivery taxi misma plataforma",
+      "cuándo ofrecer delivery app movilidad",
+      "operación delivery ride-hailing regional"
+    ],
+    "en": [
+      "add delivery to taxi app",
+      "delivery ride-hailing second service",
+      "diversify regional mobility operation",
+      "driver fleet delivery passengers",
+      "delivery taxi same platform LATAM",
+      "when to offer delivery mobility app",
+      "delivery ride-hailing regional operation"
+    ]
+  },
+  "author": {
+    "name": "Equipo Cabgo",
+    "role": {
+      "es": "Plataforma de movilidad",
+      "en": "Mobility platform"
+    }
+  },
+  "cta": {
+    "heading": {
+      "es": "¿Listo para lanzar tu propia app de movilidad?",
+      "en": "Ready to launch your own mobility app?"
+    },
+    "body": {
+      "es": "Configura tu marca, tus tarifas y tus servicios en semanas, no en meses. Cabgo te entrega la plataforma, tú te quedas con la operación y la marca.",
+      "en": "Set up your brand, pricing and services in weeks, not months. Cabgo ships the platform — you keep the operation and the brand."
+    },
+    "buttonLabel": {
+      "es": "Empezar ahora",
+      "en": "Get started"
+    },
+    "buttonHref": "/empezar"
+  },
+  "seo": {
+    "metaTitle": {
+      "es": "Cuándo agregar delivery a tu operación de movilidad | Cabgo",
+      "en": "When to add delivery to your mobility operation | Cabgo"
+    },
+    "metaDescription": {
+      "es": "Cómo evaluar si tu flota puede soportar delivery sin degradar el servicio de pasajeros: señales operativas, riesgos de flota y diseño del piloto.",
+      "en": "How to evaluate whether your driver fleet can support delivery without degrading passenger service: operational signals, fleet risks, and pilot design."
+    }
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La lógica de agregar delivery a una operación de ride-hailing parece impecable: los conductores ya tienen el vehículo, ya conocen la ciudad, ya están en la app. Cada hora en que un conductor no lleva pasajeros es capacidad que el delivery podría aprovechar. El margen por pedido es más bajo que el de un viaje, pero si la flota tiene tiempo ocioso, ese ingreso marginal no tiene costo incremental de oferta. Ese razonamiento es correcto en abstracto — y produce malas decisiones en la mayoría de los casos concretos en que un operador lo aplica sin revisar los patrones de demanda de ambos servicios antes de tomar la decisión.",
+        "en": "The logic of adding delivery to a ride-hailing operation sounds airtight: drivers already have a vehicle, already know the city, and are already in the app. Every hour a driver isn't carrying a passenger is capacity that delivery could use. Delivery ticket margins are lower than trip margins, but if the fleet has idle time, that marginal revenue has no incremental supply cost. That reasoning is correct in the abstract — and it produces bad decisions in most concrete cases where an operator applies it without first reviewing the demand patterns of both services."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Este artículo es para operadores con entre 60 y 300 conductores activos que están evaluando delivery como segunda línea de servicio, que ya lo han añadido y se preguntan por qué los números no cuadran, o que están creciendo y quieren entender en qué momento la diversificación deja de ser un riesgo para el negocio principal. El argumento central no es que el delivery sea una mala extensión para una plataforma de movilidad — hay operaciones regionales que lo integran con éxito. Es que las condiciones para que funcione son específicas, y la mayoría de los operadores que lo agregan no las cumplen en el momento en que toman la decisión.",
+        "en": "This article is for operators with between 60 and 300 active drivers who are evaluating delivery as a second service line, who have already added it and are wondering why the numbers don't add up, or who are growing and want to understand at what point diversification stops being a risk to the core business. The central argument isn't that delivery is a bad extension for a mobility platform — regional operations do integrate it successfully. It's that the conditions for it to work are specific, and most operators who add it don't meet those conditions at the moment they make the decision."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "logica-mismos-conductores-incompleta",
+      "text": {
+        "es": "Por qué la lógica 'mismos conductores, más ingresos' es incompleta",
+        "en": "Why the 'same drivers, more revenue' logic is incomplete"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La premisa de 'mismos conductores' ignora un detalle operativo fundamental: los conductores con tiempo ocioso no están distribuidos de forma aleatoria a lo largo del día. Están ociosos en los mismos horarios en que tu operación de pasajeros tiene baja demanda — generalmente entre las 10 de la mañana y la 1 de la tarde, y entre las 4 y las 6 de la tarde. El problema es que esas ventanas de baja demanda en ride-hailing son exactamente cuando el delivery tiene sus picos más altos: la hora del almuerzo y el cierre de la jornada laboral. Cuando agregas delivery sin entender ese patrón, no estás llenando huecos en la disponibilidad de tu flota — estás creando competencia interna entre dos servicios por los mismos conductores en los momentos en que ambos los necesitan al mismo tiempo.",
+        "en": "The 'same drivers' premise ignores a fundamental operational detail: drivers with idle time are not randomly distributed throughout the day. They are idle at the same hours when your passenger operation has low demand — typically between 10 a.m. and 1 p.m., and between 4 and 6 p.m. The problem is that those low-demand windows in ride-hailing are exactly when delivery peaks: lunch hour and end of the workday. When you add delivery without mapping that pattern, you are not filling gaps in your fleet's availability — you are creating internal competition between two services for the same drivers at the exact moments both need them simultaneously."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El resultado más frecuente no es que la flota gestione ambos servicios con eficiencia — es que los conductores priorizan el servicio que en ese momento ofrece mayor ingreso esperado por hora activa, y el otro se degrada. En mercados secundarios de LATAM, el ticket promedio de un viaje de pasajeros ($3 a $5 USD) supera al de un pedido de delivery ($1.50 a $2.80 USD) durante la mayoría de los horarios de solapamiento. Los conductores aprenden en pocas semanas cuál servicio maximiza su ingreso por hora, y los pedidos de delivery empiezan a acumular tiempos de aceptación más altos, cancelaciones de último minuto y métricas deterioradas que el operador percibe como un problema de tecnología cuando en realidad es un problema de estructura de incentivos.",
+        "en": "The most common result isn't that the fleet manages both services efficiently — it's that drivers prioritize whichever service offers higher expected active-hour earnings in that moment, and the other degrades. In secondary LATAM markets, the average passenger trip ticket ($3 to $5 USD) exceeds the average delivery order ticket ($1.50 to $2.80 USD) during most overlap hours. Drivers learn within a few weeks which service maximizes their hourly income, and delivery orders begin accumulating higher acceptance times, last-minute cancellations, and deteriorating service metrics that the operator reads as a technology problem when it is actually an incentive structure problem."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "tipos-flota-delivery",
+      "text": {
+        "es": "Los dos tipos de flota: cuál soporta delivery y cuál no",
+        "en": "Two types of fleet: which one can handle delivery and which one can't"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "No todas las flotas tienen la misma capacidad de absorber un segundo servicio. La diferencia clave no está en el tamaño total de la flota — está en la distribución de disponibilidad a lo largo del día y en el perfil de los conductores. Una flota de 150 conductores con alta concentración en horas pico de mañana y noche, y disponibilidad real escasa en las horas intermedias, tiene el problema descrito: los conductores disponibles durante la hora del almuerzo son los mismos que en horas pico son los más activos en ride-hailing, y su disponibilidad para delivery está sobreestimada porque el operador la calculó cuando esos conductores no tenían alternativa de ingreso en la plataforma.",
+        "en": "Not every fleet has the same capacity to absorb a second service. The key difference isn't total fleet size — it's the distribution of driver availability throughout the day and the driver profile. A fleet of 150 drivers with high concentration in morning and evening peak windows, and genuinely sparse availability during midday hours, has exactly the problem described: the drivers available during lunch hour are the same ones who are most active in ride-hailing during peak windows, and their delivery availability is overestimated because the operator calculated it when those drivers had no alternative income source on the platform."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La flota que puede soportar delivery sin degradar el servicio principal tiene una característica específica: conductores con disponibilidad sostenida en horarios de baja demanda de pasajeros que, por restricciones de vehículo, zona geográfica o preferencia de horario, no están compitiendo por los mismos viajes durante los picos. En la práctica, eso significa conductores en moto para delivery de restaurante o farmacia en zonas densas; conductores de vehículo compacto cuya franja de disponibilidad cae en demanda de delivery pero no de ride-hailing de alto ticket; o conductores part-time cuyo horario principal coincide con el pico del mediodía. Sin ese perfil de conductor adicional — real, no estimado a partir de ociosos ocasionales — el delivery no complementa al ride-hailing: compite directamente con él por el mismo recurso escaso.",
+        "en": "The fleet that can support delivery without degrading the main service has a specific characteristic: drivers with sustained availability during low-passenger-demand hours who, because of vehicle type, geographic zone, or schedule preference, are not competing for the same trips during peak windows. In practice, that means motorcycle couriers for restaurant or pharmacy delivery in dense areas; compact-vehicle drivers whose availability window falls in delivery demand hours but not high-ticket ride-hailing hours; or part-time drivers whose main availability coincides with the midday peak. Without that additional driver profile — real, not estimated from occasional idle time — delivery does not complement ride-hailing: it competes directly with it for the same scarce resource."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "colision-horarios-pico",
+      "text": {
+        "es": "Cuándo los horarios de ambos servicios colisionan",
+        "en": "When the two services' peak hours collide"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El patrón de demanda del delivery en ciudades secundarias de LATAM tiene tres picos principales: mediodía entre las 12 y las 2 pm, tarde-noche entre las 7 y las 10 pm, y los fines de semana en general. El ride-hailing en las mismas ciudades pica en mañana temprana entre las 6 y las 9 am, en tarde entre las 6 y las 8 pm, y en noche de fin de semana entre las 10 pm y la 1 am. La superposición directa más crítica ocurre en la franja de las 6 a las 8 de la tarde: tanto el delivery de cena como el ride-hailing de salida del trabajo necesitan conductores disponibles al mismo tiempo. En ese período, una flota mixta sin segmentación de conductores produce la peor experiencia en ambos servicios simultáneamente — tiempos de espera más largos en ride-hailing y tiempos de entrega más lentos en delivery.",
+        "en": "Delivery demand in secondary LATAM cities peaks in three main windows: midday from noon to 2 p.m., evening from 7 to 10 p.m., and weekends in general. Ride-hailing in those same cities peaks in early morning from 6 to 9 a.m., in the afternoon from 6 to 8 p.m., and on weekend nights from 10 p.m. to 1 a.m. The most critical direct overlap falls in the 6-to-8 p.m. window: both dinner delivery and end-of-workday ride-hailing need available drivers at the same time. During that period, an unsegmented mixed-mode fleet produces the worst experience in both services simultaneously — longer wait times in ride-hailing and slower deliveries, with the same drivers split between two competing assignment queues."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Hay un segundo punto de colisión más difícil de anticipar: los eventos especiales. Una ciudad de 200,000 habitantes con un partido de fútbol local, una feria regional o un concierto experimenta un pico de ride-hailing que puede triplicar la media durante tres o cuatro horas. En esas ventanas, los conductores en modo dual desactivan delivery para concentrarse en los viajes de mayor ingreso. El resultado es que exactamente cuando hay más personas en la calle — y potencialmente mayor demanda de delivery de alimentos y bebidas — el servicio de entrega queda sin oferta disponible porque todos los conductores del pool están en modo pasajero. La misma infraestructura que se presenta como flexible resulta rígida cuando ambos servicios la necesitan al mismo tiempo.",
+        "en": "There's a second collision point that's harder to anticipate: special events. A city of 200,000 with a local soccer match, a regional fair, or a concert experiences a ride-hailing demand spike that can triple the baseline for three or four hours. During those windows, dual-mode drivers deactivate delivery to focus on higher-income trips. The result is that exactly when more people are out in the city — and potentially generating higher demand for food and drink delivery — the delivery service runs out of available supply because the entire driver pool has switched to passenger mode. The same infrastructure presented as flexible turns rigid when both services need it simultaneously."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "tres-senales-momento-delivery",
+      "text": {
+        "es": "Las tres señales que indican que es momento de agregar delivery",
+        "en": "The three signals that tell you it's time to add delivery"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Si el delivery frena más operaciones de movilidad regional de lo que las complementa, la pregunta no es si agregarlo sino cuándo hacerlo sin que el servicio de pasajeros pague el precio. Hay tres condiciones que deben cumplirse en conjunto — no de forma aislada — para que el delivery sea una extensión real del negocio en lugar de una carga sobre la operación principal:",
+        "en": "If delivery harms more regional mobility operations than it helps, the question isn't whether to add it but when to do so without the passenger service paying the price. Three conditions must all be present simultaneously — not individually — for delivery to be a genuine business extension rather than a burden on the core operation:"
+      }
+    },
+    {
+      "type": "list",
+      "style": "bullet",
+      "items": {
+        "es": [
+          "Excedente sostenido de conductores en horarios fuera de pico: no un conductor ocioso ocasional, sino un patrón consistente de 15% a 20% de la flota activa sin viaje asignado durante al menos tres horas al día, cinco días a la semana, durante más de cuatro semanas consecutivas — ese excedente es la condición mínima para que el delivery aproveche capacidad real sin tocar la oferta disponible para pasajeros",
+          "Ticket promedio de delivery rentable sin subsidio permanente: en mercados donde el ticket de una entrega no alcanza el umbral de ingreso por hora que retiene conductores (generalmente $2.50 a $5.50 USD por hora activa en LATAM secundario), el servicio requiere incentivos continuos para mantenerse activo — ese costo fijo hay que calcular antes del lanzamiento, no descubrirlo en el mes tres",
+          "Tres meses consecutivos sobre el break-even operativo en ride-hailing: agregar un segundo servicio antes de que el primero sea financieramente estable no diversifica el riesgo — lo amplifica con doble estructura de costos antes de que cualquiera de los dos servicio sea sostenible"
+        ],
+        "en": [
+          "Sustained driver surplus during off-peak hours: not occasional idle drivers but a consistent pattern of 15% to 20% of the active fleet without an assigned trip for at least three hours a day, five days a week, for more than four consecutive weeks — that surplus is the minimum condition for delivery to use genuine spare capacity without drawing from passenger supply",
+          "A delivery average ticket that is profitable for drivers without permanent subsidies: in markets where a delivery ticket doesn't reach the per-hour income threshold that retains drivers (typically $2.50 to $5.50 USD per active hour in secondary LATAM), the service requires ongoing incentives to stay active — that fixed cost must be calculated before launch, not discovered in month three",
+          "Three consecutive months above operational break-even in ride-hailing: adding a second service before the first is financially stable doesn't diversify risk — it amplifies it with a double cost structure before either service is sustainable"
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "piloto-sin-comprometer-principal",
+      "text": {
+        "es": "Cómo estructurar el piloto para no comprometer el negocio principal",
+        "en": "How to design the pilot without putting the core business at risk"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Si las tres condiciones están presentes, el piloto de delivery tiene que diseñarse con una restricción fundamental: los conductores del piloto no pueden ser los mismos que cubren la demanda pico de ride-hailing. Eso significa identificar un grupo específico de conductores — entre 8 y 15 según el tamaño de la flota — con disponibilidad real y consistente en horarios de baja demanda de pasajeros, y operar el piloto exclusivamente con ese grupo durante las primeras seis a ocho semanas. El piloto no es un test de tecnología — la plataforma puede manejar ambos servicios desde el primer día. Es un test de si ese grupo de conductores puede absorber la demanda de delivery sin afectar los tiempos de respuesta del servicio de pasajeros durante las horas de solapamiento.",
+        "en": "If all three conditions are present, the delivery pilot must be built around one fundamental constraint: the pilot's drivers cannot be the same ones covering peak ride-hailing demand. That means identifying a specific group of drivers — between 8 and 15 depending on fleet size — with real, consistent availability during low-passenger-demand hours, and running the pilot exclusively with that group for the first six to eight weeks. The pilot is not a technology test — the platform can handle both services from day one. It is a test of whether that specific driver group can absorb delivery demand without affecting passenger service response times during overlap hours."
+      }
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "text": {
+        "es": "Tres métricas para evaluar el piloto de delivery: tiempo promedio de aceptación de pedidos (el indicador más sensible de conflicto de flota), tasa de cancelación en ride-hailing durante horarios de solapamiento (la señal de que el delivery está compitiendo por oferta), y margen por entrega neto de incentivo (si el servicio requiere subsidio para operar en el mercado, el modelo no es sostenible).",
+        "en": "Three metrics for evaluating the delivery pilot: average order acceptance time (the most sensitive indicator of fleet conflict), ride-hailing cancellation rate during overlap hours (the signal that delivery is competing for supply), and delivery margin net of incentive (if the service requires a subsidy to operate in the market, the model isn't sustainable)."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "senales-delivery-afecta-ride-hailing",
+      "text": {
+        "es": "Cuatro señales de que el delivery está afectando el ride-hailing",
+        "en": "Four signals that delivery is hurting your ride-hailing"
+      }
+    },
+    {
+      "type": "list",
+      "style": "bullet",
+      "intro": {
+        "es": "Indicadores de alerta temprana que la operación de delivery está degradando el servicio de pasajeros:",
+        "en": "Early-warning indicators that the delivery operation is degrading the passenger service:"
+      },
+      "items": {
+        "es": [
+          "El tiempo de asignación en ride-hailing sube de forma sostenida sin que haya crecido la demanda de pasajeros: los conductores disponibles en app están en modo dual y priorizan delivery cuando el pedido compite en valor esperado con el viaje en esa ventana de tiempo",
+          "La tasa de cancelación post-asignación en ride-hailing aumenta: conductores que aceptan un viaje cancelan cuando aparece un pedido de delivery de mayor valor esperado en el mismo período, produciendo una experiencia de pasajero dañada sin que ninguna métrica de demanda lo explique",
+          "El ingreso por hora activa de conductores en ride-hailing cae sin explicación de demanda ni competencia: el tiempo promedio por viaje está aumentando porque los conductores gestionan notificaciones de ambos servicios mientras están en ruta, alargando cada viaje más allá del tiempo real del trayecto",
+          "La retención de pasajeros a 30 días cae sin cambios en precios ni entrada de competencia nueva: la señal más tardía y más costosa, porque indica que la degradación de la experiencia ya produjo desvinculación antes de que el operador identificara el origen del problema"
+        ],
+        "en": [
+          "Ride-hailing assignment time rises consistently without a corresponding increase in passenger demand: drivers who are in-app are in dual mode and prioritizing delivery when the order competes in expected value with the trip in that time window",
+          "Post-assignment cancellation rate in ride-hailing increases: drivers who accept a trip cancel when a higher-expected-value delivery order appears in the same window, producing a damaged passenger experience that no demand metric explains",
+          "Driver active-hour earnings in ride-hailing fall without any demand or competition explanation: average trip time is increasing because drivers are managing notifications from both services while in route, extending each trip beyond the actual travel time",
+          "30-day passenger retention falls without pricing changes or new competitor entry: the latest and most costly signal, because it means experience degradation has already produced disengagement before the operator identified the source of the problem"
+        ]
+      }
+    },
+    {
+      "type": "quote",
+      "text": {
+        "es": "Agregar delivery nos pareció natural: teníamos conductores que se quejaban de pocas horas entre las 10 de la mañana y la 1 de la tarde. En seis semanas, los tiempos de espera en ride-hailing subieron de 3.5 a 6.2 minutos. Los conductores estaban en app pero pendientes de los pedidos de delivery, no de los viajes. Tardamos dos meses en entender que el problema no era la tecnología — era que los mismos conductores no podían servir bien dos servicios en horarios que se solapaban más de lo que habíamos calculado.",
+        "en": "Adding delivery seemed natural: we had drivers complaining about slow hours between 10 a.m. and 1 p.m. Within six weeks, ride-hailing wait times went from 3.5 to 6.2 minutes. Drivers were in-app but watching for delivery orders, not trips. It took us two months to understand the problem wasn't the technology — it was that the same drivers couldn't serve two services well during hours that overlapped more than we had calculated."
+      },
+      "attribution": {
+        "es": "Operador de movilidad en una ciudad de 180,000 habitantes en el noreste de México",
+        "en": "Mobility operator in a city of 180,000 in northeastern Mexico"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La decisión de agregar delivery no es tecnológica ni exclusivamente estratégica — es una decisión de gestión de oferta. La plataforma puede manejar ambos servicios desde el primer día. El problema no está en la plataforma sino en si la flota tiene el excedente real que el delivery necesita para funcionar sin comprometer el servicio de pasajeros. El operador que agrega delivery antes de tener ese excedente medible no está expandiendo su operación — está dividiendo la misma oferta entre dos servicios que van a competir por ella en los momentos de mayor demanda de ambos.",
+        "en": "The decision to add delivery is not primarily a technology question — it is a supply management decision. The platform can handle both services from day one. The problem isn't the platform; it's whether the fleet has the measurable surplus that delivery needs to work without compromising the passenger operation. An operator who adds delivery before that surplus exists isn't expanding their operation — they're splitting the same supply between two services that will compete for it during the highest-demand moments of both."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La pregunta correcta no es si el delivery es una buena extensión para una operación de movilidad regional. La respuesta depende de una sola condición: si la flota tiene capacidad excedente real en los horarios donde el delivery genera demanda. Esa condición se puede medir con cuatro semanas de datos de disponibilidad de conductores por hora. Si la medición confirma el excedente, el delivery es una extensión natural con bajo riesgo y sin inversión inicial significativa. Si no lo confirma, el momento correcto no es ahora — es cuando el ride-hailing haya alcanzado el volumen suficiente para generar ese excedente de forma consistente sin depender de los conductores que cubren los picos del servicio principal.",
+        "en": "The right question isn't whether delivery is a good extension for a regional mobility operation. The answer depends on a single condition: whether the fleet has real capacity surplus during the hours when delivery generates demand. That condition can be measured with four weeks of per-hour driver availability data. If the measurement confirms the surplus, delivery is a natural, low-risk extension that requires no significant upfront investment. If it doesn't, the right moment isn't now — it's when ride-hailing has reached the volume needed to generate that surplus consistently, without drawing from the same drivers who cover the core service's peak hours."
+      }
+    }
+  ]
+}
