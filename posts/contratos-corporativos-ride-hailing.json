@@ -1,0 +1,301 @@
+{
+  "slug": "contratos-corporativos-ride-hailing",
+  "category": "product",
+  "title": {
+    "es": "Contratos corporativos en ride-hailing regional: qué ocurre antes del primer pago",
+    "en": "Corporate accounts in regional ride-hailing: what happens before the first payment"
+  },
+  "excerpt": {
+    "es": "Una cuenta corporativa es más que un cliente grande: es una operación distinta con facturación diferida, SLA explícito y gestión de cuenta que el pasajero de consumo no requiere.",
+    "en": "A corporate account is more than a large client: it is a separate operation with deferred billing, an explicit SLA, and account management that consumer riders never require."
+  },
+  "heroImage": "https://raw.githubusercontent.com/jonatanvazquez/cabgo-blog-content/main/images/contratos-corporativos-ride-hailing.jpg",
+  "heroImageAlt": {
+    "es": "Ilustración isométrica de un operador de movilidad regional gestionando su primera cuenta corporativa: edificio corporativo con insignia de contrato firmado, panel de dashboard mostrando volumen de viajes corporativos vs consumidor, y conductor junto a vehículo de empresa con recibo de factura aprobada flotando entre los dos interlocutores",
+    "en": "Isometric illustration of a regional mobility operator managing their first corporate account: a corporate office building with a signed contract badge, a dashboard panel showing corporate vs consumer trip volumes, and a driver beside a company vehicle with an approved invoice receipt floating between both parties"
+  },
+  "heroImagePrompt": "Isometric split composition showing a regional ride-hailing operator managing corporate accounts. Left: a corporate office building with a briefcase icon and a formal two-page contract document with two signature lines floating above it, one signed in teal. Center: a floating dashboard panel divided into three cells — a side-by-side bar chart of corporate versus consumer trip volumes, a calendar grid with recurring weekly trip slots highlighted in teal, and a document icon labeled Invoice with a teal checkmark. Right: a driver figure standing beside a compact company sedan, facing a professional figure holding a tablet displaying an approved supplier badge, with a payment receipt document floating between them and a city grid visible in the background.",
+  "publishedAt": "2026-05-10",
+  "readingMinutes": 9,
+  "keywords": {
+    "es": [
+      "contratos corporativos ride-hailing LATAM",
+      "flotas corporativas app transporte regional",
+      "facturación corporativa plataforma movilidad",
+      "SLA transporte empresas México",
+      "alta proveedor CFDI ride-hailing",
+      "cuentas corporativas app taxi regional",
+      "viajes corporativos operación movilidad"
+    ],
+    "en": [
+      "corporate accounts ride-hailing LATAM",
+      "corporate fleet transport app regional",
+      "corporate billing mobility platform",
+      "transport SLA corporate clients Mexico",
+      "supplier registration invoice ride-hailing",
+      "corporate trips taxi app regional",
+      "business accounts regional mobility"
+    ]
+  },
+  "author": {
+    "name": "Equipo Cabgo",
+    "role": {
+      "es": "Plataforma de movilidad",
+      "en": "Mobility platform"
+    }
+  },
+  "cta": {
+    "heading": {
+      "es": "¿Listo para lanzar tu propia app de movilidad?",
+      "en": "Ready to launch your own mobility app?"
+    },
+    "body": {
+      "es": "Configura tu marca, tus tarifas y tus servicios en semanas, no en meses. Cabgo te entrega la plataforma, tú te quedas con la operación y la marca.",
+      "en": "Set up your brand, pricing and services in weeks, not months. Cabgo ships the platform — you keep the operation and the brand."
+    },
+    "buttonLabel": {
+      "es": "Empezar ahora",
+      "en": "Get started"
+    },
+    "buttonHref": "/empezar"
+  },
+  "seo": {
+    "metaTitle": {
+      "es": "Contratos corporativos en ride-hailing regional | Cabgo",
+      "en": "Corporate accounts in regional ride-hailing | Cabgo"
+    },
+    "metaDescription": {
+      "es": "Qué necesita una empresa antes de pagar tu primera factura: alta de proveedor, SLA ajustado a tu operación real y facturación por período.",
+      "en": "What a corporate client needs before the first payment: supplier registration, a realistic SLA, and period-based billing your operation can sustain."
+    }
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El operador regional que lleva tres o cuatro meses activo y tiene entre 30 y 60 conductores va a recibir, en algún momento de ese primer año, una llamada de una empresa local: una constructora, un hotel, un distribuidor, alguien que quiere trasladar a sus empleados de forma recurrente y está dispuesto a pagar. Ese primer contrato corporativo parece la transición más natural del mundo: tienes conductores, tienes la app, tienes la operación funcionando. Lo que esa conversación oculta es que un cliente corporativo no es un pasajero frecuente con una cuenta de empresa — es una operación distinta dentro de la operación, con ciclos de facturación que pueden diferirse 30 o 45 días, niveles de servicio que hay que comprometer por escrito, y un proceso de alta de proveedor que ningún operador anticipa la primera vez.",
+        "en": "A regional operator who has been active for three or four months with 30 to 60 drivers will receive, at some point in that first year, a call from a local company: a construction firm, a hotel, a distributor, someone who wants to move their employees on a recurring basis and is willing to pay. That first corporate contract feels like the most natural transition in the world: you have drivers, you have the app, you have a functioning operation. What that conversation conceals is that a corporate client is not a frequent passenger with a company card — it is a separate operation within the operation, with billing cycles that can defer payment by 30 or 45 days, service levels that must be committed to in writing, and a supplier registration process that no operator anticipates the first time."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Este artículo es para operadores que están evaluando si aceptar su primer contrato corporativo, que acaban de firmar uno sin haber definido los procesos de back-office, o que tienen uno o dos contratos activos y están viendo que la facturación corporativa consume más tiempo del esperado. El argumento central no es que las cuentas corporativas sean malas inversiones — en muchos mercados secundarios de LATAM son el mecanismo que estabiliza el revenue entre picos de demanda de consumidor. El argumento es que los operadores que no diferencian la operación corporativa desde el primer contrato terminan con un proceso de cobranza complicado, conductores que no entienden qué es diferente en un viaje corporativo, y una relación con el primer cliente que deteriora antes de que llegue el segundo período de facturación.",
+        "en": "This article is for operators evaluating whether to accept their first corporate contract, who just signed one without defining the back-office processes, or who have one or two active contracts and are noticing that corporate billing consumes more time than expected. The core argument is not that corporate accounts are poor investments — in many secondary LATAM markets they are the mechanism that stabilizes revenue between consumer demand peaks. The argument is that operators who don't separate the corporate operation from the start end up with a complicated collections process, drivers who don't understand what's different about a corporate trip, and a relationship with the first client that deteriorates before the second billing period arrives."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "por-que-el-primer-contrato-sorprende",
+      "text": {
+        "es": "Por qué el primer contrato corporativo sorprende a la mayoría de operadores",
+        "en": "Why the first corporate contract catches most operators off guard"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El error más frecuente en el primer contrato corporativo no es aceptarlo — es aceptarlo asumiendo que el proceso de servicio va a ser igual al del consumidor. Las empresas tienen una expectativa de servicio diferente al pasajero individual en tres dimensiones que casi ningún operador anticipa. Primero, el responsable de compras de la empresa no es el pasajero: hay una persona que negocia el contrato, un área de administración que aprueba el pago, y uno o más empleados que usan el servicio sin tener acceso a los detalles de lo que se firmó. Esa separación entre quien decide, quien usa y quien paga es la fuente de la mayoría de las fricciones en los primeros meses. Segundo, la empresa espera que la plataforma produzca evidencia de los servicios prestados en un formato que su sistema de cuentas por pagar pueda procesar — generalmente un reporte consolidado por período con número de viajes, empleado, origen, destino y monto, más el comprobante fiscal correspondiente. Tercero, la empresa va a evaluar el servicio con criterios que el pasajero individual nunca aplica: no solo la calificación del viaje sino la disponibilidad en el horario de las reuniones, el tiempo de respuesta ante una queja del empleado, y si hay un interlocutor directo de la plataforma a quien llamar cuando algo falla.",
+        "en": "The most common mistake in the first corporate contract isn't accepting it — it's accepting it while assuming the service process will work exactly like consumer trips. Companies have a different service expectation than individual passengers on three dimensions that almost no operator anticipates. First, the company's procurement manager is not the passenger: one person negotiates the contract, a finance department approves payment, and one or more employees use the service without knowing the details of what was signed. That separation between who decides, who rides, and who pays is the source of most friction in the early months. Second, the company expects the platform to produce evidence of services rendered in a format that their accounts-payable system can process — typically a consolidated period report with trip count, employee, origin, destination, and amount, plus the corresponding tax receipt. Third, the company will evaluate service by criteria the individual passenger never applies: not just the trip rating but availability during meeting schedules, response time to employee complaints, and whether there is a direct platform contact to call when something fails."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Un operador que entiende esas tres dimensiones antes de firmar puede estructurar el acuerdo de forma que la operación corporativa no genere fricción adicional sobre la operación de consumidor. Un operador que las descubre en el tercer mes tiene que rediseñar procesos bajo presión, con un cliente que ya tiene expectativas formadas y poca tolerancia a los ajustes retroactivos.",
+        "en": "An operator who understands those three dimensions before signing can structure the agreement so that the corporate operation adds no extra friction to the consumer operation. An operator who discovers them in the third month has to redesign processes under pressure, with a client who already has formed expectations and little tolerance for retroactive adjustments."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "diferencia-viaje-corporativo-consumidor",
+      "text": {
+        "es": "Tres diferencias operativas entre el viaje corporativo y el de consumidor",
+        "en": "Three operational differences between corporate and consumer trips"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El viaje corporativo tiene características que lo distinguen del viaje de consumidor en términos de cómo impacta la operación diaria. La primera es la predictibilidad: la empresa tiende a tener patrones de demanda más regulares que el consumidor individual — traslados al aeropuerto en horarios de vuelo fijos, recorridos de empleados a la misma hora todos los días. Esa predictibilidad es una ventaja porque permite planificar la disponibilidad de conductores con anticipación, pero también crea una obligación de cumplimiento más estricta: si un empleado espera 20 minutos el día en que el aeropuerto está al límite, esa espera va a aparecer en el reporte que el responsable de compras revisa al final del mes.",
+        "en": "Corporate trips have characteristics that distinguish them from consumer trips in terms of how they affect daily operations. The first is predictability: companies tend to have more regular demand patterns than individual passengers — airport transfers on fixed flight schedules, employee trips at the same time every day. That predictability is an advantage because it allows planning driver availability in advance, but it also creates a stricter compliance obligation: if an employee waits 20 minutes on a day when the airport is at capacity, that wait will appear in the report the procurement manager reviews at the end of the month."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La segunda diferencia es la trazabilidad: el viaje corporativo necesita un registro más detallado que el viaje de consumidor. El empleado puede necesitar asociar el viaje a un centro de costo o a un motivo de traslado que el área de administración requiere para conciliar el gasto. Si la plataforma no puede producir esos campos en el reporte del período, el proceso de aprobación de pagos se alarga aunque el servicio en sí haya sido bueno. La tercera es la gestión de excepciones: cuando un viaje corporativo falla, hay alguien en la empresa que va a reclamar ese fallo a un interlocutor específico de la plataforma. El proceso de resolución de quejas de consumidor — que en la mayoría de las plataformas es asíncrono y resuelve en 24 a 48 horas — no es compatible con un cliente corporativo que necesita saber en dos horas qué ocurrió con el traslado de su director a una reunión.",
+        "en": "The second difference is traceability: a corporate trip needs a more detailed record than a consumer trip. The employee may need to associate the trip with a cost center or a travel reason that the finance department requires to reconcile the expense. If the platform can't produce those fields in the period report, the payment approval process slows even when the service itself was good. The third difference is exception management: when a corporate trip fails, someone at the company will escalate that failure to a specific platform contact. The consumer complaint resolution process — which in most platforms is asynchronous and resolves in 24 to 48 hours — is not compatible with a corporate client who needs to know in two hours what happened with their director's trip to a board meeting."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "expediente-proveedor-primer-pago",
+      "text": {
+        "es": "El expediente de proveedor: lo que bloquea el primer pago",
+        "en": "The supplier file: what blocks the first payment"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El proceso de alta de proveedor en una empresa formal toma entre dos y ocho semanas dependiendo del tamaño de la organización y de la burocracia interna del área de finanzas. Antes de que la empresa pueda procesar cualquier pago a la plataforma, necesita que el proveedor esté registrado en su sistema con documentos que acrediten la formalidad fiscal y legal de la empresa operadora. La lista específica varía por país y por cliente, pero el conjunto que se repite en la mayoría de las cuentas corporativas en México incluye:",
+        "en": "The supplier registration process at a formal company takes between two and eight weeks depending on the size of the organization and the internal bureaucracy of the finance department. Before a company can process any payment to the platform, the supplier must be registered in their system with documents that demonstrate the operating company's tax and legal standing. The specific list varies by country and client, but the set that recurs in most corporate accounts in Mexico includes:"
+      }
+    },
+    {
+      "type": "list",
+      "style": "bullet",
+      "items": {
+        "es": [
+          "Constancia de situación fiscal actualizada (no mayor a tres meses): el documento más frecuentemente bloqueado porque el operador tiene una versión desactualizada en el momento en que el cliente la solicita",
+          "Acta constitutiva o poder notarial del representante legal que va a firmar el contrato: muchos operadores regionales tienen la empresa constituida pero no tienen el poder notarial disponible para firmar contratos fuera del domicilio fiscal",
+          "Póliza de seguro de responsabilidad civil con cobertura para el transporte de pasajeros: el documento que el área de riesgos del cliente revisa con más atención, especialmente si la empresa tiene política interna de seguros para proveedores de transporte",
+          "Comprobante de domicilio fiscal actualizado: requerido en la mayoría de las empresas medianas y grandes para verificar que el proveedor opera desde el domicilio declarado ante el SAT"
+        ],
+        "en": [
+          "Updated tax standing certificate (no older than three months): the most frequently delayed document because the operator has an outdated version at the moment the client requests it",
+          "Articles of incorporation or notarial power of attorney for the legal representative who will sign the contract: many regional operators have a formally incorporated company but don't have the notarial power available to sign contracts outside their registered address",
+          "Liability insurance policy with coverage for passenger transport: the document that the client's risk department reviews most carefully, especially if the company has an internal insurance policy for transport service providers",
+          "Updated proof of registered tax address: required at most mid-size and large companies to verify that the supplier operates from the address registered with the tax authority"
+        ]
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El operador que no tiene estos documentos listos y actualizados en el momento en que comienza la negociación del primer contrato pierde entre dos y cuatro semanas adicionales en la fase de alta de proveedor que podría resolver en una sola reunión. Un operador que presta el servicio durante cuatro semanas antes de estar dado de alta como proveedor está creando un problema de cobranza que después es difícil de resolver sin que la relación deteriore.",
+        "en": "An operator who doesn't have these documents ready and current at the start of the first contract negotiation loses two to four additional weeks in the supplier registration phase that could be resolved in a single meeting. An operator who delivers services for four weeks before being registered as a supplier is creating a collections problem that is later difficult to resolve without damaging the relationship."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "facturacion-diferida-cfdi",
+      "text": {
+        "es": "Facturación diferida y CFDI: donde el proceso se detiene",
+        "en": "Deferred billing and tax receipts: where the process stalls"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El ciclo de facturación de una cuenta corporativa difiere del consumidor en dos dimensiones. La primera es la frecuencia: en lugar de un cargo por viaje, la empresa espera una factura consolidada semanal o mensual que agrupe todos los servicios del período. La segunda es el plazo de pago: entre 15 y 45 días después de la fecha de factura, dependiendo de las condiciones del contrato. Eso significa que el operador puede prestar servicios durante 30 días antes de recibir cualquier pago, y que necesita el capital de trabajo para sostener esa brecha. Un operador con tres o cuatro clientes corporativos simultáneos puede tener entre $3,000 y $8,000 USD en servicios prestados y no cobrados en cualquier momento del mes.",
+        "en": "A corporate account's billing cycle differs from consumer billing on two dimensions. The first is frequency: instead of a per-trip charge, the company expects a consolidated weekly or monthly invoice grouping all services for the period. The second is payment terms: 15 to 45 days after the invoice date, depending on the contract terms. This means the operator may deliver services for 30 days before receiving any payment, and needs the working capital to sustain that gap. An operator with three or four simultaneous corporate clients can have between $3,000 and $8,000 USD in delivered but uncollected services at any point in the month."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "En México, el Comprobante Fiscal Digital por Internet (CFDI) es el requisito legal para que la empresa pueda deducir el gasto en su declaración fiscal. El operador que no puede emitir CFDI con el RFC del cliente, los conceptos correctos y el complemento de carta porte cuando el trayecto así lo requiere, genera un problema contable para el área de administración del cliente que se traduce en retrasos de pago y conversaciones sobre ajustes de factura que consumen horas de back-office que el operador regional típicamente no tiene. La solución no requiere un sistema de facturación complejo: requiere un proceso claro de emisión de CFDI por período, con los datos del cliente configurados antes de prestar el primer servicio, no después del primer problema.",
+        "en": "In Mexico, the Comprobante Fiscal Digital por Internet (CFDI) is the legal requirement for the company to deduct the expense in their tax return. An operator who cannot issue a CFDI with the client's tax ID, the correct service descriptions, and the transport supplement when required creates an accounting problem for the client's finance department that translates into delayed payments and invoice adjustment conversations that consume back-office hours the regional operator typically doesn't have. The fix doesn't require a complex billing system: it requires a clear CFDI issuance process per period, with the client's data configured before the first service is delivered — not after the first problem."
+      }
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "text": {
+        "es": "Antes de firmar el primer contrato corporativo, verifica que puedes producir estos tres entregables: un reporte de viajes por empleado en Excel o CSV para el período solicitado, un CFDI consolidado con los conceptos correctos emitido dentro de las 48 horas del cierre del período, y un canal de contacto directo para el responsable de compras que responde en menos de cuatro horas en días hábiles. Si no puedes producir los tres, el contrato va a generar fricción antes del segundo período de facturación.",
+        "en": "Before signing the first corporate contract, verify that you can produce these three deliverables: a per-employee trip report in Excel or CSV for the requested period, a consolidated tax receipt with the correct service descriptions issued within 48 hours of period close, and a direct contact channel for the procurement manager that responds in under four hours on business days. If you can't produce all three, the contract will generate friction before the second billing period."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "sla-sin-romper-operacion-consumidor",
+      "text": {
+        "es": "El SLA que no rompe la operación de consumidor",
+        "en": "The SLA that doesn't break the consumer operation"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El Service Level Agreement que el operador firma con una empresa define qué compromete a entregar y qué consecuencias tienen los incumplimientos. El error más frecuente en los primeros contratos corporativos es copiar las métricas de calidad de plataformas de escala nacional sin considerar las limitaciones reales de una operación regional. Un SLA que compromete tiempo de espera máximo de cinco minutos en una ciudad donde la densidad de conductores activos en hora pico es de 40 va a producir incumplimientos frecuentes y créditos de servicio que erosionan el margen del contrato. Un SLA realista para una operación regional tiene cuatro componentes:",
+        "en": "The Service Level Agreement the operator signs with a company defines what they commit to deliver and what the consequences of non-compliance are. The most common mistake in early corporate contracts is copying the quality metrics of national-scale platforms without accounting for the real constraints of a regional operation. An SLA that commits to a maximum wait time of five minutes in a city where peak active driver density is 40 will generate frequent violations and service credits that erode the contract margin. A realistic SLA for a regional operation has four components:"
+      }
+    },
+    {
+      "type": "list",
+      "style": "bullet",
+      "items": {
+        "es": [
+          "Tiempo de respuesta de conductor acotado a zona y horario: comprometer un máximo de 8 a 12 minutos en la zona central de la ciudad durante días hábiles de 7:00 a 20:00, no cinco minutos en toda el área metropolitana a cualquier hora del día",
+          "Canal de escalamiento dedicado: un número de WhatsApp o correo electrónico específico para el responsable de la cuenta en la empresa, con tiempo de respuesta comprometido de máximo dos horas en días hábiles — no la misma línea de soporte que usa el pasajero de consumidor",
+          "Reporte de viajes periódico automatizable: entrega cada lunes con el resumen de la semana anterior en formato CSV — nombre del empleado, origen, destino, hora de solicitud, hora de llegada del conductor, duración del viaje y monto — sin que el cliente tenga que pedirlo cada período",
+          "Créditos por incumplimiento acotados: el crédito como porcentaje del viaje afectado (20%–30%), con un tope mensual que no supere el 5% del valor total del contrato para que los incumplimientos puntuales no generen un descuento estructural sobre el revenue del contrato"
+        ],
+        "en": [
+          "Driver response time scoped to zone and schedule: committing to a maximum of 8 to 12 minutes in the city center zone during business days from 7:00 to 20:00, not five minutes across the entire metropolitan area at any hour",
+          "Dedicated escalation channel: a specific WhatsApp number or email for the company's account manager, with a committed response time of no more than two hours on business days — not the same support line used by consumer passengers",
+          "Automatable periodic trip report: delivered each Monday with the prior week's summary in CSV format — employee name, origin, destination, request time, driver arrival time, trip duration, and amount — without the client having to request it each period",
+          "Capped service credits: credits as a percentage of the affected trip (20%–30%), with a monthly cap that does not exceed 5% of the total contract value so that isolated violations don't generate a structural discount on contract revenue"
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "primer-contrato-que-incluir",
+      "text": {
+        "es": "Qué incluir en el primer contrato para proteger al operador",
+        "en": "What to include in the first contract to protect the operator"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Los primeros contratos corporativos que firman los operadores regionales tienden a ser o contratos de adhesión que la empresa presenta sin negociación, o acuerdos verbales que no tienen ningún documento que respalde los términos. Ninguna de las dos opciones protege al operador en caso de disputa de facturación o de cancelación anticipada. El contrato mínimo que cubre los riesgos principales no necesita ser un documento legal extenso — necesita incluir cinco elementos que casi ningún primer contrato corporativo tiene:",
+        "en": "The first corporate contracts signed by regional operators tend to be either adhesion contracts that the company presents without negotiation, or verbal agreements with no document backing the terms. Neither option protects the operator in the event of a billing dispute or early termination. The minimum contract that covers the main risks doesn't need to be a lengthy legal document — it needs to include five elements that almost no first corporate contract contains:"
+      }
+    },
+    {
+      "type": "list",
+      "style": "bullet",
+      "items": {
+        "es": [
+          "Consumo mínimo mensual garantizado o cláusula de volumen mínimo: protege al operador de contratos que comprometen conductores disponibles en horarios específicos sin generar el volumen de viajes prometido durante la negociación",
+          "Plazo de pago explícito en días calendario: el número de días después de la fecha de factura dentro del cual la empresa debe realizar el pago, con la tasa de interés por mora aplicable en caso de retraso — no dejar este punto abierto como 'pago a 30 días' sin especificar si son días hábiles o naturales",
+          "Procedimiento de cancelación de servicio: cuántos días de anticipación debe dar la empresa para cancelar un viaje programado sin cargo, qué ocurre con los viajes cancelados en el momento con conductor ya en camino, y si hay penalidad por cancelación de contrato antes del término acordado",
+          "Responsable de cuenta con nombre y cargo: el interlocutor específico en la empresa que gestiona la relación operativa — no solo el área de compras como entidad abstracta, sino el nombre de la persona que puede resolver una disputa de facturación o autorizar un ajuste de servicio",
+          "Límite de cobertura geográfica: las ciudades y zonas donde la plataforma puede prestar el servicio bajo las condiciones del contrato, con una cláusula que establece que cualquier solicitud fuera de esa cobertura es un servicio diferente con precio diferente y sin garantías del SLA principal"
+        ],
+        "en": [
+          "Guaranteed monthly minimum consumption or minimum volume clause: protects the operator from contracts that commit drivers to specific schedules without generating the trip volume that was implied during the negotiation",
+          "Explicit payment term in calendar days: the number of days after the invoice date within which the company must pay, with the applicable late fee rate in case of delay — not leaving this open as 'payment in 30 days' without specifying whether those are business or calendar days",
+          "Service cancellation procedure: how many days in advance the company must cancel a scheduled trip without charge, what happens to trips canceled with a driver already en route, and whether there is a penalty for terminating the contract before the agreed end date",
+          "Named account manager with title: the specific person at the company who manages the operational relationship — not just the procurement department as an abstract entity, but the name of the individual who can resolve a billing dispute or authorize a service adjustment",
+          "Geographic coverage scope: the cities and zones where the platform can deliver service under the contract's conditions, with a clause establishing that any request outside that coverage is a separate service with separate pricing and without the main SLA guarantees"
+        ]
+      }
+    },
+    {
+      "type": "quote",
+      "text": {
+        "es": "Firmé el primer contrato corporativo de palabra después de tres reuniones. Cuatro meses después el cliente no había pagado dos facturas porque su área de finanzas decía que la plataforma no estaba dada de alta como proveedor autorizado. El problema era que nadie del área de compras me había pasado la lista de documentos para el alta. Resolví el pago pero perdí el contrato porque el proceso generó fricción interna en la empresa que ninguno de los dos habíamos anticipado. La segunda cuenta corporativa la abrí con un documento de dos páginas que definía el ciclo de facturación, el canal de escalamiento y el proceso de alta de proveedor antes de prestar el primer viaje. Ese contrato sigue activo tres años después.",
+        "en": "I signed the first corporate contract verbally after three meetings. Four months later the client hadn't paid two invoices because their finance department said the platform wasn't registered as an authorized supplier. The problem was that no one from procurement had given me the document list for supplier registration. I resolved the payment but lost the contract because the process created internal friction at the company that neither of us had anticipated. I opened the second corporate account with a two-page document defining the billing cycle, the escalation channel, and the supplier registration process before delivering the first trip. That contract is still active three years later."
+      },
+      "attribution": {
+        "es": "Operador de movilidad con cuatro ciudades activas en el occidente de México",
+        "en": "Mobility operator with four active cities in western Mexico"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Una cuenta corporativa activa no es solo un flujo de revenue adicional — es la validación de que la operación tiene la estructura de back-office necesaria para sostener a un cliente que mide el servicio con criterios más exigentes que el pasajero individual. El operador que llega al primer contrato corporativo con el expediente de proveedor listo, un proceso de facturación por período definido y un SLA ajustado a su capacidad real construye una relación que puede durar años y que genera un volumen de viajes predecible que compensa los picos y valles del revenue de consumidor. El que firma el contrato primero y resuelve el proceso después pasa los primeros tres meses gestionando problemas administrativos en lugar de gestionando el crecimiento.",
+        "en": "An active corporate account is not just an additional revenue stream — it is validation that the operation has the back-office structure needed to sustain a client who measures service by stricter criteria than the individual passenger. The operator who arrives at the first corporate contract with the supplier file ready, a defined period billing process, and an SLA matched to actual capacity builds a relationship that can last years and generates a predictable trip volume that offsets the peaks and valleys of consumer revenue. The operator who signs first and resolves the process later spends the first three months managing administrative problems instead of managing growth."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La diferencia entre un contrato corporativo que estabiliza la operación y uno que la complica no está en el tamaño del cliente ni en el volumen prometido — está en si el operador entendió antes de firmar que estaba iniciando una relación B2B con sus propias reglas de documentación, facturación y gestión de cuenta. Las empresas que son buenos clientes corporativos no son las que pagan más rápido ni las que generan el mayor volumen en el primer mes — son las que tienen un responsable de compras que sabe lo que necesita del proveedor y un proceso de alta que el operador puede completar en menos de una semana. Identificar esas empresas antes de invertir tiempo en la negociación es la habilidad que separa a los operadores con tres o cuatro contratos corporativos activos de los que firmaron uno, lo perdieron y decidieron que el segmento corporativo no era para ellos.",
+        "en": "The difference between a corporate contract that stabilizes the operation and one that complicates it is not the size of the client or the promised volume — it is whether the operator understood before signing that they were beginning a B2B relationship with its own rules for documentation, billing, and account management. The companies that make good corporate clients are not the ones that pay the fastest or generate the highest volume in the first month — they are the ones with a procurement manager who knows what they need from the supplier and an onboarding process the operator can complete in under a week. Identifying those companies before investing time in the negotiation is the skill that separates operators with three or four active corporate accounts from those who signed one, lost it, and decided the corporate segment wasn't for them."
+      }
+    }
+  ]
+}
