@@ -1,6 +1,25 @@
 {
-  "generatedAt": "2026-05-10T14:06:40.030Z",
+  "generatedAt": "2026-05-11T14:06:46.247Z",
   "posts": [
+    {
+      "slug": "elegir-proveedor-mapas-ride-hailing",
+      "category": "product",
+      "title": {
+        "es": "Cómo elegir el proveedor de mapas para tu app de ride-hailing regional",
+        "en": "How to choose a maps provider for your regional ride-hailing app"
+      },
+      "excerpt": {
+        "es": "El proveedor de mapas no es solo el fondo visual de la pantalla del pasajero — determina los ETAs, la navegación offline del conductor y la geocodificación de las direcciones informales que usan los usuarios de LATAM.",
+        "en": "Your maps provider is not just the visual background on the passenger screen — it determines ETAs, driver offline navigation, and the geocoding accuracy for the informal addresses typical LATAM users actually type."
+      },
+      "heroImage": "https://raw.githubusercontent.com/jonatanvazquez/cabgo-blog-content/main/images/elegir-proveedor-mapas-ride-hailing.jpg",
+      "heroImageAlt": {
+        "es": "Ilustración isométrica de un operador evaluando proveedores de mapas para su app de ride-hailing: tres tarjetas flotantes de proveedor con estilos de mapa distintos, un panel de dashboard comparando costos de API, y un conductor con su teléfono mostrando navegación turn-by-turn en una zona de baja conectividad",
+        "en": "Isometric illustration of an operator evaluating maps providers for their ride-hailing app: three floating provider cards with distinct map styles, a dashboard panel comparing API costs, and a driver holding a phone showing turn-by-turn navigation in a low-connectivity zone"
+      },
+      "publishedAt": "2026-05-11",
+      "readingMinutes": 11
+    },
     {
       "slug": "contratos-corporativos-ride-hailing",
       "category": "product",
