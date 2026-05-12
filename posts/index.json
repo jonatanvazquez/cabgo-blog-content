@@ -1,6 +1,25 @@
 {
-  "generatedAt": "2026-05-11T14:06:46.247Z",
+  "generatedAt": "2026-05-12T14:08:14.684Z",
   "posts": [
+    {
+      "slug": "geofencing-operacion-ride-hailing",
+      "category": "product",
+      "title": {
+        "es": "Geofencing en ride-hailing regional: cuándo usar zonas y cuándo no",
+        "en": "Geofencing in regional ride-hailing: when to use zones and when not to"
+      },
+      "excerpt": {
+        "es": "Un geofence vale la pena solo cuando responde a un problema operativo concreto. Tres usos reales y cuándo el routing dinámico es más eficiente.",
+        "en": "A geofence is worth building only when it answers a specific operational question — and when dynamic routing solves the same problem with less overhead."
+      },
+      "heroImage": "https://raw.githubusercontent.com/jonatanvazquez/cabgo-blog-content/main/images/geofencing-operacion-ride-hailing.jpg",
+      "heroImageAlt": {
+        "es": "Ilustración isométrica de geofencing en operación de ride-hailing regional: mapa de ciudad con tres zonas superpuestas en teal, índigo y ámbar, un conductor respondiendo a un incentivo al entrar a la zona teal, y un panel de dashboard con lista de zonas activas y métricas de viajes por zona",
+        "en": "Isometric illustration of geofencing in a regional ride-hailing operation: city map with three overlapping zones in teal, indigo, and amber, a driver responding to an incentive on entering the teal zone, and a dashboard panel showing the active zone list with trips-per-zone metrics"
+      },
+      "publishedAt": "2026-05-12",
+      "readingMinutes": 10
+    },
     {
       "slug": "elegir-proveedor-mapas-ride-hailing",
       "category": "product",
