@@ -1,0 +1,266 @@
+{
+  "slug": "dashboard-reportes-operacion-ride-hailing",
+  "category": "product",
+  "title": {
+    "es": "El dashboard de tu operación: reportes que cambian decisiones vs los que se acumulan sin leer",
+    "en": "Your operation's dashboard: reports that change decisions vs the ones that accumulate unread"
+  },
+  "excerpt": {
+    "es": "Un dashboard con 20 métricas activas no es más visibilidad — es ruido. Los operadores que identifican las cuatro o cinco métricas que mapean directamente a acciones terminan el análisis en diez minutos con un plan.",
+    "en": "A dashboard with 20 active metrics is not more visibility — it is noise. Operators who identify the four or five metrics that map directly to actions finish the analysis in ten minutes with a plan."
+  },
+  "heroImage": "https://raw.githubusercontent.com/jonatanvazquez/cabgo-blog-content/main/images/dashboard-reportes-operacion-ride-hailing.jpg",
+  "heroImageAlt": {
+    "es": "Ilustración isométrica de un operador de ride-hailing simplificando su dashboard: a la izquierda un monitor con 16 paneles de gráficas superpuestos y una figura abrumada; a la derecha un dashboard limpio con cuatro métricas de alerta de alto contraste y un operador sereno revisando una notificación en el teléfono",
+    "en": "Isometric illustration of a ride-hailing operator simplifying their dashboard: on the left a monitor packed with 16 overlapping chart panels and an overwhelmed figure; on the right a clean dashboard with four high-contrast alert metrics and a composed operator reviewing a phone notification"
+  },
+  "heroImagePrompt": "Isometric split composition contrasting dashboard complexity versus clarity. Left: a floating monitor screen densely packed with 16 small chart panels — pie charts, bar graphs, line plots, a map heatmap — in muted indigo tones, with a figure sitting slumped at a desk below it, stacks of printouts around them. A translucent arrow pointing right in the center. Right: a clean floating monitor showing exactly four large metric panels in high contrast — a bar chart for wait time with a red threshold line, a city hexagonal heat map with two teal-hot zones, a cancellation trend line curving downward in teal, and a pulsing alert badge in teal indicating an active notification. A composed operator figure sits at the right looking at the streamlined panel, a phone in hand displaying the same alert.",
+  "publishedAt": "2026-05-13",
+  "readingMinutes": 9,
+  "keywords": {
+    "es": [
+      "dashboard plataforma ride-hailing métricas",
+      "reportes operación taxi app LATAM",
+      "métricas clave operación movilidad regional",
+      "KPIs tiempo real plataforma transporte",
+      "alertas operativas app taxi conductor",
+      "reportes conductores ride-hailing dashboard",
+      "qué revisar dashboard movilidad diario"
+    ],
+    "en": [
+      "ride-hailing platform dashboard metrics",
+      "taxi app operations reports LATAM",
+      "key metrics regional mobility operation",
+      "real-time KPIs transport platform",
+      "operational alerts taxi driver app",
+      "driver reports ride-hailing dashboard",
+      "daily dashboard review mobility operation"
+    ]
+  },
+  "author": {
+    "name": "Equipo Cabgo",
+    "role": {
+      "es": "Plataforma de movilidad",
+      "en": "Mobility platform"
+    }
+  },
+  "cta": {
+    "heading": {
+      "es": "¿Listo para lanzar tu propia app de movilidad?",
+      "en": "Ready to launch your own mobility app?"
+    },
+    "body": {
+      "es": "Configura tu marca, tus tarifas y tus servicios en semanas, no en meses. Cabgo te entrega la plataforma, tú te quedas con la operación y la marca.",
+      "en": "Set up your brand, pricing and services in weeks, not months. Cabgo ships the platform — you keep the operation and the brand."
+    },
+    "buttonLabel": {
+      "es": "Empezar ahora",
+      "en": "Get started"
+    },
+    "buttonHref": "/empezar"
+  },
+  "seo": {
+    "metaTitle": {
+      "es": "Dashboard de operación: métricas que importan | Cabgo",
+      "en": "Ride-hailing dashboard: metrics that matter | Cabgo"
+    },
+    "metaDescription": {
+      "es": "Cuáles métricas del dashboard de ride-hailing producen decisiones reales y cuáles documentan el estado — y cómo separar unas de otras en tu operación.",
+      "en": "Which ride-hailing dashboard metrics produce real decisions and which only document status — and how to tell the difference in your operation."
+    }
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El dashboard de una plataforma de ride-hailing en operación activa puede generar entre 20 y 40 reportes distintos según qué módulos estén habilitados. La mayoría de los operadores con entre 200 y 700 viajes diarios consultan entre tres y cinco de esos reportes de forma consistente. El resto está disponible, se actualiza en tiempo real, y nadie lo abre a menos que ocurra un problema lo suficientemente visible como para que alguien recuerde que ese panel existe. Esa brecha entre datos disponibles y datos consultados no es un problema de disciplina ni de tiempo — es el resultado de que la mayoría de los reportes de plataforma responden una pregunta que el operador ya conoce la respuesta: confirman un estado que no tiene acción asociada, o presentan datos a una granularidad que no corresponde a ninguna decisión concreta que el operador pueda tomar. La pregunta correcta no es qué métricas tienes disponibles, sino cuáles de esas métricas, cuando cambian, producen una decisión diferente el día siguiente.",
+        "en": "A ride-hailing platform in active operation can generate between 20 and 40 distinct reports depending on which modules are enabled. Most operators running between 200 and 700 daily trips consult three to five of those reports consistently. The rest are available, updating in real time, and no one opens them unless a problem becomes visible enough that someone remembers the panel exists. That gap between available data and consulted data is not a discipline or time problem — it is the result of most platform reports answering a question the operator already knows the answer to: they confirm a state with no associated action, or present data at a granularity that doesn't map to any concrete decision the operator can actually make. The right question is not which metrics your dashboard makes available, but which of those metrics, when they change, produce a different decision the next day."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Este artículo es para operadores que llevan tres a doce meses activos y ya tienen datos reales en su plataforma, pero cuyo equipo todavía no tiene claridad sobre qué reportes merecen revisión diaria, cuáles semanal, cuáles mensual, y cuáles básicamente documentan lo que ocurrió sin aportar nada que cambie lo que va a ocurrir. La distinción no es teórica: el operador que dedica 30 minutos cada mañana revisando reportes que confirman el estado del día anterior está usando ese tiempo para no tomar una decisión; el que revisa cuatro métricas que mapean directamente a acciones concretas termina ese análisis en diez minutos con un plan para el día.",
+        "en": "This article is for operators three to twelve months into active operation who already have real platform data but whose teams haven't established clarity about which reports deserve daily review, which deserve weekly attention, which are monthly, and which mostly document what happened without contributing anything that changes what is going to happen. The distinction is practical, not theoretical: an operator who spends 30 minutes each morning reviewing reports that confirm the prior day's status is using that time to not make a decision; one who checks four metrics that map directly to concrete actions finishes that same analysis in ten minutes with a plan for the day."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "trampa-dashboard-completo",
+      "text": {
+        "es": "La trampa del dashboard completo: más paneles no es más visibilidad",
+        "en": "The full dashboard trap: more panels is not more visibility"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Las plataformas de ride-hailing generan datos de todo el stack de la operación porque esos datos pueden ser útiles para alguien, en algún momento, para alguna pregunta específica. Posición del conductor cada cuatro segundos, duración de cada etapa del viaje, tiempos de aceptación por conductor y por zona, patrones de cancelación por hora del día, distribución de calificaciones — todo eso existe en los registros de la plataforma y la mayoría de los dashboards lo pone disponible en algún panel. Cuando el operador recibe acceso a todos esos datos, los activa porque todavía no sabe cuáles son los que van a importar en su operación específica. El resultado es un dashboard con 15 o 20 gráficas que el coordinador de operaciones escanea en cuatro segundos antes de cerrar el panel y llamar directamente a un conductor para saber cómo está el flujo.",
+        "en": "Ride-hailing platforms generate data across the entire operation stack because that data can be useful for someone, at some point, for some specific question. Driver position every four seconds, duration of each trip stage, acceptance times by driver and zone, cancellation patterns by hour, rating distributions — all of that lives in the platform's records, and most dashboards make it available in some panel. When the operator gains access to all that data, they activate it because they don't yet know which metrics will matter in their specific operation. The result is a dashboard with 15 or 20 charts that the operations coordinator scans in four seconds before closing the panel and calling a driver directly to ask how the flow is looking."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El problema estructural es que los dashboards de plataforma se diseñan para mostrar que la operación existe y está activa — no para señalar que algo necesita una decisión hoy. Las métricas de estado (número total de viajes del mes, calificación promedio acumulada, conductores activos registrados) son necesarias para reportes de gestión pero no dirigen la atención hacia ningún punto específico de la operación que requiera intervención. Las métricas de señal — tiempo de espera promedio en la última hora en la zona norte, porcentaje de cancelaciones en los últimos 20 minutos por tipo, conductores disponibles en la franja de las 18:00 hoy comparado con el mismo día de la semana anterior — son las que el operador necesita revisar al comenzar el día, porque son las que le dicen si va a terminar ese día con los números que esperaba o con un problema que ya comenzó.",
+        "en": "The structural problem is that platform dashboards are designed to show that the operation exists and is active — not to signal that something needs a decision today. Status metrics (total trips for the month, cumulative average rating, registered active drivers) are necessary for management reports but don't direct attention toward any specific part of the operation that requires intervention. Signal metrics — average wait time in the last hour in the north zone, cancellation rate in the last 20 minutes by type, available drivers at the 18:00 window today compared with the same weekday last week — are what the operator needs to review at the start of the day, because they are the ones that tell you whether the day will end with the numbers you expected or with a problem that already started."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "metricas-que-cambian-decisiones",
+      "text": {
+        "es": "Las cuatro métricas que cambian lo que haces mañana",
+        "en": "The four metrics that change what you do tomorrow"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Hay una prueba simple para identificar si una métrica merece revisión diaria: si el número cambia significativamente hoy respecto a ayer, ¿harías algo diferente mañana? Si la respuesta es no, la métrica puede servir para análisis mensual pero no merece atención diaria. En operaciones de 200 a 700 viajes diarios en mercados de LATAM, cuatro métricas superan esa prueba de forma consistente. No son cuatro indicadores independientes — son cuatro lecturas del mismo problema central: si la oferta de conductores está donde la demanda la necesita, en el momento en que la necesita.",
+        "en": "There is a simple test to identify whether a metric deserves daily review: if the number changes significantly today relative to yesterday, would you do something different tomorrow? If the answer is no, the metric may be useful for monthly analysis but doesn't deserve daily attention. In operations of 200 to 700 daily trips in LATAM markets, four metrics pass that test consistently. They are not four independent indicators — they are four readings of the same central problem: whether driver supply is where demand needs it, at the moment it needs it."
+      }
+    },
+    {
+      "type": "list",
+      "style": "bullet",
+      "intro": {
+        "es": "Las cuatro métricas que, cuando se mueven, producen una decisión operativa en las próximas horas son:",
+        "en": "The four metrics that, when they move, produce an operational decision within the next few hours are:"
+      },
+      "items": {
+        "es": [
+          "Tiempo de espera promedio en franja de alta demanda: no el promedio del día completo sino el de las últimas dos horas de operación activa — la variación respecto al mismo bloque del día anterior señala si hay un problema de oferta que todavía está a tiempo de corregir antes del siguiente pico",
+          "Índice de cancelaciones de conductor en hora pico: el porcentaje de viajes asignados que el conductor cancela antes de llegar al pasajero, separado del índice de cancelaciones de pasajero — cuando sube más de 3 puntos en la misma franja dos días seguidos, algo en esa zona o franja está produciendo rechazo sistemático que vale la pena investigar",
+          "Conductores activos en zona crítica 30 minutos antes del pico: cuántos conductores están disponibles en las zonas de alta demanda conocida antes de que la demanda ocurra — si el número es consistentemente bajo, el tiempo de intervención con un incentivo de posicionamiento todavía alcanza para que tenga efecto",
+          "Porcentaje de solicitudes sin conductor disponible en la última hora: el indicador más directo de que la oferta no está alcanzando a la demanda en tiempo real — en una operación sana ese porcentaje no debería superar el 8% durante hora pico"
+        ],
+        "en": [
+          "Average wait time during the high-demand window: not the full-day average but the last two hours of active operation — the variation against the same window the prior day signals whether there is a supply problem still early enough to correct before the next peak",
+          "Driver cancellation rate during peak hour: the percentage of assigned trips that the driver cancels before reaching the passenger, separated from the passenger cancellation rate — when it rises more than 3 points in the same window on two consecutive days, something in that zone or window is producing systematic rejection worth investigating",
+          "Active drivers in the critical zone 30 minutes before peak: how many drivers are available in known high-demand zones before demand arrives — if the number is consistently low, positioning incentive intervention timing is still workable to produce an effect",
+          "Percentage of requests with no driver available in the last hour: the most direct indicator that supply is not meeting demand in real time — in a healthy operation this should not exceed 8% during peak hours"
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "reportes-conductores-acciones",
+      "text": {
+        "es": "Los reportes de conductores que producen acciones concretas",
+        "en": "Driver reports that actually produce concrete actions"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Los reportes de conductores son el segundo bloque de datos más denso en cualquier dashboard de plataforma de ride-hailing. El conjunto típico incluye el ranking por volumen de viajes, la distribución de calificaciones por conductor, los tiempos de conexión por semana, y los patrones de cancelación por conductor. La mayoría de esos reportes produce una reacción de 'interesante' y ninguna acción, porque el conductor en la posición 1 ya sabe que está haciendo bien su trabajo y el que está en la posición 40 rara vez recibe una llamada para saber por qué.",
+        "en": "Driver reports are the second densest data block in any ride-hailing platform dashboard. The typical set includes the trip-volume ranking, rating distribution by driver, weekly connection times, and cancellation patterns by driver. Most of those reports produce a reaction of 'interesting' and no action, because the driver in position 1 already knows they are doing well and the one in position 40 rarely receives a call to find out why."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Los reportes de conductores que producen acciones concretas tienen tres características en común: identifican conductores en una zona de comportamiento que va a producir un problema en los próximos días (no los que ya tienen un problema documentado hace semanas), presentan el dato en contexto de tendencia (no el número de ayer sino la dirección en los últimos siete días), y agrupan a los conductores en segmentos que corresponden a intervenciones distintas. Un reporte que muestra cinco conductores específicos cuyas horas de conexión bajaron más de 30% en los últimos diez días es un reporte de acción porque señala el problema antes de que esos conductores dejen de estar activos. Un reporte que muestra el ranking de calificaciones de todos los conductores es un reporte de estado que documenta lo que ya se sabe.",
+        "en": "Driver reports that produce concrete actions share three characteristics: they identify drivers in a behavioral zone that will produce a problem in the coming days (not ones who already have a documented problem from weeks ago), they present the data in the context of trend (not yesterday's number but the direction over the last seven days), and they group drivers into segments that correspond to distinct interventions. A report showing five specific drivers whose connection hours dropped more than 30% over the last ten days is an action report because it flags the problem before those drivers go inactive. A report showing the rating ranking for all drivers is a status report that documents what is already known."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "metrica-estado-vs-alerta",
+      "text": {
+        "es": "Métrica de estado vs métrica de alerta: la distinción que cambia el flujo del equipo",
+        "en": "Status metric vs alert metric: the distinction that changes how the team operates"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Las métricas de estado describen el promedio histórico de la operación. Son útiles para comparar períodos, para reportes de gestión, para mostrar tendencia a largo plazo. Las métricas de alerta detectan una desviación del patrón normal que requiere intervención antes de que se amplíe. La diferencia en la práctica es directa: una métrica de estado es el tiempo de espera promedio de las últimas cuatro semanas; una métrica de alerta es el tiempo de espera en las últimas dos horas comparado con el promedio histórico para ese mismo día de la semana y esa misma franja horaria.",
+        "en": "Status metrics describe the historical average of the operation. They are useful for comparing periods, for management reports, for showing long-term trends. Alert metrics detect a deviation from the normal pattern that requires intervention before it compounds. The practical difference is direct: a status metric is the average wait time over the last four weeks; an alert metric is wait time in the last two hours compared against the historical average for that same weekday and same time window."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Las operaciones bien configuradas separan visualmente esos dos tipos de métricas porque requieren rutinas distintas. Las métricas de estado se revisan en sesiones semanales o mensuales donde el equipo evalúa si la operación va en la dirección correcta. Las métricas de alerta se revisan en tiempo real o con un intervalo máximo de 30 a 60 minutos durante los picos de operación, porque su valor disminuye exponencialmente con el tiempo: una alerta de tiempo de espera elevado que el operador ve dos horas después de que ocurrió es información histórica, no una señal de acción. El coordinador que configura tres o cuatro métricas de alerta con umbrales explícitos y recibe una notificación cuando alguna los supera no necesita revisar el dashboard cada 20 minutos — el dashboard lo llama cuando algo merece atención, y en el resto del tiempo puede concentrarse en la operación en lugar de en los datos de la operación.",
+        "en": "Well-configured operations separate those two metric types visually because they require different routines. Status metrics are reviewed in weekly or monthly sessions where the team evaluates whether the operation is moving in the right direction. Alert metrics are reviewed in real time or at a maximum interval of 30 to 60 minutes during operation peaks, because their value decreases exponentially with time: a high wait time alert that the operator sees two hours after it occurred is historical information, not an action signal. A coordinator who configures three or four alert metrics with explicit thresholds and receives a notification when any of them is breached doesn't need to check the dashboard every 20 minutes — the dashboard calls them when something deserves attention, and the rest of the time they can focus on the operation instead of the operation's data."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "reportes-semanales-automatizar",
+      "text": {
+        "es": "Reportes semanales que vale la pena automatizar",
+        "en": "Weekly reports worth automating"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Hay un conjunto de análisis que produce valor cuando se revisa con periodicidad semanal pero que ningún operador genera manualmente de forma consistente porque requiere tiempo de back-office que la operación diaria no deja. La automatización de esos reportes — que en la mayoría de las plataformas modernas es cuestión de configurar una regla de entrega programada, no de desarrollo técnico adicional — produce retorno durante meses sin mantenimiento posterior. Los tres que más valor generan en operaciones de 300 a 700 viajes diarios son: el reporte de conductores con actividad reducida respecto a la semana anterior (para intervenir antes de que dejen de conectarse), el análisis de zonas con tiempo de espera consistentemente más alto que el promedio de la ciudad (para evaluar si un geofence de posicionamiento está produciendo el efecto esperado), y el resumen de viajes fallidos por franja horaria (para identificar demanda no cubierta que el operador puede resolver con disponibilidad adicional en esa franja).",
+        "en": "There is a set of analyses that produces value when reviewed weekly but that no operator generates manually with any consistency because it requires back-office time that daily operations don't leave. Automating those reports — which in most modern platforms means configuring a scheduled delivery rule, not additional technical development — produces returns for months without further maintenance. The three that generate the most value in operations of 300 to 700 daily trips are: the report of drivers with reduced activity compared to the prior week (to intervene before they go inactive), the analysis of zones with consistently higher wait times than the city average (to evaluate whether a positioning geofence is producing the expected effect), and the summary of failed trips by time window (to identify unmet demand the operator can resolve with additional availability during that window)."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El reporte semanal que más frecuentemente se configura y que menos decisiones produce es el de volumen total de viajes por día de la semana — un reporte de estado que confirma que el lunes tiene menos viajes que el viernes, información que el operador ya tiene incorporada por experiencia. El que más frecuentemente se omite y que más frecuentemente produce acciones concretas es el de tendencia de cancelaciones por tipo (conductor, pasajero, timeout) con comparación respecto a la misma semana del mes anterior. Una variación en ese número generalmente señala un cambio en el comportamiento de conductores o pasajeros que el operador puede verificar rápido y corregir antes de que se establezca como un patrón — el tipo de problema relativamente sencillo de resolver en la semana uno y significativamente más difícil de revertir en la semana ocho.",
+        "en": "The weekly report most often configured and least often used for decisions is total trip volume by weekday — a status report that confirms Monday has fewer trips than Friday, information the operator already has internalized from experience. The one most often skipped and most often producing concrete actions is cancellation trend by type (driver, passenger, timeout) compared against the same week the prior month. A change in that number typically signals a shift in driver or passenger behavior that the operator can verify quickly and correct before it establishes as a pattern — the type of problem that is relatively straightforward to resolve in week one and significantly harder to reverse in week eight."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "volumen-datos-peores-decisiones",
+      "text": {
+        "es": "Cuándo el volumen de datos produce peores decisiones",
+        "en": "When data volume produces worse decisions"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Cuando hay 15 gráficas disponibles y no existe un criterio previo sobre cuáles son las que importan en ese momento, el cerebro busca consistencia entre los datos antes de actuar — espera que varias gráficas confirmen el mismo problema antes de intervenir. En una situación de 15 conductores disponibles frente a 35 solicitudes en los próximos 20 minutos, esa búsqueda de confirmación consume exactamente el tiempo en que todavía era posible activar un incentivo y mover conductores al lugar correcto. La definición previa de tres o cuatro métricas con umbrales claros — si el tiempo de espera supera X minutos en la franja Y, activo el incentivo de zona Z — produce mejores resultados operativos que cualquier revisión exhaustiva del dashboard completo porque elimina el costo de decidir qué información importa en el momento en que más importa.",
+        "en": "When 15 charts are available and there is no prior criterion for which ones matter in that moment, the brain searches for consistency across the data before acting — it waits for several charts to confirm the same problem before intervening. In a situation with 15 available drivers facing 35 incoming requests over the next 20 minutes, that search for confirmation consumes precisely the time window in which activating an incentive and moving drivers to the right location was still possible. Defining three or four metrics with clear thresholds in advance — if wait time exceeds X minutes in window Y, activate zone Z incentive — produces better operational outcomes than any exhaustive dashboard review because it eliminates the cost of deciding which information matters at the moment it matters most."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Los mismos 40 datos que saturan la atención cuando se revisan todos juntos cada mañana son perfectamente manejables cuando están organizados en tres niveles: un conjunto pequeño de métricas de alerta en tiempo real para los coordinadores que toman decisiones operativas en el día, un conjunto de reportes semanales automatizados para identificar tendencias antes de que sean problemas, y un análisis mensual completo para decisiones de estructura de la plataforma. Esa organización no cambia los datos disponibles — cambia el ritmo y el contexto en que se consumen, que es lo que determina si producen decisiones mejores o simplemente más tiempo revisando paneles.",
+        "en": "The same 40 data points that overwhelm attention when reviewed all together each morning are perfectly manageable when organized across three levels: a small set of real-time alert metrics for the coordinators making operational decisions during the day, a set of automated weekly reports for identifying trends before they become problems, and a complete monthly analysis for platform structure decisions. That organization doesn't change the available data — it changes the rhythm and context in which it is consumed, which is what determines whether it produces better decisions or simply more time reviewing dashboards."
+      }
+    },
+    {
+      "type": "quote",
+      "text": {
+        "es": "El primer año revisaba el dashboard como un velocímetro: para saber si la operación estaba viva. Al año y medio lo simplifiqué a cuatro métricas con alertas automáticas. No reduje los datos disponibles — los mismos reportes siguen ahí. Pero dejé de revisar el panel completo cada mañana y empecé a recibir una notificación cuando algo específico salía del rango normal. En los tres meses siguientes, el tiempo de espera promedio bajó de 7.2 a 5.8 minutos porque las intervenciones llegaban a tiempo, no dos horas después del pico.",
+        "en": "In the first year I checked the dashboard like a speedometer: to know if the operation was alive. A year and a half in I simplified it to four metrics with automatic alerts. I didn't reduce the available data — the same reports are still there. But I stopped reviewing the full panel every morning and started receiving a notification when something specific left the normal range. In the following three months, average wait time dropped from 7.2 to 5.8 minutes because interventions arrived on time, not two hours after the peak."
+      },
+      "attribution": {
+        "es": "Operador de plataforma de movilidad con cuatro ciudades activas en el norte de México",
+        "en": "Mobility platform operator with four active cities in northern Mexico"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El dashboard más útil en una operación de ride-hailing regional no es el que más métricas muestra — es el que ha eliminado todo lo que no produce una decisión diferente cuando cambia. Ese proceso de eliminación no ocurre automáticamente ni con la configuración por defecto de ninguna plataforma: requiere identificar, durante las primeras semanas con datos reales, qué números revisaste antes de actuar y cuáles consultaste después del hecho para confirmar lo que ya había pasado. La primera categoría merece estar al frente del dashboard. La segunda merece ir a un reporte mensual que el equipo revisa en junta, no en el momento en que el coordinador toma una decisión de operación.",
+        "en": "The most useful dashboard in a regional ride-hailing operation is not the one that shows the most metrics — it is the one that has removed everything that doesn't produce a different decision when it changes. That elimination process doesn't happen automatically or through any platform's default configuration: it requires identifying, during the first weeks of real data, which numbers you actually reviewed before acting and which ones you consulted after the fact to confirm what had already happened. The first category belongs at the front of the dashboard. The second belongs in a monthly report the team reviews in a meeting, not at the moment a coordinator is making an operational decision."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El operador que lleva seis meses activo y puede responder en menos de dos minutos qué cuatro o cinco métricas revisa diariamente y qué decisión cambiaría cada una si se alejara de su valor normal tiene una ventaja operativa concreta sobre el que dice que revisa 'el dashboard general' cada mañana. No porque el segundo tenga malos datos — en la mayoría de los casos ambos tienen acceso a los mismos reportes — sino porque el primero tiene un modelo claro de su operación que separa las señales que requieren acción de las que documentan el estado. Esa separación no se configura en el panel de la plataforma: se construye con semanas de revisar datos reales, equivocarse sobre cuáles importan, y ajustar hasta que el conjunto de métricas que revisas de forma consistente coincide exactamente con el conjunto que produce decisiones reales.",
+        "en": "An operator six months in who can answer in under two minutes which four or five metrics they review daily and what decision each would change if it moved away from its normal value has a concrete operational advantage over one who says they check 'the general dashboard' each morning. Not because the second operator has bad data — in most cases both have access to the same reports — but because the first has a clear model of their operation that separates signals requiring action from those that document status. That separation is not configured in the platform panel: it is built through weeks of reviewing real data, being wrong about which metrics matter, and adjusting until the set of metrics you review consistently matches exactly the set that produces real decisions."
+      }
+    }
+  ]
+}

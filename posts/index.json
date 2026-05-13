@@ -1,6 +1,25 @@
 {
-  "generatedAt": "2026-05-12T14:08:14.684Z",
+  "generatedAt": "2026-05-13T14:08:21.595Z",
   "posts": [
+    {
+      "slug": "dashboard-reportes-operacion-ride-hailing",
+      "category": "product",
+      "title": {
+        "es": "El dashboard de tu operación: reportes que cambian decisiones vs los que se acumulan sin leer",
+        "en": "Your operation's dashboard: reports that change decisions vs the ones that accumulate unread"
+      },
+      "excerpt": {
+        "es": "Un dashboard con 20 métricas activas no es más visibilidad — es ruido. Los operadores que identifican las cuatro o cinco métricas que mapean directamente a acciones terminan el análisis en diez minutos con un plan.",
+        "en": "A dashboard with 20 active metrics is not more visibility — it is noise. Operators who identify the four or five metrics that map directly to actions finish the analysis in ten minutes with a plan."
+      },
+      "heroImage": "https://raw.githubusercontent.com/jonatanvazquez/cabgo-blog-content/main/images/dashboard-reportes-operacion-ride-hailing.jpg",
+      "heroImageAlt": {
+        "es": "Ilustración isométrica de un operador de ride-hailing simplificando su dashboard: a la izquierda un monitor con 16 paneles de gráficas superpuestos y una figura abrumada; a la derecha un dashboard limpio con cuatro métricas de alerta de alto contraste y un operador sereno revisando una notificación en el teléfono",
+        "en": "Isometric illustration of a ride-hailing operator simplifying their dashboard: on the left a monitor packed with 16 overlapping chart panels and an overwhelmed figure; on the right a clean dashboard with four high-contrast alert metrics and a composed operator reviewing a phone notification"
+      },
+      "publishedAt": "2026-05-13",
+      "readingMinutes": 9
+    },
     {
       "slug": "geofencing-operacion-ride-hailing",
       "category": "product",
