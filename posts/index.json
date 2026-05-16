@@ -1,6 +1,25 @@
 {
-  "generatedAt": "2026-05-15T14:10:33.490Z",
+  "generatedAt": "2026-05-16T14:07:59.606Z",
   "posts": [
+    {
+      "slug": "ocr-documentacion-conductores-ride-hailing",
+      "category": "product",
+      "title": {
+        "es": "OCR en documentación de conductores: qué campos validar automáticamente y cuándo no",
+        "en": "OCR for driver documentation: which fields to validate automatically and when not to"
+      },
+      "excerpt": {
+        "es": "La revisión manual de documentos crea un cuello de botella que reduce el pool activo. Qué automatizar y cuándo rutear a revisión humana define el retorno del OCR en el onboarding.",
+        "en": "Manual document review creates a bottleneck that shrinks the active driver pool. Knowing what to automate versus route to human review defines OCR's real return in driver onboarding."
+      },
+      "heroImage": "https://raw.githubusercontent.com/jonatanvazquez/cabgo-blog-content/main/images/ocr-documentacion-conductores-ride-hailing.jpg",
+      "heroImageAlt": {
+        "es": "Ilustración isométrica de validación automática de documentos de conductores: teléfono con licencia siendo escaneada y badges de confianza por campo en teal y verde, pantalla secundaria con campos en ámbar marcados para revisión humana, y panel de estado con tres rutas de aprobación",
+        "en": "Isometric illustration of automatic driver document validation: a phone scanning a license with per-field confidence badges in teal and green, a secondary screen with amber-flagged fields routed to human review, and a status panel showing three approval paths"
+      },
+      "publishedAt": "2026-05-16",
+      "readingMinutes": 9
+    },
     {
       "slug": "facturacion-electronica-corporativa-ride-hailing",
       "category": "product",
