@@ -1,6 +1,25 @@
 {
-  "generatedAt": "2026-05-16T14:07:59.606Z",
+  "generatedAt": "2026-05-17T14:18:42.847Z",
   "posts": [
+    {
+      "slug": "offline-first-flujo-ride-hailing",
+      "category": "product",
+      "title": {
+        "es": "Offline-first en ride-hailing: los tres momentos del flujo donde la conectividad decide si el viaje ocurre",
+        "en": "Offline-first in ride-hailing: the three flow moments where connectivity decides whether the trip happens"
+      },
+      "excerpt": {
+        "es": "Offline-first no significa que toda la app funcione sin internet. Significa que los tres momentos del flujo donde la pérdida de señal rompe el viaje sean resilientes — y que el resto pueda fallar de forma degradada sin detener la operación.",
+        "en": "Offline-first doesn't mean the whole app works without internet. It means the three moments in the flow where signal loss breaks the trip are resilient — and the rest can fail gracefully without stopping the operation."
+      },
+      "heroImage": "https://raw.githubusercontent.com/jonatanvazquez/cabgo-blog-content/main/images/offline-first-flujo-ride-hailing.jpg",
+      "heroImageAlt": {
+        "es": "Ilustración isométrica de resiliencia de conectividad en ride-hailing: teléfono del conductor mostrando confirmación de aceptación con animación de retry mientras la barra de señal cae, cuadrícula urbana con zona sin WiFi y ruta GPS en teal guardada en buffer, y teléfono del pasajero con última posición conocida del conductor y badge de sincronización al recuperar señal",
+        "en": "Isometric illustration of ride-hailing connectivity resilience: a driver phone showing trip-acceptance confirmation with a retry animation as the signal bar drops, an urban grid with a no-WiFi zone and a teal cached GPS breadcrumb trail, and a passenger phone showing the driver's last known position with a sync badge as connectivity returns"
+      },
+      "publishedAt": "2026-05-17",
+      "readingMinutes": 9
+    },
     {
       "slug": "ocr-documentacion-conductores-ride-hailing",
       "category": "product",
