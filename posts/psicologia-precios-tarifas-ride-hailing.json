@@ -1,0 +1,266 @@
+{
+  "slug": "psicologia-precios-tarifas-ride-hailing",
+  "category": "strategy",
+  "title": {
+    "es": "Psicología de precios en ride-hailing: cuándo la tarifa redonda convence más que el precio exacto",
+    "en": "Pricing psychology in ride-hailing: when the round fare converts better than the exact price"
+  },
+  "excerpt": {
+    "es": "El precio que muestra tu app señala justicia tanto como costo. Entender cuándo una tarifa redonda convierte mejor que un precio exacto mejora resultados sin tocar tu estructura de costos.",
+    "en": "The fare your app shows signals fairness as much as cost. Knowing when round fares convert better than precise prices shifts results without changing your economics."
+  },
+  "heroImage": "https://raw.githubusercontent.com/jonatanvazquez/cabgo-blog-content/main/images/psicologia-precios-tarifas-ride-hailing.jpg",
+  "heroImageAlt": {
+    "es": "Ilustración isométrica de psicología de precios en ride-hailing: dos paneles comparativos mostrando una tarifa redonda de $50 con flecha de conversión verde y pasajeros confirmando el viaje, versus un precio preciso de $47.30 con elementos de cálculo — odómetro, regla de distancia, reloj — y un panel flotante de ganancias del conductor con meta de turno claramente legible",
+    "en": "Isometric illustration of ride-hailing pricing psychology: two comparative panels showing a round $50 fare with a green conversion arrow and passengers confirming the trip, versus a precise $47.30 price with calculation elements — an odometer, distance ruler, clock — and a floating driver earnings panel with a clearly readable shift target"
+  },
+  "heroImagePrompt": "Split isometric scene on pricing psychology in ride-hailing: on the left, a large round price tag displaying a clean '$50' in bold type with a green upward conversion arrow and two small passenger silhouettes boarding a car with a satisfied posture. On the right, a digital display showing '$47.30' surrounded by small calculation elements — a mini odometer, a distance ruler, a stopwatch — with a passenger figure examining the breakdown with a magnifying glass. Between the two panels, a floating bar graph comparing confirmation rates. In the lower right corner, a driver-side earnings dashboard showing a round daily target of '$500' with a progress bar nearly full, next to a smaller panel showing a decimal earnings total of '$487.60'.",
+  "publishedAt": "2026-05-18",
+  "readingMinutes": 9,
+  "keywords": {
+    "es": [
+      "psicología de precios ride-hailing LATAM",
+      "tarifas redondas vs precisas taxi app",
+      "conversión precio pasajero plataforma movilidad",
+      "pricing psychology operador taxi regional",
+      "surge pricing percepción pasajero ride-hailing",
+      "formato tarifa confirmación viaje app taxi",
+      "precio exacto redondo conductor ingresos plataforma"
+    ],
+    "en": [
+      "pricing psychology ride-hailing LATAM",
+      "round vs precise fares taxi app",
+      "fare display conversion passenger mobility platform",
+      "pricing psychology regional taxi operator",
+      "surge pricing passenger perception ride-hailing",
+      "fare confirmation format trip app taxi",
+      "round price driver earnings platform"
+    ]
+  },
+  "author": {
+    "name": "Equipo Cabgo",
+    "role": {
+      "es": "Plataforma de movilidad",
+      "en": "Mobility platform"
+    }
+  },
+  "cta": {
+    "heading": {
+      "es": "¿Listo para lanzar tu propia app de movilidad?",
+      "en": "Ready to launch your own mobility app?"
+    },
+    "body": {
+      "es": "Configura tu marca, tus tarifas y tus servicios en semanas, no en meses. Cabgo te entrega la plataforma, tú te quedas con la operación y la marca.",
+      "en": "Set up your brand, pricing and services in weeks, not months. Cabgo ships the platform — you keep the operation and the brand."
+    },
+    "buttonLabel": {
+      "es": "Empezar ahora",
+      "en": "Get started"
+    },
+    "buttonHref": "/empezar"
+  },
+  "seo": {
+    "metaTitle": {
+      "es": "Psicología de tarifas en ride-hailing regional | Cabgo",
+      "en": "Pricing psychology for ride-hailing operators | Cabgo"
+    },
+    "metaDescription": {
+      "es": "Cuándo las tarifas redondas generan más conversión que los precios exactos en ride-hailing regional LATAM, y cómo el formato del precio afecta al pasajero.",
+      "en": "When round fares generate more conversion than precise prices in regional ride-hailing, and how the fare display affects passenger behavior in LATAM markets."
+    }
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La tarifa que tu app muestra al pasajero antes de confirmar el viaje tiene dos efectos que ocurren simultáneamente: informa el precio y emite una señal sobre si ese precio es justo. El número que el pasajero ve en esa pantalla no se procesa únicamente como información económica — se procesa también como una señal de cómo fue calculado el precio y si el operador tiene una estructura de cobro transparente o arbitraria. Ese proceso de interpretación ocurre en fracciones de segundo y determina si el pasajero confirma el viaje o abre otra app para comparar. La mayoría de los operadores de ride-hailing regional toman la decisión del formato de tarifa — redonda o precisa, con decimales o sin ellos — por convención técnica o por lo que la plataforma muestra por defecto, sin considerar que esa decisión tiene un efecto medible en la tasa de conversión del primer paso del flujo.",
+        "en": "The fare your app shows a passenger before they confirm a trip does two things simultaneously: it communicates a price and it emits a signal about whether that price is fair. The number the passenger sees on that screen is not processed purely as economic information — it is also processed as a signal about how the price was calculated and whether the operator has a transparent or arbitrary pricing structure. That interpretation happens in fractions of a second and determines whether the passenger confirms the trip or opens another app to compare. Most regional ride-hailing operators make the fare format decision — round or precise, with decimals or without — by technical convention or by platform defaults, without considering that the choice has a measurable effect on conversion at the first step of the flow."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Este artículo es para operadores que ya tienen una estructura de tarifas funcional y que quieren entender qué variable del formato de precio tiene impacto en el comportamiento del pasajero y del conductor. No se trata de cambiar el precio base ni la estructura de costos — se trata de entender qué señal emite el número que ya decidiste cobrar, y si la forma en que lo muestras refuerza o debilita esa señal. La distinción no es trivial: un operador con 150 conductores en una ciudad media que mejora su tasa de conversión en el paso de confirmación de tarifa en cinco puntos porcentuales no necesita cambiar nada más para ver un efecto directo en el número de viajes completados por semana.",
+        "en": "This article is for operators who already have a working fare structure and want to understand which fare format variable affects passenger and driver behavior. The subject is not changing the base price or the cost structure — it is understanding the signal the number you have already decided to charge emits, and whether the way you display it reinforces or weakens that signal. The distinction is not trivial: a 150-driver operator in a mid-size city who improves their fare confirmation conversion rate by five percentage points doesn't need to change anything else to see a direct effect on the number of completed trips per week."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "precio-es-producto-no-finanzas",
+      "text": {
+        "es": "Por qué el formato del precio es parte del producto, no de las finanzas",
+        "en": "Why fare format is a product decision, not a finance one"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "En ride-hailing, el pasajero ve el precio antes de comprometerse con el viaje. Ese momento — la pantalla de confirmación con la tarifa estimada visible — es un punto de decisión, no solo de información. La investigación en psicología del consumidor documenta consistentemente que los números redondos generan una percepción de precio estándar, fácilmente comparable y predecible: 'siempre cobran $50 al aeropuerto'. Los números precisos generan una percepción diferente: el precio fue calculado específicamente para este viaje, con una lógica de distancia y tiempo que justifica el número exacto. Ninguna de las dos señales es mejor en abstracto — la utilidad de cada una depende del contexto de compra y de la expectativa que el pasajero tiene sobre cómo debería calcularse el precio de un viaje en ese mercado.",
+        "en": "In ride-hailing, the passenger sees the price before committing to the trip. That moment — the confirmation screen with the estimated fare visible — is a decision point, not just an information point. Consumer psychology research consistently documents that round numbers generate a perception of a standard, easily comparable, and predictable price: 'they always charge $50 to the airport.' Precise numbers generate a different perception: the price was calculated specifically for this trip, with a distance-and-time logic that justifies the exact number. Neither signal is better in the abstract — the usefulness of each depends on the purchase context and on what the passenger expects about how a trip price in that market should be calculated."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El error más frecuente que los operadores cometen en este punto es tratar el formato del precio como un detalle de interfaz sin consecuencias en la decisión del pasajero. El precio redondo en un mercado de tarifa por distancia — donde el pasajero sabe que el viaje debería costar diferente según el tráfico — genera desconfianza, no comodidad: el pasajero asume que el precio fue fijado arbitrariamente sin considerar las variables del viaje actual. El precio preciso en un mercado de tarifa fija por ruta — donde el pasajero tiene la expectativa de que el viaje siempre cuesta lo mismo — genera confusión: '$47.30 al aeropuerto' se siente como un operador que no conoce bien su propio producto. El formato correcto no depende del sistema de cobro sino de la expectativa que el pasajero ya trae al momento de pedir el viaje.",
+        "en": "The most common error operators make at this point is treating fare format as an interface detail with no consequences for passenger decisions. A round price in a distance-based market — where the passenger knows the trip should cost differently depending on traffic — generates distrust, not comfort: the passenger assumes the price was set arbitrarily without considering the variables of the current trip. A precise price in a fixed-route market — where the passenger expects the trip always costs the same — generates confusion: '$47.30 to the airport' feels like an operator who doesn't know their own product. The right format depends not on the billing system but on the expectation the passenger already brings to the moment of requesting the trip."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "tarifas-redondas-cuando-funcionan",
+      "text": {
+        "es": "Cuándo las tarifas redondas generan más confianza",
+        "en": "When round fares build more trust"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Las tarifas redondas funcionan mejor en contextos donde el pasajero tiene una expectativa de precio estándar y donde la variabilidad de la tarifa sería percibida como inconsistencia en lugar de como justicia de cálculo. El caso más claro es la tarifa fija de aeropuerto: el pasajero que lleva meses viajando al aeropuerto local sabe cuánto debería costar ese trayecto. Una tarifa de $200 pesos se registra como 'precio correcto del aeropuerto'. Una tarifa de $187 pesos se registra como '¿por qué es diferente a la última vez?' — lo que activa una verificación mental que puede llevar a comparar con otra app aunque la diferencia sea de trece pesos. La tarifa redonda en rutas fijas no hace que el pasajero perciba el precio como más caro: hace que lo perciba como más predecible, lo que en mercados con poca familiaridad con apps de movilidad es una señal de confianza más que de precio.",
+        "en": "Round fares work best in contexts where the passenger has an expectation of a standard price and where fare variability would be perceived as inconsistency rather than fair calculation. The clearest case is a fixed airport fare: the passenger who has traveled to the local airport for months knows what that route should cost. A fare of $200 pesos registers as 'the right airport price.' A fare of $187 pesos registers as 'why is it different from last time?' — which activates a mental check that may lead to comparing with another app even though the difference is thirteen pesos. The round fare on fixed routes doesn't make the passenger perceive the price as higher: it makes them perceive it as more predictable, which in markets with low familiarity with mobility apps is a trust signal more than a price signal."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El segundo contexto donde las tarifas redondas producen mejores resultados es en cuentas corporativas con límites de gasto por empleado. El pasajero corporativo que viaja en cuenta de la empresa no está comparando precios — está verificando que el cobro no excede su límite autorizado. Una tarifa de $100 pesos se verifica en un segundo: 'está bajo el límite'. Una tarifa de $97.40 produce el mismo resultado matemático pero genera un segundo de incertidumbre adicional mientras el pasajero verifica que no excede su tope. Ese cálculo mental no es un obstáculo real, pero sí es una fricción acumulada que el pasajero atribuye vagamente a la experiencia con la plataforma. En operaciones con 30 a 100 empleados de una empresa usando la plataforma diariamente, esa fricción se multiplica en decenas de decisiones de viaje por semana.",
+        "en": "The second context where round fares produce better results is in corporate accounts with per-employee spending limits. The corporate passenger traveling on the company account is not comparing prices — they are checking that the charge does not exceed their authorized limit. A fare of $100 pesos is verified in one second: 'under the limit.' A fare of $97.40 produces the same mathematical result but generates an extra second of uncertainty while the passenger verifies it doesn't exceed their cap. That mental calculation is not a real obstacle, but it is accumulated friction the passenger attributes vaguely to the experience with the platform. In operations with 30 to 100 employees from one company using the platform daily, that friction multiplies across dozens of trip decisions per week."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "precio-preciso-cuando-creible",
+      "text": {
+        "es": "Cuándo el precio preciso es más creíble",
+        "en": "When the precise price is more credible"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "En mercados donde el pasajero entiende que la tarifa se calcula por distancia y tiempo real, los precios precisos generan más confianza que los redondos. El pasajero que solicita un viaje de 6.7 km en una ciudad con tráfico variable espera que la tarifa refleje las condiciones actuales — no una tarifa fija que implica que la distancia no importa. En ese contexto, un precio de $63.80 pesos comunica que hay un cálculo real detrás del número, con una tarifa por kilómetro y un componente por tiempo que producen ese resultado específico. Un precio de $60 pesos planos en el mismo viaje comunica lo contrario: el operador redondeó por conveniencia, y el pasajero en un mercado con usuarios más familiarizados con apps de movilidad sabe que ese redondeo le favoreció o no según el día. La percepción de 'calculado para este viaje' genera más disposición a confirmar el precio que la percepción de 'precio estándar que se aplica sin importar el viaje'.",
+        "en": "In markets where the passenger understands the fare is calculated by actual distance and time, precise prices build more trust than round ones. A passenger requesting a 6.7 km trip in a city with variable traffic expects the fare to reflect current conditions — not a fixed price implying distance doesn't matter. In that context, a price of $63.80 pesos communicates there is a real calculation behind the number, with a per-kilometer rate and a time component that produce that specific result. A flat $60 pesos for the same trip communicates the opposite: the operator rounded for convenience, and the passenger in a market with users more familiar with mobility apps knows that rounding favored or didn't favor them on any given day. The perception of 'calculated for this trip' generates more willingness to confirm the price than the perception of 'standard price applied regardless of the trip.'"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El precio preciso también funciona mejor cuando el operador tiene competidores en el mercado y el pasajero tiene el hábito de comparar antes de confirmar. En mercados con penetración de dos o más apps de ride-hailing, el pasajero que compara entre plataformas procesa los precios como datos, no como señales — está buscando cuál es más barato en este viaje específico. En ese contexto, $63.80 vs $65.00 es una comparación legible: el número preciso implica que el sistema calcula exactamente, y eso es lo que el pasajero quiere verificar. Operadores que muestran tarifas redondas en mercados con competencia directa pueden estar perdiendo pasajeros no porque su precio sea más alto sino porque el precio redondo parece menos justificado que el precio calculado del competidor, independientemente de cuál sea el número real.",
+        "en": "Precise prices also work better when the operator has competitors in the market and the passenger has the habit of comparing before confirming. In markets with two or more ride-hailing apps, a passenger comparing platforms processes prices as data, not as signals — they are looking for which is cheaper for this specific trip. In that context, $63.80 vs $65.00 is a legible comparison: the precise number implies the system calculates exactly, and that is what the passenger wants to verify. Operators who show round fares in markets with direct competition may be losing passengers not because their price is higher but because the round price seems less justified than the competitor's calculated price, regardless of what the actual numbers are."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "efecto-redondeo-conductor",
+      "text": {
+        "es": "El efecto del redondeo en la percepción del conductor",
+        "en": "How rounding affects driver earnings perception"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La psicología de precios en ride-hailing no solo afecta al pasajero — también afecta cómo el conductor percibe sus ingresos y decide sus horas de trabajo. Los conductores de plataformas en LATAM frecuentemente operan con metas de ingreso diario que establecen ellos mismos. Un conductor con una meta de $500 pesos por turno toma la decisión de seguir trabajando o terminar en función de qué tan cerca está de ese número. Las plataformas que muestran las ganancias en tiempo real con centavos — '$487.60 acumulados' — producen un comportamiento distinto al de las que redondean al peso más cercano — '$488 acumulados'. La diferencia no está en el número sino en la legibilidad de la distancia a la meta: '$488 vs $500' es una brecha de doce pesos, fácil de traducir en 'un viaje más de distancia media'. '$487.60 vs $500' es una brecha de $12.40 que requiere más procesamiento para traducirla en una decisión concreta.",
+        "en": "Pricing psychology in ride-hailing does not only affect passengers — it also affects how drivers perceive their earnings and decide their working hours. Platform drivers in LATAM frequently operate with self-set daily income targets. A driver with a $500-peso-per-shift target decides whether to continue or end their shift based on how close they are to that number. Platforms that display real-time earnings with centavos — '$487.60 accumulated' — produce different behavior than those that round to the nearest peso — '$488 accumulated.' The difference is not in the number but in the legibility of the distance to the target: '$488 vs $500' is a twelve-peso gap, easy to translate into 'one more average-distance trip.' '$487.60 vs $500' is a $12.40 gap that requires more processing to translate into a concrete decision."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El efecto más documentado en este contexto es el 'goal gradient': cuanto más cerca está el conductor de su meta, más motivado está para completarla. Plataformas que hacen legible esa distancia con números redondos en el panel de ganancias producen más turnos extendidos que las que muestran centavos, porque el conductor puede calcular sin fricción cuántos viajes más necesita para llegar al número que fijó como meta. Esto no significa que el operador deba falsear las ganancias — significa que el formato de presentación en el panel del conductor debería ser distinto al de la pantalla del pasajero. El conductor necesita claridad para gestionar su turno; el pasajero necesita señales de justicia para confirmar el precio. Esas dos necesidades apuntan a formatos distintos del mismo número, y una plataforma bien configurada puede manejar ambos de forma independiente.",
+        "en": "The most documented effect in this context is the 'goal gradient': the closer a driver is to their target, the more motivated they are to reach it. Platforms that make that distance legible with round numbers in the earnings panel produce more extended shifts than those that show centavos, because the driver can calculate without friction how many more trips they need to reach the number they set as their target. This does not mean operators should distort earnings — it means the display format in the driver panel should differ from the passenger screen. The driver needs clarity to manage their shift; the passenger needs fairness signals to confirm the price. Those two needs point to different formats of the same number, and a well-configured platform can manage both independently."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "surge-pricing-legibilidad-multiplos",
+      "text": {
+        "es": "Surge pricing y la legibilidad de los múltiplos de tarifa",
+        "en": "Surge pricing and the readability of fare multipliers"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La psicología del precio se vuelve más compleja cuando el operador activa surge pricing en eventos de alta demanda — partidos de fútbol, fin de semana de fiestas patronales, conciertos. En esos momentos, el pasajero que ve un precio mayor al habitual no solo procesa el número: procesa el concepto de que el precio cambió, y busca una justificación que haga ese cambio aceptable. El multiplicador que el sistema aplica — 1.5x, 1.8x, 2x — afecta directamente qué tan legible resulta esa justificación. Un multiplicador de 1.5x es fácil de interpretar: 'cincuenta por ciento más'. Un multiplicador de 1.3x produce la respuesta opuesta: el pasajero no tiene una forma rápida de calcular cuánto más está pagando, y esa opacidad hace que el precio se perciba como arbitrario aunque sea técnicamente más bajo que el 1.5x. La legibilidad del múltiplo — no su magnitud — es el factor que determina si el pasajero acepta el precio de surge como razonable.",
+        "en": "Pricing psychology becomes more complex when the operator activates surge pricing during high-demand events — soccer matches, town-festival weekends, concerts. In those moments, the passenger who sees a higher-than-usual price doesn't just process the number: they process the concept that the price changed, and they look for a justification that makes that change acceptable. The multiplier the system applies — 1.5x, 1.8x, 2x — directly affects how legible that justification is. A 1.5x multiplier is easy to interpret: 'fifty percent more.' A 1.3x multiplier produces the opposite response: the passenger has no quick way to calculate how much more they are paying, and that opacity makes the price feel arbitrary even though it is technically lower than 1.5x. The readability of the multiplier — not its magnitude — is the factor that determines whether the passenger accepts the surge price as reasonable."
+      }
+    },
+    {
+      "type": "list",
+      "style": "bullet",
+      "intro": {
+        "es": "Las decisiones de formato en surge pricing que afectan la aceptación del pasajero son:",
+        "en": "The surge pricing format decisions that affect passenger acceptance are:"
+      },
+      "items": {
+        "es": [
+          "Usa múltiplos legibles: 1.5x, 2x y 2.5x tienen una traducción intuitiva en porcentaje; 1.3x, 1.7x y 1.85x no la tienen, lo que hace que el precio parezca arbitrario aunque sea más bajo",
+          "Muestra el precio total, no el multiplicador: el pasajero que ve '$150 — alta demanda' toma una decisión más rápida que el que ve '1.5x tarifa base — $100 + $50 de cargo adicional'",
+          "Explica el motivo en lenguaje operativo, no económico: 'Alta demanda en este horario' es más aceptado que 'Precio dinámico activado' — ambos dicen lo mismo pero uno se percibe como información y el otro como advertencia",
+          "Mantén los múltiplos en números que el conductor pueda calcular rápidamente: un conductor que sabe que está en modo 2x puede calcular sus ganancias por viaje sin revisar la app, lo que mantiene su atención en la operación, no en la aritmética"
+        ],
+        "en": [
+          "Use readable multipliers: 1.5x, 2x, and 2.5x have an intuitive percentage translation; 1.3x, 1.7x, and 1.85x do not, making the price feel arbitrary even when it is lower",
+          "Show the total price, not the multiplier: a passenger who sees '$150 — high demand' makes a faster decision than one who sees '1.5x base fare — $100 + $50 additional charge'",
+          "Explain the reason in operational language, not economic: 'High demand at this time' is more accepted than 'Dynamic pricing activated' — both say the same thing but one reads as information, the other as a warning",
+          "Keep multipliers at numbers drivers can calculate quickly: a driver who knows they are in 2x mode can estimate per-trip earnings without opening the app, keeping their attention on the operation, not the arithmetic"
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "explorar-efecto-mercado",
+      "text": {
+        "es": "Cómo explorar el efecto en tu mercado sin cambiar la estructura real",
+        "en": "How to explore the effect in your market without changing actual structure"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La mayoría de los operadores de ride-hailing regional no tienen acceso a herramientas de A/B testing de producto ni al volumen de viajes que haría estadísticamente significativo un experimento formal. Eso no significa que el efecto del formato de precio sea inaccesible — significa que la forma de explorarlo es observacional y secuencial. El cambio más simple es aplicar el formato en el tipo de ruta donde el efecto esperado es más claro, esperar cuatro a seis semanas para que el comportamiento se estabilice, y medir dos indicadores: la tasa de cancelación después de ver la tarifa y el número de consultas de soporte relacionadas con preguntas sobre cómo se calculó el cobro. Ninguno de los dos indicadores es perfecto, pero juntos dan una señal de si el formato del precio generó más o menos fricción en el paso de confirmación.",
+        "en": "Most regional ride-hailing operators don't have access to product A/B testing tools or the trip volume that would make a formal experiment statistically significant. That doesn't mean the effect of fare format is inaccessible — it means the way to explore it is observational and sequential. The simplest change is to apply the format on the type of route where the expected effect is clearest, wait four to six weeks for behavior to stabilize, and measure two indicators: the cancellation rate after seeing the fare and the number of support queries about how the charge was calculated. Neither indicator is perfect, but together they signal whether the fare format generated more or less friction at the confirmation step."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El cambio con menor riesgo para cualquier operador es comenzar con las tarifas fijas de rutas conocidas — aeropuerto, zonas industriales, rutas corporativas frecuentes — y redondearlas al número entero más cercano con un ajuste máximo de 5%. Una tarifa de $187 a $190 o a $200, dependiendo de cuál se ajusta mejor al posicionamiento de precio de esa ruta, no cambia el costo real para el pasajero de forma apreciable, pero cambia la señal que emite el precio. Si después de ese cambio el porcentaje de viajes que llegan a la pantalla de confirmación y terminan en cancelación disminuye, hay una señal de que el formato redondo genera menor fricción en ese segmento. Si no hay cambio en ese indicador, el operador también tiene información: el formato del precio no es la variable que produce fricción en ese mercado, y el trabajo es encontrar cuál sí lo es.",
+        "en": "The lowest-risk change for any operator is to start with fixed fares on known routes — airport, industrial zones, frequent corporate routes — and round them to the nearest whole number with a maximum 5% adjustment. A fare of $187 moved to $190 or $200, depending on which fits the price positioning of that route better, does not change the real cost for the passenger appreciably, but it changes the signal the price emits. If after that change the percentage of trips that reach the confirmation screen and end in cancellation decreases, there is a signal that the round format generates less friction in that segment. If there is no change in that indicator, the operator has information too: fare format is not the variable producing friction in that market, and the work is to find out which one is."
+      }
+    },
+    {
+      "type": "quote",
+      "text": {
+        "es": "Teníamos la tarifa del aeropuerto en $195 pesos porque ese era el número que salía de calcular la distancia promedio con nuestra tarifa por kilómetro. Nadie cuestionó el número cuando lo configuramos. Un día cambiamos a $200 pesos — cinco pesos más — y los mensajes de soporte preguntando '¿por qué este precio?' cayeron a la mitad en tres semanas. El número redondo no era más caro para el pasajero en términos reales, pero sí era más fácil de entender y de aceptar sin preguntas.",
+        "en": "We had the airport fare at $195 pesos because that was the number that came out of calculating the average distance at our per-kilometer rate. No one questioned it when we set it. One day we moved to $200 pesos — five pesos more — and support messages asking 'why this price?' dropped by half in three weeks. The round number wasn't more expensive for the passenger in real terms, but it was much easier to understand and accept without questions."
+      },
+      "attribution": {
+        "es": "Operador con 85 conductores activos en una ciudad del Bajío, México",
+        "en": "Operator with 85 active drivers in a mid-size city in the Bajío region, Mexico"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El formato en que presentas el precio no es neutral. Cada número que el pasajero ve en la pantalla de confirmación activa un proceso de evaluación que ocurre antes de que se tome la decisión de confirmar o cancelar. Los operadores que entienden qué tipo de señal emite su precio — 'calculado para este viaje' vs 'precio estándar de esta ruta' — pueden ajustar el formato para reforzar la señal correcta en el contexto correcto. Eso no requiere cambiar la estructura de tarifas ni rediseñar la app: requiere decidir con criterio, no por defecto técnico, qué número mostrar y en qué formato mostrarlo.",
+        "en": "The format in which you present the price is not neutral. Every number the passenger sees on the confirmation screen activates an evaluation process that happens before the decision to confirm or cancel. Operators who understand what signal their price emits — 'calculated for this trip' vs 'standard price for this route' — can adjust the format to reinforce the right signal in the right context. That doesn't require changing the fare structure or redesigning the app: it requires deciding with criteria, not by technical default, what number to show and in what format to show it."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El mismo principio aplica al panel del conductor: la forma en que presentas las ganancias acumuladas en tiempo real afecta cuánto trabaja el conductor y qué decisiones toma cerca del final del turno. Una plataforma que muestra centavos en el panel del conductor no está siendo más precisa — está siendo menos útil para el conductor que gestiona su turno en función de cuánto le falta para llegar a su meta. Los formatos de precio no son detalles de interfaz: son decisiones de producto que afectan el comportamiento de cada participante en la operación. Tomarlas con deliberación en lugar de por defecto de configuración es una ventaja que no aparece en ningún pitch deck pero sí aparece en los números de cada semana.",
+        "en": "The same principle applies to the driver panel: how you present real-time accumulated earnings affects how much the driver works and what decisions they make near the end of a shift. A platform that shows centavos in the driver panel is not being more precise — it is being less useful for the driver managing their shift based on how far they are from their target. Fare formats are not interface details: they are product decisions that affect the behavior of every participant in the operation. Making them deliberately rather than by configuration default is an advantage that doesn't appear in any pitch deck but does appear in the numbers every week."
+      }
+    }
+  ]
+}
