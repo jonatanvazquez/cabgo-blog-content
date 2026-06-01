@@ -1,0 +1,278 @@
+{
+  "slug": "programa-referidos-pasajeros-ride-hailing",
+  "category": "strategy",
+  "title": {
+    "es": "Programa de referidos en ride-hailing regional: por qué el 70% termina como subsidio",
+    "en": "Referral programs in regional ride-hailing: why 70% end up as pure subsidy"
+  },
+  "excerpt": {
+    "es": "La mayoría de los programas de referidos en ride-hailing regional producen pasajeros de un solo viaje, no usuarios habituales. El problema no está en el monto del incentivo — está en quién puede referir y cuándo.",
+    "en": "Most referral programs in regional ride-hailing produce single-trip passengers, not habitual users. The problem isn't the incentive amount — it's who can refer and when."
+  },
+  "heroImage": "https://raw.githubusercontent.com/jonatanvazquez/cabgo-blog-content/main/images/programa-referidos-pasajeros-ride-hailing.jpg",
+  "heroImageAlt": {
+    "es": "Ilustración isométrica de programa de referidos en ride-hailing regional: smartphone con panel de código compartido a la izquierda, tarjeta analítica central con columnas de usuarios que abandonan y usuarios habituales, y panel de tres métricas de crecimiento real a la derecha",
+    "en": "Isometric illustration of a regional ride-hailing referral program: smartphone with share code panel on the left, central analytics card with churned versus habitual user columns, and three-metric growth panel on the right"
+  },
+  "heroImagePrompt": "Isometric split composition showing a passenger referral program for a regional ride-hailing platform. On the left, a smartphone screen displaying a referral code share panel with a teal copy-code button and three small passenger silhouette icons connected by teal arrows flowing outward. In the center foreground, a floating analytics card split vertically: left half shows a descending red line with a faded single-trip passenger icon and a strikethrough dollar sign, right half shows an ascending teal line with five stacked trip-receipt icons representing habitual users. On the right, a compact isometric dashboard panel showing three metric tiles stacked vertically: a percentage tile with a habitual-user filter icon, a thirty-day trip count tile in teal, and a cost-per-retained-user tile with a green checkmark. In the background, a simplified mid-size city street grid with small vehicle icons and two pedestrian figures near a referral QR code poster.",
+  "publishedAt": "2026-06-01",
+  "readingMinutes": 9,
+  "keywords": {
+    "es": [
+      "programa referidos ride-hailing regional",
+      "cómo diseñar referidos plataforma taxi local",
+      "referidos pasajeros movilidad LATAM",
+      "growth orgánico operador ride-hailing",
+      "incentivos referidos usuarios habituales movilidad",
+      "costo adquisición referidos vs publicidad digital",
+      "retención pasajeros referidos ride-hailing"
+    ],
+    "en": [
+      "referral program ride-hailing regional",
+      "how to design referrals local taxi platform",
+      "passenger referrals mobility LATAM",
+      "organic growth regional ride-hailing operator",
+      "referral incentives habitual users mobility",
+      "referral acquisition cost vs digital advertising",
+      "passenger retention referred users ride-hailing"
+    ]
+  },
+  "author": {
+    "name": "Equipo Cabgo",
+    "role": {
+      "es": "Plataforma de movilidad",
+      "en": "Mobility platform"
+    }
+  },
+  "cta": {
+    "heading": {
+      "es": "¿Listo para lanzar tu propia app de movilidad?",
+      "en": "Ready to launch your own mobility app?"
+    },
+    "body": {
+      "es": "Configura tu marca, tus tarifas y tus servicios en semanas, no en meses. Cabgo te entrega la plataforma, tú te quedas con la operación y la marca.",
+      "en": "Set up your brand, pricing and services in weeks, not months. Cabgo ships the platform — you keep the operation and the brand."
+    },
+    "buttonLabel": {
+      "es": "Empezar ahora",
+      "en": "Get started"
+    },
+    "buttonHref": "/empezar"
+  },
+  "seo": {
+    "metaTitle": {
+      "es": "Programa de referidos en ride-hailing regional | Cabgo",
+      "en": "Referral programs in regional ride-hailing | Cabgo"
+    },
+    "metaDescription": {
+      "es": "Cómo diseñar un programa de referidos en ride-hailing regional que produzca usuarios habituales, no pasajeros de un solo viaje subsidiado.",
+      "en": "How to design a referral program for regional ride-hailing that produces habitual users, not single-trip subsidized passengers."
+    }
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El operador regional que lanza un programa de referidos pensando en él como un canal de adquisición está resolviendo el problema equivocado. Los programas de referidos en ride-hailing no adquieren pasajeros — multiplican relaciones existentes. Cuando el pasajero que refiere todavía no tiene un hábito establecido de uso de la plataforma, el programa produce cazadores de descuentos: personas que llegan, usan uno o dos viajes subsidiados y desaparecen cuando se acaba el incentivo. La diferencia entre un programa que genera crecimiento durable y uno que genera costo de subsidio sin retorno no está en el monto del incentivo — está en quién es el referente cuando comparte el código.",
+        "en": "The regional operator who launches a referral program thinking of it as an acquisition channel is solving the wrong problem. Referral programs in ride-hailing don't acquire passengers — they multiply existing relationships. When the passenger making the referral doesn't yet have an established habit of platform use, the program produces discount hunters: people who arrive, use one or two subsidized trips, and disappear when the incentive ends. The difference between a program that generates durable growth and one that generates subsidy cost without return isn't in the incentive amount — it's in who the referrer is when they share the code."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Este artículo es para operadores con 200 a 600 pasajeros activos mensuales que tienen una base de consumo estable y quieren hacerla crecer de forma orgánica sin aumentar el gasto en publicidad. La tesis no es que los programas de referidos no funcionan en ride-hailing regional: es que solo funcionan cuando el referente es un pasajero que ya usa la plataforma con frecuencia, no uno que él mismo fue captado recientemente con un descuento. Entender cómo diseñar la mecánica, cuándo lanzarla y cómo medir si está produciendo usuarios habituales o pasajeros de un solo viaje subsidiado determina si esta inversión genera crecimiento compuesto o un drenaje de caja con métricas de adquisición infladas.",
+        "en": "This article is for operators with 200 to 600 monthly active passengers who have a stable consumer base and want to grow it organically without increasing advertising spend. The thesis is not that referral programs don't work in regional ride-hailing: it's that they only work when the referrer is a passenger who already uses the platform with frequency, not one who was recently acquired through a discount themselves. Understanding how to design the mechanic, when to launch it, and how to measure whether it's producing habitual users or single-trip subsidized passengers determines whether this investment generates compounding growth or a cash drain with inflated acquisition metrics."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "referido-perfil-retencion-distinto",
+      "text": {
+        "es": "El pasajero referido tiene un perfil de retención distinto al que llega por publicidad",
+        "en": "The referred passenger has a different retention profile than one who arrives through advertising"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El pasajero que llega a través del referido de alguien de su red tiene un punto de partida diferente al que llegó por un anuncio digital. El referido llega con contexto: alguien de confianza usó la plataforma y la recomendó desde su propia experiencia. Ese contexto reduce el umbral del primer viaje indiferente que produce la mayoría del churn post-primer-viaje: el referido ya tiene una expectativa de que algo vale la pena porque alguien que conoce se lo dice. En operaciones regionales que rastrean la fuente de adquisición, los pasajeros referidos que completan un segundo viaje en los 7 días siguientes al primero superan consistentemente al promedio de la plataforma para pasajeros de publicidad pagada en 15 a 25 puntos porcentuales.",
+        "en": "The passenger who arrives through a referral from someone in their network starts in a different position than one who came from a digital ad. The referred passenger arrives with context: someone they trust used the platform and recommended it from their own experience. That context lowers the indifferent-first-trip threshold that produces most post-first-trip churn: the referred passenger already has an expectation that something is worth trying, because someone they know is saying so. In regional operations that track acquisition source, referred passengers who complete a second trip within 7 days of the first consistently outperform the platform average for paid-advertising passengers by 15 to 25 percentage points."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Esa ventaja de retención se compone con el tiempo. Un pasajero que llegó por referido de confianza y tuvo un primer viaje satisfactorio no solo tiene mayor probabilidad de regresar — también tiene mayor probabilidad de convertirse él mismo en referente a los 60 a 90 días. El ciclo de referidos, cuando funciona, no requiere que el operador reinvierta en cada nuevo ciclo: el pasajero retenido se convierte en la fuente del siguiente referido sin un costo de adquisición por referido. La condición que hace este ciclo autosostenible en lugar de de una sola vuelta es que el referente ya use la plataforma con frecuencia cuando comparte el código — no que esté motivado por el incentivo para referir a alguien antes de haber construido su propio hábito de uso.",
+        "en": "That retention advantage compounds over time. A passenger who arrived through a trusted referral and had a satisfactory first trip doesn't just have a higher probability of returning — they also have a higher probability of becoming a referrer themselves within 60 to 90 days. The referral loop, when it works, doesn't require the operator to reinvest in each new cycle: the retained passenger becomes the source for the next referral without a per-referral acquisition cost. The condition that makes this loop self-sustaining rather than single-cycle is that the referrer already uses the platform with frequency when they share the code — not that they're motivated by the incentive to refer someone before they've built their own usage habit."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "mecanica-que-convierte-programa-en-subsidio",
+      "text": {
+        "es": "La mecánica que convierte el programa en un subsidio",
+        "en": "The mechanic that turns the program into a subsidy"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La mecánica de referidos más común en ride-hailing regional tiene esta forma: cualquier pasajero puede compartir un código, tanto el referente como el referido reciben un descuento en uno o dos viajes, y el referido se marca como exitoso cuando el pasajero referido completa su primer viaje con descuento. Esa mecánica tiene tres problemas estructurales que producen costos de subsidio sin crecimiento durable:",
+        "en": "The most common referral mechanic in regional ride-hailing looks like this: any passenger can share a code, both the referrer and the referred receive a discount on one or two trips, and the referral is counted as successful when the referred passenger completes their first discounted trip. That mechanic has three structural problems that produce subsidy costs without durable growth:"
+      }
+    },
+    {
+      "type": "list",
+      "style": "bullet",
+      "items": {
+        "es": [
+          "Cualquier pasajero puede referir: al no distinguir entre el habitual —4 o más viajes en los últimos 30 días— y el pasajero reciente —1 o 2 viajes desde que se registró—, el programa activa el incentivo del referente sobre alguien que todavía no tiene experiencia suficiente para respaldar la plataforma con credibilidad. Un pasajero con dos viajes en 30 días que comparte un código no está recomendando desde la experiencia — está distribuyendo un cupón.",
+          "El incentivo del referente se paga al primer viaje del referido: eso define el éxito del referido en el momento más fácil de lograr —un viaje subsidiado—, no en el momento más valioso —cuando el referido completa 3 o más viajes en 30 días. El operador paga el incentivo al referente por un pasajero que luego abandona, sin ningún mecanismo que vincule el pago al resultado que importa.",
+          "El incentivo del referido es un descuento en el primer viaje: el pasajero sensible al precio que usa el descuento y después vuelve a su alternativa habitual no fue retenido — fue activado temporalmente. El descuento en el primer viaje tiene la tasa de retención más baja de todos los incentivos de referidos disponibles, porque no crea hábito de uso: solo reduce la fricción de precio una sola vez."
+        ],
+        "en": [
+          "Any passenger can refer: by not distinguishing between the habitual passenger — 4 or more trips in the last 30 days — and the recent passenger — 1 or 2 trips since signing up — the program activates the referrer's incentive for someone who doesn't yet have enough experience to credibly endorse the platform. A passenger with two trips in 30 days sharing a code isn't recommending from experience — they're distributing a coupon.",
+          "The referrer's incentive is paid at the referred passenger's first trip: that defines referral success at the easiest-to-achieve moment — a subsidized trip — not at the most valuable one — when the referred passenger completes 3 or more trips in 30 days. The operator pays the referrer's incentive for a passenger who then churns, with no mechanism tying the payment to the outcome that matters.",
+          "The referred passenger's incentive is a first-trip discount: the price-sensitive passenger who uses the discount and then returns to their usual alternative was not retained — they were temporarily activated. A first-trip discount has the lowest retention rate of all available referral incentives, because it doesn't create a usage habit: it only reduces price friction one time."
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "cuando-lanzar-programa-referidos",
+      "text": {
+        "es": "Cuándo tiene sentido lanzar el programa — y cuándo no",
+        "en": "When it makes sense to launch the program — and when it doesn't"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Un programa de referidos tiene dos condiciones para ser rentable en una operación regional. La primera: la tasa de segundo viaje en 7 días de la operación debe superar el 45%. Si la mayoría de los pasajeros no regresa de forma natural después del primer viaje, un programa de referidos incorpora nuevos pasajeros que tendrán el mismo problema de retención que el resto de la base, pero con el costo adicional del incentivo. El operador que lanza referidos con una tasa de segundo viaje en 7 días por debajo del 40% está acelerando la adquisición sin tener la maquinaria de retención que hace que cada pasajero nuevo valga lo que cuesta captarlo. El resultado es un ciclo de subsidio que crece con el programa: cuantos más referidos activa, más pasajeros subsidiados abandona sin que el volumen activo real aumente de forma proporcional.",
+        "en": "A referral program has two conditions for being cost-effective in a regional operation. The first: the operation's 7-day second-trip rate must exceed 45 percent. If most passengers don't naturally return after their first trip, a referral program brings in new passengers who will have the same retention problem as the rest of the base, but with the added cost of the incentive. The operator who launches referrals with a 7-day second-trip rate below 40 percent is accelerating acquisition without having the retention machinery that makes each new passenger worth what it costs to bring in. The result is a growing subsidy cycle: the more referrals they activate, the more subsidized passengers churn without real active volume increasing proportionally."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La segunda condición es que la operación tenga al menos 150 a 200 pasajeros con 4 o más viajes en los últimos 30 días. Ese es el grupo desde el cual el programa puede extraer referentes creíbles — los pasajeros que recomiendan desde la experiencia real, no desde el incentivo. Una operación con 500 pasajeros activos mensuales de los cuales solo 80 tienen 4 o más viajes en el mes tiene una base de referentes potenciales demasiado pequeña para generar volumen significativo con la restricción de acceso que hace funcionar el programa. El operador que cumple las dos condiciones tiene las bases para que el programa sea un multiplicador de crecimiento. El que no las cumple y lanza de todas formas obtiene métricas de activación que se ven bien a los 30 días y un balance negativo a los 90.",
+        "en": "The second condition is that the operation must have at least 150 to 200 passengers with 4 or more trips in the last 30 days. That is the pool from which the program can draw credible referrers — passengers who recommend from genuine experience, not from the incentive. An operation with 500 monthly active passengers of which only 80 have 4 or more trips in the month has too small a base of potential referrers to generate significant volume with the access restriction that makes the program work. The operator who meets both conditions has the foundation for the program to function as a growth multiplier. The one who doesn't meet them and launches anyway gets activation metrics that look good at 30 days and a negative balance at 90."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "incentivo-referente-usuario-habitual",
+      "text": {
+        "es": "Cómo restringir el acceso para que el referente sea el habitual, no el cazador de cupones",
+        "en": "How to restrict access so the referrer is the habitual user, not the coupon hunter"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La mecánica que produce mejor calidad de referidos en operaciones regionales tiene dos ajustes respecto al modelo estándar. El primero es restringir el acceso al código de referido a pasajeros con un umbral mínimo de uso — 4 o más viajes en los últimos 30 días. Esa restricción hace que el código sea valioso para el usuario habitual —que quiere compartir algo que usa genuinamente— e invisible para el pasajero ocasional —que todavía no tiene experiencia suficiente para respaldar la plataforma con credibilidad—. También hace que la invitación se perciba como diferenciada en lugar de como una campaña masiva: el pasajero habitual que recibe acceso al código percibe que la plataforma lo reconoce como usuario frecuente, lo que refuerza su vínculo con la operación independientemente de si termina refiriendo a alguien.",
+        "en": "The mechanic that consistently produces better referral quality in regional operations has two adjustments to the standard model. The first is restricting access to the referral code to passengers with a minimum usage threshold — 4 or more trips in the last 30 days. That restriction makes the code valuable to the habitual user — who wants to share something they genuinely use — and invisible to the occasional passenger — who doesn't yet have enough experience to credibly endorse the platform. It also makes the invitation feel differentiated rather than like a mass campaign: the habitual passenger who receives code access perceives that the platform recognizes them as a frequent user, which reinforces their connection with the operation regardless of whether they end up referring anyone."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El segundo ajuste es condicionar el incentivo del referente a que el referido complete no uno sino tres o más viajes en 30 días. El operador que paga el incentivo del referente solo cuando el referido llega a 3 viajes en 30 días está comprando un usuario habitual, no un primer viaje. El costo por usuario retenido con esta mecánica es típicamente entre un 30 y un 50% menor que con el modelo estándar, porque el incentivo no se paga por los pasajeros de un solo viaje que luego abandonan. La desventaja es un menor volumen bruto de referidos activados — menos referidos totales alcanzan el umbral. El intercambio es mejor calidad de referidos y menor costo total de incentivo por usuario retenido. El operador que optimiza el programa para activaciones en lugar de para usuarios retenidos paga más y retiene menos.",
+        "en": "The second adjustment is making the referrer's incentive conditional on the referred passenger completing not one but three or more trips within 30 days. The operator who pays the referrer's incentive only when the referred passenger reaches 3 trips in 30 days is purchasing a habitual user, not a first trip. The cost per retained user under this mechanic is typically 30 to 50 percent lower than with the standard model, because the incentive isn't paid for single-trip passengers who then churn. The downside is lower raw referral volume — fewer total referrals reach the threshold. The trade-off is better referral quality and lower total incentive cost per retained user. The operator who optimizes the program for activations rather than retained users pays more and retains less."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "forma-incentivo-retencion-referido",
+      "text": {
+        "es": "La forma del incentivo que produce mejor retención del pasajero referido",
+        "en": "The incentive form that produces the best referred-passenger retention"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La forma que toma el incentivo para el pasajero referido importa tanto como el monto. Tres tipos de incentivo son comunes en operaciones regionales, con resultados de retención distintos:",
+        "en": "The form the incentive takes for the referred passenger matters as much as the amount. Three types of incentive are common in regional operations, with different retention outcomes:"
+      }
+    },
+    {
+      "type": "list",
+      "style": "bullet",
+      "items": {
+        "es": [
+          "Descuento en el primer viaje: produce la tasa de retención más baja de las tres opciones. Atrae al pasajero sensible al precio, que usa el descuento y evalúa en el siguiente viaje si la plataforma sigue siendo conveniente sin el beneficio. La tasa de segundo viaje en 7 días de los referidos que llegan con descuento de primer viaje es en promedio similar a la del pasajero que llega por publicidad digital — el descuento no produce el efecto diferencial que se esperaría de un referido de confianza.",
+          "Crédito distribuido en múltiples viajes pequeños: un crédito de $40 distribuido en 8 viajes de $5 requiere que el referido use la plataforma más de una vez para consumirlo. Esa estructura produce tasas de segundo y tercer viaje consistentemente mayores que el descuento en el primer viaje, porque cada viaje dentro del período de crédito tiene un incentivo incremental para elegir la plataforma. El referido que consume 5 de 8 viajes de crédito en 30 días ha construido suficiente experiencia para evaluar si la plataforma vale sin el beneficio.",
+          "Beneficio de servicio en el trayecto frecuente del referido: la opción con mayor efecto de hábito a largo plazo. Dar al referido tarifa fija en el recorrido que hace regularmente — o prioridad de asignación con el conductor que el referente usa habitualmente — produce el mayor nivel de fidelización, porque el beneficio está vinculado a una necesidad real recurrente, no a un descuento genérico que se agota."
+        ],
+        "en": [
+          "First-trip discount: produces the lowest retention rate of the three options. It attracts price-sensitive passengers who use the discount and then evaluate on the next occasion whether the platform is still convenient without the benefit. The 7-day second-trip rate for referred passengers who arrive with a first-trip discount is on average similar to that of passengers arriving through digital advertising — the discount doesn't produce the differential effect one would expect from a trusted referral.",
+          "Credit distributed across multiple small trips: a $40 credit split into 8 trips of $5 each requires the referred passenger to use the platform more than once to consume it. That structure consistently produces higher second- and third-trip rates than a first-trip discount, because each trip within the credit period has an incremental incentive to choose the platform. The referred passenger who consumes 5 of 8 credit trips in 30 days has built enough experience to evaluate whether the platform is worth it without the benefit.",
+          "Service benefit on the referred passenger's frequent route: the option with the greatest long-term habit effect. Giving the referred passenger a fixed fare on the route they regularly travel — or priority assignment with the driver the referrer habitually uses — produces the highest loyalty level, because the benefit is tied to a real recurring need, not a generic discount that gets used up."
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "metricas-crecimiento-real-vs-subsidio",
+      "text": {
+        "es": "Las tres métricas que distinguen crecimiento real de subsidio encubierto",
+        "en": "The three metrics that distinguish real growth from hidden subsidy"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El operador que corre un programa de referidos sin rastrear estas tres métricas sabe cuántos referidos se activaron, pero no sabe si produjeron valor:",
+        "en": "The operator who runs a referral program without tracking these three metrics knows how many referrals activated, but not whether they produced value:"
+      }
+    },
+    {
+      "type": "list",
+      "style": "bullet",
+      "items": {
+        "es": [
+          "Porcentaje de referidos que completan 3 o más viajes en 30 días: el umbral del usuario habitual. Un programa con menos del 35% de referidos llegando a ese umbral está produciendo principalmente pasajeros de un solo viaje. Si el programa lleva 60 días corriendo o más y ese porcentaje no supera el 35%, el problema está en la mecánica, no en el presupuesto.",
+          "Costo por usuario retenido —no por usuario adquirido—: dividir el costo total del programa entre el número de referidos que llegaron a 3 o más viajes en 30 días. Si ese costo supera el costo equivalente de retención por canales orgánicos directos —mensaje de bienvenida, respuesta a calificaciones bajas, comunicación contextual—, el programa no tiene justificación económica frente a las alternativas disponibles.",
+          "Tasa de retención de referidos a 90 días comparada con la base general: si los pasajeros referidos no muestran mayor retención a los 90 días que el promedio de la plataforma, el programa está produciendo el mismo perfil de usuario que los otros canales, con el costo adicional del incentivo doble. Ese resultado indica que los referentes no son suficientemente habituales para transmitir credibilidad — el mechanic necesita ajustarse antes de escalar el presupuesto."
+        ],
+        "en": [
+          "Percentage of referred passengers completing 3 or more trips in 30 days: the habitual user threshold. A program with fewer than 35 percent of referred passengers reaching that threshold is producing mainly single-trip passengers. If the program has been running for 60 days or more and that percentage doesn't exceed 35 percent, the problem is in the mechanic, not the budget.",
+          "Cost per retained user — not per acquired user: divide the total program cost by the number of referred passengers who reached 3 or more trips in 30 days. If that cost exceeds the equivalent retention cost through direct organic channels — welcome message, low-rating response, contextual availability communication — the program has no economic justification compared to available alternatives.",
+          "90-day retention rate of referred passengers compared to the general base: if referred passengers don't show higher retention at 90 days than the platform average, the program is producing the same user profile as other channels, with the added cost of the double incentive. That result indicates the referrers are not habitual enough to transmit credibility — the mechanic needs adjustment before scaling the budget."
+        ]
+      }
+    },
+    {
+      "type": "quote",
+      "text": {
+        "es": "Lanzamos el programa sin restricciones: cualquier usuario podía compartir el código y los dos recibían descuento en el primer viaje. En tres meses activamos 340 referidos. Cuando revisamos cuántos habían hecho un segundo viaje en los 30 días siguientes, la tasa era del 29% — peor que el promedio de la app. Estábamos pagando el incentivo del referente y del referido para atraer usuarios que abandonaban igual que los demás. Cambiamos la mecánica: solo pasajeros con 5 o más viajes en el último mes podían compartir código, y el incentivo del referente se pagaba cuando el referido llegaba a 3 viajes. El volumen bajó a la mitad, pero el 56% de esos referidos llegó a los 3 viajes en 30 días. El programa empezó a funcionar cuando dejamos de medir activaciones y empezamos a medir usuarios que volvían.",
+        "en": "We launched the program with no restrictions: any user could share the code and both got a discount on their first trip. In three months we activated 340 referrals. When we looked at how many had taken a second trip within the following 30 days, the rate was 29 percent — worse than the app average. We were paying both the referrer's and the referred passenger's incentive to bring in users who churned the same as everyone else. We changed the mechanic: only passengers with 5 or more trips in the last month could share a code, and the referrer's incentive was paid when the referred passenger reached 3 trips. Volume dropped by half, but 56 percent of those referred passengers reached 3 trips within 30 days. The program started working when we stopped measuring activations and started measuring users who came back."
+      },
+      "attribution": {
+        "es": "Operador con 480 pasajeros activos mensuales en dos ciudades del norte de México",
+        "en": "Operator with 480 monthly active passengers across two cities in northern Mexico"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Un programa de referidos que produce crecimiento orgánico compuesto en ride-hailing regional no es más complejo de operar que uno que produce costos de subsidio — requiere decisiones de diseño distintas desde el inicio. Las condiciones que lo hacen funcionar — tasa de segundo viaje en 7 días por encima del 45%, base de habituales suficiente, mecánica que restringe el acceso al código a los frecuentes y condiciona el pago del incentivo del referente al hábito del referido — son las mismas condiciones que hacen rentable cualquier otra inversión en crecimiento. El programa que ignora esas condiciones no falla de forma visible: acumula costo de forma gradual mientras produce métricas de adquisición que parecen sanas hasta que el operador mide qué pasó con esos usuarios 60 días después.",
+        "en": "A referral program that produces compounding organic growth in regional ride-hailing is not more complex to run than one that generates subsidy costs — it requires different design decisions from the start. The conditions that make it work — a 7-day second-trip rate above 45 percent, a sufficient habitual-user base, a mechanic that restricts code access to frequent users and ties the referrer's incentive to the referred passenger's habit — are the same conditions that make any other growth investment cost-effective. The program that ignores those conditions doesn't fail visibly: it accumulates cost gradually while producing acquisition metrics that look healthy until the operator measures what happened to those users 60 days later."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El operador que trata los referidos como un multiplicador de la retención —no como un sustituto de ella— construye un programa que mejora con el tiempo. Cada cohorte de referidos bien diseñados agrega usuarios habituales que a su vez se convierten en referentes con mayor credibilidad y mayor confianza que cualquier campaña publicitaria puede producir. En una ciudad de 200,000 a 400,000 habitantes, el operador que tiene el 15 al 20% de su base activa haciendo referidos desde la experiencia real sostiene una posición en el boca en boca local que un competidor que llega con descuentos no puede replicar en los primeros tres meses de operación. La ventaja del crecimiento orgánico por referidos no está en la velocidad — está en la calidad de los usuarios que produce y en el costo del siguiente ciclo, que cae en lugar de subir.",
+        "en": "The operator who treats referrals as a multiplier of retention — not a substitute for it — builds a program that improves over time. Each cohort of well-designed referrals adds habitual users who in turn become referrers with higher credibility and more trust than any advertising campaign can produce. In a city of 200,000 to 400,000 people, the operator who has 15 to 20 percent of their active base making referrals from genuine experience holds a position in local word-of-mouth that a competitor arriving with discounts cannot replicate in their first three months of operation. The advantage of organic referral growth isn't speed — it's the quality of the users it produces and the cost of the next cycle, which falls rather than rises."
+      }
+    }
+  ]
+}
