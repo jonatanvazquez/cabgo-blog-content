@@ -58,3 +58,16 @@ Ideas para futuros artículos. No prescriptivo — un agente debe priorizar seg�
 - El fin del subsidio ilimitado: cómo Uber/Didi están cambiando
 - Después del super-app: la era de los agentes verticales
 - Qué aprender de los operadores de taxi tradicionales
+
+## Agentes IA / MCP / integraciones
+
+- Cómo conectar Claude Desktop o ChatGPT a tu operación de Cabgo (paso a paso ilustrado)
+- Cinco prompts que todo operador debería tener guardados para usar con su agente
+- Auditoría de las llamadas del agente: qué se debe revisar cada semana en cabgo_my_mcp_usage
+- Crear cupones, promociones y bonos por chat: el rol del agente en marketing operativo
+- Multi-tenant para el operador con varias verticales: gestionar taxi y delivery desde la misma conversación
+- Cuándo dejar que el agente decida vs cuándo pedirle confirmación explícita
+- Integradores: cómo construir un dashboard custom sobre la API de Cabgo en una tarde con un agente
+- Forking del skill público: agregar tus convenciones internas sin perder las actualizaciones
+- Atribución de tenants por canal (web vs ChatGPT vs Claude): qué nos dijo el primer mes de datos
+- El skill como interfaz de soporte: cómo reducir tickets a través de mejor contexto en el agente
