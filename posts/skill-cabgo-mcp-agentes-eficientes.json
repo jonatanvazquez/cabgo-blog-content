@@ -1,0 +1,202 @@
+{
+  "slug": "skill-cabgo-mcp-agentes-eficientes",
+  "category": "product",
+  "title": {
+    "es": "Skill público de Cabgo MCP: cómo hacer que cualquier agente opere tu plataforma sin tropiezos",
+    "en": "Cabgo MCP public skill: making any agent operate your platform without stumbling"
+  },
+  "excerpt": {
+    "es": "Publicamos un skill abierto que enseña a Claude Code, Claude Desktop, ChatGPT y Cursor los patrones del servidor MCP de Cabgo: enrutamiento multi-tenant, default persistente, confirmaciones de dos pasos y los anti-patrones que evitan rechazos.",
+    "en": "We published an open skill that teaches Claude Code, Claude Desktop, ChatGPT and Cursor the conventions of Cabgo's MCP server: multi-tenant routing, persistent default, two-step confirmations and the anti-patterns that prevent rejections."
+  },
+  "heroImage": "/blog/skill-cabgo-mcp-agentes.jpg",
+  "heroImageAlt": {
+    "es": "Ilustración de un agente conectándose al servidor MCP de Cabgo con instrucciones precargadas",
+    "en": "Illustration of an agent connecting to Cabgo's MCP server with preloaded instructions"
+  },
+  "heroImagePrompt": "Minimalist editorial illustration of a robot hand reaching toward a glowing card labeled 'SKILL.md' that floats above a server rack. Warm neutral palette with one orange accent. Cabgo brand tone — confident, technical, friendly. No text rendered as part of the image except the small 'SKILL.md' card.",
+  "publishedAt": "2026-06-05",
+  "readingMinutes": 5,
+  "keywords": {
+    "es": [
+      "skill MCP Cabgo",
+      "Claude Code Cabgo plataforma movilidad",
+      "ChatGPT MCP connector taxi delivery",
+      "agente IA operar app movilidad",
+      "multi-tenant MCP operador transporte",
+      "instalar skill agente IA delivery",
+      "Cabgo Builder agente Claude ChatGPT"
+    ],
+    "en": [
+      "Cabgo MCP skill",
+      "Claude Code Cabgo mobility platform",
+      "ChatGPT MCP connector taxi delivery",
+      "AI agent operate mobility app",
+      "multi-tenant MCP transport operator",
+      "install AI agent skill delivery",
+      "Cabgo Builder agent Claude ChatGPT"
+    ]
+  },
+  "author": {
+    "name": "Equipo Cabgo",
+    "role": {
+      "es": "Plataforma de movilidad",
+      "en": "Mobility platform"
+    }
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Conectaste Cabgo a ChatGPT, Claude o Cursor a través de su servidor MCP. La primera vez que el operador pregunta «crea mi app de delivery», el agente devuelve un error porque intentó llamar a una herramienta de descubrimiento antes de la de creación. La segunda vez, tras crear dos apps, no pasa el tenantId en la siguiente acción y el servidor responde con tenant_mismatch. La tercera, recibe la tarjeta de confirmación de Tier-4 y la trata como un error reintentable. Todos esos tropiezos tienen una causa común: el agente está aprendiendo las convenciones del catálogo por ensayo y error.",
+        "en": "You connected Cabgo to ChatGPT, Claude or Cursor through its MCP server. The first time the operator says \"create my delivery app,\" the agent returns an error because it tried calling a discovery tool before the creation tool. The second time, after creating two apps, it doesn't pass tenantId on the next action and the server responds with tenant_mismatch. The third, it receives the Tier-4 confirmation card and treats it as a retryable error. All three trip on the same root cause: the agent is learning the catalog conventions by trial and error."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Publicamos un skill público que resuelve esto. Es un archivo SKILL.md bajo licencia MIT en github.com/CabgoApp/cabgo-mcp-operator-skill que cualquier agente puede cargar para operar el servidor MCP de Cabgo correctamente desde la primera llamada.",
+        "en": "We published a public skill that fixes this. It's an MIT-licensed SKILL.md file at github.com/CabgoApp/cabgo-mcp-operator-skill that any agent can load to operate Cabgo's MCP server correctly from the first call."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "que-ensena-el-skill",
+      "text": {
+        "es": "Las cinco convenciones que enseña el skill",
+        "en": "The five conventions the skill teaches"
+      }
+    },
+    {
+      "type": "list",
+      "style": "number",
+      "intro": {
+        "es": "El skill carga estas convenciones como contexto del agente cuando detecta que la tarea es de Cabgo:",
+        "en": "The skill loads these conventions as agent context when it detects that the task is Cabgo-shaped:"
+      },
+      "items": {
+        "es": [
+          "El bearer se vincula a un usuario, no a un tenant: un operador rutinariamente posee múltiples apps (taxi y delivery, por ejemplo) y el mismo token cubre todas",
+          "Siempre hay un tenant por defecto persistente cuando el operador tiene al menos uno: el primer cabgo_create_my_app se promueve solo, cabgo_set_default_tenant permite cambiarlo después",
+          "tenantId es un argumento opcional en cada herramienta de dashboard: acepta tanto el UUID como el slug (pidelo-express, taxi-express), y el servidor lo promueve al header X-Cabgo-Tenant",
+          "El operador recién conectado sin apps es un estado válido del flujo: las únicas herramientas llamables son las públicas más cabgo_create_my_app y cabgo_list_my_tenants",
+          "Las herramientas destructivas usan confirmación en dos pasos con HMAC y TTL de cinco minutos: la tarjeta de Tier-4 no es un error, es el confirmatorio antes de ejecutar"
+        ],
+        "en": [
+          "The bearer binds to a user, not a tenant: an operator routinely owns multiple apps (taxi and delivery, for example) and the same token covers all of them",
+          "There is always a persistent default tenant when the operator has at least one: the first cabgo_create_my_app promotes itself, cabgo_set_default_tenant lets the operator change it later",
+          "tenantId is an optional argument on every dashboard tool: it accepts both UUID and slug (pidelo-express, taxi-express), and the server promotes it to the X-Cabgo-Tenant header",
+          "The brand-new operator with zero apps is a valid flow state: the only callable tools are the public ones plus cabgo_create_my_app and cabgo_list_my_tenants",
+          "Destructive tools use a two-step HMAC confirmation with a five-minute TTL: the Tier-4 card is not an error, it's the confirmation step before execution"
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "antes-y-despues",
+      "text": {
+        "es": "Antes y después del skill",
+        "en": "Before and after the skill"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Sin el skill, un agente conectado al MCP de Cabgo aprende los patrones por ensayo y error. Pierde tokens en llamadas de descubrimiento previas, recibe errores de tenant_mismatch que tiene que interpretar, reintenta en bucle ante tarjetas de confirmación y a veces sugiere generar enlaces de Stripe dentro del chat — lo que violaría las políticas de comercio de OpenAI y Anthropic. Con el skill cargado, esos mismos errores desaparecen porque el agente sabe de antemano qué herramienta corresponde a cada intención del operador y qué patrón seguir para las operaciones destructivas o multi-tenant.",
+        "en": "Without the skill, an agent connected to Cabgo's MCP learns patterns by trial and error. It wastes tokens on discovery pre-calls, gets tenant_mismatch errors it has to interpret, retries in a loop when confirmation cards appear, and sometimes suggests generating Stripe links inside the chat — which would violate OpenAI's and Anthropic's commerce policies. With the skill loaded, those same errors disappear because the agent knows in advance which tool matches each operator intent and what pattern to follow for destructive or multi-tenant operations."
+      }
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "text": {
+        "es": "El skill también incluye una tabla de selección de herramientas: cuándo usar cabgo_create_my_app frente a cabgo_about, cabgo_my_app_status frente a cabgo_list_builds, cabgo_update_locale frente a cabgo_update_settings. Esas distinciones son las que más confunden a los modelos cuando solo ven el catálogo.",
+        "en": "The skill also includes a tool-selection table: when to use cabgo_create_my_app versus cabgo_about, cabgo_my_app_status versus cabgo_list_builds, cabgo_update_locale versus cabgo_update_settings. Those distinctions are the ones that confuse models most when they only see the catalog."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "como-instalarlo",
+      "text": {
+        "es": "Cómo instalarlo en tu agente",
+        "en": "How to install it in your agent"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El skill se distribuye como un único archivo de markdown. Tres rutas de instalación según el cliente del agente:",
+        "en": "The skill is distributed as a single markdown file. Three installation paths depending on the agent client:"
+      }
+    },
+    {
+      "type": "list",
+      "style": "bullet",
+      "items": {
+        "es": [
+          "Claude Code global: descarga el SKILL.md a ~/.claude/skills/cabgo-mcp-operator/ y se activa automáticamente en cualquier proyecto cuando el agente detecta una tarea de Cabgo",
+          "Claude Code por proyecto: el mismo archivo dentro de .claude/skills/cabgo-mcp-operator/ del repositorio limita el alcance a ese proyecto",
+          "Claude Desktop: deja el archivo bajo ~/Library/Application Support/Claude/skills/ en macOS o la ruta equivalente en otros sistemas",
+          "ChatGPT y Cursor: pega el contenido del SKILL.md en el campo de instrucciones personalizadas del cliente — sigue funcionando como referencia aunque sin auto-trigger"
+        ],
+        "en": [
+          "Global Claude Code: download SKILL.md to ~/.claude/skills/cabgo-mcp-operator/ and it auto-activates in any project when the agent detects a Cabgo task",
+          "Project-local Claude Code: the same file inside .claude/skills/cabgo-mcp-operator/ of the repo scopes it to that project",
+          "Claude Desktop: drop the file under ~/Library/Application Support/Claude/skills/ on macOS or the equivalent path on other systems",
+          "ChatGPT and Cursor: paste the SKILL.md content into the client's custom-instructions field — still works as a reference but without auto-trigger"
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "que-sigue",
+      "text": {
+        "es": "Qué sigue",
+        "en": "What's next"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El catálogo del MCP de Cabgo crece a medida que se añaden herramientas (auto-resolución de tenant por defecto persistente, atribución de origen de creación, locale-update por chat). El skill se mantiene como un archivo único bajo control de versiones para que cualquier integrador pueda forquearlo, agregar convenciones específicas de su operación y compartir mejoras con la comunidad. Para integradores que construyen sobre la API REST de Cabgo, el skill complementa la documentación interactiva en cabgo.app/api-docs porque cubre el comportamiento del agente, no solo el contrato del servidor.",
+        "en": "Cabgo's MCP catalog grows as new tools land (persistent-default tenant auto-resolution, creation-channel attribution, locale-update via chat). The skill ships as a single versioned file so any integrator can fork it, add operation-specific conventions and share improvements with the community. For integrators building on top of Cabgo's REST API, the skill complements the interactive documentation at cabgo.app/api-docs because it covers agent behavior, not just the server contract."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El repositorio está abierto en github.com/CabgoApp/cabgo-mcp-operator-skill. Los problemas y los pull requests llegan al mismo lugar.",
+        "en": "The repository is open at github.com/CabgoApp/cabgo-mcp-operator-skill. Issues and pull requests land in the same place."
+      }
+    }
+  ],
+  "cta": {
+    "heading": {
+      "es": "¿Listo para lanzar tu propia app de movilidad?",
+      "en": "Ready to launch your own mobility app?"
+    },
+    "body": {
+      "es": "Configura tu marca, tus tarifas y tus servicios en semanas, no en meses. Cabgo te entrega la plataforma; tú te quedas con la operación, los clientes y los ingresos. Y ahora con un skill público que hace que tu agente trabaje contigo desde el primer comando.",
+      "en": "Configure your brand, tariffs and services in weeks, not months. Cabgo ships the platform; you keep the operation, the customers and the revenue. And now with a public skill that makes your agent work alongside you from the first command."
+    },
+    "buttonLabel": {
+      "es": "Comenzar con Cabgo",
+      "en": "Get started with Cabgo"
+    },
+    "buttonHref": "/empezar"
+  },
+  "seo": {
+    "metaTitle": {
+      "es": "Skill MCP de Cabgo para agentes IA | Cabgo",
+      "en": "Cabgo MCP skill for AI agents | Cabgo"
+    },
+    "metaDescription": {
+      "es": "Skill público y MIT que enseña a Claude Code, Claude Desktop, ChatGPT y Cursor las convenciones del MCP de Cabgo: multi-tenant, default persistente y confirmaciones de dos pasos.",
+      "en": "MIT-licensed public skill that teaches Claude Code, Claude Desktop, ChatGPT and Cursor the conventions of Cabgo's MCP: multi-tenant routing, persistent default and two-step confirmations."
+    }
+  }
+}
