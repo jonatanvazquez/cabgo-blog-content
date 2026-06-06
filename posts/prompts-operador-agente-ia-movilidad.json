@@ -1,0 +1,362 @@
+{
+  "slug": "prompts-operador-agente-ia-movilidad",
+  "category": "product",
+  "title": {
+    "es": "Cinco prompts que todo operador debería tener guardados para trabajar con su agente IA",
+    "en": "Five prompts every operator should keep ready for working with their AI agent"
+  },
+  "excerpt": {
+    "es": "Los operadores que más valor extraen del agente no improvisan preguntas — tienen un conjunto pequeño de prompts probados que producen output accionable en el formato correcto, todos los días.",
+    "en": "Operators who get the most from their agent don't improvise questions — they keep a small set of tested prompts that reliably produce actionable output in the right format, every day."
+  },
+  "heroImage": "https://raw.githubusercontent.com/jonatanvazquez/cabgo-blog-content/main/images/prompts-operador-agente-ia-movilidad.jpg",
+  "heroImageAlt": {
+    "es": "Ilustración isométrica de un operador en un escritorio con cinco tarjetas de prompt flotando sobre la pantalla, cada una con un icono diferente",
+    "en": "Isometric illustration of an operator at a desk with five prompt cards floating above the screen, each with a different icon"
+  },
+  "heroImagePrompt": "Isometric workspace: an operator at a minimal desk with a laptop open to a chat interface. Five glowing rectangular prompt cards float in an arc above the laptop screen, each card with a small distinct icon: a clock, two person silhouettes, a coin stack, a megaphone, and a bar chart. A compact server rack in the background connected by a clean glowing line to the laptop. Teal accent on the cards, indigo background depth.",
+  "publishedAt": "2026-06-06",
+  "readingMinutes": 8,
+  "keywords": {
+    "es": [
+      "prompts agente IA operador movilidad",
+      "ChatGPT Claude MCP ride-hailing operador",
+      "prompts Cabgo MCP operador regional",
+      "automatizar reportes operación taxi con agente",
+      "resumen diario operación ride-hailing agente IA",
+      "comunicación conductores agente IA movilidad",
+      "cierre semanal ride-hailing con ChatGPT Claude"
+    ],
+    "en": [
+      "AI agent prompts mobility operator",
+      "ChatGPT Claude MCP ride-hailing operator",
+      "Cabgo MCP prompts regional operator",
+      "automate taxi operation reports with AI agent",
+      "daily ride-hailing operations summary AI agent",
+      "driver communication AI agent mobility",
+      "weekly close ride-hailing with ChatGPT Claude"
+    ]
+  },
+  "author": {
+    "name": "Equipo Cabgo",
+    "role": {
+      "es": "Plataforma de movilidad",
+      "en": "Mobility platform"
+    }
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Conectar un agente al MCP de Cabgo resuelve el acceso: a partir de ese momento, el agente puede consultar el estado de la operación, revisar métricas por conductor, actualizar configuraciones y ejecutar acciones con confirmación de dos pasos. Lo que no resuelve es la consistencia del output diario. Los operadores que más valor extraen del agente no son los que hacen preguntas más elaboradas — son los que tienen un conjunto pequeño de prompts guardados que producen exactamente el output que necesitan, en el formato que pueden usar sin editar. Sin ese conjunto, cada sesión empieza desde cero: una pregunta improvisada, una respuesta genérica, y un resultado que hay que reformatear antes de compartirlo. Con él, el agente y el operador trabajan el mismo esquema todos los días, lo que hace que el output de hoy sea directamente comparable con el de la semana anterior.",
+        "en": "Connecting an agent to Cabgo's MCP solves access: from that point on, the agent can check operation status, review driver metrics, update configurations and execute actions with two-step confirmation. What it doesn't solve is the consistency of daily output. Operators who get the most from their agent aren't the ones who ask more elaborate questions — they're the ones who keep a small set of stored prompts that produce exactly the output they need, in the format they can use without editing. Without that set, every session starts from scratch: an improvised question, a generic response, and a result that needs reformatting before it can be shared. With it, the agent and operator work from the same template every day, making today's output directly comparable to last week's."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Este artículo documenta cinco prompts de alta utilidad para operadores de ride-hailing regional con 40 a 150 conductores activos que ya tienen el MCP de Cabgo conectado a su agente — Claude Desktop, Claude Code, ChatGPT o Cursor. Para cada prompt explicamos cuándo usarlo, qué herramientas del servidor MCP activa, y qué formato de respuesta funciona mejor. El objetivo no es que el operador memorice las plantillas: es que las guarde en el cliente del agente como instrucciones personalizadas, o en un archivo de texto accesible para copiar y pegar al inicio de cualquier sesión de trabajo.",
+        "en": "This article documents five high-utility prompts for regional ride-hailing operators with 40 to 150 active drivers who already have Cabgo's MCP connected to their agent — Claude Desktop, Claude Code, ChatGPT or Cursor. For each prompt we explain when to use it, which MCP server tools it activates, and what response format works best. The goal isn't for the operator to memorize the templates: it's for them to save them in the agent client as custom instructions, or in a text file they can copy and paste at the start of any working session."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "prompt-generico-output-inconsistente",
+      "text": {
+        "es": "Por qué el prompt genérico produce output que no se puede reutilizar",
+        "en": "Why the generic prompt produces output you can't reuse"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Un agente conectado a un MCP responde al input que recibe. Cuando ese input es una pregunta abierta — «¿cómo estuvo el día?» — el agente infiere qué dimensión de «cómo estuvo» es relevante: ¿conductores activos? ¿viajes completados? ¿cancelaciones? ¿ingresos estimados? La inferencia es razonable, pero cada vez que el operador hace la misma pregunta en términos ligeramente distintos, el agente estructura el output de forma diferente. El resultado del lunes no tiene el mismo formato que el del jueves, lo que hace imposible compararlos de un vistazo. El operador que quiere saber si los conductores activos de esta semana son más o menos que los de la semana anterior tiene que leer dos narraciones en lugar de comparar dos números en la misma posición.",
+        "en": "An agent connected to an MCP responds to the input it receives. When that input is an open question — \"how did the day go?\" — the agent infers which dimension of \"how did it go\" is relevant: active drivers? completed trips? cancellations? estimated revenue? The inference is reasonable, but every time the operator asks the same question in slightly different terms, the agent structures the output differently. Monday's result doesn't have the same format as Thursday's, which makes it impossible to compare them at a glance. The operator who wants to know whether active drivers this week are up or down from last week has to read two narratives instead of comparing two numbers in the same position."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El antídoto no es escribir prompts rígidos — es escribir prompts con forma definida. Un prompt bien diseñado especifica dos cosas: qué dimensiones debe cubrir el agente y en qué formato debe presentar el resultado. Con eso, el agente sabe exactamente qué herramientas del MCP llamar sin preguntas adicionales, y el output tiene la misma estructura todos los días. El operador puede leerlo en 60 segundos y archivarlo para compararlo la próxima semana.",
+        "en": "The antidote isn't to write rigid prompts — it's to write prompts with defined structure. A well-designed prompt specifies two things: what dimensions the agent should cover and what format it should use to present the result. With that, the agent knows exactly which MCP tools to call without follow-up questions, and the output has the same structure every day. The operator can read it in 60 seconds and file it for comparison next week."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "prompt-resumen-turno",
+      "text": {
+        "es": "Prompt 1 — Resumen de turno: estado de la operación en 60 segundos",
+        "en": "Prompt 1 — Shift summary: operation status in 60 seconds"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El resumen de turno es el prompt más usado en operaciones de 60 a 130 conductores. Cubre el estado al cierre del día o del turno: cuántos conductores estuvieron activos, cuántos viajes se completaron, cuál fue la tasa de cancelación y cuáles fueron los tres conductores con más viajes y los tres con menos. El operador que tiene este prompt guardado lo pega al abrir el chat con el agente cada tarde y en dos minutos tiene el estado del día sin necesidad de abrir ningún dashboard. El agente activa cabgo_my_app_status y cabgo_driver_activity del servidor MCP para construir el cuadro completo sin que el operador tenga que especificar las herramientas.",
+        "en": "The shift summary is the most commonly used prompt in operations with 60 to 130 drivers. It covers the state at the end of the day or shift: how many drivers were active, how many trips were completed, what the cancellation rate was, and which three drivers had the most trips and which three had the fewest. The operator who has this prompt saved pastes it when opening the chat with the agent each afternoon and has the day's status in two minutes without needing to open any dashboard. The agent activates cabgo_my_app_status and cabgo_driver_activity from the MCP server to build the full picture without the operator specifying the tools."
+      }
+    },
+    {
+      "type": "list",
+      "style": "bullet",
+      "intro": {
+        "es": "Elementos que debe incluir el prompt de resumen de turno:",
+        "en": "Elements the shift summary prompt should include:"
+      },
+      "items": {
+        "es": [
+          "Período exacto: 'desde las 06:00 hasta las 22:00 de hoy' o 'turno de ayer completo' — sin esto, el agente elige el rango por inferencia",
+          "Dimensiones requeridas: conductores activos (total y porcentaje de la flota), viajes completados, tasa de cancelación, ingreso estimado por método de pago",
+          "Tabla de extremos: los tres conductores con más viajes y los tres con menos, con el número de viajes de cada uno",
+          "Formato de salida: tabla markdown para los extremos, dos líneas de resumen para el resto — sin narrativa libre",
+          "Cierre condicional: 'si la tasa de cancelación supera el 15%, agrega una nota con el horario de mayor incidencia'"
+        ],
+        "en": [
+          "Exact period: 'from 06:00 to 22:00 today' or 'yesterday's full shift' — without this, the agent picks the range by inference",
+          "Required dimensions: active drivers (total and fleet percentage), completed trips, cancellation rate, estimated revenue by payment method",
+          "Extremes table: the three drivers with the most trips and the three with fewest, with each driver's trip count",
+          "Output format: markdown table for extremes, two summary lines for the rest — no free narrative",
+          "Conditional close: 'if the cancellation rate exceeds 15%, add a note with the peak incidence window'"
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "prompt-conductores-inactivos",
+      "text": {
+        "es": "Prompt 2 — Conductores inactivos: quién no trabajó y desde cuándo",
+        "en": "Prompt 2 — Inactive drivers: who hasn't worked and for how long"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La inactividad de un conductor es una de las señales más tempranas de que algo está cambiando — puede ser una queja no atendida, una oferta de otra plataforma, o simplemente un problema de acceso a la app. En operaciones con más de 60 conductores registrados, el coordinador no detecta la inactividad con una revisión manual. Un prompt específico le da al agente instrucciones claras para consultar el historial de actividad a través de cabgo_driver_activity y devolver una lista ordenada por días sin viajes, que el coordinador puede usar directamente para hacer el seguimiento. Este prompt debería correrse una vez por semana, no diariamente: la inactividad significativa no cambia en 24 horas.",
+        "en": "Driver inactivity is one of the earliest signals that something is changing — it could be an unresolved complaint, an offer from another platform, or simply an access problem with the app. In operations with more than 60 registered drivers, the coordinator doesn't catch inactivity through manual review. A specific prompt gives the agent clear instructions to query activity history through cabgo_driver_activity and return a list sorted by days without trips, which the coordinator can use directly for follow-up. This prompt should run once per week, not daily: meaningful inactivity doesn't change in 24 hours."
+      }
+    },
+    {
+      "type": "list",
+      "style": "bullet",
+      "intro": {
+        "es": "Estructura del prompt de conductores inactivos:",
+        "en": "Structure of the inactive drivers prompt:"
+      },
+      "items": {
+        "es": [
+          "Umbral de tiempo: 'lista los conductores que no han completado ningún viaje en los últimos 3, 5 o 7 días — elige el umbral según la frecuencia habitual de tu flota'",
+          "Ordenamiento: por días consecutivos de inactividad, de mayor a menor",
+          "Columnas mínimas: nombre del conductor, último viaje registrado (fecha y hora), total de viajes en los últimos 30 días",
+          "Filtro opcional: 'excluye conductores marcados como vacaciones o baja temporal en el sistema'",
+          "Formato: tabla markdown sin narrativa adicional, máximo 20 filas para que quepa en pantalla sin scroll"
+        ],
+        "en": [
+          "Time threshold: 'list drivers who have not completed any trip in the last 3, 5, or 7 days — pick the threshold based on your fleet's normal frequency'",
+          "Sort order: by consecutive days of inactivity, highest to lowest",
+          "Minimum columns: driver name, last recorded trip (date and time), total trips in the last 30 days",
+          "Optional filter: 'exclude drivers flagged as vacation or temporary leave in the system'",
+          "Format: markdown table with no additional narrative, maximum 20 rows to fit on screen without scrolling"
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "prompt-mezcla-pagos-efectivo",
+      "text": {
+        "es": "Prompt 3 — Mezcla de pagos: control del efectivo por conductor en un solo vistazo",
+        "en": "Prompt 3 — Payment mix: cash control per driver in a single view"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El control de efectivo es el problema operativo más frecuente en flotas de LATAM, y el que más pérdidas invisibles produce cuando no se mide con regularidad. Un prompt de revisión de mezcla de pagos le pide al agente que consulte el saldo pendiente de cada conductor y clasifique cuáles están por encima del umbral definido. La clave para que este prompt funcione bien es incluir tres zonas de alerta en el propio texto: verde para el rango normal, amarilla cerca del límite, y roja cuando el saldo requiere acción inmediata del coordinador. Con ese marco, el output es directamente accionable — el coordinador no tiene que interpretar los números, solo actuar sobre los que están en rojo.",
+        "en": "Cash control is the most frequent operational problem in LATAM fleets, and the one that generates the most invisible losses when not measured regularly. A payment mix review prompt asks the agent to query each driver's outstanding balance and classify which ones are above the defined threshold. The key to making this prompt work well is including three alert zones in the text itself: green for the normal range, yellow near the limit, and red when the balance requires immediate coordinator action. With that framework, the output is directly actionable — the coordinator doesn't have to interpret the numbers, just act on those in the red zone."
+      }
+    },
+    {
+      "type": "list",
+      "style": "bullet",
+      "intro": {
+        "es": "Elementos del prompt de revisión de mezcla de pagos:",
+        "en": "Elements of the payment mix review prompt:"
+      },
+      "items": {
+        "es": [
+          "Instrucción base: 'genera una tabla con el saldo pendiente de efectivo de cada conductor activo esta semana'",
+          "Clasificación por zona: verde = saldo menor a 80 USD, amarilla = entre 80 y 110 USD, roja = mayor a 110 USD — ajusta los umbrales a tu tarifa promedio",
+          "Columnas: nombre del conductor, saldo pendiente, zona de alerta, días desde la última liquidación",
+          "Resumen al pie: total de efectivo pendiente en la flota, número de conductores en cada zona",
+          "Acción sugerida: 'para los conductores en zona roja, agrega la nota: contáctalo hoy para coordinar la liquidación'"
+        ],
+        "en": [
+          "Base instruction: 'generate a table with the outstanding cash balance for each driver active this week'",
+          "Zone classification: green = balance under $80 USD, yellow = between $80 and $110 USD, red = above $110 USD — adjust thresholds to your average fare",
+          "Columns: driver name, outstanding balance, alert zone, days since last settlement",
+          "Summary at the bottom: total outstanding cash in the fleet, number of drivers in each zone",
+          "Suggested action: 'for drivers in the red zone, append the note: contact them today to coordinate settlement'"
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "prompt-borrador-comunicacion-conductores",
+      "text": {
+        "es": "Prompt 4 — Borrador de comunicación: avisos para conductores sin redactar desde cero",
+        "en": "Prompt 4 — Communication draft: driver notices without starting from scratch"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Redactar un aviso para conductores — sobre un cambio de tarifa, una nueva zona de operación, un evento con alta demanda o una actualización de política — es una tarea que el operador hace entre 4 y 8 veces al mes. Sin un prompt guardado, esa redacción consume entre 15 y 30 minutos de intercambio con el agente ajustando el tono, el largo y el formato. Con una plantilla guardada, el agente produce el borrador en la primera respuesta y el operador solo tiene que verificar los datos específicos antes de enviarlo. La clave de este prompt no está en qué le pides al agente — está en cuánto contexto fijo le das: el tono del equipo, el canal de salida y el formato exacto que esperas.",
+        "en": "Drafting a notice for drivers — about a fare change, a new operating zone, a high-demand event, or a policy update — is a task the operator does 4 to 8 times per month. Without a saved prompt, that drafting consumes 15 to 30 minutes of back-and-forth with the agent adjusting tone, length, and format. With a saved template, the agent produces the draft on the first response and the operator only needs to verify the specific data before sending. The key to this prompt isn't what you ask the agent — it's how much fixed context you give it: the team's tone, the output channel, and the exact format you expect."
+      }
+    },
+    {
+      "type": "list",
+      "style": "bullet",
+      "intro": {
+        "es": "Estructura del prompt de comunicación a conductores:",
+        "en": "Structure of the driver communication prompt:"
+      },
+      "items": {
+        "es": [
+          "Contexto fijo: 'somos una operación de ride-hailing regional con [N] conductores, el tono es directo y respetuoso, sin jerga corporativa'",
+          "Tipo de aviso: especifica si es informativo (cambio de zona), de instrucción (nueva política) o de invitación (evento con bono)",
+          "Canal de salida: 'el aviso va por WhatsApp — máximo 5 líneas, sin listas, sin emojis salvo uno al inicio si el tono lo permite'",
+          "Datos clave: incluye los valores exactos, fechas y condiciones que el agente debe incorporar — no dejes variables abiertas en el texto",
+          "Verificación: 'al final del borrador, agrega: DATOS A VERIFICAR: y lista los campos que requieren confirmación del operador'"
+        ],
+        "en": [
+          "Fixed context: 'we are a regional ride-hailing operation with [N] drivers, tone is direct and respectful, no corporate jargon'",
+          "Notice type: specify whether it's informational (zone change), instructional (new policy), or invitational (event with bonus)",
+          "Output channel: 'the notice goes via WhatsApp — maximum 5 lines, no lists, no emojis except one at the start if tone allows'",
+          "Key data: include the exact values, dates and conditions the agent should incorporate — don't leave open variables in the text",
+          "Verification: 'at the end of the draft, add: DATA TO VERIFY: and list the fields that require operator confirmation'"
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "prompt-cierre-semanal",
+      "text": {
+        "es": "Prompt 5 — Cierre semanal: métricas clave en un formato que se comparte",
+        "en": "Prompt 5 — Weekly close: key metrics in a shareable format"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El cierre semanal es el informe que más operadores quieren producir de forma consistente pero menos logran mantener. Sin un prompt específico, generarlo toma entre 30 y 60 minutos de trabajo manual cruzando datos del dashboard. Con un prompt bien diseñado, el agente consulta el servidor MCP, estructura el resumen y produce un texto que el operador puede copiar directamente a un correo, a un grupo de WhatsApp con el equipo o a un documento compartido con los socios. Este es el prompt más largo de los cinco — porque el output que produce también es el más completo.",
+        "en": "The weekly close is the report most operators want to produce consistently but fewest manage to sustain. Without a specific prompt, generating it takes 30 to 60 minutes of manual work cross-referencing dashboard data. With a well-designed prompt, the agent queries the MCP server, structures the summary, and produces a text the operator can copy directly into an email, a WhatsApp group with the team, or a shared document with partners. This is the longest of the five prompts — because the output it produces is also the most complete."
+      }
+    },
+    {
+      "type": "list",
+      "style": "bullet",
+      "intro": {
+        "es": "Secciones que debe cubrir el prompt de cierre semanal:",
+        "en": "Sections the weekly close prompt should cover:"
+      },
+      "items": {
+        "es": [
+          "Actividad de la flota: conductores activos en la semana vs semana anterior, variación en porcentaje",
+          "Viajes: total completado en la semana, promedio diario, día con más viajes y día con menos",
+          "Ingresos estimados: total por método de pago (efectivo y digital), porcentaje de mezcla",
+          "Calidad: tasa de cancelación semanal, top 3 conductores por calificación promedio, bottom 3 para seguimiento del coordinador",
+          "Pendientes de gestión: conductores en zona roja de efectivo, conductores con más de 5 días sin viajes",
+          "Formato de salida: 'texto plano sin markdown, apto para copiar a WhatsApp o email, con emojis mínimos como separadores de sección'"
+        ],
+        "en": [
+          "Fleet activity: active drivers this week vs last week, percentage change",
+          "Trips: total completed this week, daily average, highest-volume day and lowest-volume day",
+          "Estimated revenue: total by payment method (cash and digital), mix percentage",
+          "Quality: weekly cancellation rate, top 3 drivers by average rating, bottom 3 for coordinator follow-up",
+          "Management pending: drivers in red cash zone, drivers with more than 5 days without trips",
+          "Output format: 'plain text without markdown, suitable for copying to WhatsApp or email, with minimal emojis as section separators'"
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "biblioteca-prompts-operador",
+      "text": {
+        "es": "Cómo construir y mantener tu propia biblioteca de prompts",
+        "en": "How to build and maintain your own prompt library"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Los cinco prompts anteriores son puntos de partida, no fórmulas cerradas. Cada operación tiene particularidades — una zona de alta demanda que no aparece en los reportes estándar, una categoría de conductor que requiere un filtro específico, o un formato de comunicación que el equipo ya reconoce. El operador que adapta estas plantillas a su contexto y las guarda en el cliente del agente tiene una biblioteca que mejora con cada semana de uso. La señal de que un prompt necesita revisión es simple: si el output que devuelve requiere más de 30 segundos de edición antes de poder usarlo, el prompt está pidiendo más especificidad.",
+        "en": "The five prompts above are starting points, not closed formulas. Every operation has its own particulars — a high-demand zone that doesn't appear in standard reports, a driver category that requires a specific filter, or a communication format the team already recognizes. The operator who adapts these templates to their context and saves them in the agent client has a library that improves with every week of use. The signal that a prompt needs revision is simple: if the output it returns requires more than 30 seconds of editing before it can be used, the prompt is asking for more specificity."
+      }
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "text": {
+        "es": "El lugar más eficaz para guardar los prompts no es un archivo de texto suelto — es el campo de instrucciones del sistema del agente. En Claude Desktop, son las instrucciones personalizadas de la conversación fija. En ChatGPT, son las instrucciones personalizadas del perfil. En Claude Code, es el CLAUDE.md del proyecto. Con los prompts ahí, el operador no tiene que copiar y pegar: dice 'dame el resumen de turno' y el agente sabe exactamente qué estructura producir.",
+        "en": "The most effective place to save prompts isn't a loose text file — it's the agent's system instructions field. In Claude Desktop, it's the fixed conversation custom instructions. In ChatGPT, it's the profile custom instructions. In Claude Code, it's the project's CLAUDE.md. With prompts stored there, the operator doesn't need to copy and paste: they say 'give me the shift summary' and the agent knows exactly what structure to produce."
+      }
+    },
+    {
+      "type": "quote",
+      "text": {
+        "es": "Antes perdía 20 minutos cada mañana preguntándole cosas al agente y ajustando el formato de la respuesta para poder mandarla al equipo. Cuando guardé el prompt de resumen de turno en las instrucciones de Claude Desktop, ese tiempo bajó a 3 minutos. El agente ahora sabe exactamente qué quiero sin que yo tenga que explicarlo de nuevo cada día.",
+        "en": "I used to lose 20 minutes every morning asking the agent things and adjusting the response format so I could send it to the team. When I saved the shift summary prompt to Claude Desktop's instructions, that time dropped to 3 minutes. The agent now knows exactly what I want without me having to explain it again every day."
+      },
+      "attribution": {
+        "es": "Operador con 88 conductores activos en dos ciudades del norte de México",
+        "en": "Operator with 88 active drivers across two cities in northern Mexico"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La diferencia entre un agente que el operador usa todos los días y uno que abre cuando recuerda que existe no está en el agente — está en si el operador tiene una rutina construida alrededor de él. Esa rutina empieza con un conjunto pequeño de prompts que producen output consistente: el suficiente para que la revisión diaria tome 5 minutos en lugar de 30, y para que el cierre semanal no sea una tarea que se pospone indefinidamente. Los cinco prompts de este artículo cubren los casos de uso más frecuentes en operaciones de tamaño mediano. Cuatro semanas de uso constante son suficientes para que el operador sepa cuáles adaptar y cuáles nuevos agregar a su biblioteca.",
+        "en": "The difference between an agent an operator uses every day and one they open only when they remember it exists isn't in the agent — it's in whether the operator has built a routine around it. That routine starts with a small set of prompts that produce consistent output: enough to make the daily review take 5 minutes instead of 30, and to ensure the weekly close is no longer a task that gets postponed indefinitely. The five prompts in this article cover the most frequent use cases in mid-size operations. Four weeks of consistent use is enough for the operator to know which ones to adapt and which new ones to add to their library."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El agente conectado al MCP de Cabgo tiene acceso a los datos de la operación en tiempo real — conductores activos, saldos pendientes, viajes del turno, calificaciones, mezcla de pagos. Esos datos existen en el servidor independientemente de que el operador tenga prompts guardados o no. La diferencia es que con prompts bien diseñados, esos datos se convierten en un resumen que se puede leer, compartir y actuar en los primeros minutos del día. Sin ellos, los datos siguen estando disponibles — pero requieren una conversación nueva cada vez para extraerlos en el formato correcto. La biblioteca de prompts no hace al agente más inteligente: hace al operador más eficiente.",
+        "en": "The agent connected to Cabgo's MCP has access to live operation data — active drivers, outstanding balances, shift trips, ratings, payment mix. That data exists on the server whether or not the operator has saved prompts. The difference is that with well-designed prompts, that data becomes a summary that can be read, shared, and acted on in the first minutes of the day. Without them, the data is still available — but it requires a new conversation every time to extract it in the right format. The prompt library doesn't make the agent smarter: it makes the operator more efficient."
+      }
+    }
+  ],
+  "cta": {
+    "heading": {
+      "es": "¿Listo para lanzar tu propia app de movilidad?",
+      "en": "Ready to launch your own mobility app?"
+    },
+    "body": {
+      "es": "Configura tu marca, tus tarifas y tus servicios en semanas, no en meses. Cabgo te entrega la plataforma; tú te quedas con la operación, los clientes y los ingresos.",
+      "en": "Set up your brand, pricing and services in weeks, not months. Cabgo ships the platform — you keep the operation, the customers and the revenue."
+    },
+    "buttonLabel": {
+      "es": "Comenzar con Cabgo",
+      "en": "Get started with Cabgo"
+    },
+    "buttonHref": "/empezar"
+  },
+  "seo": {
+    "metaTitle": {
+      "es": "Prompts para agentes IA en operaciones de movilidad | Cabgo",
+      "en": "AI agent prompts for mobility operations | Cabgo"
+    },
+    "metaDescription": {
+      "es": "Cinco prompts probados para operadores de ride-hailing que usan su agente IA con el MCP de Cabgo: turno, conductores inactivos, efectivo y cierre semanal.",
+      "en": "Five tested prompts for ride-hailing operators using their AI agent with Cabgo's MCP: shift summary, inactive drivers, cash mix, and weekly close."
+    }
+  }
+}
