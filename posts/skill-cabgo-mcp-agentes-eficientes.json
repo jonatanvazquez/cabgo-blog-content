@@ -16,7 +16,7 @@
   },
   "heroImagePrompt": "Minimalist editorial illustration of a robot hand reaching toward a glowing card labeled 'SKILL.md' that floats above a server rack. Warm neutral palette with one orange accent. Cabgo brand tone — confident, technical, friendly. No text rendered as part of the image except the small 'SKILL.md' card.",
   "publishedAt": "2026-06-05",
-  "readingMinutes": 5,
+  "readingMinutes": 7,
   "keywords": {
     "es": [
       "skill MCP Cabgo",
@@ -148,6 +148,90 @@
           "Claude Desktop: drop the file under ~/Library/Application Support/Claude/skills/ on macOS or the equivalent path on other systems",
           "ChatGPT and Cursor: paste the SKILL.md content into the client's custom-instructions field — still works as a reference but without auto-trigger"
         ]
+      }
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "id": "comandos-de-instalacion",
+      "text": {
+        "es": "Comandos exactos para Claude Code",
+        "en": "Exact commands for Claude Code"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Pegá el bloque en tu terminal y queda instalado a nivel global. El agente lo carga automáticamente cuando detecte una tarea de Cabgo en cualquier proyecto.",
+        "en": "Paste the block in your terminal and the skill installs at the global level. The agent loads it automatically whenever it detects a Cabgo-shaped task in any project."
+      }
+    },
+    {
+      "type": "callout",
+      "variant": "info",
+      "text": {
+        "es": "mkdir -p ~/.claude/skills/cabgo-mcp-operator && curl -fsSL -o ~/.claude/skills/cabgo-mcp-operator/SKILL.md https://raw.githubusercontent.com/CabgoApp/cabgo-mcp-operator-skill/main/SKILL.md",
+        "en": "mkdir -p ~/.claude/skills/cabgo-mcp-operator && curl -fsSL -o ~/.claude/skills/cabgo-mcp-operator/SKILL.md https://raw.githubusercontent.com/CabgoApp/cabgo-mcp-operator-skill/main/SKILL.md"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Para acotar el skill a un solo proyecto, repetí el mismo comando pero apuntando a la ruta .claude/skills/cabgo-mcp-operator/ dentro del repositorio en cuestión. El archivo es idéntico; sólo cambia el alcance.",
+        "en": "To scope the skill to a single project, repeat the same command but point it at .claude/skills/cabgo-mcp-operator/ inside the target repo. The file is identical; only the scope changes."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "conectar-el-mcp",
+      "text": {
+        "es": "Conectar el servidor MCP de Cabgo",
+        "en": "Connecting the Cabgo MCP server"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El skill por sí solo explica las convenciones, pero el agente necesita estar conectado al servidor MCP para realmente ejecutar las herramientas. La URL es la misma en todos los clientes:",
+        "en": "The skill alone explains the conventions, but the agent needs to be connected to the MCP server to actually run the tools. The URL is the same across every client:"
+      }
+    },
+    {
+      "type": "callout",
+      "variant": "info",
+      "text": {
+        "es": "URL del servidor MCP: https://www.cabgo.app/mcp · Autenticación: OAuth 2.1 con dynamic client registration · Documentación: https://www.cabgo.app/api-docs",
+        "en": "MCP server URL: https://www.cabgo.app/mcp · Authentication: OAuth 2.1 with dynamic client registration · Documentation: https://www.cabgo.app/api-docs"
+      }
+    },
+    {
+      "type": "list",
+      "style": "bullet",
+      "intro": {
+        "es": "Pasos por cliente:",
+        "en": "Steps by client:"
+      },
+      "items": {
+        "es": [
+          "ChatGPT: Settings → Apps & Connectors → Developer Mode → Add custom connector → pegar https://www.cabgo.app/mcp y autorizar con Google",
+          "Claude Desktop: Settings → Connectors → Add custom connector → pegar la misma URL → completar OAuth",
+          "Cursor: Cursor Settings → MCP → Add new server → pegar la URL y completar OAuth en el navegador",
+          "Claude Code (CLI): el archivo claude_desktop_config.json acepta una entrada de tipo http con la URL del servidor"
+        ],
+        "en": [
+          "ChatGPT: Settings → Apps & Connectors → Developer Mode → Add custom connector → paste https://www.cabgo.app/mcp and authorize with Google",
+          "Claude Desktop: Settings → Connectors → Add custom connector → paste the same URL → complete OAuth",
+          "Cursor: Cursor Settings → MCP → Add new server → paste the URL and complete OAuth in the browser",
+          "Claude Code (CLI): the claude_desktop_config.json file accepts an http-type entry with the server URL"
+        ]
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El primer login crea automáticamente la cuenta de operador: no hace falta registrarse antes en cabgo.app. Una vez autorizado, el agente puede llamar inmediatamente a cabgo_create_my_app y la conversación lanza la primera app.",
+        "en": "The first login automatically creates the operator account: no need to sign up at cabgo.app beforehand. Once authorized, the agent can immediately call cabgo_create_my_app and the conversation launches the first app."
       }
     },
     {
