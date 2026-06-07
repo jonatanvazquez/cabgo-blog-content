@@ -1,6 +1,25 @@
 {
-  "generatedAt": "2026-06-06T14:09:45.585Z",
+  "generatedAt": "2026-06-07T14:09:32.961Z",
   "posts": [
+    {
+      "slug": "auditoria-semanal-agente-mcp-operacion",
+      "category": "product",
+      "title": {
+        "es": "Auditoría semanal del agente: qué revisar en cabgo_my_mcp_usage para saber que todo funciona",
+        "en": "Weekly agent audit: what to review in cabgo_my_mcp_usage to know everything is working"
+      },
+      "excerpt": {
+        "es": "El servidor MCP de Cabgo registra cada llamada del agente — herramienta, tenant, estado y retries. Revisar ese historial 10 minutos cada semana convierte al agente en una herramienta auditable.",
+        "en": "Cabgo's MCP server logs every agent call — tool, tenant, status, retries. Spending 10 minutes each week reviewing that history turns the agent from a black box into an auditable tool."
+      },
+      "heroImage": "https://raw.githubusercontent.com/jonatanvazquez/cabgo-blog-content/main/images/auditoria-semanal-agente-mcp-operacion.jpg",
+      "heroImageAlt": {
+        "es": "Ilustración isométrica de una lupa sobre un panel de historial de llamadas MCP con entradas en verde y una alerta amarilla, conectado a un dashboard limpio a la derecha",
+        "en": "Isometric illustration of a magnifying glass over an MCP call history panel with green entries and a yellow alert, connected to a clean dashboard on the right"
+      },
+      "publishedAt": "2026-06-07",
+      "readingMinutes": 8
+    },
     {
       "slug": "prompts-operador-agente-ia-movilidad",
       "category": "product",
