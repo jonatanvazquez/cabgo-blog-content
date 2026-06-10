@@ -1,6 +1,25 @@
 {
-  "generatedAt": "2026-06-09T14:09:07.111Z",
+  "generatedAt": "2026-06-10T14:08:46.093Z",
   "posts": [
+    {
+      "slug": "multi-tenant-taxi-delivery-misma-conversacion",
+      "category": "product",
+      "title": {
+        "es": "Gestionar taxi y delivery desde la misma conversación con el agente",
+        "en": "Managing taxi and delivery from the same agent conversation"
+      },
+      "excerpt": {
+        "es": "Un agente con un solo skill instalado puede manejar dos verticales — la única variable que cambia entre una tarea de taxi y una de delivery es el tenantId en el prompt.",
+        "en": "One agent with one installed skill can handle two verticals — the only variable that changes between a taxi task and a delivery task is the tenantId in the prompt."
+      },
+      "heroImage": "https://raw.githubusercontent.com/jonatanvazquez/cabgo-blog-content/main/images/multi-tenant-taxi-delivery-misma-conversacion.jpg",
+      "heroImageAlt": {
+        "es": "Ilustración isométrica de un agente robótico frente a dos pantallas flotantes — una con un dashboard de taxi y otra con un flujo de delivery — conectadas a un mismo servidor MCP",
+        "en": "Isometric illustration of a robotic agent facing two floating screens — one showing a taxi dashboard and one a delivery flow — both connected to a single MCP server"
+      },
+      "publishedAt": "2026-06-10",
+      "readingMinutes": 9
+    },
     {
       "slug": "cupones-bonos-agente-ia-marketing-operativo",
       "category": "product",
