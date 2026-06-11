@@ -1,6 +1,25 @@
 {
-  "generatedAt": "2026-06-10T14:08:46.093Z",
+  "generatedAt": "2026-06-11T14:08:31.555Z",
   "posts": [
+    {
+      "slug": "skill-soporte-contexto-agente-reduce-tickets",
+      "category": "product",
+      "title": {
+        "es": "El skill como interfaz de soporte: cómo el contexto del agente reduce los tickets",
+        "en": "The skill as your first support tier: how agent context reduces tickets"
+      },
+      "excerpt": {
+        "es": "Cuando el agente tiene el contexto correcto instalado, entre el 60 y el 70% de los tickets de soporte se resuelven antes de abrirlos. Qué contexto hace esa diferencia.",
+        "en": "When the agent carries the right context, 60–70% of support tickets get resolved before you file them. Which context makes that difference and when to still escalate."
+      },
+      "heroImage": "https://raw.githubusercontent.com/jonatanvazquez/cabgo-blog-content/main/images/skill-soporte-contexto-agente-reduce-tickets.jpg",
+      "heroImageAlt": {
+        "es": "Ilustración isométrica de un agente robótico respondiendo burbujas de consulta flotantes, con una pila gris de tickets de soporte que se reduce a la izquierda y un servidor MCP brillante al fondo",
+        "en": "Isometric illustration of a robotic agent answering floating query bubbles, with a shrinking gray stack of support tickets on the left and a glowing MCP server in the background"
+      },
+      "publishedAt": "2026-06-11",
+      "readingMinutes": 9
+    },
     {
       "slug": "multi-tenant-taxi-delivery-misma-conversacion",
       "category": "product",
