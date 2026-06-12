@@ -1,6 +1,25 @@
 {
-  "generatedAt": "2026-06-11T14:08:31.555Z",
+  "generatedAt": "2026-06-12T14:08:25.988Z",
   "posts": [
+    {
+      "slug": "atribucion-canal-acceso-mcp-operacion",
+      "category": "product",
+      "title": {
+        "es": "Desde dónde trabaja tu equipo: qué revela la distribución de canales en el MCP",
+        "en": "Where your team actually works: what your MCP channel distribution reveals"
+      },
+      "excerpt": {
+        "es": "El historial de cabgo_my_mcp_usage registra desde qué canal llega cada llamada. Esa distribución revela fricción oculta y qué cliente del equipo necesita sincronizar el contexto.",
+        "en": "The cabgo_my_mcp_usage log records the origin channel of every call. That distribution reveals hidden friction and which team client needs its context synced."
+      },
+      "heroImage": "https://raw.githubusercontent.com/jonatanvazquez/cabgo-blog-content/main/images/atribucion-canal-acceso-mcp-operacion.jpg",
+      "heroImageAlt": {
+        "es": "Ilustración isométrica de tres pantallas de chat flotantes (Claude Desktop, ChatGPT, cliente web) conectadas por flujos de datos de colores a un servidor MCP central con un panel de gráfico de barras mostrando la distribución por canal",
+        "en": "Isometric illustration of three floating chat client screens (Claude Desktop, ChatGPT, web client) connected by color-coded data streams to a central MCP server rack with a bar chart panel showing channel distribution"
+      },
+      "publishedAt": "2026-06-12",
+      "readingMinutes": 9
+    },
     {
       "slug": "skill-soporte-contexto-agente-reduce-tickets",
       "category": "product",
