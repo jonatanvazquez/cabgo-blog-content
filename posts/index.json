@@ -1,6 +1,25 @@
 {
-  "generatedAt": "2026-06-12T14:08:25.988Z",
+  "generatedAt": "2026-06-13T14:07:37.427Z",
   "posts": [
+    {
+      "slug": "fork-skill-publico-convenciones-internas",
+      "category": "product",
+      "title": {
+        "es": "Fork del skill público: cómo agregar tus convenciones sin perder las actualizaciones",
+        "en": "Forking the public skill: how to add your conventions without losing updates"
+      },
+      "excerpt": {
+        "es": "Editar el skill directamente mezcla tus convenciones con los archivos que la plataforma actualizará. La solución es una capa separada que coexiste con el skill base.",
+        "en": "Editing the skill directly mixes your conventions into files the platform will update. The fix is a separate operator layer that coexists with the base skill."
+      },
+      "heroImage": "https://raw.githubusercontent.com/jonatanvazquez/cabgo-blog-content/main/images/fork-skill-publico-convenciones-internas.jpg",
+      "heroImageAlt": {
+        "es": "Ilustración isométrica de dos pilas de archivos separadas — el skill público con una flecha de actualización desde la nube, y un archivo personal de convenciones en teal — ambas conectadas a la consola de un agente",
+        "en": "Isometric illustration of two separate file stacks — the public skill with an update arrow from a cloud icon, and a personal teal conventions file — both connected to an agent console"
+      },
+      "publishedAt": "2026-06-13",
+      "readingMinutes": 8
+    },
     {
       "slug": "atribucion-canal-acceso-mcp-operacion",
       "category": "product",
