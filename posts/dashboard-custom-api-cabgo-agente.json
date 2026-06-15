@@ -1,0 +1,260 @@
+{
+  "slug": "dashboard-custom-api-cabgo-agente",
+  "category": "product",
+  "title": {
+    "es": "Cómo construir un dashboard custom sobre la API de Cabgo en una tarde",
+    "en": "Building a custom dashboard on Cabgo's API in one afternoon with an agent"
+  },
+  "excerpt": {
+    "es": "La API de Cabgo expone más datos que el panel estándar. Un agente de IA convierte esas consultas en un dashboard interno funcional en una tarde de trabajo.",
+    "en": "Cabgo's API surfaces more data than the standard panel. Learn how to turn that data into a working internal dashboard in one afternoon using an AI agent."
+  },
+  "heroImage": "https://raw.githubusercontent.com/jonatanvazquez/cabgo-blog-content/main/images/dashboard-custom-api-cabgo-agente.jpg",
+  "heroImageAlt": {
+    "es": "Ilustración isométrica de una laptop mostrando una respuesta JSON de la API a la izquierda y un panel de dashboard terminado con gráfico de barras y tabla a la derecha, conectados por un cable teal con una burbuja de chat de agente IA en el centro",
+    "en": "Isometric illustration of a laptop showing an API JSON response on the left and a finished dashboard panel with a bar chart and ranking table on the right, connected by a teal cable with an AI agent chat bubble in the center"
+  },
+  "heroImagePrompt": "Split isometric composition: on the left, a floating laptop screen tilted at an angle showing a JSON API response with colored bracket lines and a blinking terminal cursor. On the right, a finished dashboard panel elevated on a glowing indigo card with a bar chart, a top-driver ranking table with numbered rows, and zone coverage rings. Center: a diagonal teal cable connecting the laptop API output to the dashboard card, with a small AI agent chat bubble floating above the cable midpoint showing a short code snippet fragment. Deep violet floor grid with soft glow under each element. Negative space on lower right.",
+  "publishedAt": "2026-06-15",
+  "readingMinutes": 9,
+  "keywords": {
+    "es": [
+      "dashboard custom API Cabgo integrador agente IA",
+      "construir panel operador ride-hailing API Cabgo",
+      "integración API Cabgo dashboard interno una tarde",
+      "agente IA genera código dashboard movilidad regional",
+      "API pública Cabgo endpoints operador técnico",
+      "automatizar reportes Cabgo API REST agente",
+      "panel interno conductores zonas Cabgo desarrollo rápido"
+    ],
+    "en": [
+      "custom dashboard Cabgo API integrator AI agent",
+      "build operator panel ride-hailing Cabgo API",
+      "Cabgo API integration internal dashboard one afternoon",
+      "AI agent generates dashboard code mobility platform",
+      "Cabgo public API endpoints technical operator",
+      "automate Cabgo API REST reports AI agent",
+      "internal driver zone dashboard Cabgo rapid development"
+    ]
+  },
+  "author": {
+    "name": "Equipo Cabgo",
+    "role": {
+      "es": "Plataforma de movilidad",
+      "en": "Mobility platform"
+    }
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El panel de operador de Cabgo cubre el 80% de lo que la mayoría de operaciones necesita ver a diario. El 20% restante es siempre diferente: el mapa de cancelaciones por zona de la última hora que el coordinador de turno quiere en una pantalla secundaria, la tabla de pago proyectado por conductor que el área de administración necesita antes del cierre semanal, el indicador de cobertura por zona y hora que el dueño del negocio quiere en el teléfono sin abrir el panel completo. Ese 20% existe en todas las operaciones, siempre varía y siempre requería antes contratar a alguien que lo desarrollara. Un agente de IA conectado a la API pública de Cabgo colapsa ese tiempo de semanas a horas — no porque automatice las decisiones, sino porque convierte en código ejecutable las instrucciones que el operador da en lenguaje natural.",
+        "en": "Cabgo's operator panel covers 80% of what most operations need to monitor daily. The remaining 20% varies by operation: the cancellation breakdown by zone from the past hour the shift coordinator wants on a secondary screen, the projected pay table per driver the admin team needs before the weekly close, the zone coverage indicator by hour the business owner wants on their phone without opening the full panel. That 20% exists in every operation, always varies, and has always required hiring someone to build it. An AI agent connected to Cabgo's public API collapses that timeline from weeks to hours — not by automating decisions, but by converting natural-language instructions into executable code."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Este artículo es para el operador técnico o integrador que ya conoce la API de Cabgo y quiere entender cómo combinarla con un agente para construir una vista custom en una tarde de trabajo real. No asume experiencia previa en construcción de dashboards, pero sí que el lector ha trabajado con APIs REST y entiende la diferencia entre una petición autenticada y una sin autenticar. El resultado concreto al final de la tarde es una página HTML funcional, un feed JSON o una hoja de cálculo actualizable — el formato depende de a quién le sirve — que muestra los datos de la operación que el panel estándar no agrega de la misma forma.",
+        "en": "This article is for the technical operator or integrator who already knows Cabgo's API and wants to understand how to pair it with an agent to build a custom view in a real working afternoon. It doesn't assume prior dashboard-building experience, but it does assume the reader has worked with REST APIs and understands the difference between an authenticated and unauthenticated request. The concrete deliverable by the end of the afternoon is a working HTML page, a JSON feed, or an updateable spreadsheet — the format depends on who it serves — that shows operational data the standard panel doesn't aggregate the same way."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "api-expone-mas-que-el-panel",
+      "text": {
+        "es": "Lo que la API expone que el panel no muestra en la misma forma",
+        "en": "What the API exposes that the panel doesn't surface the same way"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La API pública de Cabgo devuelve los mismos datos que muestra el panel, pero sin los agrupamientos, filtros y ventanas de tiempo que el panel elige por diseño. Eso tiene una implicación directa para el integrador: todos los datos están disponibles, pero la forma en que llegan es la que elige quien hace la consulta, no la que impone el producto. Una consulta al endpoint de viajes con los parámetros correctos devuelve los viajes de las últimas seis horas por zona, con conductor, con estado del viaje y con tiempo de respuesta al pasajero — el panel no tiene esa vista en ese formato. Una consulta de disponibilidad de conductores en intervalos de 15 minutos permite reconstruir la curva de cobertura del turno como una tabla que no existe en ningún reporte predefinido de la plataforma.",
+        "en": "Cabgo's public API returns the same data the panel displays, but without the groupings, filters, and time windows the panel applies by design. That has a direct implication for integrators: all the data is available, but the shape it arrives in is the caller's choice, not the product's. A query to the trips endpoint with the right parameters returns the last six hours of trips by zone, by driver, with trip status and passenger response time — the panel doesn't have that view in that format. A driver availability query at 15-minute intervals lets you reconstruct the shift's coverage curve as a table that doesn't exist in any predefined platform report."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El panel de Cabgo está optimizado para el caso de uso más común de cada operación; la API está optimizada para el que construye. La distinción importa porque muchos operadores asumen que si el panel no muestra algo, es porque la API tampoco lo tiene. En la práctica, el panel es una capa de presentación sobre la misma API disponible públicamente: lo que muestra es un subconjunto seleccionado de lo que la API expone. El integrador que entiende esa distinción tiene acceso a más datos que los que el producto estándar presenta, y el agente es el compañero que convierte esos datos en la vista específica que la operación necesita.",
+        "en": "Cabgo's panel is optimized for the most common use case across all operations; the API is optimized for those who build. The distinction matters because many operators assume that if the panel doesn't show something, the API doesn't have it either. In practice, the panel is a presentation layer on top of the same publicly available API: what it displays is a curated subset of what the API exposes. An integrator who understands that distinction has access to more data than the standard product presents, and the agent is the partner that converts that data into the specific view the operation needs."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "agente-como-par-de-desarrollo",
+      "text": {
+        "es": "El agente como par de desarrollo: qué reemplaza en el ciclo de construcción",
+        "en": "The agent as a development partner: what it replaces in the build cycle"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "En un proceso de desarrollo tradicional, construir un dashboard interno sobre una API externa implica cuatro bloques de trabajo secuenciales: explorar la documentación para entender qué endpoints existen y qué devuelve cada uno, escribir las peticiones y manejar la autenticación, transformar el JSON en el formato que el frontend espera, y construir la interfaz. Con un agente, esos cuatro bloques colapsan en una secuencia más corta porque el agente puede ejecutar los dos primeros de forma directa — hacer las peticiones reales a la API con los datos de la operación — y asistir en los dos siguientes con código generado a partir del output real, no de ejemplos hipotéticos.",
+        "en": "In a traditional development process, building an internal dashboard on an external API involves four sequential blocks of work: exploring the documentation to understand which endpoints exist and what each returns, writing requests and handling authentication, transforming the JSON into the shape the frontend expects, and building the interface. With an agent, those four blocks collapse into a shorter sequence because the agent can execute the first two directly — making real API calls with the operation's actual data — and assist with the remaining two using code generated from real output, not hypothetical examples."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La diferencia práctica es que el agente trabaja con los datos reales de la operación desde el primer prompt, no con mocks ni con datos de ejemplo del sandbox. Cuando el operador describe lo que quiere ver — «los diez conductores con más cancelaciones en la última semana, con el porcentaje de cancelación y el promedio de tiempo entre asignación e inicio del viaje» — el agente consulta el endpoint real, devuelve los datos reales y tiene el contexto para generar el código que los convierte en una tabla HTML. El ciclo de descripción, código y validación con datos reales toma entre 15 y 30 minutos por vista, frente a varios días en un proceso de desarrollo sin agente.",
+        "en": "The practical difference is that the agent works with the operation's real data from the first prompt — not mocks or sandbox examples. When the operator describes what they want to see — 'the ten drivers with the most cancellations in the past week, with the cancellation rate and the average time between assignment and trip start' — the agent queries the real endpoint, returns real data, and has the context to generate the code that turns it into an HTML table. The description-code-validation cycle with real data takes 15 to 30 minutes per view, compared to several days in a development process without an agent."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "elegir-formato-antes-de-la-primera-consulta",
+      "text": {
+        "es": "El formato primero: decidir el output antes de escribir la primera consulta",
+        "en": "Output format first: decide before writing the first query"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Antes de hacer la primera petición a la API conviene definir en qué formato vive el output final. La elección no es técnica — es de audiencia. Tres formatos cubren el 90% de los casos de uso custom que los operadores describen:",
+        "en": "Before making the first API request, it pays to define what format the final output will live in. The choice isn't technical — it's about audience. Three formats cover 90% of the custom use cases operators describe:"
+      }
+    },
+    {
+      "type": "list",
+      "style": "bullet",
+      "items": {
+        "es": [
+          "**Página HTML con actualización periódica**: opción con más control sobre el diseño, adecuada para pantallas de monitoreo internas que el coordinador abre en el navegador al inicio del turno. El agente genera el HTML completo con los datos embebidos y opcionalmente un script de auto-refresh para que la página se actualice en intervalos definidos sin intervención.",
+          "**Feed JSON estructurado**: útil cuando el output alimenta otro sistema — una herramienta de BI interna, un webhook o una pantalla de Notion con integración de base de datos. El agente genera el script que hace las peticiones a la API de Cabgo y escribe el JSON en el formato que el sistema destino espera, con las transformaciones de campo necesarias.",
+          "**Hoja de cálculo actualizable**: la opción con menor curva de entrada para el usuario final, compatible con Google Sheets vía Apps Script o con Excel vía Power Query. El agente genera el script de importación que llama a la API con las credenciales del operador y actualiza la hoja en el horario que el equipo defina."
+        ],
+        "en": [
+          "**HTML page with periodic refresh**: the option with the most design control, suited for internal monitoring screens the coordinator opens in the browser at shift start. The agent generates the complete HTML with embedded data and optionally an auto-refresh script to update the page on defined intervals without manual intervention.",
+          "**Structured JSON feed**: useful when the output feeds another system — an internal BI tool, a webhook, or a Notion page with a database integration. The agent generates the script that makes requests to Cabgo's API and writes the JSON in the format the destination system expects, with the necessary field transformations.",
+          "**Updateable spreadsheet**: the option with the lowest learning curve for the end user, compatible with Google Sheets via Apps Script or Excel via Power Query. The agent generates the import script that calls the API with the operator's credentials and updates the sheet on the schedule the team defines."
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "primeras-noventa-minutos-credenciales-a-datos",
+      "text": {
+        "es": "Las primeras 90 minutos: de las credenciales a una consulta con datos reales",
+        "en": "The first 90 minutes: from credentials to a real data response"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El primer bloque de trabajo es validar que la autenticación funciona y que la primera consulta devuelve datos de la operación correcta. Si el integrador trabaja con el agente MCP de Cabgo activo, esa validación es inmediata: el agente hace la primera petición autenticada con el token del operador y el resultado ya corresponde al tenant correcto. Si trabaja en modo API directo sin el agente MCP, el primer paso es construir la petición con el token en el header de autorización y verificar que el response incluye datos del tenant correcto — no el default del token cuando hay más de un tenant activo en la cuenta.",
+        "en": "The first block of work is validating that authentication works and that the first query returns data from the correct operation. If the integrator is working with Cabgo's MCP agent active, that validation is immediate: the agent makes the first authenticated request with the operator's token and the result already belongs to the correct tenant. If working in direct API mode without the MCP agent, the first step is constructing the request with the token in the authorization header and verifying that the response includes data from the expected tenant — not the token default when more than one tenant is active on the account."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Una vez que la primera petición funciona, el segundo paso es construir la consulta que extrae los datos específicos que el dashboard necesita. Este es el punto donde el agente es más útil: el integrador describe en lenguaje natural qué quiere ver — «dame los diez conductores con más cancelaciones en la última semana, con el porcentaje de cancelación y el promedio de tiempo entre asignación e inicio del viaje» — y el agente genera el endpoint correcto con los parámetros de filtro, el código para transformar el response en la estructura necesaria y detecta los casos donde el dato necesita cruzarse entre dos endpoints distintos. La ventaja de ese ciclo es que el código generado parte de datos reales, no de una respuesta hipotética de la documentación.",
+        "en": "Once the first request works, the second step is building the query that extracts the specific data the dashboard needs. This is where the agent is most useful: the integrator describes in natural language what they want to see — 'give me the ten drivers with the most cancellations in the past week, with the cancellation rate and the average time between assignment and trip start' — and the agent generates the correct endpoint with the filter parameters, the code to transform the response into the necessary structure, and identifies cases where the data needs to be joined from two separate endpoints. The key advantage of that cycle is that the generated code starts from real data, not a hypothetical response from the documentation."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "siguientes-noventa-minutos-output-a-vista",
+      "text": {
+        "es": "Las siguientes 90 minutos: del output de la API a una vista legible",
+        "en": "The next 90 minutes: from API output to a readable view"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El segundo bloque de trabajo es convertir el JSON de la API en algo que el usuario final puede leer sin leer JSON. Para una página HTML, el agente genera el template con los datos embebidos o con el script fetch que los carga dinámicamente. El estilo puede describirse en lenguaje natural — «tabla limpia con fondo oscuro, sin bordes, texto en blanco, filas alternadas en gris oscuro» — y el agente genera el CSS correspondiente. El resultado no va a ser un diseño de producto pulido, pero sí una vista funcional que el coordinador reconoce como datos de su operación en el orden y el formato que le sirven para tomar una decisión rápida.",
+        "en": "The second block of work is converting the API's JSON into something the end user can read without reading JSON. For an HTML page, the agent generates the template with embedded data or the fetch script that loads it dynamically. The style can be described in natural language — 'a clean table with a dark background, no borders, white text, rows alternating in dark gray' — and the agent generates the corresponding CSS. The result won't be polished product design, but it will be a functional view the shift coordinator recognizes as their operation's data in the order and format useful for a quick decision."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "En este punto conviene dedicar diez minutos a probar la vista con rangos de datos extremos antes de darla por terminada: qué pasa si un conductor tiene cero viajes en el período, si una zona no tuvo actividad, si la API devuelve un array vacío en lugar del objeto esperado. El agente puede generar los casos de prueba y el código que los maneja si el integrador los describe explícitamente — ese paso no ocurre solo. Los dashboards custom casi siempre fallan en producción por las mismas razones: campos ausentes en el response, formatos de fecha inconsistentes entre endpoints y paginación que el código de la primera tarde no maneja porque los datos del período de prueba nunca superaron el límite de la primera página.",
+        "en": "At this point it's worth spending ten minutes testing the view with edge-case data before calling it done: what happens if a driver has zero trips in the period, if a zone had no activity, if the API returns an empty array instead of the expected object. The agent can generate test cases and the code that handles them if the integrator describes them explicitly — that step doesn't happen automatically. Custom dashboards almost always fail in production for the same reasons: missing fields in the response, inconsistent date formats between endpoints, and pagination the first-afternoon code doesn't handle because the test period's data never exceeded the first page limit."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "que-falla-en-produccion-como-anticiparlo",
+      "text": {
+        "es": "Lo que falla en producción y cómo anticiparlo antes de que ocurra",
+        "en": "What breaks in production and how to anticipate it before it happens"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Tres problemas aparecen con más frecuencia que cualquier otro cuando un dashboard custom llega al uso diario. El primero es la autenticación: los tokens de la API tienen vigencia limitada y el dashboard que funciona el día del lanzamiento deja de hacerlo semanas después cuando el token expira. La solución es simple — un mecanismo de renovación automática del token o una alerta que avise al equipo cuando está próximo a expirar — y el agente la genera si el integrador la pide antes de terminar la sesión de construcción. El segundo es el rate limiting: cuando el dashboard hace peticiones cada cinco minutos y el coordinador lo deja abierto en varias pantallas, el número de peticiones por hora puede superar el límite que la API permite por token. Agregar caché local al script — guardar el último response y no volver a consultar hasta que pasen N minutos — también lo genera el agente en una instrucción adicional.",
+        "en": "Three problems appear more frequently than any other when a custom dashboard reaches daily use. The first is authentication: API tokens have a limited validity period, and the dashboard that works on launch day stops working weeks later when the token expires. The fix is straightforward — an automatic token renewal mechanism or an alert that notifies the team when expiry is approaching — and the agent generates it if the integrator requests it before ending the build session. The second is rate limiting: when the dashboard makes requests every five minutes and the coordinator has it open on multiple screens, the number of requests per hour can exceed the limit the API allows per token. Adding local caching to the script — storing the last response and not querying again until N minutes have passed — is also something the agent generates in one additional instruction."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El tercero son los cambios de esquema: si la plataforma actualiza el formato de un campo en la respuesta del API, el código que asume el nombre anterior deja de funcionar sin un error obvio — a veces produce silencio, a veces un undefined donde debería aparecer un número. Ese riesgo es menor en APIs con versionado explícito, pero conviene documentar dentro del propio código qué campos se usan y de qué endpoint, de modo que cuando aparezca un comportamiento inesperado el diagnóstico tome minutos en lugar de horas. El agente puede generar esa documentación inline como comentarios en el script si el integrador la pide al terminar: no añade tiempo a la tarde de construcción y reduce el costo de mantenimiento en las semanas siguientes.",
+        "en": "The third is schema changes: if the platform updates the format of a field in the API response, code that assumes the old name stops working without an obvious error — sometimes producing silence, sometimes an undefined where a number should appear. That risk is lower in APIs with explicit versioning, but it's worth documenting inside the code which fields are used and from which endpoint, so that when unexpected behavior appears, diagnosis takes minutes rather than hours. The agent can generate that inline documentation as script comments if the integrator requests it at the end: it adds no time to the build afternoon and reduces maintenance cost in the following weeks."
+      }
+    },
+    {
+      "type": "quote",
+      "text": {
+        "es": "Lo que me sorprendió no fue que el agente generara el código — era lo que esperaba. Lo que no esperaba era que lo depurara con los datos reales de mi operación en la misma sesión. Me señaló que el endpoint de viajes paginaba en grupos de cincuenta y que mi primera versión solo mostraba la primera página. Lo corregí en diez minutos.",
+        "en": "What surprised me wasn't that the agent generated the code — I expected that. What I didn't expect was that it would debug it against my operation's real data in the same session. It flagged that the trips endpoint paginated in groups of fifty and my first version only showed the first page. I fixed it in ten minutes."
+      },
+      "attribution": {
+        "es": "Integrador que construyó un panel de métricas de conductores para una operación de 120 unidades en el sureste de México",
+        "en": "Integrator who built a driver metrics panel for a 120-unit operation in southeastern Mexico"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Un dashboard custom sobre la API de Cabgo no requiere un sprint de desarrollo — requiere una tarde con un agente bien configurado y un formato de output definido antes de empezar. La parte que el agente no reemplaza es la más importante: decidir qué vista le falta al equipo y cuánto daño operativo produce no tenerla. Ese diagnóstico siempre viene del operador que conoce su turno, no del integrador que conoce la API. Cuando las dos piezas se juntan — el operador que sabe qué necesita ver y el integrador que sabe cómo pedírselo a la API — el agente convierte esa conversación en código ejecutable en el mismo tiempo en que antes se habría redactado el brief.",
+        "en": "A custom dashboard on Cabgo's API doesn't require a development sprint — it requires an afternoon with a well-configured agent and an output format defined before starting. The part the agent doesn't replace is the most important one: deciding which view the team is missing and how much operational damage comes from not having it. That diagnosis always comes from the operator who knows their shift, not the integrator who knows the API. When both pieces come together — the operator who knows what they need to see and the integrator who knows how to ask the API for it — the agent turns that conversation into executable code in the same time it previously took to write the requirements brief."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El dashboard que resulta de esa tarde no va a ser perfecto: le van a faltar casos extremos que el uso diario descubrirá, algún campo cambiará de nombre con la siguiente actualización de la API y el script necesitará un ajuste menor. Eso es normal y no cambia la ecuación de fondo. Lo que sí cambia es el punto de partida: en lugar de esperar semanas a que el equipo de desarrollo tenga disponibilidad, el operador tiene una vista funcional en producción al día siguiente. Desde ahí, cada ciclo de mejora es más rápido porque el agente puede iterar sobre código existente con los datos reales que el uso diario ha generado desde que el dashboard entró en producción.",
+        "en": "The dashboard that comes out of that afternoon won't be perfect: it'll be missing edge cases daily use will surface, a field will be renamed with the next API update, the script will need a minor adjustment at some point. That's normal and doesn't change the underlying equation. What changes is the starting point: instead of waiting weeks for the development team to have capacity, the operator has a working view in production the next day. From there, every improvement cycle is faster because the agent can iterate on existing code against the real data daily use has generated since the dashboard first went live."
+      }
+    }
+  ],
+  "cta": {
+    "heading": {
+      "es": "¿Listo para lanzar tu propia app de movilidad?",
+      "en": "Ready to launch your own mobility app?"
+    },
+    "body": {
+      "es": "Configura tu marca, tus tarifas y tus servicios en semanas, no en meses. Cabgo te entrega la plataforma; tú te quedas con la operación, los clientes y los ingresos.",
+      "en": "Set up your brand, pricing and services in weeks, not months. Cabgo ships the platform — you keep the operation, the customers and the revenue."
+    },
+    "buttonLabel": {
+      "es": "Comenzar con Cabgo",
+      "en": "Get started with Cabgo"
+    },
+    "buttonHref": "/empezar"
+  },
+  "seo": {
+    "metaTitle": {
+      "es": "Dashboard custom sobre la API de Cabgo con agente IA | Cabgo",
+      "en": "Build a custom Cabgo API dashboard with an AI agent | Cabgo"
+    },
+    "metaDescription": {
+      "es": "La API de Cabgo expone más datos que el panel estándar. Un agente de IA convierte esas consultas en un dashboard interno funcional en una tarde de trabajo.",
+      "en": "Cabgo's API surfaces more data than the standard panel. Learn how to turn that data into a working internal dashboard in one afternoon using an AI agent."
+    }
+  }
+}

@@ -1,6 +1,25 @@
 {
-  "generatedAt": "2026-06-14T14:09:57.547Z",
+  "generatedAt": "2026-06-15T14:08:40.464Z",
   "posts": [
+    {
+      "slug": "dashboard-custom-api-cabgo-agente",
+      "category": "product",
+      "title": {
+        "es": "Cómo construir un dashboard custom sobre la API de Cabgo en una tarde",
+        "en": "Building a custom dashboard on Cabgo's API in one afternoon with an agent"
+      },
+      "excerpt": {
+        "es": "La API de Cabgo expone más datos que el panel estándar. Un agente de IA convierte esas consultas en un dashboard interno funcional en una tarde de trabajo.",
+        "en": "Cabgo's API surfaces more data than the standard panel. Learn how to turn that data into a working internal dashboard in one afternoon using an AI agent."
+      },
+      "heroImage": "https://raw.githubusercontent.com/jonatanvazquez/cabgo-blog-content/main/images/dashboard-custom-api-cabgo-agente.jpg",
+      "heroImageAlt": {
+        "es": "Ilustración isométrica de una laptop mostrando una respuesta JSON de la API a la izquierda y un panel de dashboard terminado con gráfico de barras y tabla a la derecha, conectados por un cable teal con una burbuja de chat de agente IA en el centro",
+        "en": "Isometric illustration of a laptop showing an API JSON response on the left and a finished dashboard panel with a bar chart and ranking table on the right, connected by a teal cable with an AI agent chat bubble in the center"
+      },
+      "publishedAt": "2026-06-15",
+      "readingMinutes": 9
+    },
     {
       "slug": "conectar-claude-chatgpt-mcp-cabgo",
       "category": "product",
