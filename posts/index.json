@@ -1,6 +1,25 @@
 {
-  "generatedAt": "2026-06-17T14:10:17.544Z",
+  "generatedAt": "2026-06-18T14:10:12.694Z",
   "posts": [
+    {
+      "slug": "contenido-archivo-contexto-operador-agente",
+      "category": "product",
+      "title": {
+        "es": "Qué contiene un archivo de contexto útil: la guía para el operador que ya tiene el agente activo",
+        "en": "What a useful operator context file actually contains: a guide for operators who already have the agent running"
+      },
+      "excerpt": {
+        "es": "El skill está instalado y el agente responde. El problema es que sus diagnósticos siguen siendo genéricos. Esto es lo que va en el archivo de contexto del operador para que el agente sea específico.",
+        "en": "The skill is installed and the agent responds. The problem is that its diagnostics are still generic. Here is what belongs in the operator context file to make the agent specific to your operation."
+      },
+      "heroImage": "https://raw.githubusercontent.com/jonatanvazquez/cabgo-blog-content/main/images/contenido-archivo-contexto-operador-agente.jpg",
+      "heroImageAlt": {
+        "es": "Ilustración isométrica de una tarjeta de archivo teal estructurada en secciones con mapa de zonas, medidores de umbral y entradas de incidencias, flotando junto a una interfaz de agente que muestra un diagnóstico específico con zona, comparación de umbral y acción recomendada",
+        "en": "Isometric illustration of a structured teal file card with zone map, threshold gauges, and incident log entries floating next to an agent interface showing a specific diagnostic with zone name, threshold comparison, and recommended action"
+      },
+      "publishedAt": "2026-06-18",
+      "readingMinutes": 9
+    },
     {
       "slug": "medir-impacto-agente-indicadores-90-dias",
       "category": "strategy",
