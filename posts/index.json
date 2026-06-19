@@ -1,6 +1,25 @@
 {
-  "generatedAt": "2026-06-18T14:10:12.694Z",
+  "generatedAt": "2026-06-19T14:07:25.611Z",
   "posts": [
+    {
+      "slug": "discrepancia-agente-coordinador-decision",
+      "category": "product",
+      "title": {
+        "es": "Cuando el agente y el coordinador no coinciden: cómo resolver la discrepancia sin perder ninguna de las dos perspectivas",
+        "en": "When the agent and the coordinator disagree: resolving the discrepancy without losing either perspective"
+      },
+      "excerpt": {
+        "es": "El agente y el coordinador llegan a conclusiones distintas con más frecuencia de lo esperado. Esa tensión no es fallo del sistema: es la señal que indica qué falta en el archivo de contexto.",
+        "en": "The agent and the coordinator reach different conclusions more often than expected. That tension isn't a system failure — it's the signal that shows what's missing in the context file."
+      },
+      "heroImage": "https://raw.githubusercontent.com/jonatanvazquez/cabgo-blog-content/main/images/discrepancia-agente-coordinador-decision.jpg",
+      "heroImageAlt": {
+        "es": "Ilustración isométrica de una figura de coordinador frente a un mapa de zonas con una zona en naranja a la izquierda, y un panel de agente IA con un diagnóstico diferente en verde a la derecha, conectados por una línea teal con un ícono de pregunta en el centro",
+        "en": "Isometric illustration of a coordinator figure facing a zone map with an orange-highlighted zone on the left, and an AI agent panel with a contrasting green diagnostic on the right, connected by a teal bridge with a question mark icon at the center"
+      },
+      "publishedAt": "2026-06-19",
+      "readingMinutes": 8
+    },
     {
       "slug": "contenido-archivo-contexto-operador-agente",
       "category": "product",

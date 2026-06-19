@@ -1,0 +1,253 @@
+{
+  "slug": "discrepancia-agente-coordinador-decision",
+  "category": "product",
+  "title": {
+    "es": "Cuando el agente y el coordinador no coinciden: cómo resolver la discrepancia sin perder ninguna de las dos perspectivas",
+    "en": "When the agent and the coordinator disagree: resolving the discrepancy without losing either perspective"
+  },
+  "excerpt": {
+    "es": "El agente y el coordinador llegan a conclusiones distintas con más frecuencia de lo esperado. Esa tensión no es fallo del sistema: es la señal que indica qué falta en el archivo de contexto.",
+    "en": "The agent and the coordinator reach different conclusions more often than expected. That tension isn't a system failure — it's the signal that shows what's missing in the context file."
+  },
+  "heroImage": "https://raw.githubusercontent.com/jonatanvazquez/cabgo-blog-content/main/images/discrepancia-agente-coordinador-decision.jpg",
+  "heroImageAlt": {
+    "es": "Ilustración isométrica de una figura de coordinador frente a un mapa de zonas con una zona en naranja a la izquierda, y un panel de agente IA con un diagnóstico diferente en verde a la derecha, conectados por una línea teal con un ícono de pregunta en el centro",
+    "en": "Isometric illustration of a coordinator figure facing a zone map with an orange-highlighted zone on the left, and an AI agent panel with a contrasting green diagnostic on the right, connected by a teal bridge with a question mark icon at the center"
+  },
+  "heroImagePrompt": "Split isometric composition: on the left, a compact coordinator figure stands before a floating zone map panel with one zone card highlighted in orange showing a downward alert arrow. On the right, a glowing teal AI agent console displays a diagnostic response with a different zone card highlighted in green showing a repositioning recommendation arrow. Between the two sides, a glowing teal isometric bridge connects them with a floating geometric question mark icon at its midpoint. Soft indigo radial glow separates the two panels, deep violet floor grid, clean geometric shapes. Negative space on the lower right.",
+  "publishedAt": "2026-06-19",
+  "readingMinutes": 8,
+  "keywords": {
+    "es": [
+      "discrepancia agente coordinador ride-hailing decisión turno",
+      "cuando agente no coincide coordinador movilidad regional",
+      "conflicto diagnóstico agente IA operador ride-hailing",
+      "punto ciego coordinador agente IA turno operación",
+      "actualizar archivo contexto agente discrepancia operación",
+      "resolver conflicto agente coordinador plataforma movilidad",
+      "integración agente IA decisiones turno regional Cabgo"
+    ],
+    "en": [
+      "agent coordinator disagreement ride-hailing shift decision",
+      "when AI agent contradicts coordinator mobility regional",
+      "agent diagnostic conflict regional operator ride-hailing",
+      "coordinator blind spot AI agent shift operation",
+      "update operator context file agent discrepancy",
+      "resolve agent coordinator conflict mobility platform",
+      "AI agent integration shift decisions regional Cabgo"
+    ]
+  },
+  "author": {
+    "name": "Equipo Cabgo",
+    "role": {
+      "es": "Plataforma de movilidad",
+      "en": "Mobility platform"
+    }
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La situación ocurre con regularidad a partir del mes dos de integración real: el agente diagnostica que la zona norte está en riesgo de caer bajo el umbral de disponibilidad en los próximos veinte minutos y recomienda activar incentivos de reposicionamiento, pero el coordinador que lleva esa ciudad sabe que hoy hay un partido en el estadio municipal y que el patrón de demanda va a romper con el histórico que el agente tiene registrado. O al revés: el coordinador considera que el turno está controlado porque los viajes siguen llegando con fluidez, mientras el agente señala que la tasa de cancelación en la zona este lleva cuarenta minutos por encima del umbral de alerta sin que nadie lo haya notado porque la atención estaba en otra zona con un problema más visible. Que el agente y el coordinador lleguen a conclusiones distintas no es un fallo de la integración — es exactamente el resultado que se espera cuando el agente está genuinamente involucrado en las decisiones del turno, no consultado como canal de información periférico entre una decisión ya tomada y la siguiente.",
+        "en": "The situation appears regularly starting around month two of genuine integration: the agent diagnoses that the northern zone is at risk of falling below the availability threshold in the next twenty minutes and recommends activating repositioning incentives, but the coordinator who has worked that city for months knows there's a match at the municipal stadium today and that the demand pattern is going to break from the historical baseline the agent has on record. Or the reverse: the coordinator considers the shift under control because rides are flowing, while the agent flags that the cancellation rate in the eastern zone has been above the alert threshold for forty minutes — unnoticed because attention was on a different zone with a more visible problem. When the agent and the coordinator reach different conclusions, that isn't an integration failure — it's exactly the outcome expected when the agent is genuinely embedded in shift decisions, not consulted as peripheral information channel between one decision already made and the next."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Este artículo está dirigido al operador que ya tiene el agente activo en el flujo del turno y empieza a encontrarse con discrepancias regulares entre lo que el agente diagnostica y lo que el coordinador evalúa. No todas las discrepancias son equivalentes: algunas señalan puntos ciegos reales que el coordinador no habría detectado sin el agente, otras revelan que el archivo de contexto tiene umbrales desactualizados o patrones de temporada que ya no aplican, y algunas son casos donde el coordinador tiene información en tiempo real que el agente no puede tener porque no está documentada en el contexto activo. Distinguir entre estas tres situaciones es lo que permite resolver el conflicto de forma útil en lugar de convertirlo en una fuente de desconfianza hacia el agente o en el hábito de ignorar sus alertas de forma sistemática.",
+        "en": "This article is for the operator who already has the agent active in the shift workflow and is beginning to encounter regular discrepancies between what the agent diagnoses and what the coordinator evaluates. Not all discrepancies are equivalent: some flag real blind spots the coordinator wouldn't have caught without the agent, others reveal that the context file has outdated thresholds or seasonal patterns that no longer apply, and some are cases where the coordinator holds real-time information the agent can't access because it hasn't been added to the active context. Distinguishing between these three situations is what allows the conflict to be resolved productively instead of becoming a source of distrust toward the agent or a habit of systematically ignoring its alerts."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "integracion-real-produce-discrepancia",
+      "text": {
+        "es": "Por qué la integración real produce discrepancias con regularidad",
+        "en": "Why genuine integration produces discrepancies regularly"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Un agente que nunca produce un diagnóstico distinto al del coordinador no está integrado en las decisiones que importan — está respondiendo preguntas cuya respuesta ya era obvia antes de preguntar. La discrepancia aparece cuando el agente y el coordinador tienen acceso a perspectivas distintas sobre el mismo turno: el agente observa el patrón en cuarenta y cinco minutos de datos distribuidos en seis zonas simultáneamente; el coordinador observa el estado del turno con experiencia acumulada sobre esa ciudad y con información contextual que los datos del panel no registran. Cuando las dos perspectivas coinciden en la lectura del turno, el resultado es confirmación de que el diagnóstico está anclado en datos reales. Cuando difieren, el resultado es información sobre qué está faltando en alguna de las dos lecturas — y esa información es valiosa si se trabaja correctamente en lugar de descartarla por comodidad.",
+        "en": "An agent that never produces a diagnosis different from the coordinator's isn't embedded in the decisions that matter — it's answering questions whose answer was already obvious before asking. The discrepancy appears when the agent and coordinator have access to different perspectives on the same shift: the agent observes patterns across forty-five minutes of data distributed across six zones simultaneously; the coordinator reads the shift with accumulated experience of that city and contextual information that the panel data doesn't capture. When both perspectives agree on the shift reading, the result is confirmation that the diagnosis is grounded in real data. When they differ, the result is information about what's missing in one of the two readings — and that information is valuable if worked through properly instead of discarded for convenience."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El momento en que la discrepancia se vuelve útil o costosa es el de la decisión del coordinador: investigar la causa del conflicto antes de actuar, o resolverlo por defecto a favor de una de las dos fuentes sin evaluar cuál tiene el dato correcto para esa situación específica. La primera opción toma entre dos y cinco minutos y produce un aprendizaje que reduce las discrepancias del mismo tipo en turnos futuros. La segunda es más rápida pero genera un patrón de respuesta que con el tiempo erosiona la utilidad del agente: si el coordinador siempre sobreescribe al agente sin investigar, deja de beneficiarse de las alertas tempranas que el agente identifica con más precisión; si siempre sigue al agente sin aplicar criterio propio, produce decisiones que ignoran el contexto local que el archivo de contexto todavía no ha podido capturar.",
+        "en": "The moment the discrepancy becomes useful or costly is the coordinator's decision point: investigate the cause of the conflict before acting, or resolve it by default in favor of one of the two sources without evaluating which one holds the right data for that specific situation. The first option takes two to five minutes and produces learning that reduces the same type of discrepancy in future shifts. The second is faster but generates a response pattern that over time erodes the agent's usefulness: if the coordinator always overrides the agent without investigating, they stop benefiting from the early alerts the agent identifies with higher precision; if they always follow the agent without applying their own judgment, they produce decisions that ignore the local context the context file hasn't yet been able to capture."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "tres-tipos-discrepancia-agente-coordinador",
+      "text": {
+        "es": "Los tres tipos de discrepancia y qué revela cada uno",
+        "en": "The three types of discrepancy and what each one reveals"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Clasificar la discrepancia antes de resolverla es lo que permite tomar la decisión correcta en el tiempo disponible en un turno activo. Las tres categorías cubren la mayoría de los conflictos que aparecen en operaciones con más de sesenta días de integración real:",
+        "en": "Classifying the discrepancy before resolving it is what allows making the right call in the time available during an active shift. The three categories cover the majority of conflicts that appear in operations with more than sixty days of genuine integration:"
+      }
+    },
+    {
+      "type": "list",
+      "style": "bullet",
+      "items": {
+        "es": [
+          "**Punto ciego del coordinador**: el agente detectó un patrón en datos que el coordinador no estaba monitoreando activamente — una zona que lleva treinta minutos descendiendo mientras la atención estaba en otra con un problema más visible, o una tasa de cancelación que sube lentamente sin llegar a ningún umbral de alerta individual que activara una notificación. El dato es correcto; el coordinador simplemente no lo tenía en foco en ese momento",
+          "**Umbral o patrón desactualizado en el archivo de contexto**: el agente aplica un threshold o patrón que era preciso cuando se documentó pero ya no refleja la realidad operativa actual — un umbral de temporada alta usado en período normal, un patrón de demanda de fin de semana aplicado a un viernes con feriado, o una resolución de incidencia que funcionaba con la distribución geográfica de la flota de hace tres meses",
+          "**Información externa que el coordinador conoce y el agente no tiene registrada**: el coordinador sabe que hay un evento local hoy, que un acceso vial está cerrado, que un grupo de conductores acordó trabajar en zona distinta a la habitual, o que la operación tiene una instrucción especial que no ha sido añadida al archivo de contexto porque ocurrió después de la última actualización"
+        ],
+        "en": [
+          "**Coordinator blind spot**: the agent detected a pattern in data the coordinator wasn't actively monitoring — a zone that has been declining for thirty minutes while attention was on a different one with a more visible problem, or a cancellation rate rising slowly without hitting any individual alert threshold that would trigger a notification. The data is correct; the coordinator simply didn't have it in focus at that moment",
+          "**Outdated threshold or pattern in the context file**: the agent is applying a threshold or behavior pattern that was accurate when documented but no longer reflects current operational reality — a peak-season threshold applied during a normal period, a weekend demand pattern applied to a Friday with a public holiday, or an incident resolution that worked with the fleet's geographic distribution from three months ago",
+          "**External information the coordinator knows and the agent doesn't have logged**: the coordinator knows there's a local event today, that a road access is closed, that a group of drivers agreed to work in a different zone than usual, or that the operation has a special instruction that hasn't been added to the context file because it came up after the last update"
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "cuando-agente-señala-punto-ciego-real",
+      "text": {
+        "es": "Cuándo el diagnóstico del agente está señalando algo que el coordinador no ve",
+        "en": "When the agent's diagnosis is flagging something the coordinator isn't seeing"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Las señales de que el conflicto corresponde a un punto ciego del coordinador, y no a un error del agente, son observables antes de decidir. Primera: la zona donde el agente detecta el problema no es la zona que el coordinador ha tenido en foco en los últimos veinte minutos — si la atención estaba concentrada en otra parte, la probabilidad de que la alerta sea válida aumenta significativamente. Segunda: el dato que el agente usa para el diagnóstico es una tendencia sostenida de veinte o más minutos, no un spike puntual que podría ser ruido. Los spikes de dos a tres minutos generan falsas alarmas con frecuencia; las tendencias de veinte a cuarenta minutos sostenidas casi siempre corresponden a un estado operativo real que requiere algún tipo de respuesta.",
+        "en": "The signals that a conflict corresponds to a coordinator blind spot rather than an agent error are observable before deciding. First: the zone where the agent detects the problem is not the one the coordinator has had in focus for the last twenty minutes — if attention was concentrated elsewhere, the probability that the alert is valid increases significantly. Second: the data the agent uses for its diagnosis is a sustained trend of twenty or more minutes, not a brief spike that could be noise. Two-to-three-minute spikes frequently generate false alarms; sustained twenty-to-forty-minute trends almost always correspond to a real operational state that requires some kind of response."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El procedimiento correcto cuando el diagnóstico del agente apunta a un posible punto ciego es verificar antes de actuar: abrir el dato específico que el agente está usando — cobertura de conductores en esa zona, tasa de cancelación, tiempo de espera promedio — y confirmar o refutar la tendencia en treinta segundos. Si la tendencia está ahí, el coordinador actúa. Si no está, el agente tiene un problema de umbral que debe corregirse en el archivo de contexto. El error que más cuesta en este escenario es saltar directamente a ignorar la alerta sin verificar, porque ese hábito silencia exactamente las alertas tempranas que producen el mayor impacto operativo cuando se actúa a tiempo — la cobertura en caída antes de que llegue al nivel crítico, la zona con cancelaciones acumuladas antes de que el pasajero la abandone.",
+        "en": "The right procedure when the agent's diagnosis points to a possible blind spot is to verify before acting: open the specific data the agent is using — driver coverage in that zone, cancellation rate, average wait time — and confirm or refute the trend in thirty seconds. If the trend is there, the coordinator acts. If it isn't, the agent has a threshold problem that should be corrected in the context file. The most costly error in this scenario is jumping directly to ignoring the alert without checking, because that habit silences exactly the early alerts that produce the greatest operational impact when acted on in time — coverage in decline before it reaches critical level, a zone with accumulating cancellations before passengers abandon it."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "cuando-coordinador-tiene-razon-contexto",
+      "text": {
+        "es": "Cuándo el coordinador tiene razón y el agente está trabajando sin el contexto suficiente",
+        "en": "When the coordinator is right and the agent is working without enough context"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El diagnóstico del coordinador tiene ventaja sobre el del agente cuando incluye información en tiempo real que el archivo de contexto no ha podido capturar. El ejemplo más directo: el coordinador sabe que hay un evento local importante hoy y que la demanda en zona norte va a ser inusualmente alta en la franja de las 19:00 a las 22:00, pero ese evento no está en el archivo de contexto porque es nuevo o fue anunciado después de la última actualización. El agente, sin esa información, aplica el patrón histórico de martes noche sin evento — que predice un patrón de demanda completamente distinto — y produce un diagnóstico técnicamente consistente con lo que tiene en contexto pero incorrecto para la realidad de ese turno específico.",
+        "en": "The coordinator's diagnosis has an advantage over the agent's when it includes real-time information the context file hasn't been able to capture. The most direct example: the coordinator knows there's an important local event today and that demand in the northern zone will be unusually high between 7 p.m. and 10 p.m., but that event isn't in the context file because it's new or was announced after the last update. The agent, without that information, applies the historical baseline for a Tuesday evening without an event — which predicts a completely different demand pattern — and produces a diagnosis technically consistent with what it has in context but wrong for the reality of that specific shift."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Las situaciones donde el criterio del coordinador supera sistemáticamente al del agente tienen un factor en común: hay información operativa relevante que no está en el archivo de contexto activo. El coordinador que lleva meses en esa ciudad tiene ese mapa en la cabeza; el agente no tiene acceso a él si no está documentado. La solución no es dejar de usar el agente en esas situaciones — es resolver la asimetría de información que causa el conflicto: añadir al archivo la información que el coordinador maneja de forma implícita y que el agente necesita para producir diagnósticos correctos sin que alguien tenga que corregirlos manualmente en cada turno donde ese contexto es relevante.",
+        "en": "Situations where the coordinator's judgment consistently outperforms the agent's share a common factor: relevant operational information isn't in the active context file. The coordinator who has worked that city for months has that map in their head; the agent can't access it unless it's documented. The solution isn't to stop using the agent in those situations — it's to resolve the information asymmetry causing the conflict: add to the file the information the coordinator manages implicitly and that the agent needs to produce correct diagnostics without someone having to manually correct them every shift where that context is relevant."
+      }
+    },
+    {
+      "type": "quote",
+      "text": {
+        "es": "La primera vez que sobreescribí al agente con confianza fue durante una feria patronal que cambiaba todos los patrones del fin de semana. El agente no la tenía en el archivo y seguía aplicando el patrón histórico. Después me di cuenta de que no había actualizado el contexto con el calendario de eventos — y que todos los conflictos de ese tipo habían tenido la misma causa.",
+        "en": "The first time I overrode the agent with full confidence was during a local fair that changed every weekend pattern. The agent didn't have it in the file and kept applying the historical baseline. Afterward I realized I hadn't updated the context with the events calendar — and every conflict of that type had the same root cause."
+      },
+      "attribution": {
+        "es": "Operador con 110 conductores activos en una ciudad del centro-norte de México",
+        "en": "Operator with 110 active drivers in a city in north-central Mexico"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "documentar-conflicto-resuelto",
+      "text": {
+        "es": "Cómo documentar un conflicto resuelto para que no vuelva a producirse igual",
+        "en": "How to document a resolved conflict so it doesn't repeat in the same form"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Un conflicto entre el agente y el coordinador que se resuelve sin dejar ningún registro no produce aprendizaje — produce el mismo conflicto en el siguiente turno donde se dan las mismas condiciones. El registro mínimo útil tiene cuatro campos: qué diagnosticó el agente con sus datos específicos, qué sabía el coordinador que el agente no tenía en contexto, qué decisión se tomó, y qué cambió en los siguientes veinte a treinta minutos. Ese registro no tiene que ser extenso — cuatro líneas concretas bastan — y puede añadirse al archivo de contexto del operador en la sección de incidencias resueltas o en la sección de patrones estacionales, dependiendo de si el contexto faltante era un dato de turno único o un patrón recurrente.",
+        "en": "A conflict between the agent and the coordinator that's resolved without leaving any record produces no learning — it produces the same conflict in the next shift where the same conditions appear. The minimum useful record has four fields: what the agent diagnosed with its specific data, what the coordinator knew that the agent didn't have in context, what decision was made, and what changed in the following twenty to thirty minutes. That record doesn't need to be extensive — four concrete lines is enough — and can be added to the operator context file in the resolved incidents section or the seasonal patterns section, depending on whether the missing context was a one-off shift detail or a recurring pattern."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El tiempo de documentación de un conflicto resuelto correctamente es de tres a cinco minutos al final del turno donde ocurrió. Ese costo es bajo comparado con el de resolverlo de nuevo en el siguiente turno en el mismo formato — que puede tomar diez a quince minutos si el coordinador tiene que diagnosticar desde cero — o con el costo de ignorarlo y dejar que el agente siga produciendo la misma alerta en cada turno donde se dan las mismas condiciones. Operaciones que documentan los conflictos resueltos de forma consistente reportan una reducción del 40% al 60% en discrepancias del mismo tipo en los dos meses siguientes a la documentación, porque el agente ya tiene el punto de referencia que le faltaba para interpretar correctamente ese escenario.",
+        "en": "The documentation time for a correctly resolved conflict is three to five minutes at the end of the shift where it occurred. That cost is low compared to resolving it again in the next shift in the same form — which can take ten to fifteen minutes if the coordinator has to diagnose from scratch — or with the cost of ignoring it and letting the agent continue producing the same alert every shift where the same conditions appear. Operations that document resolved conflicts consistently report a 40%-60% reduction in the same type of discrepancy in the two months following documentation, because the agent now has the reference point it was missing to correctly interpret that scenario."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "patron-discrepancias-señal-contexto",
+      "text": {
+        "es": "El patrón de discrepancias como diagnóstico del archivo de contexto",
+        "en": "The discrepancy pattern as a diagnostic of the context file"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Cuando la misma categoría de discrepancia aparece más de dos o tres veces en el mismo período, el patrón señala un problema específico en el archivo de contexto, no un fallo aislado del agente. Discrepancias recurrentes de tipo punto ciego en la misma zona y franja horaria indican que esa zona no tiene umbrales documentados para ese período — el agente no tiene el punto de referencia local para saber si el nivel actual es normal o requiere acción. Discrepancias recurrentes de tipo información externa con el mismo tipo de evento señalan que ese patrón de evento no está en el archivo y debería añadirse con suficiente anticipación para que el agente lo tenga disponible antes del siguiente evento similar. Discrepancias recurrentes de tipo umbral desactualizado en la misma zona indican que la última calibración del archivo no capturó un cambio de condiciones operativas que el coordinador ya percibió en el turno.",
+        "en": "When the same category of discrepancy appears more than two or three times in the same period, the pattern signals a specific problem in the context file, not an isolated agent failure. Recurring blind-spot discrepancies in the same zone and time window indicate that zone has no documented thresholds for that period — the agent has no local reference point to determine whether the current level is normal or requires action. Recurring external-information discrepancies with the same type of event signal that the event pattern isn't in the file and should be added with enough lead time for the agent to have it available before the next similar event. Recurring outdated-threshold discrepancies in the same zone indicate the last file calibration didn't capture an operational condition change the coordinator had already perceived in the shift."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La meta no es que el agente y el coordinador coincidan siempre — eso requeriría que el agente tuviera acceso a toda la información que el coordinador maneja en tiempo real, incluida la que nunca se documentará. La meta es que cada discrepancia resuelva algo: que los puntos ciegos del coordinador que el agente detecta lleguen a las decisiones correctas a tiempo, que los umbrales desactualizados del archivo se corrijan para no generar falsas alarmas recurrentes, y que la información en tiempo real que el coordinador usa de forma sistemática termine siendo parte del contexto que el agente puede aplicar en el siguiente turno. Un conflicto resuelto sin registro es un ciclo que se repite. Un conflicto resuelto con documentación es un ciclo que cierra.",
+        "en": "The goal isn't for the agent and coordinator to always agree — that would require the agent to have access to every piece of information the coordinator manages in real time, including information that will never be documented. The goal is for each discrepancy to resolve something: that coordinator blind spots the agent detects reach the right decisions in time, that outdated thresholds in the file get corrected to stop generating recurring false alarms, and that the real-time information the coordinator uses systematically ends up being part of the context the agent can apply in the next shift. A conflict resolved without documentation is a cycle that repeats. A conflict resolved with documentation is a cycle that closes."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La madurez de la integración no se mide por la ausencia de conflictos entre el agente y el coordinador — se mide por si esos conflictos están produciendo un sistema más específico con cada turno que pasa. Un operador cuyos coordinadores investigan las discrepancias antes de resolverlas, documentan los conflictos que revelan información faltante, y calibran el archivo con los patrones que el agente aún no tiene, está acumulando un activo de contexto que ninguna configuración genérica puede replicar: el conocimiento operativo de esa ciudad específica, convertido en referencias que el agente puede usar para producir diagnósticos sin que el coordinador tenga que corregirlos manualmente en cada turno.",
+        "en": "Integration maturity isn't measured by the absence of conflicts between the agent and the coordinator — it's measured by whether those conflicts are producing a more specific system with each passing shift. An operator whose coordinators investigate discrepancies before resolving them, document conflicts that reveal missing information, and calibrate the file with patterns the agent doesn't yet have, is accumulating a context asset no generic configuration can replicate: the operational knowledge of that specific city, converted into references the agent can use to produce diagnostics without the coordinator having to manually correct them each shift."
+      }
+    }
+  ],
+  "cta": {
+    "heading": {
+      "es": "¿Listo para lanzar tu propia app de movilidad?",
+      "en": "Ready to launch your own mobility app?"
+    },
+    "body": {
+      "es": "Configura tu marca, tus tarifas y tus servicios en semanas, no en meses. Cabgo te entrega la plataforma; tú te quedas con la operación, los clientes y los ingresos.",
+      "en": "Set up your brand, pricing and services in weeks, not months. Cabgo ships the platform — you keep the operation, the customers and the revenue."
+    },
+    "buttonLabel": {
+      "es": "Comenzar con Cabgo",
+      "en": "Get started with Cabgo"
+    },
+    "buttonHref": "/empezar"
+  },
+  "seo": {
+    "metaTitle": {
+      "es": "Agente vs coordinador: resolver la discrepancia | Cabgo",
+      "en": "Agent vs coordinator: resolving the disagreement | Cabgo"
+    },
+    "metaDescription": {
+      "es": "Cuando el agente y el coordinador no coinciden, esa tensión es información. Los tres tipos de discrepancia y cuándo confiar en cada perspectiva.",
+      "en": "When the agent and coordinator disagree, that tension is information, not a system failure. Three types of discrepancy and when to follow each perspective."
+    }
+  }
+}
