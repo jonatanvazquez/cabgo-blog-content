@@ -1,0 +1,251 @@
+{
+  "slug": "expansion-segunda-ciudad-agente-operacion",
+  "category": "strategy",
+  "title": {
+    "es": "El agente en la segunda ciudad: cómo expandir sin duplicar el equipo de coordinación",
+    "en": "The agent in the second city: how to expand without duplicating your coordination team"
+  },
+  "excerpt": {
+    "es": "El operador que lleva 90 días con el agente genuinamente integrado tiene un activo que cambia el cálculo de la expansión: un archivo de contexto que funciona y el hábito de usarlo.",
+    "en": "The operator with 90 days of genuine agent integration has an asset that changes the expansion math: a working context file and the habit of using it."
+  },
+  "heroImage": "https://raw.githubusercontent.com/jonatanvazquez/cabgo-blog-content/main/images/expansion-segunda-ciudad-agente-operacion.jpg",
+  "heroImageAlt": {
+    "es": "Ilustración isométrica de dos plataformas de ciudad conectadas por un puente teal de datos: la ciudad 1 a la izquierda con panel de operador completo y consola de agente activa, y la ciudad 2 a la derecha más pequeña con archivo de contexto en construcción y figura de coordinador supervisando ambas",
+    "en": "Isometric illustration of two city platforms connected by a teal data bridge: city one on the left with a full operator dashboard and active agent console, city two on the right smaller with a partially built context file card and a coordinator figure overseeing both"
+  },
+  "heroImagePrompt": "Two connected isometric city platforms side by side: the left platform is city one, fully detailed, with a glowing operator dashboard panel showing zone coverage cards with threshold indicators, and a bright teal AI agent console displaying specific diagnostic text. The right platform is city two, slightly smaller and partially built, with a context file card showing some sections filled and others blank, and a small coordinator figure standing at the junction of both platforms. A wide glowing teal data bridge connects both platforms at the level of the agent interfaces. Deep violet floor grid, soft indigo radial background glow, clean geometric shapes. Negative space on the lower right.",
+  "publishedAt": "2026-06-20",
+  "readingMinutes": 9,
+  "keywords": {
+    "es": [
+      "expandir segunda ciudad ride-hailing agente IA coordinador",
+      "segunda ciudad movilidad regional sin coordinador adicional",
+      "archivo contexto agente segunda ciudad lanzamiento operacion",
+      "expansion operacion ride-hailing agente IA Cabgo",
+      "un coordinador dos ciudades ride-hailing agente IA",
+      "lanzamiento segunda ciudad agente IA movilidad regional",
+      "contexto agente expansion operador regional Mexico"
+    ],
+    "en": [
+      "expand second city ride-hailing AI agent coordinator",
+      "second city mobility operation without extra coordinator",
+      "context file AI agent second city launch operations",
+      "ride-hailing expansion AI agent Cabgo operator",
+      "one coordinator two cities ride-hailing AI agent",
+      "second city launch AI agent regional mobility",
+      "AI agent context expansion regional operator Mexico"
+    ]
+  },
+  "author": {
+    "name": "Equipo Cabgo",
+    "role": {
+      "es": "Plataforma de movilidad",
+      "en": "Mobility platform"
+    }
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La expansión a una segunda ciudad tiene un costo fijo que la mayoría de los operadores de ride-hailing asume de forma automática: un coordinador adicional. La lógica es directa — una ciudad nueva requiere alguien que conozca las zonas, aprenda los patrones de demanda, identifique qué incidencias son recurrentes y cómo resolverlas, y desarrolle el criterio local que permite tomar decisiones correctas en los momentos de mayor presión del turno. Ese proceso de aprendizaje toma entre 60 y 90 días en una ciudad nueva, y mientras ocurre, el coordinador no puede gestionar simultáneamente otra ciudad sin degradar la calidad de ambas. Esta lógica era válida antes de que la integración real del agente cambiara la ecuación de coordinación.",
+        "en": "Expanding to a second city has a fixed cost most ride-hailing operators treat as automatic: a dedicated coordinator. The reasoning is straightforward — a new city means someone needs to learn the zones, map the demand patterns, identify which incidents recur and how to resolve them, and develop the local judgment that enables correct decisions during the shift's most demanding moments. That learning process takes 60 to 90 days in any new city, and while it's underway, that coordinator can't also manage another city without degrading both. This logic held before genuine agent integration changed the coordination equation."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El operador que lleva 90 días con el agente genuinamente integrado en su primera ciudad ha construido dos cosas que cambian el cálculo de la expansión: un archivo de contexto que funciona y el hábito de usarlo. El archivo documenta la estructura operativa — zonas, umbrales, incidencias recurrentes y sus resoluciones — en un formato que el agente puede usar para producir diagnósticos sin que el coordinador tenga que monitorizar manualmente cada zona en cada turno. El hábito significa que el coordinador sabe cuándo consultar al agente, cómo formular las preguntas para obtener diagnósticos accionables y cómo actualizar el contexto cuando algo cambia. Esas dos cosas son transferibles a una segunda ciudad de una forma que el conocimiento tácito de un coordinador nuevo no lo es.",
+        "en": "The operator who has spent 90 days with the agent genuinely embedded in their first city has built two things that change the expansion math: a working context file and the habit of using it. The context file documents the operational structure — zones, thresholds, recurring incidents and their resolutions — in a format the agent can use to produce diagnostics without the coordinator having to manually check every zone every shift. The habit means the coordinator knows when to consult the agent, how to phrase questions to get actionable diagnostics, and how to update the context when something changes. Both of those things transfer to a second city in a way that a new coordinator's tacit knowledge simply doesn't."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "por-que-segunda-ciudad-cuesta-mas",
+      "text": {
+        "es": "Por qué la segunda ciudad cuesta más que la primera sin agente integrado",
+        "en": "Why the second city costs more than the first without an integrated agent"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Sin agente integrado, la expansión a una segunda ciudad es esencialmente la misma operación de lanzamiento inicial, con el agravante de que el operador ya está gestionando la primera. El coordinador nuevo necesita entre cuatro y ocho semanas solo para aprender las zonas con suficiente profundidad como para tomar decisiones de cobertura con criterio: cuántos conductores son necesarios en qué zona, en qué franja horaria, y cuándo ese número empieza a ser problemático. Mientras ese aprendizaje ocurre, los errores de cobertura son más frecuentes y más costosos. El coordinador sin experiencia local activa incentivos tarde porque aún no reconoce las señales tempranas de caída de disponibilidad, o distribuye mal los conductores al inicio del turno porque el patrón de demanda de esa ciudad todavía no está interiorizado.",
+        "en": "Without an integrated agent, expanding to a second city is essentially the same launch operation as the first one, with the added constraint that the operator is already running city one. A new coordinator needs four to eight weeks just to learn the zones well enough to make coverage decisions with confidence — how many drivers are needed in which zone, during which time windows, and when a number starts signaling a problem. While that learning is happening, coverage errors are more frequent and more costly. The coordinator without local experience activates incentives late because they don't yet recognize the early fall-off signals, or distributes drivers poorly at shift start because the demand pattern for that city isn't yet internalized."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El costo real de ese período de aprendizaje no está solo en el salario del coordinador nuevo — está en las ineficiencias operativas de la ciudad que se pagan con métricas peores durante ese período: más cancelaciones, cobertura más irregular, incentivos menos precisos. Para un operador con 80-120 conductores en la segunda ciudad, ese período puede costar entre $1,800 y $3,500 USD en incentivos adicionales menos eficientes y en pasajeros que cancelan antes de que el coordinador identifique el problema. Este costo está incorporado en el modelo de expansión estándar. Lo que cambia cuando el agente está genuinamente integrado es que una parte significativa de ese período de aprendizaje puede sustituirse con el archivo de contexto que ya existe.",
+        "en": "The real cost of that learning period isn't just the new coordinator's salary — it's the operational inefficiencies in the new city paid through worse metrics during that window: more cancellations, less consistent coverage, less precise incentive timing. For an operator with 80-120 drivers in a second city, that ramp-up can cost $1,800-$3,500 USD in less efficient incentives and in passengers who cancel before the coordinator identifies the problem. This cost is built into the standard expansion model. What changes when the agent is genuinely integrated is that a significant portion of that learning period can be replaced with a context file that already exists."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "lo-que-transfiere-archivo-contexto-primera-ciudad",
+      "text": {
+        "es": "Lo que el archivo de la primera ciudad ya tiene que acelera la segunda",
+        "en": "What the first city's context file already contains that accelerates the second"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El archivo de contexto del operador tiene dos capas: una que es específica de la primera ciudad y una que es estructural y se transfiere directamente. La capa específica — los nombres de las zonas, los umbrales de cobertura, los patrones de demanda por hora y día, las incidencias recurrentes con sus resoluciones documentadas — no se transfiere, porque corresponde a la geografía y los patrones de demanda de esa ciudad en particular. Pero la capa estructural sí: el formato en que se documentan los umbrales, la forma en que se describe una incidencia con sus cuatro campos, la convención para nombrar las zonas y relacionarlas con los identificadores del sistema, y la lógica general de cómo el agente usa ese contexto para producir diagnósticos específicos.",
+        "en": "The operator context file has two layers: one that's specific to the first city, and one that's structural and transfers directly. The specific layer — zone names, coverage thresholds, hour-by-hour and day-by-day demand patterns, recurring incidents with documented resolutions — doesn't transfer, because it corresponds to that city's particular geography and demand patterns. But the structural layer does: the format for documenting thresholds, the way incidents are described using four fields, the convention for naming zones and mapping them to system identifiers, and the general logic of how the agent uses that context to produce specific diagnostics."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Esto significa que cuando el operador abre el archivo de contexto de la segunda ciudad no empieza desde cero — empieza con la estructura ya definida y con el conocimiento de qué tipo de información necesita documentar para que el agente sea útil desde los primeros turnos. El coordinador no tiene que descubrir empíricamente qué necesita el agente; lo sabe porque ya lo vivió en la primera ciudad. Esa sola diferencia reduce el tiempo de construcción del archivo de contexto de la segunda ciudad de dos o tres semanas a tres a cinco días — porque la pregunta no es «¿qué necesita el agente?» sino «¿cuáles son los umbrales concretos de estas zonas en esta ciudad?».",
+        "en": "This means that when the operator opens the second city's context file, they don't start from zero — they start with an established structure and the knowledge of what type of information needs to be documented for the agent to be useful from the first shifts. The coordinator doesn't have to discover empirically what the agent needs; they already know because they lived it in the first city. That single difference reduces the time to build a working context file for the second city from two to three weeks down to three to five days — because the question isn't \"what does the agent need?\" but \"what are the specific thresholds for these particular zones in this city?\""
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "que-adaptar-segunda-ciudad-archivo",
+      "text": {
+        "es": "Qué adaptar y qué reconstruir al entrar en la segunda ciudad",
+        "en": "What to adapt and what to rebuild when entering the second city"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La primera tarea al abrir el archivo de la segunda ciudad es distinguir lo que puede reutilizarse directamente de lo que debe construirse desde cero. Lo que se reutiliza directamente: el formato de documentación de umbrales, el formato de cuatro campos para incidencias, la convención de correspondencia entre nombres internos de zonas e identificadores del sistema, y los patrones de eventos recurrentes que el agente usa como referencia si la segunda ciudad comparte el mismo tipo de eventos — ferias patronales, semanas de quincena, cierres de temporada escolar. Lo que debe construirse desde cero es todo lo que es geográficamente específico: los nombres de las zonas, sus umbrales precisos para cada franja horaria, los nodos de alta demanda particulares de esa ciudad, y las incidencias que son características de ese mercado y esa geografía.",
+        "en": "The first task when opening the second city's context file is distinguishing what can be reused directly from what must be built from scratch. What transfers directly: the threshold documentation format, the four-field incident format, the convention for mapping internal zone names to system identifiers, and recurring event patterns the agent uses as reference — if the second city shares the same event types (local fairs, payday-week patterns, end-of-school-term peaks). What has to be built from scratch is everything geographically specific: zone names, precise thresholds by time window, the high-demand nodes particular to that city, and incidents characteristic of that market and geography."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La forma más eficiente de construir esa capa específica rápidamente es usar el mismo método que funcionó en la primera ciudad: exportar la lista de zonas del panel, pedirle al agente que formule las preguntas de umbral que necesita responder, y documentar esas respuestas en el formato ya establecido. El agente sabe qué preguntar porque el operador ya calibró ese proceso en la primera ciudad. Un archivo base funcional para la segunda ciudad puede estar listo en cuatro a seis horas de trabajo distribuidas en los primeros tres turnos de operación — no como documento teórico sino como registro que crece con cada turno donde ocurre algo que vale documentar.",
+        "en": "The fastest way to build that specific layer is the same method that worked in the first city: export the zone list from the panel, ask the agent to formulate the threshold questions it needs answered, and document those answers in the established format. The agent knows what to ask because the operator already calibrated that process in the first city. A functional base context file for the second city can be ready in four to six hours of work distributed across the first three operating shifts — not as a theoretical document but as a working record that grows with each shift where something worth documenting happens."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "flujo-decisiones-coordinador-dos-ciudades",
+      "text": {
+        "es": "El flujo de decisiones que permite operar dos ciudades con un coordinador",
+        "en": "The decision workflow that makes one coordinator viable across two cities"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La clave del modelo de un coordinador con dos ciudades no es que el coordinador haga el trabajo de dos — es que el agente con contexto activo en ambas ciudades reduce la carga de monitorización continua que tendría que asumir manualmente si no lo tuviera. En una operación sin agente, el coordinador tiene que revisar activamente cada zona en cada turno para detectar caídas de cobertura, patrones de cancelación anómalos e incidencias emergentes. Con el agente integrado, esa carga de monitorización continua la asume el agente, que puede seguir simultáneamente el estado de ambas ciudades y emitir alertas cuando algún indicador cae por debajo de los umbrales documentados en el contexto de cada una.",
+        "en": "The key to a one-coordinator, two-city model isn't that the coordinator does twice the work — it's that the agent with active context in both cities reduces the continuous monitoring load the coordinator would otherwise have to handle manually. In an operation without an agent, the coordinator has to actively review each zone each shift to catch coverage drops, anomalous cancellation patterns, and emerging incidents. With the agent integrated, that continuous monitoring load moves to the agent, which can simultaneously track both cities' status and flag alerts when any indicator falls below the thresholds documented in each city's context."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El rol del coordinador en este modelo es de supervisión y decisión, no de monitorización activa. En la práctica: el coordinador empieza el turno revisando el estado de ambas ciudades con el agente — diez a quince minutos en total — delega la vigilancia de los patrones normales al agente durante el turno, y concentra su atención en la ciudad que presenta más anomalías en ese turno específico. El agente alerta cuando alguno de los umbrales documentados se activa en cualquiera de las dos ciudades; el coordinador evalúa la alerta y toma la decisión. Este flujo funciona cuando el archivo de contexto de cada ciudad tiene umbrales suficientemente precisos para que las alertas sean accionables y no solo informativas.",
+        "en": "The coordinator's role in this model is supervisory and decisional, not active monitoring. In practice: the coordinator starts each shift by reviewing both cities' status with the agent — ten to fifteen minutes total — delegates normal pattern monitoring to the agent during the shift, and concentrates attention on whichever city shows more anomalies that particular shift. The agent flags when any documented threshold triggers in either city; the coordinator evaluates the alert and makes the call. This workflow functions when each city's context file has thresholds precise enough for alerts to be actionable rather than merely informational."
+      }
+    },
+    {
+      "type": "quote",
+      "text": {
+        "es": "Cuando abrimos en la segunda ciudad pensé que necesitaría contratar a alguien de inmediato. En cambio, usé el mismo formato de contexto que había construido para la primera y empecé a documentar las zonas y los umbrales desde el primer turno. A las tres semanas el agente ya identificaba los patrones de la segunda ciudad con suficiente especificidad para que yo pudiera atender las dos sin que ninguna degradara.",
+        "en": "When we opened in the second city I thought I'd need to hire someone immediately. Instead I used the same context format I'd built for the first city and started documenting the zones and thresholds from shift one. By week three the agent was already identifying the second city's patterns with enough specificity that I could manage both without either one degrading."
+      },
+      "attribution": {
+        "es": "Operador con 95 conductores en la primera ciudad y 60 en la segunda, en el centro-este de México",
+        "en": "Operator with 95 active drivers in the first city and 60 in the second, in central-eastern Mexico"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "periodo-critico-60-dias-segunda-ciudad",
+      "text": {
+        "es": "El período crítico: los primeros 60 días en la segunda ciudad",
+        "en": "The critical period: the first 60 days in the second city"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Los primeros 60 días en la segunda ciudad son el período de mayor riesgo operativo para el modelo de un coordinador con dos ciudades. El archivo de contexto de la segunda ciudad está en construcción — tiene la estructura correcta pero todavía pocos umbrales documentados con precisión y pocas incidencias registradas con sus resoluciones. El agente en esa fase produce diagnósticos más genéricos que en la primera ciudad, porque le falta el contexto específico que acumuló en meses de operación real. El coordinador tiene que ser más activo en la segunda ciudad durante este período: verificar más alertas personalmente, documentar cada incidencia relevante con el formato completo inmediatamente después de resolverla, y calibrar los umbrales del archivo a medida que los primeros datos reales revelan qué niveles son normales para esas zonas.",
+        "en": "The first 60 days in the second city are the period of highest operational risk for the one-coordinator, two-city model. The second city's context file is under construction — it has the right structure but still few thresholds precisely documented and few incidents logged with their resolutions. The agent in this phase produces more generic diagnostics than in the first city, because it's missing the specific context accumulated over months of real operation. The coordinator needs to be more hands-on in the second city during this window: verify more alerts personally, document each relevant incident in full four-field format immediately after resolving it, and calibrate the file's thresholds as the first real data from that city reveals what levels are normal for its zones."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La señal que indica que el archivo de la segunda ciudad ya es funcional es la misma que en la primera: el tiempo de diagnóstico en incidencias recurrentes cae de diez a doce minutos a dos a tres minutos. Cuando eso ocurre, significa que el agente tiene suficiente contexto específico de esa ciudad para recuperar resoluciones documentadas en lugar de construir diagnósticos desde cero. Ese umbral generalmente se alcanza entre la semana seis y la semana diez de operación real, dependiendo de con qué frecuencia el coordinador documenta las incidencias tal como ocurren en el turno en lugar de reconstruirlas de memoria días después.",
+        "en": "The signal that the second city's context file is functional is the same as in the first: incident diagnostic time falls from ten to twelve minutes to two to three minutes. When that happens, it means the agent has enough city-specific context to retrieve documented resolutions rather than building diagnostics from scratch. That threshold is typically reached between week six and week ten of real operation, depending on how consistently the coordinator documents incidents as they occur during the shift rather than reconstructing them from memory days later."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "cuando-segunda-ciudad-requiere-coordinador-propio",
+      "text": {
+        "es": "Cuándo la segunda ciudad requiere su propio coordinador",
+        "en": "When the second city needs its own dedicated coordinator"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El modelo de un coordinador con dos ciudades con agente integrado no es permanente — es una fase de lanzamiento con una duración operativa específica. Las señales que indican que la segunda ciudad necesita su propio coordinador son distintas de las señales de que la operación va mal: que sea necesario contratar a alguien no implica que el modelo anterior no haya funcionado, sino que el volumen y la complejidad de la segunda ciudad han crecido hasta el punto donde la carga de supervisión supera lo que un coordinador puede gestionar bien con soporte del agente.",
+        "en": "The one-coordinator, two-city model with integrated agent isn't permanent — it's a launch phase with a specific operational duration. The signals that indicate the second city needs its own coordinator are different from signals that the operation is going wrong: the fact that hiring becomes necessary doesn't mean the previous model failed, it means the second city's volume and complexity have grown to the point where the supervisory load exceeds what one coordinator can handle well even with agent support."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Las tres señales concretas: el tiempo promedio de respuesta a alertas de la segunda ciudad supera consistentemente los diez minutos durante el turno de mayor demanda, porque el coordinador está atendiendo la primera ciudad; la segunda ciudad supera los 120 conductores activos en las horas pico y sus incidencias empiezan a ser menos predecibles y más variadas que las que el archivo cubre con resoluciones documentadas; la segunda ciudad requiere decisiones estratégicas locales — negociación con autoridades, ajuste de zonas de cobertura, cambios en estructura de tarifas — que el coordinador de la primera ciudad no tiene capacidad de atender sin comprometer la calidad de alguna de las dos. En ese punto, el archivo de contexto que el agente ha acumulado para la segunda ciudad es el onboarding más completo que el coordinador nuevo podría recibir.",
+        "en": "The three concrete signals: average response time to second-city alerts consistently exceeds ten minutes during peak-demand shifts, because the coordinator is attending to city one; the second city surpasses 120 active drivers during peak hours and its incidents are becoming less predictable and more varied than what the context file covers with documented resolutions; the second city requires local strategic decisions — negotiations with authorities, coverage zone adjustments, pricing structure changes — that the first-city coordinator can't attend to without compromising the quality of one of the two. At that point, the context file the agent has accumulated for that city is the most complete onboarding document the new coordinator could receive."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La expansión a una segunda ciudad con agente integrado no elimina la necesidad de coordinación humana — cambia cuándo esa coordinación necesita ser dedicada. El operador que llega a la segunda ciudad con un archivo de contexto bien estructurado y el hábito de integrarlo en el flujo del turno puede operar ambas ciudades con un coordinador durante un período que normalmente requeriría dos, sin que esa compresión de equipo se traduzca en métricas peores. El agente asume la carga de monitorización continua que hace inviable gestionar dos ciudades simultáneamente sin él — no porque reemplace el criterio del coordinador, sino porque libera el tiempo del coordinador para concentrarlo donde el criterio humano produce más valor.",
+        "en": "Expanding to a second city with an integrated agent doesn't eliminate the need for human coordination — it changes when that coordination needs to be dedicated. The operator who arrives at the second city with a well-structured context file and the habit of embedding it in the shift workflow can operate both cities with one coordinator during a period that would typically require two, without that team compression translating into worse metrics. The agent takes on the continuous monitoring load that makes managing two cities simultaneously unworkable without it — not by replacing the coordinator's judgment, but by freeing the coordinator's time to concentrate it where human judgment produces the most value."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Lo que la primera ciudad construye en 90 días de integración real no es solo un archivo de contexto para esa ciudad — es la metodología de construcción del archivo, el formato que funciona y los hábitos de uso que producen diagnósticos accionables en lugar de respuestas genéricas. Esos son los activos que se transfieren a la segunda ciudad y que reducen el período más caro del lanzamiento: el tiempo hasta que el agente tiene suficiente contexto específico para producir alertas que el coordinador pueda actuar sin tener que verificar manualmente cada zona de forma preventiva. La segunda ciudad llega al mismo nivel de integración que la primera en significativamente menos tiempo, porque el operador ya conoce el camino.",
+        "en": "What the first city builds in 90 days of genuine integration isn't just a context file for that city — it's the methodology for building the file, the format that works, and the usage habits that produce actionable diagnostics rather than generic responses. Those are the assets that transfer to the second city and reduce the most expensive phase of any launch: the time until the agent has enough city-specific context to produce alerts the coordinator can act on without manually pre-checking every zone. The second city reaches the same integration level as the first in significantly less time, because the operator already knows the path."
+      }
+    }
+  ],
+  "cta": {
+    "heading": {
+      "es": "¿Listo para lanzar tu propia app de movilidad?",
+      "en": "Ready to launch your own mobility app?"
+    },
+    "body": {
+      "es": "Configura tu marca, tus tarifas y tus servicios en semanas, no en meses. Cabgo te entrega la plataforma; tú te quedas con la operación, los clientes y los ingresos.",
+      "en": "Set up your brand, pricing and services in weeks, not months. Cabgo ships the platform — you keep the operation, the customers and the revenue."
+    },
+    "buttonLabel": {
+      "es": "Comenzar con Cabgo",
+      "en": "Get started with Cabgo"
+    },
+    "buttonHref": "/empezar"
+  },
+  "seo": {
+    "metaTitle": {
+      "es": "Expandir a una segunda ciudad con agente IA | Cabgo",
+      "en": "Expanding to a second city with an AI agent | Cabgo"
+    },
+    "metaDescription": {
+      "es": "Cómo el archivo de contexto de tu primera ciudad y el agente aceleran el lanzamiento en la segunda sin contratar un coordinador adicional desde el primer día.",
+      "en": "How your first city's context file and AI agent cut the second city ramp-up without requiring a dedicated coordinator from day one."
+    }
+  }
+}
