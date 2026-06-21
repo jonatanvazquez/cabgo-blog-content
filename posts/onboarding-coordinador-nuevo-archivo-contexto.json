@@ -1,0 +1,278 @@
+{
+  "slug": "onboarding-coordinador-nuevo-archivo-contexto",
+  "category": "product",
+  "title": {
+    "es": "El onboarding del coordinador nuevo: cómo el archivo de contexto comprime 90 días de aprendizaje",
+    "en": "Onboarding a new coordinator: how the context file compresses 90 days of learning"
+  },
+  "excerpt": {
+    "es": "Cada vez que un coordinador experimentado sale de la operación, la operación pierde entre 60 y 90 días de calidad mientras el nuevo aprende la ciudad. Un archivo de contexto maduro cambia ese cálculo.",
+    "en": "Every time an experienced coordinator leaves, the operation loses 60 to 90 days of quality while the replacement learns the city. A mature context file changes that calculation."
+  },
+  "heroImage": "https://raw.githubusercontent.com/jonatanvazquez/cabgo-blog-content/main/images/onboarding-coordinador-nuevo-archivo-contexto.jpg",
+  "heroImageAlt": {
+    "es": "Ilustración isométrica de una figura de coordinador nuevo frente a un archivo de contexto estructurado con secciones de zonas, umbrales e incidencias, junto a una consola de agente IA activa con un diagnóstico específico",
+    "en": "Isometric illustration of a new coordinator figure in front of a structured context file with zone, threshold, and incident sections, next to an active AI agent console displaying a specific diagnostic"
+  },
+  "heroImagePrompt": "Isometric split composition: on the left, a new coordinator figure sits at a compact isometric desk with a glowing teal context file document open in front of them, showing clearly labeled horizontal sections — a small zone grid map at top, three threshold gauge indicators in the middle, and two incident log entry rows at the bottom. On the right, a floating AI agent console panel shows a conversation response bubble with specific diagnostic text and a highlighted recommended action. A soft glowing teal data arc connects the context file document to the agent panel. Deep violet floor grid, soft indigo radial background glow, clean geometric shapes. Negative space on the lower right.",
+  "publishedAt": "2026-06-21",
+  "readingMinutes": 9,
+  "keywords": {
+    "es": [
+      "onboarding coordinador nuevo ride-hailing archivo contexto",
+      "transferir conocimiento operacion movilidad coordinador saliente",
+      "capacitar coordinador operaciones ride-hailing regional",
+      "rotacion coordinadores operacion taxi regional Mexico",
+      "archivo contexto agente IA onboarding coordinador",
+      "traspaso operacion coordinador ride-hailing agente IA",
+      "comprimir curva aprendizaje coordinador nuevo plataforma movilidad"
+    ],
+    "en": [
+      "onboarding new coordinator ride-hailing context file",
+      "knowledge transfer mobility operation outgoing coordinator",
+      "train coordinator regional ride-hailing operations",
+      "coordinator turnover taxi operations regional Mexico",
+      "context file AI agent coordinator onboarding",
+      "operation handover coordinator ride-hailing AI agent",
+      "compress learning curve new coordinator mobility platform"
+    ]
+  },
+  "author": {
+    "name": "Equipo Cabgo",
+    "role": {
+      "es": "Plataforma de movilidad",
+      "en": "Mobility platform"
+    }
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La rotación de coordinadores en operaciones regionales de ride-hailing es más frecuente de lo que los operadores proyectan cuando planifican la expansión. El coordinador que lleva dieciocho meses en una ciudad no solo sabe gestionar el turno — sabe qué significa cuando la zona norte cae a once conductores un jueves a las diecisiete, cuál de los tres tipos de incentivo disponibles produce el resultado más rápido en esa situación específica, y cuáles son los dos patrones de cancelación que señalan un problema real versus los que son ruido operativo. Ese conocimiento tácito, acumulado turno a turno durante meses, no se puede transmitir en una sesión de inducción. La consecuencia habitual es que la operación pierde calidad durante sesenta a noventa días cada vez que cambia el coordinador responsable — un costo recurrente que la mayoría de los operadores asume como parte inevitable del ciclo del negocio.",
+        "en": "Coordinator turnover in regional ride-hailing operations is more frequent than operators project when planning expansion. A coordinator who has spent eighteen months in a city doesn't just know how to manage a shift — they know what it means when the northern zone drops to eleven drivers on a Thursday at five o'clock, which of the three available incentive types produces the fastest result in that specific situation, and which cancellation patterns signal a real problem versus operational noise. That tacit knowledge, accumulated shift by shift over months, can't be transmitted in a single onboarding session. The typical consequence is that the operation loses quality for sixty to ninety days every time the responsible coordinator changes — a recurring cost most operators absorb as an inevitable part of the business cycle."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El operador que tiene un archivo de contexto bien mantenido tiene una alternativa a ese ciclo. El archivo documenta exactamente el conocimiento que tarda noventa días en construirse sin él: los umbrales de las zonas principales, los patrones de demanda por franja horaria, las incidencias recurrentes con sus resoluciones documentadas, y el vocabulario compartido entre el equipo y el sistema. Cuando ese archivo existe y está actualizado, el coordinador nuevo tiene acceso desde el primer día al mapa de criterios que sin el archivo solo podría construir por experiencia directa durante meses. Este artículo está dirigido al operador que ya tiene el agente activo y un archivo de contexto maduro, y que se enfrenta a la transición de coordinador — por salida voluntaria, por ascenso, o por la contratación adicional que requiere el crecimiento a una segunda ciudad.",
+        "en": "The operator who has a well-maintained context file has an alternative to that cycle. The file documents exactly the knowledge that takes ninety days to build without it: thresholds for the main zones, demand patterns by time window, recurring incidents with their documented resolutions, and the shared vocabulary between the team and the system. When that file exists and is current, the new coordinator has access from day one to the reference map that without the file can only be built through direct experience over months. This article is for the operator who already has the agent running and a mature context file, and who is facing a coordinator transition — whether from a voluntary departure, a promotion, or the additional hire that growth into a second city requires."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "por-que-shadowing-falla-ante-rotacion-imprevista",
+      "text": {
+        "es": "Por qué el shadowing de 90 días falla cuando la rotación no es planificada",
+        "en": "Why the 90-day shadowing model fails when turnover is unplanned"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El modelo estándar de onboarding de un coordinador nuevo en ride-hailing regional sigue una secuencia conocida: las primeras dos semanas el coordinador nuevo observa los turnos de mayor demanda con el titular o el operador presente, aprende los nombres de las zonas con el panel abierto, e identifica cuáles son las incidencias que aparecen con más frecuencia. Las siguientes cuatro a seis semanas gestiona los turnos con el titular disponible, tomando decisiones bajo supervisión directa y recibiendo correcciones en tiempo real. Solo a partir de la semana diez o doce opera de forma autónoma con la misma calidad que el coordinador saliente. En total: entre sesenta y noventa días hasta que el coordinador nuevo puede gestionar los turnos críticos sin comprometer los indicadores de la operación.",
+        "en": "The standard onboarding model for a new coordinator in regional ride-hailing follows a familiar sequence: the first two weeks, the new coordinator observes peak-demand shifts with the incumbent or operator present, learns zone names with the panel open, and begins identifying which incidents appear most frequently. The next four to six weeks, they manage shifts with the incumbent available, making decisions under direct supervision and receiving real-time corrections. Only around week ten or twelve do they operate autonomously at the same quality level as the outgoing coordinator. In total: sixty to ninety days until the new coordinator can manage critical shifts without degrading the operation's indicators."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El problema de ese modelo no es el tiempo que toma — es que asume que el titular puede estar disponible durante ese período para la transferencia activa. Cuando el coordinador sale de forma abrupta — una renuncia sin aviso, una situación personal que lo saca de la operación en pocos días — o cuando el operador necesita cubrir la segunda ciudad mientras la primera ya está en plena operación, el shadowing de noventa días no es viable. La operación sigue; el coordinador nuevo entra directo al turno con el nivel de error y las métricas más bajas que caracterizan los primeros meses sin referencia local. El costo de ese período no está solo en el salario del nuevo durante el período de adaptación — está en las cancelaciones adicionales, los incentivos activados tarde y la cobertura irregular que acompañan a un coordinador que todavía no tiene el mapa de esa ciudad en la cabeza.",
+        "en": "The problem with that model isn't the time it takes — it's that it assumes the incumbent can be available during that period for active knowledge transfer. When a coordinator departs abruptly — an unannounced resignation, a personal situation that pulls them out in days — or when the operator needs to staff the second city while the first is already in full operation, a ninety-day shadowing process isn't viable. The operation continues; the new coordinator goes directly into shifts with the error rates and weaker metrics that characterize the first months without a local reference. The cost of that period isn't just the new coordinator's salary during the adjustment window — it's the additional cancellations, late-activated incentives, and uneven coverage that come with a coordinator who hasn't yet built the mental map of that city."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "lo-que-archivo-transfiere-que-shadowing-construye-turno-a-turno",
+      "text": {
+        "es": "Lo que el archivo de contexto transfiere en días en lugar de meses",
+        "en": "What the context file transfers in days instead of months"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La razón por la que el shadowing de noventa días produce coordinadores competentes es que durante esas semanas el coordinador nuevo internaliza tres tipos de conocimiento que sin el archivo de contexto no están documentados en ningún lugar: el vocabulario operativo de esa ciudad específica (qué entiende el equipo por «zona norte», cómo se relaciona ese nombre con los identificadores del panel), los umbrales de referencia que definen qué es normal versus problemático en cada zona y franja horaria, y las resoluciones de las incidencias recurrentes que el titular aplica casi automáticamente porque ya las vivió docenas de veces. El shadowing transfiere ese conocimiento turno a turno, con el titular como fuente activa durante semanas. El archivo de contexto lo documenta en un formato navegable que el coordinador nuevo puede consultar desde el primer día.",
+        "en": "The reason the ninety-day shadowing model produces competent coordinators is that during those weeks the new coordinator internalizes three types of knowledge that without the context file aren't documented anywhere: the operational vocabulary of that specific city (what the team means by \"northern zone,\" how that name maps to system identifiers), the reference thresholds that define what's normal versus problematic in each zone and time window, and the resolutions for recurring incidents that the incumbent applies almost automatically because they've lived them dozens of times. Shadowing transfers that knowledge shift by shift, with the incumbent as the active source for weeks. The context file documents it in a navigable format the new coordinator can consult from day one."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La diferencia práctica no es que el conocimiento que provee el archivo sea idéntico al que provee el shadowing — el archivo no transmite la fluidez que viene con la experiencia directa. La diferencia es que el coordinador nuevo llega al primer turno con un mapa de referencia que en el modelo de shadowing solo habría tenido después de semanas. Sabe qué zona tiene más presión los viernes al mediodía, qué umbral justifica activar un incentivo en zona sur un miércoles por la tarde, y qué resolución funcionó la última vez que veinte conductores abandonaron simultáneamente el área central. Eso no convierte al coordinador nuevo en experto desde el primer turno — pero le da la orientación suficiente para que sus primeros errores sean de calibración, no de falta de referencia básica.",
+        "en": "The practical difference isn't that the knowledge the file provides is identical to what shadowing provides — the file doesn't transmit the fluency that comes with direct experience. The difference is that the new coordinator arrives at the first shift with a reference map that in the shadowing model they would only have had after weeks. They know which zone faces the most pressure on Friday at noon, which threshold justifies activating an incentive in the southern zone on a Wednesday afternoon, and which resolution worked the last time twenty drivers simultaneously abandoned the central area. That doesn't make the new coordinator an expert from the first shift — but it gives them enough orientation that their early errors are calibration errors, not errors from lacking basic reference."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "semana-onboarding-del-archivo-al-primer-turno-autonomo",
+      "text": {
+        "es": "La semana de onboarding: del archivo al primer turno autónomo",
+        "en": "The onboarding week: from the context file to the first autonomous shift"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Un onboarding estructurado con archivo de contexto maduro no requiere noventa días para producir un coordinador operativo — requiere cinco a siete días intensivos antes del primer turno autónomo, más dos semanas de supervisión ligera mientras el coordinador calibra su criterio con los datos reales de la ciudad. El objetivo de esos primeros días no es que el coordinador nuevo memorice el archivo — es que empiece a usar el agente con el archivo como contexto activo desde el primer turno, para que el proceso de aprendizaje sea colaborativo y documentado en lugar de solitario y tácito.",
+        "en": "A structured onboarding with a mature context file doesn't require ninety days to produce an operational coordinator — it requires five to seven intensive days before the first autonomous shift, plus two weeks of light supervision while the coordinator calibrates their judgment against the city's real data. The goal of those first days isn't for the new coordinator to memorize the file — it's for them to start using the agent with the file as active context from the first shift, so the learning process is collaborative and documented rather than solitary and tacit."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Los primeros dos días son de lectura activa: el coordinador nuevo lee el archivo con el panel de la plataforma abierto en paralelo, verifica que los nombres de zonas del archivo corresponden a las zonas del sistema, y usa el agente para hacer preguntas sobre los umbrales y las incidencias que no comprende del todo. El agente, con el archivo en contexto, puede explicar qué significa cada umbral en términos operativos y qué criterio llevó a documentar cada resolución de incidencia. No hay turno real todavía; es lectura activa con el agente como par de trabajo. Las preguntas que el coordinador hace al agente durante esta fase son también un diagnóstico del archivo: si la respuesta del agente es genérica ante una pregunta específica, el archivo tiene un vacío que conviene cerrar antes de que el coordinador llegue al turno.",
+        "en": "The first two days are active reading: the new coordinator reads the file with the platform panel open in parallel, verifies that the zone names in the file correspond to zones in the system, and uses the agent to ask questions about the thresholds and incidents they don't fully understand. The agent, with the file as active context, can explain what each threshold means in operational terms and what reasoning led to documenting each incident resolution. There's no live shift yet; it's active reading with the agent as a working partner. The questions the coordinator asks the agent during this phase are also a diagnostic of the file itself: if the agent's response is generic to a specific question, the file has a gap that's worth closing before the coordinator goes on shift."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Los días tres a siete combinan turnos supervisados y turnos autónomos con el agente como soporte activo. Los días tres y cuatro el coordinador supervisa un turno de baja demanda en compañía del agente — consulta al agente cada vez que un indicador sale de los parámetros del archivo, evalúa la recomendación y toma la decisión. El objetivo no es que sea autónomo sino que empiece a calibrar la diferencia entre lo que el archivo describe y lo que ocurre en el turno real. Las discrepancias que aparecen son la primera contribución del coordinador nuevo al archivo de contexto. Los días cinco a siete el coordinador gestiona el turno de forma autónoma con el agente como soporte y el operador disponible por mensaje para las decisiones que no quiera tomar solo. Al final de esos siete días, el coordinador tiene las primeras capas de experiencia directa documentada — no solo leída.",
+        "en": "Days three through seven combine supervised and autonomous shifts with the agent as active support. On days three and four, the new coordinator observes a low-demand shift alongside the agent — consulting the agent whenever an indicator falls outside the file's parameters, evaluating the recommendation, and making the decision. The goal isn't autonomy yet; it's starting to calibrate the gap between what the file describes and what actually happens on shift. The discrepancies that appear are the new coordinator's first contribution to the context file. Days five through seven, the coordinator manages shifts autonomously with the agent as support and the operator available by message for decisions they don't want to make alone. By the end of those seven days, the coordinator has their first layers of documented direct experience — not just read experience."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "errores-que-anulan-ventaja-archivo-en-onboarding",
+      "text": {
+        "es": "Los errores que anulan la ventaja del archivo en el onboarding",
+        "en": "The mistakes that eliminate the context file's advantage during onboarding"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El error más frecuente es asumir que el coordinador nuevo puede leer el archivo en paralelo con el primer turno en vivo. La velocidad de un turno activo no deja espacio para navegar el archivo mientras se atienden incidencias simultáneas. El resultado es que el coordinador nuevo lee el archivo de forma fragmentada, improvisa en las primeras decisiones, y cuando lo revisa después del turno ya tiene su propia experiencia reciente compitiendo con la referencia documentada. El archivo solo produce su ventaja completa cuando el coordinador nuevo tiene tiempo de leerlo con el panel abierto pero sin incidencias activas — antes del primer turno real, no durante él.",
+        "en": "The most common mistake is assuming the new coordinator can read the file in parallel with the first live shift. The pace of an active shift doesn't allow time to navigate the file while managing simultaneous incidents. The result is that the new coordinator reads the file in fragments, improvises early decisions, and by the time they review the file after the shift they already have their own recent experience competing with the documented reference. The file only delivers its full advantage when the new coordinator has time to read it with the panel open but without active incidents — before the first real shift, not during it."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El segundo error frecuente es no actualizar el archivo antes de que llegue el coordinador nuevo. Un archivo con umbrales de la temporada pasada, resoluciones de incidencias de hace seis meses, o zonas con nombres que ya no coinciden con los identificadores del sistema, confunde al coordinador nuevo en lugar de orientarlo. Las discrepancias entre lo que el archivo describe y lo que el coordinador observa en el turno deberían ser menores — señales de calibración de un archivo en buen estado — no fundamentales. Un archivo con dos o tres meses de desactualización puede generar desconfianza hacia el documento completo, y un coordinador que no confía en el archivo no usará el agente para obtener diagnósticos en los momentos críticos del turno.",
+        "en": "The second frequent mistake is not updating the file before the new coordinator arrives. A file with thresholds from last season, incident resolutions from six months ago, or zone names that no longer match system identifiers, confuses the new coordinator instead of orienting them. The discrepancies between what the file describes and what the coordinator observes on shift should be minor — calibration signals from a file in good standing — not fundamental. A file that is two or three months out of date can generate distrust toward the entire document, and a coordinator who doesn't trust the file won't use the agent for diagnostics during the shift's critical moments."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "preparar-archivo-antes-llegada-coordinador-nuevo",
+      "text": {
+        "es": "Cómo preparar el archivo antes de que llegue el coordinador nuevo",
+        "en": "How to prepare the context file before the new coordinator arrives"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La revisión del archivo antes del onboarding toma entre cuatro y seis horas de trabajo del operador o del coordinador saliente. No es una revisión exhaustiva — es una verificación de los cinco puntos con mayor probabilidad de generar confusión o desconfianza si no están al día:",
+        "en": "Reviewing the file before the onboarding takes four to six hours of work from the operator or the outgoing coordinator. It's not an exhaustive revision — it's a verification of the five points most likely to generate confusion or distrust if they're not current:"
+      }
+    },
+    {
+      "type": "list",
+      "style": "bullet",
+      "items": {
+        "es": [
+          "**Nombres de zonas**: verificar que cada nombre en el archivo corresponde al nombre actual en el sistema, sin versiones antiguas ni zonas discontinuadas",
+          "**Umbrales**: confirmar que los umbrales reflejan la temporada actual — los valores de temporada alta no aplican en período regular, y viceversa",
+          "**Incidencias recientes**: asegurar que las diez incidencias más recurrentes tengan entrada con el formato de cuatro campos completo, incluyendo las que ocurrieron en los últimos dos meses",
+          "**Eventos próximos**: añadir los eventos locales de los siguientes treinta días a la sección de patrones estacionales, para que el coordinador nuevo no aprenda su impacto operativo por primera vez en el turno",
+          "**Conductores con historial relevante**: verificar que los conductores con características que el titular gestionaba de forma diferenciada están documentados con el contexto que explica por qué"
+        ],
+        "en": [
+          "**Zone names**: verify that every name in the file corresponds to its current name in the system, with no old versions or discontinued zones",
+          "**Thresholds**: confirm that thresholds reflect the current season — peak season values don't apply in regular periods, and vice versa",
+          "**Recent incidents**: ensure the ten most recurring incidents have complete four-field entries, including those that occurred in the last two months",
+          "**Upcoming events**: add any local events in the next thirty days to the seasonal patterns section, so the new coordinator doesn't learn their operational impact for the first time on shift",
+          "**Drivers with relevant history**: verify that drivers with characteristics the incumbent managed in a differentiated way are documented with the context explaining why"
+        ]
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Esta revisión no tiene que producir un archivo perfecto — su objetivo es cerrar los vacíos que con mayor probabilidad generarán confusión en los primeros cinco a diez turnos del coordinador nuevo. Un archivo al ochenta por ciento de su estado ideal hace el trabajo. La diferencia entre un coordinador que llega con ese archivo y uno que llega sin contexto documentado no está en la precisión del archivo sino en la orientación básica que ese archivo provee: el nuevo coordinador tiene un punto de partida para consultar al agente, y el agente tiene el contexto suficiente para producir diagnósticos específicos desde el primer turno.",
+        "en": "This review doesn't need to produce a perfect file — its goal is to close the gaps most likely to generate confusion in the new coordinator's first five to ten shifts. A file at eighty percent of its ideal state does the job. The difference between a coordinator who arrives with that file and one who arrives without documented context isn't in the file's precision but in the basic orientation the file provides: the new coordinator has a starting point for consulting the agent, and the agent has enough context to produce specific diagnostics from the first shift."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "indicadores-que-confirman-traspaso-exitoso",
+      "text": {
+        "es": "Los indicadores que confirman que el traspaso fue exitoso",
+        "en": "The indicators that confirm the handover was successful"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La señal más directa de que el onboarding con archivo de contexto funcionó es la misma que indica que la integración del agente es madura en cualquier operación: el tiempo de diagnóstico en incidencias recurrentes del coordinador nuevo cae a dos a tres minutos dentro de las dos primeras semanas de turno autónomo. Ese número significa que el coordinador ya no construye el diagnóstico desde cero en cada incidencia — recupera la resolución documentada en el archivo y aplica su criterio para ajustarla a las condiciones del turno actual. Si el tiempo sigue entre diez y quince minutos después de dos semanas de trabajo activo, el archivo tiene un problema concreto: o le faltan entradas en las incidencias recurrentes, o los umbrales no son suficientemente específicos para esa ciudad en la temporada actual.",
+        "en": "The clearest signal that onboarding with the context file worked is the same one that indicates agent integration is mature in any operation: the new coordinator's diagnostic time for recurring incidents drops to two to three minutes within the first two weeks of autonomous shifts. That number means the coordinator is no longer building the diagnosis from scratch for each incident — they're retrieving the documented resolution from the file and applying their own judgment to adjust it to the current shift's conditions. If the time is still ten to fifteen minutes after two weeks of active work, the file has a concrete problem: either it lacks entries for the most recurring incidents, or the thresholds aren't specific enough for that city in the current season."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Los dos indicadores secundarios son el tiempo de respuesta a alertas del agente — que debería caer por debajo de cinco minutos en turnos normales antes del décimo turno — y la tasa de contribución del coordinador nuevo al archivo durante las dos primeras semanas. Un coordinador que documenta al menos una incidencia por turno en los primeros diez días está integrando el archivo en el flujo del turno, no usándolo como referencia pasiva que consulta ocasionalmente. Un coordinador que no ha añadido nada al archivo después de dos semanas no está usando el agente en las decisiones del turno — gestiona con su criterio propio sin el respaldo del contexto documentado, lo que reproduce el ciclo de noventa días sin el beneficio que el archivo debería proveer.",
+        "en": "The two secondary indicators are agent alert response time — which should drop below five minutes during normal shifts before the tenth shift — and the new coordinator's contribution rate to the context file during the first two weeks. A coordinator who documents at least one incident per shift in the first ten days is integrating the file into the shift workflow, not using it as a passive reference consulted occasionally. A coordinator who hasn't added anything to the file after two weeks isn't using the agent in shift decisions — they're managing on their own judgment without the support of the documented context, which reproduces the ninety-day cycle without the benefit the file should provide."
+      }
+    },
+    {
+      "type": "quote",
+      "text": {
+        "es": "Esperaba pasar las primeras tres semanas preguntándole al operador por cada decisión que no estaba seguro. En cambio, le preguntaba al agente. El archivo tenía los umbrales de las zonas principales y las incidencias que más se repetían con cómo se habían resuelto. Al quinto día ya podía gestionar un turno de martes sin necesitar consultar nada que no estuviera en el propio archivo.",
+        "en": "I expected to spend the first three weeks asking the operator about every decision I wasn't sure of. Instead, I asked the agent. The file had the thresholds for the main zones and the most recurring incidents with how they had been resolved. By day five I could manage a Tuesday shift without needing to consult anything outside the file itself."
+      },
+      "attribution": {
+        "es": "Coordinador de turno contratado para segunda ciudad de operación con 70 conductores activos en el centro de México",
+        "en": "Shift coordinator hired for second operating city with 70 active drivers in central Mexico"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El onboarding del coordinador nuevo con archivo de contexto maduro no reemplaza la experiencia directa — cambia cuándo esa experiencia empieza a producir valor. Sin el archivo, el coordinador nuevo pasa los primeros dos meses acumulando el conocimiento tácito que solo existe en la cabeza del coordinador saliente. Con el archivo, ese conocimiento está disponible desde el primer turno, y los dos primeros meses pueden dedicarse a calibrar y refinar ese conocimiento en lugar de construirlo desde cero. La diferencia en términos de métricas operativas durante la transición puede ser la de una operación que mantiene su calidad de cobertura versus una que pierde entre un quince y un veinticinco por ciento de esa calidad durante el período de adaptación.",
+        "en": "Onboarding a new coordinator with a mature context file doesn't replace direct experience — it changes when that experience starts producing value. Without the file, the new coordinator spends the first two months accumulating the tacit knowledge that only exists in the outgoing coordinator's head. With the file, that knowledge is available from the first shift, and the first two months can be spent calibrating and refining that knowledge rather than building it from scratch. The difference in operational metrics during the transition can be the difference between an operation that maintains its coverage quality and one that loses fifteen to twenty-five percent of that quality during the adjustment period."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Lo que este proceso requiere del operador es preparar el archivo antes de que llegue el coordinador nuevo, no después. La revisión de cuatro a seis horas para actualizar umbrales, completar entradas de incidencias y añadir los eventos próximos es un costo que se recupera en los primeros tres turnos del coordinador nuevo. Un coordinador que entra con el archivo al día llega al turno autónomo en siete días en lugar de noventa. Ese resultado no depende de la experiencia previa del coordinador ni de la complejidad del proceso de onboarding — depende de haber mantenido el archivo de contexto lo suficientemente actualizado para que haga su trabajo cuando la operación más lo necesita.",
+        "en": "What this process requires from the operator is preparing the file before the new coordinator arrives, not after. The four-to-six-hour review to update thresholds, complete incident entries, and add upcoming events is a cost recovered in the new coordinator's first three shifts. A coordinator who arrives with a current file reaches autonomous shift management in seven days instead of ninety. That result doesn't depend on the coordinator's prior experience or the complexity of the onboarding process — it depends on having kept the context file sufficiently current to do its job when the operation needs it most."
+      }
+    }
+  ],
+  "cta": {
+    "heading": {
+      "es": "¿Listo para lanzar tu propia app de movilidad?",
+      "en": "Ready to launch your own mobility app?"
+    },
+    "body": {
+      "es": "Configura tu marca, tus tarifas y tus servicios en semanas, no en meses. Cabgo te entrega la plataforma; tú te quedas con la operación, los clientes y los ingresos.",
+      "en": "Set up your brand, pricing and services in weeks, not months. Cabgo ships the platform — you keep the operation, the customers and the revenue."
+    },
+    "buttonLabel": {
+      "es": "Comenzar con Cabgo",
+      "en": "Get started with Cabgo"
+    },
+    "buttonHref": "/empezar"
+  },
+  "seo": {
+    "metaTitle": {
+      "es": "Onboarding coordinador nuevo con archivo de contexto | Cabgo",
+      "en": "Onboarding a new coordinator with context file | Cabgo"
+    },
+    "metaDescription": {
+      "es": "Cómo el archivo de contexto del operador comprime el onboarding de un coordinador nuevo de 90 días de shadowing a una semana de trabajo estructurado.",
+      "en": "How the operator context file compresses a new coordinator's onboarding from 90 days of shadowing to one week of structured work."
+    }
+  }
+}
