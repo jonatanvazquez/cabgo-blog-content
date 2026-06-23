@@ -1,6 +1,25 @@
 {
-  "generatedAt": "2026-06-22T14:08:41.196Z",
+  "generatedAt": "2026-06-23T14:08:42.372Z",
   "posts": [
+    {
+      "slug": "delegar-coordinacion-diaria-operador-agente",
+      "category": "strategy",
+      "title": {
+        "es": "Cómo el operador sale de la coordinación diaria: los tres requisitos para delegar sin que la operación pierda calidad",
+        "en": "How the operator exits daily coordination: the three requirements for delegating without quality loss"
+      },
+      "excerpt": {
+        "es": "La mayoría de los operadores de ride-hailing regional siguen coordinando personalmente los turnos de mayor demanda mucho después de haber contratado a un coordinador. Con el agente y el archivo de contexto, esa dependencia tiene una salida estructural.",
+        "en": "Most regional ride-hailing operators keep personally coordinating peak shifts long after hiring a coordinator. With the agent and context file, that dependency has a structural exit."
+      },
+      "heroImage": "https://raw.githubusercontent.com/jonatanvazquez/cabgo-blog-content/main/images/delegar-coordinacion-diaria-operador-agente.jpg",
+      "heroImageAlt": {
+        "es": "Ilustración isométrica de un operador entregando un archivo de contexto estructurado a un coordinador que asume el turno con una consola de agente IA activa, con íconos estratégicos flotantes en el fondo que representan las decisiones de alto nivel que el operador retiene",
+        "en": "Isometric illustration of an operator handing a structured context file to a coordinator taking over the shift with an active AI agent console, with floating strategic icons in the background representing the high-level decisions the operator retains"
+      },
+      "publishedAt": "2026-06-23",
+      "readingMinutes": 9
+    },
     {
       "slug": "cierre-turno-traspaso-coordinador-agente",
       "category": "product",
