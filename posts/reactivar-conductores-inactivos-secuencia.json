@@ -1,0 +1,258 @@
+{
+  "slug": "reactivar-conductores-inactivos-secuencia",
+  "category": "strategy",
+  "title": {
+    "es": "Conductores registrados sin viajes: la secuencia de dos semanas para convertir inventario inactivo en flota activa",
+    "en": "Registered drivers with zero trips: the two-week sequence to convert dormant inventory into active fleet"
+  },
+  "excerpt": {
+    "es": "Los conductores registrados que no han tomado un viaje son inventario calificado que ya pasó la verificación. Reactivarlos cuesta un 70% menos que captar nuevos, y la secuencia correcta produce resultados en 14 días.",
+    "en": "Registered drivers who haven't taken a trip are qualified inventory that already passed verification. Reactivating them costs 70% less than new recruitment, and the right sequence produces results in 14 days."
+  },
+  "heroImage": "https://raw.githubusercontent.com/jonatanvazquez/cabgo-blog-content/main/images/reactivar-conductores-inactivos-secuencia.jpg",
+  "heroImageAlt": {
+    "es": "Ilustración isométrica de un panel con tarjetas de conductores segmentadas — algunas tenues representando inactivos, otras iluminadas en teal representando activación reciente — con un arco de catorce días y tres puntos de contacto brillantes conectando ambos estados",
+    "en": "Isometric illustration of a panel with segmented driver cards — some dimmed representing dormant drivers, others glowing teal representing recent activation — with a fourteen-day arc and three glowing contact points connecting both states"
+  },
+  "heroImagePrompt": "Isometric composition: a large floating panel showing two columns of driver profile cards — the left column has dimly lit grey cards (dormant registered drivers), the right column has glowing teal cards (newly activated). Between the columns, a curved fourteen-day calendar arc with three glowing dot markers at days 1, 4, and 10 representing contact points. A small operator figure on the left side reaches toward the dormant cards with a glowing teal activation indicator. Soft teal progress lines flow from the grey cards through the arc toward the activated cards on the right. Deep violet floor grid, soft indigo radial background glow, clean geometric shapes. Negative space on the lower right.",
+  "publishedAt": "2026-06-25",
+  "readingMinutes": 9,
+  "keywords": {
+    "es": [
+      "reactivar conductores inactivos ride-hailing",
+      "conductores registrados sin viajes plataforma taxi",
+      "secuencia reactivación conductores app movilidad regional",
+      "inventario inactivo conductores operación ride-hailing",
+      "cómo activar conductores registrados sin viajes",
+      "incentivo reactivación conductor primera semana",
+      "onboarding conductores primer viaje activación"
+    ],
+    "en": [
+      "reactivate dormant drivers ride-hailing",
+      "registered drivers no trips taxi platform",
+      "driver reactivation sequence regional mobility app",
+      "inactive driver inventory ride-hailing operation",
+      "how to activate registered drivers with no trips",
+      "driver reactivation incentive first week",
+      "driver onboarding first trip activation"
+    ]
+  },
+  "author": {
+    "name": "Equipo Cabgo",
+    "role": {
+      "es": "Plataforma de movilidad",
+      "en": "Mobility platform"
+    }
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Toda operación regional de ride-hailing con más de 60 conductores registrados tiene en sus datos un grupo que aparece en el panel pero no genera ningún viaje: conductores que completaron el proceso de alta, pasaron la verificación de documentos y descargaron la app, pero llevan más de dos semanas sin tomar un solo servicio. En una operación de 80 conductores registrados, ese grupo representa entre 12 y 20 personas — una reserva de capacidad que el operador ya pagó en tiempo de onboarding pero que todavía no produce ningún retorno. La mayoría de los operadores los trata como una pérdida asumida y redirige el esfuerzo de adquisición hacia conductores nuevos, repitiendo el ciclo: costo de captación, proceso de documentación, período de calibración, y otro grupo de registrados que quedará inactivo después del tercer o cuarto viaje.",
+        "en": "Every regional ride-hailing operation with more than 60 registered drivers has a cohort in its data that appears on the dashboard but generates no trips: drivers who completed onboarding, passed document verification, and downloaded the app, but haven't taken a single ride in more than two weeks. In an operation with 80 registered drivers, that group represents 12 to 20 people — a capacity reserve the operator already paid for in onboarding time but that still produces no return. Most operators write them off as a sunk cost and redirect acquisition effort toward new drivers, repeating the cycle: recruitment cost, document processing, calibration period, and another group of registered drivers who go dormant after the third or fourth trip."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Este artículo describe la secuencia concreta para convertir conductores registrados sin viajes recientes en conductores activos en un horizonte de dos semanas. La secuencia tiene tres contactos, dos incentivos y un checkpoint de evaluación: si un conductor no responde en catorce días con ese estímulo, la probabilidad de activación futura cae por debajo del 15% y tiene más sentido liberar ese registro y concentrar la energía en captación genuina. La clave antes de ejecutar la secuencia es segmentar correctamente — no todos los conductores registrados sin viajes tienen el mismo diagnóstico, y tratar igual a alguien que nunca completó el setup de la app y a alguien que tuvo veinte viajes y lleva tres semanas sin activarse produce resultados confusos y decisiones incorrectas sobre qué parte del proceso necesita mejora.",
+        "en": "This article describes the concrete sequence for converting registered drivers with no recent trips into active drivers within two weeks. The sequence has three contacts, two incentives, and one evaluation checkpoint: if a driver doesn't respond in fourteen days with that level of stimulus, the probability of future activation falls below 15% and it makes more sense to release that registration and concentrate energy on genuine acquisition. The critical step before executing the sequence is correct segmentation — not all registered drivers without trips have the same diagnosis, and treating someone who never completed app setup the same as someone who had twenty trips and has been dormant for three weeks produces confused results and wrong conclusions about which part of the process needs improvement."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "conductores-inactivos-por-que",
+      "text": {
+        "es": "Por qué los conductores registrados quedan inactivos",
+        "en": "Why registered drivers go dormant"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La causa más frecuente no es desinterés ni migración a la competencia — es fricción no resuelta en el período entre el registro completado y el primer viaje. Cuatro causas distintas explican la mayor parte de la inactividad: setup incompleto de la app (el conductor nunca habilitó notificaciones o nunca configuró el modo conductor activo correctamente), inseguridad con la mecánica del primer viaje (no tiene referencia de cómo aceptar un servicio, cómo navegar al pasajero o qué hacer si ocurre una cancelación), expectativa de ingreso no cumplida en los primeros tres viajes (los servicios iniciales produjeron menos de lo que el conductor esperaba por hora), y captación activa por otra plataforma durante el período de inactividad. La distribución más frecuente en mercados regionales: el 35-40% de los inactivos tiene algún elemento de setup técnico sin completar, el 25-30% tuvo una experiencia inicial negativa, el 20% quedó con expectativa de ingreso no cumplida, y el 15-20% restante fue captado por un competidor en esas semanas.",
+        "en": "The most common cause isn't disinterest or migration to a competitor — it's unresolved friction in the period between completed registration and the first trip. Four distinct causes explain most of the inactivity: incomplete app setup (the driver never enabled notifications or never correctly configured driver-active mode), uncertainty about how the first trip works (no reference for how to accept a request, navigate to the passenger, or handle a cancellation), income expectation unmet in the first three trips (initial rides produced less than the driver expected per hour), and active recruitment by a competing platform during the dormant period. The most common distribution in regional markets: 35-40% of dormant drivers have some incomplete technical setup, 25-30% had a negative early experience, 20% were left with unmet income expectations, and the remaining 15-20% were captured by a competitor during those weeks."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La segmentación importa porque la respuesta correcta a cada causa es diferente. El conductor con setup incompleto necesita soporte técnico específico antes que ningún incentivo económico — un crédito de primer viaje no sirve de nada si la app está configurada de forma que nunca le llega ninguna solicitud. El conductor con expectativa de ingreso no cumplida necesita un incentivo que garantice un resultado diferente en la próxima sesión de prueba, no otro crédito de primer viaje que ya no aplica a su situación. El conductor que fue captado por un competidor durante la inactividad es el caso con menor probabilidad de respuesta en cualquier segmento — lo que significa que gastarlo primero en la secuencia produce el peor retorno sobre el esfuerzo invertido.",
+        "en": "Segmentation matters because the correct response to each cause is different. The driver with incomplete setup needs specific technical support before any financial incentive — a first-trip credit is useless if the app is configured so that no requests ever reach them. The driver with unmet income expectations needs an incentive that guarantees a different result in their next trial session, not another first-trip credit that no longer applies to their situation. The driver captured by a competitor during the dormant period is the case with the lowest response probability across all segments — which means spending effort on them first produces the worst return on investment in the reactivation sequence."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "segmentar-inactivos-vs-perdidos",
+      "text": {
+        "es": "La diferencia entre inactivo y perdido: cómo segmentar antes de actuar",
+        "en": "The difference between dormant and lost: how to segment before acting"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Antes de ejecutar cualquier secuencia de contacto, la lista de conductores sin viajes recientes necesita dividirse en tres grupos con tratamientos distintos. El primero es el conductor registrado-nunca-activo: completó el onboarding y tiene cero viajes históricos en la plataforma. Su probabilidad de activación con la secuencia correcta es la más alta del grupo — todavía no ha tenido ninguna experiencia negativa, su inactividad es probablemente técnica o de inseguridad ante el primer viaje, y el umbral de activación es relativamente bajo. El segundo grupo es el conductor activo-temprano-inactivo: tuvo entre uno y diez viajes en los primeros siete días y luego desapareció. Su diagnóstico es de experiencia inicial no satisfactoria — los primeros viajes no produjeron lo que esperaba, o algo en la mecánica de la plataforma le resultó difícil de manejar. El tercero es el conductor estacional inactivo: tiene historial real de veinte viajes o más pero lleva tres semanas o más sin activarse.",
+        "en": "Before executing any contact sequence, the list of drivers without recent trips needs to be divided into three groups with different treatments. The first is the registered-never-active driver: they completed onboarding and have zero historical trips on the platform. Their activation probability with the right sequence is the highest in the group — they haven't had any negative experience yet, their inactivity is probably technical or due to uncertainty about the first trip, and the activation threshold is relatively low. The second group is the early-active-gone-dormant driver: they had between one and ten trips in their first seven days and then disappeared. Their diagnosis is an unsatisfactory early experience — the first trips didn't produce what they expected, or something about the platform's mechanics was difficult to manage. The third is the seasonally dormant driver: they have a real history of twenty or more trips but haven't activated in three or more weeks."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El conductor estacional no necesita el mismo estímulo que los dos grupos anteriores — en la mayoría de los casos su inactividad es circunstancial: trabajo en otro sector durante semanas, compromisos personales, o simplemente que la demanda en su horario habitual bajó y no le resultó rentable. Un mensaje que le informa de un pico de demanda concreto en su zona habitual suele ser suficiente para reactivarlo, sin necesidad de ningún incentivo económico adicional. Tratarlo con el mismo esfuerzo e incentivo que un conductor nunca-activo no solo es un costo innecesario — puede resultar condescendiente si el conductor tiene meses de experiencia en la plataforma. La segmentación correcta evita esa fricción y ahorra entre el 30 y el 45% del presupuesto total de incentivos de la secuencia.",
+        "en": "The seasonal driver doesn't need the same stimulus as the other two groups — in most cases their inactivity is circumstantial: working in another sector for a few weeks, personal commitments, or simply that demand in their usual hours dropped and it wasn't worth their time. A message informing them of a concrete demand peak in their usual zone is typically enough to bring them back, with no additional financial incentive needed. Treating them with the same effort and incentive as a never-active driver isn't just an unnecessary cost — it can read as patronizing if the driver has months of platform experience. Correct segmentation avoids that friction and saves between 30 and 45% of the total incentive budget for the sequence."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "secuencia-dos-semanas-contactos",
+      "text": {
+        "es": "La secuencia de dos semanas: tres contactos, dos incentivos, un checkpoint",
+        "en": "The two-week sequence: three contacts, two incentives, one checkpoint"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El día uno de la secuencia es el contacto de diagnóstico: un mensaje personalizado por WhatsApp al conductor por nombre, reconociendo que completó el registro pero que no ha tomado viajes, y abriendo una pregunta de diagnóstico sin presión de venta. \"Oye [nombre], notamos que llevas doce días registrado pero todavía no has tomado tu primer viaje. ¿Hay algo con la app que no quedó claro, o alguna duda sobre cómo funciona el primer servicio?\" El objetivo no es empujar a que tome un viaje ese día — es identificar si la inactividad tiene causa técnica o de inseguridad antes de ofrecer ningún incentivo. El conductor que responde con una duda técnica necesita soporte inmediato. El conductor que no responde en 48 horas pasa al contacto dos con el incentivo de primer viaje.",
+        "en": "Day one of the sequence is the diagnostic contact: a personalized WhatsApp message to the driver by name, acknowledging that they completed registration but haven't taken a trip, and opening a diagnostic question without sales pressure. \"Hey [name], we noticed you've been registered for twelve days but haven't taken your first trip yet. Is there anything about the app that wasn't clear, or any questions about how the first ride works?\" The goal isn't to push them to take a trip that day — it's to identify whether the inactivity has a technical or uncertainty-based cause before offering any incentive. A driver who responds with a technical question needs immediate support. A driver who doesn't respond in 48 hours moves to contact two with the first-trip incentive."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El contacto dos ocurre en el día tres o cuatro. Para el conductor registrado-nunca-activo que no respondió al diagnóstico: el primer incentivo, diseñado para eliminar la incertidumbre del primer viaje. \"Si completas tu primer viaje esta semana, te acreditamos $[monto] directo en tu billetera de conductor, independientemente del ingreso del viaje.\" El monto correcto es suficiente para que el primer viaje no produzca sensación de tiempo perdido pase lo que pase — en la mayoría de los mercados regionales de México y Centroamérica, entre $3 y $6 USD cumple ese criterio. Para el conductor activo-temprano-inactivo, el incentivo es diferente: una garantía de ingreso mínimo por sesión. \"Si haces cuatro viajes en cualquier día de esta semana, te garantizamos $[monto] de ingreso mínimo para esa sesión, sin importar las tarifas que te correspondan.\" Ese incentivo apunta directamente a la causa más frecuente de su inactividad: la experiencia de sesiones con ingreso bajo por circunstancias fuera de su control.",
+        "en": "Contact two happens on day three or four. For the registered-never-active driver who didn't respond to the diagnostic: the first incentive, designed to eliminate the uncertainty of the first trip. \"If you complete your first trip this week, we'll credit $[amount] directly to your driver wallet, regardless of the trip's fare.\" The right amount is enough to ensure the first trip doesn't feel like wasted time regardless of what happens — in most regional markets in Mexico and Central America, $3 to $6 USD meets that threshold. For the early-active-gone-dormant driver, the incentive is different: a minimum income guarantee per session. \"If you complete four trips on any day this week, we guarantee a minimum of $[amount] for that session, regardless of the fares you receive.\" That incentive targets the most common cause of their inactivity directly: the experience of sessions with low income due to circumstances outside their control."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El día siete es el checkpoint de evaluación. Los conductores que tomaron al menos un viaje en respuesta a los primeros contactos pasan al seguimiento de activación temprana — el objetivo es que lleguen a cinco viajes en la segunda semana, no que celebren el primero y desaparezcan. El tercer contacto para ese grupo no es un incentivo — es una verificación de experiencia. \"¿Cómo fue el primer viaje? ¿Hubo algo que no sabías cómo manejar?\" Esa pregunta produce los datos más valiosos de toda la secuencia: los obstáculos reales del primer viaje en la operación específica, que van directamente al archivo de contexto para mejorar el onboarding de los conductores siguientes. Los conductores que al día siete siguen sin respuesta ni viajes reciben el tercer contacto entre los días diez y doce: información concreta sobre demanda próxima en su zona habitual, sin incentivo económico adicional — solo contexto operativo. Al día catorce se hace la evaluación final: los que no respondieron ni activaron con ese estímulo completo tienen probabilidad de activación futura inferior al 15% y el registro puede marcarse como inactivo definitivo.",
+        "en": "Day seven is the evaluation checkpoint. Drivers who took at least one trip in response to the first contacts move into early-activation follow-up — the goal is for them to reach five trips in the second week, not to celebrate the first and disappear. The third contact for this group isn't an incentive — it's an experience check. \"How did the first trip go? Was there anything you didn't know how to handle?\" That question produces the most valuable data in the entire sequence: the real obstacles of the first trip in the specific operation, which go directly into the context file to improve onboarding for the next cohort of drivers. Drivers still with no response or trips by day seven receive contact three between days ten and twelve: concrete information about an upcoming demand peak in their usual zone, with no additional financial incentive — just operational context. On day fourteen the final evaluation is made: those who didn't respond or activate with the full stimulus have a future activation probability below 15%, and the registration can be marked as permanently dormant."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "incentivo-primer-viaje-vs-reactivacion",
+      "text": {
+        "es": "El incentivo de primer viaje y el de reactivación: por qué no son el mismo",
+        "en": "The first-trip incentive and the reactivation incentive: why they are not the same"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El error de diseño más frecuente en las campañas de reactivación es ofrecer el mismo incentivo a todos los segmentos. El crédito de primer viaje — un monto fijo acreditado después de completar el primer servicio — está diseñado para eliminar la incertidumbre del conductor que nunca ha tomado un viaje: independientemente de lo que produzca ese primer servicio, el conductor no pierde su tiempo. Es un seguro contra la mala suerte del debut, no una compensación por una experiencia negativa que ya ocurrió. Para el conductor registrado-nunca-activo, ese crédito es exactamente el estímulo correcto. Para el conductor activo-temprano-inactivo — que ya tuvo viajes y salió con la experiencia de que los ingresos no eran suficientes — el mismo crédito no resuelve el problema: lo que ese conductor necesita saber es que la próxima sesión no va a repetir el resultado decepcionante.",
+        "en": "The most common design error in reactivation campaigns is offering the same incentive to all segments. The first-trip credit — a fixed amount credited after completing the first service — is designed to eliminate the uncertainty of a driver who has never taken a trip: regardless of what that first service produces, the driver doesn't waste their time. It's insurance against debut bad luck, not compensation for a negative experience that already happened. For the registered-never-active driver, that credit is exactly the right stimulus. For the early-active-gone-dormant driver — who already had trips and came away feeling the income wasn't sufficient — the same credit doesn't solve the problem: what that driver needs to know is that their next session won't repeat the disappointing result."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La garantía de ingreso mínimo por sesión tiene un diseño de incentivo diferente: compra la disposición del conductor a probar de nuevo en un contexto donde siente que tiene más control sobre el resultado. El monto de la garantía no tiene que ser el ingreso máximo posible de una sesión — tiene que estar suficientemente por encima del ingreso que experimentó en su sesión más frustrante. Si el conductor tuvo una sesión de cuatro viajes que produjo el equivalente a $6 USD y lo dejó con sensación de ineficiencia, una garantía de $18-20 USD por cuatro viajes es suficiente para producir el comportamiento que se busca. El operador que diseña el incentivo de reactivación con el diagnóstico correcto del segmento gasta en promedio entre el 40 y el 50% menos por conductor reactivado que el que aplica el incentivo estándar a todos los grupos sin distinción.",
+        "en": "The minimum income guarantee per session has a different incentive design: it buys the driver's willingness to try again in a context where they feel more control over the outcome. The guarantee amount doesn't have to be the maximum possible income from a session — it has to be sufficiently above the income they experienced in their most frustrating session. If the driver had a four-trip session that produced the equivalent of $6 USD and left them feeling it wasn't worth it, a guarantee of $18-20 USD for four trips is enough to produce the desired behavior. The operator who designs the reactivation incentive with the correct segment diagnosis spends on average 40 to 50% less per reactivated driver than one who applies the standard incentive to all groups without distinction."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "agente-identifica-prioriza-lista",
+      "text": {
+        "es": "Cómo el agente identifica y prioriza la lista de conductores a reactivar",
+        "en": "How the agent identifies and prioritizes the reactivation list"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La consulta al agente que produce la lista de trabajo para la secuencia tiene que incluir tres parámetros: la ventana de inactividad (conductores sin viajes en los últimos 10-21 días), la fecha de registro (para distinguir nunca-activos recientes de nunca-activos con más de 30 días en el panel), y el historial de viajes previos (para separar los nunca-activos de los activos-tempranos). Con esos tres parámetros el agente puede segmentar la lista en los grupos de tratamiento diferente antes de que el coordinador envíe el primer mensaje. La prioridad siempre es el registrado-nunca-activo con menos de 21 días desde su registro: la probabilidad de activación cae entre el 30 y el 45% después de las primeras tres semanas y sigue descendiendo hasta que el registro se convierte en inactivo efectivo.",
+        "en": "The agent query that produces the working list for the sequence needs to include three parameters: the dormancy window (drivers without trips in the last 10-21 days), the registration date (to distinguish recently-registered never-actives from never-actives who have been in the panel for more than 30 days), and the trip history (to separate never-actives from early-actives). With those three parameters the agent can segment the list into different-treatment groups before the coordinator sends the first message. Priority always goes to the registered-never-active driver with less than 21 days since registration: activation probability falls between 30 and 45% after the first three weeks and continues declining until the registration becomes effectively permanent dormant."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El agente también puede personalizar el contacto uno a partir del perfil del conductor: zona de registro, tipo de vehículo y si existe alguna nota del historial sobre consultas durante el proceso de alta. Un conductor que hizo una pregunta durante el onboarding sobre cómo funciona la navegación en la app y nunca activó tiene un primer mensaje más específico que uno sin ningún contacto previo. Con la instrucción correcta — «Produce el primer mensaje de diagnóstico para cada conductor de esta lista, personalizando por zona habitual y cualquier consulta previa durante el onboarding» — el agente genera un borrador por conductor que el coordinador revisa en menos de dos minutos y envía. Los resultados de cada contacto se documentan en los cierres de turno, produciendo el historial de qué tipo de apertura funciona mejor en la operación específica y en qué zona.",
+        "en": "The agent can also personalize contact one based on the driver's profile: registered zone, vehicle type, and any note in the history about questions during the onboarding process. A driver who asked a question about how navigation works in the app and never activated receives a more specific first message than one with no prior contact. With the right instruction — \"Produce the first diagnostic contact message for each driver on this list, personalizing by usual zone and any prior onboarding queries\" — the agent generates a draft per driver that the coordinator reviews in under two minutes and sends. The results of each contact are documented in shift closes, building the history of which type of opening works best in the specific operation and in which zone."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "reactivacion-revela-onboarding",
+      "text": {
+        "es": "Lo que la tasa de reactivación revela sobre el proceso de onboarding",
+        "en": "What the reactivation rate reveals about the onboarding process"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La secuencia de dos semanas tiene un segundo beneficio que supera al resultado directo de cada conductor reactivado: produce el diagnóstico más preciso disponible sobre dónde está fallando el proceso de alta. Si el 60% de los conductores registrados-nunca-activos tienen setup técnico incompleto, el problema no está en la secuencia de reactivación — está en que el onboarding no verifica que el conductor completó todos los pasos técnicos antes de cerrar su registro. Si los conductores que más rápido se reactivan son los que recibieron un mensaje del coordinador dentro de las primeras 48 horas de su registro, el dato que importa no es la reactivación — es que el onboarding necesita ese contacto temprano como paso estándar del proceso.",
+        "en": "The two-week sequence has a second benefit that exceeds the direct result of each reactivated driver: it produces the most precise available diagnostic of where the onboarding process is failing. If 60% of registered-never-active drivers have incomplete technical setup, the problem isn't in the reactivation sequence — it's that onboarding doesn't verify the driver completed all technical steps before closing their registration. If the drivers who reactivate fastest are the ones who received a message from the coordinator within the first 48 hours of registration, the data that matters isn't the reactivation — it's that onboarding needs that early contact as a standard step in the process."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Una tasa de reactivación sostenida por debajo del 20% en la secuencia completa — con los tres contactos y los dos tipos de incentivo — es la señal de que el problema está antes del registro: el proceso de alta está entregando conductores técnicamente aprobados que no están listos para tomar su primer viaje. El corrector de ese problema no está en la secuencia de reactivación sino en agregar al onboarding una verificación de cinco minutos que confirma que el conductor sabe aceptar un viaje, tiene la navegación funcionando en su teléfono y entiende qué ocurre si el primer pasajero cancela. Los operadores que incluyen esa verificación técnica antes de cerrar el registro de un conductor nuevo tienen tasas de activación en los primeros siete días de entre el 45 y el 65%, versus el 25-35% de quienes cierran el registro después de la verificación documental sin la prueba de funcionamiento. La secuencia de reactivación es tanto un mecanismo de recuperación como un sistema de diagnóstico del proceso de alta — y ese segundo valor es el que perdura después de que el pool de inactivos actuales ha quedado resuelto.",
+        "en": "A sustained reactivation rate below 20% across the full sequence — with all three contacts and both incentive types — is the signal that the problem is upstream of registration: the onboarding process is delivering technically approved drivers who aren't ready to take their first trip. The fix for that problem isn't in the reactivation sequence — it's in adding a five-minute technical verification to onboarding that confirms the driver knows how to accept a trip, has navigation working on their phone, and understands what happens if the first passenger cancels. Operators who include that technical check before closing a new driver's registration have first-seven-day activation rates between 45 and 65%, compared to the 25-35% of those who close registration after document verification without the functional test. The reactivation sequence is both a recovery mechanism and a diagnostic system for the onboarding process — and that second value is the one that persists after the current pool of dormant drivers has been resolved."
+      }
+    },
+    {
+      "type": "quote",
+      "text": {
+        "es": "Cuando revisé los conductores registrados sin viajes de los últimos 90 días, encontré que el 38% nunca había habilitado las notificaciones en la app. Técnicamente habían completado el alta y subido sus documentos, pero estaban configurados de forma que nunca les llegaba ninguna solicitud de viaje. Eso no es un problema de motivación — es un paso que se cayó del flujo de onboarding. Cuando agregamos la verificación de notificaciones al cierre del proceso de alta, la tasa de primer viaje en los primeros siete días subió de 28% a 51%.",
+        "en": "When I reviewed the registered drivers with no trips from the previous 90 days, I found that 38% had never enabled notifications in the app. Technically they had completed registration and uploaded their documents, but they were configured so that no trip requests ever reached them. That's not a motivation problem — it's a step that fell out of the onboarding flow. When we added the notifications check to the close of the onboarding process, the first-seven-day activation rate went from 28% to 51%."
+      },
+      "attribution": {
+        "es": "Operadora con 95 conductores activos en el sureste de México",
+        "en": "Operator with 95 active drivers in southeastern Mexico"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El operador que trata cada gap de flota activa como un problema de captación nueva está pagando un costo innecesario sobre inventario que ya tiene. Los conductores registrados sin viajes son inventario calificado: pasaron la verificación de documentos, firmaron los términos de servicio y descargaron la app. Reactivarlos tiene un costo operativo entre el 60 y el 80% menor que adquirir un conductor nuevo desde cero — sin repetir el ciclo de publicación, entrevista, verificación documental y configuración inicial. En mercados regionales con menor densidad de candidatos potenciales, esa diferencia entre reactivar el pool registrado y captar de nuevo es con frecuencia la diferencia entre crecer la flota activa en la semana siguiente o esperar tres semanas para completar el ciclo de alta de candidatos nuevos.",
+        "en": "The operator who treats every active fleet gap as a new-acquisition problem is paying an unnecessary cost on inventory they already have. Registered drivers with no trips are qualified inventory: they passed document verification, signed the terms of service, and downloaded the app. Reactivating them costs 60 to 80% less operationally than acquiring a new driver from scratch — without repeating the cycle of posting, interviewing, document processing, and initial setup. In regional markets with a lower density of potential candidates, that difference between reactivating the registered pool and recruiting anew is often the difference between growing the active fleet next week or waiting three weeks to complete the onboarding cycle for new candidates."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El indicador «conductores activos versus conductores registrados sin viajes esta semana» — que la revisión semanal del operador debe tener como referencia permanente — tiene una palanca de respuesta concreta antes de activar cualquier gasto en captación nueva: la secuencia de dos semanas. Esa secuencia es suficientemente liviana para que un coordinador la ejecute en 45 minutos semanales de trabajo activo, y los datos que produce — qué contacto funcionó, qué incentivo reactivó a qué perfil de conductor, qué obstáculo técnico aparece con más frecuencia — son el insumo más preciso disponible para mejorar el onboarding de los conductores que se registren a partir de la semana siguiente. Eso es lo que separa a los operadores que siempre están en déficit de conductores activos de los que construyeron un proceso de alta que convierte cada registro completado en un activo con alta probabilidad de activación desde el primer día.",
+        "en": "The indicator 'active drivers versus registered drivers with no trips this week' — which the operator's weekly review should carry as a permanent reference — has a concrete response lever before activating any new acquisition spend: the two-week sequence. That sequence is light enough for a coordinator to execute in 45 minutes of active weekly work, and the data it produces — which contact worked, which incentive reactivated which driver profile, which technical obstacle appears most often — is the most precise available input for improving onboarding for drivers registering in the following weeks. That's what separates operators who are always short of active drivers from those who built an onboarding process that converts every completed registration into an asset with a high probability of activation from day one."
+      }
+    }
+  ],
+  "cta": {
+    "heading": {
+      "es": "¿Listo para lanzar tu propia app de movilidad?",
+      "en": "Ready to launch your own mobility app?"
+    },
+    "body": {
+      "es": "Configura tu marca, tus tarifas y tus servicios en semanas, no en meses. Cabgo te entrega la plataforma; tú te quedas con la operación, los clientes y los ingresos.",
+      "en": "Set up your brand, pricing and services in weeks, not months. Cabgo ships the platform — you keep the operation, the customers and the revenue."
+    },
+    "buttonLabel": {
+      "es": "Comenzar con Cabgo",
+      "en": "Get started with Cabgo"
+    },
+    "buttonHref": "/empezar"
+  },
+  "seo": {
+    "metaTitle": {
+      "es": "Reactivar conductores inactivos en dos semanas | Cabgo",
+      "en": "Reactivating dormant drivers in two weeks | Cabgo"
+    },
+    "metaDescription": {
+      "es": "Cómo identificar, segmentar y reactivar conductores registrados sin viajes usando una secuencia de tres contactos y dos incentivos en 14 días.",
+      "en": "How to identify, segment, and reactivate registered drivers with no recent trips using a three-contact, two-incentive sequence in 14 days."
+    }
+  }
+}
