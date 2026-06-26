@@ -1,6 +1,25 @@
 {
-  "generatedAt": "2026-06-25T14:08:30.854Z",
+  "generatedAt": "2026-06-26T14:08:24.558Z",
   "posts": [
+    {
+      "slug": "cambio-tarifas-conductores-comunicacion",
+      "category": "strategy",
+      "title": {
+        "es": "Cambiar las tarifas sin perder conductores: el protocolo de comunicación que determina si la flota se queda o se va",
+        "en": "Changing fares without losing drivers: the communication protocol that determines whether the fleet stays or goes"
+      },
+      "excerpt": {
+        "es": "El monto de un cambio de tarifas raramente determina si los conductores abandonan la plataforma. El protocolo de comunicación — datos primero, segmentación, ventana de 48 horas — casi siempre sí.",
+        "en": "The size of a fare change rarely determines whether drivers leave the platform. The communication protocol — data first, segmentation, 48-hour window — almost always does."
+      },
+      "heroImage": "https://raw.githubusercontent.com/jonatanvazquez/cabgo-blog-content/main/images/cambio-tarifas-conductores-comunicacion.jpg",
+      "heroImageAlt": {
+        "es": "Ilustración isométrica de un operador sosteniendo un documento de mensaje estructurado con un gráfico de barras de ingresos proyectados, mientras tres tarjetas de perfil de conductor — platino, plata y gris — reciben notificaciones diferenciadas conectadas por un arco teal con una etiqueta de 48 horas",
+        "en": "Isometric illustration of an operator holding a structured message document with a projected income bar chart, while three driver profile cards — platinum, silver, and grey — receive differentiated notifications connected by a teal arc with a 48-hour label"
+      },
+      "publishedAt": "2026-06-26",
+      "readingMinutes": 9
+    },
     {
       "slug": "reactivar-conductores-inactivos-secuencia",
       "category": "strategy",

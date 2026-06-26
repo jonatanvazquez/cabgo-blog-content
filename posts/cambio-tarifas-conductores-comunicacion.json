@@ -1,0 +1,268 @@
+{
+  "slug": "cambio-tarifas-conductores-comunicacion",
+  "category": "strategy",
+  "title": {
+    "es": "Cambiar las tarifas sin perder conductores: el protocolo de comunicación que determina si la flota se queda o se va",
+    "en": "Changing fares without losing drivers: the communication protocol that determines whether the fleet stays or goes"
+  },
+  "excerpt": {
+    "es": "El monto de un cambio de tarifas raramente determina si los conductores abandonan la plataforma. El protocolo de comunicación — datos primero, segmentación, ventana de 48 horas — casi siempre sí.",
+    "en": "The size of a fare change rarely determines whether drivers leave the platform. The communication protocol — data first, segmentation, 48-hour window — almost always does."
+  },
+  "heroImage": "https://raw.githubusercontent.com/jonatanvazquez/cabgo-blog-content/main/images/cambio-tarifas-conductores-comunicacion.jpg",
+  "heroImageAlt": {
+    "es": "Ilustración isométrica de un operador sosteniendo un documento de mensaje estructurado con un gráfico de barras de ingresos proyectados, mientras tres tarjetas de perfil de conductor — platino, plata y gris — reciben notificaciones diferenciadas conectadas por un arco teal con una etiqueta de 48 horas",
+    "en": "Isometric illustration of an operator holding a structured message document with a projected income bar chart, while three driver profile cards — platinum, silver, and grey — receive differentiated notifications connected by a teal arc with a 48-hour label"
+  },
+  "heroImagePrompt": "Isometric split-screen composition: on the left, a large operator figure holds a glowing structured message document showing a bar chart with two bars — a shorter bar labeled 'now' and a taller bar labeled 'new' — representing projected income increase. On the right, three segmented driver profile cards in platinum, silver, and grey tones, each receiving a differently colored teal notification glow flowing from the operator's document. A wide teal arc connects the document to each card with a small clock icon showing '48h' floating at the arc's midpoint. The platinum card has a bold personal message overlay. Deep violet floor grid, soft indigo radial background glow, clean geometric shapes, subtle shadows. Negative space on the lower right.",
+  "publishedAt": "2026-06-26",
+  "readingMinutes": 9,
+  "keywords": {
+    "es": [
+      "cómo comunicar cambio de tarifas conductores ride-hailing",
+      "subir comisiones conductores plataforma taxi sin perder flota",
+      "ajuste tarifas conductores operación ride-hailing regional",
+      "protocolo comunicación cambio tarifa conductor movilidad",
+      "subir tarifa pasajero conservar conductores taxi app",
+      "mensaje conductores cambio comisión plataforma movilidad",
+      "segmentación flota comunicación tarifas operador taxi"
+    ],
+    "en": [
+      "how to communicate fare change to drivers ride-hailing",
+      "raise driver commissions without losing fleet taxi platform",
+      "fare adjustment driver communication regional ride-hailing",
+      "driver communication protocol fare change mobility platform",
+      "raise passenger fare retain drivers taxi app",
+      "message drivers commission change mobility platform",
+      "driver fleet segmentation fare communication operator taxi"
+    ]
+  },
+  "author": {
+    "name": "Equipo Cabgo",
+    "role": {
+      "es": "Plataforma de movilidad",
+      "en": "Mobility platform"
+    }
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El operador que lleva 18 meses sin ajustar sus tarifas de pasajero frecuentemente no lo hace por falta de margen — lo pospone por miedo a la reacción de los conductores. La lógica es entendible: en una operación regional donde retener conductores activos es uno de los indicadores más difíciles de sostener, mover las tarifas parece un riesgo innecesario. Los datos de operadores en México y Centroamérica cuentan una historia diferente. Los operadores que subieron tarifas entre un 8 y un 15% perdieron en promedio menos conductores que los que hicieron ajustes de 3 a 5% sin un protocolo de comunicación estructurado. El porcentaje del cambio rara vez determina la respuesta de la flota — el protocolo de comunicación casi siempre sí.",
+        "en": "The operator who hasn't adjusted passenger fares in 18 months usually isn't holding back due to lack of margin — they're postponing because they fear the drivers' reaction. The logic is understandable: in a regional operation where retaining active drivers is one of the hardest indicators to sustain, moving fares looks like unnecessary risk. Data from operators in Mexico and Central America tells a different story. Operators who raised fares between 8 and 15% lost on average fewer drivers than those who made 3 to 5% adjustments without a structured communication protocol. The size of the change rarely determines the fleet's response — the communication protocol almost always does."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Este artículo está dirigido al operador que necesita ajustar sus tarifas de pasajero, sus comisiones a conductores, o ambas, y quiere hacerlo sin que la operación experimente un período de aceptación degradada mientras la flota recalibra. Cubre la preparación antes del anuncio, el diseño del mensaje correcto, la segmentación de la flota, el momento con menor resistencia, y los indicadores que el operador debe vigilar durante los siete días posteriores al cambio. El protocolo que se describe aquí aplica tanto a ajustes de tarifa de pasajero como a modificaciones de estructura de comisiones — la mecánica de la comunicación es la misma aunque la dirección económica del cambio sea diferente.",
+        "en": "This article is for the operator who needs to adjust passenger fares, driver commission structure, or both, and wants to do it without the operation experiencing a degraded acceptance period while the fleet recalibrates. It covers preparation before the announcement, the design of the right message, fleet segmentation, the timing with lowest resistance, and the indicators the operator needs to monitor for the seven days after the change. The protocol described here applies equally to passenger fare adjustments and to commission structure modifications — the communication mechanics are the same even when the economic direction of the change is different."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "monto-vs-protocolo-comunicacion",
+      "text": {
+        "es": "Por qué el monto del cambio importa menos que cómo se anuncia",
+        "en": "Why the size of the change matters less than how it's announced"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La razón por la que los conductores abandonan una plataforma después de un cambio de tarifas casi nunca es el monto del cambio en sí — es la experiencia de arbitrariedad y sorpresa. Un conductor que descubre que la tarifa bajó porque un pasajero comentó el precio durante el viaje tiene una reacción cualitativamente distinta a la de un conductor que recibió tres días antes un mensaje explicando que la tarifa va a cambiar, por qué, y cuánto va a producir ese cambio en su ingreso promedio por hora. La diferencia entre esos dos conductores no es su tolerancia al cambio — es si sienten que están en una relación de negocio o si están recibiendo condiciones sin contexto.",
+        "en": "The reason drivers leave a platform after a fare change is almost never the size of the change itself — it's the experience of arbitrariness and surprise. A driver who discovers the rate changed because a passenger mentioned the price during a trip has a qualitatively different reaction than a driver who received a message three days earlier explaining that the fare was going to change, why, and what the change would do to their average hourly income. The difference between those two drivers isn't their tolerance for change — it's whether they feel they're in a business relationship or receiving conditions without context."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Los tres elementos que producen deserción de conductores después de un cambio de tarifas son consistentes en las operaciones regionales: sorpresa (el cambio ocurrió sin previo aviso o con menos de 24 horas), falta de justificación con datos (el anuncio no incluía ningún cálculo de impacto en el ingreso del conductor), y ausencia de ventana de transición (el cambio fue inmediato, sin período de adaptación). El operador que elimina los tres elementos antes de ejecutar el cambio opera en un contexto fundamentalmente diferente — incluso si el ajuste es económicamente negativo para la flota en el corto plazo, los conductores que reciben el anuncio con esos tres elementos cubiertos tienen significativamente menos probabilidad de escalar su reacción o de abandonar activamente la plataforma.",
+        "en": "The three elements that produce driver desertion after a fare change are consistent across regional operations: surprise (the change happened without warning or with less than 24 hours' notice), lack of data-backed justification (the announcement included no income impact calculation for the driver), and no transition window (the change was immediate, with no adaptation period). The operator who eliminates all three before executing the change operates in a fundamentally different context — even if the adjustment is economically negative for the fleet in the short term, drivers who receive the announcement with those three elements covered are significantly less likely to escalate their reaction or actively leave the platform."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "segmentar-flota-antes-comunicar",
+      "text": {
+        "es": "Segmentar la flota antes de comunicar: no todos los conductores necesitan el mismo mensaje",
+        "en": "Segment the fleet before communicating: not every driver needs the same message"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "En una operación de 60 a 100 conductores activos, hay una distribución que reaparece con variaciones pequeñas: el 15-20% superior de la flota — entre 10 y 20 conductores — concentra entre el 40 y el 50% de los viajes de la semana. Esos conductores tienen una relación diferente con la plataforma que el conductor que hace cuatro viajes semanales. Cuando un cambio de tarifas reduce el ingreso promedio por viaje, el conductor que hace ocho viajes al día tiene una exposición económica radicalmente diferente al conductor que hace cuatro a la semana — y el mensaje correcto para cada uno también es diferente. El conductor de alto volumen necesita comunicación personalizada con el cálculo específico de su impacto. El conductor de actividad media necesita el mensaje completo con datos. El conductor de baja actividad puede recibir la notificación grupal.",
+        "en": "In an operation of 60 to 100 active drivers, there's a distribution that recurs with small variations: the top 15-20% of the fleet — between 10 and 20 drivers — concentrates 40 to 50% of the week's trips. Those drivers have a different relationship with the platform than a driver who makes four trips per week. When a fare change reduces average income per trip, the driver who completes eight trips per day has a radically different economic exposure than one who does four per week — and the right message for each is also different. The high-volume driver needs personalized communication with a specific calculation of their impact. The mid-activity driver needs the full data message. The low-activity driver can receive the group notification."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La segmentación que produce mejores resultados usa dos variables: promedio de viajes en los últimos 30 días y tasa de aceptación promedio. Los conductores con más de 15 viajes semanales y tasa de aceptación superior al 80% son el grupo de mayor riesgo ante un cambio de comisión — tienen opciones reales de migrar a otro operador o de reducir su disponibilidad, y son los conductores cuya pérdida más impacta la cobertura. Los conductores con 5-15 viajes semanales representan la mayor parte de la flota y forman la opinión colectiva sobre el cambio — si la mitad de ellos reacciona negativamente en los primeros tres días, ese tono se contagia al grupo. El operador que hace esa segmentación antes de redactar el primer mensaje tiene una imagen precisa de dónde concentrar el esfuerzo de comunicación personalizada y dónde es suficiente la notificación estándar.",
+        "en": "The segmentation that produces the best results uses two variables: average trips in the last 30 days and average acceptance rate. Drivers with more than 15 weekly trips and an acceptance rate above 80% are the highest-risk group for a commission change — they have real options to migrate to another operator or reduce their availability, and they're the drivers whose loss most impacts coverage. Drivers with 5-15 weekly trips represent the largest part of the fleet and form the collective opinion about the change — if half of them react negatively in the first three days, that tone spreads to the entire group. The operator who does this segmentation before drafting the first message has a precise picture of where to concentrate personalized communication effort and where the standard notification is sufficient."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "mensaje-datos-ingreso-primero",
+      "text": {
+        "es": "El mensaje correcto: datos del ingreso primero, decisión después",
+        "en": "The right message: income data first, decision second"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El mensaje de anuncio de cambio de tarifas tiene una estructura que funciona con consistencia en mercados regionales: datos de ingreso primero, decisión después, contexto de negocio al final. La secuencia correcta es: abre con cuánto está ganando actualmente ese conductor en promedio por hora o por viaje — datos reales de los últimos 30 días —, muestra la proyección con la nueva tarifa con un cálculo honesto, y al final informa la decisión con la fecha de entrada en vigor y el período de transición. El operador que abre el mensaje con la decisión — «A partir del lunes la tarifa de pasajero sube un 12%» — genera una reacción de evaluación inmediata basada en la primera impresión. El que abre con datos — «En los últimos 30 días tu ingreso promedio por viaje fue de $X» — genera un contexto de evaluación diferente antes de que el conductor lea la decisión.",
+        "en": "The fare change announcement message has a structure that works consistently in regional markets: income data first, decision second, business context last. The right sequence is: open with what that driver is currently earning on average per hour or per trip — real data from the last 30 days —, show the projection at the new fare using an honest calculation, then announce the decision with the effective date and transition period. The operator who opens the message with the decision — \"Starting Monday passenger fare is rising 12%\" — generates an immediate evaluation reaction based on the first impression. The operator who opens with data — \"In the last 30 days your average income per trip was $X\" — creates a different evaluation context before the driver reads the decision."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Tres elementos que no deben aparecer en el mensaje de anuncio: comparaciones con las tarifas de la competencia (produce la discusión equivocada), promesas sobre ingresos futuros no garantizados («esto te permitirá ganar más a largo plazo»), y justificaciones sobre costos operativos del operador que el conductor no puede verificar. El mensaje efectivo tiene menos de diez líneas y contiene exactamente tres datos: ingreso promedio actual, ingreso proyectado, y fecha de entrada en vigor. Un mensaje de 200 palabras con justificaciones extensas produce más lectura y más resistencia que uno de 80 palabras con tres datos concretos y una ventana de transición explícita.",
+        "en": "Three elements that should not appear in the announcement message: comparisons with competitor fares (generates the wrong conversation), promises about unguaranteed future income (\"this will allow you to earn more in the long run\"), and justifications about the operator's operating costs that the driver can't verify. The effective message is under ten lines and contains exactly three data points: current average income, projected income, and effective date. A 200-word message with extensive justifications produces more reading and more resistance than an 80-word message with three concrete data points and an explicit transition window."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "momento-correcto-comunicar",
+      "text": {
+        "es": "El momento que produce la menor resistencia: día, hora y ventana de transición",
+        "en": "The timing that produces the least resistance: day, time, and transition window"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El día y la hora del anuncio tienen impacto mensurable en la reacción de la flota. Los martes y miércoles a media mañana — después del pico de la mañana y antes del mediodía — producen sistemáticamente la mejor tasa de apertura y la reacción más moderada en las operaciones regionales donde se ha podido comparar. Los conductores acaban de completar su sesión matutina con resultados recientes en mente: si la sesión fue buena, están receptivos. Los viernes por la tarde son el peor momento: los conductores cierran su semana con el estado emocional del balance de esa semana, y una notificación de cambio inminente llegará sobre ese estado, no sobre el de un inicio de semana. El mismo cambio anunciado el viernes por la tarde con entrada en vigor el lunes produce entre cuatro y cinco veces más respuestas negativas que el mismo cambio anunciado el martes para el lunes siguiente.",
+        "en": "The day and time of the announcement have a measurable impact on the fleet's reaction. Tuesdays and Wednesdays mid-morning — after the morning rush and before midday — consistently produce the best open rate and the most moderate reaction in regional operations where comparison has been possible. Drivers have just finished their morning session with recent results in mind: if the session was good, they're receptive. Friday afternoons are the worst time: drivers close their week carrying the emotional state of that week's balance, and a notification about an imminent change will land on that state, not on a fresh-week one. The same change announced Friday afternoon for Monday takes effect producing four to five times more negative responses than the same change announced Tuesday for the following Monday."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El período de transición mínimo es de 48 horas entre el anuncio y la entrada en vigor — suficiente para que el conductor lo procese sin que la operación quede en un estado de incertidumbre extendida. Las operaciones que han probado períodos más largos — cinco a siete días — reportan que el tiempo adicional de procesamiento no produce mejor aceptación; en cambio, genera más tiempo de conversación en los grupos del gremio y más oportunidades para que la narrativa del cambio se deforme antes de que entre en vigor. La ventana de 48-72 horas con un mensaje claro produce consistentemente menos fricción que una ventana larga con comunicación ambigua. Si el operador necesita más tiempo para responder preguntas individuales de los conductores de alto volumen, esas conversaciones deben ocurrir en los días previos al anuncio grupal — no como parte de la ventana de transición después de él.",
+        "en": "The minimum transition period is 48 hours between announcement and effective date — enough for drivers to process it without leaving the operation in a state of extended uncertainty. Operations that have tested longer periods — five to seven days — report that the additional processing time doesn't produce better acceptance; instead it generates more conversation time in guild groups and more opportunities for the change narrative to distort before it takes effect. A 48-72 hour window with a clear message consistently produces less friction than a long window with ambiguous communication. If the operator needs more time to individually address questions from high-volume drivers, those conversations should happen in the days before the group announcement — not as part of the transition window after it."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "agente-comprime-preparacion",
+      "text": {
+        "es": "Cómo el agente comprime el tiempo de preparación de la comunicación segmentada",
+        "en": "How the agent compresses preparation time for segmented communication"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La preparación de mensajes personalizados para los conductores de alto volumen es la parte del proceso que más tiempo requiere del operador: en una flota de 80 conductores con tres segmentos diferenciados, redactar textos individuales para los 12-15 conductores prioritarios más el mensaje grupal para los dos segmentos restantes representa entre dos y tres horas de trabajo. Con la instrucción correcta al agente, ese tiempo se reduce a 30-45 minutos de revisión. La instrucción que produce el mejor resultado: «Identifica los conductores con más de 15 viajes semanales en promedio en los últimos 30 días. Para cada uno, calcula su ingreso promedio actual por viaje y su ingreso proyectado con la nueva tarifa de $[monto]. Produce un borrador de mensaje personalizado de menos de 80 palabras que abre con los datos de ingreso de ese conductor específico, anuncia el cambio con entrada en vigor en [fecha], y cierra con una línea que reconoce la relación de ese conductor con la operación.»",
+        "en": "Preparing personalized messages for high-volume drivers is the most time-intensive part of the process for the operator: in a fleet of 80 drivers with three differentiated segments, drafting individual texts for the 12-15 priority drivers plus the group message for the two remaining segments represents two to three hours of work. With the right instruction to the agent, that time reduces to 30-45 minutes of review. The instruction that produces the best result: \"Identify drivers with more than 15 average weekly trips in the last 30 days. For each, calculate their current average income per trip and their projected income with the new fare of $[amount]. Produce a personalized message draft under 80 words that opens with that specific driver's income data, announces the change effective [date], and closes with a line that acknowledges that driver's relationship with the operation.\""
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El agente también puede preparar el mensaje de grupo para los segmentos de actividad media y baja, usando los promedios de ingreso de cada grupo en lugar de datos individuales. El operador revisa y ajusta el tono de los borradores antes de enviar — el proceso nunca debe ser instrucción al agente seguida de envío inmediato sin revisión. El valor del agente en este proceso no es automatizar la comunicación sino comprimir el tiempo de preparación de las versiones personalizadas, que es la parte donde el operador más frecuentemente toma atajos por falta de tiempo y termina enviando un mensaje genérico a toda la flota que produce la mayor parte de la resistencia evitable.",
+        "en": "The agent can also prepare the group message for mid- and low-activity segments, using each group's average income figures rather than individual data. The operator reviews and adjusts the tone of drafts before sending — the process should never be agent instruction followed by immediate sending without review. The agent's value in this process isn't to automate communication but to compress preparation time for the personalized versions, which is the part where the operator most often cuts corners due to time constraints and ends up sending a generic message to the entire fleet that generates most of the avoidable resistance."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "siete-dias-despues-senales",
+      "text": {
+        "es": "Los siete días después del cambio: qué es variación normal y qué es señal de alerta",
+        "en": "The seven days after the change: what's normal variation and what's a warning signal"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Las primeras 48 horas después de la entrada en vigor siempre producen alguna variación observable en la tasa de aceptación — entre 1 y 3 puntos porcentuales de variación en cualquier dirección es ruido operativo, no señal. La señal de alerta es la tasa de aceptación que sigue bajando pasado el tercer día sin estabilizarse: en una operación sana, el período de calibración de la flota completa un ciclo en 48-72 horas. Si al cuarto día la tasa está 4 puntos por debajo del promedio previo al cambio y no muestra tendencia de recuperación, hay un conductor o un segmento con una objeción específica que el mensaje original no resolvió, y la respuesta correcta es contacto proactivo — no espera.",
+        "en": "The first 48 hours after the fare takes effect always produce some observable variation in acceptance rate — between 1 and 3 percentage points of variation in either direction is operational noise, not signal. The warning signal is acceptance rate that continues declining past day three without stabilizing: in a healthy operation, the full fleet calibration cycle completes in 48-72 hours. If on day four the acceptance rate is 4 points below the pre-change average and shows no recovery trend, there's a driver or segment with a specific objection that the original message didn't resolve, and the right response is proactive contact — not waiting."
+      }
+    },
+    {
+      "type": "list",
+      "style": "bullet",
+      "intro": {
+        "es": "Las cinco señales que el operador debe revisar en los primeros siete días post-cambio:",
+        "en": "The five signals the operator needs to review in the first seven days post-change:"
+      },
+      "items": {
+        "es": [
+          "**Tasa de aceptación por día vs. promedio previo al cambio**: la tendencia de los días 3-5 es la señal más informativa — si no se recupera por encima del –2pp al quinto día, hay un problema activo.",
+          "**Conductores de alto volumen sin turno en los primeros dos días**: no es necesariamente abandono, pero requiere contacto proactivo ese mismo día antes de que la ausencia se consolide.",
+          "**Volumen y tono de mensajes entrantes en el canal de atención**: un aumento de mensajes con tono negativo en las primeras 24 horas indica que el mensaje de anuncio dejó preguntas sin responder que el operador puede resolver con un seguimiento breve.",
+          "**Cobertura de turnos nocturnos en los primeros tres días**: los turnos de menor demanda son los primeros que los conductores ambivalentes dejan de tomar — su ausencia anticipa lo que ocurrirá en los turnos de mayor demanda si no hay contacto de seguimiento.",
+          "**Conductores activos en los últimos 30 días que llevan tres días sin activarse desde el cambio**: la diferencia entre un conductor que tomó un descanso y uno que está evaluando salir de la plataforma se determina con una pregunta directa, no esperando la semana siguiente."
+        ],
+        "en": [
+          "**Daily acceptance rate vs. pre-change average**: the trend on days 3-5 is the most informative signal — if it hasn't recovered above –2pp by day five, there's an active problem.",
+          "**High-volume drivers with no shift in the first two days**: not necessarily abandonment, but warrants proactive contact that same day before the absence solidifies.",
+          "**Volume and tone of incoming messages in the support channel**: an increase in negatively-toned messages in the first 24 hours indicates the announcement left unanswered questions the operator can resolve with a brief follow-up.",
+          "**Overnight shift coverage in the first three days**: low-demand shifts are the first that ambivalent drivers stop taking — their absence anticipates what will happen on high-demand shifts if no follow-up contact occurs.",
+          "**Drivers active in the last 30 days who haven't activated for three days since the change**: the difference between a driver who took a break and one who is evaluating leaving the platform is determined with a direct question, not by waiting until next week."
+        ]
+      }
+    },
+    {
+      "type": "quote",
+      "text": {
+        "es": "Llevábamos 22 meses con la misma tarifa de pasajero. Cuando decidimos subir 12% teníamos miedo de que la mitad de los conductores se fueran. Lo que hicimos diferente fue mandar a los quince conductores más activos un mensaje individual con su ingreso promedio de los últimos 30 días y la proyección con la nueva tarifa. A los tres días el 87% había tomado turnos normales. Dos semanas después la tasa de aceptación estaba dos puntos más alta que antes del cambio — porque los pasajeros también respondieron bien cuando había más conductores disponibles en horas pico.",
+        "en": "We'd had the same passenger fare for 22 months. When we decided to raise it 12% we were afraid half the drivers would leave. What we did differently was send the fifteen most active drivers an individual message with their average income from the last 30 days and the projection at the new fare. Three days later 87% had taken normal shifts. Two weeks later the acceptance rate was two points higher than before the change — because passengers also responded well when more drivers were available during peak hours."
+      },
+      "attribution": {
+        "es": "Operador con 76 conductores activos en el noroeste de México",
+        "en": "Operator with 76 active drivers in northwestern Mexico"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El cambio de tarifas bien comunicado no es solo un proceso de gestión de flota — es uno de los momentos donde el operador demuestra si la relación con sus conductores es de negocio real o de plataforma intercambiable. Los conductores que recibieron un mensaje personalizado con sus datos de ingreso antes de un cambio que los afectaba tienen un historial de relación diferente al de los que recibieron una notificación grupal el día anterior. Esa diferencia no aparece en ningún indicador del panel la semana del cambio — aparece seis meses después, cuando hay dos plataformas en la ciudad con estructuras similares y el conductor decide en qué app activa su turno primero. La comunicación de un cambio de tarifas es una de las inversiones con mayor retorno diferido en la retención de conductores de largo plazo.",
+        "en": "A well-communicated fare change isn't just a fleet management process — it's one of the moments where the operator demonstrates whether the relationship with their drivers is a real business relationship or an interchangeable platform one. Drivers who received a personalized message with their income data before a change that affected them have a different relationship history than those who received a group notification the day before. That difference doesn't show up in any dashboard indicator the week of the change — it shows up six months later, when two platforms in the city are offering similar structures and the driver decides which app to activate their shift on first. Communicating a fare change is one of the investments with the highest deferred return in long-term driver retention."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Este proceso es una de las decisiones que permanecen en el operador cuando la coordinación diaria está delegada — no por burocracia sino porque requiere la credibilidad y el criterio de quien tiene la perspectiva del negocio completo, no solo del turno. El coordinador puede ejecutar el envío de los mensajes, pero la decisión sobre qué cambiar, cuánto, cuándo y cómo explicarlo con datos reales de la operación es la clase de trabajo estratégico que el operador que salió del turno diario ahora tiene tiempo de hacer bien. Esa es la diferencia entre un ajuste de tarifa que fortalece la operación y uno que la fragiliza — no el porcentaje del cambio, sino la preparación del operador para comunicarlo con el nivel de información que la flota necesita para procesar el cambio y seguir eligiendo estar activa.",
+        "en": "This process is one of the decisions that stays with the operator when daily coordination has been delegated — not for bureaucratic reasons but because it requires the credibility and judgment of the person who holds the full business perspective, not just the shift view. The coordinator can execute the message delivery, but the decision about what to change, how much, when, and how to explain it with real operational data is exactly the kind of strategic work the operator who exited the daily shift now has time to do well. That's the difference between a fare adjustment that strengthens the operation and one that weakens it — not the size of the change, but the operator's preparation to communicate it with the level of information the fleet needs to process the change and keep choosing to remain active."
+      }
+    }
+  ],
+  "cta": {
+    "heading": {
+      "es": "¿Listo para lanzar tu propia app de movilidad?",
+      "en": "Ready to launch your own mobility app?"
+    },
+    "body": {
+      "es": "Configura tu marca, tus tarifas y tus servicios en semanas, no en meses. Cabgo te entrega la plataforma; tú te quedas con la operación, los clientes y los ingresos.",
+      "en": "Set up your brand, pricing and services in weeks, not months. Cabgo ships the platform — you keep the operation, the customers and the revenue."
+    },
+    "buttonLabel": {
+      "es": "Comenzar con Cabgo",
+      "en": "Get started with Cabgo"
+    },
+    "buttonHref": "/empezar"
+  },
+  "seo": {
+    "metaTitle": {
+      "es": "Comunicar cambio de tarifas a conductores | Cabgo",
+      "en": "Communicating a fare change to drivers | Cabgo"
+    },
+    "metaDescription": {
+      "es": "Cómo preparar y ejecutar un ajuste de tarifas en una operación de ride-hailing sin provocar deserción en la flota de conductores.",
+      "en": "How to prepare and execute a fare adjustment in a regional ride-hailing operation without triggering driver defection in your fleet."
+    }
+  }
+}
