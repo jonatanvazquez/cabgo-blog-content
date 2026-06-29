@@ -1,6 +1,25 @@
 {
-  "generatedAt": "2026-06-28T14:12:07.688Z",
+  "generatedAt": "2026-06-29T14:10:14.955Z",
   "posts": [
+    {
+      "slug": "tasa-cancelacion-conductores-retencion-pasajeros",
+      "category": "strategy",
+      "title": {
+        "es": "La tasa de cancelación del conductor: el indicador que predice la pérdida de pasajeros antes de que ocurra",
+        "en": "The driver cancellation rate: the indicator that predicts passenger loss before it happens"
+      },
+      "excerpt": {
+        "es": "La calificación del viaje no captura el daño de una cancelación porque ocurre antes del viaje. La tasa de cancelación del conductor es el indicador que sí lo hace — y que explica caídas de recurrencia que no aparecen en ningún reporte de calificaciones.",
+        "en": "Trip ratings don't capture cancellation damage because it happens before the trip. The driver cancellation rate is the indicator that does — and that explains recurrence drops that don't appear in any ratings report."
+      },
+      "heroImage": "https://raw.githubusercontent.com/jonatanvazquez/cabgo-blog-content/main/images/tasa-cancelacion-conductores-retencion-pasajeros.jpg",
+      "heroImageAlt": {
+        "es": "Ilustración isométrica de dos medidores circulares en primer plano: uno verde con etiqueta de aceptación y otro ámbar-rojo con etiqueta de cancelación y flecha ascendente. Entre ellos, una figura de pasajero en postura de espera con reloj decreciente. Al fondo, una gráfica descendente de recurrencia conectada al medidor de cancelación por línea teal punteada",
+        "en": "Isometric illustration of two circular gauges in the foreground: one green with an acceptance label and one amber-to-red with a cancellation label and upward arrow. Between them, a passenger figure in a waiting pose with a declining clock. In the background, a descending recurrence chart connected to the cancellation gauge by a dotted teal line"
+      },
+      "publishedAt": "2026-06-29",
+      "readingMinutes": 9
+    },
     {
       "slug": "tasa-recurrencia-pasajeros-demanda-real",
       "category": "strategy",
