@@ -1,6 +1,25 @@
 {
-  "generatedAt": "2026-06-29T14:10:14.955Z",
+  "generatedAt": "2026-06-30T14:10:37.556Z",
   "posts": [
+    {
+      "slug": "tiempo-espera-promedio-oferta-demanda",
+      "category": "strategy",
+      "title": {
+        "es": "El tiempo de espera promedio: el indicador de oferta que los operadores leen mal",
+        "en": "The average wait time: the supply indicator most operators misread"
+      },
+      "excerpt": {
+        "es": "El promedio del tiempo de espera oculta las esperas largas que erosionan la recurrencia. Leer su distribución por corredor y franja horaria anticipa esas caídas con una semana de adelanto.",
+        "en": "Average wait time hides the long waits that erode recurrence. Reading its distribution by corridor and time band anticipates those drops a week before they show on the demand dashboard."
+      },
+      "heroImage": "https://raw.githubusercontent.com/jonatanvazquez/cabgo-blog-content/main/images/tiempo-espera-promedio-oferta-demanda.jpg",
+      "heroImageAlt": {
+        "es": "Ilustración isométrica de una figura de pasajero en postura de espera con un gran dial de cronómetro en primer plano cuya aguja apunta justo por debajo de un umbral rojo. Al fondo izquierdo, una cuadrícula de bloques de ciudad con zonas en rojo y azul que indica cobertura desigual de conductores. A la derecha, una figura de operador examina un gráfico de barras segmentado por franja horaria con la barra de hora pico resaltada en ámbar",
+        "en": "Isometric illustration of a passenger figure in a waiting pose with a large stopwatch dial in the foreground whose needle points just below a red threshold. In the background left, a city block grid with red and blue heat zones indicating uneven driver coverage. To the right, an operator figure examines a bar chart segmented by time band with the peak hour bar highlighted in amber"
+      },
+      "publishedAt": "2026-06-30",
+      "readingMinutes": 9
+    },
     {
       "slug": "tasa-cancelacion-conductores-retencion-pasajeros",
       "category": "strategy",
