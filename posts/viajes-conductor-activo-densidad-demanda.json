@@ -1,0 +1,301 @@
+{
+  "slug": "viajes-conductor-activo-densidad-demanda",
+  "category": "strategy",
+  "title": {
+    "es": "Viajes por conductor activo: el indicador de densidad que anticipa la reducción silenciosa de flota",
+    "en": "Trips per active driver: the density indicator that anticipates silent fleet decline"
+  },
+  "excerpt": {
+    "es": "El número de conductores activos no predice disponibilidad futura. Los viajes por conductor activo por semana sí lo hacen — y anticipan la reducción de cobertura en picos dos semanas antes.",
+    "en": "Your active driver count doesn't predict future availability. Trips per active driver per week does — and anticipates peak coverage decline two weeks ahead."
+  },
+  "heroImage": "https://raw.githubusercontent.com/jonatanvazquez/cabgo-blog-content/main/images/viajes-conductor-activo-densidad-demanda.jpg",
+  "heroImageAlt": {
+    "es": "Ilustración isométrica de dos paneles de sesión de conductores: el izquierdo muestra tres tarjetas de viaje dispersas y un contador de ganancias bajo; el derecho muestra siete tarjetas apiladas en cola densa y un contador ascendente. En el centro, un dial grande con aguja moviéndose de zona ámbar hacia zona verde. Una figura de operador examina una gráfica de tendencia de viajes por conductor activo con línea teal ascendente",
+    "en": "Isometric illustration of two driver session panels: the left shows three sparse trip cards and a low earnings counter; the right shows seven cards stacked in a dense queue with a rising counter. In the center, a large dial with the needle moving from an amber zone into a green zone. An operator figure examines a rising teal trend chart of trips per active driver"
+  },
+  "heroImagePrompt": "Split isometric composition showing two contrasting driver dashboards. On the left, a driver session panel shows three sparse trip cards with low activity and a small downward earnings counter. On the right, a contrasting driver session panel glows with seven tightly stacked trip cards in a vertical queue and a rising earnings counter. In the center foreground, a large circular dial gauge with a needle moving from a low amber zone toward a green high-density zone. A compact operator figure stands at the center examining a trend line chart showing trips-per-driver-per-week rising gently over 4 weeks. A dotted teal line connects the high-density driver panel to the green zone on the gauge. Deep violet floor grid, soft indigo radial background glow, clean geometric shapes, subtle shadows. Negative space on the lower right.",
+  "publishedAt": "2026-07-01",
+  "readingMinutes": 9,
+  "keywords": {
+    "es": [
+      "viajes por conductor activo ride-hailing regional",
+      "densidad de demanda flota taxi app",
+      "indicador disponibilidad conductores operación movilidad",
+      "reducción silenciosa flota ride-hailing",
+      "cómo medir salud flota plataforma movilidad",
+      "ratio viajes conductor activo operación taxi",
+      "compromiso conductores plataforma movilidad regional"
+    ],
+    "en": [
+      "trips per active driver regional ride-hailing",
+      "demand density fleet health indicator mobility",
+      "silent driver availability decline ride-hailing",
+      "how to measure fleet health ride-hailing platform",
+      "active driver engagement mobility platform",
+      "fleet commitment indicator regional taxi app",
+      "trips per driver per week operation health"
+    ]
+  },
+  "author": {
+    "name": "Equipo Cabgo",
+    "role": {
+      "es": "Plataforma de movilidad",
+      "en": "Mobility platform"
+    }
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La mayoría de los operadores regionales de ride-hailing monitorea la salud de su flota con el total de conductores activos de la semana o del mes. Ese número responde cuántos conductores completaron al menos un viaje en el período, pero no responde a la pregunta que determina si esa flota va a estar disponible la semana siguiente: qué tan densa es la demanda que cada conductor está experimentando en sus sesiones. Un conductor que trabaja cuatro horas y completa seis viajes tiene una experiencia operativa completamente distinta a la de un conductor que trabaja el mismo tiempo y completa dos. El primero tiene una densidad de demanda que justifica económicamente su tiempo conectado; el segundo está en el umbral donde la plataforma compite con otras opciones de ingreso. Los viajes por conductor activo por semana — el total de viajes completados dividido entre el número de conductores que completaron al menos un viaje en ese período — es el indicador que captura esa diferencia y que anticipa la reducción silenciosa de disponibilidad de flota entre dos y tres semanas antes de que el total de conductores activos empiece a moverse.",
+        "en": "Most regional ride-hailing operators monitor fleet health with total active drivers for the week or month. That number tells you how many drivers completed at least one trip in the period, but it doesn't answer the question that determines whether that fleet will be available next week: how dense is the demand each driver is experiencing in their sessions. A driver who works four hours and completes six trips has a completely different operational experience from a driver who works the same time and completes two. The first has demand density that economically justifies their connected time; the second is at the threshold where the platform competes with other income options. Trips per active driver per week — total completed trips divided by the number of drivers who completed at least one trip in that period — is the indicator that captures that difference and anticipates the silent reduction in fleet availability two to three weeks before total active driver count begins to move."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Este artículo está dirigido al operador cuyas métricas de demanda de pasajeros están dentro del rango aceptable pero observa un aumento gradual en el tiempo de espera que no puede atribuir a ninguna caída en el número de conductores registrados, o que detecta una reducción de cobertura en los picos de demanda sin una causa visible en el panel. Cubre qué mide la densidad de demanda por conductor y cómo calcularla con los datos disponibles, qué rangos distinguen una flota con suficiente actividad para mantenerse comprometida de una que está en proceso silencioso de reducción, las causas más frecuentes de densidad baja en mercados de México y Centroamérica, la conexión entre densidad de viajes por conductor y la decisión de mantenerse activo en la plataforma, y las palancas que mejoran la densidad sin requerir cambios de precio ni reducción de la flota total.",
+        "en": "This article is for the operator whose passenger demand metrics are within acceptable range but who observes a gradual increase in wait time they can't attribute to any drop in registered driver count, or who detects reduced coverage during demand peaks without a visible cause in the dashboard. It covers what demand density per driver measures and how to calculate it from available data, what ranges distinguish a fleet with enough activity to stay committed from one in silent decline, the most common causes of low density in Mexico and Central America markets, the connection between trips per driver and the decision to remain active on the platform, and the levers that improve density without requiring price changes or active fleet reduction."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "conductores-activos-total-no-predice-disponibilidad",
+      "text": {
+        "es": "Por qué el total de conductores activos no predice la disponibilidad del mañana",
+        "en": "Why total active drivers doesn't predict tomorrow's availability"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El problema con el total de conductores activos como indicador de disponibilidad de flota es que es un indicador binario: incluye a todo conductor que completó al menos un viaje en el período, independientemente de si completó 2 o 28. Un conductor que pasó de promediar 24 viajes semanales a promediar 10 sigue apareciendo en el panel como activo — pero su disponibilidad efectiva en los horarios de mayor demanda se redujo más del 60%. Si esa reducción afecta a 8 o 10 conductores simultáneamente, el tiempo de espera sube de una forma que el operador no puede explicar con el número que ve en el indicador de flota. El total de activos puede mantenerse estable o incluso crecer mientras la disponibilidad real en los picos se está erosionando, porque el indicador no captura ni la intensidad ni el momento de conexión de cada conductor.",
+        "en": "The problem with total active drivers as a fleet availability indicator is that it's binary: it includes every driver who completed at least one trip in the period, regardless of whether they completed 2 or 28. A driver who went from averaging 24 weekly trips to averaging 10 still appears in the dashboard as active — but their effective availability during peak demand hours dropped more than 60%. If that reduction affects 8 or 10 drivers simultaneously, wait times rise in a way the operator can't explain using the number they see in the fleet indicator. The total active count can hold steady or even grow while real peak availability is eroding, because the indicator captures neither the intensity nor the timing of each driver's sessions."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El indicador de conductores activos tampoco distingue entre un conductor que concentra sus sesiones en las franjas de mayor demanda y uno que trabaja en horarios de baja solicitud. Dos operaciones con 45 conductores activos la misma semana pueden tener coberturas radicalmente distintas a las 7 de la mañana y a las 7 de la tarde si los patrones de sesión difieren. La densidad de viajes por conductor activo — cuántos viajes completa en promedio cada conductor que decidió conectarse durante la semana — es el indicador que captura si la flota está experimentando suficiente actividad para mantenerse comprometida con la plataforma, o si la experiencia económica de la sesión promedio está por debajo del umbral que justifica priorizar esas horas de trabajo sobre otras opciones disponibles en el mismo mercado.",
+        "en": "The active driver count also fails to distinguish between a driver who concentrates sessions in the highest-demand time bands and one who works during low-request hours. Two operations with 45 active drivers in the same week can have radically different coverage at 7 a.m. and 7 p.m. if session patterns differ. The density of trips per active driver — how many trips each driver who chose to connect during the week completed on average — is the indicator that captures whether the fleet is experiencing enough activity to stay committed to the platform, or whether the average session's economic experience is below the threshold that justifies prioritizing those working hours over other options available in the same market."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "que-miden-viajes-conductor-activo-calcular",
+      "text": {
+        "es": "Qué miden los viajes por conductor activo y cómo calcularlos en tu panel",
+        "en": "What trips per active driver measures and how to calculate it in your dashboard"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Los viajes por conductor activo por semana se obtienen dividiendo el total de viajes completados en la semana entre el número de conductores únicos que completaron al menos un viaje en ese período. Una operación con 320 viajes completados y 40 conductores activos tiene una densidad de 8 viajes por conductor activo por semana. Ese número describe la experiencia económica promedio del conductor que decidió conectarse: cuántos viajes obtuvo en el período que eligió trabajar. La instrucción al agente que produce ese dato directamente: «Muéstrame el total de viajes completados en los últimos 7 días y el número de conductores únicos que completaron al menos un viaje en ese período. Calcula el ratio de viajes por conductor activo.»",
+        "en": "Trips per active driver per week is obtained by dividing total completed trips in the week by the number of unique drivers who completed at least one trip in that period. An operation with 320 completed trips and 40 active drivers has a density of 8 trips per active driver per week. That number describes the average economic experience of the driver who chose to connect: how many trips they obtained during the period they chose to work. The agent instruction that produces that figure directly: 'Show me total completed trips in the last 7 days and the number of unique drivers who completed at least one trip in that period. Calculate the trips-per-active-driver ratio.'"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Una lectura más completa segmenta la distribución además de calcular el promedio: «Segmenta los conductores activos de la semana según número de viajes completados: menos de 5, entre 5 y 15, entre 15 y 30, y más de 30. ¿Cuántos conductores hay en cada segmento?» Esa distribución revela si la densidad promedio describe una flota homogénea o si está sostenida por un grupo pequeño de conductores de alto volumen que ocultan una mayoría con actividad muy baja. Una operación con densidad promedio de 12 y distribución donde el 65% de los conductores está por debajo de 8 tiene un perfil de riesgo completamente diferente al de una operación con la misma densidad promedio pero distribución concentrada en el rango de 10 a 16 — aunque ambas muestren el mismo número en el indicador.",
+        "en": "A more complete reading segments the distribution in addition to calculating the average: 'Segment active drivers for the week by trips completed: fewer than 5, between 5 and 15, between 15 and 30, and more than 30. How many drivers are in each segment?' That distribution reveals whether the average density describes a homogeneous fleet or is sustained by a small group of high-volume drivers concealing a majority with very low activity. An operation with average density of 12 where 65% of drivers sit below 8 trips has a completely different risk profile from an operation with the same average density but distribution concentrated in the 10-to-16 range — even though both show the same number in the indicator."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "tres-rangos-densidad-saludable-alerta-flota",
+      "text": {
+        "es": "Los tres rangos que separan densidad saludable de señal de alerta",
+        "en": "The three ranges that separate healthy density from a warning signal"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Las operaciones regionales que mantienen flota estable a lo largo de más de 18 meses tienen densidades de demanda que caen en rangos reconocibles. Una operación con 18 a 30 viajes por conductor activo por semana está en rango saludable: los conductores que deciden conectarse completan suficientes viajes para que el tiempo invertido produzca ingreso competitivo respecto a las alternativas disponibles en el mismo mercado. En ese rango, la plataforma tiene atracción económica que se sostiene sola: los conductores que la prueban tienen buenas probabilidades de mantenerse activos porque la experiencia de una sesión típica justifica la inversión de tiempo.",
+        "en": "Regional operations that sustain stable fleets over more than 18 months show demand densities that fall into recognizable ranges. An operation with 18 to 30 trips per active driver per week is in a healthy range: drivers who choose to connect complete enough trips for the time invested to produce income that competes with alternatives available in the same market. In that range, the platform has self-sustaining economic pull: drivers who try it have good odds of staying active because a typical session's experience justifies the time investment."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Una densidad entre 8 y 17 viajes por conductor activo por semana es zona de atención. La mayoría de los conductores completa suficientes viajes para mantenerse activa, pero un segmento está en proceso de evaluación de alternativas. En este rango, los conductores generalmente no abandonan la plataforma — reducen su disponibilidad en los picos de demanda, que son exactamente los momentos donde su presencia tiene más impacto en el tiempo de espera. Esa reducción selectiva produce los incrementos de espera en franjas de alta demanda que el operador detecta sin poder explicarlos con el número total de activos.",
+        "en": "A density between 8 and 17 trips per active driver per week is the caution zone. Most drivers are completing enough trips to remain active, but a segment is evaluating alternatives. In this range, drivers typically don't leave the platform — they reduce their availability during peak demand periods, which are exactly the moments where their presence has the greatest impact on wait time. That selective reduction produces the wait-time increases during high-demand slots that the operator detects without being able to explain using total active driver count."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Una densidad por debajo de 8 viajes por conductor activo por semana es señal de desequilibrio estructural entre oferta y demanda: la flota supera consistentemente lo que la demanda actual puede absorber, o la demanda cayó sin que la flota ajustara su comportamiento. Este rango aparece con frecuencia en operaciones que incorporaron más conductores de los que la demanda puede absorber eficientemente, y en operaciones que tuvieron una caída de demanda temporal que los conductores todavía no internalizaron en sus hábitos de sesión. El riesgo no es la caída inmediata de flota — es que el ciclo de sesiones de baja productividad refuerza la percepción de que la plataforma no es la primera opción económica, proceso que tarda meses en revertirse sin intervención activa.",
+        "en": "A density below 8 trips per active driver per week signals structural supply-demand imbalance: the fleet consistently exceeds what current demand can absorb, or demand fell without the fleet adjusting its behavior. This range appears most often in operations that added more drivers than demand can absorb efficiently, and in operations that experienced a temporary demand drop that drivers haven't yet internalized into their session habits. The risk isn't immediate fleet collapse — it's that the cycle of low-productivity sessions reinforces the perception that the platform isn't the top economic option, a process that takes months to reverse without active intervention."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "cuatro-causas-densidad-baja-mercados-regionales",
+      "text": {
+        "es": "Las cuatro causas más frecuentes de densidad baja en mercados regionales",
+        "en": "The four most common causes of low density in regional markets"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La densidad baja de demanda por conductor tiene causas distinguibles que determinan la respuesta correcta. Cuatro patrones concentran la mayor parte de los casos en operaciones de México y Centroamérica:",
+        "en": "Low demand density per driver has distinguishable causes that determine the right response. Four patterns account for most cases in operations across Mexico and Central America:"
+      }
+    },
+    {
+      "type": "list",
+      "style": "bullet",
+      "items": {
+        "es": [
+          "**Sobredimensionamiento de flota respecto a la demanda disponible**: cuando la operación incorporó más conductores de los que la demanda actual puede absorber con viajes regulares, cada conductor experimenta sesiones con tiempo de espera entre solicitudes más alto del que justifica económicamente permanecer conectado. Este patrón es más frecuente en operaciones que crecieron la flota en anticipación a una demanda que tardó más en desarrollarse. La respuesta no es reducir conductores de forma activa sino concentrar la comunicación y la activación en los conductores con mayor compromiso mientras la demanda madura.",
+          "**Distribución asimétrica de viajes entre conductores**: en muchos mercados, el 20-25% de conductores acumula el 60-70% de los viajes porque trabajan más horas, conocen mejor las zonas de alta demanda o tienen mejor tiempo de respuesta. El promedio de densidad puede estar en rango saludable mientras la mediana está por debajo del umbral de atención — porque los conductores de alto volumen elevan el promedio sin que mejore la experiencia del conductor típico.",
+          "**Concentración de la flota en horarios de baja solicitud**: cuando la demanda está concentrada en los picos de mañana y tarde pero los conductores se conectan principalmente en horarios de media jornada, la densidad baja es un problema de sincronización, no de número total. La flota no es insuficiente — está conectada en el momento equivocado. La respuesta correcta es información de demanda esperada por franja horaria, no cambios en el número de conductores.",
+          "**Fragmentación por operación simultánea en múltiples plataformas**: el conductor que distribuye su tiempo disponible entre la plataforma principal y una o dos alternativas tiene una densidad más baja en cada una de ellas. En mercados con alta competencia de plataformas, la densidad baja puede ser el síntoma de que la plataforma está perdiendo la preferencia de horario de conductores que antes la priorizaban — un problema de posicionamiento económico relativo, no de número absoluto de conductores registrados."
+        ],
+        "en": [
+          "**Fleet oversizing relative to available demand**: when the operation added more drivers than current demand can absorb with regular trips, each driver experiences sessions with higher inter-request wait times than justify staying connected economically. This pattern is most common in operations that grew the fleet in anticipation of demand that took longer to develop. The response isn't actively reducing drivers but concentrating communication and activation on the most committed drivers while demand matures.",
+          "**Asymmetric trip distribution among drivers**: in many markets, 20 to 25% of drivers accumulate 60 to 70% of trips because they work more hours, know high-demand zones better, or have faster response times. The average density can sit in the healthy range while the median is below the caution threshold — because high-volume drivers raise the average without improving the typical driver's experience.",
+          "**Fleet concentrated during low-demand time slots**: when demand is concentrated in morning and evening peaks but drivers are primarily connecting during midday hours, low density is a synchronization problem, not a total-count problem. The fleet isn't insufficient — it's connected at the wrong time. The right response is expected-demand information by time band, not changes to driver count.",
+          "**Fragmentation from simultaneous operation on multiple platforms**: a driver who splits their available time between the main platform and one or two alternatives has lower density on each. In markets with high platform competition, low density may be the symptom that the platform is losing priority hours from drivers who previously favored it — a relative economic positioning problem, not an absolute registered-driver-count problem."
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "densidad-baja-erosiona-compromiso-flota",
+      "text": {
+        "es": "Cómo la baja densidad de demanda erosiona el compromiso de la flota",
+        "en": "How low demand density erodes fleet commitment"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El conductor que completa entre 6 y 10 viajes en una semana de trabajo normal está en un punto de inflexión económico. Con ese volumen, el ingreso de la plataforma cubre los costos variables de la sesión pero produce un margen por hora que está en el límite de lo que justifica priorizar la plataforma sobre alternativas. En ese rango, el resultado de la semana siguiente tiene peso desproporcionado: una semana con 5 viajes refuerza la decisión de reducir disponibilidad; una semana con 14 viajes puede revertir el proceso y recuperar la priorización. El deterioro de la densidad de demanda no produce la decisión de abandonar la plataforma de inmediato — produce una reducción gradual de disponibilidad en los picos, que son exactamente los momentos de mayor impacto en el tiempo de espera del pasajero.",
+        "en": "A driver completing 6 to 10 trips in a normal working week is at an economic inflection point. At that volume, platform income covers session variable costs but produces an hourly margin at the edge of what justifies prioritizing the platform over alternatives. In that range, the following week's result carries disproportionate weight: a week with 5 trips reinforces the decision to reduce availability; a week with 14 trips can reverse the process and recover prioritization. The deterioration of demand density doesn't immediately produce the decision to leave the platform — it produces a gradual reduction in availability during peaks, which are exactly the moments of greatest impact on passenger wait time."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El mecanismo que conecta la densidad baja con la experiencia del pasajero es directo: el conductor que redujo disponibilidad en el pico del viernes porque la semana anterior fue de baja productividad produce un aumento de tiempo de espera en ese horario que afecta la recurrencia del pasajero antes de que ningún indicador de flota muestre la reducción. La experiencia del pasajero frecuente — el 20% que genera el 60-70% de los viajes en muchas operaciones — se deteriora por un proceso que empieza en la economía del conductor y termina en la decisión del pasajero de reclasificar la plataforma como opción de respaldo. La densidad de demanda por conductor es el indicador que permite ver ese proceso con anticipación suficiente para intervenir antes de que llegue al panel de recurrencia.",
+        "en": "The mechanism connecting low density to the passenger experience is direct: a driver who reduced availability during the Friday peak because the previous week was low-productivity produces a wait-time increase in that time slot that affects passenger recurrence before any fleet indicator shows the reduction. The frequent passenger experience — the 20% who generate 60 to 70% of trips in many operations — deteriorates through a process that starts in the driver's economics and ends in the passenger's decision to reclassify the platform as a backup option. Demand density per driver is the indicator that allows seeing that process with enough lead time to intervene before it reaches the recurrence dashboard."
+      }
+    },
+    {
+      "type": "quote",
+      "text": {
+        "es": "Cuando calculé los viajes por conductor activo me di cuenta de que tenía 38 conductores registrados como activos pero el 60% de los viajes los completaban 12 de ellos. Los otros 26 completaban entre 2 y 4 viajes por semana — suficiente para aparecer en el indicador pero no para tener ningún compromiso real. Cuando esos 12 de alto volumen bajaron su disponibilidad un mes por razones personales, el tiempo de espera subió de inmediato porque los otros 26 no cubrieron el vacío. La densidad me mostró la concentración de riesgo que el número total ocultaba.",
+        "en": "When I calculated trips per active driver I realized 38 drivers were registered as active but 12 of them completed 60% of the trips. The other 26 were completing 2 to 4 trips per week — enough to appear in the indicator but not enough for any real commitment. When those 12 high-volume drivers reduced availability one month for personal reasons, wait time spiked immediately because the other 26 didn't fill the gap. The density metric revealed the concentration risk that my total active count was hiding."
+      },
+      "attribution": {
+        "es": "Operador con dos años de operación en el centro de México",
+        "en": "Operator with two years of operation in central Mexico"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "tres-palancas-mejorar-densidad-sin-reducir-flota",
+      "text": {
+        "es": "Tres palancas para mejorar la densidad sin reducir la flota",
+        "en": "Three levers for improving density without reducing the fleet"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La respuesta intuitiva a densidad baja es reducir el número de conductores activos para concentrar los viajes disponibles en menos manos. En la mayoría de los casos, esa respuesta no mejora la situación — produce la percepción de que la plataforma está cerrando el acceso y genera resistencia entre conductores que se sienten excluidos sin haber recibido ninguna comunicación. Tres palancas producen mejora de densidad sin cambios de precio ni reducción activa de conductores:",
+        "en": "The instinctive response to low density is to reduce active drivers to concentrate available trips in fewer hands. In most cases, that response doesn't improve the situation — it creates the perception that the platform is closing access and generates resistance from drivers who feel excluded without having received any communication. Three levers produce density improvement without pricing changes or active fleet reduction:"
+      }
+    },
+    {
+      "type": "list",
+      "style": "bullet",
+      "items": {
+        "es": [
+          "**Activación concentrada en el segmento de densidad media**: los conductores que completan entre 5 y 15 viajes por semana tienen suficiente experiencia con la plataforma para aumentar su productividad con información de demanda esperada, pero no tienen el nivel de compromiso suficiente para buscarla de forma autónoma. Un mensaje semanal con los horarios y corredores de mayor demanda prevista produce entre un 20 y un 30% de aumento en su actividad sin ningún cambio de sistema ni incentivo económico directo.",
+          "**Redistribución de sesiones hacia los picos de mayor solicitud**: cuando la causa de densidad baja es la concentración de conductores en horarios de baja demanda, la información de redistribución produce mejora sin cambiar el número total de horas conectadas de la flota. El coordinador que comparte el resumen de demanda esperada por franja horaria — vía mensaje al grupo la noche anterior — crea incentivos naturales de redistribución sin necesidad de obligar ni penalizar.",
+          "**Reconocimiento y comunicación proactiva a conductores de alto volumen**: los conductores que completan más de 20 viajes semanales sostienen de forma desproporcionada la densidad promedio de la operación. Mantener una relación de comunicación activa con ese segmento — resultados de la semana, reconocimiento de productividad, información anticipada de alta demanda esperada — tiene mayor retorno por esfuerzo en la estabilidad de la densidad que cualquier acción sobre el segmento de bajo volumen, porque previene la reducción silenciosa de disponibilidad del grupo cuya decisión de conectarse menos tiene el mayor impacto en la cobertura de picos."
+        ],
+        "en": [
+          "**Concentrated activation for the mid-density driver segment**: drivers completing 5 to 15 trips per week have enough platform experience to increase their productivity when given expected-demand information, but not enough commitment to seek it out themselves. A weekly message with the highest-demand time slots and corridors produces a 20 to 30% increase in their activity without any system change or direct financial incentive.",
+          "**Session redistribution toward peak demand hours**: when the cause of low density is driver concentration during low-demand time slots, redistribution information improves density without changing total connected hours across the fleet. A coordinator who shares expected demand by time band — via group message the evening before — creates natural redistribution incentives without requiring mandates or penalties.",
+          "**Proactive communication and recognition for high-volume drivers**: drivers completing more than 20 trips per week disproportionately sustain the operation's average density. Maintaining active communication with that segment — weekly results, productivity recognition, advance notice of expected high demand — generates higher return per effort for density stability than any action targeting low-volume drivers, because it prevents the silent availability reduction of the group whose decision to connect less has the greatest impact on peak coverage."
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "agente-densidad-demanda-alerta-semanal",
+      "text": {
+        "es": "Cómo el agente lee la densidad como señal de alerta semanal",
+        "en": "How the agent reads density as a weekly early-warning signal"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La instrucción al agente que produce la lectura semanal de densidad: «Muéstrame los viajes por conductor activo de los últimos 7 días, compara con los 7 días anteriores y el promedio de los últimos 28 días. Señala si hay una caída de más de 2 viajes por conductor activo respecto a la semana anterior.» Esa consulta produce la tendencia de densidad antes de que el total de conductores activos empiece a cambiar — porque la densidad cae antes que el número de activos cuando los conductores reducen gradualmente la disponibilidad en lugar de desconectarse por completo.",
+        "en": "The agent instruction that produces the weekly density reading: 'Show me trips per active driver for the last 7 days, compare with the prior 7 days and the 28-day average. Flag if there's a drop of more than 2 trips per active driver compared to the prior week.' That query produces the density trend before total active driver count begins to change — because density falls ahead of active count when drivers gradually reduce availability rather than disconnecting entirely."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Una segunda consulta que completa el diagnóstico: «Segmenta los conductores activos de la semana según viajes completados: menos de 5, entre 5 y 15, y más de 15. ¿El segmento de menos de 5 creció respecto a la semana anterior? ¿El segmento de más de 15 se redujo?» Esa lectura distingue si la densidad cayó porque la demanda total bajó o porque los conductores de alto compromiso redujeron su disponibilidad — dos causas con respuestas completamente distintas que el promedio no permite separar. Un crecimiento del segmento de menos de 5 sin cambio en el de más de 15 indica incorporación de conductores nuevos que todavía no alcanzaron su ritmo; una reducción del segmento de más de 15 con el total de activos estable indica que los conductores de alto volumen están reduciendo su compromiso — y esa señal requiere respuesta más urgente porque es la que precede al deterioro de cobertura en los picos de mayor demanda.",
+        "en": "A second query that completes the diagnostic: 'Segment active drivers for the week by completed trips: fewer than 5, between 5 and 15, and more than 15. Did the under-5 segment grow compared to the prior week? Did the over-15 segment shrink?' That reading distinguishes whether density fell because total demand dropped or because high-commitment drivers reduced their availability — two causes with entirely different responses that the average alone doesn't let you separate. Growth in the under-5 segment without change in the over-15 segment indicates new drivers still finding their rhythm; a reduction in the over-15 segment with total active count unchanged indicates that high-volume drivers are reducing their commitment — and that signal requires more urgent response because it precedes coverage deterioration during the highest-demand peaks."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La densidad de demanda por conductor cierra el conjunto de cuatro indicadores que, leídos en paralelo, describen la salud completa de una operación regional de ride-hailing. La recurrencia de pasajeros dice si los usuarios están volviendo. La tasa de cancelación del conductor explica si la flota completa los viajes que acepta. El tiempo de espera promedio señala si la oferta cubre la demanda donde y cuando se necesita. La densidad de viajes por conductor activo responde la pregunta que los otros tres no hacen directamente: ¿está la flota experimentando suficiente actividad económica para mantenerse comprometida? Los cuatro juntos cubren las principales rutas de deterioro operativo que producen caídas de volumen semanas antes de que el panel general las muestre.",
+        "en": "Demand density per driver completes the set of four indicators that, read in parallel, describe the full health of a regional ride-hailing operation. Passenger recurrence tells you whether users are coming back. Driver cancellation rate explains whether the fleet completes the trips it accepts. Average wait time signals whether supply covers demand where and when it's needed. Trips per active driver answers the question the other three don't ask directly: is the fleet experiencing enough economic activity to stay committed? The four together cover the primary routes of operational deterioration that produce volume drops weeks before the top-level dashboard shows them."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El valor de añadir la densidad a la revisión semanal no está en tener un cuarto indicador — está en que cierra el diagnóstico de por qué el tiempo de espera puede subir sin que el panel de conductores muestre ningún cambio. Un conductor que redujo gradualmente su disponibilidad en los picos porque las semanas anteriores fueron de baja productividad no aparece en ninguna alerta automática de flota — solo en una densidad semanal que cayó antes de que el tiempo de espera lo reflejara. El operador que detecta esa señal con dos semanas de adelanto tiene opciones de respuesta que no están disponibles cuando el deterioro ya afecta la experiencia del pasajero: un mensaje de coordinación, información de demanda esperada, reconocimiento proactivo al conductor de alto compromiso. Esas acciones tienen un costo operativo mucho menor que reactivar conductores que ya redujeron su compromiso con la plataforma o revertir la caída de recurrencia de pasajeros provocada por semanas de tiempo de espera elevado en los corredores de mayor uso.",
+        "en": "The value of adding density to the weekly review isn't in having a fourth indicator — it's in completing the diagnostic for why wait time can rise without the fleet dashboard showing any change. A driver who gradually reduced availability during peaks because prior weeks were low-productivity doesn't appear in any automatic fleet alert — only in a weekly density that fell before wait time reflected it. The operator who detects that signal two weeks ahead has response options that aren't available once the deterioration is already affecting the passenger experience: a coordination message, expected demand information, proactive recognition to the high-commitment driver. Those actions have a much lower operational cost than reactivating drivers who have already reduced their platform commitment, or reversing the passenger recurrence drop caused by weeks of elevated wait time in the highest-use corridors."
+      }
+    }
+  ],
+  "cta": {
+    "heading": {
+      "es": "¿Listo para lanzar tu propia app de movilidad?",
+      "en": "Ready to launch your own mobility app?"
+    },
+    "body": {
+      "es": "Configura tu marca, tus tarifas y tus servicios en semanas, no en meses. Cabgo te entrega la plataforma; tú te quedas con la operación, los clientes y los ingresos.",
+      "en": "Set up your brand, pricing and services in weeks, not months. Cabgo ships the platform — you keep the operation, the customers and the revenue."
+    },
+    "buttonLabel": {
+      "es": "Comenzar con Cabgo",
+      "en": "Get started with Cabgo"
+    },
+    "buttonHref": "/empezar"
+  },
+  "seo": {
+    "metaTitle": {
+      "es": "Viajes por conductor activo: densidad de demanda | Cabgo",
+      "en": "Trips per active driver: demand density indicator | Cabgo"
+    },
+    "metaDescription": {
+      "es": "Qué rangos de viajes por conductor activo separan una flota comprometida de una en reducción silenciosa, y cómo detectarlo antes con el agente.",
+      "en": "What ranges of trips per active driver separate a committed fleet from one in silent decline, and how to detect it before wait times rise."
+    }
+  }
+}
