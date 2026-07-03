@@ -1,6 +1,25 @@
 {
-  "generatedAt": "2026-07-02T14:10:09.509Z",
+  "generatedAt": "2026-07-03T14:15:10.222Z",
   "posts": [
+    {
+      "slug": "zona-cobertura-lanzamiento-densidad-inicial",
+      "category": "strategy",
+      "title": {
+        "es": "Zona de cobertura en el lanzamiento: por qué abrir demasiada ciudad destruye la densidad antes de construirla",
+        "en": "Launch coverage zone: why opening too much city destroys fleet density before it can build"
+      },
+      "excerpt": {
+        "es": "El tamaño de la zona inicial no determina la demanda disponible: la dispersa o la concentra. Abrir demasiada ciudad destruye la densidad que retiene a los conductores en el lanzamiento.",
+        "en": "Initial zone size doesn't determine available demand — it disperses or concentrates it. Opening too much city at launch destroys the session density that keeps drivers active in the first weeks."
+      },
+      "heroImage": "https://raw.githubusercontent.com/jonatanvazquez/cabgo-blog-content/main/images/zona-cobertura-lanzamiento-densidad-inicial.jpg",
+      "heroImageAlt": {
+        "es": "Ilustración isométrica dividida en dos mitades. A la izquierda, una cuadrícula urbana densa y compacta con marcadores de viaje agrupados y flechas de ruta cortas entre figuras de conductor productivas. A la derecha, la misma cuadrícula con un círculo de cobertura mucho mayor, las mismas figuras de conductor dispersas y con pocos marcadores de viaje, y un panel de sesión con ingresos bajos. En el centro, una figura de operador ajusta un control deslizante de perímetro de zona en una consola de configuración",
+        "en": "Isometric illustration split in two halves. On the left, a dense compact city grid with clustered trip markers and short route arrows between productive driver figures. On the right, the same grid with a much larger coverage circle, the same driver figures scattered far apart with few trip markers, and a session panel showing low earnings. In the center, an operator figure adjusts a zone perimeter slider on a configuration console"
+      },
+      "publishedAt": "2026-07-03",
+      "readingMinutes": 9
+    },
     {
       "slug": "tarifa-minima-viaje-rentabilidad-conductor",
       "category": "strategy",
