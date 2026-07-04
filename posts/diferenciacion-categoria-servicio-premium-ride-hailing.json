@@ -1,0 +1,300 @@
+{
+  "slug": "diferenciacion-categoria-servicio-premium-ride-hailing",
+  "category": "strategy",
+  "title": {
+    "es": "Categoría premium en ride-hailing regional: cuándo tiene sentido y cómo no perjudicar el servicio base",
+    "en": "Adding a premium service tier in regional ride-hailing: when it makes sense and how to protect the base service"
+  },
+  "excerpt": {
+    "es": "Lanzar premium antes de que el servicio base sea estable fragmenta la flota y sube el tiempo de espera en ambas categorías. El momento correcto lo determinan la densidad y la recurrencia que tienes.",
+    "en": "Launching a premium tier before your base service is stable fragments the fleet and raises wait times in both categories. The right moment is determined by the density and recurrence you already have."
+  },
+  "heroImage": "https://raw.githubusercontent.com/jonatanvazquez/cabgo-blog-content/main/images/diferenciacion-categoria-servicio-premium-ride-hailing.jpg",
+  "heroImageAlt": {
+    "es": "Ilustración isométrica dividida con dos carriles de servicio en una cuadrícula urbana. A la izquierda, un conductor de economía con vehículo estándar y tarjetas de viaje apiladas eficientemente. A la derecha, un conductor premium con vehículo de mayor categoría y tarjetas de tarifa más altas con acento dorado. En el centro, un operador en una consola de configuración con un control deslizante de categorías de servicio: un slot de Economía en verde y uno de Premium en ámbar, cada uno con indicador de precio y contador de conductores activos",
+    "en": "Isometric illustration split with two service tier lanes on a city grid. On the left, an economy driver with a standard vehicle and efficiently stacked trip cards. On the right, a premium driver with a higher-category vehicle and gold-accented higher fare cards. In the center, an operator at a configuration console with a service tier toggle showing an Economy slot glowing green and a Premium slot in amber, each with a price indicator and active driver counter"
+  },
+  "heroImagePrompt": "Split isometric composition showing two distinct service tier lanes on a city grid. On the left, an economy driver figure with a compact standard vehicle icon, trip cards stacking efficiently in a vertical queue with moderate fare chips. On the right, a premium driver figure with a larger sleeker vehicle icon, fewer but taller fare cards with gold accent edges. In the center foreground, an operator figure at a configuration console showing a two-slot service tier panel: the left slot labeled Economy glows green with a small driver count badge, the right slot labeled Premium glows amber with a higher price display. A dotted teal arrow flows between the two lanes suggesting demand allocation. A small ratio gauge in the corner shows 80/20 economy-to-premium balance. Deep violet floor grid, soft indigo radial background glow, clean geometric shapes, subtle shadows. Negative space on the lower right.",
+  "publishedAt": "2026-07-04",
+  "readingMinutes": 8,
+  "keywords": {
+    "es": [
+      "categoría premium ride-hailing regional",
+      "diferenciación servicio taxi app",
+      "cuando lanzar premium movilidad regional",
+      "segunda categoría servicio ride-hailing",
+      "gestión flota economía premium plataforma",
+      "diferencial precio premium ride-hailing",
+      "servicio diferenciado taxi plataforma regional"
+    ],
+    "en": [
+      "premium service tier ride-hailing regional",
+      "add premium category taxi app operation",
+      "when to launch premium mobility platform",
+      "service differentiation ride-hailing fleet",
+      "economy premium fleet management platform",
+      "price differential premium regional ride-hailing",
+      "tiered service regional taxi platform launch"
+    ]
+  },
+  "author": {
+    "name": "Equipo Cabgo",
+    "role": {
+      "es": "Plataforma de movilidad",
+      "en": "Mobility platform"
+    }
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La decisión de añadir una segunda categoría de servicio es, en muchos mercados regionales, el primer paso para monetizar segmentos de pasajeros que ya usan la plataforma pero estarían dispuestos a pagar más por una experiencia diferenciada. Sin embargo, la categoría premium lanzada antes de que el servicio base tenga densidad estable no produce esa monetización —produce un problema de asignación que sube el tiempo de espera en ambas categorías y fragmenta la experiencia del conductor en dos colas con lógicas distintas. El momento de lanzar un segundo nivel no lo define la ambición de ingresos sino el estado de los indicadores de la operación base: densidad de flota, tiempo de espera y recurrencia de pasajeros.",
+        "en": "The decision to add a second service category is, in many regional markets, the natural next step for monetizing passenger segments already on the platform who would pay more for a differentiated experience. But a premium tier launched before the base service has stable density doesn't produce that monetization — it produces an assignment problem that raises wait times in both categories and fragments the driver's experience across two queues with different logic. The moment to launch a second tier isn't defined by revenue ambition but by the state of the base operation's indicators: fleet density, wait time, and passenger recurrence."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Este artículo está dirigido al operador que tiene una operación de ride-hailing activa con una sola categoría de servicio y está evaluando si agregar un nivel premium —mayor tarifa, mejores vehículos, conductores seleccionados— es el próximo paso correcto o una decisión que compromete la calidad del servicio que ya ofrece. Cubre por qué el error más frecuente en ese proceso es lanzar sin umbrales operativos claros, cuáles son las señales que indican que la operación base puede soportar la diferenciación, cómo establecer el diferencial de precio que funciona en el mercado regional, qué estructura de flota produce menos fricciones, y qué monitorear en los primeros 60 días para saber si premium está creciendo de forma sostenible o si el servicio base se está resintiendo.",
+        "en": "This article is for the operator running an active single-category ride-hailing operation who is evaluating whether adding a premium tier — higher fare, better vehicles, selected drivers — is the right next step or a decision that undermines the service quality they've already built. It covers why the most common mistake in that process is launching without clear operational thresholds, what signals indicate the base operation can support differentiation, how to set the price differential that works in regional markets, which fleet structure creates fewer complications at launch, and what to monitor in the first 60 days to determine whether premium is growing sustainably or the base service is suffering."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "premium-temprano-fragmenta-operacion",
+      "text": {
+        "es": "Por qué lanzar premium demasiado pronto fragmenta la operación en lugar de escalarla",
+        "en": "Why launching premium too early fragments the operation instead of scaling it"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La lógica que lleva a añadir premium antes de tiempo tiene una estructura familiar: hay pasajeros que piden vehículos más nuevos, el mercado tiene un segmento dispuesto a pagar entre un 30 y un 50% más por mejor experiencia, y la operación ya tiene conductores con vehículos de mayor categoría que podrían capturar esa demanda. El problema es que ese razonamiento ignora el efecto de la fragmentación de flota sobre la densidad de asignación en ambas colas. En una operación con 30 conductores activos, mover 8-10 a una flota premium significa que los 20-22 restantes cubren el 80-85% de la demanda —la de economía. Esa reducción de flota disponible sube el tiempo de espera en economía, que es la categoría que genera la mayor recurrencia y el volumen que sostiene la operación.",
+        "en": "The logic that leads to adding premium too early follows a familiar pattern: passengers ask for newer vehicles, the market has a segment willing to pay 30 to 50% more for a better experience, and the operation already has drivers with higher-category vehicles who could capture that demand. The problem is that reasoning ignores the effect of fleet fragmentation on assignment density across both queues. In an operation with 30 active drivers, moving 8 to 10 into a premium fleet means 20 to 22 remain covering 80 to 85% of demand — the economy category. That reduction in available fleet raises wait times in economy, which is the category that generates the highest recurrence and the volume that sustains the operation."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El efecto se amplifica durante los picos de demanda, que son los momentos que más le importan al operador. En la mañana y la tarde, la demanda se concentra y el tiempo de espera determina si el pasajero elige la plataforma o busca otro medio. Si en ese momento la flota está dividida entre dos colas con tamaños desequilibrados, el resultado es un doble deterioro: el premium no tiene suficientes solicitudes para que sus conductores tengan sesiones productivas, y el economía no tiene suficientes conductores para cubrir su demanda con esperas aceptables. Antes de lanzar una segunda categoría, el servicio base debe estar en rangos que lo hagan resistente a ese drenaje de flota —porque el efecto de la fragmentación en los primeros 30 días es tan inmediato que, si las condiciones no están dadas, el operador enfrenta el deterioro antes de que el premium haya tenido tiempo de generar adopción.",
+        "en": "The effect amplifies during demand peaks, which are exactly the moments that matter most to the operator. During morning and evening hours, demand concentrates and wait time determines whether the passenger chooses the platform or another option. If at that moment the fleet is split across two queues with unequal sizes, the result is a double deterioration: premium doesn't get enough requests for its drivers to have productive sessions, and economy doesn't have enough drivers to cover its demand with acceptable wait times. Before launching a second tier, the base service must be in ranges that make it resilient to that fleet drain — because the fragmentation effect in the first 30 days is immediate enough that if conditions aren't right, the operator faces deterioration before premium has had time to generate any adoption."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "senales-servicio-base-listo-diferenciacion",
+      "text": {
+        "es": "Las señales que indican que el servicio base está listo para diferenciación",
+        "en": "The signals that indicate the base service is ready for differentiation"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Tres indicadores simultáneos, sostenidos durante al menos cuatro semanas consecutivas, establecen el umbral de preparación para una segunda categoría. El tiempo de espera mediano en los corredores de mayor demanda debe estar consistentemente por debajo de cinco minutos durante los picos —señal de que la flota supera la demanda con margen suficiente para absorber la redistribución hacia premium sin que el tiempo de economía se degrade. Los viajes por conductor activo deben estar por encima de 18 semanales de forma estable —rango donde mover conductores a premium no deja un vacío que suba las esperas en economía porque hay suficiente densidad base para cubrir ambas colas. Y la recurrencia de pasajeros —el porcentaje que completó tres o más viajes en los últimos 30 días— debe estar por encima del 18-20%, lo que indica una base de usuarios frecuentes que pueden constituir la demanda inicial de una nueva categoría.",
+        "en": "Three simultaneous indicators, sustained for at least four consecutive weeks, establish the readiness threshold for a second tier. Median wait time in the highest-demand corridors must sit consistently below five minutes during peaks — a signal that fleet supply exceeds demand with enough margin to absorb redistribution toward premium without degrading economy wait times. Trips per active driver must be consistently above 18 per week — the range where moving drivers to premium doesn't create a vacancy that raises economy wait times because there's enough base density to cover both queues. And passenger recurrence — the percentage who completed three or more trips in the last 30 days — must be above 18 to 20%, indicating a frequent-user base that can form the initial demand for a new category."
+      }
+    },
+    {
+      "type": "list",
+      "style": "bullet",
+      "intro": {
+        "es": "Los tres umbrales para evaluar la preparación del servicio base antes de lanzar premium:",
+        "en": "The three thresholds to evaluate base service readiness before launching premium:"
+      },
+      "items": {
+        "es": [
+          "**Tiempo de espera mediano bajo 5 minutos en picos durante 4 semanas consecutivas**: la cobertura de flota supera la demanda con margen suficiente para redistribuir conductores hacia premium sin degradar el tiempo de espera de economía.",
+          "**Viajes por conductor activo consistentemente sobre 18 semanales**: la densidad hace que mover conductores a la flota premium no vacíe la cola de economía en los picos donde más importa la cobertura.",
+          "**Recurrencia de pasajeros por encima del 18-20%**: hay usuarios frecuentes que ya conocen la plataforma y pueden ser el primer segmento de adopción consistente del servicio premium sin depender solo de la comunicación de lanzamiento."
+        ],
+        "en": [
+          "**Median wait time below 5 minutes during peaks for 4 consecutive weeks**: fleet coverage exceeds demand with enough margin to redistribute drivers toward premium without degrading economy wait times.",
+          "**Trips per active driver consistently above 18 per week**: the density means moving drivers to the premium pool doesn't empty the economy queue during the peaks where coverage matters most.",
+          "**Passenger recurrence above 18-20%**: there are frequent users who already know the platform and can form the initial consistent adoption base for premium without relying entirely on launch communication."
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "diferencial-precio-economia-premium",
+      "text": {
+        "es": "Cómo establecer el diferencial de precio correcto entre economía y premium",
+        "en": "How to set the right price differential between economy and premium"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El diferencial de precio entre economía y premium en mercados regionales de México y Centroamérica funciona mejor en el rango de 35 a 55% sobre la tarifa base de economía. Por debajo del 35%, el pasajero no percibe diferencia de valor suficiente para elegir premium de forma consistente —se convierte en una opción que el usuario considera pero rara vez selecciona porque el ahorro de economía supera la percepción del valor diferencial. Por encima del 55%, el precio de premium se vuelve prohibitivo para el trayecto típico del mercado regional: si la tarifa de economía para un viaje de 4 km es de $2.40 USD, un diferencial del 65% produce un precio de $3.96 que ya está en el umbral donde muchos pasajeros reconsideran el viaje o buscan alternativas.",
+        "en": "The price differential between economy and premium in regional markets across Mexico and Central America works best in the range of 35 to 55% above the economy base fare. Below 35%, passengers don't perceive sufficient value differentiation to choose premium consistently — it becomes an option users consider but rarely select because the economy saving outweighs the perceived differential. Above 55%, the premium price becomes prohibitive for the typical trip in regional markets: if the economy fare for a 4-km trip is $2.40 USD, a 65% differential produces a $3.96 price that puts many passengers at the threshold of reconsidering the trip or looking for alternatives."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El diferencial correcto tiene dos variables complementarias: qué ingreso produce para el conductor y qué percibe el pasajero como propuesta de valor. Para el conductor, la categoría premium debe producir entre un 25 y un 35% más de ingreso neto por hora que economía —considerando que el conductor de premium suele completar menos viajes por sesión pero de mayor tarifa unitaria. Si ese diferencial de ingreso no existe, el conductor no tiene incentivo económico para mantener los estándares de vehículo que justifican la categoría. La instrucción al agente para calcular ese diferencial antes de fijar el precio: «Si los viajes de esta semana hubieran tenido una tarifa un 40% mayor, pero el volumen de ese segmento fuera un 25% menor, ¿cuál habría sido el ingreso por hora de los conductores en ese escenario comparado con el ingreso real esta semana?» Esa proyección permite calibrar el diferencial antes de implementarlo, en lugar de ajustarlo por prueba y error una vez que la categoría ya está activa.",
+        "en": "The right differential has two complementary variables: what income it produces for the driver and what the passenger perceives as the value proposition. For the driver, the premium tier needs to produce 25 to 35% more net income per hour than economy — accounting for the fact that premium drivers typically complete fewer trips per session but at a higher unit fare. If that income differential doesn't exist, drivers have no economic incentive to maintain the vehicle standards that justify the category. The agent instruction to calculate that differential before setting the price: 'If this week's trips had a fare 40% higher, but volume in that segment were 25% lower, what would the per-hour income for drivers in that scenario be compared to actual income this week?' That projection lets you calibrate the differential before implementing it, rather than adjusting by trial and error once the category is already active."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "pool-unico-vs-pool-separado-flota-premium",
+      "text": {
+        "es": "Pool único de conductores o dos pools separados: qué estructura funciona mejor al inicio",
+        "en": "Single driver pool or two separate pools: which structure works better at launch"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La estructura de flota en el lanzamiento de premium tiene dos opciones: un pool único donde todos los conductores que cumplen los requisitos de vehículo pueden optar por recibir solicitudes premium además de economía, o dos pools separados donde un grupo de conductores se registra exclusivamente en premium y el resto solo en economía. Para operaciones con menos de 80 conductores activos totales, el pool único con opt-in produce menos fricciones en el lanzamiento. Los conductores elegibles para premium activan esa opción sin dejar de recibir solicitudes de economía, lo que preserva la densidad de flota en la categoría base y evita que el lanzamiento de premium cree dos segmentos con tiempos de espera irregulares en las primeras semanas.",
+        "en": "The fleet structure for a premium launch has two options: a single pool where any driver who meets vehicle requirements can opt in to receive premium requests alongside economy, or two separate pools where a group of drivers registers exclusively for premium and the rest only in economy. For operations with fewer than 80 total active drivers, the single pool with opt-in creates fewer complications at launch. Eligible drivers activate the premium option without giving up economy requests, preserving fleet density in the base category and preventing the premium launch from creating two segments with uneven wait times in the first weeks."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El pool separado tiene sentido cuando la operación supera los 80-90 conductores activos y la demanda de premium ya es predecible en volumen —por encima de 30-40 solicitudes diarias en los días de mayor actividad. En ese punto, un grupo de 15-20 conductores dedicados a premium puede mantener tiempos de espera competitivos sin depender del mismo pool de economía, y la gestión de estándares de vehículo se simplifica porque el operador trabaja con un grupo conocido. La regla orientadora: si la demanda proyectada de premium en una semana representaría menos del 12-15% del volumen total, el pool separado va a producir esperas altas en premium porque no hay suficiente demanda para justificar conductores exclusivos. En ese escenario, el pool único es más eficiente hasta que la demanda de premium madure.",
+        "en": "A separate pool makes sense when the operation exceeds 80 to 90 active drivers and premium demand is already predictable in volume — above 30 to 40 daily requests on the highest-activity days. At that point, a group of 15 to 20 drivers dedicated to premium can maintain competitive wait times without depending on the economy pool, and managing vehicle standards simplifies because the operator works with a known group. The guiding rule: if projected premium demand in a week would represent less than 12 to 15% of total volume, a separate pool will produce high wait times in premium because there isn't enough demand to justify dedicated drivers. In that scenario, the single pool is more efficient until premium demand matures."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "comunicar-categoria-premium-pasajero-sin-confusion",
+      "text": {
+        "es": "Cómo comunicar la nueva categoría al pasajero sin generar confusión",
+        "en": "How to communicate the new category to passengers without creating confusion"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La presentación en la app debe ser comprensible en menos de dos segundos de lectura. El pasajero que ve dos opciones en la pantalla de solicitud necesita entender la diferencia sin leer un párrafo de descripción. La estructura que funciona: el ícono del vehículo de premium diferenciado del de economía, una línea de descripción de tres a cinco palabras («Vehículo de mayor categoría», «Conductores seleccionados»), y el precio estimado para el trayecto actual de ambas opciones lado a lado. Eso permite al pasajero tomar la decisión de valor en el contexto del trayecto específico, no de forma abstracta. Evita describir características que no puedes garantizar operativamente —Wi-Fi, botella de agua, música a demanda— porque las expectativas no cumplidas en el vehículo generan valoraciones de una estrella que dañan el posicionamiento de la categoría antes de que tenga tiempo de desarrollarse.",
+        "en": "The in-app presentation must be understandable in under two seconds of reading. A passenger who sees two options on the request screen needs to grasp the difference without reading a paragraph of description. The structure that works: a vehicle icon visually differentiated from economy's, a three-to-five-word description line ('Higher-category vehicle', 'Selected drivers'), and the estimated fare for the current trip for both options side by side. That lets the passenger make the value decision in the context of the specific trip, not abstractly. Avoid describing features you can't operationally guarantee — Wi-Fi, water bottles, music on demand — because unmet in-vehicle expectations generate one-star reviews that damage the category's positioning before it has time to develop."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La comunicación de lanzamiento a los pasajeros activos —los que han completado cinco o más viajes en los últimos 30 días— debe hacerse con una semana de anticipación e incluir un primer viaje premium con descuento del 25-30% para incentivar la prueba. Los pasajeros que prueban premium y tienen una buena experiencia se convierten en usuarios recurrentes de esa categoría con mayor probabilidad que los que la descubren orgánicamente semanas después del lanzamiento. La instrucción al agente para redactar esa comunicación: «Redacta un mensaje para pasajeros con cinco o más viajes en los últimos 30 días anunciando la nueva categoría premium disponible desde [fecha], con un descuento del 25% en el primer viaje. Explica en dos oraciones qué diferencia hay con el servicio habitual, sin usar las palabras 'lujo' ni 'exclusivo'.»",
+        "en": "The launch communication to active passengers — those who completed five or more trips in the last 30 days — should happen one week before launch and include a 25 to 30% discount on their first premium ride to incentivize trial. Passengers who try premium and have a good experience convert to recurring users of that category at a much higher rate than those who discover it organically weeks after launch. The agent instruction to draft that communication: 'Write a message for passengers with five or more trips in the last 30 days announcing the new premium category available from [date], with a 25% discount on their first trip. Explain in two sentences what is different from the regular service, without using the words luxury or exclusive.'"
+      }
+    },
+    {
+      "type": "quote",
+      "text": {
+        "es": "Lancé premium en el mes cuatro de operación porque tenía cuatro conductores con vehículos nuevos que pedían mayor tarifa. En los primeros 15 días, las solicitudes de premium eran 3 o 4 al día —insuficientes para que esos conductores tuvieran sesiones productivas. Para no perderlos, empecé a asignarles también viajes de economía, y eso canceló la diferenciación. Tres meses después, cuando el tiempo de espera en economía estaba consistentemente bajo 5 minutos y los viajes por conductor superaban 18, relancé premium con seis conductores en pool opt-in. En las primeras dos semanas, las solicitudes de premium ya eran el 17% del total. La diferencia fue el estado de la operación base, no el producto.",
+        "en": "I launched premium in month four of the operation because I had four drivers with newer vehicles who were asking for a higher fare. In the first 15 days, premium requests were 3 or 4 per day — not enough for those drivers to have productive sessions. To avoid losing them, I started assigning them economy trips as well, which canceled out the differentiation. Three months later, when economy wait time was consistently below 5 minutes and trips per driver exceeded 18, I relaunched premium with six drivers in an opt-in pool. In the first two weeks of the second launch, premium requests were already 17% of total volume. The difference was the state of the base operation, not the product."
+      },
+      "attribution": {
+        "es": "Operador con cuatro años de operación en una ciudad de 280,000 habitantes en el centro de México",
+        "en": "Operator with four years of operation in a city of 280,000 in central Mexico"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "primeros-60-dias-categoria-premium-indicadores",
+      "text": {
+        "es": "Los primeros 60 días de la categoría premium: qué monitorear y cuándo pausar",
+        "en": "The first 60 days of the premium category: what to monitor and when to pause"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El indicador más importante en el lanzamiento de premium no es la adopción de la categoría en sí —es el impacto sobre el tiempo de espera de economía. Si el tiempo de espera mediano de economía sube en más de un minuto y medio durante los primeros 14 días del lanzamiento, el pool de flota disponible para economía se vio reducido más de lo que la demanda puede absorber. Esa señal requiere respuesta inmediata: reducir el número de conductores asignados a premium, o ampliar el pool elegible incorporando más conductores con vehículos adecuados. Ninguna de las dos opciones es difícil de ejecutar si el sistema de categorías está bien configurado —pero requieren detección temprana antes de que el deterioro de economía afecte la recurrencia de los pasajeros frecuentes.",
+        "en": "The most important indicator in a premium launch isn't the category's own adoption rate — it's the impact on economy wait time. If the median economy wait time rises by more than a minute and a half during the first 14 days of the launch, the fleet pool available for economy was reduced more than demand can absorb. That signal requires an immediate response: reduce the number of drivers assigned to premium, or expand the eligible pool by adding more drivers with qualifying vehicles. Neither option is hard to execute if the category system is properly configured — but they require early detection before economy deterioration affects the recurrence of frequent passengers."
+      }
+    },
+    {
+      "type": "list",
+      "style": "bullet",
+      "items": {
+        "es": [
+          "**Premium como porcentaje del total de viajes**: el objetivo operativo es 12-20% al final de las primeras ocho semanas. Si en la semana seis está por debajo del 8%, la demanda no es suficiente para sostener el pool asignado —considera pausar y evaluar la señal de demanda real antes de continuar.",
+          "**Tiempo de espera mediano de premium**: no debe superar en más de dos minutos el tiempo de espera de economía. Si la diferencia es mayor, el pool de premium es insuficiente para la demanda que tiene en ese momento.",
+          "**Tiempo de espera de economía post-lanzamiento**: si sube respecto al período previo al lanzamiento de premium, la fragmentación de flota está afectando la categoría base —la señal de alerta más urgente del período inicial.",
+          "**Ingreso promedio por hora del conductor premium vs. economía**: el conductor de premium debe ganar al menos un 25% más por hora en sesiones de longitud comparable. Si el diferencial es menor, los conductores de premium no perciben que el valor diferencial compensa los estándares adicionales que mantienen.",
+          "**Tasa de cancelación en premium**: si está por encima del 12-15%, los conductores asignados están cancelando solicitudes percibidas como poco rentables. El piso tarifario de premium o el diferencial de comisión necesita revisión."
+        ],
+        "en": [
+          "**Premium as a percentage of total trips**: the operational target is 12 to 20% by the end of week eight. If it's below 8% by week six, demand isn't sufficient to sustain the assigned pool — consider pausing and evaluating actual demand signal before continuing.",
+          "**Median premium wait time**: it must not exceed economy wait time by more than two minutes. If the gap is larger, the premium pool is insufficient for current demand.",
+          "**Economy wait time after launch**: if it rises compared to the pre-launch period, fleet fragmentation is harming the base category — the most urgent warning signal of the initial period.",
+          "**Average hourly income for premium vs. economy drivers**: premium drivers must earn at least 25% more per hour in sessions of comparable length. If the differential is lower, premium drivers don't perceive that the value differential compensates for the higher standards they maintain.",
+          "**Premium cancellation rate**: if above 12 to 15%, assigned drivers are canceling requests they perceive as low-yield. The premium fare floor or commission differential needs adjustment."
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "agente-monitorea-impacto-premium-operacion-base",
+      "text": {
+        "es": "Cómo el agente monitorea el impacto del premium en la operación base",
+        "en": "How the agent monitors the impact of premium on the base operation"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La instrucción al agente para la revisión semanal de una operación con dos categorías: «Muéstrame el porcentaje de viajes de categoría premium sobre el total de esta semana, el tiempo de espera mediano para premium y para economía por separado, y la tasa de cancelación del conductor en cada categoría. Compara el tiempo de espera de economía con las dos semanas previas al lanzamiento de premium.» Esa lectura en una sola consulta revela si premium está creciendo en adopción, si el tiempo de espera de economía se vio afectado, y si la tasa de cancelación en premium indica problemas con la flota asignada o con el piso tarifario de esa categoría. Los tres datos juntos permiten distinguir si la operación de dos categorías está en equilibrio o si el ajuste debe ir en dirección de ampliar el pool premium, reducirlo, o revisar el precio.",
+        "en": "The agent instruction for the weekly review of a two-category operation: 'Show me the percentage of premium trips out of total volume this week, the median wait time for premium and for economy separately, and the driver cancellation rate in each category. Compare the economy wait time against the two weeks before the premium launch.' That single-query reading reveals whether premium is growing in adoption, whether economy wait time was affected by the launch, and whether the premium cancellation rate signals problems with the assigned fleet or the category's fare floor. The three together let you distinguish whether the two-category operation is in balance or whether the adjustment needs to go toward expanding the premium pool, reducing it, or revising the price."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Una consulta complementaria para verificar que el diferencial funciona para el conductor: «Para esta semana, compara el ingreso promedio por viaje en premium vs. economía, y el número de viajes por sesión para conductores que operaron principalmente en premium vs. los de economía. ¿Los conductores de premium generaron más ingreso por hora?» Si la respuesta es no, el diferencial de precio o la comisión de premium necesita ajuste —porque sin incentivo económico diferencial para el conductor, el pool de premium va a migrar de vuelta hacia economía de forma natural. La segunda categoría de servicio es sostenible cuando el conductor que mantiene su vehículo en condiciones premium recibe una compensación que justifica ese esfuerzo de forma visible en el ingreso de la sesión —no solo en el precio que ve el pasajero.",
+        "en": "A complementary query to verify that the differential works for the driver: 'For this week, compare the average per-trip income for premium versus economy, and the number of trips per session for drivers who operated primarily in premium versus those in economy. Did premium drivers generate higher hourly income?' If the answer is no, the price differential or premium commission needs adjustment — because without a differential economic incentive for the driver, the premium pool will naturally migrate back toward economy. The second service tier is sustainable when the driver who maintains their vehicle in premium condition receives compensation that makes that effort visibly worthwhile in their session income — not only in the price the passenger sees."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La categoría premium es una de las palancas de crecimiento de ingresos con mayor potencial en una operación regional consolidada —pero solo cuando se lanza sobre una base operativa que puede soportar la fragmentación de flota sin deteriorar el servicio base. El operador que espera a que el tiempo de espera de economía esté consistentemente bajo cinco minutos, los viajes por conductor superen los 18 semanales y la recurrencia de pasajeros supere el 18%, lanza premium desde un punto de partida que le permite absorber la redistribución de flota sin producir los problemas que llevaron a los primeros adoptadores de la diferenciación a dar marcha atrás.",
+        "en": "The premium tier is one of the highest-potential revenue growth levers in a consolidated regional operation — but only when launched on a base that can sustain fleet fragmentation without degrading the base service. An operator who waits until economy wait time is consistently below five minutes, trips per driver exceed 18 per week, and passenger recurrence exceeds 18%, launches premium from a starting point that allows absorbing fleet redistribution without producing the problems that pushed earlier adopters of service differentiation to reverse course."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El umbral operativo antes del lanzamiento y los indicadores de los primeros 60 días no son una garantía de éxito —son la forma de distinguir si el premium está creciendo como resultado de demanda real o de la inercia inicial del lanzamiento. La diferencia importa porque un premium sostenido cambia la estructura de ingresos de la operación y retiene conductores con mejor flota de forma duradera, mientras que uno lanzado sin demanda suficiente crea una categoría que el operador mantiene por inercia durante meses sin que produzca los efectos que justificaron su creación.",
+        "en": "The operational threshold before launch and the first-60-day indicators aren't a guarantee of success — they're the way to distinguish whether premium is growing because of real demand or because of launch-period inertia. That distinction matters because a sustained premium tier changes the operation's revenue structure and retains better-fleet drivers durably, while one launched without sufficient demand creates a category the operator maintains by inertia for months without producing the outcomes that justified its creation."
+      }
+    }
+  ],
+  "cta": {
+    "heading": {
+      "es": "¿Listo para lanzar tu propia app de movilidad?",
+      "en": "Ready to launch your own mobility app?"
+    },
+    "body": {
+      "es": "Configura tu marca, tus tarifas y tus servicios en semanas, no en meses. Cabgo te entrega la plataforma; tú te quedas con la operación, los clientes y los ingresos.",
+      "en": "Set up your brand, pricing and services in weeks, not months. Cabgo ships the platform — you keep the operation, the customers and the revenue."
+    },
+    "buttonLabel": {
+      "es": "Comenzar con Cabgo",
+      "en": "Get started with Cabgo"
+    },
+    "buttonHref": "/empezar"
+  },
+  "seo": {
+    "metaTitle": {
+      "es": "Categoría premium en ride-hailing regional | Cabgo",
+      "en": "Adding a premium service tier in ride-hailing | Cabgo"
+    },
+    "metaDescription": {
+      "es": "Por qué lanzar premium demasiado pronto fragmenta tu operación, cuáles son los umbrales correctos y cómo proteger el servicio base.",
+      "en": "Why launching a premium tier too early fragments the fleet, what readiness thresholds actually work, and how to protect your base service."
+    }
+  }
+}
