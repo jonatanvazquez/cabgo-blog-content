@@ -1,0 +1,277 @@
+{
+  "slug": "conductores-multiples-plataformas-disponibilidad-real",
+  "category": "strategy",
+  "title": {
+    "es": "Conductores en dos plataformas: la brecha entre disponibilidad declarada y disponibilidad real",
+    "en": "Drivers on multiple platforms: the gap between declared and actual fleet availability"
+  },
+  "excerpt": {
+    "es": "El contador de flota activa sobreestima la disponibilidad real entre 25 y 45% cuando los conductores usan dos apps a la vez. Ese gap tiene solución de incentivos, no de exclusividad.",
+    "en": "The active fleet count overstates real availability by 25 to 45% when drivers run two apps simultaneously. That gap has an incentive solution, not a contractual one."
+  },
+  "heroImage": "https://raw.githubusercontent.com/jonatanvazquez/cabgo-blog-content/main/images/conductores-multiples-plataformas-disponibilidad-real.jpg",
+  "heroImageAlt": {
+    "es": "Ilustración isométrica dividida: a la izquierda, un conductor frente a dos teléfonos con interfaces de app distintas y botones de aceptar de colores diferentes, sobre un mapa con dos círculos de cobertura superpuestos. A la derecha, un operador en consola con un contador grande que marca '28 activos' y un panel secundario en naranja que señala '16 efectivamente disponibles' con una barra de brecha.",
+    "en": "Split isometric illustration: on the left, a driver in front of two phones showing different app interfaces with distinct colored accept buttons, over a map with two overlapping coverage circles. On the right, an operator at a console with a large counter reading '28 active' and an orange secondary panel indicating '16 effectively available' with a gap bar."
+  },
+  "heroImagePrompt": "Split isometric composition divided by a dotted teal vertical line. On the left side, a driver figure stands between two upright phone screens: the left screen shows a teal-accented ride-hailing app interface with an accept button glowing teal, the right screen shows an amber-accented competing app interface with an amber accept button. Below the driver, a compact city map grid has two overlapping translucent coverage circles in teal and amber. On the right side, an operator figure sits at a dashboard console. A large display panel shows '28 active' in bold white type. Directly below it, a smaller highlighted panel glows orange showing '16 effectively available' with a short gap indicator bar in orange beside a small red warning triangle. A clock icon in the upper corner shows peak morning hours. Deep violet floor grid, soft indigo radial background glow, clean geometric shapes, subtle shadows. Negative space on the lower right.",
+  "publishedAt": "2026-07-05",
+  "readingMinutes": 8,
+  "keywords": {
+    "es": [
+      "conductores múltiples plataformas ride-hailing",
+      "disponibilidad efectiva flota taxi app regional",
+      "brecha disponibilidad conductor plataforma movilidad",
+      "tiempo aceptación solicitud ride-hailing operación",
+      "multi-plataforma conductores movilidad LATAM",
+      "cherry-picking conductor plataformas simultáneas",
+      "flota activa vs disponibilidad real operación taxi"
+    ],
+    "en": [
+      "drivers multiple platforms ride-hailing regional",
+      "effective fleet availability taxi app operation",
+      "driver acceptance rate ride-hailing platform",
+      "multi-platform driver availability gap regional",
+      "declared vs actual driver availability mobility",
+      "driver cherry-picking multiple mobility platforms",
+      "active driver count vs effective availability"
+    ]
+  },
+  "author": {
+    "name": "Equipo Cabgo",
+    "role": {
+      "es": "Plataforma de movilidad",
+      "en": "Mobility platform"
+    }
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "En la mayoría de los mercados regionales de ride-hailing en México y Centroamérica, una parte significativa de los conductores tiene la app de dos o tres plataformas activa de forma simultánea. Cuando ese conductor aparece 'en línea' en tu plataforma, eso no garantiza que esté disponible para recibir tu próxima solicitud: puede estar completando un viaje en otra app, esperando una asignación de mayor tarifa o simplemente ignorando las tuyas mientras evalúa la siguiente oportunidad. La diferencia entre la disponibilidad declarada —lo que el panel del operador muestra como flota activa— y la disponibilidad real —el número de conductores que efectivamente van a aceptar la próxima solicitud en menos de 30 segundos— puede ser del 25 al 45% en operaciones donde la multi-plataforma es frecuente. Ese gap no es un problema de actitud del conductor: es una característica estructural del mercado que tiene solución de diseño, no de control.",
+        "en": "In most regional ride-hailing markets across Mexico and Central America, a significant share of drivers run two or three platform apps simultaneously. When a driver shows as 'online' on your platform, that does not guarantee they are available for your next request: they may be completing a trip on another app, waiting on a higher-fare assignment elsewhere, or simply ignoring your requests while they evaluate the next opportunity. The difference between declared availability — what the operator's panel shows as active fleet — and real availability — the number of drivers who will actually accept the next request within 30 seconds — can range from 25 to 45% in operations where multi-platform usage is common. That gap is not an attitude problem: it is a structural feature of the market that has a design solution, not a control one."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Este artículo está dirigido al operador que observa que el tiempo de espera real del pasajero es consistentemente mayor al que predice el conteo de conductores activos en el dashboard, que tiene tasas de aceptación de solicitud por debajo del 65%, o que detecta patrones de cancelación que coinciden con franjas horarias donde los conductores probablemente también operan en plataformas competidoras. Cubre por qué la disponibilidad declarada diverge de la real cuando hay multi-plataforma, cómo detectar ese patrón en los datos de la operación, qué indicadores revelan el gap de disponibilidad efectiva, cuál es su impacto sobre el tiempo de espera del pasajero, qué diseño de incentivos reduce ese gap sin requerir exclusividad contractual, y cómo usar el agente para medir y gestionar la disponibilidad efectiva semana a semana.",
+        "en": "This article is for the operator who observes that actual passenger wait times are consistently higher than what the active driver count in the dashboard would predict, who has request acceptance rates below 65%, or who detects cancellation patterns that correlate with time slots where drivers likely also run competing platforms. It covers why declared availability diverges from real availability when multi-platform usage is present, how to detect that pattern in operational data, which indicators reveal the effective availability gap, what its direct impact on passenger wait time is, what incentive design reduces that gap without contractual exclusivity, and how to use the agent to measure and manage effective availability on a weekly basis."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "contador-flota-activa-sobreestima-disponibilidad",
+      "text": {
+        "es": "Por qué el contador de flota activa sobreestima la disponibilidad efectiva",
+        "en": "Why the active fleet counter overstates effective availability"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El conductor que abre tu app y activa el estado 'disponible' cuenta como unidad de flota activa en tu dashboard aunque en ese momento esté completando un viaje en otra plataforma. Las apps de ride-hailing del conductor no comunican entre sí el estado de disponibilidad real. El resultado es que el operador ve 28 conductores activos en el mapa y asume que tiene 28 unidades disponibles para la siguiente solicitud, cuando en realidad entre 7 y 10 de esos conductores están en viaje para otra plataforma, 3 o 4 están en posiciones donde la demanda de la competencia tiene mayor probabilidad de asignación, y solo 14 a 18 van a responder a una solicitud tuya en los próximos dos minutos.",
+        "en": "A driver who opens your app and activates 'available' status counts as an active fleet unit in your dashboard even if they are currently completing a trip on another platform. Ride-hailing apps on a driver's phone do not communicate availability status to each other. The result: the operator sees 28 active drivers on the map and assumes 28 units are available for the next request, when in reality between 7 and 10 of those drivers are mid-trip for another platform, 3 or 4 are positioned where a competitor's demand is more likely to assign first, and only 14 to 18 will actually respond to your next request within two minutes."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El mecanismo que produce esa divergencia es racional desde la perspectiva del conductor: activar el estado 'disponible' en tu app es un acto de un segundo que el conductor realiza al inicio de su sesión y que frecuentemente mantiene durante toda la jornada de trabajo, incluyendo el tiempo que dedica a otras plataformas. No lo hace para engañarte —lo hace porque maximizar su exposición a solicitudes de múltiples fuentes es la estrategia que mejor protege su ingreso por sesión en un mercado donde ninguna plataforma por sí sola tiene suficiente demanda como para ocuparlo de forma continua. En un mercado donde la demanda de tu plataforma produce 3 viajes por hora por conductor activo y la suma de todas las plataformas disponibles produce 5, el conductor que opera solo en la tuya pierde el 40% del volumen potencial de su sesión. Entender ese cálculo es el punto de partida para diseñar una respuesta que funcione.",
+        "en": "The mechanism that produces this divergence is rational from the driver's perspective: activating 'available' status in your app takes one second and the driver often leaves it active throughout their entire working session, including time spent on other platforms. They aren't trying to deceive you — they are maximizing their exposure to requests from multiple sources, which is the strategy that best protects session income in a market where no single platform generates enough demand to keep them occupied continuously. In a market where your platform's demand produces 3 trips per hour per active driver and the sum of all available platforms produces 5, a driver operating exclusively on yours forgoes 40% of their potential session volume. Understanding that calculation is the starting point for designing a response that actually works."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "senales-operacion-paralela-datos",
+      "text": {
+        "es": "Las señales de operación paralela que aparecen en los datos de tu operación",
+        "en": "The signals of parallel platform usage that appear in your operational data"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La operación en múltiples plataformas deja un patrón reconocible en los datos. El indicador más directo es el tiempo de aceptación de solicitud —el tiempo entre que se genera una solicitud y el conductor la acepta—, que en una flota sin multi-plataforma significativa tiende a estar bajo los 20-25 segundos en horarios de alta oferta. Cuando hay multi-plataforma frecuente, el tiempo de aceptación sube porque el conductor que tiene tu app activa pero está completando un viaje para la competencia no puede aceptar hasta que termina ese viaje o la app reasigna la solicitud. Un tiempo de aceptación mediano por encima de 35-45 segundos en horas de alta disponibilidad declarada —muchos conductores activos en el mapa— es la señal más clara de que la disponibilidad efectiva es considerablemente menor a la declarada.",
+        "en": "Multi-platform usage leaves a recognizable pattern in the data. The most direct indicator is request acceptance time — the time between a request being generated and a driver accepting it — which in a fleet without significant multi-platform usage typically stays under 20 to 25 seconds during high-supply periods. When multi-platform usage is frequent, acceptance time rises because a driver who has your app active but is completing a trip for a competitor cannot accept until that trip ends or the request gets reassigned. A median acceptance time above 35 to 45 seconds during periods of high declared availability — many drivers showing active on the map — is the clearest signal that effective availability is significantly lower than declared."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La segunda señal es la distribución de cancelaciones del conductor por franja horaria. Si la tasa de cancelación sube en las franjas donde la demanda de plataformas competidoras también sube —frecuentemente los picos de mañana y de tarde—, la correlación sugiere que los conductores están eligiendo activamente qué solicitudes aceptar según la probabilidad de mayor beneficio. La tercera señal es la distancia de aproximación de los conductores que sí aceptan: si los que responden a tus solicitudes en esos horarios están consistentemente más lejos del punto de recogida que en horarios de menor concurrencia de plataformas, el pool efectivo está más disperso geográficamente de lo que el dashboard muestra. Los conductores geográficamente más cercanos están ocupados con otra solicitud.",
+        "en": "The second signal is the distribution of driver cancellations by time slot. If the cancellation rate rises during periods when competing platforms also see demand spikes — typically morning and afternoon peaks — the correlation suggests drivers are actively choosing which requests to accept based on the likely highest benefit. The third signal is the approach distance of drivers who do accept: if drivers responding to your requests during those periods are consistently farther from the pickup point than in lower-concurrence periods, the effective pool is geographically more dispersed than the dashboard shows. The geographically closest drivers are occupied with another platform's request."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "tiempo-aceptacion-indicador-disponibilidad",
+      "text": {
+        "es": "El tiempo de aceptación como indicador de disponibilidad efectiva",
+        "en": "Acceptance time as the indicator of effective availability"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El tiempo de aceptación es el indicador más granular de la disponibilidad efectiva y probablemente el menos monitoreado en operaciones regionales. Una operación donde el tiempo de aceptación mediano está bajo 20 segundos tiene una flota que en su mayoría espera activamente tus solicitudes y las acepta sin fricción. Una operación donde ese mediano está entre 30 y 60 segundos en horarios de buena disponibilidad declarada indica que los conductores activos no son todos accesibles en ese momento: algunos están en tránsito, otros completando solicitudes de la competencia, y el conductor que finalmente acepta es el primero que quedó disponible en ese ciclo de reasignación. Un mediano por encima de 60 segundos en las mismas condiciones —mucha flota activa en el mapa, demanda moderada— es una señal de alerta operativa que el tiempo de espera del pasajero ya está absorbiendo.",
+        "en": "Acceptance time is the most granular indicator of effective availability and probably the least monitored in regional operations. An operation where median acceptance time is under 20 seconds has a fleet that is mostly waiting actively for your requests and accepts them without friction. An operation where that median sits between 30 and 60 seconds during periods of good declared availability indicates that active drivers are not all accessible at that moment: some are in transit, others completing a competitor's trip, and the driver who eventually accepts is simply the first one that became available in that reassignment cycle. A median above 60 seconds under the same conditions — much active fleet on the map, moderate demand — is an operational warning signal that passenger wait times are already absorbing that gap."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El tiempo de aceptación revela también el patrón de multi-plataforma por zona geográfica. Si en el corredor norte el tiempo de aceptación mediano es de 18 segundos y en el corredor centro es de 52 segundos, la diferencia probable no es de densidad de demanda —es de presencia de plataformas competidoras. El corredor centro, que suele tener mayor concentración de comercio y mayor densidad de solicitudes de todas las plataformas activas, puede concentrar más conductores operando en paralelo, lo que eleva el tiempo de aceptación aunque el mapa muestre mucha flota activa. Esa lectura por zona convierte el tiempo de aceptación en un mapa de calor de presencia competidora —sin necesidad de saber cuántos conductores usan qué plataforma.",
+        "en": "Acceptance time also reveals the geographic pattern of multi-platform usage. If in the northern corridor median acceptance time is 18 seconds and in the central corridor it is 52 seconds, the likely difference is not demand density — it is the presence of competing platforms. The central corridor, which typically has higher commercial concentration and higher request density across all active platforms, may concentrate more drivers operating in parallel, which raises acceptance time even when the map shows abundant active fleet. That zone-by-zone reading turns acceptance time into a heat map of competitive presence — without needing to know which drivers use which platform."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "impacto-multiples-plataformas-tiempo-espera",
+      "text": {
+        "es": "El impacto sobre el tiempo de espera real cuando el dashboard miente",
+        "en": "The impact on actual wait time when the dashboard is misleading"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La divergencia entre flota activa declarada y disponibilidad efectiva tiene un impacto directo sobre el tiempo de espera del pasajero que el operador suele atribuir a otras causas. Si el dashboard muestra 22 conductores activos y el operador estima un tiempo de espera de 4 minutos, pero en realidad solo 13 de esos conductores están efectivamente disponibles, el tiempo de espera real del pasajero puede ser de 7 a 10 minutos si la distribución geográfica de los conductores realmente disponibles no cubre bien el punto de recogida. Esa diferencia es suficiente para producir cancelaciones del pasajero en la pantalla de espera, que el operador registra como demanda perdida sin identificar la causa real: la disponibilidad efectiva de la flota estaba muy por debajo del conteo activo.",
+        "en": "The divergence between declared active fleet and effective availability has a direct impact on passenger wait times that operators typically attribute to other causes. If the dashboard shows 22 active drivers and the operator estimates a 4-minute wait, but only 13 of those drivers are actually available, real passenger wait time can reach 7 to 10 minutes if the geographic distribution of the drivers who are genuinely available doesn't cover the pickup point well. That difference is enough to produce passenger cancellations on the waiting screen, which the operator logs as lost demand without identifying the actual cause: effective fleet availability was well below the active count."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El problema se amplifica en los picos de demanda, que son exactamente los momentos en que los conductores también tienen más solicitudes de otras plataformas compitiendo por su atención. En la mañana y la tarde, la demanda se concentra y el tiempo de espera determina si el pasajero elige la plataforma o busca otro medio. Si en ese momento la disponibilidad efectiva está un 35-40% por debajo de la declarada, la experiencia del pasajero en el pico —el momento que más importa para la recurrencia— está siendo degradada por un factor que el operador no ve en su dashboard estándar. El gap de disponibilidad no es constante: es más grande exactamente cuando más daño hace.",
+        "en": "The problem amplifies during demand peaks, which are exactly the moments when drivers also face the most competing requests from other platforms. During morning and evening hours, demand concentrates and wait time determines whether the passenger chooses the platform or another option. If at that moment effective availability is 35 to 40% below declared, the passenger experience at the peak — the moment that matters most for recurrence — is being degraded by a factor the operator cannot see in their standard dashboard. The availability gap is not constant: it is largest precisely when it causes the most damage."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "incentivos-reducen-brecha-sin-exclusividad",
+      "text": {
+        "es": "El diseño de incentivos que reduce la brecha sin contratos de exclusividad",
+        "en": "The incentive design that closes the gap without exclusivity contracts"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Intentar resolver la multi-plataforma con exclusividad contractual tiene un costo alto en mercados donde los conductores tienen alternativas reales: el conductor que percibe que la plataforma le pide exclusividad sin garantizarle un volumen mínimo de solicitudes no firma ese contrato —o lo firma y lo ignora. La respuesta más efectiva no es el control sino el diseño de incentivos que hacen más atractivo priorizar tu plataforma que la de la competencia en los momentos donde el conductor tiene ambas disponibles. Ese diseño se construye sobre tres variables que el conductor evalúa de forma práctica en cada sesión de trabajo.",
+        "en": "Trying to solve multi-platform usage with contractual exclusivity carries a high cost in markets where drivers have real alternatives: a driver who perceives that the platform demands exclusivity without guaranteeing a minimum request volume won't sign that contract — or will sign and ignore it. The more effective response is not control but incentive design that makes prioritizing your platform more attractive than the competitor's at the moments when the driver has both available. That design is built on three variables drivers evaluate practically in every working session."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La primera es el volumen de solicitudes: si tu plataforma produce más viajes por hora que la competencia en los corredores que el conductor prioriza, la decisión racional es mantener tu app primero. Eso significa que la inversión en densidad de demanda —pasajeros, no solo conductores— es directamente inversión en disponibilidad efectiva de flota. La segunda es el tiempo entre solicitudes: si en tu plataforma el conductor espera en promedio 3-4 minutos entre viajes y en la competencia espera 8-10, el tiempo de inactividad en tu plataforma es menor, el ingreso por hora total es mayor y tu app es la que prefiere mantener en modo activo prioritario. La tercera es la certeza del ingreso: una tarifa mínima establecida y un diferencial de comisión bien calibrado producen un ingreso por ciclo predecible que compite con el volumen incierto de otras plataformas sin piso tarifario. Los conductores no hacen una hoja de cálculo formal de este comparativo —lo desarrollan empíricamente en tres o cuatro semanas de operar en paralelo.",
+        "en": "The first is request volume: if your platform produces more trips per hour than the competitor in the corridors the driver prioritizes, the rational decision is to keep your app first. That means investment in demand density — passengers, not just drivers — is directly investment in effective fleet availability. The second is time between requests: if on your platform the driver waits on average 3 to 4 minutes between trips and on the competitor waits 8 to 10, downtime on your platform is lower, total hourly income is higher, and your app is the one they prefer to keep in active priority mode. The third is income certainty: an established minimum fare and a well-calibrated commission differential produce a predictable per-cycle income that competes against the uncertain volume of platforms with no fare floor. Drivers don't run a formal spreadsheet on this comparison — they develop it empirically over three or four weeks of parallel operation."
+      }
+    },
+    {
+      "type": "list",
+      "style": "bullet",
+      "intro": {
+        "es": "Los seis factores de diseño que reducen la multi-plataforma activa en la práctica:",
+        "en": "The six design factors that reduce active multi-platform usage in practice:"
+      },
+      "items": {
+        "es": [
+          "**Volumen de solicitudes por encima de 1.5 por hora por conductor activo en los picos**: por debajo de ese umbral, operar en paralelo con otra plataforma es económicamente más racional que esperar tus próximas solicitudes de forma exclusiva.",
+          "**Tarifa mínima que hace los viajes cortos económicamente viables**: el conductor que sabe que cualquier viaje en tu plataforma produce un ingreso mínimo garantizado tiene menos incentivo para rechazar o ignorar tus solicitudes en espera de una de la competencia.",
+          "**Tiempo entre solicitudes menor al de las plataformas competidoras en el mismo corredor**: si tu app asigna antes, el conductor que prioriza tu plataforma tiene menos tiempo de inactividad y mayor ingreso por hora.",
+          "**Bonos de sesión por volumen de viajes completados —no por horas conectado—**: un bono que se activa al completar 8 o más viajes en una sesión incentiva la dedicación efectiva, no el simple estado de 'disponible' sin aceptar solicitudes.",
+          "**Reconocimiento explícito de la tasa de aceptación en comunicación semanal**: publicar el ingreso promedio de los conductores con tasa de aceptación superior al 85% hace visible el diferencial de ingresos entre dedicación efectiva y multi-plataforma.",
+          "**Comunicación directa del ingreso por sesión completada vs. ingreso por hora de conexión**: el conductor que ve que sus sesiones de alta aceptación produjeron un 30% más de ingreso que las sesiones de baja aceptación tiene evidencia propia de que la dedicación compensa."
+        ],
+        "en": [
+          "**Request volume above 1.5 per hour per active driver during peaks**: below that threshold, running another platform in parallel is economically more rational than waiting exclusively for your next requests.",
+          "**A minimum fare that makes short trips economically viable**: a driver who knows any trip on your platform produces a guaranteed minimum income has less incentive to ignore or reject your requests while waiting for a higher-yield one from a competitor.",
+          "**Time between requests shorter than competing platforms on the same corridor**: if your app assigns first, drivers prioritizing your platform have less downtime and higher hourly income.",
+          "**Session bonuses based on completed trips — not hours connected —**: a bonus that activates at 8 or more completed trips per session incentivizes effective dedication, not simply 'available' status without accepting requests.",
+          "**Explicit recognition of acceptance rate in weekly communication**: publishing the average income of drivers with acceptance rates above 85% makes the income differential between effective dedication and multi-platform visible.",
+          "**Direct communication of income per completed session versus income per connected hour**: a driver who sees that their high-acceptance sessions produced 30% more income than low-acceptance sessions has their own evidence that dedication pays off."
+        ]
+      }
+    },
+    {
+      "type": "quote",
+      "text": {
+        "es": "Tenía 30 conductores activos en el dashboard y tiempos de espera de 9 minutos en la mañana. Me parecía imposible —con 30 conductores debería estar por debajo de 5 minutos. Cuando le pedí al agente que me mostrara cuántas solicitudes se asignaron más de dos veces antes de ser aceptadas, me dijo que el 41% en la franja de 7 a 9 am. Eso significaba que casi la mitad de mis solicitudes de la mañana se estaban rechazando en el primer ciclo. Con ese dato empecé a trabajar el problema real: mi volumen de solicitudes en esa franja era insuficiente para competir con las dos plataformas que mis conductores también usaban. La solución no fue pedir exclusividad —fue construir más demanda en esa franja.",
+        "en": "I had 30 active drivers in the dashboard and 9-minute wait times in the morning. It seemed impossible — with 30 drivers I should have been under 5 minutes. When I asked the agent to show me how many requests were assigned more than twice before being accepted, it said 41% in the 7 to 9 am slot. That meant almost half my morning requests were being rejected on the first cycle. With that data I started working on the real problem: my request volume in that slot was insufficient to compete with the two other platforms my drivers were also using. The solution wasn't asking for exclusivity — it was building more demand in that time window."
+      },
+      "attribution": {
+        "es": "Operador con cinco años de operación en una ciudad de 420,000 habitantes en el norte de México",
+        "en": "Operator with five years of operation in a city of 420,000 in northern Mexico"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "agente-mide-gap-disponibilidad-efectiva",
+      "text": {
+        "es": "Cómo el agente mide y gestiona el gap de disponibilidad efectiva",
+        "en": "How the agent measures and manages the effective availability gap"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La instrucción al agente para diagnosticar el gap de disponibilidad: «Para la última semana, muéstrame el tiempo de aceptación mediano de solicitudes por franja horaria —mañana, mediodía, tarde, noche— y por zona. ¿En qué franjas y zonas el tiempo de aceptación supera 35 segundos con más de [X] conductores activos declarados? ¿Hay correlación entre el aumento del tiempo de aceptación y la tasa de cancelación del conductor en las mismas franjas?» Esa lectura revela dónde y cuándo la multi-plataforma está reduciendo la disponibilidad efectiva, sin necesidad de saber cuántos conductores usan qué plataforma. El patrón de tiempo de aceptación elevado en horas de alta disponibilidad declarada es suficiente para identificar las franjas y zonas donde el gap es operativamente relevante.",
+        "en": "The agent instruction to diagnose the availability gap: 'For the past week, show me the median request acceptance time by time slot — morning, midday, afternoon, evening — and by zone. In which slots and zones does acceptance time exceed 35 seconds with more than [X] declared active drivers? Is there a correlation between rising acceptance time and driver cancellation rate in the same slots?' That reading reveals where and when multi-platform usage is reducing effective availability, without needing to know which drivers use which platform. The pattern of elevated acceptance time during periods of high declared availability is sufficient to identify the slots and zones where the gap is operationally relevant."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Una segunda consulta que completa el diagnóstico: «¿Cuál fue la tasa de aceptación de primera solicitud esta semana —el porcentaje de solicitudes aceptadas en el primer ciclo de asignación sin reasignación— por zona y por franja horaria? Compara con las dos semanas anteriores.» Una tasa de aceptación de primera solicitud por debajo del 70% en horarios de buena disponibilidad declarada indica que el pool efectivo es significativamente menor al pool declarado. En operaciones con flota comprometida y demanda equilibrada, esa tasa suele estar entre 78 y 88%. La instrucción de seguimiento para la semana posterior a implementar cualquier ajuste de incentivo: «¿Cambió la tasa de aceptación de primera solicitud en las franjas y zonas que teníamos por debajo del 70% la semana pasada? Muéstrame el tiempo de aceptación mediano en esas mismas franjas y compara.» Ese par de lecturas —diagnóstico previo y seguimiento posterior— convierte el gap de disponibilidad en un indicador gestionable en lugar de un efecto invisible que el operador absorbe como tiempos de espera inexplicablemente altos.",
+        "en": "A second query that completes the diagnostic: 'What was the first-request acceptance rate this week — the percentage of requests accepted in the first assignment cycle without reassignment — by zone and by time slot? Compare against the prior two weeks.' A first-request acceptance rate below 70% during periods of good declared availability indicates the effective pool is significantly smaller than the declared one. In operations with committed fleet and balanced demand, that rate typically sits between 78 and 88%. The follow-up instruction for the week after implementing any incentive adjustment: 'Did the first-request acceptance rate change in the slots and zones that were below 70% last week? Show me the median acceptance time in those same slots and compare.' That pair of readings — prior diagnostic and subsequent follow-up — turns the availability gap into a manageable indicator instead of an invisible effect the operator absorbs as inexplicably high wait times."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El gap entre la disponibilidad declarada y la disponibilidad efectiva es uno de los factores que más consistentemente produce tiempos de espera mayores a los esperados en operaciones regionales con presencia de plataformas competidoras. La respuesta correcta no es ignorarlo ni intentar controlarlo con exclusividad contractual: es medirlo, identificar en qué franjas y zonas es mayor, y diseñar los incentivos que hacen más atractivo priorizar tu plataforma en los momentos donde la competencia activa también es más fuerte. Esa priorización no se consigue con contratos —se consigue produciendo la experiencia de sesión que el conductor compara de forma práctica en cada jornada de trabajo y percibe como más rentable que la alternativa.",
+        "en": "The gap between declared and effective availability is one of the factors that most consistently produces wait times higher than expected in regional operations where competing platforms are present. The right response is not to ignore it or try to control it with contractual exclusivity: it is to measure it, identify which slots and zones show the largest gap, and design incentives that make prioritizing your platform more attractive at the moments when competitive pressure is also highest. That prioritization is not achieved through contracts — it is achieved by producing the session experience that drivers compare practically in every working shift and perceive as more profitable than the alternative."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El operador que mide el tiempo de aceptación de primera solicitud como indicador habitual de su revisión semanal tiene un instrumento de diagnóstico que los dashboards estándar de muchas plataformas no exponen de forma explícita. Cuando ese número cae por debajo del 70% en horarios de buena disponibilidad declarada, hay trabajo de diseño de incentivos por hacer —y el agente puede cuantificar en qué zona y en qué franja ese diseño necesita atención primero. La diferencia entre una operación que gestiona la disponibilidad efectiva y una que gestiona solo el conteo de flota activa es la diferencia entre tiempos de espera predecibles y tiempos de espera que no cuadran con lo que el dashboard muestra.",
+        "en": "The operator who tracks first-request acceptance rate as a regular indicator in their weekly review has a diagnostic instrument that the standard dashboards of many platforms don't surface explicitly. When that number falls below 70% during periods of good declared availability, there is incentive design work to do — and the agent can quantify which zone and which time slot needs that attention first. The difference between an operation that manages effective availability and one that only manages active fleet count is the difference between predictable wait times and wait times that don't match what the dashboard shows."
+      }
+    }
+  ],
+  "cta": {
+    "heading": {
+      "es": "¿Listo para lanzar tu propia app de movilidad?",
+      "en": "Ready to launch your own mobility app?"
+    },
+    "body": {
+      "es": "Configura tu marca, tus tarifas y tus servicios en semanas, no en meses. Cabgo te entrega la plataforma; tú te quedas con la operación, los clientes y los ingresos.",
+      "en": "Set up your brand, pricing and services in weeks, not months. Cabgo ships the platform — you keep the operation, the customers and the revenue."
+    },
+    "buttonLabel": {
+      "es": "Comenzar con Cabgo",
+      "en": "Get started with Cabgo"
+    },
+    "buttonHref": "/empezar"
+  },
+  "seo": {
+    "metaTitle": {
+      "es": "Disponibilidad real de conductores multiplataforma | Cabgo",
+      "en": "Driver availability gap in multi-platform markets | Cabgo"
+    },
+    "metaDescription": {
+      "es": "Por qué los conductores activos en tu dashboard no son todos los que aceptarán tu próxima solicitud, y cómo medir y cerrar ese gap en tu operación.",
+      "en": "Why drivers showing online in your dashboard aren't all actually available for your next request, and how to measure and close that gap in your operation."
+    }
+  }
+}

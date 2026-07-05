@@ -1,6 +1,25 @@
 {
-  "generatedAt": "2026-07-04T14:12:36.319Z",
+  "generatedAt": "2026-07-05T14:07:17.510Z",
   "posts": [
+    {
+      "slug": "conductores-multiples-plataformas-disponibilidad-real",
+      "category": "strategy",
+      "title": {
+        "es": "Conductores en dos plataformas: la brecha entre disponibilidad declarada y disponibilidad real",
+        "en": "Drivers on multiple platforms: the gap between declared and actual fleet availability"
+      },
+      "excerpt": {
+        "es": "El contador de flota activa sobreestima la disponibilidad real entre 25 y 45% cuando los conductores usan dos apps a la vez. Ese gap tiene solución de incentivos, no de exclusividad.",
+        "en": "The active fleet count overstates real availability by 25 to 45% when drivers run two apps simultaneously. That gap has an incentive solution, not a contractual one."
+      },
+      "heroImage": "https://raw.githubusercontent.com/jonatanvazquez/cabgo-blog-content/main/images/conductores-multiples-plataformas-disponibilidad-real.jpg",
+      "heroImageAlt": {
+        "es": "Ilustración isométrica dividida: a la izquierda, un conductor frente a dos teléfonos con interfaces de app distintas y botones de aceptar de colores diferentes, sobre un mapa con dos círculos de cobertura superpuestos. A la derecha, un operador en consola con un contador grande que marca '28 activos' y un panel secundario en naranja que señala '16 efectivamente disponibles' con una barra de brecha.",
+        "en": "Split isometric illustration: on the left, a driver in front of two phones showing different app interfaces with distinct colored accept buttons, over a map with two overlapping coverage circles. On the right, an operator at a console with a large counter reading '28 active' and an orange secondary panel indicating '16 effectively available' with a gap bar."
+      },
+      "publishedAt": "2026-07-05",
+      "readingMinutes": 8
+    },
     {
       "slug": "diferenciacion-categoria-servicio-premium-ride-hailing",
       "category": "strategy",
