@@ -1,6 +1,25 @@
 {
-  "generatedAt": "2026-07-05T14:07:17.510Z",
+  "generatedAt": "2026-07-06T14:09:46.128Z",
   "posts": [
+    {
+      "slug": "ciclo-liquidacion-conductores-disponibilidad-flota",
+      "category": "strategy",
+      "title": {
+        "es": "Ciclo de liquidación con conductores: cómo la frecuencia de pago afecta la disponibilidad real de tu flota",
+        "en": "Driver settlement frequency: how payment timing shapes your fleet's actual availability"
+      },
+      "excerpt": {
+        "es": "La frecuencia con que liquidas a tus conductores produce oscilaciones de disponibilidad predecibles. El ciclo correcto tiene más impacto en los primeros 90 días que cualquier ajuste de tarifa.",
+        "en": "How often you pay your drivers creates predictable availability oscillations. Choosing the right cycle has more impact in the first 90 days than any fare adjustment."
+      },
+      "heroImage": "https://raw.githubusercontent.com/jonatanvazquez/cabgo-blog-content/main/images/ciclo-liquidacion-conductores-disponibilidad-flota.jpg",
+      "heroImageAlt": {
+        "es": "Ilustración isométrica dividida en dos escenas. A la izquierda, un conductor frente a un calendario con una fecha de pago lejana en ámbar y un indicador de disponibilidad bajo en naranja. A la derecha, el mismo conductor con un chip de confirmación de pago instantáneo en verde después de cada viaje y un indicador de disponibilidad lleno. En el centro, una balanza con un documento de liquidación semanal en un lado y un chip de pago al cierre de sesión en el otro.",
+        "en": "Isometric illustration split into two scenes. On the left, a driver facing a calendar with a distant payment date glowing amber and a low orange availability bar. On the right, the same driver with a teal payment confirmation chip after each completed trip and a fully green availability indicator. In the center, a balance scale with a weekly settlement document on one side and a session-close payout chip on the other."
+      },
+      "publishedAt": "2026-07-06",
+      "readingMinutes": 8
+    },
     {
       "slug": "conductores-multiples-plataformas-disponibilidad-real",
       "category": "strategy",
