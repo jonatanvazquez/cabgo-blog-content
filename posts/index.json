@@ -1,6 +1,25 @@
 {
-  "generatedAt": "2026-07-06T14:09:46.128Z",
+  "generatedAt": "2026-07-07T14:10:09.830Z",
   "posts": [
+    {
+      "slug": "tiempo-muerto-conductor-productividad-sesion",
+      "category": "strategy",
+      "title": {
+        "es": "Tiempo muerto entre viajes: la variable que decide qué plataforma elige el conductor",
+        "en": "Driver idle time between trips: the variable that determines platform preference"
+      },
+      "excerpt": {
+        "es": "El tiempo de espera entre solicitudes, no la tarifa, define si una plataforma vale la jornada del conductor. Medirlo y reducirlo es la ventaja que ningún programa de bonus puede replicar.",
+        "en": "Waiting time between requests, not the fare, is what determines whether a platform is worth a driver's shift. Measuring and reducing it is the operational edge no bonus program can replicate."
+      },
+      "heroImage": "https://raw.githubusercontent.com/jonatanvazquez/cabgo-blog-content/main/images/tiempo-muerto-conductor-productividad-sesion.jpg",
+      "heroImageAlt": {
+        "es": "Ilustración isométrica de una línea de tiempo de sesión de conductor dividida en segmentos activos en verde azulado y segmentos de espera en ámbar, con un mapa de ciudad que muestra un conductor en zona de baja demanda a la izquierda y el mismo conductor reposicionado en una zona de alta demanda a la derecha. Un panel de métricas en la esquina superior muestra 'Tiempo muerto: 9 min prom' con flecha de tendencia descendente en verde.",
+        "en": "Isometric illustration of a driver session timeline bar divided into active trip segments in teal and idle gap segments in amber, with a city map on the left showing a driver in a low-demand zone and the same driver repositioned to a high-demand zone on the right. A metrics panel in the upper corner shows 'Idle time: 9 min avg' with a green downward trend arrow."
+      },
+      "publishedAt": "2026-07-07",
+      "readingMinutes": 8
+    },
     {
       "slug": "ciclo-liquidacion-conductores-disponibilidad-flota",
       "category": "strategy",
