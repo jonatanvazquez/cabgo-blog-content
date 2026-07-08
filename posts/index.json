@@ -1,6 +1,25 @@
 {
-  "generatedAt": "2026-07-07T14:10:09.830Z",
+  "generatedAt": "2026-07-08T14:09:19.300Z",
   "posts": [
+    {
+      "slug": "precio-dinamico-picos-demanda-operacion",
+      "category": "strategy",
+      "title": {
+        "es": "Precio dinámico en ride-hailing regional: cuándo activarlo y cómo comunicarlo",
+        "en": "Surge pricing in regional ride-hailing: when to activate it and how to communicate it"
+      },
+      "excerpt": {
+        "es": "El precio dinámico no es un bonus de conductor: es la única herramienta que ajusta oferta y demanda en tiempo real. Cómo calibrar el multiplicador correcto y comunicarlo sin perder pasajeros.",
+        "en": "Surge pricing is not a driver bonus: it is the only tool that adjusts supply and demand in real time. How to calibrate the right multiplier and communicate it without losing passengers."
+      },
+      "heroImage": "https://raw.githubusercontent.com/jonatanvazquez/cabgo-blog-content/main/images/precio-dinamico-picos-demanda-operacion.jpg",
+      "heroImageAlt": {
+        "es": "Ilustración isométrica dividida en dos momentos: a la izquierda, una cuadrícula urbana tranquila con dos vehículos y una insignia de tarifa 1.0x en azul verdoso. A la derecha, la misma ciudad durante un pico de demanda con un estadio iluminado en ámbar, cuatro vehículos convergiendo hacia la zona y una insignia de tarifa 1.5x con flecha ascendente en ámbar. En el centro, un panel de activación con reloj muestra la transición del multiplicador.",
+        "en": "Isometric illustration split into two moments: on the left, a calm city grid with two vehicles and a 1.0x standard fare badge in teal. On the right, the same city during a demand peak with an amber-lit stadium, four vehicles converging on the zone, and a 1.5x fare badge with an amber upward arrow. In the center, an activation panel with a clock shows the multiplier transition."
+      },
+      "publishedAt": "2026-07-08",
+      "readingMinutes": 8
+    },
     {
       "slug": "tiempo-muerto-conductor-productividad-sesion",
       "category": "strategy",
