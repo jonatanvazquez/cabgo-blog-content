@@ -1,0 +1,286 @@
+{
+  "slug": "segmentacion-pasajeros-frecuentes-demanda-regional",
+  "category": "strategy",
+  "title": {
+    "es": "Segmentación de pasajeros frecuentes: cómo los operadores regionales identifican a sus mejores clientes",
+    "en": "Frequent passenger segmentation: how regional operators identify their best customers"
+  },
+  "excerpt": {
+    "es": "El 20% de tus pasajeros genera el 60-80% de los viajes. Son invisibles en el dashboard, pero gestionarlos activamente produce más retención que cualquier campaña de descuentos.",
+    "en": "The top 20% of passengers generate 60 to 80% of trips. They're invisible in the standard dashboard, but managing them actively delivers more retention than any discount campaign."
+  },
+  "heroImage": "https://raw.githubusercontent.com/jonatanvazquez/cabgo-blog-content/main/images/segmentacion-pasajeros-frecuentes-demanda-regional.jpg",
+  "heroImageAlt": {
+    "es": "Ilustración isométrica con un embudo de pasajeros a la izquierda mostrando múltiples iconos que se concentran en un grupo destacado de alta frecuencia con anillos de actividad en verde azulado. A la derecha, un panel de segmentación de tres niveles con barras de frecuencia en verde azulado, índigo y violeta. En el centro, una tarjeta de monitoreo flotante muestra un contador de viajes con flecha descendente en ámbar.",
+    "en": "Isometric illustration with a passenger funnel on the left showing multiple icons narrowing to a highlighted high-frequency group with teal activity rings. On the right, a three-tier segmentation panel with frequency bars in teal, indigo, and violet. In the center, a floating monitoring card shows a trip counter with an amber downward arrow."
+  },
+  "heroImagePrompt": "Split isometric composition with two focal elements. On the left, a compact funnel shape with many small passenger figure icons at the wide top narrowing to a glowing highlighted group of 8 to 10 icons at the narrow bottom, each highlighted icon with a small teal activity ring underneath, set against a compact city grid background. On the right, a vertical frequency ranking panel showing three labeled tiers with horizontal bar segments: top tier in bright teal labeled High Frequency with a tall bar and small upward tick marks, middle tier in medium indigo labeled Mid Frequency with a medium bar, bottom tier in faded violet labeled Low with a short bar. A small trend line chart sits beside each tier bar. In the center foreground, a floating monitoring dashboard card shows a small passenger avatar icon, a trip counter reading 14 trips and a downward amber arrow indicator. Deep violet floor grid, soft indigo radial background glow, clean geometric shapes, subtle shadows. Negative space on the lower right.",
+  "publishedAt": "2026-07-09",
+  "readingMinutes": 8,
+  "keywords": {
+    "es": [
+      "segmentación pasajeros ride-hailing regional",
+      "pasajeros frecuentes taxi app operación",
+      "retención pasajeros alta frecuencia movilidad",
+      "identificar mejores clientes ride-hailing",
+      "cohorte frecuente taxi app LATAM",
+      "demanda concentrada operación movilidad regional",
+      "análisis pasajeros frecuentes taxi plataforma"
+    ],
+    "en": [
+      "frequent passenger segmentation ride-hailing",
+      "high frequency passengers regional taxi app",
+      "passenger retention mobility platform regional",
+      "identify best customers ride-hailing operation",
+      "passenger cohort analysis taxi app LATAM",
+      "concentrated demand regional mobility operation",
+      "passenger frequency analysis regional ride-hailing"
+    ]
+  },
+  "author": {
+    "name": "Equipo Cabgo",
+    "role": {
+      "es": "Plataforma de movilidad",
+      "en": "Mobility platform"
+    }
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "En una operación de ride-hailing regional con 500 pasajeros activos en el mes, entre 80 y 120 de ellos generan entre el 60 y el 80% de los viajes totales. Ese grupo —el 15 al 20% de pasajeros por número de viajes completados en los últimos 30 días— no aparece con visibilidad propia en el dashboard estándar: el operador puede ver el total de viajes por día, el promedio de calificación, el ingreso por semana, pero rara vez tiene una vista directa de qué pasajeros específicos producen el grueso de su demanda, cuándo lo hacen, desde qué zonas y con qué patrón de regularidad. La consecuencia de esa invisibilidad es que cuando un pasajero frecuente deja de usar la plataforma —porque encontró una alternativa, porque tuvo una mala experiencia, porque la app dejó de funcionar en su teléfono— el operador no lo detecta hasta que el dato agregado de demanda ya acumula semanas de impacto.",
+        "en": "In a regional ride-hailing operation with 500 active passengers in a month, between 80 and 120 of them generate 60 to 80% of total trips. That group — the top 15 to 20% by trips completed in the last 30 days — has no dedicated visibility in the standard dashboard: the operator can see daily trip totals, average ratings, and weekly revenue, but rarely has a direct view of which specific passengers produce the bulk of demand, when they travel, from which zones, and with what regularity. The consequence of that invisibility is that when a frequent passenger stops using the platform — because they found an alternative, had a bad experience, or the app stopped working on their phone — the operator doesn't notice until the aggregate demand figure has already absorbed several weeks of impact."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Este artículo está dirigido al operador que tiene entre 300 y 1,500 pasajeros activos mensuales y quiere entender cómo identificar su cohorte de alta frecuencia, qué hace diferente ese segmento comparado con el pasajero promedio, por qué su pérdida silenciosa es más costosa que la cancelación de un conductor, y qué intervenciones concretas —sin programas de lealtad formales ni descuentos masivos— mejoran la retención de ese grupo sin incrementar el costo de adquisición. El punto de partida es reconocer que la demanda en ride-hailing regional no es una masa uniforme: tiene estructura, y esa estructura es manejable una vez que es visible.",
+        "en": "This article is for the operator with 300 to 1,500 active monthly passengers who wants to understand how to identify their high-frequency cohort, what differentiates that segment from the average passenger, why their silent departure is more costly than losing a driver, and what concrete interventions — without formal loyalty programs or blanket discounts — improve retention for that group without raising acquisition costs. The starting point is recognizing that demand in regional ride-hailing is not a uniform mass: it has structure, and that structure is manageable once it is visible."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "concentracion-demanda-patron-20-80",
+      "text": {
+        "es": "La concentración de demanda en ride-hailing regional: el patrón del 20/80",
+        "en": "Demand concentration in regional ride-hailing: the 20/80 pattern"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "En mercados con 200 a 1,500 pasajeros activos mensuales, la concentración de viajes en una minoría de usuarios sigue un patrón consistente: el 20% de pasajeros por volumen de viajes genera entre el 60 y el 80% de la demanda total del período. En operaciones más maduras, con mayor cantidad de pasajeros ocasionales que se suman y se van, el porcentaje de concentración puede bajar al 50-60%, pero la asimetría persiste en cualquier escala. Un pasajero en el cuartil superior de frecuencia realiza entre 8 y 20 viajes por mes; uno en el cuartil inferior puede hacer 1 o 2 en el mismo período. La diferencia en valor no es solo de volumen: el pasajero frecuente tiene mayor predictibilidad —viaja en patrones reconocibles, desde zonas conocidas, en horarios relativamente estables—, lo que lo convierte en la parte más valiosa de la demanda no solo por cuántos viajes genera sino por la regularidad con que los genera.",
+        "en": "In markets with 200 to 1,500 active monthly passengers, the concentration of trips in a minority of users follows a consistent pattern: the top 20% by trip volume generates 60 to 80% of total demand for the period. In more mature operations, with larger numbers of occasional passengers cycling through, the concentration percentage can fall to 50 to 60%, but the asymmetry persists at any scale. A passenger in the top quartile by frequency completes between 8 and 20 trips per month; one in the bottom quartile may do 1 or 2 in the same period. The value difference is not just about volume: the frequent passenger is more predictable — they travel in recognizable patterns, from known zones, at relatively stable times — which makes them the most valuable part of demand not just for how many trips they generate but for the regularity with which they generate them."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Esa concentración tiene una implicación operativa directa: la demanda de la operación no depende uniformemente de todos los pasajeros. Depende desproporcionadamente del comportamiento de un subconjunto pequeño. Cuando ese subconjunto está estable, la demanda es predecible. Cuando ese subconjunto tiene rotación —cuando los pasajeros frecuentes de este mes no son los mismos que los del mes anterior—, la demanda fluctúa de forma que el operador puede confundir con estacionalidad o con variaciones en la oferta, cuando en realidad es un problema de retención concentrado en un segmento específico.",
+        "en": "That concentration has a direct operational implication: the operation's demand does not depend uniformly on all passengers. It depends disproportionately on the behavior of a small subset. When that subset is stable, demand is predictable. When that subset experiences churn — when this month's frequent passengers are not the same as last month's — demand fluctuates in ways the operator can mistake for seasonality or supply variation, when the actual problem is a retention issue concentrated in a specific segment."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "pasajeros-frecuentes-invisibles-dashboard",
+      "text": {
+        "es": "Por qué los pasajeros frecuentes son invisibles en el dashboard estándar",
+        "en": "Why frequent passengers are invisible in the standard dashboard"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El dashboard estándar de una plataforma de ride-hailing expone métricas agregadas: viajes completados por día, ingreso total, tasa de cancelación general, pasajeros únicos del período. Esas métricas no tienen granularidad de usuario: no distinguen si los 1,200 viajes de la semana los hicieron 1,200 pasajeros distintos —cada uno con un solo viaje— o 200 pasajeros de alta frecuencia más 1,000 pasajeros de viaje único. Ambos escenarios producen el mismo número en el dashboard, pero tienen implicaciones de gestión radicalmente distintas. En el primero, la demanda es amplia pero frágil —depende de la adquisición continua de pasajeros nuevos para mantener el volumen—. En el segundo, la demanda tiene una base concentrada y más estable, con un núcleo de alta frecuencia que si se retiene produce volumen consistente sin esfuerzo adicional de adquisición.",
+        "en": "The standard dashboard of a ride-hailing platform exposes aggregate metrics: trips completed per day, total revenue, overall cancellation rate, unique passengers in the period. Those metrics have no user-level granularity: they don't distinguish whether the week's 1,200 trips were made by 1,200 different passengers — each taking one trip — or by 200 high-frequency passengers plus 1,000 single-trip passengers. Both scenarios produce the same number in the dashboard but have radically different management implications. In the first, demand is broad but fragile — it depends on continuous new passenger acquisition to maintain volume. In the second, demand has a concentrated and more stable base, with a high-frequency core that, if retained, produces consistent volume without additional acquisition effort."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La ausencia de esta vista lleva al operador a tomar decisiones de adquisición —campañas de descuento, publicidad en redes sociales, programas de referidos— sin saber si su problema de demanda es de adquisición o de retención. En muchas operaciones, el pasajero frecuente que se fue el mes pasado es más costoso de reemplazar que cinco pasajeros ocasionales nuevos: el frecuente generaba 12 viajes al mes; los cinco nuevos, en conjunto, pueden no alcanzar ese volumen en los primeros 30 días. Invertir en traer nuevos pasajeros cuando el problema es retención de los existentes produce el doble del gasto para el mismo efecto en demanda.",
+        "en": "The absence of this view leads operators to make acquisition decisions — discount campaigns, social media advertising, referral programs — without knowing whether their demand problem is one of acquisition or retention. In many operations, the frequent passenger who left last month is more expensive to replace than five new occasional passengers: the frequent one generated 12 trips per month; the five new ones, combined, may not reach that volume in their first 30 days. Investing in bringing new passengers when the problem is retaining existing ones produces twice the spend for the same effect on demand volume."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "identificar-cohorte-alta-frecuencia",
+      "text": {
+        "es": "Cómo identificar tu cohorte de alta frecuencia con los datos disponibles",
+        "en": "How to identify your high-frequency cohort with available data"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Identificar la cohorte de alta frecuencia no requiere herramientas de análisis avanzadas: requiere la capacidad de consultar los viajes del último período por pasajero, ordenarlos por cantidad, y separar el cuartil superior del resto. La consulta básica al agente: «Muéstrame los 50 pasajeros con mayor número de viajes completados en los últimos 30 días. Para cada uno: número de viajes, zona de origen más frecuente, franja horaria predominante, método de pago, y calificación promedio que dieron al conductor.» Con esa lista, el operador tiene la cohorte de alta frecuencia concreta —no un promedio ni un porcentaje— y puede observar directamente cuál es el patrón de uso que los define.",
+        "en": "Identifying the high-frequency cohort doesn't require advanced analytics tools: it requires the ability to query last period's trips by passenger, sort by count, and separate the top quartile from the rest. The basic agent query: 'Show me the 50 passengers with the most completed trips in the last 30 days. For each: trip count, most frequent origin zone, predominant time slot, payment method, and average rating they gave to drivers.' With that list, the operator has the concrete high-frequency cohort — not an average or a percentage — and can directly observe the usage pattern that defines them."
+      }
+    },
+    {
+      "type": "list",
+      "style": "bullet",
+      "intro": {
+        "es": "Cuatro métricas secundarias que enriquecen el perfil de la cohorte de alta frecuencia:",
+        "en": "Four secondary metrics that enrich the high-frequency cohort profile:"
+      },
+      "items": {
+        "es": [
+          "**Distribución por franja horaria**: los pasajeros frecuentes que viajan principalmente en la mañana tienen patrones de uso distintos a los que viajan de noche. Segmentar la cohorte por franja revela subgrupos —el trabajador recurrente del turno de mañana, el usuario nocturno de entretenimiento— que merecen intervenciones diferenciadas en disponibilidad y comunicación.",
+          "**Zona de origen predominante**: la cohorte frecuente que origina desde dos o tres zonas define qué áreas son críticas para defender. Si el 40% de los pasajeros frecuentes empieza sus viajes desde una zona específica, la disponibilidad de conductores en esa zona tiene impacto desproporcionado sobre la experiencia del segmento más valioso.",
+          "**Método de pago**: los pasajeros frecuentes que pagan en efectivo tienen mayor exposición al abandono cuando la competencia local ofrece efectivo con menor tiempo de espera. Los que pagan con billetera digital tienen menor fricción en la solicitud pero mayor sensibilidad a fallas de la app o problemas de recarga.",
+          "**Calificaciones que otorgan al conductor**: la cohorte frecuente que da calificaciones consistentemente por debajo del promedio de la base es una señal de experiencia insatisfactoria acumulada que no se expresa como queja directa pero que precede el abandono en tres a cinco semanas."
+        ],
+        "en": [
+          "**Time slot distribution**: frequent passengers who travel primarily in the morning have different usage patterns than night travelers. Segmenting the cohort by time slot reveals subgroups — the recurring morning-commute rider, the evening entertainment user — that warrant differentiated interventions in availability and communication.",
+          "**Predominant origin zone**: a frequent cohort that originates from two or three zones defines which areas are critical to defend. If 40% of frequent passengers start their trips from a specific zone, driver availability in that zone has a disproportionate impact on the experience of the most valuable segment.",
+          "**Payment method**: frequent passengers who pay with cash have higher abandonment exposure when a local competitor offers cash with shorter wait times. Those paying with a digital wallet have lower request friction but higher sensitivity to app failures or top-up issues.",
+          "**Ratings they give drivers**: a frequent cohort that gives consistently below-average ratings is a signal of accumulated dissatisfaction that doesn't manifest as a direct complaint but that precedes abandonment within three to five weeks."
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "que-hace-diferente-pasajero-frecuente",
+      "text": {
+        "es": "Qué hace diferente a un pasajero frecuente (y por qué no es lo mismo que un pasajero leal)",
+        "en": "What makes a frequent passenger different (and why they're not the same as a loyal passenger)"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La frecuencia de uso no es sinónimo de lealtad. El pasajero que hace 15 viajes al mes en tu plataforma puede estar haciéndolo por conveniencia —vive en una zona donde tu disponibilidad es buena, trabaja a una distancia conveniente en tu servicio, el costo encaja con su presupuesto regular—, no porque haya tomado una decisión explícita de preferirte sobre la competencia. Cuando esa conveniencia deja de existir —si la disponibilidad en su zona empeora, si la alternativa ofrece mejor precio en esa ruta, si tiene una mala experiencia en un momento crítico—, la frecuencia desaparece sin aviso previo.",
+        "en": "Frequency of use is not synonymous with loyalty. A passenger who makes 15 trips per month on your platform may be doing so out of convenience — they live in a zone where your availability is good, their destination is a comfortable distance on your service, the cost fits their regular budget — not because they made an explicit decision to prefer you over competitors. When that convenience stops existing — if availability in their zone deteriorates, if a competitor offers better pricing on that route, if they have one bad experience at a critical moment — the frequency disappears without prior notice."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Eso significa que la cohorte frecuente no se gestiona con argumentos de lealtad ni con programas de puntos: se gestiona mejorando las variables concretas que hacen que volver a solicitar sea conveniente. El tiempo de espera en sus zonas habituales es el factor con mayor impacto. Si el pasajero frecuente que origina desde la zona norte a las 7:30 de la mañana empieza a esperar 12 minutos en lugar de 5, el abandono puede producirse en dos o tres semanas aunque no haya precio dinámico activo ni ningún cambio explícito de política. La disponibilidad en la zona y franja del pasajero frecuente es la primera variable a defender, antes que cualquier promoción o campaña de retención.",
+        "en": "That means the frequent cohort is not managed with loyalty arguments or points programs: it is managed by improving the concrete variables that make requesting another trip convenient. Wait time in their habitual zones is the highest-impact factor. If a frequent passenger who originates in the northern zone at 7:30 a.m. starts waiting 12 minutes instead of 5, abandonment can occur within two or three weeks even without active surge pricing or any explicit policy change. Availability in the frequent passenger's zone and time slot is the first variable to protect, ahead of any promotion or retention campaign."
+      }
+    },
+    {
+      "type": "quote",
+      "text": {
+        "es": "Tenía un operador de reparto que usaba la app para sus traslados personales —oficina, reuniones, aeropuerto— tres o cuatro veces a la semana. No era una cuenta corporativa, era un pasajero individual. Cuando empezó a esperar más de diez minutos en la salida de su edificio me di cuenta por accidente, porque me escribió directo. Revisé los datos y ese pasajero solo había generado 42 viajes en los últimos tres meses. Cuarenta y dos viajes de un solo usuario. No lo tenía identificado como nadie especial en el dashboard. A partir de ahí empecé a revisar semanalmente los 30 pasajeros de mayor frecuencia. Dos de ellos me habían dejado de solicitar sin ninguna queja. Cuando los contacté por WhatsApp, ambos habían migrado a la competencia en los últimos 15 días.",
+        "en": "I had a local delivery business owner who used the app for his own trips — office, meetings, the airport — three or four times a week. Not a corporate account, just an individual passenger. I found out by accident when he messaged me directly because he'd started waiting over ten minutes outside his building. I pulled the data and that passenger alone had generated 42 trips in the last three months. Forty-two trips from one person. He wasn't flagged as anyone special in my dashboard. After that I started reviewing my top 30 passengers by frequency every week. Two of them had quietly stopped requesting without any complaint. When I reached out on WhatsApp, both had switched to a competitor in the past 15 days."
+      },
+      "attribution": {
+        "es": "Operador con cuatro años de operación en una ciudad de 350,000 habitantes en el noreste de México",
+        "en": "Operator with four years of operation in a city of 350,000 in northeastern Mexico"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "riesgo-perdida-silenciosa-demanda",
+      "text": {
+        "es": "El riesgo de pérdida silenciosa: cómo la salida de un pasajero frecuente afecta la demanda agregada",
+        "en": "The silent loss risk: how a frequent passenger's departure affects aggregate demand"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La pérdida de un pasajero frecuente no produce una señal inmediata en el dashboard. El pasajero que hacía 15 viajes al mes y deja de solicitar no genera una baja, una queja ni ningún evento detectable: simplemente deja de aparecer en el registro de viajes. Si el dashboard muestra los viajes totales del mes, esa pérdida aparece diluida en el total agregado. Si el mes tiene estacionalidad descendente o algún evento que afecta la demanda general, la pérdida del pasajero frecuente queda enmascarada por esa variación y el operador no la identifica hasta que acumula varias semanas de impacto.",
+        "en": "Losing a frequent passenger produces no immediate signal in the dashboard. A passenger who was making 15 trips per month and stops requesting doesn't generate a cancellation, a complaint, or any detectable event: they simply stop appearing in the trip log. If the dashboard shows monthly total trips, that loss is diluted into the aggregate. If the month has a seasonal downward trend or some event affecting overall demand, the frequent passenger's departure is masked by that variation and the operator doesn't identify it until several weeks of impact have accumulated."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El costo concreto de perder un pasajero de alta frecuencia: en una operación donde el pasajero frecuente promedio realiza 12 viajes al mes a una tarifa de $65 MXN, su salida produce una pérdida mensual de $780 MXN de ingreso bruto. Reemplazar ese volumen con pasajeros nuevos requiere adquirir entre 6 y 12 pasajeros ocasionales —si el pasajero nuevo hace 1 o 2 viajes en su primer mes—, cada uno con un costo de adquisición de $40 a $120 MXN según el canal. La retención de un pasajero frecuente tiene una relación costo-beneficio radicalmente mejor que su reemplazo, pero esa ventaja solo se puede aprovechar si la pérdida se detecta antes de que se consolide en un cambio de hábito.",
+        "en": "The concrete cost of losing a high-frequency passenger: in an operation where the average frequent passenger completes 12 trips per month at an average fare of 65 MXN, their departure produces a monthly gross revenue loss of 780 MXN. Replacing that volume with new passengers requires acquiring 6 to 12 occasional riders — if the new passenger makes 1 or 2 trips in their first month — each with an acquisition cost of 40 to 120 MXN depending on the channel. Retaining a frequent passenger has a radically better cost-benefit ratio than replacing them, but that advantage is only actionable if the loss is detected before it consolidates into a permanent habit change."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "agente-identifica-cohorte-abandono-temprano",
+      "text": {
+        "es": "Cómo el agente identifica la cohorte frecuente y detecta señales de abandono temprano",
+        "en": "How the agent identifies the frequent cohort and detects early abandonment signals"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La consulta de monitoreo de la cohorte frecuente: «Para los 40 pasajeros con mayor número de viajes en los últimos 60 días, muéstrame cuántos viajes hicieron esta semana versus su promedio semanal de las últimas ocho semanas. ¿Hay pasajeros en ese grupo cuya actividad esta semana esté más de un 50% por debajo de su promedio histórico?» Esa consulta semanal identifica los pasajeros frecuentes que están reduciendo su actividad antes de que abandonen completamente. El margen de intervención entre «reducción de actividad» y «abandono definitivo» puede ser de dos a cuatro semanas —tiempo suficiente para una intervención directa que recupere la relación.",
+        "en": "The frequent cohort monitoring query: 'For the 40 passengers with the most trips in the last 60 days, show me how many trips they made this week versus their weekly average over the last eight weeks. Are there passengers in that group whose activity this week is more than 50% below their historical average?' That weekly query identifies frequent passengers who are reducing their activity before they abandon completely. The intervention window between reducing activity and full abandonment can be two to four weeks — enough time for a direct intervention that recovers the relationship."
+      }
+    },
+    {
+      "type": "list",
+      "style": "bullet",
+      "intro": {
+        "es": "Los tres niveles de segmentación que simplifican el monitoreo en operaciones con más de 800 pasajeros activos mensuales:",
+        "en": "The three segmentation tiers that simplify monitoring in operations with more than 800 active monthly passengers:"
+      },
+      "items": {
+        "es": [
+          "**Alta frecuencia (8 o más viajes en el último mes)**: monitoreo semanal de variación de actividad. Intervención directa si la actividad cae más del 40% durante dos semanas consecutivas. La intervención es un mensaje personalizado por WhatsApp —no un cupón automático— que reconozca el historial del pasajero y pregunte por su experiencia reciente.",
+          "**Frecuencia media (4 a 7 viajes en el último mes)**: monitoreo mensual. Intervención si no hay actividad en 21 días consecutivos. Esta cohorte responde mejor a reactivación con un motivo concreto —un evento próximo, una zona nueva de cobertura— que a descuentos genéricos.",
+          "**Frecuencia baja o pasajero ocasional (1 a 3 viajes en el último mes)**: sin monitoreo individual. Gestión por campañas de reactivación masiva o experimentación de canal de adquisición. El costo de atención individual no justifica el retorno para este segmento."
+        ],
+        "en": [
+          "**High frequency (8 or more trips in the last month)**: weekly activity variation monitoring. Direct intervention if activity drops more than 40% over two consecutive weeks. The intervention is a personalized WhatsApp message — not an automated coupon — that acknowledges the passenger's history and asks about their recent experience.",
+          "**Mid frequency (4 to 7 trips in the last month)**: monthly monitoring. Intervention if there is no activity in 21 consecutive days. This cohort responds better to reactivation with a concrete reason — an upcoming event, a new coverage zone — than to generic discounts.",
+          "**Low frequency or occasional passenger (1 to 3 trips in the last month)**: no individual monitoring. Managed through mass reactivation campaigns or acquisition channel experimentation. The cost of individual attention does not justify the return for this segment."
+        ]
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La intervención directa para pasajeros de alta frecuencia con señales de reducción no requiere un descuento automático. Un mensaje simple —«Notamos que no has solicitado viajes en los últimos diez días. ¿Hay algo que podamos mejorar en tu zona?»— tiene mayor probabilidad de recuperar la relación que un cupón sin contexto. Reconocer que ese pasajero tiene historial y que su zona importa produce más efecto que la oferta económica en pasajeros cuyo alejamiento no fue por precio sino por experiencia de servicio. El agente puede redactar ese mensaje y activar la lista de contacto cuando la condición de reducción del 40% se cumple, sin que el operador tenga que generar la consulta cada semana de forma manual.",
+        "en": "Direct intervention for high-frequency passengers showing reduction signals doesn't require an automatic discount. A simple message — 'We noticed you haven't requested a trip in the last ten days. Is there anything we can improve in your area?' — has a higher probability of recovering the relationship than a coupon sent without context. Acknowledging that the passenger has a history and that their zone matters produces more effect than a price offer for passengers whose distance wasn't caused by price but by service experience. The agent can draft that message and trigger the contact list when the 40% reduction condition is met, without the operator having to run the query manually every week."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La segmentación de pasajeros frecuentes no es un proceso de análisis complejo que requiere un especialista: es la decisión de ver la demanda con granularidad de usuario en lugar de como un total agregado. El operador que identifica su cohorte de alta frecuencia —los 30 a 80 pasajeros que generan el grueso de su demanda— tiene acceso a una palanca de retención que ningún bono de conductor o campaña de adquisición puede replicar: saber exactamente quién está en riesgo, cuándo empezó a reducir su actividad y qué experiencia concreta podría estar detrás de ese cambio. Esa visibilidad convierte un problema de demanda difuso en un problema de retención manejable con intervenciones específicas y de bajo costo.",
+        "en": "Segmenting frequent passengers is not a complex analytics process requiring a specialist: it is the decision to view demand with user-level granularity rather than as an aggregate total. The operator who identifies their high-frequency cohort — the 30 to 80 passengers generating the bulk of demand — gains access to a retention lever that no driver bonus or acquisition campaign can replicate: knowing exactly who is at risk, when they started reducing activity, and what specific experience may be behind that change. That visibility turns a diffuse demand problem into a manageable retention problem with targeted, low-cost interventions."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El paso de «entender el total de viajes del mes» a «conocer los 50 pasajeros que generan el 70% de esos viajes» requiere una sola consulta al agente y la decisión de revisar esa lista semanalmente. El dato que el dashboard estándar no muestra espontáneamente está disponible en la plataforma: la diferencia está en si el operador lo revisa con la frecuencia suficiente para actuar cuando hay señales de abandono, antes de que la pérdida se consolide en el agregado de demanda del mes.",
+        "en": "Moving from understanding the month's total trips to knowing the 50 passengers who generate 70% of those trips requires a single agent query and the decision to review that list weekly. The data the standard dashboard doesn't surface spontaneously is available in the platform: the difference is whether the operator reviews it frequently enough to act on abandonment signals before the loss has already consolidated into the month's demand aggregate."
+      }
+    }
+  ],
+  "cta": {
+    "heading": {
+      "es": "¿Listo para lanzar tu propia app de movilidad?",
+      "en": "Ready to launch your own mobility app?"
+    },
+    "body": {
+      "es": "Configura tu marca, tus tarifas y tus servicios en semanas, no en meses. Cabgo te entrega la plataforma; tú te quedas con la operación, los clientes y los ingresos.",
+      "en": "Set up your brand, pricing and services in weeks, not months. Cabgo ships the platform — you keep the operation, the customers and the revenue."
+    },
+    "buttonLabel": {
+      "es": "Comenzar con Cabgo",
+      "en": "Get started with Cabgo"
+    },
+    "buttonHref": "/empezar"
+  },
+  "seo": {
+    "metaTitle": {
+      "es": "Segmentación de pasajeros frecuentes en ride-hailing | Cabgo",
+      "en": "Frequent passenger segmentation in ride-hailing | Cabgo"
+    },
+    "metaDescription": {
+      "es": "Cómo identificar los pasajeros más frecuentes en tu operación y qué hacer con ese dato para mejorar la retención sin programas de lealtad costosos.",
+      "en": "How to identify your highest-frequency passengers in a regional ride-hailing operation and improve retention without expensive loyalty programs."
+    }
+  }
+}
