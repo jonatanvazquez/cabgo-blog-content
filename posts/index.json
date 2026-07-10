@@ -1,6 +1,25 @@
 {
-  "generatedAt": "2026-07-09T14:11:24.014Z",
+  "generatedAt": "2026-07-10T14:10:18.118Z",
   "posts": [
+    {
+      "slug": "distribucion-horaria-demanda-turnos-conductores",
+      "category": "strategy",
+      "title": {
+        "es": "Distribución horaria de demanda en ride-hailing: cómo alinear turnos de conductores con los picos reales",
+        "en": "Hourly demand distribution in ride-hailing: how to align driver shifts with actual request peaks"
+      },
+      "excerpt": {
+        "es": "Tu curva de demanda por hora tiene tres o cuatro picos predecibles. Los operadores que los identifican y comunican ese mapa a sus conductores reducen tiempos de espera sin aumentar la flota.",
+        "en": "Your hourly demand curve has three or four predictable peaks. Operators who identify them and share that map with drivers reduce wait times without growing the fleet."
+      },
+      "heroImage": "https://raw.githubusercontent.com/jonatanvazquez/cabgo-blog-content/main/images/distribucion-horaria-demanda-turnos-conductores.jpg",
+      "heroImageAlt": {
+        "es": "Ilustración isométrica de una línea de tiempo horizontal de las 6am a medianoche con burbujas de demanda de distintas alturas —dos picos altos en verde azulado a las 7-9am y 7-9pm— y grupos de íconos de vehículos debajo de cada franja, escasos en los picos y abundantes en los valles. Una flecha vertical ámbar señala la brecha entre el pico alto de demanda de las 8am y la escasa disponibilidad de conductores. En el frente, un panel de dashboard muestra un tiempo de espera de 13 minutos en rojo.",
+        "en": "Isometric illustration of a horizontal timeline from 6am to midnight with demand bubbles of varying heights above each hour — two tall teal spikes at 7-9am and 7-9pm — and clusters of vehicle icons below each slot, sparse under peaks and abundant in the valleys. An amber vertical arrow marks the gap between the large 8am demand bubble and low driver availability. In the foreground, a dashboard panel shows a 13-minute wait time in red."
+      },
+      "publishedAt": "2026-07-10",
+      "readingMinutes": 9
+    },
     {
       "slug": "segmentacion-pasajeros-frecuentes-demanda-regional",
       "category": "strategy",

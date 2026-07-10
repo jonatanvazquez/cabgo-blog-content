@@ -1,0 +1,262 @@
+{
+  "slug": "distribucion-horaria-demanda-turnos-conductores",
+  "category": "strategy",
+  "title": {
+    "es": "Distribución horaria de demanda en ride-hailing: cómo alinear turnos de conductores con los picos reales",
+    "en": "Hourly demand distribution in ride-hailing: how to align driver shifts with actual request peaks"
+  },
+  "excerpt": {
+    "es": "Tu curva de demanda por hora tiene tres o cuatro picos predecibles. Los operadores que los identifican y comunican ese mapa a sus conductores reducen tiempos de espera sin aumentar la flota.",
+    "en": "Your hourly demand curve has three or four predictable peaks. Operators who identify them and share that map with drivers reduce wait times without growing the fleet."
+  },
+  "heroImage": "https://raw.githubusercontent.com/jonatanvazquez/cabgo-blog-content/main/images/distribucion-horaria-demanda-turnos-conductores.jpg",
+  "heroImageAlt": {
+    "es": "Ilustración isométrica de una línea de tiempo horizontal de las 6am a medianoche con burbujas de demanda de distintas alturas —dos picos altos en verde azulado a las 7-9am y 7-9pm— y grupos de íconos de vehículos debajo de cada franja, escasos en los picos y abundantes en los valles. Una flecha vertical ámbar señala la brecha entre el pico alto de demanda de las 8am y la escasa disponibilidad de conductores. En el frente, un panel de dashboard muestra un tiempo de espera de 13 minutos en rojo.",
+    "en": "Isometric illustration of a horizontal timeline from 6am to midnight with demand bubbles of varying heights above each hour — two tall teal spikes at 7-9am and 7-9pm — and clusters of vehicle icons below each slot, sparse under peaks and abundant in the valleys. An amber vertical arrow marks the gap between the large 8am demand bubble and low driver availability. In the foreground, a dashboard panel shows a 13-minute wait time in red."
+  },
+  "heroImagePrompt": "A central horizontal timeline bar spanning 6am to midnight with 18 hour segment markers. Above each hour segment, varying-height teal demand bubbles sit — tall clusters at the 7am-to-9am and 7pm-to-9pm peak windows, short bubbles in the midday and overnight hours. Below the timeline, driver vehicle icons are distributed by hour: only two small icons under each peak-hour segment, four to six icons under the off-peak hours, creating a visible mismatch. A bold vertical amber gap arrow points from the large 8am demand bubble down to the sparse two-icon driver row below it. A compact floating dashboard card in the foreground shows a wait time readout with 13 in large red numerals beside a clock icon. Deep violet floor grid, soft indigo radial background glow, clean geometric shapes, subtle shadows. Negative space on the lower right.",
+  "publishedAt": "2026-07-10",
+  "readingMinutes": 9,
+  "keywords": {
+    "es": [
+      "distribución horaria demanda ride-hailing",
+      "turnos conductores picos demanda regional",
+      "curva demanda horaria taxi app operación",
+      "brechas cobertura conductores ride-hailing",
+      "gestión turnos conductores movilidad regional",
+      "picos demanda horarios taxi app LATAM",
+      "alinear disponibilidad conductores demanda real"
+    ],
+    "en": [
+      "hourly demand distribution ride-hailing",
+      "driver shift alignment demand peaks regional",
+      "demand curve hourly taxi app operation",
+      "coverage gaps driver availability regional",
+      "driver shift management regional mobility",
+      "demand peak windows taxi app Latin America",
+      "align driver availability actual demand patterns"
+    ]
+  },
+  "author": {
+    "name": "Equipo Cabgo",
+    "role": {
+      "es": "Plataforma de movilidad",
+      "en": "Mobility platform"
+    }
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La mayoría de los operadores regionales conocen sus viajes totales por día, pero no conocen la forma de su curva de demanda hora a hora. Esa curva —que en operaciones de 150 a 600 viajes diarios tiene tres o cuatro ventanas de pico con caídas claras entre ellas— es el mapa más directo de cuándo la plataforma necesita conductores y cuándo puede operar con menor disponibilidad sin degradar la experiencia del pasajero. La diferencia entre un día con 280 viajes completados y tiempos de espera de 4 minutos y otro con el mismo volumen y tiempos de 12 minutos rara vez está en el número de conductores registrados: está en cuántos de ellos estaban activos en las franjas donde la demanda llegó concentrada. Gestionar la distribución de oferta por hora de la semana —no solo por día— es la intervención con mayor impacto sobre el tiempo de espera y, simultáneamente, sobre el ingreso por hora del conductor.",
+        "en": "Most regional operators know their total trips per day but not the shape of their hour-by-hour demand curve. That curve — with three or four identifiable peak windows and clear valleys in between in operations handling 150 to 600 daily trips — is the most direct map of when the platform needs drivers and when it can run with lower coverage without degrading the passenger experience. The difference between a day with 280 completed trips and 4-minute wait times and one with the same volume and 12-minute waits is rarely the number of registered drivers: it is how many were active during the hours when demand arrived in clusters. Managing supply distribution by hour of the week — not just by day — is the highest-impact intervention for reducing wait times while simultaneously improving driver income per session hour."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Este artículo está dirigido al operador con 20 a 80 conductores activos semanales que quiere entender cómo leer su curva de demanda horaria, qué forma toma en mercados regionales típicos, cuál es la diferencia entre gestionar conductores por total y gestionarlos por franja horaria, cómo comunicar los picos de demanda para activar disponibilidad latente sin depender del precio dinámico como primer recurso, y cómo usar el agente para detectar las brechas de cobertura que producen los tiempos de espera más altos de la semana. La demanda no está distribuida uniformemente a lo largo del día: tiene picos, tiene valles, y esa estructura es suficientemente estable para anticiparse y responderse con planificación en lugar de reacción.",
+        "en": "This article is for the operator with 20 to 80 active weekly drivers who wants to understand how to read their hourly demand curve, what shape it takes in typical regional markets, what the difference is between managing drivers by total count versus by time slot, how to communicate demand peaks to activate latent supply without relying on surge pricing as a first resort, and how to use the agent to detect the coverage gaps responsible for the week's longest wait times. Demand does not distribute uniformly across the day: it has peaks and valleys, and that structure is stable enough to anticipate and respond to with planning rather than reaction."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "curva-demanda-horaria-metrica-que-importa",
+      "text": {
+        "es": "La curva de demanda por hora: la métrica que el total diario no muestra",
+        "en": "The hourly demand curve: the metric that daily totals hide"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El total de viajes por día es la métrica más visible en el dashboard, pero también la menos accionable desde el punto de vista de gestión de oferta. Saber que el martes hubo 180 viajes no dice nada sobre cuándo llegaron: si llegaron distribuidos uniformemente en 16 horas activas, la operación los puede atender con 12 conductores en paralelo. Si el 40% de esos viajes llegó entre las 7:00 y las 9:30 de la mañana, la operación necesitó más conductores en ese bloque y tuvo exceso de capacidad en el resto del día —conductores activos esperando solicitudes que no llegaban—. La distribución horaria de demanda —el número de solicitudes por franja de 30 o 60 minutos— es la métrica que hace visible esa concentración y permite actuar sobre ella.",
+        "en": "The daily trip total is the most visible metric in the dashboard but also the least actionable from a supply management perspective. Knowing that Tuesday had 180 trips says nothing about when they arrived: if they came uniformly across 16 active hours, the operation can handle them with 12 drivers in parallel. If 40% of those trips arrived between 7:00 and 9:30 a.m., the operation needed more drivers in that block and had excess capacity the rest of the day — drivers connected and waiting on requests that weren't coming. The hourly demand distribution — trips per 30 or 60-minute slot — is the metric that makes that concentration visible and actionable."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "En ciudades de 150,000 a 600,000 habitantes con operaciones de 3 a 24 meses, la distribución horaria rara vez es uniforme. En la mayoría de mercados regionales, el 35 a 45% de los viajes del día se concentra en cuatro bloques de dos horas. Eso significa que el operador que alinea su disponibilidad con esos bloques tiene menores tiempos de espera y conductores con mayor ingreso por hora de sesión que el que distribuye la disponibilidad uniformemente durante todas las horas activas. La asimetría de la demanda no es un problema a mitigar: es una palanca de eficiencia que solo funciona cuando se le da visibilidad.",
+        "en": "In cities of 150,000 to 600,000 residents with operations 3 to 24 months old, hourly distribution is rarely uniform. In most regional markets, 35 to 45% of daily trips concentrate in four two-hour blocks. That means an operator who aligns availability with those blocks achieves lower wait times and higher driver income per session hour than one who spreads coverage uniformly across all active hours. Demand asymmetry is not a problem to mitigate: it is an efficiency lever that only works when it is made visible."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "como-leer-distribucion-horaria-datos-disponibles",
+      "text": {
+        "es": "Cómo leer tu distribución horaria con los datos disponibles",
+        "en": "How to read your hourly distribution with available data"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La consulta al agente para construir la curva horaria: «Para los últimos 21 días hábiles, muéstrame el número de viajes completados por franja de una hora, de 5:00 am a medianoche. Separa los días entre semana de los fines de semana. Para cada franja, muestra también el número de conductores únicos activos en esa hora.» Con esa consulta, el operador obtiene dos curvas: la curva de demanda (viajes por hora) y la curva de oferta (conductores activos por hora). La brecha entre ambas en cada franja es el mapa de dónde el sistema está desequilibrado y dónde los tiempos de espera más altos de la semana tienen su causa.",
+        "en": "The agent query to build the hourly curve: 'For the last 21 business days, show me completed trips by one-hour slot from 5:00 a.m. to midnight. Separate weekdays from weekends. For each slot, also show the count of unique active drivers in that hour.' That query yields two curves: the demand curve (trips per hour) and the supply curve (active drivers per hour). The gap between them in each slot is the map of where the system is out of balance and where the week's highest wait times originate."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La primera lectura de esa curva para la mayoría de operadores revela tres condiciones por franja. La primera: demanda alta y oferta suficiente —el sistema funciona, los tiempos de espera son bajos—. La segunda: demanda alta y oferta insuficiente —el punto crítico donde los tiempos de espera suben, los pasajeros cancelan, y el conductor activo tiene su mejor ingreso por hora del día porque la relación solicitudes-conductores disponibles está en su máximo—. La tercera: demanda baja y oferta alta —conductores esperando solicitudes que no llegan, ingreso bajo, experiencia de sesión poco productiva para el conductor—. El mapa de esas tres condiciones por hora de la semana es la base de cualquier plan de disponibilidad.",
+        "en": "The first reading of that curve for most operators reveals three conditions per slot. The first: high demand and sufficient supply — the system works, wait times are low. The second: high demand and insufficient supply — the critical point where wait times climb, passengers cancel, and the active driver has their best income-per-hour of the day because the request-to-available-driver ratio is at its highest. The third: low demand and excess supply — drivers waiting on requests that arrive more slowly than their capacity, producing low income and an unproductive session experience. Mapping those three conditions across every hour of the week is the foundation of any availability plan."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "cuatro-ventanas-pico-ciudades-regionales",
+      "text": {
+        "es": "Las cuatro ventanas de pico típicas en ciudades regionales",
+        "en": "The four typical peak windows in regional cities"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "En ciudades de 150,000 a 600,000 habitantes con operaciones de movilidad establecidas, la demanda de lunes a viernes se concentra en cuatro ventanas identificables con características operativas distintas. Su hora exacta de inicio y fin varía según la composición económica y los hábitos de la ciudad, pero la forma —con picos predecibles de mañana, mediodía, tarde-noche y un patrón diferenciado de fin de semana— se mantiene en la mayoría de mercados regionales de México y Centroamérica.",
+        "en": "In cities of 150,000 to 600,000 residents with established mobility operations, Monday-to-Friday demand concentrates in four identifiable windows with distinct operational characteristics. Their exact start and end times vary by city profile and local habits, but the shape — with predictable morning, midday, evening, and a differentiated weekend pattern — holds across most regional markets in Mexico and Central America."
+      }
+    },
+    {
+      "type": "list",
+      "style": "bullet",
+      "items": {
+        "es": [
+          "**Mañana temprana (6:00 - 9:00 am)**: el pico de mayor predictibilidad. Demanda de commute a oficinas, plantas industriales y centros educativos desde zonas residenciales. El 70-80% de los viajes del bloque ocurre entre 7:00 y 8:30. Es el más fácil de preparar porque no varía semana a semana: los mismos pasajeros viajan desde las mismas zonas en el mismo horario, lo que lo convierte en el bloque más rentable para el conductor que decide conectarse en esa franja.",
+          "**Mediodía (12:30 - 2:30 pm)**: pico secundario con demanda mixta de regreso al hogar, salidas de comida y traslados de trabajo. Menos concentrado que el de mañana y más sensible a días festivos y variaciones estacionales. En ciudades con universidades o planteles de turno completo, este bloque puede igualar o superar al pico matutino en intensidad.",
+          "**Tarde-noche (6:30 - 9:30 pm)**: el pico de mayor variabilidad. Combina regreso del trabajo con salidas de entretenimiento y demanda de restaurantes y centros comerciales. Intensidad media en días de semana; en viernes y sábados puede ser el bloque más intenso de la semana. Su duración se extiende más en ciudades turísticas y mercados con mayor oferta de entretenimiento nocturno.",
+          "**Fin de semana (viernes 8 pm - sábado 2 am y sábado 10 am - domingo 2 pm)**: patrón radicalmente distinto al de días hábiles. La demanda nocturna del viernes y sábado puede concentrar el 35-45% del volumen nocturno semanal en menos de 10 horas. La demanda del sábado al mediodía origina principalmente desde zonas de comercio y entretenimiento, no desde corredores de trabajo."
+        ],
+        "en": [
+          "**Early morning (6:00 - 9:00 a.m.)**: the most predictable peak. Commute demand to offices, industrial plants, and schools from residential zones. 70 to 80% of the block's trips happen between 7:00 and 8:30. The easiest to prepare for because it doesn't vary week to week: the same passengers travel from the same zones at the same time, making it the most reliable high-income block for a driver who commits to connecting during that window.",
+          "**Midday (12:30 - 2:30 p.m.)**: secondary peak with mixed demand — return home, lunch breaks, and in-shift transfers. Less concentrated than the morning peak and more sensitive to holidays and seasonal variation. In cities with universities or full-schedule campuses, this block can match or exceed the morning peak in intensity.",
+          "**Evening (6:30 - 9:30 p.m.)**: the most variable peak. Combines post-work return trips with entertainment outings, restaurant demand, and shopping center traffic. Moderate intensity on weekdays; on Fridays and Saturdays it can be the week's highest-intensity block. Its duration extends further in tourist cities and markets with broader nightlife options.",
+          "**Weekend (Friday 8 p.m. - Saturday 2 a.m. and Saturday 10 a.m. - Sunday 2 p.m.)**: a pattern radically different from weekdays. Friday and Saturday night demand can concentrate 35 to 45% of the week's nighttime volume in under 10 hours. Saturday midday demand originates primarily from shopping and entertainment zones, not work corridors."
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "brecha-oferta-demanda-hora-como-calcularla",
+      "text": {
+        "es": "La brecha de cobertura horaria: cómo calcularla y qué indica",
+        "en": "The hourly coverage gap: how to calculate it and what it reveals"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La brecha de cobertura horaria se mide comparando dos números en cada franja: la tasa de ocupación promedio —viajes completados dividido entre conductores activos en esa hora— y el tiempo de espera mediano de las solicitudes en ese mismo bloque. Una franja con tasa de ocupación alta y tiempo de espera mediano superior a 7 minutos señala saturación de oferta: hay más demanda de la que la oferta activa puede atender sin demora. Una franja con tasa baja y tiempo de espera de 2 a 3 minutos señala exceso de oferta: conductores disponibles esperando solicitudes que llegan con menor frecuencia de la que pueden atender. Ambas condiciones tienen costo operativo, pero el primero —la saturación— produce el daño visible en forma de cancelaciones y pasajeros que migran a la competencia.",
+        "en": "The hourly coverage gap is measured by comparing two numbers in each slot: the average occupancy rate — completed trips divided by active drivers in that hour — and the median wait time of requests in that same block. A slot with a high occupancy rate and median wait time above 7 minutes signals supply saturation: more demand than active supply can handle without delay. A slot with low occupancy and 2 to 3-minute wait times signals supply excess: drivers available and waiting on requests that arrive more slowly than their collective capacity. Both conditions carry operational cost, but the first — saturation — produces the visible damage: cancellations and passengers who switch to a competitor."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La brecha horaria tiene valor predictivo en operaciones con seis o más semanas de datos: las mismas franjas que muestran déficit esta semana mostraron déficit la semana pasada. Eso significa que la intervención sobre disponibilidad en esas franjas tiene efecto predecible. Aumentar la disponibilidad en el bloque de 7:00 a 9:00 en un 20% puede bajar el tiempo de espera mediano de 11 minutos a 5, mejorando la tasa de completación y la experiencia del pasajero frecuente que usa ese bloque para su commute diario. El conductor que se suma a ese bloque también aumenta su ingreso por hora porque la relación solicitudes-conductores disponibles es más favorable que en los bloques de exceso de oferta, donde la espera entre viajes es más larga.",
+        "en": "The hourly gap has predictive value in operations with six or more weeks of data: the same slots that show a deficit this week showed one last week. That means interventions in those slots have predictable outcomes. Increasing availability in the 7:00 to 9:00 a.m. block by 20% can drop median wait time from 11 minutes to 5, improving the completion rate and the experience of the frequent passenger who uses that slot for their daily commute. The driver who shifts to that block also increases their income per hour because the request-to-driver ratio is more favorable than in the excess-supply slots, where the wait between trips is longer."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "comunicar-ventanas-alta-demanda-activar-conductores",
+      "text": {
+        "es": "Cómo comunicar las ventanas de alta demanda para activar disponibilidad latente",
+        "en": "How to communicate high-demand windows to activate latent supply"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El conductor que sabe que entre las 7:00 y las 9:00 del martes hay un pico de solicitudes en la zona norte tiene una señal concreta para planificar su sesión. El que recibe esa información como notificación la noche anterior tiene mayor probabilidad de conectarse en ese bloque que el que no tiene información anticipada. La diferencia no es de incentivo económico —es de información: el conductor que no sabe cuándo hay más trabajo no puede planificar su disponibilidad de forma óptima, y el operador no puede atribuir la baja disponibilidad en el pico a falta de motivación cuando en realidad es falta de señal.",
+        "en": "A driver who knows that Tuesday between 7:00 and 9:00 a.m. will have a request spike in the northern zone has a concrete signal to plan their session around. One who receives that information as a notification the night before is more likely to connect in that block than one with no advance information. The difference is not about financial incentive — it is about information: a driver who doesn't know when work is concentrated cannot plan their availability optimally, and the operator cannot attribute low peak-hour coverage to lack of motivation when the real problem is lack of signal."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La comunicación de ventanas de alta demanda tiene tres formas efectivas. La primera es el resumen semanal de anticipación: al inicio de la semana, una lista de las tres o cuatro franjas de mayor demanda esperada con zona de origen predominante e ingreso estimado por conductor activo en ese bloque. La segunda es la notificación previa al pico: un mensaje 30 a 45 minutos antes del inicio de la ventana con el pronóstico de solicitudes y el ingreso estimado por hora. La tercera es el cierre post-pico: un breve resumen que muestra cuántos viajes se completaron, el ingreso promedio por conductor activo y cuántos conductores estuvieron disponibles —información que el conductor compara con su propia sesión para entender si estuvo en el momento más productivo de la semana.",
+        "en": "Communicating high-demand windows takes three effective forms in regional operations. The first is the weekly advance summary: at the start of the week, a list of the three or four highest-expected-demand slots with the predominant origin zone and estimated income per active driver. The second is the pre-peak notification: a message 30 to 45 minutes before the window opens with the request forecast and estimated hourly income. The third is the post-peak close: a brief summary showing how many trips were completed, average income per active driver, and how many drivers were available — information each driver can compare against their own session to understand whether they were present during the most productive block of the week."
+      }
+    },
+    {
+      "type": "quote",
+      "text": {
+        "es": "Yo pensaba que si tenía conductores disponibles todo el día estaba cubriendo bien. Revisé los datos por hora y descubrí que entre las 7:00 y las 9:00 tenía el doble de solicitudes que entre las 10:00 y las 12:00, pero prácticamente la misma cantidad de conductores activos en ambas franjas. El tiempo de espera en el pico de mañana era de 13 minutos porque los conductores que estaban no eran suficientes. Empecé a enviar un WhatsApp la noche anterior a mis conductores de mayor actividad diciéndoles que el pico empezaba a las 7:15 y terminaba alrededor de las 9:00. En tres semanas el tiempo de espera en ese bloque bajó a 6 minutos y los conductores que se movieron a esa franja aumentaron su ingreso por hora porque completaban más viajes.",
+        "en": "I used to think that if I had drivers available all day I was covering things well. I checked the hourly data and found I had twice as many requests between 7:00 and 9:00 a.m. as between 10:00 a.m. and noon, but roughly the same number of active drivers in both slots. Wait time at the morning peak was 13 minutes because the drivers who were there weren't enough. I started sending a WhatsApp the night before to my most active drivers letting them know the peak started at 7:15 and ran until about 9:00. In three weeks the wait time in that block dropped to 6 minutes and the drivers who shifted to that slot increased their hourly income because they were completing more trips."
+      },
+      "attribution": {
+        "es": "Operador con tres años de operación en una ciudad de 240,000 habitantes en el sureste de México",
+        "en": "Operator with three years of operation in a city of 240,000 in southeastern Mexico"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "agente-mapea-distribucion-detecta-brechas-cobertura",
+      "text": {
+        "es": "Cómo el agente mapea la distribución y detecta brechas de cobertura",
+        "en": "How the agent maps the distribution and detects coverage gaps"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La consulta semanal de diagnóstico: «Para los últimos 14 días hábiles, muéstrame la franja horaria con el mayor tiempo de espera mediano. ¿Coincide con la de mayor volumen de solicitudes? ¿Cuántos conductores únicos estaban activos en esa franja comparado con la de mayor disponibilidad del día? Dame la diferencia en número de conductores entre la franja más demandada y la de mayor oferta.» Esa consulta identifica directamente si el problema es de distribución —la demanda máxima y la disponibilidad máxima no coinciden—, que es el escenario más frecuente y el más manejable sin cambiar el número total de conductores ni la tarifa.",
+        "en": "The weekly diagnostic query: 'For the last 14 business days, show me the time slot with the highest median wait time. Does it coincide with the highest request volume slot? How many unique drivers were active in that slot compared to the highest-availability slot of the day? Give me the driver count difference between the most-demanded slot and the peak-supply slot.' That query directly identifies whether the problem is distributional — peak demand and peak availability don't coincide — which is the most common and most actionable scenario, solvable without changing total driver count or fare structure."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Para automatizar la comunicación con conductores: «Cada domingo antes de las 8:00 pm, genera un resumen de las tres franjas de mayor demanda esperada para la semana siguiente basado en el historial de las últimas cuatro semanas. Incluye la zona de origen predominante para cada franja y el ingreso promedio por conductor activo durante esas horas en los últimos 14 días. Envía ese resumen por WhatsApp a los conductores que completaron más de 20 viajes la semana anterior.» Ese flujo convierte la distribución horaria en información de planificación para los conductores más activos —los que con mayor probabilidad responden a señales concretas de cuándo y dónde la plataforma los necesita más— sin que el operador tenga que redactar y enviar ese resumen manualmente cada semana.",
+        "en": "To automate driver communication: 'Every Sunday before 8:00 p.m., generate a summary of the three highest-demand expected slots for the coming week based on the last four weeks of history. Include the predominant origin zone for each slot and average income per active driver during those hours over the last 14 days. Send that summary via WhatsApp to drivers who completed more than 20 trips the previous week.' That flow converts the hourly distribution into planning information for the most active drivers — the ones most likely to respond to concrete signals about when and where the platform needs them — without the operator having to draft and send that summary manually each week."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La distribución horaria de demanda es el mapa más concreto de cuándo la operación necesita oferta y cuándo puede funcionar con menor disponibilidad sin afectar la experiencia del pasajero. El operador que conoce esa distribución —que sabe que el martes entre las 7:00 y las 9:00 necesita 18 conductores activos y que entre las 10:00 y las 12:00 puede operar bien con 9— tiene una herramienta de gestión de oferta que ningún objetivo general de «más conductores activos» puede replicar. La especificidad horaria convierte la disponibilidad de flota de una variable vaga en un plan que los conductores pueden entender, anticipar y ejecutar por interés propio.",
+        "en": "The hourly demand distribution is the most concrete map of when the operation needs supply and when it can run with less coverage without affecting the passenger experience. An operator who knows that distribution — who knows that Tuesday between 7:00 and 9:00 a.m. needs 18 active drivers and that between 10:00 a.m. and noon the operation runs well with 9 — has a supply management tool that no general 'more active drivers' target can replicate. Hourly specificity turns fleet availability from a vague variable into a plan that drivers can understand, anticipate, and execute out of self-interest."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El paso de «tenemos X conductores registrados y esperamos que estén cuando se necesiten» a «sabemos cuándo se necesitan y comunicamos ese mapa con anticipación» requiere dos cosas: leer la curva horaria una vez para entender el patrón, y comunicar ese patrón a los conductores como información de planificación. El conductor que entiende cuándo hay trabajo concentrado toma mejores decisiones de sesión por interés propio. El operador que facilita esa información antes de que sea necesaria —en lugar de responder reactivamente con precio dinámico cuando el pico ya llegó— reduce los tiempos de espera en las franjas críticas con el mismo número de conductores, sin aumentar el costo de operación ni la complejidad de gestión.",
+        "en": "Moving from 'we have X registered drivers and expect them to be there when needed' to 'we know when they're needed and communicate that map in advance' requires two things: reading the hourly curve once to understand the pattern, and sharing that pattern with drivers as planning information rather than as rules. A driver who understands when work is concentrated makes better session decisions out of self-interest. An operator who provides that information before it is needed — rather than reacting with surge pricing once the peak has already arrived — reduces wait times during critical slots with the same driver count, without raising operating costs or management complexity."
+      }
+    }
+  ],
+  "cta": {
+    "heading": {
+      "es": "¿Listo para lanzar tu propia app de movilidad?",
+      "en": "Ready to launch your own mobility app?"
+    },
+    "body": {
+      "es": "Configura tu marca, tus tarifas y tus servicios en semanas, no en meses. Cabgo te entrega la plataforma; tú te quedas con la operación, los clientes y los ingresos.",
+      "en": "Set up your brand, pricing and services in weeks, not months. Cabgo ships the platform — you keep the operation, the customers and the revenue."
+    },
+    "buttonLabel": {
+      "es": "Comenzar con Cabgo",
+      "en": "Get started with Cabgo"
+    },
+    "buttonHref": "/empezar"
+  },
+  "seo": {
+    "metaTitle": {
+      "es": "Distribución horaria de demanda en ride-hailing | Cabgo",
+      "en": "Hourly demand distribution in ride-hailing | Cabgo"
+    },
+    "metaDescription": {
+      "es": "Cómo leer la curva de demanda por hora y alinear los turnos de conductores con los picos reales de solicitudes para reducir tiempos de espera.",
+      "en": "How to read your hourly demand curve and align driver availability with actual request peaks to reduce wait times without adding more drivers."
+    }
+  }
+}
