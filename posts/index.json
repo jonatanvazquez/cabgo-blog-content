@@ -1,6 +1,25 @@
 {
-  "generatedAt": "2026-07-10T14:10:18.118Z",
+  "generatedAt": "2026-07-11T14:11:18.526Z",
   "posts": [
+    {
+      "slug": "tasa-rechazo-conductores-posicionamiento-flota",
+      "category": "strategy",
+      "title": {
+        "es": "Tasa de rechazo de conductores: por qué tu flota está donde no la necesitas",
+        "en": "Driver rejection rate: why your fleet is positioned where demand isn't"
+      },
+      "excerpt": {
+        "es": "La tasa de rechazo de conductores es la métrica anterior al tiempo de espera. Cuando sube por zona y franja, no es un problema de motivación: es un problema de posicionamiento de flota.",
+        "en": "The driver rejection rate is the metric upstream of wait time. When it rises by zone and time slot, it is not a motivation problem: it is a fleet positioning problem."
+      },
+      "heroImage": "https://raw.githubusercontent.com/jonatanvazquez/cabgo-blog-content/main/images/tasa-rechazo-conductores-posicionamiento-flota.jpg",
+      "heroImageAlt": {
+        "es": "Ilustración isométrica de una cuadrícula urbana dividida en dos mitades: a la izquierda, íconos de conductores dispersos en el centro con insignias de rechazo en ámbar flotando entre ellos y los anillos de solicitud en la zona oriente, y un contador de tiempo de espera en rojo. A la derecha, los mismos conductores agrupados cerca de la zona de alta demanda, insignias de aceptación en verde y un contador de tiempo de espera en verde azulado. En el frente, un panel de análisis con barras de tasa de rechazo por zona y una barra ámbar por encima de la línea del 20%.",
+        "en": "Isometric illustration of an urban grid split into two halves: on the left, scattered driver icons in the center district with amber rejection badges floating between them and the eastern zone request rings, and a red wait-time counter. On the right, the same drivers clustered near the high-demand zone, green acceptance badges and a teal wait-time counter. In the foreground, an analysis panel with rejection rate bars by zone and an amber bar above the 20% threshold line."
+      },
+      "publishedAt": "2026-07-11",
+      "readingMinutes": 8
+    },
     {
       "slug": "distribucion-horaria-demanda-turnos-conductores",
       "category": "strategy",
