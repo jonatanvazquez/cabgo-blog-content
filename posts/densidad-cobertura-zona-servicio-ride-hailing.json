@@ -1,0 +1,311 @@
+{
+  "slug": "densidad-cobertura-zona-servicio-ride-hailing",
+  "category": "strategy",
+  "title": {
+    "es": "Densidad de cobertura en ride-hailing: por qué operar menos área puede mejorar todos tus indicadores",
+    "en": "Coverage density in ride-hailing: why operating a smaller area can improve every metric you track",
+    "pt": "Densidade de cobertura no ride-hailing: por que operar em menos área pode melhorar todos os seus indicadores"
+  },
+  "excerpt": {
+    "es": "Ampliar la cobertura sin crecer la flota diluye la densidad de servicio y eleva rechazos y tiempos de espera. Operar menos área, bien cubierta, mejora todos los indicadores al mismo tiempo.",
+    "en": "Expanding coverage without growing the fleet dilutes service density and raises rejections and wait times. Operating a smaller, well-covered area improves every metric simultaneously.",
+    "pt": "Ampliar a cobertura sem crescer a frota dilui a densidade de serviço e eleva rejeições e tempos de espera. Operar em menos área, bem coberta, melhora todos os indicadores ao mesmo tempo."
+  },
+  "heroImage": "https://raw.githubusercontent.com/jonatanvazquez/cabgo-blog-content/main/images/densidad-cobertura-zona-servicio-ride-hailing.jpg",
+  "heroImageAlt": {
+    "es": "Ilustración isométrica de una cuadrícula urbana dividida en dos mitades. Izquierda: zona de cobertura amplia en violeta con conductores dispersos, líneas largas en ámbar hacia solicitudes lejanas e insignias de rechazo en rojo flotando. Derecha: polígono compacto en verde azulado con conductores agrupados, líneas cortas en verde hacia solicitudes cercanas y tarjeta de tiempo de espera de cinco minutos. En primer plano, panel comparativo con una barra alta en violeta para área de cobertura y una barra corta brillante en verde azulado para densidad de servicio.",
+    "en": "Isometric illustration of an urban grid split in two halves. Left: large violet coverage polygon with scattered driver icons, long amber lines to distant requests, and floating red rejection badges. Right: compact teal coverage polygon with clustered drivers, short green lines to nearby requests, and a 5-minute wait-time card. Foreground: comparison panel with a tall violet Coverage Area bar and a short bright teal Service Density bar with an upward tick.",
+    "pt": "Ilustração isométrica de uma grade urbana dividida em duas metades. Esquerda: zona de cobertura ampla em violeta com motoristas dispersos, linhas longas em âmbar para solicitações distantes e selos de rejeição em vermelho flutuando. Direita: polígono compacto em verde-azulado com motoristas agrupados, linhas curtas em verde para solicitações próximas e cartão de tempo de espera de cinco minutos. Na frente, painel comparativo com uma barra alta em violeta para área de cobertura e uma barra curta brilhante em verde-azulado para densidade de serviço."
+  },
+  "heroImagePrompt": "Isometric city grid split into two halves. Left half: large coverage polygon overlaid in faded violet covering most of the grid, with five vehicle icons scattered far apart, long amber dashed connector lines stretching between each vehicle icon and distant teal request rings at the edges, three floating red rejection badge icons, and a floating card in red showing a 16-minute wait-time counter. Right half: compact teal coverage polygon covering roughly one-third the grid area, with four vehicle icons clustered tightly inside, short green connector lines to nearby teal request rings, and a floating card in teal showing a 5-minute wait-time counter. In the foreground, a vertical comparison panel with two bar segments side by side: a tall faded-violet bar labeled Coverage Area pointing down with a thin amber arrow, and a short bright-teal bar labeled Service Density with an upward green tick mark. Deep violet floor grid, soft indigo radial background glow, clean geometric shapes, subtle shadows. Negative space on the lower right.",
+  "publishedAt": "2026-07-12",
+  "readingMinutes": 8,
+  "keywords": {
+    "es": [
+      "densidad de cobertura ride-hailing regional",
+      "zona de servicio óptima taxi app operación",
+      "cobertura geográfica flota ride-hailing LATAM",
+      "reducir zona cobertura tiempo espera operación",
+      "densidad viajes por zona taxi plataforma",
+      "viabilidad zona cobertura movilidad regional",
+      "optimizar área cobertura flota conductor regional"
+    ],
+    "en": [
+      "coverage density ride-hailing regional operation",
+      "optimal service zone taxi app operation",
+      "geographic coverage fleet ride-hailing LATAM",
+      "reduce coverage zone wait time improvement",
+      "trip density by zone taxi platform",
+      "zone viability analysis ride-hailing operation",
+      "optimize coverage area fleet driver regional"
+    ],
+    "pt": [
+      "densidade de cobertura ride-hailing regional",
+      "zona de serviço ótima app de táxi operação",
+      "cobertura geográfica frota ride-hailing LATAM",
+      "reduzir zona de cobertura tempo de espera operação",
+      "densidade de corridas por zona plataforma de táxi",
+      "viabilidade de zona de cobertura mobilidade regional",
+      "otimizar área de cobertura frota motorista regional"
+    ]
+  },
+  "author": {
+    "name": "Equipo Cabgo",
+    "role": {
+      "es": "Plataforma de movilidad",
+      "en": "Mobility platform",
+      "pt": "Plataforma de mobilidade"
+    }
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "En una operación de ride-hailing regional con 40 conductores activos semanales, la decisión de cuántos kilómetros cuadrados cubrir tiene más impacto sobre el tiempo de espera que la cantidad total de conductores disponibles. Una operación que cubre 120 kilómetros cuadrados con esa flota distribuye la oferta a una densidad media de 0.33 conductores por kilómetro cuadrado; una que cubre 45 kilómetros cuadrados con los mismos 40 conductores opera a 0.89 conductores por kilómetro cuadrado. En condiciones de demanda equivalente, la segunda operación tiene tiempos de espera entre 35 y 55% más bajos, tasas de rechazo entre 30 y 45% menores, y un ingreso por hora de sesión de conductor entre 20 y 35% superior —no porque tenga más recursos, sino porque concentra los que ya tiene en el área donde la demanda justifica el esfuerzo. La cobertura geográfica tiene un costo de densidad que la mayoría de los operadores no calcula explícitamente y que, cuando se ignora, empeora todos los indicadores operativos al mismo tiempo.",
+        "en": "In a regional ride-hailing operation with 40 weekly active drivers, the decision of how many square kilometers to cover has more impact on wait time than the total number of available drivers. An operation covering 120 square kilometers with that fleet distributes supply at a mean density of 0.33 drivers per square kilometer; one covering 45 square kilometers with the same 40 drivers operates at 0.89 drivers per square kilometer. Under equivalent demand conditions, the second operation has wait times 35 to 55% lower, rejection rates 30 to 45% lower, and driver session income per hour 20 to 35% higher — not because it has more resources, but because it concentrates the ones it has in the area where demand justifies the effort. Geographic coverage carries a density cost that most operators never calculate explicitly, and when it is ignored it degrades every operational metric at once.",
+        "pt": "Em uma operação de ride-hailing regional com 40 motoristas ativos por semana, a decisão de quantos quilômetros quadrados cobrir tem mais impacto sobre o tempo de espera do que o total de motoristas disponíveis. Uma operação que cobre 120 quilômetros quadrados com essa frota distribui a oferta a uma densidade média de 0,33 motoristas por quilômetro quadrado; uma que cobre 45 quilômetros quadrados com os mesmos 40 motoristas opera a 0,89 motoristas por quilômetro quadrado. Em condições de demanda equivalente, a segunda operação tem tempos de espera entre 35 e 55% mais baixos, taxas de rejeição entre 30 e 45% menores e um ganho por hora de sessão de motorista entre 20 e 35% superior — não porque tem mais recursos, mas porque concentra os que já tem na área onde a demanda justifica o esforço. A cobertura geográfica tem um custo de densidade que a maioria dos operadores não calcula explicitamente e que, quando ignorado, piora todos os indicadores operacionais ao mesmo tempo."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Este artículo está dirigido al operador con 20 a 80 conductores activos semanales que está considerando expandir su zona de cobertura, que lleva meses con tiempos de espera elevados sin poder diagnosticar la causa, o que acaba de detectar que algunas zonas periféricas generan rechazos sistemáticos y solicitudes sin atender. Cubre por qué la relación entre cobertura geográfica y densidad de servicio determina la mayoría de los indicadores operativos en flotas de tamaño mediano, cómo medir la densidad de viajes por zona con los datos disponibles, qué señales indican que una zona está drenando recursos sin aportar volumen suficiente, cómo calcular el umbral de densidad mínima que hace viable operar en un área, y qué decisiones operativas y de comunicación requiere reducir la cobertura cuando esa es la intervención correcta. La tesis es incómoda para quien identifica el crecimiento con expansión: en mercados con flotas de 20 a 80 conductores activos, operar menos área con mejor densidad mejora los indicadores del pasajero, del conductor y del operador de forma simultánea.",
+        "en": "This article is for the operator with 20 to 80 weekly active drivers who is considering expanding their coverage zone, who has had elevated wait times for months without being able to diagnose the cause, or who has just detected that peripheral zones are producing systematic rejections and unserved requests. It covers why the relationship between geographic coverage and service density determines most operational metrics in mid-sized fleets, how to measure trip density by zone with available data, what signals indicate a zone is draining resources without contributing sufficient volume, how to calculate the minimum density threshold that makes operating in an area viable, and what operational and communication decisions are required when reducing coverage is the right intervention. The thesis is uncomfortable for anyone who equates growth with geographic expansion: in markets with 20 to 80 active weekly drivers, operating less area with better density improves passenger, driver, and operator metrics simultaneously.",
+        "pt": "Este artigo é voltado ao operador com 20 a 80 motoristas ativos por semana que está considerando expandir sua zona de cobertura, que tem tempos de espera elevados há meses sem conseguir diagnosticar a causa, ou que acabou de detectar que zonas periféricas geram rejeições sistemáticas e solicitações sem atendimento. Ele cobre por que a relação entre cobertura geográfica e densidade de serviço determina a maioria dos indicadores operacionais em frotas de tamanho médio, como medir a densidade de corridas por zona com os dados disponíveis, que sinais indicam que uma zona está drenando recursos sem contribuir com volume suficiente, como calcular o limiar de densidade mínima que torna viável operar em uma área, e quais decisões operacionais e de comunicação são necessárias quando reduzir a cobertura é a intervenção correta. A tese é incômoda para quem identifica crescimento com expansão geográfica: em mercados com 20 a 80 motoristas ativos por semana, operar em menos área com melhor densidade melhora os indicadores do passageiro, do motorista e do operador de forma simultânea."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "trampa-cobertura-amplia-densidad",
+      "text": {
+        "es": "La trampa de la cobertura amplia: más área con la misma flota produce peor servicio",
+        "en": "The wide-coverage trap: more area with the same fleet produces worse service",
+        "pt": "A armadilha da cobertura ampla: mais área com a mesma frota produz pior serviço"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La cobertura geográfica amplia es una señal de crecimiento. Para el operador que acaba de lanzar o que compite en visibilidad con otras plataformas, tener una zona de cobertura extensa en el mapa de la app comunica presencia y alcance. El problema es que el mapa de cobertura y el mapa de densidad de servicio son dos cosas distintas. La zona de cobertura muestra dónde el pasajero puede solicitar un viaje; la densidad de servicio muestra cuántos conductores hay disponibles en cada área para atender esas solicitudes. Cuando la cobertura se expande más rápido de lo que crece la flota, la densidad de servicio cae en todas las zonas: los conductores que antes cubrían 40 kilómetros cuadrados ahora cubren 120, lo que reduce a la tercera parte su presencia relativa en cualquier punto específico de la ciudad.",
+        "en": "Wide geographic coverage signals growth. For an operator who just launched or who is competing for visibility with other platforms, having an extensive coverage zone on the app map communicates presence and reach. The problem is that the coverage map and the service density map are two different things. The coverage zone shows where a passenger can request a ride; service density shows how many drivers are available in each area to handle those requests. When coverage expands faster than the fleet grows, service density drops across all zones: the drivers who previously covered 40 square kilometers now cover 120, which reduces their relative presence at any specific point in the city to a third of what it was.",
+        "pt": "A cobertura geográfica ampla é um sinal de crescimento. Para o operador que acabou de lançar ou que compete em visibilidade com outras plataformas, ter uma zona de cobertura extensa no mapa do app comunica presença e alcance. O problema é que o mapa de cobertura e o mapa de densidade de serviço são duas coisas distintas. A zona de cobertura mostra onde o passageiro pode solicitar uma corrida; a densidade de serviço mostra quantos motoristas estão disponíveis em cada área para atender essas solicitações. Quando a cobertura se expande mais rápido do que a frota cresce, a densidade de serviço cai em todas as zonas: os motoristas que antes cobriam 40 quilômetros quadrados agora cobrem 120, o que reduz a um terço a presença relativa deles em qualquer ponto específico da cidade."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El efecto sobre los indicadores no tarda en aparecer. Un conductor a 12 minutos del origen de la solicitud tiene 3 veces más probabilidades de rechazarla que uno a 4 minutos: el reposicionamiento sin cobro es un costo real de sesión para el conductor. Un pasajero que espera 14 minutos tiene una tasa de cancelación 4 veces mayor que uno que espera 5. Y el conductor que acepta reposicionarse 10 minutos para un viaje de 8 minutos genera el mismo tiempo de sesión que en un viaje de 18 pero con un ingreso sustancialmente menor por minuto activo. Los tres efectos —rechazo del conductor, cancelación del pasajero, baja eficiencia del conductor— tienen una causa común: la densidad de oferta es insuficiente para el área de cobertura que el operador eligió. Ninguno de esos efectos se resuelve añadiendo conductores hasta que la causa de fondo —la proporción entre área cubierta y flota disponible— se corrija primero.",
+        "en": "The effect on metrics arrives quickly. A driver 12 minutes from the request origin is 3 times more likely to reject it than one 4 minutes away: the unpaid reposition is a real session cost for the driver. A passenger who waits 14 minutes has a cancellation rate 4 times higher than one who waits 5. And a driver who accepts a 10-minute reposition for an 8-minute trip generates the same session time as for an 18-minute trip but with substantially lower income per active minute. All three effects — driver rejection, passenger cancellation, low driver efficiency — share a single root cause: supply density is insufficient for the coverage area the operator chose. None of those effects resolves itself by adding more drivers until the underlying ratio between covered area and available fleet is corrected first.",
+        "pt": "O efeito sobre os indicadores aparece rapidamente. Um motorista a 12 minutos da origem da solicitação tem 3 vezes mais probabilidade de rejeitá-la do que um a 4 minutos: o reposicionamento sem cobrança é um custo real de sessão para o motorista. Um passageiro que espera 14 minutos tem uma taxa de cancelamento 4 vezes maior do que um que espera 5. E o motorista que aceita se reposicionar 10 minutos para uma corrida de 8 minutos gera o mesmo tempo de sessão do que para uma corrida de 18, mas com uma renda substancialmente menor por minuto ativo. Os três efeitos — rejeição do motorista, cancelamento do passageiro, baixa eficiência do motorista — têm uma causa comum: a densidade de oferta é insuficiente para a área de cobertura que o operador escolheu. Nenhum desses efeitos se resolve adicionando mais motoristas enquanto a razão subjacente entre área coberta e frota disponível não for corrigida primeiro."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "medir-densidad-viajes-zona",
+      "text": {
+        "es": "Cómo medir la densidad de viajes por zona con los datos disponibles",
+        "en": "How to measure trip density by zone with available data",
+        "pt": "Como medir a densidade de corridas por zona com os dados disponíveis"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La métrica central de densidad de servicio es el número de viajes completados por kilómetro cuadrado de zona en un período dado, comparado contra el número de conductores únicos activos en esa zona durante el mismo período. La consulta al agente: «Para los últimos 28 días, muéstrame los viajes completados agrupados por zona de origen. Para cada zona: número de viajes completados, número de solicitudes únicas —incluyendo las canceladas y no atendidas—, tiempo de espera mediano, tasa de rechazo de conductor y número de conductores únicos que hicieron al menos un viaje desde esa zona.» El resultado produce un mapa de densidad relativa: zonas con muchos viajes por conductor activo y tiempos de espera bajos frente a zonas con pocos viajes por conductor y tiempos de espera altos.",
+        "en": "The core service density metric is the number of completed trips per square kilometer of zone over a given period, compared against the count of unique active drivers in that zone during the same period. The agent query: 'For the last 28 days, show me completed trips grouped by origin zone. For each zone: completed trip count, unique request count — including canceled and unserved requests — median wait time, driver rejection rate, and unique driver count who made at least one trip from that zone.' The result produces a relative density map: zones with high trips per active driver and low wait times versus zones with few trips per driver and high wait times.",
+        "pt": "A métrica central de densidade de serviço é o número de corridas concluídas por quilômetro quadrado de zona em um período dado, comparado com o número de motoristas únicos ativos nessa zona durante o mesmo período. A consulta ao agente: «Para os últimos 28 dias, mostre as corridas concluídas agrupadas por zona de origem. Para cada zona: número de corridas concluídas, número de solicitações únicas —incluindo as canceladas e não atendidas—, tempo de espera mediano, taxa de rejeição de motorista e número de motoristas únicos que fizeram ao menos uma corrida a partir dessa zona.» O resultado produz um mapa de densidade relativa: zonas com muitas corridas por motorista ativo e tempos de espera baixos versus zonas com poucas corridas por motorista e tempos de espera altos."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Lo que hace comparable ese mapa entre zonas de tamaño físico distinto es normalizar el volumen por área. Una zona de 8 kilómetros cuadrados con 180 viajes mensuales tiene una densidad de 22.5 viajes por kilómetro cuadrado; una de 25 km² con 160 viajes tiene 6.4 viajes/km². La segunda tiene 25% menos viajes pero ocupa tres veces más área: en términos de densidad de demanda, no tiene la misma eficiencia operativa ni para el pasajero que espera ni para el conductor que la cubre. Los rangos orientativos en operaciones de 150 a 500 viajes diarios: zonas con más de 15 viajes/km²/mes tienen densidad de demanda que justifica disponibilidad activa de conductores de forma sistemática; entre 5 y 15 viajes/km²/mes, son viables con disponibilidad reducida en horas pico; por debajo de 5 viajes/km²/mes, raramente justifican que un conductor se posicione ahí de forma anticipada. El número de área no define la viabilidad: la concentración de solicitudes dentro del área sí.",
+        "en": "What makes this map comparable across zones of different physical size is normalizing volume by area. A zone of 8 square kilometers with 180 monthly trips has a density of 22.5 trips per square kilometer; a 25 km² zone with 160 trips has 6.4 trips/km². The second zone has 25% fewer trips but occupies three times more area: in demand density terms, it does not have the same operational efficiency — not for the waiting passenger nor for the driver covering it. Reference ranges in operations handling 150 to 500 daily trips: zones above 15 trips/km²/month have demand density that justifies systematic active driver availability; between 5 and 15 trips/km²/month, they are viable with reduced availability during peak hours; below 5 trips/km²/month, they rarely justify a driver positioning there in anticipation. Area size does not define viability: the concentration of requests within the area does.",
+        "pt": "O que torna esse mapa comparável entre zonas de tamanho físico distinto é normalizar o volume por área. Uma zona de 8 quilômetros quadrados com 180 corridas mensais tem uma densidade de 22,5 corridas por quilômetro quadrado; uma de 25 km² com 160 corridas tem 6,4 corridas/km². A segunda tem 25% menos corridas, mas ocupa três vezes mais área: em termos de densidade de demanda, não tem a mesma eficiência operacional — nem para o passageiro que espera nem para o motorista que a cobre. As faixas de referência em operações de 150 a 500 corridas diárias: zonas com mais de 15 corridas/km²/mês têm densidade de demanda que justifica disponibilidade ativa de motoristas de forma sistemática; entre 5 e 15 corridas/km²/mês, são viáveis com disponibilidade reduzida nas horas de pico; abaixo de 5 corridas/km²/mês, raramente justificam que um motorista se posicione ali antecipadamente. O tamanho da área não define a viabilidade: a concentração de solicitações dentro da área, sim."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "senales-zona-degrada-operacion",
+      "text": {
+        "es": "Las señales de que una zona está degradando la operación",
+        "en": "The signals that a zone is degrading the operation",
+        "pt": "Os sinais de que uma zona está degradando a operação"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Los indicadores que señalan una zona de cobertura problemática son de tres tipos. El primero es el tiempo de espera elevado sostenido: si la zona tiene tiempos de espera medios que duplican los del resto de la operación durante tres o más semanas consecutivas, la densidad de oferta en ese perímetro es insuficiente para la demanda que llega. El segundo es la tasa de rechazo alta: una zona con rechazo por encima del 22 al 25% de forma persistente señala que los conductores que reciben solicitudes desde allí las rechazan sistemáticamente porque la distancia de reposicionamiento no les conviene. El tercero es la tasa baja de solicitudes atendidas: solicitudes que, por falta de conductor disponible dentro del radio de asignación, expiran sin que nadie las tome. Las tres señales simultáneas en la misma zona durante más de 21 días son diagnóstico suficiente para evaluar si mantenerla tiene sentido operativo.",
+        "en": "The indicators that flag a problematic coverage zone fall into three types. The first is sustained elevated wait time: if a zone has median wait times that double the rest of the operation for three or more consecutive weeks, supply density within that perimeter is insufficient for the demand arriving there. The second is a persistently high rejection rate: a zone above 22 to 25% rejection consistently signals that drivers receiving requests from there are systematically rejecting because the reposition distance doesn't make sense for them. The third is a low served-request rate: requests that expire without any driver taking them because no driver is available within the assignment radius. All three signals appearing simultaneously in the same zone for more than 21 days are sufficient to diagnose that maintaining coverage there may not be operationally warranted.",
+        "pt": "Os indicadores que sinalizam uma zona de cobertura problemática são de três tipos. O primeiro é o tempo de espera elevado sustentado: se a zona tem tempos de espera medianos que duplicam o restante da operação por três ou mais semanas consecutivas, a densidade de oferta naquele perímetro é insuficiente para a demanda que chega. O segundo é a alta taxa de rejeição persistente: uma zona acima de 22 a 25% de rejeição de forma consistente sinaliza que os motoristas que recebem solicitações de lá as rejeitam sistematicamente porque a distância de reposicionamento não lhes convém. O terceiro é a baixa taxa de solicitações atendidas: solicitações que expiram sem que ninguém as aceite por falta de motorista disponível dentro do raio de atribuição. Os três sinais simultâneos na mesma zona por mais de 21 dias são diagnóstico suficiente para avaliar se mantê-la tem sentido operacional."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Lo que dificulta detectar estas señales es que el dashboard estándar muestra promedios de toda la operación. La zona con tiempo de espera de 18 minutos puede quedar compensada en el promedio por zonas con 4 minutos, haciendo que el indicador agregado parezca aceptable. El operador que solo revisa el promedio global no ve la degradación concentrada en áreas periféricas hasta que acumula semanas de pasajeros insatisfechos y conductores que dejan de conectarse en esas zonas porque no les resultan productivas. Ese doble efecto —menor disponibilidad de conductores en la zona porque no les conviene, mayor insatisfacción de pasajeros porque esperan más— se alimenta mutuamente y se intensifica con el tiempo. La segmentación por zona, la misma consulta que permite detectar picos horarios y rechazos sistemáticos, es el instrumento para ver esa degradación antes de que llegue al promedio global.",
+        "en": "What makes these signals hard to detect is that the standard dashboard shows operation-wide averages. A zone with 18-minute wait times can be offset in the average by zones showing 4 minutes, making the aggregate indicator look acceptable. An operator who only reviews the global average doesn't see the concentrated degradation in peripheral areas until weeks of dissatisfied passengers have accumulated and drivers have stopped connecting in those zones because they find them unproductive. That double effect — lower driver availability in the zone because it doesn't work for them, higher passenger dissatisfaction because they wait longer — feeds itself and intensifies over time. Zone-level segmentation, the same query that detects hourly peaks and systematic rejections, is the instrument for seeing that degradation before it reaches the global average.",
+        "pt": "O que dificulta detectar esses sinais é que o dashboard padrão mostra médias de toda a operação. A zona com tempo de espera de 18 minutos pode ficar compensada na média por zonas com 4 minutos, fazendo o indicador agregado parecer aceitável. O operador que revisa apenas a média global não vê a degradação concentrada em áreas periféricas até acumular semanas de passageiros insatisfeitos e motoristas que param de se conectar nessas zonas porque não as acham produtivas. Esse duplo efeito — menor disponibilidade de motoristas na zona porque não lhes convém, maior insatisfação dos passageiros porque esperam mais — se retroalimenta e se intensifica com o tempo. A segmentação por zona, a mesma consulta que detecta picos horários e rejeições sistemáticas, é o instrumento para ver essa degradação antes que ela chegue à média global."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "analisis-viabilidad-zona",
+      "text": {
+        "es": "El análisis de viabilidad por zona: cómo calcular si un área aporta o drena la operación",
+        "en": "Zone viability analysis: how to calculate whether an area contributes or drains the operation",
+        "pt": "Análise de viabilidade por zona: como calcular se uma área contribui ou drena a operação"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El análisis de viabilidad por zona tiene cuatro componentes: el volumen de solicitudes que genera el área, el tiempo de espera que produce, la tasa de rechazo en sus solicitudes y la cantidad de conductores que actualmente la cubren. Para que una zona sea operativamente viable, necesita que haya conductores que puedan atender sus solicitudes sin un reposicionamiento de más de 6 a 8 minutos —lo que implica que debe haber conductores posicionados en o cerca de la zona durante sus horas de mayor demanda—, y que el volumen de viajes justifique el costo de oportunidad del conductor que se posiciona ahí en lugar de hacerlo en zonas más densas. La consulta al agente que permite este análisis: «Para cada zona con tasa de rechazo superior al 18% en los últimos 30 días, muéstrame: número de viajes completados, número de solicitudes que expiraron sin atender, tiempo de espera mediano, número de conductores que hicieron al menos un viaje allí, e ingreso promedio por viaje en esa zona comparado con el promedio general de la operación.»",
+        "en": "Zone viability analysis has four components: the volume of requests the area generates, the wait time it produces, the rejection rate of its requests, and the number of drivers currently covering it. For a zone to be operationally viable, there need to be drivers who can handle its requests without repositioning more than 6 to 8 minutes away — implying that drivers must be positioned in or near the zone during its highest-demand hours — and the trip volume must justify the opportunity cost for a driver who positions there instead of in denser zones. The agent query that enables this analysis: 'For each zone with a rejection rate above 18% in the last 30 days, show me: completed trip count, requests that expired without being served, median wait time, drivers who made at least one trip there, and average income per trip in that zone compared to the operation-wide average.'",
+        "pt": "A análise de viabilidade por zona tem quatro componentes: o volume de solicitações que a área gera, o tempo de espera que produz, a taxa de rejeição de suas solicitações e a quantidade de motoristas que atualmente a cobrem. Para que uma zona seja operacionalmente viável, é preciso que haja motoristas que consigam atender suas solicitações sem um reposicionamento de mais de 6 a 8 minutos — o que implica que deve haver motoristas posicionados nela ou nas suas proximidades durante suas horas de maior demanda —, e que o volume de corridas justifique o custo de oportunidade do motorista que se posiciona ali em vez de fazê-lo em zonas mais densas. A consulta ao agente que permite essa análise: «Para cada zona com taxa de rejeição superior a 18% nos últimos 30 dias, mostre: número de corridas concluídas, número de solicitações que expiraram sem atendimento, tempo de espera mediano, motoristas que fizeram ao menos uma corrida ali, e ganho médio por corrida nessa zona em comparação com a média geral da operação.»"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La referencia de viabilidad que funciona en operaciones de 200 a 600 viajes diarios: una zona es marginalmente viable si el ingreso promedio por conductor por hora en esa área está a menos del 25% por debajo del ingreso promedio en las zonas de mayor densidad. Una zona que genera 120 MXN por hora por conductor cuando las zonas densas generan 200 MXN es marginal pero no inviable si tiene demanda captiva —pasajeros que no tienen alternativa de transporte cercana—. Una zona que genera 75 MXN por hora cuando las densas generan 200 MXN no justifica posicionamiento activo: el conductor que la cubre tiene costos de sesión —combustible, tiempo— que exceden el retorno diferencial de estar ahí frente a las alternativas más productivas disponibles. El operador que tiene ese dato para cada zona tiene el mapa completo de qué áreas están sustentando la operación y cuáles la están subvencionando en silencio.",
+        "en": "The viability reference that works in operations handling 200 to 600 daily trips: a zone is marginally viable if the average income per driver per hour in that area is no more than 25% below the average in the highest-density zones. A zone generating 120 MXN per hour per driver when dense zones generate 200 MXN is marginal but not unviable if it has captive demand — passengers with no nearby transport alternative. A zone generating 75 MXN per hour when dense zones generate 200 MXN does not justify active positioning: the driver who covers it incurs session costs — fuel, time — that exceed the differential return of being there versus the more productive alternatives available. The operator who has that figure for each zone has the complete map of which areas are sustaining the operation and which are quietly subsidizing it.",
+        "pt": "A referência de viabilidade que funciona em operações de 200 a 600 corridas diárias: uma zona é marginalmente viável se o ganho médio por motorista por hora nessa área estiver a menos de 25% abaixo do ganho médio nas zonas de maior densidade. Uma zona que gera 120 MXN por hora por motorista quando as zonas densas geram 200 MXN é marginal, mas não inviável se tiver demanda cativa — passageiros sem alternativa de transporte próxima. Uma zona que gera 75 MXN por hora quando as densas geram 200 MXN não justifica posicionamento ativo: o motorista que a cobre tem custos de sessão — combustível, tempo — que superam o retorno diferencial de estar ali em vez das alternativas mais produtivas disponíveis. O operador que tem esse dado para cada zona tem o mapa completo de quais áreas estão sustentando a operação e quais a estão subsidiando em silêncio."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "cuando-como-reducir-cobertura",
+      "text": {
+        "es": "Cuándo y cómo reducir la zona de cobertura: el protocolo de decisión",
+        "en": "When and how to reduce the coverage zone: the decision protocol",
+        "pt": "Quando e como reduzir a zona de cobertura: o protocolo de decisão"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La condición que justifica reducir la zona de cobertura es la concurrencia de tres indicadores durante más de 30 días: tiempo de espera mediano en la zona superior al doble del promedio de la operación, tasa de rechazo de conductor por encima del 22% y densidad de demanda inferior a 5 viajes por kilómetro cuadrado al mes. Cuando las tres condiciones se cumplen simultáneamente, mantener la zona activa no solo produce mala experiencia en ella: degrada los indicadores de las zonas adyacentes porque los conductores que se reposicionan hacia la periferia quedan fuera de alcance para las solicitudes de las zonas más densas durante el tiempo del reposicionamiento. Es un costo geográfico que se distribuye sobre toda la operación.",
+        "en": "The condition that justifies reducing the coverage zone is the simultaneous presence of three indicators for more than 30 days: zone median wait time above double the operation average, driver rejection rate above 22%, and demand density below 5 trips per square kilometer per month. When all three conditions hold at once, keeping the zone active doesn't just produce a poor experience within it: it degrades the metrics of adjacent zones because drivers who reposition to the periphery become unavailable for requests in denser zones during the reposition time. That is a geographic cost distributed across the entire operation.",
+        "pt": "A condição que justifica reduzir a zona de cobertura é a ocorrência simultânea de três indicadores por mais de 30 dias: tempo de espera mediano na zona superior ao dobro da média da operação, taxa de rejeição de motorista acima de 22% e densidade de demanda inferior a 5 corridas por quilômetro quadrado por mês. Quando as três condições se cumprem simultaneamente, manter a zona ativa não apenas produz uma experiência ruim nela: degrada os indicadores das zonas adjacentes porque os motoristas que se reposicionam para a periferia ficam fora de alcance para as solicitações das zonas mais densas durante o tempo do reposicionamento. É um custo geográfico que se distribui por toda a operação."
+      }
+    },
+    {
+      "type": "list",
+      "style": "bullet",
+      "intro": {
+        "es": "El protocolo de reducción de cobertura tiene tres fases que deben ejecutarse en orden:",
+        "en": "The coverage reduction protocol has three phases that must be executed in sequence:",
+        "pt": "O protocolo de redução de cobertura tem três fases que devem ser executadas em ordem:"
+      },
+      "items": {
+        "es": [
+          "**Comunicación interna con conductores**: informar a los conductores activos cuál zona dejará de tener cobertura, en qué fecha, y qué alternativa de posicionamiento tienen en la zona más cercana viable. La información útil es concreta: cuántas solicitudes generó esa zona en el último mes y cuál es el ingreso estimado por hora en las zonas alternativas. El conductor que recibe ese contexto entiende el cambio como una mejora en su productividad, no como una restricción arbitraria.",
+          "**Actualización del polígono de cobertura en la app**: retirar la zona del área visible de solicitudes o añadir una indicación de cobertura limitada para que las solicitudes desde ese perímetro dejen de entrar al sistema de asignación durante las franjas de baja disponibilidad. Si la plataforma permite configurar horarios de cobertura por zona, limitar la cobertura periférica a las horas con mayor concentración de demanda en lugar de cerrarla completamente preserva el acceso para los pasajeros que la usan en los momentos de mayor actividad.",
+          "**Monitoreo de impacto en los 21 días siguientes**: comparar el tiempo de espera mediano y la tasa de rechazo en las zonas adyacentes antes y después del cambio. El indicador más claro de que la reducción fue efectiva es que el tiempo de espera en las zonas que mantuvieron cobertura bajó —señal de que los conductores que antes se reposicionaban hacia la periferia están ahora disponibles para solicitudes en las zonas de mayor densidad—. En operaciones donde se ha ejecutado este protocolo, la mejora en las zonas activas típicamente aparece dentro de las dos primeras semanas del cambio."
+        ],
+        "en": [
+          "**Driver communication**: notify active drivers which zone will lose active coverage, on what date, and what positioning alternative they have in the nearest viable zone. Useful specifics: how many requests that zone generated in the last month and what the estimated hourly income is in the alternative zones. A driver who receives that context understands the change as a productivity improvement, not an arbitrary restriction.",
+          "**Coverage polygon update in the app**: remove the zone from the visible request area or add a limited-coverage indicator so that requests from that perimeter stop entering the assignment system during low-availability slots. If the platform supports zone-level coverage scheduling, restricting peripheral coverage to the hours with the highest demand concentration — rather than closing it entirely — preserves access for passengers who use it during peak activity while eliminating the drag on adjacent zones during low-density hours.",
+          "**Impact monitoring over the following 21 days**: compare median wait time and rejection rate in adjacent zones before and after the change. The clearest sign the reduction worked is that wait times in zones that kept coverage dropped — indicating that drivers who previously repositioned to the periphery are now available for requests in higher-density zones. In operations where this protocol has been executed, improvement in the active zones typically appears within the first two weeks of the change."
+        ],
+        "pt": [
+          "**Comunicação interna com motoristas**: informar aos motoristas ativos qual zona deixará de ter cobertura ativa, em qual data, e qual alternativa de posicionamento têm na zona mais próxima viável. A informação útil é concreta: quantas solicitações essa zona gerou no último mês e qual é o ganho estimado por hora nas zonas alternativas. O motorista que recebe esse contexto entende a mudança como uma melhoria na sua produtividade, não como uma restrição arbitrária.",
+          "**Atualização do polígono de cobertura no app**: retirar a zona da área visível de solicitações ou adicionar uma indicação de cobertura limitada para que as solicitações desse perímetro deixem de entrar no sistema de atribuição durante as faixas de baixa disponibilidade. Se a plataforma permitir configurar horários de cobertura por zona, restringir a cobertura periférica às horas com maior concentração de demanda — em vez de encerrá-la completamente — preserva o acesso para os passageiros que a usam nos momentos de maior atividade.",
+          "**Monitoramento do impacto nos 21 dias seguintes**: comparar o tempo de espera mediano e a taxa de rejeição nas zonas adjacentes antes e depois da mudança. O indicador mais claro de que a redução foi efetiva é que o tempo de espera nas zonas que mantiveram cobertura caiu — sinal de que os motoristas que antes se reposicionavam para a periferia estão agora disponíveis para solicitações nas zonas de maior densidade. Em operações onde esse protocolo foi executado, a melhora nas zonas ativas tipicamente aparece dentro das duas primeiras semanas da mudança."
+        ]
+      }
+    },
+    {
+      "type": "quote",
+      "text": {
+        "es": "Tenía cobertura en toda la ciudad: 180 kilómetros cuadrados. Veía los errores en zonas periféricas —rechazos altos, esperas largas— pero pensaba que era problema de tener pocos conductores. El agente me mostró que esas zonas generaban tres viajes en todo el mes. Tres viajes. Tenía conductores yendo allá y quedando varados porque no había solicitudes cerca para el siguiente viaje. Reduje la cobertura a 60 kilómetros cuadrados, las zonas donde estaba el 90% de la demanda. El tiempo de espera bajó en las zonas activas, los rechazos bajaron, y los conductores que antes llegaban a 8 o 10 viajes por sesión llegaron a 13 o 15 porque no perdían tiempo yendo a zonas vacías.",
+        "en": "I had coverage across the whole city: 180 square kilometers. I was seeing problems in the peripheral zones — high rejections, long waits — but I assumed it was a driver count problem. The agent showed me those zones were generating three trips in an entire month. Three trips. I had drivers going there and getting stranded because there were no nearby requests for the next ride. I reduced coverage to 60 square kilometers — the zones where 90% of demand was concentrated. Wait times dropped in the active zones, rejections dropped, and drivers who were reaching 8 or 10 trips per session started hitting 13 or 15 because they stopped losing time going to empty areas.",
+        "pt": "Eu tinha cobertura em toda a cidade: 180 quilômetros quadrados. Via os problemas nas zonas periféricas — rejeições altas, esperas longas — mas achava que era um problema de poucos motoristas. O agente me mostrou que essas zonas geravam três corridas em todo o mês. Três corridas. Eu tinha motoristas indo até lá e ficando parados porque não havia solicitações próximas para a próxima corrida. Reduzi a cobertura para 60 quilômetros quadrados — as zonas onde estava 90% da demanda. O tempo de espera caiu nas zonas ativas, as rejeições caíram, e os motoristas que chegavam a 8 ou 10 corridas por sessão passaram a 13 ou 15 porque pararam de perder tempo indo a áreas vazias."
+      },
+      "attribution": {
+        "es": "Operador con dos años de operación en una ciudad de 420,000 habitantes en el norte de México",
+        "en": "Operator with two years of operation in a city of 420,000 in northern Mexico",
+        "pt": "Operador com dois anos de operação em uma cidade de 420,000 habitantes no norte do México"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "comunicar-reduccion-cobertura",
+      "text": {
+        "es": "Cómo comunicar los cambios de cobertura sin perder pasajeros ni conductores",
+        "en": "How to communicate coverage changes without losing passengers or drivers",
+        "pt": "Como comunicar mudanças de cobertura sem perder passageiros nem motoristas"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La principal objeción a reducir la zona de cobertura es perder pasajeros en las áreas que quedan fuera. Esa objeción tiene sentido si esos pasajeros generan un volumen de viajes que justifica la cobertura —en cuyo caso no se cumplen las condiciones de baja densidad que hacen viable la reducción—. Si la zona tiene menos de 5 viajes por kilómetro cuadrado al mes, los pasajeros que originan desde ahí son, por definición, de muy baja frecuencia: su valor de retención individual es bajo comparado con el costo operativo de mantener esa cobertura activa y con el efecto negativo que ese mantenimiento tiene sobre las zonas más densas. La comunicación al pasajero en ese caso es directa: una notificación en la app con la fecha del cambio, la zona aproximada afectada y el punto de recogida alternativo más cercano al límite de la nueva cobertura. Si hay un punto comercial o una avenida principal en el borde del nuevo polígono, ese punto se convierte en el referente concreto que el pasajero puede usar para continuar accediendo al servicio.",
+        "en": "The main objection to reducing coverage area is losing passengers in the zones left out. That objection makes sense if those passengers generate a trip volume that justifies the coverage — in which case the low-density conditions that warrant reduction don't hold. If the zone has fewer than 5 trips per square kilometer per month, passengers originating from there are, by definition, very low frequency: their individual retention value is low compared to the operational cost of maintaining that coverage and to the negative effect that maintenance has on the denser zones. The passenger communication in that case is direct: an app notification with the date of the change, the approximate affected area, and the nearest pickup alternative at the boundary of the new coverage zone. If there is a commercial point or a main avenue at the edge of the new polygon, that location becomes the concrete reference the passenger can use to continue accessing the service.",
+        "pt": "A principal objeção a reduzir a zona de cobertura é perder passageiros nas áreas que ficam de fora. Essa objeção faz sentido se esses passageiros geram um volume de corridas que justifica a cobertura — caso em que as condições de baixa densidade que tornam a redução viável não se aplicam. Se a zona tem menos de 5 corridas por quilômetro quadrado por mês, os passageiros que partem de lá são, por definição, de baixíssima frequência: seu valor de retenção individual é baixo em comparação com o custo operacional de manter essa cobertura ativa e com o efeito negativo que essa manutenção tem sobre as zonas mais densas. A comunicação ao passageiro, nesse caso, é direta: uma notificação no app com a data da mudança, a zona aproximada afetada e o ponto de embarque alternativo mais próximo do limite da nova cobertura. Se houver um ponto comercial ou uma avenida principal na borda do novo polígono, esse ponto se torna o referente concreto que o passageiro pode usar para continuar acessando o serviço."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Para los conductores, el framing es el opuesto. El conductor que cubría la zona periférica no pierde viajes con la reducción —la zona no generaba suficientes—; recupera tiempo productivo que antes usaba en reposicionarse hacia esa área y regresar sin haber completado un viaje adicional. La comunicación efectiva incluye el dato concreto: «La zona X tuvo 4 solicitudes en el último mes. El tiempo promedio de reposicionamiento hacia esa zona desde las áreas de mayor demanda es de 14 minutos. Con esos 14 minutos posicionados en la zona central o norte, la probabilidad de recibir una solicitud en los siguientes 5 minutos es 4 veces mayor.» Ese contexto convierte la reducción de cobertura en una mejora de ingreso por sesión para el conductor —no en una restricción de movimiento—, porque el conductor entiende que el cambio elimina viajes sin retorno que reducían su productividad horaria. La decisión que parece contractiva desde el mapa es, en la práctica, expansiva para los indicadores que importan.",
+        "en": "For drivers, the framing is the opposite. A driver who was covering the peripheral zone doesn't lose trips with the reduction — the zone wasn't generating enough. They recover productive time previously spent repositioning to that area and returning without completing an additional trip. Effective communication includes concrete data: 'Zone X had 4 requests in the last month. The average reposition time to that zone from the highest-demand areas is 14 minutes. With those 14 minutes positioned in the central or northern zone, the probability of receiving a request within the next 5 minutes is 4 times higher.' That context turns the coverage reduction into a session income improvement for the driver — not a movement restriction — because the driver understands that the change eliminates zero-return repositions that were lowering their hourly productivity. The decision that looks contractionary on the map is, in practice, expansionary for the metrics that matter.",
+        "pt": "Para os motoristas, o enquadramento é o oposto. O motorista que cobria a zona periférica não perde corridas com a redução — a zona não gerava o suficiente. Ele recupera tempo produtivo que antes gastava se reposicionando até essa área e voltando sem ter concluído uma corrida adicional. A comunicação efetiva inclui o dado concreto: «A zona X teve 4 solicitações no último mês. O tempo médio de reposicionamento até essa zona a partir das áreas de maior demanda é de 14 minutos. Com esses 14 minutos posicionado na zona central ou norte, a probabilidade de receber uma solicitação nos próximos 5 minutos é 4 vezes maior.» Esse contexto transforma a redução de cobertura em uma melhoria de ganho por sessão para o motorista — não em uma restrição de movimento —, porque o motorista entende que a mudança elimina reposicionamentos sem retorno que reduziam sua produtividade horária. A decisão que parece contracionária no mapa é, na prática, expansionária para os indicadores que importam."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La cobertura geográfica en ride-hailing no es lineal: un aumento del 50% en el área cubierta sin un aumento equivalente en la flota activa no produce el 50% más de pasajeros potenciales —produce un deterioro proporcional en los indicadores de las zonas que ya funcionaban. El operador que evalúa su zona de cobertura con el mismo rigor con que evalúa sus turnos de conductores o su tasa de rechazo tiene acceso a una palanca de mejora que no requiere contratar más conductores ni modificar tarifas: simplemente concentrar la oferta existente donde la demanda es suficiente para que tanto el pasajero como el conductor tengan una experiencia operativamente sostenible. Esa concentración no es un retroceso —es la condición que permite crecer con calidad cuando la flota finalmente lo justifique.",
+        "en": "Geographic coverage in ride-hailing is not linear: a 50% increase in covered area without an equivalent increase in the active fleet doesn't produce 50% more potential passengers — it produces a proportional deterioration in the metrics of the zones that were already working. An operator who evaluates their coverage zone with the same rigor they apply to driver shifts or rejection rate has access to an improvement lever that requires neither hiring more drivers nor changing fares: simply concentrating existing supply where demand is sufficient for both the passenger and the driver to have an operationally sustainable experience. That concentration is not a retreat — it is the condition that allows growth with quality when the fleet finally warrants it.",
+        "pt": "A cobertura geográfica no ride-hailing não é linear: um aumento de 50% na área coberta sem um aumento equivalente na frota ativa não produz 50% mais passageiros potenciais — produz uma deterioração proporcional nos indicadores das zonas que já funcionavam. O operador que avalia sua zona de cobertura com o mesmo rigor com que avalia seus turnos de motoristas ou sua taxa de rejeição tem acesso a uma alavanca de melhoria que não exige contratar mais motoristas nem modificar tarifas: simplesmente concentrar a oferta existente onde a demanda é suficiente para que tanto o passageiro quanto o motorista tenham uma experiência operacionalmente sustentável. Essa concentração não é um recuo — é a condição que permite crescer com qualidade quando a frota finalmente justificar."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La decisión de reducir cobertura es contracultural para un operador que identifica el crecimiento con expansión geográfica. Pero en mercados regionales con flotas de 20 a 80 conductores activos, la densidad de servicio en las zonas correctas tiene más impacto sobre la retención de pasajeros, el ingreso del conductor y la sostenibilidad operativa que cualquier ampliación de mapa que diluye los recursos disponibles. La revisión de viabilidad por zona —una consulta mensual al agente, un análisis de 30 minutos— es la diferencia entre operar en todo el mapa y operar bien en el mapa que la flota actual puede servir con calidad. El tamaño de la zona de cobertura que se sostiene no es el más grande posible: es el que la densidad de flota y la concentración de demanda hacen viable sin sacrificar la experiencia del pasajero ni el ingreso del conductor.",
+        "en": "The decision to reduce coverage is counterintuitive for an operator who equates growth with geographic expansion. But in regional markets with 20 to 80 active weekly drivers, service density in the right zones has more impact on passenger retention, driver income, and operational sustainability than any map expansion that dilutes available resources. The zone viability review — one monthly agent query, 30 minutes of analysis — is the difference between operating across the full map and operating well on the map the current fleet can serve with quality. The sustainable coverage zone is not the largest possible one: it is the one that fleet density and demand concentration make viable without sacrificing passenger experience or driver income.",
+        "pt": "A decisão de reduzir a cobertura é contracultural para um operador que identifica crescimento com expansão geográfica. Mas em mercados regionais com 20 a 80 motoristas ativos por semana, a densidade de serviço nas zonas certas tem mais impacto sobre a retenção de passageiros, o ganho do motorista e a sustentabilidade operacional do que qualquer ampliação de mapa que dilui os recursos disponíveis. A revisão de viabilidade por zona — uma consulta mensal ao agente, 30 minutos de análise — é a diferença entre operar em todo o mapa e operar bem no mapa que a frota atual consegue servir com qualidade. O tamanho de zona de cobertura sustentável não é o maior possível: é o que a densidade da frota e a concentração de demanda tornam viável sem sacrificar a experiência do passageiro nem o ganho do motorista."
+      }
+    }
+  ],
+  "cta": {
+    "heading": {
+      "es": "¿Listo para lanzar tu propia app de movilidad?",
+      "en": "Ready to launch your own mobility app?",
+      "pt": "Pronto para lançar seu próprio app de mobilidade?"
+    },
+    "body": {
+      "es": "Configura tu marca, tus tarifas y tus servicios en semanas, no en meses. Cabgo te entrega la plataforma; tú te quedas con la operación, los clientes y los ingresos.",
+      "en": "Set up your brand, pricing and services in weeks, not months. Cabgo ships the platform — you keep the operation, the customers and the revenue.",
+      "pt": "Configure sua marca, suas tarifas e seus serviços em semanas, não em meses. A Cabgo entrega a plataforma; você fica com a operação, os clientes e a receita."
+    },
+    "buttonLabel": {
+      "es": "Comenzar con Cabgo",
+      "en": "Get started with Cabgo",
+      "pt": "Começar com a Cabgo"
+    },
+    "buttonHref": "/empezar"
+  },
+  "seo": {
+    "metaTitle": {
+      "es": "Densidad de cobertura en ride-hailing regional | Cabgo",
+      "en": "Coverage density in regional ride-hailing | Cabgo",
+      "pt": "Densidade de cobertura no ride-hailing regional | Cabgo"
+    },
+    "metaDescription": {
+      "es": "Cómo medir la densidad de viajes por zona y cuándo reducir el área de cobertura mejora el tiempo de espera y el ingreso del conductor sin aumentar la flota.",
+      "en": "How to measure trip density by zone and when reducing coverage area improves wait times and driver income without adding more drivers.",
+      "pt": "Como medir a densidade de corridas por zona e quando reduzir a área de cobertura melhora o tempo de espera e o ganho do motorista sem aumentar a frota."
+    }
+  }
+}
