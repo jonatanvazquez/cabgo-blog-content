@@ -3,16 +3,19 @@
   "category": "product",
   "title": {
     "es": "Cupones y bonos por chat: el agente como herramienta de marketing operativo",
-    "en": "Coupons and bonuses via chat: the agent as an operational marketing tool"
+    "en": "Coupons and bonuses via chat: the agent as an operational marketing tool",
+    "pt": "Cupons e bônus por chat: o agente como ferramenta de marketing operacional"
   },
   "excerpt": {
     "es": "El agente conectado al MCP de Cabgo puede crear campañas tan bien como genera reportes — si el operador sabe qué preguntarle y cuándo confirmar.",
-    "en": "An agent connected to Cabgo's MCP can run campaigns as well as it generates reports — if the operator knows what to ask and when to confirm."
+    "en": "An agent connected to Cabgo's MCP can run campaigns as well as it generates reports — if the operator knows what to ask and when to confirm.",
+    "pt": "O agente conectado ao MCP da Cabgo pode criar campanhas tão bem quanto gera relatórios — se o operador souber o que perguntar e quando confirmar."
   },
   "heroImage": "https://raw.githubusercontent.com/jonatanvazquez/cabgo-blog-content/main/images/cupones-bonos-agente-ia-marketing-operativo.jpg",
   "heroImageAlt": {
     "es": "Ilustración isométrica de un agente robótico en una estación de trabajo revisando una tarjeta de cupón flotante, con un mapa de ciudad con zonas resaltadas en teal y un arco de íconos de recompensa conectando los elementos",
-    "en": "Isometric illustration of a robotic agent at a workstation reviewing a floating coupon card, with a city map showing teal-highlighted zones and an arc of reward icons connecting the elements"
+    "en": "Isometric illustration of a robotic agent at a workstation reviewing a floating coupon card, with a city map showing teal-highlighted zones and an arc of reward icons connecting the elements",
+    "pt": "Ilustração isométrica de um agente robótico em uma estação de trabalho revisando um cartão de cupom flutuante, com um mapa de cidade com zonas destacadas em teal e um arco de ícones de recompensa conectando os elementos"
   },
   "heroImagePrompt": "Split isometric composition: on the left a chat interface bubble with a discount tag floating out of it toward center; in the center a friendly robotic agent at a minimal workstation reviewing a glowing coupon card with a percentage symbol; on the right a city map viewed from above with two teal-highlighted geofenced zones and small car icons moving through them. A curved timeline of small coupon tags and star-badge icons (driver bonuses) arcing above all three elements. Deep indigo background with teal accents.",
   "publishedAt": "2026-06-09",
@@ -35,13 +38,23 @@
       "demand campaigns regional mobility operator",
       "reactivate passengers AI agent Cabgo MCP",
       "weekend driver bonus AI agent chat"
+    ],
+    "pt": [
+      "cupons agente IA operação transporte por aplicativo",
+      "bônus motoristas chat MCP Cabgo",
+      "marketing operacional agente IA mobilidade",
+      "criar promoções agente ChatGPT Claude táxi",
+      "campanhas demanda operador regional mobilidade",
+      "reativar passageiros agente IA Cabgo MCP",
+      "bônus motorista fim de semana agente chat"
     ]
   },
   "author": {
     "name": "Equipo Cabgo",
     "role": {
       "es": "Plataforma de movilidad",
-      "en": "Mobility platform"
+      "en": "Mobility platform",
+      "pt": "Plataforma de mobilidade"
     }
   },
   "blocks": [
@@ -49,14 +62,16 @@
       "type": "paragraph",
       "text": {
         "es": "La mayoría de los operadores que tienen un agente conectado al MCP de Cabgo usan sus capacidades en una sola dirección: reportes. Estado del turno, conductores inactivos, saldos de efectivo, métricas de calificación. Eso cubre bien la parte del trabajo donde el operador necesita información, pero deja sin tocar otra dimensión igual de importante: la parte donde el operador necesita actuar sobre la demanda. Crear cupones de primer viaje, activar bonos de conductor para un fin de semana con evento, reactivar pasajeros que llevan tres semanas sin viaje. Esas tareas siguen siendo manuales, se hacen cuando el operador recuerda hacerlas, y se diseñan desde el dashboard sin el contexto operativo que el agente tiene disponible en tiempo real. La tesis de este artículo es que el chat es una mejor superficie de diseño para una campaña que un formulario de dashboard — no porque el agente sea más rápido, sino porque el proceso conversacional obliga al operador a articular el problema antes de crear la solución.",
-        "en": "Most operators who have an agent connected to Cabgo's MCP use its capabilities in one direction: reports. Shift status, inactive drivers, cash balances, rating metrics. That covers the part of the work where the operator needs information, but leaves untouched another dimension that's equally important: the part where the operator needs to act on demand. Creating first-trip coupons, activating driver bonuses for a weekend with an event, reactivating passengers who haven't ridden in three weeks. Those tasks remain manual, done when the operator remembers to do them, designed from the dashboard without the operational context the agent has available in real time. The thesis of this article is that chat is a better design surface for a campaign than a dashboard form — not because the agent is faster, but because the conversational process forces the operator to articulate the problem before creating the solution."
+        "en": "Most operators who have an agent connected to Cabgo's MCP use its capabilities in one direction: reports. Shift status, inactive drivers, cash balances, rating metrics. That covers the part of the work where the operator needs information, but leaves untouched another dimension that's equally important: the part where the operator needs to act on demand. Creating first-trip coupons, activating driver bonuses for a weekend with an event, reactivating passengers who haven't ridden in three weeks. Those tasks remain manual, done when the operator remembers to do them, designed from the dashboard without the operational context the agent has available in real time. The thesis of this article is that chat is a better design surface for a campaign than a dashboard form — not because the agent is faster, but because the conversational process forces the operator to articulate the problem before creating the solution.",
+        "pt": "A maioria dos operadores que têm um agente conectado ao MCP da Cabgo usa suas capacidades em uma só direção: relatórios. Status do turno, motoristas inativos, saldos de dinheiro, métricas de avaliação. Isso cobre bem a parte do trabalho em que o operador precisa de informação, mas deixa intocada outra dimensão igualmente importante: a parte em que o operador precisa agir sobre a demanda. Criar cupons de primeira corrida, ativar bônus de motorista para um fim de semana com evento, reativar passageiros que estão há três semanas sem corrida. Essas tarefas continuam sendo manuais, são feitas quando o operador lembra de fazê-las, e são desenhadas a partir do dashboard sem o contexto operacional que o agente tem disponível em tempo real. A tese deste artigo é que o chat é uma superfície de desenho melhor para uma campanha do que um formulário de dashboard — não porque o agente seja mais rápido, mas porque o processo conversacional obriga o operador a articular o problema antes de criar a solução."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "Este artículo es para el operador que ya tiene el agente funcionando con el skill de Cabgo instalado y quiere extender su uso más allá del monitoreo. Cubrimos qué herramientas de marketing tiene disponibles el servidor MCP, tres patrones de campaña que funcionan en operaciones de 50 a 150 conductores, cómo construir el prompt que produce el diseño correcto en la primera respuesta, y qué revisar antes de confirmar la ejecución. Ese último punto importa: crear un cupón que los pasajeros ven en la app es una acción Tier-3 — sale del sistema hacia afuera y no tiene botón de deshacer una vez activa. El agente propone, tú confirmas, y el servidor ejecuta. El flujo no cambia, solo cambia la naturaleza de lo que estás creando.",
-        "en": "This article is for the operator who already has the agent running with Cabgo's skill installed and wants to extend its use beyond monitoring. We cover what marketing tools the MCP server has available, three campaign patterns that work in 50 to 150-driver operations, how to build the prompt that produces the right design on the first response, and what to review before confirming execution. That last point matters: creating a coupon passengers see in the app is a Tier-3 action — it leaves the system toward the outside and there is no undo button once it's active. The agent proposes, you confirm, the server executes. The flow doesn't change, only the nature of what you're creating does."
+        "en": "This article is for the operator who already has the agent running with Cabgo's skill installed and wants to extend its use beyond monitoring. We cover what marketing tools the MCP server has available, three campaign patterns that work in 50 to 150-driver operations, how to build the prompt that produces the right design on the first response, and what to review before confirming execution. That last point matters: creating a coupon passengers see in the app is a Tier-3 action — it leaves the system toward the outside and there is no undo button once it's active. The agent proposes, you confirm, the server executes. The flow doesn't change, only the nature of what you're creating does.",
+        "pt": "Este artigo é para o operador que já tem o agente funcionando com o skill da Cabgo instalado e quer estender seu uso para além do monitoramento. Cobrimos quais ferramentas de marketing o servidor MCP tem disponíveis, três padrões de campanha que funcionam em operações de 50 a 150 motoristas, como construir o prompt que produz o desenho correto na primeira resposta, e o que revisar antes de confirmar a execução. Esse último ponto importa: criar um cupom que os passageiros veem no app é uma ação Tier-3 — sai do sistema para fora e não tem botão de desfazer uma vez ativa. O agente propõe, você confirma, e o servidor executa. O fluxo não muda, só muda a natureza do que você está criando."
       }
     },
     {
@@ -65,21 +80,24 @@
       "id": "marketing-operativo-mas-postergado",
       "text": {
         "es": "Por qué el marketing operativo sigue siendo la tarea más postergada",
-        "en": "Why operational marketing stays the most postponed task"
+        "en": "Why operational marketing stays the most postponed task",
+        "pt": "Por que o marketing operacional continua sendo a tarefa mais adiada"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "Crear un cupón en el dashboard de Cabgo tarda tres minutos. La pregunta es por qué la mayoría de los operadores los crea solo cuando hay una queja de pasajero o cuando un competidor lanza una oferta visible en la ciudad. La respuesta no es falta de tiempo ni falta de herramientas — es falta de contexto en el momento correcto. Para decidir si tiene sentido lanzar un cupón de reactivación esta semana, el operador necesita saber cuántos pasajeros llevan más de 14 días sin viaje, si la disponibilidad de conductores aguanta una demanda extra del 20%, y si hay un evento o fecha relevante en el calendario local que amplifique el alcance. Esa información existe en el servidor MCP, pero ninguna pantalla del dashboard la combina en la vista de «crear promoción». El resultado es que la decisión se pospone hasta que aparece una razón urgente, y las campañas urgentes casi nunca están bien calibradas porque se diseñan sin ese contexto.",
-        "en": "Creating a coupon in Cabgo's dashboard takes three minutes. The question is why most operators only do it when a passenger complains or when a competitor runs a visible promotion in the city. The answer isn't lack of time or lack of tools — it's lack of context at the right moment. To decide whether a reactivation coupon makes sense this week, the operator needs to know how many passengers have gone more than 14 days without a trip, whether driver availability can handle a 20% demand increase, and whether there's a relevant local event or date that could amplify the reach. That information exists in the MCP server, but no dashboard screen combines it in the «create promotion» view. The result is that the decision gets pushed back until an urgent reason appears, and urgent campaigns are rarely well-calibrated because they're designed without that context."
+        "en": "Creating a coupon in Cabgo's dashboard takes three minutes. The question is why most operators only do it when a passenger complains or when a competitor runs a visible promotion in the city. The answer isn't lack of time or lack of tools — it's lack of context at the right moment. To decide whether a reactivation coupon makes sense this week, the operator needs to know how many passengers have gone more than 14 days without a trip, whether driver availability can handle a 20% demand increase, and whether there's a relevant local event or date that could amplify the reach. That information exists in the MCP server, but no dashboard screen combines it in the «create promotion» view. The result is that the decision gets pushed back until an urgent reason appears, and urgent campaigns are rarely well-calibrated because they're designed without that context.",
+        "pt": "Criar um cupom no dashboard da Cabgo leva três minutos. A pergunta é por que a maioria dos operadores os cria apenas quando há uma reclamação de passageiro ou quando um concorrente lança uma oferta visível na cidade. A resposta não é falta de tempo nem falta de ferramentas — é falta de contexto no momento certo. Para decidir se faz sentido lançar um cupom de reativação esta semana, o operador precisa saber quantos passageiros estão há mais de 14 dias sem corrida, se a disponibilidade de motoristas aguenta uma demanda extra de 20%, e se há um evento ou data relevante no calendário local que amplifique o alcance. Essa informação existe no servidor MCP, mas nenhuma tela do dashboard a combina na visão de «criar promoção». O resultado é que a decisão é adiada até que apareça uma razão urgente, e as campanhas urgentes quase nunca estão bem calibradas porque são desenhadas sem esse contexto."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "El agente resuelve esa desconexión porque tiene acceso a todos esos datos en el mismo contexto conversacional donde creas la campaña. En lugar de abrir tres vistas distintas para obtener el contexto que necesitas, describes el problema al agente y él trae los datos, propone los parámetros y espera tu confirmación antes de ejecutar. El diseño y la ejecución ocurren en la misma conversación — lo que hace que cada campaña que creas por chat tenga más deliberación detrás que las que creas directamente en el formulario del dashboard sin ese paso previo.",
-        "en": "The agent resolves that disconnect because it has access to all that data in the same conversational context where you create the campaign. Instead of opening three different views to get the context you need, you describe the problem to the agent and it fetches the data, proposes the parameters, and waits for your confirmation before executing. Design and execution happen in the same conversation — which means every campaign you create via chat has more deliberation behind it than ones created directly in the dashboard form without that prior step."
+        "en": "The agent resolves that disconnect because it has access to all that data in the same conversational context where you create the campaign. Instead of opening three different views to get the context you need, you describe the problem to the agent and it fetches the data, proposes the parameters, and waits for your confirmation before executing. Design and execution happen in the same conversation — which means every campaign you create via chat has more deliberation behind it than ones created directly in the dashboard form without that prior step.",
+        "pt": "O agente resolve essa desconexão porque tem acesso a todos esses dados no mesmo contexto conversacional em que você cria a campanha. Em vez de abrir três telas diferentes para obter o contexto de que você precisa, você descreve o problema ao agente e ele traz os dados, propõe os parâmetros e espera a sua confirmação antes de executar. O desenho e a execução acontecem na mesma conversa — o que faz com que cada campanha que você cria por chat tenha mais deliberação por trás do que as que você cria diretamente no formulário do dashboard sem esse passo prévio."
       }
     },
     {
@@ -88,14 +106,16 @@
       "id": "que-puede-hacer-agente-marketing",
       "text": {
         "es": "Qué puede hacer el agente en marketing operativo",
-        "en": "What the agent can do in operational marketing"
+        "en": "What the agent can do in operational marketing",
+        "pt": "O que o agente pode fazer em marketing operacional"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "Antes de diseñar el primer prompt de marketing, vale la pena tener claro qué herramientas del servidor MCP están disponibles para estas tareas. Las acciones de marketing que el agente puede ejecutar en Cabgo cubren todo el ciclo desde la creación hasta el análisis posterior:",
-        "en": "Before designing the first marketing prompt, it's worth being clear about what MCP server tools are available for these tasks. The marketing actions the agent can execute in Cabgo cover the full cycle from creation to post-campaign analysis:"
+        "en": "Before designing the first marketing prompt, it's worth being clear about what MCP server tools are available for these tasks. The marketing actions the agent can execute in Cabgo cover the full cycle from creation to post-campaign analysis:",
+        "pt": "Antes de desenhar o primeiro prompt de marketing, vale a pena ter clareza sobre quais ferramentas do servidor MCP estão disponíveis para essas tarefas. As ações de marketing que o agente pode executar na Cabgo cobrem todo o ciclo desde a criação até a análise posterior:"
       }
     },
     {
@@ -115,6 +135,13 @@
           "Query past campaign history: coupons created, redemption rate, estimated cost to the operation, and the segment that used them most",
           "Check the status of an active campaign: users who have it available, redemptions made so far, and discount budget consumed",
           "Deactivate a campaign before its expiration date if the cost exceeds the target or if operational conditions change"
+        ],
+        "pt": [
+          "Criar cupons de desconto: valor fixo ou percentual, com limite de uso total e por usuário, data de validade e restrição opcional por zona geográfica ou tipo de serviço",
+          "Criar bônus de motorista: por número de corridas concluídas em um período, por avaliação média semanal, ou por disponibilidade em janelas de horário de alta demanda",
+          "Consultar o histórico de campanhas anteriores: cupons criados, taxa de resgate, estimativa do custo para a operação e segmento que mais os usou",
+          "Verificar o status de uma campanha ativa: usuários que a têm disponível, resgates realizados até o momento e orçamento de desconto consumido",
+          "Desativar uma campanha antes da sua data de validade se o custo superar o objetivo ou se as condições operacionais mudarem"
         ]
       }
     },
@@ -124,28 +151,32 @@
       "id": "tres-patrones-campana-operaciones-regionales",
       "text": {
         "es": "Tres patrones de campaña que funcionan en operaciones regionales",
-        "en": "Three campaign patterns that work in regional operations"
+        "en": "Three campaign patterns that work in regional operations",
+        "pt": "Três padrões de campanha que funcionam em operações regionais"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "Los tipos de campaña con más impacto en operaciones de 50 a 150 conductores se repiten con variaciones en casi todo el mercado regional de LATAM. El primero es la **reactivación del pasajero dormido**: cualquier usuario que completó al menos un viaje pero no ha pedido ninguno en los últimos 21 días. Este segmento responde mejor a un cupón de monto fijo que a uno porcentual — un descuento de «50 pesos en tu próximo viaje» tiene más claridad que «20% off», especialmente en mercados donde el precio promedio varía poco entre zonas. Antes de crear el cupón, el agente puede consultar cuántos usuarios entran en ese segmento esta semana y si el volumen de conductores disponibles aguanta la demanda esperada. Una operación con 200 pasajeros activos y 40 dormidos tiene una tasa de inactividad del 20% que merece atención; la misma tasa en una operación de 800 activos indica que el segmento es manejable sin urgencia.",
-        "en": "The campaign types with the most impact in 50 to 150-driver operations repeat with variations across almost all of LATAM's regional market. The first is **dormant passenger reactivation**: any user who completed at least one trip but hasn't requested one in the last 21 days. This segment responds better to a fixed-amount coupon than a percentage one — a «50-peso discount on your next trip» is clearer than «20% off», especially in markets where average prices vary little across zones. Before creating the coupon, the agent can check how many users fall into that segment this week and whether the available driver volume can handle the expected demand. An operation with 200 active passengers and 40 dormant has a 20% inactivity rate worth addressing; the same rate in an operation with 800 actives indicates the segment is manageable without urgency."
+        "en": "The campaign types with the most impact in 50 to 150-driver operations repeat with variations across almost all of LATAM's regional market. The first is **dormant passenger reactivation**: any user who completed at least one trip but hasn't requested one in the last 21 days. This segment responds better to a fixed-amount coupon than a percentage one — a «50-peso discount on your next trip» is clearer than «20% off», especially in markets where average prices vary little across zones. Before creating the coupon, the agent can check how many users fall into that segment this week and whether the available driver volume can handle the expected demand. An operation with 200 active passengers and 40 dormant has a 20% inactivity rate worth addressing; the same rate in an operation with 800 actives indicates the segment is manageable without urgency.",
+        "pt": "Os tipos de campanha com mais impacto em operações de 50 a 150 motoristas se repetem com variações em quase todo o mercado regional da América Latina. O primeiro é a **reativação do passageiro adormecido**: qualquer usuário que concluiu pelo menos uma corrida mas não pediu nenhuma nos últimos 21 dias. Esse segmento responde melhor a um cupom de valor fixo do que a um percentual — um desconto de «50 pesos na sua próxima corrida» tem mais clareza do que «20% off», especialmente em mercados onde o preço médio varia pouco entre zonas. Antes de criar o cupom, o agente pode consultar quantos usuários entram nesse segmento esta semana e se o volume de motoristas disponíveis aguenta a demanda esperada. Uma operação com 200 passageiros ativos e 40 adormecidos tem uma taxa de inatividade de 20% que merece atenção; a mesma taxa em uma operação de 800 ativos indica que o segmento é gerenciável sem urgência."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "El segundo patrón es el **bono de conductor para picos de fin de semana**: un incentivo a conductores que completen más de X viajes entre viernes a las 19:00 y domingo a las 23:59. Este patrón es más difícil de calibrar sin datos porque el valor correcto de X depende del historial de los últimos fines de semana. Un bono con umbral demasiado bajo lo alcanza casi toda la flota sin que cambie la disponibilidad real; uno demasiado alto no lo alcanza nadie y no mueve la oferta donde importa. El agente puede consultar los últimos cuatro fines de semana de historial y devolver el percentil 70 de viajes por conductor — ese número es el umbral correcto para un bono que premia al 30% más productivo de la flota sin regalar el incentivo a todos.",
-        "en": "The second pattern is the **weekend driver bonus**: an incentive for drivers who complete more than X trips between Friday at 7pm and Sunday at 11:59pm. This pattern is harder to calibrate without data because the right value of X depends on recent weekend history. A bonus with too low a threshold is reached by almost every driver without any real change in availability; one set too high nobody reaches and supply doesn't move where it matters. The agent can query the last four weekends of history and return the 70th-percentile trip count per driver — that number is the right threshold for a bonus that rewards the top 30% of fleet performers without giving the incentive to everyone."
+        "en": "The second pattern is the **weekend driver bonus**: an incentive for drivers who complete more than X trips between Friday at 7pm and Sunday at 11:59pm. This pattern is harder to calibrate without data because the right value of X depends on recent weekend history. A bonus with too low a threshold is reached by almost every driver without any real change in availability; one set too high nobody reaches and supply doesn't move where it matters. The agent can query the last four weekends of history and return the 70th-percentile trip count per driver — that number is the right threshold for a bonus that rewards the top 30% of fleet performers without giving the incentive to everyone.",
+        "pt": "O segundo padrão é o **bônus de motorista para picos de fim de semana**: um incentivo a motoristas que concluam mais de X corridas entre sexta às 19:00 e domingo às 23:59. Esse padrão é mais difícil de calibrar sem dados porque o valor correto de X depende do histórico dos últimos fins de semana. Um bônus com limite baixo demais é alcançado por quase toda a frota sem que a disponibilidade real mude; um alto demais não é alcançado por ninguém e não move a oferta onde importa. O agente pode consultar os últimos quatro fins de semana de histórico e devolver o percentil 70 de corridas por motorista — esse número é o limite correto para um bônus que premia os 30% mais produtivos da frota sem dar o incentivo de graça a todos."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "El tercer patrón es el **cupón de nueva zona**: un descuento para pasajeros que piden un viaje con origen o destino en un barrio o colonia que la operación activó recientemente y donde el volumen todavía no tiene inercia. Este tipo de cupón requiere una restricción geográfica que en el dashboard significa configurar manualmente las coordenadas de la zona. En el chat, el operador escribe el nombre del barrio y el agente resuelve las coordenadas desde el catálogo de zonas del servidor, propone el radio de cobertura según el área y deja todo listo para confirmar sin que el operador tenga que abrir un mapa externo.",
-        "en": "The third pattern is the **new zone coupon**: a discount for passengers who request a trip with origin or destination in a neighborhood the operation recently activated, where volume still hasn't built momentum. This type of coupon requires a geographic restriction that in the dashboard means manually configuring the zone's coordinates. In chat, the operator types the neighborhood name and the agent resolves the coordinates from the server's zone catalog, proposes the coverage radius based on the area, and has everything ready to confirm without the operator needing to open an external map."
+        "en": "The third pattern is the **new zone coupon**: a discount for passengers who request a trip with origin or destination in a neighborhood the operation recently activated, where volume still hasn't built momentum. This type of coupon requires a geographic restriction that in the dashboard means manually configuring the zone's coordinates. In chat, the operator types the neighborhood name and the agent resolves the coordinates from the server's zone catalog, proposes the coverage radius based on the area, and has everything ready to confirm without the operator needing to open an external map.",
+        "pt": "O terceiro padrão é o **cupom de nova zona**: um desconto para passageiros que pedem uma corrida com origem ou destino em um bairro que a operação ativou recentemente e onde o volume ainda não tem inércia. Esse tipo de cupom requer uma restrição geográfica que no dashboard significa configurar manualmente as coordenadas da zona. No chat, o operador escreve o nome do bairro e o agente resolve as coordenadas a partir do catálogo de zonas do servidor, propõe o raio de cobertura conforme a área e deixa tudo pronto para confirmar sem que o operador tenha que abrir um mapa externo."
       }
     },
     {
@@ -154,14 +185,16 @@
       "id": "prompt-diseno-campana-primera-respuesta",
       "text": {
         "es": "El prompt que produce el diseño correcto en la primera respuesta",
-        "en": "The prompt that produces the right design on the first response"
+        "en": "The prompt that produces the right design on the first response",
+        "pt": "O prompt que produz o desenho correto na primeira resposta"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "Un prompt de marketing bien estructurado tiene cuatro partes: el contexto operativo que el agente necesita para calibrar la campaña, el problema de demanda que estás resolviendo, las restricciones del negocio, y el formato de propuesta que esperas. La cuarta parte es la que más operadores omiten. Sin ella, el agente propone parámetros razonables pero genéricos que necesitan varias rondas de ajuste. Con ella, el output de la primera respuesta incluye los parámetros exactos listos para revisar y confirmar.",
-        "en": "A well-structured marketing prompt has four parts: the operational context the agent needs to calibrate the campaign, the demand problem you're solving, the business constraints, and the format of the proposal you expect. The fourth part is what most operators leave out. Without it, the agent proposes reasonable but generic parameters that need several rounds of adjustment. With it, the first response includes exact parameters ready to review and confirm."
+        "en": "A well-structured marketing prompt has four parts: the operational context the agent needs to calibrate the campaign, the demand problem you're solving, the business constraints, and the format of the proposal you expect. The fourth part is what most operators leave out. Without it, the agent proposes reasonable but generic parameters that need several rounds of adjustment. With it, the first response includes exact parameters ready to review and confirm.",
+        "pt": "Um prompt de marketing bem estruturado tem quatro partes: o contexto operacional que o agente precisa para calibrar a campanha, o problema de demanda que você está resolvendo, as restrições do negócio, e o formato de proposta que você espera. A quarta parte é a que mais operadores omitem. Sem ela, o agente propõe parâmetros razoáveis mas genéricos que precisam de várias rodadas de ajuste. Com ela, o output da primeira resposta inclui os parâmetros exatos prontos para revisar e confirmar."
       }
     },
     {
@@ -181,6 +214,13 @@
           "**Business constraints**: maximum discount budget, maximum percentage of the fleet that can reach the bonus threshold, campaign start date and expiration date",
           "**Proposal format**: ask the agent to return the exact parameters as a list — type, amount, usage limit, expiration, geographic restriction — and the estimated cost if 50% of eligible users redeem the campaign",
           "**Explicit prior verification**: add «before proposing parameters, query the last 4 weeks of history to calibrate the values» — this prevents the agent from generating numbers without grounding them in the real operation"
+        ],
+        "pt": [
+          "**Contexto operacional**: inclua o tamanho da frota ativa, a média de corridas por motorista ao dia e o percentual de disponibilidade em horário de pico — sem isso, o agente estima esses valores e pode errar na calibração",
+          "**Problema de demanda**: descreva o padrão específico que você quer mudar — inatividade de passageiros, baixa disponibilidade na sexta à noite, baixa penetração em um bairro novo — não o tipo de campanha que você quer criar",
+          "**Restrições do negócio**: orçamento máximo de desconto, percentual máximo da frota que pode alcançar o bônus, data de início e data de validade da campanha",
+          "**Formato de proposta**: peça ao agente que devolva os parâmetros exatos em uma lista — tipo, valor, limite de uso, validade, restrição geográfica — e o custo estimado se 50% dos elegíveis usarem a campanha",
+          "**Verificação prévia explícita**: acrescente «antes de propor os parâmetros, consulte o histórico das últimas 4 semanas para calibrar os valores» — isso evita que o agente gere números sem base na operação real"
         ]
       }
     },
@@ -189,7 +229,8 @@
       "variant": "tip",
       "text": {
         "es": "Si vas a usar el agente para marketing operativo de forma regular, guarda el prompt base en las instrucciones del sistema del agente — en Claude Desktop como instrucciones personalizadas de la conversación fija, en ChatGPT como instrucciones de perfil. Con el contexto fijo de tu operación (tamaño de flota, moneda, umbrales de alerta) precargado, no tienes que repetirlo en cada sesión: el agente lo tiene disponible desde que abres el chat y puede proponer el diseño sin preguntas previas.",
-        "en": "If you plan to use the agent for operational marketing regularly, save the base prompt in the agent's system instructions — in Claude Desktop as custom instructions for the fixed conversation, in ChatGPT as profile instructions. With your operation's fixed context (fleet size, currency, alert thresholds) preloaded, you don't need to repeat it every session: the agent has it available from the moment you open the chat and can propose the design without preliminary questions."
+        "en": "If you plan to use the agent for operational marketing regularly, save the base prompt in the agent's system instructions — in Claude Desktop as custom instructions for the fixed conversation, in ChatGPT as profile instructions. With your operation's fixed context (fleet size, currency, alert thresholds) preloaded, you don't need to repeat it every session: the agent has it available from the moment you open the chat and can propose the design without preliminary questions.",
+        "pt": "Se você vai usar o agente para marketing operacional de forma regular, salve o prompt base nas instruções do sistema do agente — no Claude Desktop como instruções personalizadas da conversa fixa, no ChatGPT como instruções de perfil. Com o contexto fixo da sua operação (tamanho de frota, moeda, limites de alerta) pré-carregado, você não precisa repeti-lo em cada sessão: o agente o tem disponível desde que você abre o chat e pode propor o desenho sem perguntas prévias."
       }
     },
     {
@@ -198,21 +239,24 @@
       "id": "historial-campanas-dashboard",
       "text": {
         "es": "Lo que el historial de campañas revela que el dashboard no muestra",
-        "en": "What the campaign history reveals that the dashboard doesn't show"
+        "en": "What the campaign history reveals that the dashboard doesn't show",
+        "pt": "O que o histórico de campanhas revela que o dashboard não mostra"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "Crear la campaña es la mitad del trabajo. La otra mitad es entender qué funcionó y calibrar la siguiente. El historial de campañas del servidor MCP tiene más detalle del que aparece en la vista del dashboard: no solo el total de canjes, sino cuántos usuarios distintos la usaron, en qué zona y horario tuvo más actividad, y si los conductores que cubrieron esa demanda estaban en el segmento productivo o en el de baja actividad de la flota. El agente puede consultar ese historial y entregarlo en el formato que el operador puede comparar semana a semana — el mismo tipo de salida estructurada que se construye con los prompts de auditoría, extendido para incluir el segmento de campañas.",
-        "en": "Creating the campaign is half the work. The other half is understanding what worked and calibrating the next one. The MCP server's campaign history has more detail than what appears in the dashboard view: not just the total redemptions, but how many distinct users used it, in what zone and at what time it was most active, and whether the drivers who covered that demand were in the productive or low-activity segment of the fleet. The agent can query that history and deliver it in a format the operator can compare week over week — the same kind of structured output built with audit prompts, extended to include the campaign segment."
+        "en": "Creating the campaign is half the work. The other half is understanding what worked and calibrating the next one. The MCP server's campaign history has more detail than what appears in the dashboard view: not just the total redemptions, but how many distinct users used it, in what zone and at what time it was most active, and whether the drivers who covered that demand were in the productive or low-activity segment of the fleet. The agent can query that history and deliver it in a format the operator can compare week over week — the same kind of structured output built with audit prompts, extended to include the campaign segment.",
+        "pt": "Criar a campanha é metade do trabalho. A outra metade é entender o que funcionou e calibrar a próxima. O histórico de campanhas do servidor MCP tem mais detalhe do que aparece na visão do dashboard: não só o total de resgates, mas quantos usuários distintos a usaram, em qual zona e horário teve mais atividade, e se os motoristas que cobriram essa demanda estavam no segmento produtivo ou no de baixa atividade da frota. O agente pode consultar esse histórico e entregá-lo no formato que o operador pode comparar semana a semana — o mesmo tipo de saída estruturada que se constrói com os prompts de auditoria, estendido para incluir o segmento de campanhas."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "Un operador que revisa el historial de campañas con el agente una vez por semana empieza a ver patrones que cambian cómo diseña las siguientes. El bono de fin de semana que funcionó con un umbral de 18 viajes en marzo no necesariamente produce el mismo resultado en junio si la disponibilidad de conductores cambió. El cupón de reactivación de 50 pesos que tuvo un 35% de canje en la zona norte puede tener menos del 10% en la zona sur si el ingreso promedio de los viajes es diferente. Esos datos existen en el historial y el agente los extrae con el mismo tipo de prompt que usas para las auditorías semanales — ampliado para incluir el bloque de campañas. La revisión no toma más de 5 minutos adicionales y cierra el ciclo entre crear, medir y ajustar.",
-        "en": "An operator who reviews campaign history with the agent once a week starts seeing patterns that change how they design the next ones. The weekend bonus that worked with an 18-trip threshold in March doesn't necessarily produce the same result in June if driver availability has shifted. A 50-peso reactivation coupon that achieved a 35% redemption rate in the north zone may see less than 10% in the south zone if average trip revenue there is different. That data exists in the history and the agent pulls it out with the same kind of prompt you use for weekly audits — extended to include the campaign block. The review takes no more than 5 additional minutes and closes the loop between creating, measuring, and adjusting."
+        "en": "An operator who reviews campaign history with the agent once a week starts seeing patterns that change how they design the next ones. The weekend bonus that worked with an 18-trip threshold in March doesn't necessarily produce the same result in June if driver availability has shifted. A 50-peso reactivation coupon that achieved a 35% redemption rate in the north zone may see less than 10% in the south zone if average trip revenue there is different. That data exists in the history and the agent pulls it out with the same kind of prompt you use for weekly audits — extended to include the campaign block. The review takes no more than 5 additional minutes and closes the loop between creating, measuring, and adjusting.",
+        "pt": "Um operador que revisa o histórico de campanhas com o agente uma vez por semana começa a ver padrões que mudam como ele desenha as seguintes. O bônus de fim de semana que funcionou com um limite de 18 corridas em março não necessariamente produz o mesmo resultado em junho se a disponibilidade de motoristas mudou. O cupom de reativação de 50 pesos que teve 35% de resgate na zona norte pode ter menos de 10% na zona sul se a receita média das corridas for diferente. Esses dados existem no histórico e o agente os extrai com o mesmo tipo de prompt que você usa para as auditorias semanais — ampliado para incluir o bloco de campanhas. A revisão não leva mais que 5 minutos adicionais e fecha o ciclo entre criar, medir e ajustar."
       }
     },
     {
@@ -221,65 +265,76 @@
       "id": "tarjeta-confirmacion-campana",
       "text": {
         "es": "Qué revisar en la tarjeta de confirmación antes de ejecutar",
-        "en": "What to review in the confirmation card before executing"
+        "en": "What to review in the confirmation card before executing",
+        "pt": "O que revisar no cartão de confirmação antes de executar"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "Cuando el agente presenta la tarjeta de confirmación para activar una campaña, hay tres campos que merecen lectura antes de aprobar: el radio de impacto (cuántos usuarios verán la campaña activa en su app), el costo máximo estimado si todos los elegibles la usan, y la fecha de vencimiento. Los dos primeros protegen el presupuesto; el tercero protege contra cupones que siguen activos semanas después de que la campaña terminó y nadie recuerda que están ahí. Un cupón que vence el 30 de junio y que el equipo olvida revisar puede seguir generando descuentos en julio — no porque el agente falle, sino porque nadie lo desactivó. Agregar una tarea de revisión al prompt original («al final, agrega: VERIFICAR EL [fecha] que la campaña sigue activa o fue desactivada») convierte la tarjeta de confirmación en un recordatorio de cierre además de una solicitud de aprobación.",
-        "en": "When the agent presents the confirmation card to activate a campaign, there are three fields worth reading before approving: the impact radius (how many users will see the campaign active in their app), the estimated maximum cost if all eligible users redeem it, and the expiration date. The first two protect the budget; the third protects against coupons that stay active weeks after the campaign ended and no one remembers they're there. A coupon expiring June 30th that the team forgets to review can keep generating discounts in July — not because the agent fails, but because nobody deactivated it. Adding a review task to the original prompt («at the end, add: VERIFY ON [date] that the campaign is still active or was deactivated») turns the confirmation card into a closing reminder in addition to an approval request."
+        "en": "When the agent presents the confirmation card to activate a campaign, there are three fields worth reading before approving: the impact radius (how many users will see the campaign active in their app), the estimated maximum cost if all eligible users redeem it, and the expiration date. The first two protect the budget; the third protects against coupons that stay active weeks after the campaign ended and no one remembers they're there. A coupon expiring June 30th that the team forgets to review can keep generating discounts in July — not because the agent fails, but because nobody deactivated it. Adding a review task to the original prompt («at the end, add: VERIFY ON [date] that the campaign is still active or was deactivated») turns the confirmation card into a closing reminder in addition to an approval request.",
+        "pt": "Quando o agente apresenta o cartão de confirmação para ativar uma campanha, há três campos que merecem leitura antes de aprovar: o raio de impacto (quantos usuários verão a campanha ativa no app deles), o custo máximo estimado se todos os elegíveis a usarem, e a data de validade. Os dois primeiros protegem o orçamento; o terceiro protege contra cupons que continuam ativos semanas depois de a campanha ter terminado e ninguém lembra que estão ali. Um cupom que vence em 30 de junho e que a equipe esquece de revisar pode continuar gerando descontos em julho — não porque o agente falhe, mas porque ninguém o desativou. Acrescentar uma tarefa de revisão ao prompt original («no final, acrescente: VERIFICAR EM [data] que a campanha continua ativa ou foi desativada») transforma o cartão de confirmação em um lembrete de encerramento além de uma solicitação de aprovação."
       }
     },
     {
       "type": "quote",
       "text": {
         "es": "La primera campaña que armé con el agente la hice sin prompt guardado — solo le describí el problema: demasiados pasajeros sin viajes en la semana previa a las fiestas patronales. Me preguntó cuántos días consideraba «sin viaje», consultó el historial de las últimas tres semanas y me propuso un cupón de 40 pesos con límite de 200 usos y vencimiento de cinco días. Tardé menos tiempo en revisar la tarjeta de confirmación que en abrir el formulario del dashboard. No era que el agente fuera más rápido — era que yo ya había pensado el problema antes de llegar al formulario.",
-        "en": "The first campaign I built with the agent I did without a saved prompt — I just described the problem: too many passengers without trips in the week before the local festival. It asked how many days I considered «without a trip», queried the last three weeks of history, and proposed a 40-peso coupon with a 200-use limit expiring in five days. I spent less time reviewing the confirmation card than it would have taken to open the dashboard form. It wasn't that the agent was faster — it was that I had already thought through the problem before reaching the form."
+        "en": "The first campaign I built with the agent I did without a saved prompt — I just described the problem: too many passengers without trips in the week before the local festival. It asked how many days I considered «without a trip», queried the last three weeks of history, and proposed a 40-peso coupon with a 200-use limit expiring in five days. I spent less time reviewing the confirmation card than it would have taken to open the dashboard form. It wasn't that the agent was faster — it was that I had already thought through the problem before reaching the form.",
+        "pt": "A primeira campanha que montei com o agente eu fiz sem prompt salvo — só descrevi o problema: passageiros demais sem corridas na semana anterior às festas da cidade. Ele me perguntou quantos dias eu considerava «sem corrida», consultou o histórico das últimas três semanas e me propôs um cupom de 40 pesos com limite de 200 usos e validade de cinco dias. Levei menos tempo para revisar o cartão de confirmação do que para abrir o formulário do dashboard. Não era que o agente fosse mais rápido — era que eu já tinha pensado o problema antes de chegar ao formulário."
       },
       "attribution": {
         "es": "Operadora con 95 conductores activos en una ciudad del centro de México",
-        "en": "Operator with 95 active drivers in a central Mexican city"
+        "en": "Operator with 95 active drivers in a central Mexican city",
+        "pt": "Operadora com 95 motoristas ativos em uma cidade do centro do México"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "El rol del agente en marketing operativo no es reemplazar la intuición del operador sobre su mercado — es darle a esa intuición datos calibrados en el momento en que la decisión se toma, no 20 minutos después de que el operador abrió el dashboard, reunió los números por separado y volvió a la pantalla de «crear promoción». Las campañas que se diseñan en esa conversación tienen más deliberación detrás que las que se crean desde el formulario sin ese paso, no porque el agente sea más inteligente que el operador, sino porque el formato conversacional exige que el problema sea articulado antes de que aparezca el formulario.",
-        "en": "The agent's role in operational marketing isn't to replace the operator's intuition about their market — it's to give that intuition calibrated data at the moment the decision is made, not 20 minutes after the operator opened the dashboard, gathered numbers separately, and returned to the «create promotion» screen. Campaigns designed in that conversation have more deliberation behind them than ones created from the form without that step, not because the agent is smarter than the operator, but because the conversational format requires the problem to be articulated before the form appears."
+        "en": "The agent's role in operational marketing isn't to replace the operator's intuition about their market — it's to give that intuition calibrated data at the moment the decision is made, not 20 minutes after the operator opened the dashboard, gathered numbers separately, and returned to the «create promotion» screen. Campaigns designed in that conversation have more deliberation behind them than ones created from the form without that step, not because the agent is smarter than the operator, but because the conversational format requires the problem to be articulated before the form appears.",
+        "pt": "O papel do agente em marketing operacional não é substituir a intuição do operador sobre seu mercado — é dar a essa intuição dados calibrados no momento em que a decisão é tomada, não 20 minutos depois de o operador ter aberto o dashboard, reunido os números separadamente e voltado à tela de «criar promoção». As campanhas que são desenhadas nessa conversa têm mais deliberação por trás do que as que são criadas a partir do formulário sem esse passo, não porque o agente seja mais inteligente que o operador, mas porque o formato conversacional exige que o problema seja articulado antes de o formulário aparecer."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "Si has estado usando el agente solo para reportes y auditorías, extender su uso a marketing no requiere configuración adicional — requiere un tipo de prompt diferente. La próxima vez que detectes una caída de demanda o que llegue un fin de semana con un evento importante en la ciudad, no abras el dashboard primero: abre el chat, describe el patrón que estás viendo, y pídele al agente que proponga los parámetros de una campaña basándose en el historial de las últimas cuatro semanas. La primera vez que revises esa tarjeta de confirmación con los parámetros ya calibrados y el costo estimado incluido, la resistencia a usar el agente para marketing desaparece.",
-        "en": "If you've been using the agent only for reports and audits, extending its use to marketing requires no additional configuration — just a different kind of prompt. The next time you spot a demand drop or an important weekend event coming up in the city, don't open the dashboard first: open the chat, describe the pattern you're seeing, and ask the agent to propose campaign parameters based on the last four weeks of history. The first time you review that confirmation card with already-calibrated parameters and an estimated cost included, the resistance to using the agent for marketing disappears."
+        "en": "If you've been using the agent only for reports and audits, extending its use to marketing requires no additional configuration — just a different kind of prompt. The next time you spot a demand drop or an important weekend event coming up in the city, don't open the dashboard first: open the chat, describe the pattern you're seeing, and ask the agent to propose campaign parameters based on the last four weeks of history. The first time you review that confirmation card with already-calibrated parameters and an estimated cost included, the resistance to using the agent for marketing disappears.",
+        "pt": "Se você tem usado o agente só para relatórios e auditorias, estender seu uso para marketing não requer configuração adicional — requer um tipo de prompt diferente. Da próxima vez que você detectar uma queda de demanda ou que chegar um fim de semana com um evento importante na cidade, não abra o dashboard primeiro: abra o chat, descreva o padrão que você está vendo, e peça ao agente que proponha os parâmetros de uma campanha com base no histórico das últimas quatro semanas. Na primeira vez que você revisar esse cartão de confirmação com os parâmetros já calibrados e o custo estimado incluído, a resistência a usar o agente para marketing desaparece."
       }
     }
   ],
   "cta": {
     "heading": {
       "es": "¿Listo para lanzar tu propia app de movilidad?",
-      "en": "Ready to launch your own mobility app?"
+      "en": "Ready to launch your own mobility app?",
+      "pt": "Pronto para lançar seu próprio app de mobilidade?"
     },
     "body": {
       "es": "Configura tu marca, tus tarifas y tus servicios en semanas, no en meses. Cabgo te entrega la plataforma; tú te quedas con la operación, los clientes y los ingresos.",
-      "en": "Set up your brand, pricing and services in weeks, not months. Cabgo ships the platform — you keep the operation, the customers and the revenue."
+      "en": "Set up your brand, pricing and services in weeks, not months. Cabgo ships the platform — you keep the operation, the customers and the revenue.",
+      "pt": "Configure sua marca, suas tarifas e seus serviços em semanas, não em meses. A Cabgo entrega a plataforma; você fica com a operação, os clientes e a receita."
     },
     "buttonLabel": {
       "es": "Comenzar con Cabgo",
-      "en": "Get started with Cabgo"
+      "en": "Get started with Cabgo",
+      "pt": "Começar com a Cabgo"
     },
     "buttonHref": "/empezar"
   },
   "seo": {
     "metaTitle": {
       "es": "Marketing operativo con agente IA | Cabgo",
-      "en": "Operational marketing with AI agent | Cabgo"
+      "en": "Operational marketing with AI agent | Cabgo",
+      "pt": "Marketing operacional com agente IA | Cabgo"
     },
     "metaDescription": {
       "es": "Usa el agente IA con el MCP de Cabgo para crear cupones, bonos de conductor y campañas de demanda desde el chat, con contexto operativo incluido.",
-      "en": "Use your AI agent with Cabgo's MCP to create coupons, driver bonuses, and demand campaigns from chat, with live operational context included."
+      "en": "Use your AI agent with Cabgo's MCP to create coupons, driver bonuses, and demand campaigns from chat, with live operational context included.",
+      "pt": "Use o agente IA com o MCP da Cabgo para criar cupons, bônus de motorista e campanhas de demanda pelo chat, com contexto operacional incluído."
     }
   }
 }

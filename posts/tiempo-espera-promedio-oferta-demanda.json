@@ -3,16 +3,19 @@
   "category": "strategy",
   "title": {
     "es": "El tiempo de espera promedio: el indicador de oferta que los operadores leen mal",
-    "en": "The average wait time: the supply indicator most operators misread"
+    "en": "The average wait time: the supply indicator most operators misread",
+    "pt": "O tempo de espera médio: o indicador de oferta que os operadores leem errado"
   },
   "excerpt": {
     "es": "El promedio del tiempo de espera oculta las esperas largas que erosionan la recurrencia. Leer su distribución por corredor y franja horaria anticipa esas caídas con una semana de adelanto.",
-    "en": "Average wait time hides the long waits that erode recurrence. Reading its distribution by corridor and time band anticipates those drops a week before they show on the demand dashboard."
+    "en": "Average wait time hides the long waits that erode recurrence. Reading its distribution by corridor and time band anticipates those drops a week before they show on the demand dashboard.",
+    "pt": "A média do tempo de espera esconde as esperas longas que corroem a recorrência. Ler sua distribuição por corredor e faixa de horário antecipa essas quedas com uma semana de antecedência."
   },
   "heroImage": "https://raw.githubusercontent.com/jonatanvazquez/cabgo-blog-content/main/images/tiempo-espera-promedio-oferta-demanda.jpg",
   "heroImageAlt": {
     "es": "Ilustración isométrica de una figura de pasajero en postura de espera con un gran dial de cronómetro en primer plano cuya aguja apunta justo por debajo de un umbral rojo. Al fondo izquierdo, una cuadrícula de bloques de ciudad con zonas en rojo y azul que indica cobertura desigual de conductores. A la derecha, una figura de operador examina un gráfico de barras segmentado por franja horaria con la barra de hora pico resaltada en ámbar",
-    "en": "Isometric illustration of a passenger figure in a waiting pose with a large stopwatch dial in the foreground whose needle points just below a red threshold. In the background left, a city block grid with red and blue heat zones indicating uneven driver coverage. To the right, an operator figure examines a bar chart segmented by time band with the peak hour bar highlighted in amber"
+    "en": "Isometric illustration of a passenger figure in a waiting pose with a large stopwatch dial in the foreground whose needle points just below a red threshold. In the background left, a city block grid with red and blue heat zones indicating uneven driver coverage. To the right, an operator figure examines a bar chart segmented by time band with the peak hour bar highlighted in amber",
+    "pt": "Ilustração isométrica de uma figura de passageiro em postura de espera com um grande mostrador de cronômetro em primeiro plano cuja agulha aponta logo abaixo de um limite vermelho. Ao fundo à esquerda, uma grade de quadras da cidade com zonas em vermelho e azul que indica cobertura desigual de motoristas. À direita, uma figura de operador examina um gráfico de barras segmentado por faixa de horário com a barra de horário de pico destacada em âmbar"
   },
   "heroImagePrompt": "Isometric composition centered on a large stopwatch dial with a needle pointing just below a red warning arc. To the left of the dial, a compact passenger figure stands in a waiting pose below a countdown clock icon showing a long wait. Behind them, a city block grid with red hotspot zones and cool blue zones indicating uneven driver coverage. To the right, an operator figure studies a vertical bar chart segmented into four time bands showing varying wait time heights, with the peak hour bar highlighted in amber. A dotted teal line connects the red hotspot zones to the amber peak bar. Deep violet floor grid, soft indigo radial background glow, clean geometric shapes, subtle shadows. Negative space on the lower right.",
   "publishedAt": "2026-06-30",
@@ -35,13 +38,23 @@
       "long wait impact on passenger recurrence",
       "p90 wait time ride-hailing operation",
       "driver coverage peak demand regional"
+    ],
+    "pt": [
+      "tempo de espera médio transporte por aplicativo regional",
+      "indicador oferta motoristas operação app de táxi",
+      "como reduzir tempo de espera plataforma de mobilidade",
+      "distribuição tempo de espera por corredor e horário",
+      "espera longa impacto recorrência passageiros",
+      "percentil 90 tempo de espera operação transporte por aplicativo",
+      "cobertura motoristas picos de demanda regional"
     ]
   },
   "author": {
     "name": "Equipo Cabgo",
     "role": {
       "es": "Plataforma de movilidad",
-      "en": "Mobility platform"
+      "en": "Mobility platform",
+      "pt": "Plataforma de mobilidade"
     }
   },
   "blocks": [
@@ -49,14 +62,16 @@
       "type": "paragraph",
       "text": {
         "es": "La mayoría de los operadores regionales de ride-hailing registra el tiempo de espera promedio como un indicador de semáforo: si el promedio de la semana no supera un umbral fijo, el indicador queda en verde y no recibe análisis adicional. Ese uso convierte un indicador dinámico en una métrica pasiva que solo genera señal cuando el problema ya afecta el volumen visible — y oculta el deterioro que empieza antes de que ningún promedio lo refleje: el aumento sostenido de esperas largas en corredores específicos, en horarios de demanda alta, para los pasajeros con mayor frecuencia de uso. El tiempo de espera promedio, leído como distribución en lugar de como número único, es el indicador que conecta la disponibilidad de conductores con la probabilidad de retorno del pasajero — y que anticipa caídas de recurrencia con una semana o más de adelanto respecto al panel de demanda.",
-        "en": "Most regional ride-hailing operators track average wait time as a threshold metric: if the weekly average stays below a fixed cap, the indicator stays green and receives no further analysis. That approach turns a dynamic indicator into a passive metric that only generates a signal once the problem is already visible in total volume — and conceals the deterioration that begins before any average reflects it: the sustained increase in long waits within specific corridors, during high-demand periods, for the passengers with the highest usage frequency. Average wait time, read as a distribution rather than as a single figure, is the indicator that directly connects driver availability with passenger return probability — and anticipates recurrence drops a week or more ahead of the demand dashboard."
+        "en": "Most regional ride-hailing operators track average wait time as a threshold metric: if the weekly average stays below a fixed cap, the indicator stays green and receives no further analysis. That approach turns a dynamic indicator into a passive metric that only generates a signal once the problem is already visible in total volume — and conceals the deterioration that begins before any average reflects it: the sustained increase in long waits within specific corridors, during high-demand periods, for the passengers with the highest usage frequency. Average wait time, read as a distribution rather than as a single figure, is the indicator that directly connects driver availability with passenger return probability — and anticipates recurrence drops a week or more ahead of the demand dashboard.",
+        "pt": "A maioria dos operadores regionais de transporte por aplicativo registra o tempo de espera médio como um indicador de semáforo: se a média da semana não ultrapassa um limite fixo, o indicador fica em verde e não recebe análise adicional. Esse uso transforma um indicador dinâmico em uma métrica passiva que só gera sinal quando o problema já afeta o volume visível — e esconde a deterioração que começa antes de qualquer média refleti-la: o aumento sustentado de esperas longas em corredores específicos, em horários de demanda alta, para os passageiros com maior frequência de uso. O tempo de espera médio, lido como distribuição em vez de como número único, é o indicador que conecta a disponibilidade de motoristas com a probabilidade de retorno do passageiro — e que antecipa quedas de recorrência com uma semana ou mais de antecedência em relação ao painel de demanda."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "Este artículo está dirigido al operador cuyo tiempo de espera promedio está dentro de rangos aceptables pero que observa recurrencia de pasajeros por debajo de lo esperado, o que registra cancelaciones de pasajeros que no puede atribuir a ningún cambio de precio ni de experiencia de viaje. Cubre qué mide el tiempo de espera más allá del promedio general y por qué su distribución tiene más valor diagnóstico que el número único, qué rangos separan una operación con oferta equilibrada de una que erosiona la fidelidad, las causas más frecuentes de espera elevada en operaciones regionales y cómo distinguirlas antes de actuar, la relación entre tiempo de espera y probabilidad de retorno del pasajero, y las palancas que reducen la espera sin requerir onboarding de conductores nuevos.",
-        "en": "This article is for the operator whose average wait time sits in acceptable ranges but who observes passenger recurrence lower than expected, or who registers passenger cancellations they can't attribute to any pricing change or trip experience issue. It covers what wait time measures beyond the general average and why reading its distribution carries more diagnostic value than the single figure, what ranges separate an operation with balanced supply from one that erodes passenger loyalty, the most common causes of elevated wait time in regional operations and how to distinguish them before acting, the relationship between wait time and passenger return probability, and the levers that reduce wait time without requiring new driver onboarding."
+        "en": "This article is for the operator whose average wait time sits in acceptable ranges but who observes passenger recurrence lower than expected, or who registers passenger cancellations they can't attribute to any pricing change or trip experience issue. It covers what wait time measures beyond the general average and why reading its distribution carries more diagnostic value than the single figure, what ranges separate an operation with balanced supply from one that erodes passenger loyalty, the most common causes of elevated wait time in regional operations and how to distinguish them before acting, the relationship between wait time and passenger return probability, and the levers that reduce wait time without requiring new driver onboarding.",
+        "pt": "Este artigo é voltado para o operador cujo tempo de espera médio está dentro de faixas aceitáveis, mas que observa recorrência de passageiros abaixo do esperado, ou que registra cancelamentos de passageiros que não consegue atribuir a nenhuma mudança de preço nem de experiência da corrida. Cobre o que o tempo de espera mede além da média geral e por que sua distribuição tem mais valor diagnóstico que o número único, quais faixas separam uma operação com oferta equilibrada de uma que corrói a fidelidade, as causas mais frequentes de espera elevada em operações regionais e como distingui-las antes de agir, a relação entre tempo de espera e probabilidade de retorno do passageiro, e as alavancas que reduzem a espera sem exigir onboarding de motoristas novos."
       }
     },
     {
@@ -65,21 +80,24 @@
       "id": "promedio-oculta-dano-real-tiempo-espera",
       "text": {
         "es": "Por qué el promedio general oculta el daño real del tiempo de espera",
-        "en": "Why the general average conceals the real damage of wait time"
+        "en": "Why the general average conceals the real damage of wait time",
+        "pt": "Por que a média geral esconde o dano real do tempo de espera"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "El problema del tiempo de espera promedio como indicador único es que combina en un solo número dos experiencias operativamente distintas. Una operación con promedio semanal de siete minutos puede tener el 82% de sus viajes con esperas de dos a cinco minutos y un 13% con esperas de catorce a diecinueve minutos — ese 13% experimenta exactamente el mismo tipo de frustración que una cancelación del conductor: el pasajero espera, supera su umbral de tolerancia, y resuelve su necesidad de movilidad por otro medio. El promedio de siete minutos es matemáticamente correcto, pero no describe la experiencia del segmento que tuvo espera larga ni su impacto en la recurrencia.",
-        "en": "The problem with average wait time as the sole indicator is that it combines two operationally distinct experiences into a single number. An operation with a weekly average of seven minutes might have 82% of its trips completing with two to five minute waits and 13% with fourteen to nineteen minute waits — that 13% experiences exactly the same type of frustration as a driver cancellation: the passenger waits, exceeds their tolerance threshold, and resolves their mobility need another way. The seven-minute average is mathematically correct, but it doesn't describe the experience of the segment that had the long wait, nor its impact on recurrence."
+        "en": "The problem with average wait time as the sole indicator is that it combines two operationally distinct experiences into a single number. An operation with a weekly average of seven minutes might have 82% of its trips completing with two to five minute waits and 13% with fourteen to nineteen minute waits — that 13% experiences exactly the same type of frustration as a driver cancellation: the passenger waits, exceeds their tolerance threshold, and resolves their mobility need another way. The seven-minute average is mathematically correct, but it doesn't describe the experience of the segment that had the long wait, nor its impact on recurrence.",
+        "pt": "O problema do tempo de espera médio como indicador único é que ele combina em um só número duas experiências operacionalmente distintas. Uma operação com média semanal de sete minutos pode ter 82% de suas corridas com esperas de dois a cinco minutos e 13% com esperas de quatorze a dezenove minutos — esses 13% vivenciam exatamente o mesmo tipo de frustração que um cancelamento do motorista: o passageiro espera, ultrapassa seu limite de tolerância e resolve sua necessidade de mobilidade por outro meio. A média de sete minutos é matematicamente correta, mas não descreve a experiência do segmento que teve espera longa nem seu impacto na recorrência."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "El promedio tampoco captura la variación por horario ni por corredor geográfico. Una operación puede tener tiempo de espera estable de lunes a jueves y concentrar sus esperas más largas en los picos del viernes y el sábado — exactamente cuando los pasajeros con mayor frecuencia de uso están más activos y cuando una mala experiencia tiene mayor impacto en la decisión de retorno. El operador que lee el promedio semanal no ve esa concentración. El que lee la distribución de esperas por franja horaria y zona tiene el diagnóstico correcto: no es un problema de disponibilidad general de flota, es un desajuste entre la distribución de conductores y los picos de demanda — dos causas con respuestas operativas completamente distintas.",
-        "en": "The average also fails to capture variation by time slot or geographic corridor. An operation can have stable wait times Monday through Thursday and concentrate its longest waits in Friday and Saturday peaks — exactly when the highest-frequency passengers are most active and when a poor experience has the greatest impact on the return decision. The operator reading the weekly average doesn't see that concentration. The one reading wait time distribution by time band and zone has the right diagnostic: it's not a general fleet availability problem, it's a mismatch between driver distribution and demand peaks — two causes with entirely different operational responses."
+        "en": "The average also fails to capture variation by time slot or geographic corridor. An operation can have stable wait times Monday through Thursday and concentrate its longest waits in Friday and Saturday peaks — exactly when the highest-frequency passengers are most active and when a poor experience has the greatest impact on the return decision. The operator reading the weekly average doesn't see that concentration. The one reading wait time distribution by time band and zone has the right diagnostic: it's not a general fleet availability problem, it's a mismatch between driver distribution and demand peaks — two causes with entirely different operational responses.",
+        "pt": "A média também não captura a variação por horário nem por corredor geográfico. Uma operação pode ter tempo de espera estável de segunda a quinta e concentrar suas esperas mais longas nos picos de sexta e sábado — exatamente quando os passageiros com maior frequência de uso estão mais ativos e quando uma experiência ruim tem maior impacto na decisão de retorno. O operador que lê a média semanal não vê essa concentração. Quem lê a distribuição de esperas por faixa de horário e zona tem o diagnóstico correto: não é um problema de disponibilidade geral de frota, é um descompasso entre a distribuição de motoristas e os picos de demanda — duas causas com respostas operacionais completamente distintas."
       }
     },
     {
@@ -88,21 +106,24 @@
       "id": "tres-rangos-cobertura-equilibrada-deficit-oferta",
       "text": {
         "es": "Los tres rangos que separan cobertura equilibrada de déficit de oferta",
-        "en": "The three ranges that separate balanced coverage from supply deficit"
+        "en": "The three ranges that separate balanced coverage from supply deficit",
+        "pt": "As três faixas que separam cobertura equilibrada de déficit de oferta"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "Las operaciones regionales con oferta equilibrada tienen tiempos de espera mediana — no promedio — por debajo de cinco minutos en los horarios de demanda estándar. Ese rango indica que la flota disponible está distribuida de forma suficiente para absorber la variación normal de solicitudes sin producir esperas que superen el umbral de tolerancia del pasajero urbano. Cuando el tiempo de espera mediano sube entre cinco y nueve minutos, la operación entra en zona de atención: la cobertura es funcional para la mayoría de los viajes pero ya produce esperas largas en una proporción suficiente de solicitudes para afectar la percepción de confiabilidad en el segmento de pasajeros más frecuente — precisamente el que más contribuye a la demanda estructural semanal.",
-        "en": "Regional operations with balanced supply maintain median wait times — not averages — below five minutes during standard demand hours. That range indicates the available fleet is distributed well enough to absorb normal request variation without producing waits that exceed the urban passenger's tolerance threshold. When the median rises to between five and nine minutes, the operation enters the caution zone: coverage is functional for most trips but already produces long waits in a high enough share of requests to affect perceived reliability among the highest-frequency passenger segment — precisely the one that most contributes to structural weekly demand."
+        "en": "Regional operations with balanced supply maintain median wait times — not averages — below five minutes during standard demand hours. That range indicates the available fleet is distributed well enough to absorb normal request variation without producing waits that exceed the urban passenger's tolerance threshold. When the median rises to between five and nine minutes, the operation enters the caution zone: coverage is functional for most trips but already produces long waits in a high enough share of requests to affect perceived reliability among the highest-frequency passenger segment — precisely the one that most contributes to structural weekly demand.",
+        "pt": "As operações regionais com oferta equilibrada têm tempos de espera medianos — não médios — abaixo de cinco minutos nos horários de demanda padrão. Essa faixa indica que a frota disponível está distribuída de forma suficiente para absorver a variação normal de solicitações sem produzir esperas que ultrapassem o limite de tolerância do passageiro urbano. Quando o tempo de espera mediano sobe para entre cinco e nove minutos, a operação entra em zona de atenção: a cobertura é funcional para a maioria das corridas, mas já produz esperas longas em uma proporção suficiente de solicitações para afetar a percepção de confiabilidade no segmento de passageiros mais frequente — justamente o que mais contribui para a demanda estrutural semanal."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "Un tiempo de espera mediano igual o superior a diez minutos es un problema estructural de oferta: la flota disponible no cubre la demanda existente con el nivel de inmediatez que produce comportamiento de uso recurrente. En ese rango, el impacto sobre la recurrencia es acumulativo — cada espera larga reduce entre un 20 y un 35% la probabilidad de que ese pasajero solicite un viaje en los siguientes diez días. La situación más frecuente, sin embargo, no es que el mediano general supere los diez minutos: es que el mediano de los picos específicos supere ese umbral mientras el promedio semanal se mantiene en siete u ocho, haciendo el problema invisible hasta que la recurrencia ya ha caído.",
-        "en": "A median wait at or above ten minutes is a structural supply problem: the available fleet doesn't cover existing demand with the immediacy that produces repeat-use behavior. In that range, the impact on recurrence is cumulative — each long wait reduces the probability of that passenger requesting a trip in the next ten days by 20 to 35%. The most common scenario, however, isn't a general median exceeding ten minutes: it's the peak-period median exceeding that threshold while the weekly average holds at seven or eight, making the problem invisible until recurrence has already fallen."
+        "en": "A median wait at or above ten minutes is a structural supply problem: the available fleet doesn't cover existing demand with the immediacy that produces repeat-use behavior. In that range, the impact on recurrence is cumulative — each long wait reduces the probability of that passenger requesting a trip in the next ten days by 20 to 35%. The most common scenario, however, isn't a general median exceeding ten minutes: it's the peak-period median exceeding that threshold while the weekly average holds at seven or eight, making the problem invisible until recurrence has already fallen.",
+        "pt": "Um tempo de espera mediano igual ou superior a dez minutos é um problema estrutural de oferta: a frota disponível não cobre a demanda existente com o nível de imediatismo que produz comportamento de uso recorrente. Nessa faixa, o impacto sobre a recorrência é cumulativo — cada espera longa reduz entre 20 e 35% a probabilidade de que esse passageiro solicite uma corrida nos dez dias seguintes. A situação mais frequente, no entanto, não é o mediano geral ultrapassar os dez minutos: é o mediano dos picos específicos ultrapassar esse limite enquanto a média semanal se mantém em sete ou oito, tornando o problema invisível até que a recorrência já tenha caído."
       }
     },
     {
@@ -111,14 +132,16 @@
       "id": "cuatro-causas-espera-elevada-mercados-regionales",
       "text": {
         "es": "Las cuatro causas más frecuentes de espera elevada en mercados regionales",
-        "en": "The four most common causes of elevated wait time in regional markets"
+        "en": "The four most common causes of elevated wait time in regional markets",
+        "pt": "As quatro causas mais frequentes de espera elevada em mercados regionais"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "La espera elevada tiene causas distinguibles que el operador puede separar con los datos correctos antes de actuar. Cuatro patrones concentran la mayoría de los casos en operaciones de México y Centroamérica:",
-        "en": "Elevated wait time has distinguishable causes the operator can separate with the right data before acting. Four patterns account for most cases in operations across Mexico and Central America:"
+        "en": "Elevated wait time has distinguishable causes the operator can separate with the right data before acting. Four patterns account for most cases in operations across Mexico and Central America:",
+        "pt": "A espera elevada tem causas distinguíveis que o operador pode separar com os dados corretos antes de agir. Quatro padrões concentram a maioria dos casos em operações do México e da América Central:"
       }
     },
     {
@@ -136,6 +159,12 @@
           "**Coverage deficit during morning and evening commute peaks**: the 7-9 a.m. and 6-8 p.m. corridors concentrate 35 to 45% of weekday demand, but driver availability during those periods varies by each fleet's shift patterns. A coverage deficit of just 15% during those peaks produces median wait times of twelve to sixteen minutes on requests in those time bands.",
           "**Long-trip drivers reducing effective coverage in high-demand zones**: in operations where 20 to 25% of trips exceed 20 minutes, effective driver availability near the high-demand area can drop 30 to 40% during the minutes when several drivers are simultaneously on long routes. That pattern produces burst long waits that the daily average smooths but that the passenger experiencing them registers with the same intensity as a sustained wait.",
           "**Latency between acceptance and actual driver movement**: when a driver accepts a request but delays activating navigation or confirming the pickup point, the time between acceptance and actual movement can add two to four minutes to the passenger's perceived wait — without that time appearing in the technical wait indicator, which only measures from the moment of acceptance."
+        ],
+        "pt": [
+          "**Concentração de motoristas fora dos corredores de alta demanda**: a zona onde os motoristas esperam entre solicitações nem sempre coincide com a zona onde a demanda se concentra. Em operações com mais de 40 motoristas ativos simultâneos, a distribuição geográfica da frota entre corridas explica uma proporção maior da espera elevada do que o número total de motoristas disponíveis na plataforma.",
+          "**Déficit de cobertura nos picos de entrada e saída do trabalho**: os corredores das 7-9 da manhã e das 6-8 da noite concentram entre 35 e 45% da demanda de segunda a sexta, mas a disponibilidade de motoristas nesses horários varia conforme os padrões de turno de cada frota. Um déficit de cobertura de apenas 15% nesses picos produz tempo de espera mediano de doze a dezesseis minutos nas solicitações dessas faixas.",
+          "**Motoristas em corrida longa que reduzem a disponibilidade efetiva na zona**: em operações onde 20-25% das corridas ultrapassam os 20 minutos, a disponibilidade efetiva perto da zona de alta demanda pode cair 30-40% durante os minutos em que vários motoristas estão em rota longa simultaneamente. Esse padrão produz esperas longas em rajada que a média diária suaviza, mas que o passageiro que as vivencia registra com a mesma intensidade que uma espera sustentada.",
+          "**Latência entre aceitação e movimento real do motorista**: quando o motorista aceita a solicitação mas demora para ativar a navegação ou confirmar o ponto de embarque, o tempo entre aceitação e movimento real pode somar dois a quatro minutos adicionais ao tempo de espera percebido pelo passageiro, sem que esse tempo apareça no indicador técnico de espera, que só mede a partir da aceitação."
         ]
       }
     },
@@ -145,21 +174,24 @@
       "id": "impacto-tiempo-espera-decision-retorno-pasajero",
       "text": {
         "es": "El impacto directo del tiempo de espera en la decisión de retorno del pasajero",
-        "en": "The direct impact of wait time on the passenger's return decision"
+        "en": "The direct impact of wait time on the passenger's return decision",
+        "pt": "O impacto direto do tempo de espera na decisão de retorno do passageiro"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "El pasajero que experimenta una espera superior a doce minutos en su segundo o tercer viaje tiene una probabilidad de cuarto viaje en los siguientes catorce días entre el 30 y el 45% más baja que el pasajero cuyas primeras tres experiencias tuvieron esperas de menos de seis minutos. Ese diferencial no es lineal con la duración de la espera: la diferencia entre tres y ocho minutos tiene impacto moderado en la recurrencia, pero la diferencia entre ocho y catorce minutos es desproporcionada — existe un umbral de tolerancia después del cual la experiencia pasa de «aceptable» a «poco confiable» en la evaluación del pasajero. En operaciones de ciudades medianas, ese umbral se sitúa entre nueve y doce minutos según el contexto de uso habitual.",
-        "en": "The passenger who experiences a wait of more than twelve minutes on their second or third trip has a fourth-trip probability in the next fourteen days between 30 and 45% lower than a passenger whose first three experiences had waits under six minutes. That differential isn't linear with wait duration: the difference between three and eight minutes has moderate impact on recurrence, but the difference between eight and fourteen minutes is disproportionate — there is a tolerance threshold beyond which the experience shifts from 'acceptable' to 'unreliable' in the passenger's mental evaluation. In mid-sized city operations, that threshold typically sits between nine and twelve minutes depending on the usual usage context."
+        "en": "The passenger who experiences a wait of more than twelve minutes on their second or third trip has a fourth-trip probability in the next fourteen days between 30 and 45% lower than a passenger whose first three experiences had waits under six minutes. That differential isn't linear with wait duration: the difference between three and eight minutes has moderate impact on recurrence, but the difference between eight and fourteen minutes is disproportionate — there is a tolerance threshold beyond which the experience shifts from 'acceptable' to 'unreliable' in the passenger's mental evaluation. In mid-sized city operations, that threshold typically sits between nine and twelve minutes depending on the usual usage context.",
+        "pt": "O passageiro que vivencia uma espera superior a doze minutos em sua segunda ou terceira corrida tem uma probabilidade de quarta corrida nos quatorze dias seguintes entre 30 e 45% mais baixa do que o passageiro cujas três primeiras experiências tiveram esperas de menos de seis minutos. Esse diferencial não é linear com a duração da espera: a diferença entre três e oito minutos tem impacto moderado na recorrência, mas a diferença entre oito e quatorze minutos é desproporcional — existe um limite de tolerância a partir do qual a experiência passa de «aceitável» a «pouco confiável» na avaliação do passageiro. Em operações de cidades médias, esse limite se situa entre nove e doze minutos conforme o contexto de uso habitual."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "El impacto acumulado de las esperas largas es mayor que el de una espera única de duración equivalente. El pasajero que tuvo tres esperas superiores a diez minutos en el último mes tiene una probabilidad de retorno en el mes siguiente entre el 50 y el 65% más baja que el pasajero sin esperas largas en ese período — aunque haya completado otros viajes con espera normal entre medias. La tercera espera larga actúa como confirmación de un patrón: el pasajero que toleró la primera y la segunda, al experimentar la tercera, reclasifica la plataforma como servicio de disponibilidad variable en lugar de servicio confiable. Esa reclasificación es difícil de revertir con incentivos económicos porque el problema percibido no es el precio sino la consistencia de la experiencia.",
-        "en": "The cumulative impact of repeated long waits is greater than that of a single wait of equivalent duration. A passenger who experienced three waits above ten minutes in the last month has a return probability in the following month between 50 and 65% lower than a passenger with no long waits in that period — even if they completed other normally-waited trips in between. The third long wait acts as pattern confirmation: the passenger who tolerated the first and second, upon experiencing the third, reclassifies the platform as a variable-availability service rather than a reliable one. That reclassification is difficult to reverse with financial incentives because the issue the passenger perceives isn't pricing — it's consistency of experience."
+        "en": "The cumulative impact of repeated long waits is greater than that of a single wait of equivalent duration. A passenger who experienced three waits above ten minutes in the last month has a return probability in the following month between 50 and 65% lower than a passenger with no long waits in that period — even if they completed other normally-waited trips in between. The third long wait acts as pattern confirmation: the passenger who tolerated the first and second, upon experiencing the third, reclassifies the platform as a variable-availability service rather than a reliable one. That reclassification is difficult to reverse with financial incentives because the issue the passenger perceives isn't pricing — it's consistency of experience.",
+        "pt": "O impacto acumulado das esperas longas é maior do que o de uma espera única de duração equivalente. O passageiro que teve três esperas superiores a dez minutos no último mês tem uma probabilidade de retorno no mês seguinte entre 50 e 65% mais baixa do que o passageiro sem esperas longas nesse período — mesmo que tenha completado outras corridas com espera normal no meio. A terceira espera longa atua como confirmação de um padrão: o passageiro que tolerou a primeira e a segunda, ao vivenciar a terceira, reclassifica a plataforma como serviço de disponibilidade variável em vez de serviço confiável. Essa reclassificação é difícil de reverter com incentivos econômicos porque o problema percebido não é o preço, e sim a consistência da experiência."
       }
     },
     {
@@ -168,14 +200,16 @@
       "id": "reducir-tiempo-espera-sin-conductores-nuevos",
       "text": {
         "es": "Cómo reducir el tiempo de espera sin onboardear conductores nuevos",
-        "en": "How to reduce wait time without onboarding new drivers"
+        "en": "How to reduce wait time without onboarding new drivers",
+        "pt": "Como reduzir o tempo de espera sem fazer onboarding de motoristas novos"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "La respuesta inmediata a un tiempo de espera elevado suele ser onboardear más conductores. En muchos casos, sin embargo, el número de conductores registrados no es el factor limitante — es su distribución y disponibilidad en los momentos de mayor demanda. Tres palancas producen reducción de espera sin requerir incorporaciones:",
-        "en": "The immediate response to elevated wait time is usually to onboard more drivers. In many cases, however, the number of registered drivers isn't the limiting factor — it's their distribution and availability during peak demand moments. Three levers reduce wait time without requiring new onboarding:"
+        "en": "The immediate response to elevated wait time is usually to onboard more drivers. In many cases, however, the number of registered drivers isn't the limiting factor — it's their distribution and availability during peak demand moments. Three levers reduce wait time without requiring new onboarding:",
+        "pt": "A resposta imediata a um tempo de espera elevado costuma ser fazer onboarding de mais motoristas. Em muitos casos, no entanto, o número de motoristas cadastrados não é o fator limitante — é sua distribuição e disponibilidade nos momentos de maior demanda. Três alavancas produzem redução de espera sem exigir novas contratações:"
       }
     },
     {
@@ -183,7 +217,8 @@
       "style": "bullet",
       "intro": {
         "es": "Tres palancas de mayor retorno por esfuerzo invertido:",
-        "en": "Three levers with the highest return per effort invested:"
+        "en": "Three levers with the highest return per effort invested:",
+        "pt": "Três alavancas de maior retorno por esforço investido:"
       },
       "items": {
         "es": [
@@ -195,6 +230,11 @@
           "**Incentivized repositioning before known demand peaks**: drivers who complete a trip at 6:45 p.m. in a residential zone have a real availability incentive if the system shows them the central zone has high expected demand in the next twenty minutes. Proactive repositioning redistributes the existing fleet toward where it'll be needed before demand requires it, without adding any driver.",
           "**Coordinated activation during morning demand peaks**: in operations where drivers are free to connect at any time, 7-9 a.m. coverage varies more than average data suggests. A message to the driver group with expected demand and concentration zones — sent the night before — increases effective availability in the morning peak by 15 to 25% without changing any system parameter.",
           "**Reducing latency between acceptance and actual movement**: when elevated wait time is caused by delays between trip acceptance and navigation activation, the right adjustment is in the onboarding process — explicit instruction to activate navigation before confirming acceptance. That procedure change, implemented as part of coaching drivers in their first 60 days, reduces perceived wait time by two to three minutes in their trips without any system change."
+        ],
+        "pt": [
+          "**Reposicionamento incentivado antes dos picos de demanda conhecidos**: os motoristas que terminam uma corrida às 6:45 da tarde em uma zona residencial têm um incentivo de disponibilidade se o sistema lhes mostra que a zona central tem alta demanda esperada nos próximos vinte minutos. O reposicionamento proativo redistribui a frota existente para onde ela será necessária antes de a demanda exigi-la, sem acrescentar nenhum motorista.",
+          "**Ativação coordenada nos primeiros picos do dia**: em operações onde os motoristas têm liberdade de se conectar a qualquer hora, a cobertura das 7-9 da manhã varia mais do que os dados médios sugerem. Uma mensagem ao grupo com demanda esperada e zonas de concentração — enviada na noite anterior — aumenta entre 15 e 25% a disponibilidade efetiva no pico matinal sem mudar nenhum parâmetro do sistema.",
+          "**Redução da latência entre aceitação e movimento real**: se a causa da espera elevada é o tempo entre aceitação e ativação da navegação, o ajuste correto está no processo de onboarding — instrução explícita de ativar a navegação antes de confirmar a aceitação. Essa mudança de procedimento, implementada como parte do coaching de motoristas com menos de 60 dias na plataforma, reduz entre dois e três minutos o tempo de espera percebido em suas corridas sem nenhuma mudança de sistema."
         ]
       }
     },
@@ -204,72 +244,84 @@
       "id": "agente-tiempo-espera-alerta-oferta-semanal",
       "text": {
         "es": "Cómo el agente convierte el tiempo de espera en señal de alerta de oferta",
-        "en": "How the agent turns wait time into a weekly supply alert"
+        "en": "How the agent turns wait time into a weekly supply alert",
+        "pt": "Como o agente transforma o tempo de espera em sinal de alerta de oferta"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "El tiempo de espera como indicador de alerta de oferta requiere lectura semanal de distribución, no solo de promedio. La instrucción al agente que produce la lectura correcta: «Muéstrame el tiempo de espera mediano de los últimos 7 días segmentado por franja horaria: 7-9 a.m., 12-2 p.m., 6-9 p.m. y resto del día. Compara con los 7 días anteriores y señala las franjas donde el mediano subió más de 2 minutos o supera los 9 minutos.» Esa consulta produce la señal de alerta por horario antes de que el promedio general refleje el deterioro — porque el promedio suaviza las franjas problemáticas con las horas donde la cobertura es suficiente.",
-        "en": "Wait time as a supply alert indicator requires weekly distribution reading, not just averages. The agent instruction that produces the right reading: 'Show me the median wait time for the last 7 days segmented by time band: 7-9 a.m., 12-2 p.m., 6-9 p.m., and the rest of the day. Compare against the prior 7 days and flag any band where the median rose more than 2 minutes or exceeds 9 minutes.' That query produces the time-band alert before the general average reflects the deterioration — because the average smooths problem bands with the hours where coverage is sufficient."
+        "en": "Wait time as a supply alert indicator requires weekly distribution reading, not just averages. The agent instruction that produces the right reading: 'Show me the median wait time for the last 7 days segmented by time band: 7-9 a.m., 12-2 p.m., 6-9 p.m., and the rest of the day. Compare against the prior 7 days and flag any band where the median rose more than 2 minutes or exceeds 9 minutes.' That query produces the time-band alert before the general average reflects the deterioration — because the average smooths problem bands with the hours where coverage is sufficient.",
+        "pt": "O tempo de espera como indicador de alerta de oferta requer leitura semanal de distribuição, não só de média. A instrução ao agente que produz a leitura correta: «Mostre-me o tempo de espera mediano dos últimos 7 dias segmentado por faixa de horário: 7-9 da manhã, 12-2 da tarde, 6-9 da noite e resto do dia. Compare com os 7 dias anteriores e aponte as faixas onde o mediano subiu mais de 2 minutos ou ultrapassa os 9 minutos.» Essa consulta produz o sinal de alerta por horário antes de a média geral refletir a deterioração — porque a média suaviza as faixas problemáticas com as horas onde a cobertura é suficiente."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "Una segunda consulta que completa el diagnóstico: «Muéstrame el tiempo de espera en el percentil 10, 50 y 90 de los viajes completados en los últimos 7 días. Si el percentil 90 supera los 15 minutos, indica en qué corredores y franjas horarias se concentran esas esperas.» Esa lectura distingue si el problema es generalizado o está localizado — la diferencia que determina la respuesta correcta. Un percentil 90 de 16 minutos concentrado en el corredor norte de 7 a 9 a.m. es un problema de reposicionamiento matutino. El mismo percentil 90 distribuido a lo largo de todo el día y todos los corredores es un problema de cobertura total de flota. Dos diagnósticos con respuestas completamente distintas que el promedio no permite separar.",
-        "en": "A second query that completes the diagnostic: 'Show me the 10th, 50th, and 90th percentile wait times for trips completed in the last 7 days. If the 90th percentile exceeds 15 minutes, show me which corridors and time bands concentrate those waits.' That reading distinguishes whether the problem is generalized or localized — the distinction that determines the right response. A p90 of 16 minutes concentrated in the northern corridor from 7 to 9 a.m. is a morning repositioning problem. The same p90 distributed throughout the day and across all corridors is a total fleet coverage problem. Two diagnoses with entirely different responses that the average alone doesn't let you separate."
+        "en": "A second query that completes the diagnostic: 'Show me the 10th, 50th, and 90th percentile wait times for trips completed in the last 7 days. If the 90th percentile exceeds 15 minutes, show me which corridors and time bands concentrate those waits.' That reading distinguishes whether the problem is generalized or localized — the distinction that determines the right response. A p90 of 16 minutes concentrated in the northern corridor from 7 to 9 a.m. is a morning repositioning problem. The same p90 distributed throughout the day and across all corridors is a total fleet coverage problem. Two diagnoses with entirely different responses that the average alone doesn't let you separate.",
+        "pt": "Uma segunda consulta que completa o diagnóstico: «Mostre-me o tempo de espera no percentil 10, 50 e 90 das corridas completadas nos últimos 7 dias. Se o percentil 90 ultrapassa os 15 minutos, indique em quais corredores e faixas de horário essas esperas se concentram.» Essa leitura distingue se o problema é generalizado ou está localizado — a diferença que determina a resposta correta. Um percentil 90 de 16 minutos concentrado no corredor norte das 7 às 9 da manhã é um problema de reposicionamento matinal. O mesmo percentil 90 distribuído ao longo de todo o dia e de todos os corredores é um problema de cobertura total de frota. Dois diagnósticos com respostas completamente distintas que a média não permite separar."
       }
     },
     {
       "type": "quote",
       "text": {
         "es": "Cuando empecé a revisar el percentil 90 del tiempo de espera en lugar del promedio, encontré un corredor con esperas de veinte minutos los viernes por la tarde que el promedio semanal dejaba completamente invisible. Eso explicaba por qué los pasajeros que viajaban conmigo de lunes a jueves seguían usando la plataforma, pero los del viernes tarde no volvían. Era un problema de un corredor en un horario, no de toda la operación. Esa lectura cambió cómo distribuyo los conductores antes de ese pico.",
-        "en": "When I started checking the 90th percentile wait time instead of the average, I found a corridor with twenty-minute waits on Friday afternoons that the weekly average hid completely. That explained why passengers riding with me Monday through Thursday kept using the platform, but Friday evening riders didn't come back. It was a single-corridor, single-time-slot problem, not an operation-wide one. That reading changed how I position drivers before that peak."
+        "en": "When I started checking the 90th percentile wait time instead of the average, I found a corridor with twenty-minute waits on Friday afternoons that the weekly average hid completely. That explained why passengers riding with me Monday through Thursday kept using the platform, but Friday evening riders didn't come back. It was a single-corridor, single-time-slot problem, not an operation-wide one. That reading changed how I position drivers before that peak.",
+        "pt": "Quando comecei a revisar o percentil 90 do tempo de espera em vez da média, encontrei um corredor com esperas de vinte minutos nas sextas à tarde que a média semanal deixava completamente invisível. Isso explicava por que os passageiros que viajavam comigo de segunda a quinta continuavam usando a plataforma, mas os de sexta à tarde não voltavam. Era um problema de um corredor em um horário, não de toda a operação. Essa leitura mudou como eu distribuo os motoristas antes desse pico."
       },
       "attribution": {
         "es": "Operador con dos años y medio de operación en el centro de México",
-        "en": "Operator with two and a half years of operation in central Mexico"
+        "en": "Operator with two and a half years of operation in central Mexico",
+        "pt": "Operador com dois anos e meio de operação no centro do México"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "El tiempo de espera solo describe la experiencia real de la demanda cuando se lee como distribución con foco en los percentiles altos y en las franjas de mayor uso — no como el número de resumen que aparece en el panel. El operador que mide la espera por franja horaria y por corredor tiene acceso a un diagnóstico que explica caídas de recurrencia que ningún otro indicador individual puede atribuir a una causa concreta: no fue una mala calificación, no fue una cancelación del conductor — fue esperar quince minutos el viernes a las siete de la tarde cuando la semana anterior habían esperado cuatro. Esa diferencia, invisible en el promedio, es visible en el percentil 90 del corredor correcto.",
-        "en": "Wait time only describes the real demand experience when read as a distribution focused on high percentiles and peak usage bands — not as the summary figure on the dashboard. The operator who tracks wait time by time band and corridor has access to a diagnostic that explains recurrence drops no other individual indicator can attribute to a specific cause: it wasn't a bad rating, it wasn't a driver cancellation — it was a fifteen-minute wait on Friday evening when the prior week had been four. That difference is invisible in the average and visible in the 90th percentile of the right corridor."
+        "en": "Wait time only describes the real demand experience when read as a distribution focused on high percentiles and peak usage bands — not as the summary figure on the dashboard. The operator who tracks wait time by time band and corridor has access to a diagnostic that explains recurrence drops no other individual indicator can attribute to a specific cause: it wasn't a bad rating, it wasn't a driver cancellation — it was a fifteen-minute wait on Friday evening when the prior week had been four. That difference is invisible in the average and visible in the 90th percentile of the right corridor.",
+        "pt": "O tempo de espera só descreve a experiência real da demanda quando é lido como distribuição com foco nos percentis altos e nas faixas de maior uso — não como o número de resumo que aparece no painel. O operador que mede a espera por faixa de horário e por corredor tem acesso a um diagnóstico que explica quedas de recorrência que nenhum outro indicador individual consegue atribuir a uma causa concreta: não foi uma avaliação ruim, não foi um cancelamento do motorista — foi esperar quinze minutos na sexta às sete da noite quando na semana anterior tinham esperado quatro. Essa diferença, invisível na média, é visível no percentil 90 do corredor correto."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "El valor de incorporar el tiempo de espera a la revisión semanal no está en tener un indicador adicional — está en que cierra el diagnóstico que la tasa de recurrencia y la tasa de cancelación del conductor no terminan por sí solos. La recurrencia indica si los pasajeros están volviendo. La cancelación del conductor explica una causa de no retorno. El tiempo de espera por franjas y corredores explica otra: la operación no falla en los viajes que completa, falla en los momentos en que no tiene oferta suficiente donde el pasajero la necesita. Los tres indicadores juntos cubren las principales razones por las que un pasajero que probó la plataforma decide no volver — y cada uno tiene una respuesta correcta diferente que no puede determinarse solo con los otros dos.",
-        "en": "The value of adding wait time to the weekly review isn't in having one more indicator — it's in completing the diagnostic that passenger recurrence rate and driver cancellation rate don't finish alone. Recurrence shows whether passengers are coming back. Driver cancellation rate explains one cause of non-return. Wait time by band and corridor explains another: the operation doesn't fail on the trips it completes, it fails in the moments when it doesn't have enough supply where the passenger needs it. The three indicators together cover the main reasons a passenger who tried the platform decides not to return — and each one points to a different correct response that can't be determined from the other two alone."
+        "en": "The value of adding wait time to the weekly review isn't in having one more indicator — it's in completing the diagnostic that passenger recurrence rate and driver cancellation rate don't finish alone. Recurrence shows whether passengers are coming back. Driver cancellation rate explains one cause of non-return. Wait time by band and corridor explains another: the operation doesn't fail on the trips it completes, it fails in the moments when it doesn't have enough supply where the passenger needs it. The three indicators together cover the main reasons a passenger who tried the platform decides not to return — and each one points to a different correct response that can't be determined from the other two alone.",
+        "pt": "O valor de incorporar o tempo de espera à revisão semanal não está em ter um indicador adicional — está em que ele fecha o diagnóstico que a taxa de recorrência e a taxa de cancelamento do motorista não concluem sozinhas. A recorrência indica se os passageiros estão voltando. O cancelamento do motorista explica uma causa de não retorno. O tempo de espera por faixas e corredores explica outra: a operação não falha nas corridas que completa, falha nos momentos em que não tem oferta suficiente onde o passageiro precisa. Os três indicadores juntos cobrem as principais razões pelas quais um passageiro que experimentou a plataforma decide não voltar — e cada um tem uma resposta correta diferente que não pode ser determinada apenas com os outros dois."
       }
     }
   ],
   "cta": {
     "heading": {
       "es": "¿Listo para lanzar tu propia app de movilidad?",
-      "en": "Ready to launch your own mobility app?"
+      "en": "Ready to launch your own mobility app?",
+      "pt": "Pronto para lançar seu próprio app de mobilidade?"
     },
     "body": {
       "es": "Configura tu marca, tus tarifas y tus servicios en semanas, no en meses. Cabgo te entrega la plataforma; tú te quedas con la operación, los clientes y los ingresos.",
-      "en": "Set up your brand, pricing and services in weeks, not months. Cabgo ships the platform — you keep the operation, the customers and the revenue."
+      "en": "Set up your brand, pricing and services in weeks, not months. Cabgo ships the platform — you keep the operation, the customers and the revenue.",
+      "pt": "Configure sua marca, suas tarifas e seus serviços em semanas, não em meses. A Cabgo entrega a plataforma; você fica com a operação, os clientes e a receita."
     },
     "buttonLabel": {
       "es": "Comenzar con Cabgo",
-      "en": "Get started with Cabgo"
+      "en": "Get started with Cabgo",
+      "pt": "Começar com a Cabgo"
     },
     "buttonHref": "/empezar"
   },
   "seo": {
     "metaTitle": {
       "es": "Tiempo de espera promedio: indicador de oferta | Cabgo",
-      "en": "Average wait time as a supply indicator | Cabgo"
+      "en": "Average wait time as a supply indicator | Cabgo",
+      "pt": "Tempo de espera médio: indicador de oferta | Cabgo"
     },
     "metaDescription": {
       "es": "Qué rangos de tiempo de espera separan una operación equilibrada de una que erosiona la recurrencia, y cómo leerlo como distribución en lugar de promedio.",
-      "en": "Why tracking average wait time alone hides supply failures in ride-hailing, and what reading its distribution by time slot reveals about passenger recurrence."
+      "en": "Why tracking average wait time alone hides supply failures in ride-hailing, and what reading its distribution by time slot reveals about passenger recurrence.",
+      "pt": "Quais faixas de tempo de espera separam uma operação equilibrada de uma que corrói a recorrência, e como lê-lo como distribuição em vez de média."
     }
   }
 }

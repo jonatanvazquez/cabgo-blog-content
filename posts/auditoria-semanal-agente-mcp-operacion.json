@@ -3,16 +3,19 @@
   "category": "product",
   "title": {
     "es": "Auditoría semanal del agente: qué revisar en cabgo_my_mcp_usage para saber que todo funciona",
-    "en": "Weekly agent audit: what to review in cabgo_my_mcp_usage to know everything is working"
+    "en": "Weekly agent audit: what to review in cabgo_my_mcp_usage to know everything is working",
+    "pt": "Auditoria semanal do agente: o que revisar em cabgo_my_mcp_usage para saber que está tudo funcionando"
   },
   "excerpt": {
     "es": "El servidor MCP de Cabgo registra cada llamada del agente — herramienta, tenant, estado y retries. Revisar ese historial 10 minutos cada semana convierte al agente en una herramienta auditable.",
-    "en": "Cabgo's MCP server logs every agent call — tool, tenant, status, retries. Spending 10 minutes each week reviewing that history turns the agent from a black box into an auditable tool."
+    "en": "Cabgo's MCP server logs every agent call — tool, tenant, status, retries. Spending 10 minutes each week reviewing that history turns the agent from a black box into an auditable tool.",
+    "pt": "O servidor MCP da Cabgo registra cada chamada do agente — ferramenta, tenant, status e retries. Revisar esse histórico por 10 minutos toda semana transforma o agente em uma ferramenta auditável."
   },
   "heroImage": "https://raw.githubusercontent.com/jonatanvazquez/cabgo-blog-content/main/images/auditoria-semanal-agente-mcp-operacion.jpg",
   "heroImageAlt": {
     "es": "Ilustración isométrica de una lupa sobre un panel de historial de llamadas MCP con entradas en verde y una alerta amarilla, conectado a un dashboard limpio a la derecha",
-    "en": "Isometric illustration of a magnifying glass over an MCP call history panel with green entries and a yellow alert, connected to a clean dashboard on the right"
+    "en": "Isometric illustration of a magnifying glass over an MCP call history panel with green entries and a yellow alert, connected to a clean dashboard on the right",
+    "pt": "Ilustração isométrica de uma lupa sobre um painel de histórico de chamadas MCP com entradas em verde e um alerta amarelo, conectado a um dashboard limpo à direita"
   },
   "heroImagePrompt": "Split isometric composition: on the left, a magnifying glass hovering over a glowing server rack with a floating log panel showing rows of tool call entries, most with green checkmarks and one yellow warning icon. On the right, a clean operator dashboard with two metric cards and a small bar chart. A horizontal timeline of call nodes connects both sides. Teal accent lines on the log entries, deep indigo background.",
   "publishedAt": "2026-06-07",
@@ -35,13 +38,23 @@
       "tool retry patterns MCP operator taxi",
       "AI agent configuration issues delivery",
       "weekly agent audit regional operations"
+    ],
+    "pt": [
+      "auditoria agente MCP Cabgo semanal",
+      "cabgo_my_mcp_usage histórico chamadas agente",
+      "padrões de alerta agente IA operação mobilidade",
+      "revisar histórico agente ride-hailing MCP",
+      "retries ferramentas MCP operador táxi",
+      "configuração agente MCP delivery regional",
+      "auditar agente IA operação ride-hailing"
     ]
   },
   "author": {
     "name": "Equipo Cabgo",
     "role": {
       "es": "Plataforma de movilidad",
-      "en": "Mobility platform"
+      "en": "Mobility platform",
+      "pt": "Plataforma de mobilidade"
     }
   },
   "blocks": [
@@ -49,14 +62,16 @@
       "type": "paragraph",
       "text": {
         "es": "La mayoría de los operadores que conectan el agente al MCP de Cabgo terminan la configuración inicial y no vuelven a revisar si las llamadas que hace el agente son correctas. No porque no les importe, sino porque no tienen un ritual de revisión establecido. El agente responde preguntas, genera reportes, ejecuta acciones — y mientras funciona, el operador asume que funciona bien. El problema es que un agente que «funciona» y un agente que funciona correctamente son dos cosas distintas: el primero responde, el segundo responde con las herramientas correctas, al tenant correcto, sin retries innecesarios y sin patrones de llamada que indiquen que está aprendiendo sobre la marcha convenciones que debería tener precargadas desde el skill.",
-        "en": "Most operators who connect their agent to Cabgo's MCP finish the initial setup and never go back to check whether the agent's calls are actually correct. Not because they don't care, but because they have no established review ritual. The agent answers questions, generates reports, runs actions — and as long as it responds, the operator assumes it's working well. The problem is that an agent that \"works\" and an agent that works correctly are two different things: the first one responds, the second responds with the right tools, to the right tenant, without unnecessary retries and without call patterns suggesting it's learning on the fly conventions it should have had preloaded from the skill."
+        "en": "Most operators who connect their agent to Cabgo's MCP finish the initial setup and never go back to check whether the agent's calls are actually correct. Not because they don't care, but because they have no established review ritual. The agent answers questions, generates reports, runs actions — and as long as it responds, the operator assumes it's working well. The problem is that an agent that \"works\" and an agent that works correctly are two different things: the first one responds, the second responds with the right tools, to the right tenant, without unnecessary retries and without call patterns suggesting it's learning on the fly conventions it should have had preloaded from the skill.",
+        "pt": "A maioria dos operadores que conecta o agente ao MCP da Cabgo termina a configuração inicial e nunca mais volta a verificar se as chamadas que o agente faz estão corretas. Não por falta de interesse, mas porque não têm um ritual de revisão estabelecido. O agente responde perguntas, gera relatórios, executa ações — e enquanto funciona, o operador presume que funciona bem. O problema é que um agente que «funciona» e um agente que funciona corretamente são duas coisas distintas: o primeiro responde, o segundo responde com as ferramentas certas, no tenant certo, sem retries desnecessários e sem padrões de chamada que indiquem que está aprendendo na marra convenções que deveria ter pré-carregadas a partir do skill."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "El servidor MCP de Cabgo registra cada llamada del agente en el historial accesible a través de `cabgo_my_mcp_usage` — herramienta activada, timestamp, tenantId resuelto, estado del resultado y cantidad de retries. Ese historial es la diferencia entre asumir que el agente opera correctamente y poder verificarlo. Este artículo documenta qué revisar en ese historial cada semana, qué patrones indican problemas antes de que el operador los note en el output diario, y qué acciones tomar cuando un patrón se desvía de lo esperado. La revisión completa no toma más de 10 minutos — pero convierte al agente de una herramienta que se usa con fe en una que se usa con evidencia.",
-        "en": "Cabgo's MCP server logs every agent call in the history accessible through `cabgo_my_mcp_usage` — tool activated, timestamp, resolved tenantId, result status, and retry count. That history is the difference between assuming the agent is operating correctly and being able to verify it. This article documents what to review in that history each week, what patterns signal problems before the operator notices them in daily output, and what actions to take when a pattern drifts from expected. The full review takes no more than 10 minutes — but it turns the agent from a tool used on faith into one used with evidence."
+        "en": "Cabgo's MCP server logs every agent call in the history accessible through `cabgo_my_mcp_usage` — tool activated, timestamp, resolved tenantId, result status, and retry count. That history is the difference between assuming the agent is operating correctly and being able to verify it. This article documents what to review in that history each week, what patterns signal problems before the operator notices them in daily output, and what actions to take when a pattern drifts from expected. The full review takes no more than 10 minutes — but it turns the agent from a tool used on faith into one used with evidence.",
+        "pt": "O servidor MCP da Cabgo registra cada chamada do agente no histórico acessível por meio de `cabgo_my_mcp_usage` — ferramenta acionada, timestamp, tenantId resolvido, status do resultado e quantidade de retries. Esse histórico é a diferença entre presumir que o agente opera corretamente e poder verificá-lo. Este artigo documenta o que revisar nesse histórico toda semana, quais padrões indicam problemas antes de o operador percebê-los no output diário, e quais ações tomar quando um padrão se desvia do esperado. A revisão completa não leva mais de 10 minutos — mas transforma o agente de uma ferramenta que se usa com fé em uma que se usa com evidência."
       }
     },
     {
@@ -65,21 +80,24 @@
       "id": "que-registra-el-servidor",
       "text": {
         "es": "Qué registra el servidor MCP en cada llamada del agente",
-        "en": "What the MCP server records on every agent call"
+        "en": "What the MCP server records on every agent call",
+        "pt": "O que o servidor MCP registra em cada chamada do agente"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "El historial de uso del MCP no es un log de errores — es un registro de cada interacción, exitosa o no. Cada entrada tiene cinco campos que importan para la auditoría semanal: la herramienta llamada (`tool_name`), el timestamp exacto, el tenantId que el agente resolvió para esa llamada (puede ser el default o uno especificado explícitamente en el prompt), el estado del resultado (`success`, `tier4_confirmation`, `rejected`, `timeout`) y el número de retries antes de que la llamada se resolviera. La mayoría de los operadores nunca ha visto este historial porque el agente no lo muestra por defecto — hay que pedirlo explícitamente con un prompt dirigido a `cabgo_my_mcp_usage`. Lo que aparece en esas entradas en 10 minutos revela más sobre cómo opera el agente que semanas de conversación normal.",
-        "en": "The MCP usage log is not an error log — it's a record of every interaction, successful or not. Each entry has five fields that matter for the weekly audit: the tool called (`tool_name`), the exact timestamp, the tenantId the agent resolved for that call (either the default or one specified explicitly in the prompt), the result status (`success`, `tier4_confirmation`, `rejected`, `timeout`), and the number of retries before the call resolved. Most operators have never seen this log because the agent doesn't surface it by default — you have to ask for it explicitly with a prompt pointing at `cabgo_my_mcp_usage`. What appears in those entries in 10 minutes reveals more about how the agent operates than weeks of normal conversation."
+        "en": "The MCP usage log is not an error log — it's a record of every interaction, successful or not. Each entry has five fields that matter for the weekly audit: the tool called (`tool_name`), the exact timestamp, the tenantId the agent resolved for that call (either the default or one specified explicitly in the prompt), the result status (`success`, `tier4_confirmation`, `rejected`, `timeout`), and the number of retries before the call resolved. Most operators have never seen this log because the agent doesn't surface it by default — you have to ask for it explicitly with a prompt pointing at `cabgo_my_mcp_usage`. What appears in those entries in 10 minutes reveals more about how the agent operates than weeks of normal conversation.",
+        "pt": "O histórico de uso do MCP não é um log de erros — é um registro de cada interação, bem-sucedida ou não. Cada entrada tem cinco campos que importam para a auditoria semanal: a ferramenta chamada (`tool_name`), o timestamp exato, o tenantId que o agente resolveu para aquela chamada (pode ser o default ou um especificado explicitamente no prompt), o status do resultado (`success`, `tier4_confirmation`, `rejected`, `timeout`) e o número de retries antes de a chamada se resolver. A maioria dos operadores nunca viu esse histórico porque o agente não o exibe por padrão — é preciso pedi-lo explicitamente com um prompt dirigido a `cabgo_my_mcp_usage`. O que aparece nessas entradas em 10 minutos revela mais sobre como o agente opera do que semanas de conversa normal."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "El campo más informativo para detectar problemas es `retry_count`. Un valor de cero significa que el agente llamó la herramienta una vez y obtuvo el resultado esperado en el primer intento — el flujo ideal. Un valor de uno puede ser normal en conexiones con latencia variable. Dos o más retries en la misma llamada, en particular cuando se trata de herramientas destructivas como actualizaciones de configuración o cambios de precio, indica casi siempre que el agente recibió una tarjeta de confirmación Tier-4 y la interpretó como un error transitorio reintentable — comportamiento que sucede cuando el skill no está cargado o no se está activando.",
-        "en": "The most informative field for spotting problems is `retry_count`. A value of zero means the agent called the tool once and got the expected result on the first try — the ideal flow. A value of one can be normal under variable-latency connections. Two or more retries on the same call, especially for destructive tools like configuration updates or pricing changes, almost always indicates that the agent received a Tier-4 confirmation card and interpreted it as a retryable transient error — behavior that occurs when the skill isn't loaded or isn't activating."
+        "en": "The most informative field for spotting problems is `retry_count`. A value of zero means the agent called the tool once and got the expected result on the first try — the ideal flow. A value of one can be normal under variable-latency connections. Two or more retries on the same call, especially for destructive tools like configuration updates or pricing changes, almost always indicates that the agent received a Tier-4 confirmation card and interpreted it as a retryable transient error — behavior that occurs when the skill isn't loaded or isn't activating.",
+        "pt": "O campo mais informativo para detectar problemas é `retry_count`. Um valor zero significa que o agente chamou a ferramenta uma vez e obteve o resultado esperado na primeira tentativa — o fluxo ideal. Um valor de um pode ser normal em conexões com latência variável. Dois ou mais retries na mesma chamada, em especial quando se trata de ferramentas destrutivas como atualizações de configuração ou mudanças de preço, indica quase sempre que o agente recebeu um cartão de confirmação Tier-4 e o interpretou como um erro transitório passível de nova tentativa — comportamento que acontece quando o skill não está carregado ou não está sendo ativado."
       }
     },
     {
@@ -88,14 +106,16 @@
       "id": "patrones-de-alerta-historial",
       "text": {
         "es": "Cinco patrones de alerta que aparecen antes de que el operador note el problema",
-        "en": "Five alert patterns that appear before the operator notices a problem"
+        "en": "Five alert patterns that appear before the operator notices a problem",
+        "pt": "Cinco padrões de alerta que aparecem antes de o operador perceber o problema"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "Los problemas de configuración del agente no aparecen de golpe — aparecen como patrones en el historial de llamadas antes de que el operador note que algo está mal en el output diario. Hay cinco patrones que vale la pena buscar en cada revisión semanal:",
-        "en": "Agent configuration issues don't appear suddenly — they show up as patterns in the call history before the operator notices anything wrong in daily output. There are five patterns worth looking for in every weekly review:"
+        "en": "Agent configuration issues don't appear suddenly — they show up as patterns in the call history before the operator notices anything wrong in daily output. There are five patterns worth looking for in every weekly review:",
+        "pt": "Os problemas de configuração do agente não aparecem de repente — aparecem como padrões no histórico de chamadas antes de o operador perceber que algo está errado no output diário. Há cinco padrões que vale a pena procurar em cada revisão semanal:"
       }
     },
     {
@@ -115,6 +135,13 @@
           "Status `tier4_confirmation` followed by `timeout` without `success`: the agent received the confirmation card for a destructive tool and didn't complete the flow within the five-minute TTL. Indicates the operator closed the conversation before confirming, or the agent retried the call instead of presenting the card for approval.",
           "`cabgo_list_builds` appearing in daily operational status contexts: this tool returns the deploy history, not real-time operation status. Its presence in those contexts means the agent confused two tools with similar names but different purposes — a confusion the skill resolves with its tool-selection table.",
           "Calls at hours when the operator isn't using the agent: if the history shows activity at 2am or on days the operator didn't open their client, it may indicate an external integration using the same token, or an undocumented automated script. Worth investigating before it becomes a cost or security issue."
+        ],
+        "pt": [
+          "Chamadas frequentes a `cabgo_about` antes de outras ferramentas: o agente está fazendo descoberta do catálogo em cada sessão porque não tem o contexto pré-carregado do skill. Em operações onde o skill está corretamente instalado, `cabgo_about` deveria aparecer apenas na primeira sessão de um operador novo, não semana após semana.",
+          "tenantId resolvido como 'default' em mais de 50% das chamadas quando a operação tem vários apps ativos: em um fluxo multi-tenant correto, as chamadas devem se distribuir entre tenants conforme o trabalho do operador. Uma concentração alta no default pode indicar que os prompts não estão especificando o tenant secundário quando a tarefa exige.",
+          "Status `tier4_confirmation` seguido de `timeout` sem `success`: o agente recebeu o cartão de confirmação de uma ferramenta destrutiva e não completou o fluxo no TTL de cinco minutos. Indica que o operador fechou a conversa antes de confirmar, ou que o agente tentou a chamada de novo em vez de apresentar o cartão para aprovação.",
+          "`cabgo_list_builds` aparecendo em contextos de status operacional diário: essa ferramenta devolve o histórico de deploys, não o status da operação em tempo real. Sua presença nesses contextos indica que o agente confundiu duas ferramentas de nomes parecidos mas propósitos distintos — confusão que o skill resolve com sua tabela de seleção.",
+          "Chamadas em horários em que o operador não usa o agente: se o histórico mostra atividade às 2h da manhã ou em dias em que o operador não abriu o cliente, pode indicar uma integração externa usando o mesmo token, ou um script automatizado não documentado. Merece investigação antes de virar um problema de custos ou de segurança."
         ]
       }
     },
@@ -124,14 +151,16 @@
       "id": "como-solicitar-historial-mcp",
       "text": {
         "es": "Cómo solicitar el historial con un prompt que entrega output accionable",
-        "en": "How to request the history with a prompt that delivers actionable output"
+        "en": "How to request the history with a prompt that delivers actionable output",
+        "pt": "Como solicitar o histórico com um prompt que entrega output acionável"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "El historial de `cabgo_my_mcp_usage` no es una pantalla del dashboard — es una herramienta del servidor MCP que el agente llama cuando el operador se lo pide. El output por defecto incluye las últimas 50 llamadas, lo que en una operación activa cubre entre 3 y 5 días. Para una revisión semanal completa, el prompt debe especificar el período y el formato esperado; de lo contrario, el agente produce una narración libre difícil de comparar semana a semana. El prompt de auditoría debería guardarse en la biblioteca de prompts del operador junto con los cinco prompts de trabajo diario — es el sexto que completa el ciclo operativo.",
-        "en": "The `cabgo_my_mcp_usage` history isn't a dashboard screen — it's an MCP server tool the agent calls when the operator asks for it. The default output includes the last 50 calls, which in an active operation covers roughly 3 to 5 days. For a complete weekly review, the prompt must specify the time range and expected format; otherwise the agent produces a free narrative that's hard to compare week to week. The audit prompt should be saved in the operator's prompt library alongside the five daily work prompts — it's the sixth one that completes the operational cycle."
+        "en": "The `cabgo_my_mcp_usage` history isn't a dashboard screen — it's an MCP server tool the agent calls when the operator asks for it. The default output includes the last 50 calls, which in an active operation covers roughly 3 to 5 days. For a complete weekly review, the prompt must specify the time range and expected format; otherwise the agent produces a free narrative that's hard to compare week to week. The audit prompt should be saved in the operator's prompt library alongside the five daily work prompts — it's the sixth one that completes the operational cycle.",
+        "pt": "O histórico de `cabgo_my_mcp_usage` não é uma tela do dashboard — é uma ferramenta do servidor MCP que o agente chama quando o operador pede. O output padrão inclui as últimas 50 chamadas, o que em uma operação ativa cobre entre 3 e 5 dias. Para uma revisão semanal completa, o prompt deve especificar o período e o formato esperado; caso contrário, o agente produz uma narração livre difícil de comparar semana a semana. O prompt de auditoria deveria ser salvo na biblioteca de prompts do operador junto com os cinco prompts de trabalho diário — é o sexto que completa o ciclo operacional."
       }
     },
     {
@@ -139,7 +168,8 @@
       "variant": "tip",
       "text": {
         "es": "Prompt de revisión semanal: «Usa cabgo_my_mcp_usage para mostrar todas las llamadas de los últimos 7 días. Devuelve una tabla con columnas: herramienta, total de llamadas, estado más frecuente, promedio de retries, tenant más usado. Luego lista todas las entradas donde retry_count sea mayor a 1, ordenadas de mayor a menor. Si no hay ninguna, confirma explícitamente: sin retries elevados esta semana.»",
-        "en": "Weekly review prompt: \"Use cabgo_my_mcp_usage to show all calls from the last 7 days. Return a table with columns: tool, total calls, most frequent status, average retries, most used tenant. Then list all entries where retry_count is greater than 1, sorted highest to lowest. If there are none, explicitly confirm: no elevated retries this week.\""
+        "en": "Weekly review prompt: \"Use cabgo_my_mcp_usage to show all calls from the last 7 days. Return a table with columns: tool, total calls, most frequent status, average retries, most used tenant. Then list all entries where retry_count is greater than 1, sorted highest to lowest. If there are none, explicitly confirm: no elevated retries this week.\"",
+        "pt": "Prompt de revisão semanal: «Use cabgo_my_mcp_usage para mostrar todas as chamadas dos últimos 7 dias. Devolva uma tabela com colunas: ferramenta, total de chamadas, status mais frequente, média de retries, tenant mais usado. Depois liste todas as entradas em que retry_count seja maior que 1, ordenadas da maior para a menor. Se não houver nenhuma, confirme explicitamente: sem retries elevados esta semana.»"
       }
     },
     {
@@ -148,21 +178,24 @@
       "id": "historial-limpio-vs-ruidoso",
       "text": {
         "es": "Qué confirma un historial limpio y qué delata uno con ruido",
-        "en": "What a clean history confirms and what a noisy one reveals"
+        "en": "What a clean history confirms and what a noisy one reveals",
+        "pt": "O que um histórico limpo confirma e o que um com ruído denuncia"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "Un historial semanal limpio tiene tres características: la gran mayoría de las llamadas tienen estado `success` en el primer intento, las herramientas llamadas corresponden al tipo de tarea que el operador realiza habitualmente (reportes con herramientas de lectura, acciones con herramientas de escritura), y los tenantIds reflejan el patrón de trabajo real. Cuando los tres indicadores están alineados, el agente opera dentro de las convenciones del skill — no hay ajustes urgentes. Un historial limpio no requiere acción: solo confirma que la configuración actual sostiene el trabajo de la semana sin desgaste.",
-        "en": "A clean weekly history has three characteristics: the vast majority of calls have `success` status on the first try, the tools called match the types of tasks the operator typically performs (reports with read tools, actions with write tools), and the tenantIds reflect the actual work pattern. When all three indicators align, the agent is working within the skill's conventions — no urgent adjustments needed. A clean history requires no action: it simply confirms the current configuration is holding up under the week's work without wear."
+        "en": "A clean weekly history has three characteristics: the vast majority of calls have `success` status on the first try, the tools called match the types of tasks the operator typically performs (reports with read tools, actions with write tools), and the tenantIds reflect the actual work pattern. When all three indicators align, the agent is working within the skill's conventions — no urgent adjustments needed. A clean history requires no action: it simply confirms the current configuration is holding up under the week's work without wear.",
+        "pt": "Um histórico semanal limpo tem três características: a grande maioria das chamadas tem status `success` na primeira tentativa, as ferramentas chamadas correspondem ao tipo de tarefa que o operador costuma realizar (relatórios com ferramentas de leitura, ações com ferramentas de escrita), e os tenantIds refletem o padrão de trabalho real. Quando os três indicadores estão alinhados, o agente opera dentro das convenções do skill — não há ajustes urgentes. Um histórico limpo não exige ação: apenas confirma que a configuração atual sustenta o trabalho da semana sem desgaste."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "Un historial con ruido — retries elevados, herramientas de descubrimiento antes de cada acción, estado `rejected` en llamadas que el operador cree que ejecutó con éxito — delata uno de dos problemas: configuración del agente o deriva del prompt. La configuración involucra el skill y el token; la deriva del prompt sucede cuando el operador empieza a modificar sus plantillas guardadas sin preservar la especificidad que las hace funcionar. El historial distingue los dos casos porque los problemas de configuración producen patrones sistemáticos — el mismo error en llamadas distintas — mientras que la deriva del prompt produce errores específicos, que aparecen solo en ciertas herramientas o ciertos tenants. Saber cuál es cuál antes de actuar evita arreglar lo que no está roto.",
-        "en": "A noisy history — elevated retries, discovery tools before every action, `rejected` status on calls the operator believed executed successfully — reveals one of two problems: agent configuration or prompt drift. Configuration involves the skill and the token; prompt drift happens when the operator starts modifying saved templates without preserving the specificity that makes them work. The history distinguishes the two cases because configuration problems produce systematic patterns — the same error on different calls — while prompt drift produces specific errors that appear only on certain tools or certain tenants. Knowing which one you're dealing with before acting avoids fixing what isn't broken."
+        "en": "A noisy history — elevated retries, discovery tools before every action, `rejected` status on calls the operator believed executed successfully — reveals one of two problems: agent configuration or prompt drift. Configuration involves the skill and the token; prompt drift happens when the operator starts modifying saved templates without preserving the specificity that makes them work. The history distinguishes the two cases because configuration problems produce systematic patterns — the same error on different calls — while prompt drift produces specific errors that appear only on certain tools or certain tenants. Knowing which one you're dealing with before acting avoids fixing what isn't broken.",
+        "pt": "Um histórico com ruído — retries elevados, ferramentas de descoberta antes de cada ação, status `rejected` em chamadas que o operador acha que executou com sucesso — denuncia um de dois problemas: configuração do agente ou deriva do prompt. A configuração envolve o skill e o token; a deriva do prompt acontece quando o operador começa a modificar seus modelos salvos sem preservar a especificidade que os faz funcionar. O histórico distingue os dois casos porque os problemas de configuração produzem padrões sistemáticos — o mesmo erro em chamadas distintas — enquanto a deriva do prompt produz erros específicos, que aparecem apenas em certas ferramentas ou certos tenants. Saber qual é qual antes de agir evita consertar o que não está quebrado."
       }
     },
     {
@@ -171,14 +204,16 @@
       "id": "revision-semanal-cinco-preguntas",
       "text": {
         "es": "La revisión semanal: cinco preguntas que cubren la operación en diez minutos",
-        "en": "The weekly review: five questions that cover the operation in ten minutes"
+        "en": "The weekly review: five questions that cover the operation in ten minutes",
+        "pt": "A revisão semanal: cinco perguntas que cobrem a operação em dez minutos"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "Una revisión productiva no requiere leer cada entrada del historial — requiere hacer cinco preguntas concretas sobre el output de `cabgo_my_mcp_usage`. Si las respuestas están dentro del rango esperado, la operación del agente está sana. Si una se desvía, señala exactamente dónde mirar sin necesidad de una auditoría exhaustiva:",
-        "en": "A productive review doesn't require reading every log entry — it requires asking five concrete questions about the output of `cabgo_my_mcp_usage`. If the answers fall within the expected range, the agent operation is healthy. If one drifts, it points exactly where to look without needing an exhaustive audit:"
+        "en": "A productive review doesn't require reading every log entry — it requires asking five concrete questions about the output of `cabgo_my_mcp_usage`. If the answers fall within the expected range, the agent operation is healthy. If one drifts, it points exactly where to look without needing an exhaustive audit:",
+        "pt": "Uma revisão produtiva não exige ler cada entrada do histórico — exige fazer cinco perguntas concretas sobre o output de `cabgo_my_mcp_usage`. Se as respostas estão dentro da faixa esperada, a operação do agente está saudável. Se uma se desvia, ela aponta exatamente onde olhar sem precisar de uma auditoria exaustiva:"
       }
     },
     {
@@ -198,6 +233,13 @@
           "Does the tenantId distribution across calls reflect how the operator actually uses their apps? If they have taxi and delivery active and 90% or more of calls always go to the same tenant, secondary prompts probably aren't specifying the right tenant when the task requires it.",
           "Is there any tool with a call volume significantly higher than expected for the week? A spike on a specific tool may indicate an agent loop or an undocumented external automation with access to the token.",
           "Is the total call volume for the week consistent with the operator's actual usage frequency? A large discrepancy — more than double the typical volume or activity at unusual hours — warrants investigation before it becomes a cost issue."
+        ],
+        "pt": [
+          "A média de retries por chamada está abaixo de 0,5 esta semana? Uma média maior indica que o agente está tentando de novo em vez de completar fluxos na primeira tentativa — a causa mais comum é o cartão Tier-4 não reconhecido por falta de skill.",
+          "As chamadas a ferramentas destrutivas têm status `success` ou `tier4_confirmation` — e não `rejected` ou `timeout`? Um `timeout` ou `rejected` nessas ferramentas significa que o fluxo de confirmação não se completou dentro do TTL de cinco minutos.",
+          "A distribuição de tenantId nas chamadas reflete como o operador usa seus apps? Se ele tem táxi e delivery ativos e 90% ou mais das chamadas vão sempre ao mesmo tenant, os prompts secundários provavelmente não estão especificando o tenant certo quando a tarefa exige.",
+          "Há alguma ferramenta com um volume de chamadas muito acima do esperado para a semana? Um pico em uma ferramenta específica pode indicar um loop do agente ou uma automação externa não documentada com acesso ao token.",
+          "O volume total de chamadas da semana é consistente com a frequência real de uso do operador? Uma discrepância grande — mais do que o dobro do volume típico ou atividade em horários incomuns — merece investigação antes de virar um problema de custos."
         ]
       }
     },
@@ -207,72 +249,84 @@
       "id": "configuracion-vs-bug-plataforma",
       "text": {
         "es": "Problemas de configuración vs bugs de plataforma: cómo distinguirlos y qué hacer con cada uno",
-        "en": "Configuration issues vs platform bugs: how to tell them apart and what to do about each"
+        "en": "Configuration issues vs platform bugs: how to tell them apart and what to do about each",
+        "pt": "Problemas de configuração vs bugs de plataforma: como distingui-los e o que fazer com cada um"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "Hay una distinción importante entre un patrón que indica un problema de configuración — que el operador puede resolver solo — y uno que indica comportamiento inesperado del servidor MCP, que requiere soporte técnico. La regla práctica: si el historial muestra llamadas correctas por parte del agente seguidas de respuestas inesperadas o errores no documentados del servidor, es un problema de plataforma. Si el historial muestra llamadas incorrectas — herramienta equivocada, tenantId faltante, retries ante Tier-4 — es un problema de configuración del agente. Los problemas de configuración son más frecuentes y tienen solución directa: skill no instalado (instalarlo), skill instalado pero no activándose (verificar que el directorio sea el correcto y el archivo se llame exactamente SKILL.md), prompts que no especifican tenantId en operaciones multi-tenant (agregar el campo), confusión sistemática entre herramientas de lectura y escritura (revisar la tabla de selección del skill).",
-        "en": "There's an important distinction between a pattern that indicates a configuration issue — which the operator can resolve independently — and one that indicates unexpected MCP server behavior, which requires technical support. The practical rule: if the history shows correct agent calls followed by unexpected server responses or undocumented errors, it's a platform issue. If the history shows incorrect calls — wrong tool, missing tenantId, retries on Tier-4 — it's an agent configuration problem. Configuration problems are more common and have direct solutions: skill not installed (install it), skill installed but not activating (verify the directory is correct and the file is named exactly SKILL.md), prompts missing tenantId in multi-tenant operations (add the field), systematic confusion between read and write tools (review the skill's tool-selection table)."
+        "en": "There's an important distinction between a pattern that indicates a configuration issue — which the operator can resolve independently — and one that indicates unexpected MCP server behavior, which requires technical support. The practical rule: if the history shows correct agent calls followed by unexpected server responses or undocumented errors, it's a platform issue. If the history shows incorrect calls — wrong tool, missing tenantId, retries on Tier-4 — it's an agent configuration problem. Configuration problems are more common and have direct solutions: skill not installed (install it), skill installed but not activating (verify the directory is correct and the file is named exactly SKILL.md), prompts missing tenantId in multi-tenant operations (add the field), systematic confusion between read and write tools (review the skill's tool-selection table).",
+        "pt": "Há uma distinção importante entre um padrão que indica um problema de configuração — que o operador pode resolver sozinho — e um que indica comportamento inesperado do servidor MCP, que exige suporte técnico. A regra prática: se o histórico mostra chamadas corretas por parte do agente seguidas de respostas inesperadas ou erros não documentados do servidor, é um problema de plataforma. Se o histórico mostra chamadas incorretas — ferramenta errada, tenantId faltando, retries diante do Tier-4 — é um problema de configuração do agente. Os problemas de configuração são mais frequentes e têm solução direta: skill não instalado (instalar), skill instalado mas não ativando (verificar se o diretório está correto e se o arquivo se chama exatamente SKILL.md), prompts que não especificam tenantId em operações multi-tenant (adicionar o campo), confusão sistemática entre ferramentas de leitura e escrita (revisar a tabela de seleção do skill)."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "Los bugs de plataforma — respuestas con formato inesperado, herramientas del catálogo que devuelven errores no documentados, tokens que expiran antes del TTL declarado, tenantIds válidos que el servidor no reconoce — se reportan como issues en el repositorio del skill o directamente al equipo de Cabgo. El extracto relevante del historial de `cabgo_my_mcp_usage` es la evidencia más útil para ese reporte: muestra exactamente qué llamó el agente, cuándo, con qué tenantId y qué respuesta recibió. Un reporte sin ese extracto obliga al equipo a reproducir el problema desde cero; uno con el extracto permite identificar el origen en minutos.",
-        "en": "Platform bugs — responses with unexpected format, catalog tools returning undocumented errors, tokens expiring before the declared TTL, valid tenantIds the server doesn't recognize — are reported as issues in the skill repository or directly to the Cabgo team. The relevant extract from the `cabgo_my_mcp_usage` history is the most useful evidence for that report: it shows exactly what the agent called, when, with what tenantId, and what response it received. A report without that extract forces the team to reproduce the issue from scratch; one with the extract enables pinpointing the source in minutes."
+        "en": "Platform bugs — responses with unexpected format, catalog tools returning undocumented errors, tokens expiring before the declared TTL, valid tenantIds the server doesn't recognize — are reported as issues in the skill repository or directly to the Cabgo team. The relevant extract from the `cabgo_my_mcp_usage` history is the most useful evidence for that report: it shows exactly what the agent called, when, with what tenantId, and what response it received. A report without that extract forces the team to reproduce the issue from scratch; one with the extract enables pinpointing the source in minutes.",
+        "pt": "Os bugs de plataforma — respostas com formato inesperado, ferramentas do catálogo que devolvem erros não documentados, tokens que expiram antes do TTL declarado, tenantIds válidos que o servidor não reconhece — são reportados como issues no repositório do skill ou diretamente à equipe da Cabgo. O trecho relevante do histórico de `cabgo_my_mcp_usage` é a evidência mais útil para esse report: mostra exatamente o que o agente chamou, quando, com qual tenantId e qual resposta recebeu. Um report sem esse trecho obriga a equipe a reproduzir o problema do zero; um com o trecho permite identificar a origem em minutos."
       }
     },
     {
       "type": "quote",
       "text": {
         "es": "La primera semana que revisé el historial, vi que el agente había reintentado la tarjeta de confirmación tres veces antes de que yo cerrara la conversación. Eso me dijo que el skill no estaba cargado correctamente — estaba tratando el Tier-4 como un error del servidor. Diez minutos de revisión me dieron más claridad que dos semanas de prompts de prueba y error.",
-        "en": "The first week I reviewed the history, I saw the agent had retried the confirmation card three times before I closed the conversation. That told me the skill wasn't loaded correctly — it was treating Tier-4 as a server error. Ten minutes of review gave me more clarity than two weeks of trial-and-error prompts."
+        "en": "The first week I reviewed the history, I saw the agent had retried the confirmation card three times before I closed the conversation. That told me the skill wasn't loaded correctly — it was treating Tier-4 as a server error. Ten minutes of review gave me more clarity than two weeks of trial-and-error prompts.",
+        "pt": "Na primeira semana em que revisei o histórico, vi que o agente tinha tentado o cartão de confirmação três vezes antes de eu fechar a conversa. Isso me disse que o skill não estava carregado corretamente — ele estava tratando o Tier-4 como um erro do servidor. Dez minutos de revisão me deram mais clareza do que duas semanas de prompts na tentativa e erro."
       },
       "attribution": {
         "es": "Operador con 65 conductores activos y dos apps en ciudades del estado de Jalisco",
-        "en": "Operator with 65 active drivers and two apps across cities in Jalisco state"
+        "en": "Operator with 65 active drivers and two apps across cities in Jalisco state",
+        "pt": "Operador com 65 motoristas ativos e dois apps em cidades do estado de Jalisco"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "El agente conectado al MCP de Cabgo no es invisible para quien sabe dónde mirar. El historial de `cabgo_my_mcp_usage` registra cada decisión de herramienta, cada tenantId resuelto, cada retry, cada confirmación pendiente. Eso convierte la revisión semanal de 10 minutos en el único control de calidad que corre a un nivel más profundo que los prompts: no solo verifica que el agente respondió, sino que respondió de la manera correcta, con las herramientas correctas, sin patrones que indiquen que se están perdiendo convenciones clave en la ejecución diaria.",
-        "en": "The agent connected to Cabgo's MCP isn't invisible to someone who knows where to look. The `cabgo_my_mcp_usage` log records every tool decision, every resolved tenantId, every retry, every pending confirmation. That makes the 10-minute weekly review the only quality check that runs at a deeper level than prompts: it doesn't just verify that the agent responded, it verifies that it responded correctly — with the right tools, without patterns indicating key conventions are being dropped during daily execution."
+        "en": "The agent connected to Cabgo's MCP isn't invisible to someone who knows where to look. The `cabgo_my_mcp_usage` log records every tool decision, every resolved tenantId, every retry, every pending confirmation. That makes the 10-minute weekly review the only quality check that runs at a deeper level than prompts: it doesn't just verify that the agent responded, it verifies that it responded correctly — with the right tools, without patterns indicating key conventions are being dropped during daily execution.",
+        "pt": "O agente conectado ao MCP da Cabgo não é invisível para quem sabe onde olhar. O histórico de `cabgo_my_mcp_usage` registra cada decisão de ferramenta, cada tenantId resolvido, cada retry, cada confirmação pendente. Isso transforma a revisão semanal de 10 minutos no único controle de qualidade que roda em um nível mais profundo do que os prompts: não só verifica que o agente respondeu, mas que respondeu da maneira certa, com as ferramentas certas, sem padrões que indiquem que estão se perdendo convenções-chave na execução diária."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "El arco completo de una operación bien configurada con agentes tiene tres capas: conectar el MCP con el skill instalado, definir los prompts de trabajo diario, y auditar el historial cada semana para confirmar que las tres capas siguen alineadas. La mayoría de los operadores tiene las primeras dos. La revisión semanal es la tercera capa — la que convierte al agente de una herramienta que se usa con fe en una que se usa con evidencia. Diez minutos el lunes por la mañana es el costo de esa diferencia.",
-        "en": "The complete arc of a well-configured agent-powered operation has three layers: connect the MCP with the skill installed, define the daily work prompts, and audit the history each week to confirm all three layers stay aligned. Most operators have the first two. The weekly review is the third layer — the one that turns the agent from a tool used on faith into one used with evidence. Ten minutes on Monday morning is the cost of that difference."
+        "en": "The complete arc of a well-configured agent-powered operation has three layers: connect the MCP with the skill installed, define the daily work prompts, and audit the history each week to confirm all three layers stay aligned. Most operators have the first two. The weekly review is the third layer — the one that turns the agent from a tool used on faith into one used with evidence. Ten minutes on Monday morning is the cost of that difference.",
+        "pt": "O arco completo de uma operação bem configurada com agentes tem três camadas: conectar o MCP com o skill instalado, definir os prompts de trabalho diário, e auditar o histórico toda semana para confirmar que as três camadas seguem alinhadas. A maioria dos operadores tem as duas primeiras. A revisão semanal é a terceira camada — a que transforma o agente de uma ferramenta que se usa com fé em uma que se usa com evidência. Dez minutos na segunda-feira de manhã é o custo dessa diferença."
       }
     }
   ],
   "cta": {
     "heading": {
       "es": "¿Listo para lanzar tu propia app de movilidad?",
-      "en": "Ready to launch your own mobility app?"
+      "en": "Ready to launch your own mobility app?",
+      "pt": "Pronto para lançar seu próprio app de mobilidade?"
     },
     "body": {
       "es": "Configura tu marca, tus tarifas y tus servicios en semanas, no en meses. Cabgo te entrega la plataforma; tú te quedas con la operación, los clientes y los ingresos.",
-      "en": "Set up your brand, pricing and services in weeks, not months. Cabgo ships the platform — you keep the operation, the customers and the revenue."
+      "en": "Set up your brand, pricing and services in weeks, not months. Cabgo ships the platform — you keep the operation, the customers and the revenue.",
+      "pt": "Configure sua marca, suas tarifas e seus serviços em semanas, não em meses. A Cabgo entrega a plataforma; você fica com a operação, os clientes e a receita."
     },
     "buttonLabel": {
       "es": "Comenzar con Cabgo",
-      "en": "Get started with Cabgo"
+      "en": "Get started with Cabgo",
+      "pt": "Começar com a Cabgo"
     },
     "buttonHref": "/empezar"
   },
   "seo": {
     "metaTitle": {
       "es": "Auditoría semanal del agente MCP en Cabgo | Cabgo",
-      "en": "Weekly MCP agent audit for Cabgo operators | Cabgo"
+      "en": "Weekly MCP agent audit for Cabgo operators | Cabgo",
+      "pt": "Auditoria semanal do agente MCP na Cabgo | Cabgo"
     },
     "metaDescription": {
       "es": "Qué revisar cada semana en cabgo_my_mcp_usage: patrones de alerta, herramientas mal seleccionadas, retries y cómo distinguir configuración de bugs.",
-      "en": "What to check each week in cabgo_my_mcp_usage: alert patterns, wrong tool selection, retry spikes, and how to tell a config issue from a platform bug."
+      "en": "What to check each week in cabgo_my_mcp_usage: alert patterns, wrong tool selection, retry spikes, and how to tell a config issue from a platform bug.",
+      "pt": "O que revisar toda semana em cabgo_my_mcp_usage: padrões de alerta, ferramentas mal selecionadas, retries e como distinguir configuração de bugs."
     }
   }
 }

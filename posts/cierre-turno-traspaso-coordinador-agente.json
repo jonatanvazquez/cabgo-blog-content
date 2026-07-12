@@ -3,16 +3,19 @@
   "category": "product",
   "title": {
     "es": "Cierre de turno con el agente: cómo convertir el traspaso en un briefing de dos minutos",
-    "en": "Shift close with the agent: converting the handover into a two-minute briefing"
+    "en": "Shift close with the agent: converting the handover into a two-minute briefing",
+    "pt": "Fechamento de turno com o agente: como transformar a passagem em um briefing de dois minutos"
   },
   "excerpt": {
     "es": "El traspaso de turno en ride-hailing regional es el momento más subdocumentado del ciclo operativo. El coordinador entrante pierde 15–30 minutos reconstruyendo contexto que ya existía. El agente puede convertir eso en dos minutos de lectura.",
-    "en": "The shift handover in regional ride-hailing is the most consistently underdocumented moment of the operational cycle. The incoming coordinator spends 15–30 minutes reconstructing context that already existed. The agent can convert that into two minutes of reading."
+    "en": "The shift handover in regional ride-hailing is the most consistently underdocumented moment of the operational cycle. The incoming coordinator spends 15–30 minutes reconstructing context that already existed. The agent can convert that into two minutes of reading.",
+    "pt": "A passagem de turno no transporte por aplicativo regional é o momento mais subdocumentado do ciclo operacional. O coordenador que entra perde de 15 a 30 minutos reconstruindo um contexto que já existia. O agente pode transformar isso em dois minutos de leitura."
   },
   "heroImage": "https://raw.githubusercontent.com/jonatanvazquez/cabgo-blog-content/main/images/cierre-turno-traspaso-coordinador-agente.jpg",
   "heroImageAlt": {
     "es": "Ilustración isométrica de un coordinador saliente escribiendo el cierre en un panel de conversación estructurado con cinco secciones, y un coordinador entrante leyéndolo desde el lado opuesto, conectados por un arco teal con un ícono de reloj de transición de turno en el centro",
-    "en": "Isometric illustration of an outgoing coordinator writing the shift close in a structured five-section conversation panel, and an incoming coordinator reading it from the opposite side, connected by a teal arc with a shift-transition clock icon at the center"
+    "en": "Isometric illustration of an outgoing coordinator writing the shift close in a structured five-section conversation panel, and an incoming coordinator reading it from the opposite side, connected by a teal arc with a shift-transition clock icon at the center",
+    "pt": "Ilustração isométrica de um coordenador que sai escrevendo o fechamento em um painel de conversa estruturado com cinco seções, e um coordenador que entra lendo pelo lado oposto, conectados por um arco teal com um ícone de relógio de transição de turno no centro"
   },
   "heroImagePrompt": "Isometric split composition: on the left, an outgoing coordinator figure sits at a compact isometric desk, typing the last entry in a glowing teal conversation panel with five clearly labeled section rows. On the right, an incoming coordinator figure stands reading the same panel from the opposite side, a glowing clock icon showing the shift handover moment above. Between both figures, a soft teal arc connects them at the panel level, with a small floating checkmark icon at the midpoint. Deep violet floor grid, soft indigo radial background glow, clean geometric shapes, negative space on the lower right.",
   "publishedAt": "2026-06-22",
@@ -33,13 +36,22 @@
       "document shift close regional ride-hailing coordinators",
       "shift summary outgoing coordinator AI agent",
       "improve shift handovers regional taxi operation"
+    ],
+    "pt": [
+      "fechamento de turno transporte por aplicativo passagem coordenador",
+      "briefing coordenador que entra turno agente de IA",
+      "passagem de turno operação de mobilidade regional agente",
+      "documentar fechamento de turno coordenadores transporte por aplicativo",
+      "resumo de turno coordenador que sai agente de IA operação",
+      "melhorar passagem de turno operação de táxi regional"
     ]
   },
   "author": {
     "name": "Equipo Cabgo",
     "role": {
       "es": "Plataforma de movilidad",
-      "en": "Mobility platform"
+      "en": "Mobility platform",
+      "pt": "Plataforma de mobilidade"
     }
   },
   "blocks": [
@@ -47,14 +59,16 @@
       "type": "paragraph",
       "text": {
         "es": "El traspaso de turno en una operación regional de ride-hailing es el momento más sistemáticamente subdocumentado del ciclo operativo. El coordinador que termina el turno lleva en la cabeza el estado de cada zona al cierre, las incidencias que resolvió en las últimas cuatro horas, las alertas que quedaron sin respuesta definitiva y los conductores con situaciones abiertas. El coordinador que entra no tiene acceso a ninguna de esa información salvo que quien sale se la transmita directamente — lo que en la mayoría de las operaciones regionales significa un mensaje de dos líneas por WhatsApp, una llamada de cinco minutos mientras uno todavía está manejando, o simplemente el panel abierto con el estado en tiempo real sin ninguna narrativa de lo que ocurrió en las horas previas. El resultado es siempre el mismo: el coordinador entrante invierte los primeros quince a treinta minutos de su turno reconstruyendo contexto en lugar de gestionando con él.",
-        "en": "The shift handover in a regional ride-hailing operation is the most consistently underdocumented moment of the operational cycle. The outgoing coordinator carries the end-of-shift state of every zone in their head — which incidents they resolved in the last four hours, which alerts stayed open without a definitive response, which drivers had unresolved situations. The incoming coordinator has no access to any of that information unless the outgoing one transmits it directly — which in most regional operations means a two-line WhatsApp message, a five-minute call while one of them is still driving, or simply an open panel showing the current real-time state with no narrative of what happened in the hours before. The result is always the same: the incoming coordinator spends the first fifteen to thirty minutes of their shift reconstructing context instead of managing with it."
+        "en": "The shift handover in a regional ride-hailing operation is the most consistently underdocumented moment of the operational cycle. The outgoing coordinator carries the end-of-shift state of every zone in their head — which incidents they resolved in the last four hours, which alerts stayed open without a definitive response, which drivers had unresolved situations. The incoming coordinator has no access to any of that information unless the outgoing one transmits it directly — which in most regional operations means a two-line WhatsApp message, a five-minute call while one of them is still driving, or simply an open panel showing the current real-time state with no narrative of what happened in the hours before. The result is always the same: the incoming coordinator spends the first fifteen to thirty minutes of their shift reconstructing context instead of managing with it.",
+        "pt": "A passagem de turno em uma operação regional de transporte por aplicativo é o momento mais sistematicamente subdocumentado do ciclo operacional. O coordenador que termina o turno carrega na cabeça o estado de cada zona no fechamento, as ocorrências que resolveu nas últimas quatro horas, os alertas que ficaram sem resposta definitiva e os motoristas com situações em aberto. O coordenador que entra não tem acesso a nenhuma dessas informações a menos que quem sai as transmita diretamente — o que, na maioria das operações regionais, significa uma mensagem de duas linhas pelo WhatsApp, uma ligação de cinco minutos enquanto um deles ainda está dirigindo, ou simplesmente o painel aberto com o estado em tempo real, sem nenhuma narrativa do que aconteceu nas horas anteriores. O resultado é sempre o mesmo: o coordenador que entra gasta os primeiros quinze a trinta minutos do seu turno reconstruindo contexto em vez de gerenciar com ele."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "Este artículo está dirigido al operador con más de un coordinador activo — ya sea porque la operación tiene turnos cubiertos por distintas personas o porque el volumen hace necesario distribuir la coordinación entre la ciudad principal y una segunda. El problema del traspaso improvisado no es exclusivo de esas situaciones, pero es donde su costo resulta más visible: durante la transición entre turnos, la operación está técnicamente más expuesta que en cualquier otro momento del día, porque el coordinador saliente ya cerró su ciclo de atención y el entrante todavía no tiene el mapa suficiente para actuar con criterio. Un agente que produce el resumen del turno en los últimos cinco minutos antes del cierre convierte ese período de reconstrucción en dos minutos de lectura — y hace que el primer acto del coordinador entrante sea gestionar, no ponerse al día.",
-        "en": "This article is for the operator with more than one active coordinator — whether because the operation has shifts covered by different people, or because the volume makes it necessary to distribute coordination across the main city and a second one. The improvised handover problem isn't exclusive to those situations, but it's where its cost is most visible: during the transition between shifts, the operation is technically more exposed than at any other point in the day, because the outgoing coordinator has already closed their attention cycle while the incoming one doesn't yet have a sufficient map to act with judgment. An agent that produces the shift summary in the last five minutes before close converts that reconstruction window into two minutes of reading — and makes the incoming coordinator's first act management, not catching up."
+        "en": "This article is for the operator with more than one active coordinator — whether because the operation has shifts covered by different people, or because the volume makes it necessary to distribute coordination across the main city and a second one. The improvised handover problem isn't exclusive to those situations, but it's where its cost is most visible: during the transition between shifts, the operation is technically more exposed than at any other point in the day, because the outgoing coordinator has already closed their attention cycle while the incoming one doesn't yet have a sufficient map to act with judgment. An agent that produces the shift summary in the last five minutes before close converts that reconstruction window into two minutes of reading — and makes the incoming coordinator's first act management, not catching up.",
+        "pt": "Este artigo é voltado para o operador com mais de um coordenador ativo — seja porque a operação tem turnos cobertos por pessoas diferentes, seja porque o volume torna necessário distribuir a coordenação entre a cidade principal e uma segunda. O problema da passagem improvisada não é exclusivo dessas situações, mas é onde seu custo fica mais visível: durante a transição entre turnos, a operação está tecnicamente mais exposta do que em qualquer outro momento do dia, porque o coordenador que sai já fechou seu ciclo de atendimento e o que entra ainda não tem o mapa suficiente para agir com critério. Um agente que produz o resumo do turno nos últimos cinco minutos antes do fechamento transforma esse período de reconstrução em dois minutos de leitura — e faz com que o primeiro ato do coordenador que entra seja gerenciar, não se atualizar."
       }
     },
     {
@@ -63,21 +77,24 @@
       "id": "costo-real-traspaso-improvisado",
       "text": {
         "es": "El costo real del traspaso improvisado",
-        "en": "The real cost of the improvised handover"
+        "en": "The real cost of the improvised handover",
+        "pt": "O custo real da passagem improvisada"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "La reconstrucción de contexto que el coordinador entrante hace al inicio de cada turno tiene un costo que la mayoría de los operadores no contabiliza porque está distribuido en cada traspaso, no concentrado en un evento visible. En una operación con dos turnos de doce horas y un traspaso diario, los quince a treinta minutos de reconstrucción equivalen a entre noventa y ciento ochenta horas anuales de tiempo de coordinador dedicadas a recuperar información que ya existía — simplemente nunca se transmitió en un formato utilizable. No es tiempo inactivo; es tiempo que se paga dos veces: el coordinador saliente lo acumuló turno a turno, y el entrante lo reconstruye desde cero sin garantía de recuperarlo todo.",
-        "en": "The context reconstruction the incoming coordinator carries out at the start of each shift has a cost most operators don't itemize because it's distributed across every handover rather than concentrated in a visible event. In an operation with two twelve-hour shifts and one daily transition, the fifteen-to-thirty-minute reconstruction window amounts to ninety to one hundred eighty hours per year of coordinator time spent recovering information that already existed — it was simply never transmitted in a usable format. It isn't idle time; it's time paid twice: the outgoing coordinator accumulated it shift by shift, and the incoming one reconstructs it from scratch without any guarantee of recovering all of it."
+        "en": "The context reconstruction the incoming coordinator carries out at the start of each shift has a cost most operators don't itemize because it's distributed across every handover rather than concentrated in a visible event. In an operation with two twelve-hour shifts and one daily transition, the fifteen-to-thirty-minute reconstruction window amounts to ninety to one hundred eighty hours per year of coordinator time spent recovering information that already existed — it was simply never transmitted in a usable format. It isn't idle time; it's time paid twice: the outgoing coordinator accumulated it shift by shift, and the incoming one reconstructs it from scratch without any guarantee of recovering all of it.",
+        "pt": "A reconstrução de contexto que o coordenador que entra faz no início de cada turno tem um custo que a maioria dos operadores não contabiliza, porque está distribuído em cada passagem, e não concentrado em um evento visível. Em uma operação com dois turnos de doze horas e uma passagem diária, os quinze a trinta minutos de reconstrução equivalem a entre noventa e cento e oitenta horas anuais de tempo de coordenador dedicadas a recuperar informação que já existia — simplesmente nunca foi transmitida em um formato utilizável. Não é tempo ocioso; é tempo pago duas vezes: o coordenador que sai acumulou turno a turno, e o que entra reconstrói do zero sem garantia de recuperar tudo."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "El costo operativo más significativo no está en el tiempo sino en las decisiones que el coordinador entrante toma con contexto incompleto durante ese período. Si el turno anterior tuvo una incidencia en zona norte que no quedó completamente resuelta, el coordinador entrante puede leer el estado actual del panel como estable — los indicadores en tiempo real no muestran el historial de la última hora. Si hay un conductor con un comportamiento problemático que el coordinador saliente identificó pero no transmitió, el entrante aprende de ese problema cuando escala, no cuando todavía puede prevenirse. Esas no son decisiones incorrectas del coordinador — son el costo de un sistema de traspaso que no documenta lo que el turno deja en curso al cerrar, y ese costo se paga en cada transición que ocurre sin briefing estructurado.",
-        "en": "The most significant operational cost isn't the time — it's the decisions the incoming coordinator makes with incomplete context during that window. If the previous shift had an unresolved incident in the northern zone, the incoming coordinator can read the current panel state as stable — real-time indicators don't show the last hour's history. If a driver with a developing behavior problem was flagged by the outgoing coordinator but not transmitted in the handover, the incoming coordinator learns about it when it escalates rather than when it can still be prevented. Those aren't incorrect decisions by the coordinator — they are the cost of a handover system that doesn't document what a shift leaves open when it closes, and that cost is paid in every transition that happens without a structured briefing."
+        "en": "The most significant operational cost isn't the time — it's the decisions the incoming coordinator makes with incomplete context during that window. If the previous shift had an unresolved incident in the northern zone, the incoming coordinator can read the current panel state as stable — real-time indicators don't show the last hour's history. If a driver with a developing behavior problem was flagged by the outgoing coordinator but not transmitted in the handover, the incoming coordinator learns about it when it escalates rather than when it can still be prevented. Those aren't incorrect decisions by the coordinator — they are the cost of a handover system that doesn't document what a shift leaves open when it closes, and that cost is paid in every transition that happens without a structured briefing.",
+        "pt": "O custo operacional mais significativo não está no tempo, mas nas decisões que o coordenador que entra toma com contexto incompleto durante esse período. Se o turno anterior teve uma ocorrência na zona norte que não ficou totalmente resolvida, o coordenador que entra pode ler o estado atual do painel como estável — os indicadores em tempo real não mostram o histórico da última hora. Se há um motorista com um comportamento problemático que o coordenador que sai identificou mas não transmitiu, o que entra fica sabendo do problema quando ele escala, e não quando ainda dá para prevenir. Essas não são decisões incorretas do coordenador — são o custo de um sistema de passagem que não documenta o que o turno deixa em andamento ao fechar, e esse custo se paga em cada transição que acontece sem um briefing estruturado."
       }
     },
     {
@@ -86,14 +103,16 @@
       "id": "informacion-coordinador-entrante-necesita",
       "text": {
         "es": "Lo que el coordinador entrante necesita antes de abrir el panel",
-        "en": "What the incoming coordinator needs before opening the dashboard"
+        "en": "What the incoming coordinator needs before opening the dashboard",
+        "pt": "O que o coordenador que entra precisa antes de abrir o painel"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "La diferencia entre un traspaso útil y uno vacío está en identificar cuáles son los cuatro o cinco hechos del turno saliente que condicionan activamente las primeras decisiones del turno nuevo. No todos los eventos del turno anterior tienen implicaciones para el siguiente — muchos son incidencias que quedaron completamente cerradas sin estado abierto. Lo que importa es lo que el turno deja en curso: las situaciones sin resolver, las zonas en un estado distinto al equilibrio estándar, y la información externa que el panel no registra pero que condiciona cómo se van a comportar los datos en las próximas horas.",
-        "en": "The difference between a useful handover and an empty one is identifying the four or five facts from the outgoing shift that actively condition the incoming coordinator's first decisions. Not every event from the previous shift has implications for the next one — many are incidents that closed cleanly with no open state. What matters is what the shift leaves in progress: unresolved situations, zones in a state different from their standard baseline, and external information the panel doesn't record but that determines how the data will behave in the next few hours."
+        "en": "The difference between a useful handover and an empty one is identifying the four or five facts from the outgoing shift that actively condition the incoming coordinator's first decisions. Not every event from the previous shift has implications for the next one — many are incidents that closed cleanly with no open state. What matters is what the shift leaves in progress: unresolved situations, zones in a state different from their standard baseline, and external information the panel doesn't record but that determines how the data will behave in the next few hours.",
+        "pt": "A diferença entre uma passagem útil e uma vazia está em identificar quais são os quatro ou cinco fatos do turno que sai que condicionam ativamente as primeiras decisões do turno novo. Nem todos os eventos do turno anterior têm implicações para o seguinte — muitos são ocorrências que ficaram totalmente encerradas, sem estado em aberto. O que importa é o que o turno deixa em andamento: as situações sem resolução, as zonas em um estado diferente do equilíbrio padrão e a informação externa que o painel não registra, mas que condiciona como os dados vão se comportar nas próximas horas."
       }
     },
     {
@@ -113,6 +132,13 @@
           "**Drivers requiring follow-up**: open fare dispute, ongoing technical issue, or behavior pattern the outgoing shift flagged during its hours",
           "**Local events in the next two to three hours**: information the agent doesn't have in the context file that will break from the historical patterns it does have",
           "**Active operator special instructions**: any directive communicated during the outgoing shift that hasn't yet been added to the context file"
+        ],
+        "pt": [
+          "**Ocorrências não resolvidas**: o que ficou sem encerrar, qual é o estado atual e qual ação concreta continua pendente para o turno que entra",
+          "**Zonas em estado instável**: qualquer zona com mais de um alerta ativo no fechamento, ou com cobertura no limite inferior do patamar documentado",
+          "**Motoristas com acompanhamento pendente**: disputa de tarifa em aberto, problema técnico em andamento ou padrão de comportamento detectado durante o turno",
+          "**Eventos locais nas próximas duas a três horas**: informação que o agente não tem no arquivo de contexto e que vai quebrar os padrões históricos que ele tem",
+          "**Instruções especiais do operador em vigor**: qualquer diretriz comunicada durante o turno que sai e que ainda não foi adicionada ao arquivo de contexto"
         ]
       }
     },
@@ -122,28 +148,32 @@
       "id": "resumen-turno-agente-cinco-minutos",
       "text": {
         "es": "El resumen de turno que el agente produce en cinco minutos",
-        "en": "The shift summary the agent produces in five minutes"
+        "en": "The shift summary the agent produces in five minutes",
+        "pt": "O resumo de turno que o agente produz em cinco minutos"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "El coordinador saliente con el agente integrado en el flujo del turno ya tiene todo el material para producir ese briefing: el historial de alertas que emitió el agente, las incidencias que el coordinador documentó en la conversación activa, los diagnósticos producidos y las decisiones tomadas. Lo que no tiene es el formato para convertir ese historial en los cinco puntos que el coordinador entrante puede leer en dos minutos. El agente puede hacer esa conversión en la instrucción final del turno — con una sola petición explícita antes del cierre.",
-        "en": "The outgoing coordinator with the agent embedded in the shift workflow already has all the material needed to produce that briefing: the alert history the agent issued, the incidents the coordinator documented in the active conversation, the diagnostics produced, and the decisions made. What's missing is the format to convert that history into the five points the incoming coordinator can read in two minutes. The agent can make that conversion in the shift's final instruction — with a single explicit request before close."
+        "en": "The outgoing coordinator with the agent embedded in the shift workflow already has all the material needed to produce that briefing: the alert history the agent issued, the incidents the coordinator documented in the active conversation, the diagnostics produced, and the decisions made. What's missing is the format to convert that history into the five points the incoming coordinator can read in two minutes. The agent can make that conversion in the shift's final instruction — with a single explicit request before close.",
+        "pt": "O coordenador que sai, com o agente integrado ao fluxo do turno, já tem todo o material para produzir esse briefing: o histórico de alertas que o agente emitiu, as ocorrências que o coordenador documentou na conversa ativa, os diagnósticos produzidos e as decisões tomadas. O que ele não tem é o formato para transformar esse histórico nos cinco pontos que o coordenador que entra consegue ler em dois minutos. O agente pode fazer essa conversão na instrução final do turno — com um único pedido explícito antes do fechamento."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "La instrucción funciona mejor cuando es explícita sobre el formato esperado: \"Produce el cierre del turno para el coordinador que entra en cinco minutos. Incluye: incidencias abiertas con su estado actual, zonas en estado distinto al estándar, conductores con seguimiento activo, eventos próximos que rompen el patrón histórico, e instrucciones del operador que siguen vigentes. No incluyas lo que quedó completamente resuelto sin implicaciones para el turno siguiente.\" El agente con el historial de la conversación en contexto produce ese resumen en menos de un minuto. El coordinador saliente lo revisa, corrige lo que no pudo capturarse porque ocurrió fuera de la conversación, y lo envía al entrante por el canal habitual del equipo.",
-        "en": "The instruction works best when it's explicit about the expected format: \"Produce the shift close briefing for the incoming coordinator in five minutes. Include: open incidents with their current state, zones in a state different from their standard baseline, drivers with active follow-up, upcoming events that break the historical pattern, and operator instructions still in effect. Don't include anything that closed completely with no implications for the next shift.\" The agent with the conversation history in context produces that summary in under a minute. The outgoing coordinator reviews it, corrects anything that couldn't be captured because it happened outside the conversation, and sends it to the incoming coordinator through the team's standard channel."
+        "en": "The instruction works best when it's explicit about the expected format: \"Produce the shift close briefing for the incoming coordinator in five minutes. Include: open incidents with their current state, zones in a state different from their standard baseline, drivers with active follow-up, upcoming events that break the historical pattern, and operator instructions still in effect. Don't include anything that closed completely with no implications for the next shift.\" The agent with the conversation history in context produces that summary in under a minute. The outgoing coordinator reviews it, corrects anything that couldn't be captured because it happened outside the conversation, and sends it to the incoming coordinator through the team's standard channel.",
+        "pt": "A instrução funciona melhor quando é explícita sobre o formato esperado: \"Produza o fechamento do turno para o coordenador que entra em cinco minutos. Inclua: ocorrências em aberto com o estado atual, zonas em estado diferente do padrão, motoristas com acompanhamento ativo, eventos próximos que quebram o padrão histórico e instruções do operador que continuam em vigor. Não inclua o que ficou totalmente resolvido, sem implicações para o turno seguinte.\" O agente, com o histórico da conversa em contexto, produz esse resumo em menos de um minuto. O coordenador que sai revisa, corrige o que não pôde ser capturado porque aconteceu fora da conversa e o envia para o que entra pelo canal habitual da equipe."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "La calidad del resumen depende directamente de cómo se usó el agente durante el turno. Si las decisiones importantes se tomaron fuera del flujo de la conversación, o si las incidencias se resolvieron sin documentarlas en el contexto activo, el agente producirá un resumen genérico — correcto para lo que tiene en contexto, pero incompleto para la realidad del turno que acaba de cerrar. La capacidad del agente para producir un buen cierre de turno es, en ese sentido, un indicador indirecto de qué tan integrado está en las decisiones reales del coordinador, no solo de cuántas veces fue consultado.",
-        "en": "The quality of the summary depends directly on how well the agent was used during the shift. If important decisions were made outside the conversation flow, or if incidents were resolved without logging them in the active context, the agent will produce a generic summary — accurate for what it has in context, but incomplete for the reality of the shift that just closed. The agent's ability to produce a good shift close is, in that sense, an indirect indicator of how deeply embedded it is in the coordinator's real decision flow, not just how many times it was consulted."
+        "en": "The quality of the summary depends directly on how well the agent was used during the shift. If important decisions were made outside the conversation flow, or if incidents were resolved without logging them in the active context, the agent will produce a generic summary — accurate for what it has in context, but incomplete for the reality of the shift that just closed. The agent's ability to produce a good shift close is, in that sense, an indirect indicator of how deeply embedded it is in the coordinator's real decision flow, not just how many times it was consulted.",
+        "pt": "A qualidade do resumo depende diretamente de como o agente foi usado durante o turno. Se as decisões importantes foram tomadas fora do fluxo da conversa, ou se as ocorrências foram resolvidas sem documentá-las no contexto ativo, o agente vai produzir um resumo genérico — correto para o que ele tem em contexto, mas incompleto para a realidade do turno que acabou de fechar. A capacidade do agente de produzir um bom fechamento de turno é, nesse sentido, um indicador indireto de quão integrado ele está nas decisões reais do coordenador, e não apenas de quantas vezes foi consultado."
       }
     },
     {
@@ -152,21 +182,24 @@
       "id": "que-va-cierre-que-va-historial",
       "text": {
         "es": "Qué va en el cierre y qué va en el historial",
-        "en": "What goes in the handover and what stays in the log"
+        "en": "What goes in the handover and what stays in the log",
+        "pt": "O que vai no fechamento e o que vai no histórico"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "El error más frecuente en los cierres documentados es la exhaustividad — una narrativa completa del turno que el coordinador entrante no puede procesar en los dos minutos que tiene antes de que su turno comience de forma activa. El cierre útil distingue entre lo que condiciona las decisiones de los próximos cuarenta y cinco minutos y lo que el coordinador puede revisar más tarde si necesita contexto adicional. Un incidente que quedó completamente resuelto no va en el briefing de entrada — su resolución va en el historial del turno para referencia futura, pero no tiene implicaciones activas. Una zona que estuvo en alerta durante tres horas pero se estabilizó antes del cierre no va en el estado de zonas inestables — está resuelta. El briefing tiene que poder leerse en menos de dos minutos; lo que no pasa esa prueba pertenece al historial.",
-        "en": "The most common error in documented shift closes is thoroughness — a full narrative of the shift that the incoming coordinator can't process in the two minutes they have before their shift goes live. A useful close distinguishes between what conditions decisions in the next forty-five minutes and what the coordinator can review later if they need additional context. An incident that closed completely with no loose ends doesn't go in the entry briefing — its resolution belongs in the shift log for future reference, but it has no active implications. A zone that was on alert for three hours but stabilized before close doesn't go in the unstable zones state — it's resolved. The briefing has to be readable in under two minutes; what doesn't pass that test belongs in the log."
+        "en": "The most common error in documented shift closes is thoroughness — a full narrative of the shift that the incoming coordinator can't process in the two minutes they have before their shift goes live. A useful close distinguishes between what conditions decisions in the next forty-five minutes and what the coordinator can review later if they need additional context. An incident that closed completely with no loose ends doesn't go in the entry briefing — its resolution belongs in the shift log for future reference, but it has no active implications. A zone that was on alert for three hours but stabilized before close doesn't go in the unstable zones state — it's resolved. The briefing has to be readable in under two minutes; what doesn't pass that test belongs in the log.",
+        "pt": "O erro mais frequente nos fechamentos documentados é a exaustividade — uma narrativa completa do turno que o coordenador que entra não consegue processar nos dois minutos que tem antes de o seu turno começar de forma ativa. O fechamento útil distingue entre o que condiciona as decisões dos próximos quarenta e cinco minutos e o que o coordenador pode revisar mais tarde, caso precise de contexto adicional. Um incidente que ficou totalmente resolvido não entra no briefing de entrada — sua resolução vai para o histórico do turno, como referência futura, mas não tem implicações ativas. Uma zona que ficou em alerta por três horas, mas se estabilizou antes do fechamento, não entra no estado de zonas instáveis — está resolvida. O briefing precisa poder ser lido em menos de dois minutos; o que não passa nesse teste pertence ao histórico."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "Lo que sí va siempre en el cierre, sin excepción: cualquier instrucción del operador comunicada durante el turno que todavía no está en el archivo de contexto. Es el tipo de información con mayor probabilidad de perderse si el traspaso es solo oral. El operador pide ajustar la cobertura de zona sur por un evento el jueves siguiente; el coordinador saliente lo sabe, pero si no lo incluye en el cierre y no lo añade al archivo, el coordinador entrante opera al día siguiente sin esa información. Una instrucción del operador que no se transfiere en el cierre y no está en el archivo de contexto tiene una vida útil de exactamente un turno.",
-        "en": "What always goes in the close without exception: any operator instruction communicated during the shift that isn't yet in the context file. That's the type of information most likely to disappear in an oral handover. The operator asks to adjust southern zone coverage for an event the following Thursday; the outgoing coordinator knows this, but if they don't put it in the close and don't add it to the context file, the incoming coordinator operates the next day without that information. An operator instruction that doesn't transfer in the close and isn't in the context file has a lifespan of exactly one shift."
+        "en": "What always goes in the close without exception: any operator instruction communicated during the shift that isn't yet in the context file. That's the type of information most likely to disappear in an oral handover. The operator asks to adjust southern zone coverage for an event the following Thursday; the outgoing coordinator knows this, but if they don't put it in the close and don't add it to the context file, the incoming coordinator operates the next day without that information. An operator instruction that doesn't transfer in the close and isn't in the context file has a lifespan of exactly one shift.",
+        "pt": "O que sempre entra no fechamento, sem exceção: qualquer instrução do operador comunicada durante o turno que ainda não está no arquivo de contexto. É o tipo de informação com maior probabilidade de se perder se a passagem for apenas oral. O operador pede para ajustar a cobertura da zona sul por causa de um evento na quinta-feira seguinte; o coordenador que sai sabe disso, mas se não incluir no fechamento e não adicionar ao arquivo, o coordenador que entra opera no dia seguinte sem essa informação. Uma instrução do operador que não é transferida no fechamento e não está no arquivo de contexto tem uma vida útil de exatamente um turno."
       }
     },
     {
@@ -175,21 +208,24 @@
       "id": "cierre-turno-actualiza-archivo-contexto",
       "text": {
         "es": "Cómo el cierre de turno actualiza el archivo de contexto sin trabajo extra",
-        "en": "How the shift close updates the context file without extra work"
+        "en": "How the shift close updates the context file without extra work",
+        "pt": "Como o fechamento de turno atualiza o arquivo de contexto sem trabalho extra"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "El cierre de turno estructurado tiene un segundo beneficio que va más allá del traspaso inmediato: los hechos del turno que merecen estar en el archivo de contexto se identifican naturalmente durante la producción del resumen, sin que el coordinador tenga que hacer una revisión separada del archivo al final de cada jornada. La señal práctica es sencilla — si el mismo tipo de información aparece en el cierre de turno más de dos o tres veces seguidas, pertenece al archivo de contexto permanente, no solo al historial de turnos.",
-        "en": "The structured shift close has a second benefit that extends beyond the immediate handover: the shift facts that belong in the context file surface naturally during the summary production process, without the coordinator needing to run a separate file review at the end of each workday. The practical signal is simple — if the same type of information appears in the shift close more than two or three times in a row, it belongs in the permanent context file, not just in the shift log."
+        "en": "The structured shift close has a second benefit that extends beyond the immediate handover: the shift facts that belong in the context file surface naturally during the summary production process, without the coordinator needing to run a separate file review at the end of each workday. The practical signal is simple — if the same type of information appears in the shift close more than two or three times in a row, it belongs in the permanent context file, not just in the shift log.",
+        "pt": "O fechamento de turno estruturado tem um segundo benefício que vai além da passagem imediata: os fatos do turno que merecem estar no arquivo de contexto são identificados naturalmente durante a produção do resumo, sem que o coordenador precise fazer uma revisão separada do arquivo no fim de cada jornada. O sinal prático é simples — se o mesmo tipo de informação aparece no fechamento de turno mais de duas ou três vezes seguidas, ele pertence ao arquivo de contexto permanente, e não apenas ao histórico de turnos."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "Una incidencia que aparece en tres cierres consecutivos con el mismo patrón ya no es puntual — es recurrente y necesita entrada en el archivo con su resolución documentada. Un umbral que el coordinador ajusta manualmente en cuatro turnos seguidos porque el nivel documentado no refleja la realidad actual necesita actualizarse en el archivo — los cierres están revelando un dato descalibrado. El coordinador que lee los tres últimos cierres antes de la revisión semanal del archivo tiene una lista de actualización concreta en lugar de tener que reconstruir qué cambió desde la última vez que se revisó el documento. Los cierres de turno acumulados a lo largo de la semana se convierten así en el insumo más natural para la revisión semanal del archivo de contexto.",
-        "en": "An incident that appears in three consecutive closes with the same pattern is no longer a one-off — it's recurring and needs an entry in the context file with its documented resolution. A threshold the coordinator manually adjusts in four consecutive shifts because the documented level no longer reflects current reality needs to be updated in the file — the closes are revealing a miscalibrated data point. A coordinator who reads the last three closes before the weekly file review has a concrete update checklist rather than having to reconstruct what changed since the document was last touched. Shift closes accumulated over the course of the week become the most natural input for the weekly context file review."
+        "en": "An incident that appears in three consecutive closes with the same pattern is no longer a one-off — it's recurring and needs an entry in the context file with its documented resolution. A threshold the coordinator manually adjusts in four consecutive shifts because the documented level no longer reflects current reality needs to be updated in the file — the closes are revealing a miscalibrated data point. A coordinator who reads the last three closes before the weekly file review has a concrete update checklist rather than having to reconstruct what changed since the document was last touched. Shift closes accumulated over the course of the week become the most natural input for the weekly context file review.",
+        "pt": "Uma ocorrência que aparece em três fechamentos consecutivos com o mesmo padrão já não é pontual — é recorrente e precisa de uma entrada no arquivo, com sua resolução documentada. Um patamar que o coordenador ajusta manualmente em quatro turnos seguidos porque o nível documentado não reflete a realidade atual precisa ser atualizado no arquivo — os fechamentos estão revelando um dado descalibrado. O coordenador que lê os três últimos fechamentos antes da revisão semanal do arquivo tem uma lista de atualização concreta em vez de ter que reconstruir o que mudou desde a última vez que o documento foi revisado. Os fechamentos de turno acumulados ao longo da semana tornam-se, assim, o insumo mais natural para a revisão semanal do arquivo de contexto."
       }
     },
     {
@@ -198,72 +234,84 @@
       "id": "errores-cierre-tramite-vacio",
       "text": {
         "es": "Los errores que convierten el cierre en un trámite vacío",
-        "en": "The mistakes that reduce the shift close to empty formality"
+        "en": "The mistakes that reduce the shift close to empty formality",
+        "pt": "Os erros que transformam o fechamento em uma formalidade vazia"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "El error de diseño más común es convertir el cierre de turno en un formulario fijo que el coordinador completa igual en todos los turnos, independientemente de lo que ocurrió. Un formulario de cierre de siete puntos rellenado mecánicamente produce exactamente el tipo de documento que el coordinador entrante aprende a ignorar: formalmente completo, operativamente vacío. El valor del cierre de turno está en la especificidad — qué zona, qué umbral, qué conductor, qué instrucción — no en la regularidad del formato. El agente produce esa especificidad de forma natural cuando tiene el historial del turno en contexto; un formulario genérico no.",
-        "en": "The most common design error is converting the shift close into a fixed form the coordinator fills out identically every shift, regardless of what actually happened. A seven-point close template filled in mechanically produces exactly the kind of document the incoming coordinator learns to ignore: formally complete, operationally empty. The value of the shift close is in its specificity — which zone, which threshold, which driver, which instruction — not in the consistency of the format. The agent produces that specificity naturally when it has the shift's conversation history in context; a generic form doesn't."
+        "en": "The most common design error is converting the shift close into a fixed form the coordinator fills out identically every shift, regardless of what actually happened. A seven-point close template filled in mechanically produces exactly the kind of document the incoming coordinator learns to ignore: formally complete, operationally empty. The value of the shift close is in its specificity — which zone, which threshold, which driver, which instruction — not in the consistency of the format. The agent produces that specificity naturally when it has the shift's conversation history in context; a generic form doesn't.",
+        "pt": "O erro de design mais comum é transformar o fechamento de turno em um formulário fixo que o coordenador preenche igual em todos os turnos, independentemente do que aconteceu. Um formulário de fechamento de sete pontos preenchido mecanicamente produz exatamente o tipo de documento que o coordenador que entra aprende a ignorar: formalmente completo, operacionalmente vazio. O valor do fechamento de turno está na especificidade — qual zona, qual patamar, qual motorista, qual instrução — e não na regularidade do formato. O agente produz essa especificidade de forma natural quando tem o histórico do turno em contexto; um formulário genérico, não."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "El segundo error frecuente es separar el cierre del flujo del agente y producirlo como documento aparte — un mensaje de WhatsApp o un campo en una hoja de cálculo que el agente no ve. El coordinador entrante recibe el briefing, pero el agente que ese coordinador va a usar durante su turno no lo tiene en contexto activo. La información que llega al coordinador entrante también tiene que llegar al agente. Si el cierre se produce en la conversación activa con el agente, el agente lo tiene desde el primer mensaje del turno siguiente. Si se produce fuera de esa conversación, alguien tiene que añadirlo al inicio del turno para que el agente opere con el contexto correcto desde la primera consulta, y ese paso extra rara vez ocurre de forma sistemática.",
-        "en": "The second frequent mistake is separating the close from the agent workflow and producing it as a standalone document — a WhatsApp message or a spreadsheet field the agent doesn't see. The incoming coordinator receives the briefing, but the agent that coordinator will use during their shift doesn't have it in active context. Information that reaches the incoming coordinator also needs to reach the agent. If the close is produced inside the active agent conversation, the agent has it from the first message of the next shift. If it's produced outside that conversation, someone needs to add it at the start of the shift for the agent to operate with the right context from the first consultation — and that extra step rarely happens systematically."
+        "en": "The second frequent mistake is separating the close from the agent workflow and producing it as a standalone document — a WhatsApp message or a spreadsheet field the agent doesn't see. The incoming coordinator receives the briefing, but the agent that coordinator will use during their shift doesn't have it in active context. Information that reaches the incoming coordinator also needs to reach the agent. If the close is produced inside the active agent conversation, the agent has it from the first message of the next shift. If it's produced outside that conversation, someone needs to add it at the start of the shift for the agent to operate with the right context from the first consultation — and that extra step rarely happens systematically.",
+        "pt": "O segundo erro frequente é separar o fechamento do fluxo do agente e produzi-lo como documento à parte — uma mensagem de WhatsApp ou um campo em uma planilha que o agente não vê. O coordenador que entra recebe o briefing, mas o agente que esse coordenador vai usar durante o turno não o tem em contexto ativo. A informação que chega ao coordenador que entra também precisa chegar ao agente. Se o fechamento é produzido na conversa ativa com o agente, o agente já o tem desde a primeira mensagem do turno seguinte. Se é produzido fora dessa conversa, alguém precisa adicioná-lo no início do turno para que o agente opere com o contexto correto desde a primeira consulta, e esse passo extra raramente acontece de forma sistemática."
       }
     },
     {
       "type": "quote",
       "text": {
         "es": "El primer día que recibí un resumen estructurado del turno anterior cambió cómo empecé. No perdí quince minutos preguntándome por qué zona sur tenía tres conductores menos de lo normal — el cierre me decía que había un problema de aplicación reportado al soporte al final del turno y que seguía sin resolverse. Tomé la decisión de redistribuir antes de que la demanda llegara al pico, en lugar de cuando ya era tarde.",
-        "en": "The first day I received a structured summary from the previous shift changed how I started. I didn't lose fifteen minutes wondering why zone south had three fewer drivers than normal — the close told me there had been an app issue reported to support at the end of the shift that was still unresolved. I made the redistribution decision before demand hit peak, instead of after it was already late."
+        "en": "The first day I received a structured summary from the previous shift changed how I started. I didn't lose fifteen minutes wondering why zone south had three fewer drivers than normal — the close told me there had been an app issue reported to support at the end of the shift that was still unresolved. I made the redistribution decision before demand hit peak, instead of after it was already late.",
+        "pt": "O primeiro dia em que recebi um resumo estruturado do turno anterior mudou a forma como comecei. Não perdi quinze minutos me perguntando por que a zona sul tinha três motoristas a menos do que o normal — o fechamento me dizia que havia um problema no aplicativo reportado ao suporte no fim do turno e que continuava sem solução. Tomei a decisão de redistribuir antes de a demanda chegar ao pico, em vez de quando já era tarde."
       },
       "attribution": {
         "es": "Coordinadora de turno nocturno en una operación con 80 conductores activos en el sureste de México",
-        "en": "Night shift coordinator in an operation with 80 active drivers in southeastern Mexico"
+        "en": "Night shift coordinator in an operation with 80 active drivers in southeastern Mexico",
+        "pt": "Coordenadora de turno noturno em uma operação com 80 motoristas ativos no sudeste do México"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "El traspaso de turno estructurado con el agente no elimina el tiempo de adaptación del coordinador entrante — cada turno tiene su propia dinámica, y los primeros minutos siempre requieren actualizar el mapa mental con lo que el panel muestra en tiempo real. Lo que el cierre estructurado elimina es la parte del tiempo de adaptación que se dedica a recuperar información que ya existía en la cabeza del coordinador saliente al momento del cierre. Esa diferencia — quince a treinta minutos de reconstrucción versus dos de lectura — no parece significativa en un turno aislado. Acumulada en trescientos sesenta y cinco traspasos al año, es la diferencia entre una operación que pierde calidad en los momentos de mayor vulnerabilidad del ciclo y una que los atraviesa con el coordinador entrante ya operando con criterio.",
-        "en": "A structured shift handover with the agent doesn't eliminate the incoming coordinator's adaptation time — every shift has its own dynamic, and the first minutes always require updating the mental map against what the panel shows in real time. What the structured close eliminates is the portion of that adaptation time spent recovering information that already existed in the outgoing coordinator's head at the moment of close. That difference — fifteen to thirty minutes of reconstruction versus two of reading — doesn't seem significant in a single shift. Accumulated across three hundred and sixty-five handovers per year, it is the difference between an operation that loses quality at the most vulnerable moments of its cycle and one that moves through them with the incoming coordinator already managing with full context."
+        "en": "A structured shift handover with the agent doesn't eliminate the incoming coordinator's adaptation time — every shift has its own dynamic, and the first minutes always require updating the mental map against what the panel shows in real time. What the structured close eliminates is the portion of that adaptation time spent recovering information that already existed in the outgoing coordinator's head at the moment of close. That difference — fifteen to thirty minutes of reconstruction versus two of reading — doesn't seem significant in a single shift. Accumulated across three hundred and sixty-five handovers per year, it is the difference between an operation that loses quality at the most vulnerable moments of its cycle and one that moves through them with the incoming coordinator already managing with full context.",
+        "pt": "A passagem de turno estruturada com o agente não elimina o tempo de adaptação do coordenador que entra — cada turno tem sua própria dinâmica, e os primeiros minutos sempre exigem atualizar o mapa mental com o que o painel mostra em tempo real. O que o fechamento estruturado elimina é a parte do tempo de adaptação dedicada a recuperar informação que já existia na cabeça do coordenador que saiu no momento do fechamento. Essa diferença — quinze a trinta minutos de reconstrução versus dois de leitura — não parece significativa em um turno isolado. Acumulada em trezentas e sessenta e cinco passagens por ano, é a diferença entre uma operação que perde qualidade nos momentos de maior vulnerabilidade do ciclo e uma que os atravessa com o coordenador que entra já operando com critério."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "Lo que este cambio requiere del operador es establecer el cierre de turno con el agente como parte del flujo operativo del coordinador saliente — no como documento opcional que se produce cuando hay tiempo, sino como los últimos cinco minutos de cada turno con el mismo estatus que el primer vistazo al panel al inicio. El agente hace el trabajo pesado de la síntesis cuando tiene el historial en contexto; el coordinador revisa, corrige lo que no pudo capturarse porque ocurrió fuera de la conversación, y envía. Eso son cinco minutos que compran al coordinador entrante los primeros cuarenta y cinco de su turno — no para ponerse al día, sino para gestionar.",
-        "en": "What this change requires from the operator is establishing the shift close with the agent as part of the outgoing coordinator's operational workflow — not as an optional document produced when time allows, but as the last five minutes of every shift with the same standing as the first panel check at the start. The agent does the synthesis heavy lifting when it has the conversation history in context; the coordinator reviews it, corrects anything the agent couldn't capture because it happened outside the conversation, and sends it. That's five minutes that buy the incoming coordinator the first forty-five of their shift — not to catch up, but to manage."
+        "en": "What this change requires from the operator is establishing the shift close with the agent as part of the outgoing coordinator's operational workflow — not as an optional document produced when time allows, but as the last five minutes of every shift with the same standing as the first panel check at the start. The agent does the synthesis heavy lifting when it has the conversation history in context; the coordinator reviews it, corrects anything the agent couldn't capture because it happened outside the conversation, and sends it. That's five minutes that buy the incoming coordinator the first forty-five of their shift — not to catch up, but to manage.",
+        "pt": "O que essa mudança exige do operador é estabelecer o fechamento de turno com o agente como parte do fluxo operacional do coordenador que sai — não como documento opcional produzido quando há tempo, mas como os últimos cinco minutos de cada turno, com o mesmo status que a primeira olhada no painel no início. O agente faz o trabalho pesado da síntese quando tem o histórico em contexto; o coordenador revisa, corrige o que não pôde ser capturado porque aconteceu fora da conversa, e envia. São cinco minutos que compram para o coordenador que entra os primeiros quarenta e cinco do seu turno — não para se atualizar, mas para gerenciar."
       }
     }
   ],
   "cta": {
     "heading": {
       "es": "¿Listo para lanzar tu propia app de movilidad?",
-      "en": "Ready to launch your own mobility app?"
+      "en": "Ready to launch your own mobility app?",
+      "pt": "Pronto para lançar seu próprio aplicativo de mobilidade?"
     },
     "body": {
       "es": "Configura tu marca, tus tarifas y tus servicios en semanas, no en meses. Cabgo te entrega la plataforma; tú te quedas con la operación, los clientes y los ingresos.",
-      "en": "Set up your brand, pricing and services in weeks, not months. Cabgo ships the platform — you keep the operation, the customers and the revenue."
+      "en": "Set up your brand, pricing and services in weeks, not months. Cabgo ships the platform — you keep the operation, the customers and the revenue.",
+      "pt": "Configure sua marca, suas tarifas e seus serviços em semanas, não em meses. A Cabgo entrega a plataforma; você fica com a operação, os clientes e a receita."
     },
     "buttonLabel": {
       "es": "Comenzar con Cabgo",
-      "en": "Get started with Cabgo"
+      "en": "Get started with Cabgo",
+      "pt": "Começar com a Cabgo"
     },
     "buttonHref": "/empezar"
   },
   "seo": {
     "metaTitle": {
       "es": "Cierre de turno con agente: traspaso coordinador | Cabgo",
-      "en": "Shift close with the agent: coordinator handover | Cabgo"
+      "en": "Shift close with the agent: coordinator handover | Cabgo",
+      "pt": "Fechamento de turno com agente: passagem | Cabgo"
     },
     "metaDescription": {
       "es": "Cómo el agente produce el cierre de turno en cinco minutos y convierte el contexto del coordinador saliente en un briefing listo para el siguiente.",
-      "en": "How the agent produces a structured shift close in five minutes and converts the outgoing coordinator's context into a briefing for the incoming shift."
+      "en": "How the agent produces a structured shift close in five minutes and converts the outgoing coordinator's context into a briefing for the incoming shift.",
+      "pt": "Como o agente produz o fechamento de turno em cinco minutos e transforma o contexto do coordenador que sai em um briefing pronto para o próximo."
     }
   }
 }

@@ -3,16 +3,19 @@
   "category": "product",
   "title": {
     "es": "OCR en documentación de conductores: qué campos validar automáticamente y cuándo no",
-    "en": "OCR for driver documentation: which fields to validate automatically and when not to"
+    "en": "OCR for driver documentation: which fields to validate automatically and when not to",
+    "pt": "OCR na documentação de motoristas: quais campos validar automaticamente e quando não"
   },
   "excerpt": {
     "es": "La revisión manual de documentos crea un cuello de botella que reduce el pool activo. Qué automatizar y cuándo rutear a revisión humana define el retorno del OCR en el onboarding.",
-    "en": "Manual document review creates a bottleneck that shrinks the active driver pool. Knowing what to automate versus route to human review defines OCR's real return in driver onboarding."
+    "en": "Manual document review creates a bottleneck that shrinks the active driver pool. Knowing what to automate versus route to human review defines OCR's real return in driver onboarding.",
+    "pt": "A revisão manual de documentos cria um gargalo que reduz o pool ativo. O que automatizar e quando rotear para revisão humana define o retorno do OCR no onboarding."
   },
   "heroImage": "https://raw.githubusercontent.com/jonatanvazquez/cabgo-blog-content/main/images/ocr-documentacion-conductores-ride-hailing.jpg",
   "heroImageAlt": {
     "es": "Ilustración isométrica de validación automática de documentos de conductores: teléfono con licencia siendo escaneada y badges de confianza por campo en teal y verde, pantalla secundaria con campos en ámbar marcados para revisión humana, y panel de estado con tres rutas de aprobación",
-    "en": "Isometric illustration of automatic driver document validation: a phone scanning a license with per-field confidence badges in teal and green, a secondary screen with amber-flagged fields routed to human review, and a status panel showing three approval paths"
+    "en": "Isometric illustration of automatic driver document validation: a phone scanning a license with per-field confidence badges in teal and green, a secondary screen with amber-flagged fields routed to human review, and a status panel showing three approval paths",
+    "pt": "Ilustração isométrica de validação automática de documentos de motoristas: celular com carteira de habilitação sendo escaneada e selos de confiança por campo em teal e verde, tela secundária com campos em âmbar marcados para revisão humana, e painel de status com três rotas de aprovação"
   },
   "heroImagePrompt": "Isometric split-screen scene: on the left, a mobile phone showing a driver registration form with a license card being photographed, a scan animation overlay with per-field confidence percentage indicators in teal and green, and a green auto-approved checkmark badge floating above the card. On the right, a separate phone screen showing a document with two amber flags on specific fields and a human reviewer icon with a clock, indicating a priority manual review queue. Between the two phones, a floating dashboard panel showing three document-status rows: auto-approved with a green checkmark, priority review with an amber badge, and re-document request with a teal arrow. A small city map fragment in the lower background with driver-car markers accumulating as the approval queue empties.",
   "publishedAt": "2026-05-16",
@@ -35,38 +38,53 @@
       "OCR confidence threshold transport documents",
       "driver document expiration alerts platform",
       "driver documentation compliance ride-hailing Mexico"
+    ],
+    "pt": [
+      "OCR documentação motoristas ride-hailing",
+      "validação automática documentos motorista táxi LATAM",
+      "onboarding motoristas automatizado plataforma mobilidade",
+      "verificação habilitação motoristas app de táxi",
+      "limiar de confiança OCR documentos transporte",
+      "alertas vencimento documentos motoristas plataforma",
+      "compliance documentação motoristas ride-hailing México"
     ]
   },
   "author": {
     "name": "Equipo Cabgo",
     "role": {
       "es": "Plataforma de movilidad",
-      "en": "Mobility platform"
+      "en": "Mobility platform",
+      "pt": "Plataforma de mobilidade"
     }
   },
   "cta": {
     "heading": {
       "es": "¿Listo para lanzar tu propia app de movilidad?",
-      "en": "Ready to launch your own mobility app?"
+      "en": "Ready to launch your own mobility app?",
+      "pt": "Pronto para lançar seu próprio app de mobilidade?"
     },
     "body": {
       "es": "Configura tu marca, tus tarifas y tus servicios en semanas, no en meses. Cabgo te entrega la plataforma, tú te quedas con la operación y la marca.",
-      "en": "Set up your brand, pricing and services in weeks, not months. Cabgo ships the platform — you keep the operation and the brand."
+      "en": "Set up your brand, pricing and services in weeks, not months. Cabgo ships the platform — you keep the operation and the brand.",
+      "pt": "Configure sua marca, suas tarifas e seus serviços em semanas, não em meses. A Cabgo entrega a plataforma, você fica com a operação e a marca."
     },
     "buttonLabel": {
       "es": "Empezar ahora",
-      "en": "Get started"
+      "en": "Get started",
+      "pt": "Começar agora"
     },
     "buttonHref": "/empezar"
   },
   "seo": {
     "metaTitle": {
       "es": "OCR en documentos de conductores: qué automatizar | Cabgo",
-      "en": "OCR for driver documents: what to automate | Cabgo"
+      "en": "OCR for driver documents: what to automate | Cabgo",
+      "pt": "OCR em documentos de motoristas: o que automatizar | Cabgo"
     },
     "metaDescription": {
       "es": "Qué campos del OCR en documentación de conductores se pueden aprobar automáticamente y cuáles siempre requieren revisión humana en ride-hailing regional.",
-      "en": "Which driver document fields OCR can auto-approve and which always need human review in a regional ride-hailing operation."
+      "en": "Which driver document fields OCR can auto-approve and which always need human review in a regional ride-hailing operation.",
+      "pt": "Quais campos do OCR na documentação de motoristas podem ser aprovados automaticamente e quais sempre exigem revisão humana no ride-hailing regional."
     }
   },
   "blocks": [
@@ -74,14 +92,16 @@
       "type": "paragraph",
       "text": {
         "es": "La revisión de documentos de conductores es el proceso que más frecuentemente convierte un onboarding exitoso en fricción operativa. Un conductor que termina el formulario de registro a las 22:00 de un viernes y cuya licencia y seguro están en orden no debería esperar hasta el lunes a las 10:00 para recibir la aprobación de un revisor que tardó ocho minutos en verificar cuatro documentos. Ese tiempo de espera no es un problema de calidad — es un problema de proceso. Cada hora que un conductor aprobable espera revisión es una hora en que no está activo en la plataforma, lo que reduce el pool disponible en la franja de mayor demanda del fin de semana. El OCR en documentación de conductores no existe para eliminar la revisión — existe para que el revisor humano trabaje únicamente en los documentos donde su criterio añade valor real, y para que los documentos sin ambigüedad salgan del backlog sin intervención.",
-        "en": "Driver document review is the process most likely to turn a successful onboarding into operational friction. A driver who completes the registration form at 10pm on a Friday, whose license and insurance are in order, should not have to wait until Monday morning for an approval that takes a reviewer eight minutes to process. That wait is not a quality problem — it is a process problem. Every hour a qualified driver spends in the review queue is an hour they are not active on the platform, which reduces the available pool during peak weekend demand. OCR for driver documentation exists not to eliminate review but to ensure human reviewers work only on documents where their judgment adds real value — while documents without ambiguity exit the backlog without intervention."
+        "en": "Driver document review is the process most likely to turn a successful onboarding into operational friction. A driver who completes the registration form at 10pm on a Friday, whose license and insurance are in order, should not have to wait until Monday morning for an approval that takes a reviewer eight minutes to process. That wait is not a quality problem — it is a process problem. Every hour a qualified driver spends in the review queue is an hour they are not active on the platform, which reduces the available pool during peak weekend demand. OCR for driver documentation exists not to eliminate review but to ensure human reviewers work only on documents where their judgment adds real value — while documents without ambiguity exit the backlog without intervention.",
+        "pt": "A revisão de documentos de motoristas é o processo que mais frequentemente transforma um onboarding bem-sucedido em atrito operacional. Um motorista que termina o formulário de cadastro às 22:00 de uma sexta-feira e cuja habilitação e seguro estão em ordem não deveria esperar até segunda-feira às 10:00 para receber a aprovação de um revisor que levou oito minutos para verificar quatro documentos. Esse tempo de espera não é um problema de qualidade — é um problema de processo. Cada hora que um motorista aprovável espera pela revisão é uma hora em que ele não está ativo na plataforma, o que reduz o pool disponível na faixa de maior demanda do fim de semana. O OCR na documentação de motoristas não existe para eliminar a revisão — existe para que o revisor humano trabalhe apenas nos documentos onde o seu critério agrega valor real, e para que os documentos sem ambiguidade saiam do backlog sem intervenção."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "Este artículo es para operadores con 50 a 300 conductores activos que revisan documentación de forma manual hoy y que están evaluando qué parte de ese proceso pueden automatizar sin aumentar el riesgo de compliance. El análisis se organiza en torno a tres decisiones prácticas: qué campos específicos el OCR valida con confianza suficiente para aprobar sin revisión humana, cuáles requieren un revisor humano independientemente del nivel de confianza del sistema, y cómo estructurar el flujo para que la automatización parcial no cree un cuello de botella nuevo en los casos que sí requieren intervención.",
-        "en": "This article is for operators with 50 to 300 active drivers who are reviewing documentation manually today and evaluating which parts of that process can be automated without increasing compliance risk. The analysis centers on three practical decisions: which specific fields OCR validates with enough confidence to approve without human review, which fields require a human reviewer regardless of the system's confidence level, and how to structure the flow so that partial automation doesn't create a new bottleneck for cases that do require intervention."
+        "en": "This article is for operators with 50 to 300 active drivers who are reviewing documentation manually today and evaluating which parts of that process can be automated without increasing compliance risk. The analysis centers on three practical decisions: which specific fields OCR validates with enough confidence to approve without human review, which fields require a human reviewer regardless of the system's confidence level, and how to structure the flow so that partial automation doesn't create a new bottleneck for cases that do require intervention.",
+        "pt": "Este artigo é para operadores com 50 a 300 motoristas ativos que revisam a documentação de forma manual hoje e que estão avaliando qual parte desse processo podem automatizar sem aumentar o risco de compliance. A análise se organiza em torno de três decisões práticas: quais campos específicos o OCR valida com confiança suficiente para aprovar sem revisão humana, quais exigem um revisor humano independentemente do nível de confiança do sistema, e como estruturar o fluxo para que a automação parcial não crie um novo gargalo nos casos que de fato exigem intervenção."
       }
     },
     {
@@ -90,21 +110,24 @@
       "id": "cuello-botella-proceso-manual",
       "text": {
         "es": "El cuello de botella que el proceso manual crea en el pool activo",
-        "en": "The bottleneck manual review creates in the active driver pool"
+        "en": "The bottleneck manual review creates in the active driver pool",
+        "pt": "O gargalo que o processo manual cria no pool ativo"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "La revisión manual de documentos tiene un costo operativo que la mayoría de los operadores no miden de forma explícita pero que aparece en dos indicadores: el tiempo promedio entre registro completado y conductor activo, y la tasa de abandono antes de la primera activación. En operaciones donde el proceso depende de una sola persona disponible en horario hábil, los conductores que completan el registro fuera de ese horario — fines de semana, noches, días festivos — esperan acumulativamente más tiempo que quienes registran un martes a las 10:00. Ese sesgo de aprobación por horario no es visible en el promedio de tiempo de revisión si se mide solo desde que el revisor abre el documento — pero sí lo es si se mide desde que el conductor lo envió hasta que recibió respuesta.",
-        "en": "Manual document review has an operational cost that most operators don't measure explicitly but that appears in two indicators: the average time between completed registration and an active driver, and the abandonment rate before the first activation. In operations where the process depends on a single person available during business hours, drivers who complete registration outside that window — weekends, evenings, holidays — wait cumulatively longer than those who register on a Tuesday morning. That approval-timing bias is invisible in the average review time if measured only from when the reviewer opens the document — but it is visible if measured from when the driver submitted the document to when they received a response."
+        "en": "Manual document review has an operational cost that most operators don't measure explicitly but that appears in two indicators: the average time between completed registration and an active driver, and the abandonment rate before the first activation. In operations where the process depends on a single person available during business hours, drivers who complete registration outside that window — weekends, evenings, holidays — wait cumulatively longer than those who register on a Tuesday morning. That approval-timing bias is invisible in the average review time if measured only from when the reviewer opens the document — but it is visible if measured from when the driver submitted the document to when they received a response.",
+        "pt": "A revisão manual de documentos tem um custo operacional que a maioria dos operadores não mede de forma explícita, mas que aparece em dois indicadores: o tempo médio entre cadastro concluído e motorista ativo, e a taxa de abandono antes da primeira ativação. Em operações onde o processo depende de uma única pessoa disponível em horário comercial, os motoristas que concluem o cadastro fora desse horário — fins de semana, noites, feriados — esperam cumulativamente mais tempo do que quem se cadastra numa terça-feira às 10:00. Esse viés de aprovação por horário não é visível na média do tempo de revisão se for medido apenas a partir do momento em que o revisor abre o documento — mas é visível se for medido desde quando o motorista o enviou até quando recebeu resposta."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "La tasa de abandono pre-activación es el indicador más subestimado en onboarding de conductores. Un conductor que completa el registro está activo en ese momento — tiene motivación, tiempo disponible y ganas de empezar. Si el proceso de aprobación tarda 24 a 48 horas, usa ese tiempo para explorar alternativas o simplemente pierde el impulso inicial. En operaciones que miden la conversión de registro a primer viaje, la caída entre conductor registrado y conductor con primer viaje completado suele estar entre el 30 y el 50%. Una parte significativa de esa caída ocurre en el período de espera de revisión, no en el proceso de registro en sí — y es la parte más recuperable con automatización parcial bien diseñada.",
-        "en": "The pre-activation abandonment rate is the most underestimated indicator in driver onboarding. A driver who completes registration is engaged in that moment — they have motivation, available time, and readiness to start. If the approval process takes 24 to 48 hours, they use that time to explore alternatives or simply lose the initial momentum. In operations that measure the conversion from registration to first trip, the drop between registered drivers and drivers with a completed first trip typically falls between 30 and 50%. A significant portion of that drop happens during the review waiting period, not in the registration process itself — and it is the most recoverable part with well-designed partial automation."
+        "en": "The pre-activation abandonment rate is the most underestimated indicator in driver onboarding. A driver who completes registration is engaged in that moment — they have motivation, available time, and readiness to start. If the approval process takes 24 to 48 hours, they use that time to explore alternatives or simply lose the initial momentum. In operations that measure the conversion from registration to first trip, the drop between registered drivers and drivers with a completed first trip typically falls between 30 and 50%. A significant portion of that drop happens during the review waiting period, not in the registration process itself — and it is the most recoverable part with well-designed partial automation.",
+        "pt": "A taxa de abandono pré-ativação é o indicador mais subestimado no onboarding de motoristas. Um motorista que conclui o cadastro está engajado naquele momento — tem motivação, tempo disponível e vontade de começar. Se o processo de aprovação leva de 24 a 48 horas, ele usa esse tempo para explorar alternativas ou simplesmente perde o impulso inicial. Em operações que medem a conversão de cadastro para primeira corrida, a queda entre motorista cadastrado e motorista com primeira corrida concluída costuma ficar entre 30 e 50%. Uma parte significativa dessa queda acontece no período de espera pela revisão, não no processo de cadastro em si — e é a parte mais recuperável com uma automação parcial bem desenhada."
       }
     },
     {
@@ -113,14 +136,16 @@
       "id": "campos-ocr-confianza-alta",
       "text": {
         "es": "Los campos que el OCR valida con confianza suficiente para automatizar",
-        "en": "The fields OCR validates with enough confidence to automate"
+        "en": "The fields OCR validates with enough confidence to automate",
+        "pt": "Os campos que o OCR valida com confiança suficiente para automatizar"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "La validación automática no funciona igual en todos los campos. La confianza con la que el sistema puede extraer e interpretar un dato varía según el tipo de documento, la calidad probable de la imagen enviada por el conductor, y si el campo tiene un formato estructurado que el sistema puede comparar contra un patrón conocido. Los campos con mayor confiabilidad en la extracción automática son los que tienen formato estándar, impresión tipográfica limpia — no manuscrita — y valores que se pueden validar contra una regla explícita o un servicio externo de verificación.",
-        "en": "Automatic validation does not perform equally across all fields. The confidence with which the system can extract and interpret a data point varies depending on the document type, the likely quality of the image the driver submits, and whether the field has a structured format the system can compare against a known pattern. The fields with the highest reliability in automatic extraction are those with a standard format, clean typographic printing — not handwritten — and values that can be validated against an explicit rule or an external verification service."
+        "en": "Automatic validation does not perform equally across all fields. The confidence with which the system can extract and interpret a data point varies depending on the document type, the likely quality of the image the driver submits, and whether the field has a structured format the system can compare against a known pattern. The fields with the highest reliability in automatic extraction are those with a standard format, clean typographic printing — not handwritten — and values that can be validated against an explicit rule or an external verification service.",
+        "pt": "A validação automática não funciona igual em todos os campos. A confiança com que o sistema consegue extrair e interpretar um dado varia conforme o tipo de documento, a qualidade provável da imagem enviada pelo motorista, e se o campo tem um formato estruturado que o sistema pode comparar com um padrão conhecido. Os campos com maior confiabilidade na extração automática são os que têm formato padronizado, impressão tipográfica limpa — não manuscrita — e valores que podem ser validados contra uma regra explícita ou um serviço externo de verificação."
       }
     },
     {
@@ -128,7 +153,8 @@
       "style": "bullet",
       "intro": {
         "es": "Los campos con mayor confianza de extracción automática en documentos de conductores de LATAM son:",
-        "en": "The fields with the highest automatic extraction confidence in LATAM driver documents are:"
+        "en": "The fields with the highest automatic extraction confidence in LATAM driver documents are:",
+        "pt": "Os campos com maior confiança de extração automática em documentos de motoristas da América Latina são:"
       },
       "items": {
         "es": [
@@ -144,6 +170,13 @@
           "Vehicle insurance expiration date: same logic as the license date — a structured field on an official document, validatable against the driver's application date",
           "Full name on national identity document: a text field with high typographic consistency in documents from Mexico, Colombia, and Guatemala when the photo has good lighting and framing",
           "RFC or NIT tax identifier: a structured field with a known validation rule — the RFC has a calculable check digit and Colombia's NIT has its own verification algorithm"
+        ],
+        "pt": [
+          "Número da carteira de habilitação: campo alfanumérico com formato regional definido — no México, o formato da habilitação estadual tem comprimento fixo e prefixo de estado que permite uma validação de estrutura independente do conteúdo",
+          "Data de vencimento da habilitação: campo de data em formato impresso em documento oficial, com alta confiança se a imagem tiver boa resolução — útil também para alertas automáticos de renovação",
+          "Data de vencimento do seguro do veículo: mesma lógica da data da habilitação — campo estruturado em documento oficial, validável contra a data de solicitação do motorista",
+          "Nome completo no documento de identidade nacional: campo de texto com alta consistência tipográfica em documentos do México, Colômbia e Guatemala quando a fotografia tem boa iluminação e enquadramento",
+          "RFC ou NIT do motorista: identificador fiscal com formato estruturado e regra de validação conhecida — o RFC tem um dígito verificador calculável e o NIT colombiano tem o seu próprio algoritmo de verificação"
         ]
       }
     },
@@ -153,21 +186,24 @@
       "id": "campos-requieren-revision-humana",
       "text": {
         "es": "Los campos que siempre requieren revisión humana, independientemente de la confianza",
-        "en": "The fields that always require human review, regardless of confidence level"
+        "en": "The fields that always require human review, regardless of confidence level",
+        "pt": "Os campos que sempre exigem revisão humana, independentemente da confiança"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "Hay campos y condiciones que requieren revisión humana incluso cuando el OCR reporta un nivel de confianza alto. La confianza del sistema mide qué tan bien pudo extraer el texto del documento — no si el documento es auténtico, no si la fotografía del vehículo corresponde al vehículo que el conductor declaró, no si el seguro cubre efectivamente el tipo de servicio comercial que la plataforma exige. Esa distinción entre extracción de datos y validación de autenticidad es la frontera que define dónde el OCR termina y dónde empieza el criterio humano.",
-        "en": "Some fields and conditions require human review even when the OCR system reports a high confidence level. System confidence measures how well it could extract text from the document — not whether the document is authentic, not whether the vehicle photo matches the vehicle the driver declared, not whether the insurance actually covers the type of commercial service the platform requires. That distinction between data extraction and authenticity validation is the boundary that defines where OCR ends and where human judgment begins."
+        "en": "Some fields and conditions require human review even when the OCR system reports a high confidence level. System confidence measures how well it could extract text from the document — not whether the document is authentic, not whether the vehicle photo matches the vehicle the driver declared, not whether the insurance actually covers the type of commercial service the platform requires. That distinction between data extraction and authenticity validation is the boundary that defines where OCR ends and where human judgment begins.",
+        "pt": "Há campos e condições que exigem revisão humana mesmo quando o OCR reporta um nível de confiança alto. A confiança do sistema mede o quão bem ele conseguiu extrair o texto do documento — não se o documento é autêntico, não se a fotografia do veículo corresponde ao veículo que o motorista declarou, não se o seguro efetivamente cobre o tipo de serviço comercial que a plataforma exige. Essa distinção entre extração de dados e validação de autenticidade é a fronteira que define onde o OCR termina e onde começa o critério humano."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "El documento más crítico que siempre requiere revisión humana en operaciones de ride-hailing en LATAM es la constancia o certificado de antecedentes penales. El contenido informativo relevante — 'sin antecedentes' o la descripción del registro — requiere interpretación contextual que un OCR no puede hacer de forma confiable, especialmente cuando el documento proviene de una entidad gubernamental distinta según el estado o país de origen del conductor. La segunda categoría que siempre requiere revisión humana es cualquier discrepancia entre datos extraídos de documentos distintos: si el nombre en la licencia no coincide exactamente con el nombre en el documento de identidad, o si la placa del vehículo en el seguro no coincide con la placa declarada en el formulario, ese caso debe ir a un revisor antes de la aprobación — independientemente de la confianza individual de cada extracción.",
-        "en": "The most critical document that always requires human review in LATAM ride-hailing operations is the criminal background check certificate. The relevant informational content — 'no record' or the description of any registered entries — requires contextual interpretation that OCR cannot perform reliably, particularly when the document comes from a different government entity depending on the driver's state or country of origin. The second category that always requires human review is any discrepancy between data extracted across different documents: if the name on the license does not match the name on the identity document exactly, or if the license plate on the insurance policy does not match the plate declared in the application form, that case must go to a human reviewer before approval — regardless of the individual confidence level of each extraction."
+        "en": "The most critical document that always requires human review in LATAM ride-hailing operations is the criminal background check certificate. The relevant informational content — 'no record' or the description of any registered entries — requires contextual interpretation that OCR cannot perform reliably, particularly when the document comes from a different government entity depending on the driver's state or country of origin. The second category that always requires human review is any discrepancy between data extracted across different documents: if the name on the license does not match the name on the identity document exactly, or if the license plate on the insurance policy does not match the plate declared in the application form, that case must go to a human reviewer before approval — regardless of the individual confidence level of each extraction.",
+        "pt": "O documento mais crítico que sempre exige revisão humana em operações de ride-hailing na América Latina é a certidão ou certificado de antecedentes criminais. O conteúdo informativo relevante — 'sem antecedentes' ou a descrição do registro — exige interpretação contextual que um OCR não consegue fazer de forma confiável, especialmente quando o documento vem de um órgão governamental diferente conforme o estado ou país de origem do motorista. A segunda categoria que sempre exige revisão humana é qualquer divergência entre dados extraídos de documentos distintos: se o nome na habilitação não coincide exatamente com o nome no documento de identidade, ou se a placa do veículo no seguro não coincide com a placa declarada no formulário, esse caso deve ir para um revisor antes da aprovação — independentemente da confiança individual de cada extração."
       }
     },
     {
@@ -176,21 +212,24 @@
       "id": "umbral-confianza-aprobacion-automatica",
       "text": {
         "es": "El umbral de confianza: cuándo aprobar automáticamente y cuándo escalar",
-        "en": "The confidence threshold: when to approve automatically and when to escalate"
+        "en": "The confidence threshold: when to approve automatically and when to escalate",
+        "pt": "O limiar de confiança: quando aprovar automaticamente e quando escalar"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "El umbral de confianza es el porcentaje mínimo que el OCR debe reportar en la extracción de un campo para que la plataforma tome una decisión automática sin intervención humana. La mayoría de los sistemas comerciales para documentos de identidad reportan confianza entre 0 y 100% por campo — y la decisión de qué umbral usar para auto-aprobar tiene consecuencias en dos direcciones: demasiado alto y el sistema escala casos que no requieren revisión, reduciendo el ahorro de tiempo; demasiado bajo y aprueba extracciones incorrectas que crean registros con datos erróneos que generan problemas más adelante.",
-        "en": "The confidence threshold is the minimum percentage the OCR system must report on a field extraction for the platform to make an automatic decision without human intervention. Most commercial systems for identity documents report confidence between 0 and 100% per field — and the decision of which threshold to use for auto-approval has consequences in both directions: too high and the system escalates cases that don't need review, reducing time savings; too low and it approves incorrect extractions that create records with wrong data and generate downstream problems."
+        "en": "The confidence threshold is the minimum percentage the OCR system must report on a field extraction for the platform to make an automatic decision without human intervention. Most commercial systems for identity documents report confidence between 0 and 100% per field — and the decision of which threshold to use for auto-approval has consequences in both directions: too high and the system escalates cases that don't need review, reducing time savings; too low and it approves incorrect extractions that create records with wrong data and generate downstream problems.",
+        "pt": "O limiar de confiança é o percentual mínimo que o OCR deve reportar na extração de um campo para que a plataforma tome uma decisão automática sem intervenção humana. A maioria dos sistemas comerciais para documentos de identidade reporta confiança entre 0 e 100% por campo — e a decisão de qual limiar usar para autoaprovar tem consequências em duas direções: alto demais e o sistema escala casos que não precisam de revisão, reduzindo a economia de tempo; baixo demais e aprova extrações incorretas que criam registros com dados errados que geram problemas mais adiante."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "En operaciones con documentación estándar de buena calidad — licencia oficial plastificada, póliza de seguro en formato impreso claro, documento de identidad sin daños — los umbrales que producen buenos resultados prácticos están entre 88 y 92% de confianza por campo para documentos con texto tipográfico. Por debajo del 85%, el error de extracción en fechas y números de documento es suficientemente frecuente para crear problemas en los registros. Por encima del 95%, el sistema escala a revisión humana un porcentaje alto de documentos correctos que simplemente tuvieron una fotografía ligeramente subóptima — tomada sobre una superficie brillante o con sombra parcial. El umbral correcto combina un valor de campo individual con un valor de documento completo: si todos los campos extraíbles superan el 90%, el documento puede aprobarse automáticamente; si algún campo está entre el 75 y el 90%, va a revisión prioritaria; si algún campo está por debajo del 75%, el sistema solicita al conductor que vuelva a fotografiar ese documento específico con instrucciones claras antes de continuar.",
-        "en": "In operations with standard good-quality documentation — an official laminated license, a clearly printed insurance policy, an undamaged national identity document — the thresholds that produce reliable practical results fall between 88 and 92% confidence per field for typographically printed documents. Below 85%, extraction errors on dates and document numbers are frequent enough to create problems in driver records. Above 95%, the system escalates a high percentage of correct documents that simply had a slightly suboptimal photo — taken on a reflective surface or with partial shadow. The right threshold combines an individual field value with a full-document value: if all extractable fields exceed 90%, the document can be approved automatically; if any field falls between 75 and 90%, it goes to priority review; if any field falls below 75%, the system asks the driver to re-photograph that specific document with clear instructions before proceeding."
+        "en": "In operations with standard good-quality documentation — an official laminated license, a clearly printed insurance policy, an undamaged national identity document — the thresholds that produce reliable practical results fall between 88 and 92% confidence per field for typographically printed documents. Below 85%, extraction errors on dates and document numbers are frequent enough to create problems in driver records. Above 95%, the system escalates a high percentage of correct documents that simply had a slightly suboptimal photo — taken on a reflective surface or with partial shadow. The right threshold combines an individual field value with a full-document value: if all extractable fields exceed 90%, the document can be approved automatically; if any field falls between 75 and 90%, it goes to priority review; if any field falls below 75%, the system asks the driver to re-photograph that specific document with clear instructions before proceeding.",
+        "pt": "Em operações com documentação padrão de boa qualidade — habilitação oficial plastificada, apólice de seguro em formato impresso claro, documento de identidade sem danos — os limiares que produzem bons resultados práticos ficam entre 88 e 92% de confiança por campo para documentos com texto tipográfico. Abaixo de 85%, o erro de extração em datas e números de documento é frequente o suficiente para criar problemas nos registros. Acima de 95%, o sistema escala para revisão humana um percentual alto de documentos corretos que simplesmente tiveram uma fotografia ligeiramente abaixo do ideal — tirada sobre uma superfície brilhante ou com sombra parcial. O limiar correto combina um valor de campo individual com um valor de documento completo: se todos os campos extraíveis superam 90%, o documento pode ser aprovado automaticamente; se algum campo fica entre 75 e 90%, vai para revisão prioritária; se algum campo fica abaixo de 75%, o sistema pede ao motorista que fotografe de novo esse documento específico com instruções claras antes de continuar."
       }
     },
     {
@@ -199,32 +238,37 @@
       "id": "alertas-vencimiento-documentos",
       "text": {
         "es": "Alertas de vencimiento: el segundo caso de uso que justifica el OCR",
-        "en": "Expiration alerts: the second use case that justifies OCR"
+        "en": "Expiration alerts: the second use case that justifies OCR",
+        "pt": "Alertas de vencimento: o segundo caso de uso que justifica o OCR"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "La extracción automática de fechas de vencimiento resuelve un problema operativo secundario que aparece en plataformas con más de 100 conductores activos: el conductor cuya licencia o seguro vence mientras está operando, y que sigue tomando viajes hasta que alguien en operaciones nota la fecha en el próximo ciclo de revisión. En mercados como México, donde la plataforma tiene obligación de verificar que el conductor opera con documentación vigente, ese intervalo — entre el vencimiento real del documento y el momento en que la plataforma actúa — es un riesgo de compliance directo. La solución no requiere revisar constantemente todos los registros: requiere que el OCR haya extraído las fechas de vencimiento correctamente en la revisión inicial y que el sistema genere alertas automáticas a D-30, D-14 y D-0 para iniciar el proceso de renovación con tiempo suficiente.",
-        "en": "Automatic extraction of expiration dates solves a secondary operational problem that surfaces in platforms with more than 100 active drivers: the driver whose license or insurance expires while they are actively operating, and who continues taking trips until someone in operations notices the expiration in the next review cycle. In markets like Mexico, where the platform has a compliance obligation to verify that drivers operate with current documentation, that interval — between when the document expires and when the platform acts — is a direct compliance risk. The solution does not require constant review of all records: it requires that OCR correctly extracted expiration dates during the initial review and that the system generates automatic alerts at D-30, D-14, and D-0 to start the renewal process with enough lead time."
+        "en": "Automatic extraction of expiration dates solves a secondary operational problem that surfaces in platforms with more than 100 active drivers: the driver whose license or insurance expires while they are actively operating, and who continues taking trips until someone in operations notices the expiration in the next review cycle. In markets like Mexico, where the platform has a compliance obligation to verify that drivers operate with current documentation, that interval — between when the document expires and when the platform acts — is a direct compliance risk. The solution does not require constant review of all records: it requires that OCR correctly extracted expiration dates during the initial review and that the system generates automatic alerts at D-30, D-14, and D-0 to start the renewal process with enough lead time.",
+        "pt": "A extração automática de datas de vencimento resolve um problema operacional secundário que aparece em plataformas com mais de 100 motoristas ativos: o motorista cuja habilitação ou seguro vence enquanto ele está operando, e que continua pegando corridas até que alguém em operações note a data no próximo ciclo de revisão. Em mercados como o México, onde a plataforma tem a obrigação de verificar que o motorista opera com documentação vigente, esse intervalo — entre o vencimento real do documento e o momento em que a plataforma age — é um risco de compliance direto. A solução não exige revisar constantemente todos os registros: exige que o OCR tenha extraído as datas de vencimento corretamente na revisão inicial e que o sistema gere alertas automáticos em D-30, D-14 e D-0 para iniciar o processo de renovação com tempo suficiente."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "La integración de alertas de vencimiento con el sistema de suspensión automática cierra el ciclo de compliance de una forma que la revisión manual no puede garantizar a escala. Un conductor cuya licencia vence el día 15 y que no ha enviado la renovación en la plataforma debería suspenderse automáticamente para nuevos viajes a partir del día 16 — no cuando el revisor de operaciones revise la lista la semana siguiente. Ese flujo — alerta, período de gracia, suspensión provisional, reactivación cuando el documento renovado supera la extracción — reduce el riesgo de compliance sin aumentar la carga de trabajo del equipo. El prerequisito es que las fechas se extrajeron correctamente en el onboarding inicial. Si el OCR no las capturó con confianza suficiente y la revisión humana tampoco las verificó en ese momento, el sistema de alertas no tiene base de datos sobre la que operar.",
-        "en": "Integrating expiration alerts with automatic driver suspension closes the compliance loop in a way that manual review cannot guarantee at scale. A driver whose license expires on the 15th and who has not uploaded a renewal to the platform should be automatically suspended from new trips starting the 16th — not when the operations reviewer checks the list next week. That flow — alert, grace period, provisional suspension, reactivation when the renewed document passes extraction — reduces compliance risk without increasing the operations team's workload. The prerequisite is that dates were correctly extracted during initial onboarding. If OCR did not capture them with sufficient confidence and human review did not verify them at that point either, the alert system has no database to operate against."
+        "en": "Integrating expiration alerts with automatic driver suspension closes the compliance loop in a way that manual review cannot guarantee at scale. A driver whose license expires on the 15th and who has not uploaded a renewal to the platform should be automatically suspended from new trips starting the 16th — not when the operations reviewer checks the list next week. That flow — alert, grace period, provisional suspension, reactivation when the renewed document passes extraction — reduces compliance risk without increasing the operations team's workload. The prerequisite is that dates were correctly extracted during initial onboarding. If OCR did not capture them with sufficient confidence and human review did not verify them at that point either, the alert system has no database to operate against.",
+        "pt": "A integração dos alertas de vencimento com o sistema de suspensão automática fecha o ciclo de compliance de uma forma que a revisão manual não consegue garantir em escala. Um motorista cuja habilitação vence no dia 15 e que não enviou a renovação na plataforma deveria ser suspenso automaticamente para novas corridas a partir do dia 16 — não quando o revisor de operações checar a lista na semana seguinte. Esse fluxo — alerta, período de carência, suspensão provisória, reativação quando o documento renovado passa pela extração — reduz o risco de compliance sem aumentar a carga de trabalho da equipe. O pré-requisito é que as datas tenham sido extraídas corretamente no onboarding inicial. Se o OCR não as capturou com confiança suficiente e a revisão humana também não as verificou naquele momento, o sistema de alertas não tem base de dados sobre a qual operar."
       }
     },
     {
       "type": "quote",
       "text": {
         "es": "Cuando empezamos a medir cuánto tiempo pasaba entre que el conductor enviaba sus documentos y que recibía la aprobación, el promedio era de 31 horas. Con el sistema automático para los documentos de alta confianza bajamos a 4 horas para el 60% de los conductores. El 40% restante todavía requiere revisión manual, pero ahora el revisor llega con una lista de casos que realmente necesitan su criterio — no con 50 documentos de los cuales 35 son licencias en perfectas condiciones que podrían haberse aprobado automáticamente.",
-        "en": "When we started measuring the time between a driver submitting documents and receiving approval, the average was 31 hours. With the automatic system for high-confidence documents we dropped to 4 hours for 60% of drivers. The remaining 40% still requires manual review, but now the reviewer arrives with a list of cases that actually need their judgment — not 50 documents of which 35 are perfectly clear licenses that could have been approved automatically."
+        "en": "When we started measuring the time between a driver submitting documents and receiving approval, the average was 31 hours. With the automatic system for high-confidence documents we dropped to 4 hours for 60% of drivers. The remaining 40% still requires manual review, but now the reviewer arrives with a list of cases that actually need their judgment — not 50 documents of which 35 are perfectly clear licenses that could have been approved automatically.",
+        "pt": "Quando começamos a medir quanto tempo passava entre o motorista enviar seus documentos e receber a aprovação, a média era de 31 horas. Com o sistema automático para os documentos de alta confiança, baixamos para 4 horas para 60% dos motoristas. Os 40% restantes ainda exigem revisão manual, mas agora o revisor chega com uma lista de casos que realmente precisam do seu critério — não com 50 documentos dos quais 35 são habilitações em perfeitas condições que poderiam ter sido aprovadas automaticamente."
       },
       "attribution": {
         "es": "Operador de plataforma de movilidad con 180 conductores activos en dos ciudades de México",
-        "en": "Mobility platform operator with 180 active drivers across two cities in Mexico"
+        "en": "Mobility platform operator with 180 active drivers across two cities in Mexico",
+        "pt": "Operador de plataforma de mobilidade com 180 motoristas ativos em duas cidades do México"
       }
     },
     {
@@ -233,35 +277,40 @@
       "id": "evitar-cuello-botella-automatizacion",
       "text": {
         "es": "Cómo evitar que la automatización parcial cree un cuello de botella nuevo",
-        "en": "How to prevent partial automation from creating a new bottleneck"
+        "en": "How to prevent partial automation from creating a new bottleneck",
+        "pt": "Como evitar que a automação parcial crie um novo gargalo"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "El error más frecuente en la implementación de OCR para documentación de conductores es automatizar los casos fáciles sin rediseñar el flujo para los casos complicados. El resultado es un sistema donde los conductores con documentación impecable se aprueban en minutos, pero los que tienen documentación que requiere revisión humana — imagen borrosa, discrepancia entre documentos, formato no reconocido — entran en una cola manual sin prioridad definida, sin tiempo de respuesta comprometido y sin comunicación proactiva al conductor sobre el estado de su solicitud. Ese conductor espera más que antes de la automatización porque el revisor ahora tiene menos casos totales pero ninguna mejora en el proceso de gestión de los complejos.",
-        "en": "The most common error in implementing OCR for driver documentation is automating the easy cases without redesigning the flow for the complex ones. The result is a system where drivers with clean documentation are approved in minutes, while those with documentation requiring human review — blurry image, cross-document discrepancy, unrecognized format — enter a manual queue with no defined priority, no committed response time, and no proactive communication about the status of their application. That driver waits longer than before automation because the reviewer now handles fewer total cases but has no improvement in the process for managing the complex ones."
+        "en": "The most common error in implementing OCR for driver documentation is automating the easy cases without redesigning the flow for the complex ones. The result is a system where drivers with clean documentation are approved in minutes, while those with documentation requiring human review — blurry image, cross-document discrepancy, unrecognized format — enter a manual queue with no defined priority, no committed response time, and no proactive communication about the status of their application. That driver waits longer than before automation because the reviewer now handles fewer total cases but has no improvement in the process for managing the complex ones.",
+        "pt": "O erro mais frequente na implementação de OCR para documentação de motoristas é automatizar os casos fáceis sem redesenhar o fluxo para os casos complicados. O resultado é um sistema onde os motoristas com documentação impecável são aprovados em minutos, mas os que têm documentação que exige revisão humana — imagem borrada, divergência entre documentos, formato não reconhecido — entram numa fila manual sem prioridade definida, sem tempo de resposta comprometido e sem comunicação proativa ao motorista sobre o status da solicitação. Esse motorista espera mais do que antes da automação porque o revisor agora tem menos casos no total, mas nenhuma melhoria no processo de gestão dos complexos."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "El flujo correcto diferencia tres rutas de resolución con tiempos de respuesta distintos. La primera es la aprobación automática: todos los campos extraíbles superan el umbral de confianza, no hay discrepancias entre documentos, y los campos no automatizables como antecedentes penales tienen un resultado conocido. El conductor recibe aprobación en menos de 15 minutos. La segunda es la revisión prioritaria: uno o más campos están en el rango de baja confianza o el sistema detectó una discrepancia menor resoluble desde la imagen original. El revisor recibe el caso con los campos dudosos marcados y un tiempo de respuesta comprometido de 2 a 4 horas en horario hábil. La tercera es la solicitud de redocumentación al conductor: el sistema detectó un campo irresoluble y pide al conductor que vuelva a fotografiar ese documento específico con instrucciones claras de cómo hacerlo. Esta tercera ruta es la que más operadores omiten — y es la que convierte una fricción técnica en una experiencia de rechazo que el conductor interpreta como arbitraria.",
-        "en": "The correct flow differentiates three resolution paths with distinct response times. The first is automatic approval: all extractable fields exceed the confidence threshold, there are no cross-document discrepancies, and non-automatable fields such as background checks have a known result. The driver receives approval in under 15 minutes. The second is priority review: one or more fields fall in the low-confidence range or the system detected a minor discrepancy resolvable from the original image. The reviewer receives the case with uncertain fields flagged and a committed response time of 2 to 4 hours during business hours. The third is a re-documentation request to the driver: the system detects an unresolvable field and asks the driver to re-photograph that specific document with clear instructions on how to do so correctly. That third path is the one most operators omit — and it is the one that turns a technical friction point into a rejection experience the driver interprets as arbitrary."
+        "en": "The correct flow differentiates three resolution paths with distinct response times. The first is automatic approval: all extractable fields exceed the confidence threshold, there are no cross-document discrepancies, and non-automatable fields such as background checks have a known result. The driver receives approval in under 15 minutes. The second is priority review: one or more fields fall in the low-confidence range or the system detected a minor discrepancy resolvable from the original image. The reviewer receives the case with uncertain fields flagged and a committed response time of 2 to 4 hours during business hours. The third is a re-documentation request to the driver: the system detects an unresolvable field and asks the driver to re-photograph that specific document with clear instructions on how to do so correctly. That third path is the one most operators omit — and it is the one that turns a technical friction point into a rejection experience the driver interprets as arbitrary.",
+        "pt": "O fluxo correto diferencia três rotas de resolução com tempos de resposta distintos. A primeira é a aprovação automática: todos os campos extraíveis superam o limiar de confiança, não há divergências entre documentos, e os campos não automatizáveis como antecedentes criminais têm um resultado conhecido. O motorista recebe a aprovação em menos de 15 minutos. A segunda é a revisão prioritária: um ou mais campos estão na faixa de baixa confiança ou o sistema detectou uma divergência menor resolvível a partir da imagem original. O revisor recebe o caso com os campos duvidosos marcados e um tempo de resposta comprometido de 2 a 4 horas em horário comercial. A terceira é o pedido de reenvio de documento ao motorista: o sistema detectou um campo irresolúvel e pede ao motorista que fotografe de novo esse documento específico com instruções claras de como fazer. Essa terceira rota é a que mais operadores omitem — e é a que transforma um atrito técnico em uma experiência de recusa que o motorista interpreta como arbitrária."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "El OCR en documentación de conductores produce retorno cuando el diseño del flujo empieza desde la pregunta correcta: no '¿qué podemos automatizar?', sino '¿dónde el revisor humano añade valor real y dónde solo procesa volumen?'. Los documentos con campos estructurados, impresión tipográfica clara y sin discrepancias entre documentos son candidatos directos a aprobación automática. Los documentos con cualquier elemento de autenticidad que el sistema no puede verificar — antecedentes penales, correspondencia entre imágenes de vehículo y datos declarados, sellos oficiales — requieren criterio humano que el OCR no reemplaza. Esa delimitación es la que convierte la automatización en una reducción real del tiempo de onboarding, no en una redistribución del mismo backlog entre revisores automáticos y humanos.",
-        "en": "OCR for driver documentation produces returns when the flow design starts from the right question: not 'what can we automate?' but 'where does human review add real value versus where is it just processing volume?' Documents with structured fields, clear typographic printing, and no cross-document discrepancies are direct candidates for automatic approval. Documents with any element of authenticity the system cannot verify — background checks, correspondence between vehicle photos and declared data, official seals — require human judgment OCR does not replace. That delineation is what converts automation into a real reduction in onboarding time, not a redistribution of the same backlog between automatic and human reviewers."
+        "en": "OCR for driver documentation produces returns when the flow design starts from the right question: not 'what can we automate?' but 'where does human review add real value versus where is it just processing volume?' Documents with structured fields, clear typographic printing, and no cross-document discrepancies are direct candidates for automatic approval. Documents with any element of authenticity the system cannot verify — background checks, correspondence between vehicle photos and declared data, official seals — require human judgment OCR does not replace. That delineation is what converts automation into a real reduction in onboarding time, not a redistribution of the same backlog between automatic and human reviewers.",
+        "pt": "O OCR na documentação de motoristas gera retorno quando o desenho do fluxo parte da pergunta certa: não 'o que podemos automatizar?', mas 'onde o revisor humano agrega valor real e onde ele apenas processa volume?'. Os documentos com campos estruturados, impressão tipográfica clara e sem divergências entre documentos são candidatos diretos à aprovação automática. Os documentos com qualquer elemento de autenticidade que o sistema não consegue verificar — antecedentes criminais, correspondência entre imagens do veículo e dados declarados, selos oficiais — exigem critério humano que o OCR não substitui. Essa delimitação é o que transforma a automação em uma redução real do tempo de onboarding, e não em uma redistribuição do mesmo backlog entre revisores automáticos e humanos."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "El segundo efecto del OCR bien implementado aparece 90 días después del lanzamiento: el pool de conductores activos es más alto porque la tasa de abandono pre-activación bajó, y el equipo de operaciones tiene tiempo para trabajar en los casos que realmente requieren su atención — el conductor cuya documentación tiene una discrepancia que indica un problema real, no el conductor cuya licencia era perfectamente legible pero necesitaba un par de ojos durante ocho minutos para confirmarlo. La diferencia no está en la tecnología del OCR — está en el diseño del flujo que decide qué pasa con cada documento según el resultado de la extracción.",
-        "en": "The second effect of well-implemented OCR appears 90 days after launch: the active driver pool is larger because the pre-activation abandonment rate dropped, and the operations team has time to work on cases that actually need their attention — the driver whose documentation has a discrepancy indicating a real problem, not the driver whose license was perfectly legible but needed a pair of eyes for eight minutes to confirm it. The difference is not in the OCR technology — it is in the flow design that decides what happens with each document based on the extraction result."
+        "en": "The second effect of well-implemented OCR appears 90 days after launch: the active driver pool is larger because the pre-activation abandonment rate dropped, and the operations team has time to work on cases that actually need their attention — the driver whose documentation has a discrepancy indicating a real problem, not the driver whose license was perfectly legible but needed a pair of eyes for eight minutes to confirm it. The difference is not in the OCR technology — it is in the flow design that decides what happens with each document based on the extraction result.",
+        "pt": "O segundo efeito do OCR bem implementado aparece 90 dias depois do lançamento: o pool de motoristas ativos é maior porque a taxa de abandono pré-ativação caiu, e a equipe de operações tem tempo para trabalhar nos casos que realmente precisam da sua atenção — o motorista cuja documentação tem uma divergência que indica um problema real, não o motorista cuja habilitação era perfeitamente legível mas precisava de um par de olhos durante oito minutos para confirmar. A diferença não está na tecnologia do OCR — está no desenho do fluxo que decide o que acontece com cada documento conforme o resultado da extração."
       }
     }
   ]

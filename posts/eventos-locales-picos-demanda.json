@@ -3,16 +3,19 @@
   "category": "product",
   "title": {
     "es": "Eventos locales y picos de demanda: preparar la operación 72 horas antes",
-    "en": "Local events and demand peaks: preparing operations 72 hours out"
+    "en": "Local events and demand peaks: preparing operations 72 hours out",
+    "pt": "Eventos locais e picos de demanda: preparar a operação 72 horas antes"
   },
   "excerpt": {
     "es": "Los eventos locales son la demanda más predecible de la semana — y la más subaprovechada. Capturar ese pico no depende del precio dinámico sino de la preparación que ocurrió 72 horas antes.",
-    "en": "Local events are the most predictable demand a mobility operator will see — and the most underused. Capturing that peak depends on preparation 72 hours earlier, not on dynamic pricing."
+    "en": "Local events are the most predictable demand a mobility operator will see — and the most underused. Capturing that peak depends on preparation 72 hours earlier, not on dynamic pricing.",
+    "pt": "Os eventos locais são a demanda mais previsível da semana — e a mais subaproveitada. Capturar esse pico não depende da tarifa dinâmica, e sim da preparação que aconteceu 72 horas antes."
   },
   "heroImage": "https://raw.githubusercontent.com/jonatanvazquez/cabgo-blog-content/main/images/eventos-locales-picos-demanda.jpg",
   "heroImageAlt": {
     "es": "Ilustración isométrica de un estadio local con conductores convergiendo hacia la zona de salida por trazas de ruta iluminadas y un panel de operaciones flotante con calendario de eventos y contador regresivo",
-    "en": "Isometric illustration of a local stadium with taxi drivers converging toward the exit zone along glowing route lines and a floating operations panel with an event calendar and countdown timer"
+    "en": "Isometric illustration of a local stadium with taxi drivers converging toward the exit zone along glowing route lines and a floating operations panel with an event calendar and countdown timer",
+    "pt": "Ilustração isométrica de um estádio local com motoristas convergindo para a zona de saída por traçados de rota iluminados e um painel de operações flutuante com calendário de eventos e contador regressivo"
   },
   "heroImagePrompt": "Isometric event demand scene for a regional mobility platform. Left side: a small stadium or concert venue with a glowing crowd icon above it and a countdown clock showing 72 hours. Center: a city grid with taxis converging from different neighborhoods toward the venue zone following glowing teal route lines. Right side: a floating operations panel showing a driver activation checklist with green checkmarks, a demand forecast bar chart with an orange spike at event close time, and a small zone map with a highlighted coverage radius. A driver figure reviewing a phone with a location pin notification.",
   "publishedAt": "2026-04-29",
@@ -35,38 +38,53 @@
       "driver activation events",
       "dynamic pricing events concerts",
       "surge pricing communication drivers"
+    ],
+    "pt": [
+      "eventos locais operação mobilidade",
+      "picos de demanda app de táxi",
+      "preparar frota evento local",
+      "gestão de eventos transporte por aplicativo",
+      "ativação de motoristas eventos",
+      "tarifa dinâmica eventos shows",
+      "surge pricing comunicação motoristas"
     ]
   },
   "author": {
     "name": "Equipo Cabgo",
     "role": {
       "es": "Plataforma de movilidad",
-      "en": "Mobility platform"
+      "en": "Mobility platform",
+      "pt": "Plataforma de mobilidade"
     }
   },
   "cta": {
     "heading": {
       "es": "¿Listo para lanzar tu propia app de movilidad?",
-      "en": "Ready to launch your own mobility app?"
+      "en": "Ready to launch your own mobility app?",
+      "pt": "Pronto para lançar seu próprio app de mobilidade?"
     },
     "body": {
       "es": "Configura tu marca, tus tarifas y tus servicios en semanas, no en meses. Cabgo te entrega la plataforma, tú te quedas con la operación y la marca.",
-      "en": "Set up your brand, pricing and services in weeks, not months. Cabgo ships the platform — you keep the operation and the brand."
+      "en": "Set up your brand, pricing and services in weeks, not months. Cabgo ships the platform — you keep the operation and the brand.",
+      "pt": "Configure sua marca, suas tarifas e seus serviços em semanas, não em meses. A Cabgo entrega a plataforma, e você fica com a operação e a marca."
     },
     "buttonLabel": {
       "es": "Empezar ahora",
-      "en": "Get started"
+      "en": "Get started",
+      "pt": "Começar agora"
     },
     "buttonHref": "/empezar"
   },
   "seo": {
     "metaTitle": {
       "es": "Eventos locales y picos de demanda | Cabgo",
-      "en": "Local events and demand peaks | Cabgo"
+      "en": "Local events and demand peaks | Cabgo",
+      "pt": "Eventos locais e picos de demanda | Cabgo"
     },
     "metaDescription": {
       "es": "Cómo preparar tu operación de movilidad 72 horas antes de un evento local: activación de conductores, zonas de cobertura y comunicación de precio dinámico.",
-      "en": "How to prepare your mobility operation 72 hours before a local event: driver activation, coverage zones, and dynamic pricing communication."
+      "en": "How to prepare your mobility operation 72 hours before a local event: driver activation, coverage zones, and dynamic pricing communication.",
+      "pt": "Como preparar sua operação de mobilidade 72 horas antes de um evento local: ativação de motoristas, zonas de cobertura e comunicação da tarifa dinâmica."
     }
   },
   "blocks": [
@@ -74,14 +92,16 @@
       "type": "paragraph",
       "text": {
         "es": "Los eventos locales — un partido de fútbol, una feria regional, un concierto en el parque central — generan los picos de demanda más predecibles que una operación de movilidad regional va a ver en cualquier semana del año. No son sorpresas del calendario: están anunciados con días o semanas de anticipación, concentran la demanda en zonas conocidas y en franjas horarias definidas, y tienen un patrón de entrada y salida que se puede anticipar sin modelos complejos. Sin embargo, son también los momentos donde más operadores cometen errores: conductores conectados en las zonas equivocadas, precio dinámico que activa cancelaciones sin advertencia previa, y pasajeros que esperan veinte minutos en la salida de un estadio porque la plataforma no estaba preparada. La diferencia entre capturar ese pico o perderlo no está en la tecnología de precios — está en lo que ocurrió 72 horas antes.",
-        "en": "Local events — a soccer match, a regional fair, a concert in the city center — produce the most predictable demand peaks a regional mobility operator will encounter in any given week. They aren't calendar surprises: they're announced days or weeks ahead, concentrate demand in known zones and defined time windows, and follow an arrival-and-departure pattern that doesn't require complex modeling to anticipate. Yet they're also where the most operators fail: drivers connected in the wrong zones, dynamic pricing triggering cancellations without prior notice, and passengers waiting twenty minutes outside a stadium because the platform wasn't ready. The difference between capturing that peak or missing it doesn't come down to pricing technology — it comes down to what happened 72 hours earlier."
+        "en": "Local events — a soccer match, a regional fair, a concert in the city center — produce the most predictable demand peaks a regional mobility operator will encounter in any given week. They aren't calendar surprises: they're announced days or weeks ahead, concentrate demand in known zones and defined time windows, and follow an arrival-and-departure pattern that doesn't require complex modeling to anticipate. Yet they're also where the most operators fail: drivers connected in the wrong zones, dynamic pricing triggering cancellations without prior notice, and passengers waiting twenty minutes outside a stadium because the platform wasn't ready. The difference between capturing that peak or missing it doesn't come down to pricing technology — it comes down to what happened 72 hours earlier.",
+        "pt": "Os eventos locais — um jogo de futebol, uma feira regional, um show no parque central — geram os picos de demanda mais previsíveis que uma operação de mobilidade regional vai ver em qualquer semana do ano. Não são surpresas do calendário: estão anunciados com dias ou semanas de antecedência, concentram a demanda em zonas conhecidas e em faixas de horário definidas, e têm um padrão de entrada e saída que dá para antecipar sem modelos complexos. Ainda assim, também são os momentos em que mais operadores cometem erros: motoristas conectados nas zonas erradas, tarifa dinâmica que dispara cancelamentos sem aviso prévio e passageiros que esperam vinte minutos na saída de um estádio porque a plataforma não estava preparada. A diferença entre capturar esse pico ou perdê-lo não está na tecnologia de precificação — está no que aconteceu 72 horas antes."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "Este artículo es para operadores con al menos 60 días de operación y una base de conductores activos que ya notan que algunos días son distintos a otros, pero no siempre anticipan cuáles ni por qué. El argumento central es que los eventos locales son demanda predecible, y la demanda predecible no se gestiona de forma reactiva — se prepara. Vamos a ver cómo construir un calendario de eventos que genere acciones operativas concretas, cómo activar conductores en las zonas correctas sin depender del surge para atraerlos, cómo comunicar el precio dinámico antes de que llegue la queja, y cómo gestionar el cierre del evento — los 90 minutos después del pico — que determinan si los pasajeros van a volver la próxima vez.",
-        "en": "This article is for operators with at least 60 days of operation and an active driver base who are already noticing that some days behave differently but can't always predict which ones or why. The central argument is that local events are predictable demand, and predictable demand isn't managed reactively — it's prepared for. We'll cover how to build an event calendar that drives concrete operational actions, how to activate drivers in the right zones without relying on surge to attract them, how to communicate dynamic pricing before the complaint arrives, and how to manage the event's close — the 90 minutes after the peak — that determine whether passengers come back next time."
+        "en": "This article is for operators with at least 60 days of operation and an active driver base who are already noticing that some days behave differently but can't always predict which ones or why. The central argument is that local events are predictable demand, and predictable demand isn't managed reactively — it's prepared for. We'll cover how to build an event calendar that drives concrete operational actions, how to activate drivers in the right zones without relying on surge to attract them, how to communicate dynamic pricing before the complaint arrives, and how to manage the event's close — the 90 minutes after the peak — that determine whether passengers come back next time.",
+        "pt": "Este artigo é para operadores com pelo menos 60 dias de operação e uma base de motoristas ativos que já percebem que alguns dias são diferentes dos outros, mas nem sempre antecipam quais nem por quê. O argumento central é que os eventos locais são demanda previsível, e demanda previsível não se gerencia de forma reativa — se prepara. Vamos ver como construir um calendário de eventos que gere ações operacionais concretas, como ativar motoristas nas zonas certas sem depender do surge para atraí-los, como comunicar a tarifa dinâmica antes de a reclamação chegar e como gerenciar o encerramento do evento — os 90 minutos depois do pico — que determinam se os passageiros vão voltar da próxima vez."
       }
     },
     {
@@ -90,21 +110,24 @@
       "id": "eventos-demanda-predecible",
       "text": {
         "es": "Los eventos locales son la demanda más predecible del mes",
-        "en": "Local events are the most predictable demand of the month"
+        "en": "Local events are the most predictable demand of the month",
+        "pt": "Os eventos locais são a demanda mais previsível do mês"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "Para una operación de movilidad regional, no hay tipo de demanda más valiosa que la predecible. La demanda de un martes ordinario oscila según el clima, el tráfico y variables que el operador no controla. La demanda de un partido en el estadio local empieza exactamente cuando la función termina, en un radio de 500 a 1.500 metros del recinto. Esa concentración geográfica y temporal convierte el evento en el activo más planificable de la semana: el operador puede posicionar oferta exactamente donde va a estar la demanda, con anticipación suficiente para que los conductores no tengan que decidir por sí mismos si vale la pena moverse hacia allí.",
-        "en": "For a regional mobility operation, no demand type is more valuable than predictable demand. A regular Tuesday fluctuates with weather, traffic, and variables the operator doesn't control. Demand from a match at the local stadium starts exactly when the final whistle blows, within a 500-to-1,500-meter radius of the venue. That geographic and temporal concentration makes the event the most plannable asset of the week: the operator can position supply precisely where demand is going to be, early enough that drivers don't have to decide on their own whether moving there is worth it."
+        "en": "For a regional mobility operation, no demand type is more valuable than predictable demand. A regular Tuesday fluctuates with weather, traffic, and variables the operator doesn't control. Demand from a match at the local stadium starts exactly when the final whistle blows, within a 500-to-1,500-meter radius of the venue. That geographic and temporal concentration makes the event the most plannable asset of the week: the operator can position supply precisely where demand is going to be, early enough that drivers don't have to decide on their own whether moving there is worth it.",
+        "pt": "Para uma operação de mobilidade regional, não há tipo de demanda mais valioso do que a previsível. A demanda de uma terça-feira comum oscila conforme o clima, o trânsito e variáveis que o operador não controla. A demanda de um jogo no estádio local começa exatamente quando o evento termina, num raio de 500 a 1.500 metros do local. Essa concentração geográfica e temporal transforma o evento no ativo mais planejável da semana: o operador pode posicionar oferta exatamente onde a demanda vai estar, com antecedência suficiente para que os motoristas não tenham que decidir por conta própria se vale a pena se deslocar até lá."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "El problema no es que los operadores no conozcan el evento — es que lo tratan como un día normal hasta que el dashboard muestra tiempos de asignación de cuatro minutos en la zona del estadio. En ese momento, el precio dinámico activa conductores, pero con un costo operacional: los conductores que entran por el surge llegan cuando el pico ya está activo, no cuando la cola de pasajeros empieza a formarse. Cubren la primera oleada y se desconectan antes de que la segunda salga del recinto. El resultado es cobertura irregular en los momentos de mayor demanda — precisamente el patrón que la preparación anticipada evita.",
-        "en": "The problem isn't that operators don't know the event is happening — it's that they treat it as a normal day until the dashboard shows four-minute assignment times near the stadium. At that point, dynamic pricing pulls in drivers, but at an operational cost: drivers who connect because of surge arrive after the peak is already active, not as the passenger queue is forming. They cover the first wave and disconnect before the second exits the venue. The result is uneven coverage at the highest-demand moment — exactly the pattern that advance preparation avoids."
+        "en": "The problem isn't that operators don't know the event is happening — it's that they treat it as a normal day until the dashboard shows four-minute assignment times near the stadium. At that point, dynamic pricing pulls in drivers, but at an operational cost: drivers who connect because of surge arrive after the peak is already active, not as the passenger queue is forming. They cover the first wave and disconnect before the second exits the venue. The result is uneven coverage at the highest-demand moment — exactly the pattern that advance preparation avoids.",
+        "pt": "O problema não é que os operadores não conheçam o evento — é que o tratam como um dia normal até o dashboard mostrar tempos de atribuição de quatro minutos na zona do estádio. Nesse momento, a tarifa dinâmica ativa motoristas, mas com um custo operacional: os motoristas que entram por causa do surge chegam quando o pico já está ativo, não quando a fila de passageiros começa a se formar. Cobrem a primeira onda e se desconectam antes de a segunda sair do local. O resultado é cobertura irregular nos momentos de maior demanda — exatamente o padrão que a preparação antecipada evita."
       }
     },
     {
@@ -113,14 +136,16 @@
       "id": "calendario-tipos-eventos",
       "text": {
         "es": "El calendario de demanda: qué tipos de eventos importan y cuáles no",
-        "en": "The demand calendar: which types of events matter and which don't"
+        "en": "The demand calendar: which types of events matter and which don't",
+        "pt": "O calendário de demanda: quais tipos de eventos importam e quais não"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "No todos los eventos locales generan picos de demanda aprovechables. Los que sí lo hacen comparten tres características: concentran más de 500 personas en un punto geográfico definido, tienen una hora de fin con salida relativamente simultánea, y ocurren en zonas donde el transporte privado o el estacionamiento son limitados. Un partido de fútbol en un estadio sin estacionamiento amplio o un concierto en un parque peatonalizado crean demanda real para la plataforma. Una exposición que dura todo el día sin hora de cierre definida, o un evento con fácil acceso vehicular, no produce el mismo patrón concentrado.",
-        "en": "Not every local event generates actionable demand peaks. Those that do share three characteristics: they concentrate more than 500 people at a defined geographic point, have an end time with a relatively simultaneous departure, and occur in zones where private transport or parking is limited. A soccer game at a stadium with no ample parking, or a concert in a pedestrianized park, creates real demand for the platform. An all-day exhibition without a defined closing time, or an event with easy vehicular access, doesn't produce the same concentrated pattern."
+        "en": "Not every local event generates actionable demand peaks. Those that do share three characteristics: they concentrate more than 500 people at a defined geographic point, have an end time with a relatively simultaneous departure, and occur in zones where private transport or parking is limited. A soccer game at a stadium with no ample parking, or a concert in a pedestrianized park, creates real demand for the platform. An all-day exhibition without a defined closing time, or an event with easy vehicular access, doesn't produce the same concentrated pattern.",
+        "pt": "Nem todo evento local gera picos de demanda aproveitáveis. Os que geram compartilham três características: concentram mais de 500 pessoas em um ponto geográfico definido, têm um horário de término com saída relativamente simultânea e acontecem em zonas onde o transporte privado ou o estacionamento são limitados. Um jogo de futebol em um estádio sem estacionamento amplo ou um show em um parque de acesso apenas a pé criam demanda real para a plataforma. Uma exposição que dura o dia todo sem horário de encerramento definido, ou um evento com fácil acesso de carro, não produz o mesmo padrão concentrado."
       }
     },
     {
@@ -128,7 +153,8 @@
       "style": "bullet",
       "intro": {
         "es": "Los eventos que generan demanda capturable para una plataforma de movilidad regional:",
-        "en": "Events that generate capturable demand for a regional mobility platform:"
+        "en": "Events that generate capturable demand for a regional mobility platform:",
+        "pt": "Os eventos que geram demanda capturável para uma plataforma de mobilidade regional:"
       },
       "items": {
         "es": [
@@ -146,6 +172,14 @@
           "High-attendance religious events with a defined departure time: processions, midnight masses, patron saint celebrations concentrated at a single location",
           "University graduation ceremonies or civic events with departure concentrated in a 30-to-60-minute window from a single venue",
           "Corporate dinners and company events with a defined closing time at hotels or event halls without dedicated transportation for attendees"
+        ],
+        "pt": [
+          "Eventos esportivos em estádios de 3.000 a 15.000 espectadores sem estacionamento amplo — jogos de futebol, beisebol ou basquete em cidades secundárias onde o estádio fica no centro histórico",
+          "Shows e apresentações em locais fechados ou parques centrais com acesso a pé e transporte público limitado ou inexistente depois das 22h",
+          "Feiras regionais e festivais em zonas históricas ou de acesso apenas a pé que restringem o acesso de carro durante o evento e seus horários de encerramento",
+          "Eventos religiosos de grande público com horário de saída definido: procissões, missas do galo, festas de padroeiro com concentração de pessoas em um ponto específico",
+          "Formaturas universitárias ou atos civis com saída concentrada em uma janela de 30 a 60 minutos a partir de um único local",
+          "Jantares corporativos e eventos de empresa com horário de encerramento definido em hotéis ou salões sem transporte próprio para os participantes"
         ]
       }
     },
@@ -153,7 +187,8 @@
       "type": "paragraph",
       "text": {
         "es": "El error más frecuente de gestión del calendario es incluir eventos de baja asistencia por miedo a perderse oportunidades. Un evento de 200 personas en un restaurante privado no produce el patrón de salida concentrada que hace viable la preparación operativa. Enfocarse en los eventos que combinan alta asistencia, hora de cierre definida y acceso vehicular limitado produce un calendario de 8 a 15 fechas al mes en la mayoría de las ciudades secundarias de LATAM — suficiente para tener un protocolo de activación útil sin que el operador esté preparando una operación especial cada segundo día.",
-        "en": "The most frequent calendar management mistake is including low-attendance events out of fear of missing opportunities. A private 200-person dinner at a restaurant doesn't produce the concentrated departure pattern that makes operational preparation viable. Focusing on events that combine high attendance, a defined closing time, and limited vehicular access produces a calendar of 8 to 15 dates per month in most secondary LATAM cities — enough to run a useful activation protocol without the operator preparing a special operation every other day."
+        "en": "The most frequent calendar management mistake is including low-attendance events out of fear of missing opportunities. A private 200-person dinner at a restaurant doesn't produce the concentrated departure pattern that makes operational preparation viable. Focusing on events that combine high attendance, a defined closing time, and limited vehicular access produces a calendar of 8 to 15 dates per month in most secondary LATAM cities — enough to run a useful activation protocol without the operator preparing a special operation every other day.",
+        "pt": "O erro mais frequente na gestão do calendário é incluir eventos de baixo público por medo de perder oportunidades. Um evento de 200 pessoas em um restaurante privado não produz o padrão de saída concentrada que torna viável a preparação operacional. Focar nos eventos que combinam alto público, horário de encerramento definido e acesso de carro limitado produz um calendário de 8 a 15 datas por mês na maioria das cidades secundárias da América Latina — o suficiente para ter um protocolo de ativação útil sem que o operador fique preparando uma operação especial dia sim, dia não."
       }
     },
     {
@@ -162,21 +197,24 @@
       "id": "activacion-72-horas",
       "text": {
         "es": "Las 72 horas antes: activar conductores sin depender del precio",
-        "en": "72 hours out: activating drivers without depending on price"
+        "en": "72 hours out: activating drivers without depending on price",
+        "pt": "As 72 horas antes: ativar motoristas sem depender da tarifa"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "El error de preparación más costoso ante un evento es confiar en que el precio dinámico va a atraer suficientes conductores cuando la demanda suba. Ese enfoque funciona parcialmente — el surge sí activa conductores — pero tiene dos limitaciones importantes. La primera: los conductores que se conectan por el surge llegan cuando el pico ya está activo, no cuando la cola empieza a formarse. La segunda: en eventos grandes, la concentración de demanda puede saturar la asignación aunque haya conductores disponibles en zonas adyacentes, porque la distancia al recinto es suficiente para hacer que el viaje no valga la pena sin multiplicador adicional. El resultado es cobertura tardía en los primeros 20 minutos del pico, que son los de mayor frustración para el pasajero.",
-        "en": "The most costly preparation mistake before an event is trusting that dynamic pricing will attract enough drivers when demand rises. That approach partially works — surge does activate drivers — but it has two important constraints. First: drivers who connect because of surge arrive after the peak is already active, not while the passenger queue is forming. Second: at large events, demand concentration can saturate the assignment queue even when drivers are available in adjacent zones, because the distance to the venue makes the trip not worth it without an additional multiplier. The result is late coverage in the first twenty minutes of the peak — the most frustrating stretch for the passenger."
+        "en": "The most costly preparation mistake before an event is trusting that dynamic pricing will attract enough drivers when demand rises. That approach partially works — surge does activate drivers — but it has two important constraints. First: drivers who connect because of surge arrive after the peak is already active, not while the passenger queue is forming. Second: at large events, demand concentration can saturate the assignment queue even when drivers are available in adjacent zones, because the distance to the venue makes the trip not worth it without an additional multiplier. The result is late coverage in the first twenty minutes of the peak — the most frustrating stretch for the passenger.",
+        "pt": "O erro de preparação mais caro diante de um evento é confiar que a tarifa dinâmica vai atrair motoristas suficientes quando a demanda subir. Essa abordagem funciona em parte — o surge de fato ativa motoristas —, mas tem duas limitações importantes. A primeira: os motoristas que se conectam por causa do surge chegam quando o pico já está ativo, não quando a fila começa a se formar. A segunda: em eventos grandes, a concentração de demanda pode saturar a atribuição mesmo que haja motoristas disponíveis em zonas adjacentes, porque a distância até o local é suficiente para fazer a corrida não valer a pena sem multiplicador adicional. O resultado é cobertura tardia nos primeiros 20 minutos do pico, que são os de maior frustração para o passageiro."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "La alternativa es la activación anticipada: comunicar el evento a los conductores con 72 horas de antelación, informar la zona de alta demanda y ofrecer un incentivo específico de zona activo desde 30 minutos antes del cierre previsto. Ese incentivo no tiene que ser un multiplicador de surge — puede ser un bono de zona plana que se activa al completar un mínimo de viajes en el área del evento durante el rango horario definido. La diferencia clave entre un incentivo de zona anticipado y el surge reactivo es el momento de la respuesta del conductor: el primero mueve conductores a la zona antes del pico; el segundo los mueve durante el pico, cuando la demanda ya supera la oferta local y los pasajeros llevan minutos esperando.",
-        "en": "The alternative is proactive activation: communicate the event to drivers 72 hours ahead, specify the high-demand zone, and offer a zone-specific incentive active from 30 minutes before the estimated close. That incentive doesn't have to be a surge multiplier — it can be a flat zone bonus activated on completing a minimum number of trips in the event area during the defined time window. The key difference between an advance zone incentive and reactive surge is the timing of driver response: the first moves drivers to the zone before the peak; the second moves them during the peak, when demand already exceeds local supply and passengers have been waiting for minutes."
+        "en": "The alternative is proactive activation: communicate the event to drivers 72 hours ahead, specify the high-demand zone, and offer a zone-specific incentive active from 30 minutes before the estimated close. That incentive doesn't have to be a surge multiplier — it can be a flat zone bonus activated on completing a minimum number of trips in the event area during the defined time window. The key difference between an advance zone incentive and reactive surge is the timing of driver response: the first moves drivers to the zone before the peak; the second moves them during the peak, when demand already exceeds local supply and passengers have been waiting for minutes.",
+        "pt": "A alternativa é a ativação antecipada: comunicar o evento aos motoristas com 72 horas de antecedência, informar a zona de alta demanda e oferecer um incentivo específico de zona ativo a partir de 30 minutos antes do encerramento previsto. Esse incentivo não precisa ser um multiplicador de surge — pode ser um bônus de zona fixo que se ativa ao completar um mínimo de corridas na área do evento durante a faixa de horário definida. A diferença fundamental entre um incentivo de zona antecipado e o surge reativo é o momento da resposta do motorista: o primeiro leva motoristas à zona antes do pico; o segundo os leva durante o pico, quando a demanda já supera a oferta local e os passageiros estão esperando há minutos."
       }
     },
     {
@@ -185,21 +223,24 @@
       "id": "zonas-ventanas-cobertura",
       "text": {
         "es": "Zonas y ventanas: dónde posicionar la oferta y cuánto tiempo",
-        "en": "Zones and windows: where to position supply and for how long"
+        "en": "Zones and windows: where to position supply and for how long",
+        "pt": "Zonas e janelas: onde posicionar a oferta e por quanto tempo"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "La posición correcta no es el recinto del evento — es el radio de salida. Los pasajeros no solicitan el viaje desde dentro del estadio sino desde los accesos peatonales exteriores, que en eventos de 3.000 a 10.000 personas pueden extenderse en un radio de 300 a 800 metros del punto central. Identificar esos accesos en el mapa antes del evento — no durante — es la primera acción de preparación. El operador que conoce las salidas peatonales del recinto puede configurar la zona de cobertura prioritaria antes de que empiece el evento y comunicar esa zona a los conductores con precisión. Los conductores que llegan al acceso principal y no encuentran pasajeros porque todos están en las salidas laterales se desconectan y no vuelven.",
-        "en": "The right position isn't the venue itself — it's the departure radius. Passengers don't request trips from inside the stadium; they request from the exterior pedestrian exits, which for events with 3,000 to 10,000 attendees can spread across a 300-to-800-meter radius from the central point. Identifying those exits on the map before the event — not during — is the first preparation action. An operator who knows the venue's pedestrian exits can configure the priority coverage zone before the event starts and communicate that zone to drivers precisely. Drivers who arrive at the main entrance and find no passengers because everyone is at the side exits disconnect and don't return."
+        "en": "The right position isn't the venue itself — it's the departure radius. Passengers don't request trips from inside the stadium; they request from the exterior pedestrian exits, which for events with 3,000 to 10,000 attendees can spread across a 300-to-800-meter radius from the central point. Identifying those exits on the map before the event — not during — is the first preparation action. An operator who knows the venue's pedestrian exits can configure the priority coverage zone before the event starts and communicate that zone to drivers precisely. Drivers who arrive at the main entrance and find no passengers because everyone is at the side exits disconnect and don't return.",
+        "pt": "A posição correta não é o local do evento — é o raio de saída. Os passageiros não solicitam a corrida de dentro do estádio, e sim dos acessos a pé externos, que em eventos de 3.000 a 10.000 pessoas podem se estender em um raio de 300 a 800 metros do ponto central. Identificar esses acessos no mapa antes do evento — não durante — é a primeira ação de preparação. O operador que conhece as saídas a pé do local pode configurar a zona de cobertura prioritária antes de o evento começar e comunicar essa zona aos motoristas com precisão. Os motoristas que chegam ao acesso principal e não encontram passageiros porque todos estão nas saídas laterais se desconectam e não voltam."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "La ventana de cobertura es tan importante como la zona. La mayoría de los eventos de 3.000 a 8.000 asistentes produce dos oleadas de demanda en la salida: la primera en los primeros 15 a 20 minutos después del cierre, compuesta por asistentes que salieron temprano o tienen salida fácil; y la segunda, 25 a 40 minutos después, cuando la estructura del evento se disuelve y la mayoría empieza a moverse. Los conductores que terminan su viaje de primera oleada y se desconectan dejan a la segunda sin cobertura. Comunicar esa curva de salida a los conductores — con datos de eventos anteriores si existen, con estimación razonada si es el primero — es lo que mantiene la cobertura activa a lo largo de todo el pico, no solo en sus primeros minutos.",
-        "en": "The coverage window matters as much as the zone. Most events with 3,000 to 8,000 attendees produce two departure demand waves: the first in the first 15 to 20 minutes after close, made up of attendees who left early or have easy exits; the second, 25 to 40 minutes later, when the event's structure dissolves and most attendees begin moving. Drivers who finish a first-wave trip and disconnect leave the second wave without coverage. Communicating that departure curve to drivers — with data from previous events if available, with a reasoned estimate if it's the first — is what keeps coverage active through the full peak and not only its opening minutes."
+        "en": "The coverage window matters as much as the zone. Most events with 3,000 to 8,000 attendees produce two departure demand waves: the first in the first 15 to 20 minutes after close, made up of attendees who left early or have easy exits; the second, 25 to 40 minutes later, when the event's structure dissolves and most attendees begin moving. Drivers who finish a first-wave trip and disconnect leave the second wave without coverage. Communicating that departure curve to drivers — with data from previous events if available, with a reasoned estimate if it's the first — is what keeps coverage active through the full peak and not only its opening minutes.",
+        "pt": "A janela de cobertura é tão importante quanto a zona. A maioria dos eventos de 3.000 a 8.000 espectadores produz duas ondas de demanda na saída: a primeira nos primeiros 15 a 20 minutos depois do encerramento, formada por quem saiu cedo ou tem saída fácil; e a segunda, 25 a 40 minutos depois, quando a estrutura do evento se dissolve e a maioria começa a se deslocar. Os motoristas que terminam a corrida da primeira onda e se desconectam deixam a segunda sem cobertura. Comunicar essa curva de saída aos motoristas — com dados de eventos anteriores, se existirem, ou com estimativa fundamentada se for o primeiro — é o que mantém a cobertura ativa ao longo de todo o pico, e não só nos seus primeiros minutos."
       }
     },
     {
@@ -208,7 +249,8 @@
       "id": "precio-dinamico-comunicacion",
       "text": {
         "es": "Precio dinámico durante eventos: la comunicación que evita la cancelación reactiva",
-        "en": "Dynamic pricing during events: the communication that prevents reactive cancellations"
+        "en": "Dynamic pricing during events: the communication that prevents reactive cancellations",
+        "pt": "Tarifa dinâmica durante eventos: a comunicação que evita o cancelamento reativo"
       }
     },
     {
@@ -216,21 +258,24 @@
       "variant": "tip",
       "text": {
         "es": "Un mensaje de 40 caracteres enviado dos horas antes del evento elimina la sorpresa del multiplicador. Sin esa comunicación, el surge se experimenta como un abuso; con ella, se experimenta como información útil. El texto no tiene que justificar el precio — solo anticiparlo.",
-        "en": "A 40-character message sent two hours before the event eliminates the multiplier surprise. Without that communication, surge feels like an unfair price hike; with it, it feels like useful advance information. The text doesn't need to justify the price — it just needs to anticipate it."
+        "en": "A 40-character message sent two hours before the event eliminates the multiplier surprise. Without that communication, surge feels like an unfair price hike; with it, it feels like useful advance information. The text doesn't need to justify the price — it just needs to anticipate it.",
+        "pt": "Uma mensagem de 40 caracteres enviada duas horas antes do evento elimina a surpresa do multiplicador. Sem essa comunicação, o surge é vivido como um abuso; com ela, é vivido como informação útil. O texto não precisa justificar o preço — só antecipá-lo."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "El precio dinámico durante un evento local no es el problema — el problema es activarlo sin previo aviso. Un pasajero que lleva quince minutos esperando en la salida de un estadio, ve un multiplicador de 2.3x y no entiende el contexto, cancela antes de aceptar el viaje y escribe una reseña negativa mientras busca taxi en la calle. Esa secuencia es evitable con una notificación push enviada dos horas antes del evento: algo del tipo de que en la zona del estadio puede haber precios dinámicos esa noche y que los conductores van a estar disponibles. No elimina la frustración por un precio elevado — reduce la sorpresa, que es la causa primaria de la cancelación reactiva, no el nivel del precio en sí.",
-        "en": "Dynamic pricing during a local event isn't the problem — the problem is activating it without prior notice. A passenger who has waited fifteen minutes outside a stadium, sees a 2.3x multiplier without context, cancels before accepting the trip and leaves a negative review while looking for a street cab. That sequence is avoidable with a push notification sent two hours before the event: something to the effect that there may be dynamic pricing near the stadium area that night and that drivers will be available. It doesn't eliminate frustration with a higher price — it reduces the surprise, which is the primary driver of reactive cancellations, not the price level itself."
+        "en": "Dynamic pricing during a local event isn't the problem — the problem is activating it without prior notice. A passenger who has waited fifteen minutes outside a stadium, sees a 2.3x multiplier without context, cancels before accepting the trip and leaves a negative review while looking for a street cab. That sequence is avoidable with a push notification sent two hours before the event: something to the effect that there may be dynamic pricing near the stadium area that night and that drivers will be available. It doesn't eliminate frustration with a higher price — it reduces the surprise, which is the primary driver of reactive cancellations, not the price level itself.",
+        "pt": "A tarifa dinâmica durante um evento local não é o problema — o problema é ativá-la sem aviso prévio. Um passageiro que está há quinze minutos esperando na saída de um estádio, vê um multiplicador de 2.3x e não entende o contexto, cancela antes de aceitar a corrida e escreve uma avaliação negativa enquanto procura táxi na rua. Essa sequência é evitável com uma notificação push enviada duas horas antes do evento: algo como avisar que na zona do estádio pode haver tarifas dinâmicas naquela noite e que os motoristas vão estar disponíveis. Não elimina a frustração com um preço elevado — reduz a surpresa, que é a causa primária do cancelamento reativo, não o nível do preço em si."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "La comunicación anticipada al conductor es igualmente importante. Un conductor que sabe que el precio dinámico va a estar activo en una zona específica entre las 22:30 y las 00:30 puede planificar su noche de forma distinta a uno que descubre el surge cuando ya está en el pico. La diferencia entre ambos escenarios no es el nivel del precio — es la capacidad del conductor de estar en la zona correcta cuando el multiplicador es más alto. Las operaciones que comunican el surge previsto con dos horas de anticipación ven una respuesta de cobertura entre un 30% y un 45% mayor que las que activan el precio dinámico de forma reactiva sin comunicación previa.",
-        "en": "Advance communication to drivers matters equally. A driver who knows dynamic pricing will be active in a specific zone between 10:30 pm and 12:30 am can plan their evening differently than one who discovers the surge mid-peak. The difference between those two scenarios isn't the price level — it's the driver's ability to be in the right zone when the multiplier is highest. Operations that communicate expected surge two hours in advance see 30% to 45% stronger coverage response than those that activate dynamic pricing reactively without prior notice."
+        "en": "Advance communication to drivers matters equally. A driver who knows dynamic pricing will be active in a specific zone between 10:30 pm and 12:30 am can plan their evening differently than one who discovers the surge mid-peak. The difference between those two scenarios isn't the price level — it's the driver's ability to be in the right zone when the multiplier is highest. Operations that communicate expected surge two hours in advance see 30% to 45% stronger coverage response than those that activate dynamic pricing reactively without prior notice.",
+        "pt": "A comunicação antecipada ao motorista é igualmente importante. Um motorista que sabe que a tarifa dinâmica vai estar ativa em uma zona específica entre 22h30 e 00h30 pode planejar a noite de forma diferente de quem descobre o surge já no pico. A diferença entre os dois cenários não é o nível do preço — é a capacidade de o motorista estar na zona certa quando o multiplicador está mais alto. As operações que comunicam o surge previsto com duas horas de antecedência veem uma resposta de cobertura entre 30% e 45% maior do que as que ativam a tarifa dinâmica de forma reativa, sem comunicação prévia."
       }
     },
     {
@@ -239,39 +284,45 @@
       "id": "post-pico-90-minutos",
       "text": {
         "es": "Los 90 minutos después del pico",
-        "en": "The 90 minutes after the peak"
+        "en": "The 90 minutes after the peak",
+        "pt": "Os 90 minutos depois do pico"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "La demanda en la salida de un evento no desaparece de forma abrupta — cae en escalones. El primer escalón es la caída del 60% al 70% de la demanda en los primeros 30 minutos después del cierre, cuando los pasajeros que tenían viaje pedido ya salen del sistema. El segundo escalón es la caída residual en los 45 a 60 minutos siguientes, cuando los pasajeros que esperaron encontraron alternativa o decidieron quedarse en el lugar. Los conductores que permanecen en la zona durante ese segundo escalón tienen tiempos de espera más largos entre viajes y tienden a desconectarse antes de que la demanda residual se agote — lo que crea una concentración de pasajeros sin cobertura en los últimos 20 a 30 minutos del post-pico, precisamente los más difíciles de resolver.",
-        "en": "Post-event demand doesn't disappear abruptly — it drops in steps. The first drop is a 60% to 70% demand reduction in the first 30 minutes after close, as passengers who already had a trip requested exit the system. The second drop is the residual decline in the following 45 to 60 minutes, as passengers who waited have found alternatives or decided to stay put. Drivers who remain in the zone during that second drop face longer wait times between trips and tend to disconnect before the residual demand runs out — which creates a cluster of passengers without coverage in the last 20 to 30 minutes of the post-peak, precisely the stretch that's hardest to fix once it starts."
+        "en": "Post-event demand doesn't disappear abruptly — it drops in steps. The first drop is a 60% to 70% demand reduction in the first 30 minutes after close, as passengers who already had a trip requested exit the system. The second drop is the residual decline in the following 45 to 60 minutes, as passengers who waited have found alternatives or decided to stay put. Drivers who remain in the zone during that second drop face longer wait times between trips and tend to disconnect before the residual demand runs out — which creates a cluster of passengers without coverage in the last 20 to 30 minutes of the post-peak, precisely the stretch that's hardest to fix once it starts.",
+        "pt": "A demanda na saída de um evento não desaparece de forma abrupta — cai em degraus. O primeiro degrau é a queda de 60% a 70% da demanda nos primeiros 30 minutos depois do encerramento, quando os passageiros que já tinham corrida solicitada saem do sistema. O segundo degrau é a queda residual nos 45 a 60 minutos seguintes, quando os passageiros que esperaram encontraram alternativa ou decidiram ficar no lugar. Os motoristas que permanecem na zona durante esse segundo degrau têm tempos de espera mais longos entre corridas e tendem a se desconectar antes de a demanda residual se esgotar — o que cria uma concentração de passageiros sem cobertura nos últimos 20 a 30 minutos do pós-pico, justamente os mais difíceis de resolver."
       }
     },
     {
       "type": "quote",
       "text": {
         "es": "El primer partido de temporada lo perdimos completamente. Había 6.000 personas saliendo del estadio y solo cuatro conductores en la zona porque nadie los había avisado. Para el segundo partido, mandé un mensaje tres días antes con la zona y el horario estimado. Vinieron 18 conductores. Los pasajeros esperaron menos de cuatro minutos en promedio.",
-        "en": "We completely missed the first game of the season. Six thousand people leaving the stadium and only four drivers in the area because no one had given advance notice. By the second game, I sent a message three days out with the zone and the estimated time window. Eighteen drivers showed up. Passengers waited less than four minutes on average."
+        "en": "We completely missed the first game of the season. Six thousand people leaving the stadium and only four drivers in the area because no one had given advance notice. By the second game, I sent a message three days out with the zone and the estimated time window. Eighteen drivers showed up. Passengers waited less than four minutes on average.",
+        "pt": "O primeiro jogo da temporada a gente perdeu por completo. Tinha 6.000 pessoas saindo do estádio e só quatro motoristas na zona porque ninguém tinha avisado. No segundo jogo, mandei uma mensagem três dias antes com a zona e o horário estimado. Apareceram 18 motoristas. Os passageiros esperaram menos de quatro minutos em média."
       },
       "attribution": {
         "es": "Operador de movilidad en una ciudad con equipo de primera división regional en el norte de Colombia",
-        "en": "Mobility operator in a city with a top-division regional team in northern Colombia"
+        "en": "Mobility operator in a city with a top-division regional team in northern Colombia",
+        "pt": "Operador de mobilidade em uma cidade com time da primeira divisão regional no norte da Colômbia"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "Los eventos locales son el único tipo de demanda que un operador regional puede ver llegar con 72 horas de anticipación, planificar con precisión geográfica y comunicar a conductores y pasajeros antes de que empiece. Las operaciones que capturan esa oportunidad de manera consistente no lo hacen porque tengan más conductores o mejor tecnología de precios — lo hacen porque tienen el evento incorporado en la rutina operativa semanal y un protocolo de activación que ejecutan antes de que el calendario lo exija.",
-        "en": "Local events are the one demand type a regional operator can see arriving 72 hours out, plan with geographic precision, and communicate to drivers and passengers before it begins. Operations that capture this opportunity consistently don't do so because they have more drivers or better pricing algorithms — they do it because events are built into the weekly operational routine and an activation protocol runs before the calendar demands it."
+        "en": "Local events are the one demand type a regional operator can see arriving 72 hours out, plan with geographic precision, and communicate to drivers and passengers before it begins. Operations that capture this opportunity consistently don't do so because they have more drivers or better pricing algorithms — they do it because events are built into the weekly operational routine and an activation protocol runs before the calendar demands it.",
+        "pt": "Os eventos locais são o único tipo de demanda que um operador regional pode ver chegar com 72 horas de antecedência, planejar com precisão geográfica e comunicar a motoristas e passageiros antes de começar. As operações que capturam essa oportunidade de forma consistente não fazem isso porque têm mais motoristas ou melhor tecnologia de precificação — fazem porque têm o evento incorporado à rotina operacional semanal e um protocolo de ativação que executam antes de o calendário exigir."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "La diferencia entre una operación que termina un fin de semana de evento con cero quejas de tiempo de espera y una que acaba con pasajeros frustrados y conductores desconectados no es la magnitud del evento — es si el operador lo trató como un caso especial con tres días de anticipación o como un día normal hasta que el dashboard mostró el problema. Los eventos locales no exigen infraestructura adicional; exigen calendario, protocolo y comunicación adelantada. Los tres están disponibles desde el primer mes de operación.",
-        "en": "The difference between an operation that ends an event weekend with zero wait-time complaints and one that ends it with frustrated passengers and disconnected drivers isn't the size of the event — it's whether the operator treated it as a special case three days out or as a normal day until the dashboard showed the problem. Local events don't require additional infrastructure; they require a calendar, a protocol, and advance communication. All three are available from the first month of operation."
+        "en": "The difference between an operation that ends an event weekend with zero wait-time complaints and one that ends it with frustrated passengers and disconnected drivers isn't the size of the event — it's whether the operator treated it as a special case three days out or as a normal day until the dashboard showed the problem. Local events don't require additional infrastructure; they require a calendar, a protocol, and advance communication. All three are available from the first month of operation.",
+        "pt": "A diferença entre uma operação que termina um fim de semana de evento com zero reclamações de tempo de espera e uma que termina com passageiros frustrados e motoristas desconectados não é a magnitude do evento — é se o operador o tratou como um caso especial com três dias de antecedência ou como um dia normal até o dashboard mostrar o problema. Os eventos locais não exigem infraestrutura adicional; exigem calendário, protocolo e comunicação antecipada. Os três estão disponíveis desde o primeiro mês de operação."
       }
     }
   ]

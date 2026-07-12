@@ -3,16 +3,19 @@
   "category": "strategy",
   "title": {
     "es": "Cómo estructurar la comisión al lanzar en una ciudad nueva",
-    "en": "How to structure driver commission when launching in a new city"
+    "en": "How to structure driver commission when launching in a new city",
+    "pt": "Como estruturar a comissão ao lançar em uma cidade nova"
   },
   "excerpt": {
     "es": "La comisión del 20% funciona en mercados maduros. Aplicarla sin ajuste al lanzar en una ciudad nueva presiona la retención de conductores antes de que el volumen la justifique.",
-    "en": "The 20% platform commission works in mature markets. Applying it unchanged on day one of a new city puts driver retention at risk before the volume that justifies it exists."
+    "en": "The 20% platform commission works in mature markets. Applying it unchanged on day one of a new city puts driver retention at risk before the volume that justifies it exists.",
+    "pt": "A comissão de 20% funciona em mercados maduros. Aplicá-la sem ajuste ao lançar em uma cidade nova pressiona a retenção de motoristas antes de o volume justificá-la."
   },
   "heroImage": "https://raw.githubusercontent.com/jonatanvazquez/cabgo-blog-content/main/images/comisiones-conductores-lanzamiento.jpg",
   "heroImageAlt": {
     "es": "Ilustración isométrica de una plataforma de movilidad en fase de lanzamiento: mapa de ciudad con pin de inicio y dos conductores, panel de fases con comisión graduada del 12% al 20%, y conductor con pantalla de ingresos mostrando el umbral de retención",
-    "en": "Isometric illustration of a mobility platform in launch phase: city map with start pin and two driver icons, three-phase panel with commission dial shifting from 12% to 20%, and a driver figure with an earnings screen showing the retention threshold floor"
+    "en": "Isometric illustration of a mobility platform in launch phase: city map with start pin and two driver icons, three-phase panel with commission dial shifting from 12% to 20%, and a driver figure with an earnings screen showing the retention threshold floor",
+    "pt": "Ilustração isométrica de uma plataforma de mobilidade em fase de lançamento: mapa da cidade com pin de início e dois motoristas, painel de fases com comissão graduada de 12% a 20%, e motorista com tela de ganhos mostrando o limiar de retenção"
   },
   "heroImagePrompt": "Isometric scene of a ride-hailing platform launch in a new city. Left: a top-down city grid with a single glowing green launch-pin at the center and two driver-car icons on nearby streets, with sparse demand dots representing early-stage supply. Center: a large floating dashboard panel showing three stacked phase bars labeled Phase 1, Phase 2, Phase 3, with a circular commission rate dial pointing at 12% on Phase 1 and shifting toward 20% on Phase 3, and a small fleet-size counter growing from 15 to 60 driver icons across the bars. Right: a driver figure standing next to a smartphone displaying a trip earnings receipt card with a net income figure and a horizontal green threshold bar labeled with a retention floor marker.",
   "publishedAt": "2026-05-05",
@@ -35,38 +38,53 @@
       "launch commission new city LATAM",
       "how much to charge drivers taxi app",
       "driver incentives ride-hailing launch"
+    ],
+    "pt": [
+      "comissão motoristas app mobilidade",
+      "estrutura de comissão transporte por aplicativo lançamento",
+      "comissão plataforma táxi regional",
+      "retenção de motoristas plataforma de mobilidade",
+      "comissão lançamento cidade nova LATAM",
+      "quanto cobrar de comissão dos motoristas de táxi",
+      "incentivos para motoristas transporte por aplicativo"
     ]
   },
   "author": {
     "name": "Equipo Cabgo",
     "role": {
       "es": "Plataforma de movilidad",
-      "en": "Mobility platform"
+      "en": "Mobility platform",
+      "pt": "Plataforma de mobilidade"
     }
   },
   "cta": {
     "heading": {
       "es": "¿Listo para lanzar tu propia app de movilidad?",
-      "en": "Ready to launch your own mobility app?"
+      "en": "Ready to launch your own mobility app?",
+      "pt": "Pronto para lançar seu próprio app de mobilidade?"
     },
     "body": {
       "es": "Configura tu marca, tus tarifas y tus servicios en semanas, no en meses. Cabgo te entrega la plataforma, tú te quedas con la operación y la marca.",
-      "en": "Set up your brand, pricing and services in weeks, not months. Cabgo ships the platform — you keep the operation and the brand."
+      "en": "Set up your brand, pricing and services in weeks, not months. Cabgo ships the platform — you keep the operation and the brand.",
+      "pt": "Configure sua marca, suas tarifas e seus serviços em semanas, não em meses. A Cabgo entrega a plataforma, você fica com a operação e a marca."
     },
     "buttonLabel": {
       "es": "Empezar ahora",
-      "en": "Get started"
+      "en": "Get started",
+      "pt": "Começar agora"
     },
     "buttonHref": "/empezar"
   },
   "seo": {
     "metaTitle": {
       "es": "Cómo estructurar la comisión al lanzar en una ciudad | Cabgo",
-      "en": "How to structure driver commission at city launch | Cabgo"
+      "en": "How to structure driver commission at city launch | Cabgo",
+      "pt": "Como estruturar a comissão ao lançar em uma cidade | Cabgo"
     },
     "metaDescription": {
       "es": "Por qué el 20% estándar es una comisión de mercado maduro: cómo calcular el porcentaje correcto al lanzar y cuándo ajustarlo a medida que crece el volumen.",
-      "en": "Why the default 20% is a mature-market commission rate: how to set the right percentage at city launch and when to adjust it as volume grows."
+      "en": "Why the default 20% is a mature-market commission rate: how to set the right percentage at city launch and when to adjust it as volume grows.",
+      "pt": "Por que os 20% padrão são uma comissão de mercado maduro: como calcular o percentual certo ao lançar e quando ajustá-lo à medida que o volume cresce."
     }
   },
   "blocks": [
@@ -74,14 +92,16 @@
       "type": "paragraph",
       "text": {
         "es": "La comisión estándar de plataforma en ride-hailing —generalmente entre el 20% y el 25% del valor del viaje— se diseñó para mercados con demanda establecida. En esas condiciones, un conductor activo seis horas completa suficientes viajes para que el ingreso neto después de la comisión supere su umbral de retención sin necesidad de ajustes adicionales. El problema empieza cuando ese porcentaje se aplica sin cambio a una operación que acaba de lanzarse, donde la densidad de viajes por conductor activo es un tercio o menos de la que tendrá en 90 días, y donde la razón principal por la que la flota crece más lento de lo esperado no es que los conductores no quieran registrarse — es que los que se registran hacen ocho viajes en su primera semana y desaparecen sin que el operador haya recibido una sola queja.",
-        "en": "The standard platform commission in ride-hailing — typically 20% to 25% of trip value — was designed for markets with established demand. In those conditions, a driver active for six hours completes enough trips that their net earnings after commission exceed the retention threshold without any special adjustments. The problem begins when that same percentage is applied unchanged to an operation that just launched, where trips-per-active-driver density is one-third or less of what it will be in 90 days, and where the main reason fleet growth is slower than expected isn't that drivers don't want to sign up — it's that those who do complete eight trips in their first week and go inactive before the operator receives a single complaint."
+        "en": "The standard platform commission in ride-hailing — typically 20% to 25% of trip value — was designed for markets with established demand. In those conditions, a driver active for six hours completes enough trips that their net earnings after commission exceed the retention threshold without any special adjustments. The problem begins when that same percentage is applied unchanged to an operation that just launched, where trips-per-active-driver density is one-third or less of what it will be in 90 days, and where the main reason fleet growth is slower than expected isn't that drivers don't want to sign up — it's that those who do complete eight trips in their first week and go inactive before the operator receives a single complaint.",
+        "pt": "A comissão padrão de plataforma no transporte por aplicativo — geralmente entre 20% e 25% do valor da corrida — foi projetada para mercados com demanda estabelecida. Nessas condições, um motorista ativo por seis horas completa corridas suficientes para que o ganho líquido após a comissão supere seu limiar de retenção sem necessidade de ajustes adicionais. O problema começa quando esse percentual é aplicado sem mudança a uma operação que acabou de ser lançada, onde a densidade de corridas por motorista ativo é um terço ou menos da que terá em 90 dias, e onde o principal motivo pelo qual a frota cresce mais devagar do que o esperado não é que os motoristas não queiram se cadastrar — é que os que se cadastram fazem oito corridas na primeira semana e desaparecem sem que o operador tenha recebido uma única reclamação."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "Este artículo es para operadores que están definiendo la comisión antes de lanzar en una ciudad nueva, o que llevan 30 a 60 días operando y están viendo activaciones de conductores más bajas de lo esperado sin que haya un problema técnico visible. El argumento central es que la comisión no es una variable neutral: a volumen bajo, el mismo porcentaje que funciona bien en un mercado establecido puede hacer que la operación sea inviable para el conductor antes de que tenga la oportunidad de experimentar lo que la plataforma vale cuando tiene demanda suficiente.",
-        "en": "This article is for operators who are setting commission before launching in a new city, or who are 30 to 60 days into an operation and seeing driver activation rates lower than expected without any visible technical problem. The central argument is that commission is not a neutral variable: at low volume, the same percentage that performs well in an established market can make the platform economically unviable for drivers before they ever get to experience what it looks like with enough demand."
+        "en": "This article is for operators who are setting commission before launching in a new city, or who are 30 to 60 days into an operation and seeing driver activation rates lower than expected without any visible technical problem. The central argument is that commission is not a neutral variable: at low volume, the same percentage that performs well in an established market can make the platform economically unviable for drivers before they ever get to experience what it looks like with enough demand.",
+        "pt": "Este artigo é para operadores que estão definindo a comissão antes de lançar em uma cidade nova, ou que têm de 30 a 60 dias de operação e estão vendo ativações de motoristas mais baixas do que o esperado sem que haja um problema técnico visível. O argumento central é que a comissão não é uma variável neutra: em volume baixo, o mesmo percentual que funciona bem em um mercado estabelecido pode tornar a operação inviável para o motorista antes de ele ter a oportunidade de experimentar o que a plataforma vale quando tem demanda suficiente."
       }
     },
     {
@@ -90,21 +110,24 @@
       "id": "umbral-ingreso-retencion-conductor",
       "text": {
         "es": "El ingreso por hora activa que determina si el conductor se queda",
-        "en": "The active-hour earnings threshold that determines whether drivers stay"
+        "en": "The active-hour earnings threshold that determines whether drivers stay",
+        "pt": "O ganho por hora ativa que determina se o motorista permanece"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "En mercados secundarios de LATAM, el umbral de retención de un conductor —el ingreso mínimo por hora activa que lo mantiene en la plataforma sin buscar alternativas— está generalmente entre $2.50 y $4.50 USD por hora, según el costo de vida local, los costos del vehículo y las alternativas de ingreso disponibles. Ese umbral no cambia según el volumen de la plataforma — cambia según el mercado. Lo que sí cambia con el volumen es cuántos viajes por hora necesita el conductor para alcanzarlo. En un mercado maduro con 4 a 6 viajes por hora, una comisión del 20% sobre un ticket promedio de $3.50 USD deja al conductor $2.80 USD netos por viaje — entre $11.20 y $16.80 USD por hora activa, muy por encima del umbral de retención. En el primer mes de una ciudad nueva, con 1.5 a 2.5 viajes por hora disponibles para cada conductor, el mismo 20% produce entre $4.20 y $7.00 USD por hora activa. Para un conductor con costos fijos del vehículo de $150 a $220 USD mensuales, ese ingreso puede estar en el límite o por debajo del umbral que justifica seguir activo.",
-        "en": "In secondary LATAM markets, the driver retention threshold — the minimum active-hour earnings that keeps a driver on the platform without seeking alternatives — sits between $2.50 and $4.50 USD per hour, depending on local cost of living, vehicle costs, and available income alternatives. That threshold doesn't change based on platform volume — it changes based on the market. What does change with volume is how many trips per hour the driver needs to reach it. In a mature market with 4 to 6 trips per hour, a 20% commission on a $3.50 USD average ticket leaves the driver $2.80 USD net per trip — between $11.20 and $16.80 USD per active hour, well above the retention threshold. In the first month of a new city, with 1.5 to 2.5 trips per hour available per active driver, the same 20% produces between $4.20 and $7.00 USD per active hour. For a driver with fixed vehicle costs of $150 to $220 USD monthly, that level of earnings may be at or below the threshold that makes staying on the platform a rational economic decision."
+        "en": "In secondary LATAM markets, the driver retention threshold — the minimum active-hour earnings that keeps a driver on the platform without seeking alternatives — sits between $2.50 and $4.50 USD per hour, depending on local cost of living, vehicle costs, and available income alternatives. That threshold doesn't change based on platform volume — it changes based on the market. What does change with volume is how many trips per hour the driver needs to reach it. In a mature market with 4 to 6 trips per hour, a 20% commission on a $3.50 USD average ticket leaves the driver $2.80 USD net per trip — between $11.20 and $16.80 USD per active hour, well above the retention threshold. In the first month of a new city, with 1.5 to 2.5 trips per hour available per active driver, the same 20% produces between $4.20 and $7.00 USD per active hour. For a driver with fixed vehicle costs of $150 to $220 USD monthly, that level of earnings may be at or below the threshold that makes staying on the platform a rational economic decision.",
+        "pt": "Em mercados secundários da LATAM, o limiar de retenção de um motorista — o ganho mínimo por hora ativa que o mantém na plataforma sem buscar alternativas — fica geralmente entre $2.50 e $4.50 USD por hora, conforme o custo de vida local, os custos do veículo e as alternativas de renda disponíveis. Esse limiar não muda conforme o volume da plataforma — muda conforme o mercado. O que muda com o volume é quantas corridas por hora o motorista precisa para alcançá-lo. Em um mercado maduro com 4 a 6 corridas por hora, uma comissão de 20% sobre um ticket médio de $3.50 USD deixa ao motorista $2.80 USD líquidos por corrida — entre $11.20 e $16.80 USD por hora ativa, muito acima do limiar de retenção. No primeiro mês de uma cidade nova, com 1.5 a 2.5 corridas por hora disponíveis para cada motorista, os mesmos 20% produzem entre $4.20 e $7.00 USD por hora ativa. Para um motorista com custos fixos do veículo de $150 a $220 USD mensais, esse ganho pode estar no limite ou abaixo do limiar que justifica seguir ativo."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "El error que produce ese escenario no es tecnológico ni de marketing — es de estructura de comisión aplicada sin considerar el estadio de madurez del mercado en el momento en que el conductor toma la decisión de quedarse o buscar otra fuente de ingreso. Un conductor que en su primera semana calcula que el ingreso por hora activa está por debajo de lo que necesita no espera a que la demanda suba — busca la alternativa disponible más próxima. Ese abandono silencioso en los primeros 15 días es el mecanismo más costoso de la comisión incorrecta: el operador ya invirtió en el registro, la documentación y la activación del conductor, y lo pierde antes de que haya generado el volumen de viajes que hubiera convertido esa inversión en retorno.",
-        "en": "The error that produces that scenario isn't technical or marketing-related — it's a commission structure applied without accounting for the market's maturity stage at the moment the driver makes the stay-or-look-elsewhere decision. A driver who in their first week calculates that active-hour earnings are below what they need doesn't wait for demand to improve — they take the nearest available alternative. That silent dropout in the first 15 days is the most expensive outcome of an incorrectly set commission: the operator has already invested in the driver's registration, documentation, and activation, and loses them before they've generated the trip volume that would have turned that investment into a return."
+        "en": "The error that produces that scenario isn't technical or marketing-related — it's a commission structure applied without accounting for the market's maturity stage at the moment the driver makes the stay-or-look-elsewhere decision. A driver who in their first week calculates that active-hour earnings are below what they need doesn't wait for demand to improve — they take the nearest available alternative. That silent dropout in the first 15 days is the most expensive outcome of an incorrectly set commission: the operator has already invested in the driver's registration, documentation, and activation, and loses them before they've generated the trip volume that would have turned that investment into a return.",
+        "pt": "O erro que produz esse cenário não é tecnológico nem de marketing — é de estrutura de comissão aplicada sem considerar o estágio de maturidade do mercado no momento em que o motorista toma a decisão de permanecer ou buscar outra fonte de renda. Um motorista que na primeira semana calcula que o ganho por hora ativa está abaixo do que precisa não espera a demanda subir — busca a alternativa disponível mais próxima. Esse abandono silencioso nos primeiros 15 dias é o mecanismo mais custoso da comissão incorreta: o operador já investiu no cadastro, na documentação e na ativação do motorista, e o perde antes de ele ter gerado o volume de corridas que teria convertido esse investimento em retorno."
       }
     },
     {
@@ -113,21 +136,24 @@
       "id": "comision-estandar-mercado-maduro",
       "text": {
         "es": "Por qué el porcentaje estándar es una comisión de mercado maduro",
-        "en": "Why the standard percentage is a mature-market commission"
+        "en": "Why the standard percentage is a mature-market commission",
+        "pt": "Por que o percentual padrão é uma comissão de mercado maduro"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "El 20-25% que usan la mayoría de las plataformas como punto de partida es el resultado de un cálculo de equilibrio entre el ingreso que el conductor necesita para quedarse y el margen que la plataforma necesita para cubrir costos de infraestructura, soporte y crecimiento. Ese cálculo asume una densidad de viajes suficiente para que ambos lados del ecuación funcionen simultáneamente. Lo que las plataformas grandes no documentan es cuántos meses tardaron en llegar a esa densidad en cada ciudad y qué estructura usaron durante el período inicial para retener conductores antes de que la demanda justificara el porcentaje definitivo. En la práctica, la mayoría no aplicó el 20% desde el primer día en cada ciudad nueva — usó una combinación de comisión menor y garantías de ingreso por hora activa durante los primeros 60 a 90 días de cada lanzamiento.",
-        "en": "The 20–25% most platforms use as their starting point is the result of a balance calculation between the income the driver needs to stay and the margin the platform needs to cover infrastructure, support, and growth costs. That calculation assumes enough trip density for both sides of the equation to work simultaneously. What large platforms don't publish is how many months it took them to reach that density in each city, and what structure they used during the early period to retain drivers before demand justified the final percentage. In practice, most didn't apply 20% from day one in every new city — they used a combination of lower commission and hourly earnings guarantees during the first 60 to 90 days of each launch."
+        "en": "The 20–25% most platforms use as their starting point is the result of a balance calculation between the income the driver needs to stay and the margin the platform needs to cover infrastructure, support, and growth costs. That calculation assumes enough trip density for both sides of the equation to work simultaneously. What large platforms don't publish is how many months it took them to reach that density in each city, and what structure they used during the early period to retain drivers before demand justified the final percentage. In practice, most didn't apply 20% from day one in every new city — they used a combination of lower commission and hourly earnings guarantees during the first 60 to 90 days of each launch.",
+        "pt": "Os 20-25% que a maioria das plataformas usa como ponto de partida são o resultado de um cálculo de equilíbrio entre o ganho de que o motorista precisa para permanecer e a margem de que a plataforma precisa para cobrir custos de infraestrutura, suporte e crescimento. Esse cálculo pressupõe uma densidade de corridas suficiente para que os dois lados da equação funcionem simultaneamente. O que as grandes plataformas não documentam é quantos meses levaram para chegar a essa densidade em cada cidade e que estrutura usaram durante o período inicial para reter motoristas antes de a demanda justificar o percentual definitivo. Na prática, a maioria não aplicou 20% desde o primeiro dia em cada cidade nova — usou uma combinação de comissão menor e garantias de ganho por hora ativa durante os primeiros 60 a 90 dias de cada lançamento."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "Aplicar el porcentaje estándar de mercado maduro desde el primer día en una ciudad nueva produce el mismo resultado que fijar los precios de temporada alta en un hotel recién inaugurado: el margen teórico parece correcto pero el volumen necesario para que ese margen sea real no existe todavía. El conductor que en el mes uno de la plataforma trabaja con el 20% de comisión no tiene el mismo nivel de demanda que el conductor que trabaja con esa misma comisión en el año dos. La diferencia en ingreso por hora activa entre ambos escenarios puede ser de $6 a $10 USD — suficiente para que el primero abandone la plataforma y el segundo la considere su fuente principal de ingresos.",
-        "en": "Applying the mature-market standard commission from day one in a new city produces the same outcome as charging high-season rates at a newly opened hotel: the theoretical margin looks right but the volume needed to make it real doesn't exist yet. A driver working under 20% commission in the platform's first month doesn't have the same demand level as a driver working under that same commission in year two. The active-hour earnings difference between those two scenarios can be $6 to $10 USD — enough for the first driver to leave the platform and for the second to treat it as their primary income source."
+        "en": "Applying the mature-market standard commission from day one in a new city produces the same outcome as charging high-season rates at a newly opened hotel: the theoretical margin looks right but the volume needed to make it real doesn't exist yet. A driver working under 20% commission in the platform's first month doesn't have the same demand level as a driver working under that same commission in year two. The active-hour earnings difference between those two scenarios can be $6 to $10 USD — enough for the first driver to leave the platform and for the second to treat it as their primary income source.",
+        "pt": "Aplicar o percentual padrão de mercado maduro desde o primeiro dia em uma cidade nova produz o mesmo resultado que fixar os preços de alta temporada em um hotel recém-inaugurado: a margem teórica parece correta, mas o volume necessário para que essa margem seja real ainda não existe. O motorista que no primeiro mês da plataforma trabalha com 20% de comissão não tem o mesmo nível de demanda que o motorista que trabalha com essa mesma comissão no segundo ano. A diferença no ganho por hora ativa entre os dois cenários pode ser de $6 a $10 USD — suficiente para que o primeiro abandone a plataforma e o segundo a considere sua fonte principal de renda."
       }
     },
     {
@@ -136,28 +162,32 @@
       "id": "estructura-comision-tres-fases",
       "text": {
         "es": "La estructura de comisión en tres fases",
-        "en": "A three-phase commission structure"
+        "en": "A three-phase commission structure",
+        "pt": "A estrutura de comissão em três fases"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "Una estructura de comisión adaptada al ciclo de madurez de una operación regional funciona en tres fases que se definen por métricas de volumen, no por calendario. La ventaja de usar el volumen de viajes diarios como umbral de transición —en lugar de fechas o meses desde el lanzamiento— es que la fase cambia cuando la operación realmente lo justifica. Una ciudad que crece más rápido de lo esperado puede pasar de la primera fase a la segunda en cinco semanas. Una ciudad con adopción más lenta puede necesitar diez. La estructura funciona igual en ambos casos porque el disparador es el comportamiento del mercado, no el tiempo transcurrido desde el primer viaje.",
-        "en": "A commission structure adapted to the maturity cycle of a regional operation works in three phases defined by volume thresholds, not by the calendar. Using daily trip volume as a phase trigger — rather than dates or months since launch — has one key advantage: the phase changes when the operation actually justifies it. A city that grows faster than expected can move from phase one to phase two in five weeks. A city with slower adoption may need ten. The structure works the same in both cases because the trigger is market behavior, not time elapsed since the first trip."
+        "en": "A commission structure adapted to the maturity cycle of a regional operation works in three phases defined by volume thresholds, not by the calendar. Using daily trip volume as a phase trigger — rather than dates or months since launch — has one key advantage: the phase changes when the operation actually justifies it. A city that grows faster than expected can move from phase one to phase two in five weeks. A city with slower adoption may need ten. The structure works the same in both cases because the trigger is market behavior, not time elapsed since the first trip.",
+        "pt": "Uma estrutura de comissão adaptada ao ciclo de maturidade de uma operação regional funciona em três fases definidas por métricas de volume, não por calendário. A vantagem de usar o volume de corridas diárias como limiar de transição — em vez de datas ou meses desde o lançamento — é que a fase muda quando a operação realmente justifica. Uma cidade que cresce mais rápido do que o esperado pode passar da primeira fase para a segunda em cinco semanas. Uma cidade com adoção mais lenta pode precisar de dez. A estrutura funciona igual nos dois casos porque o gatilho é o comportamento do mercado, não o tempo decorrido desde a primeira corrida."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "En la fase de lanzamiento —desde el primer día hasta alcanzar aproximadamente 80 viajes diarios consistentes— la comisión funciona mejor entre el 10% y el 15%. En este estadio, la prioridad no es el margen de la plataforma sino activar y retener los conductores que van a construir la oferta que hace posible la demanda siguiente. Una comisión del 12% sobre un ticket promedio de $3.50 USD deja al conductor $3.08 USD netos por viaje. Con 2 viajes por hora activa —la densidad típica en una ciudad nueva en sus primeras cuatro semanas— eso produce $6.16 USD por hora activa, por encima del umbral de retención en la mayoría de los mercados secundarios de LATAM. El costo de esa reducción para la plataforma es de $0.28 USD por viaje respecto al 20% estándar. En 80 viajes diarios, ese diferencial es de aproximadamente $22 USD al día — un costo manejable en el contexto del lanzamiento, y considerablemente menor que el costo de perder y reactivar conductores.",
-        "en": "In the launch phase — from day one through roughly 80 consistent daily trips — the commission performs best between 10% and 15%. At this stage, the operational priority isn't platform margin but activating and retaining the drivers who will build the supply that makes subsequent demand possible. A 12% commission on a $3.50 USD average ticket leaves the driver $3.08 USD net per trip. At 2 trips per active hour — the typical density in a new city during its first four weeks — that produces $6.16 USD per active hour, above the retention threshold in most secondary LATAM markets. The cost of that reduction for the platform is $0.28 USD per trip compared to the 20% standard. At 80 daily trips, that differential is approximately $22 USD per day — a manageable cost in the context of total launch costs, and considerably less than the cost of losing and reacquiring drivers."
+        "en": "In the launch phase — from day one through roughly 80 consistent daily trips — the commission performs best between 10% and 15%. At this stage, the operational priority isn't platform margin but activating and retaining the drivers who will build the supply that makes subsequent demand possible. A 12% commission on a $3.50 USD average ticket leaves the driver $3.08 USD net per trip. At 2 trips per active hour — the typical density in a new city during its first four weeks — that produces $6.16 USD per active hour, above the retention threshold in most secondary LATAM markets. The cost of that reduction for the platform is $0.28 USD per trip compared to the 20% standard. At 80 daily trips, that differential is approximately $22 USD per day — a manageable cost in the context of total launch costs, and considerably less than the cost of losing and reacquiring drivers.",
+        "pt": "Na fase de lançamento — do primeiro dia até alcançar aproximadamente 80 corridas diárias consistentes — a comissão funciona melhor entre 10% e 15%. Neste estágio, a prioridade não é a margem da plataforma, mas ativar e reter os motoristas que vão construir a oferta que torna possível a demanda seguinte. Uma comissão de 12% sobre um ticket médio de $3.50 USD deixa ao motorista $3.08 USD líquidos por corrida. Com 2 corridas por hora ativa — a densidade típica em uma cidade nova nas primeiras quatro semanas — isso produz $6.16 USD por hora ativa, acima do limiar de retenção na maioria dos mercados secundários da LATAM. O custo dessa redução para a plataforma é de $0.28 USD por corrida em relação aos 20% padrão. Em 80 corridas diárias, esse diferencial é de aproximadamente $22 USD por dia — um custo administrável no contexto do lançamento, e consideravelmente menor que o custo de perder e reativar motoristas."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "La transición a la fase de crecimiento —de 80 a 200 viajes diarios— justifica mover la comisión al rango del 15% al 20%. La densidad de viajes ha crecido suficiente para que el ingreso por hora activa del conductor esté sobre el umbral de retención incluso con una comisión más alta durante la mayoría de las horas del día. La transición tiene que hacerse de forma gradual — subir un punto porcentual cada dos o tres semanas — para evitar que los conductores que entraron con la expectativa de la comisión de lanzamiento perciban el ajuste como un deterioro abrupto. Una vez que la operación supera los 200 viajes diarios de forma consistente, el mercado está en el estadio donde el 20% al 25% produce los unit economics esperados para ambos lados: el conductor alcanza su umbral de retención con el volumen disponible, y la plataforma genera el margen que necesita para cubrir costos y reinvertir en crecimiento.",
-        "en": "The transition to the growth phase — 80 to 200 daily trips — justifies moving the commission into the 15% to 20% range. Trip density has grown enough that driver active-hour earnings remain above the retention threshold even at a higher commission rate for most hours of the day. The transition should be gradual — moving up one percentage point every two to three weeks — to avoid drivers who entered under the launch commission perceiving the adjustment as an abrupt change in conditions. Once the operation consistently exceeds 200 daily trips, the market is at the maturity stage where 20% to 25% produces the expected unit economics for both sides: the driver reaches their retention threshold with available demand, and the platform generates the margin it needs to cover costs and reinvest in growth."
+        "en": "The transition to the growth phase — 80 to 200 daily trips — justifies moving the commission into the 15% to 20% range. Trip density has grown enough that driver active-hour earnings remain above the retention threshold even at a higher commission rate for most hours of the day. The transition should be gradual — moving up one percentage point every two to three weeks — to avoid drivers who entered under the launch commission perceiving the adjustment as an abrupt change in conditions. Once the operation consistently exceeds 200 daily trips, the market is at the maturity stage where 20% to 25% produces the expected unit economics for both sides: the driver reaches their retention threshold with available demand, and the platform generates the margin it needs to cover costs and reinvest in growth.",
+        "pt": "A transição para a fase de crescimento — de 80 a 200 corridas diárias — justifica mover a comissão para a faixa de 15% a 20%. A densidade de corridas cresceu o suficiente para que o ganho por hora ativa do motorista fique acima do limiar de retenção mesmo com uma comissão mais alta durante a maior parte das horas do dia. A transição precisa ser feita de forma gradual — subir um ponto percentual a cada duas ou três semanas — para evitar que os motoristas que entraram com a expectativa da comissão de lançamento percebam o ajuste como uma deterioração abrupta. Assim que a operação ultrapassa as 200 corridas diárias de forma consistente, o mercado está no estágio em que os 20% a 25% produzem os unit economics esperados para os dois lados: o motorista alcança seu limiar de retenção com o volume disponível, e a plataforma gera a margem de que precisa para cobrir custos e reinvestir em crescimento."
       }
     },
     {
@@ -166,7 +196,8 @@
       "id": "senales-comision-presionando-flota",
       "text": {
         "es": "Las cuatro señales de que la comisión está presionando tu flota",
-        "en": "Four signals that your commission is straining the fleet"
+        "en": "Four signals that your commission is straining the fleet",
+        "pt": "Os quatro sinais de que a comissão está pressionando sua frota"
       }
     },
     {
@@ -184,6 +215,12 @@
           "Sustained trip acceptance rate below 65%: a low acceptance rate isn't only an availability problem — it may be drivers rejecting short requests because the net margin after commission doesn't justify moving the vehicle for that specific route",
           "Drivers contacting support mentioning the platform 'doesn't pay' or 'doesn't cover fuel': that direct signal typically surfaces in week two or three, once drivers have enough data to calculate their actual active-hour earnings",
           "High silent churn in the first month: drivers who complete between 5 and 20 trips and go inactive without any recorded support incident — they calculated that earnings didn't justify continued availability and left without communicating it"
+        ],
+        "pt": [
+          "Mais de 40% dos motoristas que concluem o cadastro fazem menos de 10 corridas nas primeiras duas semanas e ficam inativos antes de ter tido uma semana completa de demanda normal — esse padrão de evasão precoce é o sinal mais direto de que o ganho por hora ativa não justifica a disponibilidade",
+          "Taxa de aceitação de corridas sustentada abaixo de 65%: uma taxa baixa não é só um problema de disponibilidade — pode ser um motorista que recusa solicitações curtas porque a margem líquida após a comissão não justifica mover o veículo para aquele trajeto específico",
+          "Motoristas que entram em contato com o suporte dizendo que a plataforma 'não compensa' ou 'não cobre a gasolina': esse sinal direto geralmente aparece na segunda ou terceira semana, quando o motorista já tem dados próprios para calcular seu ganho real por hora ativa",
+          "Alta rotatividade silenciosa no primeiro mês: motoristas que fazem entre 5 e 20 corridas e desaparecem sem nenhum chamado de suporte registrado — calcularam que o ganho não justificava seguir disponíveis e optaram por sair sem comunicar"
         ]
       }
     },
@@ -193,21 +230,24 @@
       "id": "variables-comision-correcta-por-ciudad",
       "text": {
         "es": "Las variables que hacen distinta la comisión correcta por ciudad",
-        "en": "The variables that make the right commission different by city"
+        "en": "The variables that make the right commission different by city",
+        "pt": "As variáveis que tornam a comissão certa diferente para cada cidade"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "El costo del combustible relativo al ticket promedio es la variable que más mueve el umbral de retención en ciudades con rutas cortas. En una ciudad donde el precio de la gasolina es elevado y el trayecto promedio es de 3 a 4 km con ticket de $2.50 a $3.00 USD, el margen neto del conductor después del 20% de comisión cubre apenas el costo de combustible de ese viaje con poco margen para amortizar el vehículo. En una ciudad con trayectos promedio de 7 a 9 km y ticket de $4.50 a $6.00 USD, el mismo porcentaje deja un margen neto considerablemente mayor aunque la comisión sea idéntica. Una reducción de tres a cinco puntos porcentuales en la comisión de lanzamiento tiene un impacto distinto en cada uno de esos mercados — en el primero puede ser la diferencia entre retener al conductor o perderlo; en el segundo puede ser innecesaria si el ticket base ya produce un margen adecuado sin ajuste.",
-        "en": "Fuel cost relative to average ticket is the variable that most shifts the driver retention threshold in cities with short routes. In a city where fuel prices are high and average route distance is 3 to 4 km with a $2.50 to $3.00 USD ticket, the driver's net margin after 20% commission barely covers fuel cost for that trip with little left for vehicle amortization. In a city with average routes of 7 to 9 km and tickets of $4.50 to $6.00 USD, the same percentage leaves considerably more net margin even though the commission rate is identical. A three-to-five-point commission reduction at launch has a different impact in each of those markets — in the first it may be the difference between retaining or losing the driver; in the second it may be unnecessary if the base ticket already produces adequate margin without adjustment."
+        "en": "Fuel cost relative to average ticket is the variable that most shifts the driver retention threshold in cities with short routes. In a city where fuel prices are high and average route distance is 3 to 4 km with a $2.50 to $3.00 USD ticket, the driver's net margin after 20% commission barely covers fuel cost for that trip with little left for vehicle amortization. In a city with average routes of 7 to 9 km and tickets of $4.50 to $6.00 USD, the same percentage leaves considerably more net margin even though the commission rate is identical. A three-to-five-point commission reduction at launch has a different impact in each of those markets — in the first it may be the difference between retaining or losing the driver; in the second it may be unnecessary if the base ticket already produces adequate margin without adjustment.",
+        "pt": "O custo do combustível em relação ao ticket médio é a variável que mais mexe no limiar de retenção em cidades com rotas curtas. Em uma cidade onde o preço da gasolina é elevado e o trajeto médio é de 3 a 4 km com ticket de $2.50 a $3.00 USD, a margem líquida do motorista após os 20% de comissão cobre apenas o custo de combustível daquela corrida, com pouca sobra para amortizar o veículo. Em uma cidade com trajetos médios de 7 a 9 km e ticket de $4.50 a $6.00 USD, o mesmo percentual deixa uma margem líquida consideravelmente maior, ainda que a comissão seja idêntica. Uma redução de três a cinco pontos percentuais na comissão de lançamento tem um impacto diferente em cada um desses mercados — no primeiro pode ser a diferença entre reter o motorista ou perdê-lo; no segundo pode ser desnecessária se o ticket base já produz uma margem adequada sem ajuste."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "La densidad de alternativas de ingreso disponibles en cada ciudad modifica el umbral de retención desde el otro lado. En ciudades con mercado laboral diversificado o alta presencia de otras plataformas de reparto y transporte, el conductor tiene más opciones inmediatas si el ingreso en la plataforma no cubre sus expectativas — y el umbral de retención efectivo es más alto porque el costo de oportunidad de quedarse tiene una alternativa real. En ciudades donde la plataforma es la única opción de ingreso flexible para conductores con vehículo propio, el umbral efectivo es más bajo porque el costo de salir es mayor. Ese factor no cambia la comisión óptima de forma aislada, pero sí afecta el margen de error: en mercados con alternativas, el operador tiene menos espacio para equivocarse con la comisión de lanzamiento que en mercados donde la plataforma es la única opción disponible.",
-        "en": "The density of available income alternatives in each city shifts the retention threshold from the other direction. In cities with diversified labor markets or high presence of other delivery and transport platforms, drivers have more immediate options if platform earnings don't meet their expectations — and the effective retention threshold is higher because the opportunity cost of staying on the platform has a real alternative. In cities where the platform is the only flexible income option for drivers with their own vehicle, the effective threshold is lower because the cost of leaving is higher. That factor doesn't change the optimal commission in isolation, but it does affect the margin for error: in markets with alternatives, the operator has less room to miscalibrate the launch commission than in markets where the platform is the only available option."
+        "en": "The density of available income alternatives in each city shifts the retention threshold from the other direction. In cities with diversified labor markets or high presence of other delivery and transport platforms, drivers have more immediate options if platform earnings don't meet their expectations — and the effective retention threshold is higher because the opportunity cost of staying on the platform has a real alternative. In cities where the platform is the only flexible income option for drivers with their own vehicle, the effective threshold is lower because the cost of leaving is higher. That factor doesn't change the optimal commission in isolation, but it does affect the margin for error: in markets with alternatives, the operator has less room to miscalibrate the launch commission than in markets where the platform is the only available option.",
+        "pt": "A densidade de alternativas de renda disponíveis em cada cidade modifica o limiar de retenção pelo outro lado. Em cidades com mercado de trabalho diversificado ou alta presença de outras plataformas de entrega e transporte, o motorista tem mais opções imediatas se o ganho na plataforma não cobre suas expectativas — e o limiar de retenção efetivo é mais alto porque o custo de oportunidade de permanecer tem uma alternativa real. Em cidades onde a plataforma é a única opção de renda flexível para motoristas com veículo próprio, o limiar efetivo é mais baixo porque o custo de sair é maior. Esse fator não muda a comissão ótima de forma isolada, mas afeta a margem de erro: em mercados com alternativas, o operador tem menos espaço para errar com a comissão de lançamento do que em mercados onde a plataforma é a única opção disponível."
       }
     },
     {
@@ -216,46 +256,53 @@
       "id": "incentivos-vs-comision-que-ajustar",
       "text": {
         "es": "Incentivos de volumen versus comisión estructural: cuál mover primero",
-        "en": "Volume incentives versus structural commission: which to move first"
+        "en": "Volume incentives versus structural commission: which to move first",
+        "pt": "Incentivos de volume versus comissão estrutural: qual mexer primeiro"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "Hay dos palancas para retener conductores en los primeros meses: la comisión estructural y los bonos de incentivo por volumen. Los incentivos de volumen —'completa 40 viajes esta semana y recibe $15 USD de bono'— son efectivos para activar conductores en el corto plazo, pero crean una expectativa de ingreso garantizado que el operador no puede sostener indefinidamente. Cuando los bonos se reducen o eliminan, los conductores perciben el cambio como una reducción de ingresos aunque la comisión base no haya cambiado. Esa percepción es más difícil de revertir que una comunicación directa de ajuste de comisión, porque el conductor siente que las condiciones cambiaron sin previo aviso aunque el contrato nunca garantizó el bono de forma permanente.",
-        "en": "There are two levers for retaining drivers in the first months: structural commission and volume bonus incentives. Volume incentives — 'complete 40 trips this week and receive a $15 USD bonus' — are effective for activating drivers in the short term, but they create a guaranteed income expectation the operator can't sustain indefinitely. When bonuses are reduced or eliminated, drivers perceive the change as an income reduction even if the base commission hasn't changed. That perception is harder to reverse than a direct commission adjustment communication, because the driver feels conditions changed without notice even though the contract never permanently guaranteed the bonus."
+        "en": "There are two levers for retaining drivers in the first months: structural commission and volume bonus incentives. Volume incentives — 'complete 40 trips this week and receive a $15 USD bonus' — are effective for activating drivers in the short term, but they create a guaranteed income expectation the operator can't sustain indefinitely. When bonuses are reduced or eliminated, drivers perceive the change as an income reduction even if the base commission hasn't changed. That perception is harder to reverse than a direct commission adjustment communication, because the driver feels conditions changed without notice even though the contract never permanently guaranteed the bonus.",
+        "pt": "Há duas alavancas para reter motoristas nos primeiros meses: a comissão estrutural e os bônus de incentivo por volume. Os incentivos de volume — 'complete 40 corridas esta semana e receba $15 USD de bônus' — são eficazes para ativar motoristas no curto prazo, mas criam uma expectativa de renda garantida que o operador não consegue sustentar indefinidamente. Quando os bônus são reduzidos ou eliminados, os motoristas percebem a mudança como uma redução de ganhos mesmo que a comissão base não tenha mudado. Essa percepção é mais difícil de reverter do que uma comunicação direta de ajuste de comissão, porque o motorista sente que as condições mudaram sem aviso prévio, ainda que o contrato nunca tenha garantido o bônus de forma permanente."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "La comisión estructural baja tiene el efecto opuesto: el conductor calcula su ingreso esperado a partir de ese número sin depender de un bono de activación, y ese cálculo es sostenible porque no requiere que el operador lo subsidie semana a semana. La desventaja es que ajustar la comisión estructural requiere comunicación clara con la flota, porque los conductores construyen sus expectativas de ingreso a partir de ese porcentaje y cualquier cambio —hacia arriba o hacia abajo— modifica esas expectativas de forma directa. La recomendación práctica es calibrar la comisión estructural correctamente antes del lanzamiento, y usar bonos de volumen como segunda palanca solo para objetivos específicos de activación en zonas o franjas horarias con déficit de oferta — no como sustituto permanente de una comisión mal calibrada.",
-        "en": "A lower structural commission has the opposite effect: the driver calculates their expected income from that figure without depending on an activation bonus, and that calculation is sustainable because it doesn't require the operator to subsidize it week after week. The drawback is that adjusting the structural commission requires clear communication with the fleet, since drivers build their income expectations around that percentage and any change — up or down — directly alters those expectations. The practical recommendation is to calibrate structural commission correctly before launch, and use volume bonuses as a secondary lever only for specific activation objectives in zones or time windows with supply deficits — not as a permanent substitute for a poorly calibrated commission."
+        "en": "A lower structural commission has the opposite effect: the driver calculates their expected income from that figure without depending on an activation bonus, and that calculation is sustainable because it doesn't require the operator to subsidize it week after week. The drawback is that adjusting the structural commission requires clear communication with the fleet, since drivers build their income expectations around that percentage and any change — up or down — directly alters those expectations. The practical recommendation is to calibrate structural commission correctly before launch, and use volume bonuses as a secondary lever only for specific activation objectives in zones or time windows with supply deficits — not as a permanent substitute for a poorly calibrated commission.",
+        "pt": "A comissão estrutural baixa tem o efeito oposto: o motorista calcula seu ganho esperado a partir desse número sem depender de um bônus de ativação, e esse cálculo é sustentável porque não exige que o operador o subsidie semana após semana. A desvantagem é que ajustar a comissão estrutural exige comunicação clara com a frota, porque os motoristas constroem suas expectativas de ganho a partir desse percentual e qualquer mudança — para cima ou para baixo — altera essas expectativas de forma direta. A recomendação prática é calibrar a comissão estrutural corretamente antes do lançamento, e usar bônus de volume como segunda alavanca apenas para objetivos específicos de ativação em zonas ou faixas de horário com déficit de oferta — não como substituto permanente de uma comissão mal calibrada."
       }
     },
     {
       "type": "quote",
       "text": {
         "es": "Lancé con 20% de comisión porque era el número que venía por defecto en la plataforma. En el mes dos, la mitad de los conductores que había activado estaban inactivos. Cuando hablé con ellos, todos decían lo mismo: que en las horas disponibles no salían suficientes viajes para que valiera la pena tener el carro en la calle. Bajé la comisión al 12% por 60 días, los reactivé, y en el mes cuatro ya tenía demanda suficiente para subir gradualmente sin que nadie se fuera.",
-        "en": "I launched at 20% commission because it was the platform's default. By month two, half the drivers I had activated were inactive. When I talked to them, every one said the same thing: that during their available hours, there weren't enough trips to make it worth having the car on the street. I dropped the commission to 12% for 60 days, reactivated them, and by month four I had enough demand to raise it gradually without anyone leaving."
+        "en": "I launched at 20% commission because it was the platform's default. By month two, half the drivers I had activated were inactive. When I talked to them, every one said the same thing: that during their available hours, there weren't enough trips to make it worth having the car on the street. I dropped the commission to 12% for 60 days, reactivated them, and by month four I had enough demand to raise it gradually without anyone leaving.",
+        "pt": "Lancei com 20% de comissão porque era o número que vinha por padrão na plataforma. No segundo mês, metade dos motoristas que eu tinha ativado estavam inativos. Quando falei com eles, todos diziam a mesma coisa: que nas horas disponíveis não saíam corridas suficientes para valer a pena ter o carro na rua. Baixei a comissão para 12% por 60 dias, reativei todos, e no quarto mês já tinha demanda suficiente para subir gradualmente sem que ninguém saísse."
       },
       "attribution": {
         "es": "Operador de movilidad en una ciudad de 95,000 habitantes en el centro de México",
-        "en": "Mobility operator in a city of 95,000 in central Mexico"
+        "en": "Mobility operator in a city of 95,000 in central Mexico",
+        "pt": "Operador de mobilidade em uma cidade de 95.000 habitantes no centro do México"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "La comisión no es una variable de rentabilidad en el estadio de lanzamiento — es una variable de retención. Lo que determina si la plataforma alcanza el volumen necesario para ser rentable no es el margen por viaje sino la disponibilidad de conductores suficientes para cubrir la demanda que se está construyendo. Un porcentaje demasiado alto en ese estadio no optimiza el margen: reduce la flota disponible antes de que la demanda haya llegado al nivel en que esa flota puede ser rentable para el operador y para el conductor al mismo tiempo. La diferencia entre el 12% y el 20% en los primeros 80 viajes diarios es menor de $25 USD al día para la plataforma. La diferencia en retención de conductores puede ser la viabilidad de la operación completa.",
-        "en": "Commission is not a profitability variable at the launch stage — it is a retention variable. What determines whether the platform reaches the volume it needs to become profitable isn't the margin per trip but whether there are enough drivers available to cover the demand being built. A commission rate set too high at that stage doesn't optimize margin: it reduces available fleet before demand has reached the level where that fleet can be profitable for both the operator and the driver simultaneously. The difference between 12% and 20% during the first 80 daily trips is under $25 USD per day for the platform. The difference in driver retention can be the viability of the entire operation."
+        "en": "Commission is not a profitability variable at the launch stage — it is a retention variable. What determines whether the platform reaches the volume it needs to become profitable isn't the margin per trip but whether there are enough drivers available to cover the demand being built. A commission rate set too high at that stage doesn't optimize margin: it reduces available fleet before demand has reached the level where that fleet can be profitable for both the operator and the driver simultaneously. The difference between 12% and 20% during the first 80 daily trips is under $25 USD per day for the platform. The difference in driver retention can be the viability of the entire operation.",
+        "pt": "A comissão não é uma variável de rentabilidade no estágio de lançamento — é uma variável de retenção. O que determina se a plataforma alcança o volume necessário para ser rentável não é a margem por corrida, mas a disponibilidade de motoristas suficientes para cobrir a demanda que está sendo construída. Um percentual alto demais nesse estágio não otimiza a margem: reduz a frota disponível antes de a demanda ter chegado ao nível em que essa frota pode ser rentável para o operador e para o motorista ao mesmo tempo. A diferença entre 12% e 20% nas primeiras 80 corridas diárias é menor que $25 USD por dia para a plataforma. A diferença na retenção de motoristas pode ser a viabilidade da operação inteira."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "El umbral correcto no es el porcentaje que maximiza el margen cuando la operación está establecida — es el porcentaje mínimo que la plataforma necesita para cubrir sus costos en el estadio de lanzamiento sin reducir el ingreso del conductor por debajo del punto donde quedarse deja de ser una decisión económicamente racional. Ese número varía por ciudad y por estadio de la operación. Lo que no varía es el orden correcto de las decisiones: primero retener conductores, luego escalar la demanda, luego ajustar la comisión al nivel que la operación madura puede sostener. Invertir ese orden — optimizar el margen antes de tener la flota y la demanda que lo justifican — es el camino más directo a una operación que crece en registros y colapsa en activaciones.",
-        "en": "The right rate isn't the percentage that maximizes margin when the operation is established — it's the minimum the platform needs to cover its costs at the launch stage without reducing driver earnings below the point where staying stops being an economically rational decision. That number varies by city and by operational stage. What doesn't vary is the correct sequence of decisions: first retain drivers, then scale demand, then adjust commission to the rate the mature operation can sustain. Reversing that sequence — optimizing margin before having the fleet and demand that justify it — is the most direct path to an operation that grows in registrations and collapses in activations."
+        "en": "The right rate isn't the percentage that maximizes margin when the operation is established — it's the minimum the platform needs to cover its costs at the launch stage without reducing driver earnings below the point where staying stops being an economically rational decision. That number varies by city and by operational stage. What doesn't vary is the correct sequence of decisions: first retain drivers, then scale demand, then adjust commission to the rate the mature operation can sustain. Reversing that sequence — optimizing margin before having the fleet and demand that justify it — is the most direct path to an operation that grows in registrations and collapses in activations.",
+        "pt": "O limiar correto não é o percentual que maximiza a margem quando a operação está estabelecida — é o percentual mínimo de que a plataforma precisa para cobrir seus custos no estágio de lançamento sem reduzir o ganho do motorista abaixo do ponto em que permanecer deixa de ser uma decisão economicamente racional. Esse número varia por cidade e por estágio da operação. O que não varia é a ordem correta das decisões: primeiro reter motoristas, depois escalar a demanda, depois ajustar a comissão ao nível que a operação madura consegue sustentar. Inverter essa ordem — otimizar a margem antes de ter a frota e a demanda que a justificam — é o caminho mais direto para uma operação que cresce em cadastros e colapsa em ativações."
       }
     }
   ]

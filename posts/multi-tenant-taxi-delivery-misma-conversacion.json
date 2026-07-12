@@ -3,16 +3,19 @@
   "category": "product",
   "title": {
     "es": "Gestionar taxi y delivery desde la misma conversación con el agente",
-    "en": "Managing taxi and delivery from the same agent conversation"
+    "en": "Managing taxi and delivery from the same agent conversation",
+    "pt": "Gerenciar táxi e delivery na mesma conversa com o agente"
   },
   "excerpt": {
     "es": "Un agente con un solo skill instalado puede manejar dos verticales — la única variable que cambia entre una tarea de taxi y una de delivery es el tenantId en el prompt.",
-    "en": "One agent with one installed skill can handle two verticals — the only variable that changes between a taxi task and a delivery task is the tenantId in the prompt."
+    "en": "One agent with one installed skill can handle two verticals — the only variable that changes between a taxi task and a delivery task is the tenantId in the prompt.",
+    "pt": "Um agente com um único skill instalado pode gerenciar dois verticais — a única variável que muda entre uma tarefa de táxi e uma de delivery é o tenantId no prompt."
   },
   "heroImage": "https://raw.githubusercontent.com/jonatanvazquez/cabgo-blog-content/main/images/multi-tenant-taxi-delivery-misma-conversacion.jpg",
   "heroImageAlt": {
     "es": "Ilustración isométrica de un agente robótico frente a dos pantallas flotantes — una con un dashboard de taxi y otra con un flujo de delivery — conectadas a un mismo servidor MCP",
-    "en": "Isometric illustration of a robotic agent facing two floating screens — one showing a taxi dashboard and one a delivery flow — both connected to a single MCP server"
+    "en": "Isometric illustration of a robotic agent facing two floating screens — one showing a taxi dashboard and one a delivery flow — both connected to a single MCP server",
+    "pt": "Ilustração isométrica de um agente robótico diante de duas telas flutuantes — uma com um dashboard de táxi e outra com um fluxo de delivery — conectadas a um mesmo servidor MCP"
   },
   "heroImagePrompt": "Single robotic agent at a minimal isometric workstation, facing two floating tablet screens side by side: the left screen glows with a taxi-app fleet dashboard showing car icons on a city grid, the right screen shows a delivery-flow dashboard with box icons and route lines. Each screen has its own color-coded data stream: teal for taxi, violet for delivery. Behind the agent, a single server rack with two labeled ports connected to the same workstation by clean cable lines. The two data streams converge at the agent's console into a unified summary panel.",
   "publishedAt": "2026-06-10",
@@ -35,13 +38,23 @@
       "parallel MCP queries mobility agent",
       "multi-vertical operator Cabgo skill",
       "daily summary two apps AI agent"
+    ],
+    "pt": [
+      "multi-tenant agente MCP Cabgo táxi delivery",
+      "gerenciar dois verticais um agente transporte por aplicativo",
+      "tenantId prompt agente IA Cabgo",
+      "agente único táxi delivery mesma conversa",
+      "consultas paralelas agente MCP mobilidade",
+      "operador multi-vertical skill Cabgo",
+      "resumo diário dois apps agente IA"
     ]
   },
   "author": {
     "name": "Equipo Cabgo",
     "role": {
       "es": "Plataforma de movilidad",
-      "en": "Mobility platform"
+      "en": "Mobility platform",
+      "pt": "Plataforma de mobilidade"
     }
   },
   "blocks": [
@@ -49,14 +62,16 @@
       "type": "paragraph",
       "text": {
         "es": "Los operadores que tienen taxi y delivery activos en Cabgo suelen llegar a la misma conclusión después de las primeras semanas con el agente: necesitan dos instancias separadas, una por cada app. La lógica parece sólida — son dos negocios con conductores distintos, tarifas distintas y, en muchos casos, zonas que no se superponen. El problema es que esa lógica produce un sistema innecesariamente complicado: dos clientes de chat, dos tokens, dos bibliotecas de prompts que mantener en paralelo. La tesis de este artículo es que un solo agente con un solo skill instalado puede gestionar ambas verticales desde la misma conversación, y que la única variable que cambia entre una tarea de taxi y una de delivery es el tenantId que aparece en el prompt.",
-        "en": "Operators running both taxi and delivery on Cabgo tend to reach the same conclusion after the first few weeks with the agent: they need two separate instances, one per app. The logic sounds solid — they're two businesses with different drivers, different pricing, and in many cases non-overlapping zones. The problem is that logic leads to an unnecessarily complicated system: two chat clients, two tokens, two prompt libraries to maintain in parallel. The thesis of this article is that one agent with one installed skill can manage both verticals from the same conversation, and the only variable that changes between a taxi task and a delivery task is the tenantId that appears in the prompt."
+        "en": "Operators running both taxi and delivery on Cabgo tend to reach the same conclusion after the first few weeks with the agent: they need two separate instances, one per app. The logic sounds solid — they're two businesses with different drivers, different pricing, and in many cases non-overlapping zones. The problem is that logic leads to an unnecessarily complicated system: two chat clients, two tokens, two prompt libraries to maintain in parallel. The thesis of this article is that one agent with one installed skill can manage both verticals from the same conversation, and the only variable that changes between a taxi task and a delivery task is the tenantId that appears in the prompt.",
+        "pt": "Os operadores que têm táxi e delivery ativos na Cabgo costumam chegar à mesma conclusão depois das primeiras semanas com o agente: precisam de duas instâncias separadas, uma para cada app. A lógica parece sólida — são dois negócios com motoristas distintos, tarifas distintas e, em muitos casos, zonas que não se sobrepõem. O problema é que essa lógica produz um sistema desnecessariamente complicado: dois clientes de chat, dois tokens, duas bibliotecas de prompts para manter em paralelo. A tese deste artigo é que um único agente com um único skill instalado pode gerenciar ambos os verticais na mesma conversa, e que a única variável que muda entre uma tarefa de táxi e uma de delivery é o tenantId que aparece no prompt."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "Este artículo es para el operador que ya tiene el skill de Cabgo instalado y ha activado una segunda vertical en la plataforma. Cubrimos cómo el servidor MCP resuelve el tenant en cada llamada, cuál es el error más común en operaciones multi-vertical, cómo estructurar los prompts para que el agente sepa en todo momento con qué app está trabajando, y un patrón que muy pocos operadores han explorado: las consultas paralelas que producen un resumen comparativo de ambas verticales en una sola respuesta del agente.",
-        "en": "This article is for the operator who already has Cabgo's skill installed and has activated a second vertical on the platform. We cover how the MCP server resolves the tenant on each call, what the most common mistake is in multi-vertical operations, how to structure prompts so the agent always knows which app it is working with, and a pattern very few operators have explored: parallel queries that produce a comparative summary of both verticals in a single agent response."
+        "en": "This article is for the operator who already has Cabgo's skill installed and has activated a second vertical on the platform. We cover how the MCP server resolves the tenant on each call, what the most common mistake is in multi-vertical operations, how to structure prompts so the agent always knows which app it is working with, and a pattern very few operators have explored: parallel queries that produce a comparative summary of both verticals in a single agent response.",
+        "pt": "Este artigo é para o operador que já tem o skill da Cabgo instalado e ativou um segundo vertical na plataforma. Cobrimos como o servidor MCP resolve o tenant em cada chamada, qual é o erro mais comum em operações multi-vertical, como estruturar os prompts para que o agente saiba a todo momento com qual app está trabalhando, e um padrão que pouquíssimos operadores exploraram: as consultas paralelas que produzem um resumo comparativo de ambos os verticais em uma única resposta do agente."
       }
     },
     {
@@ -65,21 +80,24 @@
       "id": "como-el-servidor-resuelve-el-tenant",
       "text": {
         "es": "Cómo el servidor MCP decide a qué tenant le habla el agente",
-        "en": "How the MCP server decides which tenant the agent is talking to"
+        "en": "How the MCP server decides which tenant the agent is talking to",
+        "pt": "Como o servidor MCP decide com qual tenant o agente está falando"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "El skill de Cabgo define una jerarquía de tres capas para resolver el tenant en cada llamada. La primera es el tenantId explícito en el prompt: si el operador escribe «para la app de delivery, lista los conductores disponibles», el agente extrae ese contexto y lo pasa directamente en la llamada al servidor. La segunda es el tenantId precargado en las instrucciones del sistema del cliente de chat — en Claude Desktop o en las instrucciones de perfil de ChatGPT, el operador puede incluir «mi tenant de taxi es [id]» como contexto fijo que el agente usa cuando el prompt no especifica nada diferente. La tercera es el tenant vinculado al token de autenticación: si ninguna de las dos capas anteriores especifica un tenant, el servidor usa el asociado al token, que en la mayoría de las instalaciones es el primer tenant que el operador activó.",
-        "en": "Cabgo's skill defines a three-layer hierarchy for resolving the tenant on each call. The first layer is the explicit tenantId in the prompt: if the operator writes «for the delivery app, list available drivers», the agent extracts that context and passes it directly in the server call. The second is the tenantId preloaded in the chat client's system instructions — in Claude Desktop or in ChatGPT's profile instructions, the operator can include «my taxi tenant is [id]» as fixed context the agent uses when the prompt specifies nothing different. The third is the tenant linked to the authentication token: if neither of the previous two layers specifies a tenant, the server uses the one associated with the token, which in most installations is the first tenant the operator activated."
+        "en": "Cabgo's skill defines a three-layer hierarchy for resolving the tenant on each call. The first layer is the explicit tenantId in the prompt: if the operator writes «for the delivery app, list available drivers», the agent extracts that context and passes it directly in the server call. The second is the tenantId preloaded in the chat client's system instructions — in Claude Desktop or in ChatGPT's profile instructions, the operator can include «my taxi tenant is [id]» as fixed context the agent uses when the prompt specifies nothing different. The third is the tenant linked to the authentication token: if neither of the previous two layers specifies a tenant, the server uses the one associated with the token, which in most installations is the first tenant the operator activated.",
+        "pt": "O skill da Cabgo define uma hierarquia de três camadas para resolver o tenant em cada chamada. A primeira é o tenantId explícito no prompt: se o operador escreve «para o app de delivery, liste os motoristas disponíveis», o agente extrai esse contexto e o passa diretamente na chamada ao servidor. A segunda é o tenantId pré-carregado nas instruções de sistema do cliente de chat — no Claude Desktop ou nas instruções de perfil do ChatGPT, o operador pode incluir «meu tenant de táxi é [id]» como contexto fixo que o agente usa quando o prompt não especifica nada diferente. A terceira é o tenant vinculado ao token de autenticação: se nenhuma das duas camadas anteriores especifica um tenant, o servidor usa o associado ao token, que na maioria das instalações é o primeiro tenant que o operador ativou."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "El peligro de la tercera capa — el default silencioso del token — es que se activa sin señal visible. En una operación de una sola vertical eso no importa porque siempre hay un tenant correcto. En una operación bi-vertical, el default puede hacer que una consulta de delivery apunte al tenant de taxi sin que el agente lo indique: devuelve datos con el formato esperado, pero del negocio equivocado. Ese tipo de error es más difícil de detectar que uno explícito porque el output parece correcto en su forma. La auditoría semanal del historial de `cabgo_my_mcp_usage` es el único lugar donde ese patrón se hace visible: si el 90% de las llamadas de la semana fueron al tenant de taxi cuando el operador recuerda haber trabajado con delivery varios días, el desequilibrio señala el problema.",
-        "en": "The danger of the third layer — the token's silent default — is that it activates without a visible signal. In a single-vertical operation that doesn't matter because there's always one correct tenant. In a bi-vertical operation, the default can point a delivery query at the taxi tenant without the agent flagging it: it returns data in the expected format, but from the wrong business. That type of error is harder to catch than an explicit one because the output looks correct in form. The weekly audit of `cabgo_my_mcp_usage` history is the only place where that pattern becomes visible: if 90% of the week's calls went to the taxi tenant when the operator remembers working with delivery for several days, the imbalance points to the problem."
+        "en": "The danger of the third layer — the token's silent default — is that it activates without a visible signal. In a single-vertical operation that doesn't matter because there's always one correct tenant. In a bi-vertical operation, the default can point a delivery query at the taxi tenant without the agent flagging it: it returns data in the expected format, but from the wrong business. That type of error is harder to catch than an explicit one because the output looks correct in form. The weekly audit of `cabgo_my_mcp_usage` history is the only place where that pattern becomes visible: if 90% of the week's calls went to the taxi tenant when the operator remembers working with delivery for several days, the imbalance points to the problem.",
+        "pt": "O perigo da terceira camada — o default silencioso do token — é que ele se ativa sem sinal visível. Em uma operação de um único vertical isso não importa porque sempre há um tenant correto. Em uma operação bi-vertical, o default pode fazer com que uma consulta de delivery aponte para o tenant de táxi sem que o agente o indique: retorna dados no formato esperado, mas do negócio errado. Esse tipo de erro é mais difícil de detectar do que um explícito porque o output parece correto na forma. A auditoria semanal do histórico de `cabgo_my_mcp_usage` é o único lugar onde esse padrão fica visível: se 90% das chamadas da semana foram ao tenant de táxi quando o operador se lembra de ter trabalhado com delivery vários dias, o desequilíbrio aponta o problema."
       }
     },
     {
@@ -88,21 +106,24 @@
       "id": "error-cambio-contexto-sin-tenant",
       "text": {
         "es": "El error más común: cambiar de vertical sin cambiar de tenant",
-        "en": "The most common mistake: switching verticals without switching tenants"
+        "en": "The most common mistake: switching verticals without switching tenants",
+        "pt": "O erro mais comum: mudar de vertical sem mudar de tenant"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "La mayoría de los problemas en operaciones multi-tenant no ocurren al inicio de la sesión — ocurren en el medio. El operador empieza el chat revisando la flota de taxi y después, en la misma conversación, pregunta sobre las zonas activas de delivery. Ese cambio de tema no actualiza automáticamente el tenantId que el agente usa en las llamadas siguientes: el agente mantiene el contexto del tenant anterior a menos que el nuevo prompt lo cambie de forma explícita. El resultado es que el operador pregunta por zonas de delivery y recibe las del tenant de taxi — datos con el mismo aspecto pero del negocio equivocado.",
-        "en": "Most problems in multi-tenant operations don't happen at the start of a session — they happen in the middle. The operator begins the chat reviewing the taxi fleet and then, in the same conversation, asks about active delivery zones. That topic switch doesn't automatically update the tenantId the agent uses in subsequent calls: the agent keeps the previous tenant's context unless the new prompt explicitly changes it. The result is that the operator asks about delivery zones and gets the taxi tenant's instead — data that looks the same but belongs to the wrong business."
+        "en": "Most problems in multi-tenant operations don't happen at the start of a session — they happen in the middle. The operator begins the chat reviewing the taxi fleet and then, in the same conversation, asks about active delivery zones. That topic switch doesn't automatically update the tenantId the agent uses in subsequent calls: the agent keeps the previous tenant's context unless the new prompt explicitly changes it. The result is that the operator asks about delivery zones and gets the taxi tenant's instead — data that looks the same but belongs to the wrong business.",
+        "pt": "A maioria dos problemas em operações multi-tenant não ocorre no início da sessão — ocorre no meio. O operador começa o chat revisando a frota de táxi e depois, na mesma conversa, pergunta sobre as zonas ativas de delivery. Essa mudança de assunto não atualiza automaticamente o tenantId que o agente usa nas chamadas seguintes: o agente mantém o contexto do tenant anterior a menos que o novo prompt o mude de forma explícita. O resultado é que o operador pergunta por zonas de delivery e recebe as do tenant de táxi — dados com a mesma aparência, mas do negócio errado."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "El error pasa desapercibido porque el agente no anuncia cuándo mantuvo el tenant de la llamada anterior en lugar de actualizar al nuevo. Puede suceder varias veces en una sesión larga antes de que el operador note una discrepancia — por ejemplo, que el número de conductores activos no cuadra con lo que ve en la app. Para entonces, varias decisiones del turno ya se tomaron con datos del tenant equivocado. La forma de cortar ese ciclo no es revisar cada respuesta del agente con desconfianza, sino instalar el hábito de nombrar el tenant al inicio de cada bloque de trabajo dentro de la conversación.",
-        "en": "The mistake goes unnoticed because the agent doesn't announce when it kept the previous call's tenant instead of updating to the new one. It can happen several times in a long session before the operator spots a discrepancy — for example, that the active driver count doesn't match what they see in the app. By then, several shift decisions have already been made with the wrong tenant's data. The way to break that cycle isn't to review every agent response with suspicion, but to build the habit of naming the tenant at the start of each work block within the conversation."
+        "en": "The mistake goes unnoticed because the agent doesn't announce when it kept the previous call's tenant instead of updating to the new one. It can happen several times in a long session before the operator spots a discrepancy — for example, that the active driver count doesn't match what they see in the app. By then, several shift decisions have already been made with the wrong tenant's data. The way to break that cycle isn't to review every agent response with suspicion, but to build the habit of naming the tenant at the start of each work block within the conversation.",
+        "pt": "O erro passa despercebido porque o agente não anuncia quando manteve o tenant da chamada anterior em vez de atualizar para o novo. Pode acontecer várias vezes em uma sessão longa antes de o operador notar uma discrepância — por exemplo, que o número de motoristas ativos não bate com o que ele vê no app. A essa altura, várias decisões do turno já foram tomadas com dados do tenant errado. A forma de interromper esse ciclo não é revisar cada resposta do agente com desconfiança, e sim instalar o hábito de nomear o tenant no início de cada bloco de trabalho dentro da conversa."
       }
     },
     {
@@ -111,14 +132,16 @@
       "id": "estructurar-prompts-para-multiples-tenants",
       "text": {
         "es": "Estructurar los prompts para que el tenant no se pierda en el cambio de contexto",
-        "en": "Structuring prompts so the tenant doesn't get lost when context shifts"
+        "en": "Structuring prompts so the tenant doesn't get lost when context shifts",
+        "pt": "Estruturar os prompts para que o tenant não se perca na mudança de contexto"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "La solución no requiere configuración técnica adicional — requiere un hábito de prompt. El principio es simple: cada vez que cambias de vertical dentro de una conversación, el primer mensaje del nuevo bloque incluye el tenant. No como instrucción especial al agente, sino como contexto natural: en lugar de «¿cuántos conductores activos tiene delivery esta tarde?», escribes «Cambiando a delivery [tenant_id]: ¿cuántos conductores activos tiene esta tarde?». Dos palabras adicionales son suficientes para que el agente resuelva el tenant correcto en todas las llamadas de ese bloque. Hay cuatro convenciones que hacen que este hábito sea consistente sin agregar fricción al trabajo diario:",
-        "en": "The solution requires no additional technical configuration — it requires a prompt habit. The principle is simple: every time you switch verticals within a conversation, the first message of the new block includes the tenant. Not as a special instruction to the agent, but as natural context: instead of «how many active drivers does delivery have this afternoon?», you write «Switching to delivery [tenant_id]: how many active drivers does it have this afternoon?». Two extra words are enough for the agent to resolve the right tenant on all calls in that block. There are four conventions that make this habit consistent without adding friction to daily work:"
+        "en": "The solution requires no additional technical configuration — it requires a prompt habit. The principle is simple: every time you switch verticals within a conversation, the first message of the new block includes the tenant. Not as a special instruction to the agent, but as natural context: instead of «how many active drivers does delivery have this afternoon?», you write «Switching to delivery [tenant_id]: how many active drivers does it have this afternoon?». Two extra words are enough for the agent to resolve the right tenant on all calls in that block. There are four conventions that make this habit consistent without adding friction to daily work:",
+        "pt": "A solução não requer configuração técnica adicional — requer um hábito de prompt. O princípio é simples: cada vez que você muda de vertical dentro de uma conversa, a primeira mensagem do novo bloco inclui o tenant. Não como instrução especial ao agente, e sim como contexto natural: em vez de «quantos motoristas ativos o delivery tem esta tarde?», você escreve «Mudando para delivery [tenant_id]: quantos motoristas ativos ele tem esta tarde?». Duas palavras a mais são suficientes para que o agente resolva o tenant correto em todas as chamadas desse bloco. Há quatro convenções que tornam esse hábito consistente sem adicionar fricção ao trabalho diário:"
       }
     },
     {
@@ -136,6 +159,12 @@
           "Include the tenantId in the prompt library's saved prompts: if the operator has a shift-summary prompt, saving one version for taxi and one for delivery with the tenantIds already embedded eliminates the need to remember adding them when using the template",
           "Use the app name alongside the technical ID when the context is new: «Delivery [app_name] [tenant_id]» is faster to read mid-conversation than a bare numeric ID, especially in operations with more than two apps",
           "At shift close, specify the tenant even when it's the same as the default: a close that explicitly names the tenant ends the session context without ambiguity and makes subsequent `cabgo_my_mcp_usage` log reviews easier to read"
+        ],
+        "pt": [
+          "Nomear o tenant no início de cada bloco de trabalho, não só no início da sessão: uma sessão de uma hora pode ter três blocos distintos — abertura de turno no táxi, revisão de zonas no delivery, fechamento de turno no táxi — e cada um requer sua própria âncora de tenant para evitar herança de contexto",
+          "Incluir o tenantId nos prompts salvos da biblioteca: se o operador tem um prompt de resumo de turno, salvar uma versão para táxi e outra para delivery com os tenantIds já incluídos elimina a necessidade de lembrar de adicioná-los ao usar o template",
+          "Usar o nome do app além do ID técnico quando o contexto é novo: «Delivery [nome_app] [tenant_id]» é mais rápido de ler no meio de uma conversa do que só o ID numérico, especialmente em operações com mais de dois apps",
+          "No fechamento de turno, especificar o tenant mesmo que seja o mesmo do default: um fechamento que nomeie explicitamente o tenant encerra o contexto da sessão sem ambiguidade e facilita a leitura posterior do histórico de `cabgo_my_mcp_usage`"
         ]
       }
     },
@@ -145,14 +174,16 @@
       "id": "consultas-paralelas-reporte-comparativo",
       "text": {
         "es": "Consultas paralelas: un reporte que cubre ambas verticales en una respuesta",
-        "en": "Parallel queries: a single report covering both verticals in one response"
+        "en": "Parallel queries: a single report covering both verticals in one response",
+        "pt": "Consultas paralelas: um relatório que cobre ambos os verticais em uma resposta"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "El patrón más eficiente para el operador bi-vertical no es alternar entre tenants en la misma conversación, sino pedirle al agente que haga las dos consultas en paralelo y devuelva los resultados en formato comparativo. El servidor MCP de Cabgo acepta llamadas simultáneas a tenants distintos dentro del mismo contexto de conversación — el agente puede llamar a una herramienta de lectura dos veces en el mismo mensaje, una por tenant, y combinar los resultados en una tabla. Para que eso funcione, el prompt debe especificar ambos tenants y el formato de salida esperado en la misma solicitud: «Consulta el estado de flota de taxi [tenant_taxi] y delivery [tenant_delivery] en paralelo. Devuelve una tabla con columnas: vertical, conductores activos, viajes completados hoy, tasa de disponibilidad pico. Una fila por vertical.»",
-        "en": "The most efficient pattern for the bi-vertical operator isn't alternating between tenants in the same conversation, but asking the agent to run both queries in parallel and return the results in a comparative format. Cabgo's MCP server accepts simultaneous calls to different tenants within the same conversation context — the agent can call a read tool twice in the same message, once per tenant, and combine the results into a table. For that to work, the prompt must specify both tenants and the expected output format in the same request: «Query fleet status for taxi [tenant_taxi] and delivery [tenant_delivery] in parallel. Return a table with columns: vertical, active drivers, trips completed today, peak availability rate. One row per vertical.»"
+        "en": "The most efficient pattern for the bi-vertical operator isn't alternating between tenants in the same conversation, but asking the agent to run both queries in parallel and return the results in a comparative format. Cabgo's MCP server accepts simultaneous calls to different tenants within the same conversation context — the agent can call a read tool twice in the same message, once per tenant, and combine the results into a table. For that to work, the prompt must specify both tenants and the expected output format in the same request: «Query fleet status for taxi [tenant_taxi] and delivery [tenant_delivery] in parallel. Return a table with columns: vertical, active drivers, trips completed today, peak availability rate. One row per vertical.»",
+        "pt": "O padrão mais eficiente para o operador bi-vertical não é alternar entre tenants na mesma conversa, e sim pedir ao agente que faça as duas consultas em paralelo e retorne os resultados em formato comparativo. O servidor MCP da Cabgo aceita chamadas simultâneas a tenants distintos dentro do mesmo contexto de conversa — o agente pode chamar uma ferramenta de leitura duas vezes na mesma mensagem, uma por tenant, e combinar os resultados em uma tabela. Para que isso funcione, o prompt deve especificar ambos os tenants e o formato de saída esperado na mesma solicitação: «Consulte o status de frota de táxi [tenant_taxi] e delivery [tenant_delivery] em paralelo. Retorne uma tabela com colunas: vertical, motoristas ativos, corridas completadas hoje, taxa de disponibilidade no pico. Uma linha por vertical.»"
       }
     },
     {
@@ -160,14 +191,16 @@
       "variant": "tip",
       "text": {
         "es": "Las consultas paralelas funcionan mejor al inicio de sesión, antes de que uno de los dos tenants acumule peso en el historial de la conversación. Si la sesión ya lleva varias horas de trabajo activo con un tenant, agrega «ignora el contexto de llamadas anteriores para esta consulta» antes de especificar los dos tenants — eso reduce la interferencia sin necesidad de abrir una nueva ventana de chat.",
-        "en": "Parallel queries work best at session start, before either tenant has built up weight in the conversation history. If the session has been actively using one tenant for several hours, add «ignore prior call context for this query» before specifying both tenants — that reduces interference without needing to open a new chat window."
+        "en": "Parallel queries work best at session start, before either tenant has built up weight in the conversation history. If the session has been actively using one tenant for several hours, add «ignore prior call context for this query» before specifying both tenants — that reduces interference without needing to open a new chat window.",
+        "pt": "As consultas paralelas funcionam melhor no início da sessão, antes de um dos dois tenants acumular peso no histórico da conversa. Se a sessão já leva várias horas de trabalho ativo com um tenant, adicione «ignore o contexto de chamadas anteriores para esta consulta» antes de especificar os dois tenants — isso reduz a interferência sem precisar abrir uma nova janela de chat."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "El límite de este patrón es el contexto acumulado de la sesión: si el chat lleva varias horas de trabajo con uno de los tenants, la consulta paralela puede producir un resultado sesgado hacia ese tenant porque tiene más historial en el contexto que el otro. Ese sesgo no aparece como error explícito — aparece como asimetría en los datos: las métricas del tenant dominante tienen más detalle que las del secundario. La auditoría semanal del historial de `cabgo_my_mcp_usage` lo detecta como una distribución de tenantIds desbalanceada en la semana, y es la señal para ajustar cuándo se lanza la consulta paralela o para dividirla en sesiones separadas cuando la diferencia de contexto entre tenants es grande.",
-        "en": "The limitation of this pattern is accumulated session context: if the chat has been working with one tenant for several hours, the parallel query can produce a result biased toward that tenant because it has more history in context than the other. That bias doesn't appear as an explicit error — it appears as data asymmetry: the dominant tenant's metrics carry more detail than the secondary one's. The weekly `cabgo_my_mcp_usage` audit detects it as an unbalanced tenantId distribution for the week, and that's the signal to adjust when you run the parallel query or to split it into separate sessions when the context gap between tenants is large."
+        "en": "The limitation of this pattern is accumulated session context: if the chat has been working with one tenant for several hours, the parallel query can produce a result biased toward that tenant because it has more history in context than the other. That bias doesn't appear as an explicit error — it appears as data asymmetry: the dominant tenant's metrics carry more detail than the secondary one's. The weekly `cabgo_my_mcp_usage` audit detects it as an unbalanced tenantId distribution for the week, and that's the signal to adjust when you run the parallel query or to split it into separate sessions when the context gap between tenants is large.",
+        "pt": "O limite desse padrão é o contexto acumulado da sessão: se o chat leva várias horas de trabalho com um dos tenants, a consulta paralela pode produzir um resultado enviesado para esse tenant porque ele tem mais histórico no contexto do que o outro. Esse viés não aparece como erro explícito — aparece como assimetria nos dados: as métricas do tenant dominante têm mais detalhe do que as do secundário. A auditoria semanal do histórico de `cabgo_my_mcp_usage` o detecta como uma distribuição de tenantIds desbalanceada na semana, e é o sinal para ajustar quando a consulta paralela é lançada ou para dividi-la em sessões separadas quando a diferença de contexto entre tenants é grande."
       }
     },
     {
@@ -176,21 +209,24 @@
       "id": "campanas-por-vertical-con-contexto-cruzado",
       "text": {
         "es": "Campañas por vertical con verificación cruzada",
-        "en": "Per-vertical campaigns with cross-vertical verification"
+        "en": "Per-vertical campaigns with cross-vertical verification",
+        "pt": "Campanhas por vertical com verificação cruzada"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "Una de las ventajas del agente único multi-tenant es que el contexto de una vertical puede informar decisiones de la otra. El caso más claro es el de las campañas de demanda: si el operador considera lanzar un bono de delivery para un fin de semana con evento en la ciudad, la disponibilidad histórica del taxi en ese mismo período es relevante. Si la flota de taxi estuvo al 65-70% de disponibilidad en los últimos tres fines de semana similares y hay conductores que operan en ambos servicios, activar un bono de delivery que mueva esos conductores puede crear un déficit de oferta en taxi que ninguna de las dos apps anticipa por separado. Con dos agentes distintos, esa verificación cruzada requiere consultas manuales a ambos clientes. Con un agente multi-tenant, el prompt puede pedirla explícitamente antes de proponer los parámetros del bono.",
-        "en": "One of the advantages of a single multi-tenant agent is that one vertical's context can inform the other's decisions. The clearest case is demand campaigns: if the operator is considering launching a delivery bonus for a weekend with a city event, the taxi vertical's historical availability during that same period is relevant. If the taxi fleet ran at 65-70% availability during the last three similar weekends and some drivers operate across both services, activating a delivery bonus that pulls those drivers can create a supply gap in taxi that neither app anticipates separately. With two separate agents, that cross-check requires manual queries to both clients. With a multi-tenant agent, the prompt can request it explicitly before proposing bonus parameters."
+        "en": "One of the advantages of a single multi-tenant agent is that one vertical's context can inform the other's decisions. The clearest case is demand campaigns: if the operator is considering launching a delivery bonus for a weekend with a city event, the taxi vertical's historical availability during that same period is relevant. If the taxi fleet ran at 65-70% availability during the last three similar weekends and some drivers operate across both services, activating a delivery bonus that pulls those drivers can create a supply gap in taxi that neither app anticipates separately. With two separate agents, that cross-check requires manual queries to both clients. With a multi-tenant agent, the prompt can request it explicitly before proposing bonus parameters.",
+        "pt": "Uma das vantagens do agente único multi-tenant é que o contexto de um vertical pode informar decisões do outro. O caso mais claro é o das campanhas de demanda: se o operador considera lançar um bônus de delivery para um fim de semana com evento na cidade, a disponibilidade histórica do táxi nesse mesmo período é relevante. Se a frota de táxi esteve com 65-70% de disponibilidade nos últimos três fins de semana semelhantes e há motoristas que operam em ambos os serviços, ativar um bônus de delivery que desloque esses motoristas pode criar um déficit de oferta no táxi que nenhum dos dois apps antecipa separadamente. Com dois agentes distintos, essa verificação cruzada requer consultas manuais a ambos os clientes. Com um agente multi-tenant, o prompt pode pedi-la explicitamente antes de propor os parâmetros do bônus."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "La forma de incluir esa verificación en el prompt de diseño de campaña es directa: «Antes de proponer los parámetros del bono de delivery, consulta la disponibilidad histórica de taxi [tenant_taxi] en los mismos horarios durante las últimas cuatro semanas. Si la disponibilidad bajó del 70% en alguno de esos períodos, ajusta el umbral del bono de delivery para no competir por conductores que ya estaban cubiertos por el servicio de taxi.» Esa instrucción condicional le da al agente el criterio para calibrar el incentivo entre ambas verticales en lugar de diseñarlo como si la otra app no existiera. No es una funcionalidad especial del servidor — es el resultado directo de tener los dos tenants disponibles en el mismo contexto de conversación.",
-        "en": "The way to include that check in the campaign design prompt is direct: «Before proposing the delivery bonus parameters, query taxi availability history [tenant_taxi] for the same time slots over the last four weeks. If availability dropped below 70% in any of those periods, adjust the delivery bonus threshold to avoid competing for drivers already covered by the taxi service.» That conditional instruction gives the agent the criterion to calibrate the incentive across both verticals instead of designing it as if the other app didn't exist. It's not a special server feature — it's the direct result of having both tenants available in the same conversation context."
+        "en": "The way to include that check in the campaign design prompt is direct: «Before proposing the delivery bonus parameters, query taxi availability history [tenant_taxi] for the same time slots over the last four weeks. If availability dropped below 70% in any of those periods, adjust the delivery bonus threshold to avoid competing for drivers already covered by the taxi service.» That conditional instruction gives the agent the criterion to calibrate the incentive across both verticals instead of designing it as if the other app didn't exist. It's not a special server feature — it's the direct result of having both tenants available in the same conversation context.",
+        "pt": "A forma de incluir essa verificação no prompt de desenho de campanha é direta: «Antes de propor os parâmetros do bônus de delivery, consulte a disponibilidade histórica de táxi [tenant_taxi] nos mesmos horários durante as últimas quatro semanas. Se a disponibilidade caiu abaixo de 70% em algum desses períodos, ajuste o limite do bônus de delivery para não competir por motoristas que já estavam cobertos pelo serviço de táxi.» Essa instrução condicional dá ao agente o critério para calibrar o incentivo entre ambos os verticais em vez de desenhá-lo como se o outro app não existisse. Não é uma funcionalidade especial do servidor — é o resultado direto de ter os dois tenants disponíveis no mesmo contexto de conversa."
       }
     },
     {
@@ -199,32 +235,37 @@
       "id": "cuando-separar-los-agentes",
       "text": {
         "es": "Cuándo sí tiene sentido separar los agentes",
-        "en": "When it does make sense to separate the agents"
+        "en": "When it does make sense to separate the agents",
+        "pt": "Quando faz sentido, sim, separar os agentes"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "La tesis del agente único tiene excepciones concretas. La primera es la escala de equipo: si el operador tiene dos coordinadores distintos — uno para taxi y otro para delivery — y cada uno usa el agente de forma independiente, tiene sentido darles tokens separados y agentes separados, no por razones técnicas sino de responsabilidad operativa. Mezclar las sesiones de dos coordinadores bajo el mismo tenant hace que el historial de `cabgo_my_mcp_usage` sea difícil de interpretar cuando hay que determinar quién ejecutó qué acción y cuándo. Dos agentes con tokens distintos producen historiales que atribuyen las acciones al coordinador correcto.",
-        "en": "The single-agent thesis has concrete exceptions. The first is team scale: if the operator has two different coordinators — one for taxi and one for delivery — and each uses the agent independently, it makes sense to give them separate tokens and separate agents, not for technical reasons but for operational accountability. Mixing two coordinators' sessions under the same tenant makes the `cabgo_my_mcp_usage` log difficult to interpret when you need to determine who executed what action and when. Two agents with separate tokens produce logs that correctly attribute actions to the right coordinator."
+        "en": "The single-agent thesis has concrete exceptions. The first is team scale: if the operator has two different coordinators — one for taxi and one for delivery — and each uses the agent independently, it makes sense to give them separate tokens and separate agents, not for technical reasons but for operational accountability. Mixing two coordinators' sessions under the same tenant makes the `cabgo_my_mcp_usage` log difficult to interpret when you need to determine who executed what action and when. Two agents with separate tokens produce logs that correctly attribute actions to the right coordinator.",
+        "pt": "A tese do agente único tem exceções concretas. A primeira é a escala de equipe: se o operador tem dois coordenadores distintos — um para táxi e outro para delivery — e cada um usa o agente de forma independente, faz sentido dar-lhes tokens separados e agentes separados, não por razões técnicas, mas de responsabilidade operacional. Misturar as sessões de dois coordenadores sob o mesmo tenant torna o histórico de `cabgo_my_mcp_usage` difícil de interpretar quando é preciso determinar quem executou qual ação e quando. Dois agentes com tokens distintos produzem históricos que atribuem as ações ao coordenador correto."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "La segunda excepción es la geografía: si taxi y delivery operan en ciudades distintas y no comparten conductores ni zonas, el beneficio de las consultas cruzadas es bajo y el costo de especificar el tenant en cada prompt es constante. En ese caso, dos agentes con el contexto de ciudad fijo en sus instrucciones del sistema son más simples de operar que un agente multi-tenant que requiere especificación explícita en cada bloque de trabajo. La regla práctica: un agente por operador cuando los dos negocios comparten conductores o zonas; dos agentes cuando los roles humanos o las geografías son completamente distintos y el contexto cruzado no aporta valor real.",
-        "en": "The second exception is geography: if taxi and delivery operate in different cities and share no drivers or zones, the benefit of cross-queries is low and the cost of specifying the tenant in every prompt is constant. In that case, two agents with city context fixed in their system instructions are simpler to operate than a multi-tenant agent that requires explicit specification in each work block. The practical rule: one agent per operator when the two businesses share drivers or zones; two agents when the human roles or geographies are entirely separate and cross-context adds no real value."
+        "en": "The second exception is geography: if taxi and delivery operate in different cities and share no drivers or zones, the benefit of cross-queries is low and the cost of specifying the tenant in every prompt is constant. In that case, two agents with city context fixed in their system instructions are simpler to operate than a multi-tenant agent that requires explicit specification in each work block. The practical rule: one agent per operator when the two businesses share drivers or zones; two agents when the human roles or geographies are entirely separate and cross-context adds no real value.",
+        "pt": "A segunda exceção é a geografia: se táxi e delivery operam em cidades distintas e não compartilham motoristas nem zonas, o benefício das consultas cruzadas é baixo e o custo de especificar o tenant em cada prompt é constante. Nesse caso, dois agentes com o contexto de cidade fixo em suas instruções de sistema são mais simples de operar do que um agente multi-tenant que requer especificação explícita em cada bloco de trabalho. A regra prática: um agente por operador quando os dois negócios compartilham motoristas ou zonas; dois agentes quando os papéis humanos ou as geografias são completamente distintos e o contexto cruzado não agrega valor real."
       }
     },
     {
       "type": "quote",
       "text": {
         "es": "Llevaba dos meses con un chat para taxi y otro para delivery porque asumía que el agente se iba a confundir si mezclaba las dos apps en la misma conversación. Cuando entendí cómo funciona el tenantId, consolidé todo en una sola sesión fija en Claude Desktop. Lo único que cambié fue agregar el nombre de la app y el tenant al inicio de cada bloque de prompts. Ahora tardo menos tiempo revisando el estado de las dos verticales que lo que tardaba antes en cambiar entre ventanas.",
-        "en": "I spent two months with one chat for taxi and another for delivery because I assumed the agent would get confused if I mixed both apps in the same conversation. Once I understood how the tenantId works, I consolidated everything into a single fixed session in Claude Desktop. The only thing I changed was adding the app name and tenant at the start of each prompt block. Now I spend less time reviewing both verticals' status than I used to spend switching between windows."
+        "en": "I spent two months with one chat for taxi and another for delivery because I assumed the agent would get confused if I mixed both apps in the same conversation. Once I understood how the tenantId works, I consolidated everything into a single fixed session in Claude Desktop. The only thing I changed was adding the app name and tenant at the start of each prompt block. Now I spend less time reviewing both verticals' status than I used to spend switching between windows.",
+        "pt": "Passei dois meses com um chat para táxi e outro para delivery porque presumia que o agente iria se confundir se eu misturasse os dois apps na mesma conversa. Quando entendi como o tenantId funciona, consolidei tudo em uma única sessão fixa no Claude Desktop. A única coisa que mudei foi adicionar o nome do app e o tenant no início de cada bloco de prompts. Agora levo menos tempo revisando o status dos dois verticais do que levava antes para trocar entre janelas."
       },
       "attribution": {
         "es": "Operadora con taxi y delivery activos en dos ciudades del noroeste de México",
-        "en": "Operator running taxi and delivery across two cities in northwest Mexico"
+        "en": "Operator running taxi and delivery across two cities in northwest Mexico",
+        "pt": "Operadora com táxi e delivery ativos em duas cidades do noroeste do México"
       }
     },
     {
@@ -233,47 +274,55 @@
       "id": "resumen-diario-multi-tenant",
       "text": {
         "es": "El resumen diario multi-tenant: un prompt para dos negocios",
-        "en": "The multi-tenant daily summary: one prompt for two businesses"
+        "en": "The multi-tenant daily summary: one prompt for two businesses",
+        "pt": "O resumo diário multi-tenant: um prompt para dois negócios"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "El caso donde la gestión multi-tenant en el mismo agente más se justifica es el resumen diario. En lugar de revisar dos apps por separado cada mañana, el operador puede tener un solo prompt guardado que produce el estado de ambas verticales en una respuesta estructurada. El prompt tiene que hacer tres cosas: especificar ambos tenants, pedir las mismas métricas de cada uno para que la comparación sea directa, y pedir formato tabular en lugar de narrativo. Un ejemplo funcional: «Resumen del turno de hoy. Para taxi [tenant_taxi] y delivery [tenant_delivery]: conductores activos ahora, viajes completados en las últimas 12 horas, calificación promedio de la semana, y una línea de alerta si alguna métrica está fuera del rango de los últimos 7 días. Devuelve una tabla con las dos verticales en filas y las cuatro métricas en columnas.» Guardado como instrucción del sistema o en la biblioteca de prompts, ese template reemplaza la revisión manual de ambas apps cada mañana.",
-        "en": "The case where multi-tenant management in the same agent is most justified is the daily summary. Instead of reviewing two apps separately every morning, the operator can have one saved prompt that produces the status of both verticals in a structured response. The prompt has to do three things: specify both tenants, ask for the same metrics from each so the comparison is direct, and request a table format rather than a narrative one. A working example: «Today's shift summary. For taxi [tenant_taxi] and delivery [tenant_delivery]: active drivers now, trips completed in the last 12 hours, weekly average rating, and one alert line if any metric is outside the 7-day range. Return a table with both verticals as rows and the four metrics as columns.» Saved as a system instruction or in the prompt library, that template replaces the manual review of both apps every morning."
+        "en": "The case where multi-tenant management in the same agent is most justified is the daily summary. Instead of reviewing two apps separately every morning, the operator can have one saved prompt that produces the status of both verticals in a structured response. The prompt has to do three things: specify both tenants, ask for the same metrics from each so the comparison is direct, and request a table format rather than a narrative one. A working example: «Today's shift summary. For taxi [tenant_taxi] and delivery [tenant_delivery]: active drivers now, trips completed in the last 12 hours, weekly average rating, and one alert line if any metric is outside the 7-day range. Return a table with both verticals as rows and the four metrics as columns.» Saved as a system instruction or in the prompt library, that template replaces the manual review of both apps every morning.",
+        "pt": "O caso em que a gestão multi-tenant no mesmo agente mais se justifica é o resumo diário. Em vez de revisar dois apps separadamente toda manhã, o operador pode ter um único prompt salvo que produz o status de ambos os verticais em uma resposta estruturada. O prompt tem que fazer três coisas: especificar ambos os tenants, pedir as mesmas métricas de cada um para que a comparação seja direta, e pedir formato tabular em vez de narrativo. Um exemplo funcional: «Resumo do turno de hoje. Para táxi [tenant_taxi] e delivery [tenant_delivery]: motoristas ativos agora, corridas completadas nas últimas 12 horas, avaliação média da semana, e uma linha de alerta se alguma métrica estiver fora da faixa dos últimos 7 dias. Retorne uma tabela com os dois verticais nas linhas e as quatro métricas nas colunas.» Salvo como instrução de sistema ou na biblioteca de prompts, esse template substitui a revisão manual dos dois apps toda manhã."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "Gestionar dos verticales desde el mismo agente no es una optimización técnica — es la forma directa de aprovechar que el agente tiene acceso a ambos contextos al mismo tiempo. El tenantId en el prompt es el mecanismo de control, y el hábito de nombrarlo al inicio de cada bloque de trabajo es la única diferencia entre un agente que devuelve datos correctos y uno que los mezcla en silencio. Si tienes taxi y delivery activos y todavía usas dos chats por separado, la acción concreta esta semana es revisar los prompts guardados y agregar el tenant explícito en cada uno — dos o tres palabras por template es el costo de ese cambio. El historial de `cabgo_my_mcp_usage` te va a mostrar una distribución de tenantIds que refleja cómo usas realmente las dos apps, en lugar de una concentración en el default que indica que la especificación se perdió en algún punto de la sesión.",
-        "en": "Managing two verticals from the same agent isn't a technical optimization — it's the direct way to use the fact that the agent has access to both contexts at the same time. The tenantId in the prompt is the control mechanism, and the habit of naming it at the start of each work block is the only difference between an agent that returns correct data and one that silently mixes it. If you have taxi and delivery active and still use two separate chats, the concrete action this week is to review your saved prompts and add the explicit tenant to each one — two or three words per template is the cost of that change. The `cabgo_my_mcp_usage` history will show you a tenantId distribution that reflects how you actually use both apps, instead of a concentration on the default that signals the specification got lost somewhere mid-session."
+        "en": "Managing two verticals from the same agent isn't a technical optimization — it's the direct way to use the fact that the agent has access to both contexts at the same time. The tenantId in the prompt is the control mechanism, and the habit of naming it at the start of each work block is the only difference between an agent that returns correct data and one that silently mixes it. If you have taxi and delivery active and still use two separate chats, the concrete action this week is to review your saved prompts and add the explicit tenant to each one — two or three words per template is the cost of that change. The `cabgo_my_mcp_usage` history will show you a tenantId distribution that reflects how you actually use both apps, instead of a concentration on the default that signals the specification got lost somewhere mid-session.",
+        "pt": "Gerenciar dois verticais a partir do mesmo agente não é uma otimização técnica — é a forma direta de aproveitar que o agente tem acesso a ambos os contextos ao mesmo tempo. O tenantId no prompt é o mecanismo de controle, e o hábito de nomeá-lo no início de cada bloco de trabalho é a única diferença entre um agente que retorna dados corretos e um que os mistura em silêncio. Se você tem táxi e delivery ativos e ainda usa dois chats separados, a ação concreta esta semana é revisar os prompts salvos e adicionar o tenant explícito em cada um — duas ou três palavras por template é o custo dessa mudança. O histórico de `cabgo_my_mcp_usage` vai lhe mostrar uma distribuição de tenantIds que reflete como você realmente usa os dois apps, em vez de uma concentração no default que indica que a especificação se perdeu em algum ponto da sessão."
       }
     }
   ],
   "cta": {
     "heading": {
       "es": "¿Listo para lanzar tu propia app de movilidad?",
-      "en": "Ready to launch your own mobility app?"
+      "en": "Ready to launch your own mobility app?",
+      "pt": "Pronto para lançar seu próprio app de mobilidade?"
     },
     "body": {
       "es": "Configura tu marca, tus tarifas y tus servicios en semanas, no en meses. Cabgo te entrega la plataforma; tú te quedas con la operación, los clientes y los ingresos.",
-      "en": "Set up your brand, pricing and services in weeks, not months. Cabgo ships the platform — you keep the operation, the customers and the revenue."
+      "en": "Set up your brand, pricing and services in weeks, not months. Cabgo ships the platform — you keep the operation, the customers and the revenue.",
+      "pt": "Configure sua marca, suas tarifas e seus serviços em semanas, não em meses. A Cabgo entrega a plataforma; você fica com a operação, os clientes e a receita."
     },
     "buttonLabel": {
       "es": "Comenzar con Cabgo",
-      "en": "Get started with Cabgo"
+      "en": "Get started with Cabgo",
+      "pt": "Começar com a Cabgo"
     },
     "buttonHref": "/empezar"
   },
   "seo": {
     "metaTitle": {
       "es": "Gestionar taxi y delivery con un agente | Cabgo",
-      "en": "Manage taxi and delivery with one agent | Cabgo"
+      "en": "Manage taxi and delivery with one agent | Cabgo",
+      "pt": "Gerenciar táxi e delivery com um agente | Cabgo"
     },
     "metaDescription": {
       "es": "Un agente con el skill de Cabgo puede gestionar taxi y delivery desde el mismo chat. El tenantId en el prompt es el único switch necesario.",
-      "en": "One Cabgo-skill agent can manage taxi and delivery from the same chat. The tenantId in the prompt is the only switch you need."
+      "en": "One Cabgo-skill agent can manage taxi and delivery from the same chat. The tenantId in the prompt is the only switch you need.",
+      "pt": "Um agente com o skill da Cabgo pode gerenciar táxi e delivery no mesmo chat. O tenantId no prompt é o único switch necessário."
     }
   }
 }

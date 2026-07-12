@@ -3,16 +3,19 @@
   "category": "product",
   "title": {
     "es": "Cuándo dejar actuar al agente y cuándo pedir confirmación",
-    "en": "When to let the agent act and when to ask for confirmation"
+    "en": "When to let the agent act and when to ask for confirmation",
+    "pt": "Quando deixar o agente agir e quando pedir confirmação"
   },
   "excerpt": {
     "es": "La frontera entre actuar y confirmar no se traza por importancia, sino por reversibilidad y radio de impacto. Cómo clasificar cada herramienta del agente en cuatro categorías.",
-    "en": "The line between acting and confirming isn't drawn by importance, but by reversibility and blast radius. How to classify every agent tool into four categories."
+    "en": "The line between acting and confirming isn't drawn by importance, but by reversibility and blast radius. How to classify every agent tool into four categories.",
+    "pt": "A fronteira entre agir e confirmar não é traçada pela importância, mas pela reversibilidade e pelo raio de impacto. Como classificar cada ferramenta do agente em quatro categorias."
   },
   "heroImage": "https://raw.githubusercontent.com/jonatanvazquez/cabgo-blog-content/main/images/cuando-dejar-actuar-agente-vs-pedir-confirmacion.jpg",
   "heroImageAlt": {
     "es": "Ilustración isométrica de un agente robótico frente a dos caminos: uno verde de ejecución directa y otro con una tarjeta de confirmación flotante, sobre un panel de control de operación de movilidad",
-    "en": "Isometric illustration of a robotic agent facing two paths: a green direct-execution lane and another with a floating confirmation card, over a mobility operation control panel"
+    "en": "Isometric illustration of a robotic agent facing two paths: a green direct-execution lane and another with a floating confirmation card, over a mobility operation control panel",
+    "pt": "Ilustração isométrica de um agente robótico diante de dois caminhos: um verde de execução direta e outro com um cartão de confirmação flutuante, sobre um painel de controle de operação de mobilidade"
   },
   "heroImagePrompt": "Split isometric composition: in the center a friendly robotic agent at a fork, the left path glowing green leading to a fast-forward arrow and a small gear executing on its own, the right path leading to a floating confirmation card with a checkmark button awaiting a human hand. Around them a clean mobility operations dashboard with route lines and small car icons. Sense of a decision boundary between autonomous action and human approval.",
   "publishedAt": "2026-06-08",
@@ -35,13 +38,23 @@
       "reversibility of AI agent actions",
       "confirmation card mobility agent",
       "supervising agent transport operation"
+    ],
+    "pt": [
+      "quando deixar o agente de IA agir",
+      "agente confirmação humana operação",
+      "autonomia agente MCP Cabgo",
+      "agente transporte por aplicativo quando perguntar",
+      "reversibilidade ações agente IA",
+      "cartão confirmação agente mobilidade",
+      "supervisionar agente operação transporte"
     ]
   },
   "author": {
     "name": "Equipo Cabgo",
     "role": {
       "es": "Plataforma de movilidad",
-      "en": "Mobility platform"
+      "en": "Mobility platform",
+      "pt": "Plataforma de mobilidade"
     }
   },
   "blocks": [
@@ -49,14 +62,16 @@
       "type": "paragraph",
       "text": {
         "es": "Cuando un operador conecta el agente al MCP de Cabgo, la primera pregunta que aparece casi siempre está mal formulada. No es «¿qué tan autónomo dejo al agente?», como si la autonomía fuera una sola perilla que se sube o se baja. La pregunta correcta es «¿qué tipo de acción está a punto de ejecutar?». Un agente que cancela un viaje fantasma, otro que cambia la tarifa base de toda la operación y otro que le confirma una hora de llamada a un cliente no son el mismo nivel de riesgo con distinta intensidad: son categorías distintas, y mezclarlas en una sola decisión de «confío / no confío» es lo que produce tanto los agentes inútiles que preguntan todo como los agentes peligrosos que no preguntan nada.",
-        "en": "When an operator connects the agent to Cabgo's MCP, the first question that comes up is almost always framed wrong. It isn't \"how autonomous should I let the agent be?\", as if autonomy were a single dial you turn up or down. The right question is \"what kind of action is it about to take?\". An agent that cancels a phantom trip, one that changes the base fare for the entire operation, and one that confirms a call time with a customer are not the same risk at different intensities: they are different categories, and collapsing them into a single \"I trust it / I don't\" decision is exactly what produces both the useless agent that asks about everything and the dangerous agent that asks about nothing."
+        "en": "When an operator connects the agent to Cabgo's MCP, the first question that comes up is almost always framed wrong. It isn't \"how autonomous should I let the agent be?\", as if autonomy were a single dial you turn up or down. The right question is \"what kind of action is it about to take?\". An agent that cancels a phantom trip, one that changes the base fare for the entire operation, and one that confirms a call time with a customer are not the same risk at different intensities: they are different categories, and collapsing them into a single \"I trust it / I don't\" decision is exactly what produces both the useless agent that asks about everything and the dangerous agent that asks about nothing.",
+        "pt": "Quando um operador conecta o agente ao MCP da Cabgo, a primeira pergunta que surge quase sempre está mal formulada. Não é «quão autônomo devo deixar o agente?», como se a autonomia fosse um único botão que se sobe ou se desce. A pergunta certa é «que tipo de ação ele está prestes a executar?». Um agente que cancela uma corrida fantasma, outro que muda a tarifa base de toda a operação e outro que confirma um horário de ligação para um cliente não representam o mesmo nível de risco em intensidades diferentes: são categorias distintas, e misturá-las em uma única decisão de «confio / não confio» é o que produz tanto os agentes inúteis que perguntam tudo quanto os agentes perigosos que não perguntam nada."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "Este artículo es para el operador que ya tiene el agente funcionando y quiere fijar el límite con criterio, no por miedo. La tesis es simple: la frontera entre actuar y pedir confirmación no se traza por importancia, se traza por reversibilidad y por radio de impacto. Una acción importante pero reversible y de radio pequeno debe ejecutarse sola; una acción trivial en apariencia pero irreversible o que toca a un cliente real debe pasar por ti. Lo que sigue son las cuatro categorías que usamos para clasificar cada herramienta del agente, y cómo se traducen a la operación diaria de una plataforma de movilidad.",
-        "en": "This article is for the operator who already has the agent running and wants to set the boundary with judgment, not out of fear. The thesis is simple: the line between acting and asking for confirmation is not drawn by importance, it's drawn by reversibility and blast radius. An important but reversible, small-radius action should run on its own; a seemingly trivial action that is irreversible or touches a real customer should go through you. What follows are the four categories we use to classify every agent tool, and how they translate to the daily operation of a mobility platform."
+        "en": "This article is for the operator who already has the agent running and wants to set the boundary with judgment, not out of fear. The thesis is simple: the line between acting and asking for confirmation is not drawn by importance, it's drawn by reversibility and blast radius. An important but reversible, small-radius action should run on its own; a seemingly trivial action that is irreversible or touches a real customer should go through you. What follows are the four categories we use to classify every agent tool, and how they translate to the daily operation of a mobility platform.",
+        "pt": "Este artigo é para o operador que já tem o agente funcionando e quer fixar o limite com critério, não por medo. A tese é simples: a fronteira entre agir e pedir confirmação não é traçada pela importância, é traçada pela reversibilidade e pelo raio de impacto. Uma ação importante, mas reversível e de raio pequeno, deve ser executada sozinha; uma ação trivial na aparência, mas irreversível ou que envolve um cliente real, deve passar por você. A seguir estão as quatro categorias que usamos para classificar cada ferramenta do agente, e como elas se traduzem na operação diária de uma plataforma de mobilidade."
       }
     },
     {
@@ -65,21 +80,24 @@
       "id": "reversibilidad-no-importancia",
       "text": {
         "es": "El eje correcto es reversibilidad, no importancia",
-        "en": "The right axis is reversibility, not importance"
+        "en": "The right axis is reversibility, not importance",
+        "pt": "O eixo correto é reversibilidade, não importância"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "La intuición natural es proteger lo importante y soltar lo trivial. Es la heurística equivocada. Cambiar la descripción interna de un servicio es importante para tu catálogo, pero si el agente se equivoca lo deshaces en treinta segundos: es reversible. En cambio, enviar un mensaje de WhatsApp a un conductor confirmándole un horario de capacitación es trivial en esfuerzo y, sin embargo, una vez enviado no existe el botón de deshacer — el conductor ya lo leyó, ya organizó su día. La irreversibilidad no escala con la importancia; muchas veces va al revés.",
-        "en": "The natural instinct is to protect what's important and release what's trivial. It's the wrong heuristic. Changing a service's internal description matters for your catalog, but if the agent gets it wrong you undo it in thirty seconds: it's reversible. Meanwhile, sending a driver a WhatsApp confirming a training time is trivial in effort and yet, once sent, there is no undo button — the driver already read it, already arranged their day. Irreversibility does not scale with importance; quite often it runs the other way."
+        "en": "The natural instinct is to protect what's important and release what's trivial. It's the wrong heuristic. Changing a service's internal description matters for your catalog, but if the agent gets it wrong you undo it in thirty seconds: it's reversible. Meanwhile, sending a driver a WhatsApp confirming a training time is trivial in effort and yet, once sent, there is no undo button — the driver already read it, already arranged their day. Irreversibility does not scale with importance; quite often it runs the other way.",
+        "pt": "A intuição natural é proteger o que é importante e soltar o trivial. É a heurística errada. Mudar a descrição interna de um serviço é importante para o seu catálogo, mas se o agente erra, você desfaz em trinta segundos: é reversível. Já enviar uma mensagem de WhatsApp a um motorista confirmando um horário de treinamento é trivial em esforço e, no entanto, uma vez enviada não existe o botão de desfazer — o motorista já leu, já organizou o dia dele. A irreversibilidade não escala com a importância; muitas vezes vai ao contrário."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "Al eje de reversibilidad le sumas un segundo: el radio de impacto. ¿Cuánta gente queda afectada si la acción sale mal? Una herramienta que lee el historial de viajes de un pasajero tiene radio de uno y es de solo lectura. Una que reescribe la tabla de tarifas tiene radio de toda la operación: cada viaje cotizado a partir de ese momento sale con el nuevo número. Cruza los dos ejes y obtienes un mapa donde cada herramienta del agente cae en un cuadrante, y el cuadrante — no tu nivel de confianza general — decide si el agente actúa o pregunta.",
-        "en": "To the reversibility axis you add a second one: blast radius. How many people are affected if the action goes wrong? A tool that reads a passenger's trip history has a radius of one and is read-only. One that rewrites the fare table has a radius of the entire operation: every trip quoted from that moment on comes out with the new number. Cross the two axes and you get a map where each agent tool lands in a quadrant, and the quadrant — not your general level of trust — decides whether the agent acts or asks."
+        "en": "To the reversibility axis you add a second one: blast radius. How many people are affected if the action goes wrong? A tool that reads a passenger's trip history has a radius of one and is read-only. One that rewrites the fare table has a radius of the entire operation: every trip quoted from that moment on comes out with the new number. Cross the two axes and you get a map where each agent tool lands in a quadrant, and the quadrant — not your general level of trust — decides whether the agent acts or asks.",
+        "pt": "Ao eixo da reversibilidade você soma um segundo: o raio de impacto. Quantas pessoas ficam afetadas se a ação der errado? Uma ferramenta que lê o histórico de corridas de um passageiro tem raio de um e é somente leitura. Uma que reescreve a tabela de tarifas tem raio de toda a operação: cada corrida cotada a partir daquele momento sai com o novo número. Cruze os dois eixos e você obtém um mapa em que cada ferramenta do agente cai em um quadrante, e o quadrante — não o seu nível de confiança geral — decide se o agente age ou pergunta."
       }
     },
     {
@@ -88,14 +106,16 @@
       "id": "cuatro-categorias-de-accion",
       "text": {
         "es": "Las cuatro categorías de acción del agente",
-        "en": "The four categories of agent action"
+        "en": "The four categories of agent action",
+        "pt": "As quatro categorias de ação do agente"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "Toda herramienta que el agente puede invocar cae en una de cuatro categorías. Clasificarlas una sola vez, al configurar la operación, ahorra meses de decisiones caso por caso y elimina la ansiedad de revisar cada acción individual.",
-        "en": "Every tool the agent can invoke falls into one of four categories. Classifying them once, when you set up the operation, saves months of case-by-case decisions and removes the anxiety of reviewing every individual action."
+        "en": "Every tool the agent can invoke falls into one of four categories. Classifying them once, when you set up the operation, saves months of case-by-case decisions and removes the anxiety of reviewing every individual action.",
+        "pt": "Toda ferramenta que o agente pode invocar cai em uma de quatro categorias. Classificá-las uma única vez, ao configurar a operação, economiza meses de decisões caso a caso e elimina a ansiedade de revisar cada ação individualmente."
       }
     },
     {
@@ -113,6 +133,12 @@
           "**Reversible internal write (Tier-1)**: edit a service description, adjust a draft coverage zone, cancel a phantom trip that clearly never existed. It changes state, but the state is yours and you can undo it. The agent acts and tells you what it did, it does not ask permission first.",
           "**High-radius write (Tier-2)**: change the base fare, turn on surge for a whole city, modify commission rules, archive a company. Reversible in theory, but every minute it's wrong touches everyone. Here the agent proposes the exact change and waits for your yes before applying it.",
           "**Outward or irreversible action (Tier-3)**: send a message to a customer or driver, confirm a time, charge a card, publish to the store, move money. There is no undo. These never run on their own, no matter how much you trust the agent — trust does not un-send a message that was already read."
+        ],
+        "pt": [
+          "**Leitura pura (Tier-0)**: consultar corridas, ler o saldo de um motorista, gerar um relatório, revisar o histórico do agente. Raio zero de dano, totalmente reversível porque nada muda. O agente deve executá-las sem nunca perguntar — pedir confirmação aqui só treina o operador a aprovar de olhos fechados.",
+          "**Escrita interna reversível (Tier-1)**: editar a descrição de um serviço, ajustar uma zona de cobertura em rascunho, cancelar uma corrida fantasma que claramente nunca existiu. Muda o estado, mas o estado é seu e você o desfaz. O agente age e te informa o que fez, não pede permissão antes.",
+          "**Escrita de alto raio (Tier-2)**: mudar a tarifa base, ativar tarifa dinâmica para uma cidade inteira, modificar as regras de comissão, arquivar uma empresa. Reversível em teoria, mas cada minuto errado atinge todo mundo. Aqui o agente propõe a mudança exata e espera o seu sim antes de aplicá-la.",
+          "**Ação para fora ou irreversível (Tier-3)**: enviar uma mensagem a um cliente ou motorista, confirmar um horário, cobrar um cartão, publicar na loja, movimentar dinheiro. Não há desfazer. Essas nunca são executadas sozinhas, não importa quanto você confie no agente — a confiança não devolve uma mensagem já lida."
         ]
       }
     },
@@ -122,14 +148,16 @@
       "id": "lo-que-el-agente-debe-ejecutar-solo",
       "text": {
         "es": "Lo que el agente debe ejecutar sin preguntar",
-        "en": "What the agent should execute without asking"
+        "en": "What the agent should execute without asking",
+        "pt": "O que o agente deve executar sem perguntar"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "El error más caro no es el agente que actúa de más, es el que pregunta de más. Un agente que pide confirmación para leer un reporte o para cancelar un viaje que el GPS muestra a 400 km del pasajero no es prudente: es inútil, porque te devuelve exactamente el trabajo manual que viniste a eliminar. Peor aún, te acostumbra a aprobar sin leer, y el día que aparezca una confirmación que sí importaba, la apruebas con el mismo reflejo automático.",
-        "en": "The most expensive mistake is not the agent that acts too much, it's the one that asks too much. An agent that requests confirmation to read a report, or to cancel a trip the GPS shows 400 km away from the passenger, isn't being careful: it's being useless, because it hands back exactly the manual work you came to eliminate. Worse, it conditions you to approve without reading, and the day a confirmation that actually mattered shows up, you approve it with the same automatic reflex."
+        "en": "The most expensive mistake is not the agent that acts too much, it's the one that asks too much. An agent that requests confirmation to read a report, or to cancel a trip the GPS shows 400 km away from the passenger, isn't being careful: it's being useless, because it hands back exactly the manual work you came to eliminate. Worse, it conditions you to approve without reading, and the day a confirmation that actually mattered shows up, you approve it with the same automatic reflex.",
+        "pt": "O erro mais caro não é o agente que age demais, é o que pergunta demais. Um agente que pede confirmação para ler um relatório ou para cancelar uma corrida que o GPS mostra a 400 km do passageiro não é prudente: é inútil, porque devolve exatamente o trabalho manual que você veio eliminar. Pior ainda, ele te acostuma a aprovar sem ler, e no dia em que aparecer uma confirmação que realmente importava, você a aprova com o mesmo reflexo automático."
       }
     },
     {
@@ -147,6 +175,12 @@
           "Cancellations with objective evidence: trips where the driver never moved, duplicate orders in the same minute, hung sessions the system itself flags as orphaned.",
           "Internal draft adjustments that affect no in-progress trip and no customer: draft-state zones, descriptions, labels, internal notes.",
           "Actions the agent can undo itself within the same conversation if you realize it got something wrong."
+        ],
+        "pt": [
+          "Tudo o que for somente leitura, sem exceção: relatórios, saldos, histórico, diagnósticos, buscas no catálogo.",
+          "Cancelamentos com evidência objetiva: corridas em que o motorista nunca se moveu, pedidos duplicados no mesmo minuto, sessões travadas que o próprio sistema marca como órfãs.",
+          "Ajustes internos em rascunho que não afetam nenhuma corrida em andamento nem nenhum cliente: zonas em estado de rascunho, descrições, etiquetas, notas internas.",
+          "Ações que o próprio agente pode desfazer dentro da mesma conversa, caso você perceba que algo saiu errado."
         ]
       }
     },
@@ -156,14 +190,16 @@
       "id": "lo-que-siempre-requiere-confirmacion",
       "text": {
         "es": "Lo que siempre requiere tu confirmación",
-        "en": "What always requires your confirmation"
+        "en": "What always requires your confirmation",
+        "pt": "O que sempre exige a sua confirmação"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "Del otro lado del mapa están las acciones donde el agente nunca debe asumir. La regla no es «cuando tengas dudas», porque un buen agente rara vez tiene dudas y procedería igual. La regla es estructural: si la acción sale del sistema hacia una persona real, o si su radio cubre toda la operación, pasa por ti antes de ejecutarse — independientemente de qué tan seguro esté el agente.",
-        "en": "On the other side of the map are the actions where the agent must never assume. The rule isn't \"when in doubt\", because a good agent rarely has doubts and would proceed anyway. The rule is structural: if the action leaves the system toward a real person, or if its radius covers the entire operation, it goes through you before running — regardless of how confident the agent is."
+        "en": "On the other side of the map are the actions where the agent must never assume. The rule isn't \"when in doubt\", because a good agent rarely has doubts and would proceed anyway. The rule is structural: if the action leaves the system toward a real person, or if its radius covers the entire operation, it goes through you before running — regardless of how confident the agent is.",
+        "pt": "Do outro lado do mapa estão as ações em que o agente nunca deve presumir. A regra não é «quando houver dúvida», porque um bom agente raramente tem dúvidas e agiria do mesmo jeito. A regra é estrutural: se a ação sai do sistema em direção a uma pessoa real, ou se o seu raio cobre toda a operação, ela passa por você antes de ser executada — independentemente de quão seguro o agente esteja."
       }
     },
     {
@@ -181,6 +217,12 @@
           "Clock-time commitments — confirming a call, a demo, a training slot. The agent cannot be present at 2 PM; it must not promise that on your behalf.",
           "Money movement: charges, refunds, commission changes, generating payment links tied to a plan.",
           "Total-radius changes: base fare, full-city surge, archiving or reactivating a company, publishing a build to the store."
+        ],
+        "pt": [
+          "Qualquer mensagem enviada a um cliente, motorista ou prospect: WhatsApp, e-mail, notificação push redigida pelo agente.",
+          "Compromissos com horário marcado — confirmar uma ligação, uma demonstração, um horário de treinamento. O agente não pode estar presente às 14h; não deve prometer isso em seu nome.",
+          "Movimentações de dinheiro: cobranças, reembolsos, mudanças de comissão, geração de links de pagamento vinculados a um plano.",
+          "Mudanças de raio total: tarifa base, tarifa dinâmica em toda a cidade, arquivar ou reativar uma empresa, publicar um build na loja."
         ]
       }
     },
@@ -189,18 +231,21 @@
       "variant": "warning",
       "text": {
         "es": "El caso límite más peligroso no es técnico, es humano: confirmar una reunión, videollamada o llamada en vivo en tu nombre. El agente no puede asistir a un evento sincrónico, así que un «te paso el link 10 minutos antes» es una promesa imposible de cumplir. Esta es la única categoría donde el costo de un falso positivo — un cliente esperando una llamada que nunca llega — supera con creces cualquier ahorro de tiempo. Déjala siempre del lado de la confirmación humana explícita.",
-        "en": "The most dangerous edge case is not technical, it's human: confirming a live meeting, video call or phone call on your behalf. The agent cannot attend a synchronous event, so a \"I'll send you the link 10 minutes before\" is a promise impossible to keep. This is the one category where the cost of a false positive — a customer waiting for a call that never comes — far outweighs any time saved. Always leave it on the side of explicit human confirmation."
+        "en": "The most dangerous edge case is not technical, it's human: confirming a live meeting, video call or phone call on your behalf. The agent cannot attend a synchronous event, so a \"I'll send you the link 10 minutes before\" is a promise impossible to keep. This is the one category where the cost of a false positive — a customer waiting for a call that never comes — far outweighs any time saved. Always leave it on the side of explicit human confirmation.",
+        "pt": "O caso limite mais perigoso não é técnico, é humano: confirmar uma reunião, videochamada ou ligação ao vivo em seu nome. O agente não pode comparecer a um evento síncrono, então um «te mando o link 10 minutos antes» é uma promessa impossível de cumprir. Esta é a única categoria em que o custo de um falso positivo — um cliente esperando uma ligação que nunca chega — supera de longe qualquer economia de tempo. Deixe-a sempre do lado da confirmação humana explícita."
       }
     },
     {
       "type": "quote",
       "text": {
         "es": "Pasé las primeras dos semanas aprobando cada acción del agente por miedo. Lo único que conseguí fue volver a hacer el trabajo manual, pero ahora con un paso extra. El cambio llegó cuando clasifiqué las herramientas una sola vez: lo de solo lectura y las cancelaciones obvias lo soltó entero, y reservé mi atención para los cuatro o cinco casos al día que de verdad la merecían. Ahí el agente empezó a ahorrarme horas en lugar de minutos.",
-        "en": "I spent the first two weeks approving every agent action out of fear. All I achieved was doing the manual work again, now with an extra step. The shift came when I classified the tools just once: I let it run read-only actions and obvious cancellations end to end, and reserved my attention for the four or five cases a day that truly deserved it. That's when the agent started saving me hours instead of minutes."
+        "en": "I spent the first two weeks approving every agent action out of fear. All I achieved was doing the manual work again, now with an extra step. The shift came when I classified the tools just once: I let it run read-only actions and obvious cancellations end to end, and reserved my attention for the four or five cases a day that truly deserved it. That's when the agent started saving me hours instead of minutes.",
+        "pt": "Passei as primeiras duas semanas aprovando cada ação do agente por medo. A única coisa que consegui foi voltar a fazer o trabalho manual, mas agora com um passo extra. A mudança veio quando classifiquei as ferramentas uma única vez: o que era só leitura e os cancelamentos óbvios ele soltou por conta própria, e eu reservei minha atenção para os quatro ou cinco casos do dia que realmente mereciam. Foi aí que o agente começou a me economizar horas em vez de minutos."
       },
       "attribution": {
         "es": "Operador regional, flota de 80 conductores",
-        "en": "Regional operator, 80-driver fleet"
+        "en": "Regional operator, 80-driver fleet",
+        "pt": "Operador regional, frota de 80 motoristas"
       }
     },
     {
@@ -209,21 +254,24 @@
       "id": "como-se-ve-en-la-operacion-diaria",
       "text": {
         "es": "Cómo se ve esto en un turno real",
-        "en": "What this looks like in a real shift"
+        "en": "What this looks like in a real shift",
+        "pt": "Como isso se parece em um turno real"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "En la práctica, un turno bien configurado se siente así: el agente cierra solo los viajes fantasma, depura los pedidos duplicados, te entrega el reporte de la mañana y marca los conductores con balance negativo — todo sin una sola confirmación, porque todo eso es lectura o escritura interna reversible. Cuando llega a algo de radio alto, cambia de modo: en vez de actuar, te muestra una tarjeta con el cambio exacto. «Voy a subir la tarifa base de la zona centro de 25 a 28; afecta a todos los viajes nuevos desde que confirmes. ¿Procedo?» Tú lees, decides, respondes. Esa tarjeta de confirmación no es fricción accidental: es la frontera del cuadrante haciéndose visible.",
-        "en": "In practice, a well-configured shift feels like this: the agent closes phantom trips on its own, clears duplicate orders, hands you the morning report, and flags drivers with negative balances — all without a single confirmation, because all of that is read or reversible internal write. When it reaches something high-radius, it switches modes: instead of acting, it shows you a card with the exact change. \"I'm going to raise the downtown base fare from 25 to 28; it affects all new trips from the moment you confirm. Proceed?\" You read, decide, respond. That confirmation card isn't accidental friction: it's the quadrant boundary made visible."
+        "en": "In practice, a well-configured shift feels like this: the agent closes phantom trips on its own, clears duplicate orders, hands you the morning report, and flags drivers with negative balances — all without a single confirmation, because all of that is read or reversible internal write. When it reaches something high-radius, it switches modes: instead of acting, it shows you a card with the exact change. \"I'm going to raise the downtown base fare from 25 to 28; it affects all new trips from the moment you confirm. Proceed?\" You read, decide, respond. That confirmation card isn't accidental friction: it's the quadrant boundary made visible.",
+        "pt": "Na prática, um turno bem configurado se sente assim: o agente encerra sozinho as corridas fantasma, limpa os pedidos duplicados, entrega o relatório da manhã e sinaliza os motoristas com saldo negativo — tudo sem uma única confirmação, porque tudo isso é leitura ou escrita interna reversível. Quando chega a algo de alto raio, ele muda de modo: em vez de agir, mostra um cartão com a mudança exata. «Vou subir a tarifa base da zona centro de 25 para 28; isso afeta todas as corridas novas a partir da sua confirmação. Prossigo?» Você lê, decide, responde. Esse cartão de confirmação não é fricção acidental: é a fronteira do quadrante se tornando visível."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "La diferencia con un agente mal configurado es brutal en volumen. Si pones todo detrás de confirmación, un turno normal te genera cuarenta o cincuenta tarjetas, la mayoría de cancelaciones obvias, y las apruebas en piloto automático hasta que se te cuela un error real. Si clasificas por cuadrante, el mismo turno te genera cuatro o cinco confirmaciones, todas de radio alto o hacia afuera, y como son pocas las lees de verdad. Menos confirmaciones, mejor leídas, es más seguro que muchas confirmaciones ignoradas.",
-        "en": "The difference from a badly configured agent is brutal in volume. If you put everything behind confirmation, a normal shift generates forty or fifty cards, most of them obvious cancellations, and you approve them on autopilot until a real mistake slips through. If you classify by quadrant, the same shift generates four or five confirmations, all of them high-radius or outward, and because they are few you actually read them. Fewer confirmations, better read, is safer than many confirmations ignored."
+        "en": "The difference from a badly configured agent is brutal in volume. If you put everything behind confirmation, a normal shift generates forty or fifty cards, most of them obvious cancellations, and you approve them on autopilot until a real mistake slips through. If you classify by quadrant, the same shift generates four or five confirmations, all of them high-radius or outward, and because they are few you actually read them. Fewer confirmations, better read, is safer than many confirmations ignored.",
+        "pt": "A diferença em relação a um agente mal configurado é brutal em volume. Se você coloca tudo atrás de confirmação, um turno normal gera quarenta ou cinquenta cartões, a maioria de cancelamentos óbvios, e você os aprova no piloto automático até que um erro real passe despercebido. Se você classifica por quadrante, o mesmo turno gera quatro ou cinco confirmações, todas de alto raio ou para fora, e como são poucas, você realmente as lê. Menos confirmações, melhor lidas, é mais seguro do que muitas confirmações ignoradas."
       }
     },
     {
@@ -232,21 +280,24 @@
       "id": "el-caso-gris-evidencia-parcial",
       "text": {
         "es": "El caso gris: cuando la evidencia es parcial",
-        "en": "The gray case: when the evidence is partial"
+        "en": "The gray case: when the evidence is partial",
+        "pt": "O caso cinza: quando a evidência é parcial"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "El mapa de cuadrantes resuelve el 90% de las decisiones, pero el 10% restante es donde se gana o se pierde la confianza en el agente. Son los casos donde la categoría depende de evidencia que el agente no puede verificar del todo. Un viaje marcado para cancelar donde el conductor sí se movió, pero solo 200 metros y luego se detuvo media hora: ¿es una cancelación obvia o un viaje real que se complicó? Por reversibilidad parecería Tier-1, pero la ambigüedad lo empuja hacia arriba. La regla aquí es explícita: ante evidencia parcial, el agente sube de categoría, no baja. La duda no se resuelve actuando con la esperanza de acertar; se resuelve escalando a una confirmación que tú decides en cinco segundos.",
-        "en": "The quadrant map resolves 90% of decisions, but the remaining 10% is where trust in the agent is won or lost. These are the cases where the category depends on evidence the agent can't fully verify. A trip flagged for cancellation where the driver did move, but only 200 meters and then stopped for half an hour: is it an obvious cancellation or a real trip that ran into trouble? By reversibility it would look like Tier-1, but the ambiguity pushes it up. The rule here is explicit: when evidence is partial, the agent moves up a category, not down. Doubt is not resolved by acting and hoping to be right; it's resolved by escalating to a confirmation you decide in five seconds."
+        "en": "The quadrant map resolves 90% of decisions, but the remaining 10% is where trust in the agent is won or lost. These are the cases where the category depends on evidence the agent can't fully verify. A trip flagged for cancellation where the driver did move, but only 200 meters and then stopped for half an hour: is it an obvious cancellation or a real trip that ran into trouble? By reversibility it would look like Tier-1, but the ambiguity pushes it up. The rule here is explicit: when evidence is partial, the agent moves up a category, not down. Doubt is not resolved by acting and hoping to be right; it's resolved by escalating to a confirmation you decide in five seconds.",
+        "pt": "O mapa de quadrantes resolve 90% das decisões, mas os 10% restantes são onde se ganha ou se perde a confiança no agente. São os casos em que a categoria depende de evidência que o agente não consegue verificar por completo. Uma corrida marcada para cancelamento em que o motorista de fato se moveu, mas apenas 200 metros e depois parou por meia hora: é um cancelamento óbvio ou uma corrida real que se complicou? Pela reversibilidade, pareceria Tier-1, mas a ambiguidade a empurra para cima. A regra aqui é explícita: diante de evidência parcial, o agente sobe de categoria, não desce. A dúvida não se resolve agindo na esperança de acertar; resolve-se escalando para uma confirmação que você decide em cinco segundos."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "Esto tiene una consecuencia de diseno que vale la pena nombrar: prefieres un agente que escala de más en la zona gris a uno que actúa de más en ella. Un escalamiento innecesario te cuesta cinco segundos de lectura; una acción equivocada en un caso ambiguo te cuesta una llamada del cliente, un conductor molesto o una tarifa mal aplicada durante horas. La asimetría es clara, y por eso la zona gris es el único lugar donde sí conviene pecar de prudente — no porque la prudencia sea virtuosa en abstracto, sino porque ahí el costo del error supera al costo de preguntar.",
-        "en": "This has a design consequence worth naming: you prefer an agent that over-escalates in the gray zone to one that over-acts in it. An unnecessary escalation costs you five seconds of reading; a wrong action in an ambiguous case costs you a customer call, an annoyed driver, or a misapplied fare for hours. The asymmetry is clear, and that's why the gray zone is the one place where erring on the side of caution does pay off — not because caution is virtuous in the abstract, but because there the cost of the error outweighs the cost of asking."
+        "en": "This has a design consequence worth naming: you prefer an agent that over-escalates in the gray zone to one that over-acts in it. An unnecessary escalation costs you five seconds of reading; a wrong action in an ambiguous case costs you a customer call, an annoyed driver, or a misapplied fare for hours. The asymmetry is clear, and that's why the gray zone is the one place where erring on the side of caution does pay off — not because caution is virtuous in the abstract, but because there the cost of the error outweighs the cost of asking.",
+        "pt": "Isso tem uma consequência de design que vale a pena nomear: você prefere um agente que escala demais na zona cinza a um que age demais nela. Uma escalada desnecessária custa cinco segundos de leitura; uma ação errada em um caso ambíguo custa uma ligação do cliente, um motorista irritado ou uma tarifa mal aplicada por horas. A assimetria é clara, e por isso a zona cinza é o único lugar onde realmente vale a pena pecar pelo excesso de prudência — não porque a prudência seja virtuosa em abstrato, mas porque ali o custo do erro supera o custo de perguntar."
       }
     },
     {
@@ -255,47 +306,55 @@
       "id": "el-costo-de-confirmar-de-mas",
       "text": {
         "es": "El costo invisible de confirmar de más",
-        "en": "The invisible cost of over-confirming"
+        "en": "The invisible cost of over-confirming",
+        "pt": "O custo invisível de confirmar demais"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "Confirmar de más tiene un precio que no aparece en ningún reporte: erosiona la atención. Cada confirmación trivial que apruebas baja un poco el umbral con el que lees la siguiente, hasta que la confirmación deja de ser una decisión y se vuelve un reflejo. El operador que aprueba cincuenta tarjetas al día no está supervisando al agente; está firmando lo que el agente ya decidió, con la ilusión de control. La supervisión real es escasa por diseno: pocas decisiones, cada una leída con atención plena.",
-        "en": "Over-confirming carries a cost that shows up in no report: it erodes attention. Every trivial confirmation you approve lowers, a little, the threshold at which you read the next one, until confirmation stops being a decision and becomes a reflex. The operator who approves fifty cards a day isn't supervising the agent; they're signing off on what the agent already decided, with the illusion of control. Real supervision is scarce by design: few decisions, each read with full attention."
+        "en": "Over-confirming carries a cost that shows up in no report: it erodes attention. Every trivial confirmation you approve lowers, a little, the threshold at which you read the next one, until confirmation stops being a decision and becomes a reflex. The operator who approves fifty cards a day isn't supervising the agent; they're signing off on what the agent already decided, with the illusion of control. Real supervision is scarce by design: few decisions, each read with full attention.",
+        "pt": "Confirmar demais tem um preço que não aparece em relatório nenhum: corrói a atenção. Cada confirmação trivial que você aprova baixa um pouco o limiar com que você lê a próxima, até que a confirmação deixa de ser uma decisão e vira um reflexo. O operador que aprova cinquenta cartões por dia não está supervisionando o agente; está assinando o que o agente já decidiu, com a ilusão de controle. A supervisão real é escassa por design: poucas decisões, cada uma lida com atenção plena."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "Si vas a ajustar una sola cosa esta semana, no subas ni bajes la «confianza» general del agente. Abre la lista de herramientas que tiene disponibles y asígnale a cada una su categoría: solo lectura y reversible-interna van directo a ejecución, alto-radio y hacia-afuera van a confirmación. Hazlo una vez, con calma, pensando en reversibilidad y radio, no en importancia. A partir de ahí el agente sabrá exactamente cuándo actuar y cuándo levantar la mano — y tú recuperarás la atención para los pocos momentos en que de verdad hace falta.",
-        "en": "If you're going to adjust one thing this week, don't turn the agent's general \"trust\" up or down. Open the list of tools it has available and assign each one its category: read-only and reversible-internal go straight to execution, high-radius and outward go to confirmation. Do it once, calmly, thinking in terms of reversibility and radius, not importance. From there the agent will know exactly when to act and when to raise its hand — and you'll recover your attention for the few moments it's genuinely needed."
+        "en": "If you're going to adjust one thing this week, don't turn the agent's general \"trust\" up or down. Open the list of tools it has available and assign each one its category: read-only and reversible-internal go straight to execution, high-radius and outward go to confirmation. Do it once, calmly, thinking in terms of reversibility and radius, not importance. From there the agent will know exactly when to act and when to raise its hand — and you'll recover your attention for the few moments it's genuinely needed.",
+        "pt": "Se você for ajustar uma única coisa esta semana, não suba nem desça a «confiança» geral do agente. Abra a lista de ferramentas disponíveis para ele e atribua a cada uma sua categoria: somente leitura e reversível-interna vão direto para execução, alto-raio e para-fora vão para confirmação. Faça isso uma vez, com calma, pensando em reversibilidade e raio, não em importância. A partir daí o agente saberá exatamente quando agir e quando levantar a mão — e você recuperará a atenção para os poucos momentos em que ela realmente é necessária."
       }
     }
   ],
   "cta": {
     "heading": {
       "es": "¿Listo para lanzar tu propia app de movilidad?",
-      "en": "Ready to launch your own mobility app?"
+      "en": "Ready to launch your own mobility app?",
+      "pt": "Pronto para lançar seu próprio app de mobilidade?"
     },
     "body": {
       "es": "Configura tu marca, tus tarifas y tus servicios en semanas, no en meses. Cabgo te entrega la plataforma; tú te quedas con la operación, los clientes y los ingresos.",
-      "en": "Set up your brand, pricing and services in weeks, not months. Cabgo ships the platform — you keep the operation, the customers and the revenue."
+      "en": "Set up your brand, pricing and services in weeks, not months. Cabgo ships the platform — you keep the operation, the customers and the revenue.",
+      "pt": "Configure sua marca, suas tarifas e seus serviços em semanas, não em meses. A Cabgo entrega a plataforma; você fica com a operação, os clientes e a receita."
     },
     "buttonLabel": {
       "es": "Comenzar con Cabgo",
-      "en": "Get started with Cabgo"
+      "en": "Get started with Cabgo",
+      "pt": "Começar com a Cabgo"
     },
     "buttonHref": "/empezar"
   },
   "seo": {
     "metaTitle": {
       "es": "Cuándo el agente actúa y cuándo confirma | Cabgo",
-      "en": "When the agent acts vs. confirms | Cabgo"
+      "en": "When the agent acts vs. confirms | Cabgo",
+      "pt": "Quando o agente age e quando confirma | Cabgo"
     },
     "metaDescription": {
       "es": "Traza la frontera del agente por reversibilidad y radio de impacto, no por importancia. Las cuatro categorías para decidir cuándo actúa solo y cuándo te pregunta.",
-      "en": "Draw the agent's boundary by reversibility and blast radius, not importance. The four categories for deciding when it acts alone and when it asks you."
+      "en": "Draw the agent's boundary by reversibility and blast radius, not importance. The four categories for deciding when it acts alone and when it asks you.",
+      "pt": "Trace a fronteira do agente pela reversibilidade e o raio de impacto, não pela importância. As quatro categorias para decidir quando ele age sozinho e quando pergunta."
     }
   }
 }

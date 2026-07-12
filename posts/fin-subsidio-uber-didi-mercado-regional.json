@@ -3,16 +3,19 @@
   "category": "market",
   "title": {
     "es": "El fin del subsidio ilimitado: lo que el ajuste de Uber y Didi significa para los operadores regionales",
-    "en": "The end of unlimited subsidy: what Uber and Didi's adjustment means for regional operators"
+    "en": "The end of unlimited subsidy: what Uber and Didi's adjustment means for regional operators",
+    "pt": "O fim do subsídio ilimitado: o que o ajuste de Uber e Didi significa para os operadores regionais"
   },
   "excerpt": {
     "es": "Uber y Didi están ajustando sus subsidios en ciudades secundarias de LATAM. Esa contracción crea una ventana de 12 a 24 meses que los operadores regionales pueden convertir en posición estructural.",
-    "en": "Uber and Didi are pulling back on subsidies in secondary LATAM markets. That contraction creates a 12 to 24-month window regional operators can convert into a structural market position."
+    "en": "Uber and Didi are pulling back on subsidies in secondary LATAM markets. That contraction creates a 12 to 24-month window regional operators can convert into a structural market position.",
+    "pt": "Uber e Didi estão ajustando seus subsídios em cidades secundárias da América Latina. Essa contração cria uma janela de 12 a 24 meses que os operadores regionais podem transformar em posição estrutural."
   },
   "heroImage": "https://raw.githubusercontent.com/jonatanvazquez/cabgo-blog-content/main/images/fin-subsidio-uber-didi-mercado-regional.jpg",
   "heroImageAlt": {
     "es": "Ilustración isométrica que contrasta el modelo de subsidio global en contracción con la oportunidad del operador local: a la izquierda un globo de plataforma global con flujo de monedas decreciente, a la derecha un operador regional con conductores posicionados en puntos clave de la ciudad y una gráfica de retención en ascenso",
-    "en": "Isometric illustration contrasting a contracting global subsidy model with a local operator opportunity: on the left a global platform globe with diminishing coin flow, on the right a regional operator with drivers positioned at key city landmarks and a rising retention metric chart"
+    "en": "Isometric illustration contrasting a contracting global subsidy model with a local operator opportunity: on the left a global platform globe with diminishing coin flow, on the right a regional operator with drivers positioned at key city landmarks and a rising retention metric chart",
+    "pt": "Ilustração isométrica que contrasta o modelo de subsídio global em contração com a oportunidade do operador local: à esquerda um globo de plataforma global com fluxo de moedas decrescente, à direita um operador regional com motoristas posicionados em pontos-chave da cidade e um gráfico de retenção em ascensão"
   },
   "heroImagePrompt": "Split isometric composition contrasting two market scenarios. Left: a large translucent globe representing a global platform with two coin-flow streams going down into buckets labeled passenger and driver — the coin streams visibly thinner than the pipe they flow through, with a small crack on the globe surface. Center: a tilted timeline arrow pointing right. Right: a compact local city block with a branded taxi operation — a small office building with a branded flag on top, five driver-car figures positioned at key landmarks including a hospital entrance, an airport terminal, and an office tower, with a floating dashboard panel showing a rising retention curve and a corporate billing document icon. Teal and indigo color palette throughout.",
   "publishedAt": "2026-05-14",
@@ -35,38 +38,53 @@
       "regional operator unit economics ride-hailing",
       "driver retention without platform subsidies",
       "competitive window taxi app mid-size cities"
+    ],
+    "pt": [
+      "concorrência Uber Didi mercados secundários América Latina",
+      "fim do subsídio ride-hailing operadores regionais",
+      "oportunidade plataforma de táxi local vs Uber",
+      "estratégia de expansão mobilidade América Latina 2026",
+      "unit economics operador regional ride-hailing",
+      "retenção de motoristas sem subsídio de plataforma",
+      "janela competitiva app de táxi cidades médias"
     ]
   },
   "author": {
     "name": "Equipo Cabgo",
     "role": {
       "es": "Plataforma de movilidad",
-      "en": "Mobility platform"
+      "en": "Mobility platform",
+      "pt": "Plataforma de mobilidade"
     }
   },
   "cta": {
     "heading": {
       "es": "¿Listo para lanzar tu propia app de movilidad?",
-      "en": "Ready to launch your own mobility app?"
+      "en": "Ready to launch your own mobility app?",
+      "pt": "Pronto para lançar seu próprio app de mobilidade?"
     },
     "body": {
       "es": "Configura tu marca, tus tarifas y tus servicios en semanas, no en meses. Cabgo te entrega la plataforma, tú te quedas con la operación y la marca.",
-      "en": "Set up your brand, pricing and services in weeks, not months. Cabgo ships the platform — you keep the operation and the brand."
+      "en": "Set up your brand, pricing and services in weeks, not months. Cabgo ships the platform — you keep the operation and the brand.",
+      "pt": "Configure sua marca, suas tarifas e seus serviços em semanas, não em meses. A Cabgo entrega a plataforma; você fica com a operação e a marca."
     },
     "buttonLabel": {
       "es": "Empezar ahora",
-      "en": "Get started"
+      "en": "Get started",
+      "pt": "Começar agora"
     },
     "buttonHref": "/empezar"
   },
   "seo": {
     "metaTitle": {
       "es": "Fin del subsidio Uber-Didi: oportunidad regional | Cabgo",
-      "en": "End of Uber-Didi subsidies: the regional opportunity | Cabgo"
+      "en": "End of Uber-Didi subsidies: the regional opportunity | Cabgo",
+      "pt": "Fim do subsídio Uber-Didi: oportunidade regional | Cabgo"
     },
     "metaDescription": {
       "es": "Qué cambió en la estrategia de Uber y Didi en LATAM y cómo los operadores regionales pueden aprovechar la ventana que abre el fin del subsidio ilimitado.",
-      "en": "How Uber and Didi are adjusting their LATAM strategy and what that means for regional ride-hailing operators who are building during this window."
+      "en": "How Uber and Didi are adjusting their LATAM strategy and what that means for regional ride-hailing operators who are building during this window.",
+      "pt": "O que mudou na estratégia de Uber e Didi na América Latina e como os operadores regionais podem aproveitar a janela que o fim do subsídio ilimitado abre."
     }
   },
   "blocks": [
@@ -74,14 +92,16 @@
       "type": "paragraph",
       "text": {
         "es": "El modelo de expansión por subsidio que definió el ride-hailing global durante su primera década está llegando a un punto de inflexión. Uber reportó su primer año fiscal completo con rentabilidad GAAP en 2023 y desde entonces ha ajustado su estrategia de adquisición: menos bonos de incorporación de conductores, menos tarifas subsidiadas para cubrir el gap entre lo que el pasajero paga y lo que cuesta el viaje, más dependencia del motor de precios para equilibrar la ecuación. Didi enfrenta una presión estructural similar en los mercados latinoamericanos donde opera: la lógica de subsidiar demanda para construir cuota tiene un límite de tiempo que varios mercados secundarios de LATAM ya alcanzaron. Lo que está cambiando no es la presencia de las plataformas globales en la región — es la intensidad del subsidio que las hacía artificialmente competitivas en ciudades donde su overhead operativo es proporcional a una operación global, no al de un operador regional que conoce el mercado sin tener que financiar 50 ciudades desde el mismo P&L.",
-        "en": "The subsidy-driven expansion model that defined ride-hailing's global growth for over a decade is reaching a structural inflection point. Uber became GAAP profitable for the first time in a full fiscal year in 2023 and has been adjusting its acquisition strategy ever since: fewer driver onboarding bonuses, fewer below-cost passenger fares, more reliance on pricing algorithms to balance the unit economics. Didi faces structurally similar pressure in the Latin American markets where it operates — the logic of subsidizing demand to build market share has a finite lifespan, and several secondary LATAM markets have already reached it. What is changing is not the presence of global platforms in the region: it is the intensity of the subsidy that made them artificially competitive in cities where their operational overhead is proportional to a global operation, not to a regional operator who knows the local market without having to finance 50 cities from the same P&L."
+        "en": "The subsidy-driven expansion model that defined ride-hailing's global growth for over a decade is reaching a structural inflection point. Uber became GAAP profitable for the first time in a full fiscal year in 2023 and has been adjusting its acquisition strategy ever since: fewer driver onboarding bonuses, fewer below-cost passenger fares, more reliance on pricing algorithms to balance the unit economics. Didi faces structurally similar pressure in the Latin American markets where it operates — the logic of subsidizing demand to build market share has a finite lifespan, and several secondary LATAM markets have already reached it. What is changing is not the presence of global platforms in the region: it is the intensity of the subsidy that made them artificially competitive in cities where their operational overhead is proportional to a global operation, not to a regional operator who knows the local market without having to finance 50 cities from the same P&L.",
+        "pt": "O modelo de expansão por subsídio que definiu o ride-hailing global durante sua primeira década está chegando a um ponto de inflexão. A Uber reportou seu primeiro ano fiscal completo com rentabilidade GAAP em 2023 e, desde então, vem ajustando sua estratégia de aquisição: menos bônus de incorporação de motoristas, menos tarifas subsidiadas para cobrir o gap entre o que o passageiro paga e o que custa a corrida, mais dependência do motor de preços para equilibrar a equação. A Didi enfrenta uma pressão estrutural parecida nos mercados latino-americanos onde opera: a lógica de subsidiar demanda para construir participação tem um prazo de validade que vários mercados secundários da América Latina já atingiram. O que está mudando não é a presença das plataformas globais na região — é a intensidade do subsídio que as tornava artificialmente competitivas em cidades onde seu overhead operacional é proporcional a uma operação global, não ao de um operador regional que conhece o mercado sem precisar financiar 50 cidades a partir do mesmo P&L."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "Este análisis es para operadores regionales con 200 a 700 viajes diarios que compiten — o que tienen planes de competir — en ciudades donde Uber o Didi tienen presencia activa. El argumento no es que la competencia global haya desaparecido ni que vaya a desaparecer. El argumento es que la ventana en la que un operador local puede construir cuota de mercado real, retención de conductores y contratos corporativos a un costo de adquisición viable es más amplia ahora que en cualquier momento de los últimos cinco años, y que los operadores que la usen bien van a tener una ventaja estructural que sobrevivirá cuando los subsidios eventualmente regresen.",
-        "en": "This analysis is for regional operators running 200 to 700 daily trips in cities where Uber or Didi maintain an active presence. The argument is not that global competition has disappeared or is about to. The argument is that the window in which a local operator can build real market share, driver retention, and corporate accounts at a viable acquisition cost is wider now than at any point in the last five years — and that operators who use it well will have a structural advantage that survives when global subsidies eventually return."
+        "en": "This analysis is for regional operators running 200 to 700 daily trips in cities where Uber or Didi maintain an active presence. The argument is not that global competition has disappeared or is about to. The argument is that the window in which a local operator can build real market share, driver retention, and corporate accounts at a viable acquisition cost is wider now than at any point in the last five years — and that operators who use it well will have a structural advantage that survives when global subsidies eventually return.",
+        "pt": "Esta análise é para operadores regionais com 200 a 700 corridas diárias que competem — ou que planejam competir — em cidades onde Uber ou Didi têm presença ativa. O argumento não é que a concorrência global tenha desaparecido nem que vá desaparecer. O argumento é que a janela em que um operador local pode construir participação de mercado real, retenção de motoristas e contratos corporativos a um custo de aquisição viável é mais ampla agora do que em qualquer momento dos últimos cinco anos, e que os operadores que a usarem bem terão uma vantagem estrutural que vai sobreviver quando os subsídios eventualmente voltarem."
       }
     },
     {
@@ -90,21 +110,24 @@
       "id": "estrategia-subsidio-global",
       "text": {
         "es": "Lo que cambió en la economía de las plataformas globales",
-        "en": "What changed in the economics of global platforms"
+        "en": "What changed in the economics of global platforms",
+        "pt": "O que mudou na economia das plataformas globais"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "El subsidio en ride-hailing opera en dos frentes simultáneos: el lado del pasajero, donde la plataforma absorbe parte del costo del viaje para mantener el precio competitivo frente a alternativas; y el lado del conductor, donde paga bonos de activación, garantías de ingreso mínimo y multiplicadores de demanda para mantener la oferta activa. Cuando Uber prioriza márgenes sobre crecimiento, ambas palancas se ajustan. Los bonos de conductor bajan o se condicionan a métricas más restrictivas. Las tarifas al pasajero se acercan al costo real del viaje, incluyendo el overhead de una plataforma global. El resultado en mercados secundarios de LATAM — ciudades de 400,000 a 1,500,000 habitantes donde el ticket promedio es bajo y el volumen no justifica el overhead de una operación global de tiempo completo — es que los precios de las plataformas globales se están alineando progresivamente con las tarifas que un operador local necesita para ser rentable.",
-        "en": "Ride-hailing subsidies operate on two simultaneous fronts: the passenger side, where the platform absorbs part of the trip cost to stay price-competitive against alternatives; and the driver side, where it pays activation bonuses, minimum income guarantees, and demand multipliers to maintain active supply. When Uber shifts priority from growth to margins, both levers adjust. Driver bonuses decline or are conditioned on more restrictive metrics. Passenger fares move closer to the real cost of the trip, including the overhead of running a global platform. The result in secondary LATAM markets — cities of 400,000 to 1,500,000 inhabitants where the average trip value is low and volume doesn't justify a full-time global operation overhead — is that global platform pricing is progressively aligning with what a regional operator actually needs to be profitable."
+        "en": "Ride-hailing subsidies operate on two simultaneous fronts: the passenger side, where the platform absorbs part of the trip cost to stay price-competitive against alternatives; and the driver side, where it pays activation bonuses, minimum income guarantees, and demand multipliers to maintain active supply. When Uber shifts priority from growth to margins, both levers adjust. Driver bonuses decline or are conditioned on more restrictive metrics. Passenger fares move closer to the real cost of the trip, including the overhead of running a global platform. The result in secondary LATAM markets — cities of 400,000 to 1,500,000 inhabitants where the average trip value is low and volume doesn't justify a full-time global operation overhead — is that global platform pricing is progressively aligning with what a regional operator actually needs to be profitable.",
+        "pt": "O subsídio no ride-hailing opera em duas frentes simultâneas: o lado do passageiro, onde a plataforma absorve parte do custo da corrida para manter o preço competitivo frente a alternativas; e o lado do motorista, onde paga bônus de ativação, garantias de renda mínima e multiplicadores de demanda para manter a oferta ativa. Quando a Uber prioriza margens em vez de crescimento, as duas alavancas se ajustam. Os bônus de motorista caem ou passam a depender de métricas mais restritivas. As tarifas ao passageiro se aproximam do custo real da corrida, incluindo o overhead de uma plataforma global. O resultado em mercados secundários da América Latina — cidades de 400.000 a 1.500.000 habitantes onde o ticket médio é baixo e o volume não justifica o overhead de uma operação global em tempo integral — é que os preços das plataformas globais estão se alinhando progressivamente com as tarifas que um operador local precisa praticar para ser rentável."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "El indicador más directo del ajuste no está en el precio al pasajero — que en varias ciudades medianas de México, Colombia y Guatemala todavía es competitivo porque la plataforma lo sostiene con márgenes de mercados más grandes. El indicador está en el lado del conductor: los índices de retención en mercados secundarios, el tiempo de respuesta durante picos de demanda, y con qué frecuencia los conductores de plataforma global reportan ingresos netos por debajo de sus expectativas. Un conductor que antes recibía un bono de incorporación de 400 MXN por completar 50 viajes en la primera semana y ahora recibe 100 MXN por 80 viajes está tomando una decisión económica que el operador local puede aprovechar directamente.",
-        "en": "The most direct indicator of this adjustment is not the passenger fare — which in several mid-size cities in Mexico, Colombia, and Guatemala is still competitive because the platform supports it with margins from larger markets. The indicator is on the driver side: active driver retention rates in secondary markets, response times during peak demand, and how frequently drivers on global platforms report net earnings below expectations. A driver who previously received a 400 MXN onboarding bonus for completing 50 trips in the first week and now receives 100 MXN for 80 trips is making an economic calculation that the local operator can directly take advantage of."
+        "en": "The most direct indicator of this adjustment is not the passenger fare — which in several mid-size cities in Mexico, Colombia, and Guatemala is still competitive because the platform supports it with margins from larger markets. The indicator is on the driver side: active driver retention rates in secondary markets, response times during peak demand, and how frequently drivers on global platforms report net earnings below expectations. A driver who previously received a 400 MXN onboarding bonus for completing 50 trips in the first week and now receives 100 MXN for 80 trips is making an economic calculation that the local operator can directly take advantage of.",
+        "pt": "O indicador mais direto do ajuste não está no preço ao passageiro — que em várias cidades médias do México, da Colômbia e da Guatemala ainda é competitivo porque a plataforma o sustenta com margens de mercados maiores. O indicador está no lado do motorista: os índices de retenção em mercados secundários, o tempo de resposta durante picos de demanda e com que frequência os motoristas de plataforma global reportam ganhos líquidos abaixo de suas expectativas. Um motorista que antes recebia um bônus de incorporação de 400 MXN por completar 50 corridas na primeira semana e agora recebe 100 MXN por 80 corridas está tomando uma decisão econômica que o operador local pode aproveitar diretamente."
       }
     },
     {
@@ -113,21 +136,24 @@
       "id": "mercados-secundarios-latam",
       "text": {
         "es": "Por qué los mercados secundarios de LATAM sintieron el cambio primero",
-        "en": "Why secondary LATAM markets felt the shift first"
+        "en": "Why secondary LATAM markets felt the shift first",
+        "pt": "Por que os mercados secundários da América Latina sentiram a mudança primeiro"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "Las plataformas globales son rentables por mercado en ciudades donde el volumen de viajes es suficiente para amortizar el overhead de la operación local: equipos de soporte, gestión de conductores, adecuación del producto a regulaciones específicas. En Ciudad de México, São Paulo o Bogotá ese overhead se distribuye sobre decenas de miles de viajes diarios y el modelo funciona. En ciudades con 400 a 1,200 viajes diarios totales de plataforma, el costo operativo relativo por viaje es significativamente mayor. Cuando los subsidios globales se reducen, los primeros mercados que pierden la protección artificial de precio son exactamente los que tenían el costo por viaje más alto y la demanda orgánica — no subsidiada — más baja.",
-        "en": "Global platforms are profitable per market in cities where trip volume is sufficient to amortize local operation overhead: support teams, driver relations management, product localization for local regulations. In Mexico City, São Paulo, or Bogotá that overhead is distributed across tens of thousands of daily trips and the model works. In cities with 400 to 1,200 total daily platform trips, the relative cost per trip is significantly higher. When global subsidies contract, the first markets to lose the artificial price protection are exactly the ones where the cost per trip was highest and where organic — unsubsidized — demand is lowest."
+        "en": "Global platforms are profitable per market in cities where trip volume is sufficient to amortize local operation overhead: support teams, driver relations management, product localization for local regulations. In Mexico City, São Paulo, or Bogotá that overhead is distributed across tens of thousands of daily trips and the model works. In cities with 400 to 1,200 total daily platform trips, the relative cost per trip is significantly higher. When global subsidies contract, the first markets to lose the artificial price protection are exactly the ones where the cost per trip was highest and where organic — unsubsidized — demand is lowest.",
+        "pt": "As plataformas globais são rentáveis por mercado em cidades onde o volume de corridas é suficiente para amortizar o overhead da operação local: equipes de suporte, gestão de motoristas, adequação do produto a regulações específicas. Na Cidade do México, em São Paulo ou em Bogotá esse overhead se distribui por dezenas de milhares de corridas diárias e o modelo funciona. Em cidades com 400 a 1.200 corridas diárias totais de plataforma, o custo operacional relativo por corrida é significativamente maior. Quando os subsídios globais se reduzem, os primeiros mercados que perdem a proteção artificial de preço são exatamente os que tinham o custo por corrida mais alto e a demanda orgânica — não subsidiada — mais baixa."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "El patrón se repite en ciudades secundarias de LATAM con suficiente consistencia como para ser documentable: los conductores que operaban exclusivamente en plataformas globales empiezan a explorar alternativas cuando los bonos bajan. Los pasajeros que eran leales a la plataforma global por precio, no por experiencia, se vuelven susceptibles a una alternativa con disponibilidad real en su zona en las franjas donde más la necesitan. El momento en que ocurre — cuando el diferencial de precio entre la plataforma global y la operación local se cierra a menos del 15-20% en el ticket promedio — es exactamente cuando un operador local con buena disponibilidad de conductores puede capturar usuarios que se van a volver recurrentes.",
-        "en": "The pattern repeats in secondary LATAM cities with enough consistency that it is now trackable: drivers operating exclusively on global platforms start exploring alternatives when bonuses decline. Passengers who were loyal to the global platform for price, not experience, become susceptible to an alternative with real driver availability in their area during the hours they need it most. The moment that happens — when the price differential between the global platform and the local operation closes to within 15-20% on the average ticket — is precisely when a local operator with strong driver availability can capture users who will become recurring customers."
+        "en": "The pattern repeats in secondary LATAM cities with enough consistency that it is now trackable: drivers operating exclusively on global platforms start exploring alternatives when bonuses decline. Passengers who were loyal to the global platform for price, not experience, become susceptible to an alternative with real driver availability in their area during the hours they need it most. The moment that happens — when the price differential between the global platform and the local operation closes to within 15-20% on the average ticket — is precisely when a local operator with strong driver availability can capture users who will become recurring customers.",
+        "pt": "O padrão se repete em cidades secundárias da América Latina com consistência suficiente para ser documentável: os motoristas que operavam exclusivamente em plataformas globais começam a explorar alternativas quando os bônus caem. Os passageiros que eram fiéis à plataforma global por preço, e não por experiência, se tornam suscetíveis a uma alternativa com disponibilidade real em sua região nas faixas de horário em que mais precisam. O momento em que isso ocorre — quando o diferencial de preço entre a plataforma global e a operação local se fecha para menos de 15-20% no ticket médio — é exatamente quando um operador local com boa disponibilidade de motoristas pode capturar usuários que vão se tornar recorrentes."
       }
     },
     {
@@ -136,14 +162,16 @@
       "id": "ventaja-operador-local",
       "text": {
         "es": "La ventaja que gana el operador local cuando el subsidio se reduce",
-        "en": "The advantage a local operator gains when the subsidy contracts"
+        "en": "The advantage a local operator gains when the subsidy contracts",
+        "pt": "A vantagem que o operador local ganha quando o subsídio se reduz"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "Las ventajas estructurales de un operador regional frente a una plataforma global no dependen de los subsidios para existir — siempre estuvieron ahí. Lo que cambia cuando el subsidio se reduce es que esas ventajas se vuelven visibles para el pasajero en el precio, no solo en la calidad del servicio. La primera es el conocimiento local del conductor: uno que opera exclusivamente en una ciudad de 500,000 habitantes conoce los puntos de espera, los accesos a zonas residenciales, los accesos al aeropuerto y los patrones de tráfico con un nivel de detalle que ningún algoritmo de plataforma global produce en el mismo tiempo de operación. Eso se traduce directamente en ETAs más precisos, tasas de cancelación más bajas y pasajeros que llegan a tiempo.",
-        "en": "A regional operator's structural advantages over a global platform don't depend on subsidies to exist — they were always there. What changes when the subsidy contracts is that those advantages become visible to the passenger in the price, not just in service quality. The first is local driver knowledge: a driver who operates exclusively in a city of 500,000 inhabitants knows pickup spots, residential area access routes, airport entry lanes, and traffic patterns with a level of detail no global platform algorithm produces in the same operating time. That translates directly into more accurate ETAs, lower cancellation rates, and passengers who arrive when expected."
+        "en": "A regional operator's structural advantages over a global platform don't depend on subsidies to exist — they were always there. What changes when the subsidy contracts is that those advantages become visible to the passenger in the price, not just in service quality. The first is local driver knowledge: a driver who operates exclusively in a city of 500,000 inhabitants knows pickup spots, residential area access routes, airport entry lanes, and traffic patterns with a level of detail no global platform algorithm produces in the same operating time. That translates directly into more accurate ETAs, lower cancellation rates, and passengers who arrive when expected.",
+        "pt": "As vantagens estruturais de um operador regional frente a uma plataforma global não dependem dos subsídios para existir — sempre estiveram ali. O que muda quando o subsídio se reduz é que essas vantagens ficam visíveis para o passageiro no preço, e não apenas na qualidade do serviço. A primeira é o conhecimento local do motorista: aquele que opera exclusivamente em uma cidade de 500.000 habitantes conhece os pontos de espera, os acessos a zonas residenciais, os acessos ao aeroporto e os padrões de tráfego com um nível de detalhe que nenhum algoritmo de plataforma global produz no mesmo tempo de operação. Isso se traduz diretamente em ETAs mais precisos, taxas de cancelamento mais baixas e passageiros que chegam no horário."
       }
     },
     {
@@ -151,7 +179,8 @@
       "style": "bullet",
       "intro": {
         "es": "Las ventajas que un operador regional activa cuando el subsidio del competidor se reduce incluyen:",
-        "en": "The advantages a regional operator activates when the competitor's subsidy contracts include:"
+        "en": "The advantages a regional operator activates when the competitor's subsidy contracts include:",
+        "pt": "As vantagens que um operador regional ativa quando o subsídio do concorrente se reduz incluem:"
       },
       "items": {
         "es": [
@@ -167,6 +196,13 @@
           "Real operational response time: when there is a problem with an incorrect fare or a passenger complaint, the local operator resolves it in hours — not days through an English-language support ticket",
           "Corporate agreements with real switching costs: a local company billing monthly against the regional operator has a provider change process that involves finance, compliance, and executive approval — a barrier that price alone cannot eliminate",
           "Market adaptation speed: changing a fare, opening a new corridor, adjusting the commission model, or launching a second service are decisions the local operator can execute in days, not quarters"
+        ],
+        "pt": [
+          "Estrutura de custos ajustada ao mercado local: sem overhead de operação global, sem suporte multilíngue, sem gestão de regulações em 40 países — o custo por corrida gerenciada é entre 30 e 50% menor do que o de uma plataforma global no mesmo mercado",
+          "Motoristas com identidade ligada à marca: um motorista que opera em uma plataforma com seu nome na tela tem um incentivo diferente do de um motorista anônimo — as avaliações, a reputação e as corridas frequentes com os mesmos passageiros constroem uma relação que a plataforma global não consegue replicar com um pool de alta rotatividade",
+          "Tempo de resposta operacional real: quando há um problema com uma tarifa incorreta ou uma reclamação de passageiro, o operador local consegue resolvê-lo em horas — não em dias com um ticket de suporte em inglês",
+          "Contratos corporativos com barreiras de troca reais: uma empresa local que fatura mensalmente contra o operador regional tem um processo de troca de fornecedor que envolve finanças, compliance e aprovação da diretoria — uma barreira que o preço sozinho não consegue eliminar",
+          "Velocidade de adaptação ao mercado: mudar uma tarifa, abrir um novo corredor, ajustar o modelo de comissão ou lançar um segundo serviço são decisões que o operador local consegue executar em dias, não em trimestres"
         ]
       }
     },
@@ -176,21 +212,24 @@
       "id": "riesgo-retorno-subsidio",
       "text": {
         "es": "El riesgo de construir sobre una ventana temporal",
-        "en": "The risk of building on a temporary window"
+        "en": "The risk of building on a temporary window",
+        "pt": "O risco de construir sobre uma janela temporária"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "El escenario que todo operador regional tiene que tener en mente es el regreso eventual del subsidio. Las plataformas globales no están abandonando los mercados secundarios de LATAM — están ajustando el costo de estar presentes en ellos durante un período de presión de rentabilidad. Cuando las condiciones de capital cambien o cuando una adquisición estratégica cambie el cálculo de largo plazo de alguno de estos jugadores, el subsidio puede regresar. Un operador que construyó su cuota de mercado únicamente sobre el diferencial de precio — porque en este período sus tarifas son similares a las del competidor global — va a perder esa cuota cuando el competidor vuelva a subsidiar la adquisición de pasajeros.",
-        "en": "The scenario every regional operator needs to keep in mind is the eventual return of the subsidy. Global platforms are not abandoning secondary LATAM markets — they are adjusting the cost of being present in them during a profitability pressure period. When capital conditions change, or when a strategic acquisition shifts the long-term calculation of any of these players, the subsidy can return. An operator who built market share solely on the basis of price differential — because in this period their fares are comparable to the global competitor's — will lose that share when the competitor resumes subsidizing passenger acquisition."
+        "en": "The scenario every regional operator needs to keep in mind is the eventual return of the subsidy. Global platforms are not abandoning secondary LATAM markets — they are adjusting the cost of being present in them during a profitability pressure period. When capital conditions change, or when a strategic acquisition shifts the long-term calculation of any of these players, the subsidy can return. An operator who built market share solely on the basis of price differential — because in this period their fares are comparable to the global competitor's — will lose that share when the competitor resumes subsidizing passenger acquisition.",
+        "pt": "O cenário que todo operador regional precisa ter em mente é o retorno eventual do subsídio. As plataformas globais não estão abandonando os mercados secundários da América Latina — estão ajustando o custo de estar presentes neles durante um período de pressão de rentabilidade. Quando as condições de capital mudarem ou quando uma aquisição estratégica alterar o cálculo de longo prazo de algum desses players, o subsídio pode voltar. Um operador que construiu sua participação de mercado apenas sobre o diferencial de preço — porque neste período suas tarifas são parecidas com as do concorrente global — vai perder essa participação quando o concorrente voltar a subsidiar a aquisição de passageiros."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "La única forma de construir retención que sobreviva al regreso del subsidio es hacerlo sobre bases que el precio no puede reemplazar fácilmente: contratos corporativos con facturación mensual y proceso de aprobación para cambiar de proveedor, conductores conocidos por los pasajeros frecuentes cuya calidad de servicio está documentada, y disponibilidad real en las franjas donde la plataforma global tiene cobertura inconsistente porque sus conductores migran hacia zonas de mayor demanda o mayor bono. Un pasajero que en los últimos seis meses encontró conductor disponible en el hospital a las 6:30 am tres veces por semana no cambia de plataforma por un 20% de descuento en la primera semana de bienvenida de la competencia — porque el costo de no encontrar conductor a las 6:30 am es mayor que el descuento.",
-        "en": "The only way to build retention that survives the return of the subsidy is to build it on foundations that price cannot easily replace: corporate contracts with monthly billing and an approval process to change providers, drivers who are known by regular passengers and whose service quality is documented, and real availability during time windows where the global platform has inconsistent coverage because its drivers migrate to higher-demand or higher-bonus zones. A passenger who over the last six months found a driver available at the hospital at 6:30 am three times a week does not switch platforms for a 20% discount in the competitor's welcome week — because the cost of not finding a driver at 6:30 am outweighs the discount."
+        "en": "The only way to build retention that survives the return of the subsidy is to build it on foundations that price cannot easily replace: corporate contracts with monthly billing and an approval process to change providers, drivers who are known by regular passengers and whose service quality is documented, and real availability during time windows where the global platform has inconsistent coverage because its drivers migrate to higher-demand or higher-bonus zones. A passenger who over the last six months found a driver available at the hospital at 6:30 am three times a week does not switch platforms for a 20% discount in the competitor's welcome week — because the cost of not finding a driver at 6:30 am outweighs the discount.",
+        "pt": "A única forma de construir retenção que sobreviva ao retorno do subsídio é fazê-lo sobre bases que o preço não consegue substituir facilmente: contratos corporativos com faturamento mensal e processo de aprovação para trocar de fornecedor, motoristas conhecidos pelos passageiros frequentes cuja qualidade de serviço está documentada e disponibilidade real nas faixas de horário onde a plataforma global tem cobertura inconsistente porque seus motoristas migram para zonas de maior demanda ou maior bônus. Um passageiro que nos últimos seis meses encontrou motorista disponível no hospital às 6:30 da manhã três vezes por semana não troca de plataforma por 20% de desconto na primeira semana de boas-vindas da concorrência — porque o custo de não encontrar motorista às 6:30 da manhã é maior que o desconto."
       }
     },
     {
@@ -199,14 +238,16 @@
       "id": "proximos-12-meses",
       "text": {
         "es": "Qué hacer en los próximos 12 meses mientras la ventana está abierta",
-        "en": "What to do in the next 12 months while the window stays open"
+        "en": "What to do in the next 12 months while the window stays open",
+        "pt": "O que fazer nos próximos 12 meses enquanto a janela está aberta"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "La ventana actual tiene las características de un período de consolidación: el diferencial de precio con la competencia global es más pequeño que en los últimos años, lo que hace viable la captación de usuarios que antes estaban retenidos por subsidio; y el pool de conductores está más disponible para explorar alternativas que cuando los bonos de incorporación eran más agresivos. Ese escenario no va a durar indefinidamente. Los operadores que lo aprovechan mejor son los que concentran la energía en acciones que construyen barreras de retención, no solo en las que maximizan el volumen de viajes a corto plazo.",
-        "en": "The current window has the characteristics of a consolidation period: the price differential with global competition is smaller than it has been in years, making it viable to capture users who were previously locked in by price subsidies; and the driver pool is more open to alternatives than when onboarding bonuses were more aggressive. That situation will not last indefinitely. The operators who use it best concentrate energy on actions that build retention barriers, not just ones that maximize short-term trip volume."
+        "en": "The current window has the characteristics of a consolidation period: the price differential with global competition is smaller than it has been in years, making it viable to capture users who were previously locked in by price subsidies; and the driver pool is more open to alternatives than when onboarding bonuses were more aggressive. That situation will not last indefinitely. The operators who use it best concentrate energy on actions that build retention barriers, not just ones that maximize short-term trip volume.",
+        "pt": "A janela atual tem as características de um período de consolidação: o diferencial de preço com a concorrência global é menor do que nos últimos anos, o que torna viável a captação de usuários que antes estavam retidos pelo subsídio; e o pool de motoristas está mais disponível para explorar alternativas do que quando os bônus de incorporação eram mais agressivos. Esse cenário não vai durar indefinidamente. Os operadores que o aproveitam melhor são os que concentram a energia em ações que constroem barreiras de retenção, não apenas naquelas que maximizam o volume de corridas no curto prazo."
       }
     },
     {
@@ -214,7 +255,8 @@
       "style": "bullet",
       "intro": {
         "es": "Las acciones que producen mayor retorno en los próximos 12 meses en este contexto son:",
-        "en": "The actions that produce the highest return in the next 12 months in this context are:"
+        "en": "The actions that produce the highest return in the next 12 months in this context are:",
+        "pt": "As ações que produzem maior retorno nos próximos 12 meses neste contexto são:"
       },
       "items": {
         "es": [
@@ -230,6 +272,13 @@
           "Activate a driver retention program with a community component: monthly meetings, direct communication, recognition for high-performance drivers — a driver who has a real relationship with the operator carries emotional switching cost on top of the economic",
           "Measure NPS from frequent passengers and act on detractors before the competition recovers them: a passenger with 8 or more trips in the last 30 days who gives a low rating is the first to leave when the competitor offers them a welcome discount",
           "Establish presence in at least one high-demand corridor where the global platform has inconsistent coverage: airport during late-night hours, hospital with an overnight shift, industrial zone with a 5:30 am entry — being the only option with real availability at that point generates loyalty that price cannot produce"
+        ],
+        "pt": [
+          "Abrir um programa ativo de contas corporativas: identificar 10-15 empresas na cidade com necessidade de transporte frequente e oferecer faturamento mensal em conta com um dashboard simples de controle de gastos — cada empresa incorporada é um bloco de demanda com custo de troca alto",
+          "Construir densidade de motoristas nas faixas de maior demanda antes que o concorrente volte a subsidiar posicionamento: se os motoristas estão treinados e ativos no bloco das 6:00-8:30 e das 17:00-20:00, a vantagem de disponibilidade é difícil de reverter no curto prazo",
+          "Ativar um programa de retenção de motoristas com componente de comunidade: reuniões mensais, comunicação direta, reconhecimento de motoristas de alto desempenho — o motorista que tem uma relação real com o operador tem custo de troca emocional além do econômico",
+          "Medir o NPS de passageiros frequentes e agir sobre os detratores antes que a concorrência os recupere: um passageiro com 8 ou mais corridas nos últimos 30 dias que dá uma avaliação baixa é o primeiro a sair quando o concorrente lhe oferece um desconto de boas-vindas",
+          "Estabelecer presença em pelo menos um corredor de alta demanda onde a plataforma global tem cobertura inconsistente: aeroporto em horário noturno, hospital com turno de madrugada, zona industrial com entrada às 5:30 da manhã — ser a única opção com disponibilidade real nesse ponto gera lealdade que o preço não produz"
         ]
       }
     },
@@ -239,46 +288,53 @@
       "id": "unit-economics-sin-subsidio",
       "text": {
         "es": "Cómo cambia el cálculo financiero cuando el competidor deja de subsidiar",
-        "en": "How the financial calculation changes when the competitor stops subsidizing"
+        "en": "How the financial calculation changes when the competitor stops subsidizing",
+        "pt": "Como muda o cálculo financeiro quando o concorrente deixa de subsidiar"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "El efecto más directo de la reducción del subsidio global en la economía del operador regional es la normalización del precio de referencia en el mercado. Cuando Uber subsidia tarifas hasta un nivel que el operador local no puede igualar sin pérdidas, el pasajero percibe la plataforma local como 'más cara' independientemente de la calidad del servicio. Cuando las tarifas de Uber se acercan al costo real del viaje en mercados secundarios — que en ciudades medianas de México y Colombia puede situarse entre 1.2 y 1.6 veces el costo del combustible más el tiempo del conductor — el diferencial percibido se reduce. En ese escenario, el operador local no necesita igualar el precio del competidor global: necesita estar dentro de un rango aceptable mientras ofrece disponibilidad real y confiabilidad de ETA.",
-        "en": "The most direct effect of the reduction in global subsidy on a regional operator's economics is the normalization of the reference price in the market. When Uber subsidizes fares to a level the local operator cannot match without losses, passengers perceive the local platform as 'more expensive' regardless of service quality. When Uber's fares approach the real cost of the trip in secondary markets — which in mid-size cities in Mexico and Colombia typically falls between 1.2 and 1.6 times the cost of fuel plus driver time — the perceived differential narrows. In that scenario, the local operator does not need to match the global competitor's price: they need to stay within an acceptable range while offering real availability and reliable ETAs."
+        "en": "The most direct effect of the reduction in global subsidy on a regional operator's economics is the normalization of the reference price in the market. When Uber subsidizes fares to a level the local operator cannot match without losses, passengers perceive the local platform as 'more expensive' regardless of service quality. When Uber's fares approach the real cost of the trip in secondary markets — which in mid-size cities in Mexico and Colombia typically falls between 1.2 and 1.6 times the cost of fuel plus driver time — the perceived differential narrows. In that scenario, the local operator does not need to match the global competitor's price: they need to stay within an acceptable range while offering real availability and reliable ETAs.",
+        "pt": "O efeito mais direto da redução do subsídio global na economia do operador regional é a normalização do preço de referência no mercado. Quando a Uber subsidia tarifas até um nível que o operador local não consegue igualar sem prejuízo, o passageiro percebe a plataforma local como 'mais cara' independentemente da qualidade do serviço. Quando as tarifas da Uber se aproximam do custo real da corrida em mercados secundários — que em cidades médias do México e da Colômbia pode se situar entre 1,2 e 1,6 vez o custo do combustível mais o tempo do motorista — o diferencial percebido se reduz. Nesse cenário, o operador local não precisa igualar o preço do concorrente global: precisa estar dentro de uma faixa aceitável enquanto oferece disponibilidade real e confiabilidade de ETA."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "Los números varían por ciudad y modelo de flota, pero la lógica financiera es consistente. Un operador regional con 300 viajes diarios, ticket promedio de 95 MXN y comisión del 18% genera ingresos brutos de plataforma de alrededor de 17,100 MXN diarios. Con costos de tecnología, soporte y administración de entre 4,000 y 6,000 MXN diarios — para una operación sin infraestructura global que amortizar — el margen operativo antes de reinversión en crecimiento es viable sin subsidiar ningún lado de la ecuación. El mismo modelo en una plataforma global con overhead distribuido no cierra a ese volumen: necesita el subsidio cruzado de los mercados grandes para justificar la presencia en el mercado secundario. Esa asimetría es la oportunidad estructural.",
-        "en": "The specific numbers vary by city and fleet model, but the financial logic is consistent. A regional operator with 300 daily trips, an average ticket of 95 MXN, and an 18% commission generates gross platform revenue of around 17,100 MXN daily. With technology, support, and administration costs between 4,000 and 6,000 MXN daily — for an operation without distributed global infrastructure to amortize — the operating margin before growth reinvestment is viable without subsidizing either side of the equation. The same model on a global platform with distributed overhead does not close at that volume: it needs the cross-subsidy from larger markets to justify secondary market presence. That asymmetry is the structural opportunity."
+        "en": "The specific numbers vary by city and fleet model, but the financial logic is consistent. A regional operator with 300 daily trips, an average ticket of 95 MXN, and an 18% commission generates gross platform revenue of around 17,100 MXN daily. With technology, support, and administration costs between 4,000 and 6,000 MXN daily — for an operation without distributed global infrastructure to amortize — the operating margin before growth reinvestment is viable without subsidizing either side of the equation. The same model on a global platform with distributed overhead does not close at that volume: it needs the cross-subsidy from larger markets to justify secondary market presence. That asymmetry is the structural opportunity.",
+        "pt": "Os números variam por cidade e modelo de frota, mas a lógica financeira é consistente. Um operador regional com 300 corridas diárias, ticket médio de 95 MXN e comissão de 18% gera receita bruta de plataforma de cerca de 17.100 MXN por dia. Com custos de tecnologia, suporte e administração entre 4.000 e 6.000 MXN por dia — para uma operação sem infraestrutura global a amortizar — a margem operacional antes de reinvestimento em crescimento é viável sem subsidiar nenhum lado da equação. O mesmo modelo em uma plataforma global com overhead distribuído não fecha nesse volume: precisa do subsídio cruzado dos mercados grandes para justificar a presença no mercado secundário. Essa assimetria é a oportunidade estrutural."
       }
     },
     {
       "type": "quote",
       "text": {
         "es": "Cuando Uber subió sus tarifas en nuestra ciudad hace 18 meses, fuimos el destino obvio para los conductores que dejaron de recibir bonos de activación. Incorporamos 35 conductores en seis semanas sin gastar en reclutamiento. Lo que no esperaba es que los pasajeros también vinieran — porque los conductores que migraron a nuestra plataforma tenían reseñas de pasajeros frecuentes que los habían conocido en la otra app y que los buscaron en la nuestra. La ventaja no fue el precio. Fue que ya teníamos los conductores que los pasajeros querían.",
-        "en": "When Uber raised its fares in our city 18 months ago, we became the obvious destination for drivers who stopped receiving activation bonuses. We onboarded 35 drivers in six weeks without spending on recruitment. What I didn't expect was that passengers came too — because the drivers who migrated to our platform had reviews from regular passengers who had known them on the other app and looked for them on ours. The advantage was not price. It was that we already had the drivers passengers wanted."
+        "en": "When Uber raised its fares in our city 18 months ago, we became the obvious destination for drivers who stopped receiving activation bonuses. We onboarded 35 drivers in six weeks without spending on recruitment. What I didn't expect was that passengers came too — because the drivers who migrated to our platform had reviews from regular passengers who had known them on the other app and looked for them on ours. The advantage was not price. It was that we already had the drivers passengers wanted.",
+        "pt": "Quando a Uber subiu suas tarifas na nossa cidade há 18 meses, viramos o destino óbvio para os motoristas que deixaram de receber bônus de ativação. Incorporamos 35 motoristas em seis semanas sem gastar com recrutamento. O que eu não esperava é que os passageiros viessem também — porque os motoristas que migraram para a nossa plataforma tinham avaliações de passageiros frequentes que os haviam conhecido no outro app e que os procuraram no nosso. A vantagem não foi o preço. Foi que já tínhamos os motoristas que os passageiros queriam."
       },
       "attribution": {
         "es": "Operador de plataforma de movilidad con tres ciudades activas en el sureste de México",
-        "en": "Mobility platform operator with three active cities in southeastern Mexico"
+        "en": "Mobility platform operator with three active cities in southeastern Mexico",
+        "pt": "Operador de plataforma de mobilidade com três cidades ativas no sudeste do México"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "El fin del subsidio ilimitado no convierte a los operadores regionales en los ganadores automáticos del mercado de ride-hailing en LATAM. Lo que hace es igualar las condiciones de competencia en mercados secundarios por un período que puede durar entre uno y tres años, dependiendo de cómo evolucionen las decisiones de capital y rentabilidad de las plataformas globales. En ese período, los operadores que construyen densidad de conductores real, contratos corporativos con switching cost, y reputación de disponibilidad en franjas donde la competencia es inconsistente están convirtiendo una ventana de mercado en una posición estructural.",
-        "en": "The end of unlimited subsidy does not make regional operators the automatic winners of the ride-hailing market in LATAM. What it does is level the competitive conditions in secondary markets for a period that could last one to three years, depending on how global platform capital and profitability decisions evolve. In that period, operators who build real driver density, corporate contracts with switching cost, and a reputation for availability during windows where the competition is inconsistent are converting a market window into a structural position."
+        "en": "The end of unlimited subsidy does not make regional operators the automatic winners of the ride-hailing market in LATAM. What it does is level the competitive conditions in secondary markets for a period that could last one to three years, depending on how global platform capital and profitability decisions evolve. In that period, operators who build real driver density, corporate contracts with switching cost, and a reputation for availability during windows where the competition is inconsistent are converting a market window into a structural position.",
+        "pt": "O fim do subsídio ilimitado não transforma os operadores regionais nos vencedores automáticos do mercado de ride-hailing na América Latina. O que ele faz é igualar as condições de concorrência em mercados secundários por um período que pode durar de um a três anos, dependendo de como evoluírem as decisões de capital e rentabilidade das plataformas globais. Nesse período, os operadores que constroem densidade de motoristas real, contratos corporativos com switching cost e reputação de disponibilidade em faixas de horário onde a concorrência é inconsistente estão transformando uma janela de mercado em uma posição estrutural."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "La pregunta no es si el subsidio va a regresar — en alguna forma, probablemente regrese. La pregunta es qué tan difícil va a ser para el competidor global recuperar los pasajeros frecuentes, los conductores de alto desempeño y los contratos corporativos que el operador regional construyó mientras el diferencial de precio era lo suficientemente pequeño como para que la calidad del servicio importara más que el descuento de la semana. Esa dificultad se construye ahora, o no se construye.",
-        "en": "The question is not whether the subsidy will return — in some form, it probably will. The question is how difficult it will be for the global competitor to recover the frequent passengers, high-performance drivers, and corporate contracts that the regional operator built while the price differential was small enough for service quality to matter more than this week's discount. That difficulty is built now, or it is not built at all."
+        "en": "The question is not whether the subsidy will return — in some form, it probably will. The question is how difficult it will be for the global competitor to recover the frequent passengers, high-performance drivers, and corporate contracts that the regional operator built while the price differential was small enough for service quality to matter more than this week's discount. That difficulty is built now, or it is not built at all.",
+        "pt": "A pergunta não é se o subsídio vai voltar — de alguma forma, provavelmente volte. A pergunta é o quão difícil vai ser para o concorrente global recuperar os passageiros frequentes, os motoristas de alto desempenho e os contratos corporativos que o operador regional construiu enquanto o diferencial de preço era pequeno o suficiente para que a qualidade do serviço importasse mais que o desconto da semana. Essa dificuldade se constrói agora, ou não se constrói."
       }
     }
   ]

@@ -3,16 +3,19 @@
   "category": "strategy",
   "title": {
     "es": "Zona de cobertura en el lanzamiento: por qué abrir demasiada ciudad destruye la densidad antes de construirla",
-    "en": "Launch coverage zone: why opening too much city destroys fleet density before it can build"
+    "en": "Launch coverage zone: why opening too much city destroys fleet density before it can build",
+    "pt": "Zona de cobertura no lançamento: por que abrir cidade demais destrói a densidade antes de construí-la"
   },
   "excerpt": {
     "es": "El tamaño de la zona inicial no determina la demanda disponible: la dispersa o la concentra. Abrir demasiada ciudad destruye la densidad que retiene a los conductores en el lanzamiento.",
-    "en": "Initial zone size doesn't determine available demand — it disperses or concentrates it. Opening too much city at launch destroys the session density that keeps drivers active in the first weeks."
+    "en": "Initial zone size doesn't determine available demand — it disperses or concentrates it. Opening too much city at launch destroys the session density that keeps drivers active in the first weeks.",
+    "pt": "O tamanho da zona inicial não determina a demanda disponível: ele a dispersa ou a concentra. Abrir cidade demais destrói a densidade que retém os motoristas no lançamento."
   },
   "heroImage": "https://raw.githubusercontent.com/jonatanvazquez/cabgo-blog-content/main/images/zona-cobertura-lanzamiento-densidad-inicial.jpg",
   "heroImageAlt": {
     "es": "Ilustración isométrica dividida en dos mitades. A la izquierda, una cuadrícula urbana densa y compacta con marcadores de viaje agrupados y flechas de ruta cortas entre figuras de conductor productivas. A la derecha, la misma cuadrícula con un círculo de cobertura mucho mayor, las mismas figuras de conductor dispersas y con pocos marcadores de viaje, y un panel de sesión con ingresos bajos. En el centro, una figura de operador ajusta un control deslizante de perímetro de zona en una consola de configuración",
-    "en": "Isometric illustration split in two halves. On the left, a dense compact city grid with clustered trip markers and short route arrows between productive driver figures. On the right, the same grid with a much larger coverage circle, the same driver figures scattered far apart with few trip markers, and a session panel showing low earnings. In the center, an operator figure adjusts a zone perimeter slider on a configuration console"
+    "en": "Isometric illustration split in two halves. On the left, a dense compact city grid with clustered trip markers and short route arrows between productive driver figures. On the right, the same grid with a much larger coverage circle, the same driver figures scattered far apart with few trip markers, and a session panel showing low earnings. In the center, an operator figure adjusts a zone perimeter slider on a configuration console",
+    "pt": "Ilustração isométrica dividida em duas metades. À esquerda, uma malha urbana densa e compacta com marcadores de corrida agrupados e setas de rota curtas entre figuras de motorista produtivas. À direita, a mesma malha com um círculo de cobertura muito maior, as mesmas figuras de motorista dispersas e com poucos marcadores de corrida, e um painel de sessão com ganhos baixos. No centro, uma figura de operador ajusta um controle deslizante de perímetro de zona em um console de configuração"
   },
   "heroImagePrompt": "Isometric composition split into two halves. On the left, a compact dense city grid with trip markers clustered tightly and short route arrows between them, driver figures completing frequent trips shown by stacked trip cards on a glowing green session panel. On the right, the same city grid with a much larger coverage circle, the same number of driver figures scattered far apart, trip markers sparse and distant, and a session earnings panel showing a low red bar. In the center foreground, a compact operator figure adjusts a zone perimeter slider from wide to narrow on a configuration console. A dotted teal line highlights the optimal compact boundary of the left zone. Deep violet floor grid, soft indigo radial background glow, clean geometric shapes, subtle shadows. Negative space on the lower right.",
   "publishedAt": "2026-07-03",
@@ -35,13 +38,23 @@
       "minimum viable zone ride-hailing launch",
       "coverage perimeter regional taxi platform",
       "operational density by zone ride-hailing"
+    ],
+    "pt": [
+      "zona de cobertura lançamento transporte por aplicativo",
+      "raio operacional inicial app de táxi regional",
+      "densidade de frota operação nova cidade",
+      "como definir zona de cobertura mobilidade regional",
+      "zona mínima viável transporte por aplicativo lançamento",
+      "perímetro de cobertura operação app de táxi",
+      "densidade operacional por zona transporte por aplicativo"
     ]
   },
   "author": {
     "name": "Equipo Cabgo",
     "role": {
       "es": "Plataforma de movilidad",
-      "en": "Mobility platform"
+      "en": "Mobility platform",
+      "pt": "Plataforma de mobilidade"
     }
   },
   "blocks": [
@@ -49,14 +62,16 @@
       "type": "paragraph",
       "text": {
         "es": "La decisión de cuánta ciudad cubrir en el lanzamiento es una de las que más impacto tiene y menos análisis recibe. La mayoría de los operadores regionales abre la zona de cobertura con un criterio de ambición geográfica —cuanto mayor el área, más solicitudes potenciales— sin calcular qué produce esa elección sobre la densidad que cada conductor experimenta en su sesión. Una operación lanzada con 22 conductores sobre una zona de 80 km² produce una experiencia de sesión completamente distinta a la misma operación sobre 18 km², con probabilidades de retención de flota radicalmente diferentes en los primeros 60 días. El tamaño inicial de la zona no determina la demanda disponible: la dispersa o la concentra. Y esa diferencia define si los conductores que incorporas en el lanzamiento se mantienen activos o reducen gradualmente su disponibilidad mientras la operación todavía construye inercia de demanda.",
-        "en": "The decision of how much city to cover at launch is one of the highest-impact and least-analyzed choices a regional operator makes. Most operators open their coverage area using a geographic ambition criterion — the larger the area, the more potential requests — without calculating what that choice does to the demand density each driver experiences in their session. An operation launched with 22 drivers over 80 km² produces a session experience entirely different from the same operation over 18 km², with radically different fleet retention odds in the first 60 days. Initial zone size doesn't determine available demand — it disperses or concentrates it. And that difference defines whether the drivers you onboard at launch remain active or gradually reduce their availability while the operation is still building demand momentum."
+        "en": "The decision of how much city to cover at launch is one of the highest-impact and least-analyzed choices a regional operator makes. Most operators open their coverage area using a geographic ambition criterion — the larger the area, the more potential requests — without calculating what that choice does to the demand density each driver experiences in their session. An operation launched with 22 drivers over 80 km² produces a session experience entirely different from the same operation over 18 km², with radically different fleet retention odds in the first 60 days. Initial zone size doesn't determine available demand — it disperses or concentrates it. And that difference defines whether the drivers you onboard at launch remain active or gradually reduce their availability while the operation is still building demand momentum.",
+        "pt": "A decisão de quanta cidade cobrir no lançamento é uma das que mais causam impacto e menos recebem análise. A maioria dos operadores regionais abre a zona de cobertura com um critério de ambição geográfica — quanto maior a área, mais solicitações potenciais — sem calcular o que essa escolha produz sobre a densidade que cada motorista vivencia em sua sessão. Uma operação lançada com 22 motoristas sobre uma zona de 80 km² produz uma experiência de sessão completamente diferente da mesma operação sobre 18 km², com probabilidades de retenção de frota radicalmente diferentes nos primeiros 60 dias. O tamanho inicial da zona não determina a demanda disponível: ele a dispersa ou a concentra. E essa diferença define se os motoristas que você incorpora no lançamento se mantêm ativos ou reduzem gradualmente sua disponibilidade enquanto a operação ainda constrói inércia de demanda."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "Este artículo está dirigido al operador que planea lanzar una operación nueva o que tiene una operación activa con tiempo de espera elevado y una densidad de viajes por conductor por debajo de 8 semanales sin ninguna causa evidente. Cubre por qué el radio inicial de cobertura tiene más impacto en los primeros 90 días que el número de conductores incorporados, cómo estimar la zona mínima viable para una flota de arranque, las señales que indican que la zona actual es demasiado grande para la demanda y la flota disponibles, el momento correcto para ampliarla, y cómo usar el agente para monitorear la densidad de demanda por subzona antes de tomar decisiones de expansión territorial.",
-        "en": "This article is for the operator planning a new launch or running an active operation with elevated wait times and fewer than 8 trips per active driver per week without any obvious cause. It covers why the initial coverage radius has more impact on the first 90 days than the number of drivers onboarded, how to estimate the minimum viable zone for a launch fleet, the signals that indicate the current zone is too large for available demand and fleet, the right moment to expand it, and how to use the agent to monitor demand density by subzone before making geographic expansion decisions."
+        "en": "This article is for the operator planning a new launch or running an active operation with elevated wait times and fewer than 8 trips per active driver per week without any obvious cause. It covers why the initial coverage radius has more impact on the first 90 days than the number of drivers onboarded, how to estimate the minimum viable zone for a launch fleet, the signals that indicate the current zone is too large for available demand and fleet, the right moment to expand it, and how to use the agent to monitor demand density by subzone before making geographic expansion decisions.",
+        "pt": "Este artigo é voltado ao operador que planeja lançar uma operação nova ou que tem uma operação ativa com tempo de espera elevado e uma densidade de corridas por motorista abaixo de 8 semanais sem nenhuma causa evidente. Ele aborda por que o raio inicial de cobertura tem mais impacto nos primeiros 90 dias do que o número de motoristas incorporados, como estimar a zona mínima viável para uma frota de arranque, os sinais que indicam que a zona atual é grande demais para a demanda e a frota disponíveis, o momento certo para ampliá-la, e como usar o agente para monitorar a densidade de demanda por subzona antes de tomar decisões de expansão territorial."
       }
     },
     {
@@ -65,21 +80,24 @@
       "id": "tamano-zona-determina-viabilidad-sesion-conductor",
       "text": {
         "es": "Por qué el tamaño de zona determina la viabilidad económica de la sesión del conductor",
-        "en": "Why zone size determines the economic viability of the driver's session"
+        "en": "Why zone size determines the economic viability of the driver's session",
+        "pt": "Por que o tamanho da zona determina a viabilidade econômica da sessão do motorista"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "En una operación con 20 conductores activos simultáneos, la diferencia entre operar sobre 15 km² y sobre 65 km² no es solo geográfica —es la diferencia entre conductores que completan 5-7 viajes en una sesión de cuatro horas y conductores que completan 2-3. En la zona compacta, la demanda está suficientemente concentrada para que el conductor que termina un viaje esté a 2-4 minutos de la siguiente solicitud. En la zona amplia, el tiempo entre solicitudes puede ser 8-14 minutos, lo que reduce el ingreso por hora hasta el punto donde la plataforma no compite con otras opciones disponibles en el mismo mercado.",
-        "en": "In an operation with 20 simultaneously active drivers, the difference between operating over 15 km² versus 65 km² isn't just geographic — it's the difference between drivers completing 5 to 7 trips in a four-hour session and completing 2 to 3. In the compact zone, demand is concentrated enough that the driver who finishes a trip is 2 to 4 minutes from the next request. In the large zone, the time between requests can be 8 to 14 minutes, reducing hourly income to the point where the platform no longer competes with other options available in the same market."
+        "en": "In an operation with 20 simultaneously active drivers, the difference between operating over 15 km² versus 65 km² isn't just geographic — it's the difference between drivers completing 5 to 7 trips in a four-hour session and completing 2 to 3. In the compact zone, demand is concentrated enough that the driver who finishes a trip is 2 to 4 minutes from the next request. In the large zone, the time between requests can be 8 to 14 minutes, reducing hourly income to the point where the platform no longer competes with other options available in the same market.",
+        "pt": "Em uma operação com 20 motoristas ativos simultâneos, a diferença entre operar sobre 15 km² e sobre 65 km² não é apenas geográfica — é a diferença entre motoristas que completam 5-7 corridas em uma sessão de quatro horas e motoristas que completam 2-3. Na zona compacta, a demanda está concentrada o suficiente para que o motorista que termina uma corrida esteja a 2-4 minutos da próxima solicitação. Na zona ampla, o tempo entre solicitações pode ser de 8-14 minutos, o que reduz o ganho por hora até o ponto em que a plataforma não compete com outras opções disponíveis no mesmo mercado."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "El problema se agrava porque la flota en reducción produce un ciclo de retroalimentación negativa. La operación que lanzó con zona amplia pierde conductores comprometidos en las semanas 3-6 porque las sesiones de baja productividad los desplazan hacia otras opciones. Esa reducción de disponibilidad hace subir el tiempo de espera, lo que reduce la demanda del período siguiente, lo que baja aún más la densidad por conductor, lo que acelera la salida de los conductores marginales. El operador que detecta ese deterioro en la semana 8 lo suele atribuir a falta de demanda o a conductores sin compromiso —sin identificar que la causa original fue el tamaño de la zona inicial, que distribuyó la demanda disponible en una superficie que la flota de arranque no podía cubrir con sesiones económicamente viables.",
-        "en": "The problem compounds because a shrinking fleet produces a negative feedback loop. An operation that launched with a large zone loses committed drivers in weeks 3 to 6 because low-productivity sessions push them toward other options. That reduction in availability raises wait times, which reduces demand in the next period, which further lowers density per driver, which accelerates the exit of marginal drivers. The operator who detects that deterioration in week 8 typically attributes it to insufficient demand or low driver commitment — without identifying that the original cause was the initial zone size, which distributed available demand across a surface the launch fleet couldn't cover with economically viable sessions."
+        "en": "The problem compounds because a shrinking fleet produces a negative feedback loop. An operation that launched with a large zone loses committed drivers in weeks 3 to 6 because low-productivity sessions push them toward other options. That reduction in availability raises wait times, which reduces demand in the next period, which further lowers density per driver, which accelerates the exit of marginal drivers. The operator who detects that deterioration in week 8 typically attributes it to insufficient demand or low driver commitment — without identifying that the original cause was the initial zone size, which distributed available demand across a surface the launch fleet couldn't cover with economically viable sessions.",
+        "pt": "O problema se agrava porque a frota em redução produz um ciclo de retroalimentação negativa. A operação que lançou com zona ampla perde motoristas comprometidos nas semanas 3-6 porque as sessões de baixa produtividade os deslocam para outras opções. Essa redução de disponibilidade faz subir o tempo de espera, o que reduz a demanda do período seguinte, o que baixa ainda mais a densidade por motorista, o que acelera a saída dos motoristas marginais. O operador que detecta essa deterioração na semana 8 costuma atribuí-la à falta de demanda ou a motoristas sem comprometimento — sem identificar que a causa original foi o tamanho da zona inicial, que distribuiu a demanda disponível sobre uma superfície que a frota de arranque não conseguia cobrir com sessões economicamente viáveis."
       }
     },
     {
@@ -88,21 +106,24 @@
       "id": "calculo-densidad-minima-viable-zona-lanzamiento",
       "text": {
         "es": "El cálculo de densidad mínima viable para la zona de lanzamiento",
-        "en": "The minimum viable density calculation for the launch zone"
+        "en": "The minimum viable density calculation for the launch zone",
+        "pt": "O cálculo de densidade mínima viável para a zona de lançamento"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "La densidad operativa de una zona —el número de viajes disponibles por kilómetro cuadrado por hora en la franja de mayor demanda— predice si la experiencia del conductor va a ser suficientemente productiva para mantener su compromiso en los primeros 60 días. Una operación con menos de 0.8 viajes por km² por hora en las franjas pico produce sesiones que el conductor percibe como de baja rentabilidad aunque el volumen total sea razonable. Una densidad entre 1.2 y 2.5 viajes por km² por hora en las franjas de mayor solicitud produce la experiencia de sesión que sostiene el compromiso inicial de la flota mientras la demanda madura.",
-        "en": "A zone's operational density — the number of available trips per square kilometer per hour during the highest-demand period — predicts whether driver session experience will be productive enough to sustain fleet commitment in the first 60 days. An operation with fewer than 0.8 trips per km² per hour during peak bands produces sessions drivers perceive as low-yield even when total volume is reasonable. A density of 1.2 to 2.5 trips per km² per hour during peak request periods produces the session experience that sustains initial fleet commitment while demand matures."
+        "en": "A zone's operational density — the number of available trips per square kilometer per hour during the highest-demand period — predicts whether driver session experience will be productive enough to sustain fleet commitment in the first 60 days. An operation with fewer than 0.8 trips per km² per hour during peak bands produces sessions drivers perceive as low-yield even when total volume is reasonable. A density of 1.2 to 2.5 trips per km² per hour during peak request periods produces the session experience that sustains initial fleet commitment while demand matures.",
+        "pt": "A densidade operacional de uma zona — o número de corridas disponíveis por quilômetro quadrado por hora na faixa de maior demanda — prediz se a experiência do motorista será produtiva o suficiente para manter seu comprometimento nos primeiros 60 dias. Uma operação com menos de 0,8 corrida por km² por hora nas faixas de pico produz sessões que o motorista percebe como de baixa rentabilidade mesmo que o volume total seja razoável. Uma densidade entre 1,2 e 2,5 corridas por km² por hora nas faixas de maior solicitação produz a experiência de sessão que sustenta o comprometimento inicial da frota enquanto a demanda amadurece."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "El cálculo de la zona viable tiene dos insumos: la demanda estimada en el área de mayor concentración de la ciudad y el número de conductores que puedes activar de forma realista en el primer mes. Si la demanda estimada en hora pico en el área de mayor actividad es de 35-55 solicitudes por hora y el plan de lanzamiento contempla 18 conductores activos simultáneos, la zona que produce densidad suficiente está en el rango de 15-25 km². Si la zona de lanzamiento es de 70 km², la densidad cae por debajo del umbral que produce sesiones económicamente viables desde el primer día. No necesitas una estimación precisa para hacer ese cálculo —necesitas un rango conservador, y la zona debe ser lo suficientemente compacta para que incluso el escenario bajo de demanda produzca densidad por encima del umbral mínimo.",
-        "en": "The viable zone calculation has two inputs: estimated demand in the city's highest-concentration area and the number of drivers you can realistically activate in the first month. If estimated peak-hour demand in the highest-activity area is 35 to 55 requests per hour and the launch plan includes 18 simultaneously active drivers during that peak, the zone that produces sufficient density sits in the 15 to 25 km² range. If the initial zone is 70 km², density falls below the threshold for viable sessions from day one. You don't need a precise demand estimate to make that calculation — you need a conservative range, and the zone should be compact enough that even the low-demand scenario produces density above the minimum threshold."
+        "en": "The viable zone calculation has two inputs: estimated demand in the city's highest-concentration area and the number of drivers you can realistically activate in the first month. If estimated peak-hour demand in the highest-activity area is 35 to 55 requests per hour and the launch plan includes 18 simultaneously active drivers during that peak, the zone that produces sufficient density sits in the 15 to 25 km² range. If the initial zone is 70 km², density falls below the threshold for viable sessions from day one. You don't need a precise demand estimate to make that calculation — you need a conservative range, and the zone should be compact enough that even the low-demand scenario produces density above the minimum threshold.",
+        "pt": "O cálculo da zona viável tem dois insumos: a demanda estimada na área de maior concentração da cidade e o número de motoristas que você consegue ativar de forma realista no primeiro mês. Se a demanda estimada em hora de pico na área de maior atividade for de 35-55 solicitações por hora e o plano de lançamento contemplar 18 motoristas ativos simultâneos, a zona que produz densidade suficiente está na faixa de 15-25 km². Se a zona de lançamento for de 70 km², a densidade cai abaixo do limiar que produz sessões economicamente viáveis desde o primeiro dia. Você não precisa de uma estimativa precisa para fazer esse cálculo — precisa de uma faixa conservadora, e a zona deve ser compacta o suficiente para que mesmo o cenário baixo de demanda produza densidade acima do limiar mínimo."
       }
     },
     {
@@ -118,6 +139,11 @@
           "**Launch zone for 10-15 active drivers**: 8 to 12 km², centered on the area with the highest anticipated request density. At peak hours, that combination produces enough density for 4 to 6 trips per four-hour session for most drivers.",
           "**Launch zone for 15-25 active drivers**: 12 to 22 km², with the larger surface justified by the number of available drivers to distribute across it — provided estimated demand is sufficient to produce 1.2 trips per km² per hour at peak.",
           "**Launch zone for more than 25 active drivers**: up to 30 to 35 km², with strict density monitoring by subzone from the first week to identify areas where supply exceeds available demand and adjust driver activation accordingly."
+        ],
+        "pt": [
+          "**Zona de lançamento para 10-15 motoristas ativos**: 8-12 km², centrada na área de maior densidade de solicitações previsíveis. Em hora de pico, essa combinação produz densidade suficiente para 4-6 corridas por sessão de quatro horas para a maioria dos motoristas.",
+          "**Zona de lançamento para 15-25 motoristas ativos**: 12-22 km², com a superfície adicional justificada pelo número de motoristas disponíveis para se distribuir nela — desde que a demanda estimada seja suficiente para produzir 1,2 corrida por km² por hora no pico.",
+          "**Zona de lançamento para mais de 25 motoristas ativos**: até 30-35 km², com monitoramento rigoroso de densidade por subzona desde a primeira semana para identificar zonas onde a oferta supera a demanda disponível e ajustar a ativação de motoristas."
         ]
       }
     },
@@ -127,14 +153,16 @@
       "id": "senales-zona-demasiado-grande-flota-activa",
       "text": {
         "es": "Las señales de que la zona es demasiado grande para la flota activa",
-        "en": "The signals that the zone is too large for the active fleet"
+        "en": "The signals that the zone is too large for the active fleet",
+        "pt": "Os sinais de que a zona é grande demais para a frota ativa"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "El operador con una operación activa puede identificar si el tamaño de la zona es el factor limitante con tres lecturas directas. La densidad de viajes por conductor activo por semana por debajo de 8 sin reducción de demanda visible es la primera señal: la zona puede estar distribuyendo la misma demanda en una superficie que la flota no cubre con densidad suficiente. La segunda es la distribución geográfica del mapa de calor de viajes: si el 70-75% de los viajes se concentra en el 35-40% del área total, el resto del territorio está abierto como opción teórica pero produce demanda insuficiente para justificar la cobertura activa. La tercera son los conductores que operan sistemáticamente solo en el núcleo de la zona, evitando la periferia —no porque esté prohibido, sino porque la experiencia empírica les indica que la periferia produce menos viajes por hora.",
-        "en": "An operator with an active operation can identify whether zone size is the limiting factor with three direct readings. Trips per active driver per week below 8 without visible demand reduction is the first signal: the zone may be distributing the same demand across a surface the fleet doesn't cover with sufficient density. The second is the geographic distribution of the trip heat map: if 70 to 75% of trips concentrate in 35 to 40% of the total area, the remaining territory is open as a theoretical option but generating insufficient demand to justify active coverage. The third is drivers who consistently operate only in the zone's core, avoiding the periphery — not because it's prohibited, but because empirical experience tells them the periphery produces fewer trips per hour."
+        "en": "An operator with an active operation can identify whether zone size is the limiting factor with three direct readings. Trips per active driver per week below 8 without visible demand reduction is the first signal: the zone may be distributing the same demand across a surface the fleet doesn't cover with sufficient density. The second is the geographic distribution of the trip heat map: if 70 to 75% of trips concentrate in 35 to 40% of the total area, the remaining territory is open as a theoretical option but generating insufficient demand to justify active coverage. The third is drivers who consistently operate only in the zone's core, avoiding the periphery — not because it's prohibited, but because empirical experience tells them the periphery produces fewer trips per hour.",
+        "pt": "O operador com uma operação ativa pode identificar se o tamanho da zona é o fator limitante com três leituras diretas. A densidade de corridas por motorista ativo por semana abaixo de 8 sem redução de demanda visível é o primeiro sinal: a zona pode estar distribuindo a mesma demanda sobre uma superfície que a frota não cobre com densidade suficiente. O segundo é a distribuição geográfica do mapa de calor de corridas: se 70-75% das corridas se concentram em 35-40% da área total, o restante do território está aberto como opção teórica mas produz demanda insuficiente para justificar a cobertura ativa. O terceiro são os motoristas que operam sistematicamente apenas no núcleo da zona, evitando a periferia — não porque esteja proibido, mas porque a experiência empírica lhes indica que a periferia produz menos corridas por hora."
       }
     },
     {
@@ -152,6 +180,12 @@
           "**Low trips-per-driver density without an identifiable demand cause**: if total operation volume is reasonable but trips per active driver sit below 8 per week, the zone may be the factor — not demand levels or driver count.",
           "**High driver dropout rate in weeks 4-8**: when launch-onboarded drivers stop connecting in that period without documented negative feedback, low-productivity session experience from an oversized zone is the most common cause.",
           "**Drivers systematically avoiding specific subzones**: if the between-trips position map shows permanent concentration in 25 to 30% of the defined area, the rest of the zone isn't generating sufficient demand to distribute the fleet effectively."
+        ],
+        "pt": [
+          "**Tempo de espera desigual entre subzonas**: se a mediana no corredor central é 4 minutos e no corredor periférico é 14-18, a frota não alcança cobertura real na periferia — apenas disponibilidade teórica que não produz corridas.",
+          "**Densidade de corridas por motorista baixa sem causa de demanda identificável**: se o volume total da operação é razoável mas as corridas por motorista ativo estão abaixo de 8 semanais, a zona pode ser o fator — não a demanda nem o número de motoristas.",
+          "**Alta taxa de abandono de motoristas nas semanas 4-8**: quando os motoristas incorporados no lançamento deixam de se conectar nesse período sem feedback negativo documentado, a experiência de sessão de baixa produtividade por zona ampla é a causa mais frequente.",
+          "**Motoristas que evitam subzonas específicas de forma sistemática**: se o mapa de posições entre corridas mostra concentração permanente em 25-30% da área definida, o restante da zona não gera demanda suficiente para distribuir a frota de forma efetiva."
         ]
       }
     },
@@ -161,21 +195,24 @@
       "id": "como-definir-perimetro-correcto-antes-lanzamiento",
       "text": {
         "es": "Cómo definir el perímetro correcto antes de abrir la operación",
-        "en": "How to define the right perimeter before opening the operation"
+        "en": "How to define the right perimeter before opening the operation",
+        "pt": "Como definir o perímetro correto antes de abrir a operação"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "La zona de lanzamiento no debe ser el área total donde el operador tiene ambición de operar —debe ser el núcleo donde la demanda ya es predecible y densa. En la práctica, ese núcleo corresponde al área donde la densidad de uso de movilidad es más alta: el centro de la ciudad, los corredores de entrada y salida laboral activos y las zonas de mayor concentración de comercio y servicios. Abrir ese núcleo primero —incluso si significa excluir temporalmente zonas residenciales periféricas o áreas de demanda esporádica— produce conductores que experimentan sesiones productivas desde el primer día. Ese punto de partida tiene más valor que cualquier otra variable de lanzamiento porque determina si la flota inicial se mantiene, y la flota inicial es el único activo que genera demanda repetida en las semanas siguientes.",
-        "en": "The launch zone shouldn't be the full area where the operator has operational ambitions — it should be the core where demand is already predictable and dense. In practice, that core corresponds to the area with the highest mobility usage density: the city center, active morning and evening commute corridors, and zones with the highest concentration of commerce and services. Opening that core first — even if it means temporarily excluding peripheral residential areas or zones with sporadic demand — produces drivers who experience productive sessions from day one. That starting point has more value than any other launch variable because it determines whether the initial fleet sustains itself, and the initial fleet is the only asset that generates repeat demand in the following weeks."
+        "en": "The launch zone shouldn't be the full area where the operator has operational ambitions — it should be the core where demand is already predictable and dense. In practice, that core corresponds to the area with the highest mobility usage density: the city center, active morning and evening commute corridors, and zones with the highest concentration of commerce and services. Opening that core first — even if it means temporarily excluding peripheral residential areas or zones with sporadic demand — produces drivers who experience productive sessions from day one. That starting point has more value than any other launch variable because it determines whether the initial fleet sustains itself, and the initial fleet is the only asset that generates repeat demand in the following weeks.",
+        "pt": "A zona de lançamento não deve ser a área total onde o operador tem ambição de operar — deve ser o núcleo onde a demanda já é previsível e densa. Na prática, esse núcleo corresponde à área onde a densidade de uso de mobilidade é mais alta: o centro da cidade, os corredores de entrada e saída do trabalho ativos e as zonas de maior concentração de comércio e serviços. Abrir esse núcleo primeiro — mesmo que signifique excluir temporariamente zonas residenciais periféricas ou áreas de demanda esporádica — produz motoristas que vivenciam sessões produtivas desde o primeiro dia. Esse ponto de partida tem mais valor do que qualquer outra variável de lançamento porque determina se a frota inicial se mantém, e a frota inicial é o único ativo que gera demanda repetida nas semanas seguintes."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "La instrucción al agente que ayuda a definir el perímetro antes del lanzamiento: «Basándote en los patrones de movilidad típicos de una ciudad de [X] habitantes en México, ¿cuál es el área de mayor concentración de solicitudes esperadas en una operación de ride-hailing regional? Si el radio de cobertura inicial fuera de 15 km², ¿qué zonas o corredores incluiría y cuáles quedarían fuera en una primera fase?» Si el operador ya tiene datos propios —registros de usuarios, consultas recibidas o datos de una operación anterior que está migrando—, esos insumos se pueden agregar a la consulta para que el agente ajuste el perímetro recomendado según la señal de demanda real disponible.",
-        "en": "The agent instruction that helps define the perimeter before launch: 'Based on typical mobility patterns for a city of [X] inhabitants in Mexico, what area concentrates the highest expected request density in a regional ride-hailing operation? If the initial coverage radius were 15 km², which zones or corridors would it include and which would be excluded from a first phase?' If the operator already has their own data — user registrations, incoming inquiries, or data from a prior operation they're migrating — those inputs can be added to the query so the agent adjusts the recommended perimeter based on actual available demand signal."
+        "en": "The agent instruction that helps define the perimeter before launch: 'Based on typical mobility patterns for a city of [X] inhabitants in Mexico, what area concentrates the highest expected request density in a regional ride-hailing operation? If the initial coverage radius were 15 km², which zones or corridors would it include and which would be excluded from a first phase?' If the operator already has their own data — user registrations, incoming inquiries, or data from a prior operation they're migrating — those inputs can be added to the query so the agent adjusts the recommended perimeter based on actual available demand signal.",
+        "pt": "A instrução ao agente que ajuda a definir o perímetro antes do lançamento: «Com base nos padrões de mobilidade típicos de uma cidade de [X] habitantes no México, qual é a área de maior concentração de solicitações esperadas em uma operação de transporte por aplicativo regional? Se o raio de cobertura inicial fosse de 15 km², quais zonas ou corredores você incluiria e quais ficariam de fora em uma primeira fase?» Se o operador já tiver dados próprios — cadastros de usuários, consultas recebidas ou dados de uma operação anterior que está migrando —, esses insumos podem ser adicionados à consulta para que o agente ajuste o perímetro recomendado conforme o sinal de demanda real disponível."
       }
     },
     {
@@ -184,21 +221,24 @@
       "id": "cuando-ampliar-zona-tres-senales-validan-expansion",
       "text": {
         "es": "Cuándo ampliar la zona: las tres señales que validan la expansión",
-        "en": "When to expand the zone: the three signals that validate expansion"
+        "en": "When to expand the zone: the three signals that validate expansion",
+        "pt": "Quando ampliar a zona: os três sinais que validam a expansão"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "La expansión de la zona es correcta cuando la operación muestra tres señales simultáneas durante al menos dos semanas consecutivas: densidad de viajes por conductor activo consistentemente por encima de 18 semanales, tiempo de espera mediano por debajo de 5 minutos en los corredores actuales durante los picos, y una proporción de solicitudes sin conductor disponible superior al 12-15%. Las tres juntas indican que la demanda supera la capacidad de cobertura actual —y que ampliar la zona va a generar demanda adicional que la flota existente puede absorber sin que la densidad por conductor caiga por debajo del umbral de viabilidad de sesión. Si la densidad es alta pero el tiempo de espera no es bajo, el problema no es la zona: es la distribución de la flota dentro de ella.",
-        "en": "Zone expansion is right when the operation shows three simultaneous signals for at least two consecutive weeks: trips per active driver consistently above 18 per week, median wait time below 5 minutes in current corridors during peaks, and a rate of requests without an available driver above 12 to 15%. All three together indicate that demand exceeds current coverage capacity — and that expanding the zone will generate additional demand the existing fleet can absorb without dropping per-driver density below the viable session threshold. If density is high but wait time isn't low, the problem isn't the zone — it's fleet distribution within it."
+        "en": "Zone expansion is right when the operation shows three simultaneous signals for at least two consecutive weeks: trips per active driver consistently above 18 per week, median wait time below 5 minutes in current corridors during peaks, and a rate of requests without an available driver above 12 to 15%. All three together indicate that demand exceeds current coverage capacity — and that expanding the zone will generate additional demand the existing fleet can absorb without dropping per-driver density below the viable session threshold. If density is high but wait time isn't low, the problem isn't the zone — it's fleet distribution within it.",
+        "pt": "A expansão da zona é correta quando a operação mostra três sinais simultâneos durante pelo menos duas semanas consecutivas: densidade de corridas por motorista ativo consistentemente acima de 18 semanais, tempo de espera mediano abaixo de 5 minutos nos corredores atuais durante os picos, e uma proporção de solicitações sem motorista disponível superior a 12-15%. Os três juntos indicam que a demanda supera a capacidade de cobertura atual — e que ampliar a zona vai gerar demanda adicional que a frota existente consegue absorver sem que a densidade por motorista caia abaixo do limiar de viabilidade de sessão. Se a densidade é alta mas o tempo de espera não é baixo, o problema não é a zona: é a distribuição da frota dentro dela."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "La ampliación correcta es incremental y verificada: no se abre todo el territorio nuevo a la vez sino por subzonas contiguas de 5-8 km² adicionales, con un período de monitoreo de dos semanas antes de la siguiente ampliación. Ese ritmo permite verificar que la densidad por conductor no cayó en la zona total antes de continuar, y que el tiempo de espera en la nueva subzona converge hacia los rangos de la zona original. El operador que abre el territorio completo de una vez —porque la demanda en la zona nueva también es alta— enfrenta el mismo riesgo que el del lanzamiento amplio: la densidad cae si la flota no creció en proporción al área.",
-        "en": "Correct expansion is incremental and verified: you don't open the full new territory at once but in contiguous subzones of 5 to 8 additional km², with a two-week monitoring window before the next expansion. That pace allows verifying that per-driver density didn't drop across the full zone before continuing, and that wait time in the new subzone converges toward the original zone's ranges. An operator who opens the full territory at once — because demand in the new zone is also high — faces the same risk as a wide launch: density drops if the fleet didn't grow proportionally to the area."
+        "en": "Correct expansion is incremental and verified: you don't open the full new territory at once but in contiguous subzones of 5 to 8 additional km², with a two-week monitoring window before the next expansion. That pace allows verifying that per-driver density didn't drop across the full zone before continuing, and that wait time in the new subzone converges toward the original zone's ranges. An operator who opens the full territory at once — because demand in the new zone is also high — faces the same risk as a wide launch: density drops if the fleet didn't grow proportionally to the area.",
+        "pt": "A ampliação correta é incremental e verificada: não se abre todo o território novo de uma vez, mas por subzonas contíguas de 5-8 km² adicionais, com um período de monitoramento de duas semanas antes da ampliação seguinte. Esse ritmo permite verificar que a densidade por motorista não caiu na zona total antes de continuar, e que o tempo de espera na nova subzona converge para as faixas da zona original. O operador que abre o território completo de uma vez — porque a demanda na zona nova também é alta — enfrenta o mesmo risco do lançamento amplo: a densidade cai se a frota não cresceu em proporção à área."
       }
     },
     {
@@ -207,72 +247,84 @@
       "id": "agente-monitorea-densidad-demanda-por-subzona",
       "text": {
         "es": "Cómo el agente monitorea la densidad de demanda por subzona",
-        "en": "How the agent monitors demand density by subzone"
+        "en": "How the agent monitors demand density by subzone",
+        "pt": "Como o agente monitora a densidade de demanda por subzona"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "La instrucción al agente que produce la lectura de densidad por subzona: «Divide los viajes completados en los últimos 7 días por zona geográfica: norte, centro, sur y cualquier otra subzona que tenga la operación. Para cada zona, muéstrame el total de viajes, el número de conductores únicos que operaron en ella y el tiempo de espera mediano. Compara con los 7 días anteriores.» Esa lectura identifica qué subzonas tienen demanda suficiente para justificar cobertura activa, cuáles generan viajes pero con tiempo de espera alto —señal de que necesitan más conductores o mejor distribución—, y cuáles tienen conductores pero sin demanda —candidatas a retiro temporal de cobertura o a redireccionamiento de activación hacia otras zonas.",
-        "en": "The agent instruction that produces the subzone density reading: 'Divide completed trips over the last 7 days by geographic zone: north, center, south, and any other subzone in the operation. For each zone, show me total trips, unique drivers who operated in it, and median wait time. Compare against the prior 7 days.' That reading identifies which subzones have enough demand to justify active coverage, which zones generate trips but with high wait times — a signal they need more drivers or better distribution — and which have drivers but no demand — candidates for temporary coverage withdrawal or redirecting activation to other zones."
+        "en": "The agent instruction that produces the subzone density reading: 'Divide completed trips over the last 7 days by geographic zone: north, center, south, and any other subzone in the operation. For each zone, show me total trips, unique drivers who operated in it, and median wait time. Compare against the prior 7 days.' That reading identifies which subzones have enough demand to justify active coverage, which zones generate trips but with high wait times — a signal they need more drivers or better distribution — and which have drivers but no demand — candidates for temporary coverage withdrawal or redirecting activation to other zones.",
+        "pt": "A instrução ao agente que produz a leitura de densidade por subzona: «Divida as corridas concluídas nos últimos 7 dias por zona geográfica: norte, centro, sul e qualquer outra subzona que a operação tenha. Para cada zona, me mostre o total de corridas, o número de motoristas únicos que operaram nela e o tempo de espera mediano. Compare com os 7 dias anteriores.» Essa leitura identifica quais subzonas têm demanda suficiente para justificar cobertura ativa, quais geram corridas mas com tempo de espera alto — sinal de que precisam de mais motoristas ou melhor distribuição —, e quais têm motoristas mas sem demanda — candidatas a retirada temporária de cobertura ou a redirecionamento de ativação para outras zonas."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "Una segunda consulta que completa el diagnóstico de zona: «¿Qué porcentaje de los viajes completados en los últimos 14 días se produjo dentro del 50% más céntrico del área de cobertura total? ¿Cuál es la diferencia en tiempo de espera mediano entre el 50% central y el 50% periférico?» Si el 75-80% de los viajes se origina en el núcleo central y la periferia tiene tiempo de espera al doble o más que el centro, la zona total es más amplia de lo que la demanda y la flota justifican en ese momento. Esa lectura permite tomar la decisión de contracción temporal sin reducir el número de conductores —solo concentrando la activación en el núcleo donde la densidad produce la experiencia correcta para ambas partes.",
-        "en": "A second query that completes the zone diagnostic: 'What percentage of completed trips over the last 14 days originated within the most central 50% of the total coverage area? What is the difference in median wait time between that central 50% and the peripheral 50%?' If 75 to 80% of trips originate in the central core and the periphery has wait times double or more than the center, the total zone is wider than demand and fleet currently justify. That reading enables a temporary contraction decision without reducing driver count — only concentrating activation in the core where density produces the right experience for both parties."
+        "en": "A second query that completes the zone diagnostic: 'What percentage of completed trips over the last 14 days originated within the most central 50% of the total coverage area? What is the difference in median wait time between that central 50% and the peripheral 50%?' If 75 to 80% of trips originate in the central core and the periphery has wait times double or more than the center, the total zone is wider than demand and fleet currently justify. That reading enables a temporary contraction decision without reducing driver count — only concentrating activation in the core where density produces the right experience for both parties.",
+        "pt": "Uma segunda consulta que completa o diagnóstico de zona: «Qual porcentagem das corridas concluídas nos últimos 14 dias ocorreu dentro dos 50% mais centrais da área de cobertura total? Qual é a diferença no tempo de espera mediano entre os 50% centrais e os 50% periféricos?» Se 75-80% das corridas se originam no núcleo central e a periferia tem tempo de espera do dobro ou mais que o centro, a zona total é mais ampla do que a demanda e a frota justificam naquele momento. Essa leitura permite tomar a decisão de contração temporária sem reduzir o número de motoristas — apenas concentrando a ativação no núcleo onde a densidade produz a experiência correta para ambas as partes."
       }
     },
     {
       "type": "quote",
       "text": {
         "es": "Cuando lancé, abrí toda la ciudad porque quería que ningún pasajero quedara sin cobertura. En las primeras tres semanas, mis conductores más activos empezaron a desconectarse. Cuando calculé los viajes por sesión, el promedio era de 2.5 en cuatro horas de trabajo. Cerré temporalmente las zonas periféricas y concentré la operación en 18 km² centrales con los mismos conductores. En dos semanas la densidad subió a 6-7 viajes por sesión. Los conductores que se estaban yendo volvieron. La zona grande no me daba más demanda —me daba la misma demanda más diluida.",
-        "en": "When I launched, I opened the full city because I didn't want any passenger to lack coverage. In the first three weeks, my most active drivers started disconnecting. When I calculated trips per session, the average was 2.5 across a four-hour shift. I temporarily closed the peripheral zones and concentrated the operation within 18 central km² with the same drivers. Within two weeks, density rose to 6 to 7 trips per session. The drivers who had been leaving came back. The large zone wasn't giving me more demand — it was giving me the same demand, more diluted."
+        "en": "When I launched, I opened the full city because I didn't want any passenger to lack coverage. In the first three weeks, my most active drivers started disconnecting. When I calculated trips per session, the average was 2.5 across a four-hour shift. I temporarily closed the peripheral zones and concentrated the operation within 18 central km² with the same drivers. Within two weeks, density rose to 6 to 7 trips per session. The drivers who had been leaving came back. The large zone wasn't giving me more demand — it was giving me the same demand, more diluted.",
+        "pt": "Quando lancei, abri a cidade inteira porque queria que nenhum passageiro ficasse sem cobertura. Nas primeiras três semanas, meus motoristas mais ativos começaram a se desconectar. Quando calculei as corridas por sessão, a média era de 2,5 em quatro horas de trabalho. Fechei temporariamente as zonas periféricas e concentrei a operação em 18 km² centrais com os mesmos motoristas. Em duas semanas a densidade subiu para 6-7 corridas por sessão. Os motoristas que estavam indo embora voltaram. A zona grande não me dava mais demanda — me dava a mesma demanda mais diluída."
       },
       "attribution": {
         "es": "Operador con tres años de operación en una ciudad de 350,000 habitantes en el sureste de México",
-        "en": "Operator with three years of operation in a city of 350,000 in southeastern Mexico"
+        "en": "Operator with three years of operation in a city of 350,000 in southeastern Mexico",
+        "pt": "Operador com três anos de operação em uma cidade de 350.000 habitantes no sudeste do México"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "La zona de cobertura inicial no es una decisión de marketing —es la decisión que determina si la flota que incorporas en el lanzamiento va a tener sesiones productivas suficientes para mantenerse activa en las semanas siguientes. El operador que lanza con zona compacta y demanda concentrada construye flota comprometida; el que lanza con zona amplia construye flota que percibe la plataforma como de baja rentabilidad antes de que la operación haya tenido tiempo de desarrollar su demanda. El punto de partida correcto no exige excluir permanentemente ninguna zona de la ciudad —exige abrir primero donde la demanda ya existe y la densidad puede sostenerse con la flota disponible, y expandir solo cuando los indicadores confirman que la operación puede absorber más superficie sin perder la calidad de experiencia que retiene a los conductores activos.",
-        "en": "The initial coverage zone isn't a marketing decision — it's the decision that determines whether the fleet you onboard at launch will have productive enough sessions to stay active in the following weeks. The operator who launches with a compact zone and concentrated demand builds committed fleet; the one who launches with a large zone builds a fleet that perceives the platform as low-yield before the operation has had time to develop its demand base. The right starting point doesn't require permanently excluding any part of the city — it requires opening first where demand already exists and density can be sustained with the available fleet, and expanding only when indicators confirm the operation can absorb more surface area without losing the experience quality that retains active drivers."
+        "en": "The initial coverage zone isn't a marketing decision — it's the decision that determines whether the fleet you onboard at launch will have productive enough sessions to stay active in the following weeks. The operator who launches with a compact zone and concentrated demand builds committed fleet; the one who launches with a large zone builds a fleet that perceives the platform as low-yield before the operation has had time to develop its demand base. The right starting point doesn't require permanently excluding any part of the city — it requires opening first where demand already exists and density can be sustained with the available fleet, and expanding only when indicators confirm the operation can absorb more surface area without losing the experience quality that retains active drivers.",
+        "pt": "A zona de cobertura inicial não é uma decisão de marketing — é a decisão que determina se a frota que você incorpora no lançamento vai ter sessões produtivas suficientes para se manter ativa nas semanas seguintes. O operador que lança com zona compacta e demanda concentrada constrói frota comprometida; o que lança com zona ampla constrói frota que percebe a plataforma como de baixa rentabilidade antes de a operação ter tido tempo de desenvolver sua demanda. O ponto de partida correto não exige excluir permanentemente nenhuma zona da cidade — exige abrir primeiro onde a demanda já existe e a densidade pode se sustentar com a frota disponível, e expandir somente quando os indicadores confirmam que a operação consegue absorver mais superfície sem perder a qualidade de experiência que retém os motoristas ativos."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "La contracción temporal de zona —cuando la operación ya está activa pero con densidad baja— tiene un costo operativo bajo y un impacto en la experiencia del conductor que puedes observar en dos semanas. Concentrar la activación en el núcleo más denso, aunque implique dejar de cubrir zonas periféricas con demanda esporádica, produce una mejora de densidad de sesión que retiene a los conductores comprometidos sin requerir cambios de tarifa, incentivos adicionales ni nuevas acciones de onboarding. La zona correcta no es la más grande que puedes cubrir con la flota disponible —es la más pequeña que produce densidad de sesión suficiente para que los conductores que se conecten quieran volver a conectarse.",
-        "en": "Temporary zone contraction — when the operation is already active but density is low — carries a low operational cost and a driver experience impact you can observe within two weeks. Concentrating activation in the densest core, even if it means stopping coverage of peripheral zones with sporadic demand, produces a session density improvement that retains committed drivers without any rate change, additional incentive, or new onboarding action. The right zone isn't the largest you can cover with the available fleet — it's the smallest that produces enough session density for drivers who connect to want to connect again."
+        "en": "Temporary zone contraction — when the operation is already active but density is low — carries a low operational cost and a driver experience impact you can observe within two weeks. Concentrating activation in the densest core, even if it means stopping coverage of peripheral zones with sporadic demand, produces a session density improvement that retains committed drivers without any rate change, additional incentive, or new onboarding action. The right zone isn't the largest you can cover with the available fleet — it's the smallest that produces enough session density for drivers who connect to want to connect again.",
+        "pt": "A contração temporária de zona — quando a operação já está ativa mas com densidade baixa — tem um custo operacional baixo e um impacto na experiência do motorista que você consegue observar em duas semanas. Concentrar a ativação no núcleo mais denso, mesmo que implique deixar de cobrir zonas periféricas com demanda esporádica, produz uma melhora de densidade de sessão que retém os motoristas comprometidos sem exigir mudanças de tarifa, incentivos adicionais nem novas ações de onboarding. A zona correta não é a maior que você consegue cobrir com a frota disponível — é a menor que produz densidade de sessão suficiente para que os motoristas que se conectem queiram se conectar de novo."
       }
     }
   ],
   "cta": {
     "heading": {
       "es": "¿Listo para lanzar tu propia app de movilidad?",
-      "en": "Ready to launch your own mobility app?"
+      "en": "Ready to launch your own mobility app?",
+      "pt": "Pronto para lançar seu próprio app de mobilidade?"
     },
     "body": {
       "es": "Configura tu marca, tus tarifas y tus servicios en semanas, no en meses. Cabgo te entrega la plataforma; tú te quedas con la operación, los clientes y los ingresos.",
-      "en": "Set up your brand, pricing and services in weeks, not months. Cabgo ships the platform — you keep the operation, the customers and the revenue."
+      "en": "Set up your brand, pricing and services in weeks, not months. Cabgo ships the platform — you keep the operation, the customers and the revenue.",
+      "pt": "Configure sua marca, suas tarifas e seus serviços em semanas, não em meses. A Cabgo entrega a plataforma; você fica com a operação, os clientes e a receita."
     },
     "buttonLabel": {
       "es": "Comenzar con Cabgo",
-      "en": "Get started with Cabgo"
+      "en": "Get started with Cabgo",
+      "pt": "Começar com a Cabgo"
     },
     "buttonHref": "/empezar"
   },
   "seo": {
     "metaTitle": {
       "es": "Zona de cobertura inicial: densidad de flota | Cabgo",
-      "en": "Coverage zone at launch: fleet density | Cabgo"
+      "en": "Coverage zone at launch: fleet density | Cabgo",
+      "pt": "Zona de cobertura inicial: densidade de frota | Cabgo"
     },
     "metaDescription": {
       "es": "Por qué abrir demasiada ciudad en el lanzamiento destruye la densidad antes de construirla, cómo calcular la zona inicial y cuándo ampliarla.",
-      "en": "Why a launch zone that is too large destroys driver session density before it can build — and how to size the right initial radius for a new operation."
+      "en": "Why a launch zone that is too large destroys driver session density before it can build — and how to size the right initial radius for a new operation.",
+      "pt": "Por que abrir cidade demais no lançamento destrói a densidade antes de construí-la, como calcular a zona inicial e quando ampliá-la."
     }
   }
 }

@@ -3,16 +3,19 @@
   "category": "strategy",
   "title": {
     "es": "Cómo calcular el break-even de una nueva ciudad en 90 días",
-    "en": "How to calculate break-even for a new city in 90 days"
+    "en": "How to calculate break-even for a new city in 90 days",
+    "pt": "Como calcular o break-even de uma nova cidade em 90 dias"
   },
   "excerpt": {
     "es": "El break-even de una nueva ciudad no es una fecha — es un volumen diario de viajes. Saber ese número antes del lanzamiento es la diferencia entre llegar al equilibrio en el mes tres o descubrirlo en el mes cinco.",
-    "en": "Break-even for a new city isn't a date — it's a daily trip volume. Knowing that number before launch is the difference between reaching equilibrium in month three or discovering it in month five."
+    "en": "Break-even for a new city isn't a date — it's a daily trip volume. Knowing that number before launch is the difference between reaching equilibrium in month three or discovering it in month five.",
+    "pt": "O break-even de uma nova cidade não é uma data — é um volume diário de corridas. Saber esse número antes do lançamento é a diferença entre chegar ao equilíbrio no mês três ou descobri-lo no mês cinco."
   },
   "heroImage": "https://raw.githubusercontent.com/jonatanvazquez/cabgo-blog-content/main/images/break-even-nueva-ciudad-tres-meses.jpg",
   "heroImageAlt": {
     "es": "Ilustración isométrica del break-even en una nueva ciudad: calendario de 90 días dividido en tres fases con marcador de equilibrio en teal, panel de dashboard con dos curvas cruzadas —volumen de viajes subiendo y costo por viaje bajando— y mapa de ciudad con íconos de conductores creciendo en densidad junto a una barra de revenue ascendente",
-    "en": "Isometric illustration of break-even in a new city: 90-day calendar divided into three phases with a teal equilibrium marker, dashboard panel with two crossing curves — rising trip volume and falling cost per trip — and a city map with driver icons growing in density beside a rising revenue bar"
+    "en": "Isometric illustration of break-even in a new city: 90-day calendar divided into three phases with a teal equilibrium marker, dashboard panel with two crossing curves — rising trip volume and falling cost per trip — and a city map with driver icons growing in density beside a rising revenue bar",
+    "pt": "Ilustração isométrica do break-even em uma nova cidade: calendário de 90 dias dividido em três fases com marcador de equilíbrio em teal, painel de dashboard com duas curvas cruzadas —volume de corridas subindo e custo por corrida caindo— e mapa da cidade com ícones de motoristas crescendo em densidade ao lado de uma barra de receita ascendente"
   },
   "heroImagePrompt": "Isometric split composition showing the financial trajectory of a new ride-hailing city launch. Left: a large wall calendar grid with a 90-day arc highlighted in teal, divided into three labeled segments — Month 1, Month 2, Month 3 — with a glowing star milestone marker at the end of Month 3 labeled Break-Even. Center: a floating dashboard panel displaying two overlapping line graphs — one rising curve for daily trip volume in teal and one descending curve for cost-per-trip in indigo — crossing at a highlighted intersection point. Right: a compact top-down city block map with small driver-car icons growing denser left to right, and a vertical stacked bar beside it showing cost layers in indigo and revenue in teal, with revenue surpassing cost at the top.",
   "publishedAt": "2026-05-09",
@@ -35,38 +38,53 @@
       "daily trips needed break-even taxi app",
       "financial plan regional mobility operation",
       "revenue projection ride-hailing secondary market"
+    ],
+    "pt": [
+      "break-even nova cidade transporte por aplicativo",
+      "calcular ponto de equilíbrio app de táxi",
+      "lançar segunda cidade mobilidade LATAM",
+      "custos de lançamento plataforma de transporte",
+      "corridas diárias necessárias break-even táxi",
+      "plano financeiro operação de mobilidade regional",
+      "projeção de receita transporte por aplicativo mercado secundário"
     ]
   },
   "author": {
     "name": "Equipo Cabgo",
     "role": {
       "es": "Plataforma de movilidad",
-      "en": "Mobility platform"
+      "en": "Mobility platform",
+      "pt": "Plataforma de mobilidade"
     }
   },
   "cta": {
     "heading": {
       "es": "¿Listo para lanzar tu propia app de movilidad?",
-      "en": "Ready to launch your own mobility app?"
+      "en": "Ready to launch your own mobility app?",
+      "pt": "Pronto para lançar seu próprio app de mobilidade?"
     },
     "body": {
       "es": "Configura tu marca, tus tarifas y tus servicios en semanas, no en meses. Cabgo te entrega la plataforma, tú te quedas con la operación y la marca.",
-      "en": "Set up your brand, pricing and services in weeks, not months. Cabgo ships the platform — you keep the operation and the brand."
+      "en": "Set up your brand, pricing and services in weeks, not months. Cabgo ships the platform — you keep the operation and the brand.",
+      "pt": "Configure sua marca, suas tarifas e seus serviços em semanas, não em meses. A Cabgo entrega a plataforma, você fica com a operação e a marca."
     },
     "buttonLabel": {
       "es": "Empezar ahora",
-      "en": "Get started"
+      "en": "Get started",
+      "pt": "Começar agora"
     },
     "buttonHref": "/empezar"
   },
   "seo": {
     "metaTitle": {
       "es": "Calcular el break-even en una nueva ciudad | Cabgo",
-      "en": "How to calculate break-even for a new city | Cabgo"
+      "en": "How to calculate break-even for a new city | Cabgo",
+      "pt": "Calcular o break-even de uma nova cidade | Cabgo"
     },
     "metaDescription": {
       "es": "Cómo calcular cuántos viajes diarios cubren los costos de una nueva ciudad en 90 días, y qué indicadores muestran si vas por buen camino.",
-      "en": "How to calculate the daily trip volume that covers all costs in a new city within 90 days, and which indicators tell you if you are on track."
+      "en": "How to calculate the daily trip volume that covers all costs in a new city within 90 days, and which indicators tell you if you are on track.",
+      "pt": "Como calcular quantas corridas diárias cobrem os custos de uma nova cidade em 90 dias, e quais indicadores mostram se você está no caminho certo."
     }
   },
   "blocks": [
@@ -74,14 +92,16 @@
       "type": "paragraph",
       "text": {
         "es": "La mayoría de los operadores que abren una segunda o tercera ciudad fijan una fecha de lanzamiento y asumen que el mes tres 'debería mejorar'. El problema con esa aproximación es que no define ningún número concreto como objetivo. El break-even en una operación de movilidad ocurre cuando el volumen diario de viajes genera suficiente ingreso para cubrir todos los costos atribuibles a esa ciudad — los variables que crecen con cada viaje y los fijos que existen independientemente del volumen. Llegar a ese punto en 90 días es alcanzable en la mayoría de los mercados secundarios de LATAM, pero requiere saber con exactitud qué número de viajes diarios representa ese umbral antes de lanzar, no al final del tercer mes.",
-        "en": "Most operators who open a second or third city set a launch date and assume month three 'should improve.' The problem with that approach is it defines no concrete target number. Break-even in a mobility operation happens when daily trip volume generates enough revenue to cover all costs attributable to that city — the variable costs that grow with each trip and the fixed costs that exist regardless of volume. Reaching that point within 90 days is achievable in most secondary LATAM markets, but it requires knowing exactly which daily trip count represents that threshold before launching, not at the end of the third month."
+        "en": "Most operators who open a second or third city set a launch date and assume month three 'should improve.' The problem with that approach is it defines no concrete target number. Break-even in a mobility operation happens when daily trip volume generates enough revenue to cover all costs attributable to that city — the variable costs that grow with each trip and the fixed costs that exist regardless of volume. Reaching that point within 90 days is achievable in most secondary LATAM markets, but it requires knowing exactly which daily trip count represents that threshold before launching, not at the end of the third month.",
+        "pt": "A maioria dos operadores que abre uma segunda ou terceira cidade define uma data de lançamento e assume que o mês três 'deveria melhorar'. O problema dessa abordagem é que ela não define nenhum número concreto como objetivo. O break-even em uma operação de mobilidade ocorre quando o volume diário de corridas gera receita suficiente para cobrir todos os custos atribuíveis àquela cidade — os variáveis que crescem a cada corrida e os fixos que existem independentemente do volume. Chegar a esse ponto em 90 dias é alcançável na maioria dos mercados secundários da LATAM, mas exige saber com exatidão qual número de corridas diárias representa esse limiar antes de lançar, e não no fim do terceiro mês."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "Este artículo es para operadores que están evaluando abrir una nueva ciudad en los próximos 60 días, o que llevan cuatro a ocho semanas activos en un nuevo mercado y no saben si van en la dirección correcta. El framework que se describe aquí no es un modelo financiero exhaustivo — es el cálculo mínimo que un operador regional necesita antes de tomar decisiones sobre presupuesto de incentivos, tamaño de flota y duración de la fase de inversión. Los números son distintos en cada mercado, pero la estructura del cálculo es la misma.",
-        "en": "This article is for operators evaluating opening a new city in the next 60 days, or who are four to eight weeks into a new market and don't know if they're on track. The framework described here isn't an exhaustive financial model — it's the minimum calculation a regional operator needs before making decisions about incentive budgets, launch fleet size, and the length of the investment phase. The exact numbers differ by market, but the structure of the calculation is the same."
+        "en": "This article is for operators evaluating opening a new city in the next 60 days, or who are four to eight weeks into a new market and don't know if they're on track. The framework described here isn't an exhaustive financial model — it's the minimum calculation a regional operator needs before making decisions about incentive budgets, launch fleet size, and the length of the investment phase. The exact numbers differ by market, but the structure of the calculation is the same.",
+        "pt": "Este artigo é para operadores que estão avaliando abrir uma nova cidade nos próximos 60 dias, ou que já estão há quatro a oito semanas ativos em um novo mercado e não sabem se estão na direção certa. O framework descrito aqui não é um modelo financeiro exaustivo — é o cálculo mínimo que um operador regional precisa antes de tomar decisões sobre orçamento de incentivos, tamanho da frota e duração da fase de investimento. Os números são diferentes em cada mercado, mas a estrutura do cálculo é a mesma."
       }
     },
     {
@@ -90,21 +110,24 @@
       "id": "break-even-es-volumen-no-fecha",
       "text": {
         "es": "Por qué el break-even de una ciudad nueva es un volumen, no una fecha",
-        "en": "Why break-even for a new city is a volume, not a date"
+        "en": "Why break-even for a new city is a volume, not a date",
+        "pt": "Por que o break-even de uma cidade nova é um volume, não uma data"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "En ride-hailing, el break-even de una ciudad nueva tiene una característica que los modelos importados de otros sectores subestiman: los costos fijos arrancan desde el primer día pero el revenue tarda semanas en aparecer. El operador que abre una ciudad con personal de operaciones, presupuesto de marketing local y un programa de incentivos para conductores tiene compromisos de costo activos desde el día uno, aunque los primeros viajes tarden dos semanas en materializarse. Esa brecha entre el inicio del costo y el inicio del ingreso es la razón por la que el break-even no puede definirse como una fecha — tiene que definirse como el volumen diario de viajes que cierra esa brecha.",
-        "en": "In ride-hailing, break-even for a new city has one characteristic that models from other industries underestimate: fixed costs start on day one, but revenue takes weeks to appear. An operator who opens a city with operations staff, a local marketing budget, and a driver incentive program has active cost commitments from day one even if the first trips take two weeks to materialize. That gap between cost start and revenue start is why break-even can't be defined as a date — it has to be defined as the daily trip volume that closes the gap."
+        "en": "In ride-hailing, break-even for a new city has one characteristic that models from other industries underestimate: fixed costs start on day one, but revenue takes weeks to appear. An operator who opens a city with operations staff, a local marketing budget, and a driver incentive program has active cost commitments from day one even if the first trips take two weeks to materialize. That gap between cost start and revenue start is why break-even can't be defined as a date — it has to be defined as the daily trip volume that closes the gap.",
+        "pt": "No transporte por aplicativo, o break-even de uma cidade nova tem uma característica que os modelos importados de outros setores subestimam: os custos fixos começam já no primeiro dia, mas a receita demora semanas para aparecer. O operador que abre uma cidade com equipe de operações, orçamento de marketing local e um programa de incentivos para motoristas tem compromissos de custo ativos desde o dia um, mesmo que as primeiras corridas demorem duas semanas para se concretizar. Essa lacuna entre o início do custo e o início da receita é o motivo pelo qual o break-even não pode ser definido como uma data — precisa ser definido como o volume diário de corridas que fecha essa lacuna."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "El volumen de revenue sigue una curva con tres fases en la mayoría de las operaciones nuevas en mercados secundarios de LATAM. Una fase de establecimiento durante las primeras tres o cuatro semanas donde el volumen diario es bajo y errático — el viernes puede triplicar al lunes. Una fase de aceleración entre la semana cinco y la doce donde el volumen crece de forma consistente si el ratio conductor-pasajero es el adecuado. Y una fase de estabilización donde el crecimiento se desacelera y el volumen se vuelve predecible. El break-even ocurre cuando entras en la estabilización con suficiente volumen — no cuando el calendario marca el día 90.",
-        "en": "Revenue volume follows a three-phase curve in most new operations in secondary LATAM markets. An establishment phase in the first three to four weeks where daily volume is low and erratic — Friday can be triple Monday. An acceleration phase between weeks five and twelve where volume grows consistently if the driver-to-passenger ratio is correct. And a stabilization phase where growth decelerates and volume becomes predictable. Break-even happens when you enter stabilization with enough volume — not when the calendar shows day 90."
+        "en": "Revenue volume follows a three-phase curve in most new operations in secondary LATAM markets. An establishment phase in the first three to four weeks where daily volume is low and erratic — Friday can be triple Monday. An acceleration phase between weeks five and twelve where volume grows consistently if the driver-to-passenger ratio is correct. And a stabilization phase where growth decelerates and volume becomes predictable. Break-even happens when you enter stabilization with enough volume — not when the calendar shows day 90.",
+        "pt": "O volume de receita segue uma curva de três fases na maioria das operações novas em mercados secundários da LATAM. Uma fase de estabelecimento durante as primeiras três ou quatro semanas, em que o volume diário é baixo e errático — a sexta pode triplicar a segunda. Uma fase de aceleração entre a semana cinco e a doze, em que o volume cresce de forma consistente se a proporção motorista-passageiro for a adequada. E uma fase de estabilização, em que o crescimento desacelera e o volume se torna previsível. O break-even ocorre quando você entra na estabilização com volume suficiente — não quando o calendário marca o dia 90."
       }
     },
     {
@@ -113,14 +136,16 @@
       "id": "tres-costos-que-operadores-subestiman",
       "text": {
         "es": "Las tres categorías de costo que no aparecen en el presupuesto de lanzamiento",
-        "en": "The three cost categories that don't appear in the launch budget"
+        "en": "The three cost categories that don't appear in the launch budget",
+        "pt": "As três categorias de custo que não aparecem no orçamento de lançamento"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "El error de cálculo más frecuente en el lanzamiento de una nueva ciudad es incluir solo los costos directamente visibles: la comisión de la plataforma por viaje y el presupuesto de marketing local. Los costos que más afectan la proyección del break-even no aparecen en ninguna factura específica de la nueva ciudad, pero están ahí de todas formas. Hay tres categorías que se repiten en la mayoría de las operaciones regionales de LATAM:",
-        "en": "The most common calculation error when launching a new city is including only the directly visible costs: platform commission per trip and the local marketing budget. The costs that most affect the break-even projection don't appear on any specific invoice for the new city, but they are present regardless. Three categories recur in most regional LATAM operations:"
+        "en": "The most common calculation error when launching a new city is including only the directly visible costs: platform commission per trip and the local marketing budget. The costs that most affect the break-even projection don't appear on any specific invoice for the new city, but they are present regardless. Three categories recur in most regional LATAM operations:",
+        "pt": "O erro de cálculo mais frequente no lançamento de uma nova cidade é incluir apenas os custos diretamente visíveis: a comissão da plataforma por corrida e o orçamento de marketing local. Os custos que mais afetam a projeção do break-even não aparecem em nenhuma fatura específica da nova cidade, mas estão lá mesmo assim. Há três categorias que se repetem na maioria das operações regionais da LATAM:"
       }
     },
     {
@@ -136,6 +161,11 @@
           "Operations team time: in the first six weeks, the operations lead can dedicate 15 to 25 hours per week to resolving problems in the new city — a real cost that rarely appears in the launch budget because the salary exists regardless of whether there is a new city or not",
           "Driver incentives during the establishment phase: in the first four weeks, most operators guarantee minimum earnings to drivers to sustain availability before passenger volume is sufficient. Those guarantees — between $300 and $700 USD per driver per month in secondary markets — are the largest cost of the launch phase and the one most frequently extended beyond what was planned",
           "Passenger acquisition cost through first-ride promotions: 30%–50% discounts on first rides reduce the effective ticket during the early weeks. In a launch city where 65%–80% of trips are from new users, that discount affects gross revenue more significantly than the operator projects when using the base fare as the reference for expected revenue"
+        ],
+        "pt": [
+          "Tempo da equipe de operações: nas primeiras seis semanas, o responsável por operações pode dedicar entre 15 e 25 horas semanais a resolver problemas da cidade nova — um custo real que raramente aparece no orçamento de lançamento porque o salário já existe independentemente de haver uma cidade nova ou não",
+          "Incentivos de motoristas na fase de estabelecimento: nas primeiras quatro semanas, a maioria dos operadores garante ganhos mínimos aos motoristas para sustentar a disponibilidade antes de o volume ser suficiente. Essas garantias — entre $300 e $700 USD por motorista ao mês em mercados secundários — são o maior custo da fase de lançamento e o que com mais frequência se estende além do planejado",
+          "Custo de aquisição de passageiros por meio de promoções de primeira corrida: descontos de 30%–50% nas primeiras corridas reduzem o ticket efetivo das primeiras semanas. Em uma cidade de lançamento onde 65%–80% das corridas são de usuários novos, esse desconto afeta a receita bruta de forma mais significativa do que o operador projeta se usar a tarifa base como referência"
         ]
       }
     },
@@ -145,14 +175,16 @@
       "id": "modelo-revenue-90-dias",
       "text": {
         "es": "Cómo modelar el revenue de los primeros 90 días sin inventar números",
-        "en": "How to model the first 90 days of revenue without making numbers up"
+        "en": "How to model the first 90 days of revenue without making numbers up",
+        "pt": "Como modelar a receita dos primeiros 90 dias sem inventar números"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "El revenue de una operación nueva se calcula multiplicando el volumen de viajes diarios por el ticket efectivo real — no la tarifa base sino el ticket después de descuentos — y por la tasa de toma de la plataforma. Para una operación con entre 40 y 70 conductores activos en el lanzamiento, los rangos que se repiten en mercados secundarios de LATAM son:",
-        "en": "Revenue for a new operation is calculated by multiplying daily trip volume by the actual effective ticket — not the base fare but the ticket after discounts — and by the platform take rate. For an operation with 40 to 70 active drivers at launch, the ranges that recur in secondary LATAM markets are:"
+        "en": "Revenue for a new operation is calculated by multiplying daily trip volume by the actual effective ticket — not the base fare but the ticket after discounts — and by the platform take rate. For an operation with 40 to 70 active drivers at launch, the ranges that recur in secondary LATAM markets are:",
+        "pt": "A receita de uma operação nova se calcula multiplicando o volume de corridas diárias pelo ticket efetivo real — não a tarifa base, mas o ticket após descontos — e pela taxa de comissão da plataforma. Para uma operação com entre 40 e 70 motoristas ativos no lançamento, as faixas que se repetem em mercados secundários da LATAM são:"
       }
     },
     {
@@ -168,6 +200,11 @@
           "Month 1 (weeks 1–4): 60–120 daily trips on average, with high day-to-day variability. Effective ticket after first-ride discounts: 55%–70% of the base fare. Estimated platform revenue: $400–$900 USD per month",
           "Month 2 (weeks 5–8): 150–280 daily trips if driver retention held and the active-driver-to-ride ratio reached 1:5–1:7. The proportion of discounted trips drops to 25%–40% as the recurring user base grows. Platform revenue: $1,000–$2,200 USD per month",
           "Month 3 (weeks 9–12): 280–450 daily trips in operations with fleet continuity. Discounts below 20% of total trips. Platform revenue: $1,900–$3,800 USD per month"
+        ],
+        "pt": [
+          "Mês 1 (semanas 1–4): 60–120 corridas diárias em média, com alta variabilidade de um dia para o outro. Ticket efetivo após descontos: 55%–70% da tarifa base. Receita de plataforma estimada: $400–$900 USD mensais",
+          "Mês 2 (semanas 5–8): 150–280 corridas diárias se a retenção de motoristas se manteve e a proporção motorista ativo/corridas chegou a 1:5–1:7. O percentual de corridas com desconto cai para 25%–40% à medida que a base de usuários recorrentes cresce. Receita de plataforma: $1,000–$2,200 USD mensais",
+          "Mês 3 (semanas 9–12): 280–450 corridas diárias em operações com continuidade de frota. Descontos abaixo de 20% do total. Receita de plataforma: $1,900–$3,800 USD mensais"
         ]
       }
     },
@@ -175,7 +212,8 @@
       "type": "paragraph",
       "text": {
         "es": "El break-even ocurre cuando el revenue mensual supera el costo total atribuible a la ciudad en ese período. Para una operación con costos fijos de $1,200–$2,000 USD mensuales — equipo, marketing, gastos operativos — y costos variables bien controlados, ese cruce ocurre típicamente en algún punto del mes tres si la flota y la demanda se desarrollaron según la curva esperada. Si los costos fijos son mayores, el volumen de viajes necesario para el break-even sube proporcionalmente.",
-        "en": "Break-even happens when monthly revenue exceeds total attributable cost for that period. For an operation with fixed costs of $1,200–$2,000 USD per month — team, marketing, operating expenses — and well-controlled variable costs, that crossover typically occurs at some point during month three if fleet and demand developed according to the expected curve. If fixed costs are higher, the daily trip volume needed for break-even rises proportionally."
+        "en": "Break-even happens when monthly revenue exceeds total attributable cost for that period. For an operation with fixed costs of $1,200–$2,000 USD per month — team, marketing, operating expenses — and well-controlled variable costs, that crossover typically occurs at some point during month three if fleet and demand developed according to the expected curve. If fixed costs are higher, the daily trip volume needed for break-even rises proportionally.",
+        "pt": "O break-even ocorre quando a receita mensal supera o custo total atribuível à cidade naquele período. Para uma operação com custos fixos de $1,200–$2,000 USD mensais — equipe, marketing, despesas operacionais — e custos variáveis bem controlados, esse cruzamento ocorre normalmente em algum ponto do mês três se a frota e a demanda se desenvolveram conforme a curva esperada. Se os custos fixos forem maiores, o volume de corridas necessário para o break-even sobe proporcionalmente."
       }
     },
     {
@@ -184,21 +222,24 @@
       "id": "curva-conductores-activos-equilibrio",
       "text": {
         "es": "La curva de conductores activos: el denominador que determina cuándo llegas al equilibrio",
-        "en": "The active driver curve: the denominator that determines when you reach equilibrium"
+        "en": "The active driver curve: the denominator that determines when you reach equilibrium",
+        "pt": "A curva de motoristas ativos: o denominador que determina quando você chega ao equilíbrio"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "El volumen de viajes diarios está directamente limitado por el número de conductores activos en las franjas de mayor demanda. Un ratio demasiado bajo de viajes por conductor activo significa conductores ociosos y costos de incentivo más altos de lo necesario. Un ratio demasiado alto produce tiempos de espera que alejan a los pasajeros antes de que se conviertan en recurrentes. El rango que funciona en la mayoría de los mercados secundarios es 1 conductor activo por cada 5 a 8 viajes diarios en la fase de establecimiento, subiendo gradualmente a 1 por cada 10 a 15 en la estabilización. Para proyectar si tu flota actual puede soportar el volumen proyectado del mes tres, multiplica el número de conductores activos esperados por 10 — ese es el volumen diario que la flota puede cubrir sin que los tiempos de espera empiecen a alejar pasajeros.",
-        "en": "Daily trip volume is directly limited by the number of active drivers during peak demand windows. A ratio too low means idle drivers and unnecessarily high incentive costs. A ratio too high produces wait times that turn passengers away before they become recurring users. The range that works in most secondary markets is 1 active driver per 5 to 8 daily trips during the establishment phase, rising gradually to 1 per 10 to 15 during stabilization. To project whether your current fleet can support month three's projected volume, multiply the expected number of active drivers by 10 — that is the daily volume the fleet can support without wait times starting to drive passengers away."
+        "en": "Daily trip volume is directly limited by the number of active drivers during peak demand windows. A ratio too low means idle drivers and unnecessarily high incentive costs. A ratio too high produces wait times that turn passengers away before they become recurring users. The range that works in most secondary markets is 1 active driver per 5 to 8 daily trips during the establishment phase, rising gradually to 1 per 10 to 15 during stabilization. To project whether your current fleet can support month three's projected volume, multiply the expected number of active drivers by 10 — that is the daily volume the fleet can support without wait times starting to drive passengers away.",
+        "pt": "O volume de corridas diárias é diretamente limitado pelo número de motoristas ativos nas faixas de maior demanda. Uma proporção baixa demais de corridas por motorista ativo significa motoristas ociosos e custos de incentivo mais altos do que o necessário. Uma proporção alta demais produz tempos de espera que afastam os passageiros antes de eles se tornarem recorrentes. A faixa que funciona na maioria dos mercados secundários é 1 motorista ativo para cada 5 a 8 corridas diárias na fase de estabelecimento, subindo gradualmente para 1 a cada 10 a 15 na estabilização. Para projetar se sua frota atual consegue sustentar o volume projetado do mês três, multiplique o número de motoristas ativos esperados por 10 — esse é o volume diário que a frota consegue cobrir sem que os tempos de espera comecem a afastar passageiros."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "La retención de conductores en los primeros 90 días es la variable más frágil de la curva. En operaciones nuevas, la tasa de abandono en el primer mes está entre el 25% y el 40% de los conductores registrados — muchos prueban la plataforma dos o tres días y desaparecen si el volumen de viajes no cubre el costo de oportunidad de estar disponibles. El objetivo para llegar al break-even en el mes tres es tener al cierre del mes uno el 60%–70% de la flota de lanzamiento todavía activa. Si esa retención cae por debajo del 50%, el volumen proyectado del mes tres no es alcanzable con el plan actual.",
-        "en": "Driver retention in the first 90 days is the most fragile variable in the curve. In new operations, the dropout rate in the first month falls between 25% and 40% of registered drivers — many try the platform for two or three days and disappear if trip volume doesn't cover the opportunity cost of being available. The target for reaching break-even by month three is retaining 60%–70% of the launch fleet still active at the end of month one. If that retention falls below 50%, month three projected volume is not achievable with the current plan."
+        "en": "Driver retention in the first 90 days is the most fragile variable in the curve. In new operations, the dropout rate in the first month falls between 25% and 40% of registered drivers — many try the platform for two or three days and disappear if trip volume doesn't cover the opportunity cost of being available. The target for reaching break-even by month three is retaining 60%–70% of the launch fleet still active at the end of month one. If that retention falls below 50%, month three projected volume is not achievable with the current plan.",
+        "pt": "A retenção de motoristas nos primeiros 90 dias é a variável mais frágil da curva. Em operações novas, a taxa de abandono no primeiro mês fica entre 25% e 40% dos motoristas cadastrados — muitos testam a plataforma dois ou três dias e desaparecem se o volume de corridas não cobrir o custo de oportunidade de ficarem disponíveis. O objetivo para chegar ao break-even no mês três é ter, ao fechar o mês um, 60%–70% da frota de lançamento ainda ativa. Se essa retenção cair abaixo de 50%, o volume projetado do mês três não é alcançável com o plano atual."
       }
     },
     {
@@ -207,21 +248,24 @@
       "id": "indicador-semanal-direccion-correcta",
       "text": {
         "es": "El indicador semanal que muestra si la operación va en la dirección correcta",
-        "en": "The weekly indicator that shows whether the operation is heading in the right direction"
+        "en": "The weekly indicator that shows whether the operation is heading in the right direction",
+        "pt": "O indicador semanal que mostra se a operação está na direção certa"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "En los primeros 90 días de una ciudad nueva, el operador no tiene historia suficiente para proyecciones confiables de largo plazo. Lo que sí tiene — desde la primera semana — es la posibilidad de calcular el costo total por viaje completado: costo total semanal atribuible a la ciudad dividido entre los viajes completados esa semana. En la semana uno, ese número puede estar entre $12 y $25 USD — esperado cuando los costos fijos se dividen entre 60 u 80 viajes. El objetivo no es que sea bajo desde el inicio: es que baje semana a semana como resultado del crecimiento del volumen. Si el costo por viaje de la semana cuatro es igual o mayor que el de la semana uno, la operación no está encontrando la curva de volumen esperada.",
-        "en": "In the first 90 days of a new city, the operator doesn't have enough history for reliable long-term projections. What they do have — from week one — is the ability to calculate total cost per completed trip: total weekly cost attributable to the city divided by trips completed that week. In week one, that number can fall between $12 and $25 USD — expected when fixed costs are spread across 60 or 80 trips. The goal isn't to have it be low from the start: it's to have it fall week over week as volume grows. If the cost per trip in week four is the same as or higher than week one, the operation is not finding the expected volume curve."
+        "en": "In the first 90 days of a new city, the operator doesn't have enough history for reliable long-term projections. What they do have — from week one — is the ability to calculate total cost per completed trip: total weekly cost attributable to the city divided by trips completed that week. In week one, that number can fall between $12 and $25 USD — expected when fixed costs are spread across 60 or 80 trips. The goal isn't to have it be low from the start: it's to have it fall week over week as volume grows. If the cost per trip in week four is the same as or higher than week one, the operation is not finding the expected volume curve.",
+        "pt": "Nos primeiros 90 dias de uma cidade nova, o operador não tem histórico suficiente para projeções confiáveis de longo prazo. O que ele tem — desde a primeira semana — é a possibilidade de calcular o custo total por corrida concluída: custo total semanal atribuível à cidade dividido pelas corridas concluídas naquela semana. Na semana um, esse número pode ficar entre $12 e $25 USD — esperado quando os custos fixos são divididos por 60 ou 80 corridas. O objetivo não é que seja baixo desde o início: é que caia semana a semana como resultado do crescimento do volume. Se o custo por corrida da semana quatro for igual ou maior que o da semana um, a operação não está encontrando a curva de volume esperada."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "La segunda métrica es la tasa de crecimiento semanal del volumen de viajes. En una operación que va a llegar al break-even en el mes tres, el crecimiento semanal sostenido durante las primeras ocho semanas está entre el 15% y el 25% semana sobre semana. Un crecimiento por debajo del 10% sostenido durante más de dos semanas consecutivas en el período de aceleración — semanas 5 a 8 — es la señal de que el plan original necesita ajustes antes de que los costos del mes tres sean insostenibles. No significa que el mercado no funciona: significa que una variable específica está fuera del rango esperado y todavía hay tiempo para corregirla.",
-        "en": "The second metric is the weekly trip volume growth rate. In an operation on track to reach break-even by month three, sustained weekly growth during the first eight weeks falls between 15% and 25% week over week. Growth below 10% sustained for more than two consecutive weeks during the acceleration phase — weeks 5 through 8 — signals that the original plan needs adjustment before month three costs become unmanageable. It doesn't mean the market doesn't work: it means one specific variable is outside the expected range and there is still time to correct it."
+        "en": "The second metric is the weekly trip volume growth rate. In an operation on track to reach break-even by month three, sustained weekly growth during the first eight weeks falls between 15% and 25% week over week. Growth below 10% sustained for more than two consecutive weeks during the acceleration phase — weeks 5 through 8 — signals that the original plan needs adjustment before month three costs become unmanageable. It doesn't mean the market doesn't work: it means one specific variable is outside the expected range and there is still time to correct it.",
+        "pt": "A segunda métrica é a taxa de crescimento semanal do volume de corridas. Em uma operação que vai chegar ao break-even no mês três, o crescimento semanal sustentado durante as primeiras oito semanas fica entre 15% e 25% semana sobre semana. Um crescimento abaixo de 10% sustentado por mais de duas semanas consecutivas no período de aceleração — semanas 5 a 8 — é o sinal de que o plano original precisa de ajustes antes de os custos do mês três se tornarem insustentáveis. Não significa que o mercado não funciona: significa que uma variável específica está fora da faixa esperada e ainda há tempo para corrigi-la."
       }
     },
     {
@@ -229,7 +273,8 @@
       "variant": "tip",
       "text": {
         "es": "Si terminas el mes uno con crecimiento semanal sostenido del 18% o más en las últimas tres semanas, el volumen proyectado del mes tres está dentro del rango que produce break-even para la mayoría de operaciones con costos fijos controlados. Si el crecimiento de las últimas dos semanas del mes uno está por debajo del 10%, revisa la retención de conductores antes de la semana cinco — no esperes a ver qué ocurre en el mes dos.",
-        "en": "If you close month one with sustained weekly growth of 18% or more over the last three weeks, month three projected volume is within the range that produces break-even for most operations with controlled fixed costs. If growth in the last two weeks of month one is below 10%, review driver retention before week five — don't wait to see what happens in month two."
+        "en": "If you close month one with sustained weekly growth of 18% or more over the last three weeks, month three projected volume is within the range that produces break-even for most operations with controlled fixed costs. If growth in the last two weeks of month one is below 10%, review driver retention before week five — don't wait to see what happens in month two.",
+        "pt": "Se você terminar o mês um com crescimento semanal sustentado de 18% ou mais nas últimas três semanas, o volume projetado do mês três está dentro da faixa que produz break-even para a maioria das operações com custos fixos controlados. Se o crescimento das últimas duas semanas do mês um estiver abaixo de 10%, revise a retenção de motoristas antes da semana cinco — não espere para ver o que acontece no mês dois."
       }
     },
     {
@@ -238,14 +283,16 @@
       "id": "que-hacer-si-no-llegas-mes-tres",
       "text": {
         "es": "Qué hacer si el mes dos muestra que no vas a llegar al break-even en el mes tres",
-        "en": "What to do if month two shows you won't reach break-even by month three"
+        "en": "What to do if month two shows you won't reach break-even by month three",
+        "pt": "O que fazer se o mês dois mostrar que você não vai chegar ao break-even no mês três"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "Llegar al final del mes dos sin el volumen proyectado no significa que el mercado no funciona. En la mayoría de los casos significa que una o dos variables están fuera del rango esperado y todavía hay tiempo para corregir si el diagnóstico ocurre antes de la semana nueve. Las señales más frecuentes y las correcciones que producen resultados en las cuatro semanas siguientes:",
-        "en": "Arriving at the end of month two without the projected volume doesn't mean the market doesn't work. In most cases it means one or two variables are outside the expected range and there is still time to correct if diagnosis happens before week nine. The most common signals and the corrections that produce results in the following four weeks:"
+        "en": "Arriving at the end of month two without the projected volume doesn't mean the market doesn't work. In most cases it means one or two variables are outside the expected range and there is still time to correct if diagnosis happens before week nine. The most common signals and the corrections that produce results in the following four weeks:",
+        "pt": "Chegar ao fim do mês dois sem o volume projetado não significa que o mercado não funciona. Na maioria dos casos significa que uma ou duas variáveis estão fora da faixa esperada e ainda há tempo para corrigir se o diagnóstico ocorrer antes da semana nove. Os sinais mais frequentes e as correções que produzem resultados nas quatro semanas seguintes:"
       }
     },
     {
@@ -261,6 +308,11 @@
           "Driver retention below 60% at the end of month one: projected month three volume is unachievable with the current fleet. Correction: extend the minimum income guarantee by two additional weeks for drivers with more than 20 completed trips, and activate the reactivation flow for registered but inactive drivers before week seven",
           "Effective ticket below 55% of the base fare after week four: first-ride discounts are lasting longer than planned. Correction: limit the first-ride promotion to a maximum of 3 uses per phone number — device or IP duplicates are the most frequent cause of discounts persisting longer than intended",
           "Weekly trip growth below 10% in weeks 5 and 6: demand exists but coverage isn't where passengers are looking. Correction: reduce the active zone to 60%–70% of the current area and concentrate the fleet in neighborhoods with the highest request density, rather than maintaining dispersed coverage across the full city"
+        ],
+        "pt": [
+          "Retenção de motoristas abaixo de 60% ao fechar o mês um: o volume projetado do mês três é inalcançável com a frota atual. Correção: ampliar o período de garantia de ganho mínimo por mais duas semanas para motoristas com mais de 20 corridas concluídas, e ativar o fluxo de reativação de motoristas cadastrados mas inativos antes da semana sete",
+          "Ticket efetivo abaixo de 55% da tarifa base depois da semana quatro: os descontos de primeira corrida estão durando mais do que o planejado. Correção: limitar a promoção de primeira corrida a no máximo 3 usos por número de telefone — os duplicados por dispositivo ou IP são a causa mais frequente de os descontos persistirem por mais tempo do que o previsto",
+          "Crescimento de corridas abaixo de 10% semanal nas semanas 5 e 6: a demanda existe, mas a cobertura não está onde os passageiros estão procurando. Correção: reduzir a zona ativa para 60%–70% da área atual e concentrar a frota nos bairros com maior densidade de solicitações, em vez de manter cobertura dispersa por toda a cidade"
         ]
       }
     },
@@ -268,25 +320,29 @@
       "type": "quote",
       "text": {
         "es": "Abrí la segunda ciudad con el mismo enfoque que usé para la primera: lanzar y ver qué pasaba en el mes tres. Al final del mes dos tenía 130 viajes diarios cuando necesitaba 260 para cubrir costos. No medí el costo por viaje semanalmente, así que no supe cuándo se perdió la trayectoria. Cuando lo calculé retroactivamente, el problema era la flota: tenía 36 conductores activos cuando necesitaba 52, y había estado esperando que los pasajeros crecieran para atraer más conductores, en lugar de resolver la flota primero. Llegué al break-even en el mes cinco. El costo de esa diferencia fue no medir semana a semana desde el inicio.",
-        "en": "I opened the second city with the same approach I used for the first: launch and see what happened by month three. At the end of month two I had 130 daily trips when I needed 260 to cover costs. I hadn't tracked cost per trip weekly, so I didn't know when the trajectory went off. When I reviewed it retroactively, the problem was fleet: I had 36 active drivers when I needed 52, and I had been waiting for passengers to grow to attract more drivers instead of solving fleet first. I reached break-even in month five. The cost of that difference was not measuring week by week from the start."
+        "en": "I opened the second city with the same approach I used for the first: launch and see what happened by month three. At the end of month two I had 130 daily trips when I needed 260 to cover costs. I hadn't tracked cost per trip weekly, so I didn't know when the trajectory went off. When I reviewed it retroactively, the problem was fleet: I had 36 active drivers when I needed 52, and I had been waiting for passengers to grow to attract more drivers instead of solving fleet first. I reached break-even in month five. The cost of that difference was not measuring week by week from the start.",
+        "pt": "Abri a segunda cidade com a mesma abordagem que usei na primeira: lançar e ver o que acontecia no mês três. No fim do mês dois eu tinha 130 corridas diárias quando precisava de 260 para cobrir custos. Eu não media o custo por corrida semanalmente, então não soube quando a trajetória se perdeu. Quando calculei retroativamente, o problema era a frota: eu tinha 36 motoristas ativos quando precisava de 52, e vinha esperando os passageiros crescerem para atrair mais motoristas, em vez de resolver a frota primeiro. Cheguei ao break-even no mês cinco. O custo dessa diferença foi não medir semana a semana desde o início."
       },
       "attribution": {
         "es": "Operador de movilidad con tres ciudades activas en el sureste de México",
-        "en": "Mobility operator with three active cities in southeastern Mexico"
+        "en": "Mobility operator with three active cities in southeastern Mexico",
+        "pt": "Operador de mobilidade com três cidades ativas no sudeste do México"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "El break-even de una nueva ciudad no es una proyección que se hace al inicio y se revisa al mes tres. Es un cálculo que se actualiza cada semana con los datos reales del período anterior — costo total atribuible, viajes completados, conductores activos, ticket efectivo — y que con una semana de anticipación muestra si la operación está en la trayectoria correcta o necesita un ajuste concreto antes de que el problema sea estructural. El operador que llega al mes tres sin esa acumulación de datos tiene que tomar decisiones sobre 90 días de información a la vez, un horizonte demasiado largo para corregir sin costo.",
-        "en": "Break-even for a new city isn't a projection made at the start and reviewed at month three. It's a calculation that updates every week with actual data from the previous period — total attributable cost, completed trips, active drivers, effective ticket — and that one week in advance shows whether the operation is on the right trajectory or needs a specific adjustment before the problem becomes structural. The operator who arrives at month three without that accumulated data has to make decisions based on 90 days of information at once, a horizon too long to correct without significant cost."
+        "en": "Break-even for a new city isn't a projection made at the start and reviewed at month three. It's a calculation that updates every week with actual data from the previous period — total attributable cost, completed trips, active drivers, effective ticket — and that one week in advance shows whether the operation is on the right trajectory or needs a specific adjustment before the problem becomes structural. The operator who arrives at month three without that accumulated data has to make decisions based on 90 days of information at once, a horizon too long to correct without significant cost.",
+        "pt": "O break-even de uma nova cidade não é uma projeção que se faz no início e se revisa no mês três. É um cálculo que se atualiza a cada semana com os dados reais do período anterior — custo total atribuível, corridas concluídas, motoristas ativos, ticket efetivo — e que, com uma semana de antecedência, mostra se a operação está na trajetória certa ou precisa de um ajuste concreto antes de o problema se tornar estrutural. O operador que chega ao mês três sem esse acúmulo de dados precisa tomar decisões sobre 90 dias de informação de uma vez, um horizonte longo demais para corrigir sem custo."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "La diferencia entre llegar al break-even en el mes tres y llegar en el mes cinco no está en el mercado ni en la competencia — está en si el operador supo en la semana cuatro que la retención de conductores estaba fuera del rango esperado y actuó antes de la semana siete. Las ciudades nuevas no fallan porque el mercado no tiene demanda: fallan porque el plan de lanzamiento no tenía un sistema de seguimiento que convirtiera los datos de cada semana en una decisión específica. El framework de 90 días no garantiza el break-even — es lo que hace posible alcanzarlo sin sorpresas.",
-        "en": "The difference between reaching break-even in month three and in month five isn't the market or the competition — it's whether the operator knew in week four that driver retention was outside the expected range and acted before week seven. New cities don't fail because demand is absent: they fail because the launch plan had no tracking system that converted each week's data into a specific decision. The 90-day framework doesn't guarantee break-even — it's what makes reaching it possible without surprises."
+        "en": "The difference between reaching break-even in month three and in month five isn't the market or the competition — it's whether the operator knew in week four that driver retention was outside the expected range and acted before week seven. New cities don't fail because demand is absent: they fail because the launch plan had no tracking system that converted each week's data into a specific decision. The 90-day framework doesn't guarantee break-even — it's what makes reaching it possible without surprises.",
+        "pt": "A diferença entre chegar ao break-even no mês três e chegar no mês cinco não está no mercado nem na concorrência — está em se o operador soube na semana quatro que a retenção de motoristas estava fora da faixa esperada e agiu antes da semana sete. As cidades novas não fracassam porque o mercado não tem demanda: fracassam porque o plano de lançamento não tinha um sistema de acompanhamento que convertesse os dados de cada semana em uma decisão específica. O framework de 90 dias não garante o break-even — é o que torna possível alcançá-lo sem surpresas."
       }
     }
   ]

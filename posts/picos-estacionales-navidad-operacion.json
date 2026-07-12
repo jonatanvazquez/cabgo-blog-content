@@ -3,16 +3,19 @@
   "category": "strategy",
   "title": {
     "es": "Picos estacionales: cómo preparar tu operación antes de Navidad, ferias y partidos",
-    "en": "Seasonal peaks: how to prepare your operation before Christmas, local fairs, and match days"
+    "en": "Seasonal peaks: how to prepare your operation before Christmas, local fairs, and match days",
+    "pt": "Picos sazonais: como preparar a sua operação antes do Natal, festas e jogos"
   },
   "excerpt": {
     "es": "Los picos estacionales son la demanda más predecible del año — y la que más operaciones desperdician. La diferencia entre capturar Navidad o perderla no está en el surge pricing: está en la flota que activaste diez días antes.",
-    "en": "Seasonal peaks are the most predictable demand of the year — and the one most operations waste. The difference between capturing Christmas or losing it isn't surge pricing: it's the fleet you activated ten days before."
+    "en": "Seasonal peaks are the most predictable demand of the year — and the one most operations waste. The difference between capturing Christmas or losing it isn't surge pricing: it's the fleet you activated ten days before.",
+    "pt": "Os picos sazonais são a demanda mais previsível do ano — e a que mais operações desperdiçam. A diferença entre capturar o Natal ou perdê-lo não está na tarifa dinâmica: está na frota que você ativou dez dias antes."
   },
   "heroImage": "https://raw.githubusercontent.com/jonatanvazquez/cabgo-blog-content/main/images/picos-estacionales-navidad-operacion.jpg",
   "heroImageAlt": {
     "es": "Ilustración isométrica de una operación de movilidad preparando un pico estacional: calendario de diciembre con fecha resaltada y contador regresivo, mapa de ciudad con conductores reagrupados en zonas de alta demanda junto a marcadores de eventos, y panel de operaciones con gauge de flota en aumento y notificación de incentivo enviada a conductores",
-    "en": "Isometric illustration of a mobility operation preparing for a seasonal demand peak: December calendar with highlighted date and countdown strip, city map with drivers grouped at high-demand event zones, and operations dashboard with rising driver gauge and a bonus incentive notification sent to the fleet"
+    "en": "Isometric illustration of a mobility operation preparing for a seasonal demand peak: December calendar with highlighted date and countdown strip, city map with drivers grouped at high-demand event zones, and operations dashboard with rising driver gauge and a bonus incentive notification sent to the fleet",
+    "pt": "Ilustração isométrica de uma operação de mobilidade se preparando para um pico sazonal: calendário de dezembro com data destacada e contador regressivo, mapa da cidade com motoristas reagrupados em zonas de alta demanda ao lado de marcadores de eventos, e painel de operações com medidor de frota em alta e notificação de incentivo enviada aos motoristas"
   },
   "heroImagePrompt": "Isometric split-panel illustration of a regional ride-hailing operation preparing for a seasonal peak. Left: a large wall calendar showing December with a glowing circle on the 24th and a countdown strip showing '12 days'. Center: a top-down city grid with dense driver-car icons grouped in a staging zone near a bright event marker — stadium lights and a small Christmas tree icon. Right: a floating operations dashboard panel with a driver-count gauge needle rising from 45 to 78, an incentive bonus badge in teal, and a push notification card being broadcast to a row of driver icons below it.",
   "publishedAt": "2026-05-06",
@@ -35,38 +38,53 @@
       "fleet management local events",
       "reactivate inactive drivers platform",
       "demand peak planning mobility app"
+    ],
+    "pt": [
+      "picos sazonais transporte por aplicativo América Latina",
+      "preparar operação Natal mobilidade",
+      "motoristas adicionais pico de demanda",
+      "tarifa dinâmica alta temporada táxi",
+      "gestão de frota festas locais",
+      "reativar motoristas inativos plataforma",
+      "planejamento picos de demanda app táxi"
     ]
   },
   "author": {
     "name": "Equipo Cabgo",
     "role": {
       "es": "Plataforma de movilidad",
-      "en": "Mobility platform"
+      "en": "Mobility platform",
+      "pt": "Plataforma de mobilidade"
     }
   },
   "cta": {
     "heading": {
       "es": "¿Listo para lanzar tu propia app de movilidad?",
-      "en": "Ready to launch your own mobility app?"
+      "en": "Ready to launch your own mobility app?",
+      "pt": "Pronto para lançar o seu próprio app de mobilidade?"
     },
     "body": {
       "es": "Configura tu marca, tus tarifas y tus servicios en semanas, no en meses. Cabgo te entrega la plataforma, tú te quedas con la operación y la marca.",
-      "en": "Set up your brand, pricing and services in weeks, not months. Cabgo ships the platform — you keep the operation and the brand."
+      "en": "Set up your brand, pricing and services in weeks, not months. Cabgo ships the platform — you keep the operation and the brand.",
+      "pt": "Configure a sua marca, as suas tarifas e os seus serviços em semanas, não em meses. A Cabgo entrega a plataforma, você fica com a operação e a marca."
     },
     "buttonLabel": {
       "es": "Empezar ahora",
-      "en": "Get started"
+      "en": "Get started",
+      "pt": "Começar agora"
     },
     "buttonHref": "/empezar"
   },
   "seo": {
     "metaTitle": {
       "es": "Picos estacionales: cómo preparar tu operación | Cabgo",
-      "en": "Seasonal peaks: how to prepare your operation | Cabgo"
+      "en": "Seasonal peaks: how to prepare your operation | Cabgo",
+      "pt": "Picos sazonais: como preparar a sua operação | Cabgo"
     },
     "metaDescription": {
       "es": "Cómo activar conductores con anticipación, fijar tarifas de temporada y gestionar la comunicación de flota antes de Navidad, Año Nuevo y ferias locales.",
-      "en": "How to activate drivers in advance, set seasonal rates, and communicate peak demand to your fleet before Christmas, New Year's, and local festivals."
+      "en": "How to activate drivers in advance, set seasonal rates, and communicate peak demand to your fleet before Christmas, New Year's, and local festivals.",
+      "pt": "Como ativar motoristas com antecedência, definir tarifas de temporada e gerenciar a comunicação da frota antes do Natal, do Ano-Novo e das festas locais."
     }
   },
   "blocks": [
@@ -74,14 +92,16 @@
       "type": "paragraph",
       "text": {
         "es": "Los picos estacionales —Navidad, Año Nuevo, el Día del Amor y la Amistad, las fiestas patronales locales, los partidos de final de torneo— son los momentos donde una operación de movilidad regional puede ganar o perder más pasajeros recurrentes en una sola noche. La diferencia entre capturar ese pico o desaprovecharlo rara vez está en el precio dinámico ni en la tecnología: está en la preparación que debió ocurrir dos semanas antes, cuando todavía había tiempo para activar conductores, comunicar incentivos y diseñar la cobertura de zonas. El operador que empieza a prepararse el día anterior termina con los mismos conductores habituales intentando absorber el triple de la demanda promedio.",
-        "en": "Seasonal peaks — Christmas Eve, New Year's, Valentine's Day, local patron saints' festivals, tournament finals — are the moments when a regional mobility operation can win or lose more recurring passengers in a single night than in a typical month. The difference between capturing that peak or wasting it rarely comes down to dynamic pricing or technology: it comes down to preparation that should have started two weeks earlier, when there was still time to activate drivers, communicate incentives, and design zone coverage. The operator who starts preparing the night before ends up with their regular driver pool trying to absorb three times the average demand."
+        "en": "Seasonal peaks — Christmas Eve, New Year's, Valentine's Day, local patron saints' festivals, tournament finals — are the moments when a regional mobility operation can win or lose more recurring passengers in a single night than in a typical month. The difference between capturing that peak or wasting it rarely comes down to dynamic pricing or technology: it comes down to preparation that should have started two weeks earlier, when there was still time to activate drivers, communicate incentives, and design zone coverage. The operator who starts preparing the night before ends up with their regular driver pool trying to absorb three times the average demand.",
+        "pt": "Os picos sazonais —Natal, Ano-Novo, Dia dos Namorados, as festas populares locais, as finais de campeonato— são os momentos em que uma operação de mobilidade regional pode ganhar ou perder mais passageiros recorrentes em uma única noite. A diferença entre capturar esse pico ou desperdiçá-lo raramente está na tarifa dinâmica nem na tecnologia: está na preparação que deveria ter acontecido duas semanas antes, quando ainda havia tempo para ativar motoristas, comunicar incentivos e desenhar a cobertura de zonas. O operador que começa a se preparar na véspera termina com os mesmos motoristas de sempre tentando absorver o triplo da demanda média."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "Este artículo es para operadores con entre 60 y 400 conductores activos que enfrentan uno o varios de estos picos al año y terminan cada vez con tiempos de espera de 10 a 15 minutos, conductores agotados y pasajeros que aprendieron que en esas fechas la app no es una opción confiable. El argumento central es que un pico estacional no es una versión amplificada de un viernes por la noche — es un evento con un perfil de demanda distinto, con conductores que en algunos casos prefieren estar con sus familias exactamente la noche que la demanda triplica, y con pasajeros cuya tolerancia a la espera es estructuralmente menor porque ese viaje específico no tiene sustituto fácil.",
-        "en": "This article is for operators with between 60 and 400 active drivers who face one or more of these peaks every year and always end up with 10-to-15-minute wait times, exhausted drivers, and passengers who learned that on those dates the app is not a reliable option. The central argument is that a seasonal peak is not an amplified version of a Friday night — it is an event with a distinct demand profile, with drivers who in some cases prefer to be with their families exactly on the night demand triples, and with passengers whose wait tolerance is structurally lower because that specific trip has no easy substitute."
+        "en": "This article is for operators with between 60 and 400 active drivers who face one or more of these peaks every year and always end up with 10-to-15-minute wait times, exhausted drivers, and passengers who learned that on those dates the app is not a reliable option. The central argument is that a seasonal peak is not an amplified version of a Friday night — it is an event with a distinct demand profile, with drivers who in some cases prefer to be with their families exactly on the night demand triples, and with passengers whose wait tolerance is structurally lower because that specific trip has no easy substitute.",
+        "pt": "Este artigo é para operadores com entre 60 e 400 motoristas ativos que enfrentam um ou vários desses picos por ano e terminam sempre com tempos de espera de 10 a 15 minutos, motoristas esgotados e passageiros que aprenderam que, nessas datas, o app não é uma opção confiável. O argumento central é que um pico sazonal não é uma versão amplificada de uma sexta-feira à noite — é um evento com um perfil de demanda distinto, com motoristas que em alguns casos preferem estar com suas famílias exatamente na noite em que a demanda triplica, e com passageiros cuja tolerância à espera é estruturalmente menor porque aquela corrida específica não tem substituto fácil."
       }
     },
     {
@@ -90,21 +110,24 @@
       "id": "pico-estacional-vs-regular",
       "text": {
         "es": "Por qué el pico estacional no se comporta como un pico regular",
-        "en": "Why a seasonal peak doesn't behave like a regular demand spike"
+        "en": "Why a seasonal peak doesn't behave like a regular demand spike",
+        "pt": "Por que o pico sazonal não se comporta como um pico comum"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "Un pico regular —el viernes por la noche, la salida de un evento local— es gestionable con los conductores habituales y un umbral de surge bien calibrado. El desequilibrio es temporal y la flota disponible, aunque justa, suele ser suficiente porque la mayoría de los conductores activos están en la app con disponibilidad normal. Un pico estacional rompe ambas suposiciones al mismo tiempo. La disponibilidad de conductores en Navidad o Año Nuevo cae exactamente cuando la demanda sube: entre el 20% y el 35% de los conductores activos en una operación regional típica de LATAM reduce o elimina su disponibilidad durante la semana del 24 de diciembre y la noche del 31, porque priorizan compromisos personales. Ese doble movimiento —más demanda y menos oferta simultáneamente— produce un desequilibrio que el surge no puede resolver si no hay conductores disponibles para reposicionarse.",
-        "en": "A regular peak — Friday night, the end of a local event — is manageable with the regular driver pool and a well-calibrated surge threshold. The imbalance is temporary and the available fleet, though tight, is usually sufficient because most active drivers are in the app at normal availability. A seasonal peak breaks both assumptions at the same time. Driver availability on Christmas or New Year's drops exactly when demand rises: between 20% and 35% of active drivers in a typical regional LATAM operation reduces or eliminates their availability during the week of December 24th and New Year's Eve night, because they prioritize personal commitments. That double movement — more demand and less supply simultaneously — produces an imbalance that surge cannot resolve if there aren't enough drivers available to reposition."
+        "en": "A regular peak — Friday night, the end of a local event — is manageable with the regular driver pool and a well-calibrated surge threshold. The imbalance is temporary and the available fleet, though tight, is usually sufficient because most active drivers are in the app at normal availability. A seasonal peak breaks both assumptions at the same time. Driver availability on Christmas or New Year's drops exactly when demand rises: between 20% and 35% of active drivers in a typical regional LATAM operation reduces or eliminates their availability during the week of December 24th and New Year's Eve night, because they prioritize personal commitments. That double movement — more demand and less supply simultaneously — produces an imbalance that surge cannot resolve if there aren't enough drivers available to reposition.",
+        "pt": "Um pico comum —a sexta-feira à noite, a saída de um evento local— é gerenciável com os motoristas de sempre e um limite de tarifa dinâmica bem calibrado. O desequilíbrio é temporário e a frota disponível, ainda que justa, costuma ser suficiente porque a maioria dos motoristas ativos está no app com disponibilidade normal. Um pico sazonal quebra as duas premissas ao mesmo tempo. A disponibilidade de motoristas no Natal ou no Ano-Novo cai exatamente quando a demanda sobe: entre 20% e 35% dos motoristas ativos em uma operação regional típica da América Latina reduz ou elimina a sua disponibilidade durante a semana do dia 24 de dezembro e a noite do dia 31, porque priorizam compromissos pessoais. Esse duplo movimento —mais demanda e menos oferta ao mesmo tempo— produz um desequilíbrio que a tarifa dinâmica não consegue resolver se não houver motoristas disponíveis para se reposicionar."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "El segundo factor es el perfil del pasajero. En una noche regular, el pasajero que espera demasiado puede cerrar la app y volver a intentarlo media hora después. En Nochebuena, ese pasajero está yendo a una cena familiar con hora fija. En una final de torneo importante, está saliendo del estadio con miles de personas y sin opciones de transporte alternativas cercanas. La tolerancia a la espera es más baja porque el costo de no llegar a tiempo es mayor. Eso significa que los tiempos de espera que en una noche normal producen una calificación de cuatro estrellas, en un pico estacional producen desinstalaciones. El costo reputacional de un pico mal operado es desproporcionado respecto al ingreso que genera.",
-        "en": "The second factor is the passenger profile. On a regular night, the passenger who waits too long can close the app and try again half an hour later. On Christmas Eve, that passenger is going to a family dinner with a fixed time. After an important tournament final, they are leaving a stadium with thousands of people and no nearby transport alternatives. Wait tolerance is lower because the cost of arriving late is higher. That means wait times that on a normal night earn a four-star rating, during a seasonal peak earn uninstalls. The reputational cost of a poorly operated peak is disproportionate to the revenue it generates."
+        "en": "The second factor is the passenger profile. On a regular night, the passenger who waits too long can close the app and try again half an hour later. On Christmas Eve, that passenger is going to a family dinner with a fixed time. After an important tournament final, they are leaving a stadium with thousands of people and no nearby transport alternatives. Wait tolerance is lower because the cost of arriving late is higher. That means wait times that on a normal night earn a four-star rating, during a seasonal peak earn uninstalls. The reputational cost of a poorly operated peak is disproportionate to the revenue it generates.",
+        "pt": "O segundo fator é o perfil do passageiro. Em uma noite comum, o passageiro que espera demais pode fechar o app e tentar de novo meia hora depois. Na véspera de Natal, esse passageiro está indo a uma ceia em família com hora marcada. Na final de um campeonato importante, está saindo do estádio com milhares de pessoas e sem opções de transporte alternativas por perto. A tolerância à espera é menor porque o custo de não chegar a tempo é maior. Isso significa que tempos de espera que em uma noite normal geram uma avaliação de quatro estrelas, em um pico sazonal geram desinstalações. O custo de reputação de um pico mal operado é desproporcional em relação à receita que ele gera."
       }
     },
     {
@@ -113,14 +136,16 @@
       "id": "calendario-picos-latam",
       "text": {
         "es": "El calendario de picos que sí impacta una operación regional en LATAM",
-        "en": "The seasonal peak calendar that actually matters for a regional operation in LATAM"
+        "en": "The seasonal peak calendar that actually matters for a regional operation in LATAM",
+        "pt": "O calendário de picos que realmente impacta uma operação regional na América Latina"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "Los picos relevantes para una operación de movilidad regional en LATAM no son idénticos en todas las ciudades, pero hay un núcleo de fechas que afecta a la mayoría de los operadores de forma predecible, con distintos niveles de anticipación necesaria:",
-        "en": "The relevant peaks for a regional mobility operation in LATAM aren't identical across cities, but there is a core set of dates that predictably affects most operators, each requiring a different lead time:"
+        "en": "The relevant peaks for a regional mobility operation in LATAM aren't identical across cities, but there is a core set of dates that predictably affects most operators, each requiring a different lead time:",
+        "pt": "Os picos relevantes para uma operação de mobilidade regional na América Latina não são idênticos em todas as cidades, mas há um núcleo de datas que afeta a maioria dos operadores de forma previsível, com diferentes níveis de antecedência necessária:"
       }
     },
     {
@@ -142,6 +167,14 @@
           "Local patron saint festivals and regional fairs: 3-to-10-day events with demand concentrated in the event zone — require drivers positioned nearby, not dispersed across the city",
           "Local or regional football tournament finals: exit peak concentrated in 30 to 45 minutes with demand that can triple the baseline from the stadium perimeter",
           "School year start and end: distributed but sustained demand over 2 to 3 weeks, with higher concentration on school-to-home routes during morning hours"
+        ],
+        "pt": [
+          "Véspera de Natal e Natal (24 e 25 de dezembro): maior pico de demanda social do ano, com queda simultânea de 20%–35% na disponibilidade de motoristas — exige ativação com pelo menos 12 dias de antecedência",
+          "Véspera de Ano-Novo e Ano-Novo (31 de dezembro–1 de janeiro): demanda sustentada da meia-noite às 3h com alta elasticidade ao preço nas corridas de volta — o produto mais visível nessa noite é a segurança de chegar em casa",
+          "Dia do Amor e da Amizade (14 de fevereiro): pico concentrado na faixa do jantar e do retorno (19h–23h) com alta demanda em rotas curtas para restaurantes e bares",
+          "Festas populares e feiras locais: eventos de 3 a 10 dias com demanda concentrada na zona do evento — exigem motoristas posicionados por perto, não espalhados pela cidade",
+          "Finais de campeonato de futebol local ou regional: pico de saída concentrado em 30 a 45 minutos com demanda que pode triplicar o baseline a partir do perímetro do estádio",
+          "Início e fim do ano letivo: demanda distribuída, mas sustentada por 2 a 3 semanas, com maior concentração em rotas escola-casa no horário da manhã"
         ]
       }
     },
@@ -151,21 +184,24 @@
       "id": "conductores-adicionales-fuente",
       "text": {
         "es": "Cuántos conductores adicionales necesitas — y de dónde vienen",
-        "en": "How many additional drivers you need — and where they come from"
+        "en": "How many additional drivers you need — and where they come from",
+        "pt": "Quantos motoristas adicionais você precisa — e de onde eles vêm"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "La fórmula para estimar la flota adicional necesaria en un pico estacional parte del ratio de viajes por conductor activo en el horario de mayor demanda del evento. Si en la noche del pico la flota habitual completa en promedio 4 viajes por hora activa y el evento proyecta 2.5 veces la demanda normal, necesitas una flota 2.5 veces mayor — con un margen conservador de 2 a 2.2 veces si algunos conductores adicionales tienen tasas de aceptación más bajas por ser menos activos habitualmente. Lo que la mayoría de los operadores no incluye en ese cálculo es la reducción esperada en disponibilidad de conductores habituales: si el 25% de tu flota regular no va a estar disponible esa noche, el multiplicador real de conductores necesarios sube aún más.",
-        "en": "The formula for estimating the additional fleet needed for a seasonal peak starts with the trips-per-active-driver ratio during the event's highest-demand window. If on the peak night the regular fleet averages 4 trips per active driver hour and the event projects 2.5 times normal demand, you need a fleet 2.5 times larger — conservatively between 2 and 2.2 times if some additional drivers will have lower acceptance rates because they are less regularly active. What most operators leave out of that calculation is the expected reduction in regular driver availability: if 25% of your regular fleet won't be available that night, the real multiplier on needed drivers increases further."
+        "en": "The formula for estimating the additional fleet needed for a seasonal peak starts with the trips-per-active-driver ratio during the event's highest-demand window. If on the peak night the regular fleet averages 4 trips per active driver hour and the event projects 2.5 times normal demand, you need a fleet 2.5 times larger — conservatively between 2 and 2.2 times if some additional drivers will have lower acceptance rates because they are less regularly active. What most operators leave out of that calculation is the expected reduction in regular driver availability: if 25% of your regular fleet won't be available that night, the real multiplier on needed drivers increases further.",
+        "pt": "A fórmula para estimar a frota adicional necessária em um pico sazonal parte da relação de corridas por motorista ativo no horário de maior demanda do evento. Se na noite do pico a frota habitual completa em média 4 corridas por hora ativa e o evento projeta 2,5 vezes a demanda normal, você precisa de uma frota 2,5 vezes maior — com uma margem conservadora de 2 a 2,2 vezes se alguns motoristas adicionais tiverem taxas de aceitação mais baixas por serem menos ativos no dia a dia. O que a maioria dos operadores não inclui nesse cálculo é a redução esperada na disponibilidade dos motoristas habituais: se 25% da sua frota regular não estiver disponível nessa noite, o multiplicador real de motoristas necessários sobe ainda mais."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "La fuente de conductores adicionales en una operación regional es casi siempre la misma: conductores registrados en la plataforma que completaron el proceso de documentación pero cuya actividad cayó por debajo de cinco viajes semanales en los últimos 60 días. En la mayoría de las operaciones con más de seis meses activos, ese grupo representa entre el 30% y el 50% de la base registrada total — son conductores que conocen la app, tienen el vehículo aprobado, y pueden reactivarse con un incentivo claro. El mensaje de reactivación debe salir con 12 a 15 días de anticipación, antes de que esos conductores hayan comprometido su disponibilidad a otras actividades para esas fechas, y debe incluir el incentivo específico: no un mensaje genérico de 'vuelve a conducir' sino un cálculo explícito de cuánto puede ganar esa noche con el volumen esperado y la comisión vigente.",
-        "en": "The source of additional drivers in a regional operation is almost always the same: drivers registered on the platform who completed the documentation process but whose activity has fallen below five weekly trips in the last 60 days. In most operations with more than six months of history, that group represents between 30% and 50% of the total registered base — drivers who know the app, have an approved vehicle, and can be reactivated with a clear incentive. The reactivation message must go out 12 to 15 days in advance, before those drivers have committed their availability to other plans for those dates, and must include the specific incentive: not a generic 'come back to drive' message but an explicit calculation of how much they can earn that specific night given the projected volume and current commission rate."
+        "en": "The source of additional drivers in a regional operation is almost always the same: drivers registered on the platform who completed the documentation process but whose activity has fallen below five weekly trips in the last 60 days. In most operations with more than six months of history, that group represents between 30% and 50% of the total registered base — drivers who know the app, have an approved vehicle, and can be reactivated with a clear incentive. The reactivation message must go out 12 to 15 days in advance, before those drivers have committed their availability to other plans for those dates, and must include the specific incentive: not a generic 'come back to drive' message but an explicit calculation of how much they can earn that specific night given the projected volume and current commission rate.",
+        "pt": "A fonte de motoristas adicionais em uma operação regional é quase sempre a mesma: motoristas cadastrados na plataforma que concluíram o processo de documentação, mas cuja atividade caiu abaixo de cinco corridas por semana nos últimos 60 dias. Na maioria das operações com mais de seis meses de atividade, esse grupo representa entre 30% e 50% da base cadastrada total — são motoristas que conhecem o app, têm o veículo aprovado e podem ser reativados com um incentivo claro. A mensagem de reativação deve sair com 12 a 15 dias de antecedência, antes que esses motoristas tenham comprometido a sua disponibilidade com outras atividades nessas datas, e deve incluir o incentivo específico: não uma mensagem genérica de 'volte a dirigir', mas um cálculo explícito de quanto ele pode ganhar naquela noite com o volume esperado e a comissão vigente."
       }
     },
     {
@@ -174,21 +210,24 @@
       "id": "precios-picos-estacionales",
       "text": {
         "es": "Precios en picos estacionales: cuándo el surge ayuda y cuándo aleja pasajeros",
-        "en": "Pricing during seasonal peaks: when surge helps and when it drives passengers away"
+        "en": "Pricing during seasonal peaks: when surge helps and when it drives passengers away",
+        "pt": "Preços em picos sazonais: quando a tarifa dinâmica ajuda e quando afasta passageiros"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "La lógica del precio dinámico funciona mejor en picos irregulares e impredecibles — los que ocurren sin previo aviso y donde el operador no pudo preparar la oferta con anticipación. En los picos estacionales, donde se sabe con exactitud cuándo va a ocurrir el desequilibrio, la respuesta correcta es resolver el problema de oferta antes del pico, no compensarlo con precio durante el pico. Un multiplicador de surge activado en Nochebuena a las 11 de la noche puede mover conductores hacia zonas de alta demanda si hay conductores disponibles para reposicionarse — pero si el operador no activó conductores adicionales con anticipación, no hay quien se reposicione. El precio sube sin que la oferta mejore, y el pasajero ve un multiplicador de 2x para un servicio que tarda 18 minutos en llegar.",
-        "en": "The logic of dynamic pricing works best for irregular, unpredictable peaks — the ones that happen without warning and where the operator couldn't prepare supply in advance. For seasonal peaks, where you know exactly when the imbalance will occur, the right response is to resolve the supply problem before the peak, not compensate for it with price during the peak. A surge multiplier activated on Christmas Eve at 11 p.m. can move drivers toward high-demand zones if there are available drivers to reposition — but if the operator didn't activate additional drivers in advance, there is no one to reposition. The price rises without supply improving, and the passenger sees a 2x multiplier for a service that takes 18 minutes to arrive."
+        "en": "The logic of dynamic pricing works best for irregular, unpredictable peaks — the ones that happen without warning and where the operator couldn't prepare supply in advance. For seasonal peaks, where you know exactly when the imbalance will occur, the right response is to resolve the supply problem before the peak, not compensate for it with price during the peak. A surge multiplier activated on Christmas Eve at 11 p.m. can move drivers toward high-demand zones if there are available drivers to reposition — but if the operator didn't activate additional drivers in advance, there is no one to reposition. The price rises without supply improving, and the passenger sees a 2x multiplier for a service that takes 18 minutes to arrive.",
+        "pt": "A lógica da tarifa dinâmica funciona melhor em picos irregulares e imprevisíveis — os que ocorrem sem aviso prévio e nos quais o operador não conseguiu preparar a oferta com antecedência. Nos picos sazonais, em que se sabe com exatidão quando o desequilíbrio vai ocorrer, a resposta correta é resolver o problema de oferta antes do pico, não compensá-lo com preço durante o pico. Um multiplicador de tarifa dinâmica ativado na véspera de Natal às 11 da noite pode mover motoristas para zonas de alta demanda se houver motoristas disponíveis para se reposicionar — mas, se o operador não ativou motoristas adicionais com antecedência, não há quem se reposicione. O preço sobe sem que a oferta melhore, e o passageiro vê um multiplicador de 2x para um serviço que demora 18 minutos para chegar."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "Lo que sí funciona en picos estacionales conocidos es una tarifa de temporada alta fijada con anticipación y comunicada al pasajero antes de la fecha — no un multiplicador automático descubierto en la pantalla de confirmación. Una tarifa de Nochevieja publicada dos días antes en la app ('tarifa especial de Año Nuevo, vigente de 10 pm a 4 am') es percibida por el pasajero como información, no como sorpresa. Esa transparencia reduce la tasa de cancelación en la pantalla de confirmación y permite que el pasajero planifique el presupuesto del evento. El rango que funciona sin destruir conversión en la mayoría de los mercados secundarios de LATAM está entre 1.3x y 1.5x de la tarifa base — suficiente para compensar a los conductores que trabajan esa noche sin producir las cancelaciones masivas que sí genera un multiplicador automático de 2x sin contexto.",
-        "en": "What does work for known seasonal peaks is a pre-set high-season rate communicated to passengers before the date — not an automatic multiplier discovered on the confirmation screen. A New Year's Eve rate published two days in advance in the app ('special New Year's rate, active from 10 p.m. to 4 a.m.') is perceived by the passenger as information, not a surprise. That transparency reduces cancellation rates at confirmation and allows passengers to budget for the event. The range that works without destroying conversion in most secondary LATAM markets is between 1.3x and 1.5x of the base rate — enough to compensate drivers working that night without producing the mass cancellations that an automatic 2x multiplier without context generates."
+        "en": "What does work for known seasonal peaks is a pre-set high-season rate communicated to passengers before the date — not an automatic multiplier discovered on the confirmation screen. A New Year's Eve rate published two days in advance in the app ('special New Year's rate, active from 10 p.m. to 4 a.m.') is perceived by the passenger as information, not a surprise. That transparency reduces cancellation rates at confirmation and allows passengers to budget for the event. The range that works without destroying conversion in most secondary LATAM markets is between 1.3x and 1.5x of the base rate — enough to compensate drivers working that night without producing the mass cancellations that an automatic 2x multiplier without context generates.",
+        "pt": "O que de fato funciona em picos sazonais conhecidos é uma tarifa de alta temporada definida com antecedência e comunicada ao passageiro antes da data — não um multiplicador automático descoberto na tela de confirmação. Uma tarifa de véspera de Ano-Novo publicada dois dias antes no app ('tarifa especial de Ano-Novo, válida das 22h às 4h') é percebida pelo passageiro como informação, não como surpresa. Essa transparência reduz a taxa de cancelamento na tela de confirmação e permite que o passageiro planeje o orçamento do evento. A faixa que funciona sem destruir a conversão na maioria dos mercados secundários da América Latina fica entre 1,3x e 1,5x da tarifa base — suficiente para compensar os motoristas que trabalham nessa noite sem produzir os cancelamentos em massa que um multiplicador automático de 2x sem contexto gera."
       }
     },
     {
@@ -197,21 +236,24 @@
       "id": "comunicar-pico-flota",
       "text": {
         "es": "Cómo comunicar el pico a tu flota — y por qué el timing lo determina todo",
-        "en": "How to communicate the peak to your fleet — and why timing determines everything"
+        "en": "How to communicate the peak to your fleet — and why timing determines everything",
+        "pt": "Como comunicar o pico à sua frota — e por que o timing determina tudo"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "La diferencia entre activar conductores adicionales para un pico estacional y no lograrlo casi siempre se reduce a una sola variable: el momento en que sale el mensaje. Los conductores con actividad reducida tienen compromisos personales en las mismas fechas de alta demanda de la plataforma. Si el mensaje de reactivación llega el 22 de diciembre para el 24, la mayoría de esos conductores ya tiene planes esa noche y no puede modificarlos. Si llega el 12 de diciembre para el 24, la mayoría todavía tiene disponibilidad abierta y puede decidir priorizar el ingreso del pico. La ventana óptima de comunicación es entre 10 y 15 días antes del evento — suficiente para que el conductor planifique, sin ser tan temprano que el mensaje pierda urgencia.",
-        "en": "The difference between activating additional drivers for a seasonal peak and failing to do so almost always comes down to one variable: when the message goes out. Drivers with reduced activity have personal commitments on the same high-demand dates as the platform. If the reactivation message arrives on December 22nd for the 24th, most of those drivers already have plans that night and can't change them. If it arrives on December 12th for the 24th, most still have their schedule open and can decide to prioritize the peak income. The optimal communication window is 10 to 15 days before the event — enough lead time for the driver to plan, without being so far in advance that the message loses urgency."
+        "en": "The difference between activating additional drivers for a seasonal peak and failing to do so almost always comes down to one variable: when the message goes out. Drivers with reduced activity have personal commitments on the same high-demand dates as the platform. If the reactivation message arrives on December 22nd for the 24th, most of those drivers already have plans that night and can't change them. If it arrives on December 12th for the 24th, most still have their schedule open and can decide to prioritize the peak income. The optimal communication window is 10 to 15 days before the event — enough lead time for the driver to plan, without being so far in advance that the message loses urgency.",
+        "pt": "A diferença entre ativar motoristas adicionais para um pico sazonal e não conseguir quase sempre se resume a uma única variável: o momento em que a mensagem sai. Os motoristas com atividade reduzida têm compromissos pessoais nas mesmas datas de alta demanda da plataforma. Se a mensagem de reativação chega no dia 22 de dezembro para o dia 24, a maioria desses motoristas já tem planos naquela noite e não consegue mudá-los. Se chega no dia 12 de dezembro para o dia 24, a maioria ainda tem a agenda aberta e pode decidir priorizar a renda do pico. A janela ideal de comunicação é entre 10 e 15 dias antes do evento — tempo suficiente para o motorista planejar, sem ser tão cedo a ponto de a mensagem perder a urgência."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "El contenido del mensaje importa tanto como el timing. Una comunicación genérica de 'hay mucha demanda el 24, te esperamos' no mueve conductores inactivos. Un mensaje que incluye el volumen esperado, el ingreso estimado en tres o cuatro horas de trabajo y el bono de disponibilidad específico produce tasas de activación 2.5 a 4 veces mayores que el mensaje genérico. El conductor inactivo no necesita motivación — necesita información suficiente para evaluar si esa noche específica es una oportunidad económica que justifica modificar sus planes. Un cálculo explícito hace esa evaluación inmediata: 'la noche del 24 estimamos 4 a 5 viajes por hora entre las 8 pm y la 1 am, con un ingreso promedio de $X por viaje. Los primeros 25 conductores que confirmen disponibilidad reciben un bono adicional de $Y al completar 10 viajes.'",
-        "en": "The content of the message matters as much as the timing. A generic communication of 'there's lots of demand on the 24th, we hope to see you' doesn't move inactive drivers. A message that includes projected volume, estimated earnings over three or four hours of work, and the specific availability bonus produces activation rates 2.5 to 4 times higher than the generic message. The inactive driver doesn't need motivation — they need enough information to evaluate whether that specific night is an economic opportunity worth modifying their plans for. An explicit calculation makes that evaluation immediate: 'on the night of the 24th we estimate 4 to 5 trips per hour from 8 p.m. to 1 a.m., with an average income of $X per trip. The first 25 drivers who confirm availability receive an additional $Y bonus on completing 10 trips.'"
+        "en": "The content of the message matters as much as the timing. A generic communication of 'there's lots of demand on the 24th, we hope to see you' doesn't move inactive drivers. A message that includes projected volume, estimated earnings over three or four hours of work, and the specific availability bonus produces activation rates 2.5 to 4 times higher than the generic message. The inactive driver doesn't need motivation — they need enough information to evaluate whether that specific night is an economic opportunity worth modifying their plans for. An explicit calculation makes that evaluation immediate: 'on the night of the 24th we estimate 4 to 5 trips per hour from 8 p.m. to 1 a.m., with an average income of $X per trip. The first 25 drivers who confirm availability receive an additional $Y bonus on completing 10 trips.'",
+        "pt": "O conteúdo da mensagem importa tanto quanto o timing. Uma comunicação genérica de 'tem muita demanda no dia 24, esperamos você' não move motoristas inativos. Uma mensagem que inclui o volume esperado, a renda estimada em três ou quatro horas de trabalho e o bônus de disponibilidade específico produz taxas de ativação 2,5 a 4 vezes maiores do que a mensagem genérica. O motorista inativo não precisa de motivação — precisa de informação suficiente para avaliar se aquela noite específica é uma oportunidade econômica que justifica mudar os seus planos. Um cálculo explícito torna essa avaliação imediata: 'na noite do dia 24 estimamos 4 a 5 corridas por hora entre as 20h e a 1h, com uma renda média de $X por corrida. Os primeiros 25 motoristas que confirmarem disponibilidade recebem um bônus adicional de $Y ao completar 10 corridas.'"
       }
     },
     {
@@ -219,7 +261,8 @@
       "variant": "tip",
       "text": {
         "es": "Para estimar la flota necesaria en el próximo pico, usa los datos del anterior: viajes asignados / viajes solicitados = tasa de cobertura. Si esa tasa cayó por debajo del 80% en algún horario del pico, calcula cuántos conductores adicionales hubieran sido necesarios para mantenerla — ese es tu número de activaciones objetivo para el siguiente evento equivalente.",
-        "en": "To estimate the fleet needed for the next peak, use data from the previous one: assigned trips / requested trips = coverage rate. If that rate fell below 80% during any peak window, calculate how many additional drivers would have been needed to maintain it — that is your activation target for the next equivalent event."
+        "en": "To estimate the fleet needed for the next peak, use data from the previous one: assigned trips / requested trips = coverage rate. If that rate fell below 80% during any peak window, calculate how many additional drivers would have been needed to maintain it — that is your activation target for the next equivalent event.",
+        "pt": "Para estimar a frota necessária no próximo pico, use os dados do anterior: corridas atribuídas / corridas solicitadas = taxa de cobertura. Se essa taxa caiu abaixo de 80% em algum horário do pico, calcule quantos motoristas adicionais teriam sido necessários para mantê-la — esse é o seu número de ativações-alvo para o próximo evento equivalente."
       }
     },
     {
@@ -228,7 +271,8 @@
       "id": "errores-pico-crisis",
       "text": {
         "es": "Los errores que convierten un pico de demanda en una mala noche para la plataforma",
-        "en": "The mistakes that turn a demand peak into a bad night for the platform"
+        "en": "The mistakes that turn a demand peak into a bad night for the platform",
+        "pt": "Os erros que transformam um pico de demanda em uma noite ruim para a plataforma"
       }
     },
     {
@@ -236,7 +280,8 @@
       "style": "bullet",
       "intro": {
         "es": "Los patrones de fallo más frecuentes en la operación de picos estacionales:",
-        "en": "The most common failure patterns in seasonal peak operations:"
+        "en": "The most common failure patterns in seasonal peak operations:",
+        "pt": "Os padrões de falha mais frequentes na operação de picos sazonais:"
       },
       "items": {
         "es": [
@@ -252,6 +297,13 @@
           "Assuming surge will compensate for lack of supply preparation: a high multiplier without available drivers to reposition only generates high prices with long wait times — the most damaging combination for platform perception",
           "Not communicating the seasonal rate to passengers before the event: the passenger who discovers the special price on the confirmation screen is more likely to cancel than the one who knew two days in advance",
           "Not measuring the peak after it happens: the seasonal peak is the most valuable data source of the year for calibrating the next one — how many drivers were needed, which window was the real peak, which zones had supply gaps, what the cancellation rate was at each price level"
+        ],
+        "pt": [
+          "Ativar motoristas sem briefing prévio: um motorista reativado depois de 60 dias fora pode estar com o app desatualizado ou com a configuração de zona incorreta — um problema técnico na noite do pico não tem janela de suporte disponível",
+          "Não atualizar as zonas de cobertura antes do evento: em picos de estádio, feira ou praça central, os motoristas precisam de uma zona de embarque definida com antecedência — sem essa configuração, a demanda se concentra no ponto do evento, mas a frota não sabe onde se posicionar",
+          "Assumir que a tarifa dinâmica vai compensar a falta de preparação da oferta: um multiplicador alto sem motoristas disponíveis para se reposicionar só gera preços altos com tempos de espera longos — a combinação mais prejudicial para a percepção da plataforma",
+          "Não comunicar a tarifa de temporada ao passageiro antes do evento: o passageiro que descobre o preço especial na tela de confirmação tem mais probabilidade de cancelar do que aquele que soube com dois dias de antecedência",
+          "Não medir o pico depois que ele passa: o pico sazonal é a fonte de dados mais valiosa do ano para calibrar o próximo — quantos motoristas foram necessários, em que faixa foi o pico real, quais zonas tiveram déficit de oferta, qual foi a taxa de cancelamento em cada nível de preço"
         ]
       }
     },
@@ -259,25 +311,29 @@
       "type": "quote",
       "text": {
         "es": "La Nochevieja del año anterior la operamos con los mismos conductores habituales. Los tiempos de espera llegaron a 17 minutos entre las 12:30 y la 1:30 de la mañana. Perdimos más de 300 solicitudes sin asignar esa noche. El año siguiente activé 22 conductores adicionales con 12 días de anticipación, comuniqué la tarifa especial en la app dos días antes, y los tiempos no superaron 5 minutos. Lo que cambió no fue la tecnología — fue tener la flota lista 12 días antes en lugar del mismo día.",
-        "en": "The previous New Year's Eve we operated with the same regular drivers. Wait times reached 17 minutes between 12:30 and 1:30 a.m. We lost over 300 unassigned requests that night. The following year I activated 22 additional drivers 12 days in advance, published the special rate in the app two days before, and wait times never exceeded 5 minutes. What changed wasn't the technology — it was having the fleet ready 12 days early instead of on the same day."
+        "en": "The previous New Year's Eve we operated with the same regular drivers. Wait times reached 17 minutes between 12:30 and 1:30 a.m. We lost over 300 unassigned requests that night. The following year I activated 22 additional drivers 12 days in advance, published the special rate in the app two days before, and wait times never exceeded 5 minutes. What changed wasn't the technology — it was having the fleet ready 12 days early instead of on the same day.",
+        "pt": "A véspera de Ano-Novo do ano anterior nós operamos com os mesmos motoristas de sempre. Os tempos de espera chegaram a 17 minutos entre 0h30 e 1h30 da manhã. Perdemos mais de 300 solicitações sem atribuição naquela noite. No ano seguinte, ativei 22 motoristas adicionais com 12 dias de antecedência, comuniquei a tarifa especial no app dois dias antes, e os tempos não passaram de 5 minutos. O que mudou não foi a tecnologia — foi ter a frota pronta 12 dias antes, em vez de no mesmo dia."
       },
       "attribution": {
         "es": "Operador de movilidad en una ciudad de 230,000 habitantes en el occidente de México",
-        "en": "Mobility operator in a city of 230,000 in western Mexico"
+        "en": "Mobility operator in a city of 230,000 in western Mexico",
+        "pt": "Operador de mobilidade em uma cidade de 230.000 habitantes no oeste do México"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "La operación bien preparada para un pico estacional no es la que tiene más conductores en la calle esa noche — es la que convirtió esa noche en el momento donde el pasajero aprendió que la app funciona cuando más la necesita. Esa experiencia tiene un valor que va más allá del ingreso generado en las tres o cuatro horas del pico: es el argumento más efectivo para que ese pasajero sea recurrente en las semanas siguientes, cuando la demanda vuelve a su nivel normal pero el pasajero tiene una referencia de plataforma confiable formada en el momento de mayor estrés.",
-        "en": "The operation well-prepared for a seasonal peak is not the one with the most drivers on the street that night — it's the one that turned that night into the moment the passenger learned the app works when they need it most. That experience has value beyond the revenue generated in those three or four peak hours: it is the most effective argument for that passenger to become a recurring user in the weeks that follow, when demand returns to its normal level but the passenger carries a reference of a reliable platform formed under the highest stress."
+        "en": "The operation well-prepared for a seasonal peak is not the one with the most drivers on the street that night — it's the one that turned that night into the moment the passenger learned the app works when they need it most. That experience has value beyond the revenue generated in those three or four peak hours: it is the most effective argument for that passenger to become a recurring user in the weeks that follow, when demand returns to its normal level but the passenger carries a reference of a reliable platform formed under the highest stress.",
+        "pt": "A operação bem preparada para um pico sazonal não é a que tem mais motoristas na rua naquela noite — é a que transformou aquela noite no momento em que o passageiro aprendeu que o app funciona quando ele mais precisa. Essa experiência tem um valor que vai além da receita gerada nas três ou quatro horas do pico: é o argumento mais eficaz para que esse passageiro se torne recorrente nas semanas seguintes, quando a demanda volta ao seu nível normal, mas o passageiro carrega uma referência de plataforma confiável formada no momento de maior estresse."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "El pico estacional no es una excepción en el calendario de un operador regional — es una cita recurrente con los pasajeros que más importan. Los dos ingredientes que lo diferencian de un pico fallido son los únicos que dependen exclusivamente del operador: la anticipación con la que se activó la flota y la claridad con que se comunicó la tarifa. Todo lo demás —el volumen de demanda, los eventos, el clima— no está bajo el control del operador. La preparación sí.",
-        "en": "The seasonal peak isn't an exception in a regional operator's calendar — it's a recurring appointment with the passengers who matter most. The two ingredients that separate a well-executed peak from a crisis are the only ones the operator fully controls: the lead time for fleet activation and the clarity of rate communication. Everything else — demand volume, events, weather — sits outside the operator's control. Preparation doesn't."
+        "en": "The seasonal peak isn't an exception in a regional operator's calendar — it's a recurring appointment with the passengers who matter most. The two ingredients that separate a well-executed peak from a crisis are the only ones the operator fully controls: the lead time for fleet activation and the clarity of rate communication. Everything else — demand volume, events, weather — sits outside the operator's control. Preparation doesn't.",
+        "pt": "O pico sazonal não é uma exceção no calendário de um operador regional — é um compromisso recorrente com os passageiros que mais importam. Os dois ingredientes que o diferenciam de um pico fracassado são os únicos que dependem exclusivamente do operador: a antecedência com que a frota foi ativada e a clareza com que a tarifa foi comunicada. Todo o resto —o volume de demanda, os eventos, o clima— não está sob o controle do operador. A preparação está."
       }
     }
   ]

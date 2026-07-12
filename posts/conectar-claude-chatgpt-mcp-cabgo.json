@@ -3,16 +3,19 @@
   "category": "product",
   "title": {
     "es": "Cómo conectar Claude Desktop o ChatGPT al MCP de Cabgo",
-    "en": "How to connect Claude Desktop or ChatGPT to Cabgo's MCP server"
+    "en": "How to connect Claude Desktop or ChatGPT to Cabgo's MCP server",
+    "pt": "Como conectar o Claude Desktop ou o ChatGPT ao MCP da Cabgo"
   },
   "excerpt": {
     "es": "Conectar Claude Desktop o ChatGPT al MCP de Cabgo toma menos de una tarde. El contexto mínimo en las instrucciones del sistema es lo que separa un agente conectado de uno útil.",
-    "en": "Connecting Claude Desktop or ChatGPT to Cabgo's MCP takes under an afternoon. The minimum system instruction context is what separates a connected agent from a useful one."
+    "en": "Connecting Claude Desktop or ChatGPT to Cabgo's MCP takes under an afternoon. The minimum system instruction context is what separates a connected agent from a useful one.",
+    "pt": "Conectar o Claude Desktop ou o ChatGPT ao MCP da Cabgo leva menos de uma tarde. O contexto mínimo nas instruções do sistema é o que separa um agente conectado de um agente útil."
   },
   "heroImage": "https://raw.githubusercontent.com/jonatanvazquez/cabgo-blog-content/main/images/conectar-claude-chatgpt-mcp-cabgo.jpg",
   "heroImageAlt": {
     "es": "Ilustración isométrica de un panel de operador con campo de token API destacado a la izquierda, un cable de datos teal conectando al centro, y una pantalla de chat con conexión MCP activa y respuesta con conteo de conductores a la derecha",
-    "en": "Isometric illustration of an operator panel card with highlighted API token field on the left, a teal data cable in the center, and a chat screen showing an active MCP connection badge and a driver count response on the right"
+    "en": "Isometric illustration of an operator panel card with highlighted API token field on the left, a teal data cable in the center, and a chat screen showing an active MCP connection badge and a driver count response on the right",
+    "pt": "Ilustração isométrica de um painel de operador com o campo de token de API destacado à esquerda, um cabo de dados teal conectando ao centro e uma tela de chat com conexão MCP ativa e resposta com contagem de motoristas à direita"
   },
   "heroImagePrompt": "Isometric workstation split composition: on the left a floating operator dashboard panel card tilted at an angle showing API key and token input fields with a glowing teal copy-token button highlighted. Center: a glowing teal data cable arcing upward between the two elements. Right: a laptop screen showing a minimal chat client with an active MCP server connection badge at the top and a short query thread — driver count numbers displayed as a clean server response. Deep violet floor grid with soft glow on the connection cable. Negative space on lower right.",
   "publishedAt": "2026-06-14",
@@ -35,13 +38,23 @@
       "MCP authentication token Cabgo system instructions",
       "initial agent setup Cabgo ride-hailing",
       "tutorial connect Claude ChatGPT Cabgo server"
+    ],
+    "pt": [
+      "como conectar Claude Desktop Cabgo MCP passo a passo",
+      "instalar skill MCP Cabgo primeiro uso operador",
+      "configurar ChatGPT plugin Cabgo operador mobilidade",
+      "primeira conexão agente IA servidor Cabgo MCP",
+      "token autenticação MCP Cabgo instruções sistema",
+      "configuração inicial agente Cabgo transporte por aplicativo",
+      "tutorial conectar Claude ChatGPT servidor Cabgo"
     ]
   },
   "author": {
     "name": "Equipo Cabgo",
     "role": {
       "es": "Plataforma de movilidad",
-      "en": "Mobility platform"
+      "en": "Mobility platform",
+      "pt": "Plataforma de mobilidade"
     }
   },
   "blocks": [
@@ -49,14 +62,16 @@
       "type": "paragraph",
       "text": {
         "es": "Conectar Claude Desktop o el plugin de ChatGPT al servidor MCP de Cabgo requiere tres pasos: obtener el token de autenticación desde el panel de operador, declarar el servidor en el archivo de configuración del cliente de agente, y hacer la primera llamada que confirma que el canal está activo. La secuencia no es larga, pero tiene tres puntos donde los operadores se detienen más de lo necesario: el formato exacto del bloque de configuración, el error que aparece cuando el token se pega con un espacio de más, y la consulta específica que distingue entre «el servidor responde» y «el servidor responde con los datos de mi operación». Este artículo cubre esos tres puntos con el detalle que no está en la documentación genérica del protocolo MCP.",
-        "en": "Connecting Claude Desktop or the ChatGPT plugin to Cabgo's MCP server takes three steps: get the authentication token from the operator panel, declare the server in the agent client's configuration file, and make the first call that confirms the channel is active. The sequence isn't long, but there are three points where operators get stuck longer than necessary: the exact format of the configuration block, the error that appears when the token is pasted with an extra space, and the specific query that distinguishes between 'the server responds' and 'the server responds with my operation's data.' This article covers those three points with the detail that isn't in generic MCP protocol documentation."
+        "en": "Connecting Claude Desktop or the ChatGPT plugin to Cabgo's MCP server takes three steps: get the authentication token from the operator panel, declare the server in the agent client's configuration file, and make the first call that confirms the channel is active. The sequence isn't long, but there are three points where operators get stuck longer than necessary: the exact format of the configuration block, the error that appears when the token is pasted with an extra space, and the specific query that distinguishes between 'the server responds' and 'the server responds with my operation's data.' This article covers those three points with the detail that isn't in generic MCP protocol documentation.",
+        "pt": "Conectar o Claude Desktop ou o plugin do ChatGPT ao servidor MCP da Cabgo exige três passos: obter o token de autenticação no painel de operador, declarar o servidor no arquivo de configuração do cliente de agente e fazer a primeira chamada que confirma que o canal está ativo. A sequência não é longa, mas tem três pontos onde os operadores travam mais do que o necessário: o formato exato do bloco de configuração, o erro que aparece quando o token é colado com um espaço a mais e a consulta específica que distingue entre «o servidor responde» e «o servidor responde com os dados da minha operação». Este artigo cobre esses três pontos com o detalhe que não está na documentação genérica do protocolo MCP."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "Este artículo está escrito para el operador que tiene el panel de Cabgo funcionando, ha visto en el blog o en la documentación que hay un servidor MCP disponible y quiere hacer la primera conexión sin que el proceso técnico le tome más de una tarde. No asume experiencia previa con MCP ni con configuración de APIs: asume que sabes usar Claude Desktop o ChatGPT como chat y que tienes acceso al panel de operador. Al final de la guía el agente tendrá una conexión activa con el servidor y el contexto mínimo en las instrucciones del sistema para que la primera sesión de trabajo ya produzca respuestas específicas a tu operación, no respuestas genéricas que podría dar cualquier asistente sin acceso a los datos reales.",
-        "en": "This article is written for the operator who has the Cabgo panel running, has seen in the blog or documentation that an MCP server is available, and wants to make the first connection without the technical setup taking more than an afternoon. It assumes no prior experience with MCP or API configuration: it assumes you know how to use Claude Desktop or ChatGPT as a chat client and that you have access to the operator panel. By the end of the guide, the agent will have an active connection to the server and the minimum context in the system instructions so that the first working session already returns operation-specific responses — not generic answers that any assistant could give without access to your real data."
+        "en": "This article is written for the operator who has the Cabgo panel running, has seen in the blog or documentation that an MCP server is available, and wants to make the first connection without the technical setup taking more than an afternoon. It assumes no prior experience with MCP or API configuration: it assumes you know how to use Claude Desktop or ChatGPT as a chat client and that you have access to the operator panel. By the end of the guide, the agent will have an active connection to the server and the minimum context in the system instructions so that the first working session already returns operation-specific responses — not generic answers that any assistant could give without access to your real data.",
+        "pt": "Este artigo foi escrito para o operador que já tem o painel da Cabgo funcionando, viu no blog ou na documentação que existe um servidor MCP disponível e quer fazer a primeira conexão sem que o processo técnico leve mais de uma tarde. Ele não pressupõe experiência prévia com MCP nem com configuração de APIs: pressupõe que você sabe usar o Claude Desktop ou o ChatGPT como chat e que tem acesso ao painel de operador. Ao final do guia, o agente terá uma conexão ativa com o servidor e o contexto mínimo nas instruções do sistema para que a primeira sessão de trabalho já produza respostas específicas à sua operação, não respostas genéricas que qualquer assistente poderia dar sem acesso aos dados reais."
       }
     },
     {
@@ -65,21 +80,24 @@
       "id": "conectado-vs-util-primer-turno",
       "text": {
         "es": "Por qué 'técnicamente conectado' y 'útil desde el primer turno' son estados distintos",
-        "en": "Why 'technically connected' and 'useful from the first shift' are different states"
+        "en": "Why 'technically connected' and 'useful from the first shift' are different states",
+        "pt": "Por que 'tecnicamente conectado' e 'útil desde o primeiro turno' são estados diferentes"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "El servidor MCP de Cabgo está diseñado para aceptar conexiones de cualquier cliente compatible con el protocolo. En teoría, seguir las instrucciones genéricas de configuración de Claude Desktop o el tutorial de instalación de plugins de ChatGPT es suficiente para que el canal quede activo. En la práctica, «activo» y «útil» son dos estados distintos. Un canal activo significa que el agente puede invocar las herramientas del servidor y el servidor responde. Un canal útil significa que las respuestas que el agente devuelve son específicas a la operación del operador: incluyen datos del tenant correcto, interpretan las métricas con los parámetros reales del mercado específico y usan los mismos nombres que el equipo usa internamente para zonas, conductores y configuraciones. El primer estado toma quince minutos. El segundo requiere además un mínimo de configuración en las instrucciones del sistema que convierte el acceso genérico en acceso contextualizado.",
-        "en": "Cabgo's MCP server is built to accept connections from any protocol-compatible client. In theory, following Claude Desktop's generic configuration instructions or ChatGPT's plugin installation tutorial is enough to get the channel active. In practice, 'active' and 'useful' are two different states. An active channel means the agent can invoke server tools and the server responds. A useful channel means the responses the agent returns are specific to the operator's operation: they include data from the correct tenant, interpret metrics with the real parameters of that specific market, and use the same internal names the team uses for zones, drivers, and configurations. Reaching the first state takes fifteen minutes. Reaching the second also requires a minimum of system instructions configuration that turns generic access into contextualized access."
+        "en": "Cabgo's MCP server is built to accept connections from any protocol-compatible client. In theory, following Claude Desktop's generic configuration instructions or ChatGPT's plugin installation tutorial is enough to get the channel active. In practice, 'active' and 'useful' are two different states. An active channel means the agent can invoke server tools and the server responds. A useful channel means the responses the agent returns are specific to the operator's operation: they include data from the correct tenant, interpret metrics with the real parameters of that specific market, and use the same internal names the team uses for zones, drivers, and configurations. Reaching the first state takes fifteen minutes. Reaching the second also requires a minimum of system instructions configuration that turns generic access into contextualized access.",
+        "pt": "O servidor MCP da Cabgo foi projetado para aceitar conexões de qualquer cliente compatível com o protocolo. Em teoria, seguir as instruções genéricas de configuração do Claude Desktop ou o tutorial de instalação de plugins do ChatGPT é suficiente para deixar o canal ativo. Na prática, «ativo» e «útil» são dois estados diferentes. Um canal ativo significa que o agente pode invocar as ferramentas do servidor e o servidor responde. Um canal útil significa que as respostas que o agente devolve são específicas à operação do operador: incluem dados do tenant correto, interpretam as métricas com os parâmetros reais do mercado específico e usam os mesmos nomes que a equipe usa internamente para zonas, motoristas e configurações. O primeiro estado leva quinze minutos. O segundo exige, além disso, um mínimo de configuração nas instruções do sistema que converte o acesso genérico em acesso contextualizado."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "La razón por la que muchos operadores se quedan en el primer estado después de la instalación inicial es que el proceso técnico de conexión se documenta bien, pero el paso siguiente no viene en ninguna guía genérica porque varía por operación. El mínimo de instrucciones del sistema que hace útil el agente para una operación con 40 conductores en una ciudad turística es diferente al de una operación con 150 en una ciudad industrial con dos verticales. La buena noticia es que el mínimo para empezar es pequeño: cuatro elementos en menos de diez líneas, que representan menos de diez minutos de trabajo adicional después de tener el canal activo.",
-        "en": "The reason many operators stay in the first state after initial setup is that the technical connection process is well documented, but the next step doesn't appear in any generic guide because it varies by operation. The minimum system instructions that make the agent useful for an operation with 40 drivers in a tourist city differ from one with 150 in an industrial city with two active verticals. The good news is that the minimum to get started is small: four elements in fewer than ten lines, representing under ten minutes of additional work after the channel is active."
+        "en": "The reason many operators stay in the first state after initial setup is that the technical connection process is well documented, but the next step doesn't appear in any generic guide because it varies by operation. The minimum system instructions that make the agent useful for an operation with 40 drivers in a tourist city differ from one with 150 in an industrial city with two active verticals. The good news is that the minimum to get started is small: four elements in fewer than ten lines, representing under ten minutes of additional work after the channel is active.",
+        "pt": "A razão pela qual muitos operadores ficam no primeiro estado após a instalação inicial é que o processo técnico de conexão é bem documentado, mas o passo seguinte não aparece em nenhum guia genérico porque varia por operação. O mínimo de instruções do sistema que torna o agente útil para uma operação com 40 motoristas em uma cidade turística é diferente do de uma operação com 150 em uma cidade industrial com duas verticais. A boa notícia é que o mínimo para começar é pequeno: quatro elementos em menos de dez linhas, que representam menos de dez minutos de trabalho adicional depois de ter o canal ativo."
       }
     },
     {
@@ -88,21 +106,24 @@
       "id": "token-autenticacion-que-da-acceso",
       "text": {
         "es": "El token de autenticación: dónde está y qué da acceso exactamente",
-        "en": "The authentication token: where to find it and exactly what it grants"
+        "en": "The authentication token: where to find it and exactly what it grants",
+        "pt": "O token de autenticação: onde está e o que exatamente ele dá acesso"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "El token de autenticación del operador está disponible en el panel de Cabgo, en la sección de integraciones o de configuración de API — el nombre exacto de la sección depende de la versión del panel. Es un string alfanumérico de longitud fija que funciona como la identidad de la operación en cada llamada al servidor MCP. Cada vez que el agente invoca una herramienta — consultar conductores activos, revisar el historial de viajes, crear un cupón de promoción — ese token viaja en el encabezado de la petición para que el servidor sepa a qué operación corresponde la consulta y con qué tenants tiene permiso de trabajar.",
-        "en": "The operator's authentication token is available in the Cabgo panel, in the integrations or API configuration section — the exact section name depends on the panel version. It's a fixed-length alphanumeric string that functions as the operation's identity in every call to the MCP server. Every time the agent invokes a tool — querying active drivers, reviewing trip history, creating a promotional coupon — that token travels in the request header so the server knows which operation the query belongs to and which tenants it has permission to work with."
+        "en": "The operator's authentication token is available in the Cabgo panel, in the integrations or API configuration section — the exact section name depends on the panel version. It's a fixed-length alphanumeric string that functions as the operation's identity in every call to the MCP server. Every time the agent invokes a tool — querying active drivers, reviewing trip history, creating a promotional coupon — that token travels in the request header so the server knows which operation the query belongs to and which tenants it has permission to work with.",
+        "pt": "O token de autenticação do operador está disponível no painel da Cabgo, na seção de integrações ou de configuração de API — o nome exato da seção depende da versão do painel. É uma string alfanumérica de comprimento fixo que funciona como a identidade da operação em cada chamada ao servidor MCP. Cada vez que o agente invoca uma ferramenta — consultar motoristas ativos, revisar o histórico de corridas, criar um cupom de promoção — esse token viaja no cabeçalho da requisição para que o servidor saiba a qual operação a consulta corresponde e com quais tenants tem permissão de trabalhar."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "Dos cosas sobre el token que conviene entender antes de configurarlo. La primera: el token autentica a la operación, no a una persona individual. Si tres miembros del equipo usan el mismo token desde sus propios clientes de agente, el servidor los identifica a todos como la misma operación, con acceso a los mismos tenants y con todas las llamadas registradas bajo el mismo historial de `cabgo_my_mcp_usage`. No hay un mecanismo automático que distinga quién hizo qué consulta a menos que cada usuario lo incluya explícitamente en sus prompts. La segunda: el token tiene permisos acotados por diseño. Permite operaciones de gestión — leer y modificar datos de la operación — pero no da acceso a la configuración de la cuenta, a la facturación ni a funciones de administración interna de la plataforma. Compartirlo con el coordinador del turno para que use el agente no implica darle acceso a configuración sensible.",
-        "en": "Two things about the token worth understanding before configuring it. First: the token authenticates the operation, not an individual person. If three team members use the same token from their own agent clients, the server identifies all of them as the same operation — with access to the same tenants and with all calls logged under the same cabgo_my_mcp_usage history. There's no automatic mechanism that distinguishes who made which query unless each user includes that explicitly in their prompts. Second: the token has bounded permissions by design. It allows management operations — reading and modifying operation data — but it doesn't grant access to account configuration, billing, or platform administration functions. Sharing it with the shift coordinator for agent use doesn't give them access to sensitive configuration."
+        "en": "Two things about the token worth understanding before configuring it. First: the token authenticates the operation, not an individual person. If three team members use the same token from their own agent clients, the server identifies all of them as the same operation — with access to the same tenants and with all calls logged under the same cabgo_my_mcp_usage history. There's no automatic mechanism that distinguishes who made which query unless each user includes that explicitly in their prompts. Second: the token has bounded permissions by design. It allows management operations — reading and modifying operation data — but it doesn't grant access to account configuration, billing, or platform administration functions. Sharing it with the shift coordinator for agent use doesn't give them access to sensitive configuration.",
+        "pt": "Duas coisas sobre o token que vale entender antes de configurá-lo. A primeira: o token autentica a operação, não uma pessoa individual. Se três membros da equipe usarem o mesmo token a partir de seus próprios clientes de agente, o servidor identifica todos eles como a mesma operação, com acesso aos mesmos tenants e com todas as chamadas registradas sob o mesmo histórico de `cabgo_my_mcp_usage`. Não há um mecanismo automático que distinga quem fez qual consulta, a menos que cada usuário inclua isso explicitamente em seus prompts. A segunda: o token tem permissões limitadas por design. Ele permite operações de gestão — ler e modificar dados da operação — mas não dá acesso à configuração da conta, ao faturamento nem a funções de administração interna da plataforma. Compartilhá-lo com o coordenador do turno para que ele use o agente não implica dar acesso a configurações sensíveis."
       }
     },
     {
@@ -111,21 +132,24 @@
       "id": "configurar-claude-desktop-servidor-mcp",
       "text": {
         "es": "Configurar Claude Desktop: el archivo de configuración y el paso que se suele saltar",
-        "en": "Configuring Claude Desktop: the config file and the step most people skip"
+        "en": "Configuring Claude Desktop: the config file and the step most people skip",
+        "pt": "Configurar o Claude Desktop: o arquivo de configuração e o passo que costuma ser pulado"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "Claude Desktop lee la lista de servidores MCP disponibles desde un archivo de configuración JSON almacenado localmente en la máquina. Cuando el operador agrega el bloque del servidor de Cabgo a ese archivo, Claude Desktop carga las herramientas del servidor automáticamente al siguiente inicio y aparecen disponibles durante la sesión de chat. Cabgo publica en la sección de integraciones del panel el bloque de configuración exacto listo para copiar — con el campo del token claramente marcado como placeholder. El operador no necesita escribirlo manualmente: pega el bloque en la ubicación correcta del archivo de configuración, sustituye el placeholder por el token generado en el paso anterior y reinicia Claude Desktop.",
-        "en": "Claude Desktop reads the list of available MCP servers from a JSON configuration file stored locally on the machine. When the operator adds Cabgo's server block to that file, Claude Desktop loads the server's tools automatically at the next startup and they appear available during the chat session. Cabgo publishes the exact configuration block ready to copy in the integrations section of the panel — with the token field clearly marked as a placeholder. The operator doesn't need to write it manually: paste the block into the correct location in the configuration file, replace the placeholder with the token from the previous step, and restart Claude Desktop."
+        "en": "Claude Desktop reads the list of available MCP servers from a JSON configuration file stored locally on the machine. When the operator adds Cabgo's server block to that file, Claude Desktop loads the server's tools automatically at the next startup and they appear available during the chat session. Cabgo publishes the exact configuration block ready to copy in the integrations section of the panel — with the token field clearly marked as a placeholder. The operator doesn't need to write it manually: paste the block into the correct location in the configuration file, replace the placeholder with the token from the previous step, and restart Claude Desktop.",
+        "pt": "O Claude Desktop lê a lista de servidores MCP disponíveis a partir de um arquivo de configuração JSON armazenado localmente na máquina. Quando o operador adiciona o bloco do servidor da Cabgo a esse arquivo, o Claude Desktop carrega as ferramentas do servidor automaticamente na próxima inicialização e elas ficam disponíveis durante a sessão de chat. A Cabgo publica na seção de integrações do painel o bloco de configuração exato pronto para copiar — com o campo do token claramente marcado como placeholder. O operador não precisa escrevê-lo manualmente: cola o bloco no local correto do arquivo de configuração, substitui o placeholder pelo token gerado no passo anterior e reinicia o Claude Desktop."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "El paso que se suele saltar — y que más frecuentemente hace que Claude Desktop no cargue el servidor sin mostrar un mensaje de error claro — es verificar que el archivo de configuración quedó bien formado después de pegar el bloque. Un archivo JSON con una coma en el lugar equivocado o un par de comillas sin cerrar hace que el cliente ignore el bloque del servidor de forma silenciosa. La verificación más directa es abrir el archivo con cualquier editor de texto y confirmar que cada llave de apertura tiene su cierre correspondiente y que no hay comas sueltas antes de un corchete de cierre. Si el archivo ya tiene otro servidor MCP configurado, el bloque de Cabgo se agrega como un elemento adicional dentro del mismo objeto — no como un archivo nuevo ni reemplazando la configuración existente.",
-        "en": "The step that gets skipped most often — and that most frequently causes Claude Desktop to not load the server without a clear error message — is verifying that the configuration file is well-formed after pasting the block. A JSON file with a misplaced comma or an unclosed pair of quotes causes the client to silently ignore the server block. The most direct check is to open the file in any text editor and confirm that every opening brace has a corresponding closing brace and there are no trailing commas before a closing bracket. If the file already has another MCP server configured, the Cabgo block is added as an additional entry within the same object — not as a new file or by replacing the existing configuration."
+        "en": "The step that gets skipped most often — and that most frequently causes Claude Desktop to not load the server without a clear error message — is verifying that the configuration file is well-formed after pasting the block. A JSON file with a misplaced comma or an unclosed pair of quotes causes the client to silently ignore the server block. The most direct check is to open the file in any text editor and confirm that every opening brace has a corresponding closing brace and there are no trailing commas before a closing bracket. If the file already has another MCP server configured, the Cabgo block is added as an additional entry within the same object — not as a new file or by replacing the existing configuration.",
+        "pt": "O passo que costuma ser pulado — e que com mais frequência faz o Claude Desktop não carregar o servidor sem mostrar uma mensagem de erro clara — é verificar se o arquivo de configuração ficou bem formado depois de colar o bloco. Um arquivo JSON com uma vírgula no lugar errado ou um par de aspas sem fechar faz com que o cliente ignore o bloco do servidor de forma silenciosa. A verificação mais direta é abrir o arquivo com qualquer editor de texto e confirmar que cada chave de abertura tem seu fechamento correspondente e que não há vírgulas soltas antes de um colchete de fechamento. Se o arquivo já tem outro servidor MCP configurado, o bloco da Cabgo é adicionado como um elemento a mais dentro do mesmo objeto — não como um arquivo novo nem substituindo a configuração existente."
       }
     },
     {
@@ -134,21 +158,24 @@
       "id": "configurar-chatgpt-plugin-diferencias",
       "text": {
         "es": "Configurar el plugin de ChatGPT: las tres diferencias que afectan el uso diario",
-        "en": "Configuring the ChatGPT plugin: the three differences that affect daily use"
+        "en": "Configuring the ChatGPT plugin: the three differences that affect daily use",
+        "pt": "Configurar o plugin do ChatGPT: as três diferenças que afetam o uso diário"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "En ChatGPT, el operador agrega el servidor MCP desde la interfaz de configuración de la cuenta — no desde un archivo local. El proceso varía según el tipo de cuenta y la versión de la plataforma, pero la información requerida es la misma: la URL del servidor de Cabgo y el token de autenticación. Cabgo publica esa información en la misma sección del panel donde están los demás datos de configuración de integraciones. Una vez agregado, el plugin queda disponible en las sesiones de chat de esa cuenta.",
-        "en": "In ChatGPT, the operator adds the MCP server from the account settings interface — not from a local file. The process varies depending on account type and platform version, but the required information is the same: Cabgo's server URL and the authentication token. Cabgo publishes that information in the same panel section as the other integration configuration data. Once added, the plugin becomes available in that account's chat sessions."
+        "en": "In ChatGPT, the operator adds the MCP server from the account settings interface — not from a local file. The process varies depending on account type and platform version, but the required information is the same: Cabgo's server URL and the authentication token. Cabgo publishes that information in the same panel section as the other integration configuration data. Once added, the plugin becomes available in that account's chat sessions.",
+        "pt": "No ChatGPT, o operador adiciona o servidor MCP a partir da interface de configuração da conta — não a partir de um arquivo local. O processo varia conforme o tipo de conta e a versão da plataforma, mas a informação necessária é a mesma: a URL do servidor da Cabgo e o token de autenticação. A Cabgo publica essa informação na mesma seção do painel onde estão os demais dados de configuração de integrações. Uma vez adicionado, o plugin fica disponível nas sessões de chat dessa conta."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "Tres diferencias entre Claude Desktop y ChatGPT que afectan cómo el equipo trabaja con el agente una vez activo el canal. La primera es el contexto entre sesiones: Claude Desktop mantiene el historial mientras la ventana está abierta, lo que permite sesiones largas con contexto acumulado; ChatGPT resetea el contexto al iniciar una nueva conversación, de modo que cada sesión empieza sin memoria de la anterior. La segunda es la propagación de instrucciones del sistema: en Claude Desktop se configuran a nivel del cliente y se cargan automáticamente en cada sesión; en ChatGPT están vinculadas al perfil individual del usuario, lo que significa que dos personas del equipo con cuentas distintas tienen instrucciones distintas, o ninguna, si cada una no las configuró por su cuenta. La tercera es la visibilidad de las herramientas disponibles: Claude Desktop muestra explícitamente qué herramientas del servidor están cargadas; ChatGPT las integra sin listarlas de forma visible, lo que puede hacer menos obvio para el usuario qué puede pedirle al agente que haga.",
-        "en": "Three differences between Claude Desktop and ChatGPT that affect how the team works with the agent once the channel is active. The first is context across sessions: Claude Desktop maintains conversation history while the window is open, enabling long sessions with accumulated context; ChatGPT resets context when starting a new conversation, so each session begins without memory of the previous one. The second is system instruction propagation: in Claude Desktop they're configured at the client level and load automatically every session; in ChatGPT they're tied to the individual user's profile, meaning two team members with separate accounts have separate instructions — or none at all if neither configured theirs. The third is tool visibility: Claude Desktop explicitly shows which server tools are loaded; ChatGPT integrates the plugin's tools without listing them visibly, which can make it less clear to the user what they can ask the agent to do."
+        "en": "Three differences between Claude Desktop and ChatGPT that affect how the team works with the agent once the channel is active. The first is context across sessions: Claude Desktop maintains conversation history while the window is open, enabling long sessions with accumulated context; ChatGPT resets context when starting a new conversation, so each session begins without memory of the previous one. The second is system instruction propagation: in Claude Desktop they're configured at the client level and load automatically every session; in ChatGPT they're tied to the individual user's profile, meaning two team members with separate accounts have separate instructions — or none at all if neither configured theirs. The third is tool visibility: Claude Desktop explicitly shows which server tools are loaded; ChatGPT integrates the plugin's tools without listing them visibly, which can make it less clear to the user what they can ask the agent to do.",
+        "pt": "Três diferenças entre o Claude Desktop e o ChatGPT que afetam como a equipe trabalha com o agente depois que o canal está ativo. A primeira é o contexto entre sessões: o Claude Desktop mantém o histórico enquanto a janela está aberta, o que permite sessões longas com contexto acumulado; o ChatGPT reseta o contexto ao iniciar uma nova conversa, de modo que cada sessão começa sem memória da anterior. A segunda é a propagação das instruções do sistema: no Claude Desktop elas são configuradas no nível do cliente e carregam automaticamente em cada sessão; no ChatGPT elas ficam vinculadas ao perfil individual do usuário, o que significa que duas pessoas da equipe com contas diferentes têm instruções diferentes, ou nenhuma, se cada uma não as configurou por conta própria. A terceira é a visibilidade das ferramentas disponíveis: o Claude Desktop mostra explicitamente quais ferramentas do servidor estão carregadas; o ChatGPT as integra sem listá-las de forma visível, o que pode tornar menos óbvio para o usuário o que ele pode pedir ao agente que faça."
       }
     },
     {
@@ -157,14 +184,16 @@
       "id": "primera-llamada-que-confirma-canal",
       "text": {
         "es": "La primera llamada que confirma que el canal funciona",
-        "en": "The first call that confirms the channel is working"
+        "en": "The first call that confirms the channel is working",
+        "pt": "A primeira chamada que confirma que o canal funciona"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "Una vez que Claude Desktop reinició o el plugin de ChatGPT quedó activo, la verificación más directa no es explorar el menú de herramientas disponibles — es hacer una consulta real. Un prompt corto como «¿Cuántos conductores tengo activos en este momento?» hace que el agente invoque la herramienta de estado del servidor y devuelva el número actual. Si la respuesta incluye un número que corresponde a la realidad de la operación, el canal funciona y el token es válido. Si la respuesta es un error o produce datos inesperados, hay cuatro situaciones que vale revisar en ese orden.",
-        "en": "Once Claude Desktop has restarted or the ChatGPT plugin is active, the most direct check isn't exploring the available tools menu — it's making a real query. A short prompt like 'How many drivers do I have active right now?' causes the agent to invoke the server's status tool and return the current count. If the response includes a number that matches the operation's reality, the channel is working and the token is valid. If the response is an error or returns unexpected data, there are four situations worth checking in this order."
+        "en": "Once Claude Desktop has restarted or the ChatGPT plugin is active, the most direct check isn't exploring the available tools menu — it's making a real query. A short prompt like 'How many drivers do I have active right now?' causes the agent to invoke the server's status tool and return the current count. If the response includes a number that matches the operation's reality, the channel is working and the token is valid. If the response is an error or returns unexpected data, there are four situations worth checking in this order.",
+        "pt": "Assim que o Claude Desktop reiniciar ou o plugin do ChatGPT ficar ativo, a verificação mais direta não é explorar o menu de ferramentas disponíveis — é fazer uma consulta real. Um prompt curto como «Quantos motoristas tenho ativos neste momento?» faz o agente invocar a ferramenta de status do servidor e devolver o número atual. Se a resposta incluir um número que corresponde à realidade da operação, o canal funciona e o token é válido. Se a resposta for um erro ou produzir dados inesperados, há quatro situações que vale revisar nesta ordem."
       }
     },
     {
@@ -182,6 +211,12 @@
           "**Authentication error (401 or equivalent)**: the token has a formatting problem — most commonly an extra space at the start or end of the string when pasting, or an incomplete copy; regenerating it from the panel and pasting again fixes 90% of cases",
           "**Zero or empty list without an error**: the server is responding but the token's default tenant may not match the operation's active tenant — specify the tenantId explicitly in the next prompt to confirm whether that's the issue",
           "**Connection error or timeout**: server configuration problem — verify that the configuration block is well-formed and that the server URL matches exactly what Cabgo publishes in the integrations section of the panel"
+        ],
+        "pt": [
+          "**Número de motoristas coerente com a realidade**: canal ativo, token correto, tenant padrão correto — a conexão está completa e o próximo passo é configurar as instruções do sistema",
+          "**Erro de autenticação (401 ou equivalente)**: o token tem um problema de formato — o mais frequente é um espaço no início ou no fim da string ao colá-la, ou que só parte dos caracteres foi copiada; regenerá-lo no painel e colá-lo de novo resolve 90% dos casos",
+          "**Número zero ou lista vazia sem erro**: o servidor responde, mas o tenant padrão do token pode não coincidir com o tenant ativo da operação — especifique o tenantId explicitamente no próximo prompt para confirmar se esse é o problema",
+          "**Erro de conexão ou timeout**: problema de configuração do servidor — verifique se o bloco de configuração está bem formado e se a URL do servidor coincide exatamente com a que a Cabgo publica no painel de integrações"
         ]
       }
     },
@@ -191,72 +226,84 @@
       "id": "minimo-instrucciones-sistema-empezar",
       "text": {
         "es": "El mínimo de instrucciones del sistema para que el agente sea útil desde la primera sesión",
-        "en": "The minimum system instructions to make the agent useful from the first session"
+        "en": "The minimum system instructions to make the agent useful from the first session",
+        "pt": "O mínimo de instruções do sistema para que o agente seja útil desde a primeira sessão"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "Una vez que la primera llamada confirma que el canal funciona, el paso que determina si el agente es útil desde el primer turno es el contexto en las instrucciones del sistema. Sin instrucciones del sistema, el agente tiene acceso a los datos del servidor pero no tiene el marco para interpretar qué significa un número en el contexto de esa operación específica. Si el servidor devuelve que la disponibilidad en la zona norte es del 45%, el agente no sabe si eso es normal a esa hora o es una señal de alerta. Si el operador pregunta por su «Zona Centro» y el servidor usa un identificador técnico distinto, el agente no conecta los dos nombres y la respuesta resulta ambigua. Esas dos fricciones desaparecen con cuatro elementos en las instrucciones del sistema.",
-        "en": "Once the first call confirms the channel is working, the step that determines whether the agent is useful from the first shift is the context in the system instructions. Without system instructions, the agent has access to server data but no frame for interpreting what a number means in that specific operation's context. If the server returns that availability in the north zone is 45%, the agent doesn't know whether that's normal for that hour or a warning signal. If the operator asks about their 'Central Zone' and the server uses a different technical identifier, the agent doesn't connect the two names and the response is ambiguous. Both frictions disappear with four elements in the system instructions."
+        "en": "Once the first call confirms the channel is working, the step that determines whether the agent is useful from the first shift is the context in the system instructions. Without system instructions, the agent has access to server data but no frame for interpreting what a number means in that specific operation's context. If the server returns that availability in the north zone is 45%, the agent doesn't know whether that's normal for that hour or a warning signal. If the operator asks about their 'Central Zone' and the server uses a different technical identifier, the agent doesn't connect the two names and the response is ambiguous. Both frictions disappear with four elements in the system instructions.",
+        "pt": "Assim que a primeira chamada confirma que o canal funciona, o passo que determina se o agente é útil desde o primeiro turno é o contexto nas instruções do sistema. Sem instruções do sistema, o agente tem acesso aos dados do servidor, mas não tem o referencial para interpretar o que significa um número no contexto dessa operação específica. Se o servidor devolve que a disponibilidade na zona norte é de 45%, o agente não sabe se isso é normal àquela hora ou é um sinal de alerta. Se o operador pergunta pela sua «Zona Centro» e o servidor usa um identificador técnico diferente, o agente não conecta os dois nomes e a resposta fica ambígua. Essas duas fricções desaparecem com quatro elementos nas instruções do sistema."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "El primer elemento es el tenantId principal de la operación: una sola línea que evita que las llamadas al servidor usen el default del token cuando el operador no lo especifica explícitamente en el prompt. El segundo son los nombres de las zonas principales — las dos o tres que el equipo menciona con más frecuencia — con su correspondencia al identificador que el servidor usa. El tercero es el rango de disponibilidad que la operación considera normal en hora pico y en hora baja: sin ese dato de referencia el agente trata cualquier variación como potencialmente relevante y el operador tiene que juzgar cada respuesta sin contexto. El cuarto es el criterio de escalación: en qué tipo de situación el agente debe sugerir ir al soporte de la plataforma en lugar de continuar el diagnóstico solo. Esos cuatro elementos, en menos de diez líneas en total, son la diferencia entre un agente conectado y uno que el equipo usa de verdad en el turno.",
-        "en": "The first element is the operation's primary tenantId: a single line that prevents server calls from defaulting to the token's default tenant when the operator doesn't specify it explicitly in the prompt. The second is the names of the main zones — the two or three the team mentions most often — with their mapping to the server's technical identifier. The third is the availability range the operation considers normal during peak and off-peak hours: without that reference point the agent treats any variation as potentially significant and the operator has to judge every response without context. The fourth is the escalation criterion: what type of situation should prompt the agent to suggest going to platform support instead of continuing the diagnosis on its own. Those four elements, in fewer than ten lines total, are the difference between a connected agent and one the team actually uses during the shift."
+        "en": "The first element is the operation's primary tenantId: a single line that prevents server calls from defaulting to the token's default tenant when the operator doesn't specify it explicitly in the prompt. The second is the names of the main zones — the two or three the team mentions most often — with their mapping to the server's technical identifier. The third is the availability range the operation considers normal during peak and off-peak hours: without that reference point the agent treats any variation as potentially significant and the operator has to judge every response without context. The fourth is the escalation criterion: what type of situation should prompt the agent to suggest going to platform support instead of continuing the diagnosis on its own. Those four elements, in fewer than ten lines total, are the difference between a connected agent and one the team actually uses during the shift.",
+        "pt": "O primeiro elemento é o tenantId principal da operação: uma única linha que evita que as chamadas ao servidor usem o padrão do token quando o operador não o especifica explicitamente no prompt. O segundo são os nomes das zonas principais — as duas ou três que a equipe menciona com mais frequência — com sua correspondência ao identificador que o servidor usa. O terceiro é a faixa de disponibilidade que a operação considera normal em horário de pico e em horário de baixa: sem esse dado de referência, o agente trata qualquer variação como potencialmente relevante e o operador tem que julgar cada resposta sem contexto. O quarto é o critério de escalonamento: em que tipo de situação o agente deve sugerir recorrer ao suporte da plataforma em vez de continuar o diagnóstico sozinho. Esses quatro elementos, em menos de dez linhas no total, são a diferença entre um agente conectado e um que a equipe usa de verdade no turno."
       }
     },
     {
       "type": "quote",
       "text": {
         "es": "La primera conexión me tomó veinte minutos. El problema no fue el token ni el archivo de configuración — fue que las primeras respuestas del agente eran correctas pero genéricas: me daba datos del servidor que no reconocía como míos porque no tenía el tenantId cargado en las instrucciones del sistema. Cuando lo agregué, la siguiente consulta devolvió exactamente lo que esperaba ver.",
-        "en": "The first connection took me twenty minutes. The problem wasn't the token or the configuration file — it was that the agent's first responses were correct but generic: it gave me server data I didn't recognize as my own because I hadn't loaded the tenantId into the system instructions. When I added it, the next query returned exactly what I expected to see."
+        "en": "The first connection took me twenty minutes. The problem wasn't the token or the configuration file — it was that the agent's first responses were correct but generic: it gave me server data I didn't recognize as my own because I hadn't loaded the tenantId into the system instructions. When I added it, the next query returned exactly what I expected to see.",
+        "pt": "A primeira conexão me levou vinte minutos. O problema não foi o token nem o arquivo de configuração — foi que as primeiras respostas do agente eram corretas, mas genéricas: ele me dava dados do servidor que eu não reconhecia como meus porque não tinha o tenantId carregado nas instruções do sistema. Quando o adicionei, a consulta seguinte devolveu exatamente o que eu esperava ver."
       },
       "attribution": {
         "es": "Operador con 60 conductores activos en dos ciudades del centro de México",
-        "en": "Operator with 60 active drivers across two cities in central Mexico"
+        "en": "Operator with 60 active drivers across two cities in central Mexico",
+        "pt": "Operador com 60 motoristas ativos em duas cidades do centro do México"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "La conexión entre el cliente de agente y el servidor MCP de Cabgo no es el paso que determina si el agente será útil en la operación diaria — es la condición mínima para llegar a ese punto. Lo que determina si el agente produce resultados que el equipo usa de verdad es el contexto que se carga en las instrucciones del sistema en esa misma tarde de instalación. Un canal técnicamente activo sin contexto de operación es acceso a datos sin el marco que les da sentido: el agente responde, el servidor responde, pero las respuestas no se anclan a la realidad específica de esa operación, con esas zonas, esos conductores y esos parámetros de normalidad propios. Los cuatro elementos descritos — tenantId, zonas, umbrales de normalidad, criterio de escalación — son suficientes para que la primera semana de trabajo ya produzca diagnósticos específicos, no respuestas que cualquier asistente sin acceso a los datos reales podría dar sobre cualquier operación de movilidad.",
-        "en": "The connection between the agent client and Cabgo's MCP server isn't the step that determines whether the agent will be useful in daily operations — it's the minimum condition to get to that point. What determines whether the agent produces results the team actually uses is the context loaded into the system instructions during that same setup afternoon. A technically active channel without operational context is data access without the frame that gives it meaning: the agent responds, the server responds, but the responses don't anchor to the specific reality of that operation — its zones, its drivers, its own normal operating parameters. The four elements described — tenantId, zones, normal thresholds, escalation criteria — are enough so that the first week of work already produces specific diagnostics rather than generic answers any assistant without real data access could give about any mobility operation."
+        "en": "The connection between the agent client and Cabgo's MCP server isn't the step that determines whether the agent will be useful in daily operations — it's the minimum condition to get to that point. What determines whether the agent produces results the team actually uses is the context loaded into the system instructions during that same setup afternoon. A technically active channel without operational context is data access without the frame that gives it meaning: the agent responds, the server responds, but the responses don't anchor to the specific reality of that operation — its zones, its drivers, its own normal operating parameters. The four elements described — tenantId, zones, normal thresholds, escalation criteria — are enough so that the first week of work already produces specific diagnostics rather than generic answers any assistant without real data access could give about any mobility operation.",
+        "pt": "A conexão entre o cliente de agente e o servidor MCP da Cabgo não é o passo que determina se o agente será útil na operação diária — é a condição mínima para chegar a esse ponto. O que determina se o agente produz resultados que a equipe usa de verdade é o contexto que se carrega nas instruções do sistema naquela mesma tarde de instalação. Um canal tecnicamente ativo sem contexto de operação é acesso a dados sem o referencial que lhes dá sentido: o agente responde, o servidor responde, mas as respostas não se ancoram na realidade específica dessa operação, com aquelas zonas, aqueles motoristas e aqueles parâmetros de normalidade próprios. Os quatro elementos descritos — tenantId, zonas, limiares de normalidade, critério de escalonamento — são suficientes para que a primeira semana de trabalho já produza diagnósticos específicos, não respostas que qualquer assistente sem acesso aos dados reais poderia dar sobre qualquer operação de mobilidade."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "Si ya tienes el panel de Cabgo funcionando, la primera conexión te va a tomar una tarde. El resultado al final de ese tiempo no es un agente que sabe todo sobre tu operación — es uno que tiene acceso real a tus datos y el marco mínimo para que sus respuestas sean específicas en lugar de genéricas. Desde ahí, las capas de contexto que hacen al agente más útil con el tiempo se construyen semana a semana: las zonas secundarias, los patrones de incidencias recurrentes, las convenciones internas del equipo. Pero el punto de partida importa: llegar bien configurado a la primera semana es la diferencia entre un equipo que adopta el agente como herramienta operativa real y uno que lo instala, lo prueba con dos consultas sin contexto y no lo vuelve a abrir.",
-        "en": "If you already have the Cabgo panel running, the first connection will take you an afternoon. The result at the end of that time isn't an agent that knows everything about your operation — it's one that has real access to your data and the minimum frame for its responses to be specific rather than generic. From there, the context layers that make the agent more useful over time build week by week: secondary zones, recurring incident patterns, internal team conventions. But the starting point matters: arriving well-configured at the first week is the difference between a team that adopts the agent as a real operational tool and one that installs it, tries two context-free queries, and never opens it again."
+        "en": "If you already have the Cabgo panel running, the first connection will take you an afternoon. The result at the end of that time isn't an agent that knows everything about your operation — it's one that has real access to your data and the minimum frame for its responses to be specific rather than generic. From there, the context layers that make the agent more useful over time build week by week: secondary zones, recurring incident patterns, internal team conventions. But the starting point matters: arriving well-configured at the first week is the difference between a team that adopts the agent as a real operational tool and one that installs it, tries two context-free queries, and never opens it again.",
+        "pt": "Se você já tem o painel da Cabgo funcionando, a primeira conexão vai levar uma tarde. O resultado ao final desse tempo não é um agente que sabe tudo sobre a sua operação — é um que tem acesso real aos seus dados e o referencial mínimo para que suas respostas sejam específicas em vez de genéricas. A partir daí, as camadas de contexto que tornam o agente mais útil com o tempo se constroem semana a semana: as zonas secundárias, os padrões de incidências recorrentes, as convenções internas da equipe. Mas o ponto de partida importa: chegar bem configurado à primeira semana é a diferença entre uma equipe que adota o agente como ferramenta operacional real e uma que o instala, o testa com duas consultas sem contexto e não o abre de novo."
       }
     }
   ],
   "cta": {
     "heading": {
       "es": "¿Listo para lanzar tu propia app de movilidad?",
-      "en": "Ready to launch your own mobility app?"
+      "en": "Ready to launch your own mobility app?",
+      "pt": "Pronto para lançar o seu próprio app de mobilidade?"
     },
     "body": {
       "es": "Configura tu marca, tus tarifas y tus servicios en semanas, no en meses. Cabgo te entrega la plataforma; tú te quedas con la operación, los clientes y los ingresos.",
-      "en": "Set up your brand, pricing and services in weeks, not months. Cabgo ships the platform — you keep the operation, the customers and the revenue."
+      "en": "Set up your brand, pricing and services in weeks, not months. Cabgo ships the platform — you keep the operation, the customers and the revenue.",
+      "pt": "Configure a sua marca, as suas tarifas e os seus serviços em semanas, não em meses. A Cabgo entrega a plataforma; você fica com a operação, os clientes e a receita."
     },
     "buttonLabel": {
       "es": "Comenzar con Cabgo",
-      "en": "Get started with Cabgo"
+      "en": "Get started with Cabgo",
+      "pt": "Começar com a Cabgo"
     },
     "buttonHref": "/empezar"
   },
   "seo": {
     "metaTitle": {
       "es": "Conectar Claude Desktop y ChatGPT al MCP de Cabgo | Cabgo",
-      "en": "Connect Claude or ChatGPT to Cabgo's MCP server | Cabgo"
+      "en": "Connect Claude or ChatGPT to Cabgo's MCP server | Cabgo",
+      "pt": "Conectar o Claude e o ChatGPT ao MCP da Cabgo | Cabgo"
     },
     "metaDescription": {
       "es": "Cómo conectar el agente al MCP de Cabgo: token, configuración y el contexto mínimo en las instrucciones del sistema para que el primer uso sea útil.",
-      "en": "How to connect Claude Desktop or ChatGPT to Cabgo's MCP server: token, config file, and the minimum system instructions for a productive first shift."
+      "en": "How to connect Claude Desktop or ChatGPT to Cabgo's MCP server: token, config file, and the minimum system instructions for a productive first shift.",
+      "pt": "Como conectar o agente ao MCP da Cabgo: token, configuração e o contexto mínimo nas instruções do sistema para que o primeiro uso seja útil."
     }
   }
 }

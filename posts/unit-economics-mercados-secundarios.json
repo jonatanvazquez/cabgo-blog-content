@@ -3,16 +3,19 @@
   "category": "strategy",
   "title": {
     "es": "Unit economics en mercados secundarios: los números que determinan si tu operación es viable",
-    "en": "Unit economics in secondary markets: the numbers that determine whether your operation is viable"
+    "en": "Unit economics in secondary markets: the numbers that determine whether your operation is viable",
+    "pt": "Unit economics em mercados secundários: os números que determinam se a sua operação é viável"
   },
   "excerpt": {
     "es": "En una operación de movilidad regional, el crecimiento de viajes no diagnostica si el modelo es viable. Cinco números sí lo hacen — y casi ningún operador los conoce antes del mes doce.",
-    "en": "In a regional mobility operation, trip growth doesn't tell you whether the model is viable. Five numbers do — and almost no operator knows them before month twelve."
+    "en": "In a regional mobility operation, trip growth doesn't tell you whether the model is viable. Five numbers do — and almost no operator knows them before month twelve.",
+    "pt": "Em uma operação de mobilidade regional, o crescimento de corridas não diagnostica se o modelo é viável. Cinco números fazem isso — e quase nenhum operador os conhece antes do mês doze."
   },
   "heroImage": "https://raw.githubusercontent.com/jonatanvazquez/cabgo-blog-content/main/images/unit-economics-mercados-secundarios.jpg",
   "heroImageAlt": {
     "es": "Ilustración isométrica de un panel de desglose de costo por viaje con barras de margen apiladas, un conductor con indicador de ingreso por hora y un gráfico de punto de equilibrio flotante",
-    "en": "Isometric illustration of a per-trip cost breakdown panel with stacked margin bars, a driver with an hourly earnings gauge, and a floating break-even chart"
+    "en": "Isometric illustration of a per-trip cost breakdown panel with stacked margin bars, a driver with an hourly earnings gauge, and a floating break-even chart",
+    "pt": "Ilustração isométrica de um painel de detalhamento de custo por corrida com barras de margem empilhadas, um motorista com indicador de ganho por hora e um gráfico de ponto de equilíbrio flutuante"
   },
   "heroImagePrompt": "Isometric unit economics scene for a regional mobility platform. Center: a glowing per-trip breakdown card with fare, commission, support cost, and net margin as layered horizontal bars — the teal margin bar is visibly small compared to the fare bar. Left: a driver figure beside a sedan with a floating earnings-per-hour gauge reading a number. Right: a break-even chart panel with a dotted threshold line crossing a rising trip-count bar around day 60. Bottom: a simplified city grid with taxis moving along lit routes. Clean geometric shapes, no text labels, deep indigo to violet gradient.",
   "publishedAt": "2026-05-01",
@@ -35,38 +38,53 @@
       "driver hourly earnings platform",
       "CAC LTV regional taxi app",
       "fixed costs mobility operation"
+    ],
+    "pt": [
+      "unit economics mobilidade regional",
+      "break-even operação app de táxi",
+      "margem por corrida transporte por aplicativo",
+      "viabilidade operação mobilidade LATAM",
+      "ganho do motorista por hora plataforma",
+      "CAC LTV app de táxi regional",
+      "custos fixos operação de mobilidade"
     ]
   },
   "author": {
     "name": "Equipo Cabgo",
     "role": {
       "es": "Plataforma de movilidad",
-      "en": "Mobility platform"
+      "en": "Mobility platform",
+      "pt": "Plataforma de mobilidade"
     }
   },
   "cta": {
     "heading": {
       "es": "¿Listo para lanzar tu propia app de movilidad?",
-      "en": "Ready to launch your own mobility app?"
+      "en": "Ready to launch your own mobility app?",
+      "pt": "Pronto para lançar o seu próprio app de mobilidade?"
     },
     "body": {
       "es": "Configura tu marca, tus tarifas y tus servicios en semanas, no en meses. Cabgo te entrega la plataforma, tú te quedas con la operación y la marca.",
-      "en": "Set up your brand, pricing and services in weeks, not months. Cabgo ships the platform — you keep the operation and the brand."
+      "en": "Set up your brand, pricing and services in weeks, not months. Cabgo ships the platform — you keep the operation and the brand.",
+      "pt": "Configure a sua marca, as suas tarifas e os seus serviços em semanas, não em meses. A Cabgo entrega a plataforma, você fica com a operação e a marca."
     },
     "buttonLabel": {
       "es": "Empezar ahora",
-      "en": "Get started"
+      "en": "Get started",
+      "pt": "Começar agora"
     },
     "buttonHref": "/empezar"
   },
   "seo": {
     "metaTitle": {
       "es": "Unit economics en mercados secundarios | Cabgo",
-      "en": "Unit economics in secondary markets | Cabgo"
+      "en": "Unit economics in secondary markets | Cabgo",
+      "pt": "Unit economics em mercados secundários | Cabgo"
     },
     "metaDescription": {
       "es": "Los cinco números que determinan si una operación de movilidad regional es viable: margen por viaje, ingreso por conductor, CAC, LTV y break-even.",
-      "en": "The five numbers that determine whether a regional ride-hailing operation is viable: per-trip margin, driver earnings, CAC, LTV, and break-even."
+      "en": "The five numbers that determine whether a regional ride-hailing operation is viable: per-trip margin, driver earnings, CAC, LTV, and break-even.",
+      "pt": "Os cinco números que determinam se uma operação de mobilidade regional é viável: margem por corrida, ganho por motorista, CAC, LTV e break-even."
     }
   },
   "blocks": [
@@ -74,14 +92,16 @@
       "type": "paragraph",
       "text": {
         "es": "Para la mayoría de los operadores de movilidad regional, la señal de que la operación va bien es que los viajes suben de semana en semana. Ese indicador no está mal — el crecimiento de viajes es necesario — pero es insuficiente para saber si la operación es financieramente viable en la configuración actual. Un operador puede crecer de 200 a 800 viajes semanales en cuatro meses y descubrir en el quinto que el margen por viaje nunca superó los $0.40 USD, que el costo de adquirir cada nuevo pasajero consumió el primer mes de sus viajes, y que el ingreso por hora activa de los conductores está por debajo del umbral que los retiene en la plataforma. El crecimiento de viajes no diagnostica ninguna de esas tres situaciones. Los unit economics sí.",
-        "en": "For most regional mobility operators, the signal that the operation is going well is that weekly trips keep climbing. That indicator isn't wrong — trip growth is necessary — but it's insufficient to know whether the operation is financially viable in its current configuration. An operator can grow from 200 to 800 weekly trips in four months and discover in month five that per-trip margin never exceeded $0.40 USD, that the cost of acquiring each new passenger consumed the first month of their rides, and that driver active-hour earnings sit below the retention threshold. Trip growth diagnoses none of those three problems. Unit economics do."
+        "en": "For most regional mobility operators, the signal that the operation is going well is that weekly trips keep climbing. That indicator isn't wrong — trip growth is necessary — but it's insufficient to know whether the operation is financially viable in its current configuration. An operator can grow from 200 to 800 weekly trips in four months and discover in month five that per-trip margin never exceeded $0.40 USD, that the cost of acquiring each new passenger consumed the first month of their rides, and that driver active-hour earnings sit below the retention threshold. Trip growth diagnoses none of those three problems. Unit economics do.",
+        "pt": "Para a maioria dos operadores de mobilidade regional, o sinal de que a operação vai bem é que as corridas sobem de semana em semana. Esse indicador não está errado — o crescimento de corridas é necessário — mas é insuficiente para saber se a operação é financeiramente viável na configuração atual. Um operador pode crescer de 200 a 800 corridas semanais em quatro meses e descobrir no quinto que a margem por corrida nunca superou os $0.40 USD, que o custo de adquirir cada novo passageiro consumiu o primeiro mês das suas corridas, e que o ganho por hora ativa dos motoristas está abaixo do limite que os retém na plataforma. O crescimento de corridas não diagnostica nenhuma dessas três situações. Os unit economics sim."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "Este artículo es para operadores con entre tres y dieciocho meses de operación que quieren construir un modelo de viabilidad real, o que están evaluando el lanzamiento y necesitan saber qué números validar antes de comprometer tiempo y capital. El punto central no es alcanzar unit economics perfectos desde el primer día — eso no ocurre en ninguna operación de movilidad — sino entender los cinco números que determinan si la dirección es la correcta y cuándo se puede esperar alcanzar el umbral de sostenibilidad.",
-        "en": "This article is for operators between three and eighteen months in who want to build a real viability model, or who are evaluating a launch and need to know which numbers to validate before committing time and capital. The central point isn't reaching perfect unit economics from day one — that doesn't happen in any mobility operation — but understanding the five numbers that tell you whether the direction is right and when you can expect to cross the sustainability threshold."
+        "en": "This article is for operators between three and eighteen months in who want to build a real viability model, or who are evaluating a launch and need to know which numbers to validate before committing time and capital. The central point isn't reaching perfect unit economics from day one — that doesn't happen in any mobility operation — but understanding the five numbers that tell you whether the direction is right and when you can expect to cross the sustainability threshold.",
+        "pt": "Este artigo é para operadores com entre três e dezoito meses de operação que querem construir um modelo de viabilidade real, ou que estão avaliando o lançamento e precisam saber quais números validar antes de comprometer tempo e capital. O ponto central não é alcançar unit economics perfeitos desde o primeiro dia — isso não acontece em nenhuma operação de mobilidade — mas entender os cinco números que determinam se a direção é a correta e quando se pode esperar alcançar o limiar de sustentabilidade."
       }
     },
     {
@@ -90,21 +110,24 @@
       "id": "benchmarks-grandes-no-aplican",
       "text": {
         "es": "Los benchmarks de las grandes plataformas no aplican a tu operación",
-        "en": "Large platform benchmarks don't apply to your operation"
+        "en": "Large platform benchmarks don't apply to your operation",
+        "pt": "Os benchmarks das grandes plataformas não se aplicam à sua operação"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "La narrativa de unit economics que circula en publicaciones sobre startups de movilidad está construida sobre operaciones de escala: Uber o DiDi en mercados con millones de viajes mensuales, donde el costo marginal de cada viaje adicional tiende a cero porque la infraestructura está amortizada hace años. Los números que se citan en ese contexto — ingresos netos por viaje de $1.50 a $2.80 USD, retención de conductores del 60% a 12 meses, CAC de pasajeros de $4 a $8 USD — no aplican directamente a una operación de 80 a 300 conductores en una ciudad de 150,000 a 500,000 habitantes.",
-        "en": "The unit economics narrative that circulates in mobility startup coverage is built on scale operations: Uber or DiDi in markets with millions of monthly trips, where the marginal cost of each additional trip approaches zero because infrastructure has been amortized for years. The numbers cited in that context — net revenue per trip of $1.50 to $2.80 USD, 60% driver retention at 12 months, passenger CAC of $4 to $8 USD — don't transfer directly to a 80-to-300-driver operation in a city of 150,000 to 500,000 residents."
+        "en": "The unit economics narrative that circulates in mobility startup coverage is built on scale operations: Uber or DiDi in markets with millions of monthly trips, where the marginal cost of each additional trip approaches zero because infrastructure has been amortized for years. The numbers cited in that context — net revenue per trip of $1.50 to $2.80 USD, 60% driver retention at 12 months, passenger CAC of $4 to $8 USD — don't transfer directly to a 80-to-300-driver operation in a city of 150,000 to 500,000 residents.",
+        "pt": "A narrativa de unit economics que circula em publicações sobre startups de mobilidade está construída sobre operações de escala: Uber ou DiDi em mercados com milhões de corridas mensais, onde o custo marginal de cada corrida adicional tende a zero porque a infraestrutura está amortizada há anos. Os números citados nesse contexto — receita líquida por corrida de $1.50 a $2.80 USD, retenção de motoristas de 60% em 12 meses, CAC de passageiros de $4 a $8 USD — não se aplicam diretamente a uma operação de 80 a 300 motoristas em uma cidade de 150,000 a 500,000 habitantes."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "En mercados secundarios de LATAM, los viajes son más cortos (8 a 14 km de promedio contra 14 a 22 km en ciudades grandes), las tarifas son más bajas (ticket promedio de $2.50 a $5 USD contra $6 a $12 USD en capitales), y el costo de soporte por conductor es proporcionalmente mayor porque el volumen no lo amortiza. Esas diferencias estructurales producen unit economics con una firma distinta: margen bruto por viaje más ajustado, pero también estructura de plataforma y soporte más contenida. La viabilidad no está en imitar los números de las grandes — está en entender los propios y cuándo se vuelven sostenibles con el volumen alcanzable en el mercado donde el operador opera.",
-        "en": "In secondary LATAM markets, trips are shorter (8 to 14 km on average versus 14 to 22 km in large cities), fares are lower (average ticket of $2.50 to $5 USD versus $6 to $12 USD in capital cities), and the support cost per driver is proportionally higher because volume doesn't amortize it. Those structural differences produce unit economics with a different signature: tighter gross margin per trip, but also a more contained platform and support cost structure. Viability doesn't come from imitating the big platforms — it comes from understanding your own numbers and knowing when they become sustainable at the volume your market can deliver."
+        "en": "In secondary LATAM markets, trips are shorter (8 to 14 km on average versus 14 to 22 km in large cities), fares are lower (average ticket of $2.50 to $5 USD versus $6 to $12 USD in capital cities), and the support cost per driver is proportionally higher because volume doesn't amortize it. Those structural differences produce unit economics with a different signature: tighter gross margin per trip, but also a more contained platform and support cost structure. Viability doesn't come from imitating the big platforms — it comes from understanding your own numbers and knowing when they become sustainable at the volume your market can deliver.",
+        "pt": "Em mercados secundários da LATAM, as corridas são mais curtas (8 a 14 km em média contra 14 a 22 km em cidades grandes), as tarifas são mais baixas (ticket médio de $2.50 a $5 USD contra $6 a $12 USD em capitais), e o custo de suporte por motorista é proporcionalmente maior porque o volume não o amortiza. Essas diferenças estruturais produzem unit economics com uma assinatura distinta: margem bruta por corrida mais apertada, mas também uma estrutura de plataforma e suporte mais contida. A viabilidade não está em imitar os números das grandes — está em entender os próprios e quando eles se tornam sustentáveis com o volume alcançável no mercado onde o operador atua."
       }
     },
     {
@@ -113,21 +136,24 @@
       "id": "cinco-numeros-margen-por-viaje",
       "text": {
         "es": "Los cinco números que definen si un viaje es rentable",
-        "en": "The five numbers that define whether a trip is profitable"
+        "en": "The five numbers that define whether a trip is profitable",
+        "pt": "Os cinco números que definem se uma corrida é rentável"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "El análisis de unit economics a nivel de viaje comienza con cinco variables. La primera es el ingreso bruto del viaje: el valor que paga el pasajero, sin descontar nada. La segunda es la comisión de la plataforma: el porcentaje del ingreso bruto que el operador retiene antes de cualquier costo — entre el 15% y el 22% en modelos de afiliados, entre el 55% y el 75% en modelos de flota propia. La tercera es el costo de procesamiento del pago: entre el 1.5% y el 3.5% del ingreso bruto dependiendo del método de pago. La cuarta es el costo de soporte por viaje: el gasto total de soporte del período dividido entre el número de viajes. La quinta es el costo de incentivo por viaje: bonos y surge divididos entre el total de viajes del mismo período.",
-        "en": "Unit economics analysis at the trip level starts with five variables. First, gross trip revenue: what the passenger pays, before anything is deducted. Second, platform commission: the percentage of gross revenue the operator retains before any costs — between 15% and 22% in affiliate models, between 55% and 75% in owned-fleet models. Third, payment processing cost: between 1.5% and 3.5% of gross revenue depending on payment method. Fourth, support cost per trip: total support spend for the period divided by the number of trips. Fifth, incentive cost per trip: bonuses and surge costs divided by total trips in the same period."
+        "en": "Unit economics analysis at the trip level starts with five variables. First, gross trip revenue: what the passenger pays, before anything is deducted. Second, platform commission: the percentage of gross revenue the operator retains before any costs — between 15% and 22% in affiliate models, between 55% and 75% in owned-fleet models. Third, payment processing cost: between 1.5% and 3.5% of gross revenue depending on payment method. Fourth, support cost per trip: total support spend for the period divided by the number of trips. Fifth, incentive cost per trip: bonuses and surge costs divided by total trips in the same period.",
+        "pt": "A análise de unit economics no nível da corrida começa com cinco variáveis. A primeira é a receita bruta da corrida: o valor que o passageiro paga, sem descontar nada. A segunda é a comissão da plataforma: a porcentagem da receita bruta que o operador retém antes de qualquer custo — entre 15% e 22% em modelos de afiliados, entre 55% e 75% em modelos de frota própria. A terceira é o custo de processamento do pagamento: entre 1.5% e 3.5% da receita bruta dependendo do método de pagamento. A quarta é o custo de suporte por corrida: o gasto total de suporte do período dividido pelo número de corridas. A quinta é o custo de incentivo por corrida: bônus e tarifa dinâmica divididos pelo total de corridas do mesmo período."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "El margen por viaje es la comisión retenida menos el procesamiento, el soporte y los incentivos. En una operación madura con modelo mixto en un mercado secundario de LATAM, ese número suele estar entre $0.35 y $0.85 USD por viaje. En los primeros seis meses con afiliados y costos de soporte todavía altos, puede estar entre $0.10 y $0.30 USD. Esos rangos no indican que la operación sea inviable — indican cuántos viajes mensuales necesita para cubrir la estructura de costos fijos que existe encima de ese margen.",
-        "en": "Per-trip margin is retained commission minus processing, support, and incentives. In a mature hybrid-model operation in a secondary LATAM market, that number typically sits between $0.35 and $0.85 USD per trip. In the first six months with affiliates and still-high support costs, it can be between $0.10 and $0.30 USD. Those ranges don't indicate the operation is unviable — they indicate how many monthly trips it needs to cover the fixed cost structure sitting above that margin."
+        "en": "Per-trip margin is retained commission minus processing, support, and incentives. In a mature hybrid-model operation in a secondary LATAM market, that number typically sits between $0.35 and $0.85 USD per trip. In the first six months with affiliates and still-high support costs, it can be between $0.10 and $0.30 USD. Those ranges don't indicate the operation is unviable — they indicate how many monthly trips it needs to cover the fixed cost structure sitting above that margin.",
+        "pt": "A margem por corrida é a comissão retida menos o processamento, o suporte e os incentivos. Em uma operação madura com modelo misto em um mercado secundário da LATAM, esse número costuma estar entre $0.35 e $0.85 USD por corrida. Nos primeiros seis meses com afiliados e custos de suporte ainda altos, pode estar entre $0.10 e $0.30 USD. Esses intervalos não indicam que a operação seja inviável — indicam quantas corridas mensais ela precisa para cobrir a estrutura de custos fixos que existe acima dessa margem."
       }
     },
     {
@@ -135,7 +161,8 @@
       "style": "bullet",
       "intro": {
         "es": "Variables que reducen el margen por viaje más de lo que el operador espera:",
-        "en": "Variables that reduce per-trip margin more than the operator expects:"
+        "en": "Variables that reduce per-trip margin more than the operator expects:",
+        "pt": "Variáveis que reduzem a margem por corrida mais do que o operador espera:"
       },
       "items": {
         "es": [
@@ -151,6 +178,13 @@
           "Refunds without a clear policy: a complaint rate of 4% to 6% of trips without defined refund criteria can consume 8% to 12% of monthly net margin",
           "Undistributed support cost: if the operator spends two hours daily on incident handling without assigning that time as a cost, real per-trip margin is being systematically overstated",
           "Referral incentives without a retention floor: discounts on first trips from referred passengers who abandon after their second trip don't recover the effective acquisition cost"
+        ],
+        "pt": [
+          "Incentivos mal calibrados: um bônus de motorista de $0.50 USD aplicado a todas as corridas da semana tem o mesmo efeito na margem que subir o custo de plataforma em 3%, mas aparece contabilizado como marketing em vez de como custo de corrida",
+          "Taxa de cancelamento alta: cada corrida cancelada após a atribuição consome tempo do motorista e gera suporte sem produzir receita, diluindo a margem média de todas as corridas concluídas",
+          "Reembolsos sem política clara: uma taxa de reclamações de 4% a 6% das corridas sem critério definido de reembolso pode consumir entre 8% e 12% da margem líquida mensal",
+          "Custo de suporte não distribuído: se o operador dedica duas horas diárias ao atendimento de incidências e não atribui esse tempo como custo, a margem real por corrida está sendo sistematicamente superestimada",
+          "Incentivos de indicação sem limite de retenção: descontos nas primeiras corridas de passageiros indicados que abandonam depois da segunda corrida não recuperam o custo de aquisição efetivo"
         ]
       }
     },
@@ -160,21 +194,24 @@
       "id": "ingreso-hora-activa-conductor",
       "text": {
         "es": "Ingreso por hora activa del conductor: la métrica que predice la retención",
-        "en": "Driver active-hour earnings: the metric that predicts retention"
+        "en": "Driver active-hour earnings: the metric that predicts retention",
+        "pt": "Ganho por hora ativa do motorista: a métrica que prevê a retenção"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "El margen por viaje es la métrica del operador. Pero hay un número igualmente crítico que corresponde al conductor: el ingreso por hora activa. Esta cifra determina si los conductores van a seguir en la plataforma, si van a operar en horas pico o solo cuando la demanda es baja, y si van a priorizar la plataforma por encima de la competencia cuando están conectados a múltiples apps de forma simultánea. En mercados secundarios de LATAM, el ingreso por hora activa que permite retener conductores sin incentivos adicionales permanentes oscila entre $2.50 y $5.50 USD, dependiendo del precio del combustible local, el ticket promedio del mercado y la densidad de viajes por hora.",
-        "en": "Per-trip margin is the operator's metric. But there is an equally critical number that belongs to the driver: active-hour earnings. This figure determines whether drivers will stay on the platform, whether they'll work peak hours or only low-demand windows, and whether they'll prioritize the platform over competitors when connected to multiple apps simultaneously. In secondary LATAM markets, the active-hour earnings that allow retaining drivers without permanent supplemental incentives range from $2.50 to $5.50 USD, depending on local fuel costs, the market's average ticket, and trip density per hour."
+        "en": "Per-trip margin is the operator's metric. But there is an equally critical number that belongs to the driver: active-hour earnings. This figure determines whether drivers will stay on the platform, whether they'll work peak hours or only low-demand windows, and whether they'll prioritize the platform over competitors when connected to multiple apps simultaneously. In secondary LATAM markets, the active-hour earnings that allow retaining drivers without permanent supplemental incentives range from $2.50 to $5.50 USD, depending on local fuel costs, the market's average ticket, and trip density per hour.",
+        "pt": "A margem por corrida é a métrica do operador. Mas há um número igualmente crítico que corresponde ao motorista: o ganho por hora ativa. Esse valor determina se os motoristas vão continuar na plataforma, se vão operar em horários de pico ou só quando a demanda é baixa, e se vão priorizar a plataforma acima da concorrência quando estão conectados a múltiplos apps de forma simultânea. Em mercados secundários da LATAM, o ganho por hora ativa que permite reter motoristas sem incentivos adicionais permanentes oscila entre $2.50 e $5.50 USD, dependendo do preço do combustível local, do ticket médio do mercado e da densidade de corridas por hora."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "Por debajo de $2.00 USD por hora activa, los conductores optimizan reduciendo la disponibilidad en horas de baja demanda, conectándose solo cuando el surge está activo y buscando trabajos alternativos de forma progresiva. Por encima de $4.50 USD con consistencia, la plataforma retiene conductores sin necesidad de bonos de permanencia permanentes. El error operativo más frecuente no es que el ingreso por hora sea bajo al inicio — eso es esperable — sino que el operador no lo monitorea y descubre la desconexión masiva de conductores meses después, cuando ya es difícil identificar si el problema fue la tarifa, la densidad de viajes o la competencia.",
-        "en": "Below $2.00 USD per active hour, drivers optimize by reducing availability during low-demand windows, connecting only when surge is active, and progressively seeking alternative income. Above $4.50 USD consistently, the platform retains drivers without permanent loyalty bonuses. The most common operational error isn't that active-hour earnings are low at the start — that's expected — but that the operator doesn't monitor the metric and discovers mass driver disconnection months later, when it's hard to tell whether the cause was the fare structure, trip density, or competition."
+        "en": "Below $2.00 USD per active hour, drivers optimize by reducing availability during low-demand windows, connecting only when surge is active, and progressively seeking alternative income. Above $4.50 USD consistently, the platform retains drivers without permanent loyalty bonuses. The most common operational error isn't that active-hour earnings are low at the start — that's expected — but that the operator doesn't monitor the metric and discovers mass driver disconnection months later, when it's hard to tell whether the cause was the fare structure, trip density, or competition.",
+        "pt": "Abaixo de $2.00 USD por hora ativa, os motoristas otimizam reduzindo a disponibilidade em horários de baixa demanda, conectando-se só quando a tarifa dinâmica está ativa e buscando trabalhos alternativos de forma progressiva. Acima de $4.50 USD com consistência, a plataforma retém motoristas sem necessidade de bônus de permanência permanentes. O erro operacional mais frequente não é que o ganho por hora seja baixo no início — isso é esperado — mas que o operador não o monitora e descobre a desconexão massiva de motoristas meses depois, quando já é difícil identificar se o problema foi a tarifa, a densidade de corridas ou a concorrência."
       }
     },
     {
@@ -183,21 +220,24 @@
       "id": "cac-ltv-mercado-regional",
       "text": {
         "es": "CAC y LTV en un mercado de 200,000 habitantes",
-        "en": "CAC and LTV in a market of 200,000 residents"
+        "en": "CAC and LTV in a market of 200,000 residents",
+        "pt": "CAC e LTV em um mercado de 200,000 habitantes"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "El Costo de Adquisición de Cliente y el Valor de Vida del Cliente tienen dinámicas distintas en mercados secundarios. En ciudades grandes con alta densidad digital, el CAC puede mantenerse bajo a través de marketing digital de alcance masivo. En una ciudad de 200,000 habitantes, las redes de contacto son más densas y el referido opera con más intensidad — lo que puede bajar el CAC en términos absolutos — pero el LTV también es diferente: en mercados con menos alternativas para el pasajero satisfecho, la tasa de repetición tiende a ser más alta que en ciudades donde hay cuatro aplicaciones de movilidad activas.",
-        "en": "Customer Acquisition Cost and Customer Lifetime Value have different dynamics in secondary markets. In large cities with high digital density, CAC can stay low through mass-reach digital marketing. In a city of 200,000 residents, contact networks are denser and referrals operate with more intensity — which can push CAC lower in absolute terms — but LTV is also different: in markets with fewer alternatives for a satisfied passenger, repeat rates tend to be higher than in cities where four active mobility apps compete for the same user."
+        "en": "Customer Acquisition Cost and Customer Lifetime Value have different dynamics in secondary markets. In large cities with high digital density, CAC can stay low through mass-reach digital marketing. In a city of 200,000 residents, contact networks are denser and referrals operate with more intensity — which can push CAC lower in absolute terms — but LTV is also different: in markets with fewer alternatives for a satisfied passenger, repeat rates tend to be higher than in cities where four active mobility apps compete for the same user.",
+        "pt": "O Custo de Aquisição de Cliente e o Valor de Vida do Cliente têm dinâmicas distintas em mercados secundários. Em cidades grandes com alta densidade digital, o CAC pode se manter baixo por meio de marketing digital de alcance massivo. Em uma cidade de 200,000 habitantes, as redes de contato são mais densas e a indicação opera com mais intensidade — o que pode baixar o CAC em termos absolutos — mas o LTV também é diferente: em mercados com menos alternativas para o passageiro satisfeito, a taxa de repetição tende a ser mais alta do que em cidades onde há quatro aplicativos de mobilidade ativos."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "Un pasajero recurrente en una operación regional de LATAM hace entre 4 y 10 viajes al mes, con un ticket promedio de $3 a $4.50 USD. Si la retención a seis meses está entre el 55% y el 65%, el LTV a 12 meses de ese pasajero representa entre $180 y $430 USD en ingreso bruto — de los cuales el operador captura entre el 15% y el 22% en modelo de afiliados, o entre el 55% y el 70% en modelo con flota propia. Con ese LTV, un CAC de $8 a $18 USD es perfectamente sostenible. El error más común es no calcular el LTV y asumir que cualquier gasto de adquisición es excesivo, lo que lleva a operaciones que crecen exclusivamente por referido y nunca activan el canal de marketing que podría acelerar la masa crítica de pasajeros en los primeros seis meses.",
-        "en": "A recurring passenger in a regional LATAM operation takes 4 to 10 trips per month at an average ticket of $3 to $4.50 USD. If six-month retention is between 55% and 65%, that passenger's 12-month LTV represents $180 to $430 USD in gross revenue — of which the operator captures between 15% and 22% in an affiliate model, or 55% to 70% in an owned-fleet model. Against that LTV, a CAC of $8 to $18 USD is entirely sustainable. The most common error is not calculating LTV and assuming any acquisition spend is excessive, which leads operations to grow exclusively through referral and never activate the marketing channel that could accelerate passenger critical mass in the first six months."
+        "en": "A recurring passenger in a regional LATAM operation takes 4 to 10 trips per month at an average ticket of $3 to $4.50 USD. If six-month retention is between 55% and 65%, that passenger's 12-month LTV represents $180 to $430 USD in gross revenue — of which the operator captures between 15% and 22% in an affiliate model, or 55% to 70% in an owned-fleet model. Against that LTV, a CAC of $8 to $18 USD is entirely sustainable. The most common error is not calculating LTV and assuming any acquisition spend is excessive, which leads operations to grow exclusively through referral and never activate the marketing channel that could accelerate passenger critical mass in the first six months.",
+        "pt": "Um passageiro recorrente em uma operação regional da LATAM faz entre 4 e 10 corridas por mês, com um ticket médio de $3 a $4.50 USD. Se a retenção em seis meses está entre 55% e 65%, o LTV em 12 meses desse passageiro representa entre $180 e $430 USD em receita bruta — dos quais o operador captura entre 15% e 22% no modelo de afiliados, ou entre 55% e 70% no modelo com frota própria. Com esse LTV, um CAC de $8 a $18 USD é perfeitamente sustentável. O erro mais comum é não calcular o LTV e assumir que qualquer gasto de aquisição é excessivo, o que leva a operações que crescem exclusivamente por indicação e nunca ativam o canal de marketing que poderia acelerar a massa crítica de passageiros nos primeiros seis meses."
       }
     },
     {
@@ -206,14 +246,16 @@
       "id": "break-even-viajes-diarios",
       "text": {
         "es": "El break-even de la operación: cuántos viajes diarios para cubrir los costos fijos",
-        "en": "Operation break-even: how many daily trips to cover fixed costs"
+        "en": "Operation break-even: how many daily trips to cover fixed costs",
+        "pt": "O break-even da operação: quantas corridas diárias para cobrir os custos fixos"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "La estructura de costos fijos de una operación regional incluye la tarifa de la plataforma tecnológica, el costo de soporte y operaciones, el gasto de marketing recurrente, y los costos asociados a flota propia cuando aplica. El break-even operativo es el volumen de viajes diarios que cubre esos costos fijos con el margen por viaje que la operación genera en el período actual. Para una operación típica con modelo de afiliados, costos de plataforma de $600 a $1,200 USD mensuales, soporte a cargo del propio operador, y margen por viaje de $0.40 USD, el break-even cae entre 50 y 100 viajes diarios — equivalente a 1,500 a 3,000 viajes mensuales.",
-        "en": "The fixed cost structure of a regional operation includes the technology platform fee, support and operations cost, recurring marketing spend, and owned-fleet costs where applicable. The operational break-even is the daily trip volume that covers those fixed costs at the current period's per-trip margin. For a typical affiliate-model operation with platform costs of $600 to $1,200 USD per month, support handled by the operator, and a per-trip margin of $0.40 USD, break-even falls between 50 and 100 daily trips — equivalent to 1,500 to 3,000 monthly trips."
+        "en": "The fixed cost structure of a regional operation includes the technology platform fee, support and operations cost, recurring marketing spend, and owned-fleet costs where applicable. The operational break-even is the daily trip volume that covers those fixed costs at the current period's per-trip margin. For a typical affiliate-model operation with platform costs of $600 to $1,200 USD per month, support handled by the operator, and a per-trip margin of $0.40 USD, break-even falls between 50 and 100 daily trips — equivalent to 1,500 to 3,000 monthly trips.",
+        "pt": "A estrutura de custos fixos de uma operação regional inclui a tarifa da plataforma tecnológica, o custo de suporte e operações, o gasto de marketing recorrente, e os custos associados à frota própria quando aplicável. O break-even operacional é o volume de corridas diárias que cobre esses custos fixos com a margem por corrida que a operação gera no período atual. Para uma operação típica com modelo de afiliados, custos de plataforma de $600 a $1,200 USD mensais, suporte a cargo do próprio operador, e margem por corrida de $0.40 USD, o break-even cai entre 50 e 100 corridas diárias — equivalente a 1,500 a 3,000 corridas mensais."
       }
     },
     {
@@ -221,14 +263,16 @@
       "variant": "tip",
       "text": {
         "es": "Calcula tu break-even en el mes tres, no en el mes quince. La fórmula es directa: costos fijos mensuales ÷ margen por viaje = viajes mensuales necesarios. Ese número cambia el orden de prioridad de casi todas las decisiones operativas siguientes.",
-        "en": "Calculate your break-even in month three, not month fifteen. The formula is straightforward: monthly fixed costs ÷ per-trip margin = required monthly trips. That number reshapes the priority order of nearly every subsequent operational decision."
+        "en": "Calculate your break-even in month three, not month fifteen. The formula is straightforward: monthly fixed costs ÷ per-trip margin = required monthly trips. That number reshapes the priority order of nearly every subsequent operational decision.",
+        "pt": "Calcule o seu break-even no mês três, não no mês quinze. A fórmula é direta: custos fixos mensais ÷ margem por corrida = corridas mensais necessárias. Esse número muda a ordem de prioridade de quase todas as decisões operacionais seguintes."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "La clave es calcular ese umbral antes de comprometer el presupuesto de los meses siguientes, no descubrirlo cuando el operador lleva medio año tomando decisiones sin ese contexto. La diferencia entre alcanzar 1,800 viajes mensuales en el mes cuatro versus el mes ocho no es solo temporal — es si la operación entró en break-even operativo antes o después de que los costos de inicio se agoten. Los operadores que calculan este número antes del lanzamiento priorizan de forma diferente: la inversión en activación de conductores, el canal de adquisición de pasajeros y el nivel de incentivos tienen todos una referencia concreta contra la que medir su retorno.",
-        "en": "The key is calculating that threshold before committing the budget for the following months — not discovering it after six months of making decisions without that context. The difference between reaching 1,800 monthly trips in month four versus month eight isn't only temporal — it's whether the operation crossed its operational break-even before or after startup costs run out. Operators who calculate this number before launch prioritize differently: driver activation investment, passenger acquisition channel, and incentive level all have a concrete reference against which to measure their return."
+        "en": "The key is calculating that threshold before committing the budget for the following months — not discovering it after six months of making decisions without that context. The difference between reaching 1,800 monthly trips in month four versus month eight isn't only temporal — it's whether the operation crossed its operational break-even before or after startup costs run out. Operators who calculate this number before launch prioritize differently: driver activation investment, passenger acquisition channel, and incentive level all have a concrete reference against which to measure their return.",
+        "pt": "A chave é calcular esse limiar antes de comprometer o orçamento dos meses seguintes, não descobri-lo quando o operador já leva meio ano tomando decisões sem esse contexto. A diferença entre alcançar 1,800 corridas mensais no mês quatro versus o mês oito não é só temporal — é se a operação entrou em break-even operacional antes ou depois de os custos de início se esgotarem. Os operadores que calculam esse número antes do lançamento priorizam de forma diferente: o investimento em ativação de motoristas, o canal de aquisição de passageiros e o nível de incentivos têm todos uma referência concreta contra a qual medir o seu retorno."
       }
     },
     {
@@ -236,7 +280,8 @@
       "style": "bullet",
       "intro": {
         "es": "Costos fijos que los operadores suelen subestimar al calcular el break-even:",
-        "en": "Fixed costs operators routinely underestimate when calculating break-even:"
+        "en": "Fixed costs operators routinely underestimate when calculating break-even:",
+        "pt": "Custos fixos que os operadores costumam subestimar ao calcular o break-even:"
       },
       "items": {
         "es": [
@@ -252,6 +297,13 @@
           "Communication and support tools: messaging APIs, incident management systems, and any channel for communicating with drivers and passengers have costs that grow with fleet volume",
           "Map API and data access: geolocation, route calculation, and traffic data costs accumulate in the background and exceed free tiers faster than expected as the fleet grows",
           "Dispute contingency reserve: not maintaining a monthly reserve of 3% to 5% of gross revenue for refunds and unexpected disputes turns any atypical month into a liquidity problem"
+        ],
+        "pt": [
+          "O tempo do operador como custo real: dedicar 30 horas semanais à operação sem atribuir um custo a esse tempo faz com que o break-even seja artificialmente baixo e que a operação pareça mais eficiente do que é",
+          "Licenças e renovações regulatórias: alvarás municipais, renovações de documentação de motoristas e seguros comerciais têm um custo anual que deve ser distribuído mensalmente para refletir o custo real do período",
+          "Ferramentas de comunicação e suporte: APIs de mensageria, sistemas de atendimento a incidências e qualquer canal de comunicação com motoristas e passageiros têm custos que crescem com o volume da frota",
+          "Acesso a APIs de mapas e dados: os custos de geolocalização, cálculo de rotas e dados de trânsito se acumulam em segundo plano e superam as faixas gratuitas mais rápido do que o esperado à medida que a frota cresce",
+          "Reserva de contingência para disputas: não manter uma reserva mensal de 3% a 5% da receita bruta para reembolsos e disputas imprevistas transforma qualquer mês atípico em um problema de liquidez"
         ]
       }
     },
@@ -261,39 +313,45 @@
       "id": "senales-unit-economics-mejoran",
       "text": {
         "es": "Señales de que los unit economics mejoran antes de que lo confirmen los márgenes",
-        "en": "Signs that unit economics are improving before the margins confirm it"
+        "en": "Signs that unit economics are improving before the margins confirm it",
+        "pt": "Sinais de que os unit economics melhoram antes de que as margens confirmem"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "Las operaciones jóvenes en mercados secundarios rara vez alcanzan márgenes positivos antes del mes seis. Pero hay indicadores que señalan si los unit economics avanzan en la dirección correcta incluso cuando los números totales todavía son negativos. El primero es la caída del CAC de mes a mes: si el costo de adquirir nuevos pasajeros baja sin reducir el volumen de adquisición, el canal está madurando y el referido está tomando parte de la carga. El segundo es el aumento del ingreso por conductor por hora: si este número sube, los conductores son más eficientes o la densidad de viajes está mejorando — ambas señales de que la oferta y la demanda se están alineando. El tercero es la caída del costo de soporte por viaje: a medida que la plataforma madura y los conductores y pasajeros entienden cómo funciona, las incidencias por viaje bajan y el costo de soporte se reduce en proporción al volumen.",
-        "en": "Young operations in secondary markets rarely reach positive margins before month six. But there are indicators that signal whether unit economics are moving in the right direction even when total numbers are still negative. First, a falling CAC month over month: if the cost of acquiring new passengers drops without reducing acquisition volume, the channel is maturing and referral is picking up part of the load. Second, rising driver active-hour earnings: if that number increases, drivers are becoming more efficient or trip density is improving — both signals that supply and demand are aligning better. Third, falling support cost per trip: as the platform matures and drivers and passengers understand how it works, incidents per trip decline and support costs shrink proportionally to volume."
+        "en": "Young operations in secondary markets rarely reach positive margins before month six. But there are indicators that signal whether unit economics are moving in the right direction even when total numbers are still negative. First, a falling CAC month over month: if the cost of acquiring new passengers drops without reducing acquisition volume, the channel is maturing and referral is picking up part of the load. Second, rising driver active-hour earnings: if that number increases, drivers are becoming more efficient or trip density is improving — both signals that supply and demand are aligning better. Third, falling support cost per trip: as the platform matures and drivers and passengers understand how it works, incidents per trip decline and support costs shrink proportionally to volume.",
+        "pt": "As operações jovens em mercados secundários raramente alcançam margens positivas antes do mês seis. Mas há indicadores que sinalizam se os unit economics avançam na direção correta mesmo quando os números totais ainda são negativos. O primeiro é a queda do CAC de mês a mês: se o custo de adquirir novos passageiros baixa sem reduzir o volume de aquisição, o canal está amadurecendo e a indicação está assumindo parte da carga. O segundo é o aumento do ganho por motorista por hora: se esse número sobe, os motoristas são mais eficientes ou a densidade de corridas está melhorando — ambos sinais de que a oferta e a demanda estão se alinhando. O terceiro é a queda do custo de suporte por corrida: à medida que a plataforma amadurece e os motoristas e passageiros entendem como funciona, as incidências por corrida baixam e o custo de suporte se reduz em proporção ao volume."
       }
     },
     {
       "type": "quote",
       "text": {
         "es": "Llevaba siete meses de operación y pensaba que iba bien porque los viajes crecían semana a semana. Cuando calculé por primera vez cuánto ganaba por cada viaje, me di cuenta de que necesitaba 80 viajes diarios solo para cubrir mis costos fijos. Estaba haciendo 45. Eso cambió completamente mis prioridades de esa semana.",
-        "en": "Seven months in and I thought things were going well because weekly trips kept growing. When I calculated for the first time how much I was earning per trip, I realized I needed 80 daily trips just to cover my fixed costs. I was doing 45. That completely changed my priorities for the week."
+        "en": "Seven months in and I thought things were going well because weekly trips kept growing. When I calculated for the first time how much I was earning per trip, I realized I needed 80 daily trips just to cover my fixed costs. I was doing 45. That completely changed my priorities for the week.",
+        "pt": "Já estava com sete meses de operação e achava que ia bem porque as corridas cresciam semana a semana. Quando calculei pela primeira vez quanto ganhava por cada corrida, percebi que precisava de 80 corridas diárias só para cobrir os meus custos fixos. Estava fazendo 45. Isso mudou completamente as minhas prioridades daquela semana."
       },
       "attribution": {
         "es": "Operadora de movilidad en una ciudad de 280,000 habitantes en el centro de México",
-        "en": "Mobility operator in a city of 280,000 in central Mexico"
+        "en": "Mobility operator in a city of 280,000 in central Mexico",
+        "pt": "Operadora de mobilidade em uma cidade de 280,000 habitantes no centro do México"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "Los unit economics de una operación de movilidad regional no tienen que ser perfectos en el mes uno — ninguna operación los tiene. Pero sí tienen que ser conocidos. Un operador que sabe que su margen actual por viaje es de $0.38 USD y que su break-even son 70 viajes diarios tiene información para decidir: qué palanca mover primero, qué canal de adquisición justifica el siguiente peso de inversión, si el modelo de flota actual es compatible con los márgenes que la operación necesita para ser sostenible. Un operador que no conoce esos números toma las mismas decisiones basándose en la sensación general de si las cosas van bien o mal.",
-        "en": "Unit economics in a regional mobility operation don't need to be perfect in month one — no operation's are. But they do need to be known. An operator who knows their current per-trip margin is $0.38 USD and break-even is 70 daily trips has the information to decide: which lever to move first, which acquisition channel justifies the next dollar of investment, whether the current fleet model is compatible with the margins the operation needs to become sustainable. An operator who doesn't know those numbers makes the same decisions based on a general sense of whether things feel like they're going well or not."
+        "en": "Unit economics in a regional mobility operation don't need to be perfect in month one — no operation's are. But they do need to be known. An operator who knows their current per-trip margin is $0.38 USD and break-even is 70 daily trips has the information to decide: which lever to move first, which acquisition channel justifies the next dollar of investment, whether the current fleet model is compatible with the margins the operation needs to become sustainable. An operator who doesn't know those numbers makes the same decisions based on a general sense of whether things feel like they're going well or not.",
+        "pt": "Os unit economics de uma operação de mobilidade regional não precisam ser perfeitos no mês um — nenhuma operação os tem. Mas precisam ser conhecidos. Um operador que sabe que a sua margem atual por corrida é de $0.38 USD e que o seu break-even é de 70 corridas diárias tem informação para decidir: qual alavanca mover primeiro, qual canal de aquisição justifica o próximo real de investimento, se o modelo de frota atual é compatível com as margens que a operação precisa para ser sustentável. Um operador que não conhece esses números toma as mesmas decisões baseando-se na sensação geral de se as coisas vão bem ou mal."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "Construir un modelo de unit economics no requiere un analista financiero ni una hoja de cálculo compleja. Requiere cuatro datos de la operación del último mes: ingreso bruto total, comisión retenida, número de viajes y costos fijos del período. Con esos cuatro números y treinta minutos, cualquier operador puede calcular su margen por viaje, su break-even mensual y si la trayectoria actual se acerca o se aleja del umbral de sostenibilidad. Ese ejercicio, hecho en el mes tres en lugar del mes quince, cambia la velocidad a la que se identifican y corrigen los errores del modelo antes de que sean costosos de revertir.",
-        "en": "Building a unit economics model doesn't require a financial analyst or a complex spreadsheet. It requires four data points from the last month's operation: total gross revenue, retained commission, number of trips, and fixed costs for the period. With those four numbers and thirty minutes, any operator can calculate per-trip margin, monthly break-even, and whether the current trajectory is moving toward or away from the sustainability threshold. That exercise, done in month three instead of month fifteen, changes the speed at which model errors are identified and corrected before they become expensive to reverse."
+        "en": "Building a unit economics model doesn't require a financial analyst or a complex spreadsheet. It requires four data points from the last month's operation: total gross revenue, retained commission, number of trips, and fixed costs for the period. With those four numbers and thirty minutes, any operator can calculate per-trip margin, monthly break-even, and whether the current trajectory is moving toward or away from the sustainability threshold. That exercise, done in month three instead of month fifteen, changes the speed at which model errors are identified and corrected before they become expensive to reverse.",
+        "pt": "Construir um modelo de unit economics não requer um analista financeiro nem uma planilha complexa. Requer quatro dados da operação do último mês: receita bruta total, comissão retida, número de corridas e custos fixos do período. Com esses quatro números e trinta minutos, qualquer operador pode calcular a sua margem por corrida, o seu break-even mensal e se a trajetória atual se aproxima ou se afasta do limiar de sustentabilidade. Esse exercício, feito no mês três em vez do mês quinze, muda a velocidade com que os erros do modelo são identificados e corrigidos antes de que se tornem caros de reverter."
       }
     }
   ]

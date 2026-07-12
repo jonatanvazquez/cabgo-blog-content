@@ -3,16 +3,19 @@
   "category": "strategy",
   "title": {
     "es": "La tasa de cancelación del conductor: el indicador que predice la pérdida de pasajeros antes de que ocurra",
-    "en": "The driver cancellation rate: the indicator that predicts passenger loss before it happens"
+    "en": "The driver cancellation rate: the indicator that predicts passenger loss before it happens",
+    "pt": "A taxa de cancelamento do motorista: o indicador que prevê a perda de passageiros antes que ela aconteça"
   },
   "excerpt": {
     "es": "La calificación del viaje no captura el daño de una cancelación porque ocurre antes del viaje. La tasa de cancelación del conductor es el indicador que sí lo hace — y que explica caídas de recurrencia que no aparecen en ningún reporte de calificaciones.",
-    "en": "Trip ratings don't capture cancellation damage because it happens before the trip. The driver cancellation rate is the indicator that does — and that explains recurrence drops that don't appear in any ratings report."
+    "en": "Trip ratings don't capture cancellation damage because it happens before the trip. The driver cancellation rate is the indicator that does — and that explains recurrence drops that don't appear in any ratings report.",
+    "pt": "A avaliação da corrida não captura o dano de um cancelamento porque ele ocorre antes da corrida. A taxa de cancelamento do motorista é o indicador que captura — e que explica quedas de recorrência que não aparecem em nenhum relatório de avaliações."
   },
   "heroImage": "https://raw.githubusercontent.com/jonatanvazquez/cabgo-blog-content/main/images/tasa-cancelacion-conductores-retencion-pasajeros.jpg",
   "heroImageAlt": {
     "es": "Ilustración isométrica de dos medidores circulares en primer plano: uno verde con etiqueta de aceptación y otro ámbar-rojo con etiqueta de cancelación y flecha ascendente. Entre ellos, una figura de pasajero en postura de espera con reloj decreciente. Al fondo, una gráfica descendente de recurrencia conectada al medidor de cancelación por línea teal punteada",
-    "en": "Isometric illustration of two circular gauges in the foreground: one green with an acceptance label and one amber-to-red with a cancellation label and upward arrow. Between them, a passenger figure in a waiting pose with a declining clock. In the background, a descending recurrence chart connected to the cancellation gauge by a dotted teal line"
+    "en": "Isometric illustration of two circular gauges in the foreground: one green with an acceptance label and one amber-to-red with a cancellation label and upward arrow. Between them, a passenger figure in a waiting pose with a declining clock. In the background, a descending recurrence chart connected to the cancellation gauge by a dotted teal line",
+    "pt": "Ilustração isométrica de dois medidores circulares em primeiro plano: um verde com etiqueta de aceitação e outro âmbar-vermelho com etiqueta de cancelamento e seta ascendente. Entre eles, uma figura de passageiro em postura de espera com relógio decrescente. Ao fundo, um gráfico descendente de recorrência conectado ao medidor de cancelamento por linha teal pontilhada"
   },
   "heroImagePrompt": "Isometric split composition centered on two large circular gauges placed side by side. Left gauge glows green and shows a high acceptance percentage. Right gauge glows amber fading to red, showing a smaller but rising cancellation percentage with a small upward warning arrow. Between the two gauges in the center foreground, a compact passenger figure stands in a waiting pose with a declining clock icon above them. Behind the right gauge, a small descending line chart representing recurrence connects via a dotted teal line to the cancellation gauge. A compact operator figure at lower left observes both gauges with a checklist tablet. Deep violet floor grid, soft indigo radial background glow, clean geometric shapes, subtle shadows. Negative space on the lower right.",
   "publishedAt": "2026-06-29",
@@ -35,13 +38,23 @@
       "driver cancel after accepting trip request",
       "cancellation rate effect on passenger recurrence",
       "monitoring driver cancellations regional operation"
+    ],
+    "pt": [
+      "taxa de cancelamento motorista transporte por aplicativo regional",
+      "cancelamentos do motorista afetam retenção de passageiros",
+      "como reduzir cancelamentos de motorista em plataforma de táxi",
+      "indicador de confiabilidade da frota em operação de transporte por aplicativo",
+      "cancelamento após aceitar solicitação motorista",
+      "impacto do cancelamento do motorista na recorrência do passageiro",
+      "monitoramento de cancelamentos de motoristas operação regional"
     ]
   },
   "author": {
     "name": "Equipo Cabgo",
     "role": {
       "es": "Plataforma de movilidad",
-      "en": "Mobility platform"
+      "en": "Mobility platform",
+      "pt": "Plataforma de mobilidade"
     }
   },
   "blocks": [
@@ -49,14 +62,16 @@
       "type": "paragraph",
       "text": {
         "es": "La mayoría de los operadores regionales de ride-hailing mide la confiabilidad de su servicio a través de la calificación promedio de los viajes. Ese número captura la experiencia después de que el viaje ocurrió, pero deja fuera un tipo de fallo que no produce calificación porque nunca llega a producir viaje: la cancelación del conductor después de aceptar la solicitud. Cuando un conductor acepta un pedido y lo cancela antes de llegar al punto de recogida, el pasajero experimenta tiempo de espera seguido de rechazo — y no tiene mecanismo para calificar esa experiencia. La tasa de cancelación del conductor — el porcentaje de solicitudes aceptadas que terminan en cancelación antes de que el viaje se complete — es el indicador que captura ese daño invisible y que, en operaciones donde supera el 10%, explica una fracción significativa de la baja recurrencia que el operador no puede atribuir a ninguna causa visible en su panel de calificaciones.",
-        "en": "Most regional ride-hailing operators measure service reliability through average trip ratings. That number captures the experience after a trip occurred, but misses a category of failure that produces no rating because it never produces a trip: a driver cancelling after accepting a request. When a driver accepts a booking and cancels before reaching the pickup point, the passenger experiences waiting time followed by rejection — and has no mechanism to rate that experience. The driver cancellation rate — the percentage of accepted requests that end in cancellation before the trip is completed — is the indicator that captures that invisible damage and that, in operations where it exceeds 10%, explains a significant portion of the low recurrence the operator can't attribute to any visible cause in their ratings dashboard."
+        "en": "Most regional ride-hailing operators measure service reliability through average trip ratings. That number captures the experience after a trip occurred, but misses a category of failure that produces no rating because it never produces a trip: a driver cancelling after accepting a request. When a driver accepts a booking and cancels before reaching the pickup point, the passenger experiences waiting time followed by rejection — and has no mechanism to rate that experience. The driver cancellation rate — the percentage of accepted requests that end in cancellation before the trip is completed — is the indicator that captures that invisible damage and that, in operations where it exceeds 10%, explains a significant portion of the low recurrence the operator can't attribute to any visible cause in their ratings dashboard.",
+        "pt": "A maioria dos operadores regionais de transporte por aplicativo mede a confiabilidade do seu serviço pela avaliação média das corridas. Esse número captura a experiência depois que a corrida aconteceu, mas deixa de fora um tipo de falha que não gera avaliação porque nunca chega a gerar corrida: o cancelamento do motorista depois de aceitar a solicitação. Quando um motorista aceita um pedido e o cancela antes de chegar ao ponto de embarque, o passageiro passa por um tempo de espera seguido de rejeição — e não tem mecanismo para avaliar essa experiência. A taxa de cancelamento do motorista — a porcentagem de solicitações aceitas que terminam em cancelamento antes de a corrida ser concluída — é o indicador que captura esse dano invisível e que, em operações onde ultrapassa os 10%, explica uma fração significativa da baixa recorrência que o operador não consegue atribuir a nenhuma causa visível no seu painel de avaliações."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "Este artículo está dirigido al operador que tiene tasas de aceptación dentro del rango normal pero ve una recurrencia de pasajeros más baja de lo esperado y no puede explicar la brecha. Cubre qué mide exactamente la tasa de cancelación del conductor y cómo distinguirla de la tasa de aceptación, los rangos que separan una flota confiable de una que erosiona la demanda de forma sistemática, las causas más frecuentes de cancelación elevada y cómo abordarlas con intervención diferenciada, la relación directa entre cada cancelación y la probabilidad de que el pasajero vuelva a usar la plataforma, y el protocolo de monitoreo que convierte este indicador en una señal de alerta temprana antes de que afecte el volumen total.",
-        "en": "This article is for the operator with acceptance rates in the normal range but passenger recurrence lower than expected — and no visible explanation for the gap. It covers what the driver cancellation rate measures exactly and how to distinguish it from the acceptance rate, the ranges that separate a reliable fleet from one that systematically erodes demand, the most common causes of high cancellation and how to address them with differentiated intervention, the direct relationship between each cancellation and the probability that a passenger returns, and the monitoring protocol that turns this indicator into an early-warning signal before it affects total volume."
+        "en": "This article is for the operator with acceptance rates in the normal range but passenger recurrence lower than expected — and no visible explanation for the gap. It covers what the driver cancellation rate measures exactly and how to distinguish it from the acceptance rate, the ranges that separate a reliable fleet from one that systematically erodes demand, the most common causes of high cancellation and how to address them with differentiated intervention, the direct relationship between each cancellation and the probability that a passenger returns, and the monitoring protocol that turns this indicator into an early-warning signal before it affects total volume.",
+        "pt": "Este artigo é dirigido ao operador que tem taxas de aceitação dentro da faixa normal, mas vê uma recorrência de passageiros mais baixa do que o esperado e não consegue explicar a diferença. Ele cobre o que exatamente a taxa de cancelamento do motorista mede e como distingui-la da taxa de aceitação, as faixas que separam uma frota confiável de uma que corrói a demanda de forma sistemática, as causas mais frequentes de cancelamento elevado e como abordá-las com intervenção diferenciada, a relação direta entre cada cancelamento e a probabilidade de o passageiro voltar a usar a plataforma, e o protocolo de monitoramento que transforma esse indicador em um sinal de alerta antecipado antes que ele afete o volume total."
       }
     },
     {
@@ -65,21 +80,24 @@
       "id": "cancelacion-vs-aceptacion-dos-momentos-distintos",
       "text": {
         "es": "Por qué la tasa de cancelación mide algo diferente a la tasa de aceptación",
-        "en": "Why the cancellation rate measures something different from the acceptance rate"
+        "en": "Why the cancellation rate measures something different from the acceptance rate",
+        "pt": "Por que a taxa de cancelamento mede algo diferente da taxa de aceitação"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "La tasa de aceptación mide qué porcentaje de las solicitudes disponibles un conductor acepta. La tasa de cancelación del conductor mide algo distinto: de las solicitudes que ese conductor sí aceptó, qué porcentaje canceló antes de completar el viaje. Son indicadores complementarios que describen dos momentos operativos diferentes. Un conductor con tasa de aceptación del 85% y tasa de cancelación del 18% es operativamente diferente — y más dañino para la experiencia del pasajero — que un conductor con tasa de aceptación del 65% y cancelación del 3%. El primero acepta muchas solicitudes pero cancela una fracción importante; el segundo es selectivo pero confiable. La mayoría de los paneles de operación muestran la primera cifra con prominencia y la segunda en un reporte secundario que raramente se revisa en la rutina semanal.",
-        "en": "The acceptance rate measures what percentage of available requests a driver accepts. The driver cancellation rate measures something different: of the requests that driver did accept, what percentage did they cancel before completing the trip. They're complementary indicators describing two different operational moments. A driver with an 85% acceptance rate and an 18% cancellation rate is operationally different — and more damaging to passenger experience — than a driver with a 65% acceptance rate and a 3% cancellation rate. The first accepts many requests but cancels a significant fraction; the second is selective but reliable. Most operation dashboards display the first figure prominently and the second in a secondary report rarely reviewed in the weekly routine."
+        "en": "The acceptance rate measures what percentage of available requests a driver accepts. The driver cancellation rate measures something different: of the requests that driver did accept, what percentage did they cancel before completing the trip. They're complementary indicators describing two different operational moments. A driver with an 85% acceptance rate and an 18% cancellation rate is operationally different — and more damaging to passenger experience — than a driver with a 65% acceptance rate and a 3% cancellation rate. The first accepts many requests but cancels a significant fraction; the second is selective but reliable. Most operation dashboards display the first figure prominently and the second in a secondary report rarely reviewed in the weekly routine.",
+        "pt": "A taxa de aceitação mede qual porcentagem das solicitações disponíveis um motorista aceita. A taxa de cancelamento do motorista mede algo diferente: das solicitações que esse motorista de fato aceitou, qual porcentagem ele cancelou antes de concluir a corrida. São indicadores complementares que descrevem dois momentos operacionais diferentes. Um motorista com taxa de aceitação de 85% e taxa de cancelamento de 18% é operacionalmente diferente — e mais prejudicial para a experiência do passageiro — do que um motorista com taxa de aceitação de 65% e cancelamento de 3%. O primeiro aceita muitas solicitações, mas cancela uma fração importante; o segundo é seletivo, mas confiável. A maioria dos painéis de operação exibe o primeiro número com destaque e o segundo em um relatório secundário que raramente é revisado na rotina semanal."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "El problema específico de la cancelación respecto a la calificación es que produce daño sin registro visible. Cuando un viaje termina con una mala experiencia, el pasajero puede calificarlo con una estrella — esa señal llega al panel. Cuando un conductor cancela después de que el pasajero esperó ocho minutos, no hay calificación, no hay señal automática al operador, y el pasajero resuelve su necesidad de movilidad por otro medio. El operador que revisa calificaciones con regularidad tiene visibilidad del daño post-viaje, pero no tiene visibilidad del daño pre-viaje que ocurre cada vez que una cancelación convierte una solicitud aceptada en una experiencia de rechazo. En operaciones donde este patrón es frecuente, la percepción de confiabilidad del pasajero cae antes de que cualquier indicador de calificación lo refleje.",
-        "en": "The specific problem with cancellations versus ratings is that they produce damage without a visible record. When a trip ends with a bad experience, the passenger can rate it one star — that signal reaches the dashboard. When a driver cancels after the passenger waited eight minutes, there's no rating, no automatic signal to the operator, and the passenger resolves their mobility need another way. The operator who regularly reviews ratings has visibility into post-trip damage, but no visibility into the pre-trip damage that occurs every time a cancellation converts an accepted request into a rejection experience. In operations where this pattern is frequent, passenger perception of service reliability falls before any ratings indicator reflects it."
+        "en": "The specific problem with cancellations versus ratings is that they produce damage without a visible record. When a trip ends with a bad experience, the passenger can rate it one star — that signal reaches the dashboard. When a driver cancels after the passenger waited eight minutes, there's no rating, no automatic signal to the operator, and the passenger resolves their mobility need another way. The operator who regularly reviews ratings has visibility into post-trip damage, but no visibility into the pre-trip damage that occurs every time a cancellation converts an accepted request into a rejection experience. In operations where this pattern is frequent, passenger perception of service reliability falls before any ratings indicator reflects it.",
+        "pt": "O problema específico do cancelamento em relação à avaliação é que ele gera dano sem registro visível. Quando uma corrida termina com uma experiência ruim, o passageiro pode avaliá-la com uma estrela — esse sinal chega ao painel. Quando um motorista cancela depois de o passageiro ter esperado oito minutos, não há avaliação, não há sinal automático para o operador, e o passageiro resolve sua necessidade de mobilidade por outro meio. O operador que revisa avaliações com regularidade tem visibilidade do dano pós-corrida, mas não tem visibilidade do dano pré-corrida que ocorre toda vez que um cancelamento transforma uma solicitação aceita em uma experiência de rejeição. Em operações onde esse padrão é frequente, a percepção de confiabilidade do passageiro cai antes de qualquer indicador de avaliação refletir isso."
       }
     },
     {
@@ -88,21 +106,24 @@
       "id": "tres-rangos-flota-confiable-demanda-erosionada",
       "text": {
         "es": "Los tres rangos que separan una flota confiable de una que erosiona la demanda",
-        "en": "The three ranges that separate a reliable fleet from one that erodes demand"
+        "en": "The three ranges that separate a reliable fleet from one that erodes demand",
+        "pt": "As três faixas que separam uma frota confiável de uma que corrói a demanda"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "Las operaciones regionales con alta cohesión de flota tienen tasas de cancelación de conductor que caen consistentemente por debajo del 5%. Una tasa en ese rango indica que los conductores aceptan solicitudes que tienen intención real de completar: la distancia de recogida es asumible, la ruta tiene sentido económico, y el conductor no está usando la aceptación como exploración mientras decide si la solicitud le conviene. Ese nivel de confiabilidad produce pasajeros que esperan sin ansiedad porque su experiencia acumulada con la plataforma indica que el conductor que aceptó va a llegar.",
-        "en": "Regional operations with high fleet cohesion have driver cancellation rates that consistently fall below 5%. A rate in that range indicates that drivers accept requests they genuinely intend to complete: the pickup distance is manageable, the route makes economic sense, and the driver isn't using acceptance as a way to scout the offer while deciding whether it's worth completing. That reliability level produces passengers who wait without anxiety because their accumulated experience with the platform tells them the driver who accepted will arrive."
+        "en": "Regional operations with high fleet cohesion have driver cancellation rates that consistently fall below 5%. A rate in that range indicates that drivers accept requests they genuinely intend to complete: the pickup distance is manageable, the route makes economic sense, and the driver isn't using acceptance as a way to scout the offer while deciding whether it's worth completing. That reliability level produces passengers who wait without anxiety because their accumulated experience with the platform tells them the driver who accepted will arrive.",
+        "pt": "As operações regionais com alta coesão de frota têm taxas de cancelamento de motorista que ficam consistentemente abaixo de 5%. Uma taxa nessa faixa indica que os motoristas aceitam solicitações que realmente pretendem concluir: a distância de embarque é aceitável, a rota faz sentido econômico, e o motorista não está usando a aceitação como sondagem enquanto decide se a solicitação vale a pena. Esse nível de confiabilidade produz passageiros que esperam sem ansiedade, porque sua experiência acumulada com a plataforma indica que o motorista que aceitou vai chegar."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "Una tasa entre el 5 y el 12% es la zona de atención. El volumen de cancelaciones ya es suficiente para que un segmento de pasajeros frecuentes haya experimentado al menos una cancelación en el último mes — y ese pasajero tiene una probabilidad entre el 25 y el 40% mayor de reducir su frecuencia de uso en las tres semanas siguientes, respecto al pasajero que no tuvo ninguna cancelación en ese período. La zona de atención no es una crisis inmediata, pero es el rango donde no actuar produce deterioro de recurrencia acumulado que lleva meses revertir. Una tasa superior al 12% es un problema estructural de flota: más de 1 de cada 8 viajes aceptados termina en cancelación antes de completarse, y el impacto en la percepción de confiabilidad es suficiente para alterar el comportamiento de uso de los pasajeros frecuentes — precisamente los que más contribuyen a la demanda estructural que sostiene el volumen semanal.",
-        "en": "A rate between 5 and 12% is the caution zone. Cancellation volume is already high enough that a segment of frequent passengers has experienced at least one cancellation in the last month — and that passenger has a 25 to 40% greater probability of reducing their usage frequency in the following three weeks, compared to a passenger who had no cancellations in that period. The caution zone isn't an immediate crisis, but it's the range where inaction produces accumulated recurrence degradation that takes months to reverse. A rate above 12% is a structural fleet problem: more than 1 in 8 accepted trips ends in cancellation before completion, and the impact on perceived reliability is enough to alter the usage behavior of frequent passengers — precisely the ones who most contribute to the structural demand that sustains weekly volume."
+        "en": "A rate between 5 and 12% is the caution zone. Cancellation volume is already high enough that a segment of frequent passengers has experienced at least one cancellation in the last month — and that passenger has a 25 to 40% greater probability of reducing their usage frequency in the following three weeks, compared to a passenger who had no cancellations in that period. The caution zone isn't an immediate crisis, but it's the range where inaction produces accumulated recurrence degradation that takes months to reverse. A rate above 12% is a structural fleet problem: more than 1 in 8 accepted trips ends in cancellation before completion, and the impact on perceived reliability is enough to alter the usage behavior of frequent passengers — precisely the ones who most contribute to the structural demand that sustains weekly volume.",
+        "pt": "Uma taxa entre 5 e 12% é a zona de atenção. O volume de cancelamentos já é suficiente para que um segmento de passageiros frequentes tenha passado por pelo menos um cancelamento no último mês — e esse passageiro tem uma probabilidade entre 25 e 40% maior de reduzir sua frequência de uso nas três semanas seguintes, em comparação com o passageiro que não teve nenhum cancelamento nesse período. A zona de atenção não é uma crise imediata, mas é a faixa onde não agir produz uma deterioração de recorrência acumulada que leva meses para reverter. Uma taxa acima de 12% é um problema estrutural de frota: mais de 1 em cada 8 corridas aceitas termina em cancelamento antes de ser concluída, e o impacto na percepção de confiabilidade é suficiente para alterar o comportamento de uso dos passageiros frequentes — justamente os que mais contribuem para a demanda estrutural que sustenta o volume semanal."
       }
     },
     {
@@ -111,14 +132,16 @@
       "id": "cuatro-causas-cancelacion-mercados-regionales",
       "text": {
         "es": "Las cuatro causas más frecuentes de cancelación del conductor en mercados regionales",
-        "en": "The four most common causes of driver cancellations in regional markets"
+        "en": "The four most common causes of driver cancellations in regional markets",
+        "pt": "As quatro causas mais frequentes de cancelamento do motorista em mercados regionais"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "No todas las cancelaciones tienen la misma causa ni requieren la misma respuesta. Cuatro patrones concentran la mayor parte de los casos en operaciones de México y Centroamérica:",
-        "en": "Not all cancellations share the same cause or require the same response. Four patterns concentrate most cases in operations across Mexico and Central America:"
+        "en": "Not all cancellations share the same cause or require the same response. Four patterns concentrate most cases in operations across Mexico and Central America:",
+        "pt": "Nem todos os cancelamentos têm a mesma causa nem exigem a mesma resposta. Quatro padrões concentram a maior parte dos casos em operações do México e da América Central:"
       }
     },
     {
@@ -136,6 +159,12 @@
           "**Cherry-picking by estimated trip value**: a driver who has learned through experience which requests in which zone correspond to which fare range selectively cancels the ones they perceive as low-return. This pattern produces cancellations concentrated in short-trip corridors or at time slots where the predominant request type carries a low fare.",
           "**Simultaneous operation on two platforms**: a driver working both the main platform and a secondary aggregator accepts on both and cancels one when the other produces a better request. The recognizable profile: high acceptance rate followed by cancellation within the first 60-90 seconds, concentrated in high-demand periods when both platforms generate simultaneous requests.",
           "**Navigation error in new drivers**: a driver who accepts without activating navigation cancels when they realize the pickup point is in a different direction than they mentally calculated. This case is more frequent in a driver's first 30 days on the platform and declines naturally as they gain experience with the system."
+        ],
+        "pt": [
+          "**Distância de embarque acima do limite rentável**: em zonas urbanas médias, uma distância de embarque superior a 2,5 km representa um custo de deslocamento que alguns motoristas calculam explicitamente — preferem cancelar e esperar uma solicitação com embarque mais próximo a percorrer o trajeto de aproximação sem compensação direta. A resposta correta não é punir o cancelamento, e sim revisar o raio de atribuição nas zonas onde esse padrão é mais frequente.",
+          "**Cherry-picking pelo valor estimado da corrida**: o motorista que aprendeu por experiência quais solicitações em qual zona correspondem a qual faixa de tarifa cancela seletivamente as que percebe como de baixo retorno. Esse padrão produz cancelamentos concentrados em corredores de corrida curta ou em horários em que o tipo de solicitação predominante tem tarifa baixa.",
+          "**Operação simultânea em duas plataformas**: o motorista que trabalha na plataforma principal e em um agregador secundário aceita nas duas e cancela em uma quando a outra gera uma solicitação melhor. O perfil reconhecível: taxa de aceitação alta seguida de cancelamento nos primeiros 60-90 segundos, concentrada em horários de alta demanda em que ambas as plataformas geram solicitações simultaneamente.",
+          "**Erro de orientação em motoristas novos**: o motorista que aceita sem ter ativado a navegação cancela ao perceber que o ponto de embarque está em uma direção diferente da que calculou mentalmente. Esse caso é mais frequente nos primeiros 30 dias do motorista na plataforma e diminui naturalmente à medida que ele ganha experiência com o sistema."
         ]
       }
     },
@@ -145,21 +174,24 @@
       "id": "impacto-cancelacion-decision-retorno-pasajero",
       "text": {
         "es": "El impacto directo de cada cancelación en la decisión de volver del pasajero",
-        "en": "The direct impact of each cancellation on the passenger's decision to return"
+        "en": "The direct impact of each cancellation on the passenger's decision to return",
+        "pt": "O impacto direto de cada cancelamento na decisão de voltar do passageiro"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "El pasajero que experimenta una cancelación después de esperar más de cinco minutos tiene una probabilidad de segundo viaje en los siguientes diez días entre el 30 y el 50% más baja que el pasajero cuyo viaje se completó sin incidentes. Esa diferencia no es solo estadística — describe un cambio concreto en el comportamiento: el pasajero cancelado que resuelve su necesidad de movilidad por otro medio en ese momento tiene una segunda experiencia de éxito con ese medio alternativo, lo que reduce la probabilidad de que la plataforma sea su primera opción en la siguiente ocasión. El daño de la cancelación no es solo la pérdida del viaje específico — es la competencia que crea entre la plataforma y el medio alternativo que el pasajero usó después.",
-        "en": "The passenger who experiences a cancellation after waiting more than five minutes has a second-trip probability in the next ten days between 30 and 50% lower than a passenger whose trip completed without incident. That difference isn't merely statistical — it describes a concrete behavioral shift: the cancelled passenger who resolves their mobility need through an alternative in that moment has a second success experience with that alternative, which reduces the probability of the platform being their first choice next time. The damage of the cancellation isn't just the loss of that specific trip — it's the competition it creates between the platform and the alternative the passenger used instead."
+        "en": "The passenger who experiences a cancellation after waiting more than five minutes has a second-trip probability in the next ten days between 30 and 50% lower than a passenger whose trip completed without incident. That difference isn't merely statistical — it describes a concrete behavioral shift: the cancelled passenger who resolves their mobility need through an alternative in that moment has a second success experience with that alternative, which reduces the probability of the platform being their first choice next time. The damage of the cancellation isn't just the loss of that specific trip — it's the competition it creates between the platform and the alternative the passenger used instead.",
+        "pt": "O passageiro que passa por um cancelamento depois de esperar mais de cinco minutos tem uma probabilidade de segunda corrida nos dez dias seguintes entre 30 e 50% menor do que o passageiro cuja corrida foi concluída sem incidentes. Essa diferença não é apenas estatística — descreve uma mudança concreta de comportamento: o passageiro cancelado que resolve sua necessidade de mobilidade por outro meio naquele momento tem uma segunda experiência de sucesso com esse meio alternativo, o que reduz a probabilidade de a plataforma ser sua primeira opção na próxima ocasião. O dano do cancelamento não é apenas a perda daquela corrida específica — é a concorrência que ele cria entre a plataforma e o meio alternativo que o passageiro usou depois."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "En operaciones con tasa de cancelación superior al 10%, el impacto acumulado sobre la recurrencia es no lineal: un pasajero que experimenta dos cancelaciones en un mes tiene una probabilidad de retorno en el mes siguiente entre el 55 y el 70% más baja que el pasajero sin cancelaciones, aunque haya completado otros viajes entre medias. La segunda cancelación actúa como confirmación de un patrón — el pasajero que experimentó la primera mantuvo su disposición a usar la plataforma, pero la segunda lo lleva a reclasificarla como servicio de respaldo en lugar de opción principal. Esa reclasificación es extremadamente difícil de revertir con descuentos o campañas de reactivación porque el problema no es el precio sino la percepción de confiabilidad.",
-        "en": "In operations with a cancellation rate above 10%, the cumulative impact on recurrence is non-linear: a passenger who experiences two cancellations in a month has a return probability in the following month between 55 and 70% lower than the passenger with no cancellations, even if they completed other trips in between. The second cancellation functions as a pattern confirmation — the passenger who experienced the first maintained their willingness to use the platform, but the second leads them to reclassify it as a backup service rather than a primary option. That reclassification is extremely difficult to reverse with discounts or reactivation campaigns because the problem isn't pricing but perceived reliability."
+        "en": "In operations with a cancellation rate above 10%, the cumulative impact on recurrence is non-linear: a passenger who experiences two cancellations in a month has a return probability in the following month between 55 and 70% lower than the passenger with no cancellations, even if they completed other trips in between. The second cancellation functions as a pattern confirmation — the passenger who experienced the first maintained their willingness to use the platform, but the second leads them to reclassify it as a backup service rather than a primary option. That reclassification is extremely difficult to reverse with discounts or reactivation campaigns because the problem isn't pricing but perceived reliability.",
+        "pt": "Em operações com taxa de cancelamento superior a 10%, o impacto acumulado sobre a recorrência é não linear: um passageiro que passa por dois cancelamentos em um mês tem uma probabilidade de retorno no mês seguinte entre 55 e 70% menor do que o passageiro sem cancelamentos, mesmo que tenha concluído outras corridas nesse intervalo. O segundo cancelamento funciona como confirmação de um padrão — o passageiro que passou pelo primeiro manteve sua disposição de usar a plataforma, mas o segundo o leva a reclassificá-la como serviço de reserva em vez de opção principal. Essa reclassificação é extremamente difícil de reverter com descontos ou campanhas de reativação, porque o problema não é o preço, e sim a percepção de confiabilidade."
       }
     },
     {
@@ -168,14 +200,16 @@
       "id": "reducir-cancelacion-sin-penalizar-productivos",
       "text": {
         "es": "Cómo reducir la tasa de cancelación sin penalizar a los conductores productivos",
-        "en": "How to reduce the cancellation rate without penalizing productive drivers"
+        "en": "How to reduce the cancellation rate without penalizing productive drivers",
+        "pt": "Como reduzir a taxa de cancelamento sem punir os motoristas produtivos"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "El error más frecuente cuando un operador decide reducir la tasa de cancelación es implementar una penalización plana que afecta igual a todos los conductores por encima del umbral. Un conductor que completa 120 viajes por semana con una tasa de cancelación del 8% tiene un impacto operativo completamente diferente al de un conductor que completa 20 viajes con la misma tasa — y una penalización que no distingue entre ambos perfiles genera resentimiento en el conductor de alto volumen sin resolver el problema de fondo. La reducción efectiva requiere intervención diferenciada por perfil de conductor y por causa probable.",
-        "en": "The most common mistake when an operator decides to reduce the cancellation rate is implementing a flat penalty affecting all drivers above the threshold equally. A driver who completes 120 trips per week with an 8% cancellation rate has a completely different operational impact from a driver completing 20 trips at the same rate — and a penalty that doesn't distinguish between those profiles generates resentment in the high-volume driver without resolving the root cause. Effective reduction requires differentiated intervention by driver profile and probable cause."
+        "en": "The most common mistake when an operator decides to reduce the cancellation rate is implementing a flat penalty affecting all drivers above the threshold equally. A driver who completes 120 trips per week with an 8% cancellation rate has a completely different operational impact from a driver completing 20 trips at the same rate — and a penalty that doesn't distinguish between those profiles generates resentment in the high-volume driver without resolving the root cause. Effective reduction requires differentiated intervention by driver profile and probable cause.",
+        "pt": "O erro mais frequente quando um operador decide reduzir a taxa de cancelamento é implementar uma penalidade plana que afeta igualmente todos os motoristas acima do limite. Um motorista que conclui 120 corridas por semana com uma taxa de cancelamento de 8% tem um impacto operacional completamente diferente do de um motorista que conclui 20 corridas com a mesma taxa — e uma penalidade que não distingue entre os dois perfis gera ressentimento no motorista de alto volume sem resolver o problema de fundo. A redução eficaz exige intervenção diferenciada por perfil de motorista e por causa provável."
       }
     },
     {
@@ -183,7 +217,8 @@
       "style": "bullet",
       "intro": {
         "es": "Tres palancas de intervención con mayor retorno por esfuerzo invertido:",
-        "en": "Three intervention levers with the highest return per effort invested:"
+        "en": "Three intervention levers with the highest return per effort invested:",
+        "pt": "Três alavancas de intervenção com maior retorno por esforço investido:"
       },
       "items": {
         "es": [
@@ -195,6 +230,11 @@
           "**Real-time cancellation rate visibility for the driver**: a driver who can see their own cancellation rate inside the app has a self-management incentive that works before the operator needs to intervene. Rate transparency eliminates the situation where a driver doesn't know they're in the problem zone until they receive a penalty notification — a moment that produces resistance instead of understanding.",
           "**Coaching before penalties**: a driver who receives a coordinator message with their weekly cancellation data and a direct question about what's happening has a 40 to 60% probability of reducing their rate in the following two weeks without any punitive mechanism being needed. The coordinator also gains first-hand information about the probable cause — which may be an assignment or tool problem, not an attitude issue.",
           "**Assignment parameter adjustment when the cause is structural**: when cancellations concentrate in a specific corridor, time slot, or request type, the right adjustment is operational — reviewing the assignment radius, maximum pickup time, or the range of destinations assigned in a given zone — before acting on driver behavior. A cancellation rate rooted in assignment parameters isn't solved through driver management."
+        ],
+        "pt": [
+          "**Visibilidade da própria taxa para o motorista em tempo real**: o motorista que pode ver sua taxa de cancelamento dentro do app tem um incentivo de autogestão que funciona antes de o operador precisar intervir. A transparência do indicador elimina a situação em que o motorista não sabe que está na zona problemática até receber uma notificação de penalidade — um momento que gera resistência em vez de compreensão.",
+          "**Coaching antes da penalidade**: o motorista que recebe uma mensagem do coordenador com seus dados de cancelamento da semana e uma pergunta direta sobre o que está acontecendo tem uma probabilidade entre 40 e 60% de reduzir sua taxa nas duas semanas seguintes sem precisar de nenhum mecanismo punitivo. O coordenador ainda obtém informação em primeira mão sobre a causa provável — que pode ser um problema de atribuição ou de ferramenta, não de atitude.",
+          "**Ajuste dos parâmetros de atribuição quando a causa é estrutural**: quando os cancelamentos se concentram em um corredor, um horário ou um tipo de solicitação específico, o ajuste correto é operacional — revisar o raio de atribuição, o tempo máximo de embarque ou a faixa de destinos atribuídos em determinada zona — antes de agir sobre o comportamento do motorista. Uma taxa de cancelamento cuja causa está nos parâmetros de atribuição não se resolve com gestão de motoristas."
         ]
       }
     },
@@ -204,72 +244,84 @@
       "id": "agente-alerta-semanal-cancelacion",
       "text": {
         "es": "Cómo el agente convierte la tasa de cancelación en señal de alerta semanal",
-        "en": "How the agent turns the cancellation rate into a weekly early-warning signal"
+        "en": "How the agent turns the cancellation rate into a weekly early-warning signal",
+        "pt": "Como o agente transforma a taxa de cancelamento em sinal de alerta semanal"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "La tasa de cancelación calculada mensualmente no funciona como señal de alerta temprana — cambia demasiado lentamente para detectar el deterioro antes de que afecte la recurrencia. La instrucción al agente que produce la lectura de tendencia semanal: «Muéstrame la tasa de cancelación del conductor de los últimos 7 días, la de los 7 días anteriores, y el promedio de los últimos 28 días. Segmenta por rango: conductores con tasa menor al 5%, entre 5 y 12%, y mayor al 12%. Muéstrame cuántos conductores activos hay en cada segmento y si el segmento mayor al 12% creció respecto a la semana anterior.» Esa consulta produce la distribución que el promedio general oculta: el promedio puede mantenerse estable aunque el número de conductores en la zona crítica esté aumentando, si los conductores de bajo volumen compensan el agregado.",
-        "en": "A cancellation rate calculated monthly doesn't function as an early-warning signal — it changes too slowly to detect deterioration before it affects recurrence. The agent instruction that produces the weekly trend reading: 'Show me the driver cancellation rate for the last 7 days, the prior 7 days, and the 28-day average. Segment by range: drivers with a rate below 5%, between 5 and 12%, and above 12%. Show me how many active drivers are in each segment and whether the above-12% segment grew compared to the prior week.' That query produces the distribution the overall average conceals: the average can hold steady even as the number of drivers in the critical zone grows, if low-volume drivers offset the aggregate."
+        "en": "A cancellation rate calculated monthly doesn't function as an early-warning signal — it changes too slowly to detect deterioration before it affects recurrence. The agent instruction that produces the weekly trend reading: 'Show me the driver cancellation rate for the last 7 days, the prior 7 days, and the 28-day average. Segment by range: drivers with a rate below 5%, between 5 and 12%, and above 12%. Show me how many active drivers are in each segment and whether the above-12% segment grew compared to the prior week.' That query produces the distribution the overall average conceals: the average can hold steady even as the number of drivers in the critical zone grows, if low-volume drivers offset the aggregate.",
+        "pt": "A taxa de cancelamento calculada mensalmente não funciona como sinal de alerta antecipado — muda lentamente demais para detectar a deterioração antes que ela afete a recorrência. A instrução ao agente que produz a leitura de tendência semanal: «Mostre-me a taxa de cancelamento do motorista dos últimos 7 dias, a dos 7 dias anteriores e a média dos últimos 28 dias. Segmente por faixa: motoristas com taxa abaixo de 5%, entre 5 e 12% e acima de 12%. Mostre-me quantos motoristas ativos há em cada segmento e se o segmento acima de 12% cresceu em relação à semana anterior.» Essa consulta produz a distribuição que a média geral esconde: a média pode se manter estável mesmo com o número de motoristas na zona crítica aumentando, se os motoristas de baixo volume compensam o agregado."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "Una segunda consulta que completa el diagnóstico: los pasajeros que solicitaron un viaje, recibieron aceptación y no completaron el viaje — sin cancelación del pasajero registrada. Ese delta identifica cancelaciones del conductor que el panel no siempre clasifica correctamente. La instrucción al agente para esa lectura: «Muéstrame el número de solicitudes de la semana donde el estado final fue cancelación por conductor después de más de 60 segundos de aceptación, y cuántos pasajeros únicos estuvieron en esa situación más de una vez en los últimos 14 días.» Los pasajeros únicos que repiten la experiencia de cancelación son el segmento de mayor riesgo de abandono — y también el de mayor urgencia de contacto proactivo antes de que lleguen al punto de reclasificar la plataforma como servicio de respaldo.",
-        "en": "A second query that completes the diagnosis: passengers who requested a trip, received acceptance, and didn't complete the trip — with no passenger cancellation recorded. That delta identifies driver cancellations the dashboard doesn't always classify correctly. The agent instruction for that reading: 'Show me the number of requests this week where the final status was driver cancellation after more than 60 seconds of acceptance, and how many unique passengers were in that situation more than once in the last 14 days.' Unique passengers who repeat the cancellation experience are the highest abandonment-risk segment — and also the highest urgency for proactive contact before they reach the point of reclassifying the platform as a backup service."
+        "en": "A second query that completes the diagnosis: passengers who requested a trip, received acceptance, and didn't complete the trip — with no passenger cancellation recorded. That delta identifies driver cancellations the dashboard doesn't always classify correctly. The agent instruction for that reading: 'Show me the number of requests this week where the final status was driver cancellation after more than 60 seconds of acceptance, and how many unique passengers were in that situation more than once in the last 14 days.' Unique passengers who repeat the cancellation experience are the highest abandonment-risk segment — and also the highest urgency for proactive contact before they reach the point of reclassifying the platform as a backup service.",
+        "pt": "Uma segunda consulta que completa o diagnóstico: os passageiros que solicitaram uma corrida, receberam aceitação e não concluíram a corrida — sem cancelamento do passageiro registrado. Esse delta identifica cancelamentos do motorista que o painel nem sempre classifica corretamente. A instrução ao agente para essa leitura: «Mostre-me o número de solicitações da semana em que o status final foi cancelamento pelo motorista após mais de 60 segundos de aceitação, e quantos passageiros únicos estiveram nessa situação mais de uma vez nos últimos 14 dias.» Os passageiros únicos que repetem a experiência de cancelamento são o segmento de maior risco de abandono — e também o de maior urgência de contato proativo antes que cheguem ao ponto de reclassificar a plataforma como serviço de reserva."
       }
     },
     {
       "type": "quote",
       "text": {
         "es": "Lo que me sorprendió cuando empecé a medir la tasa de cancelación fue que dos de mis cinco mejores conductores en volumen de viajes estaban en el top tres de cancelaciones. Nunca lo había notado porque sus calificaciones eran buenas — los viajes que completaban eran buenos. Pero cancelaban los que no les convenían. Cuando crucé ese dato con los pasajeros afectados, varios de los que habían reducido su frecuencia habían sido cancelados por esos mismos conductores. El indicador cambió completamente cómo evalúo el rendimiento de un conductor.",
-        "en": "What surprised me when I started measuring the cancellation rate was that two of my five highest-volume drivers were in the top three for cancellations. I'd never noticed because their ratings were good — the trips they did complete were fine. But they were cancelling the ones that didn't suit them. When I cross-referenced that data with the affected passengers, several who had reduced their frequency had been cancelled by those same drivers. The indicator completely changed how I evaluate a driver's performance."
+        "en": "What surprised me when I started measuring the cancellation rate was that two of my five highest-volume drivers were in the top three for cancellations. I'd never noticed because their ratings were good — the trips they did complete were fine. But they were cancelling the ones that didn't suit them. When I cross-referenced that data with the affected passengers, several who had reduced their frequency had been cancelled by those same drivers. The indicator completely changed how I evaluate a driver's performance.",
+        "pt": "O que me surpreendeu quando comecei a medir a taxa de cancelamento foi que dois dos meus cinco melhores motoristas em volume de corridas estavam no top três de cancelamentos. Eu nunca tinha notado porque as avaliações deles eram boas — as corridas que eles concluíam eram boas. Mas eles cancelavam as que não lhes convinham. Quando cruzei esse dado com os passageiros afetados, vários dos que tinham reduzido sua frequência tinham sido cancelados por esses mesmos motoristas. O indicador mudou completamente como avalio o desempenho de um motorista."
       },
       "attribution": {
         "es": "Operadora con cuatro años de operación en el occidente de México",
-        "en": "Operator with four years of operation in western Mexico"
+        "en": "Operator with four years of operation in western Mexico",
+        "pt": "Operadora com quatro anos de operação no oeste do México"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "El operador que mide la tasa de cancelación del conductor en paralelo con la tasa de recurrencia de pasajeros tiene una lectura de la salud operativa que ninguno de los dos indicadores da por separado. La recurrencia describe si los pasajeros están volviendo. La tasa de cancelación describe una de las causas más frecuentes de que no vuelvan — una causa que no aparece en el panel de calificaciones porque ocurre antes de que el viaje se realice. La combinación de ambos indicadores en la revisión semanal permite al operador distinguir entre una caída de recurrencia causada por una mala experiencia de viaje y una causada por falta de confiabilidad en el proceso de asignación — dos problemas con causas distintas que requieren respuestas distintas.",
-        "en": "The operator who measures driver cancellation rate alongside passenger recurrence rate has an operational health reading that neither indicator provides on its own. Recurrence describes whether passengers are coming back. The cancellation rate describes one of the most frequent causes of them not coming back — a cause that doesn't appear in the ratings dashboard because it happens before the trip takes place. Combining both indicators in the weekly review allows the operator to distinguish between a recurrence drop caused by a poor trip experience and one caused by unreliability in the assignment process — two problems with different causes that require different responses."
+        "en": "The operator who measures driver cancellation rate alongside passenger recurrence rate has an operational health reading that neither indicator provides on its own. Recurrence describes whether passengers are coming back. The cancellation rate describes one of the most frequent causes of them not coming back — a cause that doesn't appear in the ratings dashboard because it happens before the trip takes place. Combining both indicators in the weekly review allows the operator to distinguish between a recurrence drop caused by a poor trip experience and one caused by unreliability in the assignment process — two problems with different causes that require different responses.",
+        "pt": "O operador que mede a taxa de cancelamento do motorista em paralelo com a taxa de recorrência de passageiros tem uma leitura da saúde operacional que nenhum dos dois indicadores dá isoladamente. A recorrência descreve se os passageiros estão voltando. A taxa de cancelamento descreve uma das causas mais frequentes de eles não voltarem — uma causa que não aparece no painel de avaliações porque ocorre antes de a corrida acontecer. A combinação dos dois indicadores na revisão semanal permite ao operador distinguir entre uma queda de recorrência causada por uma experiência de corrida ruim e uma causada por falta de confiabilidade no processo de atribuição — dois problemas com causas diferentes que exigem respostas diferentes."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "La tasa de cancelación del conductor es uno de los pocos indicadores de operación que tiene impacto simultáneo en tres dimensiones que cuestan dinero si deterioran: la recurrencia del pasajero cancelado, el tiempo de espera del siguiente conductor asignado al mismo viaje, y la eficiencia de la flota que acumula desplazamientos de aproximación no completados. Incorporarla a la revisión semanal no requiere infraestructura nueva ni herramientas adicionales — requiere saber qué preguntarle al agente y leer los resultados con la misma atención que se presta a la tasa de aceptación o a las calificaciones. El operador que establece ese hábito no solo identifica el problema antes de que impacte el volumen — tiene también el diagnóstico que decide si la respuesta correcta es una conversación con un conductor específico, un ajuste de parámetros de asignación, o una revisión de la cobertura de flota en el horario donde la cancelación se concentra.",
-        "en": "The driver cancellation rate is one of the few operational indicators with simultaneous impact on three dimensions that cost money when they deteriorate: the recurrence of the cancelled passenger, the wait time for the next driver assigned to the same trip, and the fleet efficiency lost to incomplete approach journeys. Incorporating it into the weekly review requires no new infrastructure or additional tools — it requires knowing what to ask the agent and reading the results with the same attention given to acceptance rate or ratings. The operator who builds that habit doesn't just identify the problem before it impacts volume — they also have the diagnostic that determines whether the right response is a conversation with a specific driver, an assignment parameter adjustment, or a fleet coverage review for the time slot where cancellations concentrate."
+        "en": "The driver cancellation rate is one of the few operational indicators with simultaneous impact on three dimensions that cost money when they deteriorate: the recurrence of the cancelled passenger, the wait time for the next driver assigned to the same trip, and the fleet efficiency lost to incomplete approach journeys. Incorporating it into the weekly review requires no new infrastructure or additional tools — it requires knowing what to ask the agent and reading the results with the same attention given to acceptance rate or ratings. The operator who builds that habit doesn't just identify the problem before it impacts volume — they also have the diagnostic that determines whether the right response is a conversation with a specific driver, an assignment parameter adjustment, or a fleet coverage review for the time slot where cancellations concentrate.",
+        "pt": "A taxa de cancelamento do motorista é um dos poucos indicadores de operação que tem impacto simultâneo em três dimensões que custam dinheiro quando se deterioram: a recorrência do passageiro cancelado, o tempo de espera do próximo motorista atribuído à mesma corrida e a eficiência da frota que acumula deslocamentos de aproximação não concluídos. Incorporá-la à revisão semanal não exige infraestrutura nova nem ferramentas adicionais — exige saber o que perguntar ao agente e ler os resultados com a mesma atenção dada à taxa de aceitação ou às avaliações. O operador que cria esse hábito não só identifica o problema antes que ele impacte o volume — tem também o diagnóstico que decide se a resposta correta é uma conversa com um motorista específico, um ajuste dos parâmetros de atribuição ou uma revisão da cobertura de frota no horário em que os cancelamentos se concentram."
       }
     }
   ],
   "cta": {
     "heading": {
       "es": "¿Listo para lanzar tu propia app de movilidad?",
-      "en": "Ready to launch your own mobility app?"
+      "en": "Ready to launch your own mobility app?",
+      "pt": "Pronto para lançar seu próprio app de mobilidade?"
     },
     "body": {
       "es": "Configura tu marca, tus tarifas y tus servicios en semanas, no en meses. Cabgo te entrega la plataforma; tú te quedas con la operación, los clientes y los ingresos.",
-      "en": "Set up your brand, pricing and services in weeks, not months. Cabgo ships the platform — you keep the operation, the customers and the revenue."
+      "en": "Set up your brand, pricing and services in weeks, not months. Cabgo ships the platform — you keep the operation, the customers and the revenue.",
+      "pt": "Configure sua marca, suas tarifas e seus serviços em semanas, não em meses. A Cabgo entrega a plataforma; você fica com a operação, os clientes e a receita."
     },
     "buttonLabel": {
       "es": "Comenzar con Cabgo",
-      "en": "Get started with Cabgo"
+      "en": "Get started with Cabgo",
+      "pt": "Começar com a Cabgo"
     },
     "buttonHref": "/empezar"
   },
   "seo": {
     "metaTitle": {
       "es": "Tasa de cancelación del conductor y retención | Cabgo",
-      "en": "Driver cancellation rate and passenger retention | Cabgo"
+      "en": "Driver cancellation rate and passenger retention | Cabgo",
+      "pt": "Taxa de cancelamento do motorista e retenção | Cabgo"
     },
     "metaDescription": {
       "es": "Qué mide la tasa de cancelación del conductor, qué rangos indican un problema de flota, y cómo reducirla sin penalizar a los conductores más productivos.",
-      "en": "What driver cancellation rate reveals, which ranges flag a fleet problem, and how to reduce it without penalizing your most productive drivers."
+      "en": "What driver cancellation rate reveals, which ranges flag a fleet problem, and how to reduce it without penalizing your most productive drivers.",
+      "pt": "O que a taxa de cancelamento do motorista revela, quais faixas apontam um problema de frota e como reduzi-la sem punir seus motoristas mais produtivos."
     }
   }
 }

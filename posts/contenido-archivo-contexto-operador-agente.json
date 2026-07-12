@@ -3,16 +3,19 @@
   "category": "product",
   "title": {
     "es": "Qué contiene un archivo de contexto útil: la guía para el operador que ya tiene el agente activo",
-    "en": "What a useful operator context file actually contains: a guide for operators who already have the agent running"
+    "en": "What a useful operator context file actually contains: a guide for operators who already have the agent running",
+    "pt": "O que contém um arquivo de contexto útil: o guia para o operador que já tem o agente ativo"
   },
   "excerpt": {
     "es": "El skill está instalado y el agente responde. El problema es que sus diagnósticos siguen siendo genéricos. Esto es lo que va en el archivo de contexto del operador para que el agente sea específico.",
-    "en": "The skill is installed and the agent responds. The problem is that its diagnostics are still generic. Here is what belongs in the operator context file to make the agent specific to your operation."
+    "en": "The skill is installed and the agent responds. The problem is that its diagnostics are still generic. Here is what belongs in the operator context file to make the agent specific to your operation.",
+    "pt": "O skill está instalado e o agente responde. O problema é que os diagnósticos continuam genéricos. Isto é o que deve entrar no arquivo de contexto do operador para que o agente seja específico."
   },
   "heroImage": "https://raw.githubusercontent.com/jonatanvazquez/cabgo-blog-content/main/images/contenido-archivo-contexto-operador-agente.jpg",
   "heroImageAlt": {
     "es": "Ilustración isométrica de una tarjeta de archivo teal estructurada en secciones con mapa de zonas, medidores de umbral y entradas de incidencias, flotando junto a una interfaz de agente que muestra un diagnóstico específico con zona, comparación de umbral y acción recomendada",
-    "en": "Isometric illustration of a structured teal file card with zone map, threshold gauges, and incident log entries floating next to an agent interface showing a specific diagnostic with zone name, threshold comparison, and recommended action"
+    "en": "Isometric illustration of a structured teal file card with zone map, threshold gauges, and incident log entries floating next to an agent interface showing a specific diagnostic with zone name, threshold comparison, and recommended action",
+    "pt": "Ilustração isométrica de um cartão de arquivo teal estruturado em seções com mapa de zonas, medidores de limite e registros de incidentes, flutuando ao lado de uma interface de agente que mostra um diagnóstico específico com zona, comparação de limite e ação recomendada"
   },
   "heroImagePrompt": "Isometric composition: a large teal floating document card is divided into labeled horizontal sections — top section shows a small grid zone map with one highlighted zone, middle section shows three threshold gauge indicators at different levels with small arrows, bottom section shows two incident log entry rows with short text lines and status dots. Next to the card, an AI agent console panel shows a response bubble with a short specific diagnostic text and a highlighted recommended action. A soft indigo cable connects the file card to the agent panel. Deep violet floor grid, teal glow concentrated on the document card, clean geometric shapes. Negative space on the lower right.",
   "publishedAt": "2026-06-18",
@@ -35,13 +38,23 @@
       "zone naming agent context mobility platform",
       "build operator AI agent context first version",
       "operator context layer MCP Cabgo specific diagnostics"
+    ],
+    "pt": [
+      "arquivo de contexto operador agente IA mobilidade",
+      "o que colocar no arquivo de contexto agente Cabgo skill",
+      "limites operacionais agente IA transporte por aplicativo regional",
+      "documentar incidentes e resoluções agente IA operador",
+      "zonas nomenclatura agente contexto plataforma mobilidade",
+      "construir contexto agente IA operador regional primeira versão",
+      "camada de contexto operador skill MCP Cabgo diagnóstico específico"
     ]
   },
   "author": {
     "name": "Equipo Cabgo",
     "role": {
       "es": "Plataforma de movilidad",
-      "en": "Mobility platform"
+      "en": "Mobility platform",
+      "pt": "Plataforma de mobilidade"
     }
   },
   "blocks": [
@@ -49,14 +62,16 @@
       "type": "paragraph",
       "text": {
         "es": "El skill del agente está instalado, el servidor MCP conectado y el agente accede a los datos de la operación en tiempo real. Las respuestas llegan rápido. Y sin embargo, hay una distancia entre lo que el agente responde y lo que el coordinador de turno necesita: cuando le preguntas por la cobertura de la zona norte, el agente devuelve el número pero no dice si ese número es problemático para esa ciudad un martes a las 18:00. Cuando le preguntas cómo manejar conductores fuera del área principal durante un pico, te da opciones razonables pero no la resolución que encontraste hace dos meses que funcionó en ese contexto específico. Esa distancia entre «responde» y «diagnostica» tiene una sola causa: el archivo de contexto del operador no contiene la información que convertiría los datos de la API en diagnósticos específicos para esa operación.",
-        "en": "The agent skill is installed, the MCP server is connected, and the agent has real-time access to the operation's data. Responses arrive fast. But there's a gap between what the agent returns and what the shift coordinator actually needs: when you ask about coverage in the northern zone, the agent reports the number but doesn't tell you whether that number is a problem for that city on a Tuesday at 6 p.m. When you ask how to handle drivers straying outside the main demand area during a peak, it offers reasonable options but not the resolution you landed on two months ago that actually worked in that specific context. That gap between \"responds\" and \"diagnoses\" has one cause: the operator context file doesn't contain the information that would turn API data into operation-specific diagnostics."
+        "en": "The agent skill is installed, the MCP server is connected, and the agent has real-time access to the operation's data. Responses arrive fast. But there's a gap between what the agent returns and what the shift coordinator actually needs: when you ask about coverage in the northern zone, the agent reports the number but doesn't tell you whether that number is a problem for that city on a Tuesday at 6 p.m. When you ask how to handle drivers straying outside the main demand area during a peak, it offers reasonable options but not the resolution you landed on two months ago that actually worked in that specific context. That gap between \"responds\" and \"diagnoses\" has one cause: the operator context file doesn't contain the information that would turn API data into operation-specific diagnostics.",
+        "pt": "O skill do agente está instalado, o servidor MCP conectado e o agente acessa os dados da operação em tempo real. As respostas chegam rápido. Mesmo assim, há uma distância entre o que o agente responde e o que o coordenador de turno precisa: quando você pergunta pela cobertura da zona norte, o agente devolve o número, mas não diz se esse número é problemático para aquela cidade numa terça-feira às 18h. Quando você pergunta como lidar com motoristas fora da área principal durante um pico, ele dá opções razoáveis, mas não a resolução que você encontrou há dois meses e que funcionou naquele contexto específico. Essa distância entre \"responder\" e \"diagnosticar\" tem uma única causa: o arquivo de contexto do operador não contém a informação que transformaria os dados da API em diagnósticos específicos para aquela operação."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "Este artículo no es sobre el skill base ni sobre cómo separar las capas de configuración para mantener las actualizaciones sin conflictos — eso está cubierto en el artículo sobre el fork del skill público. Es sobre el contenido del archivo de contexto del operador: qué secciones lo hacen útil, qué datos concretos van en cada una, cuánto detalle es suficiente para una primera versión funcional, y qué errores convierten el archivo en algo que existe pero no produce diagnósticos distintos a los que el agente daría sin él. El artículo está dirigido al operador que ya tiene el agente activo y nota que sus respuestas son correctas pero demasiado genéricas para ser directamente accionables.",
-        "en": "This article isn't about the base skill or about separating configuration layers to keep updates clean — that's covered in the article on forking the public skill. It's about what goes inside the operator context file: which sections make it useful, what specific data belongs in each one, how much detail is enough for a first working version, and which mistakes produce a file that technically exists but generates no different responses than the agent would give without it. The audience is the operator who already has the agent running and notices that its answers are technically correct but too generic to be directly actionable."
+        "en": "This article isn't about the base skill or about separating configuration layers to keep updates clean — that's covered in the article on forking the public skill. It's about what goes inside the operator context file: which sections make it useful, what specific data belongs in each one, how much detail is enough for a first working version, and which mistakes produce a file that technically exists but generates no different responses than the agent would give without it. The audience is the operator who already has the agent running and notices that its answers are technically correct but too generic to be directly actionable.",
+        "pt": "Este artigo não é sobre o skill base nem sobre como separar as camadas de configuração para manter as atualizações sem conflitos — isso está coberto no artigo sobre o fork do skill público. É sobre o conteúdo do arquivo de contexto do operador: quais seções o tornam útil, quais dados concretos entram em cada uma, quanto detalhe é suficiente para uma primeira versão funcional, e quais erros transformam o arquivo em algo que existe mas não produz diagnósticos diferentes dos que o agente daria sem ele. O artigo é dirigido ao operador que já tem o agente ativo e percebe que as respostas dele são corretas, mas genéricas demais para serem diretamente acionáveis."
       }
     },
     {
@@ -65,21 +80,24 @@
       "id": "archivo-contexto-determina-techo-agente",
       "text": {
         "es": "Por qué el archivo determina el techo de lo que el agente puede diagnosticar",
-        "en": "Why the file determines the ceiling of what the agent can diagnose"
+        "en": "Why the file determines the ceiling of what the agent can diagnose",
+        "pt": "Por que o arquivo determina o teto do que o agente pode diagnosticar"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "El agente opera sobre dos tipos de datos: los que obtiene en tiempo real de la API de la plataforma — conductores activos, cobertura actual, viajes en curso, cancelaciones de la última hora — y los que están en su contexto de sistema: las convenciones de la operación que definen qué significa cada número. La plataforma provee el primer conjunto; el operador provee el segundo. Cuando ese segundo conjunto está vacío o es demasiado genérico, el agente tiene acceso a los datos correctos pero carece del punto de referencia para interpretarlos: sabe que hay doce conductores activos en la zona norte, pero no sabe si eso es suficiente, bajo o crítico para esa zona a esa hora.",
-        "en": "The agent operates on two types of data: what it gets in real time from the platform API — active drivers, current coverage, ongoing trips, cancellations in the last hour — and what it has in its system context: the operation's conventions that define what each number means. The platform provides the first set; the operator provides the second. When that second set is empty or too generic, the agent has access to the right data but no reference point to interpret it: it knows there are twelve active drivers in the northern zone, but not whether that's sufficient, low, or critical for that zone at that time of day."
+        "en": "The agent operates on two types of data: what it gets in real time from the platform API — active drivers, current coverage, ongoing trips, cancellations in the last hour — and what it has in its system context: the operation's conventions that define what each number means. The platform provides the first set; the operator provides the second. When that second set is empty or too generic, the agent has access to the right data but no reference point to interpret it: it knows there are twelve active drivers in the northern zone, but not whether that's sufficient, low, or critical for that zone at that time of day.",
+        "pt": "O agente opera sobre dois tipos de dados: os que obtém em tempo real da API da plataforma — motoristas ativos, cobertura atual, corridas em andamento, cancelamentos da última hora — e os que estão no seu contexto de sistema: as convenções da operação que definem o que cada número significa. A plataforma fornece o primeiro conjunto; o operador fornece o segundo. Quando esse segundo conjunto está vazio ou é genérico demais, o agente tem acesso aos dados corretos, mas não tem o ponto de referência para interpretá-los: sabe que há doze motoristas ativos na zona norte, mas não sabe se isso é suficiente, baixo ou crítico para aquela zona naquele horário."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "La diferencia práctica entre un agente con un archivo de contexto bien construido y uno sin él no es de velocidad ni de acceso a datos — es de especificidad. Con el archivo, el agente puede responder: «la zona norte está a doce conductores activos, un 30% por debajo del umbral mínimo para las tardes de martes en temporada alta; la última vez que cayó a ese nivel en condiciones similares el patrón que funcionó fue reubicar dos conductores desde zona centro antes de las 18:30». Sin el archivo, el agente da la misma respuesta a cualquier operación con doce conductores en una zona: describe el número y deja la interpretación al coordinador. Esa es la diferencia entre una herramienta que amplifica el criterio del coordinador y una que devuelve datos sin referencia.",
-        "en": "The practical difference between an agent with a well-built context file and one without is not speed or data access — it's specificity. With the file, the agent can respond: \"northern zone is at twelve active drivers, 30% below the minimum threshold for Tuesday afternoons in peak season; the last time it dropped to that level under similar conditions, the pattern that worked was repositioning two drivers from the central zone before 6:30 p.m.\" Without the file, the agent gives the same response to any operation with twelve drivers in a zone: it describes the number and leaves interpretation to the coordinator. That's the difference between a tool that amplifies the coordinator's judgment and one that returns raw data without reference."
+        "en": "The practical difference between an agent with a well-built context file and one without is not speed or data access — it's specificity. With the file, the agent can respond: \"northern zone is at twelve active drivers, 30% below the minimum threshold for Tuesday afternoons in peak season; the last time it dropped to that level under similar conditions, the pattern that worked was repositioning two drivers from the central zone before 6:30 p.m.\" Without the file, the agent gives the same response to any operation with twelve drivers in a zone: it describes the number and leaves interpretation to the coordinator. That's the difference between a tool that amplifies the coordinator's judgment and one that returns raw data without reference.",
+        "pt": "A diferença prática entre um agente com um arquivo de contexto bem construído e um sem ele não é de velocidade nem de acesso a dados — é de especificidade. Com o arquivo, o agente pode responder: \"a zona norte está com doze motoristas ativos, 30% abaixo do limite mínimo para as tardes de terça-feira na alta temporada; da última vez que caiu para esse nível em condições semelhantes, o padrão que funcionou foi realocar dois motoristas da zona centro antes das 18h30\". Sem o arquivo, o agente dá a mesma resposta para qualquer operação com doze motoristas em uma zona: descreve o número e deixa a interpretação para o coordenador. Essa é a diferença entre uma ferramenta que amplifica o critério do coordenador e uma que devolve dados sem referência."
       }
     },
     {
@@ -88,14 +106,16 @@
       "id": "cinco-secciones-archivo-contexto-util",
       "text": {
         "es": "Las cinco secciones que distinguen un archivo útil de uno de relleno",
-        "en": "The five sections that distinguish a useful file from one that fills space"
+        "en": "The five sections that distinguish a useful file from one that fills space",
+        "pt": "As cinco seções que distinguem um arquivo útil de um de enchimento"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "Un archivo de contexto que produce diagnósticos específicos tiene cinco secciones. No es la única estructura válida, pero sí la que cierra los vacíos de información más comunes en operaciones que llevan más de treinta días con el agente activo:",
-        "en": "A context file that produces specific diagnostics has five sections. It's not the only valid structure, but it closes the most common information gaps in operations that have had the agent running for more than thirty days:"
+        "en": "A context file that produces specific diagnostics has five sections. It's not the only valid structure, but it closes the most common information gaps in operations that have had the agent running for more than thirty days:",
+        "pt": "Um arquivo de contexto que produz diagnósticos específicos tem cinco seções. Não é a única estrutura válida, mas é a que fecha as lacunas de informação mais comuns em operações que já têm o agente ativo há mais de trinta dias:"
       }
     },
     {
@@ -115,6 +135,13 @@
           "**Seasonal patterns and recurring events**: periods that deviate significantly from typical patterns — peak season, local events, Easter week, factory closures — with the operational conditions each generates and the decisions that adjust accordingly",
           "**Recurring incidents and documented resolutions**: situations that repeat frequently enough to have an established resolution, documented with the context that explains why that resolution works under those specific conditions",
           "**Relevant driver patterns**: drivers with operational characteristics the coordinator needs the agent to remember — typical schedules, preferred zones, atypical cancellation patterns, history of previously resolved incidents"
+        ],
+        "pt": [
+          "**Definições geográficas**: os nomes que a equipe usa para as zonas e a correspondência deles com os identificadores do sistema, incluindo os nós de demanda com nome interno — \"aeroporto\", \"terminal rodoviário\", \"praça sul\" — cuja cobertura é avaliada de forma diferente do resto",
+          "**Limites operacionais**: os níveis de disponibilidade de motoristas, tempo médio de espera e taxa de cancelamento que correspondem ao estado normal, alerta e crítico em cada zona principal e faixa horária",
+          "**Padrões sazonais e eventos recorrentes**: os períodos que se desviam significativamente dos padrões típicos — alta temporada, eventos locais, semana santa, paralisações de fábricas — com as condições operacionais que cada um gera e as decisões que se ajustam em consequência",
+          "**Incidentes recorrentes e resoluções documentadas**: as situações que se repetem com frequência suficiente para ter uma resolução estabelecida, documentadas com o contexto que explica por que aquela resolução funciona naquelas condições específicas",
+          "**Padrões de motoristas relevantes**: motoristas com características operacionais que o coordenador precisa que o agente lembre — horários habituais, zonas preferidas, padrões de cancelamento atípicos, histórico de incidentes anteriores"
         ]
       }
     },
@@ -124,21 +151,24 @@
       "id": "zonas-umbrales-vocabulario-especifico",
       "text": {
         "es": "Zonas y umbrales: el vocabulario compartido y los números que lo hacen específico",
-        "en": "Zones and thresholds: the shared vocabulary and the numbers that make it specific"
+        "en": "Zones and thresholds: the shared vocabulary and the numbers that make it specific",
+        "pt": "Zonas e limites: o vocabulário compartilhado e os números que o tornam específico"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "Las definiciones geográficas resuelven el problema más frecuente en operaciones donde el equipo usa nombres internos que no coinciden con los identificadores del sistema. El agente que recibe una pregunta sobre «la zona industrial» necesita saber si ese nombre corresponde a la zona norte del panel, si incluye o excluye el acceso por la carretera federal, y si en ese contexto «zona industrial» en el turno nocturno se refiere a los tres polígonos del sistema o solo al principal. Sin esa correspondencia, el agente trabaja con ambigüedad — cada respuesta puede referirse a una geografía distinta dependiendo de cómo el coordinador formuló la pregunta — y ese costo se acumula en diagnósticos inconsistentes.",
-        "en": "Geographic definitions solve the most common problem in operations where the team uses internal names that don't match zone identifiers in the system. An agent that receives a question about \"the industrial zone\" needs to know whether that name maps to the northern zone in the panel, whether it includes or excludes the federal highway access, and whether \"industrial zone\" on the night shift refers to all three polygons in the system or just the main one. Without that mapping, the agent works with ambiguity — each response may refer to a different geography depending on how the coordinator phrased the question — and that cost accumulates in inconsistent diagnostics."
+        "en": "Geographic definitions solve the most common problem in operations where the team uses internal names that don't match zone identifiers in the system. An agent that receives a question about \"the industrial zone\" needs to know whether that name maps to the northern zone in the panel, whether it includes or excludes the federal highway access, and whether \"industrial zone\" on the night shift refers to all three polygons in the system or just the main one. Without that mapping, the agent works with ambiguity — each response may refer to a different geography depending on how the coordinator phrased the question — and that cost accumulates in inconsistent diagnostics.",
+        "pt": "As definições geográficas resolvem o problema mais frequente em operações onde a equipe usa nomes internos que não coincidem com os identificadores do sistema. O agente que recebe uma pergunta sobre \"a zona industrial\" precisa saber se esse nome corresponde à zona norte do painel, se inclui ou exclui o acesso pela rodovia federal, e se, nesse contexto, \"zona industrial\" no turno noturno se refere aos três polígonos do sistema ou só ao principal. Sem essa correspondência, o agente trabalha com ambiguidade — cada resposta pode se referir a uma geografia diferente dependendo de como o coordenador formulou a pergunta — e esse custo se acumula em diagnósticos inconsistentes."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "Los umbrales operativos son la sección más directamente conectada con la calidad del diagnóstico, porque son los que permiten al agente interpretar un número en lugar de devolverlo sin referencia. Un umbral bien documentado no dice «disponibilidad baja en zona norte» — dice «menos de 14 conductores activos en zona norte entre las 17:00 y las 20:00 de lunes a viernes es nivel alerta; menos de 8 conductores en ese mismo período es nivel crítico que justifica activar incentivos de reposicionamiento». Esa especificidad permite al agente comparar el estado actual con la referencia de esa operación y generar un diagnóstico accionable en lugar de un dato neutral que el coordinador tiene que interpretar sin contexto.",
-        "en": "Operational thresholds are the section most directly tied to diagnostic quality, because they allow the agent to interpret a number rather than just return it without reference. A well-documented threshold doesn't say \"low availability in the northern zone\" — it says \"fewer than 14 active drivers in the northern zone between 5 p.m. and 8 p.m. Monday through Friday is alert level; fewer than 8 drivers in that same window is critical level and justifies activating repositioning incentives.\" That specificity lets the agent compare current state against the operation's own reference and generate an actionable diagnostic rather than a neutral data point the coordinator has to interpret without context."
+        "en": "Operational thresholds are the section most directly tied to diagnostic quality, because they allow the agent to interpret a number rather than just return it without reference. A well-documented threshold doesn't say \"low availability in the northern zone\" — it says \"fewer than 14 active drivers in the northern zone between 5 p.m. and 8 p.m. Monday through Friday is alert level; fewer than 8 drivers in that same window is critical level and justifies activating repositioning incentives.\" That specificity lets the agent compare current state against the operation's own reference and generate an actionable diagnostic rather than a neutral data point the coordinator has to interpret without context.",
+        "pt": "Os limites operacionais são a seção mais diretamente conectada à qualidade do diagnóstico, porque são eles que permitem ao agente interpretar um número em vez de simplesmente devolvê-lo sem referência. Um limite bem documentado não diz \"disponibilidade baixa na zona norte\" — diz \"menos de 14 motoristas ativos na zona norte entre 17h e 20h de segunda a sexta é nível de alerta; menos de 8 motoristas nesse mesmo período é nível crítico, que justifica ativar incentivos de realocação\". Essa especificidade permite ao agente comparar o estado atual com a referência daquela operação e gerar um diagnóstico acionável em vez de um dado neutro que o coordenador precisa interpretar sem contexto."
       }
     },
     {
@@ -147,21 +177,24 @@
       "id": "incidencias-resoluciones-memoria-operativa",
       "text": {
         "es": "Incidencias y resoluciones: la memoria que elimina el diagnóstico desde cero",
-        "en": "Incidents and resolutions: the memory that eliminates starting diagnosis from scratch"
+        "en": "Incidents and resolutions: the memory that eliminates starting diagnosis from scratch",
+        "pt": "Incidentes e resoluções: a memória que elimina o diagnóstico do zero"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "La sección de incidencias y resoluciones es donde más varía la calidad entre archivos que producen diagnósticos útiles y archivos que existen sin producir diferencia. La distinción entre una entrada útil y una de relleno es concreta: una entrada útil describe la situación con sus parámetros específicos, la decisión que tomó el coordinador, el resultado observable en los treinta minutos siguientes y el contexto que explica por qué esa decisión funcionó. Una entrada de relleno dice «zona norte sin cobertura, se activó incentivo, se resolvió» — eso no tiene nada que el agente no pudiera inferir. Lo que convierte la entrada en útil es el detalle que no está en los datos: que en ese caso específico la zona sur también estaba baja y mover conductores desde allí no era viable, que la resolución correcta fue el incentivo de punto fijo en lugar del de zona general.",
-        "en": "The incidents and resolutions section is where quality varies most sharply between files that produce useful diagnostics and files that exist without making a difference. The distinction between a useful entry and filler is concrete: a useful entry describes the situation with its specific parameters, the decision the coordinator made, the observable result in the following thirty minutes, and the context that explains why that decision worked. A filler entry says \"northern zone without coverage, incentive activated, resolved\" — there's nothing there the agent couldn't infer on its own. What makes an entry useful is the detail that isn't in the data: that in that specific case the southern zone was also low and pulling drivers from there wasn't viable, that the right resolution was a fixed-point incentive rather than a zone-wide one."
+        "en": "The incidents and resolutions section is where quality varies most sharply between files that produce useful diagnostics and files that exist without making a difference. The distinction between a useful entry and filler is concrete: a useful entry describes the situation with its specific parameters, the decision the coordinator made, the observable result in the following thirty minutes, and the context that explains why that decision worked. A filler entry says \"northern zone without coverage, incentive activated, resolved\" — there's nothing there the agent couldn't infer on its own. What makes an entry useful is the detail that isn't in the data: that in that specific case the southern zone was also low and pulling drivers from there wasn't viable, that the right resolution was a fixed-point incentive rather than a zone-wide one.",
+        "pt": "A seção de incidentes e resoluções é onde mais varia a qualidade entre arquivos que produzem diagnósticos úteis e arquivos que existem sem fazer diferença. A distinção entre um registro útil e um de enchimento é concreta: um registro útil descreve a situação com seus parâmetros específicos, a decisão que o coordenador tomou, o resultado observável nos trinta minutos seguintes e o contexto que explica por que aquela decisão funcionou. Um registro de enchimento diz \"zona norte sem cobertura, incentivo ativado, resolvido\" — isso não tem nada que o agente não pudesse inferir sozinho. O que transforma o registro em algo útil é o detalhe que não está nos dados: que, naquele caso específico, a zona sul também estava baixa e mover motoristas de lá não era viável, que a resolução correta foi o incentivo de ponto fixo em vez do de zona geral."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "El formato concreto para una entrada de incidencia bien documentada tiene cuatro campos. Situación: qué pasaba al momento de la incidencia, con los números específicos de cobertura, cancelaciones pendientes y solicitudes sin asignar. Contexto: qué era inusual o explicativo — un evento cercano, fin del turno escolar, lluvia, día de quincena. Acción: la decisión tomada con sus parámetros exactos — cuántos conductores, hacia qué zona, qué tipo de incentivo, en qué ventana de tiempo. Resultado: qué cambió en los quince o treinta minutos siguientes. Cuando el agente tiene veinte o treinta entradas en ese formato, el tiempo de diagnóstico en incidencias recurrentes cae de diez o quince minutos a dos o tres porque el agente puede identificar el patrón y recuperar la resolución en lugar de construir un diagnóstico desde cero.",
-        "en": "The concrete format for a well-documented incident entry has four fields: Situation (what the operation looked like at the moment of the incident, with specific numbers for coverage, pending cancellations, and unassigned requests); Context (what was unusual or explanatory — a nearby event, end of school shift, rain, payday week); Action (the specific decision taken with its exact parameters — how many drivers, toward which zone, what type of incentive, in what time window); Result (what changed in the following fifteen to thirty minutes). When the agent has twenty to thirty entries in this format, incident diagnostic time drops from ten or fifteen minutes to two or three, because the agent can identify the pattern and retrieve the documented resolution instead of building a new diagnosis from scratch."
+        "en": "The concrete format for a well-documented incident entry has four fields: Situation (what the operation looked like at the moment of the incident, with specific numbers for coverage, pending cancellations, and unassigned requests); Context (what was unusual or explanatory — a nearby event, end of school shift, rain, payday week); Action (the specific decision taken with its exact parameters — how many drivers, toward which zone, what type of incentive, in what time window); Result (what changed in the following fifteen to thirty minutes). When the agent has twenty to thirty entries in this format, incident diagnostic time drops from ten or fifteen minutes to two or three, because the agent can identify the pattern and retrieve the documented resolution instead of building a new diagnosis from scratch.",
+        "pt": "O formato concreto para um registro de incidente bem documentado tem quatro campos. Situação: o que estava acontecendo no momento do incidente, com os números específicos de cobertura, cancelamentos pendentes e solicitações sem atribuição. Contexto: o que era incomum ou explicativo — um evento próximo, fim do turno escolar, chuva, dia de pagamento. Ação: a decisão tomada com seus parâmetros exatos — quantos motoristas, para qual zona, que tipo de incentivo, em qual janela de tempo. Resultado: o que mudou nos quinze ou trinta minutos seguintes. Quando o agente tem vinte ou trinta registros nesse formato, o tempo de diagnóstico em incidentes recorrentes cai de dez ou quinze minutos para dois ou três, porque o agente consegue identificar o padrão e recuperar a resolução em vez de construir um diagnóstico do zero."
       }
     },
     {
@@ -170,32 +203,37 @@
       "id": "primera-version-dos-horas",
       "text": {
         "es": "La primera versión en dos horas: qué incluir y qué dejar para después",
-        "en": "The first version in two hours: what to include and what to defer"
+        "en": "The first version in two hours: what to include and what to defer",
+        "pt": "A primeira versão em duas horas: o que incluir e o que deixar para depois"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "El error más común al construir el archivo de contexto por primera vez es intentar documentar todo antes de empezar a usarlo. Un archivo que intenta cubrir todos los escenarios posibles en la primera sesión lleva días de trabajo y termina lleno de hipótesis sobre situaciones que no han ocurrido — que el agente puede inferir de los datos con casi la misma precisión. Lo que no puede inferir porque requiere conocimiento local son tres cosas: los nombres internos de las zonas y su correspondencia con los identificadores del sistema, los umbrales de las tres o cuatro zonas principales en las franjas horarias de mayor demanda, y las dos o tres incidencias recurrentes más costosas con sus resoluciones documentadas.",
-        "en": "The most common mistake when building the context file for the first time is trying to document everything before using it. A file that attempts to cover every possible scenario in the first session takes days to build and ends up full of hypotheses about situations that haven't happened yet — which the agent can infer from the data with nearly the same precision. What it can't infer because it requires local knowledge are three specific things: the internal zone names and their correspondence to system identifiers, the thresholds for the three or four main zones during peak demand hours, and the two or three most costly recurring incidents with their documented resolutions."
+        "en": "The most common mistake when building the context file for the first time is trying to document everything before using it. A file that attempts to cover every possible scenario in the first session takes days to build and ends up full of hypotheses about situations that haven't happened yet — which the agent can infer from the data with nearly the same precision. What it can't infer because it requires local knowledge are three specific things: the internal zone names and their correspondence to system identifiers, the thresholds for the three or four main zones during peak demand hours, and the two or three most costly recurring incidents with their documented resolutions.",
+        "pt": "O erro mais comum ao construir o arquivo de contexto pela primeira vez é tentar documentar tudo antes de começar a usá-lo. Um arquivo que tenta cobrir todos os cenários possíveis na primeira sessão leva dias de trabalho e acaba cheio de hipóteses sobre situações que ainda não aconteceram — que o agente consegue inferir dos dados com quase a mesma precisão. O que ele não consegue inferir, por exigir conhecimento local, são três coisas: os nomes internos das zonas e a correspondência deles com os identificadores do sistema, os limites das três ou quatro zonas principais nas faixas horárias de maior demanda, e os dois ou três incidentes recorrentes mais custosos com suas resoluções documentadas."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "Una primera versión funcional puede construirse en dos horas usando el propio agente como par de trabajo. El proceso concreto: exportar la lista de zonas del panel, pedirle al agente que tome esa lista como base y formule las preguntas de umbral que necesita que el operador responda (esto toma entre veinte y treinta minutos), luego documentar las dos o tres incidencias más recurrentes con el formato de cuatro campos (cuarenta a sesenta minutos). Lo que queda fuera de esa primera sesión — patrones estacionales, conductores individuales, eventos locales — se añade en sesiones cortas después de turnos donde ocurrieron incidencias relevantes. El archivo crece con el uso, no en una sesión de diseño inicial, y cada incidencia documentada en tiempo real produce una entrada más precisa que las que se reconstruyen de memoria semanas después.",
-        "en": "A working first version can be built in two hours using the agent itself as a working partner. The concrete process: export the zone list from the panel, ask the agent to use that list as a starting point and formulate the threshold questions it needs the operator to answer (this takes twenty to thirty minutes), then document the two or three most recurring incidents using the four-field format (forty to sixty minutes). What stays out of that first session — seasonal patterns, individual drivers, local events — gets added in short sessions after shifts where relevant incidents occurred. The file grows through use, not in a one-time design session, and each incident documented in real time produces a more precise entry than one reconstructed from memory weeks later."
+        "en": "A working first version can be built in two hours using the agent itself as a working partner. The concrete process: export the zone list from the panel, ask the agent to use that list as a starting point and formulate the threshold questions it needs the operator to answer (this takes twenty to thirty minutes), then document the two or three most recurring incidents using the four-field format (forty to sixty minutes). What stays out of that first session — seasonal patterns, individual drivers, local events — gets added in short sessions after shifts where relevant incidents occurred. The file grows through use, not in a one-time design session, and each incident documented in real time produces a more precise entry than one reconstructed from memory weeks later.",
+        "pt": "Uma primeira versão funcional pode ser construída em duas horas usando o próprio agente como parceiro de trabalho. O processo concreto: exportar a lista de zonas do painel, pedir ao agente que use essa lista como base e formule as perguntas de limite que precisa que o operador responda (isso leva entre vinte e trinta minutos), depois documentar os dois ou três incidentes mais recorrentes com o formato de quatro campos (quarenta a sessenta minutos). O que fica fora dessa primeira sessão — padrões sazonais, motoristas individuais, eventos locais — é adicionado em sessões curtas depois de turnos em que ocorreram incidentes relevantes. O arquivo cresce com o uso, não em uma sessão de design inicial, e cada incidente documentado em tempo real produz um registro mais preciso do que os reconstruídos de memória semanas depois."
       }
     },
     {
       "type": "quote",
       "text": {
         "es": "Yo esperaba que construir el archivo de contexto fuera un trabajo de varios días. Lo que no esperaba era poder usar el propio agente para que me guiara en construirlo. Le pasé la lista de zonas del panel y le pregunté qué necesitaba saber de cada una para darme diagnósticos específicos. Las preguntas que formuló me tomaron treinta minutos en responder y ya tenía la primera versión de los umbrales.",
-        "en": "I expected building the context file to take several days. What I didn't expect was being able to use the agent itself to guide me through building it. I gave it the zone list from the panel and asked what it needed to know about each zone to give me specific diagnostics. The questions it came back with took me thirty minutes to answer, and I had a first version of the thresholds."
+        "en": "I expected building the context file to take several days. What I didn't expect was being able to use the agent itself to guide me through building it. I gave it the zone list from the panel and asked what it needed to know about each zone to give me specific diagnostics. The questions it came back with took me thirty minutes to answer, and I had a first version of the thresholds.",
+        "pt": "Eu esperava que construir o arquivo de contexto fosse um trabalho de vários dias. O que eu não esperava era poder usar o próprio agente para me guiar na construção dele. Passei a lista de zonas do painel e perguntei o que ele precisava saber de cada uma para me dar diagnósticos específicos. As perguntas que ele formulou levaram trinta minutos para eu responder, e já tinha a primeira versão dos limites."
       },
       "attribution": {
         "es": "Operador con 85 conductores activos en dos ciudades del bajío mexicano",
-        "en": "Operator with 85 active drivers across two cities in central Mexico"
+        "en": "Operator with 85 active drivers across two cities in central Mexico",
+        "pt": "Operador com 85 motoristas ativos em duas cidades da região do Bajío, no México"
       }
     },
     {
@@ -204,61 +242,71 @@
       "id": "tres-patrones-archivo-presente-pero-vacio",
       "text": {
         "es": "Los tres patrones que hacen un archivo técnicamente presente pero operativamente vacío",
-        "en": "The three patterns that make a file technically present but operationally empty"
+        "en": "The three patterns that make a file technically present but operationally empty",
+        "pt": "Os três padrões que tornam um arquivo tecnicamente presente, mas operacionalmente vazio"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "El primer patrón que elimina la utilidad del archivo es la ausencia de números específicos. Describir que «la zona norte tiene disponibilidad baja en horas pico» no aporta nada que el agente no pueda inferir de los datos en tiempo real. Lo que añade valor es el umbral: cuántos conductores exactamente es «bajo» en esa zona en ese horario, para ese operador en esa ciudad. Sin ese número el agente no puede comparar el estado actual con la referencia específica de la operación y produce la misma respuesta que daría sin el archivo: correcta pero genérica, útil para confirmar el estado pero no para diagnosticar si ese estado requiere acción.",
-        "en": "The first pattern that eliminates the file's usefulness is the absence of specific numbers. Noting that \"the northern zone has low availability during peak hours\" adds nothing the agent can't already infer from real-time data. What adds value is the threshold: exactly how many drivers is \"low\" in that zone at that hour, for that operator in that city. Without the number, the agent can't compare current state against the operation's specific reference and produces the same response it would give without the file: technically correct, useful for confirming status, but not for diagnosing whether that status requires action."
+        "en": "The first pattern that eliminates the file's usefulness is the absence of specific numbers. Noting that \"the northern zone has low availability during peak hours\" adds nothing the agent can't already infer from real-time data. What adds value is the threshold: exactly how many drivers is \"low\" in that zone at that hour, for that operator in that city. Without the number, the agent can't compare current state against the operation's specific reference and produces the same response it would give without the file: technically correct, useful for confirming status, but not for diagnosing whether that status requires action.",
+        "pt": "O primeiro padrão que elimina a utilidade do arquivo é a ausência de números específicos. Descrever que \"a zona norte tem disponibilidade baixa nos horários de pico\" não acrescenta nada que o agente não consiga inferir dos dados em tempo real. O que agrega valor é o limite: quantos motoristas exatamente é \"baixo\" naquela zona, naquele horário, para aquele operador naquela cidade. Sem esse número, o agente não consegue comparar o estado atual com a referência específica da operação e produz a mesma resposta que daria sem o arquivo: correta, mas genérica, útil para confirmar o estado, mas não para diagnosticar se esse estado exige ação."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "El segundo patrón es documentar solo el estado de la operación sin resoluciones de incidencias pasadas. Un archivo lleno de descripciones de zonas y patrones es útil para responder preguntas de estado — cómo está la cobertura, cuántos conductores están activos, qué zonas tienen más cancelaciones — pero no para reducir el tiempo de diagnóstico en los momentos críticos del turno, que es exactamente donde el agente produce más valor con el contexto correcto. El tercer patrón es usar en el archivo nombres que no coinciden con los identificadores del sistema: si el archivo dice «zona industrial» y la plataforma registra la zona como «Zona_Norte_03», el agente gasta parte de su contexto en resolver la ambigüedad antes de llegar a la respuesta — ese costo de desambiguación se repite con cada consulta y degrada la especificidad de cada diagnóstico.",
-        "en": "The second pattern is documenting only operational state without past incident resolutions. A file full of zone descriptions and operational patterns is useful for answering status questions — how coverage looks, how many drivers are active, which zones have the most cancellations — but not for reducing diagnostic time during the critical moments of a shift, which is exactly where the agent produces the most value when it has the right context. The third pattern is using names in the file that don't match system identifiers: if the file says \"industrial zone\" and the platform records it as \"Zone_North_03,\" the agent spends part of its context window resolving the ambiguity before arriving at the response — that disambiguation cost repeats with every query and degrades the specificity of each diagnostic."
+        "en": "The second pattern is documenting only operational state without past incident resolutions. A file full of zone descriptions and operational patterns is useful for answering status questions — how coverage looks, how many drivers are active, which zones have the most cancellations — but not for reducing diagnostic time during the critical moments of a shift, which is exactly where the agent produces the most value when it has the right context. The third pattern is using names in the file that don't match system identifiers: if the file says \"industrial zone\" and the platform records it as \"Zone_North_03,\" the agent spends part of its context window resolving the ambiguity before arriving at the response — that disambiguation cost repeats with every query and degrades the specificity of each diagnostic.",
+        "pt": "O segundo padrão é documentar apenas o estado da operação sem as resoluções de incidentes passados. Um arquivo cheio de descrições de zonas e padrões é útil para responder perguntas de estado — como está a cobertura, quantos motoristas estão ativos, quais zonas têm mais cancelamentos — mas não para reduzir o tempo de diagnóstico nos momentos críticos do turno, que é exatamente onde o agente produz mais valor com o contexto correto. O terceiro padrão é usar no arquivo nomes que não coincidem com os identificadores do sistema: se o arquivo diz \"zona industrial\" e a plataforma registra a zona como \"Zona_Norte_03\", o agente gasta parte do seu contexto resolvendo a ambiguidade antes de chegar à resposta — esse custo de desambiguação se repete a cada consulta e degrada a especificidade de cada diagnóstico."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "El archivo de contexto del operador no es un documento de incorporación que se construye una vez al instalar el skill — es un registro operativo que crece con cada turno donde ocurre algo que vale documentar. Cada incidencia registrada con su resolución, cada umbral ajustado a la temporada actual, cada patrón estacional documentado antes de que llegue, es contexto que el agente puede usar en la próxima consulta para producir un diagnóstico más específico que el anterior. Ese crecimiento por acumulación no se puede replicar sin el tiempo de operación: es el único insumo que ninguna configuración genérica de la plataforma puede proveer en el momento de instalar el skill.",
-        "en": "The operator context file isn't an onboarding document built once at skill installation and left untouched — it's an operational record that grows with every shift where something worth documenting happens. Each incident logged with its resolution, each threshold calibrated to the current season, each seasonal pattern recorded before it arrives, is context the agent can use in the next query to produce a more specific diagnostic than the previous one. That accumulation can't be replicated without the time investment: it's the one input no generic platform configuration can supply at installation time."
+        "en": "The operator context file isn't an onboarding document built once at skill installation and left untouched — it's an operational record that grows with every shift where something worth documenting happens. Each incident logged with its resolution, each threshold calibrated to the current season, each seasonal pattern recorded before it arrives, is context the agent can use in the next query to produce a more specific diagnostic than the previous one. That accumulation can't be replicated without the time investment: it's the one input no generic platform configuration can supply at installation time.",
+        "pt": "O arquivo de contexto do operador não é um documento de integração construído uma única vez na instalação do skill — é um registro operacional que cresce a cada turno em que acontece algo que vale a pena documentar. Cada incidente registrado com sua resolução, cada limite ajustado à temporada atual, cada padrão sazonal documentado antes de chegar, é contexto que o agente pode usar na próxima consulta para produzir um diagnóstico mais específico do que o anterior. Esse crescimento por acumulação não pode ser replicado sem o tempo de operação: é o único insumo que nenhuma configuração genérica da plataforma consegue fornecer no momento da instalação do skill."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "Los operadores que llegan a los seis meses con un archivo bien mantenido tienen algo que ninguna configuración de la plataforma puede entregar directamente: la inteligencia específica de su ciudad, sus zonas y su operación, acumulada turno a turno en un formato que el agente puede usar para responder preguntas que no tienen respuesta genérica. Esa especificidad es lo que hace que la misma pregunta sobre cobertura en zona norte produzca diagnósticos diferentes para operadores que usan la misma plataforma con los mismos datos en tiempo real. La diferencia no está en el skill — está en el contexto que cada operador construyó.",
-        "en": "Operators who reach six months with a well-maintained file have something no platform setting can directly deliver: the specific intelligence of their city, their zones, and their operation, accumulated shift by shift in a format the agent can use to answer questions that have no generic answer. That specificity is what makes the same coverage question in the northern zone produce different diagnostics for operators running the same platform with the same real-time data. The difference isn't in the skill — it's in the context each operator built."
+        "en": "Operators who reach six months with a well-maintained file have something no platform setting can directly deliver: the specific intelligence of their city, their zones, and their operation, accumulated shift by shift in a format the agent can use to answer questions that have no generic answer. That specificity is what makes the same coverage question in the northern zone produce different diagnostics for operators running the same platform with the same real-time data. The difference isn't in the skill — it's in the context each operator built.",
+        "pt": "Os operadores que chegam aos seis meses com um arquivo bem mantido têm algo que nenhuma configuração da plataforma consegue entregar diretamente: a inteligência específica da sua cidade, das suas zonas e da sua operação, acumulada turno a turno em um formato que o agente pode usar para responder perguntas que não têm resposta genérica. Essa especificidade é o que faz a mesma pergunta sobre cobertura na zona norte produzir diagnósticos diferentes para operadores que usam a mesma plataforma com os mesmos dados em tempo real. A diferença não está no skill — está no contexto que cada operador construiu."
       }
     }
   ],
   "cta": {
     "heading": {
       "es": "¿Listo para lanzar tu propia app de movilidad?",
-      "en": "Ready to launch your own mobility app?"
+      "en": "Ready to launch your own mobility app?",
+      "pt": "Pronto para lançar seu próprio app de mobilidade?"
     },
     "body": {
       "es": "Configura tu marca, tus tarifas y tus servicios en semanas, no en meses. Cabgo te entrega la plataforma; tú te quedas con la operación, los clientes y los ingresos.",
-      "en": "Set up your brand, pricing and services in weeks, not months. Cabgo ships the platform — you keep the operation, the customers and the revenue."
+      "en": "Set up your brand, pricing and services in weeks, not months. Cabgo ships the platform — you keep the operation, the customers and the revenue.",
+      "pt": "Configure sua marca, suas tarifas e seus serviços em semanas, não em meses. A Cabgo entrega a plataforma; você fica com a operação, os clientes e a receita."
     },
     "buttonLabel": {
       "es": "Comenzar con Cabgo",
-      "en": "Get started with Cabgo"
+      "en": "Get started with Cabgo",
+      "pt": "Começar com a Cabgo"
     },
     "buttonHref": "/empezar"
   },
   "seo": {
     "metaTitle": {
       "es": "Archivo de contexto del operador: guía completa | Cabgo",
-      "en": "Building an operator context file for your AI agent | Cabgo"
+      "en": "Building an operator context file for your AI agent | Cabgo",
+      "pt": "Arquivo de contexto do operador: guia completo | Cabgo"
     },
     "metaDescription": {
       "es": "Qué secciones necesita el archivo de contexto del operador para que el agente IA produzca diagnósticos específicos y no respuestas genéricas en tu operación.",
-      "en": "What sections the operator context file needs so the AI agent produces specific diagnostics instead of generic responses for your mobility operation."
+      "en": "What sections the operator context file needs so the AI agent produces specific diagnostics instead of generic responses for your mobility operation.",
+      "pt": "Quais seções o arquivo de contexto do operador precisa ter para o agente de IA gerar diagnósticos específicos, não respostas genéricas."
     }
   }
 }

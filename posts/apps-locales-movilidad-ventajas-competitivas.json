@@ -3,16 +3,19 @@
   "category": "market",
   "title": {
     "es": "Por qué los operadores locales de ride-hailing están ganando en 2026",
-    "en": "Why local ride-hailing operators are winning in 2026"
+    "en": "Why local ride-hailing operators are winning in 2026",
+    "pt": "Por que os operadores locais de transporte por aplicativo estão vencendo em 2026"
   },
   "excerpt": {
     "es": "El fin del subsidio masivo cambió la ecuación de precios en LATAM. Lo que era debilidad del operador local — escala reducida, efectivo, foco en una ciudad — hoy resulta ventaja competitiva.",
-    "en": "The end of mass subsidy pricing changed the competitive equation in LATAM. Traits once labeled as weaknesses — limited scale, cash payments, local focus — are turning into real advantages."
+    "en": "The end of mass subsidy pricing changed the competitive equation in LATAM. Traits once labeled as weaknesses — limited scale, cash payments, local focus — are turning into real advantages.",
+    "pt": "O fim do subsídio massivo mudou a equação de preços na LATAM. O que era fraqueza do operador local — escala reduzida, dinheiro, foco em uma cidade — hoje se revela vantagem competitiva."
   },
   "heroImage": "https://raw.githubusercontent.com/jonatanvazquez/cabgo-blog-content/main/images/apps-locales-movilidad-ventajas-competitivas.jpg",
   "heroImageAlt": {
     "es": "Ilustración isométrica de competencia en ride-hailing regional: balanza inclinada hacia un operador local con taxi de marca propia, monedas con porcentaje bajo de comisión y símbolo de pago en efectivo, frente a una torre de plataforma global con líneas de conexión delgadas a múltiples ciudades y una etiqueta de precio elevado en rojo",
-    "en": "Isometric illustration of regional ride-hailing competition: a scale tipping toward a local operator with branded taxi, low commission coin stack, and cash payment symbol, facing a global platform tower with thin connection lines to multiple cities and a red elevated fare label"
+    "en": "Isometric illustration of regional ride-hailing competition: a scale tipping toward a local operator with branded taxi, low commission coin stack, and cash payment symbol, facing a global platform tower with thin connection lines to multiple cities and a red elevated fare label",
+    "pt": "Ilustração isométrica de concorrência em transporte por aplicativo regional: balança inclinada para um operador local com táxi de marca própria, moedas com percentual baixo de comissão e símbolo de pagamento em dinheiro, diante de uma torre de plataforma global com linhas de conexão finas para múltiplas cidades e uma etiqueta de preço elevado em vermelho"
   },
   "heroImagePrompt": "Split isometric scene showing competitive dynamics in regional ride-hailing: on the left, a small local city block with a branded taxi car bearing a regional emblem, a handshake icon representing community trust, a coin stack labeled with a low commission percentage in teal, and a hand holding cash beside a small mobile screen. On the right, a tall global platform tower with satellite dishes and thin lines connecting to multiple faded city markers on a world map, with a red elevated price tag floating beside it. In the center, a balance scale with its tray tipping noticeably toward the local operator side, highlighted in teal. The lower background shows a compact mid-size LATAM city street with a mix of building types indicating an informal economy. Overall mood is equilibrium shifting, with the local side gaining weight.",
   "publishedAt": "2026-05-19",
@@ -35,38 +38,53 @@
       "municipal transport regulation LATAM",
       "ride-hailing competition secondary markets Mexico",
       "end of Uber Didi subsidies local operators"
+    ],
+    "pt": [
+      "operadores locais transporte por aplicativo vantagens 2026",
+      "apps mobilidade local vs Uber LATAM",
+      "comissão motoristas plataforma táxi regional",
+      "pagamento em dinheiro transporte por aplicativo cidades médias",
+      "regulação municipal transporte passageiros LATAM",
+      "concorrência transporte por aplicativo mercados secundários México",
+      "fim subsídio Uber DiDi operadores locais"
     ]
   },
   "author": {
     "name": "Equipo Cabgo",
     "role": {
       "es": "Plataforma de movilidad",
-      "en": "Mobility platform"
+      "en": "Mobility platform",
+      "pt": "Plataforma de mobilidade"
     }
   },
   "cta": {
     "heading": {
       "es": "¿Listo para lanzar tu propia app de movilidad?",
-      "en": "Ready to launch your own mobility app?"
+      "en": "Ready to launch your own mobility app?",
+      "pt": "Pronto para lançar o seu próprio app de mobilidade?"
     },
     "body": {
       "es": "Configura tu marca, tus tarifas y tus servicios en semanas, no en meses. Cabgo te entrega la plataforma, tú te quedas con la operación y la marca.",
-      "en": "Set up your brand, pricing and services in weeks, not months. Cabgo ships the platform — you keep the operation and the brand."
+      "en": "Set up your brand, pricing and services in weeks, not months. Cabgo ships the platform — you keep the operation and the brand.",
+      "pt": "Configure a sua marca, as suas tarifas e os seus serviços em semanas, não em meses. A Cabgo entrega a plataforma, você fica com a operação e a marca."
     },
     "buttonLabel": {
       "es": "Empezar ahora",
-      "en": "Get started"
+      "en": "Get started",
+      "pt": "Começar agora"
     },
     "buttonHref": "/empezar"
   },
   "seo": {
     "metaTitle": {
       "es": "Operadores locales de movilidad: ventajas en 2026 | Cabgo",
-      "en": "Why local ride-hailing operators win in 2026 | Cabgo"
+      "en": "Why local ride-hailing operators win in 2026 | Cabgo",
+      "pt": "Operadores locais de mobilidade: vantagens em 2026 | Cabgo"
     },
     "metaDescription": {
       "es": "Cómo el fin del subsidio y la estructura de comisiones cambiaron la competencia en ride-hailing regional LATAM a favor de los operadores locales en 2026.",
-      "en": "How the end of subsidy pricing and commission structures shifted the competitive balance in LATAM ride-hailing toward local operators in 2026."
+      "en": "How the end of subsidy pricing and commission structures shifted the competitive balance in LATAM ride-hailing toward local operators in 2026.",
+      "pt": "Como o fim do subsídio e a estrutura de comissões mudaram a concorrência no transporte por aplicativo regional da LATAM a favor dos operadores locais em 2026."
     }
   },
   "blocks": [
@@ -74,14 +92,16 @@
       "type": "paragraph",
       "text": {
         "es": "En 2026, la competencia entre operadores locales de ride-hailing y las plataformas globales en LATAM no está funcionando como la mayoría de los análisis de 2021 predijeron. Las narrativas dominantes de ese momento asumían que Uber y Didi consolidarían su posición en ciudades medianas a medida que bajaban los costos de adquisición de pasajeros y perfeccionaban sus algoritmos de dispatch. Lo que ocurrió fue diferente: el fin del modelo de subsidio masivo cambió la ecuación de precios, y varios de los factores que se señalaban como debilidades estructurales de los operadores locales — escala reducida, dependencia del efectivo, foco en una sola ciudad — resultaron ser ventajas competitivas reales en contextos específicos que esos análisis no pesaban correctamente.",
-        "en": "In 2026, the competition between local ride-hailing operators and global platforms in LATAM is not playing out the way most 2021 analyses predicted. The dominant narratives of that moment assumed Uber and Didi would consolidate their position in mid-size cities as passenger acquisition costs fell and their dispatch algorithms improved. What happened instead was different: the end of the mass subsidy model changed the pricing equation, and several factors labeled as structural weaknesses of local operators — limited scale, cash dependence, single-city focus — turned out to be real competitive advantages in specific contexts those analyses didn't weight correctly."
+        "en": "In 2026, the competition between local ride-hailing operators and global platforms in LATAM is not playing out the way most 2021 analyses predicted. The dominant narratives of that moment assumed Uber and Didi would consolidate their position in mid-size cities as passenger acquisition costs fell and their dispatch algorithms improved. What happened instead was different: the end of the mass subsidy model changed the pricing equation, and several factors labeled as structural weaknesses of local operators — limited scale, cash dependence, single-city focus — turned out to be real competitive advantages in specific contexts those analyses didn't weight correctly.",
+        "pt": "Em 2026, a concorrência entre operadores locais de transporte por aplicativo e as plataformas globais na LATAM não está se desenrolando como a maioria das análises de 2021 previa. As narrativas dominantes daquele momento presumiam que Uber e DiDi consolidariam a sua posição em cidades médias à medida que baixavam os custos de aquisição de passageiros e aperfeiçoavam os seus algoritmos de despacho. O que aconteceu foi diferente: o fim do modelo de subsídio massivo mudou a equação de preços, e vários dos fatores apontados como fraquezas estruturais dos operadores locais — escala reduzida, dependência do dinheiro, foco em uma única cidade — se revelaram vantagens competitivas reais em contextos específicos que essas análises não pesavam corretamente."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "Este artículo es para operadores que ya tienen una operación activa en una o dos ciudades medianas de LATAM y que quieren entender cuáles de sus características actuales son ventajas reales en el nuevo entorno competitivo. El argumento no es que los operadores locales son inherentemente superiores a las plataformas globales — es que hay segmentos de mercado, tipos de pasajero y condiciones de ciudad donde las características de un operador local producen mejores resultados operativos que los que las grandes plataformas pueden replicar con su modelo actual. Saber cuáles son esas ventajas y cómo activarlas de forma deliberada marca la diferencia entre un operador que gana cuota de mercado y uno que sobrevive sin crecer.",
-        "en": "This article is for operators who already have an active operation in one or two mid-size LATAM cities and want to understand which of their current characteristics are real advantages in the new competitive environment. The argument is not that local operators are inherently superior to global platforms — it is that there are market segments, passenger types, and city conditions where the characteristics of a local operator produce better operational results than what large platforms can replicate with their current model. Knowing which those advantages are, and how to activate them deliberately, is what separates an operator gaining market share from one surviving without growing."
+        "en": "This article is for operators who already have an active operation in one or two mid-size LATAM cities and want to understand which of their current characteristics are real advantages in the new competitive environment. The argument is not that local operators are inherently superior to global platforms — it is that there are market segments, passenger types, and city conditions where the characteristics of a local operator produce better operational results than what large platforms can replicate with their current model. Knowing which those advantages are, and how to activate them deliberately, is what separates an operator gaining market share from one surviving without growing.",
+        "pt": "Este artigo é para operadores que já têm uma operação ativa em uma ou duas cidades médias da LATAM e que querem entender quais das suas características atuais são vantagens reais no novo ambiente competitivo. O argumento não é que os operadores locais são inerentemente superiores às plataformas globais — é que há segmentos de mercado, tipos de passageiro e condições de cidade onde as características de um operador local produzem melhores resultados operacionais do que os que as grandes plataformas conseguem replicar com o seu modelo atual. Saber quais são essas vantagens e como ativá-las de forma deliberada faz a diferença entre um operador que ganha participação de mercado e um que sobrevive sem crescer."
       }
     },
     {
@@ -90,21 +110,24 @@
       "id": "precio-ya-no-favorece-grandes",
       "text": {
         "es": "El precio del viaje ya no favorece automáticamente a las grandes",
-        "en": "Trip fares no longer automatically favor the large platforms"
+        "en": "Trip fares no longer automatically favor the large platforms",
+        "pt": "O preço da corrida já não favorece automaticamente as grandes"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "Entre 2020 y 2023, las plataformas globales podían ofrecer tarifas por debajo del costo marginal en ciudades donde querían ganar participación de mercado, absorbiendo el diferencial con capital de inversión. Esa estrategia dependía de dos condiciones que se han debilitado significativamente: acceso a capital con bajo costo y tolerancia de los inversores a pérdidas operativas sostenidas en mercados en desarrollo. Con ambas condiciones más restrictivas en 2025-2026, las tarifas de las plataformas globales en ciudades medianas de LATAM han convergido hacia niveles donde el operador local con una estructura de costos eficiente compite en precio de forma directa. El pasajero que antes elegía Uber porque era significativamente más barato ahora compara pantallas con tarifas similares — y en esa comparación entran en juego otros atributos.",
-        "en": "Between 2020 and 2023, global platforms could offer fares below marginal cost in cities where they wanted to gain market share, absorbing the difference with investment capital. That strategy depended on two conditions that have significantly weakened: access to low-cost capital and investor tolerance for sustained operating losses in developing markets. With both conditions more restrictive in 2025-2026, global platform fares in mid-size LATAM cities have converged toward levels where a local operator with an efficient cost structure competes directly on price. The passenger who previously chose Uber because it was meaningfully cheaper now compares screens with similar fares — and in that comparison, other attributes start to matter."
+        "en": "Between 2020 and 2023, global platforms could offer fares below marginal cost in cities where they wanted to gain market share, absorbing the difference with investment capital. That strategy depended on two conditions that have significantly weakened: access to low-cost capital and investor tolerance for sustained operating losses in developing markets. With both conditions more restrictive in 2025-2026, global platform fares in mid-size LATAM cities have converged toward levels where a local operator with an efficient cost structure competes directly on price. The passenger who previously chose Uber because it was meaningfully cheaper now compares screens with similar fares — and in that comparison, other attributes start to matter.",
+        "pt": "Entre 2020 e 2023, as plataformas globais podiam oferecer tarifas abaixo do custo marginal em cidades onde queriam ganhar participação de mercado, absorvendo a diferença com capital de investimento. Essa estratégia dependia de duas condições que se enfraqueceram significativamente: acesso a capital de baixo custo e tolerância dos investidores a prejuízos operacionais sustentados em mercados em desenvolvimento. Com ambas as condições mais restritivas em 2025-2026, as tarifas das plataformas globais em cidades médias da LATAM convergiram para níveis onde o operador local com uma estrutura de custos eficiente compete em preço de forma direta. O passageiro que antes escolhia a Uber porque era significativamente mais barata agora compara telas com tarifas parecidas — e nessa comparação entram em jogo outros atributos."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "El segundo efecto del fin del subsidio es menos visible pero más estructural: sin la ventaja de precio artificial, las plataformas globales compiten en atributos donde los operadores locales tienen ventajas propias — velocidad de asignación en ciudades donde conocen bien los patrones de demanda, disponibilidad de conductores en zonas que las grandes plataformas desatienden por rentabilidad marginal, y flexibilidad en métodos de pago que no requieren bancarización del pasajero. Esos atributos no son nuevos en 2026 — lo nuevo es que ahora importan más porque ya no se pueden igualar con un precio suficientemente bajo.",
-        "en": "The second effect of the end of subsidies is less visible but more structural: without the artificial price advantage, global platforms compete on attributes where local operators have their own strengths — assignment speed in cities where they know demand patterns well, driver availability in zones large platforms underserve for marginal profitability reasons, and payment flexibility that doesn't require passenger bank access. Those attributes are not new in 2026 — what is new is that they matter more now because they can no longer be equalized with a price that is low enough."
+        "en": "The second effect of the end of subsidies is less visible but more structural: without the artificial price advantage, global platforms compete on attributes where local operators have their own strengths — assignment speed in cities where they know demand patterns well, driver availability in zones large platforms underserve for marginal profitability reasons, and payment flexibility that doesn't require passenger bank access. Those attributes are not new in 2026 — what is new is that they matter more now because they can no longer be equalized with a price that is low enough.",
+        "pt": "O segundo efeito do fim do subsídio é menos visível, mas mais estrutural: sem a vantagem de preço artificial, as plataformas globais competem em atributos onde os operadores locais têm vantagens próprias — velocidade de atribuição em cidades onde conhecem bem os padrões de demanda, disponibilidade de motoristas em zonas que as grandes plataformas negligenciam por rentabilidade marginal, e flexibilidade em métodos de pagamento que não exigem bancarização do passageiro. Esses atributos não são novos em 2026 — o novo é que agora importam mais porque já não se podem igualar com um preço suficientemente baixo."
       }
     },
     {
@@ -113,21 +136,24 @@
       "id": "comision-ventaja-conductores",
       "text": {
         "es": "La tasa de comisión como ventaja para atraer y retener mejores conductores",
-        "en": "Commission rate as a driver attraction and retention advantage"
+        "en": "Commission rate as a driver attraction and retention advantage",
+        "pt": "A taxa de comissão como vantagem para atrair e reter melhores motoristas"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "La tasa de comisión que un operador cobra a sus conductores es el factor que más directamente determina quién conduce en su plataforma. Las plataformas globales operan con comisiones de entre el 25 y el 35% en la mayoría de los mercados de LATAM. Un operador local bien administrado puede operar con comisiones entre el 12 y el 18% — no porque tenga costos menores en tecnología, sino porque no carga la estructura de una empresa global con ingeniería centralizada, equipos de marketing para decenas de mercados y una estructura corporativa que solo produce retorno a escala que un mercado de 200 conductores no puede financiar. La diferencia entre el 15% y el 30% de comisión no es pequeña para un conductor que hace 40 viajes por semana: es la diferencia entre ingresos suficientes para quedarse en la plataforma y salir a buscar una alternativa mejor pagada.",
-        "en": "The commission rate an operator charges drivers is the factor that most directly determines who drives on their platform. Global platforms operate with commissions between 25 and 35% in most LATAM markets. A well-run local operator can operate with commissions between 12 and 18% — not because they have lower technology costs, but because they don't carry the cost structure of a global company with centralized engineering, marketing teams for dozens of markets, and corporate overhead that only produces returns at a scale that a 200-driver market cannot fund. The difference between 15% and 30% commission is not small for a driver who does 40 trips per week: it is the difference between income sufficient to stay on the platform and leaving to find a better-paying alternative."
+        "en": "The commission rate an operator charges drivers is the factor that most directly determines who drives on their platform. Global platforms operate with commissions between 25 and 35% in most LATAM markets. A well-run local operator can operate with commissions between 12 and 18% — not because they have lower technology costs, but because they don't carry the cost structure of a global company with centralized engineering, marketing teams for dozens of markets, and corporate overhead that only produces returns at a scale that a 200-driver market cannot fund. The difference between 15% and 30% commission is not small for a driver who does 40 trips per week: it is the difference between income sufficient to stay on the platform and leaving to find a better-paying alternative.",
+        "pt": "A taxa de comissão que um operador cobra dos seus motoristas é o fator que mais diretamente determina quem dirige na sua plataforma. As plataformas globais operam com comissões de 25 a 35% na maioria dos mercados da LATAM. Um operador local bem administrado pode operar com comissões entre 12 e 18% — não porque tenha custos menores em tecnologia, mas porque não carrega a estrutura de uma empresa global com engenharia centralizada, equipes de marketing para dezenas de mercados e uma estrutura corporativa que só produz retorno em uma escala que um mercado de 200 motoristas não consegue financiar. A diferença entre 15% e 30% de comissão não é pequena para um motorista que faz 40 corridas por semana: é a diferença entre ganho suficiente para ficar na plataforma e sair em busca de uma alternativa mais bem paga."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "El efecto compuesto es que los operadores locales con comisiones competitivas tienen conductores más motivados, más leales y con menor rotación. Un conductor que prefiere tu plataforma porque gana más por viaje es un conductor que atiende las solicitudes con mayor rapidez, mantiene su calificación más alta y no divide su tiempo entre cinco apps — lo que tiene un efecto directo en las métricas de disponibilidad que el pasajero experimenta. Esa ventaja de conductor no se puede replicar fácilmente desde una plataforma global que tiene restricciones estructurales en cuánto puede bajar su tasa de comisión sin afectar la viabilidad del negocio en el resto de los mercados donde opera.",
-        "en": "The compounding effect is that local operators with competitive commissions have more motivated, more loyal, and lower-turnover drivers. A driver who prefers your platform because they earn more per trip responds to requests more quickly, maintains a higher rating, and doesn't split their time across five apps — which has a direct effect on the availability metrics the passenger experiences. That driver advantage cannot be easily replicated from a global platform that has structural constraints on how far it can lower its commission rate without affecting business viability across the other markets where it operates."
+        "en": "The compounding effect is that local operators with competitive commissions have more motivated, more loyal, and lower-turnover drivers. A driver who prefers your platform because they earn more per trip responds to requests more quickly, maintains a higher rating, and doesn't split their time across five apps — which has a direct effect on the availability metrics the passenger experiences. That driver advantage cannot be easily replicated from a global platform that has structural constraints on how far it can lower its commission rate without affecting business viability across the other markets where it operates.",
+        "pt": "O efeito composto é que os operadores locais com comissões competitivas têm motoristas mais motivados, mais leais e com menor rotatividade. Um motorista que prefere a sua plataforma porque ganha mais por corrida é um motorista que atende às solicitações com mais rapidez, mantém a sua avaliação mais alta e não divide o seu tempo entre cinco apps — o que tem um efeito direto nas métricas de disponibilidade que o passageiro experimenta. Essa vantagem de motorista não se pode replicar facilmente a partir de uma plataforma global que tem restrições estruturais em quanto pode baixar a sua taxa de comissão sem afetar a viabilidade do negócio no restante dos mercados onde opera."
       }
     },
     {
@@ -136,21 +162,24 @@
       "id": "efectivo-como-canal",
       "text": {
         "es": "El pago en efectivo como canal de alcance, no como problema operativo",
-        "en": "Cash payment as a reach channel, not an operational problem"
+        "en": "Cash payment as a reach channel, not an operational problem",
+        "pt": "O pagamento em dinheiro como canal de alcance, não como problema operacional"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "La narrativa de los últimos años en fintech y movilidad trataba el pago en efectivo como un vestigio del pasado que desaparecería a medida que aumentara la bancarización. En 2026, esa narrativa choca con la realidad de LATAM: entre el 40 y el 60% de los adultos en economías como Guatemala, Honduras y sectores amplios de México y Colombia no tienen acceso regular a tarjeta de débito o crédito activa. Para ese segmento, una plataforma que solo acepta pagos digitales no es más moderna — es simplemente inaccesible. El operador local que mantiene el pago en efectivo como opción no está siendo conservador: está atendiendo a un segmento que las plataformas con restricciones de pago digital no pueden monetizar.",
-        "en": "The narrative of recent years in fintech and mobility treated cash payment as a remnant of the past that would disappear as banking access increased. In 2026, that narrative runs into the reality of LATAM: between 40 and 60% of adults in economies like Guatemala, Honduras, and significant portions of Mexico and Colombia don't have regular access to an active debit or credit card. For that segment, a platform that only accepts digital payments is not more modern — it is simply inaccessible. The local operator who maintains cash as a payment option is not being conservative: they are serving a segment that platforms with digital-payment restrictions cannot monetize."
+        "en": "The narrative of recent years in fintech and mobility treated cash payment as a remnant of the past that would disappear as banking access increased. In 2026, that narrative runs into the reality of LATAM: between 40 and 60% of adults in economies like Guatemala, Honduras, and significant portions of Mexico and Colombia don't have regular access to an active debit or credit card. For that segment, a platform that only accepts digital payments is not more modern — it is simply inaccessible. The local operator who maintains cash as a payment option is not being conservative: they are serving a segment that platforms with digital-payment restrictions cannot monetize.",
+        "pt": "A narrativa dos últimos anos em fintech e mobilidade tratava o pagamento em dinheiro como um vestígio do passado que desapareceria à medida que aumentasse a bancarização. Em 2026, essa narrativa esbarra na realidade da LATAM: entre 40 e 60% dos adultos em economias como Guatemala, Honduras e amplos setores do México e da Colômbia não têm acesso regular a cartão de débito ou crédito ativo. Para esse segmento, uma plataforma que só aceita pagamentos digitais não é mais moderna — é simplesmente inacessível. O operador local que mantém o pagamento em dinheiro como opção não está sendo conservador: está atendendo um segmento que as plataformas com restrições de pagamento digital não conseguem monetizar."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "El pago en efectivo tiene costos operativos reales — gestión del cobro entre pasajero y conductor, reconciliación al final del turno, riesgo de cobro incompleto. Pero también tiene un efecto de alcance que no aparece en los análisis de plataformas que operan con el supuesto de bancarización completa: en ciudades donde el efectivo es el método de pago predominante, el operador que lo acepta tiene acceso a un pool de pasajeros que sus competidores con pagos digitales obligatorios no pueden tocar. Ese diferencial de alcance no es una ventaja técnica — es una ventaja de mercado que se sostiene mientras la brecha de bancarización en LATAM se mantenga donde está.",
-        "en": "Cash payment has real operational costs — managing collection between passenger and driver, end-of-shift reconciliation, risk of incomplete collection. But it also has a reach effect that doesn't appear in analyses from platforms operating under the assumption of full banking access: in cities where cash is the predominant payment method, the operator that accepts it has access to a passenger pool that competitors with mandatory digital payments cannot reach. That reach differential is not a technical advantage — it is a market advantage that holds as long as the banking gap in LATAM stays where it is."
+        "en": "Cash payment has real operational costs — managing collection between passenger and driver, end-of-shift reconciliation, risk of incomplete collection. But it also has a reach effect that doesn't appear in analyses from platforms operating under the assumption of full banking access: in cities where cash is the predominant payment method, the operator that accepts it has access to a passenger pool that competitors with mandatory digital payments cannot reach. That reach differential is not a technical advantage — it is a market advantage that holds as long as the banking gap in LATAM stays where it is.",
+        "pt": "O pagamento em dinheiro tem custos operacionais reais — gestão do recebimento entre passageiro e motorista, reconciliação ao fim do turno, risco de recebimento incompleto. Mas também tem um efeito de alcance que não aparece nas análises de plataformas que operam com a premissa de bancarização completa: em cidades onde o dinheiro é o método de pagamento predominante, o operador que o aceita tem acesso a um pool de passageiros que os seus concorrentes com pagamentos digitais obrigatórios não conseguem alcançar. Esse diferencial de alcance não é uma vantagem técnica — é uma vantagem de mercado que se sustenta enquanto a lacuna de bancarização na LATAM se mantiver onde está."
       }
     },
     {
@@ -159,21 +188,24 @@
       "id": "regulacion-municipal-ventaja",
       "text": {
         "es": "La regulación municipal como muro de entrada que te protege",
-        "en": "Municipal regulation as an entry barrier that protects you"
+        "en": "Municipal regulation as an entry barrier that protects you",
+        "pt": "A regulação municipal como muro de entrada que te protege"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "El marco regulatorio del transporte de pasajeros en LATAM es esencialmente local. Cada municipio tiene condiciones distintas — requisitos de habilitación para conductores, restricciones de zona, acuerdos con gremios de taxistas, procedimientos para modificar tarifas. Para una plataforma global que opera con procesos jurídicos centralizados, adaptarse a 50 marcos regulatorios distintos en ciudades medianas de México o Colombia es un costo de estructura que reduce el retorno de operar en esos mercados. Para un operador local, la regulación municipal es territorio conocido: el que lleva tres años operando en Morelia o en Xalapa tiene una relación con la Dirección de Movilidad local, conoce los tiempos de renovación de permisos, y puede responder a un cambio regulatorio en días en lugar de semanas.",
-        "en": "The regulatory framework for passenger transport in LATAM is essentially local. Each municipality has different conditions — driver authorization requirements, zone restrictions, agreements with taxi guilds, procedures for modifying fares. For a global platform that operates with centralized legal processes, adapting to 50 different regulatory frameworks in mid-size cities of Mexico or Colombia is a structural cost that reduces the return from operating in those markets. For a local operator, municipal regulation is familiar territory: the operator who has been running in Morelia or Xalapa for three years has a relationship with the local Mobility Department, knows permit renewal timelines, and can respond to a regulatory change in days rather than weeks."
+        "en": "The regulatory framework for passenger transport in LATAM is essentially local. Each municipality has different conditions — driver authorization requirements, zone restrictions, agreements with taxi guilds, procedures for modifying fares. For a global platform that operates with centralized legal processes, adapting to 50 different regulatory frameworks in mid-size cities of Mexico or Colombia is a structural cost that reduces the return from operating in those markets. For a local operator, municipal regulation is familiar territory: the operator who has been running in Morelia or Xalapa for three years has a relationship with the local Mobility Department, knows permit renewal timelines, and can respond to a regulatory change in days rather than weeks.",
+        "pt": "O marco regulatório do transporte de passageiros na LATAM é essencialmente local. Cada município tem condições distintas — requisitos de habilitação para motoristas, restrições de zona, acordos com sindicatos de taxistas, procedimentos para alterar tarifas. Para uma plataforma global que opera com processos jurídicos centralizados, adaptar-se a 50 marcos regulatórios distintos em cidades médias do México ou da Colômbia é um custo de estrutura que reduz o retorno de operar nesses mercados. Para um operador local, a regulação municipal é território conhecido: quem há três anos opera em Morelia ou Xalapa tem um relacionamento com a Secretaria de Mobilidade local, conhece os prazos de renovação de licenças, e consegue responder a uma mudança regulatória em dias em vez de semanas."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "Ese conocimiento regulatorio tiene un efecto directo en la continuidad operativa. Un operador local que recibe una notificación de la autoridad municipal sobre un requisito nuevo tiene contexto para evaluar el riesgo real y los tiempos de implementación. Una plataforma global que recibe la misma notificación la procesa a través de un equipo legal regional que gestiona decenas de ciudades con prioridades distintas, con tiempos de respuesta que pueden ser de semanas mientras la operación se ajusta sin claridad jurídica. Para el pasajero, esa diferencia no es visible. Para el operador local que compite en esa ciudad, es la diferencia entre seguir operando con normalidad y enfrentar una suspensión preventiva mientras la plataforma global resuelve internamente.",
-        "en": "That regulatory knowledge has a direct effect on operational continuity. A local operator who receives a municipal authority notification about a new requirement has context to evaluate the real risk and implementation timeline. A global platform receiving the same notification routes it through a regional legal team managing dozens of cities with competing priorities, with response times that can stretch to weeks while the operation adjusts without legal clarity. For the passenger, that difference is invisible. For the local operator competing in that city, it is the difference between continuing to operate normally and facing a precautionary suspension while the global platform resolves the issue internally."
+        "en": "That regulatory knowledge has a direct effect on operational continuity. A local operator who receives a municipal authority notification about a new requirement has context to evaluate the real risk and implementation timeline. A global platform receiving the same notification routes it through a regional legal team managing dozens of cities with competing priorities, with response times that can stretch to weeks while the operation adjusts without legal clarity. For the passenger, that difference is invisible. For the local operator competing in that city, it is the difference between continuing to operate normally and facing a precautionary suspension while the global platform resolves the issue internally.",
+        "pt": "Esse conhecimento regulatório tem um efeito direto na continuidade operacional. Um operador local que recebe uma notificação da autoridade municipal sobre um novo requisito tem contexto para avaliar o risco real e os prazos de implementação. Uma plataforma global que recebe a mesma notificação a processa por meio de uma equipe jurídica regional que gere dezenas de cidades com prioridades distintas, com tempos de resposta que podem chegar a semanas enquanto a operação se ajusta sem clareza jurídica. Para o passageiro, essa diferença não é visível. Para o operador local que compete naquela cidade, é a diferença entre continuar operando normalmente e enfrentar uma suspensão preventiva enquanto a plataforma global resolve internamente."
       }
     },
     {
@@ -182,21 +214,24 @@
       "id": "confianza-local-adquisicion",
       "text": {
         "es": "La confianza local como canal de adquisición con costo prácticamente cero",
-        "en": "Local trust as a near-zero-cost acquisition channel"
+        "en": "Local trust as a near-zero-cost acquisition channel",
+        "pt": "A confiança local como canal de aquisição com custo praticamente zero"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "En ciudades medianas de LATAM, la recomendación directa entre personas — en grupos de WhatsApp de vecinos, en conversaciones en la escuela de los hijos, en el trabajo — es el canal de adquisición de pasajeros con mayor tasa de conversión y menor costo por usuario. Una persona que recibe la recomendación de alguien de confianza de que 'el taxi local es más confiable porque el dueño es de aquí' tiene una probabilidad de primera descarga significativamente más alta que alguien que ve un anuncio digital. El operador local que tiene esta reputación no puede comprarla con presupuesto de marketing — es el resultado de años de operación, conductores conocidos en el vecindario, y una identidad de marca que los residentes asocian con gente de su entorno.",
-        "en": "In mid-size LATAM cities, direct personal recommendation — in neighborhood WhatsApp groups, in conversations at school pickup, at work — is the passenger acquisition channel with the highest conversion rate and lowest cost per user. A person who receives a trusted recommendation that 'the local taxi is more reliable because the owner is from here' has a meaningfully higher first-download probability than someone who sees a digital ad. The local operator who has this reputation cannot buy it with a marketing budget — it is the result of years of operation, drivers known in the neighborhood, and a brand identity that residents associate with people from their community."
+        "en": "In mid-size LATAM cities, direct personal recommendation — in neighborhood WhatsApp groups, in conversations at school pickup, at work — is the passenger acquisition channel with the highest conversion rate and lowest cost per user. A person who receives a trusted recommendation that 'the local taxi is more reliable because the owner is from here' has a meaningfully higher first-download probability than someone who sees a digital ad. The local operator who has this reputation cannot buy it with a marketing budget — it is the result of years of operation, drivers known in the neighborhood, and a brand identity that residents associate with people from their community.",
+        "pt": "Em cidades médias da LATAM, a recomendação direta entre pessoas — em grupos de WhatsApp de vizinhos, em conversas na escola dos filhos, no trabalho — é o canal de aquisição de passageiros com a maior taxa de conversão e o menor custo por usuário. Uma pessoa que recebe a recomendação de alguém de confiança de que 'o táxi local é mais confiável porque o dono é daqui' tem uma probabilidade de primeiro download significativamente maior que alguém que vê um anúncio digital. O operador local que tem essa reputação não pode comprá-la com orçamento de marketing — é o resultado de anos de operação, motoristas conhecidos no bairro, e uma identidade de marca que os moradores associam a gente do seu convívio."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "La confianza local también afecta la retención. Un pasajero que usa el operador local no está evaluando en la misma sesión si se queda o se pasa a Uber — en muchos casos, la plataforma local es la app que tiene instalada porque se la recomendaron hace seis meses y nunca tuvo una razón para cambiarla. Esa lealtad no se construyó con puntos ni con beneficios — se construyó con consistencia de servicio en la ciudad donde ese pasajero vive. Para el operador local, mantener esa reputación es la estrategia de retención de menor costo y mayor impacto disponible, y es la única que una plataforma global no puede replicar con presupuesto.",
-        "en": "Local trust also affects retention. A passenger using the local operator is not evaluating in the same session whether to stay or switch to Uber — in many cases, the local platform is the app they have installed because a friend recommended it six months ago and they've never had a reason to change it. That loyalty was not built with points or perks — it was built with consistent service in the city where that passenger lives. For the local operator, maintaining that reputation is the lowest-cost, highest-impact retention strategy available, and the only one a global platform cannot replicate with budget."
+        "en": "Local trust also affects retention. A passenger using the local operator is not evaluating in the same session whether to stay or switch to Uber — in many cases, the local platform is the app they have installed because a friend recommended it six months ago and they've never had a reason to change it. That loyalty was not built with points or perks — it was built with consistent service in the city where that passenger lives. For the local operator, maintaining that reputation is the lowest-cost, highest-impact retention strategy available, and the only one a global platform cannot replicate with budget.",
+        "pt": "A confiança local também afeta a retenção. Um passageiro que usa o operador local não está avaliando na mesma sessão se fica ou muda para a Uber — em muitos casos, a plataforma local é o app que ele tem instalado porque alguém a recomendou há seis meses e ele nunca teve um motivo para trocá-la. Essa lealdade não foi construída com pontos nem com benefícios — foi construída com consistência de serviço na cidade onde esse passageiro mora. Para o operador local, manter essa reputação é a estratégia de retenção de menor custo e maior impacto disponível, e é a única que uma plataforma global não consegue replicar com orçamento."
       }
     },
     {
@@ -205,21 +240,24 @@
       "id": "lo-que-grandes-siguen-haciendo-mejor",
       "text": {
         "es": "Lo que las plataformas globales siguen haciendo mejor",
-        "en": "What global platforms still do better"
+        "en": "What global platforms still do better",
+        "pt": "O que as plataformas globais ainda fazem melhor"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "La honestidad analítica requiere nombrar lo que los operadores locales todavía no pueden replicar. Las plataformas globales tienen sistemas de mapas propietarios optimizados para minimizar el tiempo de asignación en alta demanda, infraestructura técnica que escala sin intervención humana cuando la demanda sube un 200% en un evento masivo, y modelos de detección de fraude que requieren millones de viajes para entrenarse correctamente. Un operador local con 200 conductores no tiene acceso a ese nivel de infraestructura, y pretender que esa diferencia no existe sería un error estratégico que lleva a competir en los frentes equivocados.",
-        "en": "Analytical honesty requires naming what local operators still cannot replicate. Global platforms have proprietary mapping systems optimized to minimize assignment time under high demand, technical infrastructure that scales without human intervention when demand spikes 200% at a large event, and fraud detection models that require millions of trips to train correctly. A local operator with 200 drivers doesn't have access to that level of infrastructure, and pretending that difference doesn't exist would be a strategic mistake that leads to competing on the wrong fronts."
+        "en": "Analytical honesty requires naming what local operators still cannot replicate. Global platforms have proprietary mapping systems optimized to minimize assignment time under high demand, technical infrastructure that scales without human intervention when demand spikes 200% at a large event, and fraud detection models that require millions of trips to train correctly. A local operator with 200 drivers doesn't have access to that level of infrastructure, and pretending that difference doesn't exist would be a strategic mistake that leads to competing on the wrong fronts.",
+        "pt": "A honestidade analítica exige nomear o que os operadores locais ainda não conseguem replicar. As plataformas globais têm sistemas de mapas proprietários otimizados para minimizar o tempo de atribuição em alta demanda, infraestrutura técnica que escala sem intervenção humana quando a demanda sobe 200% em um evento massivo, e modelos de detecção de fraude que exigem milhões de corridas para serem treinados corretamente. Um operador local com 200 motoristas não tem acesso a esse nível de infraestrutura, e fingir que essa diferença não existe seria um erro estratégico que leva a competir nas frentes erradas."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "La segunda área donde las plataformas globales mantienen una ventaja clara es el reconocimiento de marca entre pasajeros nuevos en la ciudad. Un turista o visitante que llega a una ciudad mediana de Oaxaca abre Uber porque es la app que conoce — no porque sea objetivamente mejor que el operador local en ese mercado. Para ese segmento — visitantes sin historial en la ciudad — el operador local parte desde cero en reconocimiento. El operador que entiende esta distinción puede concentrar su inversión de adquisición en el pasajero residente con potencial de uso frecuente, donde el retorno es más alto, en lugar de intentar competir en reconocimiento de marca contra un presupuesto global que no puede igualar.",
-        "en": "The second area where global platforms maintain a clear advantage is brand recognition among passengers new to the city. A tourist or visitor arriving in a mid-size city in Oaxaca opens Uber because it is the app they know — not because it is objectively better than the local operator in that market. For that segment — visitors with no history in the city — the local operator starts from zero on recognition. The operator who understands this distinction can focus acquisition investment on the frequent-use resident passenger, where return is highest, rather than trying to compete on brand recognition against a global budget they cannot match."
+        "en": "The second area where global platforms maintain a clear advantage is brand recognition among passengers new to the city. A tourist or visitor arriving in a mid-size city in Oaxaca opens Uber because it is the app they know — not because it is objectively better than the local operator in that market. For that segment — visitors with no history in the city — the local operator starts from zero on recognition. The operator who understands this distinction can focus acquisition investment on the frequent-use resident passenger, where return is highest, rather than trying to compete on brand recognition against a global budget they cannot match.",
+        "pt": "A segunda área onde as plataformas globais mantêm uma vantagem clara é o reconhecimento de marca entre passageiros novos na cidade. Um turista ou visitante que chega a uma cidade média de Oaxaca abre a Uber porque é o app que conhece — não porque seja objetivamente melhor que o operador local naquele mercado. Para esse segmento — visitantes sem histórico na cidade — o operador local parte do zero em reconhecimento. O operador que entende essa distinção pode concentrar o seu investimento de aquisição no passageiro residente com potencial de uso frequente, onde o retorno é mais alto, em vez de tentar competir em reconhecimento de marca contra um orçamento global que não consegue igualar."
       }
     },
     {
@@ -228,14 +266,16 @@
       "id": "convertir-ventajas-en-metricas",
       "text": {
         "es": "Cómo convertir las ventajas estructurales en resultados medibles",
-        "en": "How to convert structural advantages into measurable results"
+        "en": "How to convert structural advantages into measurable results",
+        "pt": "Como converter as vantagens estruturais em resultados mensuráveis"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "Reconocer las ventajas estructurales no produce resultados — actuar sobre ellas sí. El operador que tiene comisión competitiva pero no la comunica explícitamente en su proceso de reclutamiento de conductores no está aprovechando esa ventaja. El que acepta efectivo pero no lo menciona en sus materiales de adquisición de pasajeros no está convirtiendo esa flexibilidad en usuarios activos. Las ventajas estructurales son condiciones necesarias, no suficientes — requieren ser traducidas en mensajes concretos y en decisiones de inversión deliberadas.",
-        "en": "Recognizing structural advantages doesn't produce results — acting on them does. The operator who has a competitive commission but doesn't communicate it explicitly in the driver recruitment process is not leveraging that advantage. The one who accepts cash but doesn't mention it in passenger acquisition materials is not converting that flexibility into active users. Structural advantages are necessary conditions, not sufficient ones — they require translation into specific messages and deliberate investment decisions."
+        "en": "Recognizing structural advantages doesn't produce results — acting on them does. The operator who has a competitive commission but doesn't communicate it explicitly in the driver recruitment process is not leveraging that advantage. The one who accepts cash but doesn't mention it in passenger acquisition materials is not converting that flexibility into active users. Structural advantages are necessary conditions, not sufficient ones — they require translation into specific messages and deliberate investment decisions.",
+        "pt": "Reconhecer as vantagens estruturais não produz resultados — agir sobre elas sim. O operador que tem comissão competitiva mas não a comunica explicitamente no seu processo de recrutamento de motoristas não está aproveitando essa vantagem. O que aceita dinheiro mas não o menciona nos seus materiais de aquisição de passageiros não está convertendo essa flexibilidade em usuários ativos. As vantagens estruturais são condições necessárias, não suficientes — precisam ser traduzidas em mensagens concretas e em decisões de investimento deliberadas."
       }
     },
     {
@@ -243,7 +283,8 @@
       "style": "bullet",
       "intro": {
         "es": "Los tres indicadores que miden si el operador local está convirtiendo sus ventajas en resultados son:",
-        "en": "The three indicators that measure whether a local operator is converting advantages into results are:"
+        "en": "The three indicators that measure whether a local operator is converting advantages into results are:",
+        "pt": "Os três indicadores que medem se o operador local está convertendo as suas vantagens em resultados são:"
       },
       "items": {
         "es": [
@@ -255,6 +296,11 @@
           "90-day driver retention rate: an operator with competitive commissions should keep at least 70% of their drivers active in that period — lower retention means either the commission advantage isn't landing or operational friction is canceling it out",
           "Percentage of trips completed in cash: if it is below 20% in a low-banking market, the operator is not effectively capturing that segment — cash acceptance exists but acquisition channels are not reaching that audience",
           "Percentage of new users from direct recommendation: if the operator invests in digital advertising without measuring what fraction of new users arrived through word-of-mouth, they are underinvesting in the highest-return channel available to a local operator"
+        ],
+        "pt": [
+          "Retenção de motoristas em 90 dias: um operador com comissão competitiva deveria manter ativos ao menos 70% dos seus motoristas nesse período — uma retenção menor indica que a comissão baixa não é suficiente ou que há atritos operacionais que a anulam",
+          "Percentual de corridas concluídas em dinheiro: se está abaixo de 20% em um mercado com baixa bancarização, o operador não está capturando esse segmento efetivamente — a aceitação de dinheiro existe, mas os canais de aquisição não estão chegando a esse público",
+          "Percentual de novos usuários por canal de recomendação direta: se o operador investe em publicidade digital sem medir que fração de novos usuários chegou por boca a boca, está subinvestindo no canal de maior retorno disponível para um operador local"
         ]
       }
     },
@@ -262,25 +308,29 @@
       "type": "quote",
       "text": {
         "es": "Cuando Uber subió sus tarifas en nuestra ciudad en 2025, esperábamos que la mayoría de usuarios se quedara con ellos por la marca. Lo que vimos fue distinto: el 30% de los nuevos pasajeros que llegaron ese trimestre venían de Uber y nos dijeron que se quedaron porque los conductores conocían la colonia y porque podían pagar en efectivo. Nosotros no cambiamos nada — ellos cambiaron el precio, y eso hizo visible lo que nosotros teníamos y ellos no.",
-        "en": "When Uber raised its fares in our city in 2025, we expected most users to stay with them for the brand. What we saw was different: 30% of the new passengers who arrived that quarter came from Uber and told us they stayed because drivers knew the neighborhood and because they could pay in cash. We didn't change anything — they changed the price, and that made visible what we had that they didn't."
+        "en": "When Uber raised its fares in our city in 2025, we expected most users to stay with them for the brand. What we saw was different: 30% of the new passengers who arrived that quarter came from Uber and told us they stayed because drivers knew the neighborhood and because they could pay in cash. We didn't change anything — they changed the price, and that made visible what we had that they didn't.",
+        "pt": "Quando a Uber subiu as suas tarifas na nossa cidade em 2025, esperávamos que a maioria dos usuários ficasse com eles pela marca. O que vimos foi diferente: 30% dos novos passageiros que chegaram naquele trimestre vinham da Uber e nos disseram que ficaram porque os motoristas conheciam o bairro e porque podiam pagar em dinheiro. Nós não mudamos nada — eles mudaram o preço, e isso tornou visível o que nós tínhamos e eles não."
       },
       "attribution": {
         "es": "Operador con 210 conductores activos en una ciudad del Bajío con dos plataformas globales operando en paralelo",
-        "en": "Operator with 210 active drivers in a mid-size city in central Mexico with two global platforms operating simultaneously"
+        "en": "Operator with 210 active drivers in a mid-size city in central Mexico with two global platforms operating simultaneously",
+        "pt": "Operador com 210 motoristas ativos em uma cidade do Bajío com duas plataformas globais operando em paralelo"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "Las ventajas que describimos en este artículo — comisión competitiva, flexibilidad de pago en efectivo, conocimiento regulatorio local, confianza de pasajeros residentes — no son nuevas para los operadores locales. Lo que cambió en 2026 es el contexto competitivo que las hace más valiosas que antes. El fin del subsidio masivo eliminó la principal distorsión que hacía que esas ventajas fueran invisibles en la ecuación del pasajero. Ahora que las tarifas de las plataformas globales se acercaron a las de los operadores locales eficientes, el pasajero evalúa el resto de los atributos — y en esos atributos, el operador local parte desde una posición más sólida de lo que los análisis comparativos de escala sugerían.",
-        "en": "The advantages described in this article — competitive commissions, cash payment flexibility, local regulatory knowledge, resident passenger trust — are not new for local operators. What changed in 2026 is the competitive context that makes them more valuable than before. The end of mass subsidies eliminated the main distortion that made those advantages invisible in the passenger's decision equation. Now that global platform fares have converged toward those of efficient local operators, passengers evaluate the remaining attributes — and on those attributes, the local operator starts from a stronger position than comparative scale analyses suggested."
+        "en": "The advantages described in this article — competitive commissions, cash payment flexibility, local regulatory knowledge, resident passenger trust — are not new for local operators. What changed in 2026 is the competitive context that makes them more valuable than before. The end of mass subsidies eliminated the main distortion that made those advantages invisible in the passenger's decision equation. Now that global platform fares have converged toward those of efficient local operators, passengers evaluate the remaining attributes — and on those attributes, the local operator starts from a stronger position than comparative scale analyses suggested.",
+        "pt": "As vantagens que descrevemos neste artigo — comissão competitiva, flexibilidade de pagamento em dinheiro, conhecimento regulatório local, confiança de passageiros residentes — não são novas para os operadores locais. O que mudou em 2026 é o contexto competitivo que as torna mais valiosas do que antes. O fim do subsídio massivo eliminou a principal distorção que fazia com que essas vantagens fossem invisíveis na equação do passageiro. Agora que as tarifas das plataformas globais se aproximaram das dos operadores locais eficientes, o passageiro avalia o restante dos atributos — e nesses atributos, o operador local parte de uma posição mais sólida do que as análises comparativas de escala sugeriam."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "El trabajo del operador local que quiere capitalizar este momento no es copiar las características de las plataformas globales — es activar con claridad las ventajas que ya tiene. Eso significa comunicar la comisión competitiva en el reclutamiento de conductores, medir el canal de boca a boca con la misma rigurosidad que cualquier otro canal de adquisición, y tratar la regulación municipal no como un obstáculo a gestionar sino como un muro de entrada que te protege de la misma manera que te complica. Las plataformas globales tienen escala, capital y reconocimiento de marca. Los operadores locales tienen contexto, flexibilidad y confianza construida. En 2026, esos dos conjuntos de activos no están tan desequilibrados como parecían hace cinco años.",
-        "en": "The work for the local operator who wants to capitalize on this moment is not to copy global platform characteristics — it is to clearly activate the advantages they already have. That means communicating competitive commissions in driver recruitment, measuring the word-of-mouth channel with the same rigor as any other acquisition channel, and treating municipal regulation not as an obstacle to manage but as an entry barrier that protects you the same way it complicates things for you. Global platforms have scale, capital, and brand recognition. Local operators have context, flexibility, and built trust. In 2026, those two sets of assets are not as unbalanced as they appeared five years ago."
+        "en": "The work for the local operator who wants to capitalize on this moment is not to copy global platform characteristics — it is to clearly activate the advantages they already have. That means communicating competitive commissions in driver recruitment, measuring the word-of-mouth channel with the same rigor as any other acquisition channel, and treating municipal regulation not as an obstacle to manage but as an entry barrier that protects you the same way it complicates things for you. Global platforms have scale, capital, and brand recognition. Local operators have context, flexibility, and built trust. In 2026, those two sets of assets are not as unbalanced as they appeared five years ago.",
+        "pt": "O trabalho do operador local que quer capitalizar este momento não é copiar as características das plataformas globais — é ativar com clareza as vantagens que já tem. Isso significa comunicar a comissão competitiva no recrutamento de motoristas, medir o canal de boca a boca com o mesmo rigor que qualquer outro canal de aquisição, e tratar a regulação municipal não como um obstáculo a gerir, mas como um muro de entrada que te protege da mesma forma que te complica. As plataformas globais têm escala, capital e reconhecimento de marca. Os operadores locais têm contexto, flexibilidade e confiança construída. Em 2026, esses dois conjuntos de ativos não estão tão desequilibrados quanto pareciam há cinco anos."
       }
     }
   ]

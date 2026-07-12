@@ -3,16 +3,19 @@
   "category": "product",
   "title": {
     "es": "Facturación electrónica para contratos corporativos: lo que los operadores de ride-hailing configuran mal",
-    "en": "Electronic invoicing for corporate contracts: what ride-hailing operators get wrong"
+    "en": "Electronic invoicing for corporate contracts: what ride-hailing operators get wrong",
+    "pt": "Nota fiscal eletrônica para contratos corporativos: o que os operadores de ride-hailing configuram errado"
   },
   "excerpt": {
     "es": "La factura llega tarde, con el RFC incorrecto o sin el desglose que finanzas necesita — y el contrato corporativo que era un activo estratégico se convierte en una queja de back-office.",
-    "en": "The invoice arrives late, with the wrong tax ID, or without the breakdown finance requires — and the corporate contract that was a strategic asset becomes a back-office complaint."
+    "en": "The invoice arrives late, with the wrong tax ID, or without the breakdown finance requires — and the corporate contract that was a strategic asset becomes a back-office complaint.",
+    "pt": "A nota fiscal chega atrasada, com o RFC incorreto ou sem o detalhamento que o financeiro precisa — e o contrato corporativo que era um ativo estratégico vira uma reclamação de back-office."
   },
   "heroImage": "https://raw.githubusercontent.com/jonatanvazquez/cabgo-blog-content/main/images/facturacion-electronica-corporativa-ride-hailing.jpg",
   "heroImageAlt": {
     "es": "Ilustración isométrica de un operador de ride-hailing revisando una factura electrónica corporativa: escritorio con documento de factura flotante, líneas de desglose de viajes y sello fiscal, panel de estado con insignia verde de factura enviada y línea de tiempo de pago en teal",
-    "en": "Isometric illustration of a ride-hailing operator reviewing a corporate electronic invoice: desk with a floating invoice document showing trip line items and a tax seal, a status panel with a green sent-invoice badge and a teal payment timeline"
+    "en": "Isometric illustration of a ride-hailing operator reviewing a corporate electronic invoice: desk with a floating invoice document showing trip line items and a tax seal, a status panel with a green sent-invoice badge and a teal payment timeline",
+    "pt": "Ilustração isométrica de um operador de ride-hailing revisando uma nota fiscal eletrônica corporativa: mesa com documento de nota fiscal flutuante, linhas de detalhamento de corridas e selo fiscal, painel de status com selo verde de nota fiscal enviada e linha do tempo de pagamento em teal"
   },
   "heroImagePrompt": "Isometric office scene: a mobility platform operator at a clean desk reviewing a large floating invoice document — the document shows structured line items with dates, employee names, amounts, and a tax authority certification seal in the corner with a green checkmark. Behind the desk, a minimal city skyline silhouette with three small flag-pole markers representing Mexico, Guatemala, and Colombia. A floating dashboard panel to the right displays a payment-cycle timeline with milestone checkpoints — invoice sent, approved, paid — and a teal highlighted on-time badge at the final step. A second smaller invoice document in the background carries an amber warning icon and a red correction stamp, contrasting with the primary approved document.",
   "publishedAt": "2026-05-15",
@@ -35,38 +38,53 @@
       "corporate accounts mobility B2B billing",
       "billing errors corporate contract ride-hailing",
       "corporate payment cycle transport app LATAM"
+    ],
+    "pt": [
+      "nota fiscal eletrônica ride-hailing corporativo LATAM",
+      "CFDI 4.0 operador táxi plataforma México",
+      "nota fiscal eletrônica FEL Guatemala app de táxi",
+      "DIAN nota fiscal eletrônica transporte Colômbia",
+      "contas corporativas mobilidade faturamento B2B",
+      "erros de faturamento contrato corporativo ride-hailing",
+      "ciclo de pagamento empresas transporte app LATAM"
     ]
   },
   "author": {
     "name": "Equipo Cabgo",
     "role": {
       "es": "Plataforma de movilidad",
-      "en": "Mobility platform"
+      "en": "Mobility platform",
+      "pt": "Plataforma de mobilidade"
     }
   },
   "cta": {
     "heading": {
       "es": "¿Listo para lanzar tu propia app de movilidad?",
-      "en": "Ready to launch your own mobility app?"
+      "en": "Ready to launch your own mobility app?",
+      "pt": "Pronto para lançar seu próprio app de mobilidade?"
     },
     "body": {
       "es": "Configura tu marca, tus tarifas y tus servicios en semanas, no en meses. Cabgo te entrega la plataforma, tú te quedas con la operación y la marca.",
-      "en": "Set up your brand, pricing and services in weeks, not months. Cabgo ships the platform — you keep the operation and the brand."
+      "en": "Set up your brand, pricing and services in weeks, not months. Cabgo ships the platform — you keep the operation and the brand.",
+      "pt": "Configure sua marca, suas tarifas e seus serviços em semanas, não em meses. A Cabgo entrega a plataforma, você fica com a operação e a marca."
     },
     "buttonLabel": {
       "es": "Empezar ahora",
-      "en": "Get started"
+      "en": "Get started",
+      "pt": "Começar agora"
     },
     "buttonHref": "/empezar"
   },
   "seo": {
     "metaTitle": {
       "es": "Facturación electrónica B2B en ride-hailing LATAM | Cabgo",
-      "en": "B2B electronic invoicing for ride-hailing LATAM | Cabgo"
+      "en": "B2B electronic invoicing for ride-hailing LATAM | Cabgo",
+      "pt": "Nota fiscal eletrônica B2B em ride-hailing LATAM | Cabgo"
     },
     "metaDescription": {
       "es": "Cómo configurar facturación electrónica B2B en ride-hailing para no perder contratos corporativos por errores fiscales en México, Guatemala y Colombia.",
-      "en": "How to configure B2B electronic invoicing for regional ride-hailing so corporate contracts don't fail over fiscal errors in Mexico, Guatemala, and Colombia."
+      "en": "How to configure B2B electronic invoicing for regional ride-hailing so corporate contracts don't fail over fiscal errors in Mexico, Guatemala, and Colombia.",
+      "pt": "Como configurar nota fiscal eletrônica B2B em ride-hailing para não perder contratos corporativos por erros fiscais no México, Guatemala e Colômbia."
     }
   },
   "blocks": [
@@ -74,14 +92,16 @@
       "type": "paragraph",
       "text": {
         "es": "La mayoría de los operadores de ride-hailing regional en LATAM resuelven la parte difícil de captar un cliente corporativo: la prospección, la propuesta, la negociación de precio y los términos del servicio. Luego, en el primer o segundo mes de operación con ese cliente, el contrato se complica por algo que no forma parte de ninguna conversación de ventas: la factura. La empresa solicita un comprobante con los datos fiscales correctos, en el formato que exige la autoridad local, con los conceptos desglosados según el catálogo interno de compras, dentro del período de corte que le permite cerrar su contabilidad del mes. El operador la emite cuatro días tarde, con el RFC o NIT equivocado, sin la referencia que cuentas por pagar necesita para vincularla a la orden de compra. El área de finanzas escala el problema al ejecutivo que aprobó el contrato. Ese ejecutivo llama al operador para resolverlo. Y el contrato que iba a ser la primera de ocho cuentas corporativas se convierte en el ejemplo interno que ese ejecutivo usa para explicar por qué cambiar de proveedor de transporte tiene más fricción de la que parece.",
-        "en": "Most regional ride-hailing operators in LATAM solve the hard part of landing a corporate client: the prospecting, the proposal, the price negotiation, and the service terms. Then, in the first or second month of operating with that client, the contract runs into complications from something that never comes up in any sales conversation: the invoice. The company requests a document with the correct fiscal data, in the format required by local tax authorities, with line items broken down according to their purchasing department's internal catalog, delivered within the billing cutoff that lets them close their month-end accounting. The operator delivers it four days late, with the wrong RFC or NIT, without the reference number accounts payable needs to match it to a purchase order. Finance escalates to the executive who approved the contract. That executive calls the operator to sort it out. And the contract that was supposed to be the first of eight corporate accounts becomes the internal example that executive uses to explain why switching transport providers is more friction than it appears."
+        "en": "Most regional ride-hailing operators in LATAM solve the hard part of landing a corporate client: the prospecting, the proposal, the price negotiation, and the service terms. Then, in the first or second month of operating with that client, the contract runs into complications from something that never comes up in any sales conversation: the invoice. The company requests a document with the correct fiscal data, in the format required by local tax authorities, with line items broken down according to their purchasing department's internal catalog, delivered within the billing cutoff that lets them close their month-end accounting. The operator delivers it four days late, with the wrong RFC or NIT, without the reference number accounts payable needs to match it to a purchase order. Finance escalates to the executive who approved the contract. That executive calls the operator to sort it out. And the contract that was supposed to be the first of eight corporate accounts becomes the internal example that executive uses to explain why switching transport providers is more friction than it appears.",
+        "pt": "A maioria dos operadores de ride-hailing regional na América Latina resolve a parte difícil de conquistar um cliente corporativo: a prospecção, a proposta, a negociação de preço e os termos do serviço. Depois, no primeiro ou segundo mês de operação com esse cliente, o contrato se complica por algo que não faz parte de nenhuma conversa de vendas: a nota fiscal. A empresa solicita um comprovante com os dados fiscais corretos, no formato que a autoridade local exige, com os itens detalhados conforme o catálogo interno de compras, dentro do período de corte que permite fechar a contabilidade do mês. O operador a emite quatro dias atrasado, com o RFC ou NIT errado, sem a referência que o contas a pagar precisa para vinculá-la à ordem de compra. A área financeira escala o problema para o executivo que aprovou o contrato. Esse executivo liga para o operador para resolver. E o contrato que seria a primeira de oito contas corporativas vira o exemplo interno que esse executivo usa para explicar por que trocar de fornecedor de transporte gera mais atrito do que parece."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "Este artículo es para operadores con uno a cinco contratos corporativos activos, o que tienen perspectiva de firmar sus primeros contratos en los próximos noventa días. El foco no es la venta del contrato — eso pertenece al proceso comercial y a la propuesta de valor del servicio. El foco es el proceso de facturación que ocurre después de firmar: qué hay que configurar antes de emitir la primera factura corporativa, cuáles son las diferencias entre los esquemas fiscales de México, Guatemala y Colombia que afectan directamente la operación, y cuáles son los errores que hacen que un contrato que funcionó comercialmente termine por razones administrativas que el operador podría haber resuelto con una semana de preparación.",
-        "en": "This article is for operators with one to five active corporate contracts, or who expect to sign their first corporate agreements in the next ninety days. The focus is not on selling the contract — that belongs to the commercial process and the service value proposition. The focus is the billing process that happens after the signature: what to configure before issuing the first corporate invoice, what the differences are between fiscal frameworks in Mexico, Guatemala, and Colombia that have direct operational impact, and what errors cause a commercially successful contract to end for administrative reasons the operator could have prevented with a week of preparation."
+        "en": "This article is for operators with one to five active corporate contracts, or who expect to sign their first corporate agreements in the next ninety days. The focus is not on selling the contract — that belongs to the commercial process and the service value proposition. The focus is the billing process that happens after the signature: what to configure before issuing the first corporate invoice, what the differences are between fiscal frameworks in Mexico, Guatemala, and Colombia that have direct operational impact, and what errors cause a commercially successful contract to end for administrative reasons the operator could have prevented with a week of preparation.",
+        "pt": "Este artigo é para operadores com um a cinco contratos corporativos ativos, ou que têm perspectiva de assinar seus primeiros contratos nos próximos noventa dias. O foco não é a venda do contrato — isso pertence ao processo comercial e à proposta de valor do serviço. O foco é o processo de faturamento que acontece depois de assinar: o que configurar antes de emitir a primeira nota fiscal corporativa, quais são as diferenças entre os regimes fiscais do México, Guatemala e Colômbia que afetam diretamente a operação, e quais são os erros que fazem um contrato que funcionou comercialmente terminar por razões administrativas que o operador poderia ter resolvido com uma semana de preparação."
       }
     },
     {
@@ -90,21 +110,24 @@
       "id": "facturacion-decide-supervivencia-contrato",
       "text": {
         "es": "Por qué la factura decide si el contrato sobrevive el primer trimestre",
-        "en": "Why the invoice decides whether the contract survives the first quarter"
+        "en": "Why the invoice decides whether the contract survives the first quarter",
+        "pt": "Por que a nota fiscal decide se o contrato sobrevive ao primeiro trimestre"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "Las cuentas corporativas en ride-hailing tienen una estructura de decisión distinta a las cuentas de pasajero individual. El pasajero decide si vuelve a usar la plataforma en función de la experiencia del viaje: tiempo de espera, comportamiento del conductor, precio relativo. El cliente corporativo toma esa misma decisión de renovación en función de la experiencia de un departamento que nunca subió a ningún vehículo: el área de finanzas o cuentas por pagar. Si la facturación llega correcta, a tiempo y en el formato esperado, finanzas no genera ninguna queja y el contrato se renueva de forma casi automática. Si la facturación produce una incidencia — un RFC incorrecto en México, un NIT errado en Colombia, una descripción de concepto que no coincide con el catálogo de compras de la empresa — el proceso de resolución involucra tiempo de personas en dos organizaciones distintas y genera la fricción que eventualmente produce un cambio de proveedor.",
-        "en": "Corporate accounts in ride-hailing have a different decision structure than individual passenger accounts. A passenger decides whether to return based on the trip experience: wait time, driver behavior, relative price. A corporate client makes that same renewal decision based on the experience of a department that never rode in a vehicle: finance or accounts payable. If billing arrives correct, on time, and in the expected format, finance generates no complaints and the contract renews with almost no deliberation. If billing produces a discrepancy — a wrong RFC in Mexico, an incorrect NIT in Colombia, a line item description that doesn't match the company's purchasing catalog — the resolution process involves people's time in two separate organizations and creates the friction that eventually triggers a provider change."
+        "en": "Corporate accounts in ride-hailing have a different decision structure than individual passenger accounts. A passenger decides whether to return based on the trip experience: wait time, driver behavior, relative price. A corporate client makes that same renewal decision based on the experience of a department that never rode in a vehicle: finance or accounts payable. If billing arrives correct, on time, and in the expected format, finance generates no complaints and the contract renews with almost no deliberation. If billing produces a discrepancy — a wrong RFC in Mexico, an incorrect NIT in Colombia, a line item description that doesn't match the company's purchasing catalog — the resolution process involves people's time in two separate organizations and creates the friction that eventually triggers a provider change.",
+        "pt": "As contas corporativas no ride-hailing têm uma estrutura de decisão diferente das contas de passageiro individual. O passageiro decide se volta a usar a plataforma em função da experiência da corrida: tempo de espera, comportamento do motorista, preço relativo. O cliente corporativo toma essa mesma decisão de renovação em função da experiência de um departamento que nunca entrou em nenhum veículo: a área financeira ou o contas a pagar. Se o faturamento chega correto, no prazo e no formato esperado, o financeiro não gera nenhuma reclamação e o contrato se renova de forma quase automática. Se o faturamento produz uma ocorrência — um RFC incorreto no México, um NIT errado na Colômbia, uma descrição de item que não coincide com o catálogo de compras da empresa — o processo de resolução envolve tempo de pessoas em duas organizações diferentes e gera o atrito que acaba produzindo uma troca de fornecedor."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "El ciclo de pago corporativo en LATAM oscila entre 30 y 60 días para la mayoría de las empresas medianas, con algunas organizaciones más grandes operando a 90 días. Eso significa que el primer pago real de un contrato firmado en enero puede llegar en marzo o abril. Para el operador, ese período es una prueba completa de la cadena de facturación — y si hay un error en la factura del primer mes, el cobro se demora hasta que se corrija, lo que puede extender el período a 90 o 120 días con impacto directo en el flujo de caja de la operación. El error técnico cuesta una semana de back-office para resolverlo. El efecto financiero de ese error puede durar dos o tres meses.",
-        "en": "Corporate payment cycles in LATAM range from 30 to 60 days for most mid-size companies, with some larger organizations operating on 90-day cycles. That means the first actual payment on a contract signed in January may not arrive until March or April. For the operator, that period is a complete stress test of the billing chain — and if there is an error in the first month's invoice, payment is delayed until the error is corrected, which can extend the collection period to 90 or 120 days with direct impact on operational cash flow. The technical error costs a week of back-office time to resolve. The financial effect of that error can last two or three months."
+        "en": "Corporate payment cycles in LATAM range from 30 to 60 days for most mid-size companies, with some larger organizations operating on 90-day cycles. That means the first actual payment on a contract signed in January may not arrive until March or April. For the operator, that period is a complete stress test of the billing chain — and if there is an error in the first month's invoice, payment is delayed until the error is corrected, which can extend the collection period to 90 or 120 days with direct impact on operational cash flow. The technical error costs a week of back-office time to resolve. The financial effect of that error can last two or three months.",
+        "pt": "O ciclo de pagamento corporativo na América Latina varia entre 30 e 60 dias para a maioria das empresas de médio porte, com algumas organizações maiores operando em 90 dias. Isso significa que o primeiro pagamento real de um contrato assinado em janeiro pode chegar em março ou abril. Para o operador, esse período é um teste completo da cadeia de faturamento — e se houver um erro na nota fiscal do primeiro mês, a cobrança atrasa até que seja corrigida, o que pode estender o período para 90 ou 120 dias com impacto direto no fluxo de caixa da operação. O erro técnico custa uma semana de back-office para ser resolvido. O efeito financeiro desse erro pode durar dois ou três meses."
       }
     },
     {
@@ -113,21 +136,24 @@
       "id": "ciclo-pago-detalle-que-finanzas-requiere",
       "text": {
         "es": "El nivel de detalle que el área de finanzas requiere — y que ningún contrato especifica",
-        "en": "The level of detail finance requires — and that no contract specifies"
+        "en": "The level of detail finance requires — and that no contract specifies",
+        "pt": "O nível de detalhe que a área financeira exige — e que nenhum contrato especifica"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "Los contratos corporativos de ride-hailing se estructuran generalmente como cuentas de crédito mensual: la empresa autoriza viajes durante el mes y recibe una factura al cierre del período con el total de los trayectos realizados. Pero ese total raramente es suficiente. La mayoría de los departamentos de finanzas de empresas medianas exigen el desglose por empleado, por día, por proyecto o por unidad de negocio — dependiendo de cómo la empresa clasifica su gasto en transporte. Un operador que emite una factura mensual con una sola línea de 'Servicios de transporte — 52 viajes — $11,300 MXN' va a recibir una solicitud de aclaración con la lista de lo que cuentas por pagar necesita ver antes de liberar el pago. Ese nivel de detalle tiene que existir en el sistema de la plataforma antes de que ocurra el primer viaje corporativo — no se puede reconstruir después con la granularidad que el cliente requiere si los datos no fueron capturados desde el inicio.",
-        "en": "Corporate ride-hailing contracts are typically structured as monthly credit accounts: the company authorizes trips during the month and receives an invoice at period close for the total rides taken. But that total is rarely sufficient on its own. Most finance departments in mid-size companies require a breakdown by employee, by day, by project, or by business unit — depending on how the company classifies transport spend in its accounting system. An operator who issues a monthly invoice with a single line of 'Transport services — 52 trips — $11,300 MXN' will receive a clarification request with a list of what accounts payable needs to see before releasing payment. That level of detail has to exist in the platform system before the first corporate trip happens — it cannot be reconstructed after the fact with the granularity the client requires if the data was not captured from the start."
+        "en": "Corporate ride-hailing contracts are typically structured as monthly credit accounts: the company authorizes trips during the month and receives an invoice at period close for the total rides taken. But that total is rarely sufficient on its own. Most finance departments in mid-size companies require a breakdown by employee, by day, by project, or by business unit — depending on how the company classifies transport spend in its accounting system. An operator who issues a monthly invoice with a single line of 'Transport services — 52 trips — $11,300 MXN' will receive a clarification request with a list of what accounts payable needs to see before releasing payment. That level of detail has to exist in the platform system before the first corporate trip happens — it cannot be reconstructed after the fact with the granularity the client requires if the data was not captured from the start.",
+        "pt": "Os contratos corporativos de ride-hailing costumam ser estruturados como contas de crédito mensal: a empresa autoriza corridas durante o mês e recebe uma nota fiscal no fechamento do período com o total dos trajetos realizados. Mas esse total raramente é suficiente. A maioria dos departamentos financeiros de empresas de médio porte exige o detalhamento por funcionário, por dia, por projeto ou por unidade de negócio — dependendo de como a empresa classifica seu gasto com transporte. Um operador que emite uma nota fiscal mensal com uma única linha de 'Serviços de transporte — 52 viajes — $11,300 MXN' vai receber um pedido de esclarecimento com a lista do que o contas a pagar precisa ver antes de liberar o pagamento. Esse nível de detalhe precisa existir no sistema da plataforma antes de acontecer a primeira corrida corporativa — não dá para reconstruir depois com a granularidade que o cliente exige se os dados não foram capturados desde o início."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "La configuración mínima que la plataforma necesita antes de activar la primera cuenta corporativa incluye un campo de referencia de empleado o centro de costo por viaje — no como campo opcional sino como campo requerido para viajes en modo corporativo — y la capacidad de generar un reporte filtrable por esas referencias, exportable en el formato con el que trabaja el área de compras del cliente. Sin esa base de datos estructurada desde el primer viaje, el operador puede dar el servicio correctamente pero no puede producir la factura con el nivel de detalle que el cliente necesita para procesarla sin escalarla a su equipo de tecnología o de compras.",
-        "en": "The minimum platform configuration needed before activating the first corporate account includes an employee reference or cost center field per trip — not as an optional field but as a required one for trips in corporate mode — and the ability to generate a report filterable by those references, exportable in the format the client's purchasing department works with. Without that structured data foundation from the first trip, the operator can deliver the service correctly but cannot produce an invoice with the level of detail the client needs to process it without escalating to their technology or procurement team."
+        "en": "The minimum platform configuration needed before activating the first corporate account includes an employee reference or cost center field per trip — not as an optional field but as a required one for trips in corporate mode — and the ability to generate a report filterable by those references, exportable in the format the client's purchasing department works with. Without that structured data foundation from the first trip, the operator can deliver the service correctly but cannot produce an invoice with the level of detail the client needs to process it without escalating to their technology or procurement team.",
+        "pt": "A configuração mínima que a plataforma precisa antes de ativar a primeira conta corporativa inclui um campo de referência de funcionário ou centro de custo por corrida — não como campo opcional, mas como campo obrigatório para corridas em modo corporativo — e a capacidade de gerar um relatório filtrável por essas referências, exportável no formato com que a área de compras do cliente trabalha. Sem essa base de dados estruturada desde a primeira corrida, o operador pode prestar o serviço corretamente, mas não consegue produzir a nota fiscal com o nível de detalhe que o cliente precisa para processá-la sem escalar para a equipe de tecnologia ou de compras."
       }
     },
     {
@@ -136,14 +162,16 @@
       "id": "configurar-antes-primer-contrato",
       "text": {
         "es": "Lo que hay que tener listo antes de emitir la primera factura corporativa",
-        "en": "What to have ready before issuing the first corporate invoice"
+        "en": "What to have ready before issuing the first corporate invoice",
+        "pt": "O que ter pronto antes de emitir a primeira nota fiscal corporativa"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "Hay un conjunto de datos e integraciones que el operador necesita configurar con anticipación — no después del primer cierre mensual cuando el cliente solicita la factura y el proceso se detiene. Esa preparación no es técnicamente compleja en la mayoría de las plataformas modernas de ride-hailing, pero requiere una conversación activa con el área de finanzas del cliente antes de que el servicio empiece, no solo con el ejecutivo comercial que firmó el contrato.",
-        "en": "There is a set of data and integrations the operator needs to configure in advance — not after the first month-end close when the client requests the invoice and the process stalls. That preparation is not technically complex on most modern ride-hailing platforms, but it requires an active conversation with the client's finance team before service starts, not only with the commercial executive who signed the contract."
+        "en": "There is a set of data and integrations the operator needs to configure in advance — not after the first month-end close when the client requests the invoice and the process stalls. That preparation is not technically complex on most modern ride-hailing platforms, but it requires an active conversation with the client's finance team before service starts, not only with the commercial executive who signed the contract.",
+        "pt": "Há um conjunto de dados e integrações que o operador precisa configurar com antecedência — não depois do primeiro fechamento mensal, quando o cliente solicita a nota fiscal e o processo trava. Essa preparação não é tecnicamente complexa na maioria das plataformas modernas de ride-hailing, mas exige uma conversa ativa com a área financeira do cliente antes de o serviço começar, não só com o executivo comercial que assinou o contrato."
       }
     },
     {
@@ -151,7 +179,8 @@
       "style": "bullet",
       "intro": {
         "es": "La información que hay que obtener y configurar antes del primer viaje corporativo incluye:",
-        "en": "The information to obtain and configure before the first corporate trip includes:"
+        "en": "The information to obtain and configure before the first corporate trip includes:",
+        "pt": "As informações que você precisa obter e configurar antes da primeira corrida corporativa incluem:"
       },
       "items": {
         "es": [
@@ -171,6 +200,15 @@
           "Purchase order number or requisition reference that must appear on the invoice for accounts payable to link it to the approved budget without additional back-and-forth",
           "Invoice delivery channel: direct email to the finance team, the client's vendor portal, or EDI system — vendor portals have additional format requirements the operator must verify before the first submission",
           "Name and direct contact for the accounts payable team — not the commercial executive — to resolve billing discrepancies without intermediaries who extend resolution time"
+        ],
+        "pt": [
+          "Dados fiscais do cliente validados diretamente com a área financeira dele — RFC com homoclave no México, NIT na Colômbia e Guatemala — não com o executivo comercial que assinou o contrato",
+          "Formato de comprovante esperado por jurisdição: CFDI 4.0 com uso D10 ou G03 no México, FEL na Guatemala, nota fiscal eletrônica DIAN na Colômbia — cada um exige uma configuração de emissor diferente no sistema da plataforma",
+          "Período de corte mensal e data limite de recebimento de notas fiscais para o cliente processá-las dentro do fechamento contábil — se o cliente fecha no dia 5 e o operador entrega no dia 10, a nota fiscal entra no período seguinte e a cobrança atrasa 30 dias",
+          "Nível de detalhamento exigido no relatório de corridas: por funcionário, por projeto ou por unidade de negócio — e o campo na plataforma que captura essa referência corrida a corrida desde o momento do pedido",
+          "Número da ordem de compra ou referência do pedido que deve aparecer na nota fiscal para o contas a pagar poder vinculá-la ao orçamento aprovado sem gestão adicional",
+          "Canal de recebimento de notas fiscais: e-mail direto para a área financeira, portal de fornecedores do cliente ou sistema EDI — os portais de fornecedores têm requisitos de formato adicionais que o operador deve verificar antes do primeiro envio",
+          "Nome e contato direto da área de contas a pagar — não do executivo comercial — para resolver ocorrências de faturamento sem intermediários que alongam o tempo de resolução"
         ]
       }
     },
@@ -180,21 +218,24 @@
       "id": "diferencias-cfdi-fel-dian",
       "text": {
         "es": "CFDI, FEL y DIAN: las diferencias fiscales que impactan la operación",
-        "en": "CFDI, FEL, and DIAN: the fiscal differences that affect operations"
+        "en": "CFDI, FEL, and DIAN: the fiscal differences that affect operations",
+        "pt": "CFDI, FEL e DIAN: as diferenças fiscais que impactam a operação"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "Los tres esquemas de facturación electrónica más relevantes para operadores de ride-hailing en LATAM tienen características distintas que afectan directamente el flujo de cierre mensual. En México, el CFDI 4.0 (Comprobante Fiscal Digital por Internet) exige desde 2022 que la factura incluya el RFC con homoclave del receptor validado contra el padrón del SAT — lo que hace inválidas las facturas emitidas con el RFC genérico de público general (XAXX010101000) para clientes que necesitan deducir el gasto. El timbrado requiere integración activa con un PAC (Proveedor Autorizado de Certificación), un servicio externo que la plataforma de ride-hailing debe tener configurado para emitir comprobantes con validez fiscal. Un operador que emite en México sin integración con PAC está generando documentos que el cliente no puede usar para deducción y que la autoridad no reconoce como válidos.",
-        "en": "The three electronic invoicing frameworks most relevant for ride-hailing operators in LATAM have distinct characteristics that directly affect the month-end closing flow. In Mexico, CFDI 4.0 (Comprobante Fiscal Digital por Internet) has required since 2022 that invoices include the RFC with homoclave of the recipient, validated against the SAT registry — making invoices issued with the generic public RFC (XAXX010101000) invalid for clients who need to deduct the expense. Stamping requires active integration with a PAC (Authorized Certification Provider), an external service the ride-hailing platform must have configured to issue fiscally valid documents. An operator issuing invoices in Mexico without PAC integration is generating documents the client cannot use for tax deduction and that the tax authority does not recognize as valid."
+        "en": "The three electronic invoicing frameworks most relevant for ride-hailing operators in LATAM have distinct characteristics that directly affect the month-end closing flow. In Mexico, CFDI 4.0 (Comprobante Fiscal Digital por Internet) has required since 2022 that invoices include the RFC with homoclave of the recipient, validated against the SAT registry — making invoices issued with the generic public RFC (XAXX010101000) invalid for clients who need to deduct the expense. Stamping requires active integration with a PAC (Authorized Certification Provider), an external service the ride-hailing platform must have configured to issue fiscally valid documents. An operator issuing invoices in Mexico without PAC integration is generating documents the client cannot use for tax deduction and that the tax authority does not recognize as valid.",
+        "pt": "Os três regimes de nota fiscal eletrônica mais relevantes para operadores de ride-hailing na América Latina têm características distintas que afetam diretamente o fluxo de fechamento mensal. No México, o CFDI 4.0 (Comprobante Fiscal Digital por Internet) exige desde 2022 que a nota fiscal inclua o RFC com homoclave do receptor validado contra o cadastro do SAT — o que torna inválidas as notas fiscais emitidas com o RFC genérico de público geral (XAXX010101000) para clientes que precisam deduzir o gasto. A emissão do carimbo fiscal (timbrado) exige integração ativa com um PAC (Proveedor Autorizado de Certificación), um serviço externo que a plataforma de ride-hailing precisa ter configurado para emitir comprovantes com validade fiscal. Um operador que emite no México sem integração com PAC está gerando documentos que o cliente não pode usar para dedução e que a autoridade não reconhece como válidos."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "En Guatemala, el FEL (Factura Electrónica en Línea) opera con certificación en tiempo real a través del sistema de la SAT guatemalteca: cada factura emitida se certifica en línea en el momento de la transacción, con un código de autorización que forma parte del comprobante. La diferencia con el CFDI mexicano es que el FEL introduce una dependencia de conectividad activa con los servidores de la SAT en el momento de la emisión, lo que el operador debe gestionar en el flujo de cierre de viaje corporativo. En Colombia, la facturación electrónica bajo el esquema de la DIAN es obligatoria desde 2020-2022 para la mayoría de los sectores productivos. El error más frecuente en operaciones colombianas de ride-hailing es emitir 'documentos equivalentes' — que técnicamente no son facturas electrónicas DIAN — cuando el cliente corporativo necesita una factura válida para la deducción del IVA y del impuesto de renta. Esa distinción no siempre es obvia para el equipo de operaciones del operador, pero el área de finanzas del cliente la conoce con precisión.",
-        "en": "In Guatemala, FEL (Factura Electrónica en Línea) operates with real-time certification through the Guatemalan SAT's system: each invoice is certified online at the moment of the transaction, with an authorization code that forms part of the document. The difference from Mexico's CFDI is that FEL introduces a dependency on active connectivity with the SAT's servers at the time of issuance — something the operator must manage in the corporate trip closing flow. In Colombia, electronic invoicing under DIAN's framework has been mandatory since 2020-2022 for most productive sectors. The most frequent error in Colombian ride-hailing operations is issuing 'equivalent documents' — which are technically not DIAN electronic invoices — when the corporate client needs a valid invoice for VAT and income tax deduction. That distinction is not always obvious to the operator's operations team, but the client's finance department knows it precisely."
+        "en": "In Guatemala, FEL (Factura Electrónica en Línea) operates with real-time certification through the Guatemalan SAT's system: each invoice is certified online at the moment of the transaction, with an authorization code that forms part of the document. The difference from Mexico's CFDI is that FEL introduces a dependency on active connectivity with the SAT's servers at the time of issuance — something the operator must manage in the corporate trip closing flow. In Colombia, electronic invoicing under DIAN's framework has been mandatory since 2020-2022 for most productive sectors. The most frequent error in Colombian ride-hailing operations is issuing 'equivalent documents' — which are technically not DIAN electronic invoices — when the corporate client needs a valid invoice for VAT and income tax deduction. That distinction is not always obvious to the operator's operations team, but the client's finance department knows it precisely.",
+        "pt": "Na Guatemala, o FEL (Factura Electrónica en Línea) opera com certificação em tempo real por meio do sistema da SAT guatemalteca: cada nota fiscal emitida é certificada on-line no momento da transação, com um código de autorização que faz parte do comprovante. A diferença em relação ao CFDI mexicano é que o FEL introduz uma dependência de conectividade ativa com os servidores da SAT no momento da emissão, algo que o operador precisa gerenciar no fluxo de fechamento da corrida corporativa. Na Colômbia, a nota fiscal eletrônica sob o regime da DIAN é obrigatória desde 2020-2022 para a maioria dos setores produtivos. O erro mais frequente em operações colombianas de ride-hailing é emitir 'documentos equivalentes' — que tecnicamente não são notas fiscais eletrônicas DIAN — quando o cliente corporativo precisa de uma nota fiscal válida para a dedução do IVA e do imposto de renda. Essa distinção nem sempre é óbvia para a equipe de operações do operador, mas a área financeira do cliente a conhece com precisão."
       }
     },
     {
@@ -203,32 +244,37 @@
       "id": "errores-timing-datos-cuestan-contratos",
       "text": {
         "es": "Los dos errores que más contratos corporativos cuestan — y ninguno es técnico",
-        "en": "The two errors that cost the most corporate contracts — and neither is technical"
+        "en": "The two errors that cost the most corporate contracts — and neither is technical",
+        "pt": "Os dois erros que mais custam contratos corporativos — e nenhum é técnico"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "El error que produce más pérdidas de contratos corporativos no es el técnico — el RFC incorrecto o el formato desactualizado — sino el de timing. Las empresas medianas en LATAM tienen ciclos de cierre contable con fechas rígidas: si la factura no llega antes del día 5 del mes siguiente, no entra en el período anterior y finanzas la procesa en el ciclo del mes siguiente, alargando el ciclo de cobro entre 30 y 60 días adicionales. Un operador que entrega de forma consistente la factura el día 10 está financiando la operación del cliente con su propio capital de trabajo durante un período evitable. Después de dos o tres ciclos con este patrón, el cliente empieza a evaluar alternativas — no porque el servicio sea deficiente sino porque el proceso administrativo genera una fricción que su equipo de finanzas no está dispuesto a sostener indefinidamente.",
-        "en": "The error that costs the most corporate contracts is not the technical one — the wrong RFC or an outdated invoice format — but the timing error. Mid-size companies in LATAM have accounting close cycles with rigid dates: if the invoice doesn't arrive before the 5th of the following month, it doesn't enter the prior period and finance processes it in the next month's cycle, extending the collection period by 30 to 60 additional days. An operator who consistently delivers invoices on the 10th is financing the client's operations with their own working capital for an avoidable period. After two or three cycles with this pattern, the client starts evaluating alternatives — not because the service is poor but because the administrative process creates friction their finance team is not willing to sustain indefinitely."
+        "en": "The error that costs the most corporate contracts is not the technical one — the wrong RFC or an outdated invoice format — but the timing error. Mid-size companies in LATAM have accounting close cycles with rigid dates: if the invoice doesn't arrive before the 5th of the following month, it doesn't enter the prior period and finance processes it in the next month's cycle, extending the collection period by 30 to 60 additional days. An operator who consistently delivers invoices on the 10th is financing the client's operations with their own working capital for an avoidable period. After two or three cycles with this pattern, the client starts evaluating alternatives — not because the service is poor but because the administrative process creates friction their finance team is not willing to sustain indefinitely.",
+        "pt": "O erro que mais causa perda de contratos corporativos não é o técnico — o RFC incorreto ou o formato desatualizado — e sim o de timing. As empresas de médio porte na América Latina têm ciclos de fechamento contábil com datas rígidas: se a nota fiscal não chega antes do dia 5 do mês seguinte, não entra no período anterior e o financeiro a processa no ciclo do mês seguinte, alongando o ciclo de cobrança em 30 a 60 dias adicionais. Um operador que entrega de forma consistente a nota fiscal no dia 10 está financiando a operação do cliente com o próprio capital de giro durante um período evitável. Depois de dois ou três ciclos com esse padrão, o cliente começa a avaliar alternativas — não porque o serviço seja ruim, mas porque o processo administrativo gera um atrito que a equipe financeira dele não está disposta a sustentar indefinidamente."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "El segundo error en frecuencia es el de datos del receptor. En México, la reforma fiscal de 2022 que hizo obligatorio el RFC con homoclave en el CFDI 4.0 convirtió en inválidas las facturas emitidas con el RFC genérico para clientes que pueden deducir el gasto. Operadores que no actualizaron su flujo de emisión después de esa fecha emitieron meses de facturas que el cliente no pudo usar para deducción fiscal y que tuvieron que reemitirse con el consiguiente retraso de pago. En Colombia, un error equivalente ocurre cuando el operador no tiene el NIT correcto del cliente o emite el tipo de documento incorrecto para la transacción. Estos errores tienen solución técnica directa, pero el daño comercial — el cliente que tardó en pagar mientras el problema se resolvía y que ahora evalúa con más atención las alternativas — es más difícil de revertir que la corrección fiscal.",
-        "en": "The second most frequent error is recipient data. In Mexico, the 2022 fiscal reform that made the RFC with homoclave mandatory in CFDI 4.0 invalidated invoices issued with the generic RFC for clients who could deduct the expense. Operators who did not update their issuance flow after that date issued months of invoices the client could not use for tax deduction, which had to be reissued with the corresponding payment delay. In Colombia, an equivalent error occurs when the operator doesn't have the client's correct NIT or issues the wrong document type for the transaction. These errors have direct technical solutions, but the commercial damage — a client who was slow to pay while the problem was resolved and who now evaluates available alternatives more carefully — is harder to reverse than the fiscal correction."
+        "en": "The second most frequent error is recipient data. In Mexico, the 2022 fiscal reform that made the RFC with homoclave mandatory in CFDI 4.0 invalidated invoices issued with the generic RFC for clients who could deduct the expense. Operators who did not update their issuance flow after that date issued months of invoices the client could not use for tax deduction, which had to be reissued with the corresponding payment delay. In Colombia, an equivalent error occurs when the operator doesn't have the client's correct NIT or issues the wrong document type for the transaction. These errors have direct technical solutions, but the commercial damage — a client who was slow to pay while the problem was resolved and who now evaluates available alternatives more carefully — is harder to reverse than the fiscal correction.",
+        "pt": "O segundo erro em frequência é o de dados do receptor. No México, a reforma fiscal de 2022 que tornou obrigatório o RFC com homoclave no CFDI 4.0 tornou inválidas as notas fiscais emitidas com o RFC genérico para clientes que podem deduzir o gasto. Operadores que não atualizaram seu fluxo de emissão depois dessa data emitiram meses de notas fiscais que o cliente não pôde usar para dedução fiscal e que tiveram que ser reemitidas, com o consequente atraso de pagamento. Na Colômbia, um erro equivalente acontece quando o operador não tem o NIT correto do cliente ou emite o tipo de documento incorreto para a transação. Esses erros têm solução técnica direta, mas o dano comercial — o cliente que demorou a pagar enquanto o problema era resolvido e que agora avalia as alternativas com mais atenção — é mais difícil de reverter do que a correção fiscal."
       }
     },
     {
       "type": "quote",
       "text": {
         "es": "El primer contrato corporativo que perdí no fue por precio ni por disponibilidad — fue porque nuestra factura llegaba el día 12 y su área de finanzas cerraba el día 5. En tres meses, el acumulado de viajes sin factura procesada llegó a 46,000 pesos. El ejecutivo que había aprobado el contrato dejó de responder. Cuando entendí el ciclo de cierre de ese cliente, ya era demasiado tarde para reactivar la cuenta.",
-        "en": "The first corporate contract I lost wasn't over price or availability — it was because our invoice arrived on the 12th and their finance team closed on the 5th. After three months, the accumulated unbilled trips reached 46,000 pesos. The executive who had approved the contract stopped responding. By the time I understood that client's close cycle, it was already too late to reactivate the account."
+        "en": "The first corporate contract I lost wasn't over price or availability — it was because our invoice arrived on the 12th and their finance team closed on the 5th. After three months, the accumulated unbilled trips reached 46,000 pesos. The executive who had approved the contract stopped responding. By the time I understood that client's close cycle, it was already too late to reactivate the account.",
+        "pt": "O primeiro contrato corporativo que perdi não foi por preço nem por disponibilidade — foi porque a nossa nota fiscal chegava no dia 12 e a área financeira deles fechava no dia 5. Em três meses, o acumulado de corridas sem nota fiscal processada chegou a 46,000 pesos. O executivo que tinha aprovado o contrato parou de responder. Quando entendi o ciclo de fechamento desse cliente, já era tarde demais para reativar a conta."
       },
       "attribution": {
         "es": "Operador de plataforma de movilidad con sede en Guadalajara, México",
-        "en": "Mobility platform operator based in Guadalajara, Mexico"
+        "en": "Mobility platform operator based in Guadalajara, Mexico",
+        "pt": "Operador de plataforma de mobilidade com sede em Guadalajara, México"
       }
     },
     {
@@ -237,35 +283,40 @@
       "id": "facturacion-sin-incidencias-ventaja-retencion",
       "text": {
         "es": "Cómo la facturación sin incidencias se convierte en ventaja de retención",
-        "en": "How friction-free invoicing becomes a retention advantage"
+        "en": "How friction-free invoicing becomes a retention advantage",
+        "pt": "Como o faturamento sem ocorrências vira vantagem de retenção"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "La facturación corporativa correcta no es solo una obligación de compliance — es un diferenciador en un mercado donde la mayoría de los operadores pequeños no tienen un proceso de facturación B2B robusto. Una empresa que ha pasado por la experiencia de corregir facturas, esperar aclaraciones y gestionar discrepancias con un proveedor de transporte va a valorar activamente al operador que entrega el comprobante correcto, a tiempo y con el nivel de detalle que finanzas necesita para procesarlo sin consultas adicionales. Ese es el tipo de experiencia que convierte una cuenta corporativa activa en una referencia para el siguiente contrato.",
-        "en": "Correct corporate billing is not just a compliance obligation — it is a differentiator in a market where most small operators don't have a robust B2B invoicing process. A company that has gone through the experience of correcting invoices, waiting for clarifications, and managing discrepancies with a transport provider will actively value the operator who delivers the right document, on time, with the level of detail finance needs to process it without follow-up questions. That is the kind of experience that converts an active corporate account into a reference for the next contract."
+        "en": "Correct corporate billing is not just a compliance obligation — it is a differentiator in a market where most small operators don't have a robust B2B invoicing process. A company that has gone through the experience of correcting invoices, waiting for clarifications, and managing discrepancies with a transport provider will actively value the operator who delivers the right document, on time, with the level of detail finance needs to process it without follow-up questions. That is the kind of experience that converts an active corporate account into a reference for the next contract.",
+        "pt": "O faturamento corporativo correto não é só uma obrigação de compliance — é um diferencial num mercado onde a maioria dos operadores pequenos não tem um processo de faturamento B2B robusto. Uma empresa que já passou pela experiência de corrigir notas fiscais, esperar esclarecimentos e gerenciar divergências com um fornecedor de transporte vai valorizar ativamente o operador que entrega o comprovante correto, no prazo e com o nível de detalhe que o financeiro precisa para processá-lo sem consultas adicionais. Esse é o tipo de experiência que transforma uma conta corporativa ativa em uma referência para o próximo contrato."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "La ventaja operativa concreta es la renovación sin fricción. Un cliente corporativo cuya área de finanzas no recibe ninguna queja sobre la facturación del proveedor de transporte no tiene razón activa para evaluar alternativas cuando llega la fecha de renovación. La decisión se convierte en una no-decisión: nadie tiene que renegociar precio ni justificar el cambio porque el proceso funciona sin que nadie lo gestione. En un mercado donde captar un cliente corporativo nuevo cuesta entre dos y cinco veces más que retener uno existente, la facturación sin incidencias tiene un retorno financiero directo que el equipo operativo suele subestimar porque ocurre silenciosamente, en el momento en que la factura llega correcta y nadie llama para preguntar nada.",
-        "en": "The concrete operational advantage is frictionless renewal. A corporate client whose finance team receives no complaints about the transport provider's billing has no active reason to evaluate alternatives when renewal time comes. The decision becomes a non-decision: no one has to renegotiate price or justify switching because the process runs without anyone having to manage it. In a market where landing a new corporate client costs two to five times more than retaining an existing one, friction-free invoicing has a direct financial return that operations teams tend to underestimate because it happens silently, in the moment the invoice arrives correctly and no one calls to ask about anything."
+        "en": "The concrete operational advantage is frictionless renewal. A corporate client whose finance team receives no complaints about the transport provider's billing has no active reason to evaluate alternatives when renewal time comes. The decision becomes a non-decision: no one has to renegotiate price or justify switching because the process runs without anyone having to manage it. In a market where landing a new corporate client costs two to five times more than retaining an existing one, friction-free invoicing has a direct financial return that operations teams tend to underestimate because it happens silently, in the moment the invoice arrives correctly and no one calls to ask about anything.",
+        "pt": "A vantagem operacional concreta é a renovação sem atrito. Um cliente corporativo cuja área financeira não recebe nenhuma reclamação sobre o faturamento do fornecedor de transporte não tem razão ativa para avaliar alternativas quando chega a data de renovação. A decisão vira uma não-decisão: ninguém precisa renegociar preço nem justificar a troca porque o processo funciona sem que ninguém precise gerenciá-lo. Num mercado onde conquistar um novo cliente corporativo custa entre duas e cinco vezes mais do que reter um existente, o faturamento sem ocorrências tem um retorno financeiro direto que a equipe operacional costuma subestimar porque acontece silenciosamente, no momento em que a nota fiscal chega correta e ninguém liga para perguntar nada."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "La facturación electrónica corporativa en LATAM no es un proceso uniforme: cada país tiene su esquema propio, su autoridad fiscal y sus plazos de vigencia. Para un operador con clientes en más de un mercado, eso significa configuraciones distintas en cada jurisdicción, con distintos certificadores o PAC, distintos formatos de comprobante y distintos ciclos de cierre que el sistema de facturación tiene que gestionar de forma independiente. El momento correcto para resolver esa complejidad no es cuando el primer cliente corporativo solicita una aclaración — es antes de firmar el primer contrato.",
-        "en": "Corporate electronic invoicing in LATAM is not a uniform process: each country has its own framework, tax authority, and validity periods. For an operator with clients across more than one market, that means distinct configurations in each jurisdiction, with different certifiers or PAC providers, different invoice formats, and different close cycles that the billing system must manage independently. The right moment to resolve that complexity is not when the first corporate client requests a clarification — it is before signing the first contract."
+        "en": "Corporate electronic invoicing in LATAM is not a uniform process: each country has its own framework, tax authority, and validity periods. For an operator with clients across more than one market, that means distinct configurations in each jurisdiction, with different certifiers or PAC providers, different invoice formats, and different close cycles that the billing system must manage independently. The right moment to resolve that complexity is not when the first corporate client requests a clarification — it is before signing the first contract.",
+        "pt": "A nota fiscal eletrônica corporativa na América Latina não é um processo uniforme: cada país tem o seu próprio regime, a sua autoridade fiscal e os seus prazos de vigência. Para um operador com clientes em mais de um mercado, isso significa configurações distintas em cada jurisdição, com diferentes certificadores ou PAC, diferentes formatos de comprovante e diferentes ciclos de fechamento que o sistema de faturamento precisa gerenciar de forma independente. O momento certo para resolver essa complexidade não é quando o primeiro cliente corporativo solicita um esclarecimento — é antes de assinar o primeiro contrato."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "Los operadores que tratan la facturación corporativa como una función de back-office que se resuelve sobre la marcha van a encontrar que el costo de los errores — en tiempo de equipo, en flujos de caja retrasados y en contratos perdidos — supera con frecuencia el costo de haberlo configurado correctamente desde el principio. Los que la tratan como parte del producto que el cliente corporativo evalúa al decidir si mantiene el contrato van a construir una cartera de cuentas con tasas de retención más altas, ciclos de cobro más predecibles y un número creciente de referencias activas que reducen el costo de adquisición de los contratos siguientes.",
-        "en": "Operators who treat corporate billing as a back-office function to be resolved on the fly will find that the cost of errors — in team time, delayed cash flows, and lost contracts — frequently exceeds the cost of having configured it correctly from the start. Those who treat it as part of the product the corporate client evaluates when deciding whether to keep the contract will build a portfolio of accounts with higher retention rates, more predictable collection cycles, and a growing number of active references that reduce the acquisition cost of subsequent contracts."
+        "en": "Operators who treat corporate billing as a back-office function to be resolved on the fly will find that the cost of errors — in team time, delayed cash flows, and lost contracts — frequently exceeds the cost of having configured it correctly from the start. Those who treat it as part of the product the corporate client evaluates when deciding whether to keep the contract will build a portfolio of accounts with higher retention rates, more predictable collection cycles, and a growing number of active references that reduce the acquisition cost of subsequent contracts.",
+        "pt": "Os operadores que tratam o faturamento corporativo como uma função de back-office que se resolve na correria vão descobrir que o custo dos erros — em tempo de equipe, em fluxos de caixa atrasados e em contratos perdidos — supera com frequência o custo de tê-lo configurado corretamente desde o início. Os que o tratam como parte do produto que o cliente corporativo avalia ao decidir se mantém o contrato vão construir uma carteira de contas com taxas de retenção mais altas, ciclos de cobrança mais previsíveis e um número crescente de referências ativas que reduzem o custo de aquisição dos contratos seguintes."
       }
     }
   ]

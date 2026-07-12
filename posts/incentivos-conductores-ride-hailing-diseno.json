@@ -3,16 +3,19 @@
   "category": "product",
   "title": {
     "es": "Incentivos para conductores en ride-hailing: qué retiene y qué solo cuesta",
-    "en": "Driver incentives in ride-hailing: what retains and what only costs"
+    "en": "Driver incentives in ride-hailing: what retains and what only costs",
+    "pt": "Incentivos para motoristas em ride-hailing: o que retém e o que só custa"
   },
   "excerpt": {
     "es": "Los incentivos que solo compran actividad no retienen conductores: crean dependencia al bono. El diseño que produce lealtad durable en una flota regional es más simple — y más barato — de lo que parece.",
-    "en": "Most driver incentive programs in regional fleets buy activity, not retention. The design that produces durable loyalty is simpler — and cheaper — than it appears."
+    "en": "Most driver incentive programs in regional fleets buy activity, not retention. The design that produces durable loyalty is simpler — and cheaper — than it appears.",
+    "pt": "Incentivos que só compram atividade não retêm motoristas: criam dependência do bônus. O desenho que produz lealdade durável em uma frota regional é mais simples — e mais barato — do que parece."
   },
   "heroImage": "https://raw.githubusercontent.com/jonatanvazquez/cabgo-blog-content/main/images/incentivos-conductores-ride-hailing-diseno.jpg",
   "heroImageAlt": {
     "es": "Ilustración isométrica de programa de incentivos para conductores en ride-hailing: escalera de hitos de antigüedad con tarjetas escalonadas a la izquierda, tarjeta analítica central comparando retención antes y después del programa, y conductor en vehículo con insignia senior a la derecha",
-    "en": "Isometric illustration of a driver incentive program for ride-hailing: tenure milestone ladder with stacked cards on the left, central analytics card comparing retention before and after the program, and driver in vehicle with senior badge on the right"
+    "en": "Isometric illustration of a driver incentive program for ride-hailing: tenure milestone ladder with stacked cards on the left, central analytics card comparing retention before and after the program, and driver in vehicle with senior badge on the right",
+    "pt": "Ilustração isométrica de programa de incentivos para motoristas em ride-hailing: escada de marcos de tempo de casa com cartões escalonados à esquerda, cartão analítico central comparando retenção antes e depois do programa, e motorista no veículo com selo sênior à direita"
   },
   "heroImagePrompt": "Isometric split composition showing a driver incentive program for a regional ride-hailing fleet. On the left, a vertical milestone ladder with three stacked tile cards rising upward: a six-month tile with a teal star badge and a route-priority arrow icon, a twelve-month tile with a corporate building icon and a glowing green ring, and a twenty-four-month tile with a senior driver ribbon badge in indigo. In the center foreground, a floating analytics card split vertically: left half shows a shorter red bar labeled thirty-eight percent with a small churn arrow pointing down, right half shows a taller teal bar labeled sixty-one percent with an upward loyalty arrow. On the right, a compact isometric vehicle with a smiling driver silhouette inside and a small ribbon badge on the car door, with three teal fare receipt icons stacked above the vehicle representing steady recurring income.",
   "publishedAt": "2026-06-03",
@@ -35,38 +38,53 @@
       "driver retention regional operator",
       "driver availability bonuses regional fleet",
       "driver incentive program local taxi operator"
+    ],
+    "pt": [
+      "incentivos motoristas ride-hailing regional",
+      "bônus tempo de casa motoristas frota táxi",
+      "rotatividade motoristas plataforma mobilidade LATAM",
+      "desenho programa incentivos motoristas ride-hailing",
+      "retenção motoristas operador regional",
+      "bônus disponibilidade motoristas frota regional",
+      "programa incentivos motoristas táxi local"
     ]
   },
   "author": {
     "name": "Equipo Cabgo",
     "role": {
       "es": "Plataforma de movilidad",
-      "en": "Mobility platform"
+      "en": "Mobility platform",
+      "pt": "Plataforma de mobilidade"
     }
   },
   "cta": {
     "heading": {
       "es": "¿Listo para lanzar tu propia app de movilidad?",
-      "en": "Ready to launch your own mobility app?"
+      "en": "Ready to launch your own mobility app?",
+      "pt": "Pronto para lançar seu próprio app de mobilidade?"
     },
     "body": {
       "es": "Configura tu marca, tus tarifas y tus servicios en semanas, no en meses. Cabgo te entrega la plataforma, tú te quedas con la operación y la marca.",
-      "en": "Set up your brand, pricing and services in weeks, not months. Cabgo ships the platform — you keep the operation and the brand."
+      "en": "Set up your brand, pricing and services in weeks, not months. Cabgo ships the platform — you keep the operation and the brand.",
+      "pt": "Configure sua marca, suas tarifas e seus serviços em semanas, não em meses. A Cabgo entrega a plataforma, você fica com a operação e a marca."
     },
     "buttonLabel": {
       "es": "Empezar ahora",
-      "en": "Get started"
+      "en": "Get started",
+      "pt": "Começar agora"
     },
     "buttonHref": "/empezar"
   },
   "seo": {
     "metaTitle": {
       "es": "Incentivos para conductores en ride-hailing | Cabgo",
-      "en": "Driver incentive design in ride-hailing | Cabgo"
+      "en": "Driver incentive design in ride-hailing | Cabgo",
+      "pt": "Incentivos para motoristas em ride-hailing | Cabgo"
     },
     "metaDescription": {
       "es": "Cómo diseñar incentivos para conductores en ride-hailing regional que reduzcan rotación sin crear dependencia al bono: antigüedad, actividad y umbrales reales.",
-      "en": "How to design driver incentives for regional ride-hailing that reduce turnover without bonus dependence: tenure benefits, activity bonuses, and ROI thresholds."
+      "en": "How to design driver incentives for regional ride-hailing that reduce turnover without bonus dependence: tenure benefits, activity bonuses, and ROI thresholds.",
+      "pt": "Como desenhar incentivos para motoristas em ride-hailing regional que reduzam rotatividade sem criar dependência do bônus: tempo de casa, atividade e limiares reais."
     }
   },
   "blocks": [
@@ -74,14 +92,16 @@
       "type": "paragraph",
       "text": {
         "es": "El operador regional que diseña su programa de incentivos para conductores mirando lo que hacen Uber o DiDi comete un error de categoría. Las estructuras de incentivos de las plataformas masivas están diseñadas para mover decenas de miles de conductores en mercados con exceso de oferta permanente: bonos por número de viajes en ventanas cortas, multiplicadores de ingresos en franjas pico, competencia continua por un número fijo de solicitudes disponibles. Trasplantar esa mecánica a una operación con 60 a 140 conductores en una ciudad de tamaño medio produce el efecto opuesto: conductores que optimizan su comportamiento para el bono del día, una flota fragmentada en individuos compitiendo por métricas y, finalmente, una rotación que el gasto en incentivos no logra frenar. El costo de ese diseño no aparece en el presupuesto de bonos — aparece en la tasa de reemplazo.",
-        "en": "The regional operator who designs their driver incentive program by copying what Uber or DiDi do is making a category error. Mass-platform incentive structures are designed to move tens of thousands of drivers in markets with permanent supply surplus: trip-count bonuses within short windows, income multipliers during peak hours, continuous competition for a fixed pool of available requests. Transplanting that mechanic to an operation with 60 to 140 drivers in a mid-size city produces the opposite effect: drivers who optimize their behavior around the daily bonus, a fleet fragmented into individuals competing over metrics, and ultimately, turnover that the bonus spending fails to contain. The cost of that design doesn't appear in the bonus budget — it appears in the replacement rate."
+        "en": "The regional operator who designs their driver incentive program by copying what Uber or DiDi do is making a category error. Mass-platform incentive structures are designed to move tens of thousands of drivers in markets with permanent supply surplus: trip-count bonuses within short windows, income multipliers during peak hours, continuous competition for a fixed pool of available requests. Transplanting that mechanic to an operation with 60 to 140 drivers in a mid-size city produces the opposite effect: drivers who optimize their behavior around the daily bonus, a fleet fragmented into individuals competing over metrics, and ultimately, turnover that the bonus spending fails to contain. The cost of that design doesn't appear in the bonus budget — it appears in the replacement rate.",
+        "pt": "O operador regional que desenha seu programa de incentivos para motoristas olhando o que Uber ou DiDi fazem comete um erro de categoria. As estruturas de incentivos das plataformas massivas são desenhadas para movimentar dezenas de milhares de motoristas em mercados com excesso de oferta permanente: bônus por número de corridas em janelas curtas, multiplicadores de receita em faixas de pico, competição contínua por um número fixo de solicitações disponíveis. Transplantar essa mecânica para uma operação com 60 a 140 motoristas em uma cidade de porte médio produz o efeito oposto: motoristas que otimizam seu comportamento para o bônus do dia, uma frota fragmentada em indivíduos competindo por métricas e, por fim, uma rotatividade que o gasto em incentivos não consegue frear. O custo desse desenho não aparece no orçamento de bônus — aparece na taxa de reposição."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "Este artículo es para operadores con 50 a 150 conductores activos que tienen algún tipo de bono en marcha — o están a punto de lanzarlo — y quieren saber qué diseño retiene conductores valiosos en lugar de solo activar viajes. La tesis es que el incentivo que únicamente compra actividad no produce retención durable: produce dependencia al bono que se rompe cuando el operador no puede sostenerlo. El incentivo que produce permanencia compra identidad — convierte al conductor en alguien que pertenece a una operación con futuro, no en alguien que trabaja para el mejor postor esta semana.",
-        "en": "This article is for operators with 50 to 150 active drivers who have some kind of bonus running — or are about to launch one — and want to know which design retains valuable drivers rather than just activating trips. The thesis is that the incentive that only buys activity doesn't produce durable retention: it produces bonus dependence that breaks the moment the operator can no longer sustain it. The incentive that produces lasting tenure buys identity — it turns the driver into someone who belongs to an operation with a future, not someone who works for the highest bidder this week."
+        "en": "This article is for operators with 50 to 150 active drivers who have some kind of bonus running — or are about to launch one — and want to know which design retains valuable drivers rather than just activating trips. The thesis is that the incentive that only buys activity doesn't produce durable retention: it produces bonus dependence that breaks the moment the operator can no longer sustain it. The incentive that produces lasting tenure buys identity — it turns the driver into someone who belongs to an operation with a future, not someone who works for the highest bidder this week.",
+        "pt": "Este artigo é para operadores com 50 a 150 motoristas ativos que têm algum tipo de bônus em andamento — ou estão prestes a lançá-lo — e querem saber qual desenho retém motoristas valiosos em vez de apenas ativar corridas. A tese é que o incentivo que unicamente compra atividade não produz retenção durável: produz dependência do bônus que se rompe quando o operador não consegue sustentá-lo. O incentivo que produz permanência compra identidade — transforma o motorista em alguém que pertence a uma operação com futuro, não em alguém que trabalha para quem paga mais nesta semana."
       }
     },
     {
@@ -90,21 +110,24 @@
       "id": "incentivos-plataformas-masivas-vs-regional",
       "text": {
         "es": "Lo que los incentivos de plataformas masivas no traducen al regional",
-        "en": "What mass-platform incentives don't translate to regional operations"
+        "en": "What mass-platform incentives don't translate to regional operations",
+        "pt": "O que os incentivos das plataformas massivas não traduzem para o regional"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "El modelo de incentivos de las plataformas grandes responde a un problema específico: un mercado con muchos más conductores que viajes disponibles fuera de las franjas pico, y la necesidad de activar disponibilidad en el momento preciso en que la demanda existe. Los multiplicadores de ingresos en hora pico, los bonos por mínimo de viajes semanales, los sistemas de niveles con beneficios escalonados — todos responden a ese problema con esa escala. En una operación regional con 80 conductores, el problema es distinto: en muchos mercados secundarios hay más demanda potencial que cobertura activa, la competencia entre conductores es baja porque no hay el exceso de oferta del modelo masivo, y el costo de perder a un conductor con dos años de experiencia es incomparablemente mayor que perder a uno de cinco días en una flota de 3,000.",
-        "en": "Mass-platform incentive models respond to a specific problem: a market with far more drivers than available rides outside peak hours, and the need to activate supply exactly when demand exists. Income multipliers at peak hours, bonuses for weekly trip minimums, tiered systems with graduated benefits — all designed for that problem at that scale. In a regional operation with 80 drivers, the problem is different: in many secondary markets there is more potential demand than active coverage, competition among drivers is low because there is no supply surplus of the mass-platform model, and the cost of losing a driver with two years of experience is incomparably higher than losing one who's been on the platform five days in a fleet of 3,000."
+        "en": "Mass-platform incentive models respond to a specific problem: a market with far more drivers than available rides outside peak hours, and the need to activate supply exactly when demand exists. Income multipliers at peak hours, bonuses for weekly trip minimums, tiered systems with graduated benefits — all designed for that problem at that scale. In a regional operation with 80 drivers, the problem is different: in many secondary markets there is more potential demand than active coverage, competition among drivers is low because there is no supply surplus of the mass-platform model, and the cost of losing a driver with two years of experience is incomparably higher than losing one who's been on the platform five days in a fleet of 3,000.",
+        "pt": "O modelo de incentivos das grandes plataformas responde a um problema específico: um mercado com muito mais motoristas do que corridas disponíveis fora das faixas de pico, e a necessidade de ativar disponibilidade no momento exato em que a demanda existe. Os multiplicadores de receita em horário de pico, os bônus por mínimo de corridas semanais, os sistemas de níveis com benefícios escalonados — todos respondem a esse problema com aquela escala. Em uma operação regional com 80 motoristas, o problema é diferente: em muitos mercados secundários há mais demanda potencial do que cobertura ativa, a competição entre motoristas é baixa porque não existe o excesso de oferta do modelo massivo, e o custo de perder um motorista com dois anos de experiência é incomparavelmente maior do que perder um de cinco dias em uma frota de 3.000."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "El incentivo de disponibilidad en pico que mueve cobertura con miles de conductores tiene efecto marginal en una flota de 80 — los conductores que van a estar disponibles en esa franja ya lo estaban sin el bono. Lo que ese bono sí hace es entrenar a los conductores a esperar que su disponibilidad en franjas altas tenga sobreprecio permanente. Cuando el bono baja por razones de presupuesto, la disponibilidad se reduce porque los conductores aprendieron que pico equivale a bono, no a demanda natural. El operador que construyó ese condicionamiento tiene que mantenerlo indefinidamente o perder cobertura exactamente cuando más la necesita.",
-        "en": "The peak availability incentive that moves coverage with thousands of drivers has marginal effect in a fleet of 80 — the drivers who are going to be available in that window already were, without the bonus. What that bonus does do is train drivers to expect a permanent premium for their availability during high-demand hours. When the bonus drops for budget reasons, availability drops too, because drivers learned that peak means bonus, not natural demand. The operator who built that conditioning has to sustain it indefinitely or lose coverage exactly when they need it most."
+        "en": "The peak availability incentive that moves coverage with thousands of drivers has marginal effect in a fleet of 80 — the drivers who are going to be available in that window already were, without the bonus. What that bonus does do is train drivers to expect a permanent premium for their availability during high-demand hours. When the bonus drops for budget reasons, availability drops too, because drivers learned that peak means bonus, not natural demand. The operator who built that conditioning has to sustain it indefinitely or lose coverage exactly when they need it most.",
+        "pt": "O incentivo de disponibilidade em pico que movimenta cobertura com milhares de motoristas tem efeito marginal em uma frota de 80 — os motoristas que vão estar disponíveis naquela faixa já estavam sem o bônus. O que esse bônus de fato faz é treinar os motoristas a esperar que sua disponibilidade em faixas altas tenha sobrepreço permanente. Quando o bônus cai por razões de orçamento, a disponibilidade se reduz porque os motoristas aprenderam que pico equivale a bônus, não a demanda natural. O operador que construiu esse condicionamento precisa mantê-lo indefinidamente ou perder cobertura exatamente quando mais precisa dela."
       }
     },
     {
@@ -113,21 +136,24 @@
       "id": "tipos-incentivo-actividad-identidad",
       "text": {
         "es": "Los dos tipos de incentivo: actividad e identidad",
-        "en": "The two types of incentive: activity and identity"
+        "en": "The two types of incentive: activity and identity",
+        "pt": "Os dois tipos de incentivo: atividade e identidade"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "Todos los incentivos para conductores caen en dos categorías funcionales. Los incentivos de actividad compran un comportamiento específico en el corto plazo: más viajes en una franja horaria, mayor disponibilidad en una zona, mejor calificación en el siguiente período. Tienen efecto visible en 7 a 15 días y dejan de tener efecto en el mismo plazo si no se sostienen. Son útiles para responder a necesidades operativas concretas — cubrir baches de cobertura en una zona nueva, mantener disponibilidad durante un evento local de alta demanda, reactivar conductores inactivos por un período corto. Su limitación es que generan vínculo con el bono, no con la plataforma. El conductor que optimiza su comportamiento para el incentivo de actividad está en la operación mientras ese incentivo sea suficientemente atractivo.",
-        "en": "All driver incentives fall into two functional categories. Activity incentives buy a specific short-term behavior: more trips in a time window, more availability in a zone, a better rating in the next period. They produce visible effects within 7 to 15 days and stop having effect in the same timeframe if not sustained. They are useful for responding to specific operational needs — filling coverage gaps in a new zone, maintaining supply during a high-demand local event, reactivating dormant drivers for a short period. Their limitation is that they build attachment to the bonus, not to the platform. A driver who optimizes their behavior around an activity incentive stays in the operation as long as that incentive is sufficiently attractive."
+        "en": "All driver incentives fall into two functional categories. Activity incentives buy a specific short-term behavior: more trips in a time window, more availability in a zone, a better rating in the next period. They produce visible effects within 7 to 15 days and stop having effect in the same timeframe if not sustained. They are useful for responding to specific operational needs — filling coverage gaps in a new zone, maintaining supply during a high-demand local event, reactivating dormant drivers for a short period. Their limitation is that they build attachment to the bonus, not to the platform. A driver who optimizes their behavior around an activity incentive stays in the operation as long as that incentive is sufficiently attractive.",
+        "pt": "Todos os incentivos para motoristas caem em duas categorias funcionais. Os incentivos de atividade compram um comportamento específico no curto prazo: mais corridas em uma faixa de horário, maior disponibilidade em uma zona, melhor avaliação no período seguinte. Têm efeito visível em 7 a 15 dias e deixam de ter efeito no mesmo prazo se não forem sustentados. São úteis para responder a necessidades operacionais concretas — cobrir lacunas de cobertura em uma zona nova, manter disponibilidade durante um evento local de alta demanda, reativar motoristas inativos por um período curto. Sua limitação é que geram vínculo com o bônus, não com a plataforma. O motorista que otimiza seu comportamento para o incentivo de atividade fica na operação enquanto esse incentivo for suficientemente atraente."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "Los incentivos de identidad operan con una mecánica distinta: reconocen algo que el conductor ya es — un miembro con antigüedad, alguien con calificación consistente, un conductor confiable en rutas de alto valor — en lugar de comprar un comportamiento nuevo. Su efecto en el corto plazo es menor que el de los incentivos de actividad, pero su impacto en la retención a los 90 y 180 días es significativamente mayor. El conductor que recibe un beneficio por haber cumplido su primer aniversario en la plataforma no recibe solo el beneficio — recibe la señal de que la operación lo ve como alguien con futuro, no como una unidad de oferta intercambiable. Esa señal es el activo que sostiene la permanencia cuando otra plataforma llega con un bono de activación mayor.",
-        "en": "Identity incentives operate with a different mechanic: they recognize something the driver already is — a member with tenure, someone with consistent ratings, a reliable driver on high-value routes — rather than buying a new behavior. Their short-term effect is smaller than activity incentives, but their impact on retention at 90 and 180 days is significantly higher. A driver who receives a benefit for having reached their first anniversary on the platform doesn't receive just the benefit — they receive the signal that the operation sees them as someone with a future, not as an interchangeable supply unit. That signal is the asset that sustains tenure when another platform arrives with a bigger activation bonus."
+        "en": "Identity incentives operate with a different mechanic: they recognize something the driver already is — a member with tenure, someone with consistent ratings, a reliable driver on high-value routes — rather than buying a new behavior. Their short-term effect is smaller than activity incentives, but their impact on retention at 90 and 180 days is significantly higher. A driver who receives a benefit for having reached their first anniversary on the platform doesn't receive just the benefit — they receive the signal that the operation sees them as someone with a future, not as an interchangeable supply unit. That signal is the asset that sustains tenure when another platform arrives with a bigger activation bonus.",
+        "pt": "Os incentivos de identidade operam com uma mecânica diferente: reconhecem algo que o motorista já é — um membro com tempo de casa, alguém com avaliação consistente, um motorista confiável em rotas de alto valor — em vez de comprar um comportamento novo. Seu efeito no curto prazo é menor do que o dos incentivos de atividade, mas seu impacto na retenção aos 90 e 180 dias é significativamente maior. O motorista que recebe um benefício por ter completado seu primeiro aniversário na plataforma não recebe apenas o benefício — recebe o sinal de que a operação o vê como alguém com futuro, não como uma unidade de oferta intercambiável. Esse sinal é o ativo que sustenta a permanência quando outra plataforma chega com um bônus de ativação maior."
       }
     },
     {
@@ -136,21 +162,24 @@
       "id": "bonos-disponibilidad-franjas-criticas",
       "text": {
         "es": "Bonos de disponibilidad en franjas críticas: cómo diseñarlos sin crear dependencia",
-        "en": "Availability bonuses for critical windows: how to design them without creating dependence"
+        "en": "Availability bonuses for critical windows: how to design them without creating dependence",
+        "pt": "Bônus de disponibilidade em faixas críticas: como desenhá-los sem criar dependência"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "Cuando la operación tiene franjas de cobertura débil — primer turno de la mañana, noches de viernes en zonas de restaurantes, domingos en áreas de demanda comercial — el incentivo de actividad que responde a ese problema necesita características específicas para funcionar sin generar condicionamiento permanente. El primer requisito es que esté ligado a una necesidad operativa con tiempo definido, no a una condición abierta: un bono de cobertura matutina para enero comunica temporalidad. Un bono por disponibilidad antes de las 7am sin fecha de término comunica que es parte de la estructura de ingresos de la plataforma — y esa percepción es difícil de revertir sin costo.",
-        "en": "When the operation has weak coverage windows — early morning shifts, Friday nights in restaurant zones, Sundays in commercial demand areas — the activity incentive addressing that gap needs specific characteristics to work without generating permanent conditioning. The first requirement is that it be tied to an operational need with a defined time frame, not an open-ended condition: a morning coverage bonus for January communicates temporality. A pre-7am availability bonus with no end date communicates that it is part of the platform's income structure — and that perception is difficult to reverse without cost."
+        "en": "When the operation has weak coverage windows — early morning shifts, Friday nights in restaurant zones, Sundays in commercial demand areas — the activity incentive addressing that gap needs specific characteristics to work without generating permanent conditioning. The first requirement is that it be tied to an operational need with a defined time frame, not an open-ended condition: a morning coverage bonus for January communicates temporality. A pre-7am availability bonus with no end date communicates that it is part of the platform's income structure — and that perception is difficult to reverse without cost.",
+        "pt": "Quando a operação tem faixas de cobertura fraca — primeiro turno da manhã, noites de sexta em zonas de restaurantes, domingos em áreas de demanda comercial — o incentivo de atividade que responde a esse problema precisa de características específicas para funcionar sem gerar condicionamento permanente. O primeiro requisito é que esteja atrelado a uma necessidade operacional com tempo definido, não a uma condição aberta: um bônus de cobertura matinal para janeiro comunica temporalidade. Um bônus por disponibilidade antes das 7h sem data de término comunica que faz parte da estrutura de receita da plataforma — e essa percepção é difícil de reverter sem custo."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "El segundo requisito es calibrar el monto correctamente. Si el bono representa más del 25 al 30% del ingreso de esa franja, el conductor que elige el turno por el bono lo abandonará en proporción cuando el bono baje. El rango que produce mejor resultado en operaciones de 60 a 120 conductores está entre el 12 y el 20% de ingreso adicional por viaje en la franja, con un número mínimo de viajes que activa el bono para filtrar a quienes llegan, hacen uno o dos viajes y se retiran. El bono de disponibilidad no tiene que ser el mayor incentivo de la semana — tiene que ser suficiente para que quien ya consideraba esa franja la confirme, no para convertirla en atractiva para alguien que no la habría elegido de otra forma.",
-        "en": "The second requirement is calibrating the amount correctly. If the bonus represents more than 25 to 30 percent of income in that window, the driver who chooses the shift for the bonus will reduce their availability proportionally when the bonus drops. The range that produces the best results in operations of 60 to 120 drivers is 12 to 20 percent additional income per trip in the window, with a minimum trip count that activates the bonus to filter out drivers who show up, complete one or two trips, and leave. The availability bonus doesn't need to be the biggest incentive of the week — it needs to be enough for a driver already considering that window to confirm the choice, not to make the window attractive to someone who wouldn't have chosen it otherwise."
+        "en": "The second requirement is calibrating the amount correctly. If the bonus represents more than 25 to 30 percent of income in that window, the driver who chooses the shift for the bonus will reduce their availability proportionally when the bonus drops. The range that produces the best results in operations of 60 to 120 drivers is 12 to 20 percent additional income per trip in the window, with a minimum trip count that activates the bonus to filter out drivers who show up, complete one or two trips, and leave. The availability bonus doesn't need to be the biggest incentive of the week — it needs to be enough for a driver already considering that window to confirm the choice, not to make the window attractive to someone who wouldn't have chosen it otherwise.",
+        "pt": "O segundo requisito é calibrar o valor corretamente. Se o bônus representa mais de 25 a 30% da receita daquela faixa, o motorista que escolhe o turno pelo bônus vai abandoná-lo na mesma proporção quando o bônus cair. A faixa que produz melhor resultado em operações de 60 a 120 motoristas está entre 12 e 20% de receita adicional por corrida na faixa, com um número mínimo de corridas que ativa o bônus para filtrar quem chega, faz uma ou duas corridas e se retira. O bônus de disponibilidade não precisa ser o maior incentivo da semana — precisa ser suficiente para que quem já considerava aquela faixa a confirme, não para torná-la atraente para alguém que não a teria escolhido de outra forma."
       }
     },
     {
@@ -159,14 +188,16 @@
       "id": "bono-antiguedad-tiempo-activo",
       "text": {
         "es": "El bono de antigüedad: convertir el tiempo en la plataforma en un activo del conductor",
-        "en": "The tenure bonus: turning time on the platform into a driver asset"
+        "en": "The tenure bonus: turning time on the platform into a driver asset",
+        "pt": "O bônus de tempo de casa: transformar o tempo na plataforma em um ativo do motorista"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "El incentivo con el mejor ROI documentado en retención para operaciones regionales de tamaño mediano es el menos común: el bono de antigüedad. Un beneficio creciente vinculado al tiempo activo del conductor — que puede ser acceso preferencial a ciertos tipos de viaje, una mejora en las condiciones de soporte o un incremento en ingresos promedio — produce retención en el período más crítico: el que va de los 6 a los 18 meses de operación, cuando el conductor ya no está motivado por la novedad pero todavía no tiene suficiente historia en la plataforma para sentir que tiene algo que perder si se va. El mecanismo es directo: el conductor con 14 meses en la plataforma tiene un costo de salida que el conductor sin ese historial no tiene — salir significa perder el reconocimiento acumulado.",
-        "en": "The incentive with the best documented ROI for retention in mid-size regional operations is the least common one: the tenure bonus. A benefit that grows with a driver's active time on the platform — which can be priority access to certain trip types, improved support conditions, or an average income increment — produces retention during the most critical period: the window from 6 to 18 months of operation, when a driver is no longer motivated by novelty but doesn't yet have enough history on the platform to feel like they have something to lose by leaving. The mechanism is direct: a driver with 14 months on the platform has a switching cost that a driver without that history doesn't — leaving means giving up the accumulated recognition."
+        "en": "The incentive with the best documented ROI for retention in mid-size regional operations is the least common one: the tenure bonus. A benefit that grows with a driver's active time on the platform — which can be priority access to certain trip types, improved support conditions, or an average income increment — produces retention during the most critical period: the window from 6 to 18 months of operation, when a driver is no longer motivated by novelty but doesn't yet have enough history on the platform to feel like they have something to lose by leaving. The mechanism is direct: a driver with 14 months on the platform has a switching cost that a driver without that history doesn't — leaving means giving up the accumulated recognition.",
+        "pt": "O incentivo com o melhor ROI documentado em retenção para operações regionais de porte médio é o menos comum: o bônus de tempo de casa. Um benefício crescente vinculado ao tempo ativo do motorista — que pode ser acesso preferencial a certos tipos de corrida, uma melhora nas condições de suporte ou um aumento na receita média — produz retenção no período mais crítico: o que vai dos 6 aos 18 meses de operação, quando o motorista já não está motivado pela novidade mas ainda não tem histórico suficiente na plataforma para sentir que tem algo a perder se sair. O mecanismo é direto: o motorista com 14 meses na plataforma tem um custo de saída que o motorista sem esse histórico não tem — sair significa perder o reconhecimento acumulado."
       }
     },
     {
@@ -174,7 +205,8 @@
       "style": "bullet",
       "intro": {
         "es": "Los hitos que producen mejor resultado en operaciones de 60 a 130 conductores:",
-        "en": "The milestones that produce the best results in operations of 60 to 130 drivers:"
+        "en": "The milestones that produce the best results in operations of 60 to 130 drivers:",
+        "pt": "Os marcos que produzem melhor resultado em operações de 60 a 130 motoristas:"
       },
       "items": {
         "es": [
@@ -186,6 +218,11 @@
           "At 6 months: priority access to higher-average-value trips — airport runs, corporate zones, institutional accounts — producing a real income increase of 8 to 12 percent over the fleet average without the benefit. A driver with 8 to 11 months who knows they will access this portfolio in six months has a concrete permanence horizon",
           "At 12 months: an additional support or economic benefit — priority support with a differentiated response time, credit extension in payment disputes, or exclusive access to the highest-average-ticket corporate account portfolio. At this point the driver is evaluating whether the platform has a future for them: the benefit confirms that it does",
           "At 24 months: explicit recognition as a senior driver with a visible distinction for the rest of the fleet — not just a bonus in the account statement, but a status that carries meaning in daily operations and reinforces the driver's credibility with corporate and institutional passengers"
+        ],
+        "pt": [
+          "Aos 6 meses: acesso preferencial a corridas de maior valor médio — aeroporto, zonas corporativas, contas institucionais — com um aumento real de receita de 8 a 12% sobre a média da frota sem o benefício. O motorista com 8 a 11 meses que sabe que em 6 meses acessa essa carteira tem um horizonte de permanência concreto",
+          "Aos 12 meses: um benefício adicional de suporte ou condição econômica — suporte prioritário com tempo de resposta diferenciado, extensão de crédito em disputas de pagamento, ou acesso exclusivo à carteira de contas corporativas de maior ticket médio. Nesse ponto, o motorista avalia se a plataforma tem futuro para ele: o benefício confirma que sim",
+          "Aos 24 meses: reconhecimento explícito como motorista sênior com uma distinção visível para o resto da frota — não só um bônus no extrato, mas um status que tem significado na operação cotidiana e que reforça a credibilidade do motorista diante de passageiros corporativos e institucionais"
         ]
       }
     },
@@ -193,18 +230,21 @@
       "type": "paragraph",
       "text": {
         "es": "El costo total de este esquema sobre una flota de 80 conductores es significativamente menor que el costo de reemplazar el 30% de esa flota cada año — la tasa de rotación típica de operaciones sin incentivos de antigüedad. Cuando el operador compara el gasto en beneficios de antigüedad contra el gasto en captación, documentación, entrenamiento y productividad reducida durante las primeras semanas de cada conductor nuevo, el programa tiene ROI positivo incluso a tasas de mejora modestas: retener al 15% adicional de conductores más allá de su primer año tiene un impacto económico que el mismo presupuesto invertido en bonos de actividad generales difícilmente puede igualar.",
-        "en": "The total cost of this structure across a fleet of 80 drivers is significantly lower than the cost of replacing 30 percent of that fleet each year — the typical turnover rate in operations without tenure incentives. When the operator compares the spend on tenure benefits against the spend on recruitment, documentation, training, and reduced productivity during each new driver's first weeks, the program shows positive ROI even at modest improvement rates: retaining 15 percent more drivers past their one-year mark has an economic impact that the same budget invested in general activity bonuses can rarely match."
+        "en": "The total cost of this structure across a fleet of 80 drivers is significantly lower than the cost of replacing 30 percent of that fleet each year — the typical turnover rate in operations without tenure incentives. When the operator compares the spend on tenure benefits against the spend on recruitment, documentation, training, and reduced productivity during each new driver's first weeks, the program shows positive ROI even at modest improvement rates: retaining 15 percent more drivers past their one-year mark has an economic impact that the same budget invested in general activity bonuses can rarely match.",
+        "pt": "O custo total desse esquema sobre uma frota de 80 motoristas é significativamente menor do que o custo de repor 30% dessa frota a cada ano — a taxa de rotatividade típica de operações sem incentivos de tempo de casa. Quando o operador compara o gasto em benefícios de tempo de casa contra o gasto em captação, documentação, treinamento e produtividade reduzida durante as primeiras semanas de cada motorista novo, o programa tem ROI positivo mesmo a taxas de melhora modestas: reter 15% adicionais de motoristas além do primeiro ano tem um impacto econômico que o mesmo orçamento investido em bônus de atividade gerais dificilmente consegue igualar."
       }
     },
     {
       "type": "quote",
       "text": {
         "es": "Tuvimos tres años pagando bonos por viajes sin ver que la rotación bajara. Cuando cambiamos el presupuesto a un programa de antigüedad — el conductor que llega a un año accede a las cuentas corporativas de mayor ticket y el que llega a dos años tiene soporte directo con el coordinador sin pasar por el sistema general — la tasa de conductores que se quedaron más de un año pasó de 38 a 61 por ciento en doce meses. El costo total del programa fue menor que el año anterior porque dejamos de pagar bonos a conductores que se iban de todas formas.",
-        "en": "We spent three years paying trip bonuses without seeing turnover drop. When we moved the budget to a tenure program — drivers who reach one year get access to the highest-ticket corporate accounts, and those who reach two years have direct support with the coordinator without going through the general queue — the share of drivers staying past one year went from 38 to 61 percent in twelve months. The total program cost was lower than the year before because we stopped paying bonuses to drivers who were going to leave anyway."
+        "en": "We spent three years paying trip bonuses without seeing turnover drop. When we moved the budget to a tenure program — drivers who reach one year get access to the highest-ticket corporate accounts, and those who reach two years have direct support with the coordinator without going through the general queue — the share of drivers staying past one year went from 38 to 61 percent in twelve months. The total program cost was lower than the year before because we stopped paying bonuses to drivers who were going to leave anyway.",
+        "pt": "Passamos três anos pagando bônus por corridas sem ver a rotatividade cair. Quando mudamos o orçamento para um programa de tempo de casa — o motorista que completa um ano acessa as contas corporativas de maior ticket e o que completa dois anos tem suporte direto com o coordenador sem passar pela fila geral — a taxa de motoristas que ficaram mais de um ano passou de 38 para 61 por cento em doze meses. O custo total do programa foi menor do que no ano anterior porque deixamos de pagar bônus a motoristas que iam embora de qualquer forma."
       },
       "attribution": {
         "es": "Operadora con 96 conductores activos en una ciudad de 280,000 habitantes en el occidente de México",
-        "en": "Operator with 96 active drivers in a city of 280,000 in western Mexico"
+        "en": "Operator with 96 active drivers in a city of 280,000 in western Mexico",
+        "pt": "Operadora com 96 motoristas ativos em uma cidade de 280.000 habitantes no ocidente do México"
       }
     },
     {
@@ -213,21 +253,24 @@
       "id": "cuanto-gastar-umbral-roi",
       "text": {
         "es": "Cuánto gastar: umbrales que sostienen ROI",
-        "en": "How much to spend: thresholds that sustain ROI"
+        "en": "How much to spend: thresholds that sustain ROI",
+        "pt": "Quanto gastar: limiares que sustentam ROI"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "La pregunta más frecuente antes de diseñar un programa de incentivos es cuánto presupuesto asignarle. La respuesta más útil no es un porcentaje del ingreso total de la plataforma sino una comparación con el costo de la alternativa. Si reemplazar a un conductor con 12 meses de antigüedad cuesta entre $800 y $1,200 USD — captación, documentación, entrenamiento y las primeras semanas de productividad reducida — el presupuesto de incentivos que retiene a ese conductor tiene un umbral claro: cualquier gasto por debajo de ese rango que reduzca de forma medible la probabilidad de que el conductor se vaya tiene ROI positivo por definición.",
-        "en": "The most common question before designing an incentive program is how much budget to assign. The most useful answer is not a percentage of total platform revenue but a comparison with the cost of the alternative. If replacing a driver with 12 months of tenure costs between $800 and $1,200 USD — recruitment, documentation, training, and the first weeks of reduced productivity — the incentive budget that retains that driver has a clear threshold: any spend below that range that measurably reduces the probability of the driver leaving has positive ROI by definition."
+        "en": "The most common question before designing an incentive program is how much budget to assign. The most useful answer is not a percentage of total platform revenue but a comparison with the cost of the alternative. If replacing a driver with 12 months of tenure costs between $800 and $1,200 USD — recruitment, documentation, training, and the first weeks of reduced productivity — the incentive budget that retains that driver has a clear threshold: any spend below that range that measurably reduces the probability of the driver leaving has positive ROI by definition.",
+        "pt": "A pergunta mais frequente antes de desenhar um programa de incentivos é quanto orçamento destinar a ele. A resposta mais útil não é uma porcentagem da receita total da plataforma, e sim uma comparação com o custo da alternativa. Se repor um motorista com 12 meses de tempo de casa custa entre $800 e $1.200 USD — captação, documentação, treinamento e as primeiras semanas de produtividade reduzida — o orçamento de incentivos que retém esse motorista tem um limiar claro: qualquer gasto abaixo dessa faixa que reduza de forma mensurável a probabilidade de o motorista sair tem ROI positivo por definição."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "En la práctica, operaciones de 80 a 120 conductores con programas bien diseñados gastan entre el 4 y el 7% del ingreso total de la plataforma en incentivos para conductores. La distribución importa tanto como el monto total: los programas con mejor resultado de retención concentran el 60 al 70% del presupuesto en beneficios de antigüedad e identidad, con el 30 al 40% restante en bonos de actividad para coberturas específicas y temporales. Los programas que invierten esa distribución — la mayor parte en bonos de actividad generales — reportan tasas de rotación similares a operaciones sin programa formal, con el gasto pero sin el resultado. El presupuesto no es el problema en la mayoría de los casos: es el destino de ese presupuesto.",
-        "en": "In practice, operations of 80 to 120 drivers with well-designed programs spend 4 to 7 percent of total platform revenue on driver incentives. Distribution matters as much as the total: programs with the best retention results concentrate 60 to 70 percent of the budget on tenure and identity benefits, with the remaining 30 to 40 percent in activity bonuses for specific and temporary coverage needs. Programs that invert that distribution — the majority in general activity bonuses — report turnover rates similar to operations with no formal program, with the spending but without the result. The budget is not the problem in most cases: the allocation of that budget is."
+        "en": "In practice, operations of 80 to 120 drivers with well-designed programs spend 4 to 7 percent of total platform revenue on driver incentives. Distribution matters as much as the total: programs with the best retention results concentrate 60 to 70 percent of the budget on tenure and identity benefits, with the remaining 30 to 40 percent in activity bonuses for specific and temporary coverage needs. Programs that invert that distribution — the majority in general activity bonuses — report turnover rates similar to operations with no formal program, with the spending but without the result. The budget is not the problem in most cases: the allocation of that budget is.",
+        "pt": "Na prática, operações de 80 a 120 motoristas com programas bem desenhados gastam entre 4 e 7% da receita total da plataforma em incentivos para motoristas. A distribuição importa tanto quanto o valor total: os programas com melhor resultado de retenção concentram 60 a 70% do orçamento em benefícios de tempo de casa e identidade, com os 30 a 40% restantes em bônus de atividade para coberturas específicas e temporárias. Os programas que invertem essa distribuição — a maior parte em bônus de atividade gerais — reportam taxas de rotatividade semelhantes às de operações sem programa formal, com o gasto mas sem o resultado. O orçamento não é o problema na maioria dos casos: é o destino desse orçamento."
       }
     },
     {
@@ -236,35 +279,40 @@
       "id": "simplicidad-programas-puntos-regional",
       "text": {
         "es": "La regla de la simplicidad: por qué los programas de puntos pierden en flotas regionales",
-        "en": "The simplicity rule: why points programs fail in regional fleets"
+        "en": "The simplicity rule: why points programs fail in regional fleets",
+        "pt": "A regra da simplicidade: por que os programas de pontos perdem em frotas regionais"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "Un programa de incentivos que la mayoría de los conductores no entiende produce un resultado predecible: lo perciben como una promesa difusa en lugar de un beneficio concreto, y una promesa difusa no cambia comportamientos. El sistema de puntos canjeables, los niveles con múltiples condiciones de acceso, los bonos que se calculan con fórmulas que combinan calificación y número de viajes y zona de operación — todos producen esa percepción en conductores que tienen poco tiempo para aprender la mecánica de un sistema que puede cambiar en el próximo ciclo. En una operación regional donde el coordinador conoce personalmente a la mayoría de la flota, la complejidad del programa no señala sofisticación — señala desconfianza.",
-        "en": "An incentive program most drivers don't understand produces a predictable result: they perceive it as a vague promise rather than a concrete benefit, and a vague promise doesn't change behavior. Points systems with redemption schedules, tiers with multiple access conditions, bonuses calculated with formulas combining rating and trip count and operating zone — all produce that perception in drivers who have little time to learn the mechanic of a system that may change in the next cycle. In a regional operation where the coordinator knows most of the fleet personally, program complexity doesn't signal sophistication — it signals distrust."
+        "en": "An incentive program most drivers don't understand produces a predictable result: they perceive it as a vague promise rather than a concrete benefit, and a vague promise doesn't change behavior. Points systems with redemption schedules, tiers with multiple access conditions, bonuses calculated with formulas combining rating and trip count and operating zone — all produce that perception in drivers who have little time to learn the mechanic of a system that may change in the next cycle. In a regional operation where the coordinator knows most of the fleet personally, program complexity doesn't signal sophistication — it signals distrust.",
+        "pt": "Um programa de incentivos que a maioria dos motoristas não entende produz um resultado previsível: eles o percebem como uma promessa difusa em vez de um benefício concreto, e uma promessa difusa não muda comportamentos. O sistema de pontos resgatáveis, os níveis com múltiplas condições de acesso, os bônus calculados com fórmulas que combinam avaliação e número de corridas e zona de operação — todos produzem essa percepção em motoristas que têm pouco tempo para aprender a mecânica de um sistema que pode mudar no próximo ciclo. Em uma operação regional onde o coordenador conhece pessoalmente a maior parte da frota, a complexidade do programa não sinaliza sofisticação — sinaliza desconfiança."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "La regla práctica que funciona: cualquier conductor de la flota debería poder explicar en menos de 30 segundos cómo funciona el programa y cuánto recibe por qué. Si no puede, el programa es demasiado complejo para producir el efecto de identidad que se busca. Un bono de antigüedad claro — 'cuando cumplas un año activo, accedes a las cuentas corporativas de mayor valor' — cambia el horizonte de permanencia de los conductores con 8 a 11 meses. Una fórmula de puntos que nadie sabe cómo leer no cambia nada. La simplicidad no es una concesión al tamaño de la operación — es la condición necesaria para que el incentivo construya el vínculo que justifica su costo.",
-        "en": "The practical rule that works: any driver in the fleet should be able to explain in under 30 seconds how the program works and what they receive for what. If they can't, the program is too complex to produce the identity effect it's meant to achieve. A clear tenure bonus — 'when you complete one active year, you get access to the highest-value corporate accounts' — shifts the permanence horizon for drivers with 8 to 11 months. A points formula nobody knows how to read changes nothing. Simplicity isn't a concession to the operation's size — it's the necessary condition for the incentive to build the attachment that justifies its cost."
+        "en": "The practical rule that works: any driver in the fleet should be able to explain in under 30 seconds how the program works and what they receive for what. If they can't, the program is too complex to produce the identity effect it's meant to achieve. A clear tenure bonus — 'when you complete one active year, you get access to the highest-value corporate accounts' — shifts the permanence horizon for drivers with 8 to 11 months. A points formula nobody knows how to read changes nothing. Simplicity isn't a concession to the operation's size — it's the necessary condition for the incentive to build the attachment that justifies its cost.",
+        "pt": "A regra prática que funciona: qualquer motorista da frota deveria conseguir explicar em menos de 30 segundos como funciona o programa e quanto recebe por quê. Se não consegue, o programa é complexo demais para produzir o efeito de identidade que se busca. Um bônus de tempo de casa claro — 'quando você completar um ano ativo, acessa as contas corporativas de maior valor' — muda o horizonte de permanência dos motoristas com 8 a 11 meses. Uma fórmula de pontos que ninguém sabe ler não muda nada. A simplicidade não é uma concessão ao tamanho da operação — é a condição necessária para que o incentivo construa o vínculo que justifica seu custo."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "El operador que diseña incentivos pensando en qué vínculo quiere construir — no solo qué comportamiento quiere comprar — tiene un programa que mejora con la flota en lugar de uno que se desactiva cuando la caja lo exige. La diferencia entre una flota con el 61% de conductores activos al año de antigüedad y una con el 38% no está en el presupuesto total de incentivos: está en si ese presupuesto se destina a reconocimiento o a subsidio temporal. El conductor que recibe un beneficio por antigüedad no lo percibe como compensación adicional — lo percibe como evidencia de que la operación tiene un proyecto en el que tiene lugar.",
-        "en": "The operator who designs incentives thinking about what attachment they want to build — not just what behavior they want to buy — has a program that improves with the fleet rather than one that shuts off when cash gets tight. The difference between a fleet where 61 percent of drivers are still active at one year and one where 38 percent are doesn't lie in the total incentive budget: it lies in whether that budget goes toward recognition or temporary subsidy. The driver who receives a tenure benefit doesn't perceive it as extra compensation — they perceive it as evidence that the operation has a project they belong to."
+        "en": "The operator who designs incentives thinking about what attachment they want to build — not just what behavior they want to buy — has a program that improves with the fleet rather than one that shuts off when cash gets tight. The difference between a fleet where 61 percent of drivers are still active at one year and one where 38 percent are doesn't lie in the total incentive budget: it lies in whether that budget goes toward recognition or temporary subsidy. The driver who receives a tenure benefit doesn't perceive it as extra compensation — they perceive it as evidence that the operation has a project they belong to.",
+        "pt": "O operador que desenha incentivos pensando em qual vínculo quer construir — não só qual comportamento quer comprar — tem um programa que melhora junto com a frota em vez de um que se desativa quando o caixa exige. A diferença entre uma frota com 61% de motoristas ativos ao completar um ano de casa e uma com 38% não está no orçamento total de incentivos: está em se esse orçamento é destinado a reconhecimento ou a subsídio temporário. O motorista que recebe um benefício por tempo de casa não o percebe como compensação adicional — percebe como evidência de que a operação tem um projeto no qual ele tem lugar."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "En un mercado donde la siguiente plataforma siempre puede ofrecer un bono de activación mayor en el primer mes, la ventaja sostenible de una operación regional no está en el precio que paga por viaje — está en si el conductor con 18 meses de experiencia tiene una razón construida con el tiempo para quedarse. El programa que produce esa razón no es el más caro ni el más complejo: es el más consistente, el que existe cada mes sin que el operador tenga que reactivarlo, y el que convierte el tiempo del conductor en un activo que perder en lugar de en un recurso que puede vender al mejor postor.",
-        "en": "In a market where the next platform can always offer a bigger activation bonus in the first month, the sustainable advantage of a regional operation isn't in the per-trip price it pays — it's in whether the driver with 18 months of experience has a reason built over time to stay. The program that produces that reason isn't the most expensive or the most complex: it's the most consistent, the one that exists every month without the operator needing to reactivate it, and the one that turns the driver's time into an asset they stand to lose rather than a resource they can sell to the highest bidder."
+        "en": "In a market where the next platform can always offer a bigger activation bonus in the first month, the sustainable advantage of a regional operation isn't in the per-trip price it pays — it's in whether the driver with 18 months of experience has a reason built over time to stay. The program that produces that reason isn't the most expensive or the most complex: it's the most consistent, the one that exists every month without the operator needing to reactivate it, and the one that turns the driver's time into an asset they stand to lose rather than a resource they can sell to the highest bidder.",
+        "pt": "Em um mercado onde a próxima plataforma sempre pode oferecer um bônus de ativação maior no primeiro mês, a vantagem sustentável de uma operação regional não está no preço que paga por corrida — está em se o motorista com 18 meses de experiência tem uma razão construída ao longo do tempo para ficar. O programa que produz essa razão não é o mais caro nem o mais complexo: é o mais consistente, o que existe todo mês sem que o operador tenha que reativá-lo, e o que transforma o tempo do motorista em um ativo a perder em vez de em um recurso que pode vender para quem paga mais."
       }
     }
   ]

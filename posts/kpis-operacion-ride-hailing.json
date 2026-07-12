@@ -3,16 +3,19 @@
   "category": "product",
   "title": {
     "es": "Los 6 KPIs que sí importan en una operación de ride-hailing regional",
-    "en": "The 6 KPIs that actually matter in a regional ride-hailing operation"
+    "en": "The 6 KPIs that actually matter in a regional ride-hailing operation",
+    "pt": "Os 6 KPIs que realmente importam numa operação de ride-hailing regional"
   },
   "excerpt": {
     "es": "El 80% de las métricas de un dashboard de movilidad no predicen nada accionable. Estos seis indicadores son los que diagnostican si la operación va bien o está a punto de deteriorarse.",
-    "en": "In a regional mobility operation, 80% of tracked metrics predict nothing actionable. These six indicators diagnose whether the operation is healthy or quietly deteriorating."
+    "en": "In a regional mobility operation, 80% of tracked metrics predict nothing actionable. These six indicators diagnose whether the operation is healthy or quietly deteriorating.",
+    "pt": "80% das métricas de um dashboard de mobilidade não preveem nada acionável. Estes seis indicadores são os que diagnosticam se a operação vai bem ou está prestes a se deteriorar."
   },
   "heroImage": "https://raw.githubusercontent.com/jonatanvazquez/cabgo-blog-content/main/images/kpis-operacion-ride-hailing.jpg",
   "heroImageAlt": {
     "es": "Ilustración isométrica de un tablero de control con cuatro paneles de métricas flotando sobre una cuadrícula urbana con rutas de vehículos activos",
-    "en": "Isometric illustration of a control dashboard with four floating metric panels above an urban grid with active vehicle routes"
+    "en": "Isometric illustration of a control dashboard with four floating metric panels above an urban grid with active vehicle routes",
+    "pt": "Ilustração isométrica de um painel de controle com quatro painéis de métricas flutuando sobre uma grade urbana com rotas de veículos ativos"
   },
   "heroImagePrompt": "Isometric operations dashboard for a regional mobility app. Show four glowing metric panels arranged on a central control surface: a circular completion-rate gauge, a stopwatch showing assignment time, a bar chart for driver hourly earnings, and a dual rating comparison dial. Below the dashboard, a small city grid with taxi and scooter icons moving along lit route lines. A stylized operator figure reviews data on a floating monitor. Clean geometric shapes, no text on the panels, convey precision and operational clarity.",
   "publishedAt": "2026-04-25",
@@ -35,38 +38,53 @@
       "driver platform metrics",
       "mobility operator dashboard",
       "passenger retention taxi app"
+    ],
+    "pt": [
+      "KPIs app mobilidade",
+      "métricas ride-hailing regional",
+      "taxa de conclusão táxi",
+      "indicadores operação táxi",
+      "métricas motoristas plataforma",
+      "dashboard operador mobilidade",
+      "retenção passageiros app táxi"
     ]
   },
   "author": {
     "name": "Equipo Cabgo",
     "role": {
       "es": "Plataforma de movilidad",
-      "en": "Mobility platform"
+      "en": "Mobility platform",
+      "pt": "Plataforma de mobilidade"
     }
   },
   "cta": {
     "heading": {
       "es": "¿Listo para lanzar tu propia app de movilidad?",
-      "en": "Ready to launch your own mobility app?"
+      "en": "Ready to launch your own mobility app?",
+      "pt": "Pronto para lançar seu próprio app de mobilidade?"
     },
     "body": {
       "es": "Configura tu marca, tus tarifas y tus servicios en semanas, no en meses. Cabgo te entrega la plataforma, tú te quedas con la operación y la marca.",
-      "en": "Set up your brand, pricing and services in weeks, not months. Cabgo ships the platform — you keep the operation and the brand."
+      "en": "Set up your brand, pricing and services in weeks, not months. Cabgo ships the platform — you keep the operation and the brand.",
+      "pt": "Configure sua marca, suas tarifas e seus serviços em semanas, não em meses. A Cabgo entrega a plataforma, você fica com a operação e a marca."
     },
     "buttonLabel": {
       "es": "Empezar ahora",
-      "en": "Get started"
+      "en": "Get started",
+      "pt": "Começar agora"
     },
     "buttonHref": "/empezar"
   },
   "seo": {
     "metaTitle": {
       "es": "KPIs que importan en una operación de movilidad | Cabgo",
-      "en": "KPIs that matter in a regional mobility operation | Cabgo"
+      "en": "KPIs that matter in a regional mobility operation | Cabgo",
+      "pt": "KPIs que importam numa operação de mobilidade | Cabgo"
     },
     "metaDescription": {
       "es": "Seis métricas que diagnostican la salud real de tu operación: tasa de completación, tiempo de asignación, ingreso por hora del conductor y más.",
-      "en": "Six metrics that diagnose the real health of a regional mobility operation: completion rate, assignment time, driver hourly earnings, and reactivation ratio."
+      "en": "Six metrics that diagnose the real health of a regional mobility operation: completion rate, assignment time, driver hourly earnings, and reactivation ratio.",
+      "pt": "Seis métricas que diagnosticam a saúde real da sua operação: taxa de conclusão, tempo de atribuição, ganho por hora do motorista e mais."
     }
   },
   "blocks": [
@@ -74,14 +92,16 @@
       "type": "paragraph",
       "text": {
         "es": "La mayoría de los operadores de movilidad regional que llevan 60 a 90 días de operación abren su dashboard y ven docenas de métricas: viajes totales, ingresos acumulados, conductores registrados, pasajeros únicos, distancia recorrida, calificación promedio. Ese volumen de datos no produce mejor toma de decisiones — produce parálisis selectiva. Los operadores consultan los números que son más fáciles de encontrar, no los que predicen si la operación va a sobrevivir el siguiente trimestre.",
-        "en": "Most regional mobility operators 60 to 90 days into their operation open their dashboard to find dozens of metrics: total trips, cumulative revenue, registered drivers, unique passengers, kilometers covered, average rating. That volume of data doesn't produce better decisions — it produces selective paralysis. Operators end up looking at whatever numbers are easiest to find, not the ones that predict whether the operation will survive the next quarter."
+        "en": "Most regional mobility operators 60 to 90 days into their operation open their dashboard to find dozens of metrics: total trips, cumulative revenue, registered drivers, unique passengers, kilometers covered, average rating. That volume of data doesn't produce better decisions — it produces selective paralysis. Operators end up looking at whatever numbers are easiest to find, not the ones that predict whether the operation will survive the next quarter.",
+        "pt": "A maioria dos operadores de mobilidade regional com 60 a 90 dias de operação abre seu dashboard e vê dezenas de métricas: corridas totais, receita acumulada, motoristas cadastrados, passageiros únicos, distância percorrida, avaliação média. Esse volume de dados não produz melhores decisões — produz paralisia seletiva. Os operadores consultam os números mais fáceis de encontrar, não os que preveem se a operação vai sobreviver ao próximo trimestre."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "Este artículo es para operadores que ya están en funcionamiento — con 30 conductores activos o más y al menos 60 días de datos — y que quieren distinguir las métricas que accionan algo de las métricas que solo llenan una pantalla. Vamos a ver seis indicadores concretos: los que diagnostican la experiencia del pasajero, la salud del lado de la oferta, la sostenibilidad financiera y la dirección que toma la operación cuando ninguna métrica individual la explica por sí sola.",
-        "en": "This article is for operators already running — 30 or more active drivers and at least 60 days of data — who want to separate metrics that trigger action from metrics that just fill a screen. We'll cover six concrete indicators: those that diagnose passenger experience, supply-side health, financial sustainability, and the direction an operation is heading when no single metric explains it on its own."
+        "en": "This article is for operators already running — 30 or more active drivers and at least 60 days of data — who want to separate metrics that trigger action from metrics that just fill a screen. We'll cover six concrete indicators: those that diagnose passenger experience, supply-side health, financial sustainability, and the direction an operation is heading when no single metric explains it on its own.",
+        "pt": "Este artigo é para operadores que já estão em funcionamento — com 30 motoristas ativos ou mais e pelo menos 60 dias de dados — e que querem distinguir as métricas que acionam algo das métricas que só preenchem uma tela. Vamos ver seis indicadores concretos: os que diagnosticam a experiência do passageiro, a saúde do lado da oferta, a sustentabilidade financeira e a direção que a operação toma quando nenhuma métrica individual a explica sozinha."
       }
     },
     {
@@ -90,21 +110,24 @@
       "id": "tasa-completacion",
       "text": {
         "es": "La tasa de completación: el indicador que nadie pone en la primera fila",
-        "en": "Completion rate: the indicator nobody puts in the front row"
+        "en": "Completion rate: the indicator nobody puts in the front row",
+        "pt": "A taxa de conclusão: o indicador que ninguém coloca na primeira fila"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "La métrica que más operadores pasan por alto en los primeros meses no es sofisticada: es la proporción de solicitudes que terminan en viaje completado. Una plataforma con 300 solicitudes diarias y 210 viajes completados tiene una tasa de completación del 70%. Ese número es el termómetro más sensible de la operación porque captura simultáneamente la salud de la oferta de conductores, el funcionamiento del producto y la aceptación del precio por parte del pasajero. En mercados regionales de LATAM, una tasa saludable está por encima del 78%. Por debajo del 70%, algo funciona mal — no necesariamente todo, pero algo concreto y detectable.",
-        "en": "The metric most operators overlook in the first months isn't sophisticated: it's the proportion of requests that end in a completed trip. A platform with 300 daily requests and 210 completed trips has a 70% completion rate. That number is the most sensitive thermometer in the operation because it captures driver supply health, product functionality and passenger price acceptance all at once. In LATAM regional markets, a healthy completion rate sits above 78%. Below 70%, something is broken — not necessarily everything, but something specific and diagnosable."
+        "en": "The metric most operators overlook in the first months isn't sophisticated: it's the proportion of requests that end in a completed trip. A platform with 300 daily requests and 210 completed trips has a 70% completion rate. That number is the most sensitive thermometer in the operation because it captures driver supply health, product functionality and passenger price acceptance all at once. In LATAM regional markets, a healthy completion rate sits above 78%. Below 70%, something is broken — not necessarily everything, but something specific and diagnosable.",
+        "pt": "A métrica que mais operadores ignoram nos primeiros meses não é sofisticada: é a proporção de solicitações que terminam em corrida concluída. Uma plataforma com 300 solicitações diárias e 210 corridas concluídas tem uma taxa de conclusão de 70%. Esse número é o termômetro mais sensível da operação porque captura ao mesmo tempo a saúde da oferta de motoristas, o funcionamento do produto e a aceitação do preço pelo passageiro. Em mercados regionais da América Latina, uma taxa saudável fica acima de 78%. Abaixo de 70%, algo funciona mal — não necessariamente tudo, mas algo concreto e detectável."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "Los cuatro factores que más la afectan son la cobertura geográfica de conductores en las zonas de mayor demanda, la velocidad de asignación — más de 90 segundos antes de la aceptación genera un aumento medible de cancelaciones —, la comparación del precio actual con las expectativas del pasajero local, y la confiabilidad técnica de la app en dispositivos de gama media. Ese último punto es más importante de lo que parece: en ciudades de 80,000 a 250,000 habitantes, la mayoría de los pasajeros accede desde Android de gama media o baja, y los problemas de compatibilidad o lentitud producen abandonos que no aparecen como cancelaciones en los logs pero sí reducen la tasa de completación.",
-        "en": "The four factors that move it most are driver coverage in high-demand zones, assignment speed — more than 90 seconds before acceptance causes a measurable rise in cancellations —, current price versus what the local passenger expects, and app reliability on mid-range devices. That last point matters more than it looks: in cities of 80,000 to 250,000 residents, most passengers access from mid- or low-range Android devices, and compatibility or performance issues produce drop-offs that don't show up as cancellations in logs but do reduce the completion rate."
+        "en": "The four factors that move it most are driver coverage in high-demand zones, assignment speed — more than 90 seconds before acceptance causes a measurable rise in cancellations —, current price versus what the local passenger expects, and app reliability on mid-range devices. That last point matters more than it looks: in cities of 80,000 to 250,000 residents, most passengers access from mid- or low-range Android devices, and compatibility or performance issues produce drop-offs that don't show up as cancellations in logs but do reduce the completion rate.",
+        "pt": "Os quatro fatores que mais a afetam são a cobertura geográfica de motoristas nas zonas de maior demanda, a velocidade de atribuição — mais de 90 segundos antes da aceitação gera um aumento mensurável de cancelamentos —, a comparação do preço atual com as expectativas do passageiro local e a confiabilidade técnica do app em dispositivos intermediários. Esse último ponto é mais importante do que parece: em cidades de 80,000 a 250,000 habitantes, a maioria dos passageiros acessa de Android intermediário ou de entrada, e os problemas de compatibilidade ou lentidão produzem abandonos que não aparecem como cancelamentos nos logs, mas reduzem a taxa de conclusão."
       }
     },
     {
@@ -113,21 +136,24 @@
       "id": "tiempo-primera-asignacion",
       "text": {
         "es": "Tiempo de primera asignación: el número que define el primer segundo de la experiencia",
-        "en": "First-assignment time: the number that defines the passenger's first second"
+        "en": "First-assignment time: the number that defines the passenger's first second",
+        "pt": "Tempo de primeira atribuição: o número que define o primeiro segundo da experiência"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "El tiempo que transcurre desde que el pasajero confirma la solicitud hasta que un conductor la acepta es el indicador más directo del equilibrio oferta-demanda en tiempo real. En ciudades medianas, el estándar que mantiene tasas de cancelación bajas está entre 45 y 75 segundos de tiempo de asignación promedio. Por encima de 90 segundos, la cancelación antes de que llegue el conductor sube de forma no lineal: entre 90 y 120 segundos, entre el 18% y el 25% de los pasajeros cancela antes de esperar; por encima de 120 segundos, ese número puede superar el 40%.",
-        "en": "The time between a passenger confirming a request and a driver accepting it is the most direct indicator of real-time supply-demand balance. In mid-sized cities, the standard that keeps cancellation rates low runs between 45 and 75 seconds average assignment time. Above 90 seconds, pre-arrival cancellations rise non-linearly: between 90 and 120 seconds, 18% to 25% of passengers cancel before waiting; above 120 seconds, that figure can exceed 40%."
+        "en": "The time between a passenger confirming a request and a driver accepting it is the most direct indicator of real-time supply-demand balance. In mid-sized cities, the standard that keeps cancellation rates low runs between 45 and 75 seconds average assignment time. Above 90 seconds, pre-arrival cancellations rise non-linearly: between 90 and 120 seconds, 18% to 25% of passengers cancel before waiting; above 120 seconds, that figure can exceed 40%.",
+        "pt": "O tempo que passa desde que o passageiro confirma a solicitação até que um motorista a aceita é o indicador mais direto do equilíbrio oferta-demanda em tempo real. Em cidades médias, o padrão que mantém taxas de cancelamento baixas fica entre 45 e 75 segundos de tempo médio de atribuição. Acima de 90 segundos, o cancelamento antes de o motorista chegar sobe de forma não linear: entre 90 e 120 segundos, entre 18% e 25% dos passageiros cancelam antes de esperar; acima de 120 segundos, esse número pode ultrapassar 40%."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "Lo que hace útil a este KPI no es el promedio global — es su desglose por zona y franja horaria. Un promedio de 60 segundos puede esconder que en el centro el tiempo es 35 segundos y en la periferia es 140. Esa heterogeneidad señala dónde hay déficit de cobertura antes de que los pasajeros de esas zonas dejen de intentarlo. El objetivo operativo no es bajar el número global — es reducir la brecha entre la zona más servida y la menos servida, y en particular subir el piso de las zonas con mayor demanda insatisfecha.",
-        "en": "What makes this KPI useful isn't the global average — it's the breakdown by zone and time slot. An average of 60 seconds can hide that the city center runs at 35 seconds while outer neighborhoods run at 140. That heterogeneity signals where coverage gaps exist before passengers in those zones stop trying. The operational goal isn't to lower the global number — it's to narrow the gap between the best-served and worst-served zones, and specifically raise the floor in areas with the most unmet demand."
+        "en": "What makes this KPI useful isn't the global average — it's the breakdown by zone and time slot. An average of 60 seconds can hide that the city center runs at 35 seconds while outer neighborhoods run at 140. That heterogeneity signals where coverage gaps exist before passengers in those zones stop trying. The operational goal isn't to lower the global number — it's to narrow the gap between the best-served and worst-served zones, and specifically raise the floor in areas with the most unmet demand.",
+        "pt": "O que torna esse KPI útil não é a média global — é o detalhamento por zona e faixa horária. Uma média de 60 segundos pode esconder que no centro o tempo é 35 segundos e na periferia é 140. Essa heterogeneidade indica onde há déficit de cobertura antes que os passageiros dessas zonas parem de tentar. O objetivo operacional não é baixar o número global — é reduzir a diferença entre a zona mais atendida e a menos atendida e, em especial, subir o piso das zonas com maior demanda não atendida."
       }
     },
     {
@@ -136,21 +162,24 @@
       "id": "ingreso-hora-activa-conductor",
       "text": {
         "es": "Ingreso por hora activa del conductor: la métrica de retención que no es obvia",
-        "en": "Driver active-hour earnings: the retention metric that isn't obvious"
+        "en": "Driver active-hour earnings: the retention metric that isn't obvious",
+        "pt": "Ganho por hora ativa do motorista: a métrica de retenção que não é óbvia"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "La retención de conductores tiene muchos predictores, pero el más consistente en mercados latinoamericanos es el ingreso efectivo por hora real de trabajo. No el ingreso total del día ni el ingreso por viaje — el ingreso dividido entre el tiempo que el conductor estuvo conectado y activo, incluyendo los períodos entre solicitudes. Los conductores calculan internamente si la plataforma les resulta rentable con esa misma división. Si el resultado está por debajo de $5 a $6 USD por hora en equivalente local, la mayoría empieza a buscar alternativas en las primeras dos o tres semanas de operación.",
-        "en": "Driver retention has many predictors, but the most consistent one in Latin American markets is effective income per actual hour of work. Not total daily earnings, not per-trip income — earnings divided by the time the driver was online and active, including time between requests. Drivers internally calculate whether the platform is worth their time using exactly that division. If the result falls below $5 to $6 USD per hour in local equivalent, most start looking for alternatives within their first two or three weeks."
+        "en": "Driver retention has many predictors, but the most consistent one in Latin American markets is effective income per actual hour of work. Not total daily earnings, not per-trip income — earnings divided by the time the driver was online and active, including time between requests. Drivers internally calculate whether the platform is worth their time using exactly that division. If the result falls below $5 to $6 USD per hour in local equivalent, most start looking for alternatives within their first two or three weeks.",
+        "pt": "A retenção de motoristas tem muitos preditores, mas o mais consistente em mercados latino-americanos é o ganho efetivo por hora real de trabalho. Não o ganho total do dia nem o ganho por corrida — o ganho dividido pelo tempo que o motorista ficou conectado e ativo, incluindo os períodos entre solicitações. Os motoristas calculam internamente se a plataforma é rentável para eles com essa mesma divisão. Se o resultado fica abaixo de $5 a $6 USD por hora em equivalente local, a maioria começa a procurar alternativas nas primeiras duas ou três semanas de operação."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "El rango saludable para ciudades de costo medio de LATAM está entre $7 y $12 USD por hora activa. Por encima de ese rango, los conductores traen a sus propios contactos y la base crece de forma orgánica; por debajo, la operación pierde conductores más rápido de lo que puede incorporarlos. Si el ingreso por hora activa baja sin que haya caído el número de viajes, el problema típico es exceso de conductores conectados en zonas sin demanda: aumentan el denominador sin aumentar el numerador. Redistribuir la disponibilidad activa hacia las zonas correctas resuelve ese problema antes de que los conductores lo diagnostiquen por su cuenta y desconecten.",
-        "en": "The healthy range for mid-cost LATAM cities runs between $7 and $12 USD per active hour. Above that range, drivers bring in contacts and the base grows organically; below it, the operation loses drivers faster than it can onboard them. If earnings per active hour fall without a drop in trip volume, the typical problem is too many drivers online in low-demand zones: they inflate the denominator without growing the numerator. Redistributing active availability toward the right zones fixes this before drivers diagnose the problem themselves and go offline."
+        "en": "The healthy range for mid-cost LATAM cities runs between $7 and $12 USD per active hour. Above that range, drivers bring in contacts and the base grows organically; below it, the operation loses drivers faster than it can onboard them. If earnings per active hour fall without a drop in trip volume, the typical problem is too many drivers online in low-demand zones: they inflate the denominator without growing the numerator. Redistributing active availability toward the right zones fixes this before drivers diagnose the problem themselves and go offline.",
+        "pt": "A faixa saudável para cidades de custo médio da América Latina fica entre $7 e $12 USD por hora ativa. Acima dessa faixa, os motoristas trazem seus próprios contatos e a base cresce de forma orgânica; abaixo, a operação perde motoristas mais rápido do que consegue incorporá-los. Se o ganho por hora ativa cai sem que o número de corridas tenha caído, o problema típico é o excesso de motoristas conectados em zonas sem demanda: aumentam o denominador sem aumentar o numerador. Redistribuir a disponibilidade ativa para as zonas certas resolve esse problema antes que os motoristas o diagnostiquem por conta própria e se desconectem."
       }
     },
     {
@@ -159,21 +188,24 @@
       "id": "calificaciones-asimetricas",
       "text": {
         "es": "Calificaciones asimétricas: cuándo es un problema de conductor y cuándo de producto",
-        "en": "Asymmetric ratings: when it's a driver problem and when it's a product problem"
+        "en": "Asymmetric ratings: when it's a driver problem and when it's a product problem",
+        "pt": "Avaliações assimétricas: quando é um problema de motorista e quando é de produto"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "La calificación promedio de conductores es bien entendida, pero en solitario dice poco. Lo que dice más es la relación entre la calificación que los pasajeros dan a los conductores y la que los conductores dan a los pasajeros. Cuando ambas están por encima de 4.3, la operación funciona bien en los dos lados. Cuando la calificación del conductor es baja (por debajo de 4.0) pero la del pasajero es alta (4.4 o más), hay un problema de conducta específica que el pasajero detecta y califica negativamente: rechazos tardíos de solicitudes, trato inadecuado o comportamiento fuera de protocolo. Cuando ocurre lo inverso — conductor bien calificado, pasajero mal calificado — el problema está en la política de usuario: cancelaciones tardías, solicitudes falsas o trato al vehículo.",
-        "en": "Average driver rating is well understood but on its own says little. What says more is the relationship between the rating passengers give drivers and the rating drivers give passengers. When both are above 4.3, the operation is functioning well on both sides. When driver rating is low (below 4.0) while passenger rating is high (4.4 or above), there's a specific conduct issue passengers are detecting and scoring negatively: late request rejections, poor treatment or behavior outside protocol. When the reverse occurs — well-rated drivers, poorly rated passengers — the problem lives in user policy: late cancellations, false requests or vehicle mistreatment."
+        "en": "Average driver rating is well understood but on its own says little. What says more is the relationship between the rating passengers give drivers and the rating drivers give passengers. When both are above 4.3, the operation is functioning well on both sides. When driver rating is low (below 4.0) while passenger rating is high (4.4 or above), there's a specific conduct issue passengers are detecting and scoring negatively: late request rejections, poor treatment or behavior outside protocol. When the reverse occurs — well-rated drivers, poorly rated passengers — the problem lives in user policy: late cancellations, false requests or vehicle mistreatment.",
+        "pt": "A avaliação média dos motoristas é bem compreendida, mas sozinha diz pouco. O que diz mais é a relação entre a avaliação que os passageiros dão aos motoristas e a que os motoristas dão aos passageiros. Quando ambas estão acima de 4.3, a operação funciona bem dos dois lados. Quando a avaliação do motorista é baixa (abaixo de 4.0) mas a do passageiro é alta (4.4 ou mais), há um problema de conduta específica que o passageiro detecta e avalia negativamente: recusas tardias de solicitações, tratamento inadequado ou comportamento fora do protocolo. Quando ocorre o inverso — motorista bem avaliado, passageiro mal avaliado — o problema está na política de usuário: cancelamentos tardios, solicitações falsas ou tratamento do veículo."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "La señal más ignorada dentro de las calificaciones no es el promedio — es la dispersión interna. Una calificación promedio de 4.3 puede esconder que el 8% de los conductores activos tiene calificaciones por debajo de 3.8 y concentra una proporción desproporcionada de quejas. Identificar ese subgrupo y hacer intervención directa — conversación, capacitación específica o salida del sistema — tiene un impacto sobre la retención de pasajeros muy superior al que sugiere el tamaño del grupo. Un conductor con calificación 3.7 que hace 12 viajes diarios afecta a más pasajeros por semana que casi cualquier otro factor técnico que se pueda optimizar.",
-        "en": "The most overlooked signal within ratings isn't the average — it's internal dispersion. A 4.3 average can hide that 8% of active drivers sit below 3.8 and account for a disproportionate share of complaints. Identifying that specific subgroup and intervening directly — a conversation, targeted training or removal from the platform — has a larger impact on passenger retention than its relative size suggests. A driver with a 3.7 rating doing 12 trips a day affects more passengers per week than almost any other technical variable you could optimize."
+        "en": "The most overlooked signal within ratings isn't the average — it's internal dispersion. A 4.3 average can hide that 8% of active drivers sit below 3.8 and account for a disproportionate share of complaints. Identifying that specific subgroup and intervening directly — a conversation, targeted training or removal from the platform — has a larger impact on passenger retention than its relative size suggests. A driver with a 3.7 rating doing 12 trips a day affects more passengers per week than almost any other technical variable you could optimize.",
+        "pt": "O sinal mais ignorado dentro das avaliações não é a média — é a dispersão interna. Uma avaliação média de 4.3 pode esconder que 8% dos motoristas ativos têm avaliações abaixo de 3.8 e concentram uma proporção desproporcional de reclamações. Identificar esse subgrupo e fazer intervenção direta — conversa, treinamento específico ou saída do sistema — tem um impacto sobre a retenção de passageiros muito superior ao que o tamanho do grupo sugere. Um motorista com avaliação 3.7 que faz 12 corridas por dia afeta mais passageiros por semana do que quase qualquer outro fator técnico que se possa otimizar."
       }
     },
     {
@@ -182,21 +214,24 @@
       "id": "ratio-reactivacion",
       "text": {
         "es": "El ratio de reactivación: cuántos pasajeros que probaron la plataforma vuelven",
-        "en": "The reactivation ratio: how many passengers who tried the platform come back"
+        "en": "The reactivation ratio: how many passengers who tried the platform come back",
+        "pt": "A taxa de reativação: quantos passageiros que experimentaram a plataforma voltam"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "Adquirir un nuevo pasajero en mercados regionales cuesta entre $1.50 y $4.00 USD según el canal. Reactivar uno que ya usó la plataforma y dejó de usarla cuesta entre 3 y 7 veces menos. La métrica que mide si la plataforma retiene lo que adquiere es el ratio de reactivación: la proporción de pasajeros que hicieron al menos un viaje en los últimos 30 días entre el total que han viajado alguna vez. En operaciones con 6 a 12 meses de historia, un ratio saludable está por encima del 35% al 40%.",
-        "en": "Acquiring a new passenger in regional markets costs between $1.50 and $4.00 USD depending on the channel. Reactivating one who already used the platform and stopped costs three to seven times less. The metric that measures whether the platform retains what it acquires is the reactivation ratio: the proportion of passengers who completed at least one trip in the past 30 days against the total who have ever taken a trip. In operations with 6 to 12 months of history, a healthy ratio sits above 35% to 40%."
+        "en": "Acquiring a new passenger in regional markets costs between $1.50 and $4.00 USD depending on the channel. Reactivating one who already used the platform and stopped costs three to seven times less. The metric that measures whether the platform retains what it acquires is the reactivation ratio: the proportion of passengers who completed at least one trip in the past 30 days against the total who have ever taken a trip. In operations with 6 to 12 months of history, a healthy ratio sits above 35% to 40%.",
+        "pt": "Adquirir um novo passageiro em mercados regionais custa entre $1.50 e $4.00 USD conforme o canal. Reativar um que já usou a plataforma e parou de usá-la custa de 3 a 7 vezes menos. A métrica que mede se a plataforma retém o que adquire é a taxa de reativação: a proporção de passageiros que fizeram pelo menos uma corrida nos últimos 30 dias em relação ao total que já viajou alguma vez. Em operações com 6 a 12 meses de histórico, uma taxa saudável fica acima de 35% a 40%."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "Por debajo del 25%, la operación pierde pasajeros más rápido de lo que los retiene. El crecimiento en viajes totales que muestra el dashboard puede ser un espejismo: cada mes hay más viajes, pero de más pasajeros nuevos que compensan los que se van. Ese patrón no es sostenible porque el costo de adquisición escala mientras la base de usuarios recurrentes no crece. El ratio de reactivación expone esa dinámica antes de que sea visible en los ingresos. Si está cayendo, la causa más frecuente en mercados regionales no es el precio — es el tiempo de espera o una experiencia negativa que no fue resuelta en el momento en que ocurrió.",
-        "en": "Below 25%, the operation is losing passengers faster than it retains them. The total trip growth the dashboard shows can be a mirage: each month shows more trips, but from more new passengers offsetting the ones who left. That pattern isn't sustainable because acquisition cost scales while the recurring user base doesn't grow. The reactivation ratio surfaces that dynamic before it shows up in revenue. When it's falling, the most frequent cause in regional markets isn't pricing — it's wait time or a negative experience that wasn't resolved at the moment it happened."
+        "en": "Below 25%, the operation is losing passengers faster than it retains them. The total trip growth the dashboard shows can be a mirage: each month shows more trips, but from more new passengers offsetting the ones who left. That pattern isn't sustainable because acquisition cost scales while the recurring user base doesn't grow. The reactivation ratio surfaces that dynamic before it shows up in revenue. When it's falling, the most frequent cause in regional markets isn't pricing — it's wait time or a negative experience that wasn't resolved at the moment it happened.",
+        "pt": "Abaixo de 25%, a operação perde passageiros mais rápido do que os retém. O crescimento em corridas totais que o dashboard mostra pode ser uma miragem: a cada mês há mais corridas, mas de mais passageiros novos que compensam os que vão embora. Esse padrão não é sustentável porque o custo de aquisição escala enquanto a base de usuários recorrentes não cresce. A taxa de reativação expõe essa dinâmica antes que ela fique visível na receita. Se está caindo, a causa mais frequente em mercados regionais não é o preço — é o tempo de espera ou uma experiência negativa que não foi resolvida no momento em que aconteceu."
       }
     },
     {
@@ -205,14 +240,16 @@
       "id": "tablero-10-minutos",
       "text": {
         "es": "El tablero de 10 minutos: qué revisar cada mañana y qué ignorar",
-        "en": "The 10-minute dashboard: what to review each morning and what to ignore"
+        "en": "The 10-minute dashboard: what to review each morning and what to ignore",
+        "pt": "O painel de 10 minutos: o que revisar toda manhã e o que ignorar"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "Un tablero que intenta mostrar todo al mismo tiempo enseña nada al mismo tiempo. La revisión diaria de una operación regional puede completarse en 10 minutos si está organizada alrededor de cuatro preguntas concretas. Cada una tiene una fuente de datos y una acción posible — no son métricas de reporte, son métricas de decisión.",
-        "en": "A dashboard that tries to show everything at once teaches nothing at once. The daily review of a regional operation can be completed in 10 minutes if it's organized around four concrete questions. Each has a data source and a possible action — these aren't reporting metrics, they are decision metrics."
+        "en": "A dashboard that tries to show everything at once teaches nothing at once. The daily review of a regional operation can be completed in 10 minutes if it's organized around four concrete questions. Each has a data source and a possible action — these aren't reporting metrics, they are decision metrics.",
+        "pt": "Um painel que tenta mostrar tudo ao mesmo tempo não ensina nada ao mesmo tempo. A revisão diária de uma operação regional pode ser concluída em 10 minutos se estiver organizada em torno de quatro perguntas concretas. Cada uma tem uma fonte de dados e uma ação possível — não são métricas de relatório, são métricas de decisão."
       }
     },
     {
@@ -220,7 +257,8 @@
       "style": "bullet",
       "intro": {
         "es": "Las cuatro preguntas que sostienen la revisión operativa diaria:",
-        "en": "The four questions that anchor the daily operational review:"
+        "en": "The four questions that anchor the daily operational review:",
+        "pt": "As quatro perguntas que sustentam a revisão operacional diária:"
       },
       "items": {
         "es": [
@@ -234,6 +272,12 @@
           "Active drivers in the past 24 hours vs weekly average — detects supply dropout before it shows up in wait times or completion rate",
           "Average first-assignment time from the prior day — supply-demand thermometer; any value above 90 seconds calls for zone coverage intervention",
           "Average driver rating over the past 7 days — early quality signal; a drop of 0.2 points in a week points to a subgroup that needs direct attention"
+        ],
+        "pt": [
+          "Corridas concluídas ontem vs média dos últimos 7 dias — sinal direto de tendência; uma queda de 15% ou mais sem causa conhecida exige revisão imediata de oferta e produto",
+          "Motoristas ativos nas últimas 24 horas vs média semanal — detecta abandono de oferta antes que apareça nos tempos de espera ou na taxa de conclusão",
+          "Tempo médio de primeira atribuição do dia anterior — termômetro do equilíbrio oferta-demanda; qualquer valor acima de 90 segundos pede intervenção na cobertura de zonas",
+          "Avaliação média dos motoristas nos últimos 7 dias — sinal precoce de problemas de qualidade; uma queda de 0.2 pontos em uma semana indica um subgrupo em que intervir"
         ]
       }
     },
@@ -241,32 +285,37 @@
       "type": "paragraph",
       "text": {
         "es": "Lo que no debería estar en esa revisión diaria: ingresos brutos acumulados (son el resultado de los otros indicadores — si van bien, los ingresos van bien), número de conductores registrados sin actividad asociada (una cifra sin denominador de actividad no tiene acción posible) y número de descargas de la app (en mercados regionales, la conversión de descarga a primer viaje oscila entre el 18% y el 35%, así que las descargas no predicen operación). Esas métricas tienen su lugar en revisiones semanales o mensuales de crecimiento, pero no en la revisión operativa que permite tomar decisiones el mismo día.",
-        "en": "What shouldn't be in that daily review: cumulative gross revenue (it's an output of the other indicators — if those are healthy, revenue follows), registered drivers without an activity signal attached (a headcount with no active denominator has no actionable implication), and app download volume (in regional markets, the download-to-first-trip conversion runs between 18% and 35%, so downloads don't predict operation). Those metrics belong in weekly or monthly growth reviews, not in the operational scan that enables same-day decisions."
+        "en": "What shouldn't be in that daily review: cumulative gross revenue (it's an output of the other indicators — if those are healthy, revenue follows), registered drivers without an activity signal attached (a headcount with no active denominator has no actionable implication), and app download volume (in regional markets, the download-to-first-trip conversion runs between 18% and 35%, so downloads don't predict operation). Those metrics belong in weekly or monthly growth reviews, not in the operational scan that enables same-day decisions.",
+        "pt": "O que não deveria estar nessa revisão diária: receita bruta acumulada (é o resultado dos outros indicadores — se eles vão bem, a receita vai bem), número de motoristas cadastrados sem atividade associada (um número sem denominador de atividade não tem ação possível) e número de downloads do app (em mercados regionais, a conversão de download para primeira corrida varia entre 18% e 35%, então os downloads não preveem operação). Essas métricas têm seu lugar em revisões semanais ou mensais de crescimento, mas não na revisão operacional que permite tomar decisões no mesmo dia."
       }
     },
     {
       "type": "quote",
       "text": {
         "es": "Cuando empecé tenía más de cuarenta métricas en el dashboard. Cada mañana abría el tablero y salía sin saber qué hacer. Hoy reviso cinco números — los mismos cinco — y en diez minutos sé si hubo algo que atender o no.",
-        "en": "When I started I had over forty metrics on the dashboard. I'd open it every morning and leave without knowing what to do. Today I check five numbers — the same five — and in ten minutes I know whether there's something that needs attention."
+        "en": "When I started I had over forty metrics on the dashboard. I'd open it every morning and leave without knowing what to do. Today I check five numbers — the same five — and in ten minutes I know whether there's something that needs attention.",
+        "pt": "Quando comecei, tinha mais de quarenta métricas no dashboard. Toda manhã eu abria o painel e saía sem saber o que fazer. Hoje eu olho cinco números — os mesmos cinco — e em dez minutos sei se houve algo para resolver ou não."
       },
       "attribution": {
         "es": "Operador de movilidad activo en dos ciudades del Caribe colombiano",
-        "en": "Mobility operator active in two cities on Colombia's Caribbean coast"
+        "en": "Mobility operator active in two cities on Colombia's Caribbean coast",
+        "pt": "Operador de mobilidade ativo em duas cidades do Caribe colombiano"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "Los seis KPIs descritos en este artículo no son los únicos indicadores útiles en una operación de movilidad — son los que diagnostican un problema antes de que el pasajero lo viva dos veces. Tasa de completación, tiempo de primera asignación, ingreso por hora activa del conductor, calificaciones asimétricas, ratio de reactivación de pasajeros y el tablero de cuatro preguntas: cada uno responde una parte de la misma pregunta central, que es si la operación está construyendo algo sostenible o solo acumulando viajes que no predicen el mes siguiente.",
-        "en": "The six KPIs described here aren't the only useful indicators in a mobility operation — they're the ones that diagnose a problem before the passenger experiences it twice. Completion rate, first-assignment time, driver active-hour earnings, asymmetric ratings, passenger reactivation ratio and the four-question dashboard: each answers a part of the same central question, which is whether the operation is building something sustainable or just accumulating trips that don't predict the following month."
+        "en": "The six KPIs described here aren't the only useful indicators in a mobility operation — they're the ones that diagnose a problem before the passenger experiences it twice. Completion rate, first-assignment time, driver active-hour earnings, asymmetric ratings, passenger reactivation ratio and the four-question dashboard: each answers a part of the same central question, which is whether the operation is building something sustainable or just accumulating trips that don't predict the following month.",
+        "pt": "Os seis KPIs descritos neste artigo não são os únicos indicadores úteis em uma operação de mobilidade — são os que diagnosticam um problema antes que o passageiro o viva duas vezes. Taxa de conclusão, tempo de primeira atribuição, ganho por hora ativa do motorista, avaliações assimétricas, taxa de reativação de passageiros e o painel de quatro perguntas: cada um responde a uma parte da mesma pergunta central, que é se a operação está construindo algo sustentável ou apenas acumulando corridas que não preveem o mês seguinte."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "El error más frecuente no es no medir — es medir todo y leer nada. Una operación con seis métricas entendidas y revisadas todos los días toma mejores decisiones que una con sesenta métricas consultadas cuando hay tiempo. La diferencia entre los operadores que alcanzan sostenibilidad financiera en los primeros 12 a 18 meses y los que no suele rastrearse más en los hábitos de revisión de datos que en cualquier decisión estratégica de alto nivel. El tablero que funciona no es el más completo — es el que el operador abre todos los días y entiende en 10 minutos.",
-        "en": "The most common mistake isn't failing to measure — it's measuring everything and reading nothing. An operation with six well-understood metrics reviewed every day makes better decisions than one with sixty metrics consulted when there's time. The gap between operators who reach financial sustainability in the first 12 to 18 months and those who don't traces more often to data-review habits than to any high-level strategic decision. The dashboard that works isn't the most complete one — it's the one the operator opens every day and understands in 10 minutes."
+        "en": "The most common mistake isn't failing to measure — it's measuring everything and reading nothing. An operation with six well-understood metrics reviewed every day makes better decisions than one with sixty metrics consulted when there's time. The gap between operators who reach financial sustainability in the first 12 to 18 months and those who don't traces more often to data-review habits than to any high-level strategic decision. The dashboard that works isn't the most complete one — it's the one the operator opens every day and understands in 10 minutes.",
+        "pt": "O erro mais frequente não é não medir — é medir tudo e ler nada. Uma operação com seis métricas compreendidas e revisadas todos os dias toma melhores decisões do que uma com sessenta métricas consultadas quando há tempo. A diferença entre os operadores que alcançam sustentabilidade financeira nos primeiros 12 a 18 meses e os que não alcançam costuma estar mais nos hábitos de revisão de dados do que em qualquer decisão estratégica de alto nível. O painel que funciona não é o mais completo — é o que o operador abre todos os dias e entende em 10 minutos."
       }
     }
   ]

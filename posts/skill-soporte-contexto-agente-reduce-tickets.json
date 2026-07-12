@@ -3,16 +3,19 @@
   "category": "product",
   "title": {
     "es": "El skill como interfaz de soporte: cómo el contexto del agente reduce los tickets",
-    "en": "The skill as your first support tier: how agent context reduces tickets"
+    "en": "The skill as your first support tier: how agent context reduces tickets",
+    "pt": "O skill como interface de suporte: como o contexto do agente reduz os chamados"
   },
   "excerpt": {
     "es": "Cuando el agente tiene el contexto correcto instalado, entre el 60 y el 70% de los tickets de soporte se resuelven antes de abrirlos. Qué contexto hace esa diferencia.",
-    "en": "When the agent carries the right context, 60–70% of support tickets get resolved before you file them. Which context makes that difference and when to still escalate."
+    "en": "When the agent carries the right context, 60–70% of support tickets get resolved before you file them. Which context makes that difference and when to still escalate.",
+    "pt": "Quando o agente tem o contexto certo instalado, entre 60% e 70% dos chamados de suporte são resolvidos antes de você abri-los. Qual contexto faz essa diferença."
   },
   "heroImage": "https://raw.githubusercontent.com/jonatanvazquez/cabgo-blog-content/main/images/skill-soporte-contexto-agente-reduce-tickets.jpg",
   "heroImageAlt": {
     "es": "Ilustración isométrica de un agente robótico respondiendo burbujas de consulta flotantes, con una pila gris de tickets de soporte que se reduce a la izquierda y un servidor MCP brillante al fondo",
-    "en": "Isometric illustration of a robotic agent answering floating query bubbles, with a shrinking gray stack of support tickets on the left and a glowing MCP server in the background"
+    "en": "Isometric illustration of a robotic agent answering floating query bubbles, with a shrinking gray stack of support tickets on the left and a glowing MCP server in the background",
+    "pt": "Ilustração isométrica de um agente robótico respondendo balões de consulta flutuantes, com uma pilha cinza de chamados de suporte diminuindo à esquerda e um servidor MCP brilhante ao fundo"
   },
   "heroImagePrompt": "Central isometric composition: a friendly robotic agent at a minimal workstation faces two sides — on the left a tall gray stack of paper tickets with question mark icons visibly shrinking downward; on the right the same questions converted into teal chat bubbles being answered in real time with green checkmarks. Behind the agent, a glowing indigo server rack with clean data streams connecting to the agent console. Deep violet floor grid. The ticket pile is clearly smaller than the resolved chat side, conveying reduction over time.",
   "publishedAt": "2026-06-11",
@@ -35,13 +38,23 @@
       "when to escalate platform support ride-hailing",
       "driver zone diagnostics AI agent Cabgo",
       "cabgo_my_mcp_usage history support audit"
+    ],
+    "pt": [
+      "reduzir chamados de suporte operadores transporte por aplicativo",
+      "skill Cabgo primeira linha de suporte operacional",
+      "agente de IA responde consultas operacionais MCP Cabgo",
+      "instruções de sistema agente de mobilidade contexto",
+      "quando escalar suporte plataforma de transporte por aplicativo",
+      "diagnóstico motorista zona agente de IA Cabgo",
+      "histórico cabgo_my_mcp_usage suporte auditoria"
     ]
   },
   "author": {
     "name": "Equipo Cabgo",
     "role": {
       "es": "Plataforma de movilidad",
-      "en": "Mobility platform"
+      "en": "Mobility platform",
+      "pt": "Plataforma de mobilidade"
     }
   },
   "blocks": [
@@ -49,14 +62,16 @@
       "type": "paragraph",
       "text": {
         "es": "Un ticket de soporte tiene dos costos que rara vez se analizan juntos. El primero es visible: el tiempo de respuesta del equipo de plataforma, que en la mayoría de los proveedores de software de movilidad va de horas a días según el plan. El segundo es invisible: la interrupción al flujo del operador, que llegó al formulario de soporte porque algo frenó su trabajo y no encontró la respuesta en ningún otro lugar. Ese segundo costo ocurre antes de que el ticket exista — y es el que el agente con el contexto correcto puede eliminar.",
-        "en": "A support ticket has two costs that rarely get analyzed together. The first is visible: the platform team's response time, which for most mobility software providers runs from hours to days depending on the plan. The second is invisible: the interruption to the operator's flow — they reached the support form because something stopped their work and they couldn't find the answer anywhere else. That second cost happens before the ticket exists, and it's the one a properly configured agent can eliminate."
+        "en": "A support ticket has two costs that rarely get analyzed together. The first is visible: the platform team's response time, which for most mobility software providers runs from hours to days depending on the plan. The second is invisible: the interruption to the operator's flow — they reached the support form because something stopped their work and they couldn't find the answer anywhere else. That second cost happens before the ticket exists, and it's the one a properly configured agent can eliminate.",
+        "pt": "Um chamado de suporte tem dois custos que raramente são analisados juntos. O primeiro é visível: o tempo de resposta da equipe de plataforma, que na maioria dos provedores de software de mobilidade varia de horas a dias dependendo do plano. O segundo é invisível: a interrupção no fluxo do operador, que chegou ao formulário de suporte porque algo travou seu trabalho e ele não encontrou a resposta em nenhum outro lugar. Esse segundo custo acontece antes de o chamado existir — e é o que o agente com o contexto certo consegue eliminar."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "La tesis de este artículo es que el skill de Cabgo instalado con el contexto adecuado en las instrucciones del sistema actúa como primera línea para la mayoría de las consultas operativas que de otro modo se convierten en tickets. No porque reemplace al equipo de plataforma — hay categorías de problema donde escalar es la única respuesta correcta — sino porque entre el 60 y el 70% de los tickets que llegan a soporte son preguntas sobre el estado de la operación, el comportamiento de una función conocida o la interpretación de una métrica inesperada: exactamente el tipo de pregunta que el agente puede responder con una llamada al servidor MCP en menos de un minuto. Este artículo es para el operador que ya tiene el agente funcionando y quiere convertir ese chat en el primer punto de consulta, no en el último.",
-        "en": "The thesis of this article is that Cabgo's skill, installed with the right context in the system instructions, acts as first-line support for most operational queries that would otherwise become tickets. Not because it replaces the platform team — there are problem categories where escalating is the only right answer — but because 60–70% of tickets that reach support are questions about operation state, unexpected function behavior, or metric interpretation: exactly the kind of question the agent can answer with an MCP server call in under a minute. This article is for operators who already have the agent running and want to make that chat the first place they look, not the last."
+        "en": "The thesis of this article is that Cabgo's skill, installed with the right context in the system instructions, acts as first-line support for most operational queries that would otherwise become tickets. Not because it replaces the platform team — there are problem categories where escalating is the only right answer — but because 60–70% of tickets that reach support are questions about operation state, unexpected function behavior, or metric interpretation: exactly the kind of question the agent can answer with an MCP server call in under a minute. This article is for operators who already have the agent running and want to make that chat the first place they look, not the last.",
+        "pt": "A tese deste artigo é que o skill da Cabgo, instalado com o contexto certo nas instruções do sistema, atua como primeira linha para a maioria das consultas operacionais que de outra forma viram chamados. Não porque substitua a equipe de plataforma — há categorias de problema em que escalar é a única resposta correta — mas porque entre 60% e 70% dos chamados que chegam ao suporte são perguntas sobre o estado da operação, o comportamento de uma função conhecida ou a interpretação de uma métrica inesperada: exatamente o tipo de pergunta que o agente consegue responder com uma chamada ao servidor MCP em menos de um minuto. Este artigo é para o operador que já tem o agente funcionando e quer transformar esse chat no primeiro ponto de consulta, não no último."
       }
     },
     {
@@ -65,21 +80,24 @@
       "id": "tickets-que-el-agente-ya-responde",
       "text": {
         "es": "Por qué la mayoría de los tickets ya los puede responder el agente",
-        "en": "Why most support tickets are questions the agent can already answer"
+        "en": "Why most support tickets are questions the agent can already answer",
+        "pt": "Por que a maioria dos chamados já pode ser respondida pelo agente"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "Los tickets de soporte de una operación de ride-hailing regional se concentran en un número sorprendentemente pequeño de categorías. En operaciones de entre 50 y 200 conductores, entre el 60 y el 70% corresponde a tres tipos: preguntas sobre el estado de un conductor o viaje específico, preguntas sobre el comportamiento inesperado de una función que el operador conoce bien, e interpretación de métricas que variaron de una forma que el operador no esperaba. Las tres categorías tienen algo en común: el servidor MCP tiene los datos para responderlas en el momento en que se formulan.",
-        "en": "Support tickets from regional ride-hailing operations cluster into a surprisingly small number of categories. In operations between 50 and 200 drivers, 60–70% fall into three types: questions about the status of a specific driver or trip, questions about unexpected behavior from a familiar feature, and interpretation of metrics that changed in a way the operator didn't expect. All three share one thing: the MCP server has the data to answer them at the moment they're asked."
+        "en": "Support tickets from regional ride-hailing operations cluster into a surprisingly small number of categories. In operations between 50 and 200 drivers, 60–70% fall into three types: questions about the status of a specific driver or trip, questions about unexpected behavior from a familiar feature, and interpretation of metrics that changed in a way the operator didn't expect. All three share one thing: the MCP server has the data to answer them at the moment they're asked.",
+        "pt": "Os chamados de suporte de uma operação regional de transporte por aplicativo se concentram em um número surpreendentemente pequeno de categorias. Em operações entre 50 e 200 motoristas, de 60% a 70% correspondem a três tipos: perguntas sobre o estado de um motorista ou corrida específica, perguntas sobre o comportamento inesperado de uma função que o operador já conhece bem, e interpretação de métricas que variaram de um jeito que o operador não esperava. As três categorias têm algo em comum: o servidor MCP tem os dados para respondê-las no momento em que são formuladas."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "El operador que abre un ticket porque un conductor aparece inactivo después de completar un viaje está haciendo exactamente la misma consulta que el agente haría si le escribieran «¿por qué el conductor X aparece inactivo desde las 14:30 si completó un viaje a las 14:25?». El agente consulta el log de sesiones, identifica si hay un error de sincronización, un cierre de sesión desde la app o una desconexión de GPS, y devuelve el diagnóstico en menos de un minuto. El ticket tarda horas. La diferencia no es de información disponible — es de hábito de consulta.",
-        "en": "An operator who files a ticket because a driver shows as inactive after completing a trip is making the exact same query the agent would run if they wrote «why does driver X show inactive since 2:30 PM if they completed a trip at 2:25?». The agent queries the session log, identifies whether there's a sync error, an app logout, or a GPS disconnect, and returns the diagnosis in under a minute. The ticket takes hours. The gap isn't in available information — it's in the query habit."
+        "en": "An operator who files a ticket because a driver shows as inactive after completing a trip is making the exact same query the agent would run if they wrote «why does driver X show inactive since 2:30 PM if they completed a trip at 2:25?». The agent queries the session log, identifies whether there's a sync error, an app logout, or a GPS disconnect, and returns the diagnosis in under a minute. The ticket takes hours. The gap isn't in available information — it's in the query habit.",
+        "pt": "O operador que abre um chamado porque um motorista aparece inativo depois de concluir uma corrida está fazendo exatamente a mesma consulta que o agente faria se lhe perguntassem «por que o motorista X aparece inativo desde as 14h30 se concluiu uma corrida às 14h25?». O agente consulta o log de sessões, identifica se há um erro de sincronização, um logout pelo app ou uma desconexão de GPS, e devolve o diagnóstico em menos de um minuto. O chamado leva horas. A diferença não está na informação disponível — está no hábito de consulta."
       }
     },
     {
@@ -88,21 +106,24 @@
       "id": "gap-agente-instalado-y-primera-fuente",
       "text": {
         "es": "El gap entre tener el agente instalado y usarlo como primera fuente",
-        "en": "The gap between having the agent installed and using it as your first resource"
+        "en": "The gap between having the agent installed and using it as your first resource",
+        "pt": "A lacuna entre ter o agente instalado e usá-lo como primeira fonte"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "La mayoría de los operadores que tienen el skill de Cabgo instalado lo usan para las consultas que ya anticiparon al configurarlo: el resumen de turno, el listado de conductores inactivos, el balance de efectivo. Son prompts guardados, previsibles, que el operador construyó con calma. El problema es que los tickets no son consultas previsibles — son preguntas que surgen en el medio del turno, cuando algo inesperado pasa y hay presión de tiempo. Para esas preguntas, el reflejo del operador sigue siendo el formulario de soporte, no el chat del agente.",
-        "en": "Most operators who have Cabgo's skill installed use it for the queries they anticipated when setting it up: the shift summary, the inactive driver list, the day's cash balance. Those are saved prompts, predictable, built at leisure. The problem is that support tickets aren't predictable — they're questions that surface mid-shift when something unexpected happens under time pressure. For those questions, the operator's reflex is still the support form, not the agent chat."
+        "en": "Most operators who have Cabgo's skill installed use it for the queries they anticipated when setting it up: the shift summary, the inactive driver list, the day's cash balance. Those are saved prompts, predictable, built at leisure. The problem is that support tickets aren't predictable — they're questions that surface mid-shift when something unexpected happens under time pressure. For those questions, the operator's reflex is still the support form, not the agent chat.",
+        "pt": "A maioria dos operadores que tem o skill da Cabgo instalado o usa para as consultas que já previu ao configurá-lo: o resumo do turno, a lista de motoristas inativos, o saldo em dinheiro. São prompts salvos, previsíveis, que o operador construiu com calma. O problema é que os chamados não são consultas previsíveis — são perguntas que surgem no meio do turno, quando algo inesperado acontece e há pressão de tempo. Para essas perguntas, o reflexo do operador ainda é o formulário de suporte, não o chat do agente."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "Ese reflejo tiene una razón de ser: antes del agente, el canal de soporte era genuinamente el único lugar donde esas respuestas existían. El agente las tiene ahora, pero el operador no ha actualizado el mapa mental de «dónde busco esto». Cambiar ese mapa no requiere una reconfiguración técnica; requiere dos ajustes de hábito concretos: construir un prompt de diagnóstico genérico en la biblioteca — algo que el operador pueda usar cuando algo inesperado pasa, sin saber de antemano qué buscar exactamente — y tener el contexto de la operación precargado en las instrucciones del sistema para que cualquier pregunta ad hoc tenga como base el estado actual de la plataforma sin que el operador tenga que reconstruir el contexto desde cero.",
-        "en": "That reflex has a logical origin: before the agent, the support channel was genuinely the only place those answers existed. The agent has them now, but the operator hasn't updated their mental map of «where I look for this». Changing that map doesn't require a technical reconfiguration; it requires two concrete habit adjustments: building a generic diagnostic prompt in the library — something the operator can use when something unexpected happens without knowing exactly what to look for — and preloading operation context into the system instructions so any ad hoc question starts from the current platform state rather than rebuilding context from scratch every time."
+        "en": "That reflex has a logical origin: before the agent, the support channel was genuinely the only place those answers existed. The agent has them now, but the operator hasn't updated their mental map of «where I look for this». Changing that map doesn't require a technical reconfiguration; it requires two concrete habit adjustments: building a generic diagnostic prompt in the library — something the operator can use when something unexpected happens without knowing exactly what to look for — and preloading operation context into the system instructions so any ad hoc question starts from the current platform state rather than rebuilding context from scratch every time.",
+        "pt": "Esse reflexo tem uma razão de ser: antes do agente, o canal de suporte era genuinamente o único lugar onde essas respostas existiam. O agente tem elas agora, mas o operador ainda não atualizou o mapa mental de «onde eu procuro isso». Mudar esse mapa não exige uma reconfiguração técnica; exige dois ajustes de hábito concretos: montar um prompt de diagnóstico genérico na biblioteca — algo que o operador possa usar quando algo inesperado acontece, sem saber de antemão exatamente o que procurar — e ter o contexto da operação pré-carregado nas instruções do sistema, para que qualquer pergunta ad hoc parta do estado atual da plataforma sem que o operador precise reconstruir o contexto do zero."
       }
     },
     {
@@ -111,14 +132,16 @@
       "id": "contexto-que-reduce-dependencia-soporte",
       "text": {
         "es": "El contexto que reduce la dependencia de soporte",
-        "en": "The context that reduces support dependence"
+        "en": "The context that reduces support dependence",
+        "pt": "O contexto que reduz a dependência do suporte"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "El contexto que más reduce la necesidad de escalar no es el más técnico — es el más específico a la operación del usuario. Las instrucciones del sistema que incluyen los rangos normales de disponibilidad, los horarios de alta y baja demanda, y los patrones recurrentes de la operación permiten que el agente distinga entre una anomalía real y una variación esperable sin que el operador tenga que explicar ese contexto en cada consulta. Un agente que sabe que la disponibilidad en una zona cae sistemáticamente por debajo del 50% entre las 14:00 y las 16:00 no reporta eso como incidente — y el operador no abre un ticket para preguntarle a soporte si ese número es normal.",
-        "en": "The context that most reduces escalation needs isn't the most technical — it's the most specific to the operator's own operation. System instructions that include normal availability ranges, peak and off-peak hours, and the operation's recurring patterns let the agent distinguish a real anomaly from an expected variation without the operator having to re-explain that context on every query. An agent that knows a zone consistently drops below 50% availability between 2 and 4 PM won't flag that as an incident — and the operator won't file a ticket to ask support whether that number is normal."
+        "en": "The context that most reduces escalation needs isn't the most technical — it's the most specific to the operator's own operation. System instructions that include normal availability ranges, peak and off-peak hours, and the operation's recurring patterns let the agent distinguish a real anomaly from an expected variation without the operator having to re-explain that context on every query. An agent that knows a zone consistently drops below 50% availability between 2 and 4 PM won't flag that as an incident — and the operator won't file a ticket to ask support whether that number is normal.",
+        "pt": "O contexto que mais reduz a necessidade de escalar não é o mais técnico — é o mais específico à operação do usuário. As instruções do sistema que incluem as faixas normais de disponibilidade, os horários de alta e baixa demanda, e os padrões recorrentes da operação permitem que o agente distinga entre uma anomalia real e uma variação esperada sem que o operador precise explicar esse contexto a cada consulta. Um agente que sabe que a disponibilidade em uma zona cai sistematicamente abaixo de 50% entre 14h e 16h não reporta isso como incidente — e o operador não abre um chamado para perguntar ao suporte se esse número é normal."
       }
     },
     {
@@ -136,6 +159,12 @@
           "**Known recurring incidents**: if the operation has drivers who lose signal in a specific zone, or a feature that behaves differently on event days, that pattern in the instructions keeps each recurrence from being treated as a new case",
           "**Differentiated escalation criteria**: what conditions should prompt the agent to suggest escalating, with the right channel for each type — critical technical via urgent support, billing via the invoicing channel, feature requests via the roadmap channel",
           "**Previous resolution notes**: if the operator recorded how they last resolved a surge-not-responding issue, that note in context means the next response is the proven fix rather than a fresh diagnosis"
+        ],
+        "pt": [
+          "**Limiares de operação normal**: as faixas de disponibilidade, taxa de cancelamento e avaliação média que são normais para a operação específica, por horário e zona — sem essa referência, o agente trata qualquer variação como um alerta em potencial",
+          "**Incidências recorrentes conhecidas**: se a operação tem motoristas que perdem sinal em uma zona específica ou uma função que se comporta diferente em dias de evento, esse padrão nas instruções evita que cada recorrência seja tratada como um caso novo",
+          "**Critérios de escalonamento diferenciados**: em quais condições o agente deve sugerir escalar, com o canal certo para cada tipo — técnico crítico pela via de urgência, billing pelo canal de faturamento, feature request pelo roadmap",
+          "**Registro de resoluções anteriores**: se o operador anotou como resolveu da última vez que a tarifa dinâmica não respondeu corretamente, essa nota no contexto permite que a próxima resposta seja a solução já testada, não um diagnóstico do zero"
         ]
       }
     },
@@ -145,14 +174,16 @@
       "id": "cinco-tipos-consultas-que-generan-tickets",
       "text": {
         "es": "Los cinco tipos de consulta que más tickets generan y cómo el agente los resuelve",
-        "en": "The five query types that generate the most tickets and how the agent handles them"
+        "en": "The five query types that generate the most tickets and how the agent handles them",
+        "pt": "Os cinco tipos de consulta que mais geram chamados e como o agente os resolve"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "Los cinco tipos de consulta que con más frecuencia generan tickets en operaciones regionales son todos respondibles con datos del servidor MCP en menos de dos minutos. Conocerlos no cambia la configuración técnica del agente — cambia el hábito del operador sobre a dónde ir primero cuando cada uno aparece.",
-        "en": "The five query types that most frequently generate tickets in regional operations are all answerable from MCP server data in under two minutes. Knowing them doesn't change the technical skill config — it changes the operator's habit about where to go first when each one comes up."
+        "en": "The five query types that most frequently generate tickets in regional operations are all answerable from MCP server data in under two minutes. Knowing them doesn't change the technical skill config — it changes the operator's habit about where to go first when each one comes up.",
+        "pt": "Os cinco tipos de consulta que com mais frequência geram chamados em operações regionais podem todos ser respondidos com dados do servidor MCP em menos de dois minutos. Conhecê-los não muda a configuração técnica do agente — muda o hábito do operador sobre para onde ir primeiro quando cada um deles aparece."
       }
     },
     {
@@ -172,6 +203,13 @@
           "**Fare or zone behavior**: a passenger reports being charged differently than expected. The agent traces the active fare config against the specific trip to identify whether a surge override, a special zone, or a recent parameter change caused the discrepancy",
           "**Driver receiving no requests in an active zone**: the driver reports no incoming trips despite demand in the area. The agent checks the driver profile — documents, rating, geographic restrictions — and zone state to find any active filter that may be excluding them",
           "**Active campaign underperforming**: the operator created a coupon and days passed with no movement. The agent checks the real eligible segment, redemptions to date, and budget consumed to determine whether the problem is reach, threshold, or communication"
+        ],
+        "pt": [
+          "**Estado de motorista inesperado**: ativo quando deveria estar inativo, ou o contrário. O agente consulta o log de sessões e o histórico de GPS do último turno para identificar se há uma desconexão do app, um erro de sincronização ou uma mudança de status manual que não se propagou corretamente",
+          "**Métrica fora da faixa sem causa aparente**: o operador vê um número que não esperava e não sabe se é um bug ou uma mudança real na operação. O agente compara o valor atual com o histórico das últimas quatro semanas e identifica se a variação está dentro da faixa de flutuação normal ou a ultrapassa",
+          "**Comportamento de tarifa ou zona**: o passageiro relata que foi cobrado diferente do esperado. O agente cruza a configuração de tarifa ativa com a corrida específica para identificar se há um override de tarifa dinâmica, uma zona especial ativa ou uma mudança recente nos parâmetros de distância",
+          "**Motorista sem solicitações em zona ativa**: o motorista relata que não recebe corridas mesmo havendo demanda. O agente verifica o estado do perfil — documentos, avaliação, restrições geográficas — e o estado da zona para identificar se há um filtro excluindo ele",
+          "**Campanha ativa sem o uso esperado**: o operador criou um cupom e passaram dias sem movimento. O agente consulta o segmento elegível real, os resgates até o momento e o orçamento consumido para determinar se o problema é de alcance, de limiar ou de comunicação"
         ]
       }
     },
@@ -181,14 +219,16 @@
       "id": "cuando-escalar-a-soporte-directamente",
       "text": {
         "es": "Cuándo sí tiene sentido escalar a soporte directamente",
-        "en": "When it still makes sense to escalate directly to support"
+        "en": "When it still makes sense to escalate directly to support",
+        "pt": "Quando faz sentido escalar direto para o suporte"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "La lógica de preguntarle al agente primero tiene límites claros. Hay cuatro categorías de problema donde escalar directamente al equipo de plataforma sigue siendo la respuesta correcta, sin importar qué pueda devolver el agente: cuando el comportamiento del sistema cambió sin que el operador cambiara nada, cuando hay una discrepancia de billing, cuando el operador necesita comprometerse a una fecha de entrega de funcionalidad, y cuando hay un incidente de seguridad. En esos cuatro casos, el agente puede describir lo que observa — pero no puede resolverlo.",
-        "en": "The logic of asking the agent first has clear limits. There are four problem categories where going directly to the platform team is still the right answer, regardless of what the agent might return: when system behavior changed without the operator changing anything, when there's a billing discrepancy, when the operator needs a feature delivery commitment, and when there's a security incident. In all four, the agent can describe what it observes — but it can't fix it."
+        "en": "The logic of asking the agent first has clear limits. There are four problem categories where going directly to the platform team is still the right answer, regardless of what the agent might return: when system behavior changed without the operator changing anything, when there's a billing discrepancy, when the operator needs a feature delivery commitment, and when there's a security incident. In all four, the agent can describe what it observes — but it can't fix it.",
+        "pt": "A lógica de perguntar ao agente primeiro tem limites claros. Há quatro categorias de problema em que escalar diretamente para a equipe de plataforma continua sendo a resposta correta, não importa o que o agente retorne: quando o comportamento do sistema mudou sem que o operador tenha mudado nada, quando há uma discrepância de billing, quando o operador precisa de um compromisso de data de entrega de funcionalidade, e quando há um incidente de segurança. Nesses quatro casos, o agente pode descrever o que observa — mas não consegue resolver."
       }
     },
     {
@@ -206,6 +246,12 @@
           "**Billing and incorrect charges**: any discrepancy between what the operator expected to be charged and what was actually charged requires access to internal billing records the agent doesn't have available through the MCP",
           "**Roadmap commitments**: the agent can describe what the current system does; it cannot commit to when or whether a new feature will exist — any such promise needs to be validated by someone on the product team",
           "**Security incidents**: unauthorized access, configuration changes the operator didn't make, or MCP history activity that doesn't match any team member — these escalate directly without agent diagnostics first"
+        ],
+        "pt": [
+          "**Comportamento que muda sem causa conhecida**: se o sistema começou a agir diferente depois de uma atualização de plataforma e o agente não tem contexto sobre essa mudança porque ela ocorreu no servidor, a consulta reproduz o sintoma sem explicá-lo — isso é um bug de plataforma, não um problema de configuração do operador",
+          "**Billing e cobranças incorretas**: qualquer discrepância entre o que o operador esperava que a plataforma cobrasse e o que foi cobrado exige acesso aos registros de faturamento interno que o agente não tem disponíveis pelo MCP",
+          "**Compromissos de roadmap**: o agente pode descrever o que o sistema faz hoje; não pode se comprometer com quando ou se uma função nova vai existir — qualquer promessa desse tipo precisa ser validada por alguém da equipe de produto",
+          "**Incidentes de segurança**: acessos não autorizados, mudanças na configuração que o operador não fez, ou atividade no histórico de MCP que não corresponde a nenhum membro da equipe — esses casos são escalados direto, sem diagnóstico prévio com o agente"
         ]
       }
     },
@@ -214,7 +260,8 @@
       "variant": "tip",
       "text": {
         "es": "El proxy más rápido para saber si un problema amerita ir directo a soporte: si la respuesta correcta requiere que alguien con acceso a infraestructura interna cambie algo en el servidor, escala. Si la respuesta correcta es información sobre el estado actual de tu operación, pregúntale al agente primero.",
-        "en": "The fastest proxy for knowing whether a problem deserves a direct support ticket: if the correct answer requires someone with internal infrastructure access to change something server-side, escalate. If the correct answer is information about your operation's current state, ask the agent first."
+        "en": "The fastest proxy for knowing whether a problem deserves a direct support ticket: if the correct answer requires someone with internal infrastructure access to change something server-side, escalate. If the correct answer is information about your operation's current state, ask the agent first.",
+        "pt": "O jeito mais rápido de saber se um problema merece ir direto para o suporte: se a resposta correta exige que alguém com acesso à infraestrutura interna mude algo no servidor, escale. Se a resposta correta é informação sobre o estado atual da sua operação, pergunte ao agente primeiro."
       }
     },
     {
@@ -223,72 +270,84 @@
       "id": "medir-si-agente-sustituye-soporte",
       "text": {
         "es": "Cómo medir si el agente está sustituyendo soporte real",
-        "en": "How to measure whether the agent is actually replacing support"
+        "en": "How to measure whether the agent is actually replacing support",
+        "pt": "Como medir se o agente está realmente substituindo o suporte"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "El indicador más directo es la comparación de tickets por mes antes y después de usar el agente de forma regular — pero ese número rara vez está disponible de forma limpia porque los operadores no llevan registro de los tickets que abrieron antes del agente. Una proxy más accesible está en el historial de `cabgo_my_mcp_usage`: en una semana donde hubo un problema inusual, si el historial muestra cuatro o cinco llamadas de diagnóstico al servidor antes de que el operador abriera un ticket — o en lugar de abrirlo — eso es evidencia directa de que el agente absorbió la consulta. Si el historial muestra cero actividad de diagnóstico esa misma semana y hay tickets abiertos, el agente está instalado pero no está siendo usado como primera fuente.",
-        "en": "The most direct indicator is tickets per month before versus after regular agent use — but that number is rarely available cleanly because operators don't track their pre-agent ticket volume. A more accessible proxy lives in the `cabgo_my_mcp_usage` history: in a week where something unusual happened, if the log shows four or five diagnostic server calls before the operator filed a ticket — or instead of filing one — that's direct evidence the agent absorbed the query. If the log shows zero diagnostic activity that week and there are open tickets, the agent is installed but isn't being used as a first resource."
+        "en": "The most direct indicator is tickets per month before versus after regular agent use — but that number is rarely available cleanly because operators don't track their pre-agent ticket volume. A more accessible proxy lives in the `cabgo_my_mcp_usage` history: in a week where something unusual happened, if the log shows four or five diagnostic server calls before the operator filed a ticket — or instead of filing one — that's direct evidence the agent absorbed the query. If the log shows zero diagnostic activity that week and there are open tickets, the agent is installed but isn't being used as a first resource.",
+        "pt": "O indicador mais direto é a comparação de chamados por mês antes e depois de usar o agente regularmente — mas esse número raramente está disponível de forma limpa, porque os operadores não registram os chamados que abriram antes do agente. Uma proxy mais acessível está no histórico do `cabgo_my_mcp_usage`: em uma semana em que houve um problema incomum, se o histórico mostra quatro ou cinco chamadas de diagnóstico ao servidor antes de o operador abrir um chamado — ou em vez de abri-lo — isso é evidência direta de que o agente absorveu a consulta. Se o histórico mostra zero atividade de diagnóstico nessa mesma semana e há chamados abertos, o agente está instalado, mas não está sendo usado como primeira fonte."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "La métrica objetivo no es cero tickets. Eso significaría que el agente también está absorbiendo los problemas de plataforma reales que sí requieren escalación. La señal correcta es que la proporción de tickets que son preguntas de estado operativo vaya cayendo con el tiempo, mientras que los que quedan son incidentes reales: bugs, discrepancias de billing, solicitudes de feature. En una operación donde el agente está bien configurado y el operador lo usa como primera línea, ese cambio de proporción debería ser visible en 3 a 6 meses de uso consistente. No hay una métrica perfecta para esto, pero el operador que revisa su historial de `cabgo_my_mcp_usage` una vez a la semana puede ver la curva: semanas donde las llamadas de diagnóstico precedieron a los tickets son semanas donde el agente está funcionando como filtro.",
-        "en": "The target metric isn't zero tickets. That would mean the agent is also absorbing real platform issues that genuinely need escalation. The right signal is that the proportion of tickets that are operational status questions drops over time, while the ones that remain are real incidents: bugs, billing discrepancies, feature requests. In an operation where the agent is well configured and the operator uses it as first line, that proportion shift should be visible within 3 to 6 months of consistent use. There's no perfect metric for this, but operators who review their `cabgo_my_mcp_usage` log weekly can see the curve: weeks where diagnostic calls preceded tickets are weeks where the agent is working as a filter."
+        "en": "The target metric isn't zero tickets. That would mean the agent is also absorbing real platform issues that genuinely need escalation. The right signal is that the proportion of tickets that are operational status questions drops over time, while the ones that remain are real incidents: bugs, billing discrepancies, feature requests. In an operation where the agent is well configured and the operator uses it as first line, that proportion shift should be visible within 3 to 6 months of consistent use. There's no perfect metric for this, but operators who review their `cabgo_my_mcp_usage` log weekly can see the curve: weeks where diagnostic calls preceded tickets are weeks where the agent is working as a filter.",
+        "pt": "A métrica alvo não é zero chamados. Isso significaria que o agente também está absorvendo os problemas reais de plataforma que de fato exigem escalonamento. O sinal certo é que a proporção de chamados que são perguntas de estado operacional vá caindo com o tempo, enquanto os que restam sejam incidentes reais: bugs, discrepâncias de billing, pedidos de feature. Em uma operação em que o agente está bem configurado e o operador o usa como primeira linha, essa mudança de proporção deve ficar visível entre 3 e 6 meses de uso consistente. Não existe uma métrica perfeita para isso, mas o operador que revisa seu histórico de `cabgo_my_mcp_usage` uma vez por semana consegue ver a curva: semanas em que as chamadas de diagnóstico precederam os chamados são semanas em que o agente está funcionando como filtro."
       }
     },
     {
       "type": "quote",
       "text": {
         "es": "Las primeras semanas abría tres o cuatro tickets por semana. La mayoría eran preguntas sobre conductores específicos o sobre por qué algo se comportaba diferente. En algún punto empecé a preguntarle al agente primero, casi por accidente — y resultó que respondía el 80% de esas preguntas en el primer mensaje. Ahora abro un ticket al mes, y casi siempre es algo que realmente necesita que alguien en la plataforma lo revise.",
-        "en": "The first few weeks I was filing three or four tickets a week — most were questions about specific drivers or why something was acting differently. At some point I started asking the agent first, almost by accident, and it turned out it answered about 80% of those questions on the first message. Now I open maybe one ticket a month, and it's almost always something that genuinely needs someone at the platform to look at."
+        "en": "The first few weeks I was filing three or four tickets a week — most were questions about specific drivers or why something was acting differently. At some point I started asking the agent first, almost by accident, and it turned out it answered about 80% of those questions on the first message. Now I open maybe one ticket a month, and it's almost always something that genuinely needs someone at the platform to look at.",
+        "pt": "Nas primeiras semanas eu abria três ou quatro chamados por semana. A maioria eram perguntas sobre motoristas específicos ou sobre por que algo estava se comportando diferente. Em algum momento comecei a perguntar ao agente primeiro, quase por acaso — e descobri que ele respondia 80% dessas perguntas já na primeira mensagem. Hoje abro um chamado por mês, e quase sempre é algo que realmente precisa que alguém da plataforma revise."
       },
       "attribution": {
         "es": "Operadora con 110 conductores activos en dos ciudades del sureste de México",
-        "en": "Operator with 110 active drivers across two cities in southeast Mexico"
+        "en": "Operator with 110 active drivers across two cities in southeast Mexico",
+        "pt": "Operadora com 110 motoristas ativos em duas cidades do sudeste do México"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "El agente con el contexto correcto no compite con el canal de soporte de la plataforma — los divide. Las consultas operativas, que son frecuentes y respondibles con datos del servidor, van al chat. Los incidentes que requieren que alguien con acceso a la infraestructura interna actúe van a soporte. Esa separación beneficia al operador porque las preguntas cotidianas se responden en segundos. Beneficia a la plataforma porque el tiempo del equipo de soporte se concentra en los casos que genuinamente requieren una respuesta humana.",
-        "en": "An agent with the right context doesn't compete with the platform support channel — it divides the workload. Operational queries, frequent and answerable from server data, go to the chat. Incidents that require someone with internal infrastructure access to act go to support. That division benefits the operator because everyday questions get answered in seconds. It benefits the platform because support team time concentrates on cases that genuinely require human response."
+        "en": "An agent with the right context doesn't compete with the platform support channel — it divides the workload. Operational queries, frequent and answerable from server data, go to the chat. Incidents that require someone with internal infrastructure access to act go to support. That division benefits the operator because everyday questions get answered in seconds. It benefits the platform because support team time concentrates on cases that genuinely require human response.",
+        "pt": "O agente com o contexto certo não compete com o canal de suporte da plataforma — ele divide o trabalho. As consultas operacionais, frequentes e respondíveis com dados do servidor, vão para o chat. Os incidentes que exigem que alguém com acesso à infraestrutura interna atue vão para o suporte. Essa separação beneficia o operador porque as perguntas do dia a dia são respondidas em segundos. Beneficia a plataforma porque o tempo da equipe de suporte se concentra nos casos que genuinamente precisam de uma resposta humana."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "Si vas a hacer un solo ajuste esta semana para reducir tu dependencia del canal de soporte, no es en la configuración técnica del skill: es en las instrucciones del sistema. Agrega los umbrales normales de tu operación, el patrón de los problemas recurrentes que ya has resuelto antes y el criterio para cuándo sí escalar. Con ese contexto fijo, la próxima vez que algo inesperado pase en mitad del turno, la primera consulta irá al chat — y la respuesta que encuentres ahí tendrá el marco de tu operación específica, no una respuesta genérica escrita para cualquier operador de cualquier mercado.",
-        "en": "If you're going to make one adjustment this week to reduce your reliance on the support channel, it's not in the technical skill config: it's in your system instructions. Add your normal operation thresholds, the pattern of recurring issues you've already solved, and the criteria for when to still escalate. With that fixed context in place, the next time something unexpected happens mid-shift, your first query goes to the chat — and the answer you find there will be grounded in your specific operation, not a generic response written for any operator in any market."
+        "en": "If you're going to make one adjustment this week to reduce your reliance on the support channel, it's not in the technical skill config: it's in your system instructions. Add your normal operation thresholds, the pattern of recurring issues you've already solved, and the criteria for when to still escalate. With that fixed context in place, the next time something unexpected happens mid-shift, your first query goes to the chat — and the answer you find there will be grounded in your specific operation, not a generic response written for any operator in any market.",
+        "pt": "Se você for fazer um único ajuste esta semana para reduzir sua dependência do canal de suporte, não é na configuração técnica do skill: é nas instruções do sistema. Adicione os limiares normais da sua operação, o padrão dos problemas recorrentes que você já resolveu antes e o critério de quando ainda vale a pena escalar. Com esse contexto fixo, na próxima vez que algo inesperado acontecer no meio do turno, a primeira consulta vai para o chat — e a resposta que você encontrar ali vai ter o enquadramento da sua operação específica, não uma resposta genérica escrita para qualquer operador de qualquer mercado."
       }
     }
   ],
   "cta": {
     "heading": {
       "es": "¿Listo para lanzar tu propia app de movilidad?",
-      "en": "Ready to launch your own mobility app?"
+      "en": "Ready to launch your own mobility app?",
+      "pt": "Pronto para lançar seu próprio app de mobilidade?"
     },
     "body": {
       "es": "Configura tu marca, tus tarifas y tus servicios en semanas, no en meses. Cabgo te entrega la plataforma; tú te quedas con la operación, los clientes y los ingresos.",
-      "en": "Set up your brand, pricing and services in weeks, not months. Cabgo ships the platform — you keep the operation, the customers and the revenue."
+      "en": "Set up your brand, pricing and services in weeks, not months. Cabgo ships the platform — you keep the operation, the customers and the revenue.",
+      "pt": "Configure sua marca, suas tarifas e seus serviços em semanas, não em meses. A Cabgo entrega a plataforma; você fica com a operação, os clientes e a receita."
     },
     "buttonLabel": {
       "es": "Comenzar con Cabgo",
-      "en": "Get started with Cabgo"
+      "en": "Get started with Cabgo",
+      "pt": "Começar com a Cabgo"
     },
     "buttonHref": "/empezar"
   },
   "seo": {
     "metaTitle": {
       "es": "El skill como interfaz de soporte | Cabgo",
-      "en": "Use your agent as first-tier support | Cabgo"
+      "en": "Use your agent as first-tier support | Cabgo",
+      "pt": "O skill como interface de suporte | Cabgo"
     },
     "metaDescription": {
       "es": "Cuando el agente tiene el contexto correcto, la mayoría de los tickets de soporte se resuelven antes de abrirlos. Qué contexto hace la diferencia.",
-      "en": "When your agent has the right context, most operational support tickets resolve before you file them. What context matters and when to still escalate."
+      "en": "When your agent has the right context, most operational support tickets resolve before you file them. What context matters and when to still escalate.",
+      "pt": "Quando o agente tem o contexto certo, a maioria dos chamados de suporte é resolvida antes de você abri-los. Qual contexto faz a diferença."
     }
   }
 }

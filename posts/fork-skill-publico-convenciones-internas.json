@@ -3,16 +3,19 @@
   "category": "product",
   "title": {
     "es": "Fork del skill público: cómo agregar tus convenciones sin perder las actualizaciones",
-    "en": "Forking the public skill: how to add your conventions without losing updates"
+    "en": "Forking the public skill: how to add your conventions without losing updates",
+    "pt": "Fork do skill público: como adicionar suas convenções sem perder as atualizações"
   },
   "excerpt": {
     "es": "Editar el skill directamente mezcla tus convenciones con los archivos que la plataforma actualizará. La solución es una capa separada que coexiste con el skill base.",
-    "en": "Editing the skill directly mixes your conventions into files the platform will update. The fix is a separate operator layer that coexists with the base skill."
+    "en": "Editing the skill directly mixes your conventions into files the platform will update. The fix is a separate operator layer that coexists with the base skill.",
+    "pt": "Editar o skill diretamente mistura suas convenções com os arquivos que a plataforma vai atualizar. A solução é uma camada separada que coexiste com o skill base."
   },
   "heroImage": "https://raw.githubusercontent.com/jonatanvazquez/cabgo-blog-content/main/images/fork-skill-publico-convenciones-internas.jpg",
   "heroImageAlt": {
     "es": "Ilustración isométrica de dos pilas de archivos separadas — el skill público con una flecha de actualización desde la nube, y un archivo personal de convenciones en teal — ambas conectadas a la consola de un agente",
-    "en": "Isometric illustration of two separate file stacks — the public skill with an update arrow from a cloud icon, and a personal teal conventions file — both connected to an agent console"
+    "en": "Isometric illustration of two separate file stacks — the public skill with an update arrow from a cloud icon, and a personal teal conventions file — both connected to an agent console",
+    "pt": "Ilustração isométrica de duas pilhas de arquivos separadas — o skill público com uma seta de atualização vindo da nuvem, e um arquivo pessoal de convenções em teal — ambas conectadas ao console de um agente"
   },
   "heroImagePrompt": "Split isometric composition: on the left a labeled indigo directory card stack representing the public skill, with a downward update arrow from a cloud icon above it and a green version checkmark on the side. On the right a smaller glowing teal file card labeled with annotation icons representing zone names and custom thresholds. Both stacks connect via separate colored cables — indigo and teal — to a central isometric agent workstation console that shows a unified context panel. Deep violet floor grid. The two stacks are clearly distinct and separated, conveying independent layers. Negative space on the lower right.",
   "publishedAt": "2026-06-13",
@@ -35,13 +38,23 @@
       "Cabgo agent system instructions separate layers",
       "operator context file zone names thresholds Cabgo",
       "keep agent customizations mobility platform update"
+    ],
+    "pt": [
+      "personalizar skill MCP Cabgo sem perder atualizações",
+      "fork skill público Cabgo convenções internas operador",
+      "camada de contexto operador agente IA transporte por aplicativo",
+      "atualizar skill MCP sem conflitos convenções próprias",
+      "instruções de sistema agente Cabgo separar camadas",
+      "context_operador.md convenções zonas limiares Cabgo",
+      "manter personalizações agente mobilidade regional"
     ]
   },
   "author": {
     "name": "Equipo Cabgo",
     "role": {
       "es": "Plataforma de movilidad",
-      "en": "Mobility platform"
+      "en": "Mobility platform",
+      "pt": "Plataforma de mobilidade"
     }
   },
   "blocks": [
@@ -49,14 +62,16 @@
       "type": "paragraph",
       "text": {
         "es": "Cuando Cabgo publica una actualización del skill público del servidor MCP, los operadores que instalaron la versión original sin modificarla reciben las mejoras de forma directa: nuevas herramientas disponibles, instrucciones de sistema corregidas, patrones de uso optimizados. Los operadores que editaron el skill directamente para agregar sus convenciones internas — nombres de zonas, umbrales propios, flujos de escalación — enfrentan el mismo dilema con cada nueva versión: sobreescriben con la actualización y pierden sus adiciones, o se quedan con su versión y acumulan deuda de funcionalidad. Ese dilema tiene una solución que no requiere elegir entre los dos caminos — requiere separar las dos capas desde el principio.",
-        "en": "When Cabgo releases an update to the public MCP skill, operators who installed the original version without modifying it receive the improvements automatically: new tools available, corrected system instructions, optimized usage patterns. Operators who edited the skill directly to add their own internal conventions — zone names, custom thresholds, escalation flows — face the same dilemma with every new release: overwrite with the update and lose their additions, or stay on their version and fall behind on functionality. That dilemma has a solution that doesn't require choosing between the two paths — it requires separating the two layers from the start."
+        "en": "When Cabgo releases an update to the public MCP skill, operators who installed the original version without modifying it receive the improvements automatically: new tools available, corrected system instructions, optimized usage patterns. Operators who edited the skill directly to add their own internal conventions — zone names, custom thresholds, escalation flows — face the same dilemma with every new release: overwrite with the update and lose their additions, or stay on their version and fall behind on functionality. That dilemma has a solution that doesn't require choosing between the two paths — it requires separating the two layers from the start.",
+        "pt": "Quando a Cabgo publica uma atualização do skill público do servidor MCP, os operadores que instalaram a versão original sem modificá-la recebem as melhorias de forma direta: novas ferramentas disponíveis, instruções de sistema corrigidas, padrões de uso otimizados. Os operadores que editaram o skill diretamente para adicionar suas convenções internas — nomes de zonas, limiares próprios, fluxos de escalonamento — enfrentam o mesmo dilema a cada nova versão: sobrescrevem com a atualização e perdem suas adições, ou ficam com a sua versão e acumulam dívida de funcionalidade. Esse dilema tem uma solução que não exige escolher entre os dois caminhos — exige separar as duas camadas desde o começo."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "Este artículo es para el operador que ya tiene el skill instalado y funcionando, ha empezado a agregar contexto específico de su operación y quiere una forma de mantener esas convenciones sin que cada actualización de la plataforma sea una decisión sobre qué perder. El patrón que se describe aquí — separar el skill base del contexto del operador en archivos distintos — no requiere conocimientos avanzados de desarrollo. Es una decisión de estructura que cualquiera que haya editado las instrucciones del sistema del agente una vez puede implementar en menos de una hora, y que convierte cada futura actualización del skill en una operación de diez minutos sin conflictos.",
-        "en": "This article is for operators who already have the skill installed and running, have started adding operation-specific context, and want a way to keep those conventions without every platform update becoming a decision about what to sacrifice. The pattern described here — separating the base skill from the operator's context into distinct files — doesn't require advanced development knowledge. It's a structural decision that anyone who has edited the agent's system instructions once can implement in under an hour, and that turns every future skill update into a ten-minute, conflict-free operation."
+        "en": "This article is for operators who already have the skill installed and running, have started adding operation-specific context, and want a way to keep those conventions without every platform update becoming a decision about what to sacrifice. The pattern described here — separating the base skill from the operator's context into distinct files — doesn't require advanced development knowledge. It's a structural decision that anyone who has edited the agent's system instructions once can implement in under an hour, and that turns every future skill update into a ten-minute, conflict-free operation.",
+        "pt": "Este artigo é para o operador que já tem o skill instalado e funcionando, começou a adicionar contexto específico da sua operação e quer uma forma de manter essas convenções sem que cada atualização da plataforma seja uma decisão sobre o que perder. O padrão descrito aqui — separar o skill base do contexto do operador em arquivos distintos — não exige conhecimentos avançados de desenvolvimento. É uma decisão de estrutura que qualquer pessoa que já tenha editado as instruções de sistema do agente uma vez consegue implementar em menos de uma hora, e que transforma cada futura atualização do skill em uma operação de dez minutos, sem conflitos."
       }
     },
     {
@@ -65,21 +80,24 @@
       "id": "skill-publico-como-base-no-destino",
       "text": {
         "es": "El skill público como base de configuración, no como destino final",
-        "en": "The public skill as a configuration starting point, not a finished product"
+        "en": "The public skill as a configuration starting point, not a finished product",
+        "pt": "O skill público como base de configuração, não como destino final"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "El skill público que Cabgo publica contiene las definiciones de las herramientas del servidor MCP, un conjunto de instrucciones del sistema que orienta al agente sobre los patrones de uso esperados, y ejemplos de prompts para las tareas más comunes. Lo que el skill no puede incluir por diseño — porque es el mismo para todos los operadores — son las convenciones específicas de cada operación: el nombre que el equipo usa para la zona de alta demanda del aeropuerto, el umbral de disponibilidad que ese operador considera alerta en temporada baja, el criterio interno de cuándo escalar una incidencia al coordinador de turno en lugar del dueño del negocio. Esa segunda capa es la que convierte el skill genérico en una herramienta útil para esa operación específica, con esos conductores, en esas zonas, con esos criterios.",
-        "en": "The public skill Cabgo publishes contains the MCP server tool definitions, a set of system instructions that orient the agent toward expected usage patterns, and prompt examples for the most common tasks. What the skill cannot include by design — because it's the same for all operators — are the conventions specific to each operation: the name the team uses for the airport high-demand zone, the availability threshold that operator treats as an alert during the off-season, the internal criterion for when to escalate an incident to the shift coordinator rather than the business owner. That second layer is what turns the generic skill into a useful tool for that specific operation, with those drivers, those zones, and those criteria."
+        "en": "The public skill Cabgo publishes contains the MCP server tool definitions, a set of system instructions that orient the agent toward expected usage patterns, and prompt examples for the most common tasks. What the skill cannot include by design — because it's the same for all operators — are the conventions specific to each operation: the name the team uses for the airport high-demand zone, the availability threshold that operator treats as an alert during the off-season, the internal criterion for when to escalate an incident to the shift coordinator rather than the business owner. That second layer is what turns the generic skill into a useful tool for that specific operation, with those drivers, those zones, and those criteria.",
+        "pt": "O skill público que a Cabgo publica contém as definições das ferramentas do servidor MCP, um conjunto de instruções de sistema que orienta o agente sobre os padrões de uso esperados, e exemplos de prompts para as tarefas mais comuns. O que o skill não pode incluir por design — porque é o mesmo para todos os operadores — são as convenções específicas de cada operação: o nome que a equipe usa para a zona de alta demanda do aeroporto, o limiar de disponibilidade que aquele operador considera alerta na baixa temporada, o critério interno de quando escalar uma ocorrência ao coordenador de turno em vez do dono do negócio. Essa segunda camada é a que transforma o skill genérico em uma ferramenta útil para aquela operação específica, com aqueles motoristas, naquelas zonas, com aqueles critérios."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "El problema aparece cuando esa segunda capa se agrega directamente dentro de los mismos archivos que definen la primera. Editar el archivo de instrucciones del sistema del skill para incluir las convenciones propias no es incorrecto técnicamente — el agente funciona y los resultados mejoran. El error es de arquitectura: cuando la plataforma publique una versión nueva del skill con instrucciones mejoradas o nuevas herramientas disponibles, el operador tendrá que decidir entre actualizar los archivos base y perder sus adiciones, o mantener su versión modificada y perderse las mejoras. Ambos costos son reales y recurrentes.",
-        "en": "The problem appears when that second layer gets added directly inside the same files that define the first one. Editing the skill's system instructions file to include your own conventions isn't technically wrong — the agent works and results improve. The error is architectural: when the platform releases a new skill version with improved instructions or new tools, the operator will have to choose between updating the base files and losing their additions, or keeping their modified version and missing the improvements. Both costs are real and recurring."
+        "en": "The problem appears when that second layer gets added directly inside the same files that define the first one. Editing the skill's system instructions file to include your own conventions isn't technically wrong — the agent works and results improve. The error is architectural: when the platform releases a new skill version with improved instructions or new tools, the operator will have to choose between updating the base files and losing their additions, or keeping their modified version and missing the improvements. Both costs are real and recurring.",
+        "pt": "O problema aparece quando essa segunda camada é adicionada diretamente dentro dos mesmos arquivos que definem a primeira. Editar o arquivo de instruções de sistema do skill para incluir as convenções próprias não está tecnicamente errado — o agente funciona e os resultados melhoram. O erro é de arquitetura: quando a plataforma publicar uma versão nova do skill com instruções melhoradas ou novas ferramentas disponíveis, o operador terá que decidir entre atualizar os arquivos base e perder suas adições, ou manter a sua versão modificada e ficar sem as melhorias. Os dois custos são reais e recorrentes."
       }
     },
     {
@@ -88,21 +106,24 @@
       "id": "donde-entra-personalizacion-y-por-que-crea-fricciones",
       "text": {
         "es": "Dónde entra la personalización y por qué ese lugar crea fricción futura",
-        "en": "Where customization tends to land and why that location creates future friction"
+        "en": "Where customization tends to land and why that location creates future friction",
+        "pt": "Onde a personalização costuma entrar e por que esse lugar cria atrito futuro"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "La mayoría de los operadores que personalizan el skill lo hacen en uno o dos puntos: agregan líneas al archivo de instrucciones del sistema del skill instalado y, en algunos casos, ajustan parámetros de las definiciones de herramientas para reflejar los nombres o rangos de su operación específica. Los cambios son razonables y en la dirección correcta — el problema no es qué se agrega, sino en qué archivo. Los archivos base del skill son exactamente los que la plataforma actualizará cuando salga la siguiente versión.",
-        "en": "Most operators who customize the skill do it in one or two places: they add lines to the skill's system instructions file and, in some cases, adjust parameters in tool definitions to reflect their specific zone names or ranges. The changes are reasonable and pointed in the right direction — the problem isn't what gets added, but in which file. The base skill files are exactly the ones the platform will update when the next version ships."
+        "en": "Most operators who customize the skill do it in one or two places: they add lines to the skill's system instructions file and, in some cases, adjust parameters in tool definitions to reflect their specific zone names or ranges. The changes are reasonable and pointed in the right direction — the problem isn't what gets added, but in which file. The base skill files are exactly the ones the platform will update when the next version ships.",
+        "pt": "A maioria dos operadores que personaliza o skill faz isso em um ou dois pontos: adiciona linhas ao arquivo de instruções de sistema do skill instalado e, em alguns casos, ajusta parâmetros das definições de ferramentas para refletir os nomes ou faixas da sua operação específica. As mudanças são razoáveis e na direção correta — o problema não é o que se adiciona, mas em qual arquivo. Os arquivos base do skill são exatamente os que a plataforma vai atualizar quando sair a próxima versão."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "El resultado práctico: la primera actualización relevante llega y el operador descubre que tiene un conflicto entre la versión que usa y la nueva. Si elige el camino más rápido y sobreescribe con la actualización, las convenciones internas desaparecen y hay que volver a agregarlas desde memoria. Si decide no actualizar para conservarlas, empieza a acumular distancia respecto a las mejoras de la plataforma — el agente opera con instrucciones que ya no reflejan las capacidades actuales del servidor. Los dos caminos tienen costo. La alternativa es no poner las convenciones en los archivos que la plataforma va a actualizar.",
-        "en": "The practical result: a meaningful update arrives and the operator discovers a version conflict between what they're running and the new release. If they take the fastest path and overwrite with the update, their internal conventions disappear and have to be rebuilt from memory. If they decide to hold back to preserve them, they start accumulating drift from platform improvements — the agent runs on instructions that no longer reflect the server's current capabilities. Both paths have a cost. The alternative is to not put conventions in the files the platform will update."
+        "en": "The practical result: a meaningful update arrives and the operator discovers a version conflict between what they're running and the new release. If they take the fastest path and overwrite with the update, their internal conventions disappear and have to be rebuilt from memory. If they decide to hold back to preserve them, they start accumulating drift from platform improvements — the agent runs on instructions that no longer reflect the server's current capabilities. Both paths have a cost. The alternative is to not put conventions in the files the platform will update.",
+        "pt": "O resultado prático: a primeira atualização relevante chega e o operador descobre que tem um conflito entre a versão que usa e a nova. Se escolher o caminho mais rápido e sobrescrever com a atualização, as convenções internas desaparecem e é preciso adicioná-las de novo, de memória. Se decidir não atualizar para conservá-las, começa a acumular distância em relação às melhorias da plataforma — o agente opera com instruções que já não refletem as capacidades atuais do servidor. Os dois caminhos têm custo. A alternativa é não colocar as convenções nos arquivos que a plataforma vai atualizar."
       }
     },
     {
@@ -111,21 +132,24 @@
       "id": "patron-capas-separar-skill-base-del-contexto",
       "text": {
         "es": "El patrón de capas: separar el skill base del contexto del operador",
-        "en": "The layered approach: separating the base skill from operator context"
+        "en": "The layered approach: separating the base skill from operator context",
+        "pt": "O padrão de camadas: separar o skill base do contexto do operador"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "El patrón que elimina ese dilema es estructuralmente simple: los archivos del skill público no se modifican. Se instalan tal como los publica la plataforma y se actualizan directamente cuando sale una nueva versión. Las convenciones internas del operador viven en un archivo separado — llamémoslo `context_operador.md` o con cualquier nombre que prefiera el equipo — que se carga en las instrucciones del sistema del cliente de agente (Claude Desktop, ChatGPT, o el cliente que el equipo use) pero que no forma parte del directorio del skill en sí.",
-        "en": "The pattern that eliminates that dilemma is structurally simple: the public skill files are never modified. They get installed exactly as the platform publishes them and updated directly when a new version ships. The operator's internal conventions live in a separate file — call it context_operador.md or whatever name the team prefers — that gets loaded into the agent client's system instructions (Claude Desktop, ChatGPT, or whichever client the team uses) but isn't part of the skill directory itself."
+        "en": "The pattern that eliminates that dilemma is structurally simple: the public skill files are never modified. They get installed exactly as the platform publishes them and updated directly when a new version ships. The operator's internal conventions live in a separate file — call it context_operador.md or whatever name the team prefers — that gets loaded into the agent client's system instructions (Claude Desktop, ChatGPT, or whichever client the team uses) but isn't part of the skill directory itself.",
+        "pt": "O padrão que elimina esse dilema é estruturalmente simples: os arquivos do skill público não são modificados. Eles são instalados exatamente como a plataforma publica e atualizados diretamente quando sai uma nova versão. As convenções internas do operador ficam em um arquivo separado — vamos chamá-lo de `context_operador.md` ou qualquer nome que a equipe preferir — que é carregado nas instruções de sistema do cliente do agente (Claude Desktop, ChatGPT, ou o cliente que a equipe usar), mas que não faz parte do diretório do skill em si."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "La separación tiene una implicación práctica importante en cómo se estructura la sección de instrucciones del sistema en el cliente. La primera parte referencia el skill público sin cambios — las instrucciones de herramientas y los patrones de uso del servidor tal como los publicó la plataforma. La segunda parte carga el archivo de convenciones del operador: los nombres de zona, los umbrales específicos, el criterio de escalación interno. Cuando la plataforma actualiza el skill, el operador actualiza la primera parte — o reinstala los archivos del skill en el directorio. La segunda parte no tiene conflictos porque nunca estuvo en los archivos que se actualizaron.",
-        "en": "The separation has one important practical implication for how the system instructions section is structured in the client. The first part references the public skill without changes — the tool instructions and server usage patterns exactly as the platform published them. The second part loads the operator conventions file: zone names, specific thresholds, internal escalation criteria. When the platform updates the skill, the operator updates the first part — or reinstalls the skill files in the directory. The second part has no conflicts because it was never in the files that got updated."
+        "en": "The separation has one important practical implication for how the system instructions section is structured in the client. The first part references the public skill without changes — the tool instructions and server usage patterns exactly as the platform published them. The second part loads the operator conventions file: zone names, specific thresholds, internal escalation criteria. When the platform updates the skill, the operator updates the first part — or reinstalls the skill files in the directory. The second part has no conflicts because it was never in the files that got updated.",
+        "pt": "A separação tem uma implicação prática importante em como se estrutura a seção de instruções de sistema no cliente. A primeira parte referencia o skill público sem alterações — as instruções de ferramentas e os padrões de uso do servidor exatamente como a plataforma publicou. A segunda parte carrega o arquivo de convenções do operador: os nomes de zona, os limiares específicos, o critério de escalonamento interno. Quando a plataforma atualiza o skill, o operador atualiza a primeira parte — ou reinstala os arquivos do skill no diretório. A segunda parte não tem conflitos porque nunca esteve nos arquivos que foram atualizados."
       }
     },
     {
@@ -134,14 +158,16 @@
       "id": "que-convenciones-vale-la-pena-codificar",
       "text": {
         "es": "Qué convenciones vale la pena mantener en tu capa",
-        "en": "What conventions are worth keeping in your operator layer"
+        "en": "What conventions are worth keeping in your operator layer",
+        "pt": "Quais convenções vale a pena manter na sua camada"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "No todo el conocimiento que el operador tiene sobre su operación necesita estar formalizado en el archivo de convenciones. La información que cambia en tiempo real — el estado de conductores activos ahora mismo, los picos del momento — el agente la obtiene directamente del servidor MCP en cada consulta. Lo que sí vale la pena codificar en la capa del operador es el contexto estructural: el que es estable entre turnos y que el agente necesita para interpretar correctamente los datos que recibe del servidor.",
-        "en": "Not all the knowledge an operator has about their operation needs to be formalized in the conventions file. Information that changes in real time — the current status of active drivers, demand spikes happening right now — the agent retrieves directly from the MCP server on each query. What's worth codifying in the operator layer is structural context: what stays stable across shifts and what the agent needs in order to interpret the data it receives from the server correctly."
+        "en": "Not all the knowledge an operator has about their operation needs to be formalized in the conventions file. Information that changes in real time — the current status of active drivers, demand spikes happening right now — the agent retrieves directly from the MCP server on each query. What's worth codifying in the operator layer is structural context: what stays stable across shifts and what the agent needs in order to interpret the data it receives from the server correctly.",
+        "pt": "Nem todo o conhecimento que o operador tem sobre a sua operação precisa estar formalizado no arquivo de convenções. A informação que muda em tempo real — o status de motoristas ativos agora mesmo, os picos do momento — o agente obtém diretamente do servidor MCP em cada consulta. O que realmente vale a pena codificar na camada do operador é o contexto estrutural: aquele que é estável entre turnos e que o agente precisa para interpretar corretamente os dados que recebe do servidor."
       }
     },
     {
@@ -161,6 +187,13 @@
           "**Internal escalation flow**: who receives which type of alert, through which channel, and at what time — the skill has no way of knowing the night shift coordinator prefers surge alerts via WhatsApp while the business owner reviews the summary on the dashboard only at end of day",
           "**TenantId conventions by context**: if the operation has two tenants (taxi and delivery) and tasks of each type always use the same one, formalizing that in the layer prevents the error of mixing tenants in quick queries where it isn't specified explicitly",
           "**Stored resolutions for recurring incidents**: the fix that already worked for problems that keep coming back — when the agent recognizes the pattern and already has the resolution in context, the query ends in a direct answer rather than a fresh diagnosis from scratch"
+        ],
+        "pt": [
+          "**Nomes de zona e sua correspondência**: se a equipe chama de «Zona Norte» o que o mapa registra como «setor 04», esse mapeamento nas instruções evita ambiguidade em cada consulta — sem ele o agente usa o identificador técnico do servidor e a equipe tem que traduzir mentalmente a cada resposta",
+          "**Limiares de normalidade próprios**: as faixas de disponibilidade, taxa de cancelamento e tempos de espera que são normais para aquela operação específica, por horário e zona — os valores padrão do skill são genéricos e não refletem a realidade de cada mercado",
+          "**Fluxo de escalonamento interno**: quem recebe qual tipo de alerta, por qual canal e em qual horário — o skill não pode saber que o coordenador do turno da noite prefere os alertas de tarifa dinâmica pelo WhatsApp e que o dono do negócio revisa o resumo no dashboard só no final do dia",
+          "**Convenções de tenantId por contexto**: se a operação tem dois tenants (táxi e delivery) e as tarefas de cada tipo sempre usam o mesmo, formalizar isso na camada evita o erro de misturar tenants em consultas rápidas onde não se especifica de forma explícita",
+          "**Resoluções de ocorrências recorrentes**: a solução que já funcionou para os problemas que reaparecem — quando o agente reconhece o padrão e já tem a resolução em contexto, a consulta termina em uma resposta direta, não em um diagnóstico do zero"
         ]
       }
     },
@@ -170,21 +203,24 @@
       "id": "incorporar-actualizacion-sin-afectar-capa",
       "text": {
         "es": "Cómo incorporar una actualización del skill sin afectar tu capa",
-        "en": "How to pull a skill update without touching your operator layer"
+        "en": "How to pull a skill update without touching your operator layer",
+        "pt": "Como incorporar uma atualização do skill sem afetar a sua camada"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "Con el patrón de capas implementado, incorporar una actualización del skill público es una secuencia de tres pasos que toma menos de diez minutos. El primero es descargar o actualizar el directorio del skill desde el repositorio de la plataforma — si se usa git, un `git pull` en la carpeta del skill es suficiente. El segundo es revisar el changelog de la actualización para entender qué cambió: algunos updates añaden nuevas herramientas, otros ajustan los nombres de parámetros existentes o el formato de las respuestas. Si hay cambios de ese tipo, puede requerirse un ajuste menor en la capa del operador — no en el skill base. El tercero es verificar que las instrucciones del sistema en el cliente de agente siguen referenciando correctamente los archivos actualizados.",
-        "en": "With the layered pattern in place, pulling a public skill update is a three-step sequence that takes under ten minutes. First: download or update the skill directory from the platform's repository — if you're using git, a pull in the skill folder is enough. Second: review the update's changelog to understand what changed. Some updates add new tools; others rename existing parameters or adjust response formats. If there are changes of that type, a minor adjustment in the operator layer may be needed — not in the base skill files. Third: verify that the system instructions in the agent client still reference the updated files correctly."
+        "en": "With the layered pattern in place, pulling a public skill update is a three-step sequence that takes under ten minutes. First: download or update the skill directory from the platform's repository — if you're using git, a pull in the skill folder is enough. Second: review the update's changelog to understand what changed. Some updates add new tools; others rename existing parameters or adjust response formats. If there are changes of that type, a minor adjustment in the operator layer may be needed — not in the base skill files. Third: verify that the system instructions in the agent client still reference the updated files correctly.",
+        "pt": "Com o padrão de camadas implementado, incorporar uma atualização do skill público é uma sequência de três passos que leva menos de dez minutos. O primeiro é baixar ou atualizar o diretório do skill a partir do repositório da plataforma — se você usa git, um `git pull` na pasta do skill é suficiente. O segundo é revisar o changelog da atualização para entender o que mudou: algumas atualizações adicionam novas ferramentas, outras ajustam os nomes de parâmetros existentes ou o formato das respostas. Se houver mudanças desse tipo, pode ser necessário um ajuste menor na camada do operador — não no skill base. O terceiro é verificar que as instruções de sistema no cliente do agente continuam referenciando corretamente os arquivos atualizados."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "Si el operador nunca modificó los archivos base del skill, esos tres pasos son todo lo necesario. La capa del operador no tiene conflictos porque vive en un archivo distinto. Si los cambios en el skill implican ajustes en el contexto del operador — por ejemplo, una herramienta renombrada que el operador menciona por nombre en su archivo de convenciones — esos ajustes se hacen en el archivo del operador, no en los archivos del skill. El resultado: el agente tiene las mejoras de la plataforma y las convenciones internas del operador, sin interferencia entre las dos.",
-        "en": "If the operator never modified the base skill files, those three steps are everything needed. The operator layer has no conflicts because it lives in a separate file. If skill changes require adjustments in the operator's context — for example, a renamed tool the operator references by name in their conventions file — those adjustments happen in the operator file, not in the skill files. The result: the agent has the platform's improvements and the operator's internal conventions, with no interference between the two."
+        "en": "If the operator never modified the base skill files, those three steps are everything needed. The operator layer has no conflicts because it lives in a separate file. If skill changes require adjustments in the operator's context — for example, a renamed tool the operator references by name in their conventions file — those adjustments happen in the operator file, not in the skill files. The result: the agent has the platform's improvements and the operator's internal conventions, with no interference between the two.",
+        "pt": "Se o operador nunca modificou os arquivos base do skill, esses três passos são tudo o que é necessário. A camada do operador não tem conflitos porque fica em um arquivo distinto. Se as mudanças no skill implicarem ajustes no contexto do operador — por exemplo, uma ferramenta renomeada que o operador menciona pelo nome no seu arquivo de convenções — esses ajustes são feitos no arquivo do operador, não nos arquivos do skill. O resultado: o agente tem as melhorias da plataforma e as convenções internas do operador, sem interferência entre as duas."
       }
     },
     {
@@ -193,72 +229,84 @@
       "id": "verificar-capa-funciona-despues-de-actualizar",
       "text": {
         "es": "Verificar que la capa funciona después de aplicar una actualización",
-        "en": "Verifying the operator layer works after applying an update"
+        "en": "Verifying the operator layer works after applying an update",
+        "pt": "Verificar que a camada funciona depois de aplicar uma atualização"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "La verificación más directa después de una actualización es una consulta diagnóstica al agente antes de volver a usarlo en producción. Un prompt simple — «¿Qué zonas tienes definidas como de alta demanda para esta operación? ¿Cuál es el umbral de disponibilidad que consideras normal en esta ciudad?» — le pide al agente que devuelva lo que tiene en contexto activo en ese momento. Si la respuesta incluye los nombres y valores del archivo del operador, la actualización no los afectó. Si el agente devuelve valores genéricos o no reconoce los nombres internos, hay un problema en cómo se cargó el archivo de convenciones en las instrucciones del sistema del cliente.",
-        "en": "The most direct check after an update is a diagnostic query to the agent before returning it to production use. A simple prompt — «What zones do you have defined as high-demand for this operation? What's the availability threshold you consider normal for this city?» — asks the agent to return what it has in active context at that moment. If the response includes the names and values from the operator file, the update didn't affect them. If the agent returns generic values or doesn't recognize the internal zone names, something went wrong with how the conventions file was loaded into the client's system instructions."
+        "en": "The most direct check after an update is a diagnostic query to the agent before returning it to production use. A simple prompt — «What zones do you have defined as high-demand for this operation? What's the availability threshold you consider normal for this city?» — asks the agent to return what it has in active context at that moment. If the response includes the names and values from the operator file, the update didn't affect them. If the agent returns generic values or doesn't recognize the internal zone names, something went wrong with how the conventions file was loaded into the client's system instructions.",
+        "pt": "A verificação mais direta depois de uma atualização é uma consulta diagnóstica ao agente antes de voltar a usá-lo em produção. Um prompt simples — «Quais zonas você tem definidas como de alta demanda para esta operação? Qual é o limiar de disponibilidade que você considera normal nesta cidade?» — pede ao agente que devolva o que tem em contexto ativo naquele momento. Se a resposta incluir os nomes e valores do arquivo do operador, a atualização não os afetou. Se o agente devolver valores genéricos ou não reconhecer os nomes internos, há um problema em como o arquivo de convenções foi carregado nas instruções de sistema do cliente."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "Esa verificación toma dos minutos y tiene un valor desproporcionado: evita operar un turno con un agente que tiene las mejoras del skill pero perdió el contexto de la operación. El síntoma de ese estado no siempre es visible de inmediato — el agente responde preguntas, accede al servidor, produce outputs con el formato correcto — pero lo hace sin el marco que produce respuestas específicas para esa operación. Un agente sin convenciones cargadas es funcionalmente equivalente a uno recién instalado: correcto en la forma, pero genérico en el contenido. Para una operación que lleva meses refinando su capa de contexto, perder eso silenciosamente en una actualización tiene exactamente el mismo costo que no haberla construido.",
-        "en": "That check takes two minutes and has outsized value: it prevents running a shift with an agent that has the skill improvements but lost the operation's context. The symptom of that state isn't always immediately visible — the agent answers questions, accesses the server, produces correctly formatted outputs — but it does so without the frame that produces operation-specific responses. An agent with no conventions loaded is functionally equivalent to a freshly installed one: correct in form, but generic in content. For an operation that has spent months refining its context layer, losing it silently in an update carries exactly the same cost as not having built it."
+        "en": "That check takes two minutes and has outsized value: it prevents running a shift with an agent that has the skill improvements but lost the operation's context. The symptom of that state isn't always immediately visible — the agent answers questions, accesses the server, produces correctly formatted outputs — but it does so without the frame that produces operation-specific responses. An agent with no conventions loaded is functionally equivalent to a freshly installed one: correct in form, but generic in content. For an operation that has spent months refining its context layer, losing it silently in an update carries exactly the same cost as not having built it.",
+        "pt": "Essa verificação leva dois minutos e tem um valor desproporcional: evita operar um turno com um agente que tem as melhorias do skill mas perdeu o contexto da operação. O sintoma desse estado nem sempre é visível de imediato — o agente responde perguntas, acessa o servidor, produz outputs com o formato correto — mas faz isso sem o enquadramento que produz respostas específicas para aquela operação. Um agente sem convenções carregadas é funcionalmente equivalente a um recém-instalado: correto na forma, mas genérico no conteúdo. Para uma operação que passou meses refinando sua camada de contexto, perder isso silenciosamente em uma atualização tem exatamente o mesmo custo que não tê-la construído."
       }
     },
     {
       "type": "quote",
       "text": {
         "es": "La primera vez que salió una actualización del skill sobreescribí los archivos y perdí las instrucciones para mis zonas. Tardé un día en reconstruirlas de memoria. La segunda actualización ya la apliqué con el archivo del operador separado — diez minutos, sin conflictos, y mis convenciones quedaron intactas.",
-        "en": "The first time a skill update came out I overwrote the files and lost all the instructions I'd added for my zones. It took me a day to reconstruct them from memory. The second update I applied with the operator file already separate — ten minutes, no conflicts, and my conventions were untouched."
+        "en": "The first time a skill update came out I overwrote the files and lost all the instructions I'd added for my zones. It took me a day to reconstruct them from memory. The second update I applied with the operator file already separate — ten minutes, no conflicts, and my conventions were untouched.",
+        "pt": "Na primeira vez que saiu uma atualização do skill, sobrescrevi os arquivos e perdi as instruções para as minhas zonas. Levei um dia para reconstruí-las de memória. A segunda atualização eu já apliquei com o arquivo do operador separado — dez minutos, sem conflitos, e minhas convenções ficaram intactas."
       },
       "attribution": {
         "es": "Operador con 70 conductores activos en dos ciudades del Bajío",
-        "en": "Operator with 70 active drivers across two cities in the Bajío region"
+        "en": "Operator with 70 active drivers across two cities in the Bajío region",
+        "pt": "Operador com 70 motoristas ativos em duas cidades do Bajío"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "El patrón de capas no es una práctica avanzada de desarrollo — es una decisión sobre dónde guarda el operador el conocimiento de su operación. El skill público de la plataforma resuelve la interfaz con el servidor MCP: qué herramientas existen, cómo se invocan, qué devuelven. El archivo de convenciones del operador resuelve el contexto de la operación específica: qué significan los datos que el skill devuelve en términos de esa ciudad, ese equipo y esos umbrales propios. Las dos capas responden preguntas distintas y, cuando viven en archivos distintos, se pueden actualizar de forma independiente sin que una afecte a la otra.",
-        "en": "The layered pattern isn't an advanced development practice — it's a decision about where the operator stores their operation's knowledge. The platform's public skill handles the MCP server interface: what tools exist, how to invoke them, what they return. The operator conventions file handles the specific operation's context: what the data the skill returns means in terms of that city, that team, and those thresholds. The two layers answer different questions, and when they live in separate files, each can be updated independently without one affecting the other."
+        "en": "The layered pattern isn't an advanced development practice — it's a decision about where the operator stores their operation's knowledge. The platform's public skill handles the MCP server interface: what tools exist, how to invoke them, what they return. The operator conventions file handles the specific operation's context: what the data the skill returns means in terms of that city, that team, and those thresholds. The two layers answer different questions, and when they live in separate files, each can be updated independently without one affecting the other.",
+        "pt": "O padrão de camadas não é uma prática avançada de desenvolvimento — é uma decisão sobre onde o operador guarda o conhecimento da sua operação. O skill público da plataforma resolve a interface com o servidor MCP: quais ferramentas existem, como são invocadas, o que retornam. O arquivo de convenções do operador resolve o contexto da operação específica: o que significam os dados que o skill retorna em termos daquela cidade, daquela equipe e daqueles limiares próprios. As duas camadas respondem perguntas distintas e, quando ficam em arquivos distintos, podem ser atualizadas de forma independente sem que uma afete a outra."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "Si llevas más de un mes con el skill instalado y aún no has separado las capas, el momento más conveniente para hacerlo es antes de que llegue la siguiente actualización importante. El inventario de lo que haría útil tu capa no es extenso: cinco a ocho convenciones que el equipo usa con suficiente frecuencia para que valga documentarlas en un lugar fijo. Crear el archivo, mover ahí lo que ya tienes disperso en las instrucciones del sistema, y actualizar las referencias en el cliente toma menos de una tarde. Las próximas actualizaciones del skill serán una operación de diez minutos en lugar de una decisión sobre qué perder.",
-        "en": "If you've had the skill installed for more than a month and haven't separated the layers yet, the most convenient moment to do it is before the next significant update arrives. The inventory of what would make your layer useful isn't long: five to eight conventions the team uses frequently enough to be worth documenting in a fixed place. Creating the file, moving there what you already have scattered in the system instructions, and updating the references in the client takes less than an afternoon. Future skill updates will be ten-minute operations instead of decisions about what to sacrifice."
+        "en": "If you've had the skill installed for more than a month and haven't separated the layers yet, the most convenient moment to do it is before the next significant update arrives. The inventory of what would make your layer useful isn't long: five to eight conventions the team uses frequently enough to be worth documenting in a fixed place. Creating the file, moving there what you already have scattered in the system instructions, and updating the references in the client takes less than an afternoon. Future skill updates will be ten-minute operations instead of decisions about what to sacrifice.",
+        "pt": "Se você está há mais de um mês com o skill instalado e ainda não separou as camadas, o momento mais conveniente para fazer isso é antes de chegar a próxima atualização importante. O inventário do que tornaria a sua camada útil não é extenso: cinco a oito convenções que a equipe usa com frequência suficiente para valer a pena documentá-las em um lugar fixo. Criar o arquivo, mover para lá o que você já tem espalhado nas instruções de sistema, e atualizar as referências no cliente leva menos de uma tarde. As próximas atualizações do skill serão uma operação de dez minutos, em vez de uma decisão sobre o que perder."
       }
     }
   ],
   "cta": {
     "heading": {
       "es": "¿Listo para lanzar tu propia app de movilidad?",
-      "en": "Ready to launch your own mobility app?"
+      "en": "Ready to launch your own mobility app?",
+      "pt": "Pronto para lançar o seu próprio app de mobilidade?"
     },
     "body": {
       "es": "Configura tu marca, tus tarifas y tus servicios en semanas, no en meses. Cabgo te entrega la plataforma; tú te quedas con la operación, los clientes y los ingresos.",
-      "en": "Set up your brand, pricing and services in weeks, not months. Cabgo ships the platform — you keep the operation, the customers and the revenue."
+      "en": "Set up your brand, pricing and services in weeks, not months. Cabgo ships the platform — you keep the operation, the customers and the revenue.",
+      "pt": "Configure sua marca, suas tarifas e seus serviços em semanas, não em meses. A Cabgo entrega a plataforma; você fica com a operação, os clientes e a receita."
     },
     "buttonLabel": {
       "es": "Comenzar con Cabgo",
-      "en": "Get started with Cabgo"
+      "en": "Get started with Cabgo",
+      "pt": "Começar com a Cabgo"
     },
     "buttonHref": "/empezar"
   },
   "seo": {
     "metaTitle": {
       "es": "Tu capa sobre el skill de Cabgo sin perder updates | Cabgo",
-      "en": "Keep your conventions when the Cabgo skill updates | Cabgo"
+      "en": "Keep your conventions when the Cabgo skill updates | Cabgo",
+      "pt": "Sua camada sobre o skill da Cabgo sem perder updates | Cabgo"
     },
     "metaDescription": {
       "es": "Cómo separar tus convenciones internas del skill público de Cabgo para poder actualizar sin perder el contexto de tu operación.",
-      "en": "How to separate your internal conventions from Cabgo's public skill so you can update without losing your operation's context."
+      "en": "How to separate your internal conventions from Cabgo's public skill so you can update without losing your operation's context.",
+      "pt": "Como separar suas convenções internas do skill público da Cabgo para poder atualizar sem perder o contexto da sua operação."
     }
   }
 }

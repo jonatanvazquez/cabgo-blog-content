@@ -3,16 +3,19 @@
   "category": "strategy",
   "title": {
     "es": "Cómo el operador sale de la coordinación diaria: los tres requisitos para delegar sin que la operación pierda calidad",
-    "en": "How the operator exits daily coordination: the three requirements for delegating without quality loss"
+    "en": "How the operator exits daily coordination: the three requirements for delegating without quality loss",
+    "pt": "Como o operador sai da coordenação diária: os três requisitos para delegar sem que a operação perca qualidade"
   },
   "excerpt": {
     "es": "La mayoría de los operadores de ride-hailing regional siguen coordinando personalmente los turnos de mayor demanda mucho después de haber contratado a un coordinador. Con el agente y el archivo de contexto, esa dependencia tiene una salida estructural.",
-    "en": "Most regional ride-hailing operators keep personally coordinating peak shifts long after hiring a coordinator. With the agent and context file, that dependency has a structural exit."
+    "en": "Most regional ride-hailing operators keep personally coordinating peak shifts long after hiring a coordinator. With the agent and context file, that dependency has a structural exit.",
+    "pt": "A maioria dos operadores de transporte por aplicativo regional continua coordenando pessoalmente os turnos de maior demanda muito depois de ter contratado um coordenador. Com o agente e o arquivo de contexto, essa dependência tem uma saída estrutural."
   },
   "heroImage": "https://raw.githubusercontent.com/jonatanvazquez/cabgo-blog-content/main/images/delegar-coordinacion-diaria-operador-agente.jpg",
   "heroImageAlt": {
     "es": "Ilustración isométrica de un operador entregando un archivo de contexto estructurado a un coordinador que asume el turno con una consola de agente IA activa, con íconos estratégicos flotantes en el fondo que representan las decisiones de alto nivel que el operador retiene",
-    "en": "Isometric illustration of an operator handing a structured context file to a coordinator taking over the shift with an active AI agent console, with floating strategic icons in the background representing the high-level decisions the operator retains"
+    "en": "Isometric illustration of an operator handing a structured context file to a coordinator taking over the shift with an active AI agent console, with floating strategic icons in the background representing the high-level decisions the operator retains",
+    "pt": "Ilustração isométrica de um operador entregando um arquivo de contexto estruturado a um coordenador que assume o turno com um console de agente de IA ativo, com ícones estratégicos flutuantes ao fundo representando as decisões de alto nível que o operador mantém"
   },
   "heroImagePrompt": "Isometric transition scene: on the left, an operator figure stepping away from a coordination desk with a glowing dashboard panel, passing a glowing teal structured context file document to a coordinator figure on the right who stands confidently at the same desk with an active AI agent console showing specific diagnostic text. A wide glowing teal arc connects both figures at the level of the context file. Behind the departing operator, three small floating icons: a city expansion map card, a pricing bar chart, and a handshake icon. Deep violet floor grid, soft indigo radial background glow, clean geometric shapes. Negative space on the lower right.",
   "publishedAt": "2026-06-23",
@@ -35,13 +38,23 @@
       "context file delegation coordination ride-hailing",
       "coordinator autonomy AI agent mobility operation",
       "free operator time ride-hailing platform agent"
+    ],
+    "pt": [
+      "delegar coordenação diária operador transporte por aplicativo",
+      "sair da coordenação direta operador app de táxi regional",
+      "operador estrategista agente de IA mobilidade regional",
+      "quando operador para de coordenar turnos plataforma de táxi",
+      "arquivo de contexto delegação coordenação transporte por aplicativo",
+      "autonomia coordenador agente de IA operação de mobilidade",
+      "liberar tempo operador plataforma de transporte por aplicativo agente"
     ]
   },
   "author": {
     "name": "Equipo Cabgo",
     "role": {
       "es": "Plataforma de movilidad",
-      "en": "Mobility platform"
+      "en": "Mobility platform",
+      "pt": "Plataforma de mobilidade"
     }
   },
   "blocks": [
@@ -49,14 +62,16 @@
       "type": "paragraph",
       "text": {
         "es": "La mayoría de los operadores de ride-hailing regional siguen coordinando personalmente los turnos de mayor demanda mucho después de haber contratado a alguien para esa función. No es falta de confianza en el coordinador — es que delegar la coordinación sin un respaldo estructurado significa transferir responsabilidad sin transferir contexto, y el resultado habitual es que el coordinador comete los errores del período de aprendizaje exactamente cuando la operación puede menos permitírselos. El operador que lleva 90 días con el agente genuinamente integrado tiene tres activos que hacen posible una delegación diferente: un archivo de contexto maduro, un coordinador que sabe usarlo, y un flujo de turno documentado que el operador puede revisar de forma asíncrona sin estar presente.",
-        "en": "Most regional ride-hailing operators keep personally coordinating peak shifts long after hiring someone for that role. It isn't a lack of trust in the coordinator — it's that delegating coordination without a structured safety net means transferring responsibility without transferring context, and the typical result is that the coordinator makes the usual early-learning mistakes exactly when the operation can least afford them. The operator with 90 days of genuine agent integration has three assets that make a different kind of delegation possible: a mature context file, a coordinator who knows how to use it, and a documented shift workflow the operator can review asynchronously without being present."
+        "en": "Most regional ride-hailing operators keep personally coordinating peak shifts long after hiring someone for that role. It isn't a lack of trust in the coordinator — it's that delegating coordination without a structured safety net means transferring responsibility without transferring context, and the typical result is that the coordinator makes the usual early-learning mistakes exactly when the operation can least afford them. The operator with 90 days of genuine agent integration has three assets that make a different kind of delegation possible: a mature context file, a coordinator who knows how to use it, and a documented shift workflow the operator can review asynchronously without being present.",
+        "pt": "A maioria dos operadores de transporte por aplicativo regional continua coordenando pessoalmente os turnos de maior demanda muito depois de ter contratado alguém para essa função. Não é falta de confiança no coordenador — é que delegar a coordenação sem um respaldo estrutural significa transferir responsabilidade sem transferir contexto, e o resultado costumeiro é que o coordenador comete os erros do período de aprendizado exatamente quando a operação menos pode se dar ao luxo disso. O operador que já tem 90 dias com o agente genuinamente integrado conta com três ativos que tornam possível uma delegação diferente: um arquivo de contexto maduro, um coordenador que sabe usá-lo, e um fluxo de turno documentado que o operador pode revisar de forma assíncrona sem estar presente."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "Este artículo está dirigido al operador que ya tiene esos tres elementos en su versión funcional y que se pregunta cuándo es el momento correcto para salir del turno diario y cómo hacerlo sin que la operación pierda calidad durante la transición. La respuesta no depende del tamaño de la operación ni de los meses que lleva el coordinador en el puesto — depende de si existen tres condiciones específicas que convierten la delegación en algo estructuralmente seguro en lugar de algo que se sostiene solo por la confianza personal entre operador y coordinador.",
-        "en": "This article is for the operator who already has those three elements in a functional state and is asking when the right moment is to step out of the daily shift and how to do it without the operation losing quality during the transition. The answer doesn't depend on the operation's size or on how many months the coordinator has been in the role — it depends on whether three specific conditions exist that make delegation structurally safe rather than something held together by personal trust between operator and coordinator."
+        "en": "This article is for the operator who already has those three elements in a functional state and is asking when the right moment is to step out of the daily shift and how to do it without the operation losing quality during the transition. The answer doesn't depend on the operation's size or on how many months the coordinator has been in the role — it depends on whether three specific conditions exist that make delegation structurally safe rather than something held together by personal trust between operator and coordinator.",
+        "pt": "Este artigo é dirigido ao operador que já tem esses três elementos em sua versão funcional e que se pergunta qual é o momento certo para sair do turno diário e como fazer isso sem que a operação perca qualidade durante a transição. A resposta não depende do tamanho da operação nem de quantos meses o coordenador está no cargo — depende de existirem três condições específicas que tornam a delegação algo estruturalmente seguro, em vez de algo que se sustenta apenas pela confiança pessoal entre operador e coordenador."
       }
     },
     {
@@ -65,21 +80,24 @@
       "id": "ciclo-operador-coordinacion-diaria",
       "text": {
         "es": "El ciclo que mantiene al operador en la coordinación diaria",
-        "en": "The cycle that keeps the operator in daily coordination"
+        "en": "The cycle that keeps the operator in daily coordination",
+        "pt": "O ciclo que mantém o operador na coordenação diária"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "La razón más frecuente por la que un operador con coordinador sigue haciendo turnos directamente no es desconfianza — es que el coordinador enfrenta decisiones no estándar que el operador tiene que resolver en tiempo real, y la resolución requiere su presencia. Ese ciclo se produce cuando la delegación ocurre antes de que existan las herramientas que convierten la experiencia del operador en algo que el coordinador puede acceder sin la presencia del operador: el archivo de contexto que documenta los umbrales y los patrones de la ciudad, el flujo de turno que establece cuándo y cómo consultar al agente, y el historial de cierres que permite al coordinador recuperar cómo se resolvieron incidencias similares sin tener que consultarlo al propietario.",
-        "en": "The most common reason an operator with a coordinator still does shifts directly isn't distrust — it's that the coordinator faces non-standard decisions the operator has to resolve in real time, and resolution requires their presence. That cycle emerges when delegation happens before the tools exist that convert the operator's experience into something the coordinator can access without them: the context file documenting the city's thresholds and patterns, the shift workflow establishing when and how to consult the agent, and the close history that lets the coordinator retrieve how similar incidents were resolved without having to contact the owner."
+        "en": "The most common reason an operator with a coordinator still does shifts directly isn't distrust — it's that the coordinator faces non-standard decisions the operator has to resolve in real time, and resolution requires their presence. That cycle emerges when delegation happens before the tools exist that convert the operator's experience into something the coordinator can access without them: the context file documenting the city's thresholds and patterns, the shift workflow establishing when and how to consult the agent, and the close history that lets the coordinator retrieve how similar incidents were resolved without having to contact the owner.",
+        "pt": "O motivo mais frequente pelo qual um operador com coordenador continua fazendo turnos diretamente não é desconfiança — é que o coordenador enfrenta decisões não padronizadas que o operador precisa resolver em tempo real, e a resolução exige sua presença. Esse ciclo surge quando a delegação acontece antes de existirem as ferramentas que transformam a experiência do operador em algo que o coordenador consegue acessar sem a presença dele: o arquivo de contexto que documenta os limiares e os padrões da cidade, o fluxo de turno que estabelece quando e como consultar o agente, e o histórico de fechamentos que permite ao coordenador recuperar como incidências semelhantes foram resolvidas sem precisar consultar o dono do negócio."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "El ciclo funciona así: el coordinador enfrenta una situación que no tiene referencia para resolver, llama o escribe al operador, el operador la resuelve desde su experiencia acumulada, y la resolución no queda documentada en ningún lugar que el coordinador pueda consultar la próxima vez que ocurra algo similar. El operador sigue siendo necesario en el turno no porque el coordinador no sea capaz, sino porque la organización no ha creado el mecanismo para transferir el criterio del operador al sistema que el coordinador usa. Cada vez que el operador resuelve una situación directamente sin documentarla, el coordinador aprendió algo pero la operación no aprendió nada — y el ciclo de dependencia se perpetúa turno a turno sin que nadie lo diseñara explícitamente así.",
-        "en": "The cycle works like this: the coordinator faces a situation without a reference to resolve it, calls or messages the operator, the operator resolves it from accumulated experience, and the resolution isn't documented anywhere the coordinator can consult the next time something similar happens. The operator remains necessary on shift not because the coordinator isn't capable, but because the organization hasn't created the mechanism to transfer the operator's judgment into the system the coordinator uses. Every time the operator resolves a situation directly without documenting it, the coordinator learned something but the operation learned nothing — and the dependency cycle perpetuates itself shift by shift without anyone explicitly designing it that way."
+        "en": "The cycle works like this: the coordinator faces a situation without a reference to resolve it, calls or messages the operator, the operator resolves it from accumulated experience, and the resolution isn't documented anywhere the coordinator can consult the next time something similar happens. The operator remains necessary on shift not because the coordinator isn't capable, but because the organization hasn't created the mechanism to transfer the operator's judgment into the system the coordinator uses. Every time the operator resolves a situation directly without documenting it, the coordinator learned something but the operation learned nothing — and the dependency cycle perpetuates itself shift by shift without anyone explicitly designing it that way.",
+        "pt": "O ciclo funciona assim: o coordenador enfrenta uma situação para a qual não tem referência de solução, liga ou escreve para o operador, o operador resolve com base na sua experiência acumulada, e a resolução não fica documentada em nenhum lugar que o coordenador possa consultar da próxima vez que algo parecido acontecer. O operador continua sendo necessário no turno não porque o coordenador seja incapaz, mas porque a organização não criou o mecanismo para transferir o critério do operador para o sistema que o coordenador usa. Toda vez que o operador resolve uma situação diretamente sem documentá-la, o coordenador aprendeu algo, mas a operação não aprendeu nada — e o ciclo de dependência se perpetua turno após turno sem que ninguém o tenha desenhado assim de propósito."
       }
     },
     {
@@ -88,21 +106,24 @@
       "id": "tres-elementos-delegacion-estructural",
       "text": {
         "es": "Los tres elementos que hacen posible la delegación estructural",
-        "en": "The three elements that make structural delegation possible"
+        "en": "The three elements that make structural delegation possible",
+        "pt": "Os três elementos que tornam possível a delegação estrutural"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "La delegación de coordinación se convierte en estructuralmente segura cuando tres elementos están en su versión funcional simultáneamente. Primero: el archivo de contexto tiene suficientes umbrales y resoluciones de incidencias para que el agente produzca diagnósticos específicos a la ciudad en lugar de respuestas genéricas — el indicador práctico es que el tiempo de diagnóstico en incidencias recurrentes se mantiene por debajo de tres minutos. Segundo: el coordinador lleva al menos 30 turnos activos usando el agente para decisiones reales de cobertura e incentivos, no solo para consultas de contexto. Tercero: los cierres de turno de las últimas dos semanas muestran que el coordinador identifica y documenta las incidencias sin necesitar validación del operador para cada entrada — los cierres son específicos, no genéricos.",
-        "en": "Coordination delegation becomes structurally safe when three elements are simultaneously in their functional state. First: the context file has enough thresholds and incident resolutions for the agent to produce city-specific diagnostics rather than generic responses — the practical indicator is that diagnostic time on recurring incidents stays below three minutes. Second: the coordinator has at least 30 active shifts using the agent for real coverage and incentive decisions, not just context queries. Third: shift closes from the past two weeks show the coordinator identifying and documenting incidents without needing the operator to validate each entry — the closes are specific, not generic."
+        "en": "Coordination delegation becomes structurally safe when three elements are simultaneously in their functional state. First: the context file has enough thresholds and incident resolutions for the agent to produce city-specific diagnostics rather than generic responses — the practical indicator is that diagnostic time on recurring incidents stays below three minutes. Second: the coordinator has at least 30 active shifts using the agent for real coverage and incentive decisions, not just context queries. Third: shift closes from the past two weeks show the coordinator identifying and documenting incidents without needing the operator to validate each entry — the closes are specific, not generic.",
+        "pt": "A delegação da coordenação se torna estruturalmente segura quando três elementos estão em sua versão funcional simultaneamente. Primeiro: o arquivo de contexto tem limiares e resoluções de incidências suficientes para que o agente produza diagnósticos específicos da cidade em vez de respostas genéricas — o indicador prático é que o tempo de diagnóstico em incidências recorrentes se mantém abaixo de três minutos. Segundo: o coordenador já tem pelo menos 30 turnos ativos usando o agente para decisões reais de cobertura e incentivos, não apenas para consultas de contexto. Terceiro: os fechamentos de turno das últimas duas semanas mostram que o coordenador identifica e documenta as incidências sem precisar de validação do operador para cada entrada — os fechamentos são específicos, não genéricos."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "La señal más clara de que los tres elementos están listos es el tipo de preguntas que el coordinador hace al operador. En la fase inicial, las preguntas son operativas: qué zona necesita más conductores ahora, si activar el incentivo de las ocho, cómo manejar una cancelación consecutiva en zona norte. Cuando el archivo de contexto y el agente están funcionando, esas preguntas ya no llegan al operador — el coordinador las responde consultando al agente. Las preguntas que sí llegan al operador en la fase madura son estratégicas: una decisión sobre estructura de tarifas, una situación con un conductor que requiere criterio propietario, un evento sin precedente que el archivo de contexto no cubre porque es la primera vez que ocurre. Esa diferencia en el tipo de preguntas es el indicador más confiable de cuándo la delegación está lista.",
-        "en": "The clearest signal that all three elements are ready is the type of questions the coordinator asks the operator. In the initial phase, questions are operational: which zone needs more drivers right now, whether to activate the eight-o'clock incentive, how to handle consecutive cancellations in the northern zone. When the context file and agent are working, those questions no longer reach the operator — the coordinator answers them by consulting the agent. The questions that do reach the operator in the mature phase are strategic: a pricing structure decision, a situation with a driver requiring ownership-level judgment, an unprecedented event the context file doesn't cover because it's the first time it's happening. That difference in question type is the most reliable indicator of when delegation is ready."
+        "en": "The clearest signal that all three elements are ready is the type of questions the coordinator asks the operator. In the initial phase, questions are operational: which zone needs more drivers right now, whether to activate the eight-o'clock incentive, how to handle consecutive cancellations in the northern zone. When the context file and agent are working, those questions no longer reach the operator — the coordinator answers them by consulting the agent. The questions that do reach the operator in the mature phase are strategic: a pricing structure decision, a situation with a driver requiring ownership-level judgment, an unprecedented event the context file doesn't cover because it's the first time it's happening. That difference in question type is the most reliable indicator of when delegation is ready.",
+        "pt": "O sinal mais claro de que os três elementos estão prontos é o tipo de pergunta que o coordenador faz ao operador. Na fase inicial, as perguntas são operacionais: qual zona precisa de mais motoristas agora, se deve ativar o incentivo das oito horas, como lidar com cancelamentos consecutivos na zona norte. Quando o arquivo de contexto e o agente estão funcionando, essas perguntas deixam de chegar ao operador — o coordenador as responde consultando o agente. As perguntas que continuam chegando ao operador na fase madura são estratégicas: uma decisão sobre estrutura de tarifas, uma situação com um motorista que exige critério de dono, um evento sem precedente que o arquivo de contexto não cobre porque é a primeira vez que acontece. Essa diferença no tipo de pergunta é o indicador mais confiável de quando a delegação está pronta."
       }
     },
     {
@@ -111,21 +132,24 @@
       "id": "semana-transicion-salir-turno",
       "text": {
         "es": "La semana de transición: cómo salir del turno sin que la operación lo sienta",
-        "en": "The transition week: how to exit the shift without the operation feeling it"
+        "en": "The transition week: how to exit the shift without the operation feeling it",
+        "pt": "A semana de transição: como sair do turno sem que a operação sinta"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "La transición del operador fuera del turno diario tiene una semana crítica que determina si el coordinador desarrolla autonomía real o si reproduce el ciclo de dependencia con un intermediario diferente. La estructura que funciona: los primeros dos días, el operador está disponible por mensaje durante todo el turno pero no interviene proactivamente. El coordinador toma todas las decisiones y documenta en el cierre de turno las situaciones donde tuvo duda. El operador revisa esos cierres al día siguiente y retroalimenta por escrito, no en tiempo real. Al tercero y cuarto día, el operador solo revisa el panel una vez al inicio del turno y una vez al final, sin estar disponible durante las horas intermedias. Las incidencias que el coordinador resolvió sin escalación durante esas ocho horas son el mapa de lo que ya es autónomo.",
-        "en": "The operator's transition out of the daily shift has a critical week that determines whether the coordinator develops genuine autonomy or reproduces the dependency cycle with a different intermediary. The structure that works: the first two days, the operator is available by message throughout the shift but doesn't intervene proactively. The coordinator makes all decisions and documents in the shift close the situations where they had doubt. The operator reviews those closes the following day and provides written feedback — not real-time feedback. On days three and four, the operator only checks the panel once at shift start and once at shift end, without being available during the hours in between. The incidents the coordinator resolved without escalation during those eight hours map what's already autonomous."
+        "en": "The operator's transition out of the daily shift has a critical week that determines whether the coordinator develops genuine autonomy or reproduces the dependency cycle with a different intermediary. The structure that works: the first two days, the operator is available by message throughout the shift but doesn't intervene proactively. The coordinator makes all decisions and documents in the shift close the situations where they had doubt. The operator reviews those closes the following day and provides written feedback — not real-time feedback. On days three and four, the operator only checks the panel once at shift start and once at shift end, without being available during the hours in between. The incidents the coordinator resolved without escalation during those eight hours map what's already autonomous.",
+        "pt": "A transição do operador para fora do turno diário tem uma semana crítica que determina se o coordenador desenvolve autonomia real ou reproduz o ciclo de dependência com um intermediário diferente. A estrutura que funciona: nos dois primeiros dias, o operador fica disponível por mensagem durante todo o turno, mas não intervém proativamente. O coordenador toma todas as decisões e documenta no fechamento do turno as situações em que teve dúvida. O operador revisa esses fechamentos no dia seguinte e dá retorno por escrito, não em tempo real. No terceiro e quarto dia, o operador só verifica o painel uma vez no início do turno e uma vez no final, sem estar disponível nas horas intermediárias. As incidências que o coordenador resolveu sem escalar durante essas oito horas são o mapa do que já é autônomo."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "El objetivo de esa semana no es que el operador desaparezca de la operación — es identificar qué tipo de situaciones siguen requiriendo su criterio para que esas situaciones queden documentadas en el archivo de contexto antes de que el coordinador se quede completamente solo con ellas. Las consultas que el coordinador escala durante esa semana son las entradas que le faltan al archivo. Si el operador responde esas consultas fuera del turno y documenta la resolución en el archivo, el sistema aprende. Si el operador responde sin documentar, el ciclo de dependencia solo cambia de forma: de «operador en turno» a «operador por chat» sin resolver el problema estructural. La semana de transición bien ejecutada produce tanto coordinadores más autónomos como un archivo de contexto más completo — porque las situaciones que todavía requieren al operador son exactamente las que más le faltaban al archivo.",
-        "en": "The goal of that week isn't for the operator to disappear from the operation — it's to identify which situations still require their judgment so those situations get documented in the context file before the coordinator is fully on their own. The consultations the coordinator escalates that week are the missing entries in the file. If the operator responds to those consultations outside the shift and documents the resolution in the file, the system learns. If the operator responds without documenting, the dependency cycle only changes shape: from \"operator on shift\" to \"operator by chat\" without fixing the structural problem. A well-executed transition week produces both more autonomous coordinators and a more complete context file — because the situations that still require the operator are precisely the ones the file was missing most."
+        "en": "The goal of that week isn't for the operator to disappear from the operation — it's to identify which situations still require their judgment so those situations get documented in the context file before the coordinator is fully on their own. The consultations the coordinator escalates that week are the missing entries in the file. If the operator responds to those consultations outside the shift and documents the resolution in the file, the system learns. If the operator responds without documenting, the dependency cycle only changes shape: from \"operator on shift\" to \"operator by chat\" without fixing the structural problem. A well-executed transition week produces both more autonomous coordinators and a more complete context file — because the situations that still require the operator are precisely the ones the file was missing most.",
+        "pt": "O objetivo dessa semana não é o operador desaparecer da operação — é identificar que tipo de situações ainda exigem seu critério, para que essas situações fiquem documentadas no arquivo de contexto antes de o coordenador ficar completamente sozinho com elas. As consultas que o coordenador escala durante essa semana são as entradas que faltam no arquivo. Se o operador responde a essas consultas fora do turno e documenta a resolução no arquivo, o sistema aprende. Se o operador responde sem documentar, o ciclo de dependência só muda de forma: de \"operador no turno\" para \"operador pelo chat\", sem resolver o problema estrutural. A semana de transição bem executada produz tanto coordenadores mais autônomos quanto um arquivo de contexto mais completo — porque as situações que ainda exigem o operador são exatamente as que mais faltavam no arquivo."
       }
     },
     {
@@ -134,21 +158,24 @@
       "id": "lo-que-operador-retiene-delegacion",
       "text": {
         "es": "Lo que el operador retiene cuando sale de la coordinación diaria",
-        "en": "What the operator retains when they exit daily coordination"
+        "en": "What the operator retains when they exit daily coordination",
+        "pt": "O que o operador mantém quando sai da coordenação diária"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "Salir de la coordinación diaria no significa salir de la operación — significa concentrar el tiempo del operador en las decisiones que solo el operador puede tomar bien. En una operación de ride-hailing regional, esas decisiones tienen tres categorías: estratégicas (estructura de tarifas, comisiones a conductores, apertura de zonas o servicios nuevos), relacionales (negociación con autoridades municipales, acuerdos con conductores clave, alianzas con demanda corporativa), y de arquitectura del sistema (revisión y actualización del archivo de contexto, evaluación de la calidad del agente, decisión de cuándo contratar al coordinador de la segunda ciudad). Esas tres categorías requieren el criterio y el contexto que solo el propietario tiene — y ninguna de ellas puede ejecutarse bien mientras el operador está gestionando incidencias de cobertura en turno.",
-        "en": "Exiting daily coordination doesn't mean leaving the operation — it means concentrating the operator's time on the decisions only the operator can make well. In a regional ride-hailing operation, those decisions fall into three categories: strategic (pricing structure, driver commissions, opening new zones or services), relational (negotiations with municipal authorities, agreements with key drivers, corporate demand partnerships), and system architecture (reviewing and updating the context file, evaluating agent quality, deciding when to hire the second city's coordinator). Those three categories require the judgment and context only the owner has — and none of them can be executed well while the operator is managing coverage incidents on shift."
+        "en": "Exiting daily coordination doesn't mean leaving the operation — it means concentrating the operator's time on the decisions only the operator can make well. In a regional ride-hailing operation, those decisions fall into three categories: strategic (pricing structure, driver commissions, opening new zones or services), relational (negotiations with municipal authorities, agreements with key drivers, corporate demand partnerships), and system architecture (reviewing and updating the context file, evaluating agent quality, deciding when to hire the second city's coordinator). Those three categories require the judgment and context only the owner has — and none of them can be executed well while the operator is managing coverage incidents on shift.",
+        "pt": "Sair da coordenação diária não significa sair da operação — significa concentrar o tempo do operador nas decisões que só ele consegue tomar bem. Numa operação de transporte por aplicativo regional, essas decisões se dividem em três categorias: estratégicas (estrutura de tarifas, comissões dos motoristas, abertura de novas zonas ou serviços), relacionais (negociação com autoridades municipais, acordos com motoristas-chave, parcerias com demanda corporativa) e de arquitetura do sistema (revisão e atualização do arquivo de contexto, avaliação da qualidade do agente, decisão de quando contratar o coordenador da segunda cidade). Essas três categorias exigem o critério e o contexto que só o dono do negócio tem — e nenhuma delas pode ser bem executada enquanto o operador está gerenciando incidências de cobertura no turno."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "El operador que sale de la coordinación diaria recupera entre tres y cinco horas diarias que antes estaban fragmentadas en interrupciones de turno. La diferencia de calidad entre las decisiones estratégicas que se pueden tomar con ese tiempo concentrado versus las que se tomaban entre interrupción e interrupción es sustancial. Una negociación de estructura de comisiones bien preparada puede mejorar el margen durante seis meses seguidos. Un análisis de la segunda ciudad usando los datos de los 90 días del agente en la primera puede reducir el costo del período de calibración en $2,000-4,000 USD al evitar los incentivos tardíos y la cobertura irregular del lanzamiento sin referencia local. Esas son las decisiones que el operador que coordina personalmente no tiene tiempo de preparar con el rigor que merecen — no porque le falte criterio, sino porque le falta tiempo no fragmentado.",
-        "en": "The operator who exits daily coordination recovers three to five hours per day that were previously fragmented across shift interruptions. The quality difference between the strategic decisions that can be made with that concentrated time versus those made between interruptions is substantial. A well-prepared commission structure negotiation can improve the margin for six consecutive months. An analysis of the second city using the agent's first-city data from 90 days of real operation can reduce the calibration period cost by $2,000-4,000 USD by avoiding the late incentives and uneven coverage of a launch without local reference. Those are the decisions the operator who coordinates personally doesn't have time to prepare with the rigor they deserve — not because they lack judgment, but because they lack unfragmented time."
+        "en": "The operator who exits daily coordination recovers three to five hours per day that were previously fragmented across shift interruptions. The quality difference between the strategic decisions that can be made with that concentrated time versus those made between interruptions is substantial. A well-prepared commission structure negotiation can improve the margin for six consecutive months. An analysis of the second city using the agent's first-city data from 90 days of real operation can reduce the calibration period cost by $2,000-4,000 USD by avoiding the late incentives and uneven coverage of a launch without local reference. Those are the decisions the operator who coordinates personally doesn't have time to prepare with the rigor they deserve — not because they lack judgment, but because they lack unfragmented time.",
+        "pt": "O operador que sai da coordenação diária recupera entre três e cinco horas por dia que antes estavam fragmentadas em interrupções de turno. A diferença de qualidade entre as decisões estratégicas que podem ser tomadas com esse tempo concentrado e as que eram tomadas entre uma interrupção e outra é substancial. Uma negociação de estrutura de comissões bem preparada pode melhorar a margem por seis meses seguidos. Uma análise da segunda cidade usando os dados dos 90 dias do agente na primeira pode reduzir o custo do período de calibração em US$ 2.000-4.000 ao evitar os incentivos tardios e a cobertura irregular de um lançamento sem referência local. Essas são as decisões que o operador que coordena pessoalmente não tem tempo de preparar com o rigor que merecem — não por falta de critério, mas por falta de tempo não fragmentado."
       }
     },
     {
@@ -157,14 +184,16 @@
       "id": "senales-delegacion-funcionando",
       "text": {
         "es": "Las señales que confirman que la delegación está funcionando",
-        "en": "The signals that confirm delegation is working"
+        "en": "The signals that confirm delegation is working",
+        "pt": "Os sinais que confirmam que a delegação está funcionando"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "La delegación no es un evento de un día — es un estado que se confirma a través de indicadores operativos observables durante las dos a tres semanas siguientes a la transición. Los siguientes seis puntos son las señales concretas que distinguen una delegación estable de una que parece funcionar pero está acumulando riesgo operativo silencioso:",
-        "en": "Delegation isn't a one-day event — it's a state confirmed through observable operational indicators during the two to three weeks following the transition. The following six points are the concrete signals that distinguish a stable delegation from one that appears to work but is silently accumulating operational risk:"
+        "en": "Delegation isn't a one-day event — it's a state confirmed through observable operational indicators during the two to three weeks following the transition. The following six points are the concrete signals that distinguish a stable delegation from one that appears to work but is silently accumulating operational risk:",
+        "pt": "A delegação não é um evento de um dia só — é um estado que se confirma por meio de indicadores operacionais observáveis durante as duas a três semanas seguintes à transição. Os seis pontos a seguir são os sinais concretos que distinguem uma delegação estável de uma que parece funcionar, mas está acumulando risco operacional silencioso:"
       }
     },
     {
@@ -186,6 +215,14 @@
           "**File updates**: the context file receives at least one new entry per week derived directly from shift closes, without the operator having to request the update",
           "**Coordinator contributions**: the coordinator adds at least one original entry to the file per week beyond the routine threshold corrections that come from a city's early operational shifts",
           "**KPI stability**: acceptance rate and average wait time show no sustained degradation compared to the same indicators when the operator coordinated directly"
+        ],
+        "pt": [
+          "**Tempo de resposta a alertas**: o coordenador responde aos alertas do agente em menos de cinco minutos em turnos normais e em menos de doze durante os de alta demanda, sem precisar do operador para validar a ação",
+          "**Tipo de escalonamentos**: as consultas ao operador ocorrem em média menos de duas vezes por turno, e são estratégicas — decisão de tarifa, evento sem precedente, motorista com situação que exige critério de dono — não operacionais",
+          "**Especificidade dos fechamentos**: os fechamentos de turno mencionam zonas, limiares e motoristas concretos, não resumos genéricos do estado do painel que qualquer coordenador poderia escrever sem ter gerenciado aquele turno",
+          "**Atualização do arquivo**: o arquivo de contexto recebe pelo menos uma entrada nova por semana derivada diretamente dos fechamentos de turno, sem que o operador precise solicitar a atualização",
+          "**Contribuição do coordenador**: o coordenador adiciona pelo menos uma entrada original ao arquivo por semana, além das correções de limiar rotineiras que resultam dos primeiros turnos numa cidade",
+          "**Estabilidade dos KPIs**: a taxa de aceitação e o tempo médio de espera não mostram degradação sustentada em relação aos mesmos indicadores de quando o operador coordenava diretamente"
         ]
       }
     },
@@ -195,72 +232,84 @@
       "id": "cuando-operador-vuelve-turno",
       "text": {
         "es": "Cuándo el operador necesita volver al turno",
-        "en": "When the operator needs to return to the shift"
+        "en": "When the operator needs to return to the shift",
+        "pt": "Quando o operador precisa voltar ao turno"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "Salir de la coordinación diaria no es permanente en todos los contextos — hay situaciones específicas que justifican que el operador vuelva temporalmente a un rol operativo directo. Las tres más frecuentes: el lanzamiento de la segunda ciudad durante las primeras tres a cuatro semanas de operación, cuando el archivo de contexto de esa ciudad todavía no tiene la especificidad suficiente para que el agente produzca alertas accionables; los primeros diez a quince turnos de un coordinador nuevo, donde el operador necesita estar disponible para cerrar las brechas entre lo que el archivo describe y lo que el coordinador observa en los turnos reales; y cualquier evento extraordinario con volumen o complejidad fuera del rango documentado — un evento local de más de 40,000 personas, una interrupción de la plataforma en hora pico, o una incidencia con múltiples conductores simultánea.",
-        "en": "Exiting daily coordination isn't permanent in every context — there are specific situations that justify the operator temporarily returning to a direct operational role. The three most common: the launch of the second city during the first three to four weeks of operation, when that city's context file doesn't yet have enough specificity for the agent to produce actionable alerts; the first ten to fifteen shifts of a new coordinator, where the operator needs to be available to close the gaps between what the file describes and what the coordinator observes on real shifts; and any extraordinary event outside the documented range — a local event of more than 40,000 people, a platform outage at peak hour, or a multi-driver incident occurring simultaneously."
+        "en": "Exiting daily coordination isn't permanent in every context — there are specific situations that justify the operator temporarily returning to a direct operational role. The three most common: the launch of the second city during the first three to four weeks of operation, when that city's context file doesn't yet have enough specificity for the agent to produce actionable alerts; the first ten to fifteen shifts of a new coordinator, where the operator needs to be available to close the gaps between what the file describes and what the coordinator observes on real shifts; and any extraordinary event outside the documented range — a local event of more than 40,000 people, a platform outage at peak hour, or a multi-driver incident occurring simultaneously.",
+        "pt": "Sair da coordenação diária não é permanente em todos os contextos — há situações específicas que justificam o operador voltar temporariamente a um papel operacional direto. As três mais frequentes: o lançamento da segunda cidade durante as primeiras três a quatro semanas de operação, quando o arquivo de contexto dessa cidade ainda não tem especificidade suficiente para o agente produzir alertas acionáveis; os primeiros dez a quinze turnos de um coordenador novo, quando o operador precisa estar disponível para fechar as lacunas entre o que o arquivo descreve e o que o coordenador observa nos turnos reais; e qualquer evento extraordinário com volume ou complexidade fora do intervalo documentado — um evento local com mais de 40.000 pessoas, uma interrupção da plataforma em horário de pico, ou uma incidência envolvendo vários motoristas ao mesmo tempo."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "La diferencia con el ciclo de dependencia anterior es que estas situaciones tienen un horizonte temporal definido y un objetivo explícito. El operador vuelve al turno para un propósito concreto, con una duración estimada, y con el compromiso de documentar en el archivo de contexto el conocimiento que produce esa presencia directa — para que no tenga que repetirse. El operador que vuelve al turno y no documenta lo que aprende está pagando dos veces el mismo costo: el tiempo del turno y el tiempo que necesitará invertir la próxima vez que ocurra la misma situación. La diferencia entre un operador que sale de la coordinación de forma sostenible y uno que sale y vuelve en ciclos de seis semanas está casi siempre en si las intervenciones directas alimentan el archivo o si quedan en la memoria de quien las vivió.",
-        "en": "The difference from the previous dependency cycle is that these situations have a defined time horizon and an explicit objective. The operator returns to the shift for a concrete purpose, with an estimated duration, and with the commitment to document in the context file the knowledge that direct presence produces — so it doesn't need to be repeated. The operator who returns to the shift without documenting what they learn is paying the same cost twice: the shift time and the time they'll need to invest the next time the same situation occurs. The difference between an operator who exits coordination sustainably and one who exits and returns in six-week cycles is almost always whether direct interventions feed the context file or stay in the memory of whoever lived through them."
+        "en": "The difference from the previous dependency cycle is that these situations have a defined time horizon and an explicit objective. The operator returns to the shift for a concrete purpose, with an estimated duration, and with the commitment to document in the context file the knowledge that direct presence produces — so it doesn't need to be repeated. The operator who returns to the shift without documenting what they learn is paying the same cost twice: the shift time and the time they'll need to invest the next time the same situation occurs. The difference between an operator who exits coordination sustainably and one who exits and returns in six-week cycles is almost always whether direct interventions feed the context file or stay in the memory of whoever lived through them.",
+        "pt": "A diferença em relação ao ciclo de dependência anterior é que essas situações têm um horizonte temporal definido e um objetivo explícito. O operador volta ao turno com um propósito concreto, com duração estimada, e com o compromisso de documentar no arquivo de contexto o conhecimento que essa presença direta produz — para que não precise se repetir. O operador que volta ao turno e não documenta o que aprende está pagando o mesmo custo duas vezes: o tempo do turno e o tempo que vai precisar investir na próxima vez que a mesma situação acontecer. A diferença entre um operador que sai da coordenação de forma sustentável e um que sai e volta em ciclos de seis semanas está quase sempre em saber se as intervenções diretas alimentam o arquivo ou se ficam apenas na memória de quem as viveu."
       }
     },
     {
       "type": "quote",
       "text": {
         "es": "El primer turno en que no recibí ningún mensaje del coordinador fue incómodo. Revisé el panel a las once de la noche y todo estaba dentro de los umbrales. Al día siguiente el cierre del turno me dijo exactamente qué había pasado — tres alertas menores resueltas sin escalarme, dos incidencias de conductor documentadas, una actualización al archivo de la zona centro. La operación no me necesitó esa noche. Eso tardó tres meses en construirse, pero la diferencia en cómo uso mi tiempo desde entonces es la más importante que he hecho en el negocio.",
-        "en": "The first shift where I didn't receive a single message from the coordinator was uncomfortable. I checked the panel at eleven at night and everything was within thresholds. The next day the shift close told me exactly what had happened — three minor alerts resolved without escalating to me, two driver incidents documented, one context file update for the central zone. The operation didn't need me that night. That took three months to build, but the difference in how I use my time since then is the most important change I've made in the business."
+        "en": "The first shift where I didn't receive a single message from the coordinator was uncomfortable. I checked the panel at eleven at night and everything was within thresholds. The next day the shift close told me exactly what had happened — three minor alerts resolved without escalating to me, two driver incidents documented, one context file update for the central zone. The operation didn't need me that night. That took three months to build, but the difference in how I use my time since then is the most important change I've made in the business.",
+        "pt": "O primeiro turno em que não recebi nenhuma mensagem do coordenador foi desconfortável. Verifiquei o painel às onze da noite e tudo estava dentro dos limiares. No dia seguinte, o fechamento do turno me contou exatamente o que tinha acontecido — três alertas menores resolvidos sem me escalar, duas incidências de motorista documentadas, uma atualização no arquivo da zona centro. A operação não precisou de mim naquela noite. Isso levou três meses para se construir, mas a diferença em como uso meu tempo desde então é a mudança mais importante que já fiz no negócio."
       },
       "attribution": {
         "es": "Operador con 110 conductores activos en el norte de México",
-        "en": "Operator with 110 active drivers in northern Mexico"
+        "en": "Operator with 110 active drivers in northern Mexico",
+        "pt": "Operador com 110 motoristas ativos no norte do México"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "El operador que sale de la coordinación diaria no delega la operación — delega el monitoreo continuo y la respuesta a incidencias estándar, las dos tareas que el agente con contexto puede apoyar de forma más eficiente que la presencia permanente del propietario en el turno. Lo que permanece en el operador son las decisiones que requieren contexto propietario: los márgenes que el negocio puede sostener, las relaciones que producen ventajas difíciles de replicar, la visión de hacia dónde debe crecer la operación. Esas son las decisiones que generan valor a seis y doce meses, no en el turno de esta noche — y son precisamente las que un operador que coordina personalmente no tiene tiempo ni atención disponibles para preparar bien.",
-        "en": "The operator who exits daily coordination doesn't delegate the operation — they delegate continuous monitoring and response to standard incidents, the two tasks the agent with context can support more efficiently than the owner's permanent shift presence. What stays with the operator are the decisions requiring ownership context: the margins the business can sustain, the relationships that produce advantages difficult to replicate, the vision of where the operation should grow. Those are the decisions that generate value at six and twelve months, not on tonight's shift — and they're precisely the ones an operator who coordinates personally doesn't have the time or attention available to prepare well."
+        "en": "The operator who exits daily coordination doesn't delegate the operation — they delegate continuous monitoring and response to standard incidents, the two tasks the agent with context can support more efficiently than the owner's permanent shift presence. What stays with the operator are the decisions requiring ownership context: the margins the business can sustain, the relationships that produce advantages difficult to replicate, the vision of where the operation should grow. Those are the decisions that generate value at six and twelve months, not on tonight's shift — and they're precisely the ones an operator who coordinates personally doesn't have the time or attention available to prepare well.",
+        "pt": "O operador que sai da coordenação diária não delega a operação — delega o monitoramento contínuo e a resposta a incidências padrão, as duas tarefas que o agente com contexto consegue apoiar de forma mais eficiente do que a presença permanente do dono no turno. O que permanece com o operador são as decisões que exigem contexto de dono: as margens que o negócio consegue sustentar, os relacionamentos que geram vantagens difíceis de replicar, a visão de para onde a operação deve crescer. Essas são as decisões que geram valor em seis e doze meses, não no turno desta noite — e são justamente as que um operador que coordena pessoalmente não tem tempo nem atenção disponíveis para preparar bem."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "Lo que este proceso requiere del operador no es delegar de golpe sino construir la infraestructura que hace la delegación segura antes de ejecutarla: el archivo de contexto suficientemente actualizado para que el agente produzca diagnósticos específicos, el coordinador con turnos documentados suficientes para que el archivo refleje la realidad de la operación, y los cierres de turno estructurados que convierten la operación en un sistema que aprende sin depender de la memoria de una sola persona. Una vez que esa infraestructura está en pie, el operador que sigue en turno no está siendo prudente — está subinvirtiendo su propio tiempo en las decisiones que más valor pueden producir para la operación a mediano plazo.",
-        "en": "What this process requires from the operator isn't delegating all at once but building the infrastructure that makes delegation safe before executing it: the context file current enough for the agent to produce specific diagnostics, the coordinator with enough documented shifts for the file to reflect operational reality, and the structured shift closes that convert the operation into a system that learns without depending on any single person's memory. Once that infrastructure is in place, the operator who stays on shift isn't being prudent — they're underinvesting their own time in the decisions that can generate the most value for the operation over the medium term."
+        "en": "What this process requires from the operator isn't delegating all at once but building the infrastructure that makes delegation safe before executing it: the context file current enough for the agent to produce specific diagnostics, the coordinator with enough documented shifts for the file to reflect operational reality, and the structured shift closes that convert the operation into a system that learns without depending on any single person's memory. Once that infrastructure is in place, the operator who stays on shift isn't being prudent — they're underinvesting their own time in the decisions that can generate the most value for the operation over the medium term.",
+        "pt": "O que esse processo exige do operador não é delegar de uma vez, mas construir a infraestrutura que torna a delegação segura antes de executá-la: o arquivo de contexto suficientemente atualizado para que o agente produza diagnósticos específicos, o coordenador com turnos documentados suficientes para que o arquivo reflita a realidade da operação, e os fechamentos de turno estruturados que transformam a operação num sistema que aprende sem depender da memória de uma única pessoa. Uma vez que essa infraestrutura está em pé, o operador que continua no turno não está sendo prudente — está subinvestindo o próprio tempo nas decisões que mais valor podem gerar para a operação no médio prazo."
       }
     }
   ],
   "cta": {
     "heading": {
       "es": "¿Listo para lanzar tu propia app de movilidad?",
-      "en": "Ready to launch your own mobility app?"
+      "en": "Ready to launch your own mobility app?",
+      "pt": "Pronto para lançar seu próprio app de mobilidade?"
     },
     "body": {
       "es": "Configura tu marca, tus tarifas y tus servicios en semanas, no en meses. Cabgo te entrega la plataforma; tú te quedas con la operación, los clientes y los ingresos.",
-      "en": "Set up your brand, pricing and services in weeks, not months. Cabgo ships the platform — you keep the operation, the customers and the revenue."
+      "en": "Set up your brand, pricing and services in weeks, not months. Cabgo ships the platform — you keep the operation, the customers and the revenue.",
+      "pt": "Configure sua marca, suas tarifas e seus serviços em semanas, não em meses. A Cabgo entrega a plataforma; você fica com a operação, os clientes e a receita."
     },
     "buttonLabel": {
       "es": "Comenzar con Cabgo",
-      "en": "Get started with Cabgo"
+      "en": "Get started with Cabgo",
+      "pt": "Começar com a Cabgo"
     },
     "buttonHref": "/empezar"
   },
   "seo": {
     "metaTitle": {
       "es": "Delegar la coordinación diaria con el agente | Cabgo",
-      "en": "Delegating daily coordination with the agent | Cabgo"
+      "en": "Delegating daily coordination with the agent | Cabgo",
+      "pt": "Delegar a coordenação diária com o agente | Cabgo"
     },
     "metaDescription": {
       "es": "Cómo el operador de ride-hailing regional sale de la coordinación diaria sin que la operación pierda calidad, usando el agente y el archivo de contexto.",
-      "en": "How a regional ride-hailing operator exits daily coordination without degrading operations, using the AI agent and a maintained context file."
+      "en": "How a regional ride-hailing operator exits daily coordination without degrading operations, using the AI agent and a maintained context file.",
+      "pt": "Como o operador de transporte por aplicativo regional sai da coordenação diária sem perder qualidade, usando o agente de IA e o arquivo de contexto."
     }
   }
 }

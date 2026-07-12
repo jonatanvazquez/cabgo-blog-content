@@ -3,16 +3,19 @@
   "category": "strategy",
   "title": {
     "es": "Precio dinámico en ride-hailing regional: cuándo activarlo y cómo comunicarlo",
-    "en": "Surge pricing in regional ride-hailing: when to activate it and how to communicate it"
+    "en": "Surge pricing in regional ride-hailing: when to activate it and how to communicate it",
+    "pt": "Tarifa dinâmica no transporte por aplicativo regional: quando ativar e como comunicar"
   },
   "excerpt": {
     "es": "El precio dinámico no es un bonus de conductor: es la única herramienta que ajusta oferta y demanda en tiempo real. Cómo calibrar el multiplicador correcto y comunicarlo sin perder pasajeros.",
-    "en": "Surge pricing is not a driver bonus: it is the only tool that adjusts supply and demand in real time. How to calibrate the right multiplier and communicate it without losing passengers."
+    "en": "Surge pricing is not a driver bonus: it is the only tool that adjusts supply and demand in real time. How to calibrate the right multiplier and communicate it without losing passengers.",
+    "pt": "A tarifa dinâmica não é um bônus para o motorista: é a única ferramenta que ajusta oferta e demanda em tempo real. Como calibrar o multiplicador certo e comunicá-lo sem perder passageiros."
   },
   "heroImage": "https://raw.githubusercontent.com/jonatanvazquez/cabgo-blog-content/main/images/precio-dinamico-picos-demanda-operacion.jpg",
   "heroImageAlt": {
     "es": "Ilustración isométrica dividida en dos momentos: a la izquierda, una cuadrícula urbana tranquila con dos vehículos y una insignia de tarifa 1.0x en azul verdoso. A la derecha, la misma ciudad durante un pico de demanda con un estadio iluminado en ámbar, cuatro vehículos convergiendo hacia la zona y una insignia de tarifa 1.5x con flecha ascendente en ámbar. En el centro, un panel de activación con reloj muestra la transición del multiplicador.",
-    "en": "Isometric illustration split into two moments: on the left, a calm city grid with two vehicles and a 1.0x standard fare badge in teal. On the right, the same city during a demand peak with an amber-lit stadium, four vehicles converging on the zone, and a 1.5x fare badge with an amber upward arrow. In the center, an activation panel with a clock shows the multiplier transition."
+    "en": "Isometric illustration split into two moments: on the left, a calm city grid with two vehicles and a 1.0x standard fare badge in teal. On the right, the same city during a demand peak with an amber-lit stadium, four vehicles converging on the zone, and a 1.5x fare badge with an amber upward arrow. In the center, an activation panel with a clock shows the multiplier transition.",
+    "pt": "Ilustração isométrica dividida em dois momentos: à esquerda, uma malha urbana tranquila com dois veículos e um selo de tarifa 1.0x em azul-esverdeado. À direita, a mesma cidade durante um pico de demanda, com um estádio iluminado em âmbar, quatro veículos convergindo para a zona e um selo de tarifa 1.5x com seta ascendente em âmbar. No centro, um painel de ativação com relógio mostra a transição do multiplicador."
   },
   "heroImagePrompt": "Isometric composition split into two moments in time. On the left half, a compact city grid during a calm period: two driver vehicle icons spaced apart, few teal request bubbles, a standard fare badge showing 1.0x in white type on a teal pill. On the right half, the same city grid at peak demand: a stadium icon glowing amber in the upper zone, multiple request rings radiating from the stadium district in amber and teal, four driver icons converging toward the high-demand zone, and a glowing fare badge now showing 1.5x with a small amber upward arrow. In the center foreground, a slim vertical activation panel shows a clock icon and the transition from 1.0x to 1.5x with a step-up arrow. A small notification card floats near the driver icons showing a brief earnings signal in white type. Deep violet floor grid, soft indigo radial background glow, clean geometric shapes, subtle shadows. Negative space on the lower right.",
   "publishedAt": "2026-07-08",
@@ -35,13 +38,23 @@
       "surge pricing passenger communication",
       "dynamic fare driver activation strategy",
       "surge pricing secondary markets Mexico"
+    ],
+    "pt": [
+      "tarifa dinâmica transporte por aplicativo regional",
+      "tarifa dinâmica app de táxi América Latina",
+      "tarifa dinâmica operação de mobilidade",
+      "multiplicador de tarifa picos de demanda",
+      "quando ativar tarifa dinâmica táxi",
+      "comunicar tarifa dinâmica passageiros motoristas",
+      "tarifa dinâmica cidades secundárias México"
     ]
   },
   "author": {
     "name": "Equipo Cabgo",
     "role": {
       "es": "Plataforma de movilidad",
-      "en": "Mobility platform"
+      "en": "Mobility platform",
+      "pt": "Plataforma de mobilidade"
     }
   },
   "blocks": [
@@ -49,14 +62,16 @@
       "type": "paragraph",
       "text": {
         "es": "El precio dinámico —cobrar más al pasajero y pagar más al conductor durante los picos de demanda— es la herramienta de equilibrio más efectiva que tiene una plataforma de ride-hailing, y también la más evitada por los operadores regionales. El motivo habitual es el miedo al abandono del pasajero: un multiplicador que sube la tarifa justo cuando más se necesita el servicio parece contraproducente. Ese razonamiento confunde el síntoma con el problema. Sin precio dinámico, el pico de demanda no desaparece —simplemente se absorbe en forma de tiempos de espera de 12 a 20 minutos, tasa de cancelación elevada y conductores que desconectan porque el volumen de solicitudes los supera. El pasajero que esperó 15 minutos para conseguir un viaje tiene peor experiencia que el que pagó 30% más y esperó 4.",
-        "en": "Surge pricing — charging passengers more and paying drivers more during demand peaks — is the most effective balancing tool a ride-hailing platform has, and also the most avoided by regional operators. The usual reason is fear of passenger abandonment: a multiplier that raises the fare right when the service is most needed seems counterproductive. That reasoning confuses the symptom with the problem. Without surge pricing, the demand peak doesn't disappear — it is simply absorbed as wait times of 12 to 20 minutes, elevated cancellation rates, and drivers disconnecting because request volume exceeds their capacity. A passenger who waited 15 minutes to get a trip has a worse experience than one who paid 30% more and waited 4."
+        "en": "Surge pricing — charging passengers more and paying drivers more during demand peaks — is the most effective balancing tool a ride-hailing platform has, and also the most avoided by regional operators. The usual reason is fear of passenger abandonment: a multiplier that raises the fare right when the service is most needed seems counterproductive. That reasoning confuses the symptom with the problem. Without surge pricing, the demand peak doesn't disappear — it is simply absorbed as wait times of 12 to 20 minutes, elevated cancellation rates, and drivers disconnecting because request volume exceeds their capacity. A passenger who waited 15 minutes to get a trip has a worse experience than one who paid 30% more and waited 4.",
+        "pt": "A tarifa dinâmica — cobrar mais do passageiro e pagar mais ao motorista durante os picos de demanda — é a ferramenta de equilíbrio mais eficaz que uma plataforma de transporte por aplicativo tem, e também a mais evitada pelos operadores regionais. O motivo de sempre é o medo de perder o passageiro: um multiplicador que sobe a tarifa justamente quando o serviço é mais necessário parece contraproducente. Esse raciocínio confunde o sintoma com o problema. Sem tarifa dinâmica, o pico de demanda não desaparece — ele simplesmente é absorvido na forma de tempos de espera de 12 a 20 minutos, taxa de cancelamento elevada e motoristas que se desconectam porque o volume de solicitações os supera. O passageiro que esperou 15 minutos para conseguir uma corrida tem uma experiência pior do que o que pagou 30% a mais e esperou 4."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "Este artículo está dirigido al operador que tiene picos de demanda identificados —eventos locales, horarios de salida, días festivos, clima adverso— y todavía no ha implementado precio dinámico porque no sabe qué multiplicador usar, cómo comunicarlo o cuándo apagarlo. Cubre por qué el precio dinámico es un mecanismo de equilibrio de oferta y demanda y no un bonus de conductor, qué tipos de pico justifican activación en mercados regionales, qué rango de multiplicador es efectivo sin producir abandono de pasajero, cómo comunicarlo al pasajero y al conductor, cuándo no activarlo, y cómo usar el agente para identificar umbrales y evaluar resultados.",
-        "en": "This article is for the operator who has identifiable demand peaks — local events, rush hours, holidays, adverse weather — and has not yet implemented surge pricing because they don't know which multiplier to use, how to communicate it, or when to turn it off. It covers why surge pricing is a supply-demand balancing mechanism and not a driver bonus, which types of peaks justify activation in regional markets, which multiplier range is effective without producing passenger abandonment, how to communicate it to both passengers and drivers, when not to activate it, and how to use the agent to identify thresholds and evaluate results."
+        "en": "This article is for the operator who has identifiable demand peaks — local events, rush hours, holidays, adverse weather — and has not yet implemented surge pricing because they don't know which multiplier to use, how to communicate it, or when to turn it off. It covers why surge pricing is a supply-demand balancing mechanism and not a driver bonus, which types of peaks justify activation in regional markets, which multiplier range is effective without producing passenger abandonment, how to communicate it to both passengers and drivers, when not to activate it, and how to use the agent to identify thresholds and evaluate results.",
+        "pt": "Este artigo é voltado para o operador que já tem picos de demanda identificados — eventos locais, horários de saída, feriados, clima adverso — e ainda não implementou a tarifa dinâmica porque não sabe qual multiplicador usar, como comunicá-lo ou quando desligá-lo. Ele cobre por que a tarifa dinâmica é um mecanismo de equilíbrio entre oferta e demanda, e não um bônus para o motorista, quais tipos de pico justificam a ativação em mercados regionais, qual faixa de multiplicador é eficaz sem provocar a perda do passageiro, como comunicá-la ao passageiro e ao motorista, quando não ativá-la e como usar o agente para identificar limiares e avaliar resultados."
       }
     },
     {
@@ -65,21 +80,24 @@
       "id": "precio-dinamico-mecanismo-equilibrio",
       "text": {
         "es": "Por qué el precio dinámico es un mecanismo de equilibrio, no un bonus de conductor",
-        "en": "Why surge pricing is a balance mechanism, not a driver bonus"
+        "en": "Why surge pricing is a balance mechanism, not a driver bonus",
+        "pt": "Por que a tarifa dinâmica é um mecanismo de equilíbrio, e não um bônus para o motorista"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "La confusión más frecuente es tratar el ingreso adicional del conductor como el objetivo y la tarifa mayor al pasajero como el costo de conseguirlo. La lógica correcta es la inversa: el objetivo del precio dinámico es aumentar el número de conductores disponibles en una zona de alta demanda y reducir la demanda al umbral que esa oferta puede atender sin degradar el tiempo de espera. La tarifa mayor mueve a ambos actores en la dirección que equilibra el sistema: al conductor le conviene conectarse porque el ingreso por viaje es mayor; al pasajero en el margen puede convenirle esperar o buscar otra opción, liberando capacidad para quienes aceptan el precio. Sin ese doble ajuste simultáneo, la plataforma no tiene mecanismo real para responder al exceso de demanda sobre oferta en tiempo real.",
-        "en": "The most common confusion is treating the driver's extra income as the goal and the higher passenger fare as the cost of achieving it. The correct logic is the reverse: the goal of surge pricing is to increase the number of drivers available in a high-demand zone and reduce demand to the threshold that supply can handle without degrading wait times. The higher fare moves both actors in the direction that balances the system: the driver benefits from connecting because per-trip income is higher; the marginal passenger may prefer to wait or find another option, freeing capacity for those who accept the price. Without that simultaneous double adjustment, the platform has no real mechanism to respond to excess demand over supply in real time."
+        "en": "The most common confusion is treating the driver's extra income as the goal and the higher passenger fare as the cost of achieving it. The correct logic is the reverse: the goal of surge pricing is to increase the number of drivers available in a high-demand zone and reduce demand to the threshold that supply can handle without degrading wait times. The higher fare moves both actors in the direction that balances the system: the driver benefits from connecting because per-trip income is higher; the marginal passenger may prefer to wait or find another option, freeing capacity for those who accept the price. Without that simultaneous double adjustment, the platform has no real mechanism to respond to excess demand over supply in real time.",
+        "pt": "A confusão mais frequente é tratar a receita adicional do motorista como o objetivo e a tarifa maior para o passageiro como o custo de alcançá-lo. A lógica correta é a inversa: o objetivo da tarifa dinâmica é aumentar o número de motoristas disponíveis em uma zona de alta demanda e reduzir a demanda ao limiar que essa oferta consegue atender sem degradar o tempo de espera. A tarifa maior move os dois atores na direção que equilibra o sistema: ao motorista compensa se conectar porque a receita por corrida é maior; ao passageiro na margem pode compensar esperar ou buscar outra opção, liberando capacidade para quem aceita o preço. Sem esse duplo ajuste simultâneo, a plataforma não tem um mecanismo real para responder ao excesso de demanda sobre a oferta em tempo real."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "En operaciones regionales, el precio dinámico tiene un efecto de reclutamiento de oferta más pronunciado que en plataformas con flotas grandes. Cuando hay 60 conductores registrados y 18 activos en un miércoles normal, un multiplicador de 1.5x en el corredor norte durante un partido puede activar entre 5 y 9 conductores que estaban evaluando si valía la pena conectarse. En un mercado con 400 conductores, esa activación marginal es ruido. En uno con 60, es la diferencia entre tiempos de espera de 5 minutos o de 14. El precio dinámico en mercados pequeños no solo ajusta la demanda —activa oferta latente que de otro modo no estaría disponible, lo que hace el mecanismo cualitativamente más valioso que en plataformas con exceso crónico de conductores.",
-        "en": "In regional operations, surge pricing has a more pronounced supply recruitment effect than on platforms with large fleets. When there are 60 registered drivers and 18 active on a normal Wednesday, a 1.5x multiplier in the northern corridor during a local match can activate between 5 and 9 drivers who were evaluating whether it was worth connecting. In a market with 400 drivers, that marginal activation is noise. In one with 60, it is the difference between wait times of 5 minutes or 14. Surge pricing in small markets doesn't just adjust demand — it activates latent supply that would otherwise not be available, making the mechanism qualitatively more valuable than on platforms with a chronic oversupply of drivers."
+        "en": "In regional operations, surge pricing has a more pronounced supply recruitment effect than on platforms with large fleets. When there are 60 registered drivers and 18 active on a normal Wednesday, a 1.5x multiplier in the northern corridor during a local match can activate between 5 and 9 drivers who were evaluating whether it was worth connecting. In a market with 400 drivers, that marginal activation is noise. In one with 60, it is the difference between wait times of 5 minutes or 14. Surge pricing in small markets doesn't just adjust demand — it activates latent supply that would otherwise not be available, making the mechanism qualitatively more valuable than on platforms with a chronic oversupply of drivers.",
+        "pt": "Em operações regionais, a tarifa dinâmica tem um efeito de recrutamento de oferta mais acentuado do que em plataformas com frotas grandes. Quando há 60 motoristas cadastrados e 18 ativos em uma quarta-feira normal, um multiplicador de 1.5x no corredor norte durante um jogo pode ativar entre 5 e 9 motoristas que estavam avaliando se valia a pena se conectar. Em um mercado com 400 motoristas, essa ativação marginal é ruído. Em um com 60, é a diferença entre tempos de espera de 5 minutos ou de 14. A tarifa dinâmica em mercados pequenos não só ajusta a demanda — ela ativa uma oferta latente que de outra forma não estaria disponível, o que torna o mecanismo qualitativamente mais valioso do que em plataformas com excesso crônico de motoristas."
       }
     },
     {
@@ -88,14 +106,16 @@
       "id": "picos-que-justifican-precio-dinamico",
       "text": {
         "es": "Los tres tipos de pico que justifican activación en operaciones regionales",
-        "en": "The three types of peak that justify activation in regional operations"
+        "en": "The three types of peak that justify activation in regional operations",
+        "pt": "Os três tipos de pico que justificam a ativação em operações regionais"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "No todos los aumentos de demanda justifican precio dinámico. Hay tres tipos de pico que producen desequilibrio suficiente para que la activación tenga impacto real. El primero es el evento puntual —partido, concierto, feria patronal, graduación— que concentra demanda geográfica y temporalmente de forma que la oferta base no puede atender sin tiempos de espera de abandono. El segundo es el pico de franja diaria sostenida —el horario de 7 a 9 de la mañana en ciudades donde la demanda de salida al trabajo llega junta y la oferta de conductores todavía no alcanzó su pico—, predecible semana a semana y que admite programación automática del multiplicador. El tercero es el pico climático —lluvia intensa, calor extremo— impredecible en fecha pero que, cuando ocurre, sube la demanda entre 40 y 80% en 20 minutos. Los tres comparten que la oferta base no puede responder sin apoyo de precio.",
-        "en": "Not every demand increase justifies surge pricing. Three types of peak produce sufficient imbalance for activation to have real impact. The first is the one-off event — a match, concert, local fair, graduation ceremony — that concentrates demand geographically and temporally in ways base supply cannot handle without abandonment-level wait times. The second is the sustained daily slot peak — the 7 to 9 a.m. window in cities where commuter demand arrives in a cluster and the driver supply has not yet reached its own peak — predictable week to week and suitable for automatic multiplier scheduling. The third is the weather peak — heavy rain, extreme heat — unpredictable by date but which, when it hits, raises demand by 40 to 80% in 20 minutes. All three share the same characteristic: base supply cannot respond without price support."
+        "en": "Not every demand increase justifies surge pricing. Three types of peak produce sufficient imbalance for activation to have real impact. The first is the one-off event — a match, concert, local fair, graduation ceremony — that concentrates demand geographically and temporally in ways base supply cannot handle without abandonment-level wait times. The second is the sustained daily slot peak — the 7 to 9 a.m. window in cities where commuter demand arrives in a cluster and the driver supply has not yet reached its own peak — predictable week to week and suitable for automatic multiplier scheduling. The third is the weather peak — heavy rain, extreme heat — unpredictable by date but which, when it hits, raises demand by 40 to 80% in 20 minutes. All three share the same characteristic: base supply cannot respond without price support.",
+        "pt": "Nem todo aumento de demanda justifica a tarifa dinâmica. Existem três tipos de pico que produzem desequilíbrio suficiente para que a ativação tenha impacto real. O primeiro é o evento pontual — jogo, show, festa local, formatura — que concentra a demanda geográfica e temporalmente de um jeito que a oferta base não consegue atender sem tempos de espera que levam ao abandono. O segundo é o pico de faixa diária sustentada — o horário das 7 às 9 da manhã em cidades onde a demanda de saída para o trabalho chega toda junta e a oferta de motoristas ainda não atingiu seu pico —, previsível semana a semana e que admite programação automática do multiplicador. O terceiro é o pico climático — chuva forte, calor extremo — imprevisível na data, mas que, quando acontece, sobe a demanda entre 40 e 80% em 20 minutos. Os três têm em comum que a oferta base não consegue responder sem apoio de preço."
       }
     },
     {
@@ -103,7 +123,8 @@
       "style": "bullet",
       "intro": {
         "es": "Los cinco criterios que determinan si un pico justifica activar precio dinámico:",
-        "en": "The five criteria that determine whether a peak justifies activating surge pricing:"
+        "en": "The five criteria that determine whether a peak justifies activating surge pricing:",
+        "pt": "Os cinco critérios que determinam se um pico justifica ativar a tarifa dinâmica:"
       },
       "items": {
         "es": [
@@ -119,6 +140,13 @@
           "**Predictable peak duration of at least 45 minutes**: shorter activations create communication friction without enough time for additional supply to respond and reach the zone.",
           "**Geographically bounded zone**: if the peak is diffuse across the whole city, surge pricing cannot be communicated clearly and additional supply doesn't know where to position.",
           "**Ability to notify drivers before or at the start of the peak**: a driver who doesn't know surge pricing is active has no signal to connect; communication is part of the mechanism, not a supplement."
+        ],
+        "pt": [
+          "**Relação solicitações/motoristas ativos superior a 2.5 durante pelo menos 15 minutos**: abaixo desse limiar, a oferta base consegue atender a demanda sem degradação significativa do tempo de espera.",
+          "**Tempo de espera mediano superior a 6-7 minutos na zona afetada**: é o ponto em que os passageiros começam a cancelar, então a ativação deve ocorrer antes do abandono, não depois.",
+          "**Duração previsível do pico de pelo menos 45 minutos**: ativações mais curtas geram atrito de comunicação sem tempo para que a oferta adicional responda e chegue à zona.",
+          "**Zona geográfica delimitada**: se o pico é difuso por toda a cidade, a tarifa dinâmica não pode ser comunicada com clareza e a oferta adicional não sabe onde se posicionar.",
+          "**Capacidade de notificar o motorista antes ou no início do pico**: o motorista que não sabe que há tarifa dinâmica ativa não tem sinal para se conectar; a comunicação é parte do mecanismo, não um complemento."
         ]
       }
     },
@@ -128,21 +156,24 @@
       "id": "multiplicador-correcto-mercados-regionales",
       "text": {
         "es": "El multiplicador correcto: entre 1.3x y 1.7x para mercados secundarios",
-        "en": "The right multiplier: between 1.3x and 1.7x for secondary markets"
+        "en": "The right multiplier: between 1.3x and 1.7x for secondary markets",
+        "pt": "O multiplicador certo: entre 1.3x e 1.7x para mercados secundários"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "El rango de multiplicador efectivo en mercados regionales de México y Centroamérica está entre 1.3x y 1.7x. Por encima de 1.8x, la tasa de abandono del pasajero en la pantalla de confirmación sube de forma que el beneficio en oferta no compensa la pérdida de demanda atendida: el pasajero ve el multiplicador, decide no viajar, y el operador termina con más conductores disponibles pero menos demanda real para aprovecharlos. Por debajo de 1.25x, el efecto de activación de conductores inactivos es mínimo —el diferencial de ingreso no es suficiente para que el conductor que estaba descansando decida conectarse por ese extra—. El punto óptimo en operaciones con flotas de 30 a 80 conductores parece estar entre 1.4x y 1.6x: produce activación de oferta marginal sin reducir el volumen de demanda que acepta el precio.",
-        "en": "The effective multiplier range in regional markets across Mexico and Central America is 1.3x to 1.7x. Above 1.8x, the passenger abandonment rate on the confirmation screen rises enough that the supply benefit doesn't compensate for the lost demand: the passenger sees the multiplier, decides not to travel, and the operator ends up with more drivers available but less real demand to use them. Below 1.25x, the inactive driver activation effect is minimal — the income differential is not enough to get a resting driver to connect for that extra. The optimal point in operations with fleets of 30 to 80 drivers appears to be between 1.4x and 1.6x: it produces marginal supply activation without reducing the volume of demand that accepts the price."
+        "en": "The effective multiplier range in regional markets across Mexico and Central America is 1.3x to 1.7x. Above 1.8x, the passenger abandonment rate on the confirmation screen rises enough that the supply benefit doesn't compensate for the lost demand: the passenger sees the multiplier, decides not to travel, and the operator ends up with more drivers available but less real demand to use them. Below 1.25x, the inactive driver activation effect is minimal — the income differential is not enough to get a resting driver to connect for that extra. The optimal point in operations with fleets of 30 to 80 drivers appears to be between 1.4x and 1.6x: it produces marginal supply activation without reducing the volume of demand that accepts the price.",
+        "pt": "A faixa de multiplicador eficaz em mercados regionais do México e da América Central fica entre 1.3x e 1.7x. Acima de 1.8x, a taxa de abandono do passageiro na tela de confirmação sobe de tal forma que o ganho em oferta não compensa a perda de demanda atendida: o passageiro vê o multiplicador, decide não viajar, e o operador termina com mais motoristas disponíveis, mas menos demanda real para aproveitá-los. Abaixo de 1.25x, o efeito de ativação de motoristas inativos é mínimo — o diferencial de receita não é suficiente para que o motorista que estava descansando decida se conectar por esse extra. O ponto ideal em operações com frotas de 30 a 80 motoristas parece estar entre 1.4x e 1.6x: produz ativação de oferta marginal sem reduzir o volume de demanda que aceita o preço."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "La progresividad del multiplicador también importa. Activar directamente a 1.6x produce mayor abandono de pasajero que activar en 1.2x y subir a 1.5x en 15 minutos si el pico se mantiene. El pasajero que ve 1.2x en la pantalla y lo acepta tiene mayor probabilidad de aceptar 1.5x en el siguiente intento, porque ya estableció una expectativa de tarifa variable. El pasajero al que se presenta 1.6x como primera tarifa tiene mayor probabilidad de abandono al no tener referencia previa. La progresividad requiere capacidad de ajuste en tiempo real, pero incluso con dos niveles —uno para picos moderados y otro para picos intensos— el efecto sobre la tasa de abandono mejora significativamente frente al multiplicador único aplicado al máximo desde el inicio.",
-        "en": "Multiplier progressiveness also matters. Activating directly at 1.6x produces more passenger abandonment than starting at 1.2x and stepping to 1.5x after 15 minutes if the peak persists. A passenger who sees 1.2x and accepts it is more likely to accept 1.5x on the next attempt, having already established an expectation of variable fares. A passenger presented with 1.6x as the first price is more likely to abandon with no prior reference. Progressiveness requires real-time adjustment capability, but even with two levels — one for moderate peaks and one for intense peaks — the effect on abandonment rate improves significantly compared to applying the maximum multiplier immediately from the start."
+        "en": "Multiplier progressiveness also matters. Activating directly at 1.6x produces more passenger abandonment than starting at 1.2x and stepping to 1.5x after 15 minutes if the peak persists. A passenger who sees 1.2x and accepts it is more likely to accept 1.5x on the next attempt, having already established an expectation of variable fares. A passenger presented with 1.6x as the first price is more likely to abandon with no prior reference. Progressiveness requires real-time adjustment capability, but even with two levels — one for moderate peaks and one for intense peaks — the effect on abandonment rate improves significantly compared to applying the maximum multiplier immediately from the start.",
+        "pt": "A progressividade do multiplicador também importa. Ativar direto em 1.6x produz mais abandono de passageiro do que ativar em 1.2x e subir para 1.5x em 15 minutos se o pico persistir. O passageiro que vê 1.2x na tela e aceita tem maior probabilidade de aceitar 1.5x na tentativa seguinte, porque já estabeleceu uma expectativa de tarifa variável. O passageiro a quem se apresenta 1.6x como primeira tarifa tem maior probabilidade de abandono por não ter referência prévia. A progressividade exige capacidade de ajuste em tempo real, mas mesmo com dois níveis — um para picos moderados e outro para picos intensos — o efeito sobre a taxa de abandono melhora significativamente em relação ao multiplicador único aplicado no máximo desde o início."
       }
     },
     {
@@ -151,14 +182,16 @@
       "id": "comunicar-precio-dinamico-pasajero",
       "text": {
         "es": "Cómo comunicar el precio dinámico al pasajero sin producir abandono",
-        "en": "How to communicate surge pricing to the passenger without producing abandonment"
+        "en": "How to communicate surge pricing to the passenger without producing abandonment",
+        "pt": "Como comunicar a tarifa dinâmica ao passageiro sem provocar abandono"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "La comunicación del precio dinámico al pasajero tiene tres momentos clave: antes del pico, en la pantalla de confirmación y después del viaje. La comunicación anticipada —«los eventos de este fin de semana pueden generar tarifas dinámicas en la zona norte»— es la más efectiva para reducir el abandono, porque el pasajero que ya tiene esa expectativa no interpreta el multiplicador como sorpresa ni como abuso. En la pantalla de confirmación, la tarifa dinámica debe mostrarse como importe estimado final, no como multiplicador: «Tu viaje puede costar entre $65 y $75 MXN debido a la alta demanda en la zona» produce menos abandono que «Tarifa ×1.5». El importe concreto ancla la percepción del costo; el multiplicador abstracto activa la percepción de injusticia. Después del viaje, una nota breve que explica por qué el viaje tuvo tarifa mayor convierte la experiencia en educación en lugar de queja.",
-        "en": "Communicating surge pricing to passengers has three key moments: before the peak, on the confirmation screen, and after the trip. Advance communication — 'this weekend's events may generate dynamic fares in the northern zone' — is the most effective in reducing abandonment, because a passenger with that expectation doesn't interpret the multiplier as a surprise or as exploitation. On the confirmation screen, the surge fare should be shown as an estimated final amount, not as a multiplier: 'Your trip may cost between 65 and 75 MXN due to high demand in the area' produces less abandonment than 'Fare ×1.5'. The concrete amount anchors cost perception; the abstract multiplier activates the perception of unfairness. After the trip, a brief note explaining why the fare was higher turns the experience into education rather than a complaint."
+        "en": "Communicating surge pricing to passengers has three key moments: before the peak, on the confirmation screen, and after the trip. Advance communication — 'this weekend's events may generate dynamic fares in the northern zone' — is the most effective in reducing abandonment, because a passenger with that expectation doesn't interpret the multiplier as a surprise or as exploitation. On the confirmation screen, the surge fare should be shown as an estimated final amount, not as a multiplier: 'Your trip may cost between 65 and 75 MXN due to high demand in the area' produces less abandonment than 'Fare ×1.5'. The concrete amount anchors cost perception; the abstract multiplier activates the perception of unfairness. After the trip, a brief note explaining why the fare was higher turns the experience into education rather than a complaint.",
+        "pt": "A comunicação da tarifa dinâmica ao passageiro tem três momentos-chave: antes do pico, na tela de confirmação e depois da corrida. A comunicação antecipada — «os eventos deste fim de semana podem gerar tarifas dinâmicas na zona norte» — é a mais eficaz para reduzir o abandono, porque o passageiro que já tem essa expectativa não interpreta o multiplicador como surpresa nem como abuso. Na tela de confirmação, a tarifa dinâmica deve ser mostrada como valor final estimado, não como multiplicador: «Sua corrida pode custar entre $65 e $75 MXN devido à alta demanda na zona» produz menos abandono do que «Tarifa ×1.5». O valor concreto ancora a percepção do custo; o multiplicador abstrato ativa a percepção de injustiça. Depois da corrida, uma nota breve que explica por que a corrida teve tarifa maior transforma a experiência em educação em vez de reclamação."
       }
     },
     {
@@ -167,25 +200,29 @@
       "id": "comunicar-precio-dinamico-conductor",
       "text": {
         "es": "Cómo comunicar el precio dinámico al conductor para activar oferta latente",
-        "en": "How to communicate surge pricing to drivers to activate latent supply"
+        "en": "How to communicate surge pricing to drivers to activate latent supply",
+        "pt": "Como comunicar a tarifa dinâmica ao motorista para ativar oferta latente"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "Para que el precio dinámico active oferta latente, el conductor tiene que saberlo antes de que el pico esté en su punto máximo. El conductor que recibe una notificación de «tarifa dinámica activa en zona norte hasta las 10:30 pm, ingreso estimado por viaje $38-48 MXN» tiene una señal concreta para conectarse o dirigirse a esa zona si ya estaba en sesión. El conductor que descubre el multiplicador al aceptar una solicitud ya estaba disponible —el precio dinámico no activó su oferta, simplemente le pagó más por un viaje que hubiera tomado de todas formas—. El tiempo de anticipación varía según el tipo de pico: para eventos previstos, 24-48 horas antes; para franjas diarias recurrentes, la noche anterior; para picos climáticos, en los primeros 5-10 minutos del evento. La notificación que llega tarde no activa oferta adicional —solo transfiere ingreso a conductores que ya estaban conectados.",
-        "en": "For surge pricing to activate latent supply, drivers must know about it before the peak reaches its maximum. A driver who receives a notification saying 'dynamic fare active in northern zone until 10:30 pm, estimated income per trip 38-48 MXN' has a concrete signal to connect or head to that zone if already in session. A driver who discovers the multiplier when accepting a request was already available — surge pricing didn't activate their supply, it simply paid them more for a trip they would have taken anyway. Lead time varies by peak type: for scheduled events, 24 to 48 hours in advance; for recurring daily slots, the night before; for weather peaks, within the first 5 to 10 minutes of the event. A notification that arrives late doesn't activate additional supply — it only transfers income to drivers who were already connected."
+        "en": "For surge pricing to activate latent supply, drivers must know about it before the peak reaches its maximum. A driver who receives a notification saying 'dynamic fare active in northern zone until 10:30 pm, estimated income per trip 38-48 MXN' has a concrete signal to connect or head to that zone if already in session. A driver who discovers the multiplier when accepting a request was already available — surge pricing didn't activate their supply, it simply paid them more for a trip they would have taken anyway. Lead time varies by peak type: for scheduled events, 24 to 48 hours in advance; for recurring daily slots, the night before; for weather peaks, within the first 5 to 10 minutes of the event. A notification that arrives late doesn't activate additional supply — it only transfers income to drivers who were already connected.",
+        "pt": "Para que a tarifa dinâmica ative oferta latente, o motorista precisa saber disso antes de o pico chegar ao seu ponto máximo. O motorista que recebe uma notificação de «tarifa dinâmica ativa na zona norte até as 22h30, receita estimada por corrida $38-48 MXN» tem um sinal concreto para se conectar ou se dirigir a essa zona se já estiver em sessão. O motorista que descobre o multiplicador ao aceitar uma solicitação já estava disponível — a tarifa dinâmica não ativou a oferta dele, apenas pagou mais por uma corrida que ele teria feito de qualquer forma. O tempo de antecedência varia conforme o tipo de pico: para eventos previstos, 24-48 horas antes; para faixas diárias recorrentes, na noite anterior; para picos climáticos, nos primeiros 5-10 minutos do evento. A notificação que chega tarde não ativa oferta adicional — só transfere receita para motoristas que já estavam conectados."
       }
     },
     {
       "type": "quote",
       "text": {
         "es": "La primera vez que probé precio dinámico subí a 1.8x en el partido del sábado y tuve tres quejas directas en WhatsApp. Pero revisé los números: la tasa de cancelación de pasajero bajó de 22% a 11%, los tiempos de espera bajaron de 14 minutos a 5, y el ingreso de mi flota esa noche fue el más alto del mes. Las quejas venían de los tres pasajeros que vieron la tarifa, la rechazaron y después me escribieron. Los que aceptaron tuvieron el mejor viaje de la semana. Bajé a 1.5x en el siguiente evento, avisé a los conductores con un día de anticipación, y no hubo quejas. Mismo resultado en disponibilidad, menos fricción.",
-        "en": "The first time I tried surge pricing I went to 1.8x for the Saturday match and got three direct complaints on WhatsApp. But I reviewed the numbers: passenger cancellation rate dropped from 22% to 11%, wait times went from 14 minutes to 5, and my fleet's income that night was the highest of the month. The complaints came from the three passengers who saw the fare, rejected it, and then messaged me. The ones who accepted had the best trip of the week. I dropped to 1.5x for the next event, told drivers a day in advance, and had no complaints. Same availability outcome, less friction."
+        "en": "The first time I tried surge pricing I went to 1.8x for the Saturday match and got three direct complaints on WhatsApp. But I reviewed the numbers: passenger cancellation rate dropped from 22% to 11%, wait times went from 14 minutes to 5, and my fleet's income that night was the highest of the month. The complaints came from the three passengers who saw the fare, rejected it, and then messaged me. The ones who accepted had the best trip of the week. I dropped to 1.5x for the next event, told drivers a day in advance, and had no complaints. Same availability outcome, less friction.",
+        "pt": "A primeira vez que testei tarifa dinâmica subi para 1.8x no jogo de sábado e recebi três reclamações diretas no WhatsApp. Mas revisei os números: a taxa de cancelamento de passageiro caiu de 22% para 11%, os tempos de espera caíram de 14 minutos para 5, e a receita da minha frota naquela noite foi a mais alta do mês. As reclamações vinham dos três passageiros que viram a tarifa, recusaram e depois me escreveram. Os que aceitaram tiveram a melhor corrida da semana. Baixei para 1.5x no evento seguinte, avisei os motoristas com um dia de antecedência, e não houve reclamações. Mesmo resultado em disponibilidade, menos atrito."
       },
       "attribution": {
         "es": "Operador con cuatro años de operación en una ciudad de 280,000 habitantes en el sureste de México",
-        "en": "Operator with four years of operation in a city of 280,000 in southeastern Mexico"
+        "en": "Operator with four years of operation in a city of 280,000 in southeastern Mexico",
+        "pt": "Operador com quatro anos de operação em uma cidade de 280.000 habitantes no sudeste do México"
       }
     },
     {
@@ -194,21 +231,24 @@
       "id": "cuando-no-activar-precio-dinamico",
       "text": {
         "es": "Cuándo no activarlo y por qué apagarlo tarde daña más que encenderlo tarde",
-        "en": "When not to activate it and why turning it off late causes more damage than turning it on late"
+        "en": "When not to activate it and why turning it off late causes more damage than turning it on late",
+        "pt": "Quando não ativar e por que desligar tarde prejudica mais do que ligar tarde"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "El precio dinámico no debe activarse cuando la causa de la alta demanda es una falla propia del servicio —conductores inactivos por error de la plataforma, zona sin cobertura por redistribución mal gestionada, pico previsible que el operador no preparó con anticipación de oferta—. En esos casos, el precio dinámico no equilibra oferta y demanda: cobra más al pasajero por una falla del operador, lo que produce el peor tipo de percepción. Tampoco debe activarse cuando la elasticidad del pasajero en esa zona o contexto es estructuralmente baja —destinos de emergencia, hospitales, terminales de noche—, donde la tarifa dinámica tiene más impacto reputacional que beneficio operativo. El criterio de activación debe ser exceso real de demanda sobre oferta disponible, no simplemente demanda alta.",
-        "en": "Surge pricing should not be activated when the cause of high demand is an own-service failure — drivers inactive due to a platform error, uncovered zone from poorly managed redistribution, a predictable peak the operator didn't prepare supply for in advance. In those cases, surge pricing doesn't balance supply and demand: it charges the passenger more for an operator's failure, producing the worst type of perception. It also shouldn't be activated when passenger price elasticity in that zone or context is structurally low — emergency destinations, hospitals, late-night bus terminals — where dynamic fares have more reputational impact than operational benefit. The activation criterion must be actual excess demand over available supply, not simply high demand."
+        "en": "Surge pricing should not be activated when the cause of high demand is an own-service failure — drivers inactive due to a platform error, uncovered zone from poorly managed redistribution, a predictable peak the operator didn't prepare supply for in advance. In those cases, surge pricing doesn't balance supply and demand: it charges the passenger more for an operator's failure, producing the worst type of perception. It also shouldn't be activated when passenger price elasticity in that zone or context is structurally low — emergency destinations, hospitals, late-night bus terminals — where dynamic fares have more reputational impact than operational benefit. The activation criterion must be actual excess demand over available supply, not simply high demand.",
+        "pt": "A tarifa dinâmica não deve ser ativada quando a causa da alta demanda é uma falha do próprio serviço — motoristas inativos por erro da plataforma, zona sem cobertura por redistribuição mal gerida, pico previsível que o operador não preparou com antecedência de oferta. Nesses casos, a tarifa dinâmica não equilibra oferta e demanda: cobra mais do passageiro por uma falha do operador, o que produz o pior tipo de percepção. Também não deve ser ativada quando a elasticidade do passageiro naquela zona ou contexto é estruturalmente baixa — destinos de emergência, hospitais, terminais à noite —, onde a tarifa dinâmica tem mais impacto reputacional do que benefício operacional. O critério de ativação deve ser excesso real de demanda sobre a oferta disponível, não simplesmente demanda alta."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "Apagar el multiplicador tarde daña la operación de forma distinta. El pasajero que solicita un viaje con tarifa dinámica activa, espera durante una reasignación, y lo acepta a precio normal porque el multiplicador se apagó en ese intervalo percibe la experiencia como inconsistente. El conductor que esperaba el ingreso del multiplicador porque la notificación indicaba que estaría activo hasta las 10:30 pm y se apaga a las 10:15 pierde confianza en la señal para la próxima activación. El apagado debe tener un umbral claro —relación solicitudes/conductores activos por debajo de 1.5 durante 10 minutos continuos— y ejecutarse de forma progresiva: bajar de 1.5x a 1.2x y luego a 1.0x en dos pasos de 5 minutos, en lugar de cortar directamente. Esa transición reduce la percepción de variabilidad arbitraria tanto para el pasajero como para el conductor.",
-        "en": "Turning off the multiplier late damages the operation differently. A passenger who requests a trip with surge active, waits through a reassignment, and accepts at normal price because the multiplier was deactivated during that interval perceives the experience as inconsistent. A driver who expected multiplier income because the notification said it would be active until 10:30 pm and it cuts off at 10:15 loses trust in the signal for the next activation. Deactivation must have a clear threshold — requests-to-active-drivers ratio below 1.5 for 10 continuous minutes — and execute progressively: stepping down from 1.5x to 1.2x and then to 1.0x in two 5-minute increments rather than cutting directly. That transition reduces the perception of arbitrary variability for both passengers and drivers."
+        "en": "Turning off the multiplier late damages the operation differently. A passenger who requests a trip with surge active, waits through a reassignment, and accepts at normal price because the multiplier was deactivated during that interval perceives the experience as inconsistent. A driver who expected multiplier income because the notification said it would be active until 10:30 pm and it cuts off at 10:15 loses trust in the signal for the next activation. Deactivation must have a clear threshold — requests-to-active-drivers ratio below 1.5 for 10 continuous minutes — and execute progressively: stepping down from 1.5x to 1.2x and then to 1.0x in two 5-minute increments rather than cutting directly. That transition reduces the perception of arbitrary variability for both passengers and drivers.",
+        "pt": "Desligar o multiplicador tarde prejudica a operação de forma diferente. O passageiro que solicita uma corrida com tarifa dinâmica ativa, espera durante uma reatribuição e a aceita a preço normal porque o multiplicador foi desligado nesse intervalo percebe a experiência como inconsistente. O motorista que esperava a receita do multiplicador porque a notificação indicava que ele estaria ativo até as 22h30 e ele desliga às 22h15 perde confiança no sinal para a próxima ativação. O desligamento deve ter um limiar claro — relação solicitações/motoristas ativos abaixo de 1.5 durante 10 minutos contínuos — e ser executado de forma progressiva: baixar de 1.5x para 1.2x e depois para 1.0x em dois passos de 5 minutos, em vez de cortar de uma vez. Essa transição reduz a percepção de variabilidade arbitrária tanto para o passageiro quanto para o motorista."
       }
     },
     {
@@ -217,61 +257,71 @@
       "id": "agente-identifica-activacion-precio-dinamico",
       "text": {
         "es": "Cómo el agente identifica cuándo activar precio dinámico y evalúa los resultados",
-        "en": "How the agent identifies when to activate surge pricing and evaluates the results"
+        "en": "How the agent identifies when to activate surge pricing and evaluates the results",
+        "pt": "Como o agente identifica quando ativar a tarifa dinâmica e avalia os resultados"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "La instrucción al agente para monitorear y gestionar el precio dinámico: «Cada 15 minutos durante los picos identificados, revisa la relación entre solicitudes recibidas y conductores activos por zona. Si esa relación supera 2.0 en alguna zona y el tiempo de espera mediano de las últimas 10 solicitudes en esa zona supera 6 minutos, notifícame con: zona afectada, relación actual solicitudes/conductor, tiempo de espera mediano y el multiplicador que usé en situaciones similares el mes pasado.» Esa notificación con contexto operativo permite decidir la activación con datos concretos en lugar de intuición. Para operadores que quieren delegar la decisión inicial: «Si esa condición se cumple en una zona con evento previamente registrado, activa multiplicador 1.4x, envía notificación estándar a conductores inactivos de la zona y notifícame la activación. Si la condición persiste más de 20 minutos sin mejora en tiempo de espera, notifícame para evaluar subir a 1.6x.»",
-        "en": "The agent instruction to monitor and manage surge pricing: 'Every 15 minutes during identified peaks, check the ratio of received requests to active drivers by zone. If that ratio exceeds 2.0 in any zone and the median wait time of the last 10 requests in that zone exceeds 6 minutes, notify me with: affected zone, current requests-to-driver ratio, median wait time, and the multiplier I used in similar situations last month.' That notification with operational context allows the activation decision to be made with concrete data rather than intuition. For operators who want to delegate the initial decision: 'If that condition is met in a zone with a previously registered event, activate a 1.4x multiplier, send a standard notification to inactive drivers in the zone, and inform me of the activation. If the condition persists more than 20 minutes without improvement in wait time, notify me to evaluate stepping to 1.6x.'"
+        "en": "The agent instruction to monitor and manage surge pricing: 'Every 15 minutes during identified peaks, check the ratio of received requests to active drivers by zone. If that ratio exceeds 2.0 in any zone and the median wait time of the last 10 requests in that zone exceeds 6 minutes, notify me with: affected zone, current requests-to-driver ratio, median wait time, and the multiplier I used in similar situations last month.' That notification with operational context allows the activation decision to be made with concrete data rather than intuition. For operators who want to delegate the initial decision: 'If that condition is met in a zone with a previously registered event, activate a 1.4x multiplier, send a standard notification to inactive drivers in the zone, and inform me of the activation. If the condition persists more than 20 minutes without improvement in wait time, notify me to evaluate stepping to 1.6x.'",
+        "pt": "A instrução ao agente para monitorar e gerir a tarifa dinâmica: «A cada 15 minutos durante os picos identificados, revise a relação entre solicitações recebidas e motoristas ativos por zona. Se essa relação ultrapassar 2.0 em alguma zona e o tempo de espera mediano das últimas 10 solicitações nessa zona ultrapassar 6 minutos, me notifique com: zona afetada, relação atual solicitações/motorista, tempo de espera mediano e o multiplicador que usei em situações semelhantes no mês passado.» Essa notificação com contexto operacional permite decidir a ativação com dados concretos em vez de intuição. Para operadores que querem delegar a decisão inicial: «Se essa condição se cumprir em uma zona com evento previamente registrado, ative o multiplicador 1.4x, envie notificação padrão aos motoristas inativos da zona e me notifique a ativação. Se a condição persistir por mais de 20 minutos sem melhora no tempo de espera, me notifique para avaliar subir para 1.6x.»"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "La consulta posterior para evaluar si el precio dinámico tuvo el efecto esperado: «Para el pico del [fecha], muéstrame: cuántos conductores adicionales se conectaron en los 30 minutos posteriores a la notificación, cómo cambió el tiempo de espera mediano desde la activación hasta el cierre, la tasa de abandono de pasajero en la pantalla durante el multiplicador versus el mismo horario de la semana anterior sin multiplicador, y el ingreso promedio por conductor en esa sesión versus el histórico del mismo horario.» Esas cuatro métricas —oferta activada, cambio en tiempo de espera, abandono comparado e ingreso de conductor— determinan si el multiplicador fue correcto o si el próximo evento similar merece ajuste. Sin ese análisis posterior, el precio dinámico permanece como una decisión de intuición en lugar de un parámetro que se calibra con datos reales de la operación.",
-        "en": "The follow-up query to evaluate whether surge pricing had the expected effect: 'For the peak on [date], show me: how many additional drivers connected in the 30 minutes after the notification, how median wait time changed from activation to close, the passenger abandonment rate on screen during the multiplier versus the same time slot the prior week without a multiplier, and average driver income in that session versus the historical baseline for that slot.' Those four metrics — supply activated, wait time change, comparative abandonment, and driver income — determine whether the multiplier was correct or whether the next similar event deserves adjustment. Without that post-event analysis, surge pricing remains an intuition decision rather than a parameter calibrated with real operational data."
+        "en": "The follow-up query to evaluate whether surge pricing had the expected effect: 'For the peak on [date], show me: how many additional drivers connected in the 30 minutes after the notification, how median wait time changed from activation to close, the passenger abandonment rate on screen during the multiplier versus the same time slot the prior week without a multiplier, and average driver income in that session versus the historical baseline for that slot.' Those four metrics — supply activated, wait time change, comparative abandonment, and driver income — determine whether the multiplier was correct or whether the next similar event deserves adjustment. Without that post-event analysis, surge pricing remains an intuition decision rather than a parameter calibrated with real operational data.",
+        "pt": "A consulta posterior para avaliar se a tarifa dinâmica teve o efeito esperado: «Para o pico do [data], me mostre: quantos motoristas adicionais se conectaram nos 30 minutos após a notificação, como mudou o tempo de espera mediano da ativação até o fechamento, a taxa de abandono de passageiro na tela durante o multiplicador versus o mesmo horário da semana anterior sem multiplicador, e a receita média por motorista nessa sessão versus o histórico do mesmo horário.» Essas quatro métricas — oferta ativada, mudança no tempo de espera, abandono comparado e receita do motorista — determinam se o multiplicador foi correto ou se o próximo evento semelhante merece ajuste. Sem essa análise posterior, a tarifa dinâmica permanece como uma decisão de intuição em vez de um parâmetro que se calibra com dados reais da operação."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "El precio dinámico sigue siendo la herramienta más subutilizada en ride-hailing regional precisamente porque sus efectos positivos —menor tiempo de espera, más oferta disponible en pico, mayor ingreso por conductor— son menos visibles que su efecto negativo potencial más inmediato: la queja del pasajero que rechazó la tarifa. Ese desbalance de visibilidad lleva al operador a evitarlo para no generar fricción, sin medir el impacto sobre los pasajeros que cancelaron silenciosamente porque el tiempo de espera era demasiado alto con tarifa normal y oferta insuficiente. La queja explícita del que rechazó el precio compite en la percepción del operador contra el abandono implícito del que se fue sin quejarse —y ese segundo grupo es siempre más grande que el primero.",
-        "en": "Surge pricing remains the most underused tool in regional ride-hailing precisely because its positive effects — lower wait times, more available supply at peak, higher driver income — are less visible than its most immediate potential negative: the complaint from the passenger who rejected the fare. That visibility imbalance leads operators to avoid it to prevent friction, without measuring the impact on passengers who silently canceled because wait time was too long at normal fare with insufficient supply. The explicit complaint from the one who rejected the price competes in the operator's perception against the implicit abandonment from the one who left without complaining — and that second group is always larger than the first."
+        "en": "Surge pricing remains the most underused tool in regional ride-hailing precisely because its positive effects — lower wait times, more available supply at peak, higher driver income — are less visible than its most immediate potential negative: the complaint from the passenger who rejected the fare. That visibility imbalance leads operators to avoid it to prevent friction, without measuring the impact on passengers who silently canceled because wait time was too long at normal fare with insufficient supply. The explicit complaint from the one who rejected the price competes in the operator's perception against the implicit abandonment from the one who left without complaining — and that second group is always larger than the first.",
+        "pt": "A tarifa dinâmica continua sendo a ferramenta mais subutilizada no transporte por aplicativo regional justamente porque seus efeitos positivos — menor tempo de espera, mais oferta disponível no pico, maior receita por motorista — são menos visíveis do que seu efeito negativo potencial mais imediato: a reclamação do passageiro que recusou a tarifa. Esse desequilíbrio de visibilidade leva o operador a evitá-la para não gerar atrito, sem medir o impacto sobre os passageiros que cancelaram silenciosamente porque o tempo de espera estava alto demais com tarifa normal e oferta insuficiente. A reclamação explícita de quem recusou o preço compete, na percepção do operador, com o abandono implícito de quem foi embora sem reclamar — e esse segundo grupo é sempre maior que o primeiro."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "El operador que diseña el precio dinámico con multiplicadores calibrados para su mercado, comunica la activación al conductor con anticipación suficiente, muestra al pasajero el importe final en lugar del multiplicador, y define umbrales claros de encendido y apagado tiene una herramienta que mejora simultáneamente la experiencia del pasajero —menor espera en los momentos de mayor presión— y la del conductor —mayor ingreso en las franjas donde más lo necesita la operación—. El agente convierte esa calibración de intuición en proceso: mide cuándo se alcanzan los umbrales, notifica antes de que el pico esté en su punto crítico, y produce los datos que permiten ajustar el multiplicador correcto para cada tipo de pico que la operación enfrenta.",
-        "en": "The operator who designs surge pricing with multipliers calibrated for their market, communicates activation to drivers with sufficient lead time, shows passengers the final estimated amount rather than the multiplier, and defines clear on and off thresholds has a tool that simultaneously improves the passenger experience — shorter waits during peak pressure — and the driver experience — higher income during the slots the operation most needs them. The agent turns that intuition-based calibration into a process: it measures when thresholds are reached, notifies before the peak hits its critical point, and produces the data that allows the correct multiplier to be set for each type of peak the operation faces."
+        "en": "The operator who designs surge pricing with multipliers calibrated for their market, communicates activation to drivers with sufficient lead time, shows passengers the final estimated amount rather than the multiplier, and defines clear on and off thresholds has a tool that simultaneously improves the passenger experience — shorter waits during peak pressure — and the driver experience — higher income during the slots the operation most needs them. The agent turns that intuition-based calibration into a process: it measures when thresholds are reached, notifies before the peak hits its critical point, and produces the data that allows the correct multiplier to be set for each type of peak the operation faces.",
+        "pt": "O operador que projeta a tarifa dinâmica com multiplicadores calibrados para o seu mercado, comunica a ativação ao motorista com antecedência suficiente, mostra ao passageiro o valor final em vez do multiplicador e define limiares claros de ligar e desligar tem uma ferramenta que melhora simultaneamente a experiência do passageiro — menor espera nos momentos de maior pressão — e a do motorista — maior receita nas faixas em que a operação mais precisa dele. O agente transforma essa calibração de intuição em processo: mede quando os limiares são atingidos, notifica antes de o pico chegar ao seu ponto crítico e produz os dados que permitem ajustar o multiplicador certo para cada tipo de pico que a operação enfrenta."
       }
     }
   ],
   "cta": {
     "heading": {
       "es": "¿Listo para lanzar tu propia app de movilidad?",
-      "en": "Ready to launch your own mobility app?"
+      "en": "Ready to launch your own mobility app?",
+      "pt": "Pronto para lançar seu próprio app de mobilidade?"
     },
     "body": {
       "es": "Configura tu marca, tus tarifas y tus servicios en semanas, no en meses. Cabgo te entrega la plataforma; tú te quedas con la operación, los clientes y los ingresos.",
-      "en": "Set up your brand, pricing and services in weeks, not months. Cabgo ships the platform — you keep the operation, the customers and the revenue."
+      "en": "Set up your brand, pricing and services in weeks, not months. Cabgo ships the platform — you keep the operation, the customers and the revenue.",
+      "pt": "Configure sua marca, suas tarifas e seus serviços em semanas, não em meses. A Cabgo entrega a plataforma; você fica com a operação, os clientes e a receita."
     },
     "buttonLabel": {
       "es": "Comenzar con Cabgo",
-      "en": "Get started with Cabgo"
+      "en": "Get started with Cabgo",
+      "pt": "Começar com a Cabgo"
     },
     "buttonHref": "/empezar"
   },
   "seo": {
     "metaTitle": {
       "es": "Precio dinámico en ride-hailing regional | Cabgo",
-      "en": "Surge pricing for regional ride-hailing | Cabgo"
+      "en": "Surge pricing for regional ride-hailing | Cabgo",
+      "pt": "Tarifa dinâmica no transporte regional | Cabgo"
     },
     "metaDescription": {
       "es": "Cuándo activar precio dinámico, qué multiplicador usar y cómo comunicarlo sin perder pasajeros ni conductores en mercados regionales.",
-      "en": "When to activate surge pricing, which multiplier to use, and how to communicate it without losing passengers or drivers in regional markets."
+      "en": "When to activate surge pricing, which multiplier to use, and how to communicate it without losing passengers or drivers in regional markets.",
+      "pt": "Quando ativar a tarifa dinâmica, qual multiplicador usar e como comunicá-la sem perder passageiros nem motoristas em mercados regionais."
     }
   }
 }

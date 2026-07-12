@@ -3,16 +3,19 @@
   "category": "strategy",
   "title": {
     "es": "Después del superapp: la era de los agentes verticales",
-    "en": "After the super-app: the era of vertical AI agents"
+    "en": "After the super-app: the era of vertical AI agents",
+    "pt": "Depois do super-app: a era dos agentes verticais"
   },
   "excerpt": {
     "es": "El superapp apostó por la amplitud como estrategia. El agente vertical invierte esa lógica: la ventaja no viene de cuántos dominios cubre, sino de qué tan profundo llega en uno solo.",
-    "en": "The super-app bet on breadth as strategy. The vertical agent inverts that logic: the advantage comes not from how many domains it covers, but how deep it goes in a single one."
+    "en": "The super-app bet on breadth as strategy. The vertical agent inverts that logic: the advantage comes not from how many domains it covers, but how deep it goes in a single one.",
+    "pt": "O super-app apostou na amplitude como estratégia. O agente vertical inverte essa lógica: a vantagem não vem de quantos domínios ele cobre, mas de quão fundo ele vai em um só."
   },
   "heroImage": "https://raw.githubusercontent.com/jonatanvazquez/cabgo-blog-content/main/images/despues-superapp-agentes-verticales.jpg",
   "heroImageAlt": {
     "es": "Ilustración isométrica de una plataforma horizontal fragmentada con íconos genéricos dispersos a la izquierda y una torre vertical teal compacta con un panel de agente y mapa de ciudad a la derecha, separadas por una línea diagonal de luz",
-    "en": "Isometric illustration of a fragmented horizontal platform with scattered generic icons on the left and a compact teal vertical tower with an agent panel and city map on the right, divided by a diagonal line of light"
+    "en": "Isometric illustration of a fragmented horizontal platform with scattered generic icons on the left and a compact teal vertical tower with an agent panel and city map on the right, divided by a diagonal line of light",
+    "pt": "Ilustração isométrica de uma plataforma horizontal fragmentada com ícones genéricos dispersos à esquerda e uma torre vertical teal compacta com um painel de agente e mapa de cidade à direita, separadas por uma linha diagonal de luz"
   },
   "heroImagePrompt": "Split isometric composition: on the left, a wide flat horizontal platform made of many small disconnected generic app icon tiles arranged loosely across a broad surface, with a faint gray color and low glow suggesting fragmentation. On the right, a single compact vertical tower glowing with deep indigo and teal light, with a focused AI agent interface panel on its face showing a small city district map with one highlighted zone and a short diagnostic text bubble. A thin diagonal glowing teal line divides the two halves. Deep violet floor grid. The left side is visually cluttered and dim, the right side is clean, bright, and precise. Negative space on the lower right.",
   "publishedAt": "2026-06-16",
@@ -35,13 +38,23 @@
       "vertical mobility platform intelligent agents",
       "operational context AI agent ride-hailing local",
       "super-app LATAM failure vertical agents 2026"
+    ],
+    "pt": [
+      "agentes verticais mobilidade regional transporte por aplicativo",
+      "depois do super-app era agentes IA",
+      "agente vertical vs super-app plataforma mobilidade",
+      "vantagem competitiva operador regional agente IA",
+      "plataforma vertical mobilidade agentes inteligentes",
+      "contexto operacional agente IA transporte por aplicativo local",
+      "super-app LATAM fracasso agentes verticais 2026"
     ]
   },
   "author": {
     "name": "Equipo Cabgo",
     "role": {
       "es": "Plataforma de movilidad",
-      "en": "Mobility platform"
+      "en": "Mobility platform",
+      "pt": "Plataforma de mobilidade"
     }
   },
   "blocks": [
@@ -49,14 +62,16 @@
       "type": "paragraph",
       "text": {
         "es": "La promesa del superapp en América Latina fue una apuesta por la amplitud: una sola aplicación que concentrara transporte, delivery, pagos y fidelización en una experiencia unificada. Esa apuesta no se cumplió en la mayoría de los mercados regionales, y el motivo no fue la falta de capital ni de voluntad de los operadores para adoptarla. Fue una falla de dirección causal: la amplitud sin profundidad produce experiencias demasiado genéricas para ganar en ningún dominio específico. Lo que está tomando forma en 2026 no es un segundo intento del superapp — es un modelo distinto en su lógica de fondo: el agente vertical, que no apuesta por cubrir más categorías sino por ir más profundo en una sola.",
-        "en": "The super-app promise in Latin America was a bet on breadth: a single application concentrating transportation, delivery, payments, and loyalty into one unified experience. That bet didn't pay off in most regional markets, and the reason wasn't lack of capital or operator willingness to adopt it. It was a causal direction failure: breadth without depth produces experiences too generic to win in any specific domain. What's taking shape in 2026 isn't a second attempt at the super-app — it's a model different in its underlying logic: the vertical agent, which doesn't bet on covering more categories but on going deeper in just one."
+        "en": "The super-app promise in Latin America was a bet on breadth: a single application concentrating transportation, delivery, payments, and loyalty into one unified experience. That bet didn't pay off in most regional markets, and the reason wasn't lack of capital or operator willingness to adopt it. It was a causal direction failure: breadth without depth produces experiences too generic to win in any specific domain. What's taking shape in 2026 isn't a second attempt at the super-app — it's a model different in its underlying logic: the vertical agent, which doesn't bet on covering more categories but on going deeper in just one.",
+        "pt": "A promessa do super-app na América Latina foi uma aposta na amplitude: uma única aplicação que concentrasse transporte, delivery, pagamentos e fidelização em uma experiência unificada. Essa aposta não se concretizou na maioria dos mercados regionais, e o motivo não foi a falta de capital nem de vontade dos operadores para adotá-la. Foi uma falha de direção causal: a amplitude sem profundidade produz experiências genéricas demais para vencer em qualquer domínio específico. O que está tomando forma em 2026 não é uma segunda tentativa do super-app — é um modelo diferente na sua lógica de fundo: o agente vertical, que não aposta em cobrir mais categorias, mas em ir mais fundo em uma só."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "Para un operador de movilidad regional, la distinción es práctica antes que teórica. El superapp exigía masa crítica en varias categorías antes de que alguna se volviera realmente útil: sin delivery no había suficiente frecuencia de uso, sin pagos propios no había margen, sin usuarios habituales del app no había datos para mejorar el producto. El agente vertical opera con una lógica opuesta: se vuelve más útil a medida que acumula contexto dentro de un único dominio — más turnos procesados, más decisiones registradas, más convenciones de la operación específica documentadas — sin requerir que ese dominio se expanda. Este artículo examina por qué ese cambio de modelo importa para el operador regional y cómo se construye la posición para aprovecharlo.",
-        "en": "For a regional mobility operator, the distinction is practical before it's theoretical. The super-app demanded critical mass across several categories before any single one became genuinely useful: without delivery there wasn't enough usage frequency, without proprietary payments there was no margin, without regular app users there wasn't enough data to improve the product. The vertical agent operates on an opposite logic: it becomes more useful as it accumulates context within a single domain — more shifts processed, more decisions logged, more conventions of that specific operation documented — without requiring that domain to expand. This article examines why that model shift matters for regional operators and how to build position to benefit from it."
+        "en": "For a regional mobility operator, the distinction is practical before it's theoretical. The super-app demanded critical mass across several categories before any single one became genuinely useful: without delivery there wasn't enough usage frequency, without proprietary payments there was no margin, without regular app users there wasn't enough data to improve the product. The vertical agent operates on an opposite logic: it becomes more useful as it accumulates context within a single domain — more shifts processed, more decisions logged, more conventions of that specific operation documented — without requiring that domain to expand. This article examines why that model shift matters for regional operators and how to build position to benefit from it.",
+        "pt": "Para um operador de mobilidade regional, a distinção é prática antes de ser teórica. O super-app exigia massa crítica em várias categorias antes de que alguma se tornasse realmente útil: sem delivery não havia frequência de uso suficiente, sem pagamentos próprios não havia margem, sem usuários habituais do app não havia dados para melhorar o produto. O agente vertical opera com uma lógica oposta: torna-se mais útil à medida que acumula contexto dentro de um único domínio — mais turnos processados, mais decisões registradas, mais convenções da operação específica documentadas — sem exigir que esse domínio se expanda. Este artigo examina por que essa mudança de modelo importa para o operador regional e como se constrói a posição para aproveitá-la."
       }
     },
     {
@@ -65,21 +80,24 @@
       "id": "superapp-fallo-donde-profundidad-importaba",
       "text": {
         "es": "Por qué el superapp no ganó donde la profundidad importaba",
-        "en": "Why the super-app didn't win where depth mattered"
+        "en": "Why the super-app didn't win where depth mattered",
+        "pt": "Por que o super-app não venceu onde a profundidade importava"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "El modelo del superapp tenía una hipótesis implícita: que la frecuencia de uso cruzada entre categorías generaría los datos necesarios para mejorar cada una. El usuario que pedía un taxi también pediría comida, y esa segunda frecuencia financiaría la mejora del producto de transporte. En los mercados regionales de LATAM, esa hipótesis no se sostuvo en los dominios donde la calidad local importa más que la conveniencia de la integración. Las plataformas que intentaron construir superapps en ciudades de 500,000 habitantes se encontraron compitiendo en tres categorías mediocres en lugar de ganar en una excelente. El operador local que conocía el mercado específico superó a la plataforma regional en el único dominio que le importaba al pasajero: que el viaje llegara a tiempo, al precio correcto, con el conductor adecuado.",
-        "en": "The super-app model carried an implicit hypothesis: that cross-category usage frequency would generate the data needed to improve each one. The user who ordered a ride would also order food, and that second frequency would fund transportation product improvement. In LATAM regional markets, that hypothesis didn't hold in domains where local quality matters more than integration convenience. Platforms that tried to build super-apps in cities of 500,000 people found themselves competing in three mediocre categories instead of winning in one excellent one. The local operator who knew the specific market outperformed the regional platform in the only domain that mattered to the passenger: the ride arriving on time, at the right price, with the right driver."
+        "en": "The super-app model carried an implicit hypothesis: that cross-category usage frequency would generate the data needed to improve each one. The user who ordered a ride would also order food, and that second frequency would fund transportation product improvement. In LATAM regional markets, that hypothesis didn't hold in domains where local quality matters more than integration convenience. Platforms that tried to build super-apps in cities of 500,000 people found themselves competing in three mediocre categories instead of winning in one excellent one. The local operator who knew the specific market outperformed the regional platform in the only domain that mattered to the passenger: the ride arriving on time, at the right price, with the right driver.",
+        "pt": "O modelo do super-app tinha uma hipótese implícita: que a frequência de uso cruzada entre categorias geraria os dados necessários para melhorar cada uma. O usuário que pedia um táxi também pediria comida, e essa segunda frequência financiaria a melhora do produto de transporte. Nos mercados regionais da LATAM, essa hipótese não se sustentou nos domínios onde a qualidade local importa mais que a conveniência da integração. As plataformas que tentaram construir super-apps em cidades de 500.000 habitantes se viram competindo em três categorias medíocres em vez de vencer em uma excelente. O operador local que conhecia o mercado específico superou a plataforma regional no único domínio que importava ao passageiro: que a corrida chegasse na hora, ao preço certo, com o motorista adequado."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "El problema de fondo fue que la amplitud no produce profundidad automáticamente — la produce en promedio, para el caso de uso más común, en el mercado más grande. Un operador de movilidad en una ciudad secundaria del sureste mexicano no necesita que la plataforma sea buena en el promedio de todas las ciudades que cubre: necesita que sea buena en esa ciudad específica, con ese clima operativo, con esos conductores y con esos patrones de demanda propios. La plataforma horizontal optimiza para el centro de la distribución. El operador regional necesita algo que optimice para su coordenada específica dentro de esa distribución — y ese es exactamente el problema que el agente vertical resuelve de forma distinta.",
-        "en": "The underlying problem was that breadth doesn't automatically produce depth — it produces depth on average, for the most common use case, in the largest market. A mobility operator in a secondary city in southeastern Mexico doesn't need the platform to be good across the average of all the cities it covers: they need it to be good in that specific city, with that operational climate, with those drivers, and with those demand patterns. The horizontal platform optimizes for the center of the distribution. The regional operator needs something that optimizes for their specific coordinate within that distribution — and that's exactly the problem the vertical agent solves differently."
+        "en": "The underlying problem was that breadth doesn't automatically produce depth — it produces depth on average, for the most common use case, in the largest market. A mobility operator in a secondary city in southeastern Mexico doesn't need the platform to be good across the average of all the cities it covers: they need it to be good in that specific city, with that operational climate, with those drivers, and with those demand patterns. The horizontal platform optimizes for the center of the distribution. The regional operator needs something that optimizes for their specific coordinate within that distribution — and that's exactly the problem the vertical agent solves differently.",
+        "pt": "O problema de fundo foi que a amplitude não produz profundidade automaticamente — ela a produz na média, para o caso de uso mais comum, no mercado maior. Um operador de mobilidade em uma cidade secundária do sudeste mexicano não precisa que a plataforma seja boa na média de todas as cidades que cobre: precisa que seja boa naquela cidade específica, com aquele clima operacional, com aqueles motoristas e com aqueles padrões de demanda próprios. A plataforma horizontal otimiza para o centro da distribuição. O operador regional precisa de algo que otimize para a sua coordenada específica dentro dessa distribuição — e esse é exatamente o problema que o agente vertical resolve de forma diferente."
       }
     },
     {
@@ -88,21 +106,24 @@
       "id": "agente-vertical-vs-integracion-horizontal",
       "text": {
         "es": "Lo que distingue a un agente vertical de una integración horizontal",
-        "en": "What distinguishes a vertical agent from a horizontal integration"
+        "en": "What distinguishes a vertical agent from a horizontal integration",
+        "pt": "O que distingue um agente vertical de uma integração horizontal"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "Un superapp integra servicios a nivel de interfaz: una aplicación, múltiples pestañas. Un agente vertical integra inteligencia a nivel operativo: profundidad de conocimiento en un dominio, con datos de cada interacción dentro de él. Cuando la plataforma expone al agente acceso en tiempo real a la disponibilidad de conductores, la cobertura por zona, los patrones de cancelación y el historial de viajes de una operación específica, ese agente no está accediendo a una nueva categoría de servicio — está ganando profundidad de contexto en el dominio donde el operador ya opera. El valor no es «ahora puedes hacer más cosas desde un solo lugar» — es «ahora puedes hacer la misma cosa que ya hacías con más inteligencia específica».",
-        "en": "A super-app integrates services at the interface layer: one app, multiple tabs. A vertical agent integrates intelligence at the operational layer: depth of knowledge in one domain, with data from every interaction within it. When the platform exposes to the agent real-time access to driver availability, zone coverage, cancellation patterns, and trip history for a specific operation, that agent isn't gaining access to a new service category — it's gaining depth of context in the domain where the operator already operates. The value isn't 'you can now do more things from one place' — it's 'you can now do the same thing you already did with more specific intelligence.'"
+        "en": "A super-app integrates services at the interface layer: one app, multiple tabs. A vertical agent integrates intelligence at the operational layer: depth of knowledge in one domain, with data from every interaction within it. When the platform exposes to the agent real-time access to driver availability, zone coverage, cancellation patterns, and trip history for a specific operation, that agent isn't gaining access to a new service category — it's gaining depth of context in the domain where the operator already operates. The value isn't 'you can now do more things from one place' — it's 'you can now do the same thing you already did with more specific intelligence.'",
+        "pt": "Um super-app integra serviços no nível da interface: um aplicativo, múltiplas abas. Um agente vertical integra inteligência no nível operacional: profundidade de conhecimento em um domínio, com dados de cada interação dentro dele. Quando a plataforma expõe ao agente acesso em tempo real à disponibilidade de motoristas, à cobertura por zona, aos padrões de cancelamento e ao histórico de corridas de uma operação específica, esse agente não está acessando uma nova categoria de serviço — está ganhando profundidade de contexto no domínio onde o operador já opera. O valor não é «agora você pode fazer mais coisas a partir de um só lugar» — é «agora você pode fazer a mesma coisa que já fazia com mais inteligência específica»."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "La diferencia de arquitectura tiene una implicación directa en cómo mejora el sistema con el tiempo. El superapp mejoraba al agregar categorías: más frecuencia de uso, más datos, mejor producto transversal. El agente vertical mejora al agregar contexto dentro de la misma categoría: más turnos procesados, más decisiones registradas, más patrones de la operación específica que el agente puede reconocer y usar en la siguiente consulta. La primera trayectoria requiere que la plataforma crezca horizontalmente para que cada categoría se beneficie. La segunda requiere que la operación específica documente y refine su propia capa de contexto — algo que el operador regional tiene más control para construir que para esperar.",
-        "en": "The architectural difference has a direct implication for how the system improves over time. The super-app improved by adding categories: more usage frequency, more data, better cross-category product. The vertical agent improves by adding context within the same category: more shifts processed, more decisions logged, more patterns of that specific operation the agent can recognize and use in the next query. The first trajectory requires the platform to grow horizontally so each category benefits. The second requires the specific operation to document and refine its own context layer — something the regional operator has more control to build than to wait for."
+        "en": "The architectural difference has a direct implication for how the system improves over time. The super-app improved by adding categories: more usage frequency, more data, better cross-category product. The vertical agent improves by adding context within the same category: more shifts processed, more decisions logged, more patterns of that specific operation the agent can recognize and use in the next query. The first trajectory requires the platform to grow horizontally so each category benefits. The second requires the specific operation to document and refine its own context layer — something the regional operator has more control to build than to wait for.",
+        "pt": "A diferença de arquitetura tem uma implicação direta em como o sistema melhora com o tempo. O super-app melhorava ao agregar categorias: mais frequência de uso, mais dados, melhor produto transversal. O agente vertical melhora ao agregar contexto dentro da mesma categoria: mais turnos processados, mais decisões registradas, mais padrões da operação específica que o agente pode reconhecer e usar na consulta seguinte. A primeira trajetória exige que a plataforma cresça horizontalmente para que cada categoria se beneficie. A segunda exige que a operação específica documente e refine a sua própria camada de contexto — algo que o operador regional tem mais controle para construir do que para esperar."
       }
     },
     {
@@ -111,21 +132,24 @@
       "id": "operador-regional-ventaja-plataformas-grandes",
       "text": {
         "es": "La ventaja del operador regional que las plataformas grandes no pueden replicar",
-        "en": "The regional operator advantage that large platforms can't replicate"
+        "en": "The regional operator advantage that large platforms can't replicate",
+        "pt": "A vantagem do operador regional que as grandes plataformas não conseguem replicar"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "Las plataformas globales operan en miles de ciudades. Sus sistemas de inteligencia obtienen datos amplios pero con poca profundidad por ciudad. Un operador regional con 100-200 conductores en dos o tres ciudades tiene algo que esas plataformas no pueden replicar: conocimiento profundo de un mercado específico. El agente que corre sobre una plataforma vertical no necesita aprender qué significa «normal» en general — necesita aprender qué significa «normal» en Mérida un viernes durante una convención o en Monterrey en temporada de partidos. El operador que lleva tres años trabajando ese mercado tiene ese dato. El agente vertical es la primera herramienta que puede realmente usarlo para producir diagnósticos específicos, no estimaciones genéricas aplicadas a cualquier ciudad de tamaño similar.",
-        "en": "Global platforms operate in thousands of cities. Their intelligence systems get broad data but shallow depth per city. A regional operator with 100-200 drivers across two or three cities has something those platforms can't replicate: deep knowledge of a specific market. The agent running on a vertical platform doesn't need to learn what 'normal' means in general — it needs to learn what 'normal' means in Mérida on a Friday during a convention or in Monterrey during match season. The operator who has worked that market for three years has that data. The vertical agent is the first tool that can actually use it to produce specific diagnostics instead of generic estimates applied to any city of similar size."
+        "en": "Global platforms operate in thousands of cities. Their intelligence systems get broad data but shallow depth per city. A regional operator with 100-200 drivers across two or three cities has something those platforms can't replicate: deep knowledge of a specific market. The agent running on a vertical platform doesn't need to learn what 'normal' means in general — it needs to learn what 'normal' means in Mérida on a Friday during a convention or in Monterrey during match season. The operator who has worked that market for three years has that data. The vertical agent is the first tool that can actually use it to produce specific diagnostics instead of generic estimates applied to any city of similar size.",
+        "pt": "As plataformas globais operam em milhares de cidades. Os seus sistemas de inteligência obtêm dados amplos, mas com pouca profundidade por cidade. Um operador regional com 100-200 motoristas em duas ou três cidades tem algo que essas plataformas não conseguem replicar: conhecimento profundo de um mercado específico. O agente que roda sobre uma plataforma vertical não precisa aprender o que significa «normal» em geral — precisa aprender o que significa «normal» em Mérida numa sexta-feira durante uma convenção ou em Monterrey na temporada de jogos. O operador que há três anos trabalha aquele mercado tem esse dado. O agente vertical é a primeira ferramenta que consegue realmente usá-lo para produzir diagnósticos específicos, não estimativas genéricas aplicadas a qualquer cidade de tamanho parecido."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "La ventaja no está en el acceso a la tecnología — las plataformas grandes tienen más recursos para desarrollarla. Está en el dato local que ninguna plataforma horizontal puede tener con la misma granularidad. El historial de cancelaciones por zona y horario de una operación de 150 conductores en una ciudad industrial del norte de México no es un punto de datos que ninguna plataforma global agrega en su modelo transversal. Para el agente de ese operador regional, ese historial es exactamente el contexto que convierte una respuesta genérica en un diagnóstico accionable. Esa asimetría de datos locales es una ventaja competitiva real, y el agente vertical permite aprovecharla de forma sistemática por primera vez.",
-        "en": "The advantage isn't in access to the technology — large platforms have more resources to develop it. It's in the local data that no horizontal platform can hold at the same granularity. The cancellation-by-zone-and-time history of a 150-driver operation in an industrial city in northern Mexico isn't a data point any global platform aggregates in its cross-market model. For that regional operator's agent, that history is exactly the context that turns a generic response into an actionable diagnostic. That local data asymmetry is a real competitive advantage, and the vertical agent allows it to be leveraged systematically for the first time."
+        "en": "The advantage isn't in access to the technology — large platforms have more resources to develop it. It's in the local data that no horizontal platform can hold at the same granularity. The cancellation-by-zone-and-time history of a 150-driver operation in an industrial city in northern Mexico isn't a data point any global platform aggregates in its cross-market model. For that regional operator's agent, that history is exactly the context that turns a generic response into an actionable diagnostic. That local data asymmetry is a real competitive advantage, and the vertical agent allows it to be leveraged systematically for the first time.",
+        "pt": "A vantagem não está no acesso à tecnologia — as grandes plataformas têm mais recursos para desenvolvê-la. Está no dado local que nenhuma plataforma horizontal consegue ter com a mesma granularidade. O histórico de cancelamentos por zona e horário de uma operação de 150 motoristas em uma cidade industrial do norte do México não é um ponto de dados que nenhuma plataforma global agrega no seu modelo transversal. Para o agente daquele operador regional, esse histórico é exatamente o contexto que transforma uma resposta genérica em um diagnóstico acionável. Essa assimetria de dados locais é uma vantagem competitiva real, e o agente vertical permite aproveitá-la de forma sistemática pela primeira vez."
       }
     },
     {
@@ -134,21 +158,24 @@
       "id": "profundidad-contexto-ventaja-acumulada",
       "text": {
         "es": "La profundidad de contexto como ventaja que se acumula con el tiempo",
-        "en": "Context depth as a compounding advantage over time"
+        "en": "Context depth as a compounding advantage over time",
+        "pt": "A profundidade de contexto como vantagem que se acumula com o tempo"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "El agente que tiene dos meses de historial de una operación específica no da las mismas respuestas que uno recién instalado. Los nombres de zona que el equipo usa internamente, los umbrales de disponibilidad que ese operador considera alerta en temporada baja, las decisiones de escalación que funcionaron en incidencias pasadas — ese contexto se acumula en la capa del operador y hace que cada consulta posterior sea más específica que la anterior. La diferencia entre un agente con seis meses de contexto operativo y uno genérico no es de calidad de modelo — es de profundidad de datos en el dominio correcto. Ese gap no se puede comprar: se construye turno a turno.",
-        "en": "An agent with two months of history for a specific operation doesn't give the same answers as one freshly installed. The zone names the team uses internally, the availability thresholds that operator treats as an alert during off-season, the escalation decisions that worked in past incidents — that context accumulates in the operator layer and makes each subsequent query more specific than the previous one. The difference between an agent with six months of operational context and a generic one isn't model quality — it's data depth in the right domain. That gap can't be purchased: it's built shift by shift."
+        "en": "An agent with two months of history for a specific operation doesn't give the same answers as one freshly installed. The zone names the team uses internally, the availability thresholds that operator treats as an alert during off-season, the escalation decisions that worked in past incidents — that context accumulates in the operator layer and makes each subsequent query more specific than the previous one. The difference between an agent with six months of operational context and a generic one isn't model quality — it's data depth in the right domain. That gap can't be purchased: it's built shift by shift.",
+        "pt": "O agente que tem dois meses de histórico de uma operação específica não dá as mesmas respostas que um recém-instalado. Os nomes de zona que a equipe usa internamente, os limiares de disponibilidade que aquele operador considera alerta na baixa temporada, as decisões de escalonamento que funcionaram em ocorrências passadas — esse contexto se acumula na camada do operador e faz com que cada consulta posterior seja mais específica que a anterior. A diferença entre um agente com seis meses de contexto operacional e um genérico não é de qualidade de modelo — é de profundidade de dados no domínio correto. Esse gap não se pode comprar: se constrói turno a turno."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "Eso crea un tipo de ventaja competitiva que las operaciones regionales no habían podido construir antes: contexto operativo profundo convertido en inteligencia específica y accionable. Las operaciones que llevan tiempo documentando su capa de contexto — zonas, umbrales, patrones de conducta, resoluciones de incidencias recurrentes — tienen un activo que no está en el código de la plataforma y que un competidor que empieza desde cero tarda meses en construir. La profundidad de ese contexto compuesto en el tiempo es lo que hace que el agente vertical sea fundamentalmente distinto del superapp: no es una plataforma a la que se suman usuarios, es un sistema que mejora al añadir precisión, y la precisión la aporta el operador que conoce su territorio.",
-        "en": "That creates a type of competitive advantage regional operations hadn't been able to build before: deep operational context converted into specific, actionable intelligence. Operations that have been documenting their context layer — zones, thresholds, driver behavior patterns, stored resolutions for recurring incidents — hold an asset that isn't in the platform's code and that a competitor starting from zero takes months to build. The depth of that context compounded over time is what makes the vertical agent fundamentally different from the super-app: it's not a platform to which users are added, it's a system that improves by adding precision, and precision comes from the operator who knows their territory."
+        "en": "That creates a type of competitive advantage regional operations hadn't been able to build before: deep operational context converted into specific, actionable intelligence. Operations that have been documenting their context layer — zones, thresholds, driver behavior patterns, stored resolutions for recurring incidents — hold an asset that isn't in the platform's code and that a competitor starting from zero takes months to build. The depth of that context compounded over time is what makes the vertical agent fundamentally different from the super-app: it's not a platform to which users are added, it's a system that improves by adding precision, and precision comes from the operator who knows their territory.",
+        "pt": "Isso cria um tipo de vantagem competitiva que as operações regionais não haviam conseguido construir antes: contexto operacional profundo convertido em inteligência específica e acionável. As operações que há tempo documentam a sua camada de contexto — zonas, limiares, padrões de conduta, resoluções de ocorrências recorrentes — têm um ativo que não está no código da plataforma e que um concorrente que começa do zero leva meses para construir. A profundidade desse contexto composto no tempo é o que torna o agente vertical fundamentalmente diferente do super-app: não é uma plataforma à qual se somam usuários, é um sistema que melhora ao adicionar precisão, e a precisão vem do operador que conhece o seu território."
       }
     },
     {
@@ -157,32 +184,37 @@
       "id": "cambio-estructura-costos-operador-agente",
       "text": {
         "es": "El cambio en la estructura de costos: de distribución a inteligencia",
-        "en": "The cost structure shift: from distribution to intelligence"
+        "en": "The cost structure shift: from distribution to intelligence",
+        "pt": "A mudança na estrutura de custos: de distribuição a inteligência"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "El superapp fue un modelo de costo de distribución: la plataforma pagaba por estar en el teléfono y el operador le pagaba a la plataforma por llegar a los pasajeros. El agente vertical es un modelo de costo de inteligencia: el operador paga por acceder a herramientas especializadas, y el valor no es la distribución sino la calidad de las decisiones operativas. Mejores decisiones de surge, mejor timing de los incentivos a conductores, mejor distribución de la cobertura antes de que caiga por debajo del umbral crítico — esos beneficios tienen un impacto económico directo que se puede medir. Una operación de 100 conductores que detecta brechas de cobertura dos horas antes que sin el agente recupera potencialmente entre el 8% y el 15% de viajes que habrían perdido. Esa es una ecuación de ROI diferente a la de pagar por distribución.",
-        "en": "The super-app was a distribution cost model: the platform paid to be on the phone and the operator paid the platform to reach passengers. The vertical agent is an intelligence cost model: the operator pays to access specialized tools, and the value isn't distribution but decision quality. Better surge decisions, better driver incentive timing, better coverage distribution before it drops below critical threshold — those benefits have a measurable direct economic impact. An operation of 100 drivers that catches coverage gaps two hours earlier than it would without the agent potentially recovers between 8% and 15% of trips that would have been lost. That's a different ROI equation than paying for distribution."
+        "en": "The super-app was a distribution cost model: the platform paid to be on the phone and the operator paid the platform to reach passengers. The vertical agent is an intelligence cost model: the operator pays to access specialized tools, and the value isn't distribution but decision quality. Better surge decisions, better driver incentive timing, better coverage distribution before it drops below critical threshold — those benefits have a measurable direct economic impact. An operation of 100 drivers that catches coverage gaps two hours earlier than it would without the agent potentially recovers between 8% and 15% of trips that would have been lost. That's a different ROI equation than paying for distribution.",
+        "pt": "O super-app foi um modelo de custo de distribuição: a plataforma pagava para estar no celular e o operador pagava à plataforma para chegar aos passageiros. O agente vertical é um modelo de custo de inteligência: o operador paga para acessar ferramentas especializadas, e o valor não é a distribuição, mas a qualidade das decisões operacionais. Melhores decisões de tarifa dinâmica, melhor timing dos incentivos aos motoristas, melhor distribuição da cobertura antes que caia abaixo do limiar crítico — esses benefícios têm um impacto econômico direto que se pode medir. Uma operação de 100 motoristas que detecta lacunas de cobertura duas horas antes do que faria sem o agente recupera potencialmente entre 8% e 15% de corridas que teria perdido. Essa é uma equação de ROI diferente da de pagar por distribuição."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "El cambio también implica que el operador tiene más control sobre la relación costo-valor. En el modelo del superapp, la tarifa que la plataforma cobraba dependía del volumen general y de las condiciones del contrato, y el operador tenía poco margen para ajustar cuánto valor extraía de ese costo. En el modelo del agente vertical, la profundidad del uso determina directamente la calidad de las respuestas: un operador que construye una capa de contexto rica y hace consultas específicas obtiene un valor proporcionalmente mayor que uno que usa el agente de forma superficial. El retorno no está en la plataforma — está en cómo el operador la usa, y esa variable es completamente interna a cada operación.",
-        "en": "The shift also means the operator has more control over the cost-value relationship. In the super-app model, the fee the platform charged depended on overall volume and contract terms, and the operator had little room to adjust how much value they extracted from that cost. In the vertical agent model, depth of use directly determines response quality: an operator who builds a rich context layer and makes specific queries gets proportionally more value than one who uses the agent superficially. The return isn't in the platform — it's in how the operator uses it, and that variable is entirely internal to each operation."
+        "en": "The shift also means the operator has more control over the cost-value relationship. In the super-app model, the fee the platform charged depended on overall volume and contract terms, and the operator had little room to adjust how much value they extracted from that cost. In the vertical agent model, depth of use directly determines response quality: an operator who builds a rich context layer and makes specific queries gets proportionally more value than one who uses the agent superficially. The return isn't in the platform — it's in how the operator uses it, and that variable is entirely internal to each operation.",
+        "pt": "A mudança também implica que o operador tem mais controle sobre a relação custo-valor. No modelo do super-app, a tarifa que a plataforma cobrava dependia do volume geral e das condições do contrato, e o operador tinha pouca margem para ajustar quanto valor extraía desse custo. No modelo do agente vertical, a profundidade do uso determina diretamente a qualidade das respostas: um operador que constrói uma camada de contexto rica e faz consultas específicas obtém um valor proporcionalmente maior que um que usa o agente de forma superficial. O retorno não está na plataforma — está em como o operador a usa, e essa variável é completamente interna a cada operação."
       }
     },
     {
       "type": "quote",
       "text": {
         "es": "Lo que cambió cuando el agente tenía realmente el contexto de mi operación no fue que me diera mejores respuestas — fue que las respuestas ya venían ancladas a mi ciudad, mis zonas, mis conductores. Dejé de leer respuestas genéricas y empecé a leer diagnósticos específicos.",
-        "en": "What changed when the agent actually had my operation's context wasn't that it gave me better answers — it was that the answers arrived already anchored to my city, my zones, my drivers. I stopped reading generic responses and started reading specific diagnostics."
+        "en": "What changed when the agent actually had my operation's context wasn't that it gave me better answers — it was that the answers arrived already anchored to my city, my zones, my drivers. I stopped reading generic responses and started reading specific diagnostics.",
+        "pt": "O que mudou quando o agente realmente tinha o contexto da minha operação não foi que ele me desse respostas melhores — foi que as respostas já vinham ancoradas na minha cidade, nas minhas zonas, nos meus motoristas. Deixei de ler respostas genéricas e comecei a ler diagnósticos específicos."
       },
       "attribution": {
         "es": "Operador con 90 conductores activos en una ciudad del norte de México",
-        "en": "Operator with 90 active drivers in a city in northern Mexico"
+        "en": "Operator with 90 active drivers in a city in northern Mexico",
+        "pt": "Operador com 90 motoristas ativos em uma cidade do norte do México"
       }
     },
     {
@@ -191,14 +223,16 @@
       "id": "construir-posicion-agente-vertical-2026",
       "text": {
         "es": "Cómo construir posición para el agente vertical en 2026",
-        "en": "How to build position for the vertical agent era in 2026"
+        "en": "How to build position for the vertical agent era in 2026",
+        "pt": "Como construir posição para o agente vertical em 2026"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "Prepararse para el agente vertical no es un proyecto de tecnología — es un cambio de hábito operativo. Tres prácticas concretas determinan si la operación está acumulando la ventaja de contexto o dejándola pasar:",
-        "en": "Preparing for the vertical agent isn't a technology project — it's an operational habit shift. Three practices determine whether the operation is accumulating the context advantage or letting it pass:"
+        "en": "Preparing for the vertical agent isn't a technology project — it's an operational habit shift. Three practices determine whether the operation is accumulating the context advantage or letting it pass:",
+        "pt": "Preparar-se para o agente vertical não é um projeto de tecnologia — é uma mudança de hábito operacional. Três práticas concretas determinam se a operação está acumulando a vantagem de contexto ou deixando-a passar:"
       }
     },
     {
@@ -214,6 +248,11 @@
           "**Naming consistency**: the team uses the same names for zones and configurations the system records — every name ambiguity the agent has to resolve before answering degrades response specificity and consumes useful context",
           "**Documented thresholds**: what availability is acceptable at what time, what cancellation rate is an alert in this specific city — without an operation-specific reference point the agent treats every variation as equivalent, which is worse than having imprecise reference data",
           "**Logged resolutions**: decisions that changed an operational outcome and the reasoning behind each one — when the agent recognizes the pattern and has the resolution in context, the query ends in a direct answer rather than a fresh diagnosis from scratch"
+        ],
+        "pt": [
+          "**Consistência de nomenclatura**: a equipe usa os mesmos nomes para zonas e configurações que o sistema registra — cada ambiguidade de nome que o agente tem que resolver antes de responder degrada a especificidade da resposta e consome contexto útil",
+          "**Limiares documentados**: qual disponibilidade é aceitável em qual horário, qual taxa de cancelamento é alerta nesta cidade específica — sem um ponto de referência próprio o agente trata toda variação como equivalente, o que é pior que ter dados de referência imprecisos",
+          "**Resoluções registradas**: as decisões que mudaram um resultado operacional e o raciocínio por trás de cada uma — quando o agente reconhece o padrão e tem a resolução em contexto, a consulta termina em uma resposta direta em vez de um diagnóstico do zero"
         ]
       }
     },
@@ -221,47 +260,55 @@
       "type": "paragraph",
       "text": {
         "es": "Estas tres prácticas no requieren cambios de sistema — requieren un cambio en cómo el equipo documenta lo que ya sabe. La operación que construye esos hábitos hoy está acumulando un activo de contexto que en 12-18 meses se traduce en diagnósticos de calidad desde la primera consulta del turno. La ventana para construirlo está abierta, pero se estrecha a medida que otros operadores también empiezan a hacerlo: el valor del contexto local compite con el contexto local de la competencia, no con el modelo del agente en sí.",
-        "en": "These three practices don't require system changes — they require a change in how the team documents what it already knows. The operation that builds these habits today is accumulating a context asset that in 12-18 months translates into high-quality diagnostics from the first query of each shift. The window to build it is open, but it narrows as other operators also begin doing it: the value of local context competes against the competition's local context, not against the agent model itself."
+        "en": "These three practices don't require system changes — they require a change in how the team documents what it already knows. The operation that builds these habits today is accumulating a context asset that in 12-18 months translates into high-quality diagnostics from the first query of each shift. The window to build it is open, but it narrows as other operators also begin doing it: the value of local context competes against the competition's local context, not against the agent model itself.",
+        "pt": "Essas três práticas não exigem mudanças de sistema — exigem uma mudança em como a equipe documenta o que já sabe. A operação que constrói esses hábitos hoje está acumulando um ativo de contexto que em 12-18 meses se traduz em diagnósticos de qualidade desde a primeira consulta do turno. A janela para construí-lo está aberta, mas se estreita à medida que outros operadores também começam a fazê-lo: o valor do contexto local compete com o contexto local da concorrência, não com o modelo do agente em si."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "La era de los agentes verticales no es un modelo donde la automatización reemplaza al operador — es un modelo donde el operador regional obtiene por primera vez el tipo de apalancamiento que antes solo un equipo de operaciones grande podía proveer. Un especialista con conocimiento profundo de una ciudad y una vertical, asistido por un agente con conocimiento igualmente profundo de esa operación específica, puede superar a una plataforma generalista en todas las dimensiones que importan en ese mercado: tiempo de respuesta, calidad de cobertura, relación con conductores, intuición local de precios. La ventaja competitiva no está en el acceso a la tecnología — está en la profundidad de contexto que convierte esa tecnología en algo específico para ese territorio.",
-        "en": "The era of vertical agents isn't a model where automation replaces the operator — it's a model where the regional operator gains for the first time the kind of leverage that only a large operations team could previously provide. A specialist with deep knowledge of one city and one vertical, aided by an agent with equally deep knowledge of that specific operation, can outperform a generalist platform on every dimension that matters in that market: response time, coverage quality, driver relationship, local pricing intuition. The competitive advantage isn't in access to the technology — it's in the depth of context that turns that technology into something specific to that territory."
+        "en": "The era of vertical agents isn't a model where automation replaces the operator — it's a model where the regional operator gains for the first time the kind of leverage that only a large operations team could previously provide. A specialist with deep knowledge of one city and one vertical, aided by an agent with equally deep knowledge of that specific operation, can outperform a generalist platform on every dimension that matters in that market: response time, coverage quality, driver relationship, local pricing intuition. The competitive advantage isn't in access to the technology — it's in the depth of context that turns that technology into something specific to that territory.",
+        "pt": "A era dos agentes verticais não é um modelo em que a automação substitui o operador — é um modelo em que o operador regional obtém pela primeira vez o tipo de alavancagem que antes só uma equipe de operações grande podia prover. Um especialista com conhecimento profundo de uma cidade e uma vertical, assistido por um agente com conhecimento igualmente profundo daquela operação específica, pode superar uma plataforma generalista em todas as dimensões que importam naquele mercado: tempo de resposta, qualidade de cobertura, relação com motoristas, intuição local de preços. A vantagem competitiva não está no acesso à tecnologia — está na profundidade de contexto que transforma essa tecnologia em algo específico para aquele território."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "El cambio no es hipotético para los operadores que ya corren en plataformas con integración de agente. Está ocurriendo en operaciones donde las primeras capas de contexto se construyeron y las primeras sesiones de diagnóstico reemplazaron lo que antes era una revisión manual de la mañana. La diferencia entre esos operadores y los que aún no empezaron no es tecnológica — es temporal. El superapp fue una carrera a la amplitud que favorecía a quienes llegaban primero con más capital. La era del agente vertical es una carrera a la profundidad, y en esa carrera los especialistas regionales tienen el punto de partida más conveniente: ya conocen el territorio mejor que nadie.",
-        "en": "The shift isn't hypothetical for operators already running on platforms with agent integration. It's happening now in operations where the first context layers were built and the first diagnostic sessions replaced what was previously a manual morning review. The difference between those operators and those who haven't started yet isn't technological — it's temporal. The super-app was a race to breadth that favored whoever arrived first with the most capital. The vertical agent era is a race to depth, and in that race regional specialists have the most advantageous starting point: they already know the territory better than anyone else."
+        "en": "The shift isn't hypothetical for operators already running on platforms with agent integration. It's happening now in operations where the first context layers were built and the first diagnostic sessions replaced what was previously a manual morning review. The difference between those operators and those who haven't started yet isn't technological — it's temporal. The super-app was a race to breadth that favored whoever arrived first with the most capital. The vertical agent era is a race to depth, and in that race regional specialists have the most advantageous starting point: they already know the territory better than anyone else.",
+        "pt": "A mudança não é hipotética para os operadores que já rodam em plataformas com integração de agente. Está acontecendo em operações onde as primeiras camadas de contexto foram construídas e as primeiras sessões de diagnóstico substituíram o que antes era uma revisão manual da manhã. A diferença entre esses operadores e os que ainda não começaram não é tecnológica — é temporal. O super-app foi uma corrida à amplitude que favorecia quem chegava primeiro com mais capital. A era do agente vertical é uma corrida à profundidade, e nessa corrida os especialistas regionais têm o ponto de partida mais conveniente: já conhecem o território melhor que ninguém."
       }
     }
   ],
   "cta": {
     "heading": {
       "es": "¿Listo para lanzar tu propia app de movilidad?",
-      "en": "Ready to launch your own mobility app?"
+      "en": "Ready to launch your own mobility app?",
+      "pt": "Pronto para lançar o seu próprio app de mobilidade?"
     },
     "body": {
       "es": "Configura tu marca, tus tarifas y tus servicios en semanas, no en meses. Cabgo te entrega la plataforma; tú te quedas con la operación, los clientes y los ingresos.",
-      "en": "Set up your brand, pricing and services in weeks, not months. Cabgo ships the platform — you keep the operation, the customers and the revenue."
+      "en": "Set up your brand, pricing and services in weeks, not months. Cabgo ships the platform — you keep the operation, the customers and the revenue.",
+      "pt": "Configure a sua marca, as suas tarifas e os seus serviços em semanas, não em meses. A Cabgo entrega a plataforma; você fica com a operação, os clientes e a receita."
     },
     "buttonLabel": {
       "es": "Comenzar con Cabgo",
-      "en": "Get started with Cabgo"
+      "en": "Get started with Cabgo",
+      "pt": "Começar com a Cabgo"
     },
     "buttonHref": "/empezar"
   },
   "seo": {
     "metaTitle": {
       "es": "Después del superapp: agentes verticales | Cabgo",
-      "en": "After the super-app: the era of vertical agents | Cabgo"
+      "en": "After the super-app: the era of vertical agents | Cabgo",
+      "pt": "Depois do super-app: agentes verticais | Cabgo"
     },
     "metaDescription": {
       "es": "El superapp apostó por la amplitud y no ganó donde la profundidad importaba. El agente vertical es el modelo opuesto: profundo en un solo dominio.",
-      "en": "The super-app bet on breadth and lost where depth mattered. The vertical agent is the model that follows: deep specialization in a single domain."
+      "en": "The super-app bet on breadth and lost where depth mattered. The vertical agent is the model that follows: deep specialization in a single domain.",
+      "pt": "O super-app apostou na amplitude e não venceu onde a profundidade importava. O agente vertical é o modelo oposto: profundo em um só domínio."
     }
   }
 }

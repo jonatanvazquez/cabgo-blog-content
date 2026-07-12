@@ -3,16 +3,19 @@
   "category": "strategy",
   "title": {
     "es": "Cuándo expandir a una segunda ciudad: las señales que tu primera operación debe enviar primero",
-    "en": "When to expand to a second city: the signals your first operation must send first"
+    "en": "When to expand to a second city: the signals your first operation must send first",
+    "pt": "Quando expandir para uma segunda cidade: os sinais que a sua primeira operação deve enviar primeiro"
   },
   "excerpt": {
     "es": "La expansión falla cuando se planea desde la ambición y no desde los datos. Tres señales de madurez operativa indican si tu primera ciudad está lista para sostenerse sola mientras construyes la segunda.",
-    "en": "Expansion fails when it's planned from ambition rather than data. Three operational maturity signals tell you whether your first city is ready to sustain itself while you build the second."
+    "en": "Expansion fails when it's planned from ambition rather than data. Three operational maturity signals tell you whether your first city is ready to sustain itself while you build the second.",
+    "pt": "A expansão fracassa quando é planejada a partir da ambição e não dos dados. Três sinais de maturidade operacional indicam se a sua primeira cidade está pronta para se sustentar sozinha enquanto você constrói a segunda."
   },
   "heroImage": "https://raw.githubusercontent.com/jonatanvazquez/cabgo-blog-content/main/images/cuando-expandir-segunda-ciudad.jpg",
   "heroImageAlt": {
     "es": "Ilustración isométrica de dos bloques de ciudad conectados por una trayectoria de datos luminosa, con señales de estado flotando sobre la primera ciudad y una figura de operador planificando la segunda",
-    "en": "Isometric illustration of two city blocks connected by a glowing data path, with status signal cards floating above the first city and an operator figure planning the second"
+    "en": "Isometric illustration of two city blocks connected by a glowing data path, with status signal cards floating above the first city and an operator figure planning the second",
+    "pt": "Ilustração isométrica de dois blocos de cidade conectados por uma trajetória de dados luminosa, com sinais de status flutuando sobre a primeira cidade e uma figura de operador planejando a segunda"
   },
   "heroImagePrompt": "Isometric expansion scene for a regional mobility platform. On the left, a stable glowing city block with taxis moving smoothly along lit routes and a small floating dashboard showing healthy green metrics. A connector bridge of glowing teal dots leads rightward to a second city block that is partially assembled, with an operator figure standing at its edge reviewing a plan. Between the two cities, three floating signal cards: a completion-rate gauge at 78%, a clock icon showing stable hourly earnings, and a small team of three driver figures with a manager silhouette. Clean geometric architecture, deep indigo to violet gradient, subtle ambient glow.",
   "publishedAt": "2026-04-27",
@@ -35,38 +38,53 @@
       "second city ride-hailing LATAM",
       "scale taxi app operation",
       "mobility operator growth timing"
+    ],
+    "pt": [
+      "expandir app mobilidade segunda cidade",
+      "quando expandir transporte por aplicativo",
+      "expansão operação táxi regional",
+      "sinais maturidade operacional mobilidade",
+      "segunda cidade transporte por aplicativo LATAM",
+      "crescer operação mobilidade",
+      "escalar app de táxi regional"
     ]
   },
   "author": {
     "name": "Equipo Cabgo",
     "role": {
       "es": "Plataforma de movilidad",
-      "en": "Mobility platform"
+      "en": "Mobility platform",
+      "pt": "Plataforma de mobilidade"
     }
   },
   "cta": {
     "heading": {
       "es": "¿Listo para lanzar tu propia app de movilidad?",
-      "en": "Ready to launch your own mobility app?"
+      "en": "Ready to launch your own mobility app?",
+      "pt": "Pronto para lançar o seu próprio app de mobilidade?"
     },
     "body": {
       "es": "Configura tu marca, tus tarifas y tus servicios en semanas, no en meses. Cabgo te entrega la plataforma, tú te quedas con la operación y la marca.",
-      "en": "Set up your brand, pricing and services in weeks, not months. Cabgo ships the platform — you keep the operation and the brand."
+      "en": "Set up your brand, pricing and services in weeks, not months. Cabgo ships the platform — you keep the operation and the brand.",
+      "pt": "Configure a sua marca, as suas tarifas e os seus serviços em semanas, não em meses. A Cabgo entrega a plataforma, você fica com a operação e a marca."
     },
     "buttonLabel": {
       "es": "Empezar ahora",
-      "en": "Get started"
+      "en": "Get started",
+      "pt": "Começar agora"
     },
     "buttonHref": "/empezar"
   },
   "seo": {
     "metaTitle": {
       "es": "Cuándo expandir a una segunda ciudad | Cabgo",
-      "en": "When to expand to a second city in ride-hailing | Cabgo"
+      "en": "When to expand to a second city in ride-hailing | Cabgo",
+      "pt": "Quando expandir para uma segunda cidade | Cabgo"
     },
     "metaDescription": {
       "es": "Tres señales de madurez operativa que indican si tu primera ciudad de movilidad está lista para que abras una segunda sin duplicar los problemas.",
-      "en": "Three operational maturity signals that tell you when your first ride-hailing city is ready to support expansion into a second market."
+      "en": "Three operational maturity signals that tell you when your first ride-hailing city is ready to support expansion into a second market.",
+      "pt": "Três sinais de maturidade operacional que indicam se a sua primeira cidade de mobilidade está pronta para você abrir uma segunda sem duplicar os problemas."
     }
   },
   "blocks": [
@@ -74,14 +92,16 @@
       "type": "paragraph",
       "text": {
         "es": "La expansión a una segunda ciudad es el movimiento más costoso que puede hacer un operador de movilidad regional que no lo está haciendo desde una posición de fortaleza. No porque sea difícil de ejecutar en lo técnico — sino porque duplica la complejidad sin duplicar los recursos disponibles. Los operadores que más rápido abandonan su segunda ciudad son los que tomaron la decisión desde la ambición: tengo 90 días de operación, los números van subiendo, es momento de crecer. Los que sostienen la segunda ciudad son los que esperaron a que su primera les enviara tres señales concretas antes de moverse.",
-        "en": "Expanding to a second city is the most expensive move a regional mobility operator can make when it isn't coming from a position of strength. Not because it's technically complex — but because it doubles complexity without doubling available resources. The operators who exit their second city fastest are those who made the decision from ambition: 90 days of operation, numbers trending up, time to grow. The ones who sustain the second city are those who waited for their first to send three concrete signals before moving."
+        "en": "Expanding to a second city is the most expensive move a regional mobility operator can make when it isn't coming from a position of strength. Not because it's technically complex — but because it doubles complexity without doubling available resources. The operators who exit their second city fastest are those who made the decision from ambition: 90 days of operation, numbers trending up, time to grow. The ones who sustain the second city are those who waited for their first to send three concrete signals before moving.",
+        "pt": "A expansão para uma segunda cidade é o movimento mais caro que um operador de mobilidade regional pode fazer quando não está fazendo isso a partir de uma posição de força. Não porque seja tecnicamente difícil de executar — mas porque duplica a complexidade sem duplicar os recursos disponíveis. Os operadores que abandonam mais rápido sua segunda cidade são os que tomaram a decisão a partir da ambição: tenho 90 dias de operação, os números estão subindo, é hora de crescer. Os que sustentam a segunda cidade são os que esperaram a primeira enviar três sinais concretos antes de se mexer."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "Este artículo es para operadores con entre 60 y 180 días de operación en su primera ciudad que están evaluando si ya es momento de abrir una segunda. Los tres indicadores que vamos a ver no son los más obvios — no son los viajes totales ni el ingreso mensual. Son señales de madurez operativa: la tasa de completación sostenida en el tiempo, la estabilidad del ingreso por hora activa de los conductores y la existencia de una persona que puede gestionar la primera ciudad sin que el operador esté disponible cada hora. Cuando los tres están presentes, la expansión tiene sentido. Cuando falta uno, la segunda ciudad hereda los problemas de la primera.",
-        "en": "This article is for operators with 60 to 180 days of operation in their first city who are evaluating whether it's time to open a second. The three indicators we'll cover aren't the most obvious ones — they aren't total trips or monthly revenue. They are operational maturity signals: completion rate sustained over time, active-hour driver earnings stability, and the existence of a person who can manage city one without the operator available every hour. When all three are present, expansion makes sense. When one is missing, the second city inherits the first city's problems."
+        "en": "This article is for operators with 60 to 180 days of operation in their first city who are evaluating whether it's time to open a second. The three indicators we'll cover aren't the most obvious ones — they aren't total trips or monthly revenue. They are operational maturity signals: completion rate sustained over time, active-hour driver earnings stability, and the existence of a person who can manage city one without the operator available every hour. When all three are present, expansion makes sense. When one is missing, the second city inherits the first city's problems.",
+        "pt": "Este artigo é para operadores com entre 60 e 180 dias de operação na sua primeira cidade que estão avaliando se já é hora de abrir uma segunda. Os três indicadores que vamos ver não são os mais óbvios — não são as corridas totais nem a receita mensal. São sinais de maturidade operacional: a taxa de conclusão sustentada ao longo do tempo, a estabilidade do ganho por hora ativa dos motoristas e a existência de uma pessoa que consegue gerir a primeira cidade sem que o operador esteja disponível a cada hora. Quando os três estão presentes, a expansão faz sentido. Quando falta um, a segunda cidade herda os problemas da primeira."
       }
     },
     {
@@ -90,21 +110,24 @@
       "id": "amplifica-lo-que-ya-tienes",
       "text": {
         "es": "La segunda ciudad amplifica lo que ya funciona — y también lo que falla",
-        "en": "The second city amplifies what already works — and what doesn't"
+        "en": "The second city amplifies what already works — and what doesn't",
+        "pt": "A segunda cidade amplifica o que já funciona — e também o que falha"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "El error más frecuente que cometen los operadores al expandirse no es elegir la ciudad equivocada — es expandirse con problemas en casa que todavía no han resuelto. Una tasa de completación del 65% en la primera ciudad no sube a 80% en la segunda porque el mercado es nuevo. Se replica al 65% con menos conductores y menos demanda establecida, lo que convierte el problema en uno más difícil de resolver porque ahora tiene dos contextos, un solo equipo y la mitad de la atención disponible. La expansión no mejora los problemas de la primera ciudad — los exporta junto con los conductores y las rutas.",
-        "en": "The most common mistake operators make when expanding isn't choosing the wrong city — it's expanding with unresolved problems at home. A 65% completion rate in city one doesn't rise to 80% in city two because the market is new. It replicates at 65% with fewer drivers and less established demand, turning the problem into a harder one to fix because now it has two contexts, one team, and half the available attention. Expansion doesn't improve city one's problems — it exports them along with the drivers and the routes."
+        "en": "The most common mistake operators make when expanding isn't choosing the wrong city — it's expanding with unresolved problems at home. A 65% completion rate in city one doesn't rise to 80% in city two because the market is new. It replicates at 65% with fewer drivers and less established demand, turning the problem into a harder one to fix because now it has two contexts, one team, and half the available attention. Expansion doesn't improve city one's problems — it exports them along with the drivers and the routes.",
+        "pt": "O erro mais frequente que os operadores cometem ao expandir não é escolher a cidade errada — é expandir com problemas em casa que ainda não resolveram. Uma taxa de conclusão de 65% na primeira cidade não sobe para 80% na segunda porque o mercado é novo. Ela se replica em 65% com menos motoristas e menos demanda estabelecida, o que torna o problema mais difícil de resolver porque agora ele tem dois contextos, uma única equipe e metade da atenção disponível. A expansão não melhora os problemas da primeira cidade — ela os exporta junto com os motoristas e as rotas."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "El tiempo del operador es el recurso más limitado en las primeras semanas de una ciudad nueva. Si ese tiempo tiene que dividirse entre resolver problemas no resueltos en la primera ciudad y construir desde cero en la segunda, el resultado típico es que ambas ciudades se quedan a medio camino. Los operadores que tienen una segunda ciudad funcional a los 90 días del lanzamiento son invariablemente los que llegaron a ese punto con una primera ciudad que no necesitaba atención intensiva diaria — no los que expandieron para escapar del estancamiento. La diferencia entre ambos grupos rara vez está en la calidad del mercado que eligieron; está en el estado de la operación que dejaron atrás.",
-        "en": "The operator's time is the most constrained resource in the first weeks of a new city. If that time has to split between unresolved problems in city one and building from scratch in city two, the typical result is that both cities stall. Operators who have a functioning second city 90 days after launch are invariably the ones who arrived there with a first city that didn't need intensive daily attention — not the ones who expanded to escape stagnation. The difference between the two groups rarely lies in the quality of the market they chose; it lies in the state of the operation they left behind."
+        "en": "The operator's time is the most constrained resource in the first weeks of a new city. If that time has to split between unresolved problems in city one and building from scratch in city two, the typical result is that both cities stall. Operators who have a functioning second city 90 days after launch are invariably the ones who arrived there with a first city that didn't need intensive daily attention — not the ones who expanded to escape stagnation. The difference between the two groups rarely lies in the quality of the market they chose; it lies in the state of the operation they left behind.",
+        "pt": "O tempo do operador é o recurso mais limitado nas primeiras semanas de uma cidade nova. Se esse tempo precisa se dividir entre resolver problemas não resolvidos na primeira cidade e construir do zero na segunda, o resultado típico é que ambas as cidades ficam pela metade. Os operadores que têm uma segunda cidade funcional aos 90 dias do lançamento são invariavelmente os que chegaram a esse ponto com uma primeira cidade que não precisava de atenção intensiva diária — não os que expandiram para escapar da estagnação. A diferença entre os dois grupos raramente está na qualidade do mercado que escolheram; está no estado da operação que deixaram para trás."
       }
     },
     {
@@ -113,14 +136,16 @@
       "id": "primera-senal-completacion",
       "text": {
         "es": "Primera señal: treinta días seguidos con tasa de completación por encima del 78%",
-        "en": "First signal: thirty consecutive days with completion rate above 78%"
+        "en": "First signal: thirty consecutive days with completion rate above 78%",
+        "pt": "Primeiro sinal: trinta dias seguidos com taxa de conclusão acima de 78%"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "Una tasa de completación sostenida por encima del 78% durante 30 días consecutivos no significa que la operación es perfecta — significa que el equilibrio oferta-demanda es suficientemente estable para funcionar sin ajustes frecuentes. Esa sostenibilidad es relevante para la expansión porque indica que el lado de la oferta — los conductores activos — y el lado de la demanda — los pasajeros que piden — tienen una relación que no depende de intervención manual constante para mantenerse. Si el operador tiene que ajustar zonas, horarios o incentivos de forma activa varias veces por semana para mantener la tasa arriba del 70%, la operación no está lista para duplicarse.",
-        "en": "A completion rate sustained above 78% for 30 consecutive days doesn't mean the operation is perfect — it means the supply-demand balance is stable enough to function without frequent manual adjustments. That sustainability matters for expansion because it signals that the supply side — active drivers — and the demand side — requesting passengers — have a relationship that doesn't depend on constant intervention to hold. If the operator has to actively adjust zones, schedules or incentives several times a week to keep the rate above 70%, the operation isn't ready to be duplicated."
+        "en": "A completion rate sustained above 78% for 30 consecutive days doesn't mean the operation is perfect — it means the supply-demand balance is stable enough to function without frequent manual adjustments. That sustainability matters for expansion because it signals that the supply side — active drivers — and the demand side — requesting passengers — have a relationship that doesn't depend on constant intervention to hold. If the operator has to actively adjust zones, schedules or incentives several times a week to keep the rate above 70%, the operation isn't ready to be duplicated.",
+        "pt": "Uma taxa de conclusão sustentada acima de 78% durante 30 dias consecutivos não significa que a operação é perfeita — significa que o equilíbrio oferta-demanda é estável o suficiente para funcionar sem ajustes frequentes. Essa sustentabilidade é relevante para a expansão porque indica que o lado da oferta — os motoristas ativos — e o lado da demanda — os passageiros que pedem — têm uma relação que não depende de intervenção manual constante para se manter. Se o operador precisa ajustar zonas, horários ou incentivos de forma ativa várias vezes por semana para manter a taxa acima de 70%, a operação não está pronta para ser duplicada."
       }
     },
     {
@@ -128,14 +153,16 @@
       "variant": "tip",
       "text": {
         "es": "La tasa de completación del 78% no cuenta si la alcanzaste una semana. Cuenta si la mantuviste 30 días consecutivos sin incentivos activos al conductor ni eventos especiales que inflaran artificialmente la demanda. Si el 78% fue resultado de una campaña o un evento, el reloj de los 30 días empieza cuando termina el incentivo.",
-        "en": "A 78% completion rate doesn't count if you hit it for one week. It counts if you held it for 30 consecutive days without active driver incentives or special local events artificially inflating demand. If the 78% was the result of a campaign or event, the 30-day clock starts when the incentive ends."
+        "en": "A 78% completion rate doesn't count if you hit it for one week. It counts if you held it for 30 consecutive days without active driver incentives or special local events artificially inflating demand. If the 78% was the result of a campaign or event, the 30-day clock starts when the incentive ends.",
+        "pt": "A taxa de conclusão de 78% não conta se você a alcançou por uma semana. Conta se você a manteve por 30 dias consecutivos sem incentivos ativos ao motorista nem eventos especiais que inflassem artificialmente a demanda. Se os 78% foram resultado de uma campanha ou de um evento, o relógio dos 30 dias começa quando o incentivo termina."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "La diferencia entre una operación con tasa de completación del 72% y una con 79% no es solo de siete puntos porcentuales — es de quince a veinte horas semanales que el operador dedica a intervenir activamente. A 79% sostenido, esas horas están disponibles para la segunda ciudad. A 72%, ya están comprometidas antes de que exista un segundo mercado. La tasa de completación no es solo un indicador de calidad del producto — es el termómetro que mide si la primera ciudad puede sostenerse sola.",
-        "en": "The difference between a completion rate of 72% and one of 79% isn't just seven percentage points — it's fifteen to twenty weekly operator hours spent actively intervening. At a sustained 79%, those hours are available for city two. At 72%, they're already committed before a second market even exists. Completion rate isn't just a product quality indicator — it's the thermometer that measures whether city one can sustain itself."
+        "en": "The difference between a completion rate of 72% and one of 79% isn't just seven percentage points — it's fifteen to twenty weekly operator hours spent actively intervening. At a sustained 79%, those hours are available for city two. At 72%, they're already committed before a second market even exists. Completion rate isn't just a product quality indicator — it's the thermometer that measures whether city one can sustain itself.",
+        "pt": "A diferença entre uma operação com taxa de conclusão de 72% e uma com 79% não é só de sete pontos percentuais — é de quinze a vinte horas semanais que o operador dedica a intervir ativamente. Com 79% sustentado, essas horas ficam disponíveis para a segunda cidade. Com 72%, elas já estão comprometidas antes mesmo de existir um segundo mercado. A taxa de conclusão não é só um indicador de qualidade do produto — é o termômetro que mede se a primeira cidade consegue se sustentar sozinha."
       }
     },
     {
@@ -144,21 +171,24 @@
       "id": "segunda-senal-ingresos-conductores",
       "text": {
         "es": "Segunda señal: el ingreso por hora activa de los conductores es predecible en todas las franjas",
-        "en": "Second signal: driver active-hour earnings are predictable across all time slots"
+        "en": "Second signal: driver active-hour earnings are predictable across all time slots",
+        "pt": "Segundo sinal: o ganho por hora ativa dos motoristas é previsível em todas as faixas"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "El segundo indicador de madurez operativa no es cuánto ganan los conductores — es cuánto varían esas ganancias de una semana a la siguiente. Una operación donde el ingreso por hora activa fluctúa entre $5 y $14 USD según el día tiene un problema de distribución de demanda que el operador está manejando de forma activa, o que los conductores están soportando con su tiempo disponible. Una operación donde ese rango se mantiene entre $8 y $12 USD en todas las franjas horarias con variación semanal por debajo del 15% tiene un equilibrio que ya no requiere gestión manual constante para sostenerse.",
-        "en": "The second operational maturity indicator isn't how much drivers earn — it's how much those earnings vary week to week. An operation where active-hour income swings between $5 and $14 USD depending on the day has a demand distribution problem the operator is actively managing, or that drivers are absorbing with their available time. An operation where that range stays between $8 and $12 USD across all time slots with weekly variation below 15% has a balance that no longer requires constant manual management to hold."
+        "en": "The second operational maturity indicator isn't how much drivers earn — it's how much those earnings vary week to week. An operation where active-hour income swings between $5 and $14 USD depending on the day has a demand distribution problem the operator is actively managing, or that drivers are absorbing with their available time. An operation where that range stays between $8 and $12 USD across all time slots with weekly variation below 15% has a balance that no longer requires constant manual management to hold.",
+        "pt": "O segundo indicador de maturidade operacional não é quanto os motoristas ganham — é quanto esses ganhos variam de uma semana para a seguinte. Uma operação em que o ganho por hora ativa oscila entre US$ 5 e US$ 14 conforme o dia tem um problema de distribuição de demanda que o operador está administrando de forma ativa, ou que os motoristas estão absorvendo com o seu tempo disponível. Uma operação em que essa faixa se mantém entre US$ 8 e US$ 12 em todas as faixas horárias com variação semanal abaixo de 15% tem um equilíbrio que já não requer gestão manual constante para se sustentar."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "La estabilidad de ingresos predice la retención de conductores mejor que el nivel de ingresos en sí. Los conductores toleran ganar un poco menos en una operación que saben que es consistente; no toleran ganar bien un martes y mal un jueves sin poder predecirlo. Si la variabilidad del ingreso por hora activa está controlada en la primera ciudad, el operador tiene un modelo de distribución de demanda que puede trasladar a la segunda con adaptaciones mínimas. Si no está controlada, expandirse significa replicar el mismo problema de distribución con conductores que todavía no confían en la plataforma y sin la base de pasajeros recurrentes que amortigua los días de baja demanda.",
-        "en": "Earnings stability predicts driver retention better than earnings level. Drivers tolerate earning slightly less in an operation they know is consistent; they don't tolerate earning well on Tuesday and poorly on Thursday with no way to predict it. If active-hour earnings variability is under control in city one, the operator has a demand distribution model they can transfer to city two with minimal adaptation. If it isn't, expanding means replicating the same distribution problem with drivers who don't yet trust the platform and without the recurring passenger base that cushions low-demand days."
+        "en": "Earnings stability predicts driver retention better than earnings level. Drivers tolerate earning slightly less in an operation they know is consistent; they don't tolerate earning well on Tuesday and poorly on Thursday with no way to predict it. If active-hour earnings variability is under control in city one, the operator has a demand distribution model they can transfer to city two with minimal adaptation. If it isn't, expanding means replicating the same distribution problem with drivers who don't yet trust the platform and without the recurring passenger base that cushions low-demand days.",
+        "pt": "A estabilidade dos ganhos prevê a retenção de motoristas melhor do que o nível de ganhos em si. Os motoristas toleram ganhar um pouco menos em uma operação que sabem ser consistente; não toleram ganhar bem numa terça e mal numa quinta sem conseguir prever. Se a variabilidade do ganho por hora ativa está controlada na primeira cidade, o operador tem um modelo de distribuição de demanda que pode transferir para a segunda com adaptações mínimas. Se não está controlada, expandir significa replicar o mesmo problema de distribuição com motoristas que ainda não confiam na plataforma e sem a base de passageiros recorrentes que amortece os dias de baixa demanda."
       }
     },
     {
@@ -167,21 +197,24 @@
       "id": "tercera-senal-autonomia-operativa",
       "text": {
         "es": "Tercera señal: alguien en la primera ciudad puede resolver una crisis sin llamarte",
-        "en": "Third signal: someone in city one can resolve a crisis without calling you"
+        "en": "Third signal: someone in city one can resolve a crisis without calling you",
+        "pt": "Terceiro sinal: alguém na primeira cidade consegue resolver uma crise sem te ligar"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "La señal de madurez que los operadores más frecuentemente subestiman no es operativa — es humana. Hay alguien en la primera ciudad que puede tomar una decisión de operación sin que el operador esté disponible: no un empleado que ejecuta instrucciones, sino una persona que diagnostica, decide y actúa en un rango de situaciones definidas — un conductor con comportamiento inusual, un pico de cancelaciones inesperado, un evento local que cambia la distribución de demanda. Si esa persona no existe en la primera ciudad, el operador es el cuello de botella de ambas operaciones desde el primer día en la segunda.",
-        "en": "The maturity signal operators most consistently underestimate isn't operational — it's human. Is there someone in city one who can make an operational decision without the operator being available: not an employee who executes instructions, but a person who diagnoses, decides, and acts across a defined range of situations — a driver with unusual behavior, an unexpected cancellation spike, a local event that shifts the demand distribution. If that person doesn't exist in city one, the operator becomes the bottleneck of both operations from day one in city two."
+        "en": "The maturity signal operators most consistently underestimate isn't operational — it's human. Is there someone in city one who can make an operational decision without the operator being available: not an employee who executes instructions, but a person who diagnoses, decides, and acts across a defined range of situations — a driver with unusual behavior, an unexpected cancellation spike, a local event that shifts the demand distribution. If that person doesn't exist in city one, the operator becomes the bottleneck of both operations from day one in city two.",
+        "pt": "O sinal de maturidade que os operadores mais frequentemente subestimam não é operacional — é humano. Existe alguém na primeira cidade que consegue tomar uma decisão de operação sem que o operador esteja disponível: não um funcionário que executa instruções, mas uma pessoa que diagnostica, decide e age em uma gama de situações definidas — um motorista com comportamento incomum, um pico de cancelamentos inesperado, um evento local que muda a distribuição de demanda. Se essa pessoa não existe na primeira cidade, o operador é o gargalo de ambas as operações desde o primeiro dia na segunda."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "El umbral mínimo para este indicador no es un gerente formal — es una persona con acceso al dashboard, protocolo claro para las situaciones más frecuentes y autorización para actuar sin aprobación previa en esas situaciones. En operaciones de entre 40 y 120 conductores, ese rol lo puede cumplir el conductor de mayor antigüedad con historial limpio, un asistente de operaciones de medio tiempo, o la primera persona incorporada al equipo que conoce el mercado local mejor que nadie. Lo que no puede cumplirlo es la ausencia de ese rol bajo la suposición de que mientras funcione no hace falta. Porque en el momento en que el operador está en la segunda ciudad con un problema, la primera ciudad va a tener el suyo.",
-        "en": "The minimum threshold for this indicator isn't a formal manager — it's a person with dashboard access, a clear protocol for the most common situations, and authorization to act without prior approval in those situations. In operations with 40 to 120 drivers, that role can be filled by the most senior driver with a clean record, a part-time operations assistant, or the first person brought onto the team who knows the local market better than anyone. What can't fill it is the absence of that role under the assumption that as long as things work, it isn't needed — because the moment the operator is in city two with a problem, city one will have one of its own."
+        "en": "The minimum threshold for this indicator isn't a formal manager — it's a person with dashboard access, a clear protocol for the most common situations, and authorization to act without prior approval in those situations. In operations with 40 to 120 drivers, that role can be filled by the most senior driver with a clean record, a part-time operations assistant, or the first person brought onto the team who knows the local market better than anyone. What can't fill it is the absence of that role under the assumption that as long as things work, it isn't needed — because the moment the operator is in city two with a problem, city one will have one of its own.",
+        "pt": "O limiar mínimo para este indicador não é um gerente formal — é uma pessoa com acesso ao dashboard, protocolo claro para as situações mais frequentes e autorização para agir sem aprovação prévia nessas situações. Em operações de 40 a 120 motoristas, esse papel pode ser cumprido pelo motorista com mais tempo de casa e histórico limpo, por um assistente de operações de meio período, ou pela primeira pessoa incorporada à equipe que conhece o mercado local melhor do que ninguém. O que não pode cumpri-lo é a ausência desse papel sob a suposição de que, enquanto funciona, não é preciso. Porque no momento em que o operador está na segunda cidade com um problema, a primeira cidade vai ter o seu."
       }
     },
     {
@@ -190,14 +223,16 @@
       "id": "que-trasladar-a-ciudad-dos",
       "text": {
         "es": "Qué trasladar a la segunda ciudad antes de contratar el primer conductor",
-        "en": "What to bring to city two before hiring the first driver"
+        "en": "What to bring to city two before hiring the first driver",
+        "pt": "O que levar para a segunda cidade antes de contratar o primeiro motorista"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "La ventaja real de operar una segunda ciudad no es que el producto ya existe — es que el conocimiento operativo también existe. Ese conocimiento vale más que cualquier ahorro de tiempo si se traslada en forma de procesos documentados antes del primer día de operaciones. Trasladarlo de forma oral, por memoria o durante la marcha es la causa más frecuente de que la segunda ciudad tarde tres veces más en alcanzar el volumen de la primera: no porque el mercado sea peor, sino porque el operador aprendió de nuevo lo que ya sabía.",
-        "en": "The real advantage of operating a second city isn't that the product already exists — it's that the operational knowledge exists too. That knowledge is worth more than any time savings if it's transferred in the form of documented processes before the first day of operations. Transferring it verbally, from memory, or on the fly is the most common reason city two takes three times longer to reach city one's volume — not because the market is worse, but because the operator relearned what they already knew."
+        "en": "The real advantage of operating a second city isn't that the product already exists — it's that the operational knowledge exists too. That knowledge is worth more than any time savings if it's transferred in the form of documented processes before the first day of operations. Transferring it verbally, from memory, or on the fly is the most common reason city two takes three times longer to reach city one's volume — not because the market is worse, but because the operator relearned what they already knew.",
+        "pt": "A vantagem real de operar uma segunda cidade não é que o produto já existe — é que o conhecimento operacional também existe. Esse conhecimento vale mais do que qualquer economia de tempo se for transferido na forma de processos documentados antes do primeiro dia de operações. Transferi-lo de forma oral, de memória ou durante o percurso é a causa mais frequente de a segunda cidade demorar três vezes mais para alcançar o volume da primeira: não porque o mercado seja pior, mas porque o operador reaprendeu o que já sabia."
       }
     },
     {
@@ -205,7 +240,8 @@
       "style": "bullet",
       "intro": {
         "es": "Los seis elementos que deben estar documentados antes de abrir operaciones en la segunda ciudad:",
-        "en": "Six elements that must be documented before opening operations in a second city:"
+        "en": "Six elements that must be documented before opening operations in a second city:",
+        "pt": "Os seis elementos que devem estar documentados antes de abrir operações na segunda cidade:"
       },
       "items": {
         "es": [
@@ -223,6 +259,14 @@
           "The six daily KPIs with their reference ranges — not with city-one values, but with the bands that indicate whether a number is in normal territory, attention territory, or immediate-action territory.",
           "The dynamic pricing communication playbook — if city two has surge active from the start, the advance message that reduces reactive cancellations must be ready before the first demand peak.",
           "A direct driver communication channel — WhatsApp, Telegram or equivalent — active before day one of operations, not as a reaction to the first crisis of the opening week."
+        ],
+        "pt": [
+          "A tarifa base validada com as faixas de ajuste por zona e faixa horária — não uma tarifa nova para cada cidade, mas o modelo que provou funcionar na primeira com os parâmetros que se ajustam conforme o custo local do combustível e o preço de referência do mercado.",
+          "O protocolo de onboarding de motoristas — o fluxo de documentação, os critérios de aprovação, as mensagens dos primeiros 7 dias e o calendário de ativação que produziu os melhores resultados na primeira cidade.",
+          "A lista dos cinco padrões de fraude e as quatro revisões semanais — mantê-los ativos desde o primeiro dia é entre três e cinco vezes mais eficaz do que implementá-los depois que os padrões já estão instalados na segunda cidade.",
+          "Os seis KPIs de revisão diária com seus intervalos de referência — não com os valores da primeira cidade, mas com as bandas que indicam se um número está em território normal, de atenção ou de ação imediata.",
+          "O playbook de comunicação de tarifa dinâmica — se a segunda cidade tem tarifa dinâmica ativa desde o início, a mensagem prévia que reduz os cancelamentos reativos precisa estar pronta antes do primeiro pico de demanda.",
+          "O canal de comunicação direta com motoristas — WhatsApp, Telegram ou equivalente — ativo antes do primeiro dia de operações, não como reação à primeira crise da semana inaugural."
         ]
       }
     },
@@ -232,46 +276,53 @@
       "id": "primeros-60-dias-ciudad-dos",
       "text": {
         "es": "Los primeros 60 días en la segunda ciudad: lo que cambia y lo que no",
-        "en": "The first 60 days in city two: what changes and what doesn't"
+        "en": "The first 60 days in city two: what changes and what doesn't",
+        "pt": "Os primeiros 60 dias na segunda cidade: o que muda e o que não muda"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "El primer mes en la segunda ciudad es más arriesgado que el primer mes en la primera, no más fácil. El operador conoce el producto y tiene experiencia, pero el mercado no lo conoce a él. Los tiempos de adopción en ciudades secundarias — definidas aquí como ciudades menores en tamaño o volumen de demanda establecida — son entre un 20% y un 35% más lentos en los primeros 30 días. Los pasajeros necesitan entre dos y cuatro experiencias positivas antes de considerar la plataforma como su opción habitual, y esa curva no se acorta por el hecho de que el operador ya tenga práctica en otro mercado.",
-        "en": "The first month in city two is riskier than the first month in city one, not easier. The operator knows the product and has experience, but the market doesn't know the operator. Adoption timelines in secondary cities — defined here as cities smaller in size or established demand volume — run 20% to 35% slower in the first 30 days. Passengers need two to four positive experiences before considering the platform their default option, and that curve doesn't shorten just because the operator already has experience in another market."
+        "en": "The first month in city two is riskier than the first month in city one, not easier. The operator knows the product and has experience, but the market doesn't know the operator. Adoption timelines in secondary cities — defined here as cities smaller in size or established demand volume — run 20% to 35% slower in the first 30 days. Passengers need two to four positive experiences before considering the platform their default option, and that curve doesn't shorten just because the operator already has experience in another market.",
+        "pt": "O primeiro mês na segunda cidade é mais arriscado do que o primeiro mês na primeira, não mais fácil. O operador conhece o produto e tem experiência, mas o mercado não o conhece. Os tempos de adoção em cidades secundárias — definidas aqui como cidades menores em tamanho ou volume de demanda estabelecida — são entre 20% e 35% mais lentos nos primeiros 30 dias. Os passageiros precisam de duas a quatro experiências positivas antes de considerar a plataforma como sua opção habitual, e essa curva não encurta pelo fato de o operador já ter prática em outro mercado."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "Lo que sí cambia en la segunda ciudad es la velocidad de diagnóstico. Un operador que llega con los KPIs correctos, los logs revisados desde la primera semana y el protocolo de fraude activo desde el día uno puede detectar problemas entre dos y tres semanas antes que en la primera ciudad, donde tuvo que aprender el lenguaje de los datos mientras operaba. Esa ventaja de diagnóstico no reduce el tiempo de ramp-up — lo hace más controlado. La diferencia entre una segunda ciudad que alcanza 150 viajes diarios en 70 días y una que los alcanza en 120 no está en el tamaño del mercado; está en cuánto tardó el operador en leer los primeros síntomas de lo que no estaba funcionando y en ajustar antes de que los conductores desconectaran.",
-        "en": "What does change in city two is diagnostic speed. An operator who arrives with the right KPIs, reviews logs from week one and has the fraud protocol active from day one can detect problems two to three weeks earlier than in city one, where they had to learn the data language while operating. That diagnostic advantage doesn't reduce ramp-up time — it makes it more controlled. The difference between a second city that reaches 150 daily trips in 70 days and one that reaches them in 120 isn't market size; it's how quickly the operator read the first symptoms of what wasn't working and adjusted before drivers went offline."
+        "en": "What does change in city two is diagnostic speed. An operator who arrives with the right KPIs, reviews logs from week one and has the fraud protocol active from day one can detect problems two to three weeks earlier than in city one, where they had to learn the data language while operating. That diagnostic advantage doesn't reduce ramp-up time — it makes it more controlled. The difference between a second city that reaches 150 daily trips in 70 days and one that reaches them in 120 isn't market size; it's how quickly the operator read the first symptoms of what wasn't working and adjusted before drivers went offline.",
+        "pt": "O que muda na segunda cidade é a velocidade de diagnóstico. Um operador que chega com os KPIs corretos, os logs revisados desde a primeira semana e o protocolo de fraude ativo desde o primeiro dia consegue detectar problemas entre duas e três semanas antes do que na primeira cidade, onde teve que aprender a linguagem dos dados enquanto operava. Essa vantagem de diagnóstico não reduz o tempo de ramp-up — torna-o mais controlado. A diferença entre uma segunda cidade que alcança 150 corridas diárias em 70 dias e uma que as alcança em 120 não está no tamanho do mercado; está em quanto o operador demorou para ler os primeiros sintomas do que não estava funcionando e ajustar antes que os motoristas ficassem offline."
       }
     },
     {
       "type": "quote",
       "text": {
         "es": "Esperé nueve meses para abrir la segunda ciudad. Todo el mundo me preguntaba por qué tardaba tanto. Cuando entré, tenía una persona en la primera ciudad que resolvía sin llamarme, una tasa de completación del 81% y los conductores más antiguos ganando de forma consistente. La segunda ciudad tardó 45 días en alcanzar 100 viajes diarios. No sé si habría durado esos 45 días si hubiera entrado seis meses antes.",
-        "en": "I waited nine months before opening a second city. Everyone kept asking why I was taking so long. By the time I did, I had someone in city one who resolved issues without calling me, an 81% completion rate, and my longest-tenured drivers earning consistently. The second city hit 100 daily trips in 45 days. I'm not sure I would have lasted those 45 days if I'd entered six months earlier."
+        "en": "I waited nine months before opening a second city. Everyone kept asking why I was taking so long. By the time I did, I had someone in city one who resolved issues without calling me, an 81% completion rate, and my longest-tenured drivers earning consistently. The second city hit 100 daily trips in 45 days. I'm not sure I would have lasted those 45 days if I'd entered six months earlier.",
+        "pt": "Esperei nove meses para abrir a segunda cidade. Todo mundo me perguntava por que eu demorava tanto. Quando entrei, tinha uma pessoa na primeira cidade que resolvia sem me ligar, uma taxa de conclusão de 81% e os motoristas mais antigos ganhando de forma consistente. A segunda cidade levou 45 dias para alcançar 100 corridas diárias. Não sei se teria aguentado esses 45 dias se tivesse entrado seis meses antes."
       },
       "attribution": {
         "es": "Operador de movilidad con presencia en tres ciudades del Pacífico colombiano",
-        "en": "Mobility operator with operations in three cities on Colombia's Pacific coast"
+        "en": "Mobility operator with operations in three cities on Colombia's Pacific coast",
+        "pt": "Operador de mobilidade com presença em três cidades do Pacífico colombiano"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "Los tres indicadores que preceden una expansión exitosa — tasa de completación sostenida por encima del 78%, variabilidad del ingreso de conductores por debajo del 15% semana a semana y una persona que puede operar la primera ciudad sin supervisión diaria — no son métricas de crecimiento. Son métricas de madurez operativa. Esperar a que las tres estén presentes antes de abrir la segunda ciudad no es el camino lento; es el único que no duplica los problemas de la primera junto con sus rutas y conductores.",
-        "en": "The three indicators that precede a successful expansion — completion rate sustained above 78%, driver earnings variability below 15% week to week, and a person who can run city one without daily supervision — aren't growth metrics. They are operational maturity metrics. Waiting for all three to be in place before opening city two isn't the slow path; it's the only one that doesn't duplicate city one's problems along with its routes and drivers."
+        "en": "The three indicators that precede a successful expansion — completion rate sustained above 78%, driver earnings variability below 15% week to week, and a person who can run city one without daily supervision — aren't growth metrics. They are operational maturity metrics. Waiting for all three to be in place before opening city two isn't the slow path; it's the only one that doesn't duplicate city one's problems along with its routes and drivers.",
+        "pt": "Os três indicadores que precedem uma expansão bem-sucedida — taxa de conclusão sustentada acima de 78%, variabilidade do ganho dos motoristas abaixo de 15% de uma semana para a outra e uma pessoa que consegue operar a primeira cidade sem supervisão diária — não são métricas de crescimento. São métricas de maturidade operacional. Esperar que as três estejam presentes antes de abrir a segunda cidade não é o caminho lento; é o único que não duplica os problemas da primeira junto com as suas rotas e motoristas."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "El patrón que repiten los operadores que tienen tres ciudades rentables en 24 meses no es que expandieron rápido — es que expandieron desde una primera ciudad estable. La estabilidad no se mide por el número de viajes ni por el ingreso mensual. Se mide por las horas que el operador no tiene que dedicar a apagar fuegos. Cuando esas horas están disponibles, la segunda ciudad es una operación nueva que se puede construir con plena atención. Cuando no lo están, es una deuda de atención adicional sobre una deuda que ya existe — y las dos juntas son más difíciles de resolver que cualquiera de las dos por separado.",
-        "en": "The pattern repeated by operators who have three profitable cities in 24 months isn't that they expanded fast — it's that they expanded from a stable first city. Stability isn't measured by trip volume or monthly revenue. It's measured by the hours the operator doesn't have to spend putting out fires. When those hours are available, city two is a new operation that can be built with full attention. When they aren't, it's an additional attention debt on top of one that already exists — and the two together are harder to resolve than either one alone."
+        "en": "The pattern repeated by operators who have three profitable cities in 24 months isn't that they expanded fast — it's that they expanded from a stable first city. Stability isn't measured by trip volume or monthly revenue. It's measured by the hours the operator doesn't have to spend putting out fires. When those hours are available, city two is a new operation that can be built with full attention. When they aren't, it's an additional attention debt on top of one that already exists — and the two together are harder to resolve than either one alone.",
+        "pt": "O padrão que os operadores com três cidades rentáveis em 24 meses repetem não é que expandiram rápido — é que expandiram a partir de uma primeira cidade estável. A estabilidade não se mede pelo número de corridas nem pela receita mensal. Mede-se pelas horas que o operador não precisa dedicar a apagar incêndios. Quando essas horas estão disponíveis, a segunda cidade é uma operação nova que se pode construir com plena atenção. Quando não estão, é uma dívida de atenção adicional sobre uma dívida que já existe — e as duas juntas são mais difíceis de resolver do que qualquer uma delas separadamente."
       }
     }
   ]

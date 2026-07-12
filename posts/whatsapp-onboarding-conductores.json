@@ -3,16 +3,19 @@
   "category": "product",
   "title": {
     "es": "WhatsApp como canal de onboarding de conductores: menos abandonos, más activaciones",
-    "en": "WhatsApp as a driver onboarding channel: fewer drop-offs, more activations"
+    "en": "WhatsApp as a driver onboarding channel: fewer drop-offs, more activations",
+    "pt": "WhatsApp como canal de onboarding de motoristas: menos desistências, mais ativações"
   },
   "excerpt": {
     "es": "El portal de registro produce un abandono del 55% al 75% en dispositivos Android de gama media. WhatsApp tiene una apertura superior al 85%. El canal correcto es el que el conductor ya usa.",
-    "en": "The registration portal drops 55%–75% of candidates on mid-range Android devices. WhatsApp has an open rate above 85%. The right channel is the one drivers already use."
+    "en": "The registration portal drops 55%–75% of candidates on mid-range Android devices. WhatsApp has an open rate above 85%. The right channel is the one drivers already use.",
+    "pt": "O portal de cadastro gera uma desistência de 55% a 75% em aparelhos Android intermediários. O WhatsApp tem uma taxa de abertura acima de 85%. O canal certo é aquele que o motorista já usa."
   },
   "heroImage": "https://raw.githubusercontent.com/jonatanvazquez/cabgo-blog-content/main/images/whatsapp-onboarding-conductores.jpg",
   "heroImageAlt": {
     "es": "Ilustración isométrica de onboarding de conductores vía WhatsApp: smartphone con conversación de chat mostrando fotos de documentos y checkmarks de validación en teal, embudo de tres etapas con barra de progreso iluminada, y conductor aprobado junto a su vehículo con insignia verde de activación flotando sobre el teléfono",
-    "en": "Isometric illustration of driver onboarding via WhatsApp: smartphone displaying a chat thread with document photos and teal validation checkmarks, a three-stage funnel with a glowing progress bar, and an approved driver standing next to their vehicle with a green activation badge floating above the phone"
+    "en": "Isometric illustration of driver onboarding via WhatsApp: smartphone displaying a chat thread with document photos and teal validation checkmarks, a three-stage funnel with a glowing progress bar, and an approved driver standing next to their vehicle with a green activation badge floating above the phone",
+    "pt": "Ilustração isométrica de onboarding de motoristas via WhatsApp: smartphone com uma conversa de chat mostrando fotos de documentos e checkmarks de validação em teal, funil de três etapas com barra de progresso iluminada, e motorista aprovado ao lado do seu veículo com selo verde de ativação flutuando sobre o celular"
   },
   "heroImagePrompt": "Isometric scene of driver onboarding via WhatsApp Business on mobile. Left: a floating smartphone showing a WhatsApp conversation thread with incoming document photos — a driver's license card and a vehicle registration paper — and a teal checkmark badge confirming each document received. Center: a simple three-step vertical funnel diagram labeled 'First contact', 'Documents', 'Activated', with a glowing progress arc brightening at each stage. Right: a driver figure standing next to a compact sedan, holding a smartphone with a glowing green 'Approved' shield badge floating above, ready to begin their first shift.",
   "publishedAt": "2026-05-07",
@@ -35,38 +38,53 @@
       "whatsapp business driver taxi app",
       "driver onboarding process LATAM ride-hailing",
       "driver registration channel regional mobility"
+    ],
+    "pt": [
+      "whatsapp onboarding motoristas táxi",
+      "cadastrar motoristas app mobilidade whatsapp",
+      "ativar motoristas plataforma mobilidade",
+      "reduzir desistência cadastro motoristas",
+      "whatsapp business motorista app táxi",
+      "processo onboarding motoristas transporte por aplicativo",
+      "canal cadastro motoristas mobilidade regional"
     ]
   },
   "author": {
     "name": "Equipo Cabgo",
     "role": {
       "es": "Plataforma de movilidad",
-      "en": "Mobility platform"
+      "en": "Mobility platform",
+      "pt": "Plataforma de mobilidade"
     }
   },
   "cta": {
     "heading": {
       "es": "¿Listo para lanzar tu propia app de movilidad?",
-      "en": "Ready to launch your own mobility app?"
+      "en": "Ready to launch your own mobility app?",
+      "pt": "Pronto para lançar o seu próprio app de mobilidade?"
     },
     "body": {
       "es": "Configura tu marca, tus tarifas y tus servicios en semanas, no en meses. Cabgo te entrega la plataforma, tú te quedas con la operación y la marca.",
-      "en": "Set up your brand, pricing and services in weeks, not months. Cabgo ships the platform — you keep the operation and the brand."
+      "en": "Set up your brand, pricing and services in weeks, not months. Cabgo ships the platform — you keep the operation and the brand.",
+      "pt": "Configure a sua marca, as suas tarifas e os seus serviços em semanas, não em meses. A Cabgo entrega a plataforma, você fica com a operação e a marca."
     },
     "buttonLabel": {
       "es": "Empezar ahora",
-      "en": "Get started"
+      "en": "Get started",
+      "pt": "Começar agora"
     },
     "buttonHref": "/empezar"
   },
   "seo": {
     "metaTitle": {
       "es": "WhatsApp para onboarding de conductores | Cabgo",
-      "en": "WhatsApp driver onboarding for mobility platforms | Cabgo"
+      "en": "WhatsApp driver onboarding for mobility platforms | Cabgo",
+      "pt": "WhatsApp para onboarding de motoristas | Cabgo"
     },
     "metaDescription": {
       "es": "Cómo usar WhatsApp Business para reducir el abandono en el registro de conductores y acelerar la activación desde el primer contacto hasta el primer viaje.",
-      "en": "How to use WhatsApp Business to reduce driver registration drop-off and speed up activation from first contact to first completed trip."
+      "en": "How to use WhatsApp Business to reduce driver registration drop-off and speed up activation from first contact to first completed trip.",
+      "pt": "Como usar o WhatsApp Business para reduzir a desistência no cadastro de motoristas e acelerar a ativação do primeiro contato até a primeira corrida."
     }
   },
   "blocks": [
@@ -74,14 +92,16 @@
       "type": "paragraph",
       "text": {
         "es": "El portal de registro web de una plataforma de movilidad regional tiene, en promedio, entre cuatro y seis pasos que requieren subir fotografías de documentos. En un teléfono Android de gama media —el dispositivo que usa la mayoría de los conductores candidatos en mercados secundarios de LATAM— esos pasos producen una tasa de abandono de entre el 55% y el 75% antes de que el conductor haya completado el registro. WhatsApp, en esos mismos mercados, tiene una tasa de apertura de mensajes superior al 85% y un tiempo de respuesta promedio inferior a cuatro minutos. La brecha entre ambos números no es una anomalía estadística — es el mapa del canal donde el conductor ya está versus el canal donde el operador quiere que esté.",
-        "en": "A regional mobility platform's web registration portal averages four to six steps that require uploading document photos. On a mid-range Android phone — the device used by most driver candidates in secondary LATAM markets — those steps produce a drop-off rate between 55% and 75% before the driver completes registration. WhatsApp, in those same markets, has a message open rate above 85% and an average response time under four minutes. The gap between those two numbers is not a statistical anomaly — it is a map of the channel where the driver already operates versus the channel where the operator wishes they would go."
+        "en": "A regional mobility platform's web registration portal averages four to six steps that require uploading document photos. On a mid-range Android phone — the device used by most driver candidates in secondary LATAM markets — those steps produce a drop-off rate between 55% and 75% before the driver completes registration. WhatsApp, in those same markets, has a message open rate above 85% and an average response time under four minutes. The gap between those two numbers is not a statistical anomaly — it is a map of the channel where the driver already operates versus the channel where the operator wishes they would go.",
+        "pt": "O portal de cadastro web de uma plataforma de mobilidade regional tem, em média, entre quatro e seis etapas que exigem enviar fotos de documentos. Em um celular Android intermediário —o aparelho usado pela maioria dos motoristas candidatos em mercados secundários da América Latina— essas etapas produzem uma taxa de desistência entre 55% e 75% antes de o motorista concluir o cadastro. O WhatsApp, nesses mesmos mercados, tem uma taxa de abertura de mensagens acima de 85% e um tempo médio de resposta inferior a quatro minutos. A diferença entre esses dois números não é uma anomalia estatística — é o mapa do canal onde o motorista já está versus o canal onde o operador quer que ele esteja."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "Este artículo es para operadores con entre 20 y 200 conductores activos que ven tiempos de activación de nuevo conductor que superan los 7 días, tasas de abandono altas en el proceso de registro, o flotas que crecen más lento de lo esperado sin que haya un problema de reclutamiento visible. El argumento central es que en la mayoría de las operaciones regionales de LATAM, el freno al crecimiento de flota no está en la propuesta de valor ni en la comisión — está en el canal de documentación: el portal de registro está diseñado para una experiencia de escritorio en un mercado donde el conductor candidato típico nunca va a iniciar ese proceso desde una computadora.",
-        "en": "This article is for operators with between 20 and 200 active drivers who see new-driver activation times exceeding seven days, high drop-off rates in the registration process, or fleets growing slower than expected without any visible recruitment problem. The central argument is that in most regional LATAM operations, the constraint on fleet growth isn't the value proposition or the commission structure — it's the documentation channel: the registration portal is designed for a desktop experience in a market where the typical driver candidate will never start that process from a computer."
+        "en": "This article is for operators with between 20 and 200 active drivers who see new-driver activation times exceeding seven days, high drop-off rates in the registration process, or fleets growing slower than expected without any visible recruitment problem. The central argument is that in most regional LATAM operations, the constraint on fleet growth isn't the value proposition or the commission structure — it's the documentation channel: the registration portal is designed for a desktop experience in a market where the typical driver candidate will never start that process from a computer.",
+        "pt": "Este artigo é para operadores com entre 20 e 200 motoristas ativos que veem tempos de ativação de novo motorista acima de 7 dias, taxas de desistência altas no processo de cadastro, ou frotas que crescem mais devagar do que o esperado sem que haja um problema de recrutamento visível. O argumento central é que, na maioria das operações regionais da América Latina, o freio ao crescimento da frota não está na proposta de valor nem na comissão — está no canal de documentação: o portal de cadastro é desenhado para uma experiência de desktop em um mercado onde o motorista candidato típico nunca vai iniciar esse processo pelo computador."
       }
     },
     {
@@ -90,21 +110,24 @@
       "id": "portal-abandono-conductores",
       "text": {
         "es": "Por qué el portal de registro pierde conductores antes de activarlos",
-        "en": "Why the registration portal loses drivers before they ever activate"
+        "en": "Why the registration portal loses drivers before they ever activate",
+        "pt": "Por que o portal de cadastro perde motoristas antes de ativá-los"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "El portal web de registro de conductores es la solución que viene integrada con la mayoría de las plataformas de movilidad. El operador asume que si el portal está disponible y bien diseñado, los candidatos lo van a completar. Lo que ese supuesto ignora es el perfil del candidato en mercados secundarios de LATAM: alguien que se enteró de la oportunidad por Facebook, por un conocido, o por un anuncio físico, y que en ese mismo momento —desde el teléfono, sin planificación previa— intenta comenzar el proceso. El flujo que sigue —abrir el navegador, buscar la URL, crear una cuenta, completar el formulario y subir seis fotografías en pasos separados— tiene suficiente fricción acumulada para que más de la mitad de los candidatos abandone antes de llegar al final.",
-        "en": "The web registration portal is the solution that ships with most mobility platforms. The operator assumes that if the portal is available and well-designed, candidates will complete it. What that assumption ignores is the profile of the candidate in secondary LATAM markets: someone who learned about the opportunity through Facebook, a friend, or a physical ad, and who in that same moment — on their phone, without prior planning — tries to start the process. The sequence that follows — opening a browser, finding the URL, creating an account, filling in a form, and uploading six photos in separate steps — carries enough cumulative friction for more than half of candidates to abandon before reaching the end."
+        "en": "The web registration portal is the solution that ships with most mobility platforms. The operator assumes that if the portal is available and well-designed, candidates will complete it. What that assumption ignores is the profile of the candidate in secondary LATAM markets: someone who learned about the opportunity through Facebook, a friend, or a physical ad, and who in that same moment — on their phone, without prior planning — tries to start the process. The sequence that follows — opening a browser, finding the URL, creating an account, filling in a form, and uploading six photos in separate steps — carries enough cumulative friction for more than half of candidates to abandon before reaching the end.",
+        "pt": "O portal web de cadastro de motoristas é a solução que vem integrada à maioria das plataformas de mobilidade. O operador assume que, se o portal estiver disponível e bem desenhado, os candidatos vão concluí-lo. O que esse pressuposto ignora é o perfil do candidato em mercados secundários da América Latina: alguém que soube da oportunidade pelo Facebook, por um conhecido ou por um anúncio físico, e que naquele mesmo momento —pelo celular, sem planejamento prévio— tenta começar o processo. O fluxo que se segue —abrir o navegador, buscar a URL, criar uma conta, preencher o formulário e enviar seis fotos em etapas separadas— acumula fricção suficiente para que mais da metade dos candidatos desista antes de chegar ao fim."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "El abandono no ocurre de forma aleatoria: se concentra en los pasos que requieren subir fotografías desde el teléfono. En un flujo de registro típico de cuatro a seis documentos, el mayor drop-off ocurre después del segundo o tercer documento solicitado. El conductor completó la información básica y subió la licencia de conducir, pero cuando el portal pide el documento de circulación del vehículo, el archivo no está disponible en el teléfono, la cámara del portal no funciona correctamente con esa versión de Android, o el proceso simplemente se siente demasiado largo para terminarlo en ese momento. El candidato cierra el navegador. El operador nunca sabe que ese candidato existió ni en qué paso abandonó.",
-        "en": "The drop-off is not random: it concentrates at steps that require uploading photos from the phone. In a typical four-to-six-document registration flow, the largest drop-off occurs after the second or third document requested. The driver completed the basic information and uploaded their license, but when the portal asks for the vehicle registration document, the file isn't on the phone, the portal camera doesn't work correctly with that version of Android, or the process simply feels too long to finish in that moment. The candidate closes the browser. The operator never learns that candidate existed or which step caused the exit."
+        "en": "The drop-off is not random: it concentrates at steps that require uploading photos from the phone. In a typical four-to-six-document registration flow, the largest drop-off occurs after the second or third document requested. The driver completed the basic information and uploaded their license, but when the portal asks for the vehicle registration document, the file isn't on the phone, the portal camera doesn't work correctly with that version of Android, or the process simply feels too long to finish in that moment. The candidate closes the browser. The operator never learns that candidate existed or which step caused the exit.",
+        "pt": "A desistência não acontece de forma aleatória: concentra-se nas etapas que exigem enviar fotos pelo celular. Em um fluxo de cadastro típico de quatro a seis documentos, o maior drop-off ocorre depois do segundo ou terceiro documento solicitado. O motorista preencheu as informações básicas e enviou a CNH, mas, quando o portal pede o documento do veículo, o arquivo não está no celular, a câmera do portal não funciona corretamente com aquela versão do Android, ou o processo simplesmente parece longo demais para concluir naquele momento. O candidato fecha o navegador. O operador nunca fica sabendo que esse candidato existiu nem em qual etapa ele desistiu."
       }
     },
     {
@@ -113,21 +136,24 @@
       "id": "whatsapp-canal-onboarding",
       "text": {
         "es": "WhatsApp como primer punto de contacto: la lógica del canal correcto",
-        "en": "WhatsApp as the first point of contact: the logic of the right channel"
+        "en": "WhatsApp as the first point of contact: the logic of the right channel",
+        "pt": "WhatsApp como primeiro ponto de contato: a lógica do canal certo"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "WhatsApp no reemplaza el proceso de validación de documentos — reemplaza el canal donde ese proceso ocurre. La diferencia operativa es que WhatsApp es una app que el candidato ya tiene instalada, que ya sabe cómo usar, y en la que ya confía para enviar fotos a familia y amigos. El flujo de onboarding que funciona en WhatsApp no es una conversación informal — es una secuencia estructurada de mensajes que guía al conductor desde el primer contacto hasta la validación de documentos, con exactamente la misma información que pide el portal, pero en pasos individuales, en lenguaje conversacional, y en el canal donde la tasa de respuesta es estructuralmente más alta.",
-        "en": "WhatsApp doesn't replace the document validation process — it replaces the channel where that process happens. The operational difference is that WhatsApp is an app the candidate already has installed, already knows how to use, and already trusts for sharing photos with family and friends. The onboarding flow that works in WhatsApp is not an informal conversation — it is a structured sequence of messages guiding the driver from first contact through document validation, with exactly the same information the portal requests, but in individual steps, in conversational language, and in the channel where response rates are structurally higher."
+        "en": "WhatsApp doesn't replace the document validation process — it replaces the channel where that process happens. The operational difference is that WhatsApp is an app the candidate already has installed, already knows how to use, and already trusts for sharing photos with family and friends. The onboarding flow that works in WhatsApp is not an informal conversation — it is a structured sequence of messages guiding the driver from first contact through document validation, with exactly the same information the portal requests, but in individual steps, in conversational language, and in the channel where response rates are structurally higher.",
+        "pt": "O WhatsApp não substitui o processo de validação de documentos — substitui o canal onde esse processo acontece. A diferença operacional é que o WhatsApp é um app que o candidato já tem instalado, que já sabe usar e no qual já confia para enviar fotos para a família e os amigos. O fluxo de onboarding que funciona no WhatsApp não é uma conversa informal — é uma sequência estruturada de mensagens que guia o motorista do primeiro contato até a validação de documentos, com exatamente a mesma informação que o portal pede, mas em etapas individuais, em linguagem de conversa, e no canal onde a taxa de resposta é estruturalmente mais alta."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "El primer mensaje de contacto define si el candidato va a continuar o abandonar el proceso. Un mensaje de apertura que dice 'Para registrarte como conductor necesitamos los siguientes documentos:' seguido de una lista de seis ítems produce el mismo abandono que el portal. Un mensaje que dice 'Bienvenido. Para comenzar, necesitamos solo una cosa: la foto de tu licencia de conducir por ambos lados. Cuando la tengas, envíanosla aquí y te respondemos en menos de 10 minutos' produce una tasa de respuesta de entre el 60% y el 80% en la mayoría de los mercados secundarios de LATAM donde se ha implementado este flujo. La diferencia no es tecnológica — es la estructura de la petición: una sola acción, con expectativa de tiempo de respuesta explícita.",
-        "en": "The opening message determines whether the candidate continues or abandons the process. An opening that says 'To register as a driver we need the following documents:' followed by a list of six items produces the same drop-off as the portal. A message that says 'Welcome. To get started, we just need one thing: a photo of your driver's license on both sides. When you have it, send it here and we'll respond in under 10 minutes' produces a response rate of 60% to 80% in most secondary LATAM markets where this flow has been implemented. The difference isn't technological — it's the structure of the request: one single action, with an explicit response time expectation."
+        "en": "The opening message determines whether the candidate continues or abandons the process. An opening that says 'To register as a driver we need the following documents:' followed by a list of six items produces the same drop-off as the portal. A message that says 'Welcome. To get started, we just need one thing: a photo of your driver's license on both sides. When you have it, send it here and we'll respond in under 10 minutes' produces a response rate of 60% to 80% in most secondary LATAM markets where this flow has been implemented. The difference isn't technological — it's the structure of the request: one single action, with an explicit response time expectation.",
+        "pt": "A primeira mensagem de contato define se o candidato vai continuar ou desistir do processo. Uma mensagem de abertura que diz 'Para se cadastrar como motorista, precisamos dos seguintes documentos:' seguida de uma lista de seis itens produz a mesma desistência que o portal. Uma mensagem que diz 'Bem-vindo. Para começar, precisamos de apenas uma coisa: a foto da sua CNH pela frente e pelo verso. Quando tiver, envie aqui e respondemos em menos de 10 minutos' produz uma taxa de resposta entre 60% e 80% na maioria dos mercados secundários da América Latina onde esse fluxo foi implementado. A diferença não é tecnológica — é a estrutura do pedido: uma única ação, com expectativa de tempo de resposta explícita."
       }
     },
     {
@@ -136,14 +162,16 @@
       "id": "documentos-orden-onboarding",
       "text": {
         "es": "Qué documentos pedir y en qué orden para reducir el abandono",
-        "en": "Which documents to request and in which order to reduce drop-off"
+        "en": "Which documents to request and in which order to reduce drop-off",
+        "pt": "Quais documentos pedir e em que ordem para reduzir a desistência"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "El orden en que se solicitan los documentos determina cuántos candidatos llegan al final del proceso. La regla es empezar por el documento más accesible para el candidato y dejar los documentos con más fricción para cuando ya tiene inversión en el proceso. Un candidato que ya envió tres documentos tiene una razón concreta para enviar el cuarto — sería perder el avance logrado. Un candidato que acaba de recibir una lista de seis ítems en el primer mensaje no tiene nada que perder si la cierra.",
-        "en": "The order in which documents are requested determines how many candidates reach the end of the process. The rule is to start with the most accessible document and leave higher-friction documents for when the candidate already has investment in the process. A candidate who has already sent three documents has a concrete reason to send the fourth — abandoning now means losing the progress made. A candidate who just received a list of six items in the first message has nothing to lose by closing it."
+        "en": "The order in which documents are requested determines how many candidates reach the end of the process. The rule is to start with the most accessible document and leave higher-friction documents for when the candidate already has investment in the process. A candidate who has already sent three documents has a concrete reason to send the fourth — abandoning now means losing the progress made. A candidate who just received a list of six items in the first message has nothing to lose by closing it.",
+        "pt": "A ordem em que os documentos são solicitados determina quantos candidatos chegam ao fim do processo. A regra é começar pelo documento mais acessível para o candidato e deixar os documentos com mais fricção para quando ele já tiver investimento no processo. Um candidato que já enviou três documentos tem um motivo concreto para enviar o quarto — desistir agora seria perder o avanço conquistado. Um candidato que acabou de receber uma lista de seis itens na primeira mensagem não tem nada a perder ao fechá-la."
       }
     },
     {
@@ -163,6 +191,13 @@
           "Photo of the vehicle registration document: usually kept in the glovebox; requesting it after the selfie takes advantage of the moment the candidate is already next to the car",
           "Photo of the insurance policy or coverage certificate: the highest-variability document — some candidates have it digitally, others on paper, some must request it from their insurer",
           "Proof of address if the market requires it: frequently the most forgotten document and the one that causes the most delays — placing it last minimizes drop-off on all previous steps"
+        ],
+        "pt": [
+          "Foto da CNH pela frente e pelo verso: o documento mais acessível para quase todos os candidatos, geralmente disponível na hora pelo celular ou dentro do próprio veículo",
+          "Selfie ao lado do veículo com as chaves na mão: confirma o acesso ao carro e produz o primeiro contato visual do candidato para a validação básica de identidade",
+          "Foto do documento do veículo (CRLV): geralmente guardado no porta-luvas; pedi-lo depois da selfie aproveita que o candidato já está ao lado do veículo",
+          "Foto da apólice de seguro ou comprovante de cobertura: o documento com maior variabilidade — alguns candidatos o têm em versão digital, outros em papel, e alguns precisam solicitá-lo à seguradora",
+          "Comprovante de endereço, se o mercado exigir: frequentemente o mais esquecido e o que gera mais atrasos — pedi-lo por último minimiza a desistência nas etapas anteriores"
         ]
       }
     },
@@ -170,7 +205,8 @@
       "type": "paragraph",
       "text": {
         "es": "La validación entre pasos es lo que mantiene al candidato enganchado. Un mensaje de 'Recibida tu licencia, ya la estamos revisando. Cuando puedas, envíanos la selfie junto a tu vehículo' comunica progreso y da la siguiente instrucción concreta. Esa cadena de microfeedback —que en un portal de registro no existe porque todos los campos están en la misma pantalla— reduce el abandono en cada paso porque el candidato percibe que hay un interlocutor activo y que el proceso avanza. El tiempo de respuesta prometido es parte del contrato implícito: si el operador promete responder en 10 minutos y responde en tres horas, la tasa de continuidad cae.",
-        "en": "The validation between steps is what keeps the candidate engaged. A message saying 'We received your license and are reviewing it. When you're ready, send us the selfie next to your vehicle' communicates progress and gives the next concrete instruction. That chain of micro-feedback — which doesn't exist in a registration portal because all fields are on the same screen — reduces drop-off at each step because the candidate senses an active counterpart and that the process is moving forward. The promised response time is part of the implicit contract: if the operator promises a 10-minute response and takes three hours, continuation rates drop."
+        "en": "The validation between steps is what keeps the candidate engaged. A message saying 'We received your license and are reviewing it. When you're ready, send us the selfie next to your vehicle' communicates progress and gives the next concrete instruction. That chain of micro-feedback — which doesn't exist in a registration portal because all fields are on the same screen — reduces drop-off at each step because the candidate senses an active counterpart and that the process is moving forward. The promised response time is part of the implicit contract: if the operator promises a 10-minute response and takes three hours, continuation rates drop.",
+        "pt": "A validação entre etapas é o que mantém o candidato engajado. Uma mensagem de 'Recebemos a sua CNH e já estamos analisando. Quando puder, envie a selfie ao lado do seu veículo' comunica progresso e dá a próxima instrução concreta. Essa cadeia de microfeedback —que num portal de cadastro não existe porque todos os campos estão na mesma tela— reduz a desistência em cada etapa porque o candidato percebe que há um interlocutor ativo e que o processo avança. O tempo de resposta prometido faz parte do contrato implícito: se o operador promete responder em 10 minutos e responde em três horas, a taxa de continuidade cai."
       }
     },
     {
@@ -179,14 +215,16 @@
       "id": "whatsapp-activacion-primera-semana",
       "text": {
         "es": "El rol de WhatsApp después del registro: activación y primera semana",
-        "en": "WhatsApp's role after registration: activation and the first week"
+        "en": "WhatsApp's role after registration: activation and the first week",
+        "pt": "O papel do WhatsApp depois do cadastro: ativação e primeira semana"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "El onboarding vía WhatsApp no termina cuando el conductor queda aprobado. La primera semana de actividad determina si el conductor pasa a ser un activo estable de la flota o una activación que desaparece antes de completar 10 viajes. WhatsApp es el canal más efectivo para los mensajes de activación post-registro porque la probabilidad de apertura es significativamente mayor que para un correo electrónico o una notificación push de la app — especialmente en las primeras 48 horas, cuando el conductor todavía no tiene el hábito de revisar las notificaciones de la app del conductor.",
-        "en": "WhatsApp onboarding doesn't end when the driver is approved. The first week of activity determines whether the driver becomes a stable fleet asset or an activation that disappears before completing 10 trips. WhatsApp is the most effective channel for post-registration activation messages because open rates are significantly higher than for email or app push notifications — especially in the first 48 hours, when the driver hasn't yet developed the habit of checking driver app notifications."
+        "en": "WhatsApp onboarding doesn't end when the driver is approved. The first week of activity determines whether the driver becomes a stable fleet asset or an activation that disappears before completing 10 trips. WhatsApp is the most effective channel for post-registration activation messages because open rates are significantly higher than for email or app push notifications — especially in the first 48 hours, when the driver hasn't yet developed the habit of checking driver app notifications.",
+        "pt": "O onboarding via WhatsApp não termina quando o motorista é aprovado. A primeira semana de atividade determina se o motorista se torna um ativo estável da frota ou uma ativação que desaparece antes de completar 10 corridas. O WhatsApp é o canal mais eficaz para as mensagens de ativação pós-cadastro porque a probabilidade de abertura é significativamente maior do que a de um e-mail ou uma notificação push do app — especialmente nas primeiras 48 horas, quando o motorista ainda não tem o hábito de conferir as notificações do app do motorista."
       }
     },
     {
@@ -204,6 +242,12 @@
           "Day 1: brief check-in to confirm the app is installed and set up, with the direct question 'have you completed your first trip?' — the data point that most quickly validates whether onboarding succeeded",
           "Day 3: summary of the first days — how many trips completed, how much earned, and a note on the highest-demand time window in the city so the driver can plan their availability",
           "Day 7: reminder of the basic rating and cancellation policies, with the driver's week-one metrics and the bonus threshold if the platform has one active"
+        ],
+        "pt": [
+          "Dia 0 (aprovação): mensagem de boas-vindas com o link direto de download do app do motorista, instruções em três passos para a primeira sessão e um contato direto para dúvidas técnicas no primeiro dia",
+          "Dia 1: lembrete breve para verificar se o app ficou instalado e configurado, com a pergunta direta 'você já completou a sua primeira corrida?' — o dado que mais rápido valida se o onboarding deu certo",
+          "Dia 3: resumo dos primeiros dias — quantas corridas completou, quanto ganhou, e uma nota sobre o horário de maior demanda na cidade para que o motorista possa planejar a sua disponibilidade",
+          "Dia 7: lembrete das políticas básicas de avaliação e cancelamento, com as métricas do motorista nessa primeira semana e o limite de bonificação, se a plataforma tiver um ativo"
         ]
       }
     },
@@ -211,7 +255,8 @@
       "type": "paragraph",
       "text": {
         "es": "Esa secuencia de mensajes no es soporte técnico — es el proceso que convierte una activación formal en un conductor que entiende la plataforma antes del octavo día. El conductor que llega a su segunda semana con los primeros viajes completados, una noción clara de los horarios más productivos, y un canal de contacto directo en caso de problemas, tiene una probabilidad de retención a 30 días significativamente mayor que el conductor que recibió un correo de bienvenida con el PDF de instrucciones y tuvo que descubrir el resto por su cuenta.",
-        "en": "That message sequence isn't support — it's the process that converts a formal activation into a driver who understands the platform before day eight. A driver who arrives at their second week with the first trips completed, a clear sense of the most productive time windows, and a direct contact channel in case of problems, has a significantly higher 30-day retention probability than a driver who received a welcome email with a PDF of usage instructions and had to figure out the rest on their own."
+        "en": "That message sequence isn't support — it's the process that converts a formal activation into a driver who understands the platform before day eight. A driver who arrives at their second week with the first trips completed, a clear sense of the most productive time windows, and a direct contact channel in case of problems, has a significantly higher 30-day retention probability than a driver who received a welcome email with a PDF of usage instructions and had to figure out the rest on their own.",
+        "pt": "Essa sequência de mensagens não é suporte técnico — é o processo que transforma uma ativação formal em um motorista que entende a plataforma antes do oitavo dia. O motorista que chega à segunda semana com as primeiras corridas concluídas, uma noção clara dos horários mais produtivos e um canal de contato direto em caso de problemas tem uma probabilidade de retenção em 30 dias significativamente maior do que o motorista que recebeu um e-mail de boas-vindas com o PDF de instruções e teve que descobrir o resto por conta própria."
       }
     },
     {
@@ -220,14 +265,16 @@
       "id": "whatsapp-api-cuando-escalar",
       "text": {
         "es": "API o WhatsApp Business estándar: cuándo escalar la automatización",
-        "en": "WhatsApp API or standard Business account: when to scale automation"
+        "en": "WhatsApp API or standard Business account: when to scale automation",
+        "pt": "API ou WhatsApp Business padrão: quando escalar a automação"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "WhatsApp Business funciona en dos modalidades con implicaciones operativas distintas. La app de WhatsApp Business —disponible sin costo— permite gestionar el onboarding de forma manual o semi-manual con plantillas de mensajes predefinidos. Es la opción adecuada para operaciones con menos de 25 activaciones de conductores mensuales, donde un miembro del equipo puede gestionar las conversaciones activas sin que el volumen lo supere. La WhatsApp Business API —que requiere un proveedor de integración certificado y tiene un costo por conversación iniciada por la empresa— es necesaria cuando el volumen supera lo que un equipo pequeño puede manejar manualmente, o cuando se quiere integrar la validación básica de documentos con el sistema interno de la plataforma antes de la revisión humana.",
-        "en": "WhatsApp Business operates in two modes with different operational implications. The WhatsApp Business app — free of cost — allows managing onboarding manually or semi-manually with predefined message templates. It's the right choice for operations with fewer than 25 monthly driver activations, where a team member can manage active conversations without being overwhelmed by volume. The WhatsApp Business API — which requires a certified integration provider and has a per-conversation cost for business-initiated messages — is necessary when activation volume exceeds what a small team can handle manually, or when integrating basic document validation with the platform's internal systems before human review."
+        "en": "WhatsApp Business operates in two modes with different operational implications. The WhatsApp Business app — free of cost — allows managing onboarding manually or semi-manually with predefined message templates. It's the right choice for operations with fewer than 25 monthly driver activations, where a team member can manage active conversations without being overwhelmed by volume. The WhatsApp Business API — which requires a certified integration provider and has a per-conversation cost for business-initiated messages — is necessary when activation volume exceeds what a small team can handle manually, or when integrating basic document validation with the platform's internal systems before human review.",
+        "pt": "O WhatsApp Business funciona em duas modalidades com implicações operacionais distintas. O app do WhatsApp Business —disponível sem custo— permite gerenciar o onboarding de forma manual ou semimanual com modelos de mensagens predefinidos. É a opção adequada para operações com menos de 25 ativações de motoristas por mês, em que um membro da equipe consegue gerenciar as conversas ativas sem que o volume o sobrecarregue. A WhatsApp Business API —que exige um provedor de integração certificado e tem um custo por conversa iniciada pela empresa— é necessária quando o volume supera o que uma equipe pequena consegue tratar manualmente, ou quando se quer integrar a validação básica de documentos ao sistema interno da plataforma antes da revisão humana."
       }
     },
     {
@@ -235,14 +282,16 @@
       "variant": "tip",
       "text": {
         "es": "Para saber si es momento de pasar a la API, usa este umbral: si el tiempo de respuesta a candidatos supera los 30 minutos en más del 30% de los casos durante dos semanas consecutivas, el volumen ya superó lo que un equipo pequeño puede mantener manualmente. Ese es el momento correcto para evaluar la API — no antes.",
-        "en": "To know whether it's time to move to the API, use this threshold: if response time to candidates exceeds 30 minutes in more than 30% of cases over two consecutive weeks, volume has already outgrown what a small team can manage manually. That is the right moment to evaluate the API — not before."
+        "en": "To know whether it's time to move to the API, use this threshold: if response time to candidates exceeds 30 minutes in more than 30% of cases over two consecutive weeks, volume has already outgrown what a small team can manage manually. That is the right moment to evaluate the API — not before.",
+        "pt": "Para saber se é hora de migrar para a API, use este limite: se o tempo de resposta aos candidatos ultrapassar 30 minutos em mais de 30% dos casos durante duas semanas consecutivas, o volume já superou o que uma equipe pequena consegue manter manualmente. Esse é o momento certo para avaliar a API — não antes."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "El error más frecuente es invertir en la API antes de haber validado que el flujo manual produce activaciones reales. Un operador con 15 activaciones mensuales que automatiza WhatsApp antes de haber refinado la secuencia de mensajes va a escalar un flujo que todavía no está optimizado — produciendo una experiencia más estructurada pero con las mismas tasas de abandono que el portal porque las fricciones no se identificaron antes de la automatización. El orden correcto es flujo manual primero, optimización de lenguaje y secuencia segundo, automatización tercero cuando el volumen lo justifica.",
-        "en": "The most common mistake is investing in the API before validating that the manual flow produces real activations. An operator with 15 monthly activations who automates WhatsApp before refining the message sequence will scale a flow that isn't optimized yet — producing a more structured experience but with the same drop-off rates as the portal because friction points weren't identified before automation. The correct order is manual flow first, sequence and language optimization second, automation third when volume justifies it."
+        "en": "The most common mistake is investing in the API before validating that the manual flow produces real activations. An operator with 15 monthly activations who automates WhatsApp before refining the message sequence will scale a flow that isn't optimized yet — producing a more structured experience but with the same drop-off rates as the portal because friction points weren't identified before automation. The correct order is manual flow first, sequence and language optimization second, automation third when volume justifies it.",
+        "pt": "O erro mais frequente é investir na API antes de validar que o fluxo manual produz ativações reais. Um operador com 15 ativações mensais que automatiza o WhatsApp antes de refinar a sequência de mensagens vai escalar um fluxo que ainda não está otimizado — produzindo uma experiência mais estruturada, mas com as mesmas taxas de desistência do portal, porque as fricções não foram identificadas antes da automação. A ordem correta é fluxo manual primeiro, otimização de linguagem e sequência em segundo, automação em terceiro, quando o volume justificar."
       }
     },
     {
@@ -251,46 +300,53 @@
       "id": "metricas-canal-onboarding",
       "text": {
         "es": "Las métricas que miden si el canal de onboarding está funcionando",
-        "en": "The metrics that tell you whether the onboarding channel is working"
+        "en": "The metrics that tell you whether the onboarding channel is working",
+        "pt": "As métricas que medem se o canal de onboarding está funcionando"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "El canal de onboarding se evalúa con el mismo embudo en ambas opciones: candidatos que inician el proceso, candidatos que completan la documentación, conductores aprobados, conductores que completan al menos 10 viajes en su primer mes. Cada tasa de conversión entre etapas identifica dónde se produce el mayor abandono. Para operaciones que han migrado desde portal web a WhatsApp como canal principal, las mejoras más frecuentes en los primeros 60 días son: tasa de completitud de documentación que sube del rango del 25%-40% al 55%-70%, y tiempo promedio de activación —primer contacto hasta primer viaje— que baja de 8-12 días a 3-5 días.",
-        "en": "The onboarding channel is evaluated with the same funnel in both cases: candidates who start the process, candidates who complete documentation, approved drivers, drivers who complete at least 10 trips in their first month. Each conversion rate between stages identifies where the largest drop-off occurs. For operations that have migrated from web portal to WhatsApp as the primary channel, the most common improvements in the first 60 days are: documentation completion rate rising from the 25%–40% range to 55%–70%, and average activation time — first contact to first trip — falling from 8–12 days to 3–5 days."
+        "en": "The onboarding channel is evaluated with the same funnel in both cases: candidates who start the process, candidates who complete documentation, approved drivers, drivers who complete at least 10 trips in their first month. Each conversion rate between stages identifies where the largest drop-off occurs. For operations that have migrated from web portal to WhatsApp as the primary channel, the most common improvements in the first 60 days are: documentation completion rate rising from the 25%–40% range to 55%–70%, and average activation time — first contact to first trip — falling from 8–12 days to 3–5 days.",
+        "pt": "O canal de onboarding é avaliado com o mesmo funil nas duas opções: candidatos que iniciam o processo, candidatos que concluem a documentação, motoristas aprovados, motoristas que completam pelo menos 10 corridas no primeiro mês. Cada taxa de conversão entre etapas identifica onde ocorre a maior desistência. Para operações que migraram do portal web para o WhatsApp como canal principal, as melhorias mais frequentes nos primeiros 60 dias são: taxa de conclusão de documentação que sobe da faixa de 25%-40% para 55%-70%, e tempo médio de ativação —primeiro contato até a primeira corrida— que cai de 8-12 dias para 3-5 dias."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "La métrica que más sorprende a los operadores que hacen la comparación es el tiempo de activación, no la tasa de completitud. Un portal puede completarse en el mismo día para el candidato que tiene todos los documentos disponibles — pero en la práctica, los candidatos que no tienen un documento accesible en el momento exacto en que abren el portal no regresan. El flujo de WhatsApp mantiene la conversación viva durante dos o tres días porque permite que el conductor envíe los documentos a medida que los consigue, con un interlocutor activo que confirma el progreso en cada paso y no permite que el proceso se olvide.",
-        "en": "The metric that most surprises operators who run the comparison is activation time, not completion rate. A portal can be completed on the same day for a candidate who has all documents available — but in practice, candidates who don't have a document accessible at the exact moment they open the portal don't return. The WhatsApp flow keeps the conversation alive for two to three days because it allows the driver to send documents as they gather them, with an active counterpart who confirms progress at each step and doesn't let the process go cold."
+        "en": "The metric that most surprises operators who run the comparison is activation time, not completion rate. A portal can be completed on the same day for a candidate who has all documents available — but in practice, candidates who don't have a document accessible at the exact moment they open the portal don't return. The WhatsApp flow keeps the conversation alive for two to three days because it allows the driver to send documents as they gather them, with an active counterpart who confirms progress at each step and doesn't let the process go cold.",
+        "pt": "A métrica que mais surpreende os operadores que fazem a comparação é o tempo de ativação, não a taxa de conclusão. Um portal pode ser concluído no mesmo dia para o candidato que tem todos os documentos disponíveis — mas, na prática, os candidatos que não têm um documento acessível no momento exato em que abrem o portal não voltam. O fluxo de WhatsApp mantém a conversa viva por dois ou três dias porque permite que o motorista envie os documentos à medida que os consegue, com um interlocutor ativo que confirma o progresso em cada etapa e não deixa o processo esfriar."
       }
     },
     {
       "type": "quote",
       "text": {
         "es": "Teníamos 40 conductores registrados en el portal pero solo 12 activos después de dos meses. Cuando revisamos el embudo, el 62% de los que comenzaban el registro abandonaban en el paso de documentos del vehículo. Migramos a WhatsApp: pedimos un documento a la vez, respondíamos en menos de 20 minutos, y en cuatro semanas activamos 18 conductores nuevos con el mismo esfuerzo de reclutamiento. El portal sigue disponible para quien lo prefiera — pero el 80% de los conductores nuevos llegan ahora por WhatsApp.",
-        "en": "We had 40 drivers registered in the portal but only 12 active after two months. When we reviewed the funnel, 62% of those who started the process dropped off at the vehicle document step. We migrated to WhatsApp: one document at a time, responses in under 20 minutes, and within four weeks we activated 18 new drivers with the same recruiting effort. The portal is still available for anyone who prefers it — but 80% of new drivers now come through WhatsApp."
+        "en": "We had 40 drivers registered in the portal but only 12 active after two months. When we reviewed the funnel, 62% of those who started the process dropped off at the vehicle document step. We migrated to WhatsApp: one document at a time, responses in under 20 minutes, and within four weeks we activated 18 new drivers with the same recruiting effort. The portal is still available for anyone who prefers it — but 80% of new drivers now come through WhatsApp.",
+        "pt": "Tínhamos 40 motoristas cadastrados no portal, mas apenas 12 ativos depois de dois meses. Quando analisamos o funil, 62% dos que começavam o cadastro desistiam na etapa dos documentos do veículo. Migramos para o WhatsApp: pedíamos um documento por vez, respondíamos em menos de 20 minutos e, em quatro semanas, ativamos 18 motoristas novos com o mesmo esforço de recrutamento. O portal continua disponível para quem preferir — mas 80% dos motoristas novos chegam agora pelo WhatsApp."
       },
       "attribution": {
         "es": "Operador de movilidad en una ciudad de 140,000 habitantes en el centro de México",
-        "en": "Mobility operator in a city of 140,000 in central Mexico"
+        "en": "Mobility operator in a city of 140,000 in central Mexico",
+        "pt": "Operador de mobilidade em uma cidade de 140.000 habitantes no centro do México"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "El canal de onboarding no es un detalle de implementación — es la primera experiencia que el conductor tiene con la plataforma. Un proceso de registro que falla en el primer o segundo paso enseña al candidato que la plataforma es complicada antes de que haya tenido la oportunidad de descubrir que el ingreso es real. WhatsApp no resuelve un problema técnico de documentación — resuelve un problema de canal: el proceso de validación ocurre en el mismo lugar donde el candidato ya pasa entre 45 y 90 minutos al día, en lugar de en un portal web que tiene que visitar expresamente para completar un proceso que interrumpe lo que estaba haciendo.",
-        "en": "The onboarding channel isn't an implementation detail — it's the first experience a driver has with the platform. A registration process that fails at the first or second step teaches the candidate that the platform is complicated before they have had the chance to discover that the income is real. WhatsApp doesn't solve a technical documentation problem — it solves a channel problem: the validation process happens in the same place where the candidate already spends 45 to 90 minutes a day, rather than in a web portal they have to visit specifically to complete a process that interrupts whatever they were doing."
+        "en": "The onboarding channel isn't an implementation detail — it's the first experience a driver has with the platform. A registration process that fails at the first or second step teaches the candidate that the platform is complicated before they have had the chance to discover that the income is real. WhatsApp doesn't solve a technical documentation problem — it solves a channel problem: the validation process happens in the same place where the candidate already spends 45 to 90 minutes a day, rather than in a web portal they have to visit specifically to complete a process that interrupts whatever they were doing.",
+        "pt": "O canal de onboarding não é um detalhe de implementação — é a primeira experiência que o motorista tem com a plataforma. Um processo de cadastro que falha na primeira ou na segunda etapa ensina ao candidato que a plataforma é complicada antes que ele tenha tido a chance de descobrir que a renda é real. O WhatsApp não resolve um problema técnico de documentação — resolve um problema de canal: o processo de validação acontece no mesmo lugar onde o candidato já passa entre 45 e 90 minutos por dia, em vez de em um portal web que ele precisa visitar propositalmente para concluir um processo que interrompe o que estava fazendo."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "El operador que invierte en la comisión correcta de lanzamiento, en incentivos bien diseñados y en una estrategia de reclutamiento sólida, pero mantiene el portal de registro como único canal de onboarding, está perdiendo entre el 40% y el 65% de los candidatos antes de que lleguen a su primera semana activa. La corrección no requiere tecnología nueva ni presupuesto adicional: requiere mover el proceso al canal donde el candidato ya está, un documento a la vez, con tiempo de respuesta explícito y con alguien que confirma el progreso en cada paso. Ese ajuste es el que separa una flota que recluta y activa de una flota que recluta y espera.",
-        "en": "An operator who invests in the correct launch commission, well-designed incentives, and a solid recruiting strategy, but keeps the web registration portal as the only onboarding channel, is losing between 40% and 65% of candidates before they reach their first active week. The correction requires no new technology and no additional budget: it requires moving the process to the channel where the candidate already is, one document at a time, with an explicit response time and someone who confirms progress at each step. That adjustment is what separates a fleet that recruits and activates from a fleet that recruits and waits."
+        "en": "An operator who invests in the correct launch commission, well-designed incentives, and a solid recruiting strategy, but keeps the web registration portal as the only onboarding channel, is losing between 40% and 65% of candidates before they reach their first active week. The correction requires no new technology and no additional budget: it requires moving the process to the channel where the candidate already is, one document at a time, with an explicit response time and someone who confirms progress at each step. That adjustment is what separates a fleet that recruits and activates from a fleet that recruits and waits.",
+        "pt": "O operador que investe na comissão de lançamento correta, em incentivos bem desenhados e em uma estratégia de recrutamento sólida, mas mantém o portal de cadastro como único canal de onboarding, está perdendo entre 40% e 65% dos candidatos antes que cheguem à primeira semana ativa. A correção não exige tecnologia nova nem orçamento adicional: exige mover o processo para o canal onde o candidato já está, um documento por vez, com tempo de resposta explícito e com alguém que confirma o progresso em cada etapa. Esse ajuste é o que separa uma frota que recruta e ativa de uma frota que recruta e espera."
       }
     }
   ]

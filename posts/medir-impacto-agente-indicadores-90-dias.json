@@ -3,16 +3,19 @@
   "category": "strategy",
   "title": {
     "es": "Medir el impacto del agente: los indicadores que sí cambian en 90 días",
-    "en": "Measuring agent impact: the operational signals that actually shift in 90 days"
+    "en": "Measuring agent impact: the operational signals that actually shift in 90 days",
+    "pt": "Medir o impacto do agente: os indicadores que realmente mudam em 90 dias"
   },
   "excerpt": {
     "es": "El número de consultas al agente no refleja si está moviendo algo que importa. Estos son los indicadores operativos concretos que cambian cuando la integración es real.",
-    "en": "Query count doesn't reflect whether the agent is moving anything that matters. These are the concrete operational signals that shift when integration is genuine."
+    "en": "Query count doesn't reflect whether the agent is moving anything that matters. These are the concrete operational signals that shift when integration is genuine.",
+    "pt": "O número de consultas ao agente não reflete se ele está movendo algo que importa. Estes são os indicadores operacionais concretos que mudam quando a integração é real."
   },
   "heroImage": "https://raw.githubusercontent.com/jonatanvazquez/cabgo-blog-content/main/images/medir-impacto-agente-indicadores-90-dias.jpg",
   "heroImageAlt": {
     "es": "Ilustración isométrica de una línea de tiempo en tres plataformas que muestra la evolución de un panel de operaciones: plano al inicio, con agente activo a las 6 semanas, y tres métricas en ascenso a los 90 días",
-    "en": "Isometric illustration of a three-platform timeline showing operations panel evolution: flat at start, with active agent at week 6, and three rising metric cards at 90 days"
+    "en": "Isometric illustration of a three-platform timeline showing operations panel evolution: flat at start, with active agent at week 6, and three rising metric cards at 90 days",
+    "pt": "Ilustração isométrica de uma linha do tempo em três plataformas que mostra a evolução de um painel de operações: plano no início, com agente ativo às 6 semanas e três métricas em alta aos 90 dias"
   },
   "heroImagePrompt": "Isometric timeline strip divided into three elevated platform segments from left to right: leftmost platform shows a flat operator dashboard with neutral gray metric cards at zero-slope; center platform shows a glowing teal AI agent chat panel next to a zone coverage heatmap with a small upward arrow on one zone card; rightmost platform shows a full operator console with three metric cards showing clear upward trend lines for coverage floor, cancellation rate, and incentive timing. A glowing indigo progress bar runs along the floor grid connecting all three platforms. Deep violet background with teal accent lighting concentrated on the rightmost platform. Negative space on the lower right.",
   "publishedAt": "2026-06-17",
@@ -37,13 +40,24 @@
       "incident diagnosis AI agent mobility",
       "AI agent integration operational decisions regional",
       "evaluate AI agent ride-hailing real results"
+    ],
+    "pt": [
+      "medir impacto agente IA operação transporte por aplicativo",
+      "indicadores ROI agente IA mobilidade regional 90 dias",
+      "cobertura turno agente IA transporte por aplicativo indicadores",
+      "cancelamentos por zona agente IA operador",
+      "timing incentivos motoristas agente IA Cabgo",
+      "diagnóstico incidentes agente IA mobilidade",
+      "integração agente IA decisões operacionais regional",
+      "avaliar agente IA transporte por aplicativo resultados reais"
     ]
   },
   "author": {
     "name": "Equipo Cabgo",
     "role": {
       "es": "Plataforma de movilidad",
-      "en": "Mobility platform"
+      "en": "Mobility platform",
+      "pt": "Plataforma de mobilidade"
     }
   },
   "blocks": [
@@ -51,14 +65,16 @@
       "type": "paragraph",
       "text": {
         "es": "Los primeros operadores que integraron un agente de IA en su flujo diario ya acumulan entre tres y seis meses de uso real — suficiente para haber pasado la curva de entusiasmo inicial y llegar a la pregunta más honesta del proceso: ¿está moviendo algo que importa? La respuesta no está en el número de consultas enviadas al agente ni en el tiempo que tarda en responder. Está en un conjunto específico de indicadores operativos que se mueven cuando el agente está genuinamente integrado en la toma de decisiones del turno, y que permanecen planos cuando se usa como canal de consulta periférico. Saber cuáles son esos indicadores — y en qué orden suelen aparecer — hace la diferencia entre evaluar correctamente el impacto y descartarlo por el motivo equivocado.",
-        "en": "The first operators who integrated an AI agent into their daily workflow now have between three and six months of real use — enough to have moved past the initial enthusiasm curve and arrived at the most honest question in the process: is it actually moving anything that matters? The answer isn't in the number of queries sent to the agent or how long it takes to respond. It's in a specific set of operational indicators that shift when the agent is genuinely integrated into shift decision-making, and that stay flat when it's used as a peripheral query channel. Knowing which indicators those are — and the order they tend to appear in — makes the difference between correctly evaluating the agent's impact and dismissing it for the wrong reason."
+        "en": "The first operators who integrated an AI agent into their daily workflow now have between three and six months of real use — enough to have moved past the initial enthusiasm curve and arrived at the most honest question in the process: is it actually moving anything that matters? The answer isn't in the number of queries sent to the agent or how long it takes to respond. It's in a specific set of operational indicators that shift when the agent is genuinely integrated into shift decision-making, and that stay flat when it's used as a peripheral query channel. Knowing which indicators those are — and the order they tend to appear in — makes the difference between correctly evaluating the agent's impact and dismissing it for the wrong reason.",
+        "pt": "Os primeiros operadores que integraram um agente de IA ao seu fluxo diário já acumulam entre três e seis meses de uso real — o suficiente para terem passado a curva de entusiasmo inicial e chegado à pergunta mais honesta do processo: ele está movendo algo que importa? A resposta não está no número de consultas enviadas ao agente nem no tempo que ele leva para responder. Está em um conjunto específico de indicadores operacionais que se movem quando o agente está genuinamente integrado à tomada de decisões do turno, e que permanecem planos quando ele é usado como canal de consulta periférico. Saber quais são esses indicadores — e em que ordem costumam aparecer — faz a diferença entre avaliar corretamente o impacto e descartá-lo pelo motivo errado."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "Este artículo está dirigido a operadores con 60-200 conductores que llevan al menos 30 días con el agente integrado y quieren saber si el uso produce resultados medibles, no solo respuestas más rápidas a preguntas que antes se buscaban en otro lugar. Los indicadores que se describen a continuación son observables desde el panel de Cabgo o desde la API, tienen rangos de referencia que emergen de operaciones que han pasado ese proceso de medición, y están ordenados según cuándo suelen aparecer: los primeros movimientos ocurren en las semanas 4-6, los más robustos después de la semana 10.",
-        "en": "This article is for operators with 60-200 drivers who have had the agent integrated for at least 30 days and want to know whether use is producing measurable results — not just faster answers to questions previously searched elsewhere. The indicators described below are observable from Cabgo's panel or API, have reference ranges drawn from operations that have been through this measurement process, and are ordered by when they tend to appear: early movements occur in weeks 4-6, stronger signals after week 10."
+        "en": "This article is for operators with 60-200 drivers who have had the agent integrated for at least 30 days and want to know whether use is producing measurable results — not just faster answers to questions previously searched elsewhere. The indicators described below are observable from Cabgo's panel or API, have reference ranges drawn from operations that have been through this measurement process, and are ordered by when they tend to appear: early movements occur in weeks 4-6, stronger signals after week 10.",
+        "pt": "Este artigo é dirigido a operadores com 60-200 motoristas que já estão há pelo menos 30 dias com o agente integrado e querem saber se o uso produz resultados mensuráveis, não apenas respostas mais rápidas a perguntas que antes se buscavam em outro lugar. Os indicadores descritos a seguir são observáveis pelo painel do Cabgo ou pela API, têm faixas de referência que emergem de operações que passaram por esse processo de medição e estão ordenados de acordo com quando costumam aparecer: os primeiros movimentos ocorrem nas semanas 4-6, os mais robustos depois da semana 10."
       }
     },
     {
@@ -67,21 +83,24 @@
       "id": "consultas-no-reflejan-impacto-real",
       "text": {
         "es": "Por qué el número de consultas no refleja el impacto operativo",
-        "en": "Why query count doesn't reflect operational impact"
+        "en": "Why query count doesn't reflect operational impact",
+        "pt": "Por que o número de consultas não reflete o impacto operacional"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "El primer instinto al evaluar un agente es medir su uso: cuántas veces al día se consulta, en qué turnos se activa más, cuánto tiempo dedica el coordinador a las sesiones. Esas métricas sirven para saber si el equipo adoptó la herramienta, pero no capturan si las decisiones operativas están cambiando. Un agente que responde veinte preguntas por turno sobre el estado de la operación y cuyas respuestas no modifican ninguna decisión tiene exactamente el mismo impacto que uno que no se consulta: ninguno. La métrica correcta no es la frecuencia de uso — es si las decisiones que se toman en los momentos operativos más críticos son más precisas después del agente que antes.",
-        "en": "The first instinct when evaluating an agent is to measure usage: how many times per day it's queried, which shifts it gets used most in, how much time the coordinator spends in sessions. Those metrics tell you whether the team adopted the tool, but they don't capture whether operational decisions are changing. An agent that answers twenty questions per shift about operation status and whose responses don't alter any decision has exactly the same impact as one that isn't consulted: none. The right metric isn't usage frequency — it's whether the decisions made at the most critical operational moments are more precise after the agent than before."
+        "en": "The first instinct when evaluating an agent is to measure usage: how many times per day it's queried, which shifts it gets used most in, how much time the coordinator spends in sessions. Those metrics tell you whether the team adopted the tool, but they don't capture whether operational decisions are changing. An agent that answers twenty questions per shift about operation status and whose responses don't alter any decision has exactly the same impact as one that isn't consulted: none. The right metric isn't usage frequency — it's whether the decisions made at the most critical operational moments are more precise after the agent than before.",
+        "pt": "O primeiro instinto ao avaliar um agente é medir seu uso: quantas vezes por dia é consultado, em quais turnos é mais ativado, quanto tempo o coordenador dedica às sessões. Essas métricas servem para saber se a equipe adotou a ferramenta, mas não capturam se as decisões operacionais estão mudando. Um agente que responde vinte perguntas por turno sobre o estado da operação e cujas respostas não alteram nenhuma decisão tem exatamente o mesmo impacto que um que não é consultado: nenhum. A métrica correta não é a frequência de uso — é se as decisões tomadas nos momentos operacionais mais críticos são mais precisas depois do agente do que antes."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "Los momentos críticos en una operación de movilidad regional son específicos y recurrentes: el inicio de turno cuando el coordinador evalúa si la cobertura alcanza para la demanda proyectada, la ventana de 30 minutos antes de que empiece la demanda del mediodía cuando hay que decidir si activar incentivos, la incidencia con conductores fuera del área de mayor demanda que requiere una respuesta en menos de diez minutos. Cuando el agente está integrado en esos momentos — no en consultas de fondo sino en las decisiones que determinan el resultado del turno — los indicadores correctos se mueven. Cuando opera como respaldo de información entre una decisión y la siguiente, el número de sesiones puede ser alto y el impacto operativo real, mínimo.",
-        "en": "The critical moments in a regional mobility operation are specific and recurring: the shift start when the coordinator assesses whether coverage will meet projected demand, the 30-minute window before midday demand peaks when the incentive decision needs to be made, the incident with drivers outside the high-demand area requiring a response in under ten minutes. When the agent is embedded in those moments — not as background reference but in the decisions that determine shift outcomes — the right indicators move. When it operates as an information backup between one decision and the next, session count can be high and real operational impact, minimal."
+        "en": "The critical moments in a regional mobility operation are specific and recurring: the shift start when the coordinator assesses whether coverage will meet projected demand, the 30-minute window before midday demand peaks when the incentive decision needs to be made, the incident with drivers outside the high-demand area requiring a response in under ten minutes. When the agent is embedded in those moments — not as background reference but in the decisions that determine shift outcomes — the right indicators move. When it operates as an information backup between one decision and the next, session count can be high and real operational impact, minimal.",
+        "pt": "Os momentos críticos em uma operação de mobilidade regional são específicos e recorrentes: o início do turno, quando o coordenador avalia se a cobertura é suficiente para a demanda projetada; a janela de 30 minutos antes de a demanda do meio-dia começar, quando é preciso decidir se ativa incentivos; o incidente com motoristas fora da área de maior demanda, que exige uma resposta em menos de dez minutos. Quando o agente está integrado a esses momentos — não em consultas de bastidores, mas nas decisões que determinam o resultado do turno — os indicadores certos se movem. Quando ele opera como apoio de informação entre uma decisão e a seguinte, o número de sessões pode ser alto e o impacto operacional real, mínimo."
       }
     },
     {
@@ -90,21 +109,24 @@
       "id": "indicadores-cobertura-turno-primeros",
       "text": {
         "es": "Los primeros indicadores que cambian: cobertura mínima del turno",
-        "en": "The first indicators to shift: minimum shift coverage"
+        "en": "The first indicators to shift: minimum shift coverage",
+        "pt": "Os primeiros indicadores que mudam: cobertura mínima do turno"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "El primer indicador operativo que se mueve cuando la integración del agente es genuina es la cobertura mínima del turno: el nivel más bajo al que cae la disponibilidad de conductores dentro del área principal de operación durante las horas de mayor demanda, antes de que el coordinador intervenga. Operaciones que usan el agente para revisar la cobertura proyectada al inicio del turno y ajustan la distribución de conductores de forma preventiva reportan una reducción del piso de cobertura de entre el 15% y el 25% en las primeras seis semanas de integración real. El panel de Cabgo tiene ese dato desagregado por zona y hora; comparar la semana previa a la integración del agente con la semana 6 muestra el movimiento sin análisis adicional.",
-        "en": "The first operational indicator to shift when agent integration is genuine is minimum shift coverage: the lowest level that driver availability in the main operating area reaches during peak hours, before the coordinator intervenes. Operations that use the agent to review projected coverage at shift start and preventively adjust driver distribution report a 15%-25% reduction in the coverage floor during the first six weeks of genuine integration. Cabgo's panel has that data broken down by zone and hour; comparing the week before agent integration with week 6 shows the movement without additional analysis."
+        "en": "The first operational indicator to shift when agent integration is genuine is minimum shift coverage: the lowest level that driver availability in the main operating area reaches during peak hours, before the coordinator intervenes. Operations that use the agent to review projected coverage at shift start and preventively adjust driver distribution report a 15%-25% reduction in the coverage floor during the first six weeks of genuine integration. Cabgo's panel has that data broken down by zone and hour; comparing the week before agent integration with week 6 shows the movement without additional analysis.",
+        "pt": "O primeiro indicador operacional que se move quando a integração do agente é genuína é a cobertura mínima do turno: o nível mais baixo a que cai a disponibilidade de motoristas dentro da área principal de operação durante os horários de maior demanda, antes de o coordenador intervir. Operações que usam o agente para revisar a cobertura projetada no início do turno e ajustam a distribuição de motoristas de forma preventiva relatam uma redução do piso de cobertura de entre 15% e 25% nas primeiras seis semanas de integração real. O painel do Cabgo tem esse dado desagregado por zona e hora; comparar a semana anterior à integração do agente com a semana 6 mostra o movimento sem análise adicional."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "El mecanismo es directo: el agente con historial de cobertura de la operación puede identificar qué zonas caen de forma consistente antes del pico y en qué ventana de tiempo ocurre esa caída. Esa información transforma la decisión de distribución al inicio del turno de una estimación en un diagnóstico con datos específicos. El coordinador que antes distribuía conductores por intuición ahora puede ver que la zona este cae sistemáticamente 40 minutos antes del mediodía y que reposicionar dos conductores allí 30 minutos antes cambia el resultado. Ese cambio de comportamiento es exactamente el que se refleja en el indicador de cobertura mínima del turno.",
-        "en": "The mechanism is direct: an agent with the operation's coverage history can identify which zones consistently fall before the peak and in what time window that drop occurs. That information transforms the distribution decision at shift start from an estimate into a data-specific diagnostic. The coordinator who previously distributed drivers by intuition can now see that the eastern zone consistently drops 40 minutes before noon and that repositioning two drivers there 30 minutes earlier changes the outcome. That behavior change is exactly what gets reflected in the minimum shift coverage indicator."
+        "en": "The mechanism is direct: an agent with the operation's coverage history can identify which zones consistently fall before the peak and in what time window that drop occurs. That information transforms the distribution decision at shift start from an estimate into a data-specific diagnostic. The coordinator who previously distributed drivers by intuition can now see that the eastern zone consistently drops 40 minutes before noon and that repositioning two drivers there 30 minutes earlier changes the outcome. That behavior change is exactly what gets reflected in the minimum shift coverage indicator.",
+        "pt": "O mecanismo é direto: o agente com o histórico de cobertura da operação consegue identificar quais zonas caem de forma consistente antes do pico e em qual janela de tempo essa queda ocorre. Essa informação transforma a decisão de distribuição no início do turno, de uma estimativa em um diagnóstico com dados específicos. O coordenador que antes distribuía motoristas por intuição agora consegue ver que a zona leste cai sistematicamente 40 minutos antes do meio-dia e que reposicionar dois motoristas ali 30 minutos antes muda o resultado. Essa mudança de comportamento é exatamente a que se reflete no indicador de cobertura mínima do turno."
       }
     },
     {
@@ -113,21 +135,24 @@
       "id": "cancelaciones-zona-señal-latencia",
       "text": {
         "es": "Cancelaciones por zona: la señal con mayor latencia y mayor precisión",
-        "en": "Zone cancellations: the signal with the longest lag and highest precision"
+        "en": "Zone cancellations: the signal with the longest lag and highest precision",
+        "pt": "Cancelamentos por zona: o sinal com maior latência e maior precisão"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "La tasa de cancelación por zona es el indicador con mayor latencia pero mayor precisión para evaluar si el agente está influyendo en decisiones de disponibilidad. Las cancelaciones de pasajeros correlacionan con la disponibilidad de conductores en esa zona en los 15 minutos anteriores: cuando el tiempo de espera supera el umbral de tolerancia del pasajero, la probabilidad de cancelación sube de forma no lineal. Un operador que usa el agente para identificar zonas en riesgo de caer por debajo del umbral crítico de disponibilidad y actúa preventivamente reduce las cancelaciones en esas zonas con un lag de 10-15 días — tiempo suficiente para que el cambio de decisiones en cobertura se traduzca en datos del panel.",
-        "en": "Zone-level cancellation rate is the indicator with the longest lag but highest precision for evaluating whether the agent is influencing availability decisions. Passenger cancellations correlate with driver availability in that zone in the preceding 15 minutes: when wait time exceeds the passenger's tolerance threshold, cancellation probability rises non-linearly. An operator who uses the agent to identify zones at risk of falling below the critical availability threshold and acts preventively reduces cancellations in those zones with a 10-15 day lag — enough time for the decision change in coverage to translate into panel data."
+        "en": "Zone-level cancellation rate is the indicator with the longest lag but highest precision for evaluating whether the agent is influencing availability decisions. Passenger cancellations correlate with driver availability in that zone in the preceding 15 minutes: when wait time exceeds the passenger's tolerance threshold, cancellation probability rises non-linearly. An operator who uses the agent to identify zones at risk of falling below the critical availability threshold and acts preventively reduces cancellations in those zones with a 10-15 day lag — enough time for the decision change in coverage to translate into panel data.",
+        "pt": "A taxa de cancelamento por zona é o indicador com maior latência, mas maior precisão, para avaliar se o agente está influenciando decisões de disponibilidade. Os cancelamentos de passageiros se correlacionam com a disponibilidade de motoristas naquela zona nos 15 minutos anteriores: quando o tempo de espera ultrapassa o limite de tolerância do passageiro, a probabilidade de cancelamento sobe de forma não linear. Um operador que usa o agente para identificar zonas em risco de cair abaixo do limite crítico de disponibilidade e age preventivamente reduz os cancelamentos nessas zonas com um lag de 10-15 dias — tempo suficiente para que a mudança de decisões na cobertura se traduza em dados do painel."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "La forma de medir este indicador correctamente es comparar las tasas de cancelación por zona del período de 30 días anterior a la integración real del agente con las del período 30-60 días posterior. El movimiento relevante no es la tasa agregada — que puede fluctuar por razones externas — sino las zonas donde la tasa era alta y consistente y donde el agente identificó brechas de cobertura recurrentes que el operador corrigió. Esas zonas específicas deben mostrar una reducción de entre el 10% y el 20% en la tasa de cancelación. Si no la muestran, el diagnóstico es que el agente está siendo consultado pero sus diagnósticos de cobertura no están llegando a la toma de decisiones en tiempo real.",
-        "en": "The right way to measure this indicator is to compare zone-level cancellation rates from the 30-day period before genuine agent integration with rates from the 30-60 days after. The relevant movement isn't the aggregate rate — which can fluctuate for external reasons — but the specific zones where the rate was high and consistent and where the agent identified recurring coverage gaps the operator acted on. Those specific zones should show a 10%-20% reduction in cancellation rate. If they don't, the diagnostic is that the agent is being consulted but its coverage diagnostics aren't reaching real-time decision-making."
+        "en": "The right way to measure this indicator is to compare zone-level cancellation rates from the 30-day period before genuine agent integration with rates from the 30-60 days after. The relevant movement isn't the aggregate rate — which can fluctuate for external reasons — but the specific zones where the rate was high and consistent and where the agent identified recurring coverage gaps the operator acted on. Those specific zones should show a 10%-20% reduction in cancellation rate. If they don't, the diagnostic is that the agent is being consulted but its coverage diagnostics aren't reaching real-time decision-making.",
+        "pt": "A forma de medir esse indicador corretamente é comparar as taxas de cancelamento por zona do período de 30 dias anterior à integração real do agente com as do período de 30-60 dias posterior. O movimento relevante não é a taxa agregada — que pode oscilar por razões externas — mas as zonas onde a taxa era alta e consistente e onde o agente identificou lacunas de cobertura recorrentes que o operador corrigiu. Essas zonas específicas devem mostrar uma redução de entre 10% e 20% na taxa de cancelamento. Se não a mostram, o diagnóstico é que o agente está sendo consultado, mas seus diagnósticos de cobertura não estão chegando à tomada de decisões em tempo real."
       }
     },
     {
@@ -136,21 +161,24 @@
       "id": "timing-incentivos-impacto-economico",
       "text": {
         "es": "Timing de incentivos: el indicador con impacto económico más directo",
-        "en": "Incentive timing: the indicator with the most direct economic impact"
+        "en": "Incentive timing: the indicator with the most direct economic impact",
+        "pt": "Timing de incentivos: o indicador com impacto econômico mais direto"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "El timing de activación de incentivos es el indicador con el impacto económico más claro y más fácil de medir antes y después de la integración del agente. En operaciones sin agente, los bonos de demanda tienden a activarse de forma reactiva: el coordinador detecta que la demanda supera la oferta y activa el incentivo cuando el pico ya empezó. El resultado es que el bono captura el final del pico, no el inicio — los viajes que se pierden en los primeros 20 minutos porque los conductores aún no se redistribuyeron hacia las zonas de alta demanda son irrecuperables y no se benefician del incentivo.",
-        "en": "Incentive activation timing is the indicator with the clearest and most easily measured economic impact before and after agent integration. In operations without an agent, demand bonuses tend to be activated reactively: the coordinator detects that demand is exceeding supply and activates the incentive after the peak has already started. The result is that the bonus captures the tail of the peak, not its start — the trips lost in the first 20 minutes because drivers haven't yet redistributed toward high-demand zones are unrecoverable and don't benefit from the incentive."
+        "en": "Incentive activation timing is the indicator with the clearest and most easily measured economic impact before and after agent integration. In operations without an agent, demand bonuses tend to be activated reactively: the coordinator detects that demand is exceeding supply and activates the incentive after the peak has already started. The result is that the bonus captures the tail of the peak, not its start — the trips lost in the first 20 minutes because drivers haven't yet redistributed toward high-demand zones are unrecoverable and don't benefit from the incentive.",
+        "pt": "O timing de ativação de incentivos é o indicador com o impacto econômico mais claro e mais fácil de medir antes e depois da integração do agente. Em operações sem agente, os bônus de demanda tendem a ser ativados de forma reativa: o coordenador detecta que a demanda supera a oferta e ativa o incentivo quando o pico já começou. O resultado é que o bônus captura o fim do pico, não o início — as corridas perdidas nos primeiros 20 minutos porque os motoristas ainda não se redistribuíram para as zonas de alta demanda são irrecuperáveis e não se beneficiam do incentivo."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "Cuando el agente está integrado en las decisiones de incentivos, el patrón cambia: los bonos se activan antes del pico proyectado porque el agente identifica la señal de demanda anticipada — patrones históricos de turnos similares combinados con los datos actuales de disponibilidad — y el coordinador actúa sobre esa proyección antes de que el pico se materialice. La métrica que refleja ese cambio es el ratio de viajes capturados por unidad monetaria de incentivo: si mejora entre el 12% y el 18% en las primeras ocho semanas de integración real, el timing está mejorando y el agente está influyendo en esa decisión. Si no se mueve, el agente no está integrado en el flujo de activación de incentivos.",
-        "en": "When the agent is integrated into incentive decisions, the pattern shifts: bonuses are activated before the projected peak because the agent identifies the anticipatory demand signal — historical patterns from similar shifts combined with current availability data — and the coordinator acts on that projection before the peak materializes. The metric that reflects that change is the ratio of trips captured per monetary unit of incentive: if it improves 12%-18% in the first eight weeks of genuine integration, timing is improving and the agent is influencing that decision. If it doesn't move, the agent isn't embedded in the incentive activation workflow."
+        "en": "When the agent is integrated into incentive decisions, the pattern shifts: bonuses are activated before the projected peak because the agent identifies the anticipatory demand signal — historical patterns from similar shifts combined with current availability data — and the coordinator acts on that projection before the peak materializes. The metric that reflects that change is the ratio of trips captured per monetary unit of incentive: if it improves 12%-18% in the first eight weeks of genuine integration, timing is improving and the agent is influencing that decision. If it doesn't move, the agent isn't embedded in the incentive activation workflow.",
+        "pt": "Quando o agente está integrado às decisões de incentivos, o padrão muda: os bônus são ativados antes do pico projetado porque o agente identifica o sinal de demanda antecipada — padrões históricos de turnos semelhantes combinados com os dados atuais de disponibilidade — e o coordenador age sobre essa projeção antes de o pico se materializar. A métrica que reflete essa mudança é a razão de corridas capturadas por unidade monetária de incentivo: se melhora entre 12% e 18% nas primeiras oito semanas de integração real, o timing está melhorando e o agente está influenciando essa decisão. Se não se move, o agente não está integrado ao fluxo de ativação de incentivos."
       }
     },
     {
@@ -159,32 +187,37 @@
       "id": "tiempo-diagnostico-incidencias-reduccion",
       "text": {
         "es": "Tiempo de diagnóstico en incidencias: la reducción que el contexto produce",
-        "en": "Incident diagnostic time: the reduction that context depth produces"
+        "en": "Incident diagnostic time: the reduction that context depth produces",
+        "pt": "Tempo de diagnóstico em incidentes: a redução que a profundidade de contexto produz"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "El tiempo de diagnóstico en incidencias — el período entre que el coordinador detecta una incidencia y toma la primera decisión accionable — es el indicador más sensible a la calidad de la capa de contexto del operador. En incidencias recurrentes como una zona sin conductores disponibles durante 20 minutos en alta demanda o un conductor con patrón de cancelaciones ese día, el agente con historial de resoluciones previas reduce ese tiempo de 10-15 minutos a 2-3 minutos. La condición es que el archivo de convenciones del operador incluya las resoluciones de incidencias pasadas junto con el contexto que las produjo, no solo el estado actual de la operación.",
-        "en": "Incident diagnostic time — the period between the coordinator detecting an incident and making the first actionable decision — is the indicator most sensitive to the quality of the operator's context layer. In recurring incidents like a zone without available drivers for 20 minutes during peak demand or a driver showing a cancellation pattern that day, the agent with a history of prior resolutions reduces that time from 10-15 minutes to 2-3 minutes. The condition is that the operator conventions file includes prior incident resolutions alongside the context that produced them, not just current operation status."
+        "en": "Incident diagnostic time — the period between the coordinator detecting an incident and making the first actionable decision — is the indicator most sensitive to the quality of the operator's context layer. In recurring incidents like a zone without available drivers for 20 minutes during peak demand or a driver showing a cancellation pattern that day, the agent with a history of prior resolutions reduces that time from 10-15 minutes to 2-3 minutes. The condition is that the operator conventions file includes prior incident resolutions alongside the context that produced them, not just current operation status.",
+        "pt": "O tempo de diagnóstico em incidentes — o período entre o coordenador detectar um incidente e tomar a primeira decisão acionável — é o indicador mais sensível à qualidade da camada de contexto do operador. Em incidentes recorrentes como uma zona sem motoristas disponíveis durante 20 minutos em alta demanda ou um motorista com padrão de cancelamentos naquele dia, o agente com histórico de resoluções anteriores reduz esse tempo de 10-15 minutos para 2-3 minutos. A condição é que o arquivo de convenções do operador inclua as resoluções de incidentes passados junto com o contexto que os produziu, não apenas o estado atual da operação."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "Un agente con acceso al historial de la operación pero sin las resoluciones documentadas produce diagnósticos desde cero para incidencias que el operador ya resolvió antes — el tiempo de respuesta no cambia porque la información relevante no está en el contexto activo. Este indicador es especialmente útil para identificar si la capa de convenciones del operador está bien construida: si el tiempo de diagnóstico en incidencias recurrentes no ha mejorado después de ocho semanas de integración, la causa es casi siempre la misma — falta de resoluciones documentadas en el archivo del operador, no un problema con el agente en sí.",
-        "en": "An agent with access to operation history but without documented resolutions produces fresh diagnoses for incidents the operator has already resolved before — response time doesn't change because the relevant information isn't in active context. This indicator is especially useful for identifying whether the operator context layer is well-built: if diagnostic time for recurring incidents hasn't improved after eight weeks of integration, the cause is almost always the same — missing documented resolutions in the operator file, not a problem with the agent itself."
+        "en": "An agent with access to operation history but without documented resolutions produces fresh diagnoses for incidents the operator has already resolved before — response time doesn't change because the relevant information isn't in active context. This indicator is especially useful for identifying whether the operator context layer is well-built: if diagnostic time for recurring incidents hasn't improved after eight weeks of integration, the cause is almost always the same — missing documented resolutions in the operator file, not a problem with the agent itself.",
+        "pt": "Um agente com acesso ao histórico da operação mas sem as resoluções documentadas produz diagnósticos do zero para incidentes que o operador já resolveu antes — o tempo de resposta não muda porque a informação relevante não está no contexto ativo. Este indicador é especialmente útil para identificar se a camada de convenções do operador está bem construída: se o tempo de diagnóstico em incidentes recorrentes não melhorou depois de oito semanas de integração, a causa é quase sempre a mesma — falta de resoluções documentadas no arquivo do operador, não um problema com o agente em si."
       }
     },
     {
       "type": "quote",
       "text": {
         "es": "A los dos meses empecé a preguntarme si el agente estaba haciendo algo o si solo respondía preguntas que yo me hacía de todas formas. Lo que me aclaró el panorama fue comparar las zonas donde la cancelación había bajado con las zonas donde le había pedido al agente que me ayudara a cerrar brechas de cobertura. Coincidían casi exactamente.",
-        "en": "Two months in I started wondering if the agent was actually doing anything or just answering questions I would have asked anyway. What cleared that up was comparing the zones where cancellations had dropped with the zones where I'd used the agent to close coverage gaps. They matched almost exactly."
+        "en": "Two months in I started wondering if the agent was actually doing anything or just answering questions I would have asked anyway. What cleared that up was comparing the zones where cancellations had dropped with the zones where I'd used the agent to close coverage gaps. They matched almost exactly.",
+        "pt": "Aos dois meses comecei a me perguntar se o agente estava fazendo algo ou se só respondia perguntas que eu me faria de qualquer forma. O que esclareceu o cenário foi comparar as zonas onde o cancelamento tinha caído com as zonas onde eu havia pedido ao agente que me ajudasse a fechar lacunas de cobertura. Coincidiam quase exatamente."
       },
       "attribution": {
         "es": "Operador con 140 conductores activos en dos ciudades del noroeste de México",
-        "en": "Operator with 140 active drivers across two cities in northwestern Mexico"
+        "en": "Operator with 140 active drivers across two cities in northwestern Mexico",
+        "pt": "Operador com 140 motoristas ativos em duas cidades do noroeste do México"
       }
     },
     {
@@ -193,21 +226,24 @@
       "id": "revision-90-dias-señal-vs-ruido",
       "text": {
         "es": "Los 90 días: cómo revisar si el agente está integrado en las decisiones",
-        "en": "The 90-day mark: how to review whether the agent is embedded in decisions"
+        "en": "The 90-day mark: how to review whether the agent is embedded in decisions",
+        "pt": "Os 90 dias: como revisar se o agente está integrado às decisões"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "A los 90 días de uso, la revisión más productiva no es cuántas consultas se hicieron al agente sino cuáles de los indicadores anteriores se han movido y en cuánto. Un operador que a los 90 días tiene mejor cobertura mínima del turno, reducción de cancelaciones en zonas de riesgo e incentivos que se activan antes del pico tiene evidencia de que el agente está integrado en las decisiones que determinan el resultado operativo. Un operador con frecuencia de uso alta pero ninguno de esos indicadores movido tiene el diagnóstico opuesto: el agente está respondiendo preguntas, pero sus respuestas no están llegando al momento en que se toma la decisión.",
-        "en": "At 90 days of use, the most productive review isn't how many queries were sent to the agent but which of the above indicators have shifted and by how much. An operator who at 90 days has better minimum shift coverage, reduced cancellations in risk zones, and incentives activating before peaks has evidence that the agent is integrated into the decisions that determine operational outcomes. An operator with high usage frequency but none of those indicators shifted has the opposite diagnosis: the agent is answering questions, but its answers aren't reaching the moment when decisions are actually made."
+        "en": "At 90 days of use, the most productive review isn't how many queries were sent to the agent but which of the above indicators have shifted and by how much. An operator who at 90 days has better minimum shift coverage, reduced cancellations in risk zones, and incentives activating before peaks has evidence that the agent is integrated into the decisions that determine operational outcomes. An operator with high usage frequency but none of those indicators shifted has the opposite diagnosis: the agent is answering questions, but its answers aren't reaching the moment when decisions are actually made.",
+        "pt": "Aos 90 dias de uso, a revisão mais produtiva não é quantas consultas foram feitas ao agente, mas quais dos indicadores anteriores se moveram e em quanto. Um operador que aos 90 dias tem melhor cobertura mínima do turno, redução de cancelamentos em zonas de risco e incentivos que se ativam antes do pico tem evidência de que o agente está integrado às decisões que determinam o resultado operacional. Um operador com frequência de uso alta mas nenhum desses indicadores movido tem o diagnóstico oposto: o agente está respondendo perguntas, mas suas respostas não estão chegando ao momento em que a decisão é tomada."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "Si ningún indicador ha movido, el siguiente paso es identificar cuál de las siguientes causas explica el resultado. No todas son equivalentes ni se resuelven de la misma forma:",
-        "en": "If no indicator has moved, the next step is to identify which of the following causes explains the result. Not all are equivalent or resolved the same way:"
+        "en": "If no indicator has moved, the next step is to identify which of the following causes explains the result. Not all are equivalent or resolved the same way:",
+        "pt": "Se nenhum indicador se moveu, o próximo passo é identificar qual das seguintes causas explica o resultado. Nem todas são equivalentes nem se resolvem da mesma forma:"
       }
     },
     {
@@ -225,6 +261,12 @@
           "**The operator context layer has no operation-specific thresholds**: the agent produces generic diagnostics because it has no local reference point — it knows what data the operation has but not what's normal for that operation in that city",
           "**Recurring incident resolutions aren't documented**: the agent treats as new every incident the operator has already resolved — diagnostic time doesn't improve because the relevant context isn't in the operator file",
           "**The coordinator's workflow doesn't include the agent before critical decisions**: the agent is consulted in end-of-shift review but not at shift start or in the incentive decision window — integration is informational, not decisional"
+        ],
+        "pt": [
+          "**O agente é usado no pós-turno, não nos momentos de decisão**: a informação chega quando a decisão já foi tomada — o diagnóstico do agente está correto, mas chega tarde demais para ser acionável no turno que já passou",
+          "**A camada de contexto do operador não tem limiares específicos**: o agente produz diagnósticos genéricos porque não tem o ponto de referência local — sabe quais dados a operação tem, mas não o que é normal para aquela operação naquela cidade",
+          "**As resoluções de incidentes recorrentes não estão documentadas**: o agente trata como novo cada incidente que o operador já resolveu — o tempo de diagnóstico não melhora porque o contexto relevante não está no arquivo do operador",
+          "**O workflow do coordenador não inclui o agente antes das decisões críticas**: o agente é consultado na revisão de fim de turno, mas não no início do turno nem na janela de decisão de incentivos — a integração é informativa, não decisória"
         ]
       }
     },
@@ -232,40 +274,47 @@
       "type": "paragraph",
       "text": {
         "es": "Los 90 días son el umbral donde se distingue la integración real del uso inicial. Antes de ese punto, cualquier herramienta nueva produce mejoras aparentes por el efecto de mayor atención del equipo. Después, lo que permanece es lo que ha cambiado los números que importan — y los indicadores de cobertura, cancelaciones, timing de incentivos y diagnóstico de incidencias son las señales que revelan si el agente está influyendo en las decisiones o solo respondiendo consultas entre una decisión y la siguiente.",
-        "en": "The 90-day mark is where genuine integration is distinguished from initial adoption. Before that point, any new tool produces apparent improvements from the effect of increased team attention. After it, what remains is what has actually moved the numbers that matter — and the indicators of coverage, cancellation rates, incentive timing, and incident diagnostics are the signals that reveal whether the agent is influencing decisions or just answering queries between one decision and the next."
+        "en": "The 90-day mark is where genuine integration is distinguished from initial adoption. Before that point, any new tool produces apparent improvements from the effect of increased team attention. After it, what remains is what has actually moved the numbers that matter — and the indicators of coverage, cancellation rates, incentive timing, and incident diagnostics are the signals that reveal whether the agent is influencing decisions or just answering queries between one decision and the next.",
+        "pt": "Os 90 dias são o marco em que se distingue a integração real do uso inicial. Antes desse ponto, qualquer ferramenta nova produz melhorias aparentes pelo efeito da maior atenção da equipe. Depois, o que permanece é o que mudou os números que importam — e os indicadores de cobertura, cancelamentos, timing de incentivos e diagnóstico de incidentes são os sinais que revelam se o agente está influenciando as decisões ou apenas respondendo consultas entre uma decisão e a seguinte."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "Los operadores que llegan a ese umbral con señales claras en tres o más de esos indicadores han construido algo que no se puede replicar rápidamente: un flujo de trabajo donde el contexto acumulado del agente produce diagnósticos más precisos con cada turno. Los que aún no tienen esas señales tienen un diagnóstico preciso de dónde empezar — no en usar más el agente, sino en integrarlo antes de los momentos de decisión que esos indicadores reflejan. Eso es una iteración de semanas, no un cambio de herramienta, y es exactamente el tipo de ajuste que los indicadores hacen visible cuando se saben leer.",
-        "en": "Operators who reach that threshold with clear signals on three or more of those indicators have built something that can't be quickly replicated: a workflow where the agent's accumulated context produces more precise diagnostics with each shift. Those who don't yet have those signals have a precise diagnostic of where to start — not in using the agent more, but in integrating it before the decision moments those indicators reflect. That's an iteration of weeks, not a tool change, and it's exactly the kind of adjustment the indicators make visible when you know how to read them."
+        "en": "Operators who reach that threshold with clear signals on three or more of those indicators have built something that can't be quickly replicated: a workflow where the agent's accumulated context produces more precise diagnostics with each shift. Those who don't yet have those signals have a precise diagnostic of where to start — not in using the agent more, but in integrating it before the decision moments those indicators reflect. That's an iteration of weeks, not a tool change, and it's exactly the kind of adjustment the indicators make visible when you know how to read them.",
+        "pt": "Os operadores que chegam a esse marco com sinais claros em três ou mais desses indicadores construíram algo que não se pode replicar rapidamente: um fluxo de trabalho em que o contexto acumulado do agente produz diagnósticos mais precisos a cada turno. Os que ainda não têm esses sinais têm um diagnóstico preciso de por onde começar — não em usar mais o agente, mas em integrá-lo antes dos momentos de decisão que esses indicadores refletem. Isso é uma iteração de semanas, não uma troca de ferramenta, e é exatamente o tipo de ajuste que os indicadores tornam visível quando se sabe lê-los."
       }
     }
   ],
   "cta": {
     "heading": {
       "es": "¿Listo para lanzar tu propia app de movilidad?",
-      "en": "Ready to launch your own mobility app?"
+      "en": "Ready to launch your own mobility app?",
+      "pt": "Pronto para lançar seu próprio app de mobilidade?"
     },
     "body": {
       "es": "Configura tu marca, tus tarifas y tus servicios en semanas, no en meses. Cabgo te entrega la plataforma; tú te quedas con la operación, los clientes y los ingresos.",
-      "en": "Set up your brand, pricing and services in weeks, not months. Cabgo ships the platform — you keep the operation, the customers and the revenue."
+      "en": "Set up your brand, pricing and services in weeks, not months. Cabgo ships the platform — you keep the operation, the customers and the revenue.",
+      "pt": "Configure sua marca, suas tarifas e seus serviços em semanas, não em meses. O Cabgo entrega a plataforma; você fica com a operação, os clientes e a receita."
     },
     "buttonLabel": {
       "es": "Comenzar con Cabgo",
-      "en": "Get started with Cabgo"
+      "en": "Get started with Cabgo",
+      "pt": "Começar com o Cabgo"
     },
     "buttonHref": "/empezar"
   },
   "seo": {
     "metaTitle": {
       "es": "Medir el impacto del agente: indicadores en 90 días | Cabgo",
-      "en": "Measuring AI agent impact: 90-day indicators | Cabgo"
+      "en": "Measuring AI agent impact: 90-day indicators | Cabgo",
+      "pt": "Medir o impacto do agente: indicadores em 90 dias | Cabgo"
     },
     "metaDescription": {
       "es": "Cobertura mínima, cancelaciones por zona y timing de incentivos: los indicadores que se mueven en 90 días cuando el agente está integrado en las decisiones.",
-      "en": "Coverage floor, zone cancellations, and incentive timing: the operational signals that shift in 90 days when the AI agent is embedded in operational decisions."
+      "en": "Coverage floor, zone cancellations, and incentive timing: the operational signals that shift in 90 days when the AI agent is embedded in operational decisions.",
+      "pt": "Cobertura mínima, cancelamentos por zona e timing de incentivos: os indicadores que se movem em 90 dias quando o agente está integrado às decisões."
     }
   }
 }

@@ -3,16 +3,19 @@
   "category": "product",
   "title": {
     "es": "Retención de pasajeros nuevos: la ventana de 7 días que decide si la app se queda o se borra",
-    "en": "New passenger retention: the 7-day window that decides if the app stays or gets deleted"
+    "en": "New passenger retention: the 7-day window that decides if the app stays or gets deleted",
+    "pt": "Retenção de passageiros novos: a janela de 7 dias que decide se o aplicativo fica ou é apagado"
   },
   "excerpt": {
     "es": "Entre el 45 y el 60% de los pasajeros que completan su primer viaje en una plataforma regional no hacen un segundo en los siguientes 30 días. El problema rara vez está en el servicio — está en lo que el operador no hace en las 48 horas posteriores al primer viaje.",
-    "en": "Between 45 and 60 percent of passengers who complete their first trip on a regional platform don't take a second one within the next 30 days. The problem is rarely the service itself — it's what the operator doesn't do in the 48 hours after that first trip."
+    "en": "Between 45 and 60 percent of passengers who complete their first trip on a regional platform don't take a second one within the next 30 days. The problem is rarely the service itself — it's what the operator doesn't do in the 48 hours after that first trip.",
+    "pt": "Entre 45% e 60% dos passageiros que fazem a primeira corrida em uma plataforma regional não fazem uma segunda nos 30 dias seguintes. O problema raramente está no serviço — está no que o operador deixa de fazer nas 48 horas depois da primeira corrida."
   },
   "heroImage": "https://raw.githubusercontent.com/jonatanvazquez/cabgo-blog-content/main/images/retencion-pasajeros-primeros-viajes-regional.jpg",
   "heroImageAlt": {
     "es": "Ilustración isométrica de retención de pasajeros en ride-hailing regional: smartphone con primer viaje completado y valoración de 4 estrellas a la izquierda, panel central de embudo mostrando 55% de pasajeros perdidos en ámbar y 45% retenidos en verde azulado, y línea de tiempo de tres momentos clave de fricción a la derecha",
-    "en": "Isometric passenger retention illustration for regional ride-hailing: smartphone with first completed trip and 4-star rating on the left, central funnel panel showing 55% lost passengers in amber and 45% retained in teal, and three-moment friction timeline on the right"
+    "en": "Isometric passenger retention illustration for regional ride-hailing: smartphone with first completed trip and 4-star rating on the left, central funnel panel showing 55% lost passengers in amber and 45% retained in teal, and three-moment friction timeline on the right",
+    "pt": "Ilustração isométrica de retenção de passageiros em transporte por aplicativo regional: smartphone com a primeira corrida concluída e avaliação de 4 estrelas à esquerda, painel central de funil mostrando 55% de passageiros perdidos em âmbar e 45% retidos em verde-azulado, e linha do tempo de três momentos-chave de fricção à direita"
   },
   "heroImagePrompt": "Isometric split composition showing passenger retention analytics for a regional ride-hailing operation. On the left, a smartphone screen displaying a completed first trip summary with a 4-star rating prompt and a teal 'Thank you for riding' confirmation card. In the center foreground, a floating vertical funnel panel: five small rider silhouette icons at the top narrowing down to two teal active rider icons at the bottom, with a '45% returned' teal label on the right side and a '55% lost' amber label with small exit arrows on the left side. On the right, a slim vertical timeline showing three friction moments: a clock icon with a 4-minute wait marker and a green checkmark, a receipt icon with a matching price estimate and final charge both in green, and a speech-bubble icon with a 3-star rating and a small team reply message in teal below it. In the background, a low-rise regional city street with two small vehicles and a few pedestrian figures.",
   "publishedAt": "2026-05-29",
@@ -35,38 +38,53 @@
       "why passengers don't return mobility app",
       "retain passengers ride-hailing local operator",
       "passenger retention rate transport platform"
+    ],
+    "pt": [
+      "retenção passageiros transporte por aplicativo regional",
+      "ativação usuário novo aplicativo mobilidade",
+      "churn passageiros primeira semana plataforma táxi",
+      "segunda corrida passageiro operação regional LATAM",
+      "por que os passageiros não voltam app mobilidade",
+      "reter usuários transporte por aplicativo operador local",
+      "taxa retenção passageiros plataforma transporte"
     ]
   },
   "author": {
     "name": "Equipo Cabgo",
     "role": {
       "es": "Plataforma de movilidad",
-      "en": "Mobility platform"
+      "en": "Mobility platform",
+      "pt": "Plataforma de mobilidade"
     }
   },
   "cta": {
     "heading": {
       "es": "¿Listo para lanzar tu propia app de movilidad?",
-      "en": "Ready to launch your own mobility app?"
+      "en": "Ready to launch your own mobility app?",
+      "pt": "Pronto para lançar seu próprio app de mobilidade?"
     },
     "body": {
       "es": "Configura tu marca, tus tarifas y tus servicios en semanas, no en meses. Cabgo te entrega la plataforma, tú te quedas con la operación y la marca.",
-      "en": "Set up your brand, pricing and services in weeks, not months. Cabgo ships the platform — you keep the operation and the brand."
+      "en": "Set up your brand, pricing and services in weeks, not months. Cabgo ships the platform — you keep the operation and the brand.",
+      "pt": "Configure sua marca, suas tarifas e seus serviços em semanas, não em meses. A Cabgo entrega a plataforma, você fica com a operação e a marca."
     },
     "buttonLabel": {
       "es": "Empezar ahora",
-      "en": "Get started"
+      "en": "Get started",
+      "pt": "Começar agora"
     },
     "buttonHref": "/empezar"
   },
   "seo": {
     "metaTitle": {
       "es": "Retención de pasajeros en ride-hailing regional | Cabgo",
-      "en": "Passenger retention in regional ride-hailing | Cabgo"
+      "en": "Passenger retention in regional ride-hailing | Cabgo",
+      "pt": "Retenção de passageiros em ride-hailing | Cabgo"
     },
     "metaDescription": {
       "es": "Cómo reducir el churn de pasajeros después del primer viaje: tres momentos críticos e intervenciones que funcionan en operaciones regionales de ride-hailing.",
-      "en": "How to reduce passenger churn after the first trip in regional ride-hailing: the three critical moments and which interventions actually work."
+      "en": "How to reduce passenger churn after the first trip in regional ride-hailing: the three critical moments and which interventions actually work.",
+      "pt": "Como reduzir o churn de passageiros após a primeira corrida: três momentos críticos e intervenções que funcionam em operações regionais de ride-hailing."
     }
   },
   "blocks": [
@@ -74,14 +92,16 @@
       "type": "paragraph",
       "text": {
         "es": "El operador que invierte en calidad de servicio — conductores verificados, flota mantenida, tiempos de respuesta dentro del objetivo — asume que eso es suficiente para construir una base de pasajeros activa y creciente. Los números de las operaciones regionales en LATAM dicen otra cosa: entre el 45 y el 60% de los pasajeros que completan su primer viaje en una plataforma local no hacen un segundo dentro de los 30 días siguientes. Esa cifra no indica que el servicio fue malo — indica que no hubo un motivo activo para volver. La brecha entre el primer viaje y el hábito de uso no se cierra sola, y tampoco se cierra solo con más publicidad: requiere entender dónde se pierde al pasajero nuevo y qué acciones específicas cambian esa probabilidad en la primera semana después del primer contacto.",
-        "en": "The operator who invests in service quality — verified drivers, maintained fleet, response times within target — typically assumes that's enough to build an active and growing passenger base. Regional operation data from LATAM tells a different story: between 45 and 60 percent of passengers who complete their first trip on a local platform don't take a second one within the following 30 days. That number doesn't indicate the service was bad — it indicates there was no active reason to return. The gap between a first trip and a usage habit doesn't close by itself, and it doesn't close through more advertising either: it requires understanding where the new passenger is lost and which specific actions shift that probability within the first week after the initial contact."
+        "en": "The operator who invests in service quality — verified drivers, maintained fleet, response times within target — typically assumes that's enough to build an active and growing passenger base. Regional operation data from LATAM tells a different story: between 45 and 60 percent of passengers who complete their first trip on a local platform don't take a second one within the following 30 days. That number doesn't indicate the service was bad — it indicates there was no active reason to return. The gap between a first trip and a usage habit doesn't close by itself, and it doesn't close through more advertising either: it requires understanding where the new passenger is lost and which specific actions shift that probability within the first week after the initial contact.",
+        "pt": "O operador que investe em qualidade de serviço — motoristas verificados, frota mantida, tempos de resposta dentro da meta — supõe que isso basta para construir uma base de passageiros ativa e crescente. Os números das operações regionais na América Latina dizem outra coisa: entre 45% e 60% dos passageiros que concluem a primeira corrida em uma plataforma local não fazem uma segunda dentro dos 30 dias seguintes. Esse número não indica que o serviço foi ruim — indica que não houve um motivo ativo para voltar. A distância entre a primeira corrida e o hábito de uso não se fecha sozinha, e também não se fecha só com mais publicidade: exige entender onde o passageiro novo é perdido e quais ações específicas mudam essa probabilidade na primeira semana depois do primeiro contato."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "Este artículo es para operadores con una operación activa que saben cuántos usuarios nuevos adquieren por mes pero no están midiendo qué porcentaje de esos usuarios hace un segundo viaje en los siguientes 7 días y un tercero en los siguientes 30. La retención de pasajeros en esa ventana temprana es la métrica más predictiva de si la operación está construyendo una base de usuarios durable o si está en un ciclo permanente de adquisición para compensar a los que no regresan. El operador que reduce el churn en los primeros 30 días no solo mejora el retorno sobre su inversión en adquisición — construye la base de usuarios que ningún competidor externo puede arrebatarle con un mes de descuentos.",
-        "en": "This article is for operators with an active operation who know how many new users they acquire per month but aren't measuring what percentage of those users takes a second trip within the following 7 days and a third within the next 30. Passenger retention in that early window is the most predictive metric of whether the operation is building a durable user base or staying in a permanent acquisition cycle to compensate for users who don't return. The operator who reduces churn in the first 30 days doesn't just improve the return on their acquisition investment — they build the user base that no external competitor can take away with a month of discounts."
+        "en": "This article is for operators with an active operation who know how many new users they acquire per month but aren't measuring what percentage of those users takes a second trip within the following 7 days and a third within the next 30. Passenger retention in that early window is the most predictive metric of whether the operation is building a durable user base or staying in a permanent acquisition cycle to compensate for users who don't return. The operator who reduces churn in the first 30 days doesn't just improve the return on their acquisition investment — they build the user base that no external competitor can take away with a month of discounts.",
+        "pt": "Este artigo é para operadores com uma operação ativa que sabem quantos usuários novos captam por mês, mas não estão medindo qual porcentagem desses usuários faz uma segunda corrida nos 7 dias seguintes e uma terceira nos 30 dias seguintes. A retenção de passageiros nessa janela inicial é a métrica mais preditiva de se a operação está construindo uma base de usuários durável ou se está em um ciclo permanente de captação para compensar os que não voltam. O operador que reduz o churn nos primeiros 30 dias não só melhora o retorno sobre o investimento em captação — constrói a base de usuários que nenhum concorrente externo pode tirar dele com um mês de descontos."
       }
     },
     {
@@ -90,21 +110,24 @@
       "id": "primer-viaje-diagnostico-operacion",
       "text": {
         "es": "El primer viaje como diagnóstico en tiempo real de tu operación",
-        "en": "The first trip as a real-time diagnostic of your operation"
+        "en": "The first trip as a real-time diagnostic of your operation",
+        "pt": "A primeira corrida como diagnóstico em tempo real da sua operação"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "El primer viaje de un pasajero nuevo es el único momento en que no tiene expectativas calibradas sobre tu plataforma. No sabe con precisión cuánto tiempo esperará, cómo se comportará el conductor, ni si el precio final va a coincidir exactamente con el estimado que vio antes de confirmar. Esa incertidumbre amplifica tanto las experiencias positivas como las negativas: un primer viaje que supera las expectativas genera una probabilidad de segundo viaje entre dos y tres veces mayor que el promedio de la flota; un primer viaje que defrauda en cualquier punto de fricción — por pequeño que sea el incidente — tiene una tasa de abandono permanente de entre el 50 y el 70%. El pasajero no necesita una experiencia terrible para no volver: le basta con una experiencia indiferente en un contexto donde tiene otras opciones disponibles.",
-        "en": "The first trip of a new passenger is the only moment they have no calibrated expectations about your platform. They don't know exactly how long they'll wait, how the driver will behave, or whether the final price will precisely match the estimate they saw before confirming. That uncertainty amplifies both positive and negative experiences: a first trip that exceeds expectations generates a probability of a second trip two to three times higher than the fleet average; a first trip that disappoints at any friction point — however small the incident — carries a permanent abandonment rate of between 50 and 70 percent. The passenger doesn't need a terrible experience to not return: an indifferent one in a context where they have other options available is enough."
+        "en": "The first trip of a new passenger is the only moment they have no calibrated expectations about your platform. They don't know exactly how long they'll wait, how the driver will behave, or whether the final price will precisely match the estimate they saw before confirming. That uncertainty amplifies both positive and negative experiences: a first trip that exceeds expectations generates a probability of a second trip two to three times higher than the fleet average; a first trip that disappoints at any friction point — however small the incident — carries a permanent abandonment rate of between 50 and 70 percent. The passenger doesn't need a terrible experience to not return: an indifferent one in a context where they have other options available is enough.",
+        "pt": "A primeira corrida de um passageiro novo é o único momento em que ele não tem expectativas calibradas sobre a sua plataforma. Ele não sabe com precisão quanto tempo vai esperar, como o motorista vai se comportar, nem se o preço final vai coincidir exatamente com a estimativa que viu antes de confirmar. Essa incerteza amplifica tanto as experiências positivas quanto as negativas: uma primeira corrida que supera as expectativas gera uma probabilidade de segunda corrida entre duas e três vezes maior que a média da frota; uma primeira corrida que decepciona em qualquer ponto de fricção — por menor que seja o incidente — tem uma taxa de abandono permanente entre 50% e 70%. O passageiro não precisa de uma experiência terrível para não voltar: basta uma experiência indiferente em um contexto em que ele tem outras opções disponíveis."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "Los puntos de fricción más comunes en el primer viaje raramente son los que el operador monitorea con más atención. El tiempo entre la solicitud y la asignación de conductor visible en la app es la primera causa de cancelación antes de viaje: si supera los 4 minutos en horario normal en una ciudad de menos de 250,000 habitantes, la tasa de cancelación de solicitud sube entre un 25 y un 40% respecto al promedio. La diferencia entre el precio estimado al confirmar el viaje y el precio final cobrado es la segunda causa de fricción post-viaje: en condiciones normales, una diferencia superior al 10-12% genera incomodidad aunque el monto absoluto sea de pocos pesos. La tercera es el comportamiento del conductor en los primeros 90 segundos del viaje — confirmación de destino, estado del vehículo, uso visible del teléfono — que determina el tono de la interacción completa. Esos tres factores explican la mayoría del churn después de un primer viaje sin incidente grave.",
-        "en": "The most common friction points in the first trip are rarely the ones the operator monitors most closely. The time between the request and having a driver visibly assigned in the app is the leading cause of pre-trip cancellation: if it exceeds 4 minutes during normal hours in a city of under 250,000 people, the request cancellation rate rises 25 to 40 percent above average. The gap between the estimated price at confirmation and the final price charged is the second most frequent post-trip friction point: in normal conditions, a difference above 10 to 12 percent causes discomfort even when the absolute amount is small. The third is the driver's behavior in the first 90 seconds of the trip — destination confirmation, vehicle condition, visible phone use — which sets the tone for the entire interaction. Those three factors account for most of the churn after a first trip with no serious incident."
+        "en": "The most common friction points in the first trip are rarely the ones the operator monitors most closely. The time between the request and having a driver visibly assigned in the app is the leading cause of pre-trip cancellation: if it exceeds 4 minutes during normal hours in a city of under 250,000 people, the request cancellation rate rises 25 to 40 percent above average. The gap between the estimated price at confirmation and the final price charged is the second most frequent post-trip friction point: in normal conditions, a difference above 10 to 12 percent causes discomfort even when the absolute amount is small. The third is the driver's behavior in the first 90 seconds of the trip — destination confirmation, vehicle condition, visible phone use — which sets the tone for the entire interaction. Those three factors account for most of the churn after a first trip with no serious incident.",
+        "pt": "Os pontos de fricção mais comuns na primeira corrida raramente são os que o operador monitora com mais atenção. O tempo entre a solicitação e a atribuição de motorista visível no aplicativo é a primeira causa de cancelamento antes da corrida: se ultrapassa 4 minutos em horário normal em uma cidade de menos de 250.000 habitantes, a taxa de cancelamento de solicitação sobe entre 25% e 40% em relação à média. A diferença entre o preço estimado ao confirmar a corrida e o preço final cobrado é a segunda causa de fricção pós-corrida: em condições normais, uma diferença superior a 10%-12% gera desconforto ainda que o valor absoluto seja de poucos pesos. A terceira é o comportamento do motorista nos primeiros 90 segundos da corrida — confirmação do destino, estado do veículo, uso visível do celular — que define o tom da interação inteira. Esses três fatores explicam a maior parte do churn depois de uma primeira corrida sem incidente grave."
       }
     },
     {
@@ -113,21 +136,24 @@
       "id": "ventana-7-dias-pasajero-retiene-o-abandona",
       "text": {
         "es": "La ventana de 7 días: qué hace diferente al pasajero que vuelve",
-        "en": "The 7-day window: what sets apart the passenger who returns"
+        "en": "The 7-day window: what sets apart the passenger who returns",
+        "pt": "A janela de 7 dias: o que diferencia o passageiro que volta"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "En operaciones que rastrean el comportamiento por usuario desde la primera semana, hay un patrón consistente que separa a los pasajeros que se convierten en habituales de los que no regresan: el pasajero habitual hace un segundo viaje en los primeros 7 días desde el primero, frecuentemente en el mismo contexto de necesidad — el mismo recorrido, la misma franja horaria, o un viaje relacionado al original. El pasajero que no vuelve en 7 días tiene una probabilidad de retorno en los siguientes 30 días de apenas el 30 al 40%. El que no vuelve en 30 días tiene una probabilidad de retorno en los 90 días siguientes inferior al 15%. La ventana de retención activa es estrecha: si el operador no hace nada en los 7 días siguientes al primer viaje, la probabilidad de que ese pasajero se convierta en usuario habitual cae a la mitad.",
-        "en": "In operations that track per-user behavior from the first week, there is a consistent pattern separating passengers who become regulars from those who don't return: the regular passenger takes a second trip within the first 7 days of the first one, frequently in the same need context — the same route, the same time window, or a trip related to the original. The passenger who doesn't return within 7 days has a return probability over the following 30 days of only 30 to 40 percent. The one who doesn't return within 30 days has a return probability over the following 90 days below 15 percent. The active retention window is narrow: if the operator does nothing in the 7 days following the first trip, the probability of that passenger becoming a regular user drops by half."
+        "en": "In operations that track per-user behavior from the first week, there is a consistent pattern separating passengers who become regulars from those who don't return: the regular passenger takes a second trip within the first 7 days of the first one, frequently in the same need context — the same route, the same time window, or a trip related to the original. The passenger who doesn't return within 7 days has a return probability over the following 30 days of only 30 to 40 percent. The one who doesn't return within 30 days has a return probability over the following 90 days below 15 percent. The active retention window is narrow: if the operator does nothing in the 7 days following the first trip, the probability of that passenger becoming a regular user drops by half.",
+        "pt": "Em operações que acompanham o comportamento por usuário desde a primeira semana, há um padrão consistente que separa os passageiros que se tornam frequentes dos que não voltam: o passageiro frequente faz uma segunda corrida nos primeiros 7 dias após a primeira, muitas vezes no mesmo contexto de necessidade — o mesmo trajeto, a mesma faixa de horário, ou uma corrida relacionada à original. O passageiro que não volta em 7 dias tem uma probabilidade de retorno nos 30 dias seguintes de apenas 30% a 40%. O que não volta em 30 dias tem uma probabilidade de retorno nos 90 dias seguintes inferior a 15%. A janela de retenção ativa é estreita: se o operador não faz nada nos 7 dias seguintes à primeira corrida, a probabilidade de que esse passageiro se torne usuário frequente cai pela metade."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "Lo que define si el pasajero hace ese segundo viaje en la primera semana no siempre está en la calidad del primer viaje — a veces está en si el operador generó un motivo activo para volver. Un pasajero que tuvo un primer viaje correcto pero sin seguimiento tiene que acordarse por su cuenta de que la app existe la próxima vez que necesita transporte. Un pasajero que tuvo un primer viaje correcto y recibió alguna comunicación útil en las horas siguientes — confirmación del viaje, bienvenida personalizada, o un canal directo para cualquier duda — tiene más elementos de recordación que lo traen de vuelta antes de que necesite buscar otra opción. La diferencia entre los dos escenarios no está en el primer viaje: está en lo que el operador hace en las 48 a 72 horas siguientes.",
-        "en": "What determines whether the passenger takes that second trip in the first week isn't always the quality of the first trip — sometimes it's whether the operator gave them an active reason to return. A passenger who had a correct first trip but no follow-up has to remember on their own that the app exists the next time they need transport. A passenger who had a correct first trip and received some useful communication in the hours that followed — trip confirmation, personalized welcome, or a direct channel for any questions — has more recall triggers pulling them back before they need to look for another option. The difference between the two scenarios isn't in the first trip: it's in what the operator does in the following 48 to 72 hours."
+        "en": "What determines whether the passenger takes that second trip in the first week isn't always the quality of the first trip — sometimes it's whether the operator gave them an active reason to return. A passenger who had a correct first trip but no follow-up has to remember on their own that the app exists the next time they need transport. A passenger who had a correct first trip and received some useful communication in the hours that followed — trip confirmation, personalized welcome, or a direct channel for any questions — has more recall triggers pulling them back before they need to look for another option. The difference between the two scenarios isn't in the first trip: it's in what the operator does in the following 48 to 72 hours.",
+        "pt": "O que define se o passageiro faz essa segunda corrida na primeira semana nem sempre está na qualidade da primeira corrida — às vezes está em se o operador gerou um motivo ativo para voltar. Um passageiro que teve uma primeira corrida correta, mas sem acompanhamento, precisa lembrar por conta própria de que o aplicativo existe na próxima vez que precisar de transporte. Um passageiro que teve uma primeira corrida correta e recebeu alguma comunicação útil nas horas seguintes — confirmação da corrida, boas-vindas personalizadas ou um canal direto para qualquer dúvida — tem mais elementos de lembrança que o trazem de volta antes de precisar buscar outra opção. A diferença entre os dois cenários não está na primeira corrida: está no que o operador faz nas 48 a 72 horas seguintes."
       }
     },
     {
@@ -136,14 +162,16 @@
       "id": "tres-momentos-perdida-pasajero-nuevo",
       "text": {
         "es": "Los tres momentos donde el operador pierde al pasajero nuevo",
-        "en": "The three moments where the operator loses the new passenger"
+        "en": "The three moments where the operator loses the new passenger",
+        "pt": "Os três momentos em que o operador perde o passageiro novo"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "El churn de pasajeros nuevos se concentra en tres momentos específicos del ciclo de primer viaje. Cada uno tiene causas distintas e intervenciones distintas, y los tres pueden ocurrir en el mismo viaje o en distintas combinaciones según el perfil del pasajero y las condiciones de la operación ese día:",
-        "en": "New passenger churn concentrates in three specific moments of the first-trip cycle. Each has different causes and different interventions, and all three can occur in the same trip or in different combinations depending on the passenger profile and the operation's conditions that day:"
+        "en": "New passenger churn concentrates in three specific moments of the first-trip cycle. Each has different causes and different interventions, and all three can occur in the same trip or in different combinations depending on the passenger profile and the operation's conditions that day:",
+        "pt": "O churn de passageiros novos se concentra em três momentos específicos do ciclo da primeira corrida. Cada um tem causas distintas e intervenções distintas, e os três podem ocorrer na mesma corrida ou em combinações diferentes conforme o perfil do passageiro e as condições da operação naquele dia:"
       }
     },
     {
@@ -159,6 +187,11 @@
           "During the assignment wait: when the time between request and a visible driver assignment exceeds 4 minutes with no status update on screen, the request cancellation rate rises 25 to 40 percent above average. The solution isn't always more drivers — sometimes it's communicating the search process more clearly on the waiting screen so the new passenger understands the system is active and looking, not that there is no coverage in their zone.",
           "At trip close: a gap above 10 to 12 percent between the estimated price at confirmation and the final price charged creates post-trip friction the passenger rarely communicates formally but does register as a reason not to return. The same applies to routes significantly longer than the direct option with no driver explanation during the trip, which the passenger reads as poor judgment or intentional overcharging.",
           "In the 24 to 72 hours post-trip: the passenger who rated their first trip 3 stars or lower and received no contact from the team within the following 48 hours has a return probability below 18 percent over the next 30 days. Not responding to a low rating is the omission error with the highest impact on new passenger retention — and the easiest one to correct."
+        ],
+        "pt": [
+          "Na espera pela atribuição: quando o tempo entre a solicitação e a atribuição visível ultrapassa 4 minutos sem atualização de status na tela, a taxa de cancelamento de solicitação sobe entre 25% e 40% em relação à média. A solução nem sempre é mais motoristas — às vezes é comunicar o processo de busca de forma mais clara nessa tela de espera para que o passageiro novo entenda que o sistema está ativo e procurando, e não que não há cobertura na região dele.",
+          "No encerramento da corrida: uma diferença superior a 10%-12% entre o preço estimado ao confirmar e o preço final cobrado gera fricção pós-corrida que o passageiro raramente comunica formalmente, mas registra como motivo para não voltar. O mesmo vale para rotas bem mais longas que a opção direta sem comunicação do motorista durante o trajeto, o que o passageiro interpreta como falta de critério ou cobrança intencional a mais.",
+          "Nas 24 a 72 horas pós-corrida: o passageiro que avaliou a primeira corrida com 3 estrelas ou menos e não recebeu nenhum contato da equipe nas 48 horas seguintes tem uma probabilidade de retorno inferior a 18% nos 30 dias seguintes. A não resposta a uma avaliação baixa é o erro de omissão com maior impacto na retenção de passageiros novos — e o mais fácil de corrigir."
         ]
       }
     },
@@ -168,21 +201,24 @@
       "id": "descuento-segundo-viaje-no-retiene",
       "text": {
         "es": "Por qué el descuento en el segundo viaje no resuelve el churn",
-        "en": "Why the second-trip discount doesn't solve churn"
+        "en": "Why the second-trip discount doesn't solve churn",
+        "pt": "Por que o desconto na segunda corrida não resolve o churn"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "La respuesta más común cuando el operador detecta churn de pasajeros nuevos es el descuento en el segundo viaje: un código de 15 o 20% enviado a los pasajeros que no han vuelto en 7 días. El instrumento tiene un problema de fondo: atrae al pasajero sensible al precio, que viene a usar el descuento y vuelve al churn cuando termina, y no atrae al pasajero que se fue porque el primer viaje generó una percepción de calidad insuficiente. Ese pasajero tiene una razón de no-regreso que el descuento no resuelve: si esperó 6 minutos y lo interpretó como baja cobertura, el descuento no le dice que ahora tendrá mejor tiempo de asignación; si pagó más de lo estimado, el descuento no le aclara por qué ocurrió ni que no se repetirá. El descuento como herramienta de retención masiva tiene ROI bajo cuando la tasa de churn post-primer-viaje es superior al 40%, porque la mayoría de ese churn tiene causas de experiencia, no de precio.",
-        "en": "The most common response when an operator detects new passenger churn is a second-trip discount: a 15 or 20 percent code sent to passengers who haven't returned in 7 days. The instrument has a structural problem: it attracts the price-sensitive passenger, who comes back to use the discount and returns to churn once it ends, and it doesn't attract the passenger who left because the first trip generated a perception of insufficient quality. That passenger has a reason for not returning that the discount doesn't address: if they waited 6 minutes and interpreted that as low coverage, the discount doesn't tell them that wait times will be better now; if they paid more than estimated, the discount doesn't explain why it happened or that it won't repeat. Discounts as a mass retention tool have low ROI when the post-first-trip churn rate exceeds 40 percent, because most of that churn has experience-driven causes, not price-driven ones."
+        "en": "The most common response when an operator detects new passenger churn is a second-trip discount: a 15 or 20 percent code sent to passengers who haven't returned in 7 days. The instrument has a structural problem: it attracts the price-sensitive passenger, who comes back to use the discount and returns to churn once it ends, and it doesn't attract the passenger who left because the first trip generated a perception of insufficient quality. That passenger has a reason for not returning that the discount doesn't address: if they waited 6 minutes and interpreted that as low coverage, the discount doesn't tell them that wait times will be better now; if they paid more than estimated, the discount doesn't explain why it happened or that it won't repeat. Discounts as a mass retention tool have low ROI when the post-first-trip churn rate exceeds 40 percent, because most of that churn has experience-driven causes, not price-driven ones.",
+        "pt": "A resposta mais comum quando o operador detecta churn de passageiros novos é o desconto na segunda corrida: um código de 15% ou 20% enviado aos passageiros que não voltaram em 7 dias. O instrumento tem um problema de fundo: atrai o passageiro sensível ao preço, que vem usar o desconto e volta ao churn quando ele acaba, e não atrai o passageiro que saiu porque a primeira corrida gerou uma percepção de qualidade insuficiente. Esse passageiro tem uma razão de não retorno que o desconto não resolve: se esperou 6 minutos e interpretou isso como baixa cobertura, o desconto não lhe diz que agora terá um tempo de atribuição melhor; se pagou mais do que o estimado, o desconto não esclarece por que aconteceu nem que não vai se repetir. O desconto como ferramenta de retenção em massa tem ROI baixo quando a taxa de churn pós-primeira-corrida é superior a 40%, porque a maior parte desse churn tem causas de experiência, não de preço."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "El uso correcto del descuento en retención de pasajeros no es como herramienta de reactivación general — es como herramienta específica para un segmento identificado: el pasajero que tuvo un primer viaje con fricción documentada y que tiene patrón de necesidad frecuente de transporte según el contexto de esa primera solicitud. Ofrecer un descuento como parte de una conversación de recuperación personalizada — reconociendo el problema específico que ocurrió — convierte entre dos y tres veces mejor que el mismo descuento enviado de forma masiva a todos los que no regresaron en 7 días. La diferencia está en que la versión personalizada aborda la causa real del abandono, mientras que la versión masiva solo reduce la fricción de precio para pasajeros que no se fueron por el precio.",
-        "en": "The correct use of discounts in passenger retention is not as a general reactivation tool — it is as a specific tool for an identified segment: the passenger who had a first trip with documented friction and who shows a pattern of frequent transport need based on the context of that first request. Offering a discount as part of a personalized recovery conversation — acknowledging the specific problem that occurred — converts two to three times better than the same discount sent as a mass message to everyone who didn't return in 7 days. The difference is that the personalized version addresses the actual reason for abandonment, while the mass version only reduces price friction for passengers who didn't leave because of price."
+        "en": "The correct use of discounts in passenger retention is not as a general reactivation tool — it is as a specific tool for an identified segment: the passenger who had a first trip with documented friction and who shows a pattern of frequent transport need based on the context of that first request. Offering a discount as part of a personalized recovery conversation — acknowledging the specific problem that occurred — converts two to three times better than the same discount sent as a mass message to everyone who didn't return in 7 days. The difference is that the personalized version addresses the actual reason for abandonment, while the mass version only reduces price friction for passengers who didn't leave because of price.",
+        "pt": "O uso correto do desconto na retenção de passageiros não é como ferramenta de reativação geral — é como ferramenta específica para um segmento identificado: o passageiro que teve uma primeira corrida com fricção documentada e que tem um padrão de necessidade frequente de transporte segundo o contexto daquela primeira solicitação. Oferecer um desconto como parte de uma conversa de recuperação personalizada — reconhecendo o problema específico que ocorreu — converte entre duas e três vezes melhor que o mesmo desconto enviado em massa para todos os que não voltaram em 7 dias. A diferença está em que a versão personalizada aborda a causa real do abandono, enquanto a versão em massa só reduz a fricção de preço para passageiros que não saíram pelo preço."
       }
     },
     {
@@ -191,21 +227,24 @@
       "id": "medir-retencion-pasajeros-sin-equipo-datos",
       "text": {
         "es": "Cómo medir la retención de pasajeros sin equipo de datos",
-        "en": "How to measure passenger retention without a data team"
+        "en": "How to measure passenger retention without a data team",
+        "pt": "Como medir a retenção de passageiros sem equipe de dados"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "La métrica más importante para medir la retención de pasajeros nuevos no requiere un equipo de análisis: es el porcentaje de nuevos usuarios que completa un segundo viaje en los 7 días siguientes al primero. Esa métrica, calculada semanalmente para las cohortes de nuevos usuarios de cada semana, muestra con rapidez si la operación tiene un problema sistémico de retención o si el churn se concentra en segmentos específicos — por zona de origen del primer viaje, por franja horaria, por conductor asignado. Un operador con 40 a 100 nuevos usuarios por semana puede hacer ese seguimiento en una hoja de cálculo: listar los ID de usuario de nuevos registros de esa semana, marcar cuáles hicieron un segundo viaje en los siguientes 7 días, y calcular el porcentaje semana a semana. No se necesita una plataforma de análisis sofisticada para tener esa visibilidad — se necesita el hábito de medirla.",
-        "en": "The most important metric for measuring new passenger retention doesn't require a data team: it's the percentage of new users who complete a second trip within 7 days of the first. That metric, calculated weekly for each week's cohort of new users, quickly reveals whether the operation has a systemic retention problem or whether churn concentrates in specific segments — by origin zone of the first trip, by time window, by assigned driver. An operator with 40 to 100 new users per week can do that tracking in a spreadsheet: list the user IDs of new signups from that week, flag which ones took a second trip within the following 7 days, and calculate the percentage week over week. No sophisticated analytics platform is needed for that visibility — just the habit of measuring it."
+        "en": "The most important metric for measuring new passenger retention doesn't require a data team: it's the percentage of new users who complete a second trip within 7 days of the first. That metric, calculated weekly for each week's cohort of new users, quickly reveals whether the operation has a systemic retention problem or whether churn concentrates in specific segments — by origin zone of the first trip, by time window, by assigned driver. An operator with 40 to 100 new users per week can do that tracking in a spreadsheet: list the user IDs of new signups from that week, flag which ones took a second trip within the following 7 days, and calculate the percentage week over week. No sophisticated analytics platform is needed for that visibility — just the habit of measuring it.",
+        "pt": "A métrica mais importante para medir a retenção de passageiros novos não exige uma equipe de análise: é a porcentagem de novos usuários que conclui uma segunda corrida nos 7 dias seguintes à primeira. Essa métrica, calculada semanalmente para as coortes de novos usuários de cada semana, mostra com rapidez se a operação tem um problema sistêmico de retenção ou se o churn se concentra em segmentos específicos — por região de origem da primeira corrida, por faixa de horário, por motorista atribuído. Um operador com 40 a 100 novos usuários por semana pode fazer esse acompanhamento em uma planilha: listar os IDs de usuário dos novos cadastros daquela semana, marcar quais fizeram uma segunda corrida nos 7 dias seguintes e calcular a porcentagem semana a semana. Não é preciso uma plataforma de análise sofisticada para ter essa visibilidade — é preciso o hábito de medi-la."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "Los dos indicadores complementarios que dan contexto a esa métrica principal son: el porcentaje de pasajeros nuevos que califica el primer viaje con 4 o más estrellas — el mejor predictor de segundo viaje que el operador puede capturar en tiempo real —, y el porcentaje de calificaciones bajas (3 estrellas o menos) que reciben respuesta del equipo en las siguientes 48 horas. Esas tres métricas juntas — tasa de segundo viaje en 7 días, tasa de calificación positiva en el primero, y tasa de respuesta a calificaciones bajas — dan al operador una visión completa de dónde está el problema de retención sin necesidad de análisis de comportamiento complejo. El operador que mide esas tres variables tiene suficiente información para saber si el problema está en la experiencia del primer viaje, en el seguimiento post-viaje o en ambos.",
-        "en": "The two complementary indicators that give context to that primary metric are: the percentage of new passengers who rate the first trip 4 or more stars — the best predictor of a second trip the operator can capture in real time —, and the percentage of low ratings (3 stars or fewer) that receive a team response within the following 48 hours. Those three metrics together — 7-day second-trip rate, first-trip positive rating rate, and low-rating response rate — give the operator a complete picture of where the retention problem lies without needing complex behavioral analytics. The operator who tracks those three variables has enough information to identify whether the problem is in the first-trip experience, in post-trip follow-up, or in both."
+        "en": "The two complementary indicators that give context to that primary metric are: the percentage of new passengers who rate the first trip 4 or more stars — the best predictor of a second trip the operator can capture in real time —, and the percentage of low ratings (3 stars or fewer) that receive a team response within the following 48 hours. Those three metrics together — 7-day second-trip rate, first-trip positive rating rate, and low-rating response rate — give the operator a complete picture of where the retention problem lies without needing complex behavioral analytics. The operator who tracks those three variables has enough information to identify whether the problem is in the first-trip experience, in post-trip follow-up, or in both.",
+        "pt": "Os dois indicadores complementares que dão contexto a essa métrica principal são: a porcentagem de passageiros novos que avalia a primeira corrida com 4 ou mais estrelas — o melhor preditor de segunda corrida que o operador pode capturar em tempo real — e a porcentagem de avaliações baixas (3 estrelas ou menos) que recebem resposta da equipe nas 48 horas seguintes. Essas três métricas juntas — taxa de segunda corrida em 7 dias, taxa de avaliação positiva na primeira e taxa de resposta a avaliações baixas — dão ao operador uma visão completa de onde está o problema de retenção sem necessidade de análise de comportamento complexa. O operador que mede essas três variáveis tem informação suficiente para saber se o problema está na experiência da primeira corrida, no acompanhamento pós-corrida ou em ambos."
       }
     },
     {
@@ -214,14 +253,16 @@
       "id": "intervenciones-retencion-pasajeros-nuevos",
       "text": {
         "es": "Las intervenciones con mejor historial de retención de pasajeros nuevos",
-        "en": "The interventions with the best track record for new passenger retention"
+        "en": "The interventions with the best track record for new passenger retention",
+        "pt": "As intervenções com melhor histórico de retenção de passageiros novos"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "Las intervenciones con mejor historial en operaciones regionales de LATAM no son las más costosas ni las más tecnológicamente complejas. Son las que atacan directamente las causas documentadas del churn post-primer-viaje con el menor overhead operativo para el equipo:",
-        "en": "The interventions with the best track record in regional LATAM operations are not the most expensive or the most technologically complex. They are the ones that directly address the documented causes of post-first-trip churn with the least operational overhead for the team:"
+        "en": "The interventions with the best track record in regional LATAM operations are not the most expensive or the most technologically complex. They are the ones that directly address the documented causes of post-first-trip churn with the least operational overhead for the team:",
+        "pt": "As intervenções com melhor histórico em operações regionais da América Latina não são as mais caras nem as mais complexas tecnologicamente. São as que atacam diretamente as causas documentadas do churn pós-primeira-corrida com o menor overhead operacional para a equipe:"
       }
     },
     {
@@ -241,6 +282,13 @@
           "Proactive communication when wait time exceeded 5 minutes on the first trip: a message acknowledging the wait, without automatic excuses or discounts, retains better than total silence. The passenger who waited knows they waited — the operator who acknowledges it shows they know it too.",
           "Follow-up on the well-rated driver from the first trip: if the first trip received 4 or more stars and the driver is still active, making the option to request that driver again visible to the passenger has documented impact on usage frequency in the following weeks.",
           "Availability communication for the passenger's usual zone and time window, three to five days after the first trip: not a discount, but contextual information reminding them the platform is available in that specific moment and place. Contextual reminders outperform generic activation messages in converting to a second trip."
+        ],
+        "pt": [
+          "Resposta personalizada da equipe a avaliações de 3 estrelas ou menos em menos de 24 horas: uma mensagem que menciona o problema específico anotado no comentário — não uma mensagem genérica de desculpas — gera uma taxa de segunda corrida entre duas e três vezes maior que sem nenhuma resposta.",
+          "Mensagem de boas-vindas por WhatsApp nas duas horas depois da primeira corrida: breve, com o nome do passageiro, confirmação da corrida concluída e um canal direto para qualquer dúvida. Não é marketing — é a confirmação de que existe uma operação real por trás do aplicativo.",
+          "Comunicação proativa quando o tempo de espera passou de 5 minutos na primeira corrida: uma mensagem reconhecendo a espera, sem desculpas automáticas nem descontos, retém melhor que o silêncio total. O passageiro que esperou sabe que esperou — o operador que reconhece isso mostra que também sabe.",
+          "Acompanhamento do motorista atribuído na primeira corrida bem avaliada: se a primeira corrida recebeu 4 ou mais estrelas e o motorista continua ativo, deixar visível ao passageiro a opção de solicitar esse motorista de novo tem impacto documentado na frequência de uso nas semanas seguintes.",
+          "Comunicação de disponibilidade na região e no horário habitual do passageiro, três a cinco dias depois da primeira corrida: não um desconto, mas informação contextual que lembra que a plataforma está disponível naquele momento e lugar específico. A lembrança contextual tem melhor conversão para a segunda corrida que as mensagens de ativação genéricas."
         ]
       }
     },
@@ -248,25 +296,29 @@
       "type": "quote",
       "text": {
         "es": "Antes medíamos cuántos usuarios nuevos registrábamos cada semana. Ahora medimos cuántos de esos usuarios hacen un segundo viaje en los siguientes 7 días. Cuando cambiamos el foco a esa métrica, descubrimos que estábamos perdiendo el 58% de los nuevos en esa primera semana. Empezamos a responder todas las calificaciones de 3 estrellas o menos en el día, y a mandar un mensaje de WhatsApp a cada usuario nuevo en las dos horas después de su primer viaje. En tres meses, la tasa de segundo viaje en 7 días subió del 42 al 61%. No cambiamos el servicio — cambiamos lo que hacíamos en las 48 horas después del primer viaje.",
-        "en": "Before, we measured how many new users registered each week. Now we measure how many of those users take a second trip in the following 7 days. When we shifted focus to that metric, we discovered we were losing 58 percent of new users in that first week. We started responding to all 3-star or lower ratings the same day, and sending a WhatsApp message to every new user within two hours of their first trip. In three months, the 7-day second-trip rate went from 42 to 61 percent. We didn't change the service — we changed what we did in the 48 hours after the first trip."
+        "en": "Before, we measured how many new users registered each week. Now we measure how many of those users take a second trip in the following 7 days. When we shifted focus to that metric, we discovered we were losing 58 percent of new users in that first week. We started responding to all 3-star or lower ratings the same day, and sending a WhatsApp message to every new user within two hours of their first trip. In three months, the 7-day second-trip rate went from 42 to 61 percent. We didn't change the service — we changed what we did in the 48 hours after the first trip.",
+        "pt": "Antes a gente media quantos usuários novos cadastrava a cada semana. Agora medimos quantos desses usuários fazem uma segunda corrida nos 7 dias seguintes. Quando mudamos o foco para essa métrica, descobrimos que estávamos perdendo 58% dos novos naquela primeira semana. Passamos a responder todas as avaliações de 3 estrelas ou menos no mesmo dia e a enviar uma mensagem de WhatsApp para cada usuário novo nas duas horas depois da primeira corrida. Em três meses, a taxa de segunda corrida em 7 dias subiu de 42% para 61%. Não mudamos o serviço — mudamos o que fazíamos nas 48 horas depois da primeira corrida."
       },
       "attribution": {
         "es": "Operadora con 68 conductores activos en una ciudad de 260,000 habitantes en el sureste de México",
-        "en": "Operator with 68 active drivers in a city of 260,000 in southeastern Mexico"
+        "en": "Operator with 68 active drivers in a city of 260,000 in southeastern Mexico",
+        "pt": "Operadora com 68 motoristas ativos em uma cidade de 260.000 habitantes no sudeste do México"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "La retención de pasajeros después del primer viaje no es un problema de marketing — es un problema de operación. Un primer viaje dentro de los tiempos esperados, con precio coherente con el estimado y con un conductor cuyo comportamiento estuvo a la altura del estándar de servicio, tiene una tasa de retorno naturalmente mayor que uno con fricción en cualquiera de esos puntos. El operador que sabe cuáles son los puntos de fricción específicos de su operación — medidos por zona, por franja horaria, por conductor o por tipo de viaje — tiene toda la información que necesita para dirigir su inversión de mejora hacia donde produce el mayor impacto en retención, sin necesidad de reducir precios ni de invertir más en adquisición de nuevos usuarios. La retención empieza en la calidad operativa del primer viaje, no en el mensaje que se envía dos días después.",
-        "en": "Passenger retention after the first trip is not a marketing problem — it's an operations problem. A first trip within expected wait times, with a price consistent with the estimate and a driver whose behavior met the service standard, has a naturally higher return rate than one with friction at any of those points. The operator who knows the specific friction points of their operation — measured by zone, by time window, by driver, or by trip type — has all the information they need to direct their improvement investment toward where it produces the greatest retention impact, without needing to cut prices or invest more in new user acquisition. Retention starts in the operational quality of the first trip, not in the message sent two days later."
+        "en": "Passenger retention after the first trip is not a marketing problem — it's an operations problem. A first trip within expected wait times, with a price consistent with the estimate and a driver whose behavior met the service standard, has a naturally higher return rate than one with friction at any of those points. The operator who knows the specific friction points of their operation — measured by zone, by time window, by driver, or by trip type — has all the information they need to direct their improvement investment toward where it produces the greatest retention impact, without needing to cut prices or invest more in new user acquisition. Retention starts in the operational quality of the first trip, not in the message sent two days later.",
+        "pt": "A retenção de passageiros depois da primeira corrida não é um problema de marketing — é um problema de operação. Uma primeira corrida dentro dos tempos esperados, com preço coerente com a estimativa e com um motorista cujo comportamento esteve à altura do padrão de serviço, tem uma taxa de retorno naturalmente maior que uma com fricção em qualquer desses pontos. O operador que sabe quais são os pontos de fricção específicos da sua operação — medidos por região, por faixa de horário, por motorista ou por tipo de corrida — tem toda a informação de que precisa para direcionar seu investimento de melhoria para onde produz o maior impacto na retenção, sem necessidade de reduzir preços nem de investir mais na captação de novos usuários. A retenção começa na qualidade operacional da primeira corrida, não na mensagem enviada dois dias depois."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "El operador regional que tiene una tasa de segundo viaje en 7 días por encima del 55% está construyendo algo más valioso que una base de usuarios numerosa: está construyendo una base de usuarios que usa la plataforma como primera opción. Esa base tiene un costo de adquisición efectivo mucho menor que la que se construye con ciclos de descuento, porque la retención natural reduce la necesidad de inversión constante en nuevos usuarios para mantener el volumen activo. En una ciudad de 200,000 a 400,000 habitantes, el operador que tiene el 20% de la base potencial de usuarios activos con alta frecuencia de uso tiene una posición de mercado más sólida y más rentable que el operador que tiene el 35% de la base con uso esporádico. La diferencia no está en cuántos usuarios nuevos se registran cada semana — está en cuántos de los que ya se registraron vuelven a usar la plataforma sin que nadie se los recuerde.",
-        "en": "The regional operator with a 7-day second-trip rate above 55 percent is building something more valuable than a large user base: they're building a user base that reaches for the platform as their first option. That base has a much lower effective acquisition cost than one built through discount cycles, because natural retention reduces the need for constant new user investment to maintain active volume. In a city of 200,000 to 400,000 people, the operator who has 20 percent of the potential user base with high-frequency usage holds a stronger and more profitable market position than the operator who has 35 percent with sporadic use. The difference isn't in how many new users register each week — it's in how many of those already registered return to use the platform without anyone reminding them."
+        "en": "The regional operator with a 7-day second-trip rate above 55 percent is building something more valuable than a large user base: they're building a user base that reaches for the platform as their first option. That base has a much lower effective acquisition cost than one built through discount cycles, because natural retention reduces the need for constant new user investment to maintain active volume. In a city of 200,000 to 400,000 people, the operator who has 20 percent of the potential user base with high-frequency usage holds a stronger and more profitable market position than the operator who has 35 percent with sporadic use. The difference isn't in how many new users register each week — it's in how many of those already registered return to use the platform without anyone reminding them.",
+        "pt": "O operador regional que tem uma taxa de segunda corrida em 7 dias acima de 55% está construindo algo mais valioso que uma base de usuários numerosa: está construindo uma base de usuários que usa a plataforma como primeira opção. Essa base tem um custo de aquisição efetivo muito menor que a construída com ciclos de desconto, porque a retenção natural reduz a necessidade de investimento constante em novos usuários para manter o volume ativo. Em uma cidade de 200.000 a 400.000 habitantes, o operador que tem 20% da base potencial de usuários ativos com alta frequência de uso tem uma posição de mercado mais sólida e mais rentável que o operador que tem 35% da base com uso esporádico. A diferença não está em quantos usuários novos se cadastram a cada semana — está em quantos dos que já se cadastraram voltam a usar a plataforma sem que ninguém precise lembrá-los."
       }
     }
   ]

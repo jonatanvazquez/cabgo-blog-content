@@ -3,16 +3,19 @@
   "category": "product",
   "title": {
     "es": "Geofencing en ride-hailing regional: cuándo usar zonas y cuándo no",
-    "en": "Geofencing in regional ride-hailing: when to use zones and when not to"
+    "en": "Geofencing in regional ride-hailing: when to use zones and when not to",
+    "pt": "Geofencing em ride-hailing regional: quando usar zonas e quando não"
   },
   "excerpt": {
     "es": "Un geofence vale la pena solo cuando responde a un problema operativo concreto. Tres usos reales y cuándo el routing dinámico es más eficiente.",
-    "en": "A geofence is worth building only when it answers a specific operational question — and when dynamic routing solves the same problem with less overhead."
+    "en": "A geofence is worth building only when it answers a specific operational question — and when dynamic routing solves the same problem with less overhead.",
+    "pt": "Um geofence só vale a pena quando responde a um problema operacional concreto. Três usos reais e quando o roteamento dinâmico é mais eficiente."
   },
   "heroImage": "https://raw.githubusercontent.com/jonatanvazquez/cabgo-blog-content/main/images/geofencing-operacion-ride-hailing.jpg",
   "heroImageAlt": {
     "es": "Ilustración isométrica de geofencing en operación de ride-hailing regional: mapa de ciudad con tres zonas superpuestas en teal, índigo y ámbar, un conductor respondiendo a un incentivo al entrar a la zona teal, y un panel de dashboard con lista de zonas activas y métricas de viajes por zona",
-    "en": "Isometric illustration of geofencing in a regional ride-hailing operation: city map with three overlapping zones in teal, indigo, and amber, a driver responding to an incentive on entering the teal zone, and a dashboard panel showing the active zone list with trips-per-zone metrics"
+    "en": "Isometric illustration of geofencing in a regional ride-hailing operation: city map with three overlapping zones in teal, indigo, and amber, a driver responding to an incentive on entering the teal zone, and a dashboard panel showing the active zone list with trips-per-zone metrics",
+    "pt": "Ilustração isométrica de geofencing em uma operação de ride-hailing regional: mapa de cidade com três zonas sobrepostas em teal, índigo e âmbar, um motorista respondendo a um incentivo ao entrar na zona teal, e um painel de dashboard com lista de zonas ativas e métricas de corridas por zona"
   },
   "heroImagePrompt": "Isometric top-down city block map with three distinct transparent zone overlays — a teal polygon around an airport terminal with a fare badge floating above it, an indigo polygon over a dense city corridor with a driver incentive multiplier icon, and an amber polygon marking a gated complex with a restriction shield icon. A driver-car figure crossing from outside into the teal zone with an animated earnings-boost badge appearing above the car. A floating dashboard panel beside the map showing a three-row zone list with trip counts per zone, a small bar chart of trips-by-zone, and a green toggle switch for each active zone.",
   "publishedAt": "2026-05-12",
@@ -35,38 +38,53 @@
       "when to use geofencing mobility operation",
       "zone pricing vs dynamic fare",
       "geographic restrictions drivers regional taxi"
+    ],
+    "pt": [
+      "geofencing app transporte por aplicativo regional",
+      "zonas geográficas plataforma de transporte LATAM",
+      "tarifa mínima zona aeroporto táxi",
+      "incentivos para motoristas por zona ride-hailing",
+      "quando usar geofencing operação de mobilidade",
+      "precificação por zona vs tarifa dinâmica",
+      "restrições geográficas motoristas táxi regional"
     ]
   },
   "author": {
     "name": "Equipo Cabgo",
     "role": {
       "es": "Plataforma de movilidad",
-      "en": "Mobility platform"
+      "en": "Mobility platform",
+      "pt": "Plataforma de mobilidade"
     }
   },
   "cta": {
     "heading": {
       "es": "¿Listo para lanzar tu propia app de movilidad?",
-      "en": "Ready to launch your own mobility app?"
+      "en": "Ready to launch your own mobility app?",
+      "pt": "Pronto para lançar seu próprio app de mobilidade?"
     },
     "body": {
       "es": "Configura tu marca, tus tarifas y tus servicios en semanas, no en meses. Cabgo te entrega la plataforma, tú te quedas con la operación y la marca.",
-      "en": "Set up your brand, pricing and services in weeks, not months. Cabgo ships the platform — you keep the operation and the brand."
+      "en": "Set up your brand, pricing and services in weeks, not months. Cabgo ships the platform — you keep the operation and the brand.",
+      "pt": "Configure sua marca, suas tarifas e seus serviços em semanas, não em meses. A Cabgo entrega a plataforma, você fica com a operação e a marca."
     },
     "buttonLabel": {
       "es": "Empezar ahora",
-      "en": "Get started"
+      "en": "Get started",
+      "pt": "Começar agora"
     },
     "buttonHref": "/empezar"
   },
   "seo": {
     "metaTitle": {
       "es": "Geofencing en ride-hailing regional: cuándo usarlo | Cabgo",
-      "en": "Geofencing in regional ride-hailing: when to use it | Cabgo"
+      "en": "Geofencing in regional ride-hailing: when to use it | Cabgo",
+      "pt": "Geofencing em ride-hailing regional: quando usar | Cabgo"
     },
     "metaDescription": {
       "es": "Cuándo el geofencing produce retorno en operaciones de taxi regional y cuándo el recálculo dinámico de rutas resuelve el mismo problema con menos carga técnica.",
-      "en": "When geofencing pays off in a regional taxi operation, and when dynamic routing solves the same problem with less technical overhead."
+      "en": "When geofencing pays off in a regional taxi operation, and when dynamic routing solves the same problem with less technical overhead.",
+      "pt": "Quando o geofencing gera retorno em operações de táxi regional e quando o recálculo dinâmico de rotas resolve o mesmo problema com menos carga técnica."
     }
   },
   "blocks": [
@@ -74,14 +92,16 @@
       "type": "paragraph",
       "text": {
         "es": "El geofencing se implementa en plataformas de ride-hailing regional con la misma lógica con que se activa cualquier otra función del panel de configuración: porque está disponible y porque las plataformas grandes lo usan. El problema con esa lógica es que un geofence no es una función de producto — es un límite geográfico que dispara un evento operativo específico. Ese evento puede ser un cambio de tarifa, una restricción de servicio, un incentivo para el conductor o una notificación para el pasajero. Su valor depende enteramente de si el evento que dispara corresponde a un problema real que ocurre en esa zona específica. Cuando lo hace, el geofencing produce resultados medibles: menor tasa de cancelaciones en zonas con comportamiento atípico, mejor distribución de conductores en corredores de alta demanda, protección de márgenes en puntos de alto tiempo de espera. Cuando no lo hace, produce zonas activas que nadie revisa, límites geográficos que los pasajeros no entienden y carga de mantenimiento para un equipo de operaciones que tiene prioridades más urgentes.",
-        "en": "Geofencing gets implemented in regional ride-hailing platforms with the same logic applied to any other configuration panel feature: because it is available and because large platforms use it. The problem with that logic is that a geofence is not a product feature — it is a geographic boundary that triggers a specific operational event. That event can be a fare change, a service restriction, a driver incentive, or a passenger notification. Its value depends entirely on whether the event it triggers corresponds to a real problem occurring in that specific zone. When it does, geofencing produces measurable results: lower cancellation rates in zones with atypical behavior, better driver distribution across high-demand corridors, and margin protection at high-wait-time pickup points. When it doesn't, it produces active zones that no one reviews, geographic boundaries that passengers don't understand, and maintenance overhead for an operations team with more pressing priorities."
+        "en": "Geofencing gets implemented in regional ride-hailing platforms with the same logic applied to any other configuration panel feature: because it is available and because large platforms use it. The problem with that logic is that a geofence is not a product feature — it is a geographic boundary that triggers a specific operational event. That event can be a fare change, a service restriction, a driver incentive, or a passenger notification. Its value depends entirely on whether the event it triggers corresponds to a real problem occurring in that specific zone. When it does, geofencing produces measurable results: lower cancellation rates in zones with atypical behavior, better driver distribution across high-demand corridors, and margin protection at high-wait-time pickup points. When it doesn't, it produces active zones that no one reviews, geographic boundaries that passengers don't understand, and maintenance overhead for an operations team with more pressing priorities.",
+        "pt": "O geofencing é implementado em plataformas de ride-hailing regional com a mesma lógica com que se ativa qualquer outra função do painel de configuração: porque está disponível e porque as plataformas grandes o usam. O problema com essa lógica é que um geofence não é uma função de produto — é um limite geográfico que dispara um evento operacional específico. Esse evento pode ser uma mudança de tarifa, uma restrição de serviço, um incentivo para o motorista ou uma notificação para o passageiro. Seu valor depende inteiramente de se o evento que ele dispara corresponde a um problema real que ocorre naquela zona específica. Quando isso acontece, o geofencing produz resultados mensuráveis: menor taxa de cancelamentos em zonas com comportamento atípico, melhor distribuição de motoristas em corredores de alta demanda, proteção de margens em pontos de alto tempo de espera. Quando não acontece, produz zonas ativas que ninguém revisa, limites geográficos que os passageiros não entendem e carga de manutenção para uma equipe de operações que tem prioridades mais urgentes."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "Este artículo es para operadores con 200 a 600 viajes diarios que están evaluando si implementar zonas geográficas en su plataforma, o que ya tienen zonas activas y no saben con certeza si están produciendo el efecto esperado. El análisis se organiza en torno a tres preguntas prácticas: qué casos de uso concretos justifican construir un geofence, cuándo el recálculo dinámico de rutas o las tarifas planas por tipo de trayecto resuelven el mismo problema con menos complejidad técnica, y cómo evaluar si una zona activa está cumpliendo su función o simplemente ocupando espacio en el panel de configuración.",
-        "en": "This article is for operators with 200 to 600 daily trips evaluating whether to implement geographic zones on their platform, or who already have active zones and don't know for certain whether they are producing the expected effect. The analysis is organized around three practical questions: which specific use cases justify building a geofence, when dynamic route recalculation or flat fares by trip type solve the same problem with less technical complexity, and how to evaluate whether an active zone is doing its job or simply occupying space in the configuration panel."
+        "en": "This article is for operators with 200 to 600 daily trips evaluating whether to implement geographic zones on their platform, or who already have active zones and don't know for certain whether they are producing the expected effect. The analysis is organized around three practical questions: which specific use cases justify building a geofence, when dynamic route recalculation or flat fares by trip type solve the same problem with less technical complexity, and how to evaluate whether an active zone is doing its job or simply occupying space in the configuration panel.",
+        "pt": "Este artigo é para operadores com 200 a 600 corridas diárias que estão avaliando se devem implementar zonas geográficas em sua plataforma, ou que já têm zonas ativas e não sabem ao certo se estão produzindo o efeito esperado. A análise se organiza em torno de três perguntas práticas: quais casos de uso concretos justificam construir um geofence, quando o recálculo dinâmico de rotas ou as tarifas fixas por tipo de trajeto resolvem o mesmo problema com menos complexidade técnica, e como avaliar se uma zona ativa está cumprindo sua função ou simplesmente ocupando espaço no painel de configuração."
       }
     },
     {
@@ -90,14 +110,16 @@
       "id": "tres-usos-que-producen-retorno",
       "text": {
         "es": "Los tres usos de geofencing que producen retorno en operaciones medianas",
-        "en": "The three geofencing uses that produce returns in mid-size operations"
+        "en": "The three geofencing uses that produce returns in mid-size operations",
+        "pt": "Os três usos de geofencing que produzem retorno em operações de médio porte"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "No todos los usos posibles del geofencing producen retorno operativo proporcional al esfuerzo de implementación y mantenimiento. En operaciones de 200 a 600 viajes diarios en mercados secundarios de LATAM, tres casos de uso se repiten con frecuencia suficiente como para justificar la construcción y gestión activa de la zona. El primero es el aeropuerto: el área de recogida de un aeropuerto tiene un comportamiento atípico que las reglas de tarifa estándar no resuelven bien. Los conductores esperan entre 8 y 20 minutos para encontrar al pasajero en el área de llegadas, un tiempo que en viajes cortos al centro hace que el trayecto no sea rentable para el conductor y produce cancelaciones justo antes del inicio. Una tarifa mínima garantizada dentro de la zona del aeropuerto — entre 1.5 y 2.5 veces la tarifa base para la distancia mínima — elimina ese cálculo negativo sin necesidad de cambiar la política de precios del resto de la plataforma.",
-        "en": "Not all possible uses of geofencing produce operational returns proportional to the implementation and maintenance effort. In operations of 200 to 600 daily trips in secondary LATAM markets, three use cases recur frequently enough to justify building and actively managing a zone. The first is the airport: the pickup area of an airport has atypical behavior that standard fare rules don't address well. Drivers wait 8 to 20 minutes to locate the passenger in the arrivals area, a time that on short city-center trips makes the ride unprofitable for the driver and produces cancellations just before the trip starts. A guaranteed minimum fare inside the airport zone — between 1.5 and 2.5 times the base fare for the minimum distance — eliminates that negative calculation without changing the pricing policy for the rest of the platform."
+        "en": "Not all possible uses of geofencing produce operational returns proportional to the implementation and maintenance effort. In operations of 200 to 600 daily trips in secondary LATAM markets, three use cases recur frequently enough to justify building and actively managing a zone. The first is the airport: the pickup area of an airport has atypical behavior that standard fare rules don't address well. Drivers wait 8 to 20 minutes to locate the passenger in the arrivals area, a time that on short city-center trips makes the ride unprofitable for the driver and produces cancellations just before the trip starts. A guaranteed minimum fare inside the airport zone — between 1.5 and 2.5 times the base fare for the minimum distance — eliminates that negative calculation without changing the pricing policy for the rest of the platform.",
+        "pt": "Nem todos os usos possíveis do geofencing produzem retorno operacional proporcional ao esforço de implementação e manutenção. Em operações de 200 a 600 corridas diárias em mercados secundários da América Latina, três casos de uso se repetem com frequência suficiente para justificar a construção e a gestão ativa da zona. O primeiro é o aeroporto: a área de embarque de passageiros de um aeroporto tem um comportamento atípico que as regras de tarifa padrão não resolvem bem. Os motoristas esperam entre 8 e 20 minutos para encontrar o passageiro na área de desembarque, um tempo que, em corridas curtas até o centro, torna o trajeto pouco rentável para o motorista e gera cancelamentos pouco antes do início. Uma tarifa mínima garantida dentro da zona do aeroporto — entre 1,5 e 2,5 vezes a tarifa base para a distância mínima — elimina esse cálculo negativo sem necessidade de mudar a política de preços do restante da plataforma."
       }
     },
     {
@@ -105,7 +127,8 @@
       "style": "bullet",
       "intro": {
         "es": "Los tres usos que producen retorno operativo consistente en operaciones de tamaño medio son:",
-        "en": "The three uses that consistently produce operational returns in mid-size operations are:"
+        "en": "The three uses that consistently produce operational returns in mid-size operations are:",
+        "pt": "Os três usos que produzem retorno operacional consistente em operações de porte médio são:"
       },
       "items": {
         "es": [
@@ -117,6 +140,11 @@
           "Airport zone with guaranteed minimum fare: protects the driver from the cost of wait time at a point where terminal access can delay trip start by 10 to 25 minutes, and protects the platform from committing to ETAs it cannot honor due to arrivals-area access restrictions",
           "Differential incentive zone in corridors with systematically high demand: an earnings multiplier for drivers available in a specific zone during the time windows where demand consistently exceeds supply — hotels, business districts, hospitals with regular shift start and end times",
           "Service restriction zone for drivers with incomplete documentation: restricts trips from or to areas with specific regulatory exposure — shopping centers with their own taxi concession, zones with frequent permit inspection operations — to drivers with current insurance and updated permits"
+        ],
+        "pt": [
+          "Zona de aeroporto com tarifa mínima garantida: protege o motorista do custo do tempo de espera em um ponto onde o acesso ao terminal pode atrasar o início da corrida entre 10 e 25 minutos, e protege a plataforma de comprometer ETAs que não podem ser cumpridos devido às restrições de acesso à área de desembarque",
+          "Zona de incentivo diferencial em corredores de demanda sistematicamente alta: um multiplicador de ganhos para motoristas disponíveis em uma zona específica durante as janelas de horário em que a demanda supera consistentemente a oferta — hotéis, centros empresariais, hospitais com turnos de entrada e saída regulares",
+          "Zona de restrição de serviço para motoristas com documentação incompleta: restringe as corridas de ou para áreas com exposição regulatória específica — shoppings com concessão própria de táxis, zonas com operações de fiscalização frequentes — a motoristas com seguro vigente e permissões atualizadas"
         ]
       }
     },
@@ -126,21 +154,24 @@
       "id": "efecto-limite-bordes-de-zona",
       "text": {
         "es": "El efecto límite: por qué los bordes de zona generan más problemas de los que resuelven",
-        "en": "The boundary effect: why zone edges create more problems than they solve"
+        "en": "The boundary effect: why zone edges create more problems than they solve",
+        "pt": "O efeito limite: por que as bordas de zona geram mais problemas do que resolvem"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "El problema operativo más frecuente con las zonas mal diseñadas no está en el centro de la zona sino en su borde. Un pasajero a 200 metros del límite exterior de una zona de tarifa diferencial ve el precio estándar; un pasajero a 200 metros dentro ve una tarifa distinta. En zonas densas de una ciudad mediana de LATAM, esos 200 metros pueden ser dos manzanas en el mismo barrio, con pasajeros que perciben un tratamiento diferenciado sin entender por qué. El efecto se amplifica cuando la zona es visible en el mapa de la app: el pasajero que está fuera y ve que los viajes desde dentro de la zona tienen una tarifa distinta intenta mover su punto de origen hacia adentro, generando solicitudes de recogida en ubicaciones ajustadas manualmente que no corresponden al lugar real donde está. Eso produce viajes con etapa inicial de caminata no declarada, tiempos de recogida más largos y conductores que llegan a una esquina donde no hay nadie esperando.",
-        "en": "The most common operational problem with poorly designed zones is not at the center of the zone but at its boundary. A passenger 200 meters outside a differential-fare zone sees the standard price; a passenger 200 meters inside sees a different one. In dense urban areas of a mid-size LATAM city, those 200 meters can be two blocks in the same neighborhood, with passengers perceiving differential treatment without understanding why. The effect is amplified when the zone is visible on the app map: the passenger who is outside and sees that trips originating inside carry a different fare tries to shift their pickup point inward, generating manually adjusted pickup requests that don't correspond to their actual location. That produces trips with an undeclared initial walking leg, longer actual pickup times, and drivers who arrive at a corner with no one waiting."
+        "en": "The most common operational problem with poorly designed zones is not at the center of the zone but at its boundary. A passenger 200 meters outside a differential-fare zone sees the standard price; a passenger 200 meters inside sees a different one. In dense urban areas of a mid-size LATAM city, those 200 meters can be two blocks in the same neighborhood, with passengers perceiving differential treatment without understanding why. The effect is amplified when the zone is visible on the app map: the passenger who is outside and sees that trips originating inside carry a different fare tries to shift their pickup point inward, generating manually adjusted pickup requests that don't correspond to their actual location. That produces trips with an undeclared initial walking leg, longer actual pickup times, and drivers who arrive at a corner with no one waiting.",
+        "pt": "O problema operacional mais frequente com zonas mal projetadas não está no centro da zona, mas na sua borda. Um passageiro a 200 metros do limite externo de uma zona de tarifa diferencial vê o preço padrão; um passageiro a 200 metros para dentro vê uma tarifa diferente. Em zonas densas de uma cidade média da América Latina, esses 200 metros podem ser dois quarteirões no mesmo bairro, com passageiros que percebem um tratamento diferenciado sem entender o motivo. O efeito se amplifica quando a zona é visível no mapa do app: o passageiro que está fora e vê que as corridas de dentro da zona têm uma tarifa diferente tenta mover seu ponto de origem para dentro, gerando solicitações de embarque em localizações ajustadas manualmente que não correspondem ao lugar real onde ele está. Isso produz corridas com um trecho inicial de caminhada não declarado, tempos de embarque mais longos e motoristas que chegam a uma esquina onde não há ninguém esperando."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "El diseño del borde de zona es un problema técnico con consecuencias operativas directas. Las zonas con bordes rectos que cortan calles a mitad — en lugar de seguir la lógica del barrio o el trazado de una avenida — generan los peores efectos de límite porque no corresponden a ninguna realidad geográfica que el pasajero reconozca. Las zonas más efectivas siguen límites naturales: una avenida principal, el perímetro de un aeropuerto, los accesos declarados de un fraccionamiento. Cuando el límite tiene sentido geográfico para el pasajero, la diferencia de precio se percibe como una diferencia de servicio justificada — 'es tarifa de aeropuerto' — en lugar de como una inconsistencia arbitraria del sistema que el soporte tendrá que explicar.",
-        "en": "Zone boundary design is a technical problem with direct operational consequences. Zones with straight edges that cut streets in the middle — instead of following neighborhood logic or a main avenue's alignment — generate the worst boundary effects because they don't correspond to any geographic reality the passenger recognizes. The most effective zones follow natural boundaries: a main avenue, the airport perimeter, the declared access points of a residential development. When the boundary makes geographic sense to the passenger, the price difference is perceived as a justified service difference — 'it is airport pricing' — rather than an arbitrary system inconsistency that support will have to explain."
+        "en": "Zone boundary design is a technical problem with direct operational consequences. Zones with straight edges that cut streets in the middle — instead of following neighborhood logic or a main avenue's alignment — generate the worst boundary effects because they don't correspond to any geographic reality the passenger recognizes. The most effective zones follow natural boundaries: a main avenue, the airport perimeter, the declared access points of a residential development. When the boundary makes geographic sense to the passenger, the price difference is perceived as a justified service difference — 'it is airport pricing' — rather than an arbitrary system inconsistency that support will have to explain.",
+        "pt": "O desenho da borda de zona é um problema técnico com consequências operacionais diretas. Zonas com bordas retas que cortam ruas ao meio — em vez de seguir a lógica do bairro ou o traçado de uma avenida — geram os piores efeitos de limite porque não correspondem a nenhuma realidade geográfica que o passageiro reconheça. As zonas mais eficazes seguem limites naturais: uma avenida principal, o perímetro de um aeroporto, os acessos declarados de um condomínio fechado. Quando o limite faz sentido geográfico para o passageiro, a diferença de preço é percebida como uma diferença de serviço justificada — 'é tarifa de aeroporto' — em vez de uma inconsistência arbitrária do sistema que o suporte terá que explicar."
       }
     },
     {
@@ -149,21 +180,24 @@
       "id": "cuando-routing-dinamico-gana",
       "text": {
         "es": "Cuándo el routing dinámico resuelve el problema sin zona fija",
-        "en": "When dynamic routing solves the problem without a fixed zone"
+        "en": "When dynamic routing solves the problem without a fixed zone",
+        "pt": "Quando o roteamento dinâmico resolve o problema sem zona fixa"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "El geofencing es la solución correcta para problemas estables y recurrentes que ocurren en zonas geográficas predecibles. No es la solución correcta para problemas variables que cambian de ubicación, hora o frecuencia. El cierre de una calle por obras, el desvío temporal por un evento, la apertura de un nuevo desarrollo comercial que genera demanda en un punto que la operación aún no cubre bien — estos son problemas de routing dinámico, no de zona fija. Resolver un problema de demanda transitoria con un geofence produce una zona que el equipo tiene que eliminar manualmente cuando el problema desaparece, y que si se olvida activa una lógica de tarifa diferencial o de incentivo en una zona donde ya no aplica. Ese es el origen de la mayoría de las zonas activas que ningún operador puede explicar por qué existen.",
-        "en": "Geofencing is the right solution for stable, recurring problems that occur in predictable geographic zones. It is not the right solution for variable problems that change in location, time, or frequency. A street closure from construction, a temporary detour around an event, the opening of a new commercial development that generates demand at a point the operation doesn't yet cover well — these are dynamic routing problems, not fixed-zone problems. Solving a transient demand problem with a geofence produces a zone the team must manually remove when the problem disappears, and if forgotten, one that activates differential fare logic or an incentive in a zone where it no longer applies. That is the origin of most active zones that no operator can explain why they exist."
+        "en": "Geofencing is the right solution for stable, recurring problems that occur in predictable geographic zones. It is not the right solution for variable problems that change in location, time, or frequency. A street closure from construction, a temporary detour around an event, the opening of a new commercial development that generates demand at a point the operation doesn't yet cover well — these are dynamic routing problems, not fixed-zone problems. Solving a transient demand problem with a geofence produces a zone the team must manually remove when the problem disappears, and if forgotten, one that activates differential fare logic or an incentive in a zone where it no longer applies. That is the origin of most active zones that no operator can explain why they exist.",
+        "pt": "O geofencing é a solução correta para problemas estáveis e recorrentes que ocorrem em zonas geográficas previsíveis. Não é a solução correta para problemas variáveis que mudam de localização, horário ou frequência. O fechamento de uma rua por obras, o desvio temporário por causa de um evento, a abertura de um novo empreendimento comercial que gera demanda em um ponto que a operação ainda não cobre bem — esses são problemas de roteamento dinâmico, não de zona fixa. Resolver um problema de demanda transitória com um geofence produz uma zona que a equipe precisa eliminar manualmente quando o problema desaparece, e que, se esquecida, ativa uma lógica de tarifa diferencial ou de incentivo em uma zona onde ela já não se aplica. Essa é a origem da maioria das zonas ativas que nenhum operador consegue explicar por que existem."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "El pricing basado en distancia y tiempo real — tarifa calculada por la ruta que el conductor realmente recorre en el momento del viaje — resuelve automáticamente los problemas que el geofencing de tarifa por zona de origen intenta resolver de forma manual. En una operación donde el pasajero escribe una dirección de destino antes de que el conductor llegue, la tarifa basada en distancia real es más precisa que cualquier zona de tarifa fija porque incorpora el tráfico, el trayecto efectivo y las condiciones del momento. Los geofences de tarifa fija tienen sentido principalmente para viajes de punto a punto predecibles — aeropuerto al centro, estadio al hotel — donde el operador quiere un precio cerrado que el pasajero vea antes de confirmar, no una estimación que puede variar según la ruta que elija el conductor.",
-        "en": "Pricing based on real-time distance and time — fare calculated from the actual route the driver travels at the moment of the trip — automatically solves the problems that origin-zone fare geofencing tries to solve manually. In an operation where the passenger inputs a destination address before the driver arrives, real-distance pricing is more accurate than any fixed-fare zone because it incorporates traffic, the actual route traveled, and the conditions of the moment. Fixed-fare geofences make sense primarily for predictable point-to-point trips — airport to downtown, stadium to hotel — where the operator wants a closed price the passenger sees before confirming, not an estimate that varies depending on which route the driver chooses."
+        "en": "Pricing based on real-time distance and time — fare calculated from the actual route the driver travels at the moment of the trip — automatically solves the problems that origin-zone fare geofencing tries to solve manually. In an operation where the passenger inputs a destination address before the driver arrives, real-distance pricing is more accurate than any fixed-fare zone because it incorporates traffic, the actual route traveled, and the conditions of the moment. Fixed-fare geofences make sense primarily for predictable point-to-point trips — airport to downtown, stadium to hotel — where the operator wants a closed price the passenger sees before confirming, not an estimate that varies depending on which route the driver chooses.",
+        "pt": "A precificação baseada em distância e tempo reais — tarifa calculada pela rota que o motorista realmente percorre no momento da corrida — resolve automaticamente os problemas que o geofencing de tarifa por zona de origem tenta resolver de forma manual. Em uma operação em que o passageiro digita um endereço de destino antes de o motorista chegar, a tarifa baseada em distância real é mais precisa do que qualquer zona de tarifa fixa porque incorpora o trânsito, o trajeto efetivo e as condições do momento. Os geofences de tarifa fixa fazem sentido principalmente para corridas ponto a ponto previsíveis — aeroporto ao centro, estádio ao hotel — em que o operador quer um preço fechado que o passageiro veja antes de confirmar, e não uma estimativa que pode variar de acordo com a rota que o motorista escolher."
       }
     },
     {
@@ -172,21 +206,24 @@
       "id": "posicionamiento-conductores-geofencing",
       "text": {
         "es": "Posicionamiento de conductores por zona: el uso más subestimado",
-        "en": "Driver positioning by zone: the most underrated use"
+        "en": "Driver positioning by zone: the most underrated use",
+        "pt": "Posicionamento de motoristas por zona: o uso mais subestimado"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "El uso del geofencing que genera más retorno en operaciones medianas y que menos operadores implementan de forma deliberada es el posicionamiento de conductores. La lógica es directa: la plataforma tiene datos de demanda que el conductor individual no tiene. Sabe que el hospital central tiene salida de turno a las 14:00, que el aeropuerto tiene dos vuelos comerciales aterrizando entre las 16:30 y las 17:15, que la zona de oficinas del corredor norte genera entre 60 y 80 solicitudes en los primeros 20 minutos después de las 18:00. El conductor no necesita esa información completa — necesita saber si estar en una zona específica durante una franja específica le va a generar más viajes que permanecer en su posición habitual. El geofence de posicionamiento resuelve exactamente eso: activa un incentivo adicional para conductores dentro de la zona en la ventana de tiempo definida, independientemente de si ya recibieron un viaje.",
-        "en": "The geofencing use that generates the most return in mid-size operations — and that the fewest operators implement deliberately — is driver positioning. The logic is straightforward: the platform has demand data the individual driver doesn't have. It knows the central hospital has a shift change at 14:00, that the airport has two commercial flights landing between 16:30 and 17:15, that the north corridor office zone generates 60 to 80 requests in the first 20 minutes after 18:00. The driver doesn't need all that information — they need to know whether being in a specific zone during a specific window will generate more trips than staying in their usual position. The positioning geofence solves exactly that: it activates an additional incentive for drivers inside the zone during the defined time window, independently of whether they have already received a trip."
+        "en": "The geofencing use that generates the most return in mid-size operations — and that the fewest operators implement deliberately — is driver positioning. The logic is straightforward: the platform has demand data the individual driver doesn't have. It knows the central hospital has a shift change at 14:00, that the airport has two commercial flights landing between 16:30 and 17:15, that the north corridor office zone generates 60 to 80 requests in the first 20 minutes after 18:00. The driver doesn't need all that information — they need to know whether being in a specific zone during a specific window will generate more trips than staying in their usual position. The positioning geofence solves exactly that: it activates an additional incentive for drivers inside the zone during the defined time window, independently of whether they have already received a trip.",
+        "pt": "O uso do geofencing que gera mais retorno em operações de médio porte, e que menos operadores implementam de forma deliberada, é o posicionamento de motoristas. A lógica é direta: a plataforma tem dados de demanda que o motorista individual não tem. Ela sabe que o hospital central tem troca de turno às 14h, que o aeroporto tem dois voos comerciais pousando entre 16h30 e 17h15, que a zona de escritórios do corredor norte gera entre 60 e 80 solicitações nos primeiros 20 minutos depois das 18h. O motorista não precisa dessa informação completa — precisa saber se estar em uma zona específica durante uma janela específica vai gerar mais corridas do que permanecer em sua posição habitual. O geofence de posicionamento resolve exatamente isso: ativa um incentivo adicional para motoristas dentro da zona na janela de tempo definida, independentemente de já terem recebido uma corrida."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "La diferencia entre un incentivo de zona de posicionamiento y un bono por volumen de viajes es que el primero resuelve el problema antes de que la demanda ocurra — concentra la oferta en el lugar correcto a la hora correcta — mientras que el segundo recompensa retroactivamente al conductor que por alguna razón ya estaba en el lugar correcto. En una operación con 40 a 80 conductores activos simultáneamente, la diferencia entre tener 12 conductores en el corredor correcto a las 18:00 y tener 5 distribuidos aleatoriamente puede ser la diferencia entre un tiempo de espera de 4 minutos y uno de 9 minutos para los pasajeros de esa franja. En las primeras semanas de operación en un mercado nuevo, esos 5 minutos de diferencia determinan si los pasajeros se vuelven recurrentes o descartan la plataforma antes de darle una segunda oportunidad.",
-        "en": "The difference between a positioning zone incentive and a trip-volume bonus is that the former solves the problem before demand occurs — it concentrates supply in the right place at the right time — while the latter retroactively rewards the driver who happened to already be in the right place. In an operation with 40 to 80 simultaneously active drivers, the difference between having 12 drivers in the right corridor at 18:00 versus having 5 distributed randomly can be the difference between a 4-minute and a 9-minute wait time for passengers in that window. In the first weeks of a new market, those 5 minutes determine whether passengers become recurring users or dismiss the platform before giving it a second chance."
+        "en": "The difference between a positioning zone incentive and a trip-volume bonus is that the former solves the problem before demand occurs — it concentrates supply in the right place at the right time — while the latter retroactively rewards the driver who happened to already be in the right place. In an operation with 40 to 80 simultaneously active drivers, the difference between having 12 drivers in the right corridor at 18:00 versus having 5 distributed randomly can be the difference between a 4-minute and a 9-minute wait time for passengers in that window. In the first weeks of a new market, those 5 minutes determine whether passengers become recurring users or dismiss the platform before giving it a second chance.",
+        "pt": "A diferença entre um incentivo de zona de posicionamento e um bônus por volume de corridas é que o primeiro resolve o problema antes de a demanda ocorrer — concentra a oferta no lugar certo na hora certa — enquanto o segundo recompensa retroativamente o motorista que, por algum motivo, já estava no lugar certo. Em uma operação com 40 a 80 motoristas ativos simultaneamente, a diferença entre ter 12 motoristas no corredor certo às 18h e ter 5 distribuídos aleatoriamente pode ser a diferença entre um tempo de espera de 4 minutos e um de 9 minutos para os passageiros daquela janela. Nas primeiras semanas de operação em um mercado novo, essa diferença de 5 minutos determina se os passageiros se tornam recorrentes ou descartam a plataforma antes de dar a ela uma segunda chance."
       }
     },
     {
@@ -195,32 +232,37 @@
       "id": "mantenimiento-zonas-costo-oculto",
       "text": {
         "es": "El mantenimiento de zonas activas: el costo que no aparece en el presupuesto",
-        "en": "Maintaining active zones: the cost that doesn't appear in the budget"
+        "en": "Maintaining active zones: the cost that doesn't appear in the budget",
+        "pt": "A manutenção de zonas ativas: o custo que não aparece no orçamento"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "Cada zona activa en una plataforma de ride-hailing es un compromiso operativo vigente. El geofence de tarifa mínima en el aeropuerto que se construyó cuando el aeropuerto tenía una sola terminal sigue activo cuando se abre la segunda terminal a 800 metros, fuera del límite original. La zona de incentivo que se creó para un evento de cuatro días que terminó el mes pasado sigue activando bonos para conductores que pasan por esa área. La zona de restricción configurada para un corredor donde ya no hay operativos de verificación sigue excluyendo conductores que podrían atender demanda real. Las plataformas con más de diez zonas activas sin un proceso de revisión periódica acumulan lógica operativa obsoleta que el equipo no recuerda por qué existe y que nadie se atreve a eliminar por miedo a romper algo que alguna vez funcionó.",
-        "en": "Every active zone on a ride-hailing platform is a standing operational commitment. The airport minimum-fare geofence built when the airport had a single terminal stays active when a second terminal opens 800 meters away, outside the original boundary. The incentive zone created for a four-day event that ended last month keeps activating bonuses for drivers who pass through that area. The restriction zone configured for a corridor where permit inspection operations no longer occur keeps excluding drivers who could serve real demand. Platforms with more than ten active zones and no periodic review process accumulate obsolete operational logic that the team doesn't remember why it exists and that no one dares to remove for fear of breaking something that once worked."
+        "en": "Every active zone on a ride-hailing platform is a standing operational commitment. The airport minimum-fare geofence built when the airport had a single terminal stays active when a second terminal opens 800 meters away, outside the original boundary. The incentive zone created for a four-day event that ended last month keeps activating bonuses for drivers who pass through that area. The restriction zone configured for a corridor where permit inspection operations no longer occur keeps excluding drivers who could serve real demand. Platforms with more than ten active zones and no periodic review process accumulate obsolete operational logic that the team doesn't remember why it exists and that no one dares to remove for fear of breaking something that once worked.",
+        "pt": "Cada zona ativa em uma plataforma de ride-hailing é um compromisso operacional vigente. O geofence de tarifa mínima no aeroporto que foi construído quando o aeroporto tinha apenas um terminal continua ativo quando o segundo terminal abre a 800 metros dali, fora do limite original. A zona de incentivo criada para um evento de quatro dias que terminou mês passado continua ativando bônus para motoristas que passam por aquela área. A zona de restrição configurada para um corredor onde já não há operações de fiscalização continua excluindo motoristas que poderiam atender demanda real. Plataformas com mais de dez zonas ativas sem um processo de revisão periódica acumulam lógica operacional obsoleta que a equipe não lembra por que existe e que ninguém ousa eliminar por medo de quebrar algo que um dia funcionou."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "El proceso mínimo de gobernanza para un conjunto de zonas activas tiene dos componentes. El primero es el propietario de la zona: cada geofence necesita un nombre que incluya el motivo de su existencia ('aeropuerto-tarifa-minima', 'hospital-central-turno-tarde') y una persona del equipo de operaciones responsable de su revisión. El segundo es la revisión de actividad mensual: el responsable confirma que el volumen de viajes o de conductores que activan cada zona sigue siendo el esperado y que la métrica que la zona debía mejorar sigue siendo mejor que antes de la activación. Una zona con cero activaciones en el último mes es candidata inmediata a eliminación. Una zona con activaciones pero sin el impacto esperado en la métrica que justificó su creación — tiempo de espera, tasa de cancelaciones, densidad de conductores en la franja horaria — necesita ajuste o eliminación antes de que el equipo olvide para qué se construyó.",
-        "en": "The minimum governance process for an active zone portfolio has two components. The first is zone ownership: each geofence needs a name that includes the reason for its existence ('airport-minimum-fare', 'central-hospital-late-shift') and a member of the operations team responsible for its review. The second is a monthly activity review: the responsible person confirms that the trip or driver volume activating each zone is still as expected, and that the metric the zone was supposed to improve is still better than before activation. A zone with zero activations in the last month is an immediate deletion candidate. A zone with activations but without the expected impact on the metric that justified its creation — wait time, cancellation rate, driver density in the target time window — needs adjustment or removal before the team forgets what it was built for."
+        "en": "The minimum governance process for an active zone portfolio has two components. The first is zone ownership: each geofence needs a name that includes the reason for its existence ('airport-minimum-fare', 'central-hospital-late-shift') and a member of the operations team responsible for its review. The second is a monthly activity review: the responsible person confirms that the trip or driver volume activating each zone is still as expected, and that the metric the zone was supposed to improve is still better than before activation. A zone with zero activations in the last month is an immediate deletion candidate. A zone with activations but without the expected impact on the metric that justified its creation — wait time, cancellation rate, driver density in the target time window — needs adjustment or removal before the team forgets what it was built for.",
+        "pt": "O processo mínimo de governança para um conjunto de zonas ativas tem dois componentes. O primeiro é o responsável pela zona: cada geofence precisa de um nome que inclua o motivo de sua existência ('aeroporto-tarifa-minima', 'hospital-central-turno-tarde') e uma pessoa da equipe de operações responsável por sua revisão. O segundo é a revisão mensal de atividade: o responsável confirma que o volume de corridas ou de motoristas que ativam cada zona continua como esperado e que a métrica que a zona deveria melhorar continua melhor do que antes da ativação. Uma zona com zero ativações no último mês é candidata imediata à eliminação. Uma zona com ativações, mas sem o impacto esperado na métrica que justificou sua criação — tempo de espera, taxa de cancelamentos, densidade de motoristas na janela de horário — precisa de ajuste ou eliminação antes que a equipe esqueça para que foi construída."
       }
     },
     {
       "type": "quote",
       "text": {
         "es": "Teníamos 17 zonas activas cuando hice el primer inventario serio. Tres eran del lanzamiento original hace 14 meses y nadie recordaba para qué las habíamos creado. Cuatro eran de eventos específicos que ya habían terminado. Al revisarlas una por una encontré que nueve producían el efecto correcto, cuatro necesitaban ajuste de límites y cuatro no tenían ningún impacto medible en las métricas que supuestamente mejoraban. Eliminar esas cuatro y ajustar las otras cuatro redujo las quejas de conductores sobre activaciones inesperadas de incentivo en un 60% en el mes siguiente. El problema no eran las zonas en sí — era que nadie las había revisado después de crearlas.",
-        "en": "We had 17 active zones when I did the first serious inventory. Three were from the original launch 14 months earlier and no one remembered why we had created them. Four were from specific events that had already ended. When I reviewed them one by one, I found that nine were producing the correct effect, four needed boundary adjustments, and four had no measurable impact on the metrics they were supposedly improving. Removing those four and adjusting the other four reduced driver complaints about unexpected incentive activations by 60% in the following month. The problem was not the zones themselves — it was that no one had reviewed them after creating them."
+        "en": "We had 17 active zones when I did the first serious inventory. Three were from the original launch 14 months earlier and no one remembered why we had created them. Four were from specific events that had already ended. When I reviewed them one by one, I found that nine were producing the correct effect, four needed boundary adjustments, and four had no measurable impact on the metrics they were supposedly improving. Removing those four and adjusting the other four reduced driver complaints about unexpected incentive activations by 60% in the following month. The problem was not the zones themselves — it was that no one had reviewed them after creating them.",
+        "pt": "Tínhamos 17 zonas ativas quando fiz o primeiro inventário sério. Três eram do lançamento original 14 meses antes e ninguém lembrava por que as tínhamos criado. Quatro eram de eventos específicos que já haviam terminado. Ao revisá-las uma por uma, descobri que nove estavam produzindo o efeito correto, quatro precisavam de ajuste de limites e quatro não tinham nenhum impacto mensurável nas métricas que supostamente melhoravam. Eliminar essas quatro e ajustar as outras quatro reduziu as reclamações de motoristas sobre ativações inesperadas de incentivo em 60% no mês seguinte. O problema não eram as zonas em si — era que ninguém as havia revisado depois de criá-las."
       },
       "attribution": {
         "es": "Operador de plataforma de movilidad con ocho ciudades activas en México y Colombia",
-        "en": "Mobility platform operator with eight active cities across Mexico and Colombia"
+        "en": "Mobility platform operator with eight active cities across Mexico and Colombia",
+        "pt": "Operador de plataforma de mobilidade com oito cidades ativas no México e na Colômbia"
       }
     },
     {
@@ -229,14 +271,16 @@
       "id": "que-geofences-construir-primero",
       "text": {
         "es": "Qué geofences construir primero si empiezas desde cero",
-        "en": "Which geofences to build first if you are starting from scratch"
+        "en": "Which geofences to build first if you are starting from scratch",
+        "pt": "Quais geofences construir primeiro se você está começando do zero"
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "Un operador que está configurando zonas por primera vez tiene que responder tres preguntas antes de dibujar el primer límite: qué problema operativo concreto está intentando resolver, en qué zona geográfica específica ocurre ese problema con suficiente frecuencia para justificar una solución permanente, y cómo va a medir si la zona está produciendo el efecto esperado. Sin esas tres respuestas, el geofence es una apuesta — puede funcionar o puede generar efectos secundarios que el operador no anticipó. Con esas tres respuestas, el geofence es una hipótesis que se puede confirmar o refutar en las primeras dos semanas de activación, con datos reales.",
-        "en": "An operator configuring zones for the first time must answer three questions before drawing the first boundary: which specific operational problem they are trying to solve, in which specific geographic zone that problem occurs frequently enough to justify a permanent solution, and how they will measure whether the zone is producing the expected effect. Without those three answers, the geofence is a bet — it may work or may generate side effects the operator didn't anticipate. With those three answers, the geofence is a hypothesis that can be confirmed or refuted in the first two weeks of activation, using real data."
+        "en": "An operator configuring zones for the first time must answer three questions before drawing the first boundary: which specific operational problem they are trying to solve, in which specific geographic zone that problem occurs frequently enough to justify a permanent solution, and how they will measure whether the zone is producing the expected effect. Without those three answers, the geofence is a bet — it may work or may generate side effects the operator didn't anticipate. With those three answers, the geofence is a hypothesis that can be confirmed or refuted in the first two weeks of activation, using real data.",
+        "pt": "Um operador que está configurando zonas pela primeira vez precisa responder a três perguntas antes de desenhar o primeiro limite: qual problema operacional concreto está tentando resolver, em qual zona geográfica específica esse problema ocorre com frequência suficiente para justificar uma solução permanente, e como vai medir se a zona está produzindo o efeito esperado. Sem essas três respostas, o geofence é uma aposta — pode funcionar ou pode gerar efeitos colaterais que o operador não previu. Com essas três respostas, o geofence é uma hipótese que pode ser confirmada ou refutada nas primeiras duas semanas de ativação, com dados reais."
       }
     },
     {
@@ -244,7 +288,8 @@
       "style": "bullet",
       "intro": {
         "es": "El orden de implementación que produce el mayor retorno con el menor riesgo operativo en una plataforma nueva es:",
-        "en": "The implementation order that produces the highest return with the lowest operational risk on a new platform is:"
+        "en": "The implementation order that produces the highest return with the lowest operational risk on a new platform is:",
+        "pt": "A ordem de implementação que produz o maior retorno com o menor risco operacional em uma plataforma nova é:"
       },
       "items": {
         "es": [
@@ -258,6 +303,12 @@
           "Second — positioning zone at the operation's most predictable high-demand point: the hospital with regular shifts, the shopping center with a fixed closing time, the stadium on game days — configured to activate only during the time window where demand systematically exceeds supply, with an incentive for being available inside the zone during that window",
           "Third — service restriction zone if there is a specific point where the regulatory requirement differs from the rest of the city: this case is less common but has direct operational consequences if omitted in cities with frequent permit inspection operations",
           "Never before having data — do not build general differential-fare zones ('city center zone', 'north zone') without at least four weeks of demand data confirming a recurring pattern: preventive geofences that don't respond to a documented problem are the origin of the zones no one remembers why they exist"
+        ],
+        "pt": [
+          "Primeiro — zona do aeroporto com tarifa mínima, se a cidade tiver voos comerciais ativos: é o geofence com o caso de negócio mais claro e o menor risco de efeito limite, porque o aeroporto tem um perímetro geográfico reconhecível para o passageiro e um comportamento de demanda previsível que justifica a lógica diferencial",
+          "Segundo — zona de posicionamento no ponto de alta demanda mais previsível da operação: o hospital com turnos regulares, o shopping com horário de fechamento fixo, o estádio em dias de jogo — configurada para ativar apenas na janela de horário em que a demanda supera sistematicamente a oferta, com um incentivo para estar disponível dentro da zona durante essa janela",
+          "Terceiro — zona de restrição de serviço se existir um ponto específico onde a exigência regulatória é diferente do restante da cidade: esse caso é menos comum, mas tem consequências diretas sobre a operação se for omitido em cidades com operações frequentes de fiscalização de permissões",
+          "Nunca antes de ter dados — não construir zonas de tarifa diferencial genéricas ('zona centro', 'zona norte') sem pelo menos quatro semanas de dados de demanda que confirmem um padrão recorrente: os geofences preventivos que não respondem a um problema documentado são a origem das zonas que ninguém lembra por que existem"
         ]
       }
     },
@@ -265,14 +316,16 @@
       "type": "paragraph",
       "text": {
         "es": "El geofencing no es una función de plataforma que se activa para estar al nivel de las operaciones grandes — es una herramienta para resolver problemas operativos específicos que ocurren en zonas geográficas específicas con suficiente regularidad para justificar una solución permanente. Un operador con tres zonas bien diseñadas, con límites que el pasajero entiende, métricas de éxito definidas antes de la activación y un proceso mensual de revisión tiene una ventaja operativa real sobre un operador con diecisiete zonas activas que nadie ha revisado desde que las crearon. La cantidad de zonas no es indicador de sofisticación — lo es la precisión con la que cada zona responde a la pregunta operativa que justificó su existencia.",
-        "en": "Geofencing is not a platform feature you activate to match the sophistication of large operations — it is a tool for solving specific operational problems that occur in specific geographic zones with enough regularity to justify a permanent solution. An operator with three well-designed zones, boundaries that passengers understand, success metrics defined before activation, and a monthly review process has a real operational advantage over an operator with seventeen active zones that no one has reviewed since they were created. The number of zones is not an indicator of sophistication — the precision with which each zone answers the operational question that justified its existence is."
+        "en": "Geofencing is not a platform feature you activate to match the sophistication of large operations — it is a tool for solving specific operational problems that occur in specific geographic zones with enough regularity to justify a permanent solution. An operator with three well-designed zones, boundaries that passengers understand, success metrics defined before activation, and a monthly review process has a real operational advantage over an operator with seventeen active zones that no one has reviewed since they were created. The number of zones is not an indicator of sophistication — the precision with which each zone answers the operational question that justified its existence is.",
+        "pt": "O geofencing não é uma função de plataforma que se ativa para estar no nível das grandes operações — é uma ferramenta para resolver problemas operacionais específicos que ocorrem em zonas geográficas específicas com regularidade suficiente para justificar uma solução permanente. Um operador com três zonas bem projetadas, com limites que o passageiro entende, métricas de sucesso definidas antes da ativação e um processo mensal de revisão tem uma vantagem operacional real sobre um operador com dezessete zonas ativas que ninguém revisou desde que foram criadas. A quantidade de zonas não é indicador de sofisticação — o que importa é a precisão com que cada zona responde à pergunta operacional que justificou sua existência."
       }
     },
     {
       "type": "paragraph",
       "text": {
         "es": "La prueba para cualquier geofence activo es simple: ¿la métrica que la zona debía mejorar cambió en la dirección esperada después de la activación, y sigue en esa dirección hoy? Si la respuesta es sí, la zona gana su derecho a seguir activa. Si la respuesta es no o 'no sé porque nunca lo medimos', la zona es candidata a revisión inmediata. Las operaciones que crecen de 300 a 600 viajes diarios sin acumular complejidad de configuración innecesaria lo hacen porque el equipo que gestiona las zonas aplica la misma rigurosidad que aplica a cualquier otro proceso operativo: medir antes de construir, revisar después de activar, eliminar lo que no funciona antes de que se convierta en parte del paisaje que nadie entiende pero todos respetan.",
-        "en": "The test for any active geofence is simple: did the metric the zone was supposed to improve change in the expected direction after activation, and is it still moving in that direction today? If the answer is yes, the zone earns its right to stay active. If the answer is no or 'I don't know because we never measured it,' the zone is a candidate for immediate review. Operations that grow from 300 to 600 daily trips without accumulating unnecessary configuration complexity do so because the team managing zones applies the same rigor they apply to any other operational process: measure before building, review after activating, remove what isn't working before it becomes part of the landscape that no one understands but everyone is afraid to touch."
+        "en": "The test for any active geofence is simple: did the metric the zone was supposed to improve change in the expected direction after activation, and is it still moving in that direction today? If the answer is yes, the zone earns its right to stay active. If the answer is no or 'I don't know because we never measured it,' the zone is a candidate for immediate review. Operations that grow from 300 to 600 daily trips without accumulating unnecessary configuration complexity do so because the team managing zones applies the same rigor they apply to any other operational process: measure before building, review after activating, remove what isn't working before it becomes part of the landscape that no one understands but everyone is afraid to touch.",
+        "pt": "O teste para qualquer geofence ativo é simples: a métrica que a zona deveria melhorar mudou na direção esperada depois da ativação, e continua nessa direção hoje? Se a resposta for sim, a zona ganha o direito de continuar ativa. Se a resposta for não ou 'não sei porque nunca medimos isso', a zona é candidata a revisão imediata. As operações que crescem de 300 para 600 corridas diárias sem acumular complexidade de configuração desnecessária fazem isso porque a equipe que gerencia as zonas aplica o mesmo rigor que aplica a qualquer outro processo operacional: medir antes de construir, revisar depois de ativar, eliminar o que não funciona antes que se torne parte da paisagem que ninguém entende, mas todos respeitam."
       }
     }
   ]
