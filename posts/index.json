@@ -1,6 +1,28 @@
 {
-  "generatedAt": "2026-07-12T14:13:18.965Z",
+  "generatedAt": "2026-07-13T14:10:30.734Z",
   "posts": [
+    {
+      "slug": "tasa-completacion-viajes-diagnostico-operacion",
+      "category": "strategy",
+      "title": {
+        "es": "Tasa de completación de viajes: la métrica que sintetiza rechazos, cancelaciones y demanda no atendida",
+        "en": "Trip completion rate: the metric that synthesizes rejections, cancellations, and unserved demand",
+        "pt": "Taxa de conclusão de corridas: a métrica que sintetiza rejeições, cancelamentos e demanda não atendida"
+      },
+      "excerpt": {
+        "es": "La tasa de completación de viajes convierte en un solo número el efecto de los rechazos de conductor, las cancelaciones de pasajero y las solicitudes expiradas. Cuando cae por debajo del 85%, el operador está perdiendo demanda real que ya llegó a la plataforma.",
+        "en": "The trip completion rate converts into a single number the combined effect of driver rejections, passenger cancellations, and expired requests. When it falls below 85%, the operator is losing demand that already reached the platform.",
+        "pt": "A taxa de conclusão de corridas converte em um único número o efeito combinado das rejeições de motorista, dos cancelamentos de passageiro e das solicitações expiradas. Quando cai abaixo de 85%, o operador está perdendo demanda que já chegou à plataforma."
+      },
+      "heroImage": "https://raw.githubusercontent.com/jonatanvazquez/cabgo-blog-content/main/images/tasa-completacion-viajes-diagnostico-operacion.jpg",
+      "heroImageAlt": {
+        "es": "Ilustración isométrica de un panel de diagnóstico flotante sobre una cuadrícula urbana en violeta. El panel muestra un indicador circular dividido en un sector verde azulado grande con 88% etiquetado como viajes completados y un arco rojo pequeño dividido en tres segmentos: ámbar para cancelaciones de pasajero, naranja para rechazos múltiples y rosa para sin conductor. Debajo, tres clusters de bloques urbanos conectados al panel por líneas de color: el cluster ámbar tiene un conductor cercano con una X de cancelación, el naranja tiene múltiples insignias de rechazo superpuestas, y el rosa tiene un espacio vacío con un signo de interrogación en lugar del conductor. En primer plano, un panel de tendencia semanal con una línea que cae por debajo de la línea punteada del 85% con un indicador de alerta en rojo.",
+        "en": "Isometric illustration of a floating diagnostic panel above a violet urban grid. The panel displays a circular gauge divided into a large teal sector labeled 88% completed trips and a small red arc split into three segments: amber for passenger cancellations, orange for multiple rejections, and rose for no driver available. Below, three urban block clusters connected to the panel by colored lines: the amber cluster shows a nearby driver with a cancellation X badge, the orange cluster shows multiple overlapping rejection badges, and the rose cluster has an empty placeholder with a question mark instead of a driver. In the foreground, a weekly trend panel with a line dropping below the 85% dotted threshold line and a red alert indicator.",
+        "pt": "Ilustração isométrica de um painel de diagnóstico flutuante sobre uma grade urbana em violeta. O painel mostra um indicador circular dividido em um setor verde-azulado grande com 88% rotulado como corridas concluídas e um arco vermelho pequeno dividido em três segmentos: âmbar para cancelamentos de passageiro, laranja para rejeições múltiplas e rosa para sem motorista disponível. Abaixo, três clusters de blocos urbanos conectados ao painel por linhas coloridas: o cluster âmbar tem um motorista próximo com um emblema X de cancelamento, o laranja tem vários emblemas de rejeição sobrepostos, e o rosa tem um espaço vazio com ponto de interrogação em vez do motorista. Na frente, um painel de tendência semanal com uma linha que cai abaixo da linha pontilhada de 85% e um indicador de alerta em vermelho."
+      },
+      "publishedAt": "2026-07-13",
+      "readingMinutes": 8
+    },
     {
       "slug": "densidad-cobertura-zona-servicio-ride-hailing",
       "category": "strategy",
