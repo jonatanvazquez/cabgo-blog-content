@@ -1,6 +1,28 @@
 {
-  "generatedAt": "2026-07-13T14:10:30.734Z",
+  "generatedAt": "2026-07-14T14:11:42.174Z",
   "posts": [
+    {
+      "slug": "distancia-punto-recogida-radio-asignacion-operacion",
+      "category": "strategy",
+      "title": {
+        "es": "Distancia al punto de recogida: cómo calibrar el radio de asignación para reducir rechazos, esperas y cancelaciones",
+        "en": "Pickup distance: how to calibrate the assignment radius to reduce rejections, wait times, and cancellations",
+        "pt": "Distância ao ponto de embarque: como calibrar o raio de atribuição para reduzir rejeições, esperas e cancelamentos"
+      },
+      "excerpt": {
+        "es": "El radio de asignación conecta la tasa de rechazo, el tiempo de espera y las cancelaciones antes de recogida. Calibrarlo por zona y franja —en lugar de fijarlo una vez— mejora los tres indicadores simultáneamente.",
+        "en": "The assignment radius connects rejection rate, wait time, and cancellations before pickup. Calibrating it by zone and time slot rather than once globally improves all three metrics at once.",
+        "pt": "O raio de atribuição conecta rejeições, tempo de espera e cancelamentos antes do embarque. Calibrá-lo por zona e faixa em vez de um valor global único melhora os três indicadores ao mesmo tempo."
+      },
+      "heroImage": "https://raw.githubusercontent.com/jonatanvazquez/cabgo-blog-content/main/images/distancia-punto-recogida-radio-asignacion-operacion.jpg",
+      "heroImageAlt": {
+        "es": "Ilustración isométrica de una cuadrícula urbana dividida en dos escenarios. Izquierda: polígono de cobertura amplio con un ícono de vehículo en el borde y una línea ámbar discontinua de 5.8 km hasta el anillo de solicitud en verde azulado, con una tarjeta en rojo mostrando 5.8 km y un reloj en ascenso. Derecha: ícono de vehículo junto al anillo de solicitud, línea verde corta de 2.1 km y tarjeta en verde azulado con 2.1 km y una flecha rápida. En primer plano, histograma de distancias de recogida con barras verde azulado por debajo de 3 km, barras ámbar entre 5 y 6 km, y una línea punteada de umbral a los 4 km con un ícono de calibración.",
+        "en": "Isometric illustration of an urban grid split into two scenarios. Left: large coverage polygon with a vehicle icon at its edge, a 5.8 km amber dashed line to the teal request ring, and a red card showing 5.8 km with a rising clock. Right: vehicle icon near the request ring, a short 2.1 km green line, and a teal card showing 2.1 km with a fast arrow. In the foreground, a pickup distance histogram with teal bars below 3 km, amber bars between 5 and 6 km, and a dotted 4 km threshold line with a calibration icon.",
+        "pt": "Ilustração isométrica de uma grade urbana dividida em dois cenários. Esquerda: polígono de cobertura amplo com ícone de veículo na borda e linha tracejada âmbar de 5,8 km até o anel de solicitação verde-azulado, com cartão vermelho mostrando 5,8 km e relógio em ascensão. Direita: ícone de veículo junto ao anel de solicitação, linha verde curta de 2,1 km e cartão verde-azulado com 2,1 km e seta rápida. Na frente, histograma de distâncias de embarque com barras verde-azuladas abaixo de 3 km, barras âmbar entre 5 e 6 km, e linha pontilhada de limite a 4 km com ícone de calibração."
+      },
+      "publishedAt": "2026-07-14",
+      "readingMinutes": 9
+    },
     {
       "slug": "tasa-completacion-viajes-diagnostico-operacion",
       "category": "strategy",
