@@ -1,0 +1,317 @@
+{
+  "slug": "posicionamiento-proactivo-conductores-picos-demanda",
+  "category": "strategy",
+  "title": {
+    "es": "Posicionamiento proactivo de conductores: cómo llegar a la demanda antes de que el pico ya haya pasado",
+    "en": "Proactive driver positioning: how to reach demand before the peak has already passed",
+    "pt": "Posicionamento proativo de motoristas: como chegar à demanda antes que o pico já tenha passado"
+  },
+  "excerpt": {
+    "es": "La mayoría de los operadores comunican a sus conductores dónde estar cuando la demanda ya llegó. Con los datos de zona y franja disponibles en la plataforma, ese mensaje puede enviarse 20 minutos antes y capturar el pico completo en vez de la mitad.",
+    "en": "Most operators tell their drivers where to be once demand has already arrived. With zone and time-slot data available in the platform, that message can be sent 20 minutes earlier and capture the full peak instead of the second half.",
+    "pt": "A maioria dos operadores comunica aos motoristas onde estar quando a demanda já chegou. Com os dados de zona e faixa disponíveis na plataforma, essa mensagem pode ser enviada 20 minutos antes e capturar o pico completo em vez de apenas a metade."
+  },
+  "heroImage": "https://raw.githubusercontent.com/jonatanvazquez/cabgo-blog-content/main/images/posicionamiento-proactivo-conductores-picos-demanda.jpg",
+  "heroImageAlt": {
+    "es": "Ilustración isométrica dividida: a la izquierda, coordinador en panel de control flotante con alerta de tiempo de espera en rojo enviando burbuja de chat. A la derecha, tres íconos de vehículo con flechas de guía moviéndose hacia un anillo de zona de alta demanda en verde azulado. En primer plano, línea de tiempo con marcadores T-20 min, T-0 pico y T+5 resultado, con indicador de tasa de completación verde subiendo.",
+    "en": "Isometric illustration split in two: on the left, a coordinator at a floating control panel with a red wait-time alert sending a chat bubble. On the right, three vehicle icons with directional arrows moving toward a teal high-demand zone ring. In the foreground, a timeline strip with T-20 min, T-0 peak, and T+5 outcome markers, and a rising green completion-rate indicator.",
+    "pt": "Ilustração isométrica dividida: à esquerda, coordenador em painel de controle flutuante com alerta de tempo de espera em vermelho enviando bolha de chat. À direita, três ícones de veículo com setas direcionais se movendo em direção a um anel de zona de alta demanda verde-azulado. Na frente, linha do tempo com marcadores T-20 min, T-0 pico e T+5 resultado, com indicador de taxa de conclusão verde subindo."
+  },
+  "heroImagePrompt": "Split isometric composition. Left side: a coordinator figure at a floating isometric control panel displaying a red wait-time alert badge with a rising clock icon. The coordinator sends a single teal speech-balloon chat bubble containing a small location pin and clock icon. Right side: three isometric vehicle icons each receiving a teal speech-balloon notification, with bold directional arrows guiding them toward a tight circular teal demand-zone ring where multiple request pings pulse outward. Between left and right, a compact horizontal timeline strip showing three milestone markers: a violet diamond labeled T-20 min, an amber diamond labeled T-0 Peak, and a green diamond labeled T+5 Result with a small upward-trending completion-rate bar. Deep violet floor grid, soft indigo radial background glow, clean geometric shapes, subtle shadows. Negative space on the lower right.",
+  "publishedAt": "2026-07-15",
+  "readingMinutes": 9,
+  "keywords": {
+    "es": [
+      "posicionamiento proactivo conductores ride-hailing",
+      "instrucciones posicionamiento flota taxi app pico demanda",
+      "anticipar pico demanda operación movilidad regional",
+      "mensaje posicionamiento conductor turno ride-hailing",
+      "gestión flota proactiva reducir tiempo espera",
+      "mapa demanda zona franja operación taxi plataforma",
+      "reducir rechazo conductor posicionamiento anticipado"
+    ],
+    "en": [
+      "proactive driver positioning ride-hailing regional",
+      "fleet positioning instructions taxi app demand peak",
+      "anticipate demand peak regional mobility operation",
+      "driver positioning message shift ride-hailing",
+      "proactive fleet management reduce wait time",
+      "demand map zone time slot taxi platform operation",
+      "reduce driver rejection proactive positioning"
+    ],
+    "pt": [
+      "posicionamento proativo motoristas ride-hailing regional",
+      "instruções posicionamento frota app de táxi pico de demanda",
+      "antecipar pico de demanda operação mobilidade regional",
+      "mensagem posicionamento motorista turno ride-hailing",
+      "gestão proativa de frota reduzir tempo de espera",
+      "mapa de demanda zona faixa plataforma de táxi",
+      "reduzir rejeição motorista posicionamento antecipado"
+    ]
+  },
+  "author": {
+    "name": "Equipo Cabgo",
+    "role": {
+      "es": "Plataforma de movilidad",
+      "en": "Mobility platform",
+      "pt": "Plataforma de mobilidade"
+    }
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "En una operación de ride-hailing regional, la diferencia entre una tasa de completación del 88% y una del 77% durante el pico de la mañana rara vez se debe a la cantidad de conductores conectados: se debe a dónde están esos conductores cuando llega la primera solicitud del pico. Si el operador tiene 22 conductores activos a las 7:30 pero 14 de ellos están en zonas periféricas o en sus puntos de descanso habituales cuando llega el primer bloque de solicitudes de las 7:30 a las 8:15, la operación empieza cada pico con un déficit de posicionamiento que tarda entre 12 y 20 minutos en corregirse de forma natural. Ese déficit inicial produce el rechazo, la espera larga y la cancelación del pasajero que los indicadores muestran después, cuando el pico ya terminó y la información que habría servido para evitarlo se convirtió en datos históricos.",
+        "en": "In a regional ride-hailing operation, the difference between an 88% and a 77% completion rate during the morning peak is rarely about the number of drivers connected — it is about where those drivers are when the first request of the peak arrives. If an operator has 22 active drivers at 7:30 a.m. but 14 of them are in peripheral zones or their usual rest spots when the first 7:30–8:15 request block hits, the operation starts every peak from a positioning deficit that takes 12 to 20 minutes to self-correct. That initial deficit produces the rejections, long waits, and passenger cancellations that the metrics show afterward, when the peak is already over and the information that would have prevented it has turned into historical data.",
+        "pt": "Em uma operação de ride-hailing regional, a diferença entre uma taxa de conclusão de 88% e uma de 77% durante o pico da manhã raramente se deve à quantidade de motoristas conectados: se deve a onde esses motoristas estão quando a primeira solicitação do pico chega. Se o operador tem 22 motoristas ativos às 7h30 mas 14 deles estão em zonas periféricas ou em seus pontos de descanso habituais quando chega o primeiro bloco de solicitações das 7h30 às 8h15, a operação começa cada pico com um déficit de posicionamento que leva entre 12 e 20 minutos para se corrigir naturalmente. Esse déficit inicial produz a rejeição, a espera longa e o cancelamento do passageiro que os indicadores mostram depois, quando o pico já terminou e a informação que teria servido para evitá-lo se converteu em dados históricos."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Este artículo está dirigido al operador con 20 a 80 conductores activos que ya tiene datos de zona y franja en la plataforma y que ha identificado que los picos de demanda tienen tasas de rechazo o tiempos de espera superiores al resto de la jornada. Cubre por qué el retraso reactivo es estructural cuando el posicionamiento depende de que el operador detecte el pico antes de actuar, cómo extraer el mapa de demanda predecible por zona y franja de las últimas seis a ocho semanas, cuándo enviar la instrucción para que el conductor llegue antes del pico, qué información incluir en el mensaje para que el conductor entienda el valor de reposicionarse, cómo el agente puede generar esas instrucciones de forma sistemática, y qué indicadores confirman que el posicionamiento proactivo está reduciendo el déficit inicial de cada bloque. La tesis es contracultural para quien gestiona la flota de forma reactiva: el posicionamiento correcto no responde al pico, lo anticipa.",
+        "en": "This article is for the operator with 20 to 80 active drivers who already has zone and time-slot data in the platform and who has identified that demand peaks carry higher rejection rates or wait times than the rest of the day. It covers why reactive positioning lag is structural when fleet movement depends on the operator detecting the peak before acting, how to extract the predictable demand map by zone and time slot from the past six to eight weeks of data, when to send the instruction so the driver arrives before the peak, what information to include so the driver understands the value of repositioning, how the agent can generate those instructions systematically, and what indicators confirm that proactive positioning is reducing the initial deficit of every block. The thesis is counterintuitive for anyone managing their fleet reactively: the right positioning doesn't respond to the peak — it anticipates it.",
+        "pt": "Este artigo é voltado ao operador com 20 a 80 motoristas ativos que já tem dados de zona e faixa na plataforma e que identificou que os picos de demanda têm taxas de rejeição ou tempos de espera superiores ao restante da jornada. Ele cobre por que o atraso reativo é estrutural quando o posicionamento depende de o operador detectar o pico antes de agir, como extrair o mapa de demanda previsível por zona e faixa das últimas seis a oito semanas, quando enviar a instrução para que o motorista chegue antes do pico, que informação incluir para que ele entenda o valor de se reposicionar, como o agente pode gerar essas instruções de forma sistemática, e que indicadores confirmam que o posicionamento proativo está reduzindo o déficit inicial de cada bloco. A tese é contracultural para quem gerencia a frota de forma reativa: o posicionamento correto não responde ao pico — ele o antecipa."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "retraso-reactivo-primeros-minutos-pico",
+      "text": {
+        "es": "El retraso reactivo: qué pierde la operación en los primeros 15 minutos de cada pico",
+        "en": "The reactive lag: what the operation loses in the first 15 minutes of every peak",
+        "pt": "O atraso reativo: o que a operação perde nos primeiros 15 minutos de cada pico"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El mecanismo del retraso reactivo es el siguiente. A las 7:28 llega la primera solicitud del pico de la mañana en la zona de oficinas. El conductor más cercano está a 8 minutos y acepta. A las 7:31 llegan tres solicitudes simultáneas; los conductores disponibles dentro del radio están a 7, 9 y 12 minutos. El de 12 rechaza. A las 7:35 hay ocho solicitudes activas y cuatro conductores disponibles; el sistema asigna a los más cercanos —5, 7, 10 y 14 minutos—; los dos más lejanos reciben rechazo y el sistema escala al siguiente disponible, que ahora está a 11 minutos porque los de 5 y 7 ya están en ruta. Entre las 7:28 y las 7:48, el sistema procesó 22 solicitudes: 14 se completaron, 4 cancelaron por espera mayor a 10 minutos, y 4 expiraron sin conductor disponible en el radio. La causa fue el posicionamiento: a las 7:28 había conductores suficientes para cubrir el pico, pero no estaban en la zona donde el pico iba a ocurrir.",
+        "en": "The reactive lag mechanism works like this. At 7:28 a.m. the first morning peak request arrives in the office zone. The nearest driver is 8 minutes away and accepts. At 7:31, three simultaneous requests arrive; drivers within the radius are at 7, 9, and 12 minutes. The 12-minute driver rejects. By 7:35 there are eight active requests and four available drivers; the system assigns to the closest — at 5, 7, 10, and 14 minutes — the two farthest get rejected and the system escalates to the next available driver, who is now at 11 minutes because the 5 and 7-minute drivers are already en route. Between 7:28 and 7:48, the system processed 22 requests: 14 completed, 4 canceled because the wait exceeded 10 minutes, and 4 expired with no driver in the radius. The cause was positioning: at 7:28 there were enough drivers to cover the peak, but they weren't in the zone where the peak was going to happen.",
+        "pt": "O mecanismo do atraso reativo funciona assim. Às 7h28 chega a primeira solicitação do pico da manhã na zona de escritórios. O motorista mais próximo está a 8 minutos e aceita. Às 7h31, chegam três solicitações simultâneas; os motoristas disponíveis dentro do raio estão a 7, 9 e 12 minutos. O de 12 minutos rejeita. Às 7h35 há oito solicitações ativas e quatro motoristas disponíveis; o sistema atribui aos mais próximos — a 5, 7, 10 e 14 minutos —; os dois mais distantes recebem rejeição e o sistema escala para o próximo disponível, que agora está a 11 minutos porque os de 5 e 7 já estão a caminho. Entre 7h28 e 7h48, o sistema processou 22 solicitações: 14 foram concluídas, 4 cancelaram porque a espera superou 10 minutos, e 4 expiraram sem motorista no raio. A causa foi o posicionamento: às 7h28 havia motoristas suficientes para cobrir o pico, mas não estavam na zona onde o pico ia ocorrer."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La señal de que el problema es de posicionamiento y no de cantidad de conductores es la tasa de completación justo antes del pico: si entre las 7:00 y las 7:25 era del 91% con los mismos conductores activos, la caída en las primeras franjas del bloque no es un problema de oferta total sino de distribución geográfica de esa oferta. El operador que detecta la caída y tarda 15 a 25 minutos en reaccionar —identificar la zona, comunicar a los conductores, esperar que lleguen— pierde exactamente esa ventana. Cuando el mensaje de posicionamiento llega y el conductor se reposiciona, el pico ya entró en su fase de declive natural. La reactividad no es lentitud del operador: es la consecuencia estructural de gestionar la flota en respuesta a lo que ya pasó en vez de a lo que ya se sabe que va a pasar.",
+        "en": "The signal that the problem is positioning rather than headcount is the completion rate in the window just before the peak: if between 7:00 and 7:25 a.m. it was 91% with the same active drivers, the drop in the first peak slots is not a total supply problem but a geographic distribution problem. The operator who detects the drop and takes 15 to 25 minutes to react — identify the zone, communicate to drivers, wait for them to arrive — loses exactly that window. By the time the positioning message reaches the driver and the driver repositions, the peak has already entered its natural decline. Reactivity is not operator slowness: it is the structural consequence of managing the fleet in response to what already happened instead of what is already known to be about to happen.",
+        "pt": "O sinal de que o problema é de posicionamento e não de quantidade de motoristas é a taxa de conclusão imediatamente antes do pico: se entre 7h00 e 7h25 era de 91% com os mesmos motoristas ativos, a queda nas primeiras faixas do bloco não é um problema de oferta total, mas de distribuição geográfica. O operador que detecta a queda e leva de 15 a 25 minutos para reagir — identificar a zona, comunicar aos motoristas, aguardá-los chegarem — perde exatamente essa janela. Quando a mensagem de posicionamento chega e o motorista se reposiciona, o pico já entrou em seu declínio natural. A reatividade não é lentidão do operador: é a consequência estrutural de gerenciar a frota em resposta ao que já aconteceu em vez do que já se sabe que vai acontecer."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "demanda-predecible-datos-posicionamiento",
+      "text": {
+        "es": "La demanda es predecible: cómo leer el mapa de zona y franja de las últimas seis semanas",
+        "en": "Demand is predictable: how to read the zone and time-slot map from the last six weeks",
+        "pt": "A demanda é previsível: como ler o mapa de zona e faixa das últimas seis semanas"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El posicionamiento proactivo es factible en ride-hailing regional porque la demanda en ciudades de 150,000 a 600,000 habitantes tiene un patrón semanal altamente repetible. Un martes en una ciudad de 300,000 habitantes tiene picos en las mismas franjas que el martes anterior con una variación inferior al 12% en volumen de solicitudes, salvo eventos no planificados. Las mismas zonas que generaron el 65% de las solicitudes del martes pasado entre las 7:30 y las 9:00 generarán el 60 al 68% el martes siguiente. Ese nivel de regularidad convierte las seis a ocho semanas de datos históricos de zona y franja en un mapa de posicionamiento predictivo que el operador puede usar antes de que comience la jornada, no después de que el pico haya aparecido.",
+        "en": "Proactive positioning is feasible in regional ride-hailing because demand in cities of 150,000 to 600,000 residents follows a highly repeatable weekly pattern. A Tuesday in a city of 300,000 residents produces peaks in the same slots as the previous Tuesday with less than 12% variation in request volume, barring unplanned events. The same zones that generated 65% of last Tuesday's requests between 7:30 and 9:00 a.m. will generate 60 to 68% the following Tuesday. That level of regularity turns six to eight weeks of historical zone and time-slot data into a predictive positioning map the operator can use before the shift begins, not after the peak has already appeared.",
+        "pt": "O posicionamento proativo é factível no ride-hailing regional porque a demanda em cidades de 150.000 a 600.000 habitantes tem um padrão semanal altamente repetível. Uma terça-feira em uma cidade de 300.000 habitantes tem picos nas mesmas faixas que a terça-feira anterior, com variação inferior a 12% no volume de solicitações, exceto em eventos não planejados. As mesmas zonas que geraram 65% das solicitações da terça passada entre 7h30 e 9h00 gerarão de 60 a 68% na terça seguinte. Esse nível de regularidade transforma as seis a oito semanas de dados históricos de zona e faixa em um mapa de posicionamento preditivo que o operador pode usar antes de a jornada começar, não depois de o pico já ter aparecido."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La consulta al agente que produce ese mapa: «Para las últimas seis semanas, muéstrame las solicitudes únicas de lunes a viernes agrupadas por zona de origen y franja de dos horas. Para cada combinación zona-franja, muéstrame el promedio de solicitudes por día de la semana —separando lunes a jueves de viernes— y la desviación de ese promedio entre semanas. Incluye el tiempo de espera mediano y la tasa de rechazo en cada combinación.» El resultado es una tabla de doce a veinticuatro filas que muestra exactamente qué zonas y franjas concentran la demanda de forma predecible. Para el operador que quiere construir un calendario de posicionamiento semanal, las cinco o seis combinaciones zona-franja con mayor promedio de solicitudes y mayor variabilidad en tasa de rechazo son las que necesitan posicionamiento proactivo antes del inicio de la franja, no después.",
+        "en": "The agent query that produces this map: 'For the last six weeks, show me unique requests from Monday to Friday grouped by origin zone and two-hour slot. For each zone-slot combination, show me the average requests per day of the week — separating Monday through Thursday from Friday — and the week-to-week deviation of that average. Include median wait time and rejection rate for each combination.' The result is a table of twelve to twenty-four rows that shows exactly which zones and slots concentrate demand predictably. For an operator building a weekly positioning calendar, the five or six zone-slot combinations with the highest request averages and the most variable rejection rates are the ones that need proactive positioning before the slot starts, not after.",
+        "pt": "A consulta ao agente que produz esse mapa: «Para as últimas seis semanas, mostre as solicitações únicas de segunda a sexta agrupadas por zona de origem e faixa de duas horas. Para cada combinação zona-faixa, mostre a média de solicitações por dia da semana — separando segunda a quinta de sexta — e o desvio dessa média entre semanas. Inclua o tempo de espera mediano e a taxa de rejeição em cada combinação.» O resultado é uma tabela de doze a vinte e quatro linhas que mostra exatamente quais zonas e faixas concentram a demanda de forma previsível. Para o operador que quer construir um calendário de posicionamento semanal, as cinco ou seis combinações zona-faixa com maior média de solicitações e maior variabilidade na taxa de rejeição são as que precisam de posicionamento proativo antes do início da faixa, não depois."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "timing-mensaje-posicionamiento-antes-pico",
+      "text": {
+        "es": "El timing del mensaje: por qué 20 minutos de anticipación cambian el resultado",
+        "en": "Message timing: why 20 minutes of lead time changes the outcome",
+        "pt": "O timing da mensagem: por que 20 minutos de antecedência mudam o resultado"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El tiempo que tarda un conductor en cambiar de zona en una ciudad de 200,000 a 400,000 habitantes varía entre 8 y 18 minutos según la distancia desde su posición actual hasta la zona objetivo y el tráfico del momento. El operador que envía el mensaje 5 minutos antes del pico obtiene una respuesta que llega cuando ya pasaron las primeras 10 a 15 solicitudes del bloque. El que lo envía con 20 a 25 minutos de anticipación puede esperar que entre el 60 y el 75% de los conductores activos en la franja anterior lleguen o ya estén cerca de la zona antes de que comience el bloque de solicitudes. Ese es el umbral operativo: un mensaje con 20 a 25 minutos de anticipo puede cambiar el posicionamiento real de la flota antes de que el pico comience; uno con 5 a 10 minutos no puede, porque el tiempo de tránsito del conductor supera la ventana útil.",
+        "en": "The time it takes a driver to change zones in a city of 200,000 to 400,000 residents ranges from 8 to 18 minutes depending on the distance from their current position to the target zone and the traffic at that moment. An operator who sends the message 5 minutes before the peak gets a response that arrives after the first 10 to 15 requests of the block have already been processed. One who sends it 20 to 25 minutes ahead can expect 60 to 75% of drivers active in the prior slot to arrive or already be near the zone before the request block begins. That is the operational threshold: a message with 20 to 25 minutes of lead time can actually change the fleet's real positioning before the peak starts; one with 5 to 10 minutes cannot, because the driver's transit time exceeds the useful window.",
+        "pt": "O tempo que um motorista leva para mudar de zona em uma cidade de 200.000 a 400.000 habitantes varia entre 8 e 18 minutos, dependendo da distância entre sua posição atual e a zona alvo e do tráfego naquele momento. O operador que envia a mensagem 5 minutos antes do pico obtém uma resposta que chega quando as primeiras 10 a 15 solicitações do bloco já foram processadas. O que a envia com 20 a 25 minutos de antecedência pode esperar que entre 60 e 75% dos motoristas ativos na faixa anterior cheguem ou já estejam perto da zona antes de o bloco de solicitações começar. Esse é o limiar operacional: uma mensagem com 20 a 25 minutos de antecedência pode efetivamente mudar o posicionamento real da frota antes de o pico começar; uma com 5 a 10 minutos não consegue, porque o tempo de deslocamento do motorista supera a janela útil."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Para los picos que ocurren al inicio de la jornada —el bloque de las 7:00 a las 9:00 que existe en la mayoría de los mercados con actividad laboral concentrada—, el momento óptimo de envío no es 20 minutos antes del pico sino al inicio de sesión del conductor: cuando activa la app o marca el inicio del turno, recibe la instrucción de posicionamiento para los siguientes 90 minutos. Ese conductor empieza la sesión ya orientado hacia la zona de mayor demanda esperada, sin necesidad de reposicionarse desde ningún punto. Para los picos del mediodía —entre las 12:30 y las 14:00— y los de salida —entre las 17:30 y las 19:30—, el mensaje debe enviarse entre 20 y 25 minutos antes del inicio de cada franja, con el tiempo de tránsito medio de la flota hacia las zonas de pico como variable de calibración.",
+        "en": "For peaks that occur at the start of the shift — the 7:00 to 9:00 a.m. block that exists in most markets with concentrated work activity — the optimal send time is not 20 minutes before the peak but at the driver's session start: when they activate the app or mark shift start, they receive the positioning instruction for the next 90 minutes. That driver starts the session already oriented toward the highest-expected-demand zone, without needing to reposition from anywhere. For midday peaks — between 12:30 and 2:00 p.m. — and exit peaks — between 5:30 and 7:30 p.m. — the message should go out 20 to 25 minutes before each slot's start, using the mean fleet transit time to the peak zones as the calibration variable.",
+        "pt": "Para os picos que ocorrem no início da jornada — o bloco das 7h às 9h que existe na maioria dos mercados com atividade laboral concentrada —, o momento ideal de envio não é 20 minutos antes do pico, mas no início da sessão do motorista: quando ele ativa o app ou marca o início do turno, recebe a instrução de posicionamento para os próximos 90 minutos. Esse motorista começa a sessão já orientado para a zona de maior demanda esperada, sem precisar se reposicionar de nenhum ponto. Para os picos do meio-dia — entre 12h30 e 14h — e os de saída — entre 17h30 e 19h30 —, a mensagem deve ser enviada de 20 a 25 minutos antes do início de cada faixa, usando o tempo médio de deslocamento da frota até as zonas de pico como variável de calibração."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "contenido-mensaje-posicionamiento-efectivo",
+      "text": {
+        "es": "Qué incluye un mensaje de posicionamiento que el conductor realmente usa",
+        "en": "What a positioning message the driver actually follows includes",
+        "pt": "O que inclui uma mensagem de posicionamento que o motorista realmente usa"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La diferencia entre un mensaje de posicionamiento que el conductor sigue y uno que ignora no está en el tono: está en la especificidad de la información. Un mensaje que dice «hay demanda en la zona norte esta mañana» no cambia el comportamiento porque no da información nueva: el conductor ya sabe que el norte tiene demanda por la mañana. Un mensaje que dice «Para 7:30 a 8:45: posiciónate en el cruce de Av. Juárez con Blvd. Morelos. Esperamos 18 a 22 solicitudes en 2.5 km. El martes pasado esa zona promedió 340 MXN entre 7:30 y 9:00, con viajes de 12 a 15 minutos. Hay 3 conductores activos en la zona ahora» tiene todo lo que el conductor necesita para tomar una decisión de reposicionamiento basada en el costo de oportunidad real.",
+        "en": "The difference between a positioning message the driver uses and one they ignore is not tone — it is the specificity of the information. A message that says 'there's demand in the northern zone this morning' doesn't change behavior because it gives no new information: the driver already knows the north has morning demand. A message that says 'For 7:30 to 8:45 a.m.: position at the Av. Juárez and Blvd. Morelos intersection. We expect 18 to 22 requests within 2.5 km. Last Tuesday that zone averaged 340 MXN between 7:30 and 9:00 a.m., with trips of 12 to 15 minutes. There are 3 active drivers in the zone now' has everything the driver needs to make a repositioning decision based on actual opportunity cost.",
+        "pt": "A diferença entre uma mensagem de posicionamento que o motorista usa e uma que ignora não está no tom: está na especificidade da informação. Uma mensagem que diz «há demanda na zona norte esta manhã» não muda o comportamento porque não dá informação nova: o motorista já sabe que o norte tem demanda pela manhã. Uma mensagem que diz «Para 7h30 às 8h45: posicione-se no cruzamento da Av. Juárez com o Blvd. Morelos. Esperamos de 18 a 22 solicitações em 2,5 km. Na terça passada essa zona teve média de 340 MXN entre 7h30 e 9h, com corridas de 12 a 15 minutos. Há 3 motoristas ativos na zona agora» tem tudo o que o motorista precisa para tomar uma decisão de reposicionamento baseada no custo de oportunidade real."
+      }
+    },
+    {
+      "type": "list",
+      "style": "bullet",
+      "intro": {
+        "es": "Los cinco elementos que distinguen un mensaje de posicionamiento que cambia el comportamiento de uno que el conductor descarta:",
+        "en": "The five elements that distinguish a positioning message that changes behavior from one the driver dismisses:",
+        "pt": "Os cinco elementos que distinguem uma mensagem de posicionamento que muda o comportamento de uma que o motorista descarta:"
+      },
+      "items": {
+        "es": [
+          "**Referencia geográfica concreta**: un cruce o punto de referencia conocido —no «zona norte» sino «parque Juárez» o «frente al Walmart de Insurgentes»—. El conductor debe poder navegar hacia el punto sin interpretar qué significa la instrucción.",
+          "**Ventana de tiempo específica**: la franja exacta en que se espera el pico, no «esta mañana» sino «de 7:30 a 8:45». El conductor decide si la ventana es compatible con su plan de sesión.",
+          "**Estimación de volumen de solicitudes**: cuántas solicitudes se esperan en esa zona durante esa franja basado en el promedio de las semanas anteriores. Eso le da un estimado del número de viajes que puede hacer si se posiciona correctamente.",
+          "**Ingreso de referencia histórico**: cuánto generaron los conductores activos en esa zona-franja la semana anterior. No es una promesa: es la referencia que permite evaluar si el reposicionamiento vale la pena frente a su posición actual.",
+          "**Número de conductores ya en la zona**: si ya hay seis conductores en una zona que espera ocho solicitudes, reposicionarse en séptimo lugar puede no ser la decisión más productiva."
+        ],
+        "en": [
+          "**Concrete geographic reference**: a street intersection or known landmark — not 'northern zone' but 'Parque Juárez' or 'in front of Walmart on Insurgentes.' The driver must be able to navigate to the point without interpreting what the instruction means.",
+          "**Specific time window**: the exact slot when the peak is expected, not 'this morning' but '7:30 to 8:45 a.m.' The driver decides whether the window fits their session plan.",
+          "**Request volume estimate**: how many requests are expected in that zone during that slot based on the average of prior weeks. This gives the driver an estimate of how many trips they can make if they position correctly.",
+          "**Historical income reference**: how much drivers active in that zone-slot earned the prior week. Not a promise — a reference that lets the driver evaluate whether repositioning is worth it compared to staying where they are.",
+          "**Current driver count in the zone**: if there are already six drivers in a zone expecting eight requests, repositioning as the seventh may not be the most productive decision."
+        ],
+        "pt": [
+          "**Referência geográfica concreta**: um cruzamento ou ponto de referência conhecido — não «zona norte» mas «Parque Juárez» ou «em frente ao Walmart da Insurgentes». O motorista deve poder navegar até o ponto sem precisar interpretar o que a instrução significa.",
+          "**Janela de tempo específica**: a faixa exata em que o pico é esperado, não «esta manhã» mas «das 7h30 às 8h45». O motorista decide se a janela é compatível com seu plano de sessão.",
+          "**Estimativa de volume de solicitações**: quantas solicitações são esperadas nessa zona durante essa faixa com base na média das semanas anteriores. Isso dá ao motorista uma estimativa do número de corridas que pode fazer se se posicionar corretamente.",
+          "**Referência histórica de renda**: quanto ganharam os motoristas ativos nessa zona-faixa na semana anterior. Não é uma promessa: é a referência que permite avaliar se o reposicionamento vale a pena em comparação com sua posição atual.",
+          "**Número de motoristas já na zona**: se já há seis motoristas em uma zona que espera oito solicitações, chegar por sétimo pode não ser a decisão mais produtiva."
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "agente-genera-instrucciones-posicionamiento",
+      "text": {
+        "es": "Cómo el agente construye las instrucciones de posicionamiento para cada jornada",
+        "en": "How the agent builds positioning instructions for each shift",
+        "pt": "Como o agente constrói as instruções de posicionamento para cada jornada"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El ciclo de posicionamiento proactivo no requiere que el operador genere el mapa de demanda manualmente cada mañana: el agente puede construir esa instrucción a partir de los datos históricos disponibles en la plataforma. La consulta que produce el mensaje para el día siguiente: «Para mañana martes, basándote en los últimos seis martes, identifica las dos o tres combinaciones zona-franja con mayor promedio de solicitudes y mayor tasa de rechazo histórica. Para cada una, genera un mensaje de posicionamiento dirigido a conductores que incluya: el punto de referencia geográfico más específico dentro de la zona, la franja de tiempo exacta, el promedio de solicitudes esperadas, el ingreso mediano de conductores activos en esa zona-franja en las últimas cuatro semanas, y la hora a la que debe enviarse el mensaje para que los conductores puedan llegar antes del inicio de la franja.» El resultado es un mensaje listo para enviar, con la instrucción específica, la franja y el dato económico de referencia que el conductor puede evaluar antes de decidir si se reposiciona.",
+        "en": "The proactive positioning cycle doesn't require the operator to manually generate the demand map every morning: the agent can build that instruction from the historical data available in the platform. The query that produces the next day's message: 'For tomorrow Tuesday, based on the last six Tuesdays, identify the two or three zone-slot combinations with the highest average request volume and historical rejection rate. For each, generate a positioning message directed at drivers that includes: the most specific geographic reference point within the zone, the exact time slot, the average expected requests, the median income of active drivers in that zone-slot over the past four weeks, and the time the message should be sent so drivers can arrive before the slot begins.' The result is a message ready to send, with the specific instruction, the time window, and the economic reference point the driver can evaluate before deciding whether to reposition.",
+        "pt": "O ciclo de posicionamento proativo não exige que o operador gere o mapa de demanda manualmente toda manhã: o agente pode construir essa instrução a partir dos dados históricos disponíveis na plataforma. A consulta que produz a mensagem para o dia seguinte: «Para amanhã, terça-feira, com base nas últimas seis terças-feiras, identifique as duas ou três combinações zona-faixa com maior média de solicitações e maior taxa de rejeição histórica. Para cada uma, gere uma mensagem de posicionamento dirigida a motoristas que inclua: o ponto de referência geográfico mais específico dentro da zona, a faixa de tempo exata, a média de solicitações esperadas, a renda mediana dos motoristas ativos nessa zona-faixa nas últimas quatro semanas, e o horário em que a mensagem deve ser enviada para que os motoristas possam chegar antes do início da faixa.» O resultado é uma mensagem pronta para enviar, com a instrução específica, a faixa e o dado econômico de referência que o motorista pode avaliar antes de decidir se se reposiciona."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Para integrar esto en la rutina semanal sin generar la consulta cada día: «Cada domingo antes de las 20:00, genera los mensajes de posicionamiento para la semana siguiente —lunes a sábado— con las dos combinaciones zona-franja de mayor demanda esperada para cada día de la semana. Para cada mensaje, incluye el timing de envío, el punto geográfico de referencia, la franja de demanda, el promedio de solicitudes y el ingreso mediano de referencia de los conductores activos en esa combinación el mismo día del mes anterior.» Con esa rutina, el operador empieza cada semana con seis días de mensajes de posicionamiento generados, revisados en 15 minutos el domingo, y enviados en la ventana de tiempo correcta antes de cada pico. El costo de producción es prácticamente cero; el costo de no tenerlos es el déficit de posicionamiento que la operación pagó en los picos de la semana anterior.",
+        "en": "To integrate this into the weekly routine without querying every day: 'Every Sunday before 8:00 p.m., generate the positioning messages for the coming week — Monday through Saturday — with the two zone-slot combinations of highest expected demand for each day of the week. For each message, include the send timing, the geographic reference point, the demand window, the average expected requests, and the reference median income of active drivers in that combination on the same day in the prior month.' With that routine, the operator starts each week with six days of positioning messages generated, reviewed in 15 minutes on Sunday, and sent in the correct time window before each peak. The production cost is effectively zero; the cost of not having them is the positioning deficit the operation paid for in the peaks of the prior week.",
+        "pt": "Para integrar isso à rotina semanal sem gerar a consulta todos os dias: «Todo domingo antes das 20h, gere as mensagens de posicionamento para a semana seguinte — segunda a sábado — com as duas combinações zona-faixa de maior demanda esperada para cada dia da semana. Para cada mensagem, inclua o horário de envio, o ponto geográfico de referência, a faixa de demanda, a média de solicitações esperadas e a renda mediana de referência dos motoristas ativos nessa combinação no mesmo dia do mês anterior.» Com essa rotina, o operador começa cada semana com seis dias de mensagens de posicionamento geradas, revisadas em 15 minutos no domingo, e enviadas na janela de tempo correta antes de cada pico. O custo de produção é praticamente zero; o custo de não tê-las é o déficit de posicionamento que a operação pagou nos picos da semana anterior."
+      }
+    },
+    {
+      "type": "quote",
+      "text": {
+        "es": "Antes enviaba el mensaje cuando ya veía que los viajes se estaban acumulando. Para cuando los conductores llegaban, el pico ya había pasado. Empecé a generar la instrucción la noche anterior con el agente: qué zona, qué cruce exacto, a qué hora llegarían las solicitudes, cuánto habían ganado los conductores en esa franja la semana pasada. El martes siguiente el tiempo de espera en las primeras dos franjas del pico bajó de 11 a 6 minutos. Los conductores empezaron a pedirme el mensaje de posicionamiento antes de empezar su turno.",
+        "en": "Before, I would send the message when I already saw trips piling up. By the time drivers arrived, the peak had already passed. I started generating the instruction the night before with the agent: which zone, which exact intersection, when the requests would arrive, how much drivers had earned in that window the previous week. The following Tuesday, wait times in the first two peak slots dropped from 11 to 6 minutes. Drivers started asking me for the positioning message before starting their shift.",
+        "pt": "Antes eu enviava a mensagem quando já via as corridas se acumulando. Quando os motoristas chegavam, o pico já havia passado. Comecei a gerar a instrução na noite anterior com o agente: qual zona, qual cruzamento exato, quando chegariam as solicitações, quanto os motoristas tinham ganhado naquela faixa na semana anterior. Na terça seguinte, o tempo de espera nas primeiras duas faixas do pico caiu de 11 para 6 minutos. Os motoristas começaram a me pedir a mensagem de posicionamento antes de começar o turno."
+      },
+      "attribution": {
+        "es": "Operador con 18 meses de operación en una ciudad de 310,000 habitantes en Guanajuato, México",
+        "en": "Operator with 18 months of operation in a city of 310,000 in Guanajuato, Mexico",
+        "pt": "Operador com 18 meses de operação em uma cidade de 310.000 habitantes em Guanajuato, México"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "medir-posicionamiento-proactivo-resultados",
+      "text": {
+        "es": "Cómo saber si el posicionamiento proactivo está funcionando",
+        "en": "How to know whether proactive positioning is working",
+        "pt": "Como saber se o posicionamento proativo está funcionando"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El indicador más directo de que el posicionamiento proactivo está cambiando el resultado de los picos es la tasa de completación en la primera franja de cada bloque, comparada semana a semana. Si antes de implementarlo la primera franja del pico de la mañana —7:30 a 8:00— tenía una tasa de completación del 76% y después sube al 87%, la diferencia representa 11 solicitudes adicionales completadas cada mañana que antes se perdían durante el período de retraso reactivo. En 26 días hábiles, eso equivale a 286 solicitudes completadas adicionales por mes —aproximadamente 24,000 MXN de ingreso adicional en una operación con viaje promedio de 85 MXN— sin agregar ningún conductor. La métrica de la primera franja es más diagnóstica que el promedio del bloque completo porque los efectos del posicionamiento se concentran en los primeros 20 a 30 minutos; el resto del pico tiende a autocorregirse a medida que los conductores activos redistribuyen su posición en respuesta a las solicitudes en curso.",
+        "en": "The most direct indicator that proactive positioning is changing peak outcomes is the completion rate in the first slot of each peak, compared week over week. If before implementing it the first slot of the morning peak — 7:30 to 8:00 a.m. — had a 76% completion rate, and after it rises to 87%, the difference represents 11 additional completed requests each morning that were previously lost during the reactive lag window. Over 26 business days, that amounts to 286 additional completed requests per month — approximately 24,000 MXN in additional income in an operation with an 85 MXN average trip — without adding a single driver. The first-slot metric is more diagnostic than the full-block average because the effects of positioning concentrate in the first 20 to 30 minutes; the rest of the peak tends to self-correct as active drivers redistribute in response to in-progress requests.",
+        "pt": "O indicador mais direto de que o posicionamento proativo está mudando o resultado dos picos é a taxa de conclusão na primeira faixa de cada bloco, comparada semana a semana. Se antes de implementá-lo a primeira faixa do pico da manhã — 7h30 às 8h00 — tinha uma taxa de conclusão de 76%, e depois sobe para 87%, a diferença representa 11 solicitações adicionais concluídas a cada manhã que antes eram perdidas durante o período de atraso reativo. Em 26 dias úteis, isso equivale a 286 solicitações concluídas adicionais por mês — aproximadamente 24.000 MXN de renda adicional em uma operação com corrida média de 85 MXN — sem adicionar nenhum motorista. A métrica da primeira faixa é mais diagnóstica do que a média do bloco completo porque os efeitos do posicionamento se concentram nos primeiros 20 a 30 minutos; o restante do pico tende a se autocorrigir à medida que os motoristas ativos redistribuem sua posição em resposta às solicitações em andamento."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La consulta de seguimiento semanal: «Para la semana pasada, muéstrame la tasa de completación de la primera franja de cada pico —7:30 a 8:00, 12:30 a 13:00 y 17:30 a 18:00— comparada con el promedio de las cuatro semanas anteriores. Para cada franja, incluye el tiempo de espera mediano y la tasa de rechazo. Si la tasa cayó más de cuatro puntos porcentuales en alguna de esas franjas respecto al promedio, muéstrame las zonas con mayor aumento de solicitudes no completadas.» Si la tasa de completación en la primera franja mejoró consistentemente durante tres semanas, esa es la confirmación de que el posicionamiento proactivo funciona. Si no mejoró, el problema puede estar en el timing del mensaje —los conductores no tienen tiempo suficiente para llegar— o en que los conductores receptores ya están en una zona con demanda suficiente y el costo de oportunidad del reposicionamiento es negativo. Esa segunda situación indica que el mapa de demanda histórica necesita actualizarse.",
+        "en": "The weekly follow-up query: 'For last week, show me the completion rate for the first slot of each peak — 7:30 to 8:00 a.m., 12:30 to 1:00 p.m., and 5:30 to 6:00 p.m. — compared to the four-week average. For each slot, include median wait time and rejection rate. If the rate dropped more than four percentage points in any of those slots versus the average, show me the zones with the largest increase in uncompleted requests.' If the first-slot completion rate improved consistently over three weeks after implementing proactive positioning, that confirms it is working. If it didn't improve, the problem may be message timing — drivers don't have enough transit time — or that the drivers who received the message were already in a zone with sufficient demand, making the reposition opportunity cost negative. That second situation signals the historical demand map needs refreshing.",
+        "pt": "A consulta de acompanhamento semanal: «Para a semana passada, mostre a taxa de conclusão da primeira faixa de cada pico — 7h30 às 8h00, 12h30 às 13h00 e 17h30 às 18h00 — comparada à média das quatro semanas anteriores. Para cada faixa, inclua o tempo de espera mediano e a taxa de rejeição. Se a taxa caiu mais de quatro pontos percentuais em alguma dessas faixas em relação à média, mostre as zonas com maior aumento de solicitações não concluídas.» Se a taxa de conclusão na primeira faixa melhorou consistentemente por três semanas após a implementação do posicionamento proativo, essa é a confirmação de que ele está funcionando. Se não melhorou, o problema pode estar no timing da mensagem — os motoristas não têm tempo de deslocamento suficiente — ou no fato de que os motoristas que receberam a mensagem já estavam em uma zona com demanda suficiente, tornando o custo de oportunidade do reposicionamento negativo. Essa segunda situação indica que o mapa de demanda histórica precisa ser atualizado."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El diagnóstico de zona, franja y radio de asignación que los artículos anteriores de esta serie describieron produce el mapa exacto de dónde y cuándo la operación pierde demanda. El posicionamiento proactivo es la capa de ejecución que actúa sobre ese mapa antes de que el pico comience. La diferencia entre el operador que diagnostica y actúa después del pico y el que diagnostica y actúa antes es estructural: el primero recupera información útil cuando el costo ya se incurrió; el segundo usa esa misma información para evitar que el costo ocurra. Esa diferencia no requiere más conductores ni tecnología distinta: requiere que la información que ya está en la plataforma salga de los reportes y llegue a los conductores en el momento en que todavía pueden usarla.",
+        "en": "The zone, time-slot, and assignment radius diagnosis that previous articles in this series described produces the exact map of where and when the operation loses demand. Proactive positioning is the execution layer that acts on that map before the peak begins. The difference between the operator who diagnoses and acts after the peak and the one who diagnoses and acts before is structural: the first recovers useful information when the cost has already been incurred; the second uses that same information to prevent the cost from occurring. That difference doesn't require more drivers or different technology: it requires that the information already in the platform leave the reports and reach drivers at the moment they can still use it.",
+        "pt": "O diagnóstico de zona, faixa e raio de atribuição que os artigos anteriores desta série descreveram produz o mapa exato de onde e quando a operação perde demanda. O posicionamento proativo é a camada de execução que age sobre esse mapa antes de o pico começar. A diferença entre o operador que diagnostica e age depois do pico e o que diagnostica e age antes é estrutural: o primeiro recupera informação útil quando o custo já foi incorrido; o segundo usa essa mesma informação para evitar que o custo ocorra. Essa diferença não exige mais motoristas nem tecnologia diferente: exige que a informação que já está na plataforma saia dos relatórios e chegue aos motoristas no momento em que ainda podem usá-la."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El operador que implementa el ciclo completo —mapa histórico de zona y franja consultado semanalmente, instrucciones de posicionamiento generadas con el agente la noche anterior, enviadas con 20 a 25 minutos de anticipación, y seguimiento de la tasa de completación en la primera franja de cada bloque— tiene acceso a una mejora de ingresos que no pasa por la tarifa ni por la contratación. Los picos que antes empezaban con un déficit de posicionamiento de 15 minutos empiezan con los conductores donde la demanda va a estar. El pasajero que solicita en la primera franja del pico obtiene el tiempo de espera que de otra forma solo aparecería en la mitad del bloque. El conductor que empieza posicionado correctamente hace más viajes por hora de sesión. Y el operador deja de gestionar picos reactivamente para comenzar a confirmar que el plan del día anterior funcionó.",
+        "en": "The operator who implements the complete cycle — historical zone and time-slot map queried weekly, positioning instructions generated with the agent the night before, sent with 20 to 25 minutes of lead time, and first-slot completion rate tracked for every peak block — has access to a revenue improvement that doesn't involve changing the fare or hiring more drivers. Peaks that previously started with a 15-minute positioning deficit begin with drivers already where demand is going to be. The passenger who requests in the first peak window gets the wait time that would otherwise only appear midway through the block. The driver who starts the block correctly positioned makes more trips per session hour. And the operator stops managing peaks reactively and begins confirming that yesterday's plan worked.",
+        "pt": "O operador que implementa o ciclo completo — mapa histórico de zona e faixa consultado semanalmente, instruções de posicionamento geradas com o agente na noite anterior, enviadas com 20 a 25 minutos de antecedência, e taxa de conclusão da primeira faixa acompanhada para cada bloco de pico — tem acesso a uma melhoria de renda que não passa pela tarifa nem pela contratação. Os picos que antes começavam com um déficit de posicionamento de 15 minutos começam com os motoristas onde a demanda vai estar. O passageiro que solicita na primeira faixa do pico obtém o tempo de espera que de outra forma só apareceria no meio do bloco. O motorista que começa posicionado corretamente faz mais corridas por hora de sessão. E o operador para de gerenciar picos reativamente para começar a confirmar que o plano do dia anterior funcionou."
+      }
+    }
+  ],
+  "cta": {
+    "heading": {
+      "es": "¿Listo para lanzar tu propia app de movilidad?",
+      "en": "Ready to launch your own mobility app?",
+      "pt": "Pronto para lançar seu próprio app de mobilidade?"
+    },
+    "body": {
+      "es": "Configura tu marca, tus tarifas y tus servicios en semanas, no en meses. Cabgo te entrega la plataforma; tú te quedas con la operación, los clientes y los ingresos.",
+      "en": "Set up your brand, pricing and services in weeks, not months. Cabgo ships the platform — you keep the operation, the customers and the revenue.",
+      "pt": "Configure sua marca, suas tarifas e seus serviços em semanas, não em meses. A Cabgo entrega a plataforma; você fica com a operação, os clientes e a receita."
+    },
+    "buttonLabel": {
+      "es": "Comenzar con Cabgo",
+      "en": "Get started with Cabgo",
+      "pt": "Começar com a Cabgo"
+    },
+    "buttonHref": "/empezar"
+  },
+  "seo": {
+    "metaTitle": {
+      "es": "Posicionamiento proactivo en ride-hailing | Cabgo",
+      "en": "Proactive driver positioning in ride-hailing | Cabgo",
+      "pt": "Posicionamento proativo no ride-hailing regional | Cabgo"
+    },
+    "metaDescription": {
+      "es": "Cómo enviar instrucciones de posicionamiento antes del pico para reducir rechazos y tiempo de espera sin agregar conductores ni cambiar tarifas.",
+      "en": "How to send positioning instructions before demand peaks to reduce rejections and wait times without adding more drivers or changing fares.",
+      "pt": "Como enviar instruções de posicionamento antes do pico para reduzir rejeições e tempo de espera sem adicionar motoristas nem mudar tarifas."
+    }
+  }
+}
