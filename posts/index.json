@@ -1,6 +1,28 @@
 {
-  "generatedAt": "2026-07-15T14:12:10.547Z",
+  "generatedAt": "2026-07-16T14:11:46.224Z",
   "posts": [
+    {
+      "slug": "ingreso-hora-activa-conductor-rotacion-flota",
+      "category": "strategy",
+      "title": {
+        "es": "Ingreso por hora activa del conductor: la métrica que predice la rotación antes de que el conductor deje de conectarse",
+        "en": "Income per active driver hour: the metric that predicts churn before the driver stops connecting",
+        "pt": "Receita por hora ativa do motorista: a métrica que prevê a rotatividade antes de o motorista parar de se conectar"
+      },
+      "excerpt": {
+        "es": "El ingreso por hora activa es el número que mejor explica por qué los conductores reducen su sesión y eventualmente dejan la plataforma. Cuando cae por debajo de 70 MXN/hora en mercados regionales, el comportamiento cambia semanas antes de que el operador pierda al conductor.",
+        "en": "Income per active hour is the number that best explains why drivers shorten their sessions and eventually leave the platform. When it falls below 70 MXN per hour in regional markets, behavior changes weeks before the operator loses the driver.",
+        "pt": "Receita por hora ativa é o número que melhor explica por que os motoristas reduzem sua sessão e eventualmente deixam a plataforma. Quando cai abaixo de 70 MXN por hora em mercados regionais, o comportamento muda semanas antes de o operador perder o motorista."
+      },
+      "heroImage": "https://raw.githubusercontent.com/jonatanvazquez/cabgo-blog-content/main/images/ingreso-hora-activa-conductor-rotacion-flota.jpg",
+      "heroImageAlt": {
+        "es": "Ilustración isométrica dividida: a la izquierda, barra de sesión de cuatro horas con dos segmentos ámbar vacíos representando tiempo sin solicitud y una tarjeta flotante con 55 MXN/hora en rojo. A la derecha, la misma barra con anillos de solicitud verde azulado a intervalos regulares y una tarjeta con 98 MXN/hora en verde. En primer plano, histograma horizontal de ingresos por hora de cinco conductores con dos barras ámbar por debajo de la línea roja de umbral y tres barras verde azulado por encima.",
+        "en": "Isometric illustration split in two: on the left, a four-hour session bar with two empty amber segments representing idle time and a floating card showing 55 MXN/hour in red. On the right, the same bar with teal request rings at regular intervals and a card showing 98 MXN/hour in green. In the foreground, a horizontal bar chart of income per hour for five drivers with two amber bars below the red threshold line and three teal bars above.",
+        "pt": "Ilustração isométrica dividida: à esquerda, barra de sessão de quatro horas com dois segmentos âmbar vazios representando tempo sem solicitação e cartão flutuante com 55 MXN/hora em vermelho. À direita, a mesma barra com anéis de solicitação verde-azulado em intervalos regulares e cartão com 98 MXN/hora em verde. Na frente, histograma horizontal de receita por hora de cinco motoristas com duas barras âmbar abaixo da linha vermelha de limiar e três barras verde-azulado acima."
+      },
+      "publishedAt": "2026-07-16",
+      "readingMinutes": 9
+    },
     {
       "slug": "posicionamiento-proactivo-conductores-picos-demanda",
       "category": "strategy",
