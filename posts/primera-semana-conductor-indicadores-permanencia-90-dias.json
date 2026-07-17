@@ -1,0 +1,319 @@
+{
+  "slug": "primera-semana-conductor-indicadores-permanencia-90-dias",
+  "category": "strategy",
+  "title": {
+    "es": "La primera semana del conductor nuevo: indicadores en días 1 a 7 que predicen la permanencia a 90 días",
+    "en": "The new driver's first week: day-1-to-7 indicators that predict 90-day retention",
+    "pt": "A primeira semana do motorista novo: indicadores dos dias 1 a 7 que predizem a permanência em 90 dias"
+  },
+  "excerpt": {
+    "es": "Entre el 35 y el 55% de conductores nuevos en plataformas regionales abandona antes del mes 3. Los indicadores de la primera semana permiten predecir ese resultado e intervenir a tiempo.",
+    "en": "Between 35 and 55 percent of new drivers on regional platforms leave before month three. First-week session and income data predicts that outcome early enough to intervene.",
+    "pt": "Entre 35 e 55% dos motoristas novos em plataformas regionais abandonam antes do mês 3. Os indicadores da primeira semana permitem prever esse resultado e intervir a tempo."
+  },
+  "heroImage": "https://raw.githubusercontent.com/jonatanvazquez/cabgo-blog-content/main/images/primera-semana-conductor-indicadores-permanencia-90-dias.jpg",
+  "heroImageAlt": {
+    "es": "Ilustración isométrica dividida. Izquierda: vehículo con conductor nuevo y emblema de interrogación, franja de siete días con tres cuadros verde azulado encendidos y cuatro apagados, tarjeta ámbar flotante con 48 MXN/hora. Derecha: mismo vehículo con los siete cuadros encendidos en verde azulado, tarjeta verde con 94 MXN/hora y tres anillos de solicitud pulsando. Primer plano: curva de retención a 90 días con dos líneas divergentes desde el día 7, una verde azulado ascendente hasta 90 días y una ámbar cayendo hasta 32.",
+    "en": "Isometric illustration split in two. Left: vehicle with new driver figure and question-mark badge, a seven-day timeline strip with three teal squares lit and four dim, floating amber card showing 48 MXN/hr. Right: same vehicle with all seven squares lit in teal, green card showing 94 MXN/hr and three pulsing request rings. Foreground: 90-day retention curve with two lines diverging from day 7, a teal line rising to 90 days and an amber line dropping toward 32.",
+    "pt": "Ilustração isométrica dividida. Esquerda: veículo com motorista novo e emblema de interrogação, faixa de sete dias com três quadros verde-azulado acesos e quatro apagados, cartão âmbar flutuante com 48 MXN/hora. Direita: mesmo veículo com os sete quadros acesos em verde-azulado, cartão verde com 94 MXN/hora e três anéis de solicitação pulsando. Primeiro plano: curva de retenção em 90 dias com duas linhas divergindo a partir do dia 7, uma verde-azulado subindo até 90 dias e uma âmbar caindo para 32."
+  },
+  "heroImagePrompt": "Split isometric composition. Left half: an isometric vehicle with a new driver figure that has a small question-mark badge floating above it, and below the vehicle a horizontal seven-day timeline strip where days 1 through 7 appear as small square tiles — days 1, 3, and 5 lit in bright teal, days 2, 4, 6, and 7 dim gray — with a floating amber card above showing '48 MXN/hr' and a small downward-trend arrow. Right half: the same isometric vehicle with all seven day-tiles on the timeline strip lit in bright teal, a floating green card showing '94 MXN/hr' with an upward-trend arrow, and three concentric teal request rings pulsing outward from the vehicle. In the foreground between the two halves, a compact 90-day retention line chart: two diverging lines starting from a shared violet diamond point at day 7 — one teal line climbing toward a '90 days' endpoint label, one amber line arcing downward toward a '32 days' flatline endpoint. Deep violet floor grid, soft indigo radial background glow, clean geometric shapes, subtle shadows. Negative space on the lower right.",
+  "publishedAt": "2026-07-17",
+  "readingMinutes": 9,
+  "keywords": {
+    "es": [
+      "primera semana conductor nuevo ride-hailing retención",
+      "indicadores retención conductores nuevos plataforma movilidad",
+      "abandono conductor nuevo mes uno ride-hailing regional",
+      "onboarding conductor primera sesión productividad",
+      "cohorte conductores nuevos seguimiento operador taxi app",
+      "señales abandono temprano conductor plataforma LATAM",
+      "intervención primera semana conductor nuevo permanencia"
+    ],
+    "en": [
+      "new driver first week retention ride-hailing",
+      "driver churn early indicators regional mobility platform",
+      "new driver onboarding session productivity taxi app",
+      "driver cohort monitoring regional ride-hailing",
+      "first week driver indicators 90 day retention",
+      "new driver attrition prediction taxi platform LATAM",
+      "early driver intervention retention regional mobility"
+    ],
+    "pt": [
+      "primeira semana motorista novo ride-hailing retenção",
+      "indicadores retenção motoristas novos plataforma mobilidade",
+      "abandono motorista novo mês um ride-hailing regional",
+      "onboarding motorista primeira sessão produtividade",
+      "coorte motoristas novos acompanhamento operador app táxi",
+      "sinais abandono precoce motorista plataforma LATAM",
+      "intervenção primeira semana motorista novo permanência"
+    ]
+  },
+  "author": {
+    "name": "Equipo Cabgo",
+    "role": {
+      "es": "Plataforma de movilidad",
+      "en": "Mobility platform",
+      "pt": "Plataforma de mobilidade"
+    }
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Entre el 35 y el 55% de los conductores que se incorporan a una plataforma de ride-hailing regional no llegan a su tercer mes de actividad. Una parte significativa de esa rotación —especialmente en los primeros 30 días— no es aleatoria: es predecible a partir de los datos de comportamiento que la plataforma genera en los primeros 7 días. El número de sesiones en la primera semana, el ingreso por hora activa en esas primeras sesiones y la tasa de completación en los primeros 10 a 15 viajes contienen suficiente señal para identificar, antes del día 10, qué conductores recién incorporados tienen alta probabilidad de mantenerse activos a los 90 días y cuáles están en una trayectoria de comportamiento que lleva al abandono antes del mes 2. El operador que lee esas señales en la primera semana puede intervenir en el momento en que el costo de la intervención es más bajo y la probabilidad de recuperación es más alta.",
+        "en": "Between 35 and 55 percent of drivers who join a regional ride-hailing platform don't reach their third month of activity. A significant share of that attrition — especially in the first 30 days — is not random: it is predictable from the behavioral data the platform generates in the first 7 days. The number of sessions in week one, income per active hour in those first sessions, and completion rate in the first 10 to 15 trips contain enough signal to identify, before day 10, which newly onboarded drivers have a high probability of staying active at 90 days and which are on a behavioral trajectory that leads to departure before month two. The operator who reads those signals in the first week can intervene at the moment when the cost of intervention is lowest and the probability of recovery is highest.",
+        "pt": "Entre 35 e 55% dos motoristas que ingressam em uma plataforma de ride-hailing regional não chegam ao terceiro mês de atividade. Uma parte significativa dessa rotatividade — especialmente nos primeiros 30 dias — não é aleatória: é previsível a partir dos dados de comportamento que a plataforma gera nos primeiros 7 dias. O número de sessões na primeira semana, a receita por hora ativa nessas primeiras sessões e a taxa de conclusão nas primeiras 10 a 15 corridas contêm sinal suficiente para identificar, antes do dia 10, quais motoristas recém-incorporados têm alta probabilidade de permanecer ativos em 90 dias e quais estão em uma trajetória de comportamento que leva ao abandono antes do mês 2. O operador que lê esses sinais na primeira semana pode intervir no momento em que o custo da intervenção é mais baixo e a probabilidade de recuperação é mais alta."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Este artículo está dirigido al operador con 20 a 80 conductores activos que ve rotación en los conductores nuevos de su flota —30 a 50% no llegan al segundo mes— sin poder identificar cuáles de esos abandonos eran evitables ni cuándo estuvo abierta la ventana de intervención. Cubre por qué el abandono del conductor nuevo tiene una dinámica distinta al del conductor establecido y responde a intervenciones diferentes, cuáles son los tres indicadores de comportamiento de la primera semana que distinguen al conductor que se consolida del que se va, qué rangos operativos señalan un conductor nuevo en riesgo de abandono prematuro, por qué la segunda sesión es el evento individual más predictivo de los primeros 14 días, qué debe incluir la intervención específica en los días 1, 3 y 7, y cómo el agente produce el monitoreo semanal de cohortes de conductores nuevos. La tesis es práctica: los datos de la primera semana no predicen el futuro —describen un estado de comportamiento que tiene una probabilidad medible de llevar al abandono si nada cambia. La intervención no requiere más dinero ni más conductores: requiere que el conductor nuevo reciba, en la primera semana, la información que necesita para tener una sesión productiva en vez de una que confirme que la plataforma no vale su tiempo.",
+        "en": "This article is for the operator with 20 to 80 active drivers who sees attrition among new fleet drivers — 30 to 50 percent don't reach month two — without being able to identify which of those departures were avoidable or when the intervention window was open. It covers why new driver churn follows a different dynamic from established driver churn and responds to different interventions, what the three first-week behavioral indicators are that distinguish consolidating drivers from departing ones, what operational ranges signal a new driver at risk of early departure, why the second session is the single most predictive event in the first 14 days, what a specific intervention at days 1, 3, and 7 should include, and how the agent produces weekly monitoring of new driver cohorts. The thesis is practical: first-week data doesn't predict the future — it describes a behavioral state with a measurable probability of leading to departure if nothing changes. The intervention requires neither more money nor more drivers: it requires the new driver to receive, in the first week, the information they need to have a productive session instead of one that confirms the platform isn't worth their time.",
+        "pt": "Este artigo é voltado ao operador com 20 a 80 motoristas ativos que vê rotatividade entre os motoristas novos de sua frota — 30 a 50% não chegam ao segundo mês — sem conseguir identificar quais desses abandonos eram evitáveis nem quando estava aberta a janela de intervenção. Ele cobre por que o abandono do motorista novo tem uma dinâmica diferente do motorista estabelecido e responde a intervenções distintas, quais são os três indicadores de comportamento da primeira semana que distinguem o motorista que se consolida do que abandona, quais faixas operacionais sinalizam um motorista novo em risco de abandono precoce, por que a segunda sessão é o evento individual mais preditivo dos primeiros 14 dias, o que deve incluir a intervenção específica nos dias 1, 3 e 7, e como o agente produz o monitoramento semanal de coortes de motoristas novos. A tese é prática: os dados da primeira semana não predizem o futuro — descrevem um estado de comportamento com probabilidade mensurável de levar ao abandono se nada mudar. A intervenção não requer mais dinheiro nem mais motoristas: requer que o motorista novo receba, na primeira semana, a informação necessária para ter uma sessão produtiva em vez de uma que confirme que a plataforma não vale seu tempo."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "conductor-nuevo-abandono-dinamica-distinta",
+      "text": {
+        "es": "Por qué el conductor nuevo abandona por razones distintas al conductor con meses en la plataforma",
+        "en": "Why new drivers leave for different reasons than drivers with months on the platform",
+        "pt": "Por que o motorista novo abandona por razões diferentes do motorista com meses na plataforma"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El conductor con cuatro meses en la plataforma que abandona lo hace por razones relacionadas con el ingreso por hora activa: la plataforma dejó de justificar el tiempo que invirtió en construir su rutina de trabajo alrededor de ella. Ese conductor tiene inversión previa —tiempo aprendiendo zonas, hábitos establecidos, calificaciones acumuladas— que incrementa el costo de irse. Su abandono es gradual y detectable con tres a cuatro semanas de anticipación, como describe el artículo anterior de esta serie. El conductor nuevo que abandona en las primeras tres semanas no tiene ninguna inversión previa. No construyó hábitos, no tiene historial acumulado y no carga con una rutina establecida. Para él, la plataforma es una hipótesis: ¿puedo generar ingresos aquí durante mis horas disponibles? Si las primeras dos o tres sesiones no producen un ingreso por hora activa que confirme esa hipótesis, el costo de no volver es cero. El conductor simplemente no abre la app al día siguiente, y el operador no recibe ninguna señal de que algo específico ocurrió.",
+        "en": "The driver who has been on the platform for four months and leaves does so for reasons tied to income per active hour: the platform stopped justifying the time they invested in building their work schedule around it. That driver has prior investment — time spent learning zones, established habits, accumulated ratings — that raises the cost of leaving. Their departure is gradual and detectable three to four weeks in advance, as the previous article in this series describes. The new driver who abandons in the first three weeks has no prior investment. They haven't built habits, have no accumulated history, and carry no established routine. For them, the platform is a hypothesis: can I earn here during my available hours? If the first two or three sessions don't produce an income per active hour that confirms that hypothesis, the cost of not returning is zero. The driver simply doesn't open the app the next day, and the operator receives no signal that anything specific happened.",
+        "pt": "O motorista com quatro meses na plataforma que abandona o faz por razões ligadas à receita por hora ativa: a plataforma parou de justificar o tempo que investiu em construir sua rotina de trabalho em torno dela. Esse motorista tem investimento prévio — tempo aprendendo zonas, hábitos estabelecidos, avaliações acumuladas — que eleva o custo de sair. Seu abandono é gradual e detectável com três a quatro semanas de antecedência, como descreve o artigo anterior desta série. O motorista novo que abandona nas primeiras três semanas não tem nenhum investimento prévio. Não construiu hábitos, não tem histórico acumulado e não carrega uma rotina estabelecida. Para ele, a plataforma é uma hipótese: consigo ganhar aqui nas minhas horas disponíveis? Se as primeiras duas ou três sessões não produzem uma receita por hora ativa que confirme essa hipótese, o custo de não voltar é zero. O motorista simplesmente não abre o app no dia seguinte, e o operador não recebe nenhum sinal de que algo específico ocorreu."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La implicación práctica es que la rotación del conductor nuevo no responde a las mismas intervenciones que la retención del conductor establecido. Un mensaje de reposicionamiento basado en zonas históricas funciona para el conductor que conoce la plataforma: entiende la referencia, sabe qué zonas tienen mayor demanda, confía en el dato. Un conductor nuevo que recibe el mismo mensaje en su primera semana no tiene marco de referencia para evaluarlo. Lo que el conductor nuevo necesita en la semana 1 no es retención: es un onboarding productivo —una primera semana que confirme la hipótesis económica antes de que el conductor decida que la plataforma no vale su tiempo. La diferencia entre intervenir en la primera semana con información de posicionamiento específica y no intervenir no está en el resultado del conductor que iba a quedarse de todas formas: está en el conductor que estaba en el margen, que tuvo una o dos sesiones con bajo ingreso por hora y que interpretó ese resultado como una característica estructural de la plataforma en lugar de un problema de posicionamiento resoluble con instrucciones concretas.",
+        "en": "The practical implication is that new driver attrition does not respond to the same interventions as established driver retention. A repositioning message based on historical zones works for the driver who knows the platform: they understand the reference, know which zones have higher demand, trust the data. A new driver who receives the same message in their first week has no reference frame to evaluate it. What the new driver needs in week one is not retention: it is productive onboarding — a first week that confirms the economic hypothesis before the driver decides the platform isn't worth their time. The difference between intervening in week one with specific positioning information and not intervening isn't in the outcome for the driver who was going to stay anyway: it is in the driver who was on the margin, who had one or two sessions with low hourly income and interpreted that result as a structural characteristic of the platform rather than a positioning problem solvable with concrete instructions.",
+        "pt": "A implicação prática é que a rotatividade do motorista novo não responde às mesmas intervenções que a retenção do motorista estabelecido. Uma mensagem de reposicionamento baseada em zonas históricas funciona para o motorista que conhece a plataforma: entende a referência, sabe quais zonas têm maior demanda, confia no dado. Um motorista novo que recebe a mesma mensagem na primeira semana não tem referência para avaliá-la. O que o motorista novo precisa na semana 1 não é retenção: é um onboarding produtivo — uma primeira semana que confirme a hipótese econômica antes de ele decidir que a plataforma não vale seu tempo. A diferença entre intervir na primeira semana com informação de posicionamento específica e não intervir não está no resultado do motorista que ia ficar de qualquer forma: está no motorista que estava na margem, que teve uma ou duas sessões com baixa receita por hora e interpretou esse resultado como uma característica estrutural da plataforma em vez de um problema de posicionamento solucionável com instruções concretas."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "tres-indicadores-primera-semana-permanencia",
+      "text": {
+        "es": "Los tres indicadores de la primera semana que predicen la permanencia a 90 días",
+        "en": "The three first-week indicators that predict 90-day retention",
+        "pt": "Os três indicadores da primeira semana que predizem a permanência em 90 dias"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Los datos disponibles en los primeros 7 días de un conductor nuevo son limitados: a lo sumo 3 a 5 sesiones, 15 a 30 viajes y suficiente historial de comportamiento para identificar patrones iniciales. Tres de esos indicadores tienen la correlación más alta con la retención a 90 días en operaciones de 25 a 80 conductores activos en ciudades de 150,000 a 500,000 habitantes:",
+        "en": "The data available in a new driver's first 7 days is limited: at most 3 to 5 sessions, 15 to 30 trips, and enough behavioral history to identify initial patterns. Three of those indicators have the highest correlation with 90-day retention in operations of 25 to 80 active drivers in cities of 150,000 to 500,000 residents:",
+        "pt": "Os dados disponíveis nos primeiros 7 dias de um motorista novo são limitados: no máximo 3 a 5 sessões, 15 a 30 corridas e histórico de comportamento suficiente para identificar padrões iniciais. Três desses indicadores têm a correlação mais alta com a retenção em 90 dias em operações de 25 a 80 motoristas ativos em cidades de 150.000 a 500.000 habitantes:"
+      }
+    },
+    {
+      "type": "list",
+      "style": "bullet",
+      "items": {
+        "es": [
+          "**Número de sesiones en la semana 1 y su duración**: Un conductor que completa 3 o más sesiones de 3 o más horas en la primera semana tiene una probabilidad de mantenerse activo a los 90 días superior al 65% en operaciones de 30 a 80 conductores activos. Un conductor que completa 1 o 2 sesiones, o que completa sesiones de menos de 2 horas, tiene una probabilidad de retención a 90 días inferior al 35%. La duración importa tanto como la frecuencia: una sola sesión de 6 horas no produce la misma señal de comportamiento que tres sesiones de 2 horas.",
+          "**Ingreso por hora activa en las primeras sesiones**: Un conductor nuevo que genera entre 75 y 100 MXN por hora activa en sus primeras 3 sesiones está en el rango productivo que justifica la actividad continuada. Por debajo de 55 MXN por hora activa en la primera semana, la comparación con actividades alternativas se vuelve inmediatamente relevante: el conductor nuevo aún no construyó la rutina de plataforma que absorbería esa diferencia, y la señal económica sola no es suficientemente positiva para continuar.",
+          "**Tasa de completación de los primeros 15 viajes**: Un conductor nuevo que completa menos del 78% de sus primeros 15 viajes —viajes que expiraron o fueron rechazados tras la aceptación— produce una experiencia de sesión donde una parte significativa del tiempo de conexión es tiempo muerto. Ese tiempo muerto golpea al conductor nuevo de forma desproporcionada porque aún no construyó el conocimiento de patrones de posicionamiento que los conductores veteranos usan para reducir la espera entre viajes."
+        ],
+        "en": [
+          "**Number of sessions in week one and their duration**: A driver who completes 3 or more sessions of 3 or more hours in the first week has a probability of remaining active at 90 days above 65% in operations of 30 to 80 active drivers. A driver who completes 1 or 2 sessions, or sessions shorter than 2 hours, has a 90-day retention probability below 35%. Duration matters as much as frequency: a single 6-hour session doesn't produce the same behavioral signal as three 2-hour sessions.",
+          "**Income per active hour in the first sessions**: A new driver who generates between 75 and 100 MXN per active hour in their first 3 sessions is in the productive range that justifies continued activity. Below 55 MXN per active hour in week one, comparison with alternative activities becomes immediately relevant: the new driver hasn't yet built the platform routine that would absorb that difference, and the economic signal alone isn't positive enough to continue.",
+          "**Completion rate of the first 15 trips**: A new driver who completes less than 78 percent of their first 15 trips — trips that expired or were rejected after acceptance — produces a session experience where a significant portion of connection time is idle time. That idle time hits the new driver disproportionately because they haven't yet built the knowledge of positioning patterns that veteran drivers use to reduce wait time between trips."
+        ],
+        "pt": [
+          "**Número de sessões na semana 1 e sua duração**: Um motorista que conclui 3 ou mais sessões de 3 ou mais horas na primeira semana tem probabilidade de permanecer ativo em 90 dias superior a 65% em operações de 30 a 80 motoristas ativos. Um motorista que conclui 1 ou 2 sessões, ou sessões menores que 2 horas, tem probabilidade de retenção em 90 dias inferior a 35%. A duração importa tanto quanto a frequência: uma única sessão de 6 horas não produz o mesmo sinal de comportamento que três sessões de 2 horas.",
+          "**Receita por hora ativa nas primeiras sessões**: Um motorista novo que gera entre 75 e 100 MXN por hora ativa em suas primeiras 3 sessões está na faixa produtiva que justifica a atividade continuada. Abaixo de 55 MXN por hora ativa na primeira semana, a comparação com atividades alternativas se torna imediatamente relevante: o motorista novo ainda não construiu a rotina de plataforma que absorveria essa diferença, e o sinal econômico sozinho não é suficientemente positivo para continuar.",
+          "**Taxa de conclusão das primeiras 15 corridas**: Um motorista novo que conclui menos de 78% de suas primeiras 15 corridas — corridas que expiraram ou foram rejeitadas após a aceitação — produz uma experiência de sessão onde uma parte significativa do tempo de conexão é tempo morto. Esse tempo morto afeta o motorista novo de forma desproporcional porque ele ainda não construiu o conhecimento de padrões de posicionamento que os motoristas veteranos usam para reduzir a espera entre corridas."
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "rangos-primera-semana-conductor-nuevo-riesgo",
+      "text": {
+        "es": "Rangos operativos: cuándo los números de la primera semana señalan un conductor en zona de riesgo",
+        "en": "Operational ranges: when first-week numbers signal a driver in the risk zone",
+        "pt": "Faixas operacionais: quando os números da primeira semana sinalizam um motorista em zona de risco"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "En operaciones de 20 a 80 conductores activos en ciudades de 150,000 a 500,000 habitantes en México y Centroamérica, el comportamiento de la primera semana de conductores nuevos se distribuye en tres rangos con probabilidades distintas de retención a 90 días. El rango saludable —probabilidad de mantenerse activo a los 90 días superior al 60%— corresponde a conductores con 3 o más sesiones en la primera semana, duración media de sesión de 3.5 horas o más, ingreso por hora activa entre 80 y 110 MXN, y tasa de completación superior al 80%. El rango de atención —probabilidad de retención a 90 días entre el 35 y el 60%— corresponde a conductores con 2 sesiones o con 3 sesiones de duración media inferior a 3 horas, ingreso por hora activa entre 60 y 79 MXN, o tasa de completación entre el 70 y el 79%. Los conductores en este rango no tienen una señal clara en ninguna dirección: la intervención en los días 3 a 7 puede desplazar la trayectoria hacia el rango saludable si la causa del rendimiento por debajo del rango es de posicionamiento —la causa más común en la primera semana.",
+        "en": "In operations of 20 to 80 active drivers in cities of 150,000 to 500,000 residents in Mexico and Central America, first-week behavior for new drivers distributes across three ranges with distinct 90-day retention probabilities. The healthy range — probability of remaining active at 90 days above 60% — corresponds to drivers with 3 or more sessions in week one, average session duration of 3.5 hours or more, income per active hour between 80 and 110 MXN, and completion rate above 80%. The attention range — 90-day retention probability between 35 and 60% — corresponds to drivers with 2 sessions or 3 sessions with average duration below 3 hours, income per active hour between 60 and 79 MXN, or completion rate between 70 and 79%. Drivers in this range have no clear signal in either direction: intervention at days 3 to 7 can shift the trajectory toward the healthy range if the below-range performance is caused by positioning — the most common cause in week one.",
+        "pt": "Em operações de 20 a 80 motoristas ativos em cidades de 150.000 a 500.000 habitantes no México e na América Central, o comportamento da primeira semana de motoristas novos se distribui em três faixas com probabilidades distintas de retenção em 90 dias. A faixa saudável — probabilidade de permanecer ativo em 90 dias superior a 60% — corresponde a motoristas com 3 ou mais sessões na primeira semana, duração média de sessão de 3,5 horas ou mais, receita por hora ativa entre 80 e 110 MXN, e taxa de conclusão superior a 80%. A faixa de atenção — probabilidade de retenção em 90 dias entre 35 e 60% — corresponde a motoristas com 2 sessões ou 3 sessões com duração média inferior a 3 horas, receita por hora ativa entre 60 e 79 MXN, ou taxa de conclusão entre 70 e 79%. Os motoristas nessa faixa não têm sinal claro em nenhuma direção: a intervenção nos dias 3 a 7 pode deslocar a trajetória para a faixa saudável se a causa do desempenho abaixo da faixa for de posicionamento — a causa mais comum na primeira semana."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El rango de riesgo —probabilidad de mantenerse activo a los 90 días inferior al 35%— corresponde a conductores con 1 sesión o 0 sesiones después del día 5, ingreso por hora activa inferior a 55 MXN en todas las sesiones completadas, o tasa de completación inferior al 70% en los primeros 10 viajes. Un conductor que entra en el rango de riesgo en la primera semana sin intervención tiene la misma probabilidad de mantenerse activo a los 90 días que uno que recién empezó el proceso de incorporación: la pérdida esperada de no intervenir equivale a un reemplazo completo del conductor, con el costo adicional de tiempo de verificación documental y período de baja productividad inicial. La variación entre mercados es de 10 a 15 MXN en los umbrales de ingreso por hora, dependiendo del costo de vida local y el costo del combustible, pero los umbrales de comportamiento —sesiones, duración, completación— son consistentes en los distintos mercados regionales.",
+        "en": "The risk range — probability of remaining active at 90 days below 35% — corresponds to drivers with 1 session or 0 sessions after day 5, income per active hour below 55 MXN in all completed sessions, or completion rate below 70% in the first 10 trips. A driver who enters the risk range in week one without intervention has the same probability of remaining active at 90 days as a brand-new recruit: the expected loss from not intervening is equivalent to a full driver replacement, with the additional cost of document verification time and an initial low-productivity period. Variation across markets is 10 to 15 MXN in hourly income thresholds depending on local cost of living and fuel costs, but the behavioral thresholds — sessions, duration, completion — are consistent across regional markets.",
+        "pt": "A faixa de risco — probabilidade de permanecer ativo em 90 dias inferior a 35% — corresponde a motoristas com 1 sessão ou 0 sessões após o dia 5, receita por hora ativa inferior a 55 MXN em todas as sessões concluídas, ou taxa de conclusão inferior a 70% nas primeiras 10 corridas. Um motorista que entra na faixa de risco na primeira semana sem intervenção tem a mesma probabilidade de permanecer ativo em 90 dias que um recém-incorporado: a perda esperada de não intervir equivale a uma substituição completa do motorista, com o custo adicional de tempo de verificação documental e período inicial de baixa produtividade. A variação entre mercados é de 10 a 15 MXN nos limiares de receita por hora, dependendo do custo de vida local e do custo do combustível, mas os limiares de comportamento — sessões, duração, conclusão — são consistentes nos diferentes mercados regionais."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "segunda-sesion-momento-critico-retencion",
+      "text": {
+        "es": "La segunda sesión: el evento más predictivo de los primeros catorce días",
+        "en": "The second session: the most predictive event in the first fourteen days",
+        "pt": "A segunda sessão: o evento mais preditivo dos primeiros quatorze dias"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El evento individual más predictivo de la probabilidad de retención a 90 días de un conductor nuevo no es la primera sesión: es la segunda. Un conductor que completa una primera sesión y no tiene una segunda sesión dentro de las 72 horas siguientes tiene una probabilidad de mantenerse activo al día 30 que cae por debajo del 40%. Un conductor que tiene una segunda sesión dentro de las 24 a 48 horas de la primera, especialmente si esa segunda sesión es más larga que la primera, tiene una probabilidad de retención a 90 días superior al 55%. El mecanismo es de comportamiento: la primera sesión es exploratoria. El conductor está aprendiendo la app, experimentando el proceso, calibrando cuántos viajes puede hacer en una sesión. La segunda sesión es la primera indicación de que el conductor tiene la intención de hacer de la plataforma parte de su rutina de trabajo. Si la segunda sesión no ocurre, la causa más frecuente es una de tres: el ingreso de la primera sesión estuvo por debajo del umbral que justifica el segundo intento; la primera sesión tuvo un alto porcentaje de tiempo muerto que el conductor interpretó como que no hay suficiente demanda para él; o el conductor encontró una fricción operativa —técnica, documental o en el pago de ganancias— que creó un obstáculo para la segunda conexión.",
+        "en": "The single most predictive event for a new driver's 90-day retention probability is not the first session: it is the second. A driver who completes a first session and doesn't have a second session within the following 72 hours has a probability of remaining active at day 30 that falls below 40%. A driver who has a second session within 24 to 48 hours of the first, especially if that second session is longer than the first, has a 90-day retention probability above 55%. The mechanism is behavioral: the first session is exploratory. The driver is learning the app, experiencing the process, calibrating how many trips they can make in a session. The second session is the first indication that the driver intends to make the platform part of their work routine. If the second session doesn't occur, the most common cause is one of three: the income from the first session was below the threshold that justifies a second attempt; the first session had a high proportion of idle time that the driver interpreted as insufficient demand for them; or the driver encountered an operational friction — technical, documentary, or in earnings payment — that created an obstacle to the second connection.",
+        "pt": "O evento individual mais preditivo da probabilidade de retenção em 90 dias de um motorista novo não é a primeira sessão: é a segunda. Um motorista que conclui uma primeira sessão e não tem uma segunda sessão nas 72 horas seguintes tem probabilidade de permanecer ativo no dia 30 que cai abaixo de 40%. Um motorista que tem uma segunda sessão em 24 a 48 horas da primeira, especialmente se essa segunda sessão for mais longa que a primeira, tem probabilidade de retenção em 90 dias superior a 55%. O mecanismo é comportamental: a primeira sessão é exploratória. O motorista está aprendendo o app, experimentando o processo, calibrando quantas corridas consegue fazer em uma sessão. A segunda sessão é a primeira indicação de que o motorista pretende tornar a plataforma parte de sua rotina de trabalho. Se a segunda sessão não ocorre, a causa mais frequente é uma de três: a receita da primeira sessão ficou abaixo do limiar que justifica a segunda tentativa; a primeira sessão teve alto percentual de tempo morto que o motorista interpretou como demanda insuficiente para ele; ou o motorista encontrou uma fricção operacional — técnica, documental ou no pagamento de ganhos — que criou um obstáculo para a segunda conexão."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Las primeras dos causas son medibles desde los datos. La tercera requiere un canal de comunicación directa: el operador que contacta al conductor nuevo después de las primeras 36 horas sin segunda sesión y pregunta abiertamente qué ocurrió en la primera sesión tiene una probabilidad 2 a 3 veces mayor de recuperar a ese conductor que el que espera a que el conductor no aparezca durante 7 días. Esa diferencia no se produce porque la pregunta sea especialmente sofisticada: se produce porque el conductor que recibe contacto directo del operador en las primeras 48 horas después de una primera sesión con bajo rendimiento actualiza su hipótesis sobre la plataforma —el operador presta atención, hay alguien que puede orientarle— antes de haber tomado la decisión de no volver. El conductor al que nadie contacta no tiene información adicional para revisar esa hipótesis: su única referencia es el ingreso que produjo la primera sesión, y si ese ingreso no fue suficiente, la hipótesis se cierra en negativo.",
+        "en": "The first two causes are measurable from the data. The third requires a direct communication channel: the operator who contacts the new driver after the first 36 hours without a second session and openly asks what happened in the first session has a 2 to 3 times higher probability of recovering that driver than the one who waits for the driver not to show up for 7 days. That difference doesn't arise because the question is especially sophisticated: it arises because the driver who receives direct operator contact within 48 hours of a below-average first session updates their hypothesis about the platform — the operator is paying attention, there is someone who can guide them — before they have made the decision not to return. The driver nobody contacts has no additional information to revise that hypothesis: their only reference is the income from the first session, and if that income wasn't sufficient, the hypothesis closes negative.",
+        "pt": "As duas primeiras causas são mensuráveis a partir dos dados. A terceira requer um canal de comunicação direta: o operador que contata o motorista novo após as primeiras 36 horas sem segunda sessão e pergunta abertamente o que ocorreu na primeira sessão tem probabilidade 2 a 3 vezes maior de recuperar esse motorista do que o que espera que o motorista não apareça por 7 dias. Essa diferença não ocorre porque a pergunta seja especialmente sofisticada: ocorre porque o motorista que recebe contato direto do operador nas primeiras 48 horas após uma primeira sessão com baixo desempenho atualiza sua hipótese sobre a plataforma — o operador está prestando atenção, há alguém que pode orientá-lo — antes de ter tomado a decisão de não voltar. O motorista que ninguém contata não tem informação adicional para revisar essa hipótese: sua única referência é a receita que produiu a primeira sessão, e se essa receita não foi suficiente, a hipótese se fecha em negativo."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "intervencion-primera-semana-dias-1-3-7",
+      "text": {
+        "es": "La intervención de la primera semana: qué comunicar en los días 1, 3 y 7",
+        "en": "The week-one intervention: what to communicate on days 1, 3, and 7",
+        "pt": "A intervenção da primeira semana: o que comunicar nos dias 1, 3 e 7"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La intervención de la primera semana no es un protocolo de bienvenida genérico: es un ciclo de tres contactos con información específica del rendimiento del conductor y del contexto operativo. Cada uno responde a una pregunta diferente que el conductor nuevo tiene en ese punto de su experiencia con la plataforma:",
+        "en": "The week-one intervention is not a generic welcome protocol: it is a three-contact cycle with information specific to the driver's performance and the operational context. Each contact answers a different question the new driver has at that point in their experience with the platform:",
+        "pt": "A intervenção da primeira semana não é um protocolo de boas-vindas genérico: é um ciclo de três contatos com informação específica sobre o desempenho do motorista e o contexto operacional. Cada um responde a uma pergunta diferente que o motorista novo tem naquele ponto de sua experiência com a plataforma:"
+      }
+    },
+    {
+      "type": "list",
+      "style": "bullet",
+      "items": {
+        "es": [
+          "**Día 1 — orientación de posicionamiento antes de la primera sesión**: La zona específica donde empezar —la zona con mayor demanda esperada para el día de la semana y la franja horaria de la primera conexión del conductor—, el volumen de solicitudes que puede esperar en esa zona durante esa franja según el promedio de las últimas cuatro semanas, y el ingreso que los conductores activos generaron en esa zona la semana pasada. No es una promesa: es la referencia que convierte la primera sesión de exploratoria a orientada. El conductor que empieza la primera sesión con información geográfica específica tiene una densidad de viajes mayor en esa sesión que el que empieza en cualquier zona.",
+          "**Día 3 — primer seguimiento personalizado**: Para el conductor con 2 o más sesiones: «Tus primeras 2 sesiones mostraron X viajes, Y MXN por hora activa y Z% de completación. Los conductores que mantuvieron un ingreso superior a 80 MXN/hora en la semana 1 estaban posicionados principalmente en [zona] durante [franja horaria]. Para tu próxima sesión, empieza ahí.» Para el conductor con 0 o 1 sesiones: una pregunta directa. ¿Qué ocurrió después de la primera sesión? ¿Hubo un obstáculo técnico? ¿Sentiste que no había suficiente demanda en la zona donde estuviste? Una pregunta abierta es más efectiva que un mensaje de posicionamiento cuando la causa es incertidumbre.",
+          "**Día 7 — resumen de la primera semana con referencia de trayectoria**: Ingreso total de la semana 1, horas activas totales, tasa de completación y comparación con el promedio de la semana anterior de conductores que llegaron al mes 1 en la plataforma. «Tu primera semana: 3 sesiones, 860 MXN total, 82% de completación. Los conductores que en su primera semana tuvieron sesiones e ingresos similares llegaron al mes 2 con una tasa del 74%.» Esa comunicación da al conductor nuevo una referencia para evaluar su propio rendimiento en relación con una trayectoria de éxito —la comparación que de todas formas va a hacer, pero con datos en vez de intuición."
+        ],
+        "en": [
+          "**Day 1 — positioning orientation before the first session**: The specific zone to start in — the zone with the highest expected demand for the driver's connection day of the week and time slot — the request volume they can expect in that zone during that slot based on the four-week average, and the income active drivers generated in that zone the prior week. Not a promise — a reference that turns the first session from exploratory to oriented. The driver who starts the first session with specific geographic information achieves a higher trip density in that session than one who starts anywhere.",
+          "**Day 3 — first personalized follow-up**: For the driver with 2 or more sessions: 'Your first 2 sessions showed X trips, Y MXN per active hour, and Z% completion. Drivers who maintained income above 80 MXN/hr in week one were mostly positioned in [zone] during [time slot]. For your next session, start there.' For the driver with 0 or 1 sessions: a direct question. What happened after the first session? Was there a technical obstacle? Did it feel like there wasn't enough demand in the zone they were in? An open question is more effective than a positioning message when the cause is uncertainty.",
+          "**Day 7 — first-week summary with trajectory reference**: Total week-one income, total active hours, completion rate, and comparison with the prior week's average for drivers who reached month one on the platform. 'Your first week: 3 sessions, 860 MXN total, 82% completion. Drivers whose first week showed sessions and income similar to yours reached month two at a rate of 74%.' That communication gives the new driver a reference for evaluating their own performance against a success trajectory — the comparison they are going to make anyway, but with data instead of intuition."
+        ],
+        "pt": [
+          "**Dia 1 — orientação de posicionamento antes da primeira sessão**: A zona específica onde começar — a zona com maior demanda esperada para o dia da semana e a faixa horária da primeira conexão do motorista —, o volume de solicitações que pode esperar nessa zona durante essa faixa com base na média das últimas quatro semanas, e a receita que os motoristas ativos geraram nessa zona na semana passada. Não é uma promessa: é a referência que transforma a primeira sessão de exploratória em orientada. O motorista que começa a primeira sessão com informação geográfica específica tem uma densidade de corridas maior nessa sessão do que o que começa em qualquer zona.",
+          "**Dia 3 — primeiro acompanhamento personalizado**: Para o motorista com 2 ou mais sessões: «Suas primeiras 2 sessões mostraram X corridas, Y MXN por hora ativa e Z% de conclusão. Os motoristas que mantiveram receita superior a 80 MXN/hora na semana 1 estavam posicionados principalmente em [zona] durante [faixa horária]. Para sua próxima sessão, comece lá.» Para o motorista com 0 ou 1 sessão: uma pergunta direta. O que ocorreu após a primeira sessão? Houve algum obstáculo técnico? Sentiu que havia pouca demanda na zona onde esteve? Uma pergunta aberta é mais efetiva do que uma mensagem de posicionamento quando a causa é incerteza.",
+          "**Dia 7 — resumo da primeira semana com referência de trajetória**: Receita total da semana 1, horas ativas totais, taxa de conclusão e comparação com a média da semana anterior dos motoristas que chegaram ao mês 1 na plataforma. «Sua primeira semana: 3 sessões, 860 MXN total, 82% de conclusão. Os motoristas cuja primeira semana teve sessões e receita semelhantes chegaram ao mês 2 com taxa de 74%.» Essa comunicação dá ao motorista novo uma referência para avaliar seu próprio desempenho em relação a uma trajetória de sucesso — a comparação que ele vai fazer de qualquer forma, mas com dados em vez de intuição."
+        ]
+      }
+    },
+    {
+      "type": "quote",
+      "text": {
+        "es": "Antes no revisaba los datos de conductores nuevos hasta que dejaban de aparecer. Cuando implementé el seguimiento de la primera semana, descubrí que el 60% de los que se iban en el primer mes habían generado menos de 55 MXN por hora activa en su primera sesión y no habían recibido ninguna instrucción de posicionamiento. Empecé a mandarles un mensaje antes de la primera sesión con la zona y la franja recomendadas, y un seguimiento al tercer día. El porcentaje de conductores nuevos que llegó al día 30 pasó del 43% al 61% en un trimestre.",
+        "en": "Before, I didn't review new driver data until they stopped showing up. When I implemented first-week monitoring, I found that 60 percent of those who left in month one had generated less than 55 MXN per active hour in their first session and hadn't received any positioning instructions. I started sending them a message before the first session with the recommended zone and time slot, and a follow-up on day three. The percentage of new drivers reaching day 30 went from 43 to 61 percent in a quarter.",
+        "pt": "Antes eu não revisava os dados de motoristas novos até eles pararem de aparecer. Quando implementei o acompanhamento da primeira semana, descobri que 60% dos que saíam no primeiro mês tinham gerado menos de 55 MXN por hora ativa em sua primeira sessão e não tinham recebido nenhuma instrução de posicionamento. Comecei a enviar uma mensagem antes da primeira sessão com a zona e a faixa recomendadas, e um acompanhamento no terceiro dia. O percentual de motoristas novos que chegou ao dia 30 passou de 43% para 61% em um trimestre."
+      },
+      "attribution": {
+        "es": "Operador con dos años de operación en una ciudad de 195,000 habitantes en Oaxaca, México",
+        "en": "Operator with two years of operation in a city of 195,000 in Oaxaca, Mexico",
+        "pt": "Operador com dois anos de operação em uma cidade de 195.000 habitantes em Oaxaca, México"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "agente-monitoreo-cohorte-conductores-nuevos",
+      "text": {
+        "es": "Cómo el agente produce el monitoreo semanal de cohortes de conductores nuevos",
+        "en": "How the agent produces weekly monitoring of new driver cohorts",
+        "pt": "Como o agente produz o monitoramento semanal de coortes de motoristas novos"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La consulta al agente que produce el monitoreo de la cohorte de conductores nuevos: «Para los conductores que completaron su primera sesión en los últimos 14 días, muéstrame: número de sesiones en la semana 1, duración media de sesión, ingreso por hora activa en la primera semana, tasa de completación en los primeros 15 viajes, y si tuvieron una segunda sesión dentro de las 72 horas de la primera. Agrupa el resultado por semana de incorporación y marca en rojo los conductores que cumplan al menos dos de las siguientes condiciones: menos de 2 sesiones en la semana 1, ingreso por hora activa inferior a 60 MXN, tasa de completación inferior al 75%, o sin segunda sesión dentro de las 72 horas de la primera.» El resultado produce un mapa de la cohorte de conductores nuevos sin métricas adicionales: los conductores marcados en rojo son los que están en la trayectoria de comportamiento que lleva al abandono antes del mes 2 si no hay intervención en las próximas 24 a 72 horas. El operador que ejecuta esa consulta cada lunes por la mañana tiene una lista completa de conductores nuevos que necesitan un contacto directo antes del final de esa misma semana.",
+        "en": "The agent query that produces new driver cohort monitoring: 'For drivers who completed their first session in the last 14 days, show me: number of sessions in week one, average session duration, income per active hour in week one, completion rate in the first 15 trips, and whether they had a second session within 72 hours of the first. Group the result by incorporation week and flag in red drivers who meet at least two of the following conditions: fewer than 2 sessions in week one, income per active hour below 60 MXN, completion rate below 75%, or no second session within 72 hours of the first.' The result produces a new driver cohort map without additional metrics: drivers flagged in red are those on the behavioral trajectory leading to departure before month two if there is no intervention in the next 24 to 72 hours. The operator who runs this query every Monday morning has a complete list of new drivers who need a direct contact before the end of that same week.",
+        "pt": "A consulta ao agente que produz o monitoramento da coorte de motoristas novos: «Para os motoristas que concluíram sua primeira sessão nos últimos 14 dias, mostre: número de sessões na semana 1, duração média de sessão, receita por hora ativa na primeira semana, taxa de conclusão nas primeiras 15 corridas, e se tiveram uma segunda sessão dentro das 72 horas da primeira. Agrupe o resultado por semana de incorporação e marque em vermelho os motoristas que atendam ao menos duas das seguintes condições: menos de 2 sessões na semana 1, receita por hora ativa inferior a 60 MXN, taxa de conclusão inferior a 75%, ou sem segunda sessão dentro das 72 horas da primeira.» O resultado produz um mapa da coorte de motoristas novos sem métricas adicionais: os motoristas marcados em vermelho são os que estão na trajetória de comportamento que leva ao abandono antes do mês 2 se não houver intervenção nas próximas 24 a 72 horas. O operador que executa essa consulta toda segunda-feira de manhã tem uma lista completa de motoristas novos que precisam de contato direto antes do final dessa mesma semana."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La consulta de seguimiento a 30 días que produce el marco de referencia empírico: «Para cada cohorte de conductores nuevos —agrupados por semana de primera sesión—, muéstrame el porcentaje que tuvo al menos 3 sesiones activas en las semanas 3 y 4. Para las cohortes donde ese porcentaje cayó por debajo del 50%, muéstrame el ingreso por hora activa en la semana 1 y el número de sesiones de los conductores que sí se consolidaron versus los que no.» Esa comparación calibra qué umbrales de la primera semana son predictivos en la operación específica. Distintos mercados tienen distintos niveles de demanda residual y distintos costos de combustible que afectan los umbrales de ingreso, pero la estructura del patrón —conductor con primera semana saludable, consolidación en semanas 3 y 4; conductor con primera semana en rango de riesgo, abandono antes de la semana 5— es consistente en operaciones regionales de México y Centroamérica. Esa consulta también responde la pregunta que la mayoría de los operadores nunca pueden responder: de los conductores que se fueron en el primer mes, ¿cuántos dieron señales medibles en la primera semana?",
+        "en": "The 30-day follow-up query that produces the empirical reference frame: 'For each cohort of new drivers — grouped by first-session week — show me the percentage who had at least 3 active sessions in weeks 3 and 4. For cohorts where that percentage fell below 50%, show me the week-one income per active hour and session count for drivers who consolidated versus those who didn't.' That comparison calibrates which first-week thresholds are predictive in the specific operation. Different markets have different residual demand levels and fuel costs that affect income thresholds, but the structure of the pattern — driver with a healthy first week consolidating by weeks 3 and 4; driver with a risk-range first week departing before week 5 — is consistent across regional operations in Mexico and Central America. That query also answers the question most operators can never answer: of the drivers who left in month one, how many gave measurable signals in the first week?",
+        "pt": "A consulta de acompanhamento em 30 dias que produz o referencial empírico: «Para cada coorte de motoristas novos — agrupados por semana de primeira sessão —, mostre o percentual que teve ao menos 3 sessões ativas nas semanas 3 e 4. Para as coortes onde esse percentual caiu abaixo de 50%, mostre a receita por hora ativa na semana 1 e o número de sessões dos motoristas que se consolidaram versus os que não o fizeram.» Essa comparação calibra quais limiares da primeira semana são preditivos na operação específica. Mercados diferentes têm diferentes níveis de demanda residual e custos de combustível que afetam os limiares de receita, mas a estrutura do padrão — motorista com primeira semana saudável, consolidação nas semanas 3 e 4; motorista com primeira semana na faixa de risco, abandono antes da semana 5 — é consistente em operações regionais do México e da América Central. Essa consulta também responde a pergunta que a maioria dos operadores nunca consegue responder: dos motoristas que saíram no primeiro mês, quantos deram sinais mensuráveis na primeira semana?"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La serie de artículos que precedió a este —tasa de completación, radio de asignación, posicionamiento proactivo, ingreso por hora activa— describe un ciclo de mejora operativa que tiene un prerrequisito estructural: la flota de conductores debe permanecer activa el tiempo suficiente para que esas mejoras produzcan resultados consistentes. Cuando una plataforma pierde el 40 al 50% de sus conductores nuevos antes del mes 2, el ciclo de mejora operativa se reinicia con conductores nuevos cada seis semanas. Cada reinicio tiene un costo: tiempo de verificación documental, período de baja productividad inicial, instrucciones de posicionamiento que la flota veterana ya no necesita. El monitoreo de la primera semana no solo reduce la rotación del conductor nuevo: protege la inversión de todas las mejoras operativas anteriores al garantizar que la flota que aplica esas mejoras sea estable.",
+        "en": "The series of articles that preceded this one — completion rate, assignment radius, proactive positioning, income per active hour — describes an operational improvement cycle that has a structural prerequisite: the driver fleet must stay active long enough for those improvements to produce consistent results. When a platform loses 40 to 50 percent of its new drivers before month two, the operational improvement cycle restarts with new drivers every six weeks. Each restart has a cost: document verification time, an initial low-productivity period, positioning instructions that the veteran fleet no longer needs. First-week monitoring doesn't just reduce new driver attrition: it protects the investment in all prior operational improvements by ensuring the fleet that applies those improvements remains stable.",
+        "pt": "A série de artigos que precedeu este — taxa de conclusão, raio de atribuição, posicionamento proativo, receita por hora ativa — descreve um ciclo de melhoria operacional que tem um pré-requisito estrutural: a frota de motoristas deve permanecer ativa tempo suficiente para que essas melhorias produzam resultados consistentes. Quando uma plataforma perde 40 a 50% de seus motoristas novos antes do mês 2, o ciclo de melhoria operacional reinicia com motoristas novos a cada seis semanas. Cada reinício tem um custo: tempo de verificação documental, período inicial de baixa produtividade, instruções de posicionamento que a frota veterana já não precisa. O monitoramento da primeira semana não apenas reduz a rotatividade do motorista novo: protege o investimento em todas as melhorias operacionais anteriores ao garantir que a frota que aplica essas melhorias permaneça estável."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Los conductores que abandonan en el mes 1 generalmente tuvieron una primera semana que les dijo que la plataforma no iba a funcionar para ellos —no porque la plataforma realmente no funcionara, sino porque no tuvieron la información para usarla de forma productiva. Un conductor nuevo que empieza la primera sesión sin zona específica, sin referencia de ingreso y sin saber dónde va a estar la concentración de demanda en la primera hora de su conexión va a experimentar exactamente el tiempo muerto y el ingreso bajo que produce la comparación de «esto no vale la pena». La intervención en la primera semana es la misma que beneficia a la flota veterana: hacer que el dato que ya está en la plataforma salga de los reportes y llegue al conductor en el momento en que todavía puede usarlo. La única diferencia es que para el conductor nuevo, ese momento es la primera sesión, no la cuarta semana.",
+        "en": "Drivers who leave in month one generally had a first week that told them the platform wasn't going to work for them — not because the platform actually didn't work, but because they didn't have the information to use it productively. A new driver who starts the first session without a specific zone, without an income reference, and without knowing where demand concentration is going to be in the first hour of their connection is going to experience exactly the idle time and low income that produces the 'this isn't worth it' comparison. The week-one intervention is the same one that benefits the veteran fleet: making the data already in the platform leave the reports and reach the driver at the moment when they can still use it. The only difference is that for the new driver, that moment is the first session, not the fourth week.",
+        "pt": "Os motoristas que saem no mês 1 geralmente tiveram uma primeira semana que lhes disse que a plataforma não ia funcionar para eles — não porque a plataforma realmente não funcionasse, mas porque não tinham a informação para usá-la de forma produtiva. Um motorista novo que começa a primeira sessão sem zona específica, sem referência de receita e sem saber onde estará a concentração de demanda na primeira hora de sua conexão vai experimentar exatamente o tempo morto e a receita baixa que produzem a comparação de «isso não vale a pena». A intervenção na primeira semana é a mesma que beneficia a frota veterana: fazer com que o dado que já está na plataforma saia dos relatórios e chegue ao motorista no momento em que ainda pode usá-lo. A única diferença é que, para o motorista novo, esse momento é a primeira sessão, não a quarta semana."
+      }
+    }
+  ],
+  "cta": {
+    "heading": {
+      "es": "¿Listo para lanzar tu propia app de movilidad?",
+      "en": "Ready to launch your own mobility app?",
+      "pt": "Pronto para lançar seu próprio app de mobilidade?"
+    },
+    "body": {
+      "es": "Configura tu marca, tus tarifas y tus servicios en semanas, no en meses. Cabgo te entrega la plataforma; tú te quedas con la operación, los clientes y los ingresos.",
+      "en": "Set up your brand, pricing and services in weeks, not months. Cabgo ships the platform — you keep the operation, the customers and the revenue.",
+      "pt": "Configure sua marca, suas tarifas e seus serviços em semanas, não em meses. A Cabgo entrega a plataforma; você fica com a operação, os clientes e a receita."
+    },
+    "buttonLabel": {
+      "es": "Comenzar con Cabgo",
+      "en": "Get started with Cabgo",
+      "pt": "Começar com a Cabgo"
+    },
+    "buttonHref": "/empezar"
+  },
+  "seo": {
+    "metaTitle": {
+      "es": "Primera semana del conductor nuevo en ride-hailing | Cabgo",
+      "en": "New driver first week indicators in ride-hailing | Cabgo",
+      "pt": "Primeira semana do motorista novo no ride-hailing | Cabgo"
+    },
+    "metaDescription": {
+      "es": "Qué indicadores de la primera semana de un conductor nuevo predicen su permanencia a 90 días y cómo intervenir antes de que el abandono sea irreversible.",
+      "en": "Which first-week indicators for a new driver predict 90-day retention and how to intervene before the departure becomes irreversible.",
+      "pt": "Quais indicadores da primeira semana de um motorista novo predizem sua permanência em 90 dias e como intervir antes de o abandono se tornar irreversível."
+    }
+  }
+}
