@@ -1,0 +1,320 @@
+{
+  "slug": "cancelacion-pasajero-momentos-diagnostico-operacion",
+  "category": "strategy",
+  "title": {
+    "es": "Cancelaciones del pasajero en ride-hailing: los tres momentos que revelan fallos distintos",
+    "en": "Passenger cancellations in ride-hailing: three windows that reveal distinct operational failures",
+    "pt": "Cancelamentos do passageiro no ride-hailing: três momentos que revelam falhas distintas"
+  },
+  "excerpt": {
+    "es": "La cancelación del pasajero ocurre en tres ventanas con causas distintas. Identificar en cuál se concentra el problema en tu operación es el primer paso para reducirla de forma sostenida.",
+    "en": "Passenger cancellations fall into three windows with different causes. Identifying which one concentrates the problem in your operation determines what response makes sense.",
+    "pt": "O cancelamento do passageiro ocorre em três janelas com causas distintas. Identificar em qual se concentra o problema na sua operação é o primeiro passo para reduzi-lo de forma sustentada."
+  },
+  "heroImage": "https://raw.githubusercontent.com/jonatanvazquez/cabgo-blog-content/main/images/cancelacion-pasajero-momentos-diagnostico-operacion.jpg",
+  "heroImageAlt": {
+    "es": "Ilustración isométrica con tres niveles horizontales. Superior: teléfono con figura de pasajero, anillo de solicitud y badge rojo X antes de cualquier vehículo, etiqueta '0-2 min'. Medio: vehículo con flecha hacia pin y badge X sobre pasajero a mitad del acercamiento, etiqueta '3-10 min'. Inferior: vehículo en el pin con badge de interrogación sobre la ubicación vacía del pasajero, etiqueta 'no-show'. Tarjetas flotantes: ámbar con gráfico de barras, violeta con reloj, verde azulado con interrogación.",
+    "en": "Isometric illustration with three horizontal tiers. Top: phone with passenger figure, request ring, and red X-badge before any vehicle — labeled '0–2 min'. Middle: vehicle with approach arrow toward a pin and X-badge above the passenger figure mid-approach — labeled '3–10 min'. Bottom: vehicle stopped at the pin with a question-mark badge over the empty passenger location — labeled 'no-show'. Floating data cards: amber with bar chart, violet with clock icon, teal with question-mark.",
+    "pt": "Ilustração isométrica com três níveis horizontais. Superior: telefone com figura de passageiro, anel de solicitação e badge X vermelho antes de qualquer veículo, rótulo '0-2 min'. Médio: veículo com seta em direção ao pin e badge X sobre o passageiro a meio caminho, rótulo '3-10 min'. Inferior: veículo no pin com badge de interrogação sobre a localização vazia do passageiro, rótulo 'no-show'. Cartões flutuantes: âmbar com gráfico, violeta com relógio, verde-azulado com interrogação."
+  },
+  "heroImagePrompt": "Isometric illustration composed of three descending horizontal tiers, each representing a passenger cancellation window. Top tier labeled '0–2 min': a smartphone icon displaying a map view, a passenger figure standing beside it, a request-ring expanding outward, and a red X-badge floating before any vehicle icon appears. Middle tier labeled '3–10 min': a vehicle icon with a progress arrow pointing toward a destination pin, and a red X-badge emerging above a passenger figure midway through the approach — driver and passenger visually separated by a gap. Bottom tier labeled 'no-show': a vehicle icon stopped at a destination pin, a question-mark badge above the empty passenger location, and a small 3-minute countdown card hovering nearby. Beside each tier, a floating data card: amber card with a stacked bar chart for the top tier, violet card with a clock-and-arrow icon for the middle tier, teal card with a question-mark icon for the bottom tier. A soft connector line links all three tiers on the left edge. Deep violet floor grid, soft indigo radial background glow, clean geometric shapes, subtle shadows. Negative space on the lower right.",
+  "publishedAt": "2026-07-19",
+  "readingMinutes": 9,
+  "keywords": {
+    "es": [
+      "cancelación pasajero ride-hailing diagnóstico operación",
+      "tasa cancelación pasajero plataforma movilidad regional",
+      "cancelación pre-asignación tiempo espera taxi app",
+      "no-show pasajero ride-hailing México LATAM",
+      "cancelación post-asignación conductor en camino taxi app",
+      "diagnóstico cancelación pasajero operador movilidad regional",
+      "reducir cancelaciones pasajero plataforma ride-hailing"
+    ],
+    "en": [
+      "passenger cancellation rate ride-hailing diagnosis",
+      "pre-assignment cancellation taxi app regional platform",
+      "post-assignment cancellation driver approach time",
+      "passenger no-show ride-hailing LATAM Mexico",
+      "reduce passenger cancellations regional mobility platform",
+      "cancellation window diagnosis ride-hailing operator",
+      "passenger cancellation operational failure taxi app"
+    ],
+    "pt": [
+      "cancelamento passageiro ride-hailing diagnóstico operação",
+      "taxa cancelamento passageiro plataforma mobilidade regional",
+      "cancelamento pré-atribuição tempo espera app de táxi",
+      "no-show passageiro ride-hailing México LATAM",
+      "cancelamento pós-atribuição motorista a caminho app táxi",
+      "diagnóstico cancelamento passageiro operador mobilidade",
+      "reduzir cancelamentos passageiro plataforma ride-hailing"
+    ]
+  },
+  "author": {
+    "name": "Equipo Cabgo",
+    "role": {
+      "es": "Plataforma de movilidad",
+      "en": "Mobility platform",
+      "pt": "Plataforma de mobilidade"
+    }
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La tasa de cancelación del pasajero es una de las métricas que casi todos los operadores de ride-hailing rastrean y muy pocos descomponen. En una operación con 1,200 viajes semanales y una tasa global del 19%, ese número puede contener tres problemas completamente distintos: cancelaciones antes de que se asigne un conductor —cuando el pasajero no ve oferta disponible o el tiempo de espera estimado es demasiado alto—, cancelaciones después de la asignación —cuando el conductor está en camino pero tarda más de lo que el pasajero está dispuesto a esperar—, y no-shows —cuando el conductor llega al punto de recogida y el pasajero no está—. Cada categoría tiene una causa operativa diferente, una respuesta diferente y una lectura distinta sobre qué parte del servicio está fallando. Tratar el número agregado como una sola señal lleva a intervenciones que no atacan la causa real y producen cambios cosméticos que no reducen la tasa de forma sostenida.",
+        "en": "The passenger cancellation rate is one of the metrics most ride-hailing operators track and few decompose. In an operation with 1,200 weekly trips and a global rate of 19%, that number can contain three completely different problems: cancellations before a driver is assigned — when the passenger sees no available supply or an estimated wait time too high —, cancellations after assignment — when the driver is en route but takes longer than the passenger is willing to wait —, and no-shows — when the driver arrives at the pickup point and the passenger isn't there. Each category has a different operational cause, a different response, and a different reading about which part of the service is failing. Treating the aggregated number as a single signal leads to interventions that don't address the real cause and produce cosmetic changes that don't sustainably reduce the rate.",
+        "pt": "A taxa de cancelamento do passageiro é uma das métricas que quase todos os operadores de ride-hailing rastreiam e muito poucos decompõem. Em uma operação com 1.200 corridas semanais e taxa global de 19%, esse número pode conter três problemas completamente distintos: cancelamentos antes da atribuição de um motorista —quando o passageiro não vê oferta disponível ou o tempo de espera estimado é alto—, cancelamentos após a atribuição —quando o motorista está a caminho, mas demora mais do que o passageiro está disposto a esperar—, e no-shows —quando o motorista chega ao ponto de embarque e o passageiro não está. Cada categoria tem uma causa operacional diferente, uma resposta diferente e uma leitura diferente sobre qual parte do serviço está falhando. Tratar o número agregado como um único sinal leva a intervenções que não atacam a causa real e produzem mudanças cosméticas que não reduzem a taxa de forma sustentada."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Este artículo está dirigido al operador con 20 a 80 conductores activos cuya tasa de cancelación del pasajero está por encima del 12 al 15% sin poder identificar en qué parte del proceso de servicio se concentra el problema. Cubre por qué los tres momentos de cancelación tienen causas que se mapean a partes distintas de la operación; qué revela la cancelación pre-asignación sobre la brecha entre lo que la plataforma promete y lo que el pasajero experimenta; qué revela la cancelación post-asignación sobre la distancia de asignación y los tiempos de llegada reales; qué segmentos de pasajero generan los no-shows y qué los causa; cómo el patrón de cancelaciones del pasajero revela fallos que los datos de conductor no muestran directamente; y qué consultas semanales al agente producen el diagnóstico por ventana. La tesis es práctica: una tasa de cancelación global por encima del 15% en una operación regional no es principalmente un problema de retención —es una falla de entrega de servicio que el pasajero comunica a través del único señal disponible para él: salir antes de que el viaje empiece.",
+        "en": "This article is for operators with 20 to 80 active drivers whose passenger cancellation rate is above 12 to 15% without being able to identify which part of the service process concentrates the problem. It covers why the three cancellation windows have causes that map to different parts of the operation; what the pre-assignment cancellation rate reveals about the gap between what the platform promises and what the passenger experiences; what the post-assignment cancellation rate reveals about assignment distance and actual arrival times; which passenger segments generate no-shows and what causes them; how the passenger cancellation pattern reveals failures that driver-side data doesn't show directly; and which weekly agent queries produce the by-window diagnosis. The thesis is practical: a global cancellation rate above 15% in a regional operation is not primarily a retention problem — it is a service delivery failure that the passenger communicates through the only signal available to them: leaving before the trip starts.",
+        "pt": "Este artigo é voltado ao operador com 20 a 80 motoristas ativos cuja taxa de cancelamento do passageiro está acima de 12 a 15% sem conseguir identificar em qual parte do processo de serviço o problema se concentra. Ele cobre por que as três janelas de cancelamento têm causas que se mapeiam a partes distintas da operação; o que o cancelamento pré-atribuição revela sobre a lacuna entre o que a plataforma promete e o que o passageiro experimenta; o que o cancelamento pós-atribuição revela sobre a distância de atribuição e os tempos de chegada reais; quais segmentos de passageiro geram os no-shows e o que os causa; como o padrão de cancelamentos do passageiro revela falhas que os dados de motorista não mostram diretamente; e quais consultas semanais ao agente produzem o diagnóstico por janela. A tese é prática: uma taxa de cancelamento global acima de 15% em uma operação regional não é principalmente um problema de retenção —é uma falha de entrega de serviço que o passageiro comunica por meio do único sinal disponível para ele: sair antes de a corrida começar."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "tres-momentos-cancelacion-pasajero-causas",
+      "text": {
+        "es": "Los tres momentos de cancelación y por qué cada uno revela un problema distinto",
+        "en": "The three cancellation windows and why each reveals a different problem",
+        "pt": "Os três momentos de cancelamento e por que cada um revela um problema distinto"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Para convertir la cancelación del pasajero en un diagnóstico útil, el primer paso es separar la tasa global en tres ventanas con timestamps medibles. El primer momento es la cancelación pre-asignación: el pasajero solicita un viaje pero cancela antes de que la plataforma asigne un conductor. La mayoría ocurren en los primeros 90 a 120 segundos. El segundo momento es la cancelación post-asignación: el conductor fue asignado y está en camino, pero el pasajero cancela antes de que llegue —típicamente entre el minuto 3 y el 10 después de la asignación—. El tercer momento es el no-show: el conductor llegó al punto de recogida pero el pasajero no está o no responde. Ninguna de estas tres ventanas requiere datos que no estén ya disponibles en la plataforma: el timestamp de la solicitud, el de la asignación, el de llegada del conductor y el de la cancelación identifican en cuál de las tres ventanas ocurrió cada evento.",
+        "en": "To turn passenger cancellations into a useful diagnostic, the first step is to separate the global rate into three windows with measurable timestamps. The first window is pre-assignment cancellation: the passenger requests a trip but cancels before the platform assigns a driver — most happen in the first 90 to 120 seconds. The second is post-assignment cancellation: a driver was assigned and is en route, but the passenger cancels before they arrive — typically between minutes 3 and 10 after assignment. The third is the no-show: the driver arrived at the pickup point but the passenger is absent or unresponsive. None of these three windows requires data not already in the platform: the request timestamp, assignment timestamp, driver arrival timestamp, and cancellation timestamp identify which window each event belongs to.",
+        "pt": "Para transformar o cancelamento do passageiro em um diagnóstico útil, o primeiro passo é separar a taxa global em três janelas com timestamps mensuráveis. O primeiro momento é o cancelamento pré-atribuição: o passageiro solicita uma corrida mas cancela antes de a plataforma atribuir um motorista —a maioria ocorre nos primeiros 90 a 120 segundos. O segundo é o cancelamento pós-atribuição: um motorista foi atribuído e está a caminho, mas o passageiro cancela antes de ele chegar —tipicamente entre os minutos 3 e 10 após a atribuição. O terceiro é o no-show: o motorista chegou ao ponto de embarque mas o passageiro não está ou não responde. Nenhuma dessas três janelas requer dados que não estejam já disponíveis na plataforma: os timestamps de solicitação, atribuição, chegada e cancelamento identificam em qual janela cada evento ocorreu."
+      }
+    },
+    {
+      "type": "list",
+      "style": "bullet",
+      "intro": {
+        "es": "Las tres ventanas y lo que diagnostica cada una en la operación:",
+        "en": "The three windows and what each one diagnoses in the operation:",
+        "pt": "As três janelas e o que cada uma diagnostica na operação:"
+      },
+      "items": {
+        "es": [
+          "**Cancelación pre-asignación (0-2 min)**: el pasajero cancela antes de ver un conductor asignado. La causa más frecuente es un tiempo de espera estimado superior a 6 minutos o ausencia de conductores en el radio próximo. Esta ventana diagnostica la disponibilidad de oferta en zonas y franjas específicas: donde se concentra señala brechas de cobertura.",
+          "**Cancelación post-asignación (3-10 min)**: el pasajero cancela después de la asignación pero antes de que el conductor llegue. La causa más frecuente es que el tiempo de acercamiento real supera el estimado que la plataforma mostró al momento de la asignación. Esta ventana diagnostica la precisión de los tiempos de llegada y la distancia de asignación.",
+          "**No-show del pasajero**: el conductor llegó al punto de recogida y el pasajero no está o no responde. La causa varía por segmento: pasajero nuevo que no fijó bien el pin, pasajero que consiguió transporte alternativo mientras esperaba, o solicitud sin intención real de completarse. Esta ventana diagnostica fricción de UX y demanda no consolidada."
+        ],
+        "en": [
+          "**Pre-assignment cancellation (0–2 min)**: the passenger cancels before seeing a driver assigned. The most common cause is an estimated wait time above 6 minutes or no drivers visible within the close radius. This window diagnoses supply availability in specific zones and time slots — where it concentrates marks coverage gaps.",
+          "**Post-assignment cancellation (3–10 min)**: the passenger cancels after assignment but before the driver arrives. The most common cause is that actual approach time exceeds the estimated time the platform showed at assignment. This window diagnoses arrival time accuracy and assignment distance.",
+          "**Passenger no-show**: the driver arrived at the pickup point and the passenger is absent or unresponsive. The cause varies by segment: a new passenger who couldn't accurately pin the pickup location, a passenger who found alternative transport while waiting, or a request made without genuine intent to complete. This window diagnoses UX friction and unconsolidated demand."
+        ],
+        "pt": [
+          "**Cancelamento pré-atribuição (0-2 min)**: o passageiro cancela antes de ver um motorista atribuído. A causa mais frequente é tempo de espera estimado superior a 6 minutos ou ausência de motoristas no raio próximo. Essa janela diagnostica a disponibilidade de oferta em zonas e faixas específicas — onde se concentra indica lacunas de cobertura.",
+          "**Cancelamento pós-atribuição (3-10 min)**: o passageiro cancela após a atribuição, mas antes de o motorista chegar. A causa mais frequente é que o tempo de aproximação real supera o estimado que a plataforma mostrou no momento da atribuição. Essa janela diagnostica a precisão dos tempos de chegada e a distância de atribuição.",
+          "**No-show do passageiro**: o motorista chegou ao ponto de embarque e o passageiro não está ou não responde. A causa varia por segmento: passageiro novo que não marcou bem o ponto de embarque, passageiro que encontrou transporte alternativo enquanto esperava, ou solicitação sem intenção real de se concluir. Essa janela diagnostica fricção de UX e demanda não consolidada."
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "cancelacion-pre-asignacion-cobertura-disponibilidad",
+      "text": {
+        "es": "Cancelación pre-asignación: cuando el pasajero no ve oferta antes de decidir irse",
+        "en": "Pre-assignment cancellation: when the passenger sees no supply before deciding to leave",
+        "pt": "Cancelamento pré-atribuição: quando o passageiro não vê oferta antes de desistir"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La cancelación pre-asignación es la ventana que más directamente refleja la relación entre la cobertura de la flota y la percepción de disponibilidad del pasajero. Un pasajero que solicita un viaje y ve un tiempo de espera de 11 minutos con el conductor más próximo a 4 km tiene dos datos: cuánto va a esperar y si hay alguien cerca. Si cualquiera de los dos supera su umbral de tolerancia, cancela en los primeros 90 segundos. En operaciones regionales donde la cobertura en zonas específicas durante franjas de transición entre picos es baja, la tasa de cancelación pre-asignación en esas zonas puede llegar al 28 al 45% —significativamente más alta que el promedio de la operación—. El dato que distingue si el problema es de cobertura estructural o puntual es la distribución del tiempo hasta la cancelación: si más del 65% de las cancelaciones pre-asignación en una zona y franja ocurren en menos de 90 segundos, el pasajero no está evaluando si vale la pena esperar —está saliendo de la app en cuanto confirma que no hay conductor disponible inmediatamente.",
+        "en": "Pre-assignment cancellation most directly reflects the relationship between fleet coverage and the passenger's perception of service availability. A passenger who requests a trip and sees an 11-minute wait with the nearest driver at 4 km has two data points: how long to wait and whether anyone is nearby. If either exceeds their tolerance threshold, they cancel within the first 90 seconds. In regional markets where coverage in specific zones during inter-peak transition slots is thin, the pre-assignment cancellation rate in those zones can reach 28 to 45% — significantly higher than the operation's average. The data point that distinguishes structural versus temporary coverage problems is the time-to-cancel distribution: if more than 65% of pre-assignment cancellations in a zone and slot happen in under 90 seconds, the passenger isn't evaluating whether to wait — they are leaving the app the moment they confirm no driver is immediately available.",
+        "pt": "O cancelamento pré-atribuição é a janela que mais diretamente reflete a relação entre a cobertura da frota e a percepção de disponibilidade do passageiro. Um passageiro que solicita uma corrida e vê tempo de espera de 11 minutos com o motorista mais próximo a 4 km tem dois dados: quanto vai esperar e se há alguém por perto. Se qualquer um dos dois superar seu limiar de tolerância, ele cancela nos primeiros 90 segundos. Em mercados regionais onde a cobertura em zonas específicas durante faixas de transição entre picos é baixa, a taxa de cancelamento pré-atribuição nessas zonas pode chegar a 28 a 45% —significativamente mais alta que a média da operação. O dado que distingue se o problema é de cobertura estrutural ou pontual é a distribuição do tempo até o cancelamento: se mais de 65% dos cancelamentos pré-atribuição em uma zona e faixa ocorrem em menos de 90 segundos, o passageiro não está avaliando se vale a pena esperar —está saindo do app no momento em que confirma que não há motorista disponível imediatamente."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La implicación operativa es que la cancelación pre-asignación temprana —antes de los 90 segundos— no responde a cambios en el tiempo de espera estimado: responde a cambios en la disponibilidad de conductores en el radio próximo. Ampliar el radio de asignación mejora el número de asignaciones completadas, pero no reduce estas cancelaciones —solo desplaza el problema hacia la ventana post-asignación porque el conductor asignado llegará más tarde. El punto de intervención correcto es el posicionamiento preventivo antes del momento de la solicitud, no ajustar el radio en el momento de la asignación. La consulta al agente que produce el mapa de cancelaciones pre-asignación por zona y franja para las últimas tres semanas: «Muéstrame las cancelaciones del pasajero ocurridas antes de la asignación del conductor en los últimos 21 días, agrupadas por zona de solicitud y franja horaria de 90 minutos. Para cada combinación zona-franja, muéstrame el total de cancelaciones, la proporción que ocurrió en los primeros 90 segundos, y el porcentaje respecto al total de solicitudes. Identifica las tres zonas con mayor tasa de cancelación pre-asignación en franjas fuera del pico principal.»",
+        "en": "The operational implication is that early pre-assignment cancellation — before 90 seconds — doesn't respond to changes in the estimated wait time: it responds to changes in driver availability within the close radius. Expanding the assignment radius improves the number of completed assignments but doesn't reduce these cancellations — it only shifts the problem to the post-assignment window because the assigned driver will arrive later. The correct intervention point is preventive pre-positioning before the request moment, not adjusting the radius at assignment time. The agent query that produces the pre-assignment cancellation map by zone and slot over the past three weeks: 'Show me passenger cancellations that occurred before driver assignment over the last 21 days, grouped by request zone and 90-minute time slot. For each zone-slot combination, show the total cancellations, the proportion that happened in the first 90 seconds, and the percentage of total requests. Identify the three zones with the highest pre-assignment cancellation rate in slots outside the main peak.'",
+        "pt": "A implicação operacional é que o cancelamento pré-atribuição precoce —antes dos 90 segundos— não responde a mudanças no tempo de espera estimado: responde a mudanças na disponibilidade de motoristas no raio próximo. Ampliar o raio de atribuição melhora o número de atribuições concluídas, mas não reduz esses cancelamentos —apenas desloca o problema para a janela pós-atribuição porque o motorista atribuído chegará mais tarde. O ponto de intervenção correto é o pré-posicionamento preventivo antes do momento da solicitação, não ajustar o raio no momento da atribuição. A consulta ao agente que produz o mapa de cancelamentos pré-atribuição por zona e faixa nas últimas três semanas: «Mostre os cancelamentos do passageiro ocorridos antes da atribuição do motorista nos últimos 21 dias, agrupados por zona de solicitação e faixa horária de 90 minutos. Para cada combinação zona-faixa, mostre o total de cancelamentos, a proporção que ocorreu nos primeiros 90 segundos e o percentual em relação ao total de solicitações. Identifique as três zonas com maior taxa de cancelamento pré-atribuição em faixas fora do pico principal.»"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "cancelacion-post-asignacion-tiempo-llegada-discrepancia",
+      "text": {
+        "es": "Cancelación post-asignación: cuando la promesa de llegada no coincide con la realidad",
+        "en": "Post-assignment cancellation: when the promised arrival time doesn't match reality",
+        "pt": "Cancelamento pós-atribuição: quando a promessa de chegada não corresponde à realidade"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La cancelación post-asignación tiene una dinámica distinta a la pre-asignación porque ocurre después de que la promesa ya se hizo: la plataforma le dijo al pasajero que un conductor estaba en camino y estimó un tiempo de llegada. El pasajero canceló porque el tiempo real de llegada superó esa estimación. En mercados regionales con tráfico variable y conductores asignados a distancias de 2 a 5 km del punto de recogida, la diferencia entre el tiempo estimado al momento de la asignación y el tiempo real de llegada puede ser de 3 a 7 minutos en franjas de tráfico congestionado. Si la plataforma mostró «4 minutos» y el conductor llegó en 10, ese pasajero tiene una probabilidad 2 a 3 veces mayor de cancelar que si la plataforma hubiera mostrado «8 minutos» desde el inicio. El problema no es el tiempo de espera: es la discrepancia entre lo que se prometió y lo que se está entregando. Un pasajero que espera con información correcta tiene más paciencia que uno que espera con información incorrecta.",
+        "en": "Post-assignment cancellation has a different dynamic from pre-assignment because it happens after the promise was already made: the platform told the passenger a driver was en route and estimated an arrival time. The passenger cancelled because the actual arrival time exceeded that estimate. In regional markets with variable traffic and drivers assigned at distances of 2 to 5 km from the pickup point, the gap between the estimated time at assignment and actual arrival can be 3 to 7 minutes during congested slots. If the platform showed '4 minutes' and the driver arrived in 10, that passenger has a 2 to 3 times higher probability of cancelling than if the platform had shown '8 minutes' from the start. The problem is not the wait time: it is the discrepancy between what was promised and what is being delivered. A passenger waiting with correct information has more patience than one waiting with incorrect information.",
+        "pt": "O cancelamento pós-atribuição tem uma dinâmica diferente da pré-atribuição porque ocorre depois de a promessa já ter sido feita: a plataforma disse ao passageiro que um motorista estava a caminho e estimou um tempo de chegada. O passageiro cancelou porque o tempo real de chegada superou essa estimativa. Em mercados regionais com tráfego variável e motoristas atribuídos a distâncias de 2 a 5 km do ponto de embarque, a diferença entre o tempo estimado no momento da atribuição e o real pode ser de 3 a 7 minutos em faixas de tráfego congestionado. Se a plataforma mostrou «4 minutos» e o motorista chegou em 10, esse passageiro tem probabilidade 2 a 3 vezes maior de cancelar do que se a plataforma tivesse mostrado «8 minutos» desde o início. O problema não é o tempo de espera: é a discrepância entre o que foi prometido e o que está sendo entregue."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Las cancelaciones post-asignación se concentran en dos patrones geográficos y temporales específicos: zonas con tráfico no modelado correctamente en el algoritmo de estimación de tiempos —corredores comerciales, cruces escolares y mercados de abastos en las franjas de las 7:30 a las 9:00 AM y de las 12:00 a las 2:00 PM— y asignaciones donde el conductor aceptó el viaje durante el tramo final de un viaje previo, lo que produce una posición de aceptación más lejana del punto de recogida de lo que el sistema registra al momento de la asignación. La consulta al agente que identifica estos nodos: «Para los últimos 21 días, muéstrame las cancelaciones del pasajero ocurridas entre la asignación del conductor y la llegada al punto de recogida. Para cada cancelación, incluye el tiempo estimado de llegada mostrado al pasajero en el momento de la asignación y el tiempo real transcurrido hasta la cancelación. Agrupa por zona de recogida y franja horaria de 90 minutos. Identifica las combinaciones zona-franja donde el tiempo real hasta la cancelación supera el tiempo estimado mostrado en más de 4 minutos en más del 30% de los casos.»",
+        "en": "Post-assignment cancellations concentrate in two specific geographic and time patterns: zones with traffic not correctly modeled in the arrival-time estimation algorithm — commercial corridors, school crossings, and wholesale markets in the 7:30 to 9:00 AM and noon to 2:00 PM slots — and assignments where the driver accepted the trip during the final stretch of a prior trip, producing an acceptance position farther from the pickup point than the system registers at assignment time. The agent query that identifies these nodes: 'For the last 21 days, show me passenger cancellations that occurred between driver assignment and arrival at the pickup point. For each cancellation, include the estimated arrival time shown to the passenger at the moment of assignment and the actual time elapsed until cancellation. Group by pickup zone and 90-minute time slot. Identify zone-slot combinations where actual time to cancellation exceeds the estimated time shown by more than 4 minutes in more than 30% of cases.'",
+        "pt": "Os cancelamentos pós-atribuição se concentram em dois padrões geográficos e temporais específicos: zonas com tráfego não modelado corretamente no algoritmo de estimativa de tempos —corredores comerciais, cruzamentos escolares e mercados nas faixas das 7h30 às 9h e das 12h às 14h— e atribuições onde o motorista aceitou a corrida durante o trecho final de uma corrida anterior, produzindo uma posição de aceitação mais distante do ponto de embarque do que o sistema registra no momento da atribuição. A consulta ao agente que identifica esses nós: «Para os últimos 21 dias, mostre os cancelamentos do passageiro ocorridos entre a atribuição do motorista e a chegada ao ponto de embarque. Para cada cancelamento, inclua o tempo estimado de chegada mostrado ao passageiro no momento da atribuição e o tempo real transcorrido até o cancelamento. Agrupe por zona de embarque e faixa horária de 90 minutos. Identifique as combinações zona-faixa onde o tempo real até o cancelamento supera o tempo estimado mostrado em mais de 4 minutos em mais de 30% dos casos.»"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "patron-no-show-segmentacion-pasajero",
+      "text": {
+        "es": "El patrón de no-show: qué segmentos de pasajero lo generan y cómo interpretarlo",
+        "en": "The no-show pattern: which passenger segments generate it and how to interpret it",
+        "pt": "O padrão de no-show: quais segmentos de passageiro o geram e como interpretá-lo"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El no-show del pasajero es la categoría con mayor heterogeneidad interna. Un conductor que llega al punto de recogida y espera 3 minutos sin que el pasajero aparezca puede estar frente a tres situaciones distintas: el pasajero nuevo que no logró fijar el punto de recogida con precisión y está a 200 metros del pin; el pasajero que consiguió un taxi en la calle mientras esperaba la asignación y olvidó cancelar la solicitud; o la solicitud realizada desde una dirección comercial en horario de cierre con una cuenta nueva, que responde a un patrón de demanda no consolidada. La tasa de no-show en operaciones regionales oscila entre el 2 y el 7% del total de solicitudes asignadas. Por encima del 4%, el impacto en el ingreso del conductor es medible: en una sesión de 4 horas con 10 viajes asignados, un conductor que experimenta 1 a 2 no-shows pierde 15 a 25 minutos de tiempo productivo —tiempo que viajó hacia el punto de recogida sin cobrar y sin compensación por parte de la plataforma—.",
+        "en": "Passenger no-shows have the greatest internal heterogeneity among the three cancellation windows. A driver who arrives at the pickup point and waits 3 minutes without the passenger appearing may be facing three distinct situations: the new passenger who couldn't accurately pin the pickup location and is 200 meters from the pin; the passenger who found a street taxi while waiting for driver assignment and forgot to cancel the request; or the request placed from a commercial address during closing hours from a new account, fitting a pattern of unconsolidated demand. The no-show rate in regional operations ranges from 2 to 7% of total assigned requests. Above 4%, the impact on driver income is measurable: in a 4-hour session with 10 assigned trips, a driver experiencing 1 to 2 no-shows loses 15 to 25 minutes of productive time — time spent driving to the pickup point without collecting a fare or receiving any compensation from the platform.",
+        "pt": "O no-show do passageiro é a categoria com maior heterogeneidade interna. Um motorista que chega ao ponto de embarque e espera 3 minutos sem o passageiro aparecer pode estar diante de três situações distintas: o passageiro novo que não conseguiu marcar bem o ponto de embarque e está a 200 metros do pin; o passageiro que encontrou um táxi na rua enquanto esperava a atribuição e esqueceu de cancelar a solicitação; ou a solicitação feita de um endereço comercial no horário de fechamento com uma conta nova, correspondendo a um padrão de demanda não consolidada. A taxa de no-show em operações regionais oscila entre 2 e 7% do total de solicitações atribuídas. Acima de 4%, o impacto na receita do motorista é mensurável: em uma sessão de 4 horas com 10 corridas atribuídas, um motorista que experimenta 1 a 2 no-shows perde 15 a 25 minutos de tempo produtivo —tempo que viajou até o ponto de embarque sem receber pagamento."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El diagnóstico útil del no-show no es la tasa global: es la segmentación por antigüedad del pasajero. Un no-show de un pasajero con más de 8 viajes anteriores tiene una interpretación completamente distinta a un no-show en el primer o segundo viaje del pasajero. Los no-shows de pasajeros nuevos —con 1 a 3 viajes anteriores— concentran el 45 al 65% del total en operaciones regionales. Una proporción alta de no-shows en este segmento señala un problema de onboarding del pasajero: el flujo de selección del punto de recogida genera confusión en zonas donde el pin no coincide con la dirección real, o el pasajero no recibió una notificación clara de que el conductor había llegado. La intervención en ese segmento no requiere penalizar al pasajero: requiere identificar las zonas donde la colocación del pin tiene mayor dispersión respecto al punto real de recogida y mejorar la instrucción de confirmación que el pasajero recibe en esos puntos específicos.",
+        "en": "The useful no-show diagnosis is not the global rate: it is segmentation by passenger seniority. A no-show from a passenger with more than 8 prior trips has a completely different interpretation from a no-show on a passenger's first or second trip. No-shows from new passengers — with 1 to 3 prior trips — concentrate 45 to 65% of total no-shows in regional operations. A high proportion of no-shows in this segment signals a passenger onboarding problem: the pickup location selection flow generates confusion in zones where the pin doesn't match the actual address, or the passenger didn't receive a clear notification that the driver had arrived. Intervention in that segment doesn't require penalizing the passenger: it requires identifying zones where pin placement has the greatest dispersion relative to the actual pickup point and improving the confirmation instruction the passenger receives at those specific locations.",
+        "pt": "O diagnóstico útil do no-show não é a taxa global: é a segmentação por antiguidade do passageiro. Um no-show de um passageiro com mais de 8 corridas anteriores tem uma interpretação completamente diferente de um no-show na primeira ou segunda corrida do passageiro. Os no-shows de passageiros novos —com 1 a 3 corridas anteriores— concentram 45 a 65% do total em operações regionais. Uma proporção alta de no-shows nesse segmento sinaliza um problema de onboarding do passageiro: o fluxo de seleção do ponto de embarque gera confusão em zonas onde o pin não corresponde ao endereço real, ou o passageiro não recebeu uma notificação clara de que o motorista chegou. A intervenção nesse segmento não exige penalizar o passageiro: exige identificar as zonas onde a colocação do pin tem maior dispersão em relação ao ponto real de embarque e melhorar a instrução de confirmação que o passageiro recebe nesses pontos específicos."
+      }
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "text": {
+        "es": "Una tasa de no-show superior al 3.5% entre pasajeros con más de 5 viajes anteriores señala un problema de franja horaria, no de onboarding. Los pasajeros establecidos que generan no-shows frecuentes suelen hacerlo de noche o al salir de eventos: consiguieron transporte alternativo y no cancelaron. Ese patrón se corrige con un push de confirmación de llegada al pasajero cuando el conductor está a 2 minutos del pin —no con una penalización.",
+        "en": "A no-show rate above 3.5% among passengers with more than 5 prior trips signals a time-slot-specific issue, not an onboarding problem. Established passengers who generate frequent no-shows tend to do so at night or leaving events: they found alternative transport and didn't cancel. That pattern is corrected with an arrival confirmation push to the passenger when the driver is 2 minutes from the pin — not with a penalty.",
+        "pt": "Uma taxa de no-show acima de 3,5% entre passageiros com mais de 5 corridas anteriores sinaliza um problema de faixa horária, não de onboarding. Os passageiros estabelecidos que geram no-shows frequentes costumam fazê-lo à noite ou ao sair de eventos: encontraram transporte alternativo e não cancelaram. Esse padrão se corrige com um push de confirmação de chegada ao passageiro quando o motorista está a 2 minutos do pin —não com uma penalização."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "cancelaciones-revelan-fallas-metricas-conductor",
+      "text": {
+        "es": "Cómo el patrón de cancelaciones revela fallos que los datos de conductor no muestran",
+        "en": "How the cancellation pattern reveals failures that driver-side data doesn't show",
+        "pt": "Como o padrão de cancelamentos revela falhas que os dados de motorista não mostram"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La relación entre las tres ventanas de cancelación y los datos de conductor genera diagnósticos que ninguna métrica de conductor produce directamente. La tasa de rechazo del conductor mide cuántos viajes no se aceptaron, pero no revela cuántos pasajeros abandonaron antes de que hubiera un conductor disponible para rechazar. El radio de asignación mide la distancia entre el conductor asignado y el punto de recogida, pero no mide si el tiempo de llegada real coincidió con el estimado. El ingreso por hora del conductor mide la productividad de la sesión, pero no captura el tiempo perdido viajando hacia no-shows. Las tres ventanas de cancelación del pasajero llenan esos vacíos con datos que tienen una sola fuente: el comportamiento del pasajero en el momento en que la plataforma le falla.",
+        "en": "The relationship between the three cancellation windows and driver-side data produces diagnostics that no driver metric generates directly. The driver rejection rate measures how many trips weren't accepted, but doesn't reveal how many passengers left before there was a driver available to reject. The assignment radius measures the distance between the assigned driver and the pickup point, but doesn't measure whether actual arrival time matched the estimate. Income per driver hour measures session productivity, but doesn't capture time lost driving toward no-shows. The three passenger cancellation windows fill those gaps with data that has one source: passenger behavior at the moment the platform fails them.",
+        "pt": "A relação entre as três janelas de cancelamento e os dados de motorista produz diagnósticos que nenhuma métrica de motorista gera diretamente. A taxa de rejeição do motorista mede quantas corridas não foram aceitas, mas não revela quantos passageiros saíram antes de haver um motorista disponível para rejeitar. O raio de atribuição mede a distância entre o motorista atribuído e o ponto de embarque, mas não mede se o tempo de chegada real correspondeu ao estimado. A receita por hora do motorista mede a produtividade da sessão, mas não captura o tempo perdido viajando até no-shows. As três janelas de cancelamento do passageiro preenchem essas lacunas com dados que têm uma única fonte: o comportamento do passageiro no momento em que a plataforma o falha."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Una operación donde la tasa de rechazo del conductor es normal —15 al 20%— pero la tasa global de cancelación del pasajero supera el 18% tiene un diagnóstico específico: el problema no está en el comportamiento del conductor sino en algún punto del proceso de servicio que el pasajero experimenta directamente. Si el desglose por ventana muestra que el 70% de las cancelaciones son pre-asignación y se concentran en una zona específica en franja de transición, la causa es ausencia de cobertura. Si el 65% son post-asignación y concentradas en la franja de las 7:30 a las 9:00 AM en zonas con tráfico escolar, la causa es discrepancia de tiempos estimados. Si el 40% son no-shows y se concentran en pasajeros nuevos de la primera semana, la causa es onboarding del pasajero. Esos tres diagnósticos son invisibles desde la perspectiva del conductor pero visibles desde la perspectiva del pasajero. El operador que rastrea solo métricas de conductor tiene la mitad del diagnóstico: la parte de la oferta. Las cancelaciones del pasajero son la métrica que mide si esa oferta llegó a tiempo, con la información correcta y en el lugar donde el pasajero la esperaba.",
+        "en": "An operation where driver rejection rate is normal — 15 to 20% — but global passenger cancellation rate exceeds 18% has a specific diagnosis: the problem is not driver behavior but somewhere in the service process the passenger experiences directly. If the by-window breakdown shows 70% of cancellations are pre-assignment and concentrated in a specific zone during a transition slot, the cause is coverage absence. If 65% are post-assignment and concentrated in the 7:30 to 9:00 AM slot in zones with school traffic, the cause is estimated time discrepancy. If 40% are no-shows and concentrated among new passengers in their first week, the cause is passenger onboarding. Those three diagnoses are invisible from the driver's perspective but visible from the passenger's. The operator who tracks only driver metrics has half the diagnostic: the supply side. Passenger cancellations are the metric that measures whether that supply arrived on time, with correct information, and in the place where the passenger was waiting.",
+        "pt": "Uma operação onde a taxa de rejeição do motorista é normal —15 a 20%— mas a taxa global de cancelamento do passageiro supera 18% tem um diagnóstico específico: o problema não está no comportamento do motorista, mas em algum ponto do processo de serviço que o passageiro experimenta diretamente. Se o detalhamento por janela mostra que 70% dos cancelamentos são pré-atribuição e concentrados em uma zona específica em faixa de transição, a causa é ausência de cobertura. Se 65% são pós-atribuição e concentrados na faixa das 7h30 às 9h em zonas com tráfego escolar, a causa é discrepância de tempos estimados. Se 40% são no-shows e concentrados em passageiros novos da primeira semana, a causa é onboarding do passageiro. Esses três diagnósticos são invisíveis da perspectiva do motorista, mas visíveis da perspectiva do passageiro. O operador que rastreia apenas métricas de motorista tem metade do diagnóstico: o lado da oferta. Os cancelamentos do passageiro são a métrica que mede se essa oferta chegou a tempo, com informação correta e no lugar onde o passageiro a esperava."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "consulta-semanal-agente-cancelaciones-ventana",
+      "text": {
+        "es": "La consulta semanal al agente: diagnóstico de cancelaciones por ventana en 10 minutos",
+        "en": "The weekly agent query: by-window cancellation diagnosis in 10 minutes",
+        "pt": "A consulta semanal ao agente: diagnóstico de cancelamentos por janela em 10 minutos"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La consulta semanal que produce el diagnóstico completo de cancelaciones del pasajero para la semana anterior: «Para los últimos 7 días, muéstrame la tasa de cancelación del pasajero descompuesta en tres ventanas: pre-asignación —el pasajero canceló antes de la asignación de un conductor—, post-asignación —el pasajero canceló después de la asignación y antes de que el conductor llegara al punto de recogida—, y no-show —el conductor llegó al punto de recogida y el pasajero no estuvo presente o no respondió dentro de 3 minutos—. Para cada ventana, muéstrame: total de cancelaciones, porcentaje respecto al total de solicitudes, las tres zonas con mayor volumen de cancelaciones en esa ventana, y las tres franjas horarias con mayor concentración. Compara con los 7 días anteriores e indica si alguna ventana subió más de 2 puntos porcentuales semana sobre semana.» Ese resultado produce el cuadro de cancelaciones de la semana sin interpretación adicional: la ventana con mayor porcentaje es la que concentra el problema, y la zona y franja señalan dónde actuar.",
+        "en": "The weekly query that produces the complete passenger cancellation diagnostic for the prior week: 'For the last 7 days, show me the passenger cancellation rate broken into three windows: pre-assignment — the passenger cancelled before a driver was assigned —, post-assignment — the passenger cancelled after assignment and before the driver arrived at the pickup point —, and no-show — the driver arrived at the pickup point and the passenger was absent or unresponsive within 3 minutes. For each window, show: total cancellations, percentage of total requests, the three zones with the highest cancellation volume in that window, and the three time slots with the highest concentration. Compare with the prior 7 days and flag any window that increased by more than 2 percentage points week over week.' That result produces the weekly cancellation picture without additional interpretation: the window with the highest percentage is the one concentrating the problem, and the zone and slot within it indicate where to act.",
+        "pt": "A consulta semanal que produz o diagnóstico completo de cancelamentos do passageiro para a semana anterior: «Para os últimos 7 dias, mostre a taxa de cancelamento do passageiro decomposta em três janelas: pré-atribuição —o passageiro cancelou antes da atribuição de um motorista—, pós-atribuição —o passageiro cancelou após a atribuição e antes de o motorista chegar ao ponto de embarque—, e no-show —o motorista chegou ao ponto de embarque e o passageiro não estava presente ou não respondeu dentro de 3 minutos. Para cada janela, mostre: total de cancelamentos, percentual em relação ao total de solicitações, as três zonas com maior volume de cancelamentos nessa janela e as três faixas horárias com maior concentração. Compare com os 7 dias anteriores e indique se alguma janela subiu mais de 2 pontos percentuais semana sobre semana.» Esse resultado produz o quadro de cancelamentos da semana sem interpretação adicional: a janela com maior percentual é a que concentra o problema, e a zona e faixa dentro dela indicam onde agir."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La consulta complementaria que añade la segmentación de no-shows por antigüedad del pasajero: «Para las cancelaciones de tipo no-show de los últimos 21 días, muéstrame el número de viajes previos del pasajero en el momento del no-show y agrupa el resultado en: primer viaje, 2 a 5 viajes anteriores, 6 a 15 viajes anteriores, y más de 15 viajes anteriores. Para las zonas con mayor concentración de no-shows, muéstrame si la mayoría son de pasajeros nuevos o establecidos.» Esa segmentación define si la intervención es de onboarding del pasajero —zonas donde el pin no corresponde a la dirección real— o de gestión de demanda no consolidada en franjas horarias específicas. El operador que ejecuta ambas consultas cada lunes tiene el diagnóstico completo en 10 minutos, descompuesto en los tres tipos con respuestas operativas distintas. Esas respuestas no son las mismas: la pre-asignación pide posicionamiento preventivo, la post-asignación pide revisión de los tiempos estimados en zonas con tráfico variable, y el no-show pide mejorar la confirmación de llegada para el segmento correcto.",
+        "en": "The complementary query that adds no-show segmentation by passenger seniority: 'For no-show cancellations in the last 21 days, show me the number of prior trips the passenger had at the time of the no-show and group the result into: first trip, 2 to 5 prior trips, 6 to 15 prior trips, and more than 15 prior trips. For the zones with the highest no-show concentration, show whether the majority are from new or established passengers.' That segmentation determines whether the intervention is passenger onboarding — zones where the pin doesn't correspond to the actual address — or unconsolidated demand management in specific time slots. The operator who runs both queries every Monday has the complete diagnosis in 10 minutes, decomposed into the three types with distinct operational responses. Those responses are not the same: pre-assignment requires preventive positioning, post-assignment requires reviewing estimated times in zones with variable traffic, and no-show requires improving arrival confirmation for the right segment.",
+        "pt": "A consulta complementar que adiciona a segmentação de no-shows por antiguidade do passageiro: «Para os cancelamentos do tipo no-show dos últimos 21 dias, mostre o número de corridas anteriores do passageiro no momento do no-show e agrupe o resultado em: primeira corrida, 2 a 5 corridas anteriores, 6 a 15 corridas anteriores e mais de 15 corridas anteriores. Para as zonas com maior concentração de no-shows, mostre se a maioria é de passageiros novos ou estabelecidos.» Essa segmentação define se a intervenção é de onboarding do passageiro —zonas onde o pin não corresponde ao endereço real— ou de gestão de demanda não consolidada em faixas horárias específicas. O operador que executa as duas consultas toda segunda-feira tem o diagnóstico completo em 10 minutos, decomposto nos três tipos com respostas operacionais distintas. Essas respostas não são as mesmas: pré-atribuição pede posicionamento preventivo, pós-atribuição pede revisão dos tempos estimados em zonas com tráfego variável, e no-show pede melhorar a confirmação de chegada para o segmento correto."
+      }
+    },
+    {
+      "type": "quote",
+      "text": {
+        "es": "Tenía una tasa de cancelación del pasajero del 21% que llevaba cinco meses así. Probé de todo: bajé tiempos de espera, mandé mensajes de confirmación, amplié el radio de asignación. Nada funcionó de forma sostenida. Cuando empecé a separar la tasa por ventana, vi que el 68% era cancelación pre-asignación entre las 6:45 y las 8:30 de la mañana en la zona del mercado de abastos. El 81% de esas cancelaciones ocurría en los primeros 60 segundos —el pasajero no veía conductor disponible y salía de la app de inmediato. No era precio ni tiempo estimado: era que a esa hora no había nadie en esa zona. Puse tres conductores con instrucción de posicionarse ahí desde las 6:30 AM tres días a la semana y la tasa de cancelación en esa zona cayó del 33% al 9% en esas franjas. Mi tasa global bajó del 21% al 14% en seis semanas sin cambiar nada más.",
+        "en": "My passenger cancellation rate had been at 21% for five months. I tried everything: reduced wait times, sent confirmation messages, expanded the assignment radius. Nothing worked sustainably. When I started separating the rate by window, I saw that 68% was pre-assignment cancellation between 6:45 and 8:30 AM in the wholesale market zone. 81% of those cancellations happened in the first 60 seconds — the passenger saw no available driver and left the app immediately. It wasn't pricing or estimated time: at that hour there was simply no one in that zone. I put three drivers with instructions to position there from 6:30 AM three days a week and the cancellation rate in that zone dropped from 33% to 9% in those slots. My overall rate went from 21% to 14% in six weeks without changing anything else.",
+        "pt": "Minha taxa de cancelamento do passageiro estava em 21% há cinco meses. Tentei de tudo: reduzi tempos de espera, enviei mensagens de confirmação, ampliei o raio de atribuição. Nada funcionou de forma sustentada. Quando comecei a separar a taxa por janela, vi que 68% era cancelamento pré-atribuição entre 6h45 e 8h30 na zona do mercado atacadista. 81% desses cancelamentos ocorriam nos primeiros 60 segundos —o passageiro não via motorista disponível e saía do app imediatamente. Não era preço nem tempo estimado: era que naquele horário simplesmente não havia ninguém naquela zona. Coloquei três motoristas com instrução de se posicionarem lá a partir das 6h30 três dias por semana e a taxa de cancelamento nessa zona caiu de 33% para 9% nessas faixas. Minha taxa global caiu de 21% para 14% em seis semanas sem mudar mais nada."
+      },
+      "attribution": {
+        "es": "Operador con 30 meses de operación en una ciudad de 210,000 habitantes en Guanajuato, México",
+        "en": "Operator with 30 months of operation in a city of 210,000 in Guanajuato, Mexico",
+        "pt": "Operador com 30 meses de operação em uma cidade de 210.000 habitantes em Guanajuato, México"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La tasa global de cancelación del pasajero registra todos los momentos en que la plataforma no completó la promesa que hizo al pasajero cuando abrió la app y solicitó un viaje. Esa promesa tiene tres etapas: asignar un conductor disponible, hacer que ese conductor llegue en el tiempo estimado, y completar la conexión física en el punto de recogida. Cada etapa puede fallar por razones distintas, y el momento en que el pasajero cancela identifica cuál está fallando. El operador que trata la cancelación como un número único pierde la información que contiene: en cuál punto del proceso de servicio el pasajero está tomando la decisión de irse. Sin ese desglose, las intervenciones son necesariamente genéricas: ajustar el precio, ampliar el radio, enviar recordatorios. Con el desglose, la intervención es específica al tipo de fallo.",
+        "en": "The global passenger cancellation rate records every moment the platform failed to deliver on the promise it made when the passenger opened the app and requested a trip. That promise has three stages: assigning an available driver, having that driver arrive within the estimated time, and completing the physical connection at the pickup point. Each stage can fail for different reasons, and the moment the passenger cancels identifies which one is failing. The operator who treats cancellation as a single number loses the information it contains: at which point in the service process the passenger is making the decision to leave. Without the breakdown, interventions are necessarily generic: adjust the price, expand the radius, send reminders. With the breakdown, the intervention is specific to the type of failure.",
+        "pt": "A taxa global de cancelamento do passageiro registra todos os momentos em que a plataforma não cumpriu a promessa que fez ao passageiro quando ele abriu o app e solicitou uma corrida. Essa promessa tem três etapas: atribuir um motorista disponível, fazer com que esse motorista chegue no tempo estimado, e completar a conexão física no ponto de embarque. Cada etapa pode falhar por razões distintas, e o momento em que o passageiro cancela identifica qual está falhando. O operador que trata o cancelamento como um único número perde a informação que ele contém: em qual ponto do processo de serviço o passageiro está tomando a decisão de ir embora. Sem o detalhamento, as intervenções são necessariamente genéricas: ajustar o preço, ampliar o raio, enviar lembretes. Com o detalhamento, a intervenção é específica ao tipo de falha."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Los datos para el diagnóstico por ventana están disponibles en cualquier operación que registre los timestamps de solicitud, asignación, llegada y cancelación. El desglose no requiere nueva instrumentación: requiere una consulta que organice las cancelaciones existentes por ventana en lugar de sumarlas. El operador que agrega ese diagnóstico a su revisión semanal convierte un 21% global en tres números con respuestas distintas: 14% pre-asignación que responde a posicionamiento preventivo, 5% post-asignación que responde a precisión de estimación en zonas específicas, y 2% no-show que responde al segmento de pasajero nuevo en zonas de pin impreciso. Ninguna de esas tres respuestas es bajar el precio, ampliar el radio o aumentar los incentivos. Son ajustes precisos a partes específicas del proceso que la tasa global nunca habría señalado.",
+        "en": "The data for the by-window diagnosis is available in any operation that records request, assignment, arrival, and cancellation timestamps. The breakdown doesn't require new instrumentation: it requires a query that organizes existing cancellations by window instead of summing them. The operator who adds this diagnosis to their weekly review turns a 21% global rate into three numbers with distinct responses: 14% pre-assignment responding to preventive positioning, 5% post-assignment responding to estimation accuracy in specific zones, and 2% no-show responding to the new-passenger segment in zones with inaccurate pins. None of those three responses is lowering the price, expanding the radius, or increasing incentives. They are precise adjustments to specific parts of the process that the global rate would never have identified.",
+        "pt": "Os dados para o diagnóstico por janela estão disponíveis em qualquer operação que registre os timestamps de solicitação, atribuição, chegada e cancelamento. O detalhamento não exige nova instrumentação: exige uma consulta que organize os cancelamentos existentes por janela em vez de somá-los. O operador que adiciona esse diagnóstico à sua revisão semanal transforma uma taxa global de 21% em três números com respostas distintas: 14% pré-atribuição que responde a posicionamento preventivo, 5% pós-atribuição que responde a precisão de estimativa em zonas específicas, e 2% no-show que responde ao segmento de passageiro novo em zonas com pin impreciso. Nenhuma dessas três respostas é baixar o preço, ampliar o raio ou aumentar os incentivos. São ajustes precisos a partes específicas do processo que a taxa global nunca teria indicado."
+      }
+    }
+  ],
+  "cta": {
+    "heading": {
+      "es": "¿Listo para lanzar tu propia app de movilidad?",
+      "en": "Ready to launch your own mobility app?",
+      "pt": "Pronto para lançar seu próprio app de mobilidade?"
+    },
+    "body": {
+      "es": "Configura tu marca, tus tarifas y tus servicios en semanas, no en meses. Cabgo te entrega la plataforma; tú te quedas con la operación, los clientes y los ingresos.",
+      "en": "Set up your brand, pricing and services in weeks, not months. Cabgo ships the platform — you keep the operation, the customers and the revenue.",
+      "pt": "Configure sua marca, suas tarifas e seus serviços em semanas, não em meses. A Cabgo entrega a plataforma; você fica com a operação, os clientes e a receita."
+    },
+    "buttonLabel": {
+      "es": "Comenzar con Cabgo",
+      "en": "Get started with Cabgo",
+      "pt": "Começar com a Cabgo"
+    },
+    "buttonHref": "/empezar"
+  },
+  "seo": {
+    "metaTitle": {
+      "es": "Cancelaciones del pasajero en ride-hailing | Cabgo",
+      "en": "Passenger cancellations in ride-hailing | Cabgo",
+      "pt": "Cancelamentos do passageiro no ride-hailing | Cabgo"
+    },
+    "metaDescription": {
+      "es": "La cancelación del pasajero ocurre en tres momentos con causas distintas. Cómo identificar cuál ventana concentra el problema y qué hacer con cada una.",
+      "en": "Passenger cancellations occur in three distinct windows — before assignment, after assignment, and no-show — each with a different cause and a different fix.",
+      "pt": "O cancelamento do passageiro ocorre em três momentos com causas distintas. Como identificar qual janela concentra o problema e o que fazer com cada uma."
+    }
+  }
+}
