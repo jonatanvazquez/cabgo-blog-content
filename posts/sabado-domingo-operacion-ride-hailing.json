@@ -1,0 +1,323 @@
+{
+  "slug": "sabado-domingo-operacion-ride-hailing",
+  "category": "strategy",
+  "title": {
+    "es": "El fin de semana en ride-hailing: por qué el sábado a las 11 PM y el domingo a las 8 AM son dos operaciones distintas",
+    "en": "Weekends in ride-hailing: why Saturday at 11 PM and Sunday at 8 AM are two different operations",
+    "pt": "O fim de semana no ride-hailing: por que o sábado às 23h e o domingo às 8h são duas operações distintas"
+  },
+  "excerpt": {
+    "es": "El fin de semana concentra los dos picos más difíciles de cubrir con la misma flota y el mismo pricing. El sábado de noche y el domingo de mañana tienen perfiles opuestos y requieren configuraciones distintas.",
+    "en": "The weekend concentrates the two hardest peaks to cover with the same fleet and pricing. Saturday night and Sunday morning have opposite profiles and require different configurations.",
+    "pt": "O fim de semana concentra os dois picos mais difíceis de cobrir com a mesma frota e o mesmo pricing. O sábado à noite e o domingo de manhã têm perfis opostos e requerem configurações distintas."
+  },
+  "heroImage": "https://raw.githubusercontent.com/jonatanvazquez/cabgo-blog-content/main/images/sabado-domingo-operacion-ride-hailing.jpg",
+  "heroImageAlt": {
+    "es": "Ilustración isométrica dividida verticalmente. Panel izquierdo etiquetado 'SAB 11 PM': ciudad nocturna con corredor de restaurantes iluminados, tres vehículos convergiendo hacia la zona de ocio con anillos de demanda pulsantes, tarjeta violeta de precio 1.5x flotando. Panel derecho etiquetado 'DOM 8 AM': terminal de aeropuerto en amanecer claro con dos vehículos alineados en la entrada, tarjeta verde azulado con tarifa plana y símbolo de check. Primer plano: gráfico de barras comparando oferta de conductores en ámbar vs solicitudes de demanda en verde azulado para cada ventana.",
+    "en": "Vertically split isometric illustration. Left panel labeled 'SAT 11 PM': nighttime city with a lit restaurant and bar corridor, three vehicles converging toward the entertainment zone with pulsing demand rings, a violet 1.5x pricing card floating above. Right panel labeled 'SUN 8 AM': airport terminal in early-morning light with two vehicles lined up at the entrance, a teal flat-rate card with a checkmark. Foreground: bar chart comparing driver supply in amber versus demand requests in teal for each window.",
+    "pt": "Ilustração isométrica dividida verticalmente. Painel esquerdo rotulado 'SAB 23h': cidade noturna com corredor de restaurantes iluminados, três veículos convergindo para a zona de lazer com anéis de demanda pulsantes, cartão violeta de preço 1,5x flutuando. Painel direito rotulado 'DOM 8h': terminal de aeroporto no amanhecer claro com dois veículos alinhados na entrada, cartão verde-azulado com tarifa fixa e símbolo de check. Primeiro plano: gráfico de barras comparando oferta de motoristas em âmbar vs solicitações de demanda em verde-azulado para cada janela."
+  },
+  "heroImagePrompt": "Split isometric composition with two distinct vertical panels. Left panel labeled 'SAT 11 PM': a dark nighttime city corridor with glowing restaurant and bar facade icons, three vehicle icons with headlights converging from different directions toward an entertainment district zone marked by a starburst of three concentric teal demand rings, a violet pricing card showing '1.5x' with an upward arrow floating above. Right panel labeled 'SUN 8 AM': a bright early-morning airport terminal icon with a control tower silhouette and runway strip, two vehicle icons lined up near the terminal entrance under soft warm morning light, a teal flat-rate card showing '120 MXN' with a checkmark symbol and a small clock icon reading 6:30 AM. In the foreground, two compact side-by-side bar chart pairs — left pair shows a tall teal demand bar and a shorter amber supply bar under a 'SAT 11 PM' label, right pair shows a moderate teal demand bar and a very short amber supply bar under a 'SUN 8 AM' label. Deep violet floor grid, soft indigo radial background glow, clean geometric shapes, subtle shadows. Negative space on the lower right.",
+  "publishedAt": "2026-07-20",
+  "readingMinutes": 9,
+  "keywords": {
+    "es": [
+      "operación fin de semana ride-hailing regional",
+      "sábado noche domingo mañana flota taxi app",
+      "pricing fin de semana plataforma movilidad LATAM",
+      "calibración cobertura fin de semana ride-hailing",
+      "conductor aeropuerto domingo mañana tarifa plana",
+      "demanda sábado noche zona restaurantes plataforma",
+      "diagnóstico rendimiento fin de semana taxi app regional"
+    ],
+    "en": [
+      "weekend operations ride-hailing regional",
+      "Saturday night Sunday morning fleet taxi app",
+      "weekend pricing mobility platform LATAM",
+      "weekend coverage calibration ride-hailing",
+      "airport Sunday morning flat rate driver",
+      "Saturday night restaurant zone demand platform",
+      "weekend performance diagnosis taxi app regional"
+    ],
+    "pt": [
+      "operação fim de semana ride-hailing regional",
+      "sábado noite domingo manhã frota app de táxi",
+      "pricing fim de semana plataforma mobilidade LATAM",
+      "calibração cobertura fim de semana ride-hailing",
+      "motorista aeroporto domingo manhã tarifa fixa",
+      "demanda sábado noite zona restaurantes plataforma",
+      "diagnóstico desempenho fim de semana app táxi regional"
+    ]
+  },
+  "author": {
+    "name": "Equipo Cabgo",
+    "role": {
+      "es": "Plataforma de movilidad",
+      "en": "Mobility platform",
+      "pt": "Plataforma de mobilidade"
+    }
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La demanda del fin de semana en una operación de ride-hailing regional no es la misma demanda del lunes multiplicada por un factor de volumen. El perfil de los viajes es distinto —distancias más largas, puntos de origen y destino más concentrados en zonas específicas, pasajeros con dinámicas de urgencia cualitativamente diferentes—, y la estructura de la oferta de conductores también lo es. En ciudades de 150,000 a 500,000 habitantes en México y Centroamérica, el fin de semana concentra dos bloques operativos que no se pueden cubrir con la misma lógica: el sábado a la noche —un bloque de demanda de ocio comprimida en 3 a 4 horas que llega en ráfagas cortas desde zonas de restaurantes y bares— y el domingo por la mañana —un bloque de demanda de traslado anticipada, con baja tasa de cancelación, concentrada en aeropuertos, terminales y zonas hoteleras, que comienza antes de que la mayoría de los conductores de la flota estén conectados—. Gestionar ambos bloques con el mismo pricing, los mismos incentivos y la misma configuración de cobertura que la operación diurna de entre semana produce resultados sistemáticamente peores en los dos bloques.",
+        "en": "Weekend demand in a regional ride-hailing operation is not Monday demand multiplied by a volume factor. The trip profile is different — longer average distances, origin and destination points more concentrated in specific zones, passengers with qualitatively different urgency dynamics — and driver supply structure is as well. In cities of 150,000 to 500,000 residents in Mexico and Central America, the weekend concentrates two operational blocks that cannot be covered with the same logic: Saturday night — a block of leisure demand compressed into 3 to 4 hours arriving in short bursts from restaurant and bar zones — and Sunday morning — a block of early traveler demand with low cancellation rates, concentrated at airports, bus terminals, and hotel zones, beginning before most fleet drivers are connected. Managing both blocks with the same pricing, incentives, and coverage configuration as the midweek daytime operation produces systematically worse results in both.",
+        "pt": "A demanda do fim de semana em uma operação de ride-hailing regional não é a demanda de segunda-feira multiplicada por um fator de volume. O perfil das corridas é diferente — distâncias mais longas, pontos de origem e destino mais concentrados em zonas específicas, passageiros com dinâmicas de urgência qualitativamente distintas —, e a estrutura da oferta de motoristas também. Em cidades de 150.000 a 500.000 habitantes no México e na América Central, o fim de semana concentra dois blocos operacionais que não podem ser cobertos com a mesma lógica: o sábado à noite — um bloco de demanda de lazer comprimido em 3 a 4 horas que chega em rajadas curtas a partir de zonas de restaurantes e bares — e o domingo de manhã — um bloco de demanda de deslocamento antecipada, com baixa taxa de cancelamento, concentrada em aeroportos, rodoviárias e zonas hoteleiras, que começa antes de a maioria dos motoristas da frota estar conectada. Gerenciar ambos os blocos com o mesmo pricing, os mesmos incentivos e a mesma configuração de cobertura da operação diurna da semana produz resultados sistematicamente piores nos dois blocos."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Este artículo está dirigido al operador con 20 a 80 conductores activos cuya tasa de completación del fin de semana está entre 8 y 15 puntos porcentuales por debajo de la de los martes y miércoles, sin poder aislar si el problema está en el sábado de noche, en el domingo de mañana, o en ambos. Cubre por qué el perfil de demanda del fin de semana es estructuralmente distinto al de entre semana; por qué el sábado a las 11 PM y el domingo a las 8 AM tienen lógicas opuestas que requieren respuestas distintas; cómo se estructura la oferta de conductores de manera diferente en cada bloque; qué estructura de pricing funciona en la noche del sábado y por qué la tarifa plana supera al recargo porcentual en el domingo de mañana en zonas de viajero; qué zonas concentran la demanda en cada ventana; y cómo aislar el rendimiento del fin de semana en la revisión del lunes para que el promedio semanal no enmascare los problemas en los bloques específicos. La tesis es práctica: la mayoría de los problemas de operación del fin de semana no requieren más conductores —requieren que los conductores disponibles estén en las zonas correctas en los momentos correctos, con una estructura de compensación específica para cada bloque.",
+        "en": "This article is for operators with 20 to 80 active drivers whose weekend completion rate sits 8 to 15 percentage points below their Tuesday and Wednesday rate, without being able to isolate whether the problem is in Saturday night, Sunday morning, or both. It covers why the weekend demand profile is structurally different from the midweek profile and why that distinction matters operationally; why Saturday at 11 PM and Sunday at 8 AM have opposite operational logic requiring different responses; how driver supply structures differently in each block; what pricing works for Saturday night and why flat rates outperform percentage surcharges for Sunday morning in traveler zones; which zones concentrate demand in each window; and how to isolate weekend performance in the Monday review so the weekly average doesn't mask problems in specific blocks. The thesis is practical: most weekend operation problems don't require more drivers — they require available drivers to be in the right zones at the right moments, with a compensation structure specific to each block.",
+        "pt": "Este artigo é voltado ao operador com 20 a 80 motoristas ativos cuja taxa de conclusão do fim de semana está entre 8 e 15 pontos percentuais abaixo da de terças e quartas-feiras, sem conseguir isolar se o problema está no sábado à noite, no domingo de manhã ou em ambos. Ele cobre por que o perfil de demanda do fim de semana é estruturalmente diferente do da semana e por que essa distinção importa operacionalmente; por que o sábado às 23h e o domingo às 8h têm lógicas opostas que exigem respostas distintas; como a oferta de motoristas se estrutura de forma diferente em cada bloco; que estrutura de pricing funciona na noite de sábado e por que a tarifa fixa supera o adicional percentual no domingo de manhã em zonas de viajante; quais zonas concentram a demanda em cada janela; e como isolar o desempenho do fim de semana na revisão de segunda-feira para que a média semanal não mascare os problemas nos blocos específicos. A tese é prática: a maioria dos problemas de operação do fim de semana não requer mais motoristas — requer que os motoristas disponíveis estejam nas zonas certas nos momentos certos, com uma estrutura de compensação específica para cada bloco."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "fin-semana-perfil-demanda-distinto",
+      "text": {
+        "es": "Por qué el fin de semana no funciona como el martes con más demanda",
+        "en": "Why the weekend doesn't work like a Tuesday with more demand",
+        "pt": "Por que o fim de semana não funciona como uma terça-feira com mais demanda"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El viaje promedio del fin de semana en operaciones regionales de México y Centroamérica es un 30 al 55% más largo que el viaje promedio de entre semana en el mismo mercado. La explicación está en la mezcla de origen-destino: los viajes de lunes a viernes concentran traslados trabajo-casa, centros comerciales y trámites cotidianos —distancias cortas dentro de zonas conocidas—. Los viajes del fin de semana incluyen traslados hacia zonas de ocio que en muchos mercados están más alejadas del tejido residencial, viajes desde y hacia el aeropuerto y la terminal de autobuses, y traslados sociales donde el pasajero está dispuesto a viajar 15 a 20 minutos antes que caminar 5 cuadras. Eso cambia la geometría de la operación: un viaje más largo produce mayor ingreso bruto por viaje para el conductor, pero también lo mantiene fuera de circulación más tiempo, lo que reduce el número de viajes disponibles por hora para el resto de la demanda. En una flota de 30 conductores con viaje promedio diurno de 12 minutos, subir el promedio a 19 minutos el sábado de noche reduce el número de viajes completables por hora en un 35 al 45% sin que un solo conductor salga de la flota.",
+        "en": "The average weekend trip in regional operations in Mexico and Central America is 30 to 55% longer than the average weekday trip in the same market. The explanation is the origin-destination mix: weekday trips concentrate workplace-to-home commutes, shopping centers, and routine errands — short distances within familiar zones. Weekend trips include transfers to leisure zones that in many markets are farther from residential fabric, airport and bus terminal runs, and social trips where the passenger is willing to ride 15 to 20 minutes rather than walk 5 blocks. That changes the operational geometry: a longer trip generates higher gross income per trip for the driver, but it also keeps the driver out of circulation longer, reducing the number of serviceable trips per hour for remaining demand. In a fleet of 30 drivers with a 12-minute average weekday trip, raising the average to 19 minutes on Saturday night reduces the number of completable trips per hour by 35 to 45% without a single driver leaving the fleet.",
+        "pt": "A corrida média do fim de semana em operações regionais no México e na América Central é 30 a 55% mais longa do que a corrida média da semana no mesmo mercado. A explicação está na mistura de origem-destino: as corridas de segunda a sexta concentram deslocamentos trabalho-casa, shoppings e tarefas cotidianas — distâncias curtas dentro de zonas conhecidas. As corridas do fim de semana incluem deslocamentos para zonas de lazer que em muitos mercados estão mais distantes do tecido residencial, corridas de e para o aeroporto e a rodoviária, e deslocamentos sociais onde o passageiro está disposto a andar 15 a 20 minutos em vez de caminhar 5 quadras. Isso muda a geometria da operação: uma corrida mais longa gera maior receita bruta por corrida para o motorista, mas também o mantém fora de circulação por mais tempo, reduzindo o número de corridas disponíveis por hora para o restante da demanda. Em uma frota de 30 motoristas com corrida diurna média de 12 minutos, elevar a média para 19 minutos no sábado à noite reduz o número de corridas concluíveis por hora em 35 a 45% sem que um único motorista saia da frota."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El segundo factor estructural es la concentración horaria. La demanda de un martes típico en un mercado de 280,000 habitantes llega en dos picos sostenidos de 60 a 90 minutos —mañana y tarde— con un flujo residual continuo entre ellos. La demanda del sábado tiene un pico de 60 a 90 minutos alrededor de las 12:30 y la 1:00 AM que concentra el 35 al 45% del volumen nocturno total de ese día, seguido de un residual bajo hasta las 3:00 AM. El domingo por la mañana tiene un bloque de demanda que comienza a las 5:30 o 6:00 AM —viajes al aeropuerto y la terminal— y se sostiene hasta las 10:30 o 11:00 AM antes de caer abruptamente. Entre esas dos ventanas del fin de semana, el volumen cae a 5 a 15 solicitudes por hora —un residual que no justifica mantener incentivos específicos activos ni conductores posicionados en zonas de alta demanda—. El operador que distribuye la flota del fin de semana de forma uniforme a lo largo del día pierde los dos picos y solo cubre bien el residual, que es el bloque de menor oportunidad económica.",
+        "en": "The second structural factor is temporal concentration. A typical Tuesday in a market of 280,000 residents delivers demand in two sustained peaks of 60 to 90 minutes — morning and afternoon — with continuous residual flow between them. Saturday demand has a 60-to-90-minute peak around 12:30 to 1:00 AM that concentrates 35 to 45% of that day's total night volume, followed by thin residual through 3:00 AM. Sunday morning has a demand block that starts at 5:30 or 6:00 AM — airport and terminal trips — and holds through 10:30 or 11:00 AM before dropping sharply. Between those two weekend peaks, volume falls to 5 to 15 requests per hour — residual that doesn't justify keeping specific incentives active or drivers positioned in high-demand zones. The operator who distributes the weekend fleet evenly across the day misses both peaks and only covers the residual, which is the lowest economic opportunity window.",
+        "pt": "O segundo fator estrutural é a concentração horária. Uma terça-feira típica em um mercado de 280.000 habitantes entrega demanda em dois picos sustentados de 60 a 90 minutos — manhã e tarde — com fluxo residual contínuo entre eles. A demanda de sábado tem um pico de 60 a 90 minutos por volta das 0h30 à 1h que concentra 35 a 45% do volume noturno total daquele dia, seguido de um residual baixo até as 3h. O domingo de manhã tem um bloco de demanda que começa às 5h30 ou 6h — corridas ao aeroporto e à rodoviária — e se sustenta até as 10h30 ou 11h antes de cair abruptamente. Entre essas duas janelas do fim de semana, o volume cai para 5 a 15 solicitações por hora — um residual que não justifica manter incentivos específicos ativos nem motoristas posicionados em zonas de alta demanda. O operador que distribui a frota do fim de semana de forma uniforme ao longo do dia perde os dois picos e cobre bem apenas o residual, que é a janela de menor oportunidade econômica."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "sabado-noche-domingo-manana-logicas-opuestas",
+      "text": {
+        "es": "Sábado a las 11 PM vs domingo a las 8 AM: dos picos con lógicas opuestas",
+        "en": "Saturday at 11 PM vs Sunday at 8 AM: two peaks with opposite logic",
+        "pt": "Sábado às 23h vs domingo às 8h: dois picos com lógicas opostas"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El pico del sábado a la noche comparte la lógica del bloque nocturno de entre semana —demanda de ocio, ráfagas cortas, pasajero con tolerancia baja a la espera en los primeros 3 minutos—, pero a un volumen significativamente mayor. En un mercado de 280,000 habitantes, el sábado entre las 12:30 y la 1:15 AM puede concentrar 55 a 90 solicitudes en 45 minutos —comparable al pico de la mañana del lunes, pero en la mitad del tiempo—. Esa compresión horaria requiere que la oferta de conductores esté posicionada antes del pico, no que reaccione a él. Un conductor que recibe una solicitud desde el corredor de restaurantes a la 1:00 AM y está a 3.8 km tarda 10 a 14 minutos en llegar —el pasajero ya canceló en el minuto 3. El sábado de noche funciona bien solo si hay 8 a 12 conductores posicionados en las 2 a 3 zonas de mayor concentración de demanda antes de las 11:45 PM, antes de que las primeras solicitudes del pico lleguen.",
+        "en": "The Saturday night peak shares the logic of the weekday night block — leisure demand, short bursts, passengers with low wait tolerance in the first 3 minutes — but at significantly higher volume. In a market of 280,000 residents, the Saturday window between 12:30 and 1:15 AM can generate 55 to 90 requests in 45 minutes — comparable to Monday's morning peak, but in half the time. That compression requires driver supply to be positioned before the peak, not to react to it. A driver who receives a request from the restaurant corridor at 1:00 AM and is 3.8 km away takes 10 to 14 minutes to arrive — the passenger cancelled at minute 3. Saturday night works well only when 8 to 12 drivers are positioned in the 2 to 3 zones with the highest night demand concentration before 11:45 PM, before the first requests in the peak window arrive.",
+        "pt": "O pico do sábado à noite compartilha a lógica do bloco noturno da semana — demanda de lazer, rajadas curtas, passageiro com baixa tolerância à espera nos primeiros 3 minutos —, mas em volume significativamente maior. Em um mercado de 280.000 habitantes, a janela do sábado entre 0h30 e 1h15 pode gerar 55 a 90 solicitações em 45 minutos — comparável ao pico da manhã de segunda, mas na metade do tempo. Essa compressão horária exige que a oferta de motoristas esteja posicionada antes do pico, não que reaja a ele. Um motorista que recebe uma solicitação do corredor de restaurantes à 1h e está a 3,8 km demora 10 a 14 minutos para chegar — o passageiro já cancelou no minuto 3. O sábado à noite funciona bem apenas quando 8 a 12 motoristas estão posicionados nas 2 a 3 zonas com maior concentração de demanda antes das 23h45, antes de as primeiras solicitações do pico chegarem."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El pico del domingo por la mañana tiene la lógica opuesta. El pasajero que abre la app a las 6:30 AM para ir al aeropuerto sabe que su vuelo sale a las 9:00 AM y que necesita estar 45 minutos antes. Su urgencia es alta, pero no es la urgencia del pasajero que no puede esperar más de 3 minutos: es la urgencia de alguien que tiene una consecuencia real y evitable si la plataforma falla. Ese pasajero tolera hasta 8 a 10 minutos de espera si la plataforma le muestra un conductor en camino con información de seguimiento creíble. Lo que no tolera es la cancelación del conductor después de aceptar: si eso ocurre, busca un taxi en la calle de inmediato y no usa la plataforma para ese tipo de viaje en el futuro. La diferencia funcional entre los dos picos es de comportamiento: el sábado de noche requiere tiempo de acercamiento corto para capturar la solicitud antes de que el pasajero cancele; el domingo de mañana requiere confiabilidad en la asignación, aunque el tiempo de acercamiento sea algunos minutos mayor.",
+        "en": "The Sunday morning peak has the opposite logic. The passenger who opens the app at 6:30 AM to reach the airport knows their flight is at 9:00 AM and they need to be there 45 minutes early. Their urgency is high — but it is not the urgency of someone who can't wait more than 3 minutes: it is the urgency of someone who faces a concrete and avoidable consequence if the platform fails. That passenger tolerates up to 8 to 10 minutes of wait if the platform shows a driver en route with credible tracking information. What they don't tolerate is driver cancellation after acceptance: if that happens, they find a street taxi immediately and don't use the platform for that type of trip again. The functional difference between the two peaks is behavioral: Saturday night requires short approach time to capture the request before the passenger cancels; Sunday morning requires assignment reliability, even if approach time is a few minutes longer.",
+        "pt": "O pico do domingo de manhã tem a lógica oposta. O passageiro que abre o app às 6h30 para ir ao aeroporto sabe que seu voo é às 9h e que precisa estar lá 45 minutos antes. Sua urgência é alta — mas não é a urgência de alguém que não pode esperar mais de 3 minutos: é a urgência de alguém que enfrenta uma consequência real e evitável se a plataforma falhar. Esse passageiro tolera até 8 a 10 minutos de espera se a plataforma mostrar um motorista a caminho com informação de rastreamento confiável. O que ele não tolera é o cancelamento do motorista após a aceitação: se isso ocorrer, ele encontra um táxi na rua imediatamente e não usa a plataforma para esse tipo de corrida no futuro. A diferença funcional entre os dois picos é comportamental: o sábado à noite requer tempo de aproximação curto para capturar a solicitação antes de o passageiro cancelar; o domingo de manhã requer confiabilidade na atribuição, ainda que o tempo de aproximação seja alguns minutos maior."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "oferta-conductores-fin-semana-estructura",
+      "text": {
+        "es": "Por qué la oferta de conductores se estructura diferente el fin de semana",
+        "en": "Why driver supply structures differently on weekends",
+        "pt": "Por que a oferta de motoristas se estrutura de forma diferente no fim de semana"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La composición de la flota activa cambia el fin de semana por dos mecanismos. El primero es de presencia: los conductores con compromisos familiares o religiosos fijos el domingo por la mañana —que en muchos mercados representan el 45 al 60% de la flota— se desconectan antes de las 8:00 AM o no se conectan hasta las 10:00 o 11:00 AM. En una flota de 40 conductores activos, eso deja entre 10 y 18 conectados a las 6:30 AM del domingo. Si la demanda de ese bloque genera 25 a 40 solicitudes por hora en las zonas de viajero, la cobertura no alcanza para el volumen disponible —no porque no haya demanda, sino porque la oferta no está en la franja horaria donde la demanda está—. El segundo mecanismo es de preferencia: hay conductores que prefieren activamente el sábado de noche por la combinación de viajes más largos —y mayor ingreso bruto por viaje— con el potencial de un recargo nocturno. Esos conductores raramente trabajan el domingo de mañana porque los viajes más cortos con base de tarifa diurna producen más corridas por hora con menor desgaste.",
+        "en": "Active fleet composition shifts on weekends through two mechanisms. The first is presence: drivers with fixed family or religious commitments on Sunday morning — representing 45 to 60% of the fleet in many markets — disconnect before 8:00 AM or don't connect until 10:00 or 11:00 AM. In a fleet of 40 active drivers, that leaves between 10 and 18 connected at 6:30 AM on Sunday. If demand in that block generates 25 to 40 requests per hour in traveler zones, coverage is insufficient for available volume — not because there is no demand, but because supply is not present in the time slot where the demand is. The second mechanism is preference: some drivers actively prefer Saturday night for the combination of longer trips — and higher gross income per trip — with the potential of a night surcharge. Those drivers rarely work Sunday morning because shorter trips at the daytime base rate produce more trips per hour with less effort.",
+        "pt": "A composição da frota ativa muda no fim de semana por dois mecanismos. O primeiro é de presença: os motoristas com compromissos familiares ou religiosos fixos no domingo de manhã — que em muitos mercados representam 45 a 60% da frota — se desconectam antes das 8h ou não se conectam até as 10h ou 11h. Em uma frota de 40 motoristas ativos, isso deixa entre 10 e 18 conectados às 6h30 do domingo. Se a demanda desse bloco gera 25 a 40 solicitações por hora nas zonas de viajante, a cobertura não é suficiente para o volume disponível — não porque não há demanda, mas porque a oferta não está na faixa horária onde a demanda está. O segundo mecanismo é de preferência: há motoristas que preferem ativamente o sábado à noite pela combinação de corridas mais longas — e maior receita bruta por corrida — com o potencial de um adicional noturno. Esses motoristas raramente trabalham o domingo de manhã porque corridas mais curtas com tarifa base diurna produzem mais corridas por hora com menos desgaste."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La consecuencia operativa es que los dos bloques del fin de semana no comparten los mismos conductores. El conductor que cubre sistemáticamente el sábado de noche y el domingo de mañana en el mismo fin de semana representa entre el 10 y el 20% de la flota en operaciones de 30 a 80 conductores activos. Ese solapamiento bajo significa que la estrategia de incentivos no puede ser la misma para ambos bloques: los conductores que responden a un bono de permanencia nocturna de 100 a 120 MXN el sábado a medianoche no son los mismos que se conectarían a las 5:30 AM del domingo por un incentivo de zona de aeropuerto. El operador que configura un incentivo único de fin de semana —activo todo el sábado y el domingo— paga de más a los conductores que ya trabajan el sábado de noche voluntariamente y paga de menos para atraer a los conductores que podrían cubrir el domingo de mañana. Los dos bloques necesitan estructuras de incentivo independientes porque atraen perfiles de conductor distintos.",
+        "en": "The operational consequence is that the two weekend blocks don't share the same drivers. The driver who consistently covers Saturday night and Sunday morning in the same weekend represents 10 to 20% of the fleet in operations of 30 to 80 active drivers. That low overlap means the incentive strategy can't be the same for both blocks: drivers who respond to a 100 to 120 MXN stay-connected bonus on Saturday at midnight are not the same drivers who would connect at 5:30 AM on Sunday for an airport zone incentive. The operator who configures a single weekend incentive — active all day Saturday and Sunday — overpays drivers who would work Saturday night voluntarily and underpays to attract the drivers who could cover Sunday morning. The two blocks need independent incentive structures because they attract different driver profiles.",
+        "pt": "A consequência operacional é que os dois blocos do fim de semana não compartilham os mesmos motoristas. O motorista que cobre sistematicamente o sábado à noite e o domingo de manhã no mesmo fim de semana representa entre 10 e 20% da frota em operações de 30 a 80 motoristas ativos. Esse baixo solapamento significa que a estratégia de incentivos não pode ser a mesma para os dois blocos: os motoristas que respondem a um bônus de permanência noturna de 100 a 120 MXN no sábado à meia-noite não são os mesmos que se conectariam às 5h30 do domingo por um incentivo de zona de aeroporto. O operador que configura um único incentivo de fim de semana — ativo todo o sábado e o domingo — paga a mais pelos motoristas que já trabalhariam o sábado à noite voluntariamente e paga de menos para atrair os motoristas que poderiam cobrir o domingo de manhã. Os dois blocos precisam de estruturas de incentivo independentes porque atraem perfis de motorista distintos."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "pricing-fin-semana-recargo-tarifa-plana",
+      "text": {
+        "es": "Pricing de fin de semana: recargo porcentual vs tarifa plana en cada bloque",
+        "en": "Weekend pricing: percentage surcharge vs flat rate in each block",
+        "pt": "Pricing de fim de semana: adicional percentual vs tarifa fixa em cada bloco"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El pricing del sábado de noche funciona con la misma lógica que el bloque nocturno de entre semana: un recargo de 1.3x a 1.6x sobre la tarifa base en la ventana de las 11:30 PM a la 1:30 AM produce un aumento en el ingreso por viaje del conductor —que compensa el costo de incomodidad del trabajo nocturno del fin de semana— sin destruir la conversión, porque la elasticidad de precio del pasajero es estructuralmente menor en ese bloque. La diferencia respecto a la noche de entre semana es el volumen: con más solicitudes por intervalo de 30 minutos, el recargo debe activarse antes —a las 11:00 PM o 11:30 PM— en lugar de esperar al pico de la medianoche, porque la demanda alta ya comienza 30 a 45 minutos antes. Activar el recargo antes del pico produce la señal económica que mantiene conectados a los conductores que podrían desconectarse antes de la 1:00 AM, cuando hay todavía demanda residual.",
+        "en": "Saturday night pricing works with the same logic as the weekday night block: a surcharge of 1.3x to 1.6x over base rate in the 11:30 PM to 1:30 AM window raises the driver's per-trip income — compensating for the discomfort cost of weekend night work — without destroying conversion, because passenger price elasticity is structurally lower in that block. The difference from the weekday night is volume: with more requests per 30-minute interval, the surcharge should activate earlier — at 11:00 PM or 11:30 PM — rather than waiting for the midnight peak, because demand is already high 30 to 45 minutes before. Activating the surcharge before the peak produces the economic signal that keeps drivers connected who might otherwise disconnect before 1:00 AM, when residual demand is still present.",
+        "pt": "O pricing do sábado à noite funciona com a mesma lógica do bloco noturno da semana: um adicional de 1,3x a 1,6x sobre a tarifa base na janela das 23h30 à 1h30 eleva a receita por corrida do motorista — compensando o custo de desconforto do trabalho noturno do fim de semana — sem destruir a conversão, pois a elasticidade de preço do passageiro é estruturalmente menor nesse bloco. A diferença em relação à noite da semana é o volume: com mais solicitações por intervalo de 30 minutos, o adicional deve ser ativado antes — às 23h ou 23h30 — em vez de esperar pelo pico da meia-noite, porque a demanda alta já começa 30 a 45 minutos antes. Ativar o adicional antes do pico produz o sinal econômico que mantém conectados os motoristas que poderiam se desconectar antes da 1h, quando ainda há demanda residual."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El pricing del domingo por la mañana tiene una lógica distinta. El pasajero del aeropuerto o la terminal el domingo a las 6:30 AM tiene conocimiento imperfecto del costo del viaje —no hace ese trayecto con suficiente frecuencia como para tener una referencia sólida—, pero tiene la expectativa de que el precio sea predecible antes de salir de su casa. Un recargo porcentual dinámico genera incertidumbre sobre el costo final —el pasajero no sabe cuánto va a pagar cuando solicita—, lo que eleva las cancelaciones pre-asignación entre los pasajeros más sensibles al precio. Una tarifa plana con recargo fijo —por ejemplo, aeropuerto más 15 al 20% sobre la tarifa base, visible antes de que el pasajero confirme la solicitud— tiene mejor conversión en ese bloque porque elimina la incertidumbre sobre el monto final y al mismo tiempo compensa al conductor por la distancia adicional al aeropuerto. En operaciones donde el aeropuerto está a 15 a 25 minutos del centro, la tarifa plana también reduce el rechazo del conductor: sabe cuánto va a ganar antes de aceptar, lo que elimina el cálculo de si el trayecto de ida vale la pena.",
+        "en": "Sunday morning pricing follows a different logic. The airport or terminal passenger on Sunday at 6:30 AM has imperfect knowledge of what the trip should cost — they don't make that route often enough to have a solid reference — but they expect the price to be predictable before they leave home. A dynamic percentage surcharge creates uncertainty about the final cost — the passenger doesn't know how much they'll pay when they request — which raises pre-assignment cancellations among price-sensitive passengers. A flat rate with a fixed surcharge — for example, airport route plus 15 to 20% over base rate, visible before the passenger confirms the request — converts better in that block because it eliminates uncertainty about the final amount while compensating the driver for the longer airport approach. In operations where the airport is 15 to 25 minutes from the center, the flat rate also reduces driver rejection: the driver knows what they'll earn before accepting, eliminating the calculation of whether the outbound trip is worth it.",
+        "pt": "O pricing do domingo de manhã tem uma lógica diferente. O passageiro do aeroporto ou da rodoviária no domingo às 6h30 tem conhecimento imperfeito do custo da corrida — não faz esse trajeto com frequência suficiente para ter uma referência sólida —, mas espera que o preço seja previsível antes de sair de casa. Um adicional percentual dinâmico gera incerteza sobre o custo final — o passageiro não sabe quanto vai pagar quando solicita —, o que eleva os cancelamentos pré-atribuição entre os passageiros mais sensíveis ao preço. Uma tarifa fixa com adicional fixo — por exemplo, aeroporto mais 15 a 20% sobre a tarifa base, visível antes de o passageiro confirmar a solicitação — tem melhor conversão nesse bloco porque elimina a incerteza sobre o valor final e ao mesmo tempo compensa o motorista pela distância adicional ao aeroporto. Em operações onde o aeroporto está a 15 a 25 minutos do centro, a tarifa fixa também reduz a rejeição do motorista: ele sabe quanto vai ganhar antes de aceitar, eliminando o cálculo de se o trajeto de ida vale a pena."
+      }
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "text": {
+        "es": "Una tarifa plana de domingo de mañana visible al pasajero antes de confirmar la solicitud produce 15 a 20% más conversión que el mismo importe como recargo porcentual mostrado solo en el total final. Cuando el pasajero tiene un compromiso de tiempo fijo —un vuelo, un camión—, la transparencia previa al viaje importa más que el nivel exacto del precio.",
+        "en": "A Sunday morning flat rate shown to the passenger before they confirm the request produces 15 to 20% more conversion than the same amount as a percentage surcharge visible only in the final total. When the passenger has a fixed time commitment — a flight, a bus — pre-trip price transparency matters more than the exact price level.",
+        "pt": "Uma tarifa fixa de domingo de manhã visível ao passageiro antes de confirmar a solicitação produz 15 a 20% mais conversão do que o mesmo valor como adicional percentual mostrado apenas no total final. Quando o passageiro tem um compromisso de tempo fixo — um voo, um ônibus —, a transparência prévia à corrida importa mais do que o nível exato do preço."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "zonas-demanda-sabado-noche-domingo-manana",
+      "text": {
+        "es": "Las zonas que importan el sábado a medianoche y las que importan el domingo al amanecer",
+        "en": "The zones that matter Saturday at midnight and those that matter Sunday at dawn",
+        "pt": "As zonas que importam no sábado à meia-noite e as que importam no domingo ao amanhecer"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La geografía de la demanda del fin de semana es más concentrada que la de entre semana. En la mayoría de ciudades de 150,000 a 450,000 habitantes, el 70 al 85% de la demanda del sábado entre las 11 PM y la 1:30 AM se origina en 2 a 4 zonas específicas: el corredor de restaurantes y bares, la zona de entretenimiento o plaza central con negocios nocturnos, y en su caso el corredor hotelero si concentra actividad nocturna. Esas zonas no son siempre las mismas que concentran la demanda el martes a la misma hora: los establecimientos con actividad el sábado de noche son un superconjunto de los activos entre semana, y la densidad de solicitudes por km² en el corredor de ocio del sábado puede ser 3 a 5 veces mayor que en cualquier noche de semana. Posicionar preventivamente 8 a 10 conductores en esas 2 a 3 zonas a las 11:30 PM del sábado produce una tasa de completación del 85 al 92% en esa ventana. Posicionar la misma flota de forma distribuida sin instrucción específica para el sábado produce del 55 al 70% de completación en el mismo bloque.",
+        "en": "Weekend demand geography is more concentrated than weekday geography. In most cities of 150,000 to 450,000 residents, 70 to 85% of Saturday demand between 11 PM and 1:30 AM originates in 2 to 4 specific zones: the restaurant and bar corridor, the entertainment zone or main square with night-active businesses, and the hotel strip if it concentrates nighttime activity. Those zones are not always the same ones that concentrate demand on Tuesdays at the same hour: establishments active on Saturday night are a superset of the midweek-active ones, and request density per km² in the Saturday leisure corridor can be 3 to 5 times higher than any weeknight. Pre-positioning 8 to 10 drivers in those 2 to 3 zones by 11:30 PM Saturday produces an 85 to 92% completion rate in that window. Distributing the same fleet without zone-specific Saturday instructions produces 55 to 70% completion in the same block.",
+        "pt": "A geografia da demanda do fim de semana é mais concentrada do que a da semana. Na maioria das cidades de 150.000 a 450.000 habitantes, 70 a 85% da demanda do sábado entre as 23h e a 1h30 se origina em 2 a 4 zonas específicas: o corredor de restaurantes e bares, a zona de entretenimento ou praça central com negócios noturnos, e o corredor hoteleiro se concentra atividade noturna. Essas zonas nem sempre são as mesmas que concentram a demanda na terça-feira no mesmo horário: os estabelecimentos com atividade no sábado à noite são um superconjunto dos ativos durante a semana, e a densidade de solicitações por km² no corredor de lazer do sábado pode ser 3 a 5 vezes maior do que em qualquer noite da semana. Pré-posicionar 8 a 10 motoristas nessas 2 a 3 zonas às 23h30 do sábado produz taxa de conclusão de 85 a 92% nessa janela. Distribuir a mesma frota sem instrução de zona específica para o sábado produz 55 a 70% de conclusão no mesmo bloco."
+      }
+    },
+    {
+      "type": "list",
+      "style": "bullet",
+      "intro": {
+        "es": "Las cuatro zonas que concentran la demanda del fin de semana y el bloque horario en que cada una es prioritaria:",
+        "en": "The four zones that concentrate weekend demand and the time block in which each is the priority:",
+        "pt": "As quatro zonas que concentram a demanda do fim de semana e o bloco horário em que cada uma é prioritária:"
+      },
+      "items": {
+        "es": [
+          "**Corredor de restaurantes y bares — sábado, 11 PM a 1:30 AM**: la zona con mayor densidad de solicitudes en casi todos los mercados regionales durante el pico del sábado de noche. Concentra el 55 al 70% de las solicitudes nocturnas del sábado. Posicionar 6 a 8 conductores aquí antes de las 11:45 PM cubre la mayor parte del pico sin sobrecargar otras zonas.",
+          "**Aeropuerto y terminal de autobuses — domingo, 5:30 a 10:00 AM**: los dos puntos con mayor demanda del domingo de mañana. Los viajes son más largos —15 a 25 minutos en promedio—, de mayor ingreso para el conductor y con baja tasa de cancelación. Requieren conductores conectados antes de las 6:00 AM, no a las 8:00 AM cuando la mayoría de la flota se activa.",
+          "**Zona hotelera principal — ambos bloques**: genera solicitudes sostenidas tanto el sábado de noche —huéspedes que regresan de salidas— como el domingo de mañana —salidas anticipadas—, pero con flujos de dirección opuestos. La posición en la zona hotelera es complementaria a la del aeropuerto y raramente compite con ella en el mismo momento.",
+          "**Plaza y centro histórico — sábado, 10:30 PM a 12:30 AM**: segundo nodo de demanda el sábado de noche en ciudades con vida nocturna en espacios abiertos. Genera una ráfaga de solicitudes antes del pico del corredor de bares —pasajeros que salen más temprano— y cae antes de la 1:00 AM."
+        ],
+        "en": [
+          "**Restaurant and bar corridor — Saturday, 11 PM to 1:30 AM**: the zone with the highest request density in virtually every regional market during the Saturday night peak. Concentrates 55 to 70% of Saturday night requests. Positioning 6 to 8 drivers here before 11:45 PM covers most of the peak without depleting other zones.",
+          "**Airport and bus terminal — Sunday, 5:30 to 10:00 AM**: the two highest-demand points on Sunday morning. Trips are longer — 15 to 25 minutes average — with higher per-trip driver income and low cancellation rates. They require drivers connected before 6:00 AM, not at 8:00 AM when most of the fleet activates.",
+          "**Main hotel zone — both blocks**: generates sustained requests both Saturday night — guests returning from outings — and Sunday morning — early departures — but with opposite direction flows. Position in the hotel zone complements airport positioning and rarely competes with it at the same moment.",
+          "**Main square and historic center — Saturday, 10:30 PM to 12:30 AM**: the second demand node on Saturday night in cities with open-air nightlife. Generates a burst of requests before the bar corridor peak — early-leaving passengers — and drops before 1:00 AM."
+        ],
+        "pt": [
+          "**Corredor de restaurantes e bares — sábado, 23h à 1h30**: a zona com maior densidade de solicitações em praticamente todos os mercados regionais durante o pico do sábado à noite. Concentra 55 a 70% das solicitações noturnas do sábado. Posicionar 6 a 8 motoristas aqui antes das 23h45 cobre a maior parte do pico sem sobrecarregar outras zonas.",
+          "**Aeroporto e rodoviária — domingo, 5h30 às 10h**: os dois pontos com maior demanda do domingo de manhã. As corridas são mais longas — 15 a 25 minutos em média —, de maior receita para o motorista e com baixa taxa de cancelamento. Requerem motoristas conectados antes das 6h, não às 8h quando a maioria da frota se ativa.",
+          "**Zona hoteleira principal — ambos os blocos**: gera solicitações sustentadas tanto no sábado à noite — hóspedes que retornam de saídas — quanto no domingo de manhã — saídas antecipadas —, mas com fluxos de direção opostos. A posição na zona hoteleira é complementar à do aeroporto e raramente compete com ela no mesmo momento.",
+          "**Praça e centro histórico — sábado, 22h30 à 0h30**: segundo nó de demanda no sábado à noite em cidades com vida noturna em espaços abertos. Gera uma rajada de solicitações antes do pico do corredor de bares — passageiros que saem mais cedo — e cai antes da 1h."
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "revision-lunes-rendimiento-fin-semana",
+      "text": {
+        "es": "La revisión del lunes: cómo aislar el rendimiento del fin de semana del promedio semanal",
+        "en": "The Monday review: how to isolate weekend performance from the weekly average",
+        "pt": "A revisão de segunda-feira: como isolar o desempenho do fim de semana da média semanal"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La métrica de tasa de completación semanal enmascara el rendimiento del fin de semana cuando el promedio de lunes a viernes está por encima del 85%. Un operador con 87% de completación semanal puede tener 60% el sábado de noche y 65% el domingo de mañana sin que ese dato sea visible en el dashboard de resumen. La revisión del lunes debe incluir un diagnóstico diferenciado de los dos bloques del fin de semana: la completación del sábado entre las 10:30 PM y las 2:00 AM, y la completación del domingo entre las 5:30 AM y las 11:00 AM. La consulta al agente que produce ese diagnóstico: «Para el fin de semana pasado —sábado y domingo—, muéstrame: tasa de completación y tiempo de espera mediano para el bloque del sábado de las 10:30 PM a las 2:00 AM, y para el bloque del domingo de las 5:30 AM a las 11:00 AM. Para cada bloque, incluye las dos zonas con mayor volumen de solicitudes no completadas, el número de conductores conectados por hora, y la tasa de rechazo mediana del conductor. Compara con el mismo fin de semana de las dos semanas anteriores e indica si algún bloque empeoró más de 5 puntos porcentuales semana sobre semana.»",
+        "en": "The weekly completion rate metric masks weekend performance when the Monday-to-Friday average is above 85%. An operator with 87% weekly completion can have 60% on Saturday night and 65% on Sunday morning without that data being visible on the summary dashboard. The Monday review must include a differentiated diagnostic for the two weekend blocks: Saturday completion between 10:30 PM and 2:00 AM, and Sunday completion between 5:30 AM and 11:00 AM. The agent query that produces that diagnostic: 'For last weekend — Saturday and Sunday — show me: completion rate and median wait time for the Saturday block from 10:30 PM to 2:00 AM, and for the Sunday block from 5:30 AM to 11:00 AM. For each block, include the two zones with the highest volume of unserved requests, the number of drivers connected per hour, and the median driver rejection rate. Compare with the same weekend from the prior two weeks and flag any block that worsened by more than 5 percentage points week over week.'",
+        "pt": "A métrica de taxa de conclusão semanal mascara o desempenho do fim de semana quando a média de segunda a sexta está acima de 85%. Um operador com 87% de conclusão semanal pode ter 60% no sábado à noite e 65% no domingo de manhã sem que esse dado seja visível no dashboard de resumo. A revisão de segunda-feira deve incluir um diagnóstico diferenciado dos dois blocos do fim de semana: a conclusão do sábado entre as 22h30 e as 2h, e a conclusão do domingo entre as 5h30 e as 11h. A consulta ao agente que produz esse diagnóstico: «Para o fim de semana passado — sábado e domingo —, mostre: taxa de conclusão e tempo de espera mediano para o bloco do sábado das 22h30 às 2h, e para o bloco do domingo das 5h30 às 11h. Para cada bloco, inclua as duas zonas com maior volume de solicitações não concluídas, o número de motoristas conectados por hora e a taxa de rejeição mediana do motorista. Compare com o mesmo fim de semana das duas semanas anteriores e indique se algum bloco piorou mais de 5 pontos percentuais semana sobre semana.»"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Comparar el rendimiento del fin de semana con el mismo fin de semana anterior —no con el promedio de entre semana— es el ajuste que hace el diagnóstico interpretable. El sábado de noche con lluvia produce tasas de completación 10 a 15 puntos porcentuales menores que el sábado sin lluvia en el mismo mercado: la comparación semana sobre semana identifica si la baja es estructural o puntual. Comparar el fin de semana con el lunes a miércoles crea una distorsión sistemática porque los dos tipos de operación tienen tasas de referencia distintas —un sábado de noche con 72% puede ser bueno o malo dependiendo del sábado anterior, pero comparado con el 89% de los martes produce la falsa impresión de que todo el fin de semana está mal—. El operador que ejecuta esa consulta cada lunes tiene el diagnóstico de los dos bloques más críticos de la semana en 10 minutos, sin necesidad de revisar el resumen general para encontrarlos.",
+        "en": "Comparing weekend performance against the same weekend from the prior week — not against the midweek average — is the adjustment that makes the diagnostic interpretable. A rainy Saturday night produces completion rates 10 to 15 percentage points below a dry Saturday in the same market: the week-over-week comparison identifies whether the drop is structural or incidental. Comparing the weekend against the Monday-to-Wednesday average creates systematic distortion because the two types of operation have different reference rates — Saturday night at 72% completion can be good or bad depending on the prior Saturday, but compared to 89% on Tuesdays it creates the false impression that the whole weekend is performing poorly. The operator who runs this query every Monday has the two most critical weekly blocks diagnosed in 10 minutes, without reviewing the general summary to find them.",
+        "pt": "Comparar o desempenho do fim de semana com o mesmo fim de semana da semana anterior — não com a média da semana — é o ajuste que torna o diagnóstico interpretável. Um sábado à noite com chuva produz taxas de conclusão 10 a 15 pontos percentuais menores do que um sábado sem chuva no mesmo mercado: a comparação semana sobre semana identifica se a queda é estrutural ou pontual. Comparar o fim de semana com a média de segunda a quarta cria distorção sistemática porque os dois tipos de operação têm taxas de referência diferentes — um sábado à noite com 72% pode ser bom ou ruim dependendo do sábado anterior, mas comparado com 89% das terças cria a falsa impressão de que todo o fim de semana está mal. O operador que executa essa consulta toda segunda-feira tem o diagnóstico dos dois blocos mais críticos da semana em 10 minutos, sem precisar revisar o resumo geral para encontrá-los."
+      }
+    },
+    {
+      "type": "quote",
+      "text": {
+        "es": "Cuando empecé a revisar el domingo de mañana como bloque separado, descubrí que era el bloque con mayor ingreso por hora activa de toda mi semana para los conductores que lo trabajaban —viajes de aeropuerto de 22 a 28 minutos, tarifa alta, baja cancelación—. El problema era que no tenía a nadie conectado antes de las 8:30 AM. Empecé a ofrecer 90 MXN adicionales por posicionarse en el aeropuerto o la terminal entre las 6:00 AM y las 9:00 AM del domingo. En cuatro semanas, cinco conductores consolidaron ese turno como parte de su rutina semanal. Mi tasa de completación del domingo de mañana pasó del 58% al 89% sin cambiar nada más en la operación.",
+        "en": "When I started reviewing Sunday morning as a separate block, I found it was the highest income-per-active-hour window of my whole week for the drivers who worked it — airport trips of 22 to 28 minutes, high fares, low cancellations. The problem was I had nobody connected before 8:30 AM. I started offering 90 MXN extra to position at the airport or terminal between 6:00 AM and 9:00 AM on Sundays. In four weeks, five drivers made that shift a permanent part of their weekly routine. My Sunday morning completion rate went from 58% to 89% without changing anything else in the operation.",
+        "pt": "Quando comecei a revisar o domingo de manhã como bloco separado, descobri que era o bloco com maior receita por hora ativa de toda a minha semana para os motoristas que o trabalhavam — corridas de aeroporto de 22 a 28 minutos, tarifa alta, baixo cancelamento. O problema era que não tinha ninguém conectado antes das 8h30. Comecei a oferecer 90 MXN adicionais para se posicionar no aeroporto ou na rodoviária entre as 6h e as 9h do domingo. Em quatro semanas, cinco motoristas consolidaram esse turno como parte de sua rotina semanal. Minha taxa de conclusão do domingo de manhã passou de 58% para 89% sem mudar mais nada na operação."
+      },
+      "attribution": {
+        "es": "Operador con 22 meses de operación en una ciudad de 185,000 habitantes en Tamaulipas, México",
+        "en": "Operator with 22 months of operation in a city of 185,000 in Tamaulipas, Mexico",
+        "pt": "Operador com 22 meses de operação em uma cidade de 185.000 habitantes em Tamaulipas, México"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El fin de semana produce los dos bloques con mayor ingreso potencial por viaje en la semana —el sábado de noche por la combinación de demanda concentrada con un recargo nocturno viable, el domingo de mañana por los viajes de traslado largo con baja tasa de cancelación— y los dos con mayor probabilidad de crear en el mercado la impresión de que la plataforma no funciona cuando se necesita. Un pasajero que intentó la app el sábado a las 12:45 AM y no encontró conductor disponible no intenta el próximo sábado: construye el hábito de buscar otra alternativa. Un pasajero que llegó tarde a su vuelo o su camión porque el conductor canceló después de aceptar no usa la plataforma para viajes de aeropuerto. Esas experiencias —formadas en los dos bloques del fin de semana— afectan también el uso de entre semana, porque el pasajero que dejó de confiar en la plataforma para los momentos de mayor urgencia empieza a confiar menos en ella para los de menor urgencia.",
+        "en": "The weekend generates the two blocks with the highest income potential per trip in the week — Saturday night through concentrated demand combined with a viable night surcharge, Sunday morning through long-distance traveler trips with low cancellation rates — and the two most likely to build the market impression that the platform doesn't work when needed. A passenger who tried the app Saturday at 12:45 AM and found no driver available won't try the following Saturday: they build the habit of defaulting to another option. A passenger who missed a flight or arrived late at the terminal because the driver cancelled after accepting won't use the platform for airport trips. Those experiences — formed in the two weekend blocks — affect midweek use as well, because a passenger who stopped trusting the platform for their highest-urgency moments gradually trusts it less for lower-urgency ones too.",
+        "pt": "O fim de semana produz os dois blocos com maior potencial de receita por corrida na semana — o sábado à noite pela combinação de demanda concentrada com um adicional noturno viável, o domingo de manhã pelas corridas de deslocamento longo com baixa taxa de cancelamento — e os dois com maior probabilidade de criar no mercado a impressão de que a plataforma não funciona quando é necessária. Um passageiro que tentou o app no sábado à 0h45 e não encontrou motorista disponível não tenta no sábado seguinte: constrói o hábito de buscar outra alternativa. Um passageiro que perdeu um voo ou chegou atrasado à rodoviária porque o motorista cancelou após aceitar não usa a plataforma para corridas de aeroporto. Essas experiências — formadas nos dois blocos do fim de semana — afetam também o uso durante a semana, pois o passageiro que parou de confiar na plataforma para os momentos de maior urgência começa a confiar menos nela para os de menor urgência."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Los ajustes para cubrir los dos bloques del fin de semana no requieren ampliar la flota ni cambiar el producto. Requieren configurar cada ventana de forma independiente: un recargo nocturno activo desde las 11:00 PM del sábado, un incentivo de posicionamiento específico para los conductores del domingo entre las 6:00 AM y las 9:00 AM, y una instrucción de zona diferenciada para cada bloque —corredor de restaurantes el sábado de noche, aeropuerto y terminal el domingo de mañana—. En operaciones donde esos bloques no estaban calibrados, esa configuración produce mejoras de 15 a 25 puntos porcentuales en la tasa de completación combinada del fin de semana. La revisión del lunes que aísla el rendimiento de cada bloque del promedio semanal tarda 10 minutos y produce el diagnóstico que determina si la configuración de este fin de semana funcionó o si necesita ajuste antes del siguiente.",
+        "en": "The adjustments to cover both weekend blocks require neither fleet expansion nor product changes. They require configuring each window independently: a night surcharge active from 11:00 PM Saturday, a zone-specific positioning incentive for Sunday drivers between 6:00 AM and 9:00 AM, and differentiated zone instructions for each block — restaurant corridor Saturday night, airport and terminal Sunday morning. In operations where those blocks were uncalibrated, that configuration produces 15 to 25 percentage point improvements in combined weekend completion rate. The Monday review that isolates each block's performance from the weekly average takes 10 minutes and produces the diagnostic that determines whether this weekend's configuration worked or needs adjustment before the next one.",
+        "pt": "Os ajustes para cobrir os dois blocos do fim de semana não requerem ampliar a frota nem mudar o produto. Requerem configurar cada janela de forma independente: um adicional noturno ativo a partir das 23h do sábado, um incentivo de posicionamento específico para os motoristas do domingo entre as 6h e as 9h, e uma instrução de zona diferenciada para cada bloco — corredor de restaurantes no sábado à noite, aeroporto e rodoviária no domingo de manhã. Em operações onde esses blocos não estavam calibrados, essa configuração produz melhorias de 15 a 25 pontos percentuais na taxa de conclusão combinada do fim de semana. A revisão de segunda-feira que isola o desempenho de cada bloco da média semanal leva 10 minutos e produz o diagnóstico que determina se a configuração deste fim de semana funcionou ou se precisa de ajuste antes do próximo."
+      }
+    }
+  ],
+  "cta": {
+    "heading": {
+      "es": "¿Listo para lanzar tu propia app de movilidad?",
+      "en": "Ready to launch your own mobility app?",
+      "pt": "Pronto para lançar seu próprio app de mobilidade?"
+    },
+    "body": {
+      "es": "Configura tu marca, tus tarifas y tus servicios en semanas, no en meses. Cabgo te entrega la plataforma; tú te quedas con la operación, los clientes y los ingresos.",
+      "en": "Set up your brand, pricing and services in weeks, not months. Cabgo ships the platform — you keep the operation, the customers and the revenue.",
+      "pt": "Configure sua marca, suas tarifas e seus serviços em semanas, não em meses. A Cabgo entrega a plataforma; você fica com a operação, os clientes e a receita."
+    },
+    "buttonLabel": {
+      "es": "Comenzar con Cabgo",
+      "en": "Get started with Cabgo",
+      "pt": "Começar com a Cabgo"
+    },
+    "buttonHref": "/empezar"
+  },
+  "seo": {
+    "metaTitle": {
+      "es": "Fin de semana en ride-hailing: calibración | Cabgo",
+      "en": "Weekend operations in ride-hailing | Cabgo",
+      "pt": "Fim de semana no ride-hailing: calibração | Cabgo"
+    },
+    "metaDescription": {
+      "es": "El sábado de noche y el domingo de mañana tienen perfiles de demanda opuestos. Cómo calibrar flota, precio e incentivos para cada ventana del fin de semana.",
+      "en": "Saturday night and Sunday morning have opposite demand profiles. How to calibrate fleet, pricing, and incentives for each weekend window.",
+      "pt": "O sábado à noite e o domingo de manhã têm perfis de demanda opostos. Como calibrar frota, preço e incentivos para cada janela do fim de semana."
+    }
+  }
+}
