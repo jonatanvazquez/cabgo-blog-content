@@ -1,6 +1,28 @@
 {
-  "generatedAt": "2026-07-20T14:16:41.088Z",
+  "generatedAt": "2026-07-21T14:11:17.504Z",
   "posts": [
+    {
+      "slug": "lluvia-demanda-ride-hailing-protocolo",
+      "category": "strategy",
+      "title": {
+        "es": "Lluvia y demanda en ride-hailing: el pico que se predice y raramente se captura",
+        "en": "Rain and demand in ride-hailing: the spike that can be forecast and rarely is captured",
+        "pt": "Chuva e demanda no ride-hailing: o pico que se prevê e raramente é capturado"
+      },
+      "excerpt": {
+        "es": "La lluvia sube la demanda un 40-80% mientras la oferta de conductores se contrae. Ese pico es predecible con 30-90 minutos de antelación. La diferencia entre capturarlo y perderlo está en si el protocolo se activó antes de la primera gota.",
+        "en": "Rain raises demand 40-80% while driver supply contracts. The spike is predictable 30-90 minutes ahead. The difference between capturing it and losing it is whether the protocol was activated before the first drop.",
+        "pt": "A chuva eleva a demanda 40-80% enquanto a oferta de motoristas se contrai. O pico é previsível com 30-90 minutos de antecedência. A diferença entre capturá-lo e perdê-lo está em se o protocolo foi ativado antes da primeira gota."
+      },
+      "heroImage": "https://raw.githubusercontent.com/jonatanvazquez/cabgo-blog-content/main/images/lluvia-demanda-ride-hailing-protocolo.jpg",
+      "heroImageAlt": {
+        "es": "Ilustración isométrica dividida. Izquierda: cielo con trazos de lluvia sobre mapa de ciudad, solicitudes acumuladas sin conductor en tres nodos —paradero de bus, mercado y colegio— con badges rojos de solicitud no atendida. Derecha: misma lluvia pero con tres vehículos preposicionados en esos nodos, tarjeta violeta 1.4x flotando y badge teal con bono 60 MXN. Primer plano: dos barras de timeline de 60 minutos etiquetadas 'SIN PROTOCOLO' (47% completación, rojo) y 'CON PROTOCOLO' (84% completación, teal).",
+        "en": "Split isometric illustration. Left: rainy sky over a city grid, unserved request icons pooling around three nodes — a bus stop, a market stall, and a school building — with red unserved-request badges. Right: same rain but with three vehicles pre-positioned at those nodes, a violet 1.4x pricing card floating above, and a teal bonus card showing 60 MXN. Foreground: two 60-minute timeline bars labeled 'WITHOUT PROTOCOL' (47% completion, red) and 'WITH PROTOCOL' (84% completion, teal).",
+        "pt": "Ilustração isométrica dividida. Esquerda: céu com traços de chuva sobre mapa de cidade, solicitações acumuladas sem motorista em três nós — parada de ônibus, mercado e escola — com badges vermelhos de solicitação não atendida. Direita: mesma chuva mas com três veículos pré-posicionados nesses nós, cartão violeta 1,4x flutuando e badge verde-azulado com bônus 60 MXN. Primeiro plano: duas barras de timeline de 60 minutos rotuladas 'SEM PROTOCOLO' (47% conclusão, vermelho) e 'COM PROTOCOLO' (84% conclusão, verde-azulado)."
+      },
+      "publishedAt": "2026-07-21",
+      "readingMinutes": 9
+    },
     {
       "slug": "sabado-domingo-operacion-ride-hailing",
       "category": "strategy",

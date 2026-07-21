@@ -1,0 +1,333 @@
+{
+  "slug": "lluvia-demanda-ride-hailing-protocolo",
+  "category": "strategy",
+  "title": {
+    "es": "Lluvia y demanda en ride-hailing: el pico que se predice y raramente se captura",
+    "en": "Rain and demand in ride-hailing: the spike that can be forecast and rarely is captured",
+    "pt": "Chuva e demanda no ride-hailing: o pico que se prevê e raramente é capturado"
+  },
+  "excerpt": {
+    "es": "La lluvia sube la demanda un 40-80% mientras la oferta de conductores se contrae. Ese pico es predecible con 30-90 minutos de antelación. La diferencia entre capturarlo y perderlo está en si el protocolo se activó antes de la primera gota.",
+    "en": "Rain raises demand 40-80% while driver supply contracts. The spike is predictable 30-90 minutes ahead. The difference between capturing it and losing it is whether the protocol was activated before the first drop.",
+    "pt": "A chuva eleva a demanda 40-80% enquanto a oferta de motoristas se contrai. O pico é previsível com 30-90 minutos de antecedência. A diferença entre capturá-lo e perdê-lo está em se o protocolo foi ativado antes da primeira gota."
+  },
+  "heroImage": "https://raw.githubusercontent.com/jonatanvazquez/cabgo-blog-content/main/images/lluvia-demanda-ride-hailing-protocolo.jpg",
+  "heroImageAlt": {
+    "es": "Ilustración isométrica dividida. Izquierda: cielo con trazos de lluvia sobre mapa de ciudad, solicitudes acumuladas sin conductor en tres nodos —paradero de bus, mercado y colegio— con badges rojos de solicitud no atendida. Derecha: misma lluvia pero con tres vehículos preposicionados en esos nodos, tarjeta violeta 1.4x flotando y badge teal con bono 60 MXN. Primer plano: dos barras de timeline de 60 minutos etiquetadas 'SIN PROTOCOLO' (47% completación, rojo) y 'CON PROTOCOLO' (84% completación, teal).",
+    "en": "Split isometric illustration. Left: rainy sky over a city grid, unserved request icons pooling around three nodes — a bus stop, a market stall, and a school building — with red unserved-request badges. Right: same rain but with three vehicles pre-positioned at those nodes, a violet 1.4x pricing card floating above, and a teal bonus card showing 60 MXN. Foreground: two 60-minute timeline bars labeled 'WITHOUT PROTOCOL' (47% completion, red) and 'WITH PROTOCOL' (84% completion, teal).",
+    "pt": "Ilustração isométrica dividida. Esquerda: céu com traços de chuva sobre mapa de cidade, solicitações acumuladas sem motorista em três nós — parada de ônibus, mercado e escola — com badges vermelhos de solicitação não atendida. Direita: mesma chuva mas com três veículos pré-posicionados nesses nós, cartão violeta 1,4x flutuando e badge verde-azulado com bônus 60 MXN. Primeiro plano: duas barras de timeline de 60 minutos rotuladas 'SEM PROTOCOLO' (47% conclusão, vermelho) e 'COM PROTOCOLO' (84% conclusão, verde-azulado)."
+  },
+  "heroImagePrompt": "Split isometric composition. Left half: a dark sky with diagonal rain streaks falling over a flat city map grid. Three demand nodes are visible — a bus stop icon, a market stall icon, and a school building icon — each surrounded by stacked red unserved-request badges and fading teal demand rings without any vehicle nearby. A large red card in the center shows '47% completación' with a downward arrow. Right half: same rainy cityscape but with three vehicle icons pre-positioned exactly at each demand node. A violet pricing card shows '1.4x' with an upward arrow. A teal bonus card shows '+60 MXN'. An amber clock card shows '3:15 PM'. In the foreground, two compact side-by-side horizontal timeline bars each spanning 60 minutes. The left bar labeled 'SIN PROTOCOLO' shows a red demand-spike curve with many unfilled gaps. The right bar labeled 'CON PROTOCOLO' shows the same curve mostly filled with completed-trip icons in teal. Deep violet floor grid, soft indigo radial background glow, clean geometric shapes, subtle shadows. Negative space on the lower right.",
+  "publishedAt": "2026-07-21",
+  "readingMinutes": 9,
+  "keywords": {
+    "es": [
+      "lluvia demanda ride-hailing operación regional",
+      "protocolo lluvia taxi app México LATAM",
+      "pico demanda lluvia plataforma movilidad",
+      "pricing lluvia recargo ride-hailing regional",
+      "posicionamiento conductores lluvia taxi app",
+      "spike demanda clima operación movilidad",
+      "captación demanda lluvia tasa completación"
+    ],
+    "en": [
+      "rain demand ride-hailing regional operation",
+      "rain protocol taxi app Mexico LATAM",
+      "rain demand spike mobility platform",
+      "rain pricing surcharge ride-hailing regional",
+      "driver positioning rain taxi app",
+      "weather demand spike mobility operation",
+      "rain demand capture completion rate"
+    ],
+    "pt": [
+      "chuva demanda ride-hailing operação regional",
+      "protocolo chuva app de táxi México LATAM",
+      "pico demanda chuva plataforma mobilidade",
+      "pricing chuva adicional ride-hailing regional",
+      "posicionamento motoristas chuva app de táxi",
+      "spike demanda clima operação mobilidade",
+      "captação demanda chuva taxa de conclusão"
+    ]
+  },
+  "author": {
+    "name": "Equipo Cabgo",
+    "role": {
+      "es": "Plataforma de movilidad",
+      "en": "Mobility platform",
+      "pt": "Plataforma de mobilidade"
+    }
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "En una operación de ride-hailing regional, la lluvia es el evento de demanda más predecible que existe. Una tormenta que comienza a las 3 PM de un martes concentra en una ventana de 45 a 90 minutos entre 40 y 80% más solicitudes que el mismo martes seco a la misma hora. A diferencia de un feriado o un evento masivo, la lluvia no tiene fecha fija en el calendario: puede ocurrir cualquier día. Pero tiene algo que los operadores sin protocolo no aprovechan: en la mayoría de los mercados regionales de México y Centroamérica, existe una ventana de 30 a 90 minutos entre el pronóstico confiable de lluvia y el inicio del aguacero. El operador que tiene un protocolo de lluvia activado antes de la primera gota captura entre el 70 y el 85% del pico de demanda que genera la tormenta. El que no tiene protocolo captura entre el 40 y el 55%, porque los conductores no están posicionados en las zonas correctas, los precios no compensan el costo adicional de trabajar bajo la lluvia, y la primera ráfaga de solicitudes no atendidas produce cancelaciones en cascada antes de que alguien pueda reaccionar.",
+        "en": "In a regional ride-hailing operation, rain is the most predictable demand event there is. A storm starting at 3 PM on a Tuesday concentrates 40 to 80% more requests in a 45-to-90-minute window than the same dry Tuesday at the same hour. Unlike a holiday or a mass event, rain has no fixed date on the calendar: it can happen any day. But it has something operators without a protocol consistently miss: in most regional markets in Mexico and Central America, there is a 30-to-90-minute window between a reliable rain forecast and the start of the downpour. The operator who has a rain protocol activated before the first drop captures 70 to 85% of the demand spike the storm generates. The one without a protocol captures 40 to 55%, because drivers aren't positioned in the right zones, prices don't compensate for the additional cost of working in rain, and the first burst of unserved requests produces cascading cancellations before anyone can react.",
+        "pt": "Em uma operação de ride-hailing regional, a chuva é o evento de demanda mais previsível que existe. Uma tempestade que começa às 15h de uma terça-feira concentra em uma janela de 45 a 90 minutos entre 40 e 80% mais solicitações do que a mesma terça-feira seca no mesmo horário. Diferente de um feriado ou evento de massa, a chuva não tem data fixa no calendário: pode ocorrer qualquer dia. Mas ela tem algo que os operadores sem protocolo não aproveitam: na maioria dos mercados regionais do México e da América Central, existe uma janela de 30 a 90 minutos entre a previsão confiável de chuva e o início da chuva forte. O operador que tem um protocolo de chuva ativado antes da primeira gota captura entre 70 e 85% do pico de demanda que a tempestade gera. O que não tem protocolo captura entre 40 e 55%, pois os motoristas não estão posicionados nas zonas certas, os preços não compensam o custo adicional de trabalhar sob chuva, e a primeira rajada de solicitações não atendidas produz cancelamentos em cascata antes que alguém possa reagir."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Este artículo está dirigido al operador con 20 a 80 conductores activos cuya tasa de completación en días de lluvia está entre 20 y 30 puntos porcentuales por debajo de la misma franja horaria en días secos, sin tener un protocolo claro para anticipar el evento. Cubre por qué la lluvia genera demanda e inhibe oferta de forma simultánea y en direcciones opuestas; qué es la ventana de los 30 a 90 minutos y cómo usarla operativamente antes de que empiece la lluvia; dónde se concentra la demanda de lluvia geográficamente y por qué difiere de la demanda sin lluvia en el mismo horario; qué estructura de pricing para lluvia funciona sin destruir la conversión; cómo comunicar a los conductores antes del evento —no durante— para lograr el posicionamiento preventivo; cómo decae la demanda después de que la lluvia termina y cómo gestionar la salida del protocolo; y qué consulta al agente produce el diagnóstico de captación del pico de lluvia en la revisión semanal. La tesis es práctica: la lluvia no es un evento impredecible —es el evento más predecible de la operación regional si tienes acceso a un pronóstico de 60 minutos. El operador que construye un protocolo para ese pronóstico convierte un pico de demanda desaprovechado en el bloque de mayor ingreso por hora activa de la semana para los conductores que lo trabajan.",
+        "en": "This article is for operators with 20 to 80 active drivers whose completion rate during rain is 20 to 30 percentage points below the same time slot on dry days, without a clear protocol to anticipate the event. It covers why rain simultaneously increases demand and contracts supply in opposite directions; what the 30-to-90-minute pre-rain window is and how to use it operationally; where rain demand concentrates geographically and why it differs from the same time slot without rain; what pricing structure works in rain without destroying conversion; how to communicate with drivers before the event — not during — to achieve preventive positioning; how demand decays after rain stops and how to manage exiting the protocol; and what agent query produces the rain spike capture diagnostic in the weekly review. The thesis is practical: rain is not an unpredictable event — it is the most predictable event in regional operations if you have access to a 60-minute forecast. The operator who builds a protocol around that forecast turns a missed demand peak into the best per-active-hour revenue window of the week for the drivers who work it.",
+        "pt": "Este artigo é voltado ao operador com 20 a 80 motoristas ativos cuja taxa de conclusão em dias de chuva está entre 20 e 30 pontos percentuais abaixo da mesma faixa horária em dias secos, sem ter um protocolo claro para antecipar o evento. Ele cobre por que a chuva gera demanda e inibe oferta de forma simultânea e em direções opostas; o que é a janela de 30 a 90 minutos e como usá-la operacionalmente antes do início da chuva; onde se concentra a demanda de chuva geograficamente e por que difere da demanda sem chuva no mesmo horário; qual estrutura de pricing funciona em chuva sem destruir a conversão; como comunicar aos motoristas antes do evento —não durante— para obter o posicionamento preventivo; como a demanda decai depois que a chuva termina e como gerenciar a saída do protocolo; e qual consulta ao agente produz o diagnóstico de captação do pico de chuva na revisão semanal. A tese é prática: a chuva não é um evento imprevisível — é o evento mais previsível da operação regional se você tem acesso a uma previsão de 60 minutos. O operador que constrói um protocolo para essa previsão transforma um pico de demanda desperdiçado na janela de maior receita por hora ativa da semana para os motoristas que a trabalham."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "lluvia-demanda-oferta-dinamica-opuesta",
+      "text": {
+        "es": "Por qué la lluvia sube la demanda y baja la oferta al mismo tiempo",
+        "en": "Why rain raises demand and shrinks supply simultaneously",
+        "pt": "Por que a chuva eleva a demanda e reduz a oferta ao mesmo tempo"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El efecto de la lluvia en una operación de ride-hailing tiene dos mecanismos que actúan en paralelo y en sentidos opuestos. Del lado de la demanda: los pasajeros que normalmente caminan 3 a 5 cuadras o esperan el transporte público activan la app cuando empieza a llover. En mercados regionales, ese pasajero marginal —que solo usa la plataforma cuando el costo de caminar o esperar es alto— puede representar el 35 al 55% del incremento de solicitudes durante un aguacero. El perfil de ese pasajero es específico: viajes cortos de 1 a 2.5 km desde zonas comerciales o nodos de transporte público hacia destinos residenciales, con alta tolerancia al precio y baja tolerancia a la espera —si no hay asignación en los primeros 3 minutos, toma otra decisión porque la lluvia ya está avanzando—. La demanda de lluvia se concentra en las zonas donde la alternativa de caminar bajo el aguacero tiene el mayor costo percibido: mercados de abastos, paraderos de autobús, zonas de colegios con horario de salida coincidente, y corredores comerciales sin estacionamiento cubierto.",
+        "en": "Rain's effect on a ride-hailing operation involves two mechanisms working in parallel but in opposite directions. On the demand side: passengers who would normally walk 3 to 5 blocks or wait for public transit open the app when rain starts. In regional markets, that marginal passenger — who only uses the platform when walking or waiting has a high cost — can represent 35 to 55% of the spike in requests during a downpour. The profile is specific: short trips of 1 to 2.5 km from commercial zones or public transit nodes toward residential destinations, with high price tolerance but low wait tolerance — if there's no assignment in the first 3 minutes, they make another decision because the rain is already advancing. Rain demand concentrates in zones where the alternative of walking in a downpour carries the highest perceived cost: wholesale markets, bus stops, school zones at dismissal time, and commercial corridors without covered parking.",
+        "pt": "O efeito da chuva em uma operação de ride-hailing envolve dois mecanismos que atuam em paralelo e em sentidos opostos. Do lado da demanda: os passageiros que normalmente caminham 3 a 5 quarteirões ou esperam o transporte público abrem o app quando começa a chover. Em mercados regionais, esse passageiro marginal — que usa a plataforma apenas quando caminhar ou esperar tem custo alto — pode representar 35 a 55% do aumento de solicitações durante um aguaceiro. O perfil é específico: corridas curtas de 1 a 2,5 km de zonas comerciais ou nós de transporte público até destinos residenciais, com alta tolerância ao preço e baixa tolerância à espera — se não houver atribuição nos primeiros 3 minutos, toma outra decisão pois a chuva já está avançando. A demanda de chuva se concentra nas zonas onde a alternativa de caminhar sob o aguaceiro tem o maior custo percebido: mercados atacadistas, paradas de ônibus, zonas escolares com horário de saída coincidente e corredores comerciais sem estacionamento coberto."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Del lado de la oferta, los conductores reaccionan a la lluvia de forma opuesta. Entre el 15 y el 30% de los conductores conectados antes del aguacero se desconectan en los primeros 15 a 20 minutos. Las razones son de costos y percepción: la visibilidad reducida y el tráfico más lento aumentan el desgaste del vehículo y el tiempo de cada viaje, el riesgo de accidente percibido es mayor, y los conductores que ya cumplieron su cuota de ingresos del día optan por no trabajar si la tarifa base no cambia. El resultado operativo es una brecha doble: más solicitudes y menos conductores disponibles, ocurriendo en la misma ventana de 30 a 60 minutos. En una flota de 40 conductores activos, si el pico de lluvia genera 48 solicitudes en 30 minutos —comparado con las 26 habituales en la misma franja seca— y simultáneamente 10 conductores se desconectan, la tasa de completación puede caer del 88% habitual al 50 al 58%, no por un problema estructural de flota, sino porque ninguno de los dos mecanismos fue anticipado. Esa es exactamente la brecha que un protocolo de lluvia cierra.",
+        "en": "On the supply side, drivers react to rain in the opposite direction. Between 15 and 30% of the drivers connected before the downpour disconnect within the first 15 to 20 minutes. The reasons are cost and perception: reduced visibility and slower traffic increase vehicle wear and per-trip time, the perceived accident risk is higher, and drivers who have already met their daily income target choose not to work if the base rate doesn't change. The operational result is a double gap: more requests and fewer available drivers, happening in the same 30-to-60-minute window. In a fleet of 40 active drivers, if the rain peak generates 48 requests in 30 minutes — compared to the usual 26 in the same dry slot — while 10 drivers simultaneously disconnect, completion rate can fall from the usual 88% to 50 to 58%, not due to any structural fleet problem, but because neither mechanism was anticipated. That is exactly the gap a rain protocol closes.",
+        "pt": "Do lado da oferta, os motoristas reagem à chuva de forma oposta. Entre 15 e 30% dos motoristas conectados antes do aguaceiro se desconectam nos primeiros 15 a 20 minutos. As razões são de custos e percepção: visibilidade reduzida e tráfego mais lento aumentam o desgaste do veículo e o tempo de cada corrida, o risco percebido de acidente é maior, e os motoristas que já cumpriram sua meta de renda do dia optam por não trabalhar se a tarifa base não muda. O resultado operacional é uma lacuna dupla: mais solicitações e menos motoristas disponíveis, ocorrendo na mesma janela de 30 a 60 minutos. Em uma frota de 40 motoristas ativos, se o pico de chuva gera 48 solicitações em 30 minutos — comparado com as 26 habituais na mesma faixa seca — enquanto 10 motoristas se desconectam simultaneamente, a taxa de conclusão pode cair do habitual 88% para 50 a 58%, não por um problema estrutural de frota, mas porque nenhum dos dois mecanismos foi antecipado. Essa é exatamente a lacuna que um protocolo de chuva fecha."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "ventana-30-90-minutos-pre-lluvia",
+      "text": {
+        "es": "La ventana de los 30 a 90 minutos: el tiempo operativo antes de la primera gota",
+        "en": "The 30-to-90-minute window: the operational time before the first drop",
+        "pt": "A janela de 30 a 90 minutos: o tempo operacional antes da primeira gota"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "En la mayoría de ciudades de 150,000 a 500,000 habitantes en México y Centroamérica, las aplicaciones de pronóstico de uso gratuito —Windy, AccuWeather, Weather.com— tienen una precisión de 45 a 90 minutos para predicciones de lluvia local con un margen de cobertura de ±5 km. Eso significa que un operador que revisa el pronóstico a las 2:30 PM puede saber con razonable confiabilidad si va a llover a las 3:15 PM en su zona. Esa ventana no es perfecta —hay lluvias de convección rápida que llegan en 20 minutos sin señal previa—, pero para tormentas de tarde —las más frecuentes en mercados tropicales y subtropicales de mayo a octubre—, la ventana de 45 a 90 minutos es la norma. El operador que establece un proceso de revisión de pronóstico de 3 minutos una vez por la tarde, entre las 2:30 y las 3:00 PM durante la temporada de lluvias, convierte esa ventana en el tiempo operativo para activar el protocolo antes de que el primer pasajero abra la app bajo el aguacero.",
+        "en": "In most cities of 150,000 to 500,000 residents in Mexico and Central America, free forecast applications — Windy, AccuWeather, Weather.com — have 45-to-90-minute accuracy for local rain predictions within a ±5 km coverage margin. That means an operator who checks the forecast at 2:30 PM can know with reasonable confidence whether it will rain at 3:15 PM in their zone. The window isn't perfect — fast convection rains can arrive in 20 minutes with no prior signal — but for afternoon storms, which are the most frequent in tropical and subtropical markets from May through October, the 45-to-90-minute window is the norm. The operator who establishes a 3-minute forecast review routine once each afternoon, between 2:30 and 3:00 PM during rain season, converts that window into operational time to activate the protocol before the first passenger opens the app in the downpour.",
+        "pt": "Na maioria das cidades de 150.000 a 500.000 habitantes no México e na América Central, os aplicativos de previsão gratuitos — Windy, AccuWeather, Weather.com — têm precisão de 45 a 90 minutos para previsões de chuva local com margem de cobertura de ±5 km. Isso significa que um operador que verifica a previsão às 14h30 pode saber com razoável confiabilidade se vai chover às 15h15 em sua zona. A janela não é perfeita — chuvas de convecção rápida podem chegar em 20 minutos sem sinal prévio —, mas para tempestades de tarde — as mais frequentes em mercados tropicais e subtropicais de maio a outubro —, a janela de 45 a 90 minutos é a norma. O operador que estabelece um processo de revisão de previsão de 3 minutos uma vez por tarde, entre 14h30 e 15h durante a temporada de chuvas, converte essa janela em tempo operacional para ativar o protocolo antes de o primeiro passageiro abrir o app sob o aguaceiro."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La ventana de 30 a 90 minutos antes del inicio de la lluvia tiene dos usos operativos distintos. El primero es la comunicación a los conductores: enviar el mensaje de posicionamiento con 30 a 40 minutos de antelación —con zona específica, duración estimada del evento y la compensación que aplica— es la diferencia entre tener 8 conductores posicionados en las zonas correctas cuando llega la primera solicitud o tener 2 o 3. Un conductor que recibe el mensaje cuando ya está lloviendo puede estar a 7 km del corredor de mayor demanda, y el tiempo de acercamiento lo hace irrelevante para el primer 60% del pico. El segundo uso es la activación del pricing: encender el recargo de lluvia 15 minutos antes del primer aguacero —no como reacción a las primeras cancelaciones— produce la señal económica que mantiene conectados a los conductores que normalmente se desconectarían al ver que llueve. Un recargo activado 20 minutos después de que empezó la lluvia llega después de que el primer ciclo de solicitudes no atendidas ya generó cancelaciones y ya construyó en ese pasajero la impresión de que la plataforma no funciona cuando más se necesita.",
+        "en": "The 30-to-90-minute window before rain starts has two distinct operational uses. The first is driver communication: sending the positioning message 30 to 40 minutes in advance — with specific zone, estimated event duration, and applicable compensation — is the difference between having 8 drivers positioned in the right zones when the first request arrives or having 2 or 3. A driver who receives the message when it's already raining may be 7 km from the highest-demand corridor, making them irrelevant for the first 60% of the spike. The second use is pricing activation: switching on the rain surcharge 15 minutes before the first downpour — not as a reaction to the first cancellations — produces the economic signal that keeps connected the drivers who would otherwise disconnect upon seeing rain. A surcharge activated 20 minutes after rain began arrives after the first cycle of unserved requests has already generated cancellations and already built in those passengers the impression that the platform doesn't work when they need it most.",
+        "pt": "A janela de 30 a 90 minutos antes do início da chuva tem dois usos operacionais distintos. O primeiro é a comunicação aos motoristas: enviar a mensagem de posicionamento com 30 a 40 minutos de antecedência — com zona específica, duração estimada do evento e a compensação que se aplica — é a diferença entre ter 8 motoristas posicionados nas zonas certas quando chega a primeira solicitação ou ter 2 ou 3. Um motorista que recebe a mensagem quando já está chovendo pode estar a 7 km do corredor de maior demanda, tornando-o irrelevante para os primeiros 60% do pico. O segundo uso é a ativação do pricing: ligar o adicional de chuva 15 minutos antes do primeiro aguaceiro — não como reação aos primeiros cancelamentos — produz o sinal econômico que mantém conectados os motoristas que normalmente se desconectariam ao ver a chuva. Um adicional ativado 20 minutos depois que a chuva começou chega após o primeiro ciclo de solicitações não atendidas já ter gerado cancelamentos e já ter construído nesses passageiros a impressão de que a plataforma não funciona quando mais precisam."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "posicionamiento-preventivo-conductores-lluvia",
+      "text": {
+        "es": "El posicionamiento preventivo en lluvia: dónde concentrar la flota antes de la tormenta",
+        "en": "Preventive positioning in rain: where to concentrate the fleet before the storm",
+        "pt": "Posicionamento preventivo na chuva: onde concentrar a frota antes da tempestade"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La distribución geográfica de la demanda de lluvia es predecible y distinta a la demanda sin lluvia de la misma franja horaria. En días secos, la demanda de las 3 PM a las 5 PM en una ciudad de 280,000 habitantes proviene de una mezcla amplia de zonas residenciales, comerciales y de servicios. Bajo la lluvia, esa misma franja concentra el 65 al 80% de la demanda adicional en 3 a 5 zonas específicas. Esos nodos no son aleatorios: el operador que los identifica en su ciudad una vez puede construir el mapa de lluvia que guía la instrucción de posicionamiento para todos los eventos futuros.",
+        "en": "The geographic distribution of rain demand is predictable and different from the same time slot without rain. On dry days, demand from 3 PM to 5 PM in a city of 280,000 residents comes from a broad mix of residential, commercial, and service zones. Under rain, that same slot concentrates 65 to 80% of the additional demand in 3 to 5 specific zones. Those nodes are not random: the operator who identifies them in their city once can build the rain map that guides the positioning instruction for all future events.",
+        "pt": "A distribuição geográfica da demanda de chuva é previsível e diferente da demanda sem chuva na mesma faixa horária. Em dias secos, a demanda das 15h às 17h em uma cidade de 280.000 habitantes vem de uma mistura ampla de zonas residenciais, comerciais e de serviços. Sob chuva, essa mesma faixa concentra 65 a 80% da demanda adicional em 3 a 5 zonas específicas. Esses nós não são aleatórios: o operador que os identifica em sua cidade uma vez pode construir o mapa de chuva que orienta a instrução de posicionamento para todos os eventos futuros."
+      }
+    },
+    {
+      "type": "list",
+      "style": "bullet",
+      "intro": {
+        "es": "Las cuatro zonas que concentran la demanda de lluvia en la mayoría de ciudades regionales y el perfil del viaje que generan:",
+        "en": "The four zones that concentrate rain demand in most regional cities and the trip profile each generates:",
+        "pt": "As quatro zonas que concentram a demanda de chuva na maioria das cidades regionais e o perfil de corrida que cada uma gera:"
+      },
+      "items": {
+        "es": [
+          "**Paraderos y terminales de transporte público**: la zona de mayor concentración de demanda de lluvia en casi todos los mercados regionales. El pasajero que esperaba el autobús bajo la lluvia es el pasajero marginal más activado por el evento. Genera viajes cortos de 1 a 2 km, alta urgencia, baja tasa de cancelación si hay asignación rápida. En ciudades con terminal de autobuses foráneo, esa terminal concentra demanda de lluvia independientemente del horario.",
+          "**Mercados de abastos y zonas de mercado popular**: segunda zona más frecuente de demanda de lluvia. La actividad en vía pública —puestos, vendedores ambulantes, compradores— se suspende bruscamente con el aguacero y los actores que llegaron sin vehículo buscan traslado inmediato. Los viajes son de 1 a 3 km, concentrados en los primeros 20 minutos del aguacero.",
+          "**Zonas de colegios en horario de salida**: en ciudades con colegios con horario de salida de 3 PM a 3:30 PM, la coincidencia de lluvia fuerte con la salida escolar genera una ráfaga de solicitudes de 15 a 25 minutos donde el 80% de los viajes van hacia destinos residenciales en un radio de 2 a 4 km. Esa zona tiene la mayor elasticidad de precio negativa durante lluvia: el padre que recoge a su hijo en la lluvia acepta casi cualquier tarifa.",
+          "**Corredores comerciales sin estacionamiento cubierto**: zonas de tiendas, bancos y oficinas donde los clientes llegaron sin vehículo y no pueden esperar en la calle bajo la lluvia. Generan una demanda más distribuida en el tiempo —de 30 a 60 minutos— con viajes de 1.5 a 4 km y menor urgencia que los paraderos o los colegios, pero con volumen sostenido durante todo el aguacero."
+        ],
+        "en": [
+          "**Public transit stops and terminals**: the highest-concentration rain demand zone in virtually every regional market. The passenger waiting for a bus in the rain is the marginal passenger most activated by the event. Generates short trips of 1 to 2 km, high urgency, low cancellation rate with fast assignment. In cities with an intercity bus terminal, that terminal concentrates rain demand regardless of the time slot.",
+          "**Wholesale markets and popular market zones**: the second most frequent rain demand zone. Open-air activity — stalls, street vendors, shoppers — stops abruptly during a downpour and those who arrived without a vehicle seek immediate transport. Trips are 1 to 3 km, concentrated in the first 20 minutes of the downpour.",
+          "**School zones at dismissal time**: in cities where schools dismiss at 3 PM to 3:30 PM, heavy rain coinciding with school dismissal generates a 15-to-25-minute request burst where 80% of trips go to residential destinations within a 2-to-4 km radius. That zone has the highest negative price elasticity during rain: the parent picking up their child in the downpour accepts almost any fare.",
+          "**Commercial corridors without covered parking**: zones with shops, banks, and offices where customers arrived without a vehicle and cannot wait on the street in the rain. Generate more time-distributed demand — 30 to 60 minutes — with trips of 1.5 to 4 km and lower urgency than transit stops or schools, but with sustained volume throughout the downpour."
+        ],
+        "pt": [
+          "**Paradas e terminais de transporte público**: a zona de maior concentração de demanda de chuva em praticamente todos os mercados regionais. O passageiro que esperava o ônibus sob a chuva é o passageiro marginal mais ativado pelo evento. Gera corridas curtas de 1 a 2 km, alta urgência, baixa taxa de cancelamento com atribuição rápida. Em cidades com terminal de ônibus intermunicipal, esse terminal concentra demanda de chuva independentemente do horário.",
+          "**Mercados atacadistas e zonas de feira popular**: segunda zona mais frequente de demanda de chuva. A atividade em via pública — barracas, vendedores ambulantes, compradores — é interrompida bruscamente pelo aguaceiro e os que chegaram sem veículo buscam transporte imediato. As corridas são de 1 a 3 km, concentradas nos primeiros 20 minutos do aguaceiro.",
+          "**Zonas de escolas no horário de saída**: em cidades com escolas com saída às 15h ou 15h30, a coincidência de chuva forte com a saída escolar gera uma rajada de solicitações de 15 a 25 minutos onde 80% das corridas vão para destinos residenciais em um raio de 2 a 4 km. Essa zona tem a maior elasticidade de preço negativa durante a chuva: o pai que busca o filho no aguaceiro aceita quase qualquer tarifa.",
+          "**Corredores comerciais sem estacionamento coberto**: zonas com lojas, bancos e escritórios onde os clientes chegaram sem veículo e não podem esperar na rua sob a chuva. Geram uma demanda mais distribuída no tempo — 30 a 60 minutos — com corridas de 1,5 a 4 km e menor urgência que as paradas ou as escolas, mas com volume sustentado durante todo o aguaceiro."
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "pricing-lluvia-ajuste-conversion",
+      "text": {
+        "es": "Pricing de lluvia: el recargo que funciona y el que destruye la conversión",
+        "en": "Rain pricing: the surcharge that works and the one that kills conversion",
+        "pt": "Pricing de chuva: o adicional que funciona e o que destrói a conversão"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El pricing de lluvia tiene una ventana de tolerancia más amplia que el pricing nocturno porque el costo de la alternativa —esperar bajo el aguacero, mojarse en el camino— es cualitativamente peor que en condiciones normales. En mercados regionales, precios de 1.3x a 1.6x sobre la tarifa base durante la lluvia producen una reducción en el volumen de solicitudes del 8 al 15%: significativamente menor que la reducción que produce la misma tasa en la operación diurna estándar. La elasticidad varía por zona de origen: el pasajero en el paradero bajo la lluvia tiene menor elasticidad de precio que el pasajero en casa que podría esperar a que escampara. Un recargo uniforme de 1.4x activa la señal correcta para los conductores —compensación visible por el costo adicional de trabajar bajo la lluvia— sin destruir la conversión en el segmento de alta urgencia que constituye el núcleo de la demanda de lluvia. Tasas superiores a 1.7x comienzan a destruir la conversión en el segmento de viajes opcionales sin producir una mejora proporcional en el ingreso del conductor, porque el volumen de solicitudes cae antes de que el conductor complete suficientes viajes para justificar la tarifa alta.",
+        "en": "Rain pricing has a wider tolerance window than night pricing because the cost of the alternative — waiting under the downpour, getting wet en route — is qualitatively worse than in normal conditions. In regional markets, prices of 1.3x to 1.6x over base rate during rain produce a reduction in request volume of 8 to 15%: significantly smaller than the reduction the same rate produces in standard daytime operations. Elasticity varies by origin zone: the passenger at a transit stop in the rain has lower price elasticity than the passenger at home who could wait for it to pass. A uniform surcharge of 1.4x activates the right signal for drivers — visible compensation for the additional cost of working in rain — without destroying conversion in the high-urgency segment that constitutes the core of rain demand. Rates above 1.7x begin destroying conversion in the optional-trip segment without producing a proportional improvement in driver income, because request volume falls before the driver completes enough trips to justify the high rate.",
+        "pt": "O pricing de chuva tem uma janela de tolerância mais ampla do que o pricing noturno porque o custo da alternativa — esperar sob o aguaceiro, se molhar no caminho — é qualitativamente pior do que em condições normais. Em mercados regionais, preços de 1,3x a 1,6x sobre a tarifa base durante a chuva produzem uma redução no volume de solicitações de 8 a 15%: significativamente menor do que a redução que a mesma taxa produz na operação diurna padrão. A elasticidade varia por zona de origem: o passageiro na parada sob a chuva tem menor elasticidade de preço do que o passageiro em casa que poderia esperar a chuva passar. Um adicional uniforme de 1,4x ativa o sinal correto para os motoristas — compensação visível pelo custo adicional de trabalhar sob chuva — sem destruir a conversão no segmento de alta urgência que constitui o núcleo da demanda de chuva. Taxas acima de 1,7x começam a destruir a conversão no segmento de viagens opcionais sem produzir uma melhora proporcional na renda do motorista, pois o volume de solicitações cai antes de o motorista completar corridas suficientes para justificar a tarifa alta."
+      }
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "text": {
+        "es": "El recargo de lluvia debe activarse 15 minutos antes del aguacero, no en reacción a las primeras solicitudes no atendidas. Un recargo de 1.4x que los conductores ven antes de que empiece la lluvia es la señal que los mantiene conectados. El mismo recargo activado 20 minutos después ya no detiene las desconexiones que ocurrieron en los primeros 15 minutos.",
+        "en": "The rain surcharge should be activated 15 minutes before the downpour, not in reaction to the first unserved requests. A 1.4x surcharge that drivers see before the rain starts is the signal that keeps them connected. The same surcharge activated 20 minutes later no longer stops the disconnections that happened in the first 15 minutes.",
+        "pt": "O adicional de chuva deve ser ativado 15 minutos antes do aguaceiro, não como reação às primeiras solicitações não atendidas. Um adicional de 1,4x que os motoristas veem antes da chuva começar é o sinal que os mantém conectados. O mesmo adicional ativado 20 minutos depois já não impede as desconexões que ocorreram nos primeiros 15 minutos."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "comunicacion-conductores-antes-lluvia",
+      "text": {
+        "es": "La comunicación al conductor antes de la lluvia: el mensaje que produce posicionamiento",
+        "en": "Driver communication before rain: the message that produces positioning",
+        "pt": "A comunicação ao motorista antes da chuva: a mensagem que produz posicionamento"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El mensaje de lluvia al conductor tiene una lógica distinta a la instrucción operativa diaria. El conductor que recibe un mensaje a las 3:00 PM diciendo que se esperan lluvias intensas de las 3:30 a las 5:00 PM está procesando información de oportunidad económica: si hay demanda alta y tarifa mayor, posicionarse en la zona correcta mejora su ingreso del turno. El mensaje efectivo incluye cuatro componentes: el evento esperado con horario aproximado y zonas afectadas, la tarifa que aplica durante el bloque —recargo activado desde 15 minutos antes de la hora prevista—, la instrucción de zona concreta —«posiciónate en el paradero central del mercado Benito Juárez, radio de 4 cuadras»— y una compensación adicional opcional si el operador quiere acelerar el posicionamiento —bono de 50 a 70 MXN por completar al menos 3 viajes en el bloque de lluvia—. Ese mensaje tarda 3 minutos en escribirse y 30 segundos en enviarse. El conductor que lo recibe 30 minutos antes de la lluvia tiene tiempo de posicionarse. El que lo recibe cuando ya está lloviendo, no.",
+        "en": "The rain message to drivers has different logic than the daily operational instruction. The driver who receives a message at 3:00 PM saying heavy rain is expected from 3:30 to 5:00 PM is processing economic opportunity information: if there is high demand and a higher rate, positioning in the right zone improves their shift income. The effective message includes four components: the expected event with approximate timing and affected zones, the applicable rate during the block — surcharge activated from 15 minutes before the expected hour — a concrete zone instruction — 'position yourself at the main Benito Juárez market transit stop, 4-block radius' — and an optional additional bonus if the operator wants to accelerate positioning — 50 to 70 MXN bonus for completing at least 3 trips during the rain block. That message takes 3 minutes to write and 30 seconds to send. The driver who receives it 30 minutes before the rain has time to position. The driver who receives it when it's already raining does not.",
+        "pt": "A mensagem de chuva ao motorista tem uma lógica diferente da instrução operacional diária. O motorista que recebe uma mensagem às 15h dizendo que se esperam chuvas intensas das 15h30 às 17h está processando informação de oportunidade econômica: se há alta demanda e tarifa maior, posicionar-se na zona certa melhora sua renda no turno. A mensagem efetiva inclui quatro componentes: o evento esperado com horário aproximado e zonas afetadas, a tarifa que se aplica durante o bloco — adicional ativado a partir de 15 minutos antes do horário previsto —, a instrução de zona concreta — «posicione-se na parada central do mercado Benito Juárez, raio de 4 quarteirões» — e uma compensação adicional opcional se o operador quiser acelerar o posicionamento — bônus de 50 a 70 MXN por completar ao menos 3 corridas no bloco de chuva. Essa mensagem leva 3 minutos para escrever e 30 segundos para enviar. O motorista que a recebe 30 minutos antes da chuva tem tempo de se posicionar. O que a recebe quando já está chovendo não tem."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El error frecuente es enviar el mensaje de lluvia como reacción a la demanda alta, no como anticipación del evento. Si el operador ve en el dashboard que las solicitudes están subiendo de forma inusual —que es el momento en que generalmente piensa en activar el protocolo—, ya pasaron entre 10 y 20 minutos desde que la lluvia empezó. Los conductores que se desconectaron ya lo hicieron. Los que estaban en zonas sin demanda ya tienen viajes en curso en esas zonas. El posicionamiento reactivo no tiene el mismo efecto que el preventivo porque el conductor que recibe la instrucción cuando el pico ya está ocurriendo tarda 8 a 15 minutos en llegar a la zona correcta —y el pico de lluvia de tarde en mercados tropicales tiene una duración de 45 a 90 minutos—. Cuando ese conductor llega posicionado, el 60 al 70% del pico ya está en su segunda mitad descendente. La diferencia entre el protocolo preventivo y el reactivo no está en la intención del operador: está en el momento de la activación.",
+        "en": "The frequent error is sending the rain message as a reaction to rising demand, not as anticipation of the event. If the operator sees on the dashboard that requests are unusually elevated — which is typically the moment they think of activating the protocol — 10 to 20 minutes have already passed since rain began. Drivers who disconnected already did so. Drivers who were in low-demand zones already have trips in progress in those zones. Reactive positioning doesn't have the same effect as preventive positioning, because a driver receiving the instruction when the peak is already occurring takes 8 to 15 minutes to reach the right zone — and an afternoon rain peak in tropical markets lasts 45 to 90 minutes. By the time that driver arrives positioned, 60 to 70% of the peak is already in its descending second half. The difference between preventive and reactive protocol is not the operator's intention: it is the activation moment.",
+        "pt": "O erro frequente é enviar a mensagem de chuva como reação ao aumento da demanda, não como antecipação do evento. Se o operador vê no dashboard que as solicitações estão subindo de forma incomum — que é geralmente o momento em que pensa em ativar o protocolo — já passaram entre 10 e 20 minutos desde que a chuva começou. Os motoristas que se desconectaram já o fizeram. Os que estavam em zonas sem demanda já têm corridas em andamento nessas zonas. O posicionamento reativo não tem o mesmo efeito que o preventivo, pois um motorista que recebe a instrução quando o pico já está ocorrendo leva 8 a 15 minutos para chegar à zona certa — e o pico de chuva de tarde em mercados tropicais tem duração de 45 a 90 minutos. Quando esse motorista chega posicionado, 60 a 70% do pico já está em sua segunda metade descendente. A diferença entre o protocolo preventivo e o reativo não está na intenção do operador: está no momento da ativação."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "post-lluvia-decaimiento-demanda",
+      "text": {
+        "es": "Después de la lluvia: cómo decae la demanda y cuándo desactivar el protocolo",
+        "en": "After the rain: how demand decays and when to deactivate the protocol",
+        "pt": "Depois da chuva: como a demanda decai e quando desativar o protocolo"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El post-lluvia tiene un patrón de demanda específico que la mayoría de los operadores no calibran. Cuando la lluvia para, la demanda no cae de inmediato a los niveles previos: hay una fase de cola de 15 a 30 minutos donde los pasajeros que esperaron bajo techo a que escampara generan solicitudes concentradas. Esa fase de cola produce un segundo pico —más pequeño que el pico principal— entre 10 y 25 minutos después de que la lluvia termina. Los viajes de ese segundo pico son con frecuencia los más largos del evento: el pasajero que esperó 30 a 45 minutos bajo el techo de un mercado o una parada antes de solicitar tiene mayor predisposición a pagar una tarifa más alta y menor tolerancia al rechazo del conductor. El error de desactivar el recargo en el momento exacto en que para de llover priva al conductor del beneficio de esa fase final. La estructura correcta es mantener el recargo durante la lluvia más 20 minutos adicionales después de que para, seguido de un retorno gradual a la tarifa base. Eso captura el segundo pico sin alargar artificialmente el período de tarifa alta más allá de donde el pasajero lo acepta.",
+        "en": "The post-rain period has a specific demand pattern that most operators don't calibrate. When rain stops, demand doesn't immediately fall back to prior levels: there is a 15-to-30-minute queue phase where passengers who waited under shelter for the rain to pass generate concentrated requests. That queue phase produces a second peak — smaller than the main peak — between 10 and 25 minutes after rain ends. Trips in that second peak are often the longest of the event: the passenger who waited 30 to 45 minutes under a market awning or transit stop canopy before requesting is more inclined to pay a higher rate and less tolerant of driver rejection. Deactivating the surcharge the moment rain stops deprives the driver of the benefit of that final phase. The correct structure is to maintain the surcharge during rain plus 20 additional minutes after it stops, followed by a gradual return to base rate. That captures the second peak without artificially extending the high-rate window beyond where the passenger accepts it.",
+        "pt": "O pós-chuva tem um padrão de demanda específico que a maioria dos operadores não calibra. Quando a chuva para, a demanda não cai imediatamente para os níveis anteriores: há uma fase de fila de 15 a 30 minutos onde os passageiros que esperaram sob a cobertura a chuva passar geram solicitações concentradas. Essa fase de fila produz um segundo pico — menor que o pico principal — entre 10 e 25 minutos depois que a chuva termina. As corridas desse segundo pico são frequentemente as mais longas do evento: o passageiro que esperou 30 a 45 minutos sob a cobertura de um mercado ou parada antes de solicitar tem maior predisposição a pagar uma tarifa mais alta e menor tolerância à rejeição do motorista. Desativar o adicional no momento exato em que a chuva para priva o motorista do benefício dessa fase final. A estrutura correta é manter o adicional durante a chuva mais 20 minutos adicionais depois que ela para, seguido de um retorno gradual à tarifa base. Isso captura o segundo pico sem estender artificialmente o período de tarifa alta além de onde o passageiro o aceita."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "revision-semanal-captacion-pico-lluvia",
+      "text": {
+        "es": "La revisión semanal: cómo evaluar si capturaste el pico de lluvia o lo dejaste pasar",
+        "en": "The weekly review: how to evaluate whether you captured the rain peak or missed it",
+        "pt": "A revisão semanal: como avaliar se capturou o pico de chuva ou o deixou passar"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La consulta al agente que produce el diagnóstico de captación del pico de lluvia para la semana anterior: «Para los últimos 7 días, identifica las franjas horarias donde el volumen de solicitudes fue al menos un 35% mayor que el promedio del mismo día de la semana y franja horaria en las 4 semanas anteriores. Para cada una de esas franjas —que probablemente corresponden a eventos de lluvia—, muéstrame: número de solicitudes totales, número completadas, tasa de completación, tiempo de espera mediano antes de la asignación, número de conductores conectados en esa franja versus el promedio habitual de esa misma franja en días sin spike, y tasa de rechazo del conductor. Compara la tasa de completación de esas franjas con la tasa de completación del mismo horario en días sin spike de demanda de esa semana. Indica qué porcentaje del volumen adicional del spike fue completado.» Ese diagnóstico no requiere que el operador etiquete qué días llovió: la demanda anormal de lluvia es visible como un spike estadístico en el volumen de solicitudes que el agente puede identificar sin datos meteorológicos externos.",
+        "en": "The agent query that produces the rain spike capture diagnostic for the prior week: 'For the last 7 days, identify the time slots where request volume was at least 35% above the average for the same day of week and time slot in the prior 4 weeks. For each of those slots — which likely correspond to rain events — show: total requests, completed requests, completion rate, median wait time before assignment, number of drivers connected in that slot versus the usual average for that same slot on non-spike days, and driver rejection rate. Compare the completion rate of those slots with the completion rate of the same time slot on non-spike days that same week. Indicate what percentage of the spike's additional volume was completed.' That diagnostic doesn't require the operator to label which days it rained: abnormal rain demand is visible as a statistical spike in request volume that the agent can identify without external weather data.",
+        "pt": "A consulta ao agente que produz o diagnóstico de captação do pico de chuva para a semana anterior: «Para os últimos 7 dias, identifique as faixas horárias onde o volume de solicitações foi ao menos 35% maior que a média do mesmo dia da semana e faixa horária nas 4 semanas anteriores. Para cada uma dessas faixas — que provavelmente correspondem a eventos de chuva —, mostre: total de solicitações, solicitações concluídas, taxa de conclusão, tempo de espera mediano antes da atribuição, número de motoristas conectados nessa faixa versus a média habitual da mesma faixa em dias sem spike, e taxa de rejeição do motorista. Compare a taxa de conclusão dessas faixas com a taxa de conclusão do mesmo horário em dias sem spike de demanda dessa semana. Indique qual percentual do volume adicional do spike foi concluído.» Esse diagnóstico não requer que o operador etiquete quais dias choveu: a demanda anormal de chuva é visível como um spike estatístico no volume de solicitações que o agente pode identificar sem dados meteorológicos externos."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La revisión de captación de lluvia produce dos indicadores prácticos: la tasa de captación del spike —solicitudes completadas divididas entre solicitudes totales en la franja con spike— y la brecha de oferta en esa franja —conductores disponibles menos los necesarios para cubrir la tasa de solicitudes con el tiempo de viaje promedio bajo lluvia—. Si la tasa de captación de los spikes de demanda de la semana estuvo por debajo del 65%, hay una brecha de posicionamiento u oferta. Si la tasa de rechazo en esas franjas fue más de 15 puntos porcentuales más alta que en el mismo horario sin spike, hay un problema de compensación —el recargo no estuvo activo o no fue suficiente para mantener a los conductores conectados—. El operador que ejecuta esa consulta cada lunes durante la temporada de lluvias tiene el diagnóstico de si su protocolo funcionó en 5 minutos, sin necesidad de cruzarlo con datos meteorológicos externos: el spike de demanda es en sí mismo la señal de que hubo un evento que el protocolo debería haber capturado.",
+        "en": "The rain capture review produces two practical indicators: the spike capture rate — completed requests divided by total requests in the spike slot — and the supply gap in that slot — available drivers minus those needed to serve the request rate with rain-adjusted average trip time. If the demand spike capture rate for the week was below 65%, there is a positioning or supply gap. If the rejection rate in those slots was more than 15 percentage points higher than in the same time slot on non-spike days, there is a compensation problem — the surcharge wasn't active or wasn't high enough to keep drivers connected. The operator who runs this query every Monday during rain season has the diagnostic for whether the protocol worked in 5 minutes, without needing to cross-reference external weather data: the demand spike is itself the signal that an event occurred that the protocol should have captured.",
+        "pt": "A revisão de captação de chuva produz dois indicadores práticos: a taxa de captação do spike — solicitações concluídas divididas pelo total de solicitações na faixa com spike — e a lacuna de oferta nessa faixa — motoristas disponíveis menos os necessários para cobrir a taxa de solicitações com o tempo de corrida médio ajustado para chuva. Se a taxa de captação dos spikes de demanda da semana ficou abaixo de 65%, há uma lacuna de posicionamento ou oferta. Se a taxa de rejeição nessas faixas foi mais de 15 pontos percentuais mais alta do que no mesmo horário em dias sem spike, há um problema de compensação — o adicional não estava ativo ou não foi suficiente para manter os motoristas conectados. O operador que executa essa consulta toda segunda-feira durante a temporada de chuvas tem o diagnóstico de se o protocolo funcionou em 5 minutos, sem precisar cruzar dados meteorológicos externos: o spike de demanda é em si mesmo o sinal de que ocorreu um evento que o protocolo deveria ter capturado."
+      }
+    },
+    {
+      "type": "quote",
+      "text": {
+        "es": "El primer verano con la plataforma tenía martes y miércoles a las 4 PM con 55 solicitudes en 30 minutos y 18 conductores rechazando. No entendía qué pasaba hasta que un conductor me dijo que era porque llovía. Empecé a revisar Windy todas las mañanas durante la temporada de lluvias. Cuando veía lluvia para la tarde, mandaba el mensaje de posicionamiento a los 12 conductores más activos de esa franja, activaba 1.4x desde 15 minutos antes de la hora prevista y les ofrecía 60 pesos por completar 3 viajes en el bloque. En el pico de lluvia más intenso de ese verano —45 minutos de aguacero fuerte un miércoles a las 3:45 PM— tuve 83% de tasa de completación. El verano anterior, sin protocolo, había tenido 46% en una tormenta similar.",
+        "en": "My first summer with the platform I had Tuesdays and Wednesdays at 4 PM with 55 requests in 30 minutes and 18 drivers rejecting. I didn't understand what was happening until a driver told me it was because it was raining. I started checking Windy every morning during rain season. When I saw rain forecast for the afternoon, I sent the positioning message to the 12 most active drivers in that slot, activated 1.4x starting 15 minutes before the expected hour, and offered 60 pesos for completing 3 trips in the block. During the most intense rain peak that summer — 45 minutes of heavy downpour on a Wednesday at 3:45 PM — I had an 83% completion rate. The prior summer, without a protocol, I had 46% in a similar storm.",
+        "pt": "No meu primeiro verão com a plataforma, tinha terças e quartas às 16h com 55 solicitações em 30 minutos e 18 motoristas rejeitando. Não entendia o que estava acontecendo até que um motorista me disse que era porque chovia. Comecei a verificar o Windy toda manhã durante a temporada de chuvas. Quando via chuva prevista para a tarde, enviava a mensagem de posicionamento aos 12 motoristas mais ativos nessa faixa, ativava 1,4x a partir de 15 minutos antes do horário previsto e oferecia 60 pesos por completar 3 corridas no bloco. No pico de chuva mais intenso daquele verão — 45 minutos de aguaceiro forte numa quarta às 15h45 — tive 83% de taxa de conclusão. No verão anterior, sem protocolo, tinha tido 46% em uma tempestade similar."
+      },
+      "attribution": {
+        "es": "Operadora con 19 meses de operación en una ciudad de 230,000 habitantes en Oaxaca, México",
+        "en": "Operator with 19 months of operation in a city of 230,000 in Oaxaca, Mexico",
+        "pt": "Operadora com 19 meses de operação em uma cidade de 230.000 habitantes em Oaxaca, México"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La lluvia es el único evento de demanda en una operación de ride-hailing regional que tiene tres características únicas al mismo tiempo: es predecible con 30 a 90 minutos de antelación, genera un pico de demanda inelástica donde el pasajero acepta tarifas más altas, y simultáneamente produce una contracción de oferta que ningún otro tipo de demanda alta genera. Esa combinación hace que el protocolo de lluvia sea la inversión de preparación con mejor retorno: requiere 3 minutos de revisión de pronóstico y 5 minutos de activación, y la diferencia entre tener protocolo y no tenerlo es de 25 a 35 puntos porcentuales en la tasa de completación durante el pico. Un operador con 35 conductores activos que captura el 80% de las solicitudes durante un pico de lluvia de 60 minutos completa 18 a 24 viajes que sin protocolo habrían sido solicitudes no atendidas. Para los conductores que trabajan ese bloque, el ingreso por hora activa en lluvia supera con frecuencia al de cualquier otro bloque de la semana —viajes más cortos pero volumen sostenido y tarifa con recargo activo.",
+        "en": "Rain is the only demand event in a regional ride-hailing operation that has three unique characteristics simultaneously: it is predictable 30 to 90 minutes in advance, generates an inelastic demand spike where passengers accept higher fares, and simultaneously produces a supply contraction that no other type of high demand generates. That combination makes the rain protocol the highest-return preparation investment in the operator's toolkit: it requires 3 minutes of forecast review and 5 minutes of activation, and the difference between having a protocol and not having one is 25 to 35 percentage points in completion rate during the peak. An operator with 35 active drivers who captures 80% of requests during a 60-minute rain peak completes 18 to 24 trips that without a protocol would have been unserved requests. For drivers working that block, income per active hour in rain frequently exceeds that of any other block in the week — shorter trips but sustained volume and an active rate surcharge.",
+        "pt": "A chuva é o único evento de demanda em uma operação de ride-hailing regional que tem três características únicas ao mesmo tempo: é previsível com 30 a 90 minutos de antecedência, gera um pico de demanda inelástica onde o passageiro aceita tarifas mais altas, e simultaneamente produz uma contração de oferta que nenhum outro tipo de alta demanda gera. Essa combinação faz do protocolo de chuva o investimento de preparação com melhor retorno: requer 3 minutos de revisão de previsão e 5 minutos de ativação, e a diferença entre ter protocolo e não tê-lo é de 25 a 35 pontos percentuais na taxa de conclusão durante o pico. Um operador com 35 motoristas ativos que captura 80% das solicitações durante um pico de chuva de 60 minutos conclui 18 a 24 corridas que sem protocolo seriam solicitações não atendidas. Para os motoristas que trabalham esse bloco, a receita por hora ativa na chuva frequentemente supera a de qualquer outro bloco da semana — corridas mais curtas mas volume sustentado e tarifa com adicional ativo."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El protocolo de lluvia no requiere tecnología adicional ni conductores extra. Requiere un proceso de 3 minutos por la tarde durante la temporada de lluvias, un mensaje de posicionamiento listo para enviarse, y una configuración de pricing que se activa 15 minutos antes del evento. La revisión semanal con el agente identifica si cada spike de demanda de la semana fue capturado o perdido, sin necesidad de compararlo con registros meteorológicos externos: el spike es su propia señal. El operador que construye ese ciclo —revisar pronóstico, activar protocolo, medir captación— convierte la lluvia de una fuente de solicitudes perdidas en el bloque de mayor ingreso por hora activa de la semana para los conductores que lo trabajan. Los mismos conductores que se desconectarían voluntariamente ante la primera gota —sin recargo, sin bono, sin instrucción de zona— son los que cubren sistemáticamente el bloque de lluvia cuando la compensación económica y la información de posicionamiento llegan antes de que empiece el aguacero.",
+        "en": "The rain protocol requires no additional technology or extra drivers. It requires a 3-minute afternoon process during rain season, a positioning message ready to send, and a pricing configuration that activates 15 minutes before the event. The weekly agent review identifies whether each demand spike of the week was captured or missed, without needing to cross-reference external weather records: the spike is its own signal. The operator who builds that cycle — check forecast, activate protocol, measure capture — converts rain from a source of lost requests into the best per-active-hour revenue block of the week for the drivers who work it. The same drivers who would voluntarily disconnect at the first raindrop — without a surcharge, without a bonus, without zone instruction — are the ones who consistently cover the rain block when economic compensation and positioning information arrive before the downpour starts.",
+        "pt": "O protocolo de chuva não requer tecnologia adicional nem motoristas extras. Requer um processo de 3 minutos por tarde durante a temporada de chuvas, uma mensagem de posicionamento pronta para enviar e uma configuração de pricing que se ativa 15 minutos antes do evento. A revisão semanal com o agente identifica se cada spike de demanda da semana foi capturado ou perdido, sem precisar cruzar registros meteorológicos externos: o spike é seu próprio sinal. O operador que constrói esse ciclo — verificar previsão, ativar protocolo, medir captação — converte a chuva de uma fonte de solicitações perdidas na janela de maior receita por hora ativa da semana para os motoristas que a trabalham. Os mesmos motoristas que se desconectariam voluntariamente à primeira gota — sem adicional, sem bônus, sem instrução de zona — são os que cobrem sistematicamente o bloco de chuva quando a compensação econômica e a informação de posicionamento chegam antes do início do aguaceiro."
+      }
+    }
+  ],
+  "cta": {
+    "heading": {
+      "es": "¿Listo para lanzar tu propia app de movilidad?",
+      "en": "Ready to launch your own mobility app?",
+      "pt": "Pronto para lançar seu próprio app de mobilidade?"
+    },
+    "body": {
+      "es": "Configura tu marca, tus tarifas y tus servicios en semanas, no en meses. Cabgo te entrega la plataforma; tú te quedas con la operación, los clientes y los ingresos.",
+      "en": "Set up your brand, pricing and services in weeks, not months. Cabgo ships the platform — you keep the operation, the customers and the revenue.",
+      "pt": "Configure sua marca, suas tarifas e seus serviços em semanas, não em meses. A Cabgo entrega a plataforma; você fica com a operação, os clientes e a receita."
+    },
+    "buttonLabel": {
+      "es": "Comenzar con Cabgo",
+      "en": "Get started with Cabgo",
+      "pt": "Começar com a Cabgo"
+    },
+    "buttonHref": "/empezar"
+  },
+  "seo": {
+    "metaTitle": {
+      "es": "Lluvia y demanda en ride-hailing: protocolo | Cabgo",
+      "en": "Rain demand in ride-hailing: operations protocol | Cabgo",
+      "pt": "Chuva e demanda no ride-hailing: protocolo | Cabgo"
+    },
+    "metaDescription": {
+      "es": "La lluvia sube la demanda un 40-80% mientras la oferta se contrae. Cómo activar un protocolo antes de la primera gota para capturar ese pico.",
+      "en": "Rain raises demand 40-80% while supply contracts. How to activate a protocol before the first drop to consistently capture that spike.",
+      "pt": "A chuva eleva a demanda 40-80% enquanto a oferta se contrai. Como ativar um protocolo antes da primeira gota para capturar esse pico de forma consistente."
+    }
+  }
+}
