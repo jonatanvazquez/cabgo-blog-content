@@ -1,0 +1,318 @@
+{
+  "slug": "quincena-demanda-ride-hailing-patron-mensual",
+  "category": "strategy",
+  "title": {
+    "es": "La quincena como evento de demanda: el calendario de pago que genera picos predecibles en ride-hailing regional",
+    "en": "Payday as a demand event: the payment calendar that generates predictable ride-hailing spikes",
+    "pt": "A quincena como evento de demanda: o calendário de pagamento que gera picos previsíveis no ride-hailing regional"
+  },
+  "excerpt": {
+    "es": "En LATAM, el 15 y el último día hábil del mes generan un pico de demanda del 12 al 28% concentrado en viajes nocturnos de ocio. A diferencia de la lluvia, la quincena no requiere ningún pronóstico: su fecha es la misma todos los meses.",
+    "en": "In LATAM, the 15th and last business day of the month generate a 12-28% demand spike concentrated in evening leisure trips. Unlike rain, the quincena requires no forecast: its date is the same every month.",
+    "pt": "Na LATAM, o dia 15 e o último dia útil do mês geram um pico de demanda de 12 a 28% concentrado em corridas noturnas de lazer. Diferente da chuva, a quincena não requer previsão: sua data é a mesma todos os meses."
+  },
+  "heroImage": "https://raw.githubusercontent.com/jonatanvazquez/cabgo-blog-content/main/images/quincena-demanda-ride-hailing-patron-mensual.jpg",
+  "heroImageAlt": {
+    "es": "Ilustración isométrica dividida. Izquierda: página de calendario con el número 15 resaltado en violeta con destello, pila de billetes de peso mexicano y smartphone mostrando mapa de ride-hailing. Flechas curvas hacia la derecha. Derecha: corredor nocturno de restaurantes y bares, tres vehículos convergiendo hacia la zona con anillos de demanda teal pulsantes, tarjeta violeta '1.35x' flotando, reloj ámbar mostrando '9:30 PM'. Primer plano: par de barras comparando semana regular (ámbar, corta) vs día 15 (teal, alta con '+22%').",
+    "en": "Split isometric illustration. Left: a calendar page with the number 15 highlighted in violet with a starburst, a stack of Mexican peso bills, and a smartphone showing a ride-hailing map. Curved arrows pointing right. Right: a nighttime restaurant and bar corridor, three vehicles converging toward the zone with pulsing teal demand rings, a violet '1.35x' pricing card floating above, an amber clock showing '9:30 PM'. Foreground: bar pair comparing regular week (amber, short) vs day 15 (teal, tall with '+22%').",
+    "pt": "Ilustração isométrica dividida. Esquerda: página de calendário com o número 15 destacado em violeta com brilho, pilha de notas de peso mexicano e smartphone mostrando mapa de ride-hailing. Setas curvas para a direita. Direita: corredor noturno de restaurantes e bares, três veículos convergindo para a zona com anéis de demanda teal pulsantes, cartão violeta '1,35x' flutuando, relógio âmbar mostrando '21h30'. Primeiro plano: par de barras comparando semana regular (âmbar, curta) vs dia 15 (teal, alta com '+22%')."
+  },
+  "heroImagePrompt": "Split isometric composition. Left half: a glowing calendar page with the number 15 highlighted in violet with a starburst glow, a neat stack of Mexican peso bills beside it, and a smartphone icon displaying a ride-hailing app map. Three flowing curved arrows lead from the calendar toward the right side. Right half: a city nightlife district with lit restaurant and bar storefronts, three vehicle icons converging toward the zone with pulsing teal concentric demand rings, a violet pricing card showing '1.35x' with an upward arrow, and an amber clock icon showing '9:30 PM'. In the foreground: a compact dual-bar chart pair — a shorter amber bar labeled 'semana regular' next to a taller teal bar labeled 'día 15' with an upward percentage tag reading '+22%'. Deep violet floor grid, soft indigo radial background glow, clean geometric shapes, subtle shadows. Negative space on the lower right.",
+  "publishedAt": "2026-07-23",
+  "readingMinutes": 9,
+  "keywords": {
+    "es": [
+      "quincena demanda ride-hailing LATAM",
+      "pico demanda quincena taxi app México",
+      "pricing quincenal plataforma movilidad regional",
+      "día de pago demanda transporte regional",
+      "evento demanda predecible ride-hailing",
+      "patrón mensual demanda taxi app LATAM",
+      "uplift quincena operación movilidad México"
+    ],
+    "en": [
+      "payday demand ride-hailing LATAM",
+      "quincena demand spike taxi app Mexico",
+      "payday pricing mobility platform regional",
+      "payment day transport demand regional",
+      "predictable demand event ride-hailing",
+      "monthly demand pattern taxi app LATAM",
+      "quincena uplift mobility operation Mexico"
+    ],
+    "pt": [
+      "quincena demanda ride-hailing LATAM",
+      "pico demanda quinzena app táxi México",
+      "pricing quinzenal plataforma mobilidade regional",
+      "dia de pagamento demanda transporte regional",
+      "evento demanda previsível ride-hailing",
+      "padrão mensal demanda app táxi LATAM",
+      "aumento quinzenal operação mobilidade México"
+    ]
+  },
+  "author": {
+    "name": "Equipo Cabgo",
+    "role": {
+      "es": "Plataforma de movilidad",
+      "en": "Mobility platform",
+      "pt": "Plataforma de mobilidade"
+    }
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "En una operación de ride-hailing regional en México o Centroamérica, el 15 y el último día hábil de cada mes no son fechas administrativas: son eventos de demanda. En mercados donde la quincena —el ciclo salarial de pago cada 15 días— es la estructura dominante de ingreso de los trabajadores formales e informales, el momento en que el sueldo llega a la mano produce un desplazamiento predecible en el consumo discrecional de las 24 a 48 horas siguientes. En ride-hailing, ese desplazamiento se traduce en un uplift de demanda del 12 al 28% respecto al mismo día de semana y franja horaria del período intermedio, concentrado principalmente en viajes nocturnos hacia zonas de ocio y en un pasajero con menor sensibilidad al precio que en el resto del mes. La diferencia con otros picos de demanda —la lluvia, el fin de semana, un evento masivo— es que la quincena no requiere ningún tipo de pronóstico: el 15 siempre es el 15, y el fin de mes siempre llega.",
+        "en": "In a regional ride-hailing operation in Mexico or Central America, the 15th and last business day of each month are not administrative dates — they are demand events. In markets where the quincena — the fortnightly salary payment cycle — is the dominant income structure for formal and informal workers, the moment wages arrive in hand produces a predictable shift in discretionary spending over the following 24 to 48 hours. In ride-hailing, that shift translates into a demand uplift of 12 to 28% compared to the same weekday and time slot in the mid-month period, concentrated primarily in evening trips toward leisure zones and a passenger with noticeably lower price sensitivity than the rest of the month. The difference from other demand peaks — rain, the weekend, a mass event — is that the quincena requires no forecasting: the 15th is always the 15th, and month-end always arrives.",
+        "pt": "Em uma operação de ride-hailing regional no México ou na América Central, o dia 15 e o último dia útil de cada mês não são datas administrativas: são eventos de demanda. Em mercados onde a quincena — o ciclo salarial quinzenal — é a estrutura de renda dominante para trabalhadores formais e informais, o momento em que o salário chega às mãos produz uma mudança previsível no consumo discricionário nas 24 a 48 horas seguintes. No ride-hailing, essa mudança se traduz em um aumento de demanda de 12 a 28% em relação ao mesmo dia da semana e faixa horária do período intermediário, concentrado principalmente em corridas noturnas para zonas de lazer e em um passageiro com sensibilidade de preço notavelmente menor do que no restante do mês. A diferença em relação a outros picos de demanda — chuva, fim de semana, evento de massa — é que a quincena não requer nenhum tipo de previsão: o dia 15 é sempre o dia 15, e o fim do mês sempre chega."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Este artículo está dirigido al operador con 15 a 60 conductores activos en ciudades donde el ciclo quincenal de pago es la norma —principalmente México y Centroamérica—, sin tener un proceso diferenciado para esas fechas en su calendario operativo. Cubre por qué el ciclo de pago genera demanda marginal en ride-hailing y qué mecanismo económico lo explica; cómo cambia el perfil del viaje en días de quincena —hora de solicitud, destino, distancia media, elasticidad al precio—; en qué ventana temporal exacta se produce el uplift y cómo decae después del pico; cómo estructurar un ajuste de pricing anticipado que los conductores ven antes de decidir si trabajan ese bloque nocturno; cómo afecta la quincena a la disponibilidad de la flota; y qué consulta al agente produce el mapa histórico de demanda quincenal en tu ciudad para confirmar si el patrón existe y cuántos viajes adicionales por mes representa. La tesis es concreta: la quincena es el evento de demanda más fácil de anticipar que tiene una operación regional en LATAM, y la mayoría de los operadores lo tratan como un miércoles ordinario.",
+        "en": "This article is for operators with 15 to 60 active drivers in cities where the bi-monthly payroll cycle is the norm — primarily Mexico and Central America — without a differentiated process for those dates in their operational calendar. It covers why the payroll cycle generates marginal demand in ride-hailing and what economic mechanism explains it; how the trip profile changes on quincena days — request timing, destination, average distance, price elasticity; in what exact time window the uplift occurs and how it decays after the peak; how to structure an anticipatory pricing adjustment that drivers see before deciding whether to work that evening block; how the quincena affects fleet availability; and what agent query produces the historical quincena demand map in your city to confirm whether the pattern exists and how many additional trips per month it represents. The thesis is concrete: the quincena is the easiest demand event to anticipate in a regional LATAM operation, and most operators treat it like any other Wednesday.",
+        "pt": "Este artigo é voltado ao operador com 15 a 60 motoristas ativos em cidades onde o ciclo quinzenal de pagamento é a norma — principalmente México e América Central —, sem ter um processo diferenciado para essas datas em seu calendário operacional. Ele cobre por que o ciclo de pagamento gera demanda marginal no ride-hailing e qual mecanismo econômico o explica; como muda o perfil da corrida nos dias de quincena — horário da solicitação, destino, distância média, elasticidade de preço; em qual janela temporal exata ocorre o aumento e como ele decai após o pico; como estruturar um ajuste de pricing antecipado que os motoristas veem antes de decidir se trabalham naquele bloco noturno; como a quincena afeta a disponibilidade da frota; e qual consulta ao agente produz o mapa histórico de demanda quinzenal na sua cidade para confirmar se o padrão existe e quantas corridas adicionais por mês ele representa. A tese é concreta: a quincena é o evento de demanda mais fácil de antecipar em uma operação regional na LATAM, e a maioria dos operadores a trata como qualquer outra quarta-feira."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "quincena-genera-demanda-marginal-ride-hailing",
+      "text": {
+        "es": "Por qué el ciclo de pago genera demanda marginal en ride-hailing",
+        "en": "Why the payroll cycle generates marginal demand in ride-hailing",
+        "pt": "Por que o ciclo de pagamento gera demanda marginal no ride-hailing"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El mecanismo es de consumo marginal: cuando el trabajador formal o informal recibe su quincena, el ingreso disponible para el gasto discrecional aumenta durante un período de 24 a 72 horas antes de que los pagos fijos —renta, servicios, deudas— absorban la mayoría del saldo. En ese período, el pasajero que normalmente camina 4 cuadras, espera el transporte público o decide no salir por la noche opta por hacer lo que no hace habitualmente: ir al restaurante, encontrarse con amigos, o simplemente moverse con mayor comodidad. En operaciones regionales en ciudades de 150,000 a 500,000 habitantes en México y Centroamérica, el pasajero marginal activado por la quincena —el que sí usa la plataforma ese día pero no la usaría en un miércoles ordinario del período intermedio— puede representar el 8 al 20% del total de solicitudes en los bloques nocturnos del 15 y el último día hábil del mes. Ese pasajero no es un usuario nuevo: es un usuario registrado que en el período intermedio no tiene el ingreso disponible para la decisión discrecional de tomar un taxi.",
+        "en": "The mechanism is one of marginal consumption: when a formal or informal worker receives their quincena, disposable income available for discretionary spending increases for 24 to 72 hours before fixed payments — rent, utilities, debts — absorb most of the balance. In that window, the passenger who would normally walk 4 blocks, wait for public transit, or decide not to go out at night chooses to do what they wouldn't do on an average day: go to a restaurant, meet friends, or simply move with greater comfort. In regional operations in cities of 150,000 to 500,000 residents in Mexico and Central America, the marginal passenger activated by the quincena — the one who does use the platform that day but wouldn't on a regular mid-month Wednesday — can represent 8 to 20% of total requests in the evening blocks on the 15th and last business day of the month. That passenger is not a new user: they are a registered user who in the mid-month period lacks the disposable income for the discretionary decision to take a cab.",
+        "pt": "O mecanismo é de consumo marginal: quando o trabalhador formal ou informal recebe sua quincena, a renda disponível para gastos discricionários aumenta por 24 a 72 horas antes que os pagamentos fixos — aluguel, serviços, dívidas — absorvam a maior parte do saldo. Nesse período, o passageiro que normalmente caminharia 4 quarteirões, esperaria o transporte público ou decidiria não sair à noite opta por fazer o que normalmente não faz: ir ao restaurante, encontrar amigos ou simplesmente se deslocar com mais conforto. Em operações regionais em cidades de 150.000 a 500.000 habitantes no México e na América Central, o passageiro marginal ativado pela quincena — o que usa a plataforma naquele dia mas não usaria em uma quarta-feira ordinária do período intermediário — pode representar 8 a 20% do total de solicitações nos blocos noturnos do dia 15 e do último dia útil do mês. Esse passageiro não é um usuário novo: é um usuário cadastrado que no período intermediário não tem renda disponível para a decisão discricionária de pegar um táxi."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Un segundo factor amplifica el efecto: la quincena reduce la sensibilidad al precio del pasajero de forma temporal. El operador que activa un recargo del 1.2x al 1.4x en los bloques nocturnos del 15 y el fin de mes en zonas de ocio no ve la caída de conversión que produce ese mismo recargo en un martes ordinario del período intermedio. En el período intermedio, el pasajero que evalúa el costo de la carrera frente al costo del transporte público hace el cálculo con un presupuesto más ajustado y elige la alternativa más barata con mayor frecuencia. En días de quincena, ese mismo pasajero hace el cálculo con un presupuesto momentáneamente más amplio y acepta el recargo si la plataforma ofrece disponibilidad inmediata. La elasticidad de precio de los días de quincena es 15 a 25 puntos porcentuales más baja que en el mismo horario del período intermedio, lo que significa que el recargo produce menos cancelaciones y que el ingreso por viaje del conductor sube sin la pérdida proporcional de conversión que produciría ese recargo en una fecha ordinaria.",
+        "en": "A second factor amplifies the effect: the quincena temporarily lowers passenger price sensitivity. The operator who activates a 1.2x to 1.4x surcharge in evening blocks on the 15th and month-end in leisure zones does not see the conversion drop that the same surcharge produces on a regular mid-month Tuesday. In the mid-month period, the passenger evaluating the trip cost against public transit makes the calculation with a tighter budget and chooses the cheaper option more often. On quincena days, that same passenger makes the calculation with a momentarily larger budget and accepts the surcharge if the platform delivers immediate availability. Price elasticity on quincena days is 15 to 25 percentage points lower than in the same time slot during the mid-month period, meaning the surcharge produces fewer cancellations and driver income per trip rises without the proportional conversion loss that surcharge would produce on a regular date.",
+        "pt": "Um segundo fator amplifica o efeito: a quincena reduz temporariamente a sensibilidade de preço do passageiro. O operador que ativa um adicional de 1,2x a 1,4x nos blocos noturnos do dia 15 e do fim do mês em zonas de lazer não vê a queda de conversão que esse mesmo adicional produz em uma terça-feira ordinária do período intermediário. No período intermediário, o passageiro que avalia o custo da corrida frente ao transporte público faz o cálculo com um orçamento mais apertado e escolhe a alternativa mais barata com maior frequência. Nos dias de quincena, esse mesmo passageiro faz o cálculo com um orçamento momentaneamente mais amplo e aceita o adicional se a plataforma oferece disponibilidade imediata. A elasticidade de preço nos dias de quincena é 15 a 25 pontos percentuais mais baixa do que no mesmo horário do período intermediário, o que significa que o adicional produz menos cancelamentos e a receita por corrida do motorista sobe sem a perda proporcional de conversão que esse adicional produziria em uma data ordinária."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "perfil-viaje-quincena-nocturno-destino",
+      "text": {
+        "es": "El perfil del viaje de quincena: nocturno, más largo, destino distinto",
+        "en": "The quincena trip profile: nocturnal, longer, different destination",
+        "pt": "O perfil da corrida de quincena: noturno, mais longo, destino diferente"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El viaje de quincena tiene un perfil medible que se aleja del viaje ordinario en tres dimensiones. La primera es la hora de solicitud: en días de quincena, el uplift de demanda se concentra en los bloques de las 7 PM a la 1 AM, con el pico entre las 9 PM y las 11 PM. Durante las horas diurnas y la mañana, el volumen de solicitudes en días de quincena es prácticamente igual al de un día comparable del período intermedio —el ingreso recibido todavía no se ha convertido en gasto discrecional, porque la mayoría de los trabajadores reciben su pago al final del día laboral o en las primeras horas de la tarde—. La segunda dimensión es la distancia: el viaje nocturno de quincena es en promedio un 20 al 35% más largo que el viaje nocturno del período intermedio. La explicación está en el destino: el pasajero de quincena va a restaurantes o zonas de ocio que en muchos mercados regionales están más alejados de las zonas residenciales que el destino habitual de semana —trabajo, tienda, trámites—.",
+        "en": "The quincena trip has a measurable profile that departs from the ordinary trip in three dimensions. The first is request timing: on quincena days, the demand uplift concentrates in the 7 PM to 1 AM blocks, with the peak between 9 PM and 11 PM. During daytime and morning hours, request volume on quincena days is practically identical to that of a comparable mid-month period day — the received income has not yet converted to discretionary spending, because most workers receive payment at the end of the workday or in the early afternoon. The second dimension is distance: the quincena evening trip is on average 20 to 35% longer than the mid-month period evening trip. The explanation is the destination: the quincena passenger is going to restaurants or leisure zones that in many regional markets are farther from residential areas than the typical weekday destination — work, a store, an errand.",
+        "pt": "A corrida de quincena tem um perfil mensurável que se afasta da corrida ordinária em três dimensões. A primeira é o horário da solicitação: nos dias de quincena, o aumento de demanda se concentra nos blocos das 19h à 1h, com o pico entre 21h e 23h. Durante o horário diurno e a manhã, o volume de solicitações nos dias de quincena é praticamente igual ao de um dia comparável do período intermediário — a renda recebida ainda não se converteu em gasto discricionário, pois a maioria dos trabalhadores recebe o pagamento no final do dia de trabalho ou no início da tarde. A segunda dimensão é a distância: a corrida noturna de quincena é em média 20 a 35% mais longa do que a corrida noturna do período intermediário. A explicação está no destino: o passageiro de quincena vai a restaurantes ou zonas de lazer que em muitos mercados regionais estão mais distantes das zonas residenciais do que o destino habitual de semana — trabalho, mercado, tarefas."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La tercera dimensión es la tasa de cancelación del pasajero: en días de quincena, la tasa de cancelación antes de la asignación es entre 10 y 18 puntos porcentuales más baja que en el mismo bloque horario de un día ordinario del período intermedio. El pasajero que abre la app un martes del período intermedio a las 10 PM para ir a cenar con amigos cancela si no hay asignación en 3 a 4 minutos —ese viaje es opcional y el umbral de paciencia es bajo—. El mismo pasajero el día 15 a las 10 PM tiene una intención más firme: tomó la decisión de salir a celebrar la quincena y la probabilidad de que espere 5 a 7 minutos es mayor porque el costo de no obtener el viaje —quedarse sin salir, buscar una alternativa más lenta— tiene más peso que en una noche de semana ordinaria. Esa menor tasa de cancelación tiene un efecto directo en la productividad de los conductores: más asignaciones completadas por hora, con menor tiempo dedicado a viajes que se cancelan antes de la llegada.",
+        "en": "The third dimension is passenger cancellation rate: on quincena days, the pre-assignment cancellation rate is 10 to 18 percentage points lower than in the same time block on a regular mid-month period day. The passenger who opens the app on a mid-month Tuesday at 10 PM to go to dinner with friends cancels if there's no assignment in 3 to 4 minutes — that trip is optional and the patience threshold is low. That same passenger on the 15th at 10 PM has a firmer intention: they made the decision to go out and celebrate the quincena, and the probability of waiting 5 to 7 minutes is higher because the cost of not getting the trip — staying home, seeking a slower alternative — carries more weight than on a regular weeknight. That lower cancellation rate has a direct effect on driver productivity: more completed assignments per hour, with less time spent on trips that cancel before arrival.",
+        "pt": "A terceira dimensão é a taxa de cancelamento do passageiro: nos dias de quincena, a taxa de cancelamento antes da atribuição é 10 a 18 pontos percentuais mais baixa do que no mesmo bloco horário de um dia ordinário do período intermediário. O passageiro que abre o app em uma terça-feira do período intermediário às 22h para ir jantar com amigos cancela se não houver atribuição em 3 a 4 minutos — essa corrida é opcional e o limiar de paciência é baixo. O mesmo passageiro no dia 15 às 22h tem uma intenção mais firme: tomou a decisão de sair para celebrar a quincena e a probabilidade de esperar 5 a 7 minutos é maior porque o custo de não obter a corrida — ficar em casa, buscar uma alternativa mais lenta — tem mais peso do que em uma noite de semana ordinária. Essa menor taxa de cancelamento tem efeito direto na produtividade dos motoristas: mais atribuições concluídas por hora, com menos tempo dedicado a corridas que cancelam antes da chegada."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "ventana-temporal-uplift-quincena-dias",
+      "text": {
+        "es": "La ventana temporal del uplift quincenal: cuándo sube y cuándo regresa al nivel base",
+        "en": "The quincena uplift time window: when demand rises and when it returns to baseline",
+        "pt": "A janela temporal do aumento quinzenal: quando a demanda sobe e quando retorna ao nível base"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El uplift de demanda de la quincena no ocurre exactamente el día 15: tiene una distribución temporal que el operador debe conocer para posicionar los incentivos correctamente. La noche previa —el 14 o el penúltimo día hábil del mes— registra ya un incremento leve del 5 al 10% en los bloques nocturnos, porque parte de los trabajadores recibieron el pago con un día de anticipación o porque la expectativa del cobro activa la decisión de salir. La noche del día 15 o del último día hábil del mes es el pico principal: un incremento del 12 al 28% en el volumen de solicitudes de las 7 PM a la 1 AM, dependiendo del tamaño del mercado y de la concentración de trabajadores formales con quincena fija. La noche siguiente —el 16 o el primer día del mes— muestra un uplift residual del 6 al 12% que decae hacia el promedio a medida que los pagos fijos absorben el saldo disponible. A partir de ese punto, la demanda vuelve al nivel base del período intermedio hasta la siguiente quincena.",
+        "en": "The quincena demand uplift doesn't occur exactly on the 15th: it has a temporal distribution that operators need to know to position incentives correctly. The prior night — the 14th or the second-to-last business day of the month — already shows a mild 5 to 10% increase in evening blocks, because some workers received payment a day early or because the anticipation of the payment activates the decision to go out. The night of the 15th or last business day of the month is the main peak: a 12 to 28% increase in request volume from 7 PM to 1 AM, depending on market size and the concentration of formal workers with a fixed quincena date. The following night — the 16th or first of the month — shows a residual uplift of 6 to 12% that decays toward the average as fixed payments absorb the available balance. From that point, demand returns to the mid-month baseline until the next quincena.",
+        "pt": "O aumento de demanda da quincena não ocorre exatamente no dia 15: tem uma distribuição temporal que o operador deve conhecer para posicionar os incentivos corretamente. A noite anterior — o dia 14 ou o penúltimo dia útil do mês — já registra um aumento leve de 5 a 10% nos blocos noturnos, porque parte dos trabalhadores recebeu o pagamento um dia antes ou porque a expectativa do recebimento ativa a decisão de sair. A noite do dia 15 ou do último dia útil do mês é o pico principal: um aumento de 12 a 28% no volume de solicitações das 19h à 1h, dependendo do tamanho do mercado e da concentração de trabalhadores formais com data de quincena fixa. A noite seguinte — o dia 16 ou o primeiro do mês — mostra um aumento residual de 6 a 12% que decai em direção à média à medida que os pagamentos fixos absorvem o saldo disponível. A partir desse ponto, a demanda retorna ao nível base do período intermediário até a próxima quincena."
+      }
+    },
+    {
+      "type": "list",
+      "style": "bullet",
+      "intro": {
+        "es": "Los cinco patrones del ciclo quincenal que el operador debe tener en su calendario mensual:",
+        "en": "The five quincena cycle patterns the operator needs in their monthly calendar:",
+        "pt": "Os cinco padrões do ciclo quinzenal que o operador deve ter em seu calendário mensal:"
+      },
+      "items": {
+        "es": [
+          "**Noche del 14 o penúltimo día hábil**: uplift leve del 5-10% en bloques de las 9 PM a la 1 AM. Activar pricing preventivo en zonas de ocio desde las 9 PM para retener conductores conectados antes del pico principal.",
+          "**Noche del 15 o último día hábil**: pico principal de demanda, 12-28% sobre el nivel del período intermedio en los bloques de las 7 PM a la 1 AM. Mayor concentración en zonas de restaurantes, bares y plaza. Momento de menor elasticidad de precio del pasajero.",
+          "**Noche del 16 o primer día del mes**: uplift residual del 6-12%, decayendo hacia el nivel base. Mantener pricing moderado hasta las 11 PM y desactivar después para no gravar un bloque que ya regresó al nivel ordinario.",
+          "**Días intermedios (2 al 13 y 17 al 28)**: nivel base de demanda y pricing estándar. El contraste con los bloques quincenales es más visible en mercados con patrón de demanda relativamente plano entre semana.",
+          "**Diciembre, fin de mes**: el aguinaldo amplifica el uplift final de diciembre. En las noches del 20 al 31, el efecto quincenal se superpone con el efecto de aguinaldo y navidad, produciendo los picos de demanda nocturna más altos del año —entre el 35 y el 60% sobre el nivel base del período intermedio de noviembre—."
+        ],
+        "en": [
+          "**Night of the 14th or second-to-last business day**: mild 5-10% uplift in the 9 PM to 1 AM blocks. Activate preventive pricing in leisure zones from 9 PM to retain connected drivers before the main peak.",
+          "**Night of the 15th or last business day**: main demand peak, 12-28% above the mid-month level in the 7 PM to 1 AM blocks. Highest concentration in restaurant, bar, and plaza zones. Moment of lowest passenger price elasticity.",
+          "**Night of the 16th or first of the month**: residual 6-12% uplift, decaying toward baseline. Maintain moderate pricing until 11 PM; deactivate after to avoid taxing a block that has returned to ordinary levels.",
+          "**Mid-month days (2nd through 13th, 17th through 28th)**: base demand level and standard pricing. The contrast with quincena blocks is more visible in markets with a relatively flat weekday demand pattern.",
+          "**December, month-end**: the aguinaldo (year-end bonus) amplifies the December month-end uplift. On evenings from the 20th through 31st, the quincena effect overlaps with the aguinaldo and Christmas effect, producing the highest evening demand peaks of the year — 35 to 60% above the mid-month baseline of November."
+        ],
+        "pt": [
+          "**Noite do dia 14 ou penúltimo dia útil**: aumento leve de 5-10% nos blocos das 21h à 1h. Ativar pricing preventivo em zonas de lazer a partir das 21h para reter motoristas conectados antes do pico principal.",
+          "**Noite do dia 15 ou último dia útil**: pico principal de demanda, 12-28% acima do nível do período intermediário nos blocos das 19h à 1h. Maior concentração em zonas de restaurantes, bares e praça. Momento de menor elasticidade de preço do passageiro.",
+          "**Noite do dia 16 ou primeiro do mês**: aumento residual de 6-12%, decaindo em direção ao nível base. Manter pricing moderado até as 23h e desativar depois para não onerar um bloco que já retornou ao nível ordinário.",
+          "**Dias intermediários (2 a 13 e 17 a 28)**: nível base de demanda e pricing padrão. O contraste com os blocos quinzenais é mais visível em mercados com padrão de demanda relativamente plano durante a semana.",
+          "**Dezembro, fim de mês**: o décimo terceiro amplifica o aumento do fim de dezembro. Nas noites de 20 a 31, o efeito quinzenal se sobrepõe ao efeito do décimo terceiro e Natal, produzindo os picos de demanda noturna mais altos do ano — entre 35 e 60% acima do nível base do período intermediário de novembro."
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "pricing-quincenal-anticipado-no-reactivo",
+      "text": {
+        "es": "Cómo anticipar el pico quincenal con pricing de calendario, no reactivo",
+        "en": "How to anticipate the quincena peak with calendar pricing, not reactive adjustment",
+        "pt": "Como antecipar o pico quinzenal com pricing de calendário, não reativo"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La diferencia operativa entre el pricing quincenal y el pricing de lluvia es que el primero puede programarse en el calendario con 30 días de anticipación —sin necesidad de ningún pronóstico externo—, mientras que el segundo requiere una revisión diaria del tiempo. En operaciones con acceso a la configuración de pricing por franja horaria, el ajuste de quincena tiene tres componentes: el rango de fechas —noches del 14, 15 y 16 y sus equivalentes de fin de mes—; el rango horario —de las 7 PM a la 1 AM, no durante el día—; y la zona geográfica —exclusivamente las zonas de ocio, restaurantes y plaza, no las zonas residenciales o comerciales de acceso masivo—. Aplicar el recargo en zonas residenciales el día de quincena es un error: el pasajero que va de casa al trabajo o al banco esa mañana no tiene la elasticidad reducida del pasajero nocturno de ocio, y el recargo innecesario en ese bloque genera cancelaciones que reducen la conversión sin producir el ingreso adicional que justificaría el ajuste.",
+        "en": "The operational difference between quincena pricing and rain pricing is that the former can be scheduled on the calendar 30 days in advance — without any external forecast — while the latter requires a daily weather review. In operations with pricing configuration by time slot, the quincena adjustment has three components: the date range — evenings of the 14th, 15th, and 16th and their month-end equivalents; the time range — 7 PM to 1 AM, not during the day; and the geographic zone — exclusively leisure zones, restaurants, and the main square, not residential or mass-access commercial zones. Applying the surcharge in residential zones on quincena day is an error: the passenger going from home to work or the bank that morning does not have the reduced elasticity of the evening leisure passenger, and the unnecessary surcharge in that block generates cancellations that reduce conversion without producing the additional income that would justify the adjustment.",
+        "pt": "A diferença operacional entre o pricing quinzenal e o pricing de chuva é que o primeiro pode ser programado no calendário com 30 dias de antecedência — sem necessidade de qualquer previsão externa —, enquanto o segundo requer uma revisão diária do tempo. Em operações com configuração de pricing por faixa horária, o ajuste quinzenal tem três componentes: o intervalo de datas — noites do 14, 15 e 16 e seus equivalentes de fim de mês; o intervalo horário — das 19h à 1h, não durante o dia; e a zona geográfica — exclusivamente as zonas de lazer, restaurantes e praça, não as zonas residenciais ou comerciais de acesso massivo. Aplicar o adicional em zonas residenciais no dia de quincena é um erro: o passageiro que vai de casa ao trabalho ou ao banco naquela manhã não tem a elasticidade reduzida do passageiro noturno de lazer, e o adicional desnecessário naquele bloco gera cancelamentos que reduzem a conversão sem produzir a receita adicional que justificaria o ajuste."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El mecanismo por el que el pricing anticipado funciona mejor que el reactivo en quincena es el mismo que en lluvia: el conductor que ve el recargo activado desde las 7 PM de la noche del 14 —antes de que empiece el pico— toma la decisión de conectarse en ese bloque con información económica disponible. El conductor que recibe el recargo como reacción a las primeras solicitudes no atendidas a las 9:30 PM ya puede estar a 8 km de la zona de mayor demanda o haber tomado otro viaje largo que lo alejó del corredor de ocio. En operaciones donde el recargo nocturno de quincena se activa a las 7 PM en lugar de a las 9 PM, la cobertura de conductores en las zonas de ocio a las 9 PM es entre un 20 y un 35% mayor que cuando el recargo se activa de forma reactiva. El pricing quincenal anticipado no requiere que el operador esté activo en ese momento: se configura una vez por mes —o se repite con fecha fija a través de una regla del sistema—, y el ajuste ocurre sin intervención manual.",
+        "en": "The mechanism by which anticipatory pricing works better than reactive pricing for quincena is the same as for rain: the driver who sees the surcharge activated from 7 PM on the evening of the 14th — before the peak begins — makes the connection decision for that block with economic information available. The driver who receives the surcharge as a reaction to the first unserved requests at 9:30 PM may already be 8 km from the highest-demand zone or have taken a long trip that moved them away from the leisure corridor. In operations where the quincena evening surcharge activates at 7 PM rather than 9 PM, driver coverage in leisure zones at 9 PM is 20 to 35% higher than when the surcharge activates reactively. Anticipatory quincena pricing doesn't require the operator to be active in that moment: it's configured once per month — or repeated with a fixed date through a system rule — and the adjustment happens without manual intervention.",
+        "pt": "O mecanismo pelo qual o pricing antecipado funciona melhor do que o reativo na quincena é o mesmo que na chuva: o motorista que vê o adicional ativado a partir das 19h da noite do dia 14 — antes do início do pico — toma a decisão de se conectar naquele bloco com informação econômica disponível. O motorista que recebe o adicional como reação às primeiras solicitações não atendidas às 21h30 pode já estar a 8 km da zona de maior demanda ou ter aceitado uma corrida longa que o afastou do corredor de lazer. Em operações onde o adicional noturno quinzenal é ativado às 19h em vez de às 21h, a cobertura de motoristas nas zonas de lazer às 21h é 20 a 35% maior do que quando o adicional é ativado de forma reativa. O pricing quinzenal antecipado não requer que o operador esteja ativo naquele momento: é configurado uma vez por mês — ou repetido com data fixa por meio de uma regra do sistema — e o ajuste ocorre sem intervenção manual."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "conductores-quincena-oferta-bloque-nocturno",
+      "text": {
+        "es": "La disponibilidad de conductores en quincena: el bloque tardío que necesita su propio incentivo",
+        "en": "Driver availability on quincena: the late block that needs its own incentive",
+        "pt": "A disponibilidade de motoristas na quincena: o bloco tardio que precisa de seu próprio incentivo"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El efecto de la quincena sobre la disponibilidad de conductores es más complejo que sobre la demanda, y varía según el perfil de la flota. Los conductores de tiempo completo —los que dependen de la plataforma como fuente principal de ingresos— tienden a trabajar el bloque nocturno de quincena de forma activa si el recargo está visible antes de las 7 PM, porque saben que el ingreso esperado de esa noche es 20 al 30% mayor que el de un bloque nocturno ordinario de entre semana. Los conductores de tiempo parcial —los que tienen otra fuente de ingreso principal— muestran un comportamiento variable: algunos trabajan más en quincena porque anticipan mayor densidad de solicitudes; otros trabajan menos porque ya tienen el ingreso del día y la motivación de salir a trabajar de noche es menor. La resultante neta en la mayoría de las operaciones regionales es un aumento modesto en el número de conductores disponibles en la franja de las 7 PM a las 10 PM en días de quincena —del orden del 5 al 15%—, seguido de una caída en la franja de las 10 PM a la 1 AM que en algunos mercados deja la oferta por debajo del nivel de demanda en el pico más tardío.",
+        "en": "The quincena's effect on driver availability is more complex than on demand, and varies by fleet profile. Full-time drivers — those who depend on the platform as their primary income source — tend to work the quincena evening block actively if the surcharge is visible before 7 PM, because they know the expected income for that night is 20 to 30% higher than a regular weekday evening block. Part-time drivers — those with another primary income source — show variable behavior: some work more on quincena days because they anticipate higher request density; others work less because they already have their day's income and the motivation to go out and work at night is lower. The net result in most regional operations is a modest increase in available drivers in the 7 PM to 10 PM window on quincena days — on the order of 5 to 15% — followed by a drop in the 10 PM to 1 AM window that in some markets leaves supply below demand level in the later peak.",
+        "pt": "O efeito da quincena sobre a disponibilidade de motoristas é mais complexo do que sobre a demanda, e varia conforme o perfil da frota. Os motoristas de tempo integral — os que dependem da plataforma como fonte principal de renda — tendem a trabalhar o bloco noturno de quincena ativamente se o adicional estiver visível antes das 19h, pois sabem que a renda esperada dessa noite é 20 a 30% maior do que a de um bloco noturno ordinário de semana. Os motoristas de meio período — os que têm outra fonte de renda principal — apresentam comportamento variável: alguns trabalham mais na quincena porque antecipam maior densidade de solicitações; outros trabalham menos porque já têm a renda do dia e a motivação de sair trabalhar à noite é menor. O resultado líquido na maioria das operações regionais é um aumento modesto no número de motoristas disponíveis na faixa das 19h às 22h nos dias de quincena — da ordem de 5 a 15% —, seguido de uma queda na faixa das 22h à 1h que em alguns mercados deixa a oferta abaixo do nível de demanda no pico mais tardio."
+      }
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "text": {
+        "es": "Un incentivo de 70 a 90 MXN por completar al menos 3 viajes en el bloque de las 10 PM a la 1 AM en días de quincena produce la señal correcta para los conductores de tiempo parcial que de otro modo se desconectarían después de las 10 PM. A diferencia del incentivo de lluvia —que compensa el costo de trabajar en condiciones incómodas—, el incentivo de quincena tardía compensa la inercia de quedarse en casa cuando ya se cumplió la cuota del día y el bloque adicional de demanda ocurre tarde.",
+        "en": "An incentive of 70 to 90 MXN for completing at least 3 trips in the 10 PM to 1 AM block on quincena days produces the right signal for part-time drivers who would otherwise disconnect after 10 PM. Unlike the rain incentive — which compensates for the cost of working in uncomfortable conditions — the quincena late-night incentive compensates for the inertia of staying home when the day's quota has been met and the additional demand block occurs late.",
+        "pt": "Um incentivo de 70 a 90 MXN por completar pelo menos 3 corridas no bloco das 22h à 1h nos dias de quincena produz o sinal correto para os motoristas de meio período que de outra forma se desconectariam após as 22h. Diferente do incentivo de chuva — que compensa o custo de trabalhar em condições desconfortáveis —, o incentivo de quincena tardio compensa a inércia de ficar em casa quando a cota do dia já foi cumprida e o bloco adicional de demanda ocorre mais tarde."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "consulta-agente-patron-quincenal-operacion",
+      "text": {
+        "es": "La consulta al agente que confirma si el patrón quincenal existe en tu operación",
+        "en": "The agent query that confirms whether the quincena pattern exists in your operation",
+        "pt": "A consulta ao agente que confirma se o padrão quinzenal existe na sua operação"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Antes de configurar un pricing diferenciado para quincena, el operador debe verificar que el patrón existe en su mercado —la magnitud del efecto varía según la composición del mercado laboral local—. La consulta al agente que produce esa verificación: «Para los últimos 90 días, identifica todos los días que sean 14, 15, 16, penúltimo o último día hábil del mes, o primer día del mes. Compáralos con los días de la misma semana que no caigan en ninguna de esas categorías —por ejemplo, los martes quincenales vs los martes no quincenales del mismo período—. Para cada grupo de comparación, muéstrame el volumen promedio de solicitudes en el bloque de las 7 PM a la 1 AM, la tasa de completación, el tiempo de viaje promedio, y las tres zonas con mayor concentración de solicitudes en ese bloque. Indica qué porcentaje de los días quincenales tiene un volumen de solicitudes en ese bloque superior en más del 10% al promedio del grupo de comparación.» Si 2 o 3 de los 3 ciclos analizados muestran uplift consistente, el patrón existe y el ajuste de pricing tiene retorno medible.",
+        "en": "Before configuring differentiated quincena pricing, the operator should verify that the pattern exists in their market — the magnitude of the effect varies by local labor market composition. The agent query that produces that verification: 'For the last 90 days, identify all days that are the 14th, 15th, 16th, second-to-last business day, last business day, or first of the month. Compare them against days of the same weekday that don't fall in any of those categories — for example, quincena Tuesdays vs regular non-quincena Tuesdays in the same period. For each comparison group, show average request volume in the 7 PM to 1 AM block, completion rate, average trip duration, and the three zones with the highest request concentration in that block. Indicate what percentage of quincena days have request volume in that block more than 10% above the comparison group average.' If 2 or 3 of the 3 cycles analyzed show consistent uplift, the pattern exists and the pricing adjustment has measurable return.",
+        "pt": "Antes de configurar um pricing diferenciado para a quincena, o operador deve verificar se o padrão existe em seu mercado — a magnitude do efeito varia conforme a composição do mercado de trabalho local. A consulta ao agente que produz essa verificação: «Para os últimos 90 dias, identifique todos os dias que sejam o 14, 15, 16, penúltimo ou último dia útil do mês, ou primeiro dia do mês. Compare-os com os dias da mesma semana que não se enquadram em nenhuma dessas categorias — por exemplo, as terças quinzenais vs as terças não quinzenais do mesmo período. Para cada grupo de comparação, mostre o volume médio de solicitações no bloco das 19h à 1h, a taxa de conclusão, a duração média da corrida e as três zonas com maior concentração de solicitações naquele bloco. Indique qual percentual dos dias quinzenais tem volume de solicitações naquele bloco superior em mais de 10% à média do grupo de comparação.» Se 2 ou 3 dos 3 ciclos analisados mostrarem aumento consistente, o padrão existe e o ajuste de pricing tem retorno mensurável."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La consulta complementaria que calibra si el pricing quincenal estuvo bien ajustado en el ciclo anterior: «Para los últimos 3 ciclos quincenales, compara el ingreso por conductor activo en el bloque de las 7 PM a la 1 AM de los días quincenales con el ingreso del mismo bloque en los días de la misma semana del período intermedio más cercano. Muestra también la diferencia en la tasa de rechazo del conductor entre los días quincenales y los días de comparación, y si la tasa de completación quincenal fue mayor, menor o igual en los últimos 3 ciclos.» Ese resultado permite decidir si el recargo estuvo correctamente calibrado —mayor ingreso por conductor sin caída de conversión—, si fue excesivo —mayor tasa de cancelación del pasajero que en el período intermedio—, o si fue insuficiente —sin diferencia de ingreso respecto al período intermedio en ese bloque—. Las dos consultas juntas toman 10 minutos de revisión y producen el diagnóstico para ajustar el calendario quincenal del mes siguiente antes de que empiece.",
+        "en": "The complementary query that calibrates whether the quincena pricing was well-adjusted in the prior cycle: 'For the last 3 quincena cycles, compare driver income per active driver in the 7 PM to 1 AM block on quincena days against income in the same block on nearest mid-month comparison days of the same weekday. Also show the difference in driver rejection rate between quincena days and comparison days, and whether the quincena completion rate was higher, lower, or equal in the last 3 cycles.' That result allows deciding whether the surcharge was correctly calibrated — higher per-driver income without conversion drop — excessive — higher passenger cancellation rate than in the mid-month period — or insufficient — no income difference versus the mid-month period in that block. Both queries together take 10 minutes of review and produce the diagnostic to adjust the next month's quincena calendar before it starts.",
+        "pt": "A consulta complementar que calibra se o pricing quinzenal foi bem ajustado no ciclo anterior: «Para os últimos 3 ciclos quinzenais, compare a receita por motorista ativo no bloco das 19h à 1h nos dias quinzenais com a receita do mesmo bloco nos dias da mesma semana do período intermediário mais próximo. Mostre também a diferença na taxa de rejeição do motorista entre os dias quinzenais e os dias de comparação, e se a taxa de conclusão quinzenal foi maior, menor ou igual nos últimos 3 ciclos.» Esse resultado permite decidir se o adicional foi calibrado corretamente — maior receita por motorista sem queda de conversão —, se foi excessivo — maior taxa de cancelamento do passageiro do que no período intermediário — ou insuficiente — sem diferença de receita em relação ao período intermediário naquele bloco. As duas consultas juntas levam 10 minutos de revisão e produzem o diagnóstico para ajustar o calendário quinzenal do mês seguinte antes que ele comece."
+      }
+    },
+    {
+      "type": "quote",
+      "text": {
+        "es": "Llevaba 11 meses de operación y nunca había conectado los picos de un martes a medianoche con el día de quincena. Mi coordinadora me dijo que los conductores siempre pedían turno extra los 15 porque 'hay más movimiento'. Le pregunté al agente que comparara mis martes quincenales con los martes regulares en los últimos tres meses. En los tres martes 15, el volumen de las 8 PM a la 1 AM era entre el 19 y el 24% más alto que en los otros martes, y mi tasa de completación era 7 puntos más baja porque no tenía conductores en el corredor de restaurantes. Activé un recargo de 1.35x desde las 7 PM de los días 14 y 15 y mandé el mensaje de posicionamiento a 8 conductores esa tarde. El siguiente ciclo quincenal mi completación en ese bloque subió del 71% al 88%.",
+        "en": "After 11 months of operation I had never connected the midnight Tuesday spikes to quincena day. My coordinator mentioned that drivers always asked for an extra shift on the 15th because 'there's more movement.' I asked the agent to compare my quincena Tuesdays against regular Tuesdays in the prior three months. In all three 15th-day Tuesdays, request volume from 8 PM to 1 AM was 19 to 24% higher than on other Tuesdays, and my completion rate was 7 points lower because I had no drivers in the restaurant corridor. I activated a 1.35x surcharge from 7 PM on the 14th and 15th and sent the positioning message to 8 drivers that afternoon. The next quincena cycle my completion rate in that block went from 71% to 88%.",
+        "pt": "Após 11 meses de operação, nunca havia conectado os picos de terça à meia-noite com o dia de quincena. Minha coordenadora disse que os motoristas sempre pediam turno extra no dia 15 porque 'há mais movimento'. Pedi ao agente para comparar minhas terças quinzenais com as terças regulares nos últimos três meses. Nas três terças do dia 15, o volume das 20h à 1h era 19 a 24% maior do que nas outras terças, e minha taxa de conclusão estava 7 pontos mais baixa porque não tinha motoristas no corredor de restaurantes. Ativei um adicional de 1,35x a partir das 19h dos dias 14 e 15 e enviei a mensagem de posicionamento para 8 motoristas naquela tarde. No ciclo quinzenal seguinte minha taxa de conclusão naquele bloco subiu de 71% para 88%."
+      },
+      "attribution": {
+        "es": "Operadora con 15 meses de operación en una ciudad de 210,000 habitantes en Michoacán, México",
+        "en": "Operator with 15 months of operation in a city of 210,000 in Michoacán, Mexico",
+        "pt": "Operadora com 15 meses de operação em uma cidade de 210.000 habitantes em Michoacán, México"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La quincena no necesita un protocolo complejo: necesita un lugar en el calendario mensual del operador. A diferencia de la lluvia —que requiere revisar el pronóstico cada tarde durante la temporada—, o del fin de semana —que tiene su propia lógica de cobertura fija—, la quincena tiene fecha conocida con 30 días de anticipación y sus dos parámetros operativos son predecibles: el pricing nocturno en zonas de ocio y el incentivo para el bloque tardío de los conductores que de otro modo se desconectan antes de que el pico alcance su máximo. El operador que configura esos dos ajustes una vez al inicio de cada mes —cuatro fechas, dos configuraciones de pricing, dos mensajes de posicionamiento para cada ciclo— convierte el evento quincenal de un pico ignorado en el bloque de mayor ingreso por hora activa de esa semana para los conductores que lo trabajan.",
+        "en": "The quincena doesn't need a complex protocol: it needs a place in the operator's monthly calendar. Unlike rain — which requires checking the forecast each afternoon during the season — or the weekend — which has its own fixed coverage logic — the quincena has a date known 30 days in advance and its two operational parameters are predictable: evening pricing in leisure zones and an incentive for the late block covering the drivers who would otherwise disconnect before the peak reaches its maximum. The operator who configures those two adjustments once at the start of each month — four dates, two pricing configurations, two positioning messages for each cycle — converts the quincena event from an ignored peak into the highest income-per-active-hour block of that week for the drivers who work it.",
+        "pt": "A quincena não precisa de um protocolo complexo: precisa de um lugar no calendário mensal do operador. Diferente da chuva — que requer verificar a previsão a cada tarde durante a temporada — ou do fim de semana — que tem sua própria lógica de cobertura fixa —, a quincena tem data conhecida com 30 dias de antecedência e seus dois parâmetros operacionais são previsíveis: pricing noturno em zonas de lazer e incentivo para o bloco tardio cobrindo os motoristas que de outra forma se desconectariam antes de o pico atingir seu máximo. O operador que configura esses dois ajustes uma vez no início de cada mês — quatro datas, duas configurações de pricing, duas mensagens de posicionamento para cada ciclo — transforma o evento quinzenal de um pico ignorado na janela de maior receita por hora ativa daquela semana para os motoristas que a trabalham."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Las dos métricas que determinan si el ciclo quincenal está siendo capturado son simples: el volumen de solicitudes completadas en el bloque de quincena frente al mismo bloque de la semana anterior —sin quincena—, y el ingreso por hora activa del conductor en ese bloque frente al promedio del mes. Si el bloque quincenal produce un 12 al 28% más de solicitudes completadas y el ingreso por conductor en ese bloque es 15 al 25% mayor que en el período intermedio, el ciclo está capturado. Si las dos cifras son iguales al período intermedio, el operador está ignorando el evento de demanda más predecible de su mes. El agente que tiene esos datos disponibles para la revisión del lunes convierte el diagnóstico quincenal en parte del proceso de revisión semanal regular —no en un análisis adicional—, y el operador que lo ejecuta cada mes tiene una ventana de ingreso anticipada que sus competidores probablemente no tienen en su calendario.",
+        "en": "The two metrics that determine whether the quincena cycle is being captured are simple: the volume of completed requests in the quincena block compared to the same block in the prior non-quincena week, and driver income per active hour in that block compared to the monthly average. If the quincena block produces 12 to 28% more completed requests and driver income in that block is 15 to 25% higher than in the mid-month period, the cycle is being captured. If both figures match the mid-month period, the operator is ignoring the most predictable demand event of their month. The agent that has those data points available for the Monday review turns the quincena diagnostic into part of the regular weekly review process — not an additional analysis — and the operator who runs it each month has an anticipated revenue window that their competitors likely don't have on their calendar.",
+        "pt": "As duas métricas que determinam se o ciclo quinzenal está sendo capturado são simples: o volume de solicitações concluídas no bloco quinzenal em comparação com o mesmo bloco da semana anterior — sem quincena —, e a receita por hora ativa do motorista naquele bloco em comparação com a média do mês. Se o bloco quinzenal produz 12 a 28% mais solicitações concluídas e a receita por motorista naquele bloco é 15 a 25% maior do que no período intermediário, o ciclo está sendo capturado. Se ambos os números se igualam ao período intermediário, o operador está ignorando o evento de demanda mais previsível de seu mês. O agente que tem esses dados disponíveis para a revisão de segunda-feira transforma o diagnóstico quinzenal em parte do processo de revisão semanal regular — não uma análise adicional —, e o operador que o executa a cada mês tem uma janela de receita antecipada que seus concorrentes provavelmente não têm em seu calendário."
+      }
+    }
+  ],
+  "cta": {
+    "heading": {
+      "es": "¿Listo para lanzar tu propia app de movilidad?",
+      "en": "Ready to launch your own mobility app?",
+      "pt": "Pronto para lançar seu próprio app de mobilidade?"
+    },
+    "body": {
+      "es": "Configura tu marca, tus tarifas y tus servicios en semanas, no en meses. Cabgo te entrega la plataforma; tú te quedas con la operación, los clientes y los ingresos.",
+      "en": "Set up your brand, pricing and services in weeks, not months. Cabgo ships the platform — you keep the operation, the customers and the revenue.",
+      "pt": "Configure sua marca, suas tarifas e seus serviços em semanas, não em meses. A Cabgo entrega a plataforma; você fica com a operação, os clientes e a receita."
+    },
+    "buttonLabel": {
+      "es": "Comenzar con Cabgo",
+      "en": "Get started with Cabgo",
+      "pt": "Começar com a Cabgo"
+    },
+    "buttonHref": "/empezar"
+  },
+  "seo": {
+    "metaTitle": {
+      "es": "Quincena y demanda en ride-hailing: patrón mensual | Cabgo",
+      "en": "Payday demand patterns in ride-hailing LATAM | Cabgo",
+      "pt": "Quincena e demanda no ride-hailing LATAM | Cabgo"
+    },
+    "metaDescription": {
+      "es": "En LATAM, el 15 y el último día del mes generan un pico de demanda del 12-28% concentrado en viajes de ocio. Cómo anticiparlo con pricing y posicionamiento.",
+      "en": "In LATAM, the 15th and month-end generate a 12-28% demand spike focused on leisure trips. How to anticipate it with pricing and driver positioning.",
+      "pt": "Na LATAM, o dia 15 e o fim do mês geram um pico de demanda de 12-28% concentrado em corridas de lazer. Como antecipá-lo com pricing e posicionamento."
+    }
+  }
+}
