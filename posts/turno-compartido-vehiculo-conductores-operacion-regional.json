@@ -1,0 +1,267 @@
+{
+  "slug": "turno-compartido-vehiculo-conductores-operacion-regional",
+  "category": "strategy",
+  "title": {
+    "es": "Turno compartido: cómo gestionar dos conductores en un mismo vehículo sin perder el control de la operación",
+    "en": "Shared shifts: how to manage two drivers in the same vehicle without losing operational control"
+  },
+  "excerpt": {
+    "es": "En LATAM, el 30-60% de las flotas regionales opera con turno compartido: dos conductores por vehículo, día y noche. Gestionarlo en una plataforma digital requiere protocolos distintos al modelo de conductor único.",
+    "en": "In LATAM, 30-60% of regional fleets operate under shared shifts: two drivers per vehicle, day and night. Managing it on a digital platform requires different protocols from the single-driver model."
+  },
+  "heroImage": "https://raw.githubusercontent.com/jonatanvazquez/cabgo-blog-content/main/images/turno-compartido-vehiculo-conductores-operacion-regional.jpg",
+  "heroImageAlt": {
+    "es": "Ilustración isométrica dividida. Izquierda: conductor en gris apagado saliendo del vehículo con reloj mostrando '6:00 PM', flecha ámbar de traspaso curva. Derecha: conductor en teal entrando al mismo vehículo con smartphone mostrando sesión activa. Primer plano: dos barras de viajes por hora —'conductor día' 14 viajes en ámbar, 'conductor noche' 3 viajes en rojo— bajo el ícono de vehículo compartido, con tarjeta violeta de advertencia flotando.",
+    "en": "Split isometric illustration. Left: a muted gray driver exiting the vehicle with a clock showing '6:00 PM' and an amber handoff arrow curving right. Right: a teal driver entering the same vehicle with a smartphone showing an active session. Foreground: two trips-per-hour bars — 'conductor día' with 14 amber trip icons, 'conductor noche' with 3 red trip icons — under a shared vehicle icon, with a floating violet warning card."
+  },
+  "heroImagePrompt": "Split isometric composition. Left half: a vehicle icon with a clock showing '6:00 PM'. A driver silhouette in muted gray steps away from the vehicle door, handing over a key. An amber curved handoff arrow points from left to right. Right half: a second driver silhouette in vibrant teal steps into the same vehicle, a smartphone icon shows a green 'session active' badge on the platform. In the foreground: two compact vertical bar charts side by side beneath a shared vehicle icon — left bar labeled 'conductor día' showing 14 amber trip icons stacked tall, right bar labeled 'conductor noche' showing 3 red trip icons stacked short. A violet warning card floats above with an exclamation icon and '2x diferencia'. A subtle indigo diagnostic line connects the two bars. Deep violet floor grid, soft indigo radial background glow, clean geometric shapes, subtle shadows. Negative space on the lower right.",
+  "publishedAt": "2026-07-24",
+  "readingMinutes": 9,
+  "keywords": {
+    "es": [
+      "turno compartido conductores ride-hailing regional",
+      "gestión flota turno día noche plataforma movilidad",
+      "rendimiento conductor vs vehículo ride-hailing LATAM",
+      "protocolo traspaso turno operación taxi app México",
+      "incentivos conductores turno compartido operación regional",
+      "brecha cobertura traspaso turno ride-hailing",
+      "métricas conductor turno compartido movilidad LATAM"
+    ],
+    "en": [
+      "shared shift drivers ride-hailing regional",
+      "fleet management day night shift mobility platform",
+      "driver vs vehicle performance measurement ride-hailing LATAM",
+      "shift handoff protocol taxi app operation Mexico",
+      "shared vehicle driver incentives regional mobility platform",
+      "coverage gap shift handoff ride-hailing operation",
+      "per-driver metrics shared shift mobility LATAM"
+    ]
+  },
+  "author": {
+    "name": "Equipo Cabgo",
+    "role": {
+      "es": "Plataforma de movilidad",
+      "en": "Mobility platform"
+    }
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "En los mercados de ride-hailing regional en México y Centroamérica, una proporción significativa de las flotas opera bajo el modelo de turno compartido: el mismo vehículo tiene dos conductores registrados que alternan turnos —día y noche— cubriendo entre 16 y 20 horas de operación diaria. Este modelo, heredado de la cultura del taxi tradicional y económicamente eficiente para el propietario del vehículo, representa el 30 al 60% de los vehículos en muchas flotas regionales. Cuando un operador migra esa flota a una plataforma de ride-hailing, enfrenta una fricción inmediata: la plataforma asigna viajes y mide rendimiento a nivel de conductor, pero la flota está estructurada a nivel de vehículo. El resultado es un problema de medición sistemático: el promedio de viajes, calificaciones y tasa de cancelación que aparece por vehículo mezcla el rendimiento de dos conductores distintos sin distinguir cuándo trabajó cada uno ni en qué condiciones de demanda operó su turno.",
+        "en": "In regional ride-hailing markets across Mexico and Central America, a significant share of fleets operates under the shared-shift model: the same vehicle has two registered drivers alternating shifts — day and night — covering 16 to 20 daily operating hours. This model, inherited from traditional taxi culture and economically efficient for the vehicle owner, accounts for 30 to 60% of vehicles in many regional fleets. When an operator migrates that fleet to a ride-hailing platform, they face an immediate friction: the platform assigns trips and measures performance at the driver level, but the fleet is structured at the vehicle level. The result is a systematic measurement problem: the average trips, ratings, and cancellation rate showing per vehicle blends the performance of two different drivers without distinguishing when each worked or under what demand conditions their shift operated."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Este artículo está dirigido al operador con 15 a 60 vehículos en su flota donde el 30% o más opera bajo un arreglo de turno compartido, sin tener un proceso diferenciado para coordinar los traspasos de turno, medir el rendimiento por conductor en lugar de por vehículo, o diseñar incentivos que funcionen para dos perfiles distintos que comparten el mismo activo. Cubre los dos modelos económicos del turno compartido en LATAM —renta diaria fija y reparto de ingresos— y sus implicaciones para el comportamiento del conductor en plataforma; cómo estructurar el registro de conductores para que los datos de rendimiento sean atribuibles a la persona correcta; qué protocolo de traspaso de turno reduce las brechas de cobertura en el cambio de conductor; cómo diseñar incentivos que funcionen para perfiles de tiempo completo y tiempo parcial que comparten el mismo vehículo; y qué consulta al agente produce el diagnóstico que separa el rendimiento del conductor del timing del turno. La tesis es directa: el turno compartido no es una versión degradada del modelo de conductor único —es una estructura de flota con su propia lógica económica, y gestionarlo como si fuera un modelo de conductor único produce errores de medición que llevan a conclusiones equivocadas.",
+        "en": "This article is for operators with 15 to 60 vehicles in their fleet where 30% or more operate under a shared-shift arrangement, without a differentiated process for coordinating shift handoffs, measuring performance at the driver level rather than the vehicle level, or designing incentives that work for two distinct profiles sharing the same asset. It covers the two economic models of shared shifts in LATAM — fixed daily rental and revenue split — and their implications for driver behavior on the platform; how to structure driver registration so performance data is attributable to the right person; what shift handoff protocol reduces coverage gaps during driver changeover; how to design incentives that work for both full-time and part-time profiles sharing the same vehicle; and what agent query produces the diagnostic that separates driver performance from shift timing. The thesis is direct: the shared-shift model is not a degraded version of the single-driver model — it is a fleet structure with its own economic logic, and managing it as if it were a single-driver model produces measurement errors that lead to wrong conclusions."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "dos-modelos-economicos-turno-compartido-latam",
+      "text": {
+        "es": "Los dos modelos económicos del turno compartido: renta fija y reparto de ingresos",
+        "en": "The two economic models of shared shifts: fixed rental and revenue split"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El modelo de renta diaria fija es el más común en mercados donde la cultura del taxi propietario está consolidada. El dueño del vehículo cobra al conductor un monto fijo por operar el auto durante su turno —en operaciones regionales de México, ese monto oscila entre 250 y 450 MXN por turno de 8 a 10 horas, independientemente de cuántos viajes complete. El conductor retiene todo el ingreso generado por encima de esa renta. Para el propietario, la ventaja es la certidumbre: recibe su ingreso diario sin importar si la demanda estuvo alta o baja. Para el conductor, la implicación operativa es un punto de equilibrio psicológico: necesita generar al menos el valor de la renta antes de empezar a ganar. Un conductor con renta de 350 MXN que opera con una tarifa promedio de 75 MXN necesita completar 4 a 5 viajes para «salir a mano» —y eso configura su comportamiento en las primeras horas del turno: alta presión para completar viajes rápidamente, menor tolerancia a la espera entre solicitudes, y tendencia a rechazar viajes largos que alejarían al conductor de las zonas de mayor densidad.",
+        "en": "The fixed daily rental model is the most common in markets where the owner-operator taxi culture is established. The vehicle owner charges the driver a fixed amount to operate the car during their shift — in regional operations in Mexico, that amount ranges from 250 to 450 MXN per 8-to-10-hour shift, regardless of how many trips are completed. The driver keeps all income generated above that rental. For the owner, the advantage is certainty: they receive their daily income regardless of whether demand was high or low. For the driver, the operational implication is a psychological break-even point: they need to generate at least the rental amount before they start earning. A driver with a 350 MXN rental working at an average fare of 75 MXN needs to complete 4 to 5 trips just to break even — and this shapes their behavior in the first hours of the shift: high pressure to complete trips quickly, lower tolerance for waiting between requests, and a tendency to reject long trips that would take the driver away from high-density zones."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El modelo de reparto de ingresos divide la recaudación entre el conductor y el propietario en una proporción pactada —típicamente 65/35 o 70/30 a favor del conductor—. A diferencia de la renta fija, el ingreso de ambas partes escala con el volumen de viajes, lo que alinea mejor los incentivos: el propietario también se beneficia cuando el conductor completa más viajes, y el conductor no tiene la presión del punto de equilibrio fijo. El comportamiento del conductor bajo reparto tiende a ser más conservador: sin la urgencia de cubrir una renta, hay menos presión en las primeras horas y más disponibilidad para aceptar viajes de cualquier distancia. Para el operador de la plataforma, el modelo de reparto produce un patrón de actividad más estable pero potencialmente menos intenso que el de renta fija. En mercados donde el operador tiene control sobre qué modelo usan sus afiliados, el reparto funciona mejor en fines de semana y noches de alta demanda —cuando el conductor tiene tiempo de completar el volumen que hace el modelo rentable para ambos. La renta fija tiene mejor desempeño en bloques de alta densidad diurna donde el conductor puede superar fácilmente el punto de equilibrio en las primeras 2 a 3 horas del turno.",
+        "en": "The revenue-split model divides collected fares between the driver and vehicle owner at an agreed ratio — typically 65/35 or 70/30 in favor of the driver. Unlike the fixed rental, both parties' income scales with trip volume, which better aligns incentives: the owner also benefits when the driver completes more trips, and the driver faces no fixed break-even pressure. Driver behavior under revenue split tends to be more conservative: without the urgency of covering a rental, there is less pressure in the first hours and more willingness to accept trips of any distance. For the platform operator, the revenue-split model produces a more stable but potentially less intensive activity pattern than the fixed rental. In markets where the operator controls which model their affiliates use, revenue split performs better on weekends and high-demand nights — when the driver has time to complete the volume that makes the model viable for both parties. Fixed rental performs better in high-density daytime blocks where the driver can easily surpass break-even in the first 2 to 3 hours of the shift."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "problema-medir-rendimiento-por-vehiculo",
+      "text": {
+        "es": "El problema de medir el rendimiento por vehículo en lugar de por conductor",
+        "en": "The problem with measuring performance by vehicle instead of by driver"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Cuando un vehículo compartido registra 9 viajes en el día y una calificación promedio de 4.4 estrellas, esa cifra es operativamente inútil para el operador. No indica cuántos viajes hizo el conductor diurno ni cuántos el nocturno. No revela si el 4.4 es el promedio de un conductor con 4.8 y otro con 4.0, o si ambos rondaron el 4.4 de forma independiente. Tampoco muestra si la tasa de cancelación fue uniforme entre turnos o si un conductor rechazó sistemáticamente viajes que el otro habría aceptado. En una flota de 40 vehículos donde 18 operan en turno compartido, ese problema de agregación puede ocultar 4 a 6 conductores individuales con rendimiento problemático dentro de vehículos que «parecen normales» en el promedio del dashboard. El operador que actúa sobre el promedio del vehículo nunca identifica al conductor específico que necesita atención; y el conductor de alto rendimiento del mismo vehículo paga el costo de esa ambigüedad: recibe menos reconocimiento e incentivos diferenciados de los que debería.",
+        "en": "When a shared vehicle records 9 trips in a day with a 4.4-star average rating, that figure is operationally useless for the operator. It doesn't indicate how many trips the day-shift driver completed versus the night-shift driver. It doesn't reveal whether the 4.4 average results from one driver rated 4.8 and another rated 4.0, or whether both independently hovered around 4.4. It also doesn't show whether the cancellation rate was uniform across shifts or whether one driver systematically rejected trips the other would have accepted. In a fleet of 40 vehicles where 18 operate under shared shifts, that aggregation problem can hide 4 to 6 individual drivers with problematic performance inside vehicles that look normal on the dashboard average. The operator who acts on vehicle-level averages never identifies the specific driver who needs attention; and the high-performing driver of the same vehicle pays the cost of that ambiguity: receiving less recognition and fewer differentiated incentives than they should."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La solución técnica es simple pero requiere disciplina operativa: cada conductor debe estar registrado de forma individual en la plataforma con su propio perfil, y cada turno debe iniciar con un proceso de inicio de sesión explícito —el conductor activa su turno desde su propio perfil, no desde el perfil del vehículo o del socio propietario. Con ese registro, todos los viajes y calificaciones de la sesión quedan atribuidos al conductor que estaba activo en ese momento. El dashboard del vehículo puede seguir mostrando el consolidado —útil para el propietario del activo—, pero el operador tiene acceso a datos individuales por conductor. En operaciones que implementan este protocolo, el tiempo de configuración inicial es de 15 a 30 minutos por par de conductores. La información diferencial que produce —comparación de rendimiento entre turno diurno y nocturno del mismo vehículo, identificación de brechas de calificación, diagnóstico de cancelaciones por conductor específico— es la base para todas las decisiones de gestión que el turno compartido requiere.",
+        "en": "The technical solution is simple but requires operational discipline: every driver must be registered individually on the platform with their own profile, and every shift must begin with an explicit login — the driver activates their shift from their own profile, not from the vehicle profile or the partner-owner's profile. With that registration in place, all trips and ratings during the session are attributed to the driver who was active at that moment. The vehicle dashboard can still display the consolidated view — useful for the asset owner — but the operator has access to individual driver-level data. In operations that implement this protocol, the initial setup time is 15 to 30 minutes per driver pair. The differential information it produces — performance comparison between day and night shift of the same vehicle, identification of rating gaps, cancellation diagnosis per specific driver — is the foundation for all management decisions that shared-shift operations require."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "protocolo-traspaso-brechas-cobertura",
+      "text": {
+        "es": "El protocolo de traspaso: las brechas de cobertura que nadie mide",
+        "en": "The handoff protocol: the coverage gaps nobody measures"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El momento más vulnerable de una operación de turno compartido no es el pico de demanda ni la noche tardía: es el traspaso de turno. En una flota donde el turno diurno termina a las 6 PM y el nocturno empieza a las 7 PM, hay una brecha de 60 minutos donde el vehículo está disponible físicamente pero ningún conductor activo lo tiene. En 40 vehículos con turno compartido, eso puede representar hasta 40 vehículos simultáneamente fuera de cobertura en la primera hora de la tarde, exactamente cuando la demanda empieza a subir hacia su pico vespertino. Esa brecha no siempre aparece como «vehículo inactivo» en el dashboard si el conductor saliente no cierra sesión antes de entregar las llaves —un error operativo frecuente—, lo que genera atribución incorrecta de viajes al turno equivocado y confunde el diagnóstico de rendimiento.",
+        "en": "The most vulnerable moment in a shared-shift operation is not the demand peak or the late evening: it is the shift handoff. In a fleet where the day shift ends at 6 PM and the night shift starts at 7 PM, there is a 60-minute gap where the vehicle is physically available but no active driver has it. Across 40 shared-shift vehicles, that can mean up to 40 vehicles simultaneously out of coverage during the first hour of the afternoon — exactly when demand begins rising toward its evening peak. That gap doesn't always appear as 'vehicle inactive' on the dashboard if the outgoing driver doesn't log out before handing over the keys — a frequent operational error — which generates incorrect trip attribution to the wrong shift and confuses the performance diagnostic."
+      }
+    },
+    {
+      "type": "list",
+      "style": "bullet",
+      "intro": {
+        "es": "Los cuatro elementos del protocolo de traspaso que reducen las brechas de cobertura en un turno compartido:",
+        "en": "The four elements of the shift handoff protocol that reduce coverage gaps in a shared-shift operation:"
+      },
+      "items": {
+        "es": [
+          "**Cierre de sesión obligatorio antes del traspaso**: el conductor saliente cierra su sesión en la plataforma antes de entregar las llaves. Sin este paso, los viajes del turno entrante quedan atribuidos al perfil del saliente, mezclando los datos de rendimiento de ambos turnos en el mismo registro.",
+          "**Inicio de sesión inmediato del conductor entrante**: el conductor nocturno activa su perfil antes de salir del punto de traspaso. El vehículo reaparece en la cobertura desde el primer minuto del turno, no después de que el conductor llegue a la zona de demanda.",
+          "**Verificación rápida del vehículo al inicio del turno**: nivel de combustible, estado de la aplicación y cualquier incidencia mecánica. Si el vehículo tiene problemas que afectan la operación, el conductor entrante los notifica al operador en ese momento —no después de perder el primer bloque de demanda.",
+          "**Zona de inicio del turno nocturno comunicada con 30 minutos de anticipación**: el operador envía la instrucción de posicionamiento inicial al conductor nocturno antes del inicio del turno para que llegue directamente a la zona de mayor densidad de solicitudes, en lugar de empezar en el punto de traspaso que puede estar lejos del corredor de demanda vespertina."
+        ],
+        "en": [
+          "**Mandatory logout before handoff**: the outgoing driver closes their platform session before handing over the keys. Without this step, trips from the incoming driver's shift are attributed to the outgoing driver's profile, mixing performance data from both shifts in the same record.",
+          "**Immediate login by the incoming driver**: the night driver activates their profile before leaving the handoff point. The vehicle reappears in coverage from the first minute of the new shift, not after the driver arrives at the demand zone.",
+          "**Quick vehicle check at shift start**: fuel level, app status, and any mechanical incident. If the vehicle has issues affecting operation, the incoming driver notifies the operator at that moment — not after losing the first demand block.",
+          "**Night-shift starting zone communicated 30 minutes in advance**: the operator sends the initial positioning instruction to the night driver before shift start so they go directly to the highest request-density zone, instead of starting at the handoff point which may be far from the evening demand corridor."
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "incentivos-dos-perfiles-turno-compartido",
+      "text": {
+        "es": "Incentivos para dos perfiles distintos que comparten un mismo activo",
+        "en": "Incentives for two distinct profiles sharing the same asset"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El error más frecuente en el diseño de incentivos para flotas con turno compartido es aplicar el mismo bono a ambos conductores del mismo vehículo. Un incentivo de «completa 15 viajes hoy y gana 120 MXN» funciona razonablemente para el conductor diurno con un turno de 10 horas y demanda alta desde las 8 AM. No funciona para el conductor nocturno que empieza a las 6 PM y tiene 5 horas de turno, con una distribución de demanda concentrada en dos bloques —7 PM a 9 PM y 10 PM a la 1 AM— separados por un valle intermedio de menor densidad de solicitudes. Con ese patrón, 15 viajes en 5 horas requieren una tasa de completación de 3 viajes por hora en los bloques de alta demanda, alcanzable pero exigente. Muchos conductores nocturnos no logran esa meta con el tiempo efectivo disponible, lo que hace que el incentivo no active el comportamiento deseado —conectarse más horas— sino que produzca frustración al final del turno.",
+        "en": "The most common error in incentive design for shared-shift fleets is applying the same bonus to both drivers of the same vehicle. An incentive for 'complete 15 trips today and earn 120 MXN' works reasonably well for the day driver with a 10-hour shift and strong demand from 8 AM. It doesn't work for the night driver who starts at 6 PM and has a 5-hour shift, with demand concentrated in two blocks — 7 PM to 9 PM and 10 PM to 1 AM — separated by a mid-evening valley of lower request density. With that pattern, 15 trips in 5 hours require a 3-trip-per-hour completion rate during high-demand blocks, achievable but demanding. Many night drivers cannot reach that target within their available effective time, which means the incentive doesn't activate the desired behavior — staying connected longer — but instead produces frustration at the end of the shift."
+      }
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "text": {
+        "es": "El incentivo más efectivo para el turno nocturno en una operación de turno compartido no es el bono de viajes totales del día sino el bono de bloque: «completa 5 viajes entre las 7 PM y las 9 PM» o «completa 4 viajes entre las 10 PM y la 1 AM». Ese diseño se alinea con los bloques de alta demanda del turno nocturno sin requerir que el conductor nocturno compita con el diurno por el total del día.",
+        "en": "The most effective incentive for the night shift in a shared-shift operation is not the daily total trip bonus but the block bonus: 'complete 5 trips between 7 PM and 9 PM' or 'complete 4 trips between 10 PM and 1 AM.' That design aligns with the night shift's high-demand blocks without requiring the night driver to compete with the day driver for the daily total."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "tarifa-minima-turno-compartido-rentabilidad",
+      "text": {
+        "es": "La tarifa mínima viable en operaciones con turno compartido",
+        "en": "The minimum viable fare in shared-shift operations"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "En una operación de turno compartido, la tarifa mínima viable tiene una restricción adicional que el modelo de conductor único no tiene: el vehículo debe generar suficiente ingreso para que tanto el conductor diurno como el nocturno puedan ganar un monto razonable en su turno, después de cubrir la renta o el pago al propietario. Si el ingreso mínimo diario para el conductor diurno es 550 MXN netos después de la renta y para el nocturno 350 MXN netos, y la renta total que paga el propietario suma 600 MXN entre ambos turnos, el vehículo necesita generar al menos 1,500 MXN en tarifa bruta de viajes al día. Con una tarifa promedio de 85 MXN, eso implica 18 viajes diarios. Distribuidos en 18 horas de operación activa, son exactamente 1 viaje por hora activa —un número bajo que el operador puede verificar si está siendo alcanzado actualmente.",
+        "en": "In a shared-shift operation, the minimum viable fare has an additional constraint that the single-driver model doesn't have: the vehicle must generate enough income for both the day and night drivers to earn a reasonable amount during their shift, after covering the rental or owner payment. If the minimum net daily income for the day driver is 550 MXN after rental and for the night driver 350 MXN net, and the total rental paid to the owner sums to 600 MXN across both shifts, the vehicle needs to generate at least 1,500 MXN in gross trip fares per day. At an average fare of 85 MXN, that means 18 trips per day. Distributed across 18 active operating hours, that is exactly 1 trip per active hour — a low bar that the operator can verify whether it is currently being met."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El riesgo aparece cuando la tarifa base es demasiado baja para ese equilibrio. Si la tarifa promedio cae a 65 MXN porque el operador redujo la tarifa mínima de viaje para ganar conversión frente a la competencia, el vehículo necesita 23 viajes diarios para sostener el mismo nivel de ingreso neto para ambos conductores. Esa diferencia de 5 viajes extra distribuidos en 18 horas puede parecer pequeña, pero en un turno nocturno de 5 horas que ya opera en bloques con baja densidad de solicitudes entre las 9 PM y las 10 PM, producir 2 a 3 viajes adicionales implica que el conductor nocturno debe extender su turno o aceptar viajes que lo llevan fuera de su zona preferida. Cuando el modelo no cierra económicamente para el conductor nocturno, el resultado más frecuente es que ese conductor empieza a fallar al inicio de su turno —llega 30 a 60 minutos tarde, genera la brecha de cobertura del traspaso y reduce el ingreso total del vehículo— o simplemente abandona el arreglo de turno compartido en los primeros 60 días.",
+        "en": "The risk appears when the base fare is too low to support that equilibrium. If the average fare drops to 65 MXN because the operator lowered the minimum trip fare to win conversion against competition, the vehicle needs 23 daily trips to sustain the same net income level for both drivers. That difference of 5 extra trips spread across 18 hours may seem small, but in a 5-hour night shift that already operates in blocks with low request density between 9 PM and 10 PM, generating 2 to 3 additional trips means the night driver must extend their shift or accept trips that take them out of their preferred zone. When the model doesn't close economically for the night driver, the most common outcome is that driver starts failing at shift start — arriving 30 to 60 minutes late, creating the handoff coverage gap and reducing the vehicle's total income — or simply abandons the shared-shift arrangement within the first 60 days."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "consulta-agente-rendimiento-conductor-turno",
+      "text": {
+        "es": "La consulta al agente que separa el rendimiento del conductor del timing del turno",
+        "en": "The agent query that separates driver performance from shift timing"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La consulta al agente que produce el diagnóstico diferencial de rendimiento por conductor en flotas de turno compartido: «Para los vehículos de mi flota con dos conductores registrados, muéstrame para los últimos 30 días el promedio de viajes por hora activa, la calificación promedio y la tasa de cancelación del conductor para cada conductor de forma individual. Para cada vehículo, señala los casos donde los dos conductores tienen una diferencia superior a 1.5 puntos en calificación promedio, más del 40% de diferencia en viajes por hora activa, o donde la tasa de cancelación de un conductor supera en más de 10 puntos porcentuales a la del otro. También identifica los vehículos donde hubo más de dos franjas de 60 minutos en las que ningún conductor tenía la sesión activa durante los bloques de las 6 PM a las 9 PM o de las 7 AM a las 10 AM en los últimos 14 días.» Esa consulta produce dos resultados críticos: la lista de conductores con rendimiento significativamente diferente al del compañero de turno del mismo vehículo, y el mapa de brechas de cobertura en los bloques de traspaso.",
+        "en": "The agent query that produces the differential performance diagnostic by driver in shared-shift fleets: 'For vehicles in my fleet with two registered drivers, show me for the last 30 days the average trips per active hour, average rating, and cancellation rate for each driver individually. For each vehicle, flag cases where the two drivers have a difference greater than 1.5 points in average rating, more than 40% difference in trips per active hour, or where one driver's cancellation rate exceeds the other's by more than 10 percentage points. Also identify vehicles where there were more than two 60-minute windows in which neither driver had an active session during the 6 PM to 9 PM or 7 AM to 10 AM blocks in the last 14 days.' That query produces two critical results: the list of drivers with significantly different performance from the shift partner in the same vehicle, and the map of coverage gaps in the handoff blocks."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La consulta complementaria que calibra si el turno nocturno de los vehículos compartidos está capturando su potencial de demanda: «Para los vehículos con dos conductores, compara el ingreso por hora activa del conductor nocturno —turno de las 6 PM en adelante— con el ingreso por hora activa de los conductores nocturnos de vehículos de conductor único que operan en la misma franja horaria y zonas similares. Si el conductor nocturno de los vehículos compartidos tiene un ingreso por hora activa inferior en más del 20% al promedio de los conductores únicos nocturnos, identifica en qué zonas operó ese conductor durante los bloques de las 7 PM a las 10 PM.» Ese resultado determina si la brecha de rendimiento del conductor nocturno es de comportamiento —cancela más, trabaja menos horas— o de posicionamiento —opera en zonas con menos demanda en ese horario. La primera requiere una conversación con el conductor; la segunda, una instrucción de posicionamiento diferente para el turno nocturno.",
+        "en": "The complementary query that calibrates whether the night shift of shared vehicles is capturing its demand potential: 'For vehicles with two drivers, compare the income per active hour of the night-shift driver — shift from 6 PM onward — with the income per active hour of single-driver vehicles' night-shift drivers operating in the same time window and similar zones. If the shared-vehicle night driver has a per-active-hour income more than 20% below the average of solo night drivers, identify which zones that driver operated in during the 7 PM to 10 PM blocks.' That result determines whether the shared-vehicle night driver's performance gap is behavioral — they cancel more, work fewer active hours — or positional — they operate in zones with less demand at that time. The first requires a conversation with the driver; the second requires a different positioning instruction for the night shift."
+      }
+    },
+    {
+      "type": "quote",
+      "text": {
+        "es": "Tenía 22 vehículos en flota y creía que 8 estaban funcionando bien según el promedio de viajes diarios del vehículo. Cuando empecé a separar por conductor, encontré que en 5 de esos 8 vehículos el conductor nocturno hacía menos de 3 viajes en un turno de 5 horas. El diurno hacía 12 o 14; el nocturno, 2 o 3. El promedio del vehículo parecía aceptable. Cuando hablé con los conductores nocturnos de esos 5 vehículos, tres me dijeron que no había viajes en las zonas donde operaban después de las 10 PM. Ajusté el posicionamiento nocturno hacia los corredores de bares y restaurantes y mandé la instrucción de zona al inicio del turno. En seis semanas el ingreso nocturno de esos 5 vehículos subió entre el 32 y el 47%.",
+        "en": "I had 22 vehicles in my fleet and thought 8 were performing well based on the daily vehicle-level trip averages. When I started separating by driver, I found that in 5 of those 8 vehicles the night driver was making fewer than 3 trips in a 5-hour shift. The day driver was completing 12 or 14; the night driver, 2 or 3. The vehicle average looked acceptable. When I spoke with the night drivers of those 5 vehicles, three told me there were no trips in the zones where they operated after 10 PM. I adjusted the night positioning toward bar and restaurant corridors and sent the zone instruction at shift start. In six weeks the nightly income from those 5 vehicles went up between 32 and 47%."
+      },
+      "attribution": {
+        "es": "Operador con 20 meses de operación en una ciudad de 185,000 habitantes en Jalisco, México",
+        "en": "Operator with 20 months of operation in a city of 185,000 in Jalisco, Mexico"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El turno compartido no es un problema de gestión: es una estructura de flota que genera mayor utilización del activo por vehículo que el modelo de conductor único cuando se administra correctamente. Un vehículo que opera 18 a 20 horas al día con dos conductores genera entre el 50 y el 70% más de viajes que el mismo vehículo conducido por un único conductor de tiempo parcial, y el propietario tiene mejor certidumbre de ingreso diario. El desafío de gestión no está en el modelo sino en el vacío de medición: una plataforma que agrega el rendimiento a nivel de vehículo en lugar de a nivel de conductor produce un promedio que hace invisible al conductor que necesita atención. Una vez que ese vacío se cierra con registro individual por conductor, protocolo de inicio de sesión por turno y consultas de agente diferenciadas, el turno compartido tiene más palancas de mejora que el modelo de conductor único: es posible intervenir el turno diurno sin tocar el nocturno, comparar rendimiento dentro del mismo activo e identificar si el problema está en el conductor o en el posicionamiento del turno.",
+        "en": "Shared shifts are not a management problem: they are a fleet structure that generates higher asset utilization per vehicle than the single-driver model when managed correctly. A vehicle operating 18 to 20 hours per day with two drivers generates 50 to 70% more trips than the same vehicle driven by a single part-time driver, and the owner has better daily income certainty. The management challenge is not the model itself but the measurement gap: a platform that aggregates performance at the vehicle level instead of the driver level produces an average that makes the driver who needs attention invisible. Once that gap is closed with individual driver registration, per-shift login protocols, and differentiated agent queries, shared shifts actually offer more improvement levers than the single-driver model: it becomes possible to intervene in the day shift without affecting the night shift, compare performance within the same asset, and identify whether the problem is with the driver or the shift's positioning."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Las dos métricas que revelan si una flota con turno compartido está siendo gestionada correctamente o medida de forma incorrecta son simples: la diferencia en viajes por hora activa entre los dos conductores del mismo vehículo, y la presencia de brechas de traspaso —franjas donde ningún conductor tiene la sesión activa durante bloques de alta demanda. Una flota donde la diferencia de rendimiento entre conductores del mismo vehículo es inferior al 30% en viajes por hora activa tiene ambos turnos con demanda adecuada y ambos conductores bien posicionados. Una flota donde esa diferencia supera el 50% tiene un problema de rendimiento o posicionamiento que el promedio del vehículo nunca va a mostrar. La consulta semanal al agente que produce esa comparación convierte el turno compartido de un punto ciego de gestión en una parte estructuralmente medible y ajustable del calendario operativo: el mismo proceso de revisión que el operador usa para la lluvia o la quincena puede incorporar el diagnóstico semanal de turno compartido sin requerir ningún análisis adicional separado.",
+        "en": "The two metrics that reveal whether a shared-shift fleet is being managed correctly or measured incorrectly are simple: the difference in trips per active hour between the two drivers of the same vehicle, and the presence of handoff gaps — windows where neither driver has an active session during high-demand blocks. A fleet where the performance difference between drivers of the same vehicle is under 30% in trips per active hour has both shifts with adequate demand and both drivers properly positioned. A fleet where that difference exceeds 50% has a performance or positioning problem that the vehicle-level average will never reveal. The weekly agent query that produces that comparison converts the shared-shift model from an operational blind spot into a structurally measurable and adjustable part of the operational calendar: the same review process the operator uses for rain or the quincena can incorporate the weekly shared-shift diagnostic without requiring any additional separate analysis."
+      }
+    }
+  ],
+  "cta": {
+    "heading": {
+      "es": "¿Listo para lanzar tu propia app de movilidad?",
+      "en": "Ready to launch your own mobility app?"
+    },
+    "body": {
+      "es": "Configura tu marca, tus tarifas y tus servicios en semanas, no en meses. Cabgo te entrega la plataforma; tú te quedas con la operación, los clientes y los ingresos.",
+      "en": "Set up your brand, pricing and services in weeks, not months. Cabgo ships the platform — you keep the operation, the customers and the revenue."
+    },
+    "buttonLabel": {
+      "es": "Comenzar con Cabgo",
+      "en": "Get started with Cabgo"
+    },
+    "buttonHref": "/empezar"
+  },
+  "seo": {
+    "metaTitle": {
+      "es": "Turno compartido en ride-hailing: gestión de flota | Cabgo",
+      "en": "Managing shared-shift drivers in ride-hailing | Cabgo"
+    },
+    "metaDescription": {
+      "es": "En LATAM, el 30-60% de las flotas operan con dos conductores por vehículo. Cómo separar el rendimiento por turno, gestionar traspasos y diseñar incentivos.",
+      "en": "In LATAM, 30-60% of fleets have two drivers per vehicle. How to separate performance by shift, close handoff gaps, and design incentives for each profile."
+    }
+  }
+}
