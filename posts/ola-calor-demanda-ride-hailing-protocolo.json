@@ -1,0 +1,269 @@
+{
+  "slug": "ola-calor-demanda-ride-hailing-protocolo",
+  "category": "strategy",
+  "title": {
+    "es": "Ola de calor y operación ride-hailing: el protocolo de mediodía que la lluvia tiene pero el calor extremo todavía no",
+    "en": "Heat waves and ride-hailing operations: the midday protocol rain has but extreme heat still doesn't"
+  },
+  "excerpt": {
+    "es": "El calor extremo por encima de 38°C genera en ciudades de LATAM un pico de demanda al mediodía del 12-22% similar a la lluvia pero más predecible. Casi ningún operador tiene un protocolo de calor.",
+    "en": "Above 38°C, extreme heat in LATAM cities creates a midday demand spike of 12-22% similar to rain but more predictable. Almost no operator has a heat protocol — here's how to build one."
+  },
+  "heroImage": "https://raw.githubusercontent.com/jonatanvazquez/cabgo-blog-content/main/images/ola-calor-demanda-ride-hailing-protocolo.jpg",
+  "heroImageAlt": {
+    "es": "Ilustración isométrica dividida. Izquierda: termómetro mostrando 42°C con brillo rojo radiante, tres pasajeros en calle soleada con sombrero levantando la mano para pedir un viaje. Derecha: vehículo con símbolo AC sobre distrito de mercado con puestos y dos vehículos convergiendo hacia zona de alta demanda con anillos teal pulsantes y reloj ámbar mostrando '12:30 PM'. Primer plano: barras comparando día normal (ámbar corta) vs ola de calor (teal alta) en bloque 11 AM–3 PM con etiqueta '+19%'.",
+    "en": "Split isometric illustration. Left: a thermometer showing 42°C with radiating red heat glow, three passengers on a sunny street wearing hats and raising their hands to request a ride. Right: a vehicle with an AC symbol over a market district with stalls and two cars converging toward a high-demand zone with pulsing teal rings and an amber clock showing '12:30 PM'. Foreground: bars comparing a normal day (short amber) versus a heat wave (tall teal) in the 11 AM–3 PM block with a '+19%' label."
+  },
+  "heroImagePrompt": "Split isometric composition. Left half: a tall thermometer icon with the display showing 42°C and a red heat glow radiating outward in concentric waves, three small passenger silhouettes on a city street in direct sunlight with wide-brim hats, arms raised upward requesting a ride from a floating smartphone icon. An amber-orange sun with bold rays hovers at upper left. Curved arrows lead from the street scene toward the right. Right half: a vehicle icon with a snowflake-AC symbol above it, positioned over a city market district with colorful awning storefronts and vendor stalls visible below, two vehicle icons converging toward the zone with pulsing teal concentric demand rings, and an amber clock icon showing '12:30 PM' in the upper right corner. In the foreground: a compact dual-bar chart comparing 'día normal' as a shorter amber bar versus 'ola de calor' as a taller teal bar labeled '11 AM – 3 PM' with an upward percentage tag reading '+19%'. Deep violet floor grid, soft indigo radial background glow, clean geometric shapes, subtle shadows. Negative space on the lower right.",
+  "publishedAt": "2026-07-25",
+  "readingMinutes": 9,
+  "keywords": {
+    "es": [
+      "ola de calor demanda ride-hailing LATAM",
+      "protocolo calor extremo taxi app México",
+      "pico mediodía demanda movilidad regional calor",
+      "conductores bloque mediodía incentivo calor",
+      "pricing calor extremo plataforma movilidad",
+      "ola calor operación transporte regional México",
+      "calor extremo ride-hailing pico demanda predecible"
+    ],
+    "en": [
+      "heat wave demand ride-hailing LATAM",
+      "extreme heat protocol taxi app Mexico",
+      "midday demand spike mobility operation heat",
+      "driver midday block incentive heat wave",
+      "heat wave pricing mobility platform",
+      "extreme heat regional transport operation LATAM",
+      "predictable heat demand spike ride-hailing"
+    ]
+  },
+  "author": {
+    "name": "Equipo Cabgo",
+    "role": {
+      "es": "Plataforma de movilidad",
+      "en": "Mobility platform"
+    }
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "En ciudades de LATAM donde el calor supera los 38°C durante semanas, el comportamiento del pasajero cambia de la misma forma que lo hace durante la lluvia intensa: el trayecto a pie de cuatro cuadras deja de ser una opción razonable, y la plataforma de ride-hailing pasa de ser un servicio discrecional a ser la alternativa más práctica disponible. En Monterrey, Mérida, Hermosillo, Culiacán, San Salvador y Ciudad de Guatemala, una ola de calor sostenida por más de tres días genera un uplift de demanda del 12 al 22% en los bloques de las 11 AM a las 3 PM, concentrado en zonas de comercio local, mercados municipales y corredores sin sombra. La diferencia con la lluvia no es la magnitud del efecto sino la estructura temporal: mientras la lluvia produce un pico de 45 a 90 minutos que desaparece cuando escampa, la ola de calor sostiene ese nivel de demanda elevada durante toda la jornada de mediodía por varios días consecutivos. Y casi ningún operador tiene un protocolo de calor.",
+        "en": "In LATAM cities where heat exceeds 38°C for days at a stretch, passenger behavior shifts in the same way it does during heavy rain: the 4-block walk stops being a reasonable option, and the ride-hailing platform moves from a discretionary service to the most practical alternative available. In Monterrey, Mérida, Hermosillo, Culiacán, San Salvador, and Guatemala City, a heat wave sustained for more than three days generates a demand uplift of 12 to 22% in the 11 AM to 3 PM blocks, concentrated in local commercial zones, municipal markets, and corridors without shade. The difference from rain is not the magnitude of the effect but its temporal structure: rain produces a 45-to-90-minute peak that vanishes when it clears, while a heat wave sustains that elevated demand level across the full midday stretch for several consecutive days. And almost no operator has a heat protocol."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Este artículo está dirigido al operador con 15 a 60 conductores activos en ciudades con temporada de calor definida —principalmente el norte y el pacífico de México, Yucatán y buena parte de Centroamérica—, sin tener un proceso diferenciado para las olas de calor en su calendario operativo. Cubre por qué el calor extremo genera demanda marginal en ride-hailing y en qué se diferencia estructuralmente de la lluvia; cuándo ocurre el pico de mediodía y qué zonas lo concentran; cómo posicionar conductores en el bloque más impopular del día; qué ajuste de pricing funciona sin generar la percepción de cobro abusivo al pasajero que tiene pocas alternativas; y qué consulta al agente permite confirmar si el patrón de calor existe en tu operación histórica. La tesis es directa: el calor extremo es el segundo evento climático de demanda en importancia en muchos mercados de LATAM, y el operador que tiene protocolo de lluvia pero no tiene protocolo de calor está gestionando la mitad del año climático correctamente.",
+        "en": "This article is for operators with 15 to 60 active drivers in cities with a defined hot season — primarily northern and Pacific Mexico, the Yucatán Peninsula, and much of Central America — without a differentiated process for heat waves in their operational calendar. It covers why extreme heat generates marginal ride-hailing demand and how it differs structurally from rain; when the midday peak occurs and which zones concentrate it; how to position drivers during the least popular block of the day; what pricing adjustment works without creating the perception of price-gouging passengers who have few alternatives; and what agent query confirms whether the heat pattern exists in your historical operation. The thesis is direct: extreme heat is the second most important climate demand event in many LATAM markets, and the operator who has a rain protocol but no heat protocol is managing half the climate year correctly."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "por-que-calor-extremo-genera-demanda-ride-hailing",
+      "text": {
+        "es": "Por qué el calor extremo genera demanda de ride-hailing: el mecanismo que no es obvio",
+        "en": "Why extreme heat generates ride-hailing demand: the mechanism that isn't obvious"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Para entender el impacto del calor en la demanda de ride-hailing, hay que identificar quién no usaría la plataforma en un día ordinario pero sí la usa cuando hay 40°C. El pasajero típico en una ciudad regional de México o Centroamérica hace caminatas utilitarias de 5 a 15 minutos para llegar al mercado, la parada del camión, la farmacia o la escuela de sus hijos. En un día con temperatura de 28 a 32°C y humedad moderada, esa caminata es incómoda pero aceptable. En un día de 40°C con humedad relativa del 60 al 80% —condición frecuente en Mérida o San Salvador entre marzo y junio—, la misma caminata representa un riesgo real de golpe de calor para adultos mayores, niños y trabajadores que ya llevan horas en ambientes calurosos. El pasajero marginal que activa la demanda adicional en una ola de calor es ese usuario que en días normales no abre la app porque prefiere caminar: el vendedor del mercado que termina su turno a las 2 PM, el padre que recoge a su hijo de la escuela al mediodía, el adulto mayor que tiene una cita médica, el trabajador informal que opera en zonas sin sombra.",
+        "en": "To understand heat's impact on ride-hailing demand, you need to identify who would not use the platform on a regular day but does when temperatures hit 40°C. The typical passenger in a regional Mexican or Central American city makes utilitarian walks of 5 to 15 minutes to reach a market, a bus stop, a pharmacy, or their child's school. At 28 to 32°C with moderate humidity, that walk is uncomfortable but acceptable. At 40°C with 60 to 80% relative humidity — a common condition in Mérida or San Salvador from March through June — the same walk poses a real heat-stroke risk for elderly adults, children, and workers who have already spent hours in hot environments. The marginal passenger activated by a heat wave is the user who normally doesn't open the app because they'd rather walk: the market vendor finishing their shift at 2 PM, the parent picking up their child from school at noon, the elderly adult with a medical appointment, the informal worker operating in shadeless zones."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El mecanismo es de sustitución de modos: el calor extremo eleva el costo percibido del modo gratuito —caminar— de forma no lineal. Por encima de 40°C, el ahorro económico de no tomar un taxi ya no compensa el riesgo de deshidratación o agotamiento térmico. Ese umbral varía por perfil de pasajero, pero en operaciones regionales donde el taxi compartido o el camión urbano son las alternativas, la ola de calor redirige una fracción de esos usuarios hacia el ride-hailing privado durante las horas de sol máximo. La diferencia cuantitativa respecto a la lluvia: el efecto del calor es más sostenido —3 a 7 días vs 1 a 2 horas—, más predecible —el pronóstico de temperatura tiene precisión de 3 a 5 días—, y más concentrado en un bloque horario específico: las horas de sol máximo entre las 11 AM y las 3 PM, en lugar de distribuido en la tarde y noche como la lluvia. El operador que entiende esta mecánica convierte el pronóstico meteorológico en una herramienta de planificación operativa, no en una sorpresa que gestionar.",
+        "en": "The mechanism is mode substitution: extreme heat raises the perceived cost of the free mode — walking — in a nonlinear way. Above 40°C, the economic savings of not taking a taxi no longer offset the risk of dehydration or heat exhaustion. That threshold varies by passenger profile, but in regional operations where shared taxis or urban buses are the alternatives, a heat wave redirects a fraction of those users toward private ride-hailing during peak solar hours. The quantitative difference from rain: the heat effect is more sustained — 3 to 7 days versus 1 to 2 hours — more predictable — temperature forecasts are accurate 3 to 5 days out — and more concentrated in a specific time block: peak solar hours from 11 AM to 3 PM, rather than distributed across the afternoon and evening like rain. The operator who understands this dynamic converts the weather forecast into an operational planning tool rather than a surprise to manage."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "bloque-mediodia-brecha-cobertura-ola-calor",
+      "text": {
+        "es": "El bloque de mediodía: la brecha de cobertura que las olas de calor siempre revelan",
+        "en": "The midday block: the coverage gap heat waves always expose"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El problema operativo central de las olas de calor no es la demanda: es la oferta. El bloque de las 11 AM a las 3 PM es el menos popular entre los conductores en cualquier temporada, pero durante una ola de calor se convierte en el más adverso: el auto acumula calor parado, el consumo de combustible sube por el aire acondicionado, el tráfico en zonas comerciales es más denso y el conductor que trabaja de noche o de madrugada está en su período de descanso. En ciudades donde los conductores de tiempo completo priorizan los bloques de 6 AM a 10 AM y de 5 PM a 10 PM, el bloque de mediodía ya tiene una cobertura entre un 30 y un 40% menor que los picos matutino y vespertino en días normales. Durante una ola de calor, esa cobertura cae aún más: los conductores que normalmente trabajan algunas horas en ese bloque reducen su tiempo activo porque el calor aumenta la fatiga, eleva el costo de enfriamiento del vehículo y prolonga los tiempos de espera en zonas sin sombra. El resultado es una brecha de cobertura estructural: la demanda sube entre un 12 y un 22% en exactamente el bloque donde la oferta tiene su mínimo del día.",
+        "en": "The central operational problem of heat waves is not demand: it's supply. The 11 AM to 3 PM block is the least popular among drivers in any season, but during a heat wave it becomes the most punishing: the car accumulates heat while parked, fuel consumption rises from the air conditioning, traffic in commercial zones is denser, and the driver who works nights or early mornings is in their rest period. In cities where full-time drivers prioritize the 6 AM to 10 AM and 5 PM to 10 PM blocks, midday coverage is already 30 to 40% lower than the morning and evening peaks on normal days. During a heat wave, that coverage drops further: drivers who would normally work a few hours in that block reduce their active time because the heat increases fatigue, raises vehicle cooling costs, and extends wait times in shadeless zones. The result is a structural coverage gap: demand rises 12 to 22% in exactly the block where supply hits its daily minimum."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Esa brecha tiene consecuencias directas en la calidad del servicio: tiempos de espera que pasan de los 3 a 5 minutos habituales a 8 a 14 minutos durante bloques de mediodía en olas de calor, con la tasa de cancelación del pasajero subiendo proporcionalmente. El pasajero que espera más de 6 minutos bajo el sol tiene mayor probabilidad de cancelar que el que espera lo mismo bajo techo. Para el operador que no anticipó el evento climático, el resultado es que el día de mayor necesidad del pasajero es el día de peor servicio de la plataforma. Ese pasajero frustrado durante una ola de calor tiene una probabilidad significativamente mayor de desinstalar la app o de buscar una alternativa permanente que el pasajero que esperó demasiado en una tarde ordinaria: la necesidad era real, el servicio falló en el peor momento posible, y el recuerdo de esa experiencia se forma en condiciones de incomodidad extrema.",
+        "en": "That gap has direct consequences for service quality: wait times that jump from the usual 3 to 5 minutes to 8 to 14 minutes during midday heat-wave blocks, with passenger cancellation rates rising proportionally. A passenger waiting more than 6 minutes under direct sun is significantly more likely to cancel than one waiting the same amount of time indoors. For an operator who didn't anticipate the weather event, the result is that the passenger's day of greatest need becomes the platform's worst service day. A passenger frustrated during a heat wave is considerably more likely to uninstall the app or permanently switch to an alternative than one who waited too long on a regular afternoon: the need was real, the service failed at the worst possible moment, and the memory of that experience forms under conditions of extreme discomfort."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "zonas-afectadas-mapa-demanda-calor",
+      "text": {
+        "es": "Las zonas más afectadas: por qué el mapa de demanda de calor no es el mismo que el de lluvia",
+        "en": "The most affected zones: why the heat demand map differs from the rain map"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El mapa de demanda durante una ola de calor es diferente al de la lluvia. La lluvia impulsa solicitudes desde zonas de ocio y entretenimiento nocturno —la gente quiere moverse para salir, y el pasajero que va a cenar o a un bar es el más activo en noche de lluvia—. El calor impulsa solicitudes desde zonas de actividad diurna obligatoria: mercados municipales donde vendedores y compradores deben completar transacciones independientemente del clima, paradas de transporte público donde usuarios llegaron caminando y no pueden soportar el regreso a pie, entornos escolares en los bloques de salida de las 12:30 PM a la 1:30 PM, y corredores comerciales con veredas sin sombra. Estas zonas no son las mismas que el operador activa en su protocolo de lluvia, que suele estar centrado en restaurantes, plazas y zonas de entretenimiento.",
+        "en": "The demand map during a heat wave differs from that of rain. Rain drives requests from leisure and evening entertainment zones — people want to go out, and the passenger heading to dinner or a bar is the most active during a rain night. Heat drives requests from zones of obligatory daytime activity: municipal markets where vendors and buyers must complete transactions regardless of the weather, public transit stops where users arrived on foot and can't bear the walk back, school pickup zones during the 12:30 PM to 1:30 PM dismissal windows, and commercial corridors with shadeless sidewalks. These zones are not the same ones the operator activates in their rain protocol, which typically focuses on restaurants, main plazas, and entertainment districts."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Esta diferencia tiene implicaciones de posicionamiento que el operador no puede ignorar. El que activa el recargo de lluvia en zonas de ocio y aplica el mismo mapa al protocolo de calor va a generar excedente de cobertura donde no hay demanda y déficit donde sí la hay. El diagnóstico correcto requiere identificar en la operación histórica qué zonas tienen mayor concentración de solicitudes en el bloque de las 11 AM a las 3 PM durante los días con temperatura más alta del año, y comparar ese mapa con el mapa de lluvia. En la mayoría de las operaciones regionales, el mapa de calor tiene entre 2 y 4 zonas primarias de alta densidad que no coinciden con las zonas de lluvia. Conocerlas antes del evento —no durante— es la condición para que el protocolo de posicionamiento funcione.",
+        "en": "This difference has positioning implications the operator cannot ignore. An operator who activates the rain surcharge in leisure zones and applies the same map to the heat protocol will generate surplus coverage where there is no demand and a deficit where there is. The correct diagnostic requires identifying in historical operation which zones have the highest concentration of requests in the 11 AM to 3 PM block during the hottest days of the year, and comparing that map against the rain map. In most regional operations, the heat demand map has 2 to 4 primary high-density zones that don't overlap with the rain zones. Knowing them before the event — not during it — is the prerequisite for the positioning protocol to work."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "pricing-calor-recargo-moderado-comunicacion",
+      "text": {
+        "es": "El pricing de calor: por qué el 1.2x funciona mejor que el 1.35x y cómo comunicarlo",
+        "en": "Heat wave pricing: why 1.2x outperforms 1.35x and how to communicate it"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El ajuste de precio durante una ola de calor tiene un componente operativo —atraer más conductores al bloque de mediodía— y un componente de percepción que el operador no puede ignorar: el pasajero que solicita un viaje bajo 40°C en una zona sin transporte alternativo accesible tiene menor capacidad de rechazar el recargo que el pasajero de ocio en una noche de lluvia que simplemente puede decidir no salir. En operaciones donde se ha aplicado un recargo de 1.35x a 1.45x durante olas de calor, las cancelaciones del pasajero antes de la asignación suben entre 18 y 25 puntos porcentuales respecto al día ordinario —señal de que el pasajero percibe el precio como abusivo y elige buscar otra opción—. Con un recargo de 1.15x a 1.2x, la cancelación antes de asignación es prácticamente igual a la del día ordinario, y la conversión de solicitud a viaje completado se mantiene. El recargo moderado genera el ingreso adicional suficiente para que el conductor del bloque de mediodía cubra el costo extra de combustible por el aire acondicionado —entre 12 y 20 MXN por turno de 3 horas a 40°C— sin generar la reputación de cobro abusivo en los días en que el pasajero más depende de la plataforma.",
+        "en": "Pricing adjustment during a heat wave has an operational component — attracting more drivers to the midday block — and a perception component the operator cannot ignore: the passenger requesting a ride in 40°C heat in a zone without accessible transit alternatives has less ability to decline the surcharge than the leisure passenger on a rainy night who can simply choose not to go out. In operations that applied a 1.35x to 1.45x surcharge during heat waves, pre-assignment passenger cancellations rose 18 to 25 percentage points above ordinary days — a signal that the passenger perceives the price as exploitative and chooses to find an alternative. With a 1.15x to 1.2x surcharge, pre-assignment cancellation is practically identical to an ordinary day and the request-to-completed-trip conversion holds. The moderate surcharge generates enough additional income for the midday-block driver to cover the extra AC fuel cost — roughly 12 to 20 MXN per 3-hour shift at 40°C — without building a reputation for price-gouging on the days when the passenger most depends on the platform."
+      }
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "text": {
+        "es": "La comunicación del recargo de calor requiere un enfoque diferente al de lluvia. En la lluvia, el pasajero entiende el recargo sin explicación porque el contexto es visible. En el calor, la percepción de «están cobrando más porque saben que no tengo opción» es más frecuente. Un mensaje en la app que diga «tarifa con ajuste por alta demanda de mediodía — alerta de calor» tiene mejor aceptación que un recargo sin contexto. El pasajero entiende la causa meteorológica; lo que rechaza es la opacidad.",
+        "en": "Heat surcharge communication requires a different approach than rain. With rain, the passenger understands the surcharge without explanation because the context is visible. In heat, the perception of 'they're charging more because they know I have no other option' is more common. An in-app message that reads 'adjusted rate for midday high demand — heat alert' is better received than an unexplained surcharge. The passenger understands the weather cause; what they reject is opacity."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "incentivo-mediodia-conductores-ola-calor",
+      "text": {
+        "es": "El incentivo de mediodía: cómo atraer conductores al bloque más difícil del año",
+        "en": "The midday incentive: how to attract drivers to the hardest block of the year"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El recargo de precio activa la decisión del conductor de tiempo completo que ya trabaja el bloque de mediodía: sabe que cada viaje va a rendir un 15 a 20% más de lo ordinario y ese cálculo modifica la decisión de conectarse en ese horario. Para el conductor de tiempo parcial que trabaja principalmente de tarde o noche, el recargo de precio no es suficiente por sí solo: el ajuste incremental por viaje no compensa la incomodidad de trabajar en el bloque más caluroso del día, que además históricamente tiene menor densidad de solicitudes porque los propios conductores no lo trabajan. El incentivo que funciona para atraer conductores de tiempo parcial al bloque de mediodía durante una ola de calor tiene la misma estructura que el incentivo de turno nocturno en quincena: un bono de bloque fijo por un número mínimo de viajes completados en ese período específico. Un incentivo de 80 a 120 MXN por completar al menos 3 viajes en el bloque de las 11 AM a las 2 PM activa conductores que de otro modo no trabajarían ese horario. La diferencia respecto a un bono de viajes diarios totales es decisiva: el conductor que ya trabaja 8 horas al día no necesita el incentivo de mediodía; el que trabaja 4 horas de tarde sí lo necesita, y el bono de bloque es la señal correcta para su perfil.",
+        "en": "The pricing surcharge activates the full-time driver who already works the midday block: they know each trip will yield 15 to 20% more than usual, and that calculation changes their decision to connect during those hours. For the part-time driver who works primarily in the afternoon or evening, the pricing surcharge alone is insufficient: the incremental per-trip adjustment doesn't compensate for the discomfort of working in the hottest block of the day, which historically also has the lowest request density precisely because drivers don't work it. The incentive that draws part-time drivers into the midday block during a heat wave has the same structure as the night-shift block bonus during quincena: a fixed block bonus for a minimum number of trips completed in that specific window. An incentive of 80 to 120 MXN for completing at least 3 trips in the 11 AM to 2 PM block activates drivers who would otherwise not work that slot. The distinction from a total-day trip bonus is critical: the driver who already works 8 hours a day doesn't need the midday incentive; the one who works 4 hours in the evening does, and the block bonus is the right signal for their profile."
+      }
+    },
+    {
+      "type": "list",
+      "style": "bullet",
+      "intro": {
+        "es": "Los cinco elementos del protocolo de calor que el operador puede configurar 48 horas antes del inicio de la ola:",
+        "en": "The five elements of the heat protocol the operator can configure 48 hours before the heat wave begins:"
+      },
+      "items": {
+        "es": [
+          "**Verificación del pronóstico con 48 horas de anticipación**: temperatura máxima proyectada de 38°C o más por dos días consecutivos activa el protocolo. No esperar a que el calor empiece — el pronóstico de temperatura tiene precisión suficiente para planificar con ese margen.",
+          "**Mapa de zonas de calor diferenciado del mapa de lluvia**: el ajuste de precio y el posicionamiento aplican en zonas de mercados municipales, paradas de transporte público y entornos escolares — no en las mismas zonas del protocolo de lluvia.",
+          "**Recargo de 1.15x a 1.2x desde las 10:30 AM hasta las 3 PM** en esas zonas únicamente, no durante la mañana temprana ni la tarde-noche donde el efecto de calor se disipa con la caída del sol.",
+          "**Incentivo de bloque para conductores de tiempo parcial**: 80 a 120 MXN por completar al menos 3 viajes en el bloque de las 11 AM a las 2 PM durante los días de ola de calor declarada.",
+          "**Mensaje de posicionamiento a los conductores la noche anterior**, con la zona de mayor densidad esperada para el bloque de mediodía — mercados municipales, paradas de camión, entornos escolares — para que lleguen directamente sin tener que deducirlo desde el mapa en tiempo real."
+        ],
+        "en": [
+          "**Forecast check 48 hours in advance**: a projected maximum temperature of 38°C or above for two consecutive days activates the protocol. Don't wait for the heat to arrive — temperature forecasts have sufficient accuracy to plan with that margin.",
+          "**Heat zone map separate from the rain map**: the pricing adjustment and positioning apply in municipal market zones, public transit stops, and school pickup corridors — not the same zones as the rain protocol.",
+          "**Surcharge of 1.15x to 1.2x from 10:30 AM to 3 PM** in those zones only, not during the early morning or late afternoon and evening where the heat effect dissipates with the dropping sun.",
+          "**Block incentive for part-time drivers**: 80 to 120 MXN for completing at least 3 trips in the 11 AM to 2 PM block during declared heat wave days.",
+          "**Positioning message to drivers the prior evening**, with the expected highest-density zone for the midday block — municipal markets, bus stops, school zones — so they arrive directly without having to deduce it from the real-time map."
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "consulta-agente-patron-calor-operacion",
+      "text": {
+        "es": "La consulta al agente que confirma si el patrón de calor existe en tu operación",
+        "en": "The agent query that confirms whether the heat pattern exists in your operation"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Antes de diseñar un protocolo de calor, el operador debe verificar que el patrón existe en su mercado particular: no todas las ciudades tienen el mismo efecto de demanda por calor, y en mercados donde el pasajero tiene acceso a zonas comerciales con aire acondicionado o donde la cultura de uso del taxi ya es alta en mediodía, el efecto incremental puede ser menor. La consulta al agente que produce esa verificación: «Para los últimos 24 meses, identifica los días donde la temperatura máxima en mi ciudad fue igual o superior a 38°C. Compara el volumen de solicitudes en el bloque de las 11 AM a las 3 PM de esos días con el volumen del mismo bloque en los días del mismo mes donde la temperatura estuvo entre 28 y 33°C. Para cada grupo, muéstrame el volumen promedio de solicitudes, la tasa de completación, el tiempo de espera promedio y las tres zonas con mayor concentración de solicitudes en ese bloque. Si los días de calor extremo muestran un volumen de solicitudes en ese bloque superior en más del 10% al grupo de comparación, el patrón existe en tu operación y el ajuste de protocolo tiene retorno medible.» Esta verificación tarda menos de 10 minutos y determina si el protocolo de calor es relevante en tu mercado específico antes de invertir tiempo en configurarlo.",
+        "en": "Before designing a heat protocol, the operator should verify that the pattern exists in their specific market: not every city shows the same heat demand effect, and in markets where passengers have access to air-conditioned commercial spaces or where midday taxi use is already high, the incremental effect may be smaller. The agent query that produces that verification: 'For the last 24 months, identify the days where the maximum temperature in my city was at or above 38°C. Compare request volume in the 11 AM to 3 PM block on those days against volume in the same block on days in the same months where temperature was between 28 and 33°C. For each group, show average request volume, completion rate, average wait time, and the three zones with the highest request concentration in that block. If extreme heat days show request volume in that block more than 10% above the comparison group, the pattern exists in your operation and the protocol adjustment has measurable return.' This verification takes under 10 minutes and determines whether a heat protocol is relevant in your specific market before investing time in configuring one."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La consulta complementaria que calibra si la brecha de cobertura es el problema principal: «Para los días de calor extremo identificados en la consulta anterior, muéstrame el tiempo de espera promedio en el bloque de las 11 AM a las 3 PM comparado con el mismo bloque en días normales del mismo período, y el número de solicitudes que quedaron sin asignación en ese bloque. Si el tiempo de espera en días de calor supera en más del 40% al de días normales en ese bloque, la brecha de cobertura —no el pricing— es el problema principal a resolver.» Los dos resultados juntos determinan el orden de prioridades del protocolo: si el tiempo de espera no sube significativamente pero el volumen de solicitudes sí, el ajuste de pricing es la palanca. Si el tiempo de espera sube pero el volumen es similar, el problema es de cobertura y el incentivo de bloque es la primera acción. Si ambos suben, el protocolo completo —pricing, incentivo y posicionamiento— produce el mayor retorno.",
+        "en": "The complementary query that calibrates whether the coverage gap is the primary problem: 'For the extreme heat days identified in the previous query, show me the average wait time in the 11 AM to 3 PM block compared to the same block on normal days in the same period, and the number of requests that went unassigned in that block. If wait times on heat days exceed normal-day wait times in that block by more than 40%, the coverage gap — not pricing — is the primary problem to solve.' The two results together determine the protocol's priority order: if wait times don't rise significantly but request volume does, pricing adjustment is the lever. If wait times rise but volume is similar, coverage is the problem and the block incentive is the first action. If both rise, the complete protocol — pricing, incentive, and positioning — produces the greatest return."
+      }
+    },
+    {
+      "type": "quote",
+      "text": {
+        "es": "Llevaba 16 meses de operación en Hermosillo y nunca había registrado qué pasaba en las olas de calor de mayo. Mi coordinadora me comentó que en esas semanas recibíamos muchas quejas de esperas largas al mediodía. Cuando le pedí al agente que comparara mis días con más de 40°C contra días normales de mayo en los bloques de la mañana y mediodía, encontré que entre las 11 AM y las 2 PM mi volumen de solicitudes subía un 17% pero mi cobertura de conductores caía un 28% —los de tiempo parcial simplemente no se conectaban. El tiempo de espera promedio de ese bloque pasaba de 5 minutos a 12. Activé un bono de 90 MXN por 3 viajes en ese bloque y mandé el mapa de zonas —los mercados, las escuelas— a mis 11 conductores de tiempo completo la noche del miércoles. El jueves, el primer día de la ola, el tiempo de espera de mediodía bajó a 7 minutos y mis solicitudes sin asignación cayeron a un tercio.",
+        "en": "After 16 months of operation in Hermosillo I had never tracked what happened during the May heat waves. My coordinator mentioned we were getting many complaints about long midday waits in those weeks. When I asked the agent to compare my days above 40°C against normal May days in the morning and midday blocks, I found that between 11 AM and 2 PM my request volume rose 17% but my driver coverage dropped 28% — part-time drivers simply weren't connecting. Average wait time in that block went from 5 minutes to 12. I activated a 90 MXN bonus for 3 trips in that block and sent the zone map — markets and schools — to my 11 full-time drivers on Wednesday night. By Thursday, the first day of the wave, midday wait time dropped to 7 minutes and unassigned requests fell to a third."
+      },
+      "attribution": {
+        "es": "Operador con 18 meses de operación en una ciudad de 220,000 habitantes en Sonora, México",
+        "en": "Operator with 18 months of operation in a city of 220,000 in Sonora, Mexico"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El protocolo de calor no compite con el protocolo de lluvia: los complementa. La lluvia concentra su efecto en los meses de junio a octubre en la mayor parte de México, mientras las olas de calor son más frecuentes entre marzo y junio — el período previo a las lluvias — y en zonas áridas que no tienen temporada de lluvias pronunciada. El operador que construye el calendario climático de su operación con los dos protocolos tiene cubiertos los dos eventos de demanda meteorológica más frecuentes en su mercado, que juntos pueden sumar entre 20 y 40 días de demanda elevada por año concentrada en bloques específicos. Tratarlos como eventos inesperados cuando el pronóstico de temperatura o lluvia es accesible con 48 a 72 horas de anticipación es perder valor medible en los días donde el servicio tiene mayor impacto en la percepción del pasajero.",
+        "en": "The heat protocol doesn't compete with the rain protocol: it complements it. Rain concentrates its effect between June and October across most of Mexico, while heat waves are most frequent from March through June — the pre-rain period — and in arid zones without a pronounced rainy season. An operator who builds their operation's weather calendar with both protocols has covered the two most frequent meteorological demand events in their market, which together can account for 20 to 40 days of elevated demand per year concentrated in specific blocks. Treating them as unexpected events when temperature and rain forecasts are accessible 48 to 72 hours in advance means leaving measurable value on the table on exactly the days when the service has the greatest impact on passenger perception."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Las métricas que señalan si el protocolo de calor funciona son las mismas que para cualquier evento de demanda: la tasa de completación en el bloque de mediodía durante olas de calor comparada con el mismo bloque en días normales del mes, y el tiempo de espera promedio en ese bloque. Un protocolo bien ejecutado produce una tasa de completación en el bloque de calor igual o superior a la del día ordinario —no inferior—, con tiempos de espera inferiores a 8 minutos en las zonas de alta densidad identificadas. Si la tasa de completación cae durante los días de calor, el problema es de cobertura y el incentivo de bloque es la primera palanca. Si la tasa de completación es similar pero el tiempo de espera sube, el problema es de posicionamiento: los conductores están activos pero en zonas equivocadas. El agente que ejecuta esa comparación al finalizar cada ola de calor convierte el evento en un diagnóstico de calibración que mejora el protocolo siguiente, en lugar de un período operativo que simplemente se soporta hasta que baje la temperatura.",
+        "en": "The metrics that signal whether the heat protocol is working are the same as for any demand event: the completion rate in the midday block during heat waves compared to the same block on normal days in the month, and the average wait time in that block. A well-executed protocol produces a completion rate in the heat block equal to or above the ordinary-day rate — not below it — with wait times under 8 minutes in the identified high-density zones. If the completion rate drops during heat days, the problem is coverage and the block incentive is the first lever. If the completion rate holds but wait times rise, the problem is positioning: drivers are active but in the wrong zones. The agent query run at the end of each heat wave converts the event into a calibration diagnostic that improves the next protocol, rather than an operational period that is simply endured until temperatures drop."
+      }
+    }
+  ],
+  "cta": {
+    "heading": {
+      "es": "¿Listo para lanzar tu propia app de movilidad?",
+      "en": "Ready to launch your own mobility app?"
+    },
+    "body": {
+      "es": "Configura tu marca, tus tarifas y tus servicios en semanas, no en meses. Cabgo te entrega la plataforma; tú te quedas con la operación, los clientes y los ingresos.",
+      "en": "Set up your brand, pricing and services in weeks, not months. Cabgo ships the platform — you keep the operation, the customers and the revenue."
+    },
+    "buttonLabel": {
+      "es": "Comenzar con Cabgo",
+      "en": "Get started with Cabgo"
+    },
+    "buttonHref": "/empezar"
+  },
+  "seo": {
+    "metaTitle": {
+      "es": "Ola de calor y demanda en ride-hailing: protocolo | Cabgo",
+      "en": "Extreme heat demand protocol in ride-hailing | Cabgo"
+    },
+    "metaDescription": {
+      "es": "En ciudades con +38°C, el calor extremo genera un pico de demanda al mediodía similar a la lluvia pero sin protocolo. Cómo anticiparlo y gestionarlo.",
+      "en": "In cities above 38°C, extreme heat creates a midday demand spike similar to rain — but almost no operator has a heat protocol. How to build one."
+    }
+  }
+}
