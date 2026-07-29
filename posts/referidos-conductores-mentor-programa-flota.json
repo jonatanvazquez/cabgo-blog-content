@@ -1,0 +1,266 @@
+{
+  "slug": "referidos-conductores-mentor-programa-flota",
+  "category": "strategy",
+  "title": {
+    "es": "Programa de referidos para conductores: el bono de activación que no produce flota y la estructura que sí lo hace",
+    "en": "Driver referral programs: the activation bonus that doesn't build a fleet, and the structure that does"
+  },
+  "excerpt": {
+    "es": "La mayoría de los programas de referidos de conductores pagan el bono al momento de la activación, lo que incentiva el reclutamiento pero no la retención. La diferencia entre los que funcionan y los que no está en cómo y cuándo se paga.",
+    "en": "Most driver referral programs pay the bonus at activation, which incentivizes recruitment but not retention. The difference between programs that work and those that don't lies in how and when the bonus is paid."
+  },
+  "heroImage": "https://raw.githubusercontent.com/jonatanvazquez/cabgo-blog-content/main/images/referidos-conductores-mentor-programa-flota.jpg",
+  "heroImageAlt": {
+    "es": "Composición isométrica dividida. Izquierda: dos siluetas en mesa de café con teléfono entre ellas mostrando pantalla de referido con insignia '500 MXN', calendario flotante con marcadores en días 1, 45 y 90 resaltados en teal. Derecha: vista de flota con tres vehículos y calificaciones 4.8, 4.7, 4.6 flotando en violeta, conectados por líneas punteadas a dos vehículos nuevos debajo. Primer plano: barras comparativas de retención a 90 días — barra teal alta 'con mentor' y barra ámbar corta 'sin mentor' con etiqueta '+26%'.",
+    "en": "Split isometric composition. Left: two silhouettes at a café table with a phone showing a referral screen with a '500 MXN' badge, a floating calendar with markers at days 1, 45, and 90 highlighted in teal. Right: a fleet view with three vehicles and star ratings 4.8, 4.7, 4.6 floating in violet, connected by dotted lines to two smaller new-driver vehicles below. Foreground: comparative 90-day retention bars — tall teal bar 'with mentor' and shorter amber bar 'without mentor' with a '+26%' label."
+  },
+  "heroImagePrompt": "Split isometric composition. Left half: two small human silhouettes seated across from each other at a café table, a large floating smartphone between them displaying a referral confirmation screen with a glowing '500 MXN' badge and a green checkmark. Above the scene floats a calendar icon with three milestone markers highlighted in teal at positions labeled '1', '45', and '90'. Subtle upward arrow motions rise from the table scene. Right half: a top-down city block with three vehicle icons at the top, each with a floating star-and-rating badge in violet showing '4.8', '4.7', and '4.6'. Dotted curved lines extend downward from each vehicle to two smaller vehicle icons below them representing new drivers — visualizing mentorship transmission. In the foreground: a compact dual-bar chart labeled 'retención 90 días' — a shorter amber bar labeled 'sin mentor' beside a taller teal bar labeled 'con mentor', with an upward percentage tag reading '+26%' between them. Deep violet floor grid, soft indigo radial background glow, clean geometric shapes, subtle shadows. Negative space on the lower right.",
+  "publishedAt": "2026-07-29",
+  "readingMinutes": 8,
+  "keywords": {
+    "es": [
+      "programa referidos conductores ride-hailing LATAM",
+      "retención conductores referidos plataforma movilidad",
+      "bono activación conductores mentor regional",
+      "cómo estructurar referidos conductores taxi app",
+      "referidos conductores retención 90 días operación",
+      "mentor conductor referido programa flota regional",
+      "incentivo referidos flota conductor movilidad México"
+    ],
+    "en": [
+      "driver referral program ride-hailing LATAM",
+      "referred driver retention mobility platform",
+      "driver activation bonus mentor structure regional",
+      "how to structure driver referrals taxi app",
+      "driver referral 90-day retention operation",
+      "mentor driver referral fleet program regional",
+      "driver referral incentive fleet mobility Mexico"
+    ]
+  },
+  "author": {
+    "name": "Equipo Cabgo",
+    "role": {
+      "es": "Plataforma de movilidad",
+      "en": "Mobility platform"
+    }
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La mayoría de los operadores de ride-hailing regional que lanza un programa de referidos para conductores lo hace con un incentivo simple: el conductor que refiere a un candidato recibe entre 150 y 300 MXN cuando el referido completa sus primeros 10 viajes. El resultado más frecuente de ese esquema en los primeros 90 días es un 25 al 35% de activaciones adicionales —el programa funciona bien como imán de reclutamiento— y una retención a 90 días del conductor referido que, en la mayoría de las operaciones medidas, es similar o peor que la del conductor que llegó sin ninguna recomendación. El problema no está en el monto del bono: está en cuándo se paga. Un bono que se liquida al momento de la activación le dice al conductor que refiere que su trabajo terminó cuando el candidato completó sus primeras carreras. Los programas de referidos que construyen flota en lugar de solo ampliarla estructuran el bono en tramos pagados a lo largo de 60 a 90 días, con cada tramo vinculado a un indicador que correlaciona con la permanencia del referido: primera semana activa, 45 días con actividad regular y calificación sostenida, 90 días en la plataforma. El monto total puede ser idéntico al del programa de activación; el comportamiento que produce en el referente es radicalmente distinto.",
+        "en": "Most regional ride-hailing operators who launch a driver referral program do it with a straightforward incentive: the referring driver receives 150 to 300 MXN when the referred driver completes their first 10 trips. The most common outcome of that structure in the first 90 days is a 25 to 35% increase in activations — the program works well as a recruitment magnet — and a 90-day retention rate for referred drivers that, in most measured operations, matches or underperforms drivers who joined without any referral. The problem isn't the bonus amount: it's when it's paid. A bonus that pays at activation tells the referring driver their job is done when the candidate finishes their first trips. Referral programs that build a fleet rather than just expanding it structure the bonus across tranches paid over 60 to 90 days, each tranche tied to an indicator that correlates with the referred driver's tenure: first active week, 45 days with regular activity and sustained rating, 90 days on the platform. The total amount can be identical to the activation program; the behavior it produces in the referring driver is fundamentally different."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Este artículo está dirigido al operador con 20 a 70 conductores activos que tiene un programa de referidos sin los resultados de retención esperados, o que está considerando lanzar uno. Cubre por qué el bono de activación produce el comportamiento equivocado en el referente; qué perfil de conductor debe tener acceso al programa de mentor; cómo estructurar el bono en tres tramos para que el incentivo económico haga el trabajo de la mentoría sin un programa formal de entrenamiento; por qué la calificación del conductor que refiere predice la calidad del conductor que incorpora; qué métricas de activación y retención son realistas en los primeros 90 días; y la consulta al agente que confirma si los conductores referidos de tu operación están rindiendo distinto a los no referidos. La tesis es directa: un programa de referidos bien estructurado no necesita más bono que el mal estructurado —necesita distribuir el mismo monto de forma que el referente tenga incentivo económico de acompañar al referido más allá del día diez.",
+        "en": "This article is for operators with 20 to 70 active drivers who have a referral program running without the expected retention results, or who are considering launching one. It covers why the activation bonus produces the wrong behavior in the referring driver; which driver profile should have access to the mentor program; how to structure the bonus in three tranches so the economic incentive does the mentorship work without a formal training program; why the rating of the referring driver predicts the quality of the driver they recruit; what activation and retention metrics are realistic in the first 90 days; and the agent query that confirms whether referred drivers in your operation are performing differently from non-referred drivers. The thesis is direct: a well-structured referral program doesn't need a larger bonus than a poorly structured one — it needs to distribute the same amount in a way that gives the referring driver economic incentive to accompany the referred driver beyond day ten."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "referidos-activacion-sin-retencion",
+      "text": {
+        "es": "El programa estándar y por qué genera activaciones sin retención",
+        "en": "The standard program and why it generates activations without retention"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El programa de referidos estándar en operaciones de ride-hailing regional tomó su diseño del modelo de referidos de consumo: la persona que refiere recibe una recompensa cuando el referido realiza su primera acción de valor. Ese modelo funciona bien en referidos de pasajeros, donde la acción de valor es una sola transacción y el referente no tiene ningún rol en garantizar que el pasajero vuelva a usar la plataforma. En conductores, la lógica es diferente: el momento de mayor riesgo de abandono no es la activación sino el período entre los días 8 y 25, cuando el conductor nuevo todavía tiene una calificación baja porque acumula pocas reseñas, cuando los tiempos de espera para las primeras carreras le parecen largos comparados con sus expectativas, y cuando el ingreso semanal todavía no refleja lo que ganará cuando tenga práctica en el uso de la plataforma. En ese período crítico, el referente que ya cobró su bono no tiene ninguna razón económica para revisar cómo va el conductor que incorporó.",
+        "en": "The standard referral program in regional ride-hailing operations borrowed its design from the consumer referral model: the referring person receives a reward when the referred person completes their first value action. That model works well for passenger referrals, where the value action is a single transaction and the referrer has no role in ensuring the passenger returns. With drivers, the logic is different: the highest abandonment-risk moment isn't activation but the period between days 8 and 25, when the new driver still has a low rating from few reviews, when wait times for their first trips seem long compared to their expectations, and when weekly income still doesn't reflect what they'll earn once they've learned the platform. During that critical period, the referring driver who already collected their bonus has no economic reason to check how the driver they brought in is doing."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "En operaciones donde se midió la retención a 90 días de conductores referidos versus conductores que llegaron por otros canales —redes sociales, volante, recomendación de pasajero—, la diferencia cuando el programa usa bono de activación simple es marginal: el conductor referido tiene entre un 5 y un 12% más de probabilidad de llegar al día 90 que el no referido. Esa brecha pequeña no justifica el costo del bono si el objetivo declarado del programa es retención. La razón es que el único valor que el bono de activación agrega es el filtro inicial: el candidato llegó porque alguien que conoce ya opera en la plataforma y puede responder sus preguntas antes de activarse. Ese filtro elimina a los candidatos más desinformados, pero no resuelve el problema principal de retención temprana: la brecha entre la expectativa del conductor nuevo y la realidad de los primeros 15 días de operación en cualquier plataforma de movilidad regional. En programas donde el bono tiene tramos de pago vinculados a la actividad del referido a los 45 y 90 días, la diferencia de retención entre referidos y no referidos sube al rango del 20 al 30%.",
+        "en": "In operations where 90-day retention of referred drivers was measured against drivers who joined through other channels — social media, flyers, passenger recommendations — the difference when the program uses a simple activation bonus is marginal: the referred driver is 5 to 12% more likely to reach day 90 than the non-referred driver. That small gap doesn't justify the cost of the bonus if the program's stated objective is retention. The reason is that the only value the activation bonus adds is an initial filter: the candidate arrived because someone they know already operates on the platform and can answer questions before activating. That filter screens out the most uninformed candidates, but doesn't solve the primary early retention problem: the gap between the new driver's expectations and the reality of the first 15 days of operation on any regional mobility platform. In programs where the bonus has payment tranches linked to the referred driver's activity at 45 and 90 days, the retention difference between referred and non-referred drivers rises to the 20 to 30% range."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "sesgo-activacion-timing-bono-referente",
+      "text": {
+        "es": "El sesgo de activación: qué le dice el timing del bono al conductor que refiere",
+        "en": "The activation bias: what the bonus timing tells the referring driver"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El timing del bono no es un detalle de diseño del programa: es la señal más importante que el programa le envía al conductor referente sobre qué se espera de él. Un bono que se paga en la activación optimiza al referente para la conversación de reclutamiento: necesita convencer al candidato de que vale la pena activarse en la plataforma. Esa conversación tiende a ser incompleta de forma sistemática. El referente menciona los ingresos posibles en un turno bueno, la flexibilidad de horario y el soporte de la plataforma, pero omite o minimiza los aspectos que generan abandono temprano: los primeros 10 días con pocas reseñas y calificación no consolidada, los viajes cortos y de tarifa baja mientras el conductor aprende las zonas de mayor densidad, la inspección vehicular si aplica. No lo hace necesariamente de mala fe: lo hace porque su incentivo es lograr la activación, no preparar al candidato para el período más difícil. El bono de tramos invierte esa lógica. El referente que sabe que cobrar el segundo tramo a los 45 días depende de que su referido esté activo con buena calificación en ese momento tiene un incentivo directo para dar información completa desde el inicio —incluyendo los aspectos que podrían disuadir a un candidato con expectativas incorrectas— y para contactar al referido en las semanas 2 y 3, que son las de mayor riesgo de abandono.",
+        "en": "The bonus timing isn't a program design detail: it's the most important signal the program sends to the referring driver about what's expected of them. A bonus that pays at activation optimizes the referring driver for the recruitment conversation: they need to convince the candidate it's worth activating on the platform. That conversation tends to be systematically incomplete. The referrer mentions possible earnings on a good shift, schedule flexibility, and platform support, but omits or minimizes the factors that drive early churn: the first 10 days with few reviews and an unconsolidated rating, short low-fare trips while the driver learns the high-density zones, vehicle inspection requirements if applicable. It isn't necessarily bad faith: it happens because their incentive is to secure activation, not to prepare the candidate for the hardest period. The tranche bonus inverts that logic. The referring driver who knows that collecting the second tranche at 45 days depends on their referred driver being active with a good rating at that point has a direct incentive to give complete information from the start — including aspects that might discourage a candidate with incorrect expectations — and to check in with the referred driver during weeks 2 and 3, which are the highest abandonment-risk weeks."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "perfil-conductor-mentor-acceso-programa",
+      "text": {
+        "es": "El perfil del conductor mentor: quién debe tener acceso al programa",
+        "en": "The mentor driver profile: who should have access to the program"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "No todos los conductores activos de la flota deben tener la capacidad de referir con el bono de mentor. Un conductor con calificación promedio de 4.1 que refiere a un candidato le transmite, implícitamente, que operar en la plataforma con esa calificación es la norma. Eso calibra al nuevo conductor para un estándar que la operación no quiere propagarse: la expectativa de que un 4.1 es operativamente viable a largo plazo. El perfil mínimo del conductor que debe tener acceso al programa de referidos estructurado incluye cuatro condiciones verificables: calificación promedio de los últimos 60 días igual o superior a 4.5 estrellas, antigüedad en la plataforma de al menos 4 meses, tasa de cancelación inferior al 12%, y un promedio de al menos 5 viajes por día activo en los últimos 30 días. Ese grupo representa típicamente entre el 15 y el 25% de la flota activa en una operación regional de 30 a 80 conductores. Restringir el programa a ese cohort no es exclusión: es garantía de que el referente está en posición de mostrar, con su propia operación, cómo se ve trabajar bien en la plataforma.",
+        "en": "Not every active driver in the fleet should have the ability to refer with a mentor bonus. A driver with a 4.1 average rating who refers a candidate implicitly conveys that operating on the platform at that rating is the norm. That calibrates the new driver to a standard the operation doesn't want propagated: the expectation that a 4.1 rating is operationally viable long-term. The minimum profile for a driver to have access to the structured referral program includes four verifiable conditions: average rating over the last 60 days at or above 4.5 stars, at least 4 months on the platform, cancellation rate below 12%, and an average of at least 5 trips per active day in the last 30 days. That group typically represents 15 to 25% of the active fleet in a regional operation with 30 to 80 drivers. Restricting the program to that cohort isn't exclusion: it's a guarantee that the referring driver is positioned to show, through their own operation, what working well on the platform looks like."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La restricción tiene un segundo efecto no obvio: aumenta el valor percibido del programa entre los conductores que todavía no califican. Un conductor con 3 meses de antigüedad y 4.3 de calificación que sabe que dentro de un mes podría acceder al programa de mentor tiene un incentivo adicional para mejorar sus indicadores. El programa de referidos estructurado, cuando se comunica con claridad a toda la flota con sus criterios de acceso, funciona también como mecanismo de desarrollo interno: no solo transmite la cultura de los mejores conductores hacia los nuevos, sino que motiva a los conductores en crecimiento a alcanzar los indicadores que les darán acceso. La comunicación del operador debe ser transparente sobre los criterios y evitar presentarlos como castigo a quienes no califican: son el estándar de calidad que el operador quiere representado ante cada candidato nuevo.",
+        "en": "The restriction has a second, less obvious effect: it increases the perceived value of the program among drivers who don't yet qualify. A driver with 3 months on the platform and a 4.3 rating who knows they could access the mentor program within a month has an additional incentive to improve their indicators. The structured referral program, when communicated clearly to the full fleet with its access criteria, also functions as an internal development mechanism: it doesn't only propagate the culture of the best drivers toward new ones, but motivates growing drivers to reach the indicators that will give them access. The operator's communication should be transparent about the criteria and avoid framing them as a penalty for those who don't qualify: they are the quality standard the operator wants represented to every new candidate."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "estructura-tres-tramos-bono-90-dias",
+      "text": {
+        "es": "La estructura en tres tramos: el bono que trabaja durante 90 días",
+        "en": "The three-tranche structure: the bonus that works for 90 days"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La estructura concreta del bono en tres tramos no requiere un sistema tecnológico complejo: requiere que el operador defina tres condiciones medibles en el tiempo y comunique el calendario al referente antes de que inicie el proceso. Un ejemplo con un total de 480 MXN —un monto en rango con el bono de activación de muchas operaciones regionales— distribuido de la siguiente forma: el primer tramo de 150 MXN se paga cuando el conductor referido completa sus primeros 10 viajes en los primeros 7 días activos, confirmando que la activación fue real y no un registro sin actividad. El segundo tramo de 200 MXN se paga cuando el referido alcanza 45 días activos con calificación promedio igual o superior a 4.3 estrellas y un promedio de al menos 4 viajes por día activo —indicadores que confirman que el conductor está trabajando con regularidad y manteniendo el estándar mínimo de calidad—. El tercer tramo de 130 MXN se paga cuando el referido llega a 90 días activos con calificación sostenida de 4.4 o más. El referente que quiere los tres tramos necesita que su referido esté activo y con buen desempeño a los 45 y a los 90 días: tiene motivos económicos concretos para contactarlo en la semana 3, cuando el riesgo de abandono es máximo, y en la semana 8, antes del corte del segundo tramo.",
+        "en": "The concrete three-tranche bonus structure doesn't require a complex technology system: it requires the operator to define three time-measurable conditions and communicate the timeline to the referring driver before the process begins. An example with a total of 480 MXN — an amount in range with the activation bonus in many regional operations — distributed as follows: the first tranche of 150 MXN pays when the referred driver completes their first 10 trips in the first 7 active days, confirming that the activation was real and not just a registration without activity. The second tranche of 200 MXN pays when the referred driver reaches 45 active days with an average rating at or above 4.3 stars and an average of at least 4 trips per active day — indicators confirming the driver is working regularly and maintaining the minimum quality standard. The third tranche of 130 MXN pays when the referred driver reaches 90 active days with a sustained rating of 4.4 or above. The referring driver who wants all three tranches needs their referred driver to be active and performing well at days 45 and 90: they have concrete economic reasons to contact them in week 3, when abandonment risk peaks, and in week 8, before the second tranche cutoff."
+      }
+    },
+    {
+      "type": "list",
+      "style": "bullet",
+      "intro": {
+        "es": "Los tres tramos del bono estructurado y qué comportamiento produce cada uno en el conductor referente:",
+        "en": "The three tranches of the structured bonus and what behavior each produces in the referring driver:"
+      },
+      "items": {
+        "es": [
+          "**Tramo 1 — Día 7, primeros 10 viajes completados (150 MXN)**: confirma activación real. El referente se asegura de que el candidato llegue activo, no solo registrado. Produce la conversación de preparación antes del primer turno.",
+          "**Tramo 2 — Día 45, calificación ≥ 4.3 y ≥ 4 viajes/día activo (200 MXN)**: el tramo más valioso en términos de comportamiento. El referente tiene incentivo directo de acompañar al referido en los días 8 al 25 —el período de mayor riesgo de abandono—, antes de que el tramo se cierre.",
+          "**Tramo 3 — Día 90, calificación ≥ 4.4 activa (130 MXN)**: confirma que el referido alcanzó la permanencia que la operación necesita. Para el referente, el tercer tramo es la validación de que su proceso de incorporación funcionó; para el operador, es el indicador de que el programa está produciendo flota, no solo activaciones."
+        ],
+        "en": [
+          "**Tranche 1 — Day 7, first 10 trips completed (150 MXN)**: confirms real activation. The referring driver makes sure the candidate arrives active, not just registered. Produces the preparation conversation before the first shift.",
+          "**Tranche 2 — Day 45, rating ≥ 4.3 and ≥ 4 trips/active day (200 MXN)**: the most behaviorally valuable tranche. The referring driver has direct incentive to accompany the referred driver from days 8 to 25 — the highest abandonment-risk period — before the tranche window closes.",
+          "**Tranche 3 — Day 90, active rating ≥ 4.4 (130 MXN)**: confirms the referred driver reached the tenure the operation needs. For the referring driver, the third tranche validates that their onboarding process worked; for the operator, it's the indicator that the program is producing fleet, not just activations."
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "calificacion-referente-predice-calidad-referido",
+      "text": {
+        "es": "Por qué la calificación del referente predice la calidad del referido",
+        "en": "Why the referring driver's rating predicts the referred driver's quality"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El patrón que aparece consistentemente en operaciones que han medido los indicadores de 90 días de conductores referidos segmentados por la calificación del referente: los referidos de conductores con calificación de 4.7 o más tienen retención a 90 días entre 18 y 28 puntos porcentuales más alta que los referidos de conductores con calificación de 4.2 a 4.4. Hay dos mecanismos que explican ese patrón. El primero es la transmisión de expectativas: el conductor de 4.7 estrellas que habla con un candidato describe lo que se requiere para operar a ese nivel —puntualidad, vehículo limpio, forma de tratar al pasajero, calificaciones bajas iniciales mientras se acumula historial—. El candidato que se activa con esa información llega con expectativas calibradas para la realidad del trabajo de alto desempeño. El conductor de 4.2 que refiere transmite expectativas calibradas para 4.2: el nuevo conductor llega pensando que ese es el estándar operativo, y en los primeros 30 días en que su calificación está entre 4.1 y 4.3 por falta de historial, no percibe urgencia de mejorar porque el referente le dijo implícitamente que ese rango es aceptable. El segundo mecanismo es el filtro de selección: el conductor que trabaja con estándares altos tiende a referir candidatos que él evalúa como capaces de mantener esos estándares, no solo a cualquier conocido que necesite trabajo.",
+        "en": "The pattern that appears consistently in operations that have measured 90-day indicators for referred drivers segmented by referring driver rating: referrals from drivers rated 4.7 or above have 90-day retention rates 18 to 28 percentage points higher than referrals from drivers rated 4.2 to 4.4. Two mechanisms explain this pattern. The first is expectation transmission: the 4.7-star driver talking with a candidate describes what operating at that level requires — punctuality, clean vehicle, passenger interaction, initially low ratings while building a review history. The candidate who activates with that information arrives with expectations calibrated to the reality of high-performance work. The 4.2-star driver transmits expectations calibrated for 4.2: the new driver arrives believing that's the operational standard, and in the first 30 days when their rating is between 4.1 and 4.3 from lack of history, they feel no urgency to improve because the referring driver implicitly told them that range is acceptable. The second mechanism is selection filtering: the driver who works to high standards tends to refer candidates they evaluate as capable of maintaining those standards, not just any acquaintance who needs work."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "metricas-realistas-primeros-90-dias-referidos",
+      "text": {
+        "es": "Métricas realistas en los primeros 90 días de un programa estructurado",
+        "en": "Realistic metrics in the first 90 days of a structured program"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Los benchmarks de retención para un programa de referidos con estructura de tramos, limitado a conductores mentor con calificación igual o superior a 4.5 estrellas: en los primeros 30 días, una operación con 25 a 60 conductores y 5 a 12 mentores activos puede esperar entre 2 y 6 activaciones mensuales vía referidos. Es un número más bajo que el del programa de activación simple, y es correcto que así sea: el pool de referentes es más pequeño y la restricción de calidad reduce el número de candidatos disponibles. Lo que cambia es la calidad de esas activaciones. La retención a 30 días del conductor referido con estructura de mentor oscila entre el 75 y el 85%, frente al 55 al 70% de los conductores referidos con bono de activación simple. A los 90 días, la retención estructurada está entre el 55 y el 70%, versus el 35 al 50% de los referidos sin estructura. La calificación promedio del referido a los 60 días en programas estructurados tiende a estar dentro de 0.1 a 0.2 estrellas de la calificación del referente —señal de que la transmisión de estándares está funcionando—. El costo por conductor retenido a 90 días en el programa estructurado, con un bono total de 400 a 500 MXN, es entre el 40 y el 60% menor que en el programa de activación simple para producir el mismo número de conductores activos en ese horizonte, porque el programa estructurado incorpora menos pero pierde menos.",
+        "en": "The retention benchmarks for a referral program with tranche structure, restricted to mentor drivers rated at or above 4.5 stars: in the first 30 days, an operation with 25 to 60 drivers and 5 to 12 active mentors can expect 2 to 6 monthly activations via referrals. That's a lower number than the simple activation program, and it's correct that it should be: the referrer pool is smaller and the quality restriction reduces the number of available candidates. What changes is the quality of those activations. 30-day retention for referred drivers with a mentor structure ranges from 75 to 85%, compared to 55 to 70% for referred drivers with a simple activation bonus. At 90 days, structured retention is between 55 and 70%, versus 35 to 50% for unstructured referrals. The average rating of the referred driver at 60 days in structured programs tends to be within 0.1 to 0.2 stars of the referring driver's rating — a signal that standards transmission is working. The cost per driver retained at 90 days in the structured program, with a total bonus of 400 to 500 MXN, is 40 to 60% lower than in the simple activation program to produce the same number of active drivers at that horizon, because the structured program recruits fewer drivers but loses fewer of them."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "consulta-agente-referidos-rendimiento-operacion",
+      "text": {
+        "es": "La consulta al agente que verifica si los referidos rinden diferente en tu operación",
+        "en": "The agent query that verifies whether referred drivers perform differently in your operation"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La verificación del rendimiento diferencial de los conductores referidos versus no referidos en la operación histórica es el primer paso antes de rediseñar el programa. La consulta al agente que produce esa verificación: «Para los conductores activados en los últimos 18 meses, separa dos grupos: los que llegaron mediante referido de un conductor activo en la plataforma y los que llegaron por otros canales. Para cada grupo, muéstrame la retención a 30 y 90 días, la calificación promedio a los 60 días de activación, el promedio de viajes por día activo a los 45 días, y el porcentaje que completó al menos 30 días activos. Si el grupo referido muestra una retención a 90 días más de 10 puntos porcentuales por encima del no referido, el canal de referidos está agregando valor de flota real. Si la diferencia es menor a 10 puntos, el programa actual genera activaciones pero no retención —y el rediseño del bono hacia tramos es la intervención principal.»",
+        "en": "Verifying the differential performance of referred versus non-referred drivers in historical operation is the first step before redesigning the program. The agent query that produces that verification: 'For drivers activated in the last 18 months, separate two groups: those who joined through a referral from an active driver on the platform, and those who joined through other channels. For each group, show 30-day and 90-day retention, average rating at 60 days after activation, average trips per active day at 45 days, and the percentage who completed at least 30 active days. If the referred group shows 90-day retention more than 10 percentage points above the non-referred group, the referral channel is adding real fleet value. If the difference is under 10 points, the current program generates activations but not retention — and redesigning the bonus toward tranches is the primary intervention.'"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La segunda consulta que calibra el impacto por perfil del referente: «Para los conductores referidos del análisis anterior, segmenta los resultados de 90 días por el rango de calificación del conductor que los refirió: 4.6 estrellas o más versus 4.2 a 4.5. Muéstrame la retención a 90 días, la calificación promedio a los 60 días y el promedio de viajes por día activo a los 45 días para cada grupo. Si la diferencia de retención a 90 días entre los dos rangos de calificación de referente es mayor a 15 puntos, el acceso al programa debe restringirse a conductores por encima del umbral mayor.» Las dos consultas juntas toman menos de 15 minutos y determinan si el problema del programa actual es la estructura del bono, el perfil del referente o ambos. Para la operación que no tiene datos históricos de referidos porque nunca registró el canal de activación, el primer paso es empezar a registrarlo en cada nueva activación antes de lanzar cualquier programa estructurado.",
+        "en": "The second query that calibrates impact by referrer profile: 'For the referred drivers from the previous analysis, segment the 90-day results by the rating range of the driver who referred them: 4.6 stars or above versus 4.2 to 4.5. Show me 90-day retention, average rating at 60 days, and average trips per active day at 45 days for each group. If the 90-day retention difference between the two referrer rating ranges exceeds 15 points, program access should be restricted to drivers above the higher threshold.' The two queries together take under 15 minutes and determine whether the problem with the current program is the bonus structure, the referrer profile, or both. For the operation that has no historical referral data because the activation channel was never recorded, the first step is to start recording it for every new activation before launching any structured program."
+      }
+    },
+    {
+      "type": "quote",
+      "text": {
+        "es": "Tenía un programa de referidos desde el año uno. Cuando revisé los datos me di cuenta de que el 80% de los conductores que referí y pagué estaban fuera de la plataforma a los 60 días. Les pagaba 250 pesos al momento de la activación y después no sabía qué pasaba con ellos. Cambié el programa: dividí el bono en tres pagos —en el día 7, el día 45 y el día 90— y solo lo ofrecí a mis cinco conductores con calificación de 4.7 o más. Mis conductores referidos pasaron de un promedio de 48 días activos a 94 días activos. Lo único que cambié fue cuándo pago y a quién le doy la opción de referir.",
+        "en": "I'd had a referral program since year one. When I reviewed the data I realized 80% of the drivers I had referred and paid for were off the platform within 60 days. I was paying 250 pesos at activation and then had no idea what happened to them. I changed the program: I split the bonus into three payments — at day 7, day 45, and day 90 — and only offered it to my five drivers rated 4.7 or above. My referred drivers went from an average of 48 active days to 94 active days. The only things I changed were when I pay and who I give the option to refer."
+      },
+      "attribution": {
+        "es": "Operadora con 27 meses de operación en una ciudad de 180,000 habitantes en Guanajuato, México",
+        "en": "Operator with 27 months of operation in a city of 180,000 in Guanajuato, Mexico"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Un programa de referidos con bono de activación es un mecanismo de reclutamiento con un momento de validación social: el candidato llega porque alguien que conoce ya opera en la plataforma. Eso es valioso, pero no es suficiente para producir flota. El programa de tramos convierte ese mecanismo de reclutamiento en un sistema de transmisión de cultura: el referente con incentivo económico de acompañar al referido durante 90 días transmite sus estándares operativos, sus expectativas sobre el trabajo y su conocimiento práctico de la plataforma sin que el operador tenga que construir un programa formal de mentoría con sesiones de capacitación y materiales de entrenamiento. El operador está subcontratando parte del proceso de onboarding al conductor con mejor desempeño y pagándole con el mismo bono que antes pagaba por la activación. La estructura distribuye el trabajo; el costo puede ser idéntico.",
+        "en": "A referral program with an activation bonus is a recruitment mechanism with a social validation moment: the candidate arrives because someone they know already operates on the platform. That is valuable, but it isn't enough to build a fleet. The tranche program converts that recruitment mechanism into a culture transmission system: the referring driver with economic incentive to accompany the referred driver for 90 days transmits their operational standards, their expectations about the work, and their practical platform knowledge without the operator having to build a formal mentorship program with training sessions and instructional materials. The operator is outsourcing part of the onboarding process to their best-performing driver and paying them with the same bonus they previously paid for activation. The structure distributes the work; the cost can be identical."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La restricción del programa al 15 al 25% de conductores con mejor desempeño tiene un efecto secundario que pocas operaciones anticipan: mejora el estándar percibido del programa para el resto de la flota. El conductor que trabaja hacia los umbrales de calificación y antigüedad no lo hace solo porque quiere referir —lo hace porque el programa de mentor funciona como señal de estatus dentro de la flota. Los que califican son los que el operador considera suficientemente buenos para representar a la plataforma ante nuevos conductores. Esa percepción, cuando se comunica con claridad y sin pretensión, convierte el programa de referidos en una palanca de desarrollo interno que mejora la calidad de la flota existente al mismo tiempo que incorpora nueva. El monto total del bono no necesita ser mayor que el de activación; el diseño de cuándo se paga y quién puede participar hace el trabajo que el monto nunca pudo.",
+        "en": "Restricting the program to the top 15 to 25% of performing drivers has a secondary effect few operations anticipate: it improves the perceived standard of the program for the rest of the fleet. The driver working toward the rating and tenure thresholds doesn't do it only because they want to refer — they do it because the mentor program functions as a status signal within the fleet. Those who qualify are the ones the operator considers good enough to represent the platform to new drivers. That perception, when communicated clearly and without pretension, turns the referral program into an internal development lever that improves existing fleet quality while simultaneously adding new drivers. The total bonus amount doesn't need to be larger than an activation bonus; the design of when it pays and who can participate does the work the amount never could."
+      }
+    }
+  ],
+  "cta": {
+    "heading": {
+      "es": "¿Listo para lanzar tu propia app de movilidad?",
+      "en": "Ready to launch your own mobility app?"
+    },
+    "body": {
+      "es": "Configura tu marca, tus tarifas y tus servicios en semanas, no en meses. Cabgo te entrega la plataforma; tú te quedas con la operación, los clientes y los ingresos.",
+      "en": "Set up your brand, pricing and services in weeks, not months. Cabgo ships the platform — you keep the operation, the customers and the revenue."
+    },
+    "buttonLabel": {
+      "es": "Comenzar con Cabgo",
+      "en": "Get started with Cabgo"
+    },
+    "buttonHref": "/empezar"
+  },
+  "seo": {
+    "metaTitle": {
+      "es": "Referidos para conductores: estructura del bono | Cabgo",
+      "en": "Driver referral bonus structure: build a fleet | Cabgo"
+    },
+    "metaDescription": {
+      "es": "El bono de activación produce activaciones, no flota. Cómo distribuir el mismo monto en tramos para que el referente acompañe al conductor los 90 días.",
+      "en": "Activation bonuses produce activations, not fleet. How to split the same total across tranches so referrers accompany new drivers through day 90."
+    }
+  }
+}
