@@ -1,0 +1,233 @@
+{
+  "slug": "lealtad-pasajeros-frecuentes-estructura-programa",
+  "category": "strategy",
+  "title": {
+    "es": "Programa de lealtad para pasajeros frecuentes: cuándo activarlo y qué estructura no destruye el margen",
+    "en": "Frequent passenger loyalty programs: when to launch and how to structure them without destroying margin"
+  },
+  "excerpt": {
+    "es": "Pasajeros frecuentes: el 10-15% de tu base pero el 35-40% de tu ingreso mensual. Cuándo lanzar un programa de lealtad y qué estructura funciona en mercados regionales de LATAM.",
+    "en": "Frequent passengers: 10-15% of your base, 35-40% of monthly revenue. When to launch a loyalty program and how to structure it without eroding margin in regional LATAM markets."
+  },
+  "heroImage": "https://raw.githubusercontent.com/jonatanvazquez/cabgo-blog-content/main/images/lealtad-pasajeros-frecuentes-estructura-programa.jpg",
+  "heroImageAlt": {
+    "es": "Composición isométrica dividida. Izquierda: pantalla de smartphone con tarjeta de lealtad en dos niveles — insignia teal 'Frecuente' con estrella y tarjeta inferior 'Básico' en ámbar, contador de viajes '8/8' con palomita teal. Derecha: bloque urbano en vista aérea con vehículo de conductor conectado por línea punteada teal a pin de pasajero frecuente con insignia de prioridad; pin ámbar de pasajero regular al fondo. Primer plano: barras comparativas — barra ámbar corta '8% pasajeros' y barra teal alta '35% ingresos' con multiplicador flotante '4.3x'.",
+    "en": "Split isometric composition. Left: a smartphone screen with a two-tier loyalty card — a teal 'Frecuente' badge with a star and a lower amber 'Básico' card, trip counter '8/8' with a teal checkmark. Right: an aerial city block view with a driver vehicle connected by a dotted teal line to a frequent passenger pin with a priority badge; a regular amber passenger pin in the background. Foreground: comparative bars — a short amber '8% pasajeros' bar and a tall teal '35% ingresos' bar with a floating '4.3x' multiplier."
+  },
+  "heroImagePrompt": "Split isometric composition. Left half: a large floating smartphone screen displaying a passenger loyalty card with two stacked tier levels — a glowing teal top card labeled 'Frecuente' with a star badge and a soft amber lower card labeled 'Básico'. Below the tiers, a small trip counter badge showing '8/8 viajes' with a teal checkmark and subtle upward confetti dots. Right half: an aerial-view isometric city block with a driver vehicle icon connected by a clean dotted teal route line to a highlighted passenger pickup pin; a small glowing 'priority' star badge floats above the frequent passenger pin. In the background, a second route connects a driver to an ordinary amber pin representing a regular passenger. In the foreground: a compact dual-bar chart — a shorter amber bar labeled '8% pasajeros' and a taller teal bar labeled '35% ingresos', with a floating multiplier tag reading '4.3x' between their tops. Deep violet floor grid, soft indigo radial background glow, clean geometric shapes, subtle shadows. Negative space on the lower right.",
+  "publishedAt": "2026-07-31",
+  "readingMinutes": 8,
+  "keywords": {
+    "es": [
+      "programa lealtad pasajeros ride-hailing México",
+      "fidelización pasajeros frecuentes taxi app LATAM",
+      "retención pasajeros frecuentes plataforma movilidad",
+      "beneficios exclusivos pasajeros frecuentes ride-hailing",
+      "cuándo lanzar programa fidelización movilidad regional",
+      "tasa recurrencia pasajeros plataforma movilidad",
+      "lealtad pasajeros taxi app sin descuentos margen"
+    ],
+    "en": [
+      "passenger loyalty program ride-hailing Mexico",
+      "frequent passenger retention taxi app LATAM",
+      "loyalty rewards regional mobility platform",
+      "when to launch loyalty program ride-hailing",
+      "passenger recurrence rate mobility app",
+      "ride-hailing loyalty benefits without fare discounts",
+      "frequent rider program structure regional operator"
+    ]
+  },
+  "author": {
+    "name": "Equipo Cabgo",
+    "role": {
+      "es": "Plataforma de movilidad",
+      "en": "Mobility platform"
+    }
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Los programas de lealtad para pasajeros de ride-hailing regional tienen un problema de secuencia antes de ser un problema de diseño: la mayoría de los operadores los activan como respuesta a una caída de retención, sin verificar si el problema real es de retención o de servicio. Un programa de puntos no retiene al pasajero que abandonó la plataforma porque el conductor tardó 14 minutos en llegar o porque la app canceló el viaje en el momento de la asignación. Lo que sí hace un programa bien estructurado, en una operación donde el servicio ya es consistente, es convertir el comportamiento de uso frecuente en un compromiso más explícito con la plataforma y elevar el costo de cambio hacia un competidor que entra con precio más bajo. La diferencia entre los dos escenarios determina si el programa agrega retención real o solo agrega costo.",
+        "en": "Passenger loyalty programs in regional ride-hailing have a sequencing problem before they have a design problem: most operators activate them in response to a retention dip, without checking whether the real problem is retention or service quality. A points program won't retain the passenger who left because the driver took 14 minutes to arrive or because the app cancelled the trip at the moment of assignment. What a well-structured program does, in an operation where service is already consistent, is convert frequent-use behavior into a more explicit commitment to the platform and raise the switching cost toward a competitor entering with a lower price. The difference between those two scenarios determines whether the program adds real retention or just adds cost."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Este artículo está dirigido al operador con 8 a 24 meses de operación y 30 a 80 conductores activos que evalúa si un programa de lealtad para pasajeros tiene sentido en su etapa actual. Cubre la diferencia entre lealtad por hábito y lealtad por incentivo; qué tasa de recurrencia indica que la operación está lista para el programa; por qué los descuentos en tarifa como recompensa deterioran el margen en mercados regionales; qué beneficios producen retención sin costo directo para el operador; cómo estructurar un programa simple sin CRM sofisticado; y la consulta al agente que calcula cuánto vale el cohort de pasajeros frecuentes para la operación. La tesis es directa: el programa de lealtad que funciona en operaciones regionales no es un sistema de puntos complejo — es una arquitectura de reconocimiento que convierte la frecuencia de uso en un beneficio percibido que el pasajero no quiere perder.",
+        "en": "This article is for operators with 8 to 24 months of operation and 30 to 80 active drivers who are evaluating whether a passenger loyalty program makes sense at their current stage. It covers the difference between loyalty from habit and loyalty from incentive; what recurrence rate signals the operation is ready; why fare discounts as rewards erode margin in regional markets; what benefits produce retention without direct cost to the operator; how to structure a simple program without sophisticated CRM; and the agent query that calculates how much the frequent passenger cohort is worth to the operation. The thesis is direct: the loyalty program that works in regional operations isn't a complex points system — it's a recognition architecture that converts frequent use into a perceived benefit the passenger doesn't want to lose."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "lealtad-habito-vs-incentivo",
+      "text": {
+        "es": "Lealtad por hábito versus lealtad por incentivo: por qué el diagnóstico cambia el diseño",
+        "en": "Loyalty from habit versus loyalty from incentive: why the diagnosis changes the design"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La lealtad por hábito es el tipo que no requiere programa. El pasajero que usa la plataforma cuatro veces por semana porque es el único servicio de movilidad confiable en su zona está comprometido sin necesitar puntos. Ese compromiso es valioso pero frágil: desaparece si entra un competidor a precio más bajo o si la calidad cae por debajo del umbral de tolerancia del pasajero. La lealtad por incentivo es la que un programa construye activamente: el pasajero elige usar la plataforma en lugar de una alternativa porque tiene un beneficio acumulado que perdería si cambia. El programa no transforma lealtad-hábito en lealtad-incentivo — hace que el pasajero con hábito de uso también tenga un costo de cambio explícito. La distinción importa para el diseño: si la mayoría de los viajes proviene de pasajeros sin alternativa real, el programa no agrega retención, solo agrega costo. Si entre el 40 y el 50% de los viajes proviene de pasajeros que podrían elegir taxi informal, otra app o transporte público, el programa tiene terreno donde agregar valor diferencial.",
+        "en": "Loyalty from habit is the type that doesn't need a program. The passenger who uses the platform four times a week because it's the only reliable mobility service in their area is committed without needing points. That commitment is valuable but fragile: it disappears when a competitor enters at a lower price or when quality drops below the passenger's tolerance threshold. Loyalty from incentive is what a program actively builds: the passenger chooses to use the platform instead of an alternative because they have accumulated benefits they would lose by switching. The program doesn't convert habit loyalty into incentive loyalty — it gives the habit-loyal passenger an explicit switching cost as well. The distinction matters for design: if most trips come from passengers with no real alternative, the program adds no retention, only cost. If 40 to 50% of trips come from passengers who could choose informal taxis, another app, or public transit, the program has room to add genuine differential value."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "tasa-recurrencia-madurez-programa",
+      "text": {
+        "es": "La tasa de recurrencia: la señal que indica si la operación está lista",
+        "en": "The recurrence rate: the signal that tells you the operation is ready"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El indicador que determina si la operación está lista para un programa de lealtad no es el número de pasajeros activos sino la tasa de recurrencia: qué porcentaje de pasajeros que usó la plataforma en los últimos 30 días completó 3 o más viajes en ese período. En operaciones con 8 a 18 meses de antigüedad esa tasa varía considerablemente: operaciones con calificación promedio de 4.6 o más y tiempo de espera estable llegan al 30 al 40% de pasajeros con 3+ viajes al mes; operaciones con calificación de 4.2 a 4.4 o alta variabilidad de cobertura están entre el 15 y el 25%. Si la tasa de recurrencia es inferior al 20%, el problema es operativo, no de lealtad: el pasajero no regresa porque el servicio no está justificando el regreso, y ningún programa de puntos puede resolver eso. Si la tasa supera el 30% con más de 200 pasajeros activos mensuales, el programa tiene una base que vale la pena anclar activamente con beneficios explícitos. El umbral del 30% de recurrencia a 3+ viajes/mes es la señal más clara de que el servicio ya ganó al pasajero y el programa puede consolidar ese hábito en lugar de intentar crearlo.",
+        "en": "The indicator that determines whether the operation is ready for a loyalty program isn't the number of active passengers but the recurrence rate: what percentage of passengers who used the platform in the last 30 days completed 3 or more trips in that period. In operations with 8 to 18 months of history, that rate varies considerably: operations averaging 4.6 stars or above with stable wait times reach 30 to 40% of passengers at 3+ trips per month; operations at 4.2 to 4.4 or with high coverage variability sit between 15 and 25%. If the recurrence rate is below 20%, the problem is operational, not loyalty-related: passengers aren't returning because the service isn't justifying a return, and no points program can fix that. If the rate exceeds 30% with more than 200 monthly active passengers, the program has a base worth actively anchoring with explicit benefits. The 30% recurrence threshold at 3+ trips per month is the clearest signal that the service has already won the passenger and the program can consolidate that habit rather than trying to create it."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "descuentos-tarifa-destruyen-margen",
+      "text": {
+        "es": "Por qué los descuentos en tarifa como recompensa deterioran el margen regional",
+        "en": "Why fare discounts as loyalty rewards erode regional margin"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El diseño más intuitivo para un programa de lealtad en movilidad es el punto que se canjea como descuento en la siguiente tarifa: «acumula 10 viajes y obtén 20% en tu próximo viaje». Ese diseño tiene dos problemas en mercados regionales de LATAM. El primero es matemático: si el 20% de descuento aplica a 1 de cada 10 viajes, el operador regala el 2% del ingreso bruto de ese pasajero en el período. Sobre una tarifa promedio de 70 MXN, son 1.4 MXN por viaje — manejable de forma aislada. Lo que no es manejable es cuando el programa escala y el 20% de los pasajeros activos alcanza el umbral mensualmente: el costo se convierte en una reducción permanente de margen sin que el operador pueda medirlo fácilmente como costo de retención. El segundo problema es de relación con el conductor: en diseños donde el descuento se aplica directamente a la tarifa del viaje, el conductor completa el mismo recorrido pero recibe una tarifa inferior. Algunos esquemas lo absorbe el operador en su margen, pero genera confusión entre conductores que ven tarifas variables para el mismo tipo de viaje sin explicación clara. Los programas que funcionan en mercados regionales separan el incentivo de la tarifa y lo construyen con beneficios de servicio, no de precio.",
+        "en": "The most intuitive loyalty program design in mobility is the point redeemable as a fare discount: 'earn 10 trips and get 20% off your next ride.' That design has two problems in regional LATAM markets. The first is mathematical: if the 20% discount applies to 1 in 10 trips, the operator is giving away 2% of that passenger's gross revenue in the period. At an average fare of 70 MXN that's 1.4 MXN per trip — manageable in isolation. What isn't manageable is when the program scales and 20% of active passengers hit the threshold monthly: the cost becomes a permanent margin reduction that the operator can't easily measure as a retention cost. The second problem involves the driver relationship: in designs where the discount applies directly to the trip fare, the driver completes the same route but receives a lower fare. Some schemes have the operator absorb it in their margin, but it creates confusion among drivers who see variable fares for the same trip type without a clear explanation. Programs that work in regional markets decouple the incentive from the fare and build it from service benefits, not price benefits."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "beneficios-sin-costo-por-viaje",
+      "text": {
+        "es": "Los beneficios que generan retención sin costo por viaje",
+        "en": "Benefits that generate retention without cost per trip"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Los beneficios que funcionan en programas de lealtad de ride-hailing regional son ventajas de servicio con costo marginal bajo o nulo para el operador. No modifican la tarifa ni afectan la liquidación del conductor; trabajan sobre la percepción de acceso preferencial, que es exactamente lo que convierte el uso frecuente en un comportamiento difícil de abandonar cuando aparece una alternativa.",
+        "en": "The benefits that work in regional ride-hailing loyalty programs are service advantages with low or zero marginal cost to the operator. They don't modify the fare or affect driver settlements; they work on the perception of preferential access, which is precisely what converts frequent use into a behavior that's hard to abandon when an alternative appears."
+      }
+    },
+    {
+      "type": "list",
+      "style": "bullet",
+      "intro": {
+        "es": "Los beneficios de mayor efectividad en operaciones regionales de 30 a 80 conductores activos:",
+        "en": "The most effective benefits in regional operations with 30 to 80 active drivers:"
+      },
+      "items": {
+        "es": [
+          "**Prioridad en horas pico**: el pasajero frecuente recibe tiempo de espera mejorado durante los períodos de mayor demanda — turno de mañana en días hábiles, salida de eventos, lluvia intensa. Para el operador, se implementa posicionando conductores cerca de las zonas donde esos pasajeros habitualmente solicitan viajes, algo que muchas operaciones ya hacen informalmente con sus mejores clientes.",
+          "**Tarifa fija en rutas habituales**: el pasajero con una ruta regular trabajo-casa puede acordar una tarifa fija que no fluctúe con la demanda del día. Alto valor percibido y costo mínimo cuando las rutas del pasajero frecuente tienen distancia estable y se concentran fuera de las horas de mayor surge.",
+          "**Conductor preferido**: en operaciones con 20 a 50 conductores activos, permitir que el pasajero frecuente marque conductores preferidos que la plataforma intenta asignar primero. Produce una vinculación emocional que el precio de la competencia difícilmente supera porque el pasajero no solo usa la app — usa a su conductor de confianza.",
+          "**Acceso anticipado a servicios nuevos**: los pasajeros del tier de mayor frecuencia son los primeros en acceder a una nueva categoría de servicio o función de la app. La exclusividad temporal tiene alto valor percibido y costo cero para el operador.",
+          "**Canal directo con el coordinador**: el pasajero frecuente tiene acceso al WhatsApp del coordinador para incidentes o problemas urgentes, en lugar del flujo estándar de soporte. Ese canal ya existe en casi todas las operaciones regionales — formalizar su acceso como beneficio de lealtad no agrega costo, solo percepción de trato preferencial."
+        ],
+        "en": [
+          "**Peak-hour priority**: the frequent passenger receives an improved wait time during high-demand periods — morning rush on weekdays, post-event exits, heavy rain. The operator implements this by proactively positioning drivers near zones where these passengers typically request trips, something many operations already do informally with their best clients.",
+          "**Fixed fare on regular routes**: the passenger with a recurring work-home route can lock in a fixed fare that doesn't fluctuate with daily demand. High perceived value and minimal cost when the frequent passenger's routes have stable distance and fall outside peak surge windows.",
+          "**Preferred driver**: in operations with 20 to 50 active drivers, letting the frequent passenger mark preferred drivers the platform tries to assign first. Creates an emotional loyalty that a competitor's price won't easily overcome — the passenger isn't just using the app, they're using their trusted driver.",
+          "**Early access to new services**: passengers in the highest-frequency tier are the first to access a new service category or app feature. Temporary exclusivity has high perceived value and zero cost to the operator.",
+          "**Direct coordinator channel**: the frequent passenger has access to the coordinator's WhatsApp for incidents or urgent problems, bypassing the standard support flow. That channel already exists in nearly every regional operation — formalizing access to it as a loyalty benefit adds no cost, only the perception of preferential treatment."
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "estructura-simple-sin-crm",
+      "text": {
+        "es": "La estructura en dos tiers para operaciones sin CRM sofisticado",
+        "en": "The two-tier structure for operations without sophisticated CRM"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El programa de lealtad que funciona en una operación regional con 30 a 80 conductores no necesita un sistema de puntos automatizado ni un CRM complejo. Necesita tres elementos: un umbral mensual de viajes claramente definido, una lista de beneficios diferenciados por tier, y un mecanismo de comunicación semanal para notificar al pasajero su estado en el programa. La estructura en dos niveles es la más manejable: un tier básico para pasajeros con 4 a 7 viajes mensuales — con acceso a tarifa fija en rutas habituales y notificaciones anticipadas de funciones nuevas —, y un tier frecuente para pasajeros con 8 o más viajes al mes — con acceso a los cinco beneficios del listado anterior —. El operador puede gestionar ambos tiers con la consulta semanal al agente que identifica qué pasajeros cruzaron el umbral, y comunicar los beneficios por WhatsApp, notificación push o mensaje post-viaje en la app. Para una operación con 40 conductores activos y 600 a 800 pasajeros mensuales, el grupo que califica para el tier frecuente suele ser entre 60 y 120 personas — un número manejable sin automatización —. El criterio de acceso debe ser viajes en el mes calendario, no acumulados históricos: resetear mensualmente mantiene al pasajero motivado y al costo del programa controlado, porque el tier que se pierde por inactividad no genera costo.",
+        "en": "The loyalty program that works in a regional operation with 30 to 80 drivers doesn't need an automated points system or complex CRM. It needs three elements: a clearly defined monthly trip threshold, a differentiated benefit list per tier, and a weekly communication mechanism to notify the passenger of their standing. A two-level structure is the most manageable: a basic tier for passengers with 4 to 7 monthly trips — with access to fixed fares on regular routes and early notifications of new features — and a frequent tier for passengers with 8 or more monthly trips — with access to all five benefits from the list above. The operator can manage both tiers using a weekly agent query that identifies which passengers crossed the threshold, and communicate benefits via WhatsApp, push notification, or post-ride message in the app. For an operation with 40 active drivers and 600 to 800 monthly passengers, the group qualifying for the frequent tier is typically 60 to 120 people — manageable without automation. The access criterion should be trips in the calendar month, not historical accumulation: a monthly reset keeps passengers motivated and program cost controlled, because a tier lost to inactivity generates no cost."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "consulta-agente-cohort-frecuente",
+      "text": {
+        "es": "La consulta al agente que calcula cuánto vale el cohort de pasajeros frecuentes",
+        "en": "The agent query that calculates how much the frequent passenger cohort is worth"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La consulta que produce el diagnóstico inicial antes de diseñar el programa: «Para los últimos 60 días, identifica los pasajeros que completaron 8 o más viajes en cualquiera de los dos meses. Para ese cohort, muéstrame el promedio de viajes por mes activo, la tarifa promedio por viaje, el horario de uso más frecuente, y el porcentaje de ese cohort que también usó la plataforma en el mes anterior al período de análisis. Calcula el ingreso mensual total que ese cohort generó en los últimos 60 días y qué porcentaje representa del ingreso total de la plataforma en ese período. Por último, calcula cuánto ingreso mensual se recuperaría si la retención a 90 días de ese cohort subiera del 70% al 85%.» El resultado típico en operaciones con 600 a 900 pasajeros activos mensuales: el cohort de 8+ viajes/mes representa entre el 8 y el 15% de los pasajeros activos, pero genera entre el 28 y el 42% del ingreso mensual. En una operación donde ese cohort genera el 35% del ingreso, un programa que sube la retención del 70 al 85% equivale a proteger entre el 5 y el 7% del ingreso mensual total sin costo adicional de adquisición. Ese número — la diferencia en ingreso mensual protegido — es el cálculo de ROI que determina si el programa tiene sentido antes de diseñarlo.",
+        "en": "The query that produces the initial diagnostic before designing the program: 'For the last 60 days, identify passengers who completed 8 or more trips in either of the two months. For that cohort, show me average trips per active month, average fare per trip, most frequent usage time window, and the percentage of that cohort who also used the platform in the month prior to the analysis period. Calculate the total monthly revenue that cohort generated in the last 60 days and what percentage it represents of total platform revenue in that period. Finally, calculate how much monthly revenue would be protected if the 90-day retention of that cohort rose from 70% to 85%.' The typical result in operations with 600 to 900 monthly active passengers: the 8+ trips/month cohort represents 8 to 15% of active passengers but generates 28 to 42% of monthly revenue. In an operation where that cohort generates 35% of revenue, a program that raises retention from 70 to 85% is equivalent to protecting 5 to 7% of total monthly revenue without additional acquisition cost. That number — the difference in protected monthly revenue — is the ROI calculation that determines whether the program makes sense before designing it."
+      }
+    },
+    {
+      "type": "quote",
+      "text": {
+        "es": "Lancé el programa cuando llevaba 14 meses operando. No tenía un sistema de puntos — identifiqué a los 40 pasajeros que viajaban más de 8 veces al mes y los contacté por WhatsApp para avisarles que tenían prioridad en horas pico y acceso directo a mi número si había algún problema. La retención de ese grupo a los 6 meses fue del 89%. No cambié la tarifa, no gasté en descuentos. Lo único que cambié fue que esos pasajeros supieran que yo sabía quiénes eran.",
+        "en": "I launched the program 14 months in. I had no points system — I identified the 40 passengers who were traveling more than 8 times a month and messaged them on WhatsApp to let them know they had peak-hour priority and direct access to my number if anything went wrong. Retention in that group at 6 months was 89%. I didn't change the fare, I didn't spend on discounts. The only thing I changed was making those passengers aware that I knew who they were."
+      },
+      "attribution": {
+        "es": "Operador con 22 meses de operación en una ciudad de 210,000 habitantes en Jalisco, México",
+        "en": "Operator with 22 months of operation in a city of 210,000 in Jalisco, Mexico"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El programa de lealtad que produce retención real en mercados regionales no es el más tecnológico ni el más generoso en descuentos: es el que convierte a los pasajeros frecuentes en un grupo que sabe que la plataforma los reconoce diferenciadamente. En una ciudad de 100,000 a 400,000 habitantes donde la alternativa al ride-hailing formal es el taxi informal o el transporte público, el factor que determina si un pasajero frecuente permanece no suele ser el precio — es la percepción de que esta plataforma le resuelve el transporte de forma más confiable y personalizada que cualquier alternativa. Un programa bien ejecutado refuerza esa percepción con acciones concretas: acceso prioritario en horas pico, tarifa fija en rutas habituales, canal directo con el coordinador. Ninguna de esas acciones requiere invertir más de lo que el pasajero ya genera con su frecuencia de uso.",
+        "en": "The loyalty program that produces real retention in regional markets isn't the most technologically sophisticated or the most generous with discounts: it's the one that converts frequent passengers into a group that knows the platform recognizes them differentially. In a city of 100,000 to 400,000 residents where the alternative to formal ride-hailing is the informal taxi or public transit, the factor that determines whether a frequent passenger stays usually isn't price — it's the perception that this platform solves their transportation need more reliably and personally than any alternative. A well-executed program reinforces that perception with concrete actions: priority access during peak hours, fixed fares on regular routes, direct coordinator channel. None of those actions requires investing more than what the passenger already generates through their frequency of use."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La matemática del largo plazo es directa: en una operación donde el 10% de los pasajeros activos genera el 35% del ingreso mensual, un programa que sube la retención de ese cohort del 70 al 85% equivale a proteger entre el 5 y el 7% del ingreso total mensual sin costo de adquisición. El operador que diseña un programa de lealtad antes de resolver los problemas de servicio que causan abandono está poniendo incentivos encima de un problema operativo que los incentivos no pueden resolver. El que lo lanza después de que su tasa de recurrencia supera el 30% está usando el programa para lo que fue diseñado: convertir el hábito de uso en un compromiso más explícito que el competidor tiene que superar con algo más que un precio más bajo.",
+        "en": "The long-term math is straightforward: in an operation where 10% of active passengers generate 35% of monthly revenue, a program that raises that cohort's retention from 70 to 85% is equivalent to protecting 5 to 7% of total monthly revenue without acquisition cost. The operator who designs a loyalty program before fixing the service problems driving abandonment is layering incentives on top of an operational problem that incentives cannot solve. The one who launches it after their recurrence rate exceeds 30% is using the program for what it was designed to do: converting usage habit into an explicit commitment that a competitor has to surpass with something more than a lower price."
+      }
+    }
+  ],
+  "cta": {
+    "heading": {
+      "es": "¿Listo para lanzar tu propia app de movilidad?",
+      "en": "Ready to launch your own mobility app?"
+    },
+    "body": {
+      "es": "Configura tu marca, tus tarifas y tus servicios en semanas, no en meses. Cabgo te entrega la plataforma; tú te quedas con la operación, los clientes y los ingresos.",
+      "en": "Set up your brand, pricing and services in weeks, not months. Cabgo ships the platform — you keep the operation, the customers and the revenue."
+    },
+    "buttonLabel": {
+      "es": "Comenzar con Cabgo",
+      "en": "Get started with Cabgo"
+    },
+    "buttonHref": "/empezar"
+  },
+  "seo": {
+    "metaTitle": {
+      "es": "Lealtad de pasajeros frecuentes en ride-hailing | Cabgo",
+      "en": "Frequent passenger loyalty: ride-hailing structure | Cabgo"
+    },
+    "metaDescription": {
+      "es": "Pasajeros frecuentes: el 10-15% de tu base genera el 35-40% del ingreso. Cuándo lanzar un programa de lealtad y qué estructura no destruye el margen.",
+      "en": "Frequent passengers — 10-15% of your base — generate 35-40% of revenue. When to launch a loyalty program and how to structure it without eroding margin."
+    }
+  }
+}
