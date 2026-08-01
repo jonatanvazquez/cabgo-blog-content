@@ -1,0 +1,291 @@
+{
+  "slug": "segundo-ano-operacion-ride-hailing-retos-plataforma",
+  "category": "strategy",
+  "title": {
+    "es": "El segundo año de operación: qué cambia y por qué el 40% de las plataformas regionales no lo supera",
+    "en": "The second year of operation: what changes and why 40% of regional platforms don't make it through"
+  },
+  "excerpt": {
+    "es": "El año 2 no es la extensión del año 1: expone cuatro presiones simultáneas que la supervivencia inicial ocultó. Qué cambia en los meses 12-24 y cómo diagnosticar en cuál de esos problemas está tu operación antes de que sean costosos.",
+    "en": "Year two isn't year one extended: it surfaces four simultaneous pressures that early survival concealed. What changes between months 12 and 24, and how to diagnose which problem your operation is facing before it becomes expensive."
+  },
+  "heroImage": "https://raw.githubusercontent.com/jonatanvazquez/cabgo-blog-content/main/images/segundo-ano-operacion-ride-hailing-retos-plataforma.jpg",
+  "heroImageAlt": {
+    "es": "Composición isométrica de línea de tiempo. Izquierda: grupo compacto de tres vehículos con gráfica ascendente teal para meses 3-6. Centro: siete vehículos dispersos en bloque urbano con panel flotante de dos indicadores — barra teal 'flota' en aumento y línea ámbar 'calidad veterana' con ligera caída. Derecha: smartphone con gráfica de retención por cohort, curva teal alta 'pasajero nuevo' y curva ámbar más baja 'pasajero veterano'. Primer plano: bifurcación de decisión con dos caminos — uno hacia bloque de ciudad secundario atenuado y otro regresando al bloque principal iluminado en teal.",
+    "en": "Isometric timeline composition. Left: compact cluster of three vehicle icons with a rising teal line chart for months 3-6. Center: seven vehicles spread across a city block with a floating dual-indicator panel — a rising teal 'fleet' bar and an amber 'veteran quality' line with a slight dip. Right: a smartphone showing a cohort retention chart with a high teal curve labeled 'new passenger' and a lower amber curve labeled 'veteran passenger'. Foreground: a decision fork with two paths — one leading to a dimmed secondary city block and one looping back to the lit main city block in teal."
+  },
+  "heroImagePrompt": "Isometric timeline composition spanning left to right. Left side: a compact cluster of three small vehicle icons on a city grid with a clean rising teal line chart above them, milestone dots at months 3 and 6 glowing teal. Center: the same city grid wider, now with seven vehicle icons spread across it — some clustered, some spread to edges — with a floating dual-indicator panel above: a tall rising teal bar labeled 'flota' beside a shorter amber plateau line with a subtle downward kink at the right edge labeled 'calidad veterana'. Right side: a large floating smartphone screen displaying a two-curve retention chart — a teal curve staying high labeled 'pasajero nuevo' and an amber curve that dips below it labeled 'pasajero veterano', with a small downward arrow between the two curves. In the foreground at center: a small isometric decision-fork road icon with two paths diverging — the left path leads toward a smaller dimmed secondary city block faded in grey-violet, the right path curves back and upward toward the main city block glowing in teal. Deep violet floor grid, soft indigo radial background glow, clean geometric shapes, subtle shadows. Negative space on the lower right.",
+  "publishedAt": "2026-08-01",
+  "readingMinutes": 8,
+  "keywords": {
+    "es": [
+      "segundo año operación ride-hailing regional LATAM",
+      "problemas plataforma movilidad año dos México",
+      "deslizamiento calidad conductores veteranos taxi app",
+      "expansión prematura ride-hailing segunda ciudad",
+      "inflación expectativas pasajero plataforma movilidad regional",
+      "diagnóstico inflexión operación movilidad regional",
+      "cómo superar año 2 plataforma taxi regional"
+    ],
+    "en": [
+      "second year ride-hailing operation regional LATAM",
+      "year two problems mobility platform Mexico",
+      "veteran driver quality drift taxi app regional",
+      "premature expansion ride-hailing second city",
+      "passenger expectation inflation mobility platform",
+      "year two inflection diagnosis regional operation",
+      "how to survive year 2 regional taxi platform"
+    ]
+  },
+  "author": {
+    "name": "Equipo Cabgo",
+    "role": {
+      "es": "Plataforma de movilidad",
+      "en": "Mobility platform"
+    }
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El segundo año de una operación de ride-hailing regional no es la extensión del año 1: es un tipo de reto diferente. El año 1 tiene una lógica de supervivencia legible —hacer que la plataforma funcione, activar los primeros conductores, convencer a los primeros pasajeros de que el servicio justifica el precio—. Cuando algo falla, el problema es visible y la corrección es evidente. El año 2 tiene problemas más difíciles de articular: la operación funciona, los indicadores de superficie son estables o incluso favorables, y aun así algo empieza a deteriorarse de formas que no son visibles hasta que el daño ya es costoso de revertir. Las plataformas regionales que no superan el año 2 rara vez colapsan abruptamente —se estancan en un nivel de operación que ya no crece, pierden a sus mejores conductores gradualmente y generan menos por viaje de lo que podrían si hubieran intervenido antes de que los problemas se consolidaran.",
+        "en": "The second year of a regional ride-hailing operation isn't an extension of year one: it's a different kind of challenge. Year one has a legible survival logic — get the platform working, activate the first drivers, convince the first passengers that the service justifies the price. When something breaks, the problem is visible and the fix is obvious. Year two has problems that are harder to articulate: the operation is running, surface indicators are stable or even favorable, yet something starts deteriorating in ways that aren't visible until the damage is already expensive to reverse. Regional platforms that don't survive year two rarely collapse abruptly — they stall at an operating level that no longer grows, gradually lose their best drivers, and generate less per trip than they could if they had intervened before the problems became entrenched."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Este artículo está dirigido al operador con 12 a 24 meses de operación y entre 30 y 80 conductores activos que siente que la operación está «bien» pero que los indicadores de crecimiento ya no responden con la misma velocidad del año anterior. Cubre la meseta falsa de los meses 10 a 14 y por qué confundirla con madurez lleva a decisiones equivocadas; el deslizamiento de calidad que aparece en la flota veterana a partir del mes 12; la inflación de expectativas del pasajero con 18 meses de historial en la plataforma; cómo los costos del año 2 presionan la tarifa anclada del año 1; el riesgo de la expansión prematura; lo que hacen diferente las operaciones que sí superan esta etapa; y la consulta al agente que produce el diagnóstico de inflexión. La tesis es directa: la diferencia entre las plataformas que superan el año 2 y las que se estancan no es el capital ni el mercado —es si el operador identificó los problemas del año 2 antes de que se volvieran costosos de revertir.",
+        "en": "This article is for operators with 12 to 24 months of operation and 30 to 80 active drivers who feel the operation is 'fine' but whose growth indicators no longer respond at the same pace as the prior year. It covers the false plateau of months 10 to 14 and why mistaking it for maturity leads to wrong decisions; the quality drift that appears in the veteran fleet from month 12 onward; the expectation inflation of passengers with 18 months of platform history; how year-two costs pressure the year-one anchored fare; the risk of premature expansion; what operations that do survive this stage do differently; and the agent query that produces the inflection-point diagnosis. The thesis is direct: the difference between platforms that survive year two and those that stall isn't capital or market — it's whether the operator identified the year-two problems before they became expensive to reverse."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "meseta-falsa-meses-10-14",
+      "text": {
+        "es": "La meseta falsa: por qué los meses 10 a 14 parecen madurez y no lo son",
+        "en": "The false plateau: why months 10 to 14 look like maturity but aren't"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "En los meses 10 a 14 de operación, los indicadores de superficie tienden a ser los mejores del historial de la plataforma: la tasa de cancelación del conductor está en mínimos históricos porque los que no se adaptaron ya se fueron, el tiempo de espera promedio es el mejor porque la flota es más grande que nunca, la calificación promedio es la más alta porque los conductores con calificación baja abandonaron antes. Esos números son reales, pero son el resultado de una selección natural que ya terminó —no de sistemas activos de mejora—. La operación llegó al equilibrio que puede producir con los conductores que quedaron y los pasajeros que se acostumbraron al precio y al nivel de servicio del año 1.",
+        "en": "In months 10 to 14 of operation, surface indicators tend to be the best the platform has ever seen: the driver cancellation rate is at an all-time low because those who didn't adapt have already left, average wait time is the best ever because the fleet is larger than ever, average rating is the highest because low-rated drivers dropped out earlier. Those numbers are real, but they're the result of a natural selection that already ran its course — not of active improvement systems. The operation has reached the equilibrium it can produce with the drivers who remained and the passengers who adapted to year-one pricing and service levels."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El indicador que más predice la salud a 24 meses —el crecimiento mensual de nuevos pasajeros activos únicos— suele haber caído del 8-15% mensual del año 1 al 2-4% en el mes 12. Las operaciones que interpretan la estabilidad de los indicadores de superficie como madurez dejan de construir los sistemas que producen crecimiento: no lanzan el programa de lealtad para pasajeros frecuentes, no rediseñan los referidos de conductores para mejorar retención, no ajustan la tarifa gradualmente antes de que el ancla del año 1 esté completamente establecida. Las que reconocen la meseta como temporal diseñan esas intervenciones antes de que los indicadores de superficie empiecen a deteriorarse, que es cuando la corrección cuesta entre dos y cuatro veces más que si se hubiera hecho de forma proactiva.",
+        "en": "The indicator that most predicts health at 24 months — monthly growth in unique new active passengers — has typically fallen from 8-15% monthly in year one to 2-4% by month 12. Operations that read the stability of surface indicators as maturity stop building the systems that produce growth: they don't launch the frequent-passenger loyalty program, don't redesign driver referrals to improve retention, don't gradually adjust fares before the year-one anchor is fully established. Those that recognize the plateau as temporary design these interventions before surface indicators start deteriorating — which is when correction costs two to four times as much as it would have if done proactively."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "deslizamiento-calidad-flota-veterana",
+      "text": {
+        "es": "El deslizamiento de calidad en la flota veterana",
+        "en": "Quality drift in the veteran fleet"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El conductor con 14 meses de antigüedad conoce la plataforma mejor que cualquier conductor nuevo. Sabe qué zonas tienen más demanda, cómo optimizar sus turnos y cuándo el surge compensa el tiempo de espera. Ese conocimiento tiene valor real para la operación. Lo que también produce, en una fracción de la flota veterana, es una forma de complacencia operativa: el conductor que sabe que puede generar ingresos aceptables sin cumplir el estándar de servicio del inicio empieza a relajar esos estándares de forma gradual. La calificación que en el mes 3 era 4.8 llega al mes 15 en 4.5. Las cancelaciones suben del 7% al 12%. El tiempo de respuesta a la solicitud asignada se alarga 90 segundos. Cada cambio es pequeño de forma aislada; juntos producen una degradación sistémica que el pasajero percibe antes de que el operador la mida en el promedio de flota.",
+        "en": "The driver with 14 months of tenure knows the platform better than any new driver. They know which zones have the most demand, how to optimize their shifts, and when surge pricing is worth the wait. That knowledge has real value to the operation. What it also produces, in a fraction of the veteran fleet, is a form of operational complacency: the driver who knows they can generate acceptable income without meeting the initial service standard begins relaxing those standards gradually. The rating that was 4.8 in month 3 arrives at month 15 as 4.5. Cancellations rise from 7% to 12%. Response time to an assigned request extends by 90 seconds. Each change is small in isolation; together they produce a systemic degradation the passenger perceives before the operator measures it in the fleet average."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El período crítico del deslizamiento es entre los meses 12 y 20. Las operaciones que no tienen seguimiento individual de conductores veteranos —no solo el promedio de flota, sino la evolución de indicadores por conductor con más de 8 meses de antigüedad— descubren el problema cuando la tasa de abandono de pasajeros frecuentes ya aumentó. En ese punto, recuperar la calidad requiere intervenciones con conductores que tienen historial y resistencia al cambio: una conversación sobre desempeño con alguien que lleva 16 meses en la plataforma es considerablemente más difícil que haber mantenido el estándar con revisiones mensuales desde el mes 8. Las operaciones que evitan el deslizamiento no son las que tienen mejor tecnología de monitoreo —son las que revisan individualmente a sus conductores veteranos con la misma frecuencia con la que revisan a los nuevos.",
+        "en": "The critical drift period is between months 12 and 20. Operations without individual tracking of veteran drivers — not just the fleet average, but the indicator trajectory for each driver with more than 8 months of tenure — discover the problem when the frequent-passenger abandonment rate has already risen. At that point, recovering quality requires interventions with drivers who have history and resistance to change: a performance conversation with someone who has been on the platform 16 months is considerably harder than maintaining the standard with monthly reviews from month 8. The operations that avoid drift aren't those with better monitoring technology — they're the ones reviewing veteran drivers individually with the same frequency they review new ones."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "inflacion-expectativas-pasajero-veterano",
+      "text": {
+        "es": "La inflación de expectativas del pasajero con historial",
+        "en": "Expectation inflation in the passenger with history"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El pasajero con 18 meses de historial no evalúa el servicio contra el taxi informal que era la alternativa cuando llegó la plataforma. Evalúa el servicio contra su propia expectativa de lo que la plataforma debe hacer bien —que es la mejor experiencia que ha tenido en la app—. Si en el mes 6 llegaba en 4 minutos y en el mes 18 llega en 6, el pasajero no siente que recibe el mismo servicio bajo condiciones distintas: siente que el servicio empeoró. La referencia se desplazó hacia arriba. En una operación que creció de 35 a 65 conductores durante el año 2, la cobertura absoluta es mayor, pero la densidad relativa en algunas zonas puede ser menor si la demanda también creció en el mismo período. El resultado es que una parte de la base de pasajeros veteranos experimenta tiempos de espera peores de los que recuerda de los meses 8 a 12, y su evaluación del servicio no mejora con el crecimiento de la flota: empeora porque su referencia era su mejor experiencia anterior, no el punto de partida del año 1.",
+        "en": "The passenger with 18 months of history doesn't evaluate the service against the informal taxi that was the alternative when the platform arrived. They evaluate it against their own expectation of what the platform should do well — which is the best experience they've had in the app. If in month 6 the driver arrived in 4 minutes and in month 18 it's 6 minutes, the passenger doesn't feel they're receiving the same service under different conditions: they feel the service got worse. The reference point shifted upward. In an operation that grew from 35 to 65 drivers during year two, absolute coverage is higher, but relative density in some zones may be lower if demand also grew in the same period. The result is that part of the veteran passenger base experiences wait times worse than what they remember from months 8 to 12, and their service evaluation doesn't improve with fleet growth: it worsens because their reference was their best prior experience, not the year-one starting point."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Las plataformas que miden la retención por cohort de activación encuentran con frecuencia que los pasajeros activados en los primeros 6 meses de la operación tienen tasas de abandono a 90 días 10 a 18 puntos porcentuales más altas que los activados en los meses 15 a 18 del mismo período de medición. El pasajero nuevo evalúa el servicio contra la alternativa del taxi informal; el pasajero veterano lo evalúa contra la mejor versión del servicio que alguna vez tuvo. Esa asimetría de referencia implica que los programas de retención diseñados para pasajeros nuevos —descuentos de bienvenida, beneficios de primera semana— no resuelven el problema de retención de los pasajeros veteranos, que es la base que genera el 35-45% del ingreso mensual. Los programas que retienen a ese cohort trabajan sobre el reconocimiento activo de la frecuencia de uso, no sobre el precio.",
+        "en": "Platforms that measure retention by activation cohort frequently find that passengers activated in the first 6 months of operation have 90-day abandonment rates 10 to 18 percentage points higher than those activated in months 15 to 18 of the same measurement period. The new passenger evaluates the service against the informal taxi alternative; the veteran passenger evaluates it against the best version of the service they ever had. That reference asymmetry means retention programs designed for new passengers — welcome discounts, first-week benefits — don't solve the retention problem for veteran passengers, who are the base that generates 35-45% of monthly revenue. Programs that retain that cohort work on active recognition of usage frequency, not on price."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "costos-ano2-tarifa-anclada-ano1",
+      "text": {
+        "es": "Los costos del año 2 y la tarifa anclada del año 1",
+        "en": "Year-two costs and the year-one anchored fare"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El operador que lanzó con una tarifa razonablemente sostenible en el año 1 enfrenta en el segundo año un problema que no existía al inicio: los costos operativos de la flota suben con la inflación —combustible, mantenimiento, depreciación vehicular—, pero la tarifa anclada en el primer año limita cuánto puede ajustar sin friccionar a su base de pasajeros. Un conductor que en el año 1 generaba 160 MXN netos por hora activa genera entre 138 y 145 MXN en el mes 18 si la tarifa no se movió y el precio del combustible subió entre el 10 y el 15% en el período. Ese conductor todavía opera —tiene historial, conoce las zonas, tiene pasajeros frecuentes que lo prefieren—, pero trabaja menos horas porque el ingreso por hora activa ya no justifica el desgaste. Esa reducción de horas disponibles contrae la oferta sin que el operador tome ninguna decisión activa, y el resultado es el tiempo de espera más largo que el pasajero veterano percibe como deterioro del servicio.",
+        "en": "The operator who launched with a reasonably sustainable fare in year one faces a problem in year two that didn't exist at the start: fleet operating costs rise with inflation — fuel, maintenance, vehicle depreciation — but the year-one anchored fare limits how much they can adjust without friction with their passenger base. A driver who generated 160 MXN net per active hour in year one generates between 138 and 145 MXN by month 18 if the fare didn't move and fuel prices rose 10 to 15% in the period. That driver is still operating — they have history, know the zones, have frequent passengers who prefer them — but works fewer hours because income per active hour no longer justifies the wear. That reduction in available hours contracts supply without the operator making any active decision, and the result is the longer wait time the veteran passenger perceives as service deterioration."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La solución de largo plazo —subir la tarifa— encuentra el ancla del año 1: el pasajero con 18 meses de historial tiene una expectativa de precio que un ajuste de más del 18-22% puede superar su umbral de abandono. Las operaciones que evitan esta trampa son las que hicieron un primer ajuste gradual del 8-12% entre los meses 8 y 12, antes de que el ancla estuviera completamente establecida, y comunican el ajuste del año 2 como el segundo movimiento de una política de ajuste gradual que el pasajero ya conocía. Para el operador que llega al mes 18 sin haber ajustado la tarifa desde el lanzamiento, el ajuste necesario ya es mayor que lo que el pasajero veterano puede absorber sin fricción visible, y las opciones disponibles son más costosas: un ajuste grande con pérdida de retención aceptada, o un ajuste en dos tramos comunicados con justificación concreta a lo largo de 4 a 6 meses.",
+        "en": "The long-term solution — raising the fare — runs into the year-one anchor: the passenger with 18 months of history has a price expectation that an adjustment above 18-22% may exceed their abandonment threshold. The operations that avoid this trap are those that made a first gradual adjustment of 8-12% between months 8 and 12, before the anchor was fully established, and communicate the year-two adjustment as the second move of a gradual pricing policy the passenger already knew about. For the operator who arrives at month 18 without having adjusted the fare since launch, the necessary adjustment is already larger than veteran passengers can absorb without visible friction, and the available options are more expensive: a large adjustment with accepted retention loss, or a two-tranche adjustment communicated with concrete justification over 4 to 6 months."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "expansion-prematura-costo-oculto",
+      "text": {
+        "es": "La expansión prematura: cuándo crecer daña más que esperar",
+        "en": "Premature expansion: when growing hurts more than waiting"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La presión de expandir a una segunda ciudad o lanzar una segunda vertical —delivery, servicios corporativos, transporte escolar— aparece con frecuencia entre los meses 12 y 18. La operación principal funciona, el operador tiene experiencia con la plataforma, y la expansión parece el siguiente paso lógico. El problema es que la mayoría de las expansiones que se ejecutan en ese período consumen exactamente los recursos que la operación principal necesita para superar la meseta: atención del operador dividida entre dos frentes, conductores de alto desempeño que el operador asigna al mercado nuevo en lugar de mantenerlos en el núcleo, y capital de corto plazo que podría haberse invertido en el ajuste de tarifa o en el programa de lealtad. El resultado más frecuente no es que la expansión fracase —es que la operación principal se deteriora mientras el operador está construyendo la nueva, y en el mes 24 tiene dos operaciones funcionando por debajo de su potencial en lugar de una operación madura que soporte la segunda con solidez.",
+        "en": "The pressure to expand to a second city or launch a second vertical — delivery, corporate services, school transportation — frequently appears between months 12 and 18. The primary operation is running, the operator has platform experience, and expansion seems the logical next step. The problem is that most expansions executed in that period consume exactly the resources the primary operation needs to break through the plateau: the operator's attention split between two fronts, high-performing drivers the operator assigns to the new market instead of keeping in the core, and short-term capital that could have been invested in the fare adjustment or loyalty program. The most common result isn't that the expansion fails — it's that the primary operation deteriorates while the operator is building the new one, and at month 24 they have two operations performing below their potential instead of one mature operation supporting the second with a solid foundation."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El indicador que determina si la operación principal puede soportar una expansión no es el tiempo de operación sino la estabilidad simultánea de tres métricas: retención de conductores veteranos —más de 6 meses— por encima del 65%, calificación promedio de la flota por encima de 4.5, y crecimiento de pasajeros activos mensuales de al menos el 4% en los últimos tres meses. La operación que cumple las tres tiene sistemas lo suficientemente estables para que parte de la atención del operador se mueva a una segunda vertical sin que la primera entre en deterioro. La que no cumple al menos una de las tres tiene un problema activo que la expansión amplificará, no resolverá.",
+        "en": "The indicator that determines whether the primary operation can support expansion isn't time of operation but the simultaneous stability of three metrics: veteran driver retention — more than 6 months — above 65%, average fleet rating above 4.5, and monthly active passenger growth of at least 4% over the past three months. The operation that meets all three has systems stable enough for the operator to shift some attention to a second vertical without the first entering deterioration. The one that doesn't meet at least one of the three has an active problem the expansion will amplify, not resolve."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "practicas-operaciones-superan-ano-2",
+      "text": {
+        "es": "Qué hacen diferente las operaciones que sí superan el año 2",
+        "en": "What operations that survive year two do differently"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Los operadores que superan el año 2 con una operación en crecimiento y calidad sostenida comparten prácticas que las operaciones estancadas generalmente no tienen en ese mismo período. No son prácticas tecnológicamente complejas ni costosas en tiempo: son hábitos de revisión y corrección temprana que convierten los problemas del año 2 en intervenciones manejables antes de que se vuelvan restructuraciones.",
+        "en": "Operators who survive year two with a growing operation and sustained quality share practices that stalling operations generally don't have in that same period. They're not technologically complex or time-intensive practices: they're habits of early review and correction that convert year-two problems into manageable interventions before they become restructurings."
+      }
+    },
+    {
+      "type": "list",
+      "style": "bullet",
+      "intro": {
+        "es": "Las cinco prácticas más comunes entre las operaciones regionales que superan el año 2 con indicadores en mejora:",
+        "en": "The five most common practices among regional operations that survive year two with improving indicators:"
+      },
+      "items": {
+        "es": [
+          "**Revisión individual mensual de conductores veteranos**: seguimiento de calificación, tasa de cancelación y promedio de viajes por día activo para cada conductor con más de 8 meses de antigüedad, con conversación directa cuando el deslizamiento supera el umbral definido — no solo revisión del promedio de flota.",
+          "**Ajuste de tarifa gradual antes del mes 12**: al menos un ajuste del 8-12% ejecutado antes de que el ancla del año 1 estuviera completamente establecida, comunicado con justificación concreta sobre costos operativos y calidad de la flota, que establece la expectativa de ajuste gradual regular.",
+          "**Cohort de pasajeros frecuentes activamente reconocido**: no necesariamente un programa formal de puntos, sino una lista de 50 a 150 personas que el coordinador conoce, el agente monitorea semanalmente, y que reciben tratamiento diferenciado antes de que su tasa de abandono aumente.",
+          "**Programa de referidos de conductores con bono en tramos**: al menos un ajuste del diseño de referidos que distribuye el bono en dos o tres pagos vinculados a la actividad y calificación del referido en los días 7, 45 y 90, en lugar de un pago único en la activación.",
+          "**Revisión semanal de los tres indicadores de expansión**: retención de conductores veteranos, calificación promedio de flota y crecimiento mensual de nuevos pasajeros activos, evaluados juntos para distinguir entre el momento correcto de expandir y el momento de consolidar."
+        ],
+        "en": [
+          "**Monthly individual review of veteran drivers**: tracking of rating, cancellation rate, and average trips per active day for each driver with more than 8 months of tenure, with direct conversation when drift exceeds a defined threshold — not just fleet average monitoring.",
+          "**Gradual fare adjustment before month 12**: at least one 8-12% adjustment executed before the year-one anchor was fully established, communicated with concrete justification about operating costs and fleet quality, setting the expectation of regular gradual adjustment.",
+          "**Actively recognized frequent-passenger cohort**: not necessarily a formal points program, but a list of 50 to 150 people the coordinator knows, the agent monitors weekly, and who receive differentiated treatment before their abandonment rate rises.",
+          "**Driver referral program with tranche bonus**: at least one redesign of the referral structure distributing the bonus in two or three payments tied to the referred driver's activity and rating at days 7, 45, and 90, rather than a single payout at activation.",
+          "**Weekly review of the three expansion indicators**: veteran driver retention, average fleet rating, and monthly new active passenger growth, evaluated together to distinguish between the right moment to expand and the moment to consolidate."
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "consulta-agente-diagnostico-inflexion",
+      "text": {
+        "es": "La consulta al agente que diagnostica en cuál problema estás",
+        "en": "The agent query that diagnoses which problem you're in"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La consulta que produce el diagnóstico de posición antes de tomar decisiones del año 2: «Para los conductores activados hace más de 10 meses, muéstrame la evolución mensual de su calificación promedio, tasa de cancelación y promedio de viajes por día activo en los últimos 6 meses. ¿Qué porcentaje de ese grupo muestra una caída sostenida en calificación de más de 0.2 estrellas en el período? Para los pasajeros activados en los primeros 6 meses de operación versus los activados en los últimos 6 meses, compara la retención a 90 días y el promedio de viajes por mes activo de cada cohort. Por último, calcula el crecimiento porcentual mensual de pasajeros activos únicos en los últimos 3 meses. Con esos tres diagnósticos simultáneos, ¿en cuál posición está la operación según los criterios de estabilidad para expansión: retención de conductores veteranos mayor al 65%, calificación promedio mayor a 4.5, y crecimiento de nuevos pasajeros mayor al 4% mensual?»",
+        "en": "The query that produces the positioning diagnosis before making year-two decisions: 'For drivers activated more than 10 months ago, show me the monthly trend in their average rating, cancellation rate, and average trips per active day over the last 6 months. What percentage of that group shows a sustained rating drop of more than 0.2 stars in the period? For passengers activated in the first 6 months of operation versus those activated in the last 6 months, compare 90-day retention and average trips per active month for each cohort. Finally, calculate the monthly percentage growth in unique active passengers over the last 3 months. With those three simultaneous diagnostics, what position is the operation in according to the expansion-stability criteria: veteran driver retention above 65%, average rating above 4.5, and new passenger growth above 4% monthly?'"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El resultado del diagnóstico determina la decisión correcta para el semestre siguiente. Si los tres indicadores están en el rango positivo, la operación está lista para una expansión cuidadosa o para lanzar un segundo vertical con atención dividida. Si uno o dos están fuera de rango, el semestre siguiente se diseña para llevarlos al rango antes de expandir. Si los tres están fuera de rango, la operación está en el núcleo del problema del año 2 y la prioridad de intervención es en este orden: programa de calidad activa en la flota veterana, ajuste de tarifa con comunicación de justificación concreta, y programa de reconocimiento del cohort de pasajeros frecuentes. Esos tres programas —que son los mismos que el blog ha cubierto en las últimas semanas— no son opcionales en el año 2: son la diferencia entre una operación que crece gradualmente durante los meses 18 a 30 y una que llega al mes 24 con los mismos indicadores que tenía en el mes 14.",
+        "en": "The diagnostic result determines the right decision for the following semester. If all three indicators are in the positive range, the operation is ready for careful expansion or launching a second vertical with divided attention. If one or two are out of range, the next semester is designed to bring them into range before expanding. If all three are out of range, the operation is in the core of the year-two problem and the intervention priority is in this order: active quality program for the veteran fleet, fare adjustment with concrete justification communicated, and recognition program for the frequent-passenger cohort. Those three programs — the same ones covered in this blog over recent weeks — aren't optional in year two: they're the difference between an operation that grows gradually through months 18 to 30 and one that arrives at month 24 with the same indicators it had at month 14."
+      }
+    },
+    {
+      "type": "quote",
+      "text": {
+        "es": "Al mes 14 tenía la operación más estable que había tenido. Calificación alta, tiempo de espera bajo, conductores que conocían la plataforma perfectamente. Decidí abrir una segunda ciudad. Seis meses después, la primera ciudad tenía problemas que no había visto venir: conductores veteranos con calificación en caída, pasajeros frecuentes que llamaban para quejarse de tiempos de espera peores que los del año anterior. Estaba gestionando dos problemas simultáneos en lugar de uno. Lo que no entendí en ese momento fue que la estabilidad del mes 14 no era madurez — era el techo natural de una operación sin programas de mejora activa. Debería haber invertido seis meses más en fortalecer la primera ciudad antes de abrir la segunda.",
+        "en": "At month 14 I had the most stable operation I'd ever had. High rating, low wait times, drivers who knew the platform perfectly. I decided to open a second city. Six months later the first city had problems I hadn't seen coming: veteran drivers with falling ratings, frequent passengers calling to complain about wait times worse than the year before. I was managing two simultaneous problems instead of one. What I didn't understand at the time was that month-14 stability wasn't maturity — it was the natural ceiling of an operation without active improvement programs. I should have spent six more months strengthening the first city before opening the second."
+      },
+      "attribution": {
+        "es": "Operador con 30 meses de operación en dos ciudades del centro de México",
+        "en": "Operator with 30 months of operation across two cities in central Mexico"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Las cuatro presiones del año 2 —el deslizamiento de calidad en conductores veteranos, la inflación de expectativas del pasajero con historial, el desajuste entre costos crecientes y tarifa anclada, y la tentación de expansión prematura— no son independientes entre sí. Están conectadas en cadena: el deslizamiento de calidad sube la tasa de abandono del pasajero veterano; la menor retención de pasajeros frecuentes reduce el ingreso que justificaría invertir en mejora de la flota; el ajuste de tarifa postergado presiona los ingresos del conductor veterano y acelera su deslizamiento. La cadena puede interrumpirse en cualquier punto con la intervención correcta en el momento correcto. El operador que diagnostica en cuál de las cuatro presiones está el problema principal puede diseñar la intervención específica —programa de calidad, ajuste de tarifa, reconocimiento de pasajeros frecuentes, rediseño de referidos— antes de que las cuatro estén activas de forma simultánea.",
+        "en": "The four year-two pressures — veteran driver quality drift, passenger expectation inflation, the mismatch between rising costs and an anchored fare, and the temptation of premature expansion — aren't independent of each other. They're chained: quality drift raises the veteran passenger abandonment rate; lower frequent-passenger retention reduces the income that would justify investing in fleet improvement; the deferred fare adjustment pressures veteran driver income and accelerates their drift. The chain can be broken at any point with the right intervention at the right moment. The operator who diagnoses which of the four pressures is the primary problem can design the specific intervention — quality program, fare adjustment, frequent-passenger recognition, referral redesign — before all four are active simultaneously."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La diferencia entre las plataformas regionales que superan el año 2 y las que se estancan no es el capital ni el mercado: es la práctica de revisión activa de los indicadores que el año 1 no requería porque los problemas de supervivencia eran más visibles. En el año 1, el operador sabe si la plataforma funciona porque los conductores llegan y los pasajeros usan la app. En el año 2, los indicadores básicos de funcionamiento no distinguen entre una operación estable y una en deterioro gradual. Solo el seguimiento individual de conductores veteranos, la medición de retención por cohort de activación, y la revisión de la posición de precio frente a los costos actuales producen un diagnóstico temprano. El operador que hace esas tres revisiones mensualmente tiene la información necesaria para actuar antes de que los problemas del año 2 sean más costosos que las soluciones.",
+        "en": "The difference between regional platforms that survive year two and those that stall isn't capital or market: it's the practice of actively reviewing the indicators that year one didn't require because survival problems were more visible. In year one, the operator knows the platform is working because drivers are arriving and passengers are using the app. In year two, basic functioning indicators don't distinguish between a stable operation and one in gradual deterioration. Only individual tracking of veteran drivers, retention measurement by activation cohort, and reviewing the pricing position against current costs produce an early diagnosis. The operator who does those three reviews monthly has the information needed to act before year-two problems are more expensive than the solutions."
+      }
+    }
+  ],
+  "cta": {
+    "heading": {
+      "es": "¿Listo para lanzar tu propia app de movilidad?",
+      "en": "Ready to launch your own mobility app?"
+    },
+    "body": {
+      "es": "Configura tu marca, tus tarifas y tus servicios en semanas, no en meses. Cabgo te entrega la plataforma; tú te quedas con la operación, los clientes y los ingresos.",
+      "en": "Set up your brand, pricing and services in weeks, not months. Cabgo ships the platform — you keep the operation, the customers and the revenue."
+    },
+    "buttonLabel": {
+      "es": "Comenzar con Cabgo",
+      "en": "Get started with Cabgo"
+    },
+    "buttonHref": "/empezar"
+  },
+  "seo": {
+    "metaTitle": {
+      "es": "El segundo año de operación en ride-hailing | Cabgo",
+      "en": "The second year of ride-hailing operation | Cabgo"
+    },
+    "metaDescription": {
+      "es": "El año 2 expone cuatro presiones simultáneas que el año 1 ocultó. Qué cambia entre los meses 12 y 24 y cómo diagnosticar dónde está tu operación.",
+      "en": "Year two surfaces four simultaneous pressures year one concealed. What changes between months 12 and 24 and how to diagnose where your operation stands."
+    }
+  }
+}
