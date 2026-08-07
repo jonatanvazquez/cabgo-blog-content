@@ -1,6 +1,25 @@
 {
-  "generatedAt": "2026-08-06T14:13:36.588Z",
+  "generatedAt": "2026-08-07T14:09:58.811Z",
   "posts": [
+    {
+      "slug": "protocolo-incidentes-operacion-ride-hailing",
+      "category": "product",
+      "title": {
+        "es": "Protocolo de incidentes en operación de ride-hailing: qué hacer en las primeras dos horas cuando algo sale mal",
+        "en": "Incident response in ride-hailing operations: what to do in the first two hours when something goes wrong"
+      },
+      "excerpt": {
+        "es": "La mayoría de operadores no tiene protocolo de incidentes hasta que lo necesitan. Cómo definir taxonomía, ventana de respuesta, comunicación y documentación antes del primer incidente.",
+        "en": "Most regional operators have no incident protocol until they need one. How to define taxonomy, response window, communication, and documentation before the first incident."
+      },
+      "heroImage": "https://raw.githubusercontent.com/jonatanvazquez/cabgo-blog-content/main/images/protocolo-incidentes-operacion-ride-hailing.jpg",
+      "heroImageAlt": {
+        "es": "Composición isométrica dividida en tres focos sobre cuadrícula de ciudad nocturna violeta oscuro. Centro: pantalla grande de smartphone flotante con lista de verificación de respuesta a incidentes — cuatro ítems con íconos de casilla teal: Seguridad, Servicio, Fraude, Equipamiento. Izquierda: vehículo conductor en bloque urbano nocturno con triángulo de advertencia ámbar flotando junto al parabrisas y línea punteada de coordinación hacia silueta de coordinador con auriculares. Derecha: panel de documento flotante con cinco campos etiquetados — tipo, hora, partes, acción, estado — campo de estado con palomita teal brillante. Esquina inferior izquierda: diagrama de flujo ramificado con cuatro íconos de categoría: escudo azul, estrella teal, señal de advertencia, llave inglesa.",
+        "en": "Isometric composition divided into three focal areas on a dark violet night-city grid. Center: large floating smartphone screen with an incident response checklist — four items with teal checkbox icons: Safety, Service, Fraud, Equipment. Left: driver vehicle on a nighttime city block with an amber warning triangle floating beside the windshield and a dotted coordination line running to a headset-wearing coordinator silhouette. Right: floating document panel with five labeled fields — type, time, parties, action, status — status field shows a glowing teal checkmark. Lower left corner: branching flowchart with four category icons: blue shield, teal star, warning sign, wrench."
+      },
+      "publishedAt": "2026-08-07",
+      "readingMinutes": 9
+    },
     {
       "slug": "ciclo-vida-conductor-ride-hailing-etapas-gestion",
       "category": "strategy",

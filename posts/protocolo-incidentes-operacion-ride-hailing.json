@@ -1,0 +1,289 @@
+{
+  "slug": "protocolo-incidentes-operacion-ride-hailing",
+  "category": "product",
+  "title": {
+    "es": "Protocolo de incidentes en operación de ride-hailing: qué hacer en las primeras dos horas cuando algo sale mal",
+    "en": "Incident response in ride-hailing operations: what to do in the first two hours when something goes wrong"
+  },
+  "excerpt": {
+    "es": "La mayoría de operadores no tiene protocolo de incidentes hasta que lo necesitan. Cómo definir taxonomía, ventana de respuesta, comunicación y documentación antes del primer incidente.",
+    "en": "Most regional operators have no incident protocol until they need one. How to define taxonomy, response window, communication, and documentation before the first incident."
+  },
+  "heroImage": "https://raw.githubusercontent.com/jonatanvazquez/cabgo-blog-content/main/images/protocolo-incidentes-operacion-ride-hailing.jpg",
+  "heroImageAlt": {
+    "es": "Composición isométrica dividida en tres focos sobre cuadrícula de ciudad nocturna violeta oscuro. Centro: pantalla grande de smartphone flotante con lista de verificación de respuesta a incidentes — cuatro ítems con íconos de casilla teal: Seguridad, Servicio, Fraude, Equipamiento. Izquierda: vehículo conductor en bloque urbano nocturno con triángulo de advertencia ámbar flotando junto al parabrisas y línea punteada de coordinación hacia silueta de coordinador con auriculares. Derecha: panel de documento flotante con cinco campos etiquetados — tipo, hora, partes, acción, estado — campo de estado con palomita teal brillante. Esquina inferior izquierda: diagrama de flujo ramificado con cuatro íconos de categoría: escudo azul, estrella teal, señal de advertencia, llave inglesa.",
+    "en": "Isometric composition divided into three focal areas on a dark violet night-city grid. Center: large floating smartphone screen with an incident response checklist — four items with teal checkbox icons: Safety, Service, Fraud, Equipment. Left: driver vehicle on a nighttime city block with an amber warning triangle floating beside the windshield and a dotted coordination line running to a headset-wearing coordinator silhouette. Right: floating document panel with five labeled fields — type, time, parties, action, status — status field shows a glowing teal checkmark. Lower left corner: branching flowchart with four category icons: blue shield, teal star, warning sign, wrench."
+  },
+  "heroImagePrompt": "Isometric split composition on a deep violet night-city grid with subtle dark shading. Center focal area: a large floating smartphone screen tilted slightly forward, displaying a four-item incident response checklist — each item has a teal checkbox icon on the left and a category label (Safety, Service, Fraud, Equipment) with a small time-window indicator badge beside each; a soft amber alert glow radiates from the top edge of the screen. Left focal area: a single small driver vehicle icon on a minimal city block with an amber warning triangle icon floating beside the windshield; a clean dotted teal coordination line runs from the vehicle to a small coordinator silhouette figure wearing a headset, standing on an adjacent block. Right focal area: a clean floating document panel with five horizontally labeled fields — type, timestamp, parties, action, status — the status field has a glowing teal checkmark; the panel casts a soft indigo shadow below it. Lower left foreground: a compact branching flowchart with four small category icons at branch ends — a shield for safety, a star for service, a warning triangle for fraud, a wrench for equipment. Soft indigo radial background glow centered on the smartphone. Negative space on the lower right.",
+  "publishedAt": "2026-08-07",
+  "readingMinutes": 9,
+  "keywords": {
+    "es": [
+      "protocolo incidentes ride-hailing operación regional LATAM",
+      "qué hacer accidente conductor taxi app México",
+      "gestión crisis plataforma movilidad regional",
+      "comunicación incidentes operador ride-hailing",
+      "documentación incidentes flota conductores",
+      "cómo escalar incidente autoridades seguro plataforma",
+      "respuesta rápida incidente pasajero conductor taxi app"
+    ],
+    "en": [
+      "incident protocol regional ride-hailing operation LATAM",
+      "what to do driver accident taxi app Mexico",
+      "crisis management regional mobility platform",
+      "incident communication ride-hailing operator",
+      "driver incident documentation fleet management",
+      "when to escalate incident authorities insurance platform",
+      "fast incident response passenger driver taxi app"
+    ]
+  },
+  "author": {
+    "name": "Equipo Cabgo",
+    "role": {
+      "es": "Plataforma de movilidad",
+      "en": "Mobility platform"
+    }
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La mayor parte de las operaciones regionales de ride-hailing desarrolla su protocolo de incidentes de la misma forma: después del primer incidente que lo requería. Un accidente menor entre el vehículo del conductor y un automóvil estacionado en el quinto mes de operación, una discusión entre pasajero y conductor que termina con una reseña de una estrella y una amenaza de denuncia en redes, o una queja por cobro indebido que el coordinador no supo cómo documentar en el momento. En el 80% de los casos, el operador resuelve el incidente —el conductor tiene seguro, el pasajero queda satisfecho, la queja se cierra—, pero sin un proceso que lo guíe, cada resolución consume entre 3 y 7 horas de atención del coordinador y produce documentación inconsistente que no sirve para prevenir el siguiente. Los operadores con protocolo resuelven los mismos incidentes en 60 a 90 minutos y generan el reporte que les permite identificar si el incidente es puntual o el primer síntoma de un patrón.",
+        "en": "Most regional ride-hailing operations develop their incident protocol in the same way: after the first incident that required one. A minor collision between a driver's vehicle and a parked car in month five of operation, a conflict between passenger and driver that ends in a one-star review and a threat to post on social media, or a disputed charge that the coordinator didn't know how to document in the moment. In 80% of cases the operator resolves the incident — the driver has insurance, the passenger is satisfied, the complaint closes — but without a process guiding the resolution, each incident consumes 3 to 7 hours of coordinator attention and produces inconsistent documentation that doesn't help prevent the next one. Operators with a protocol resolve the same incidents in 60 to 90 minutes and generate the report that lets them identify whether the incident is isolated or the first symptom of a pattern."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Este artículo está dirigido al operador con 25 a 80 conductores activos que ha enfrentado su primer incidente o que quiere tener un protocolo antes de necesitarlo. Cubre la taxonomía de incidentes que define cuál proceso aplicar; la ventana de los primeros 30 minutos donde se determina el resultado final; la comunicación con el pasajero afectado y con el conductor involucrado; la documentación mínima que protege a la operación en caso de disputa posterior; cuándo involucrar autoridades, seguros o soporte de la plataforma; y la revisión post-incidente que convierte cada caso en información preventiva. La tesis es directa: el protocolo de incidentes no elimina los problemas —los hace manejables en el tiempo correcto, con la información correcta, sin consumir el día del coordinador.",
+        "en": "This article is for operators with 25 to 80 active drivers who have faced their first incident or want a protocol before needing one. It covers the incident taxonomy that determines which process to apply; the 30-minute window where the final outcome is shaped; communication with the affected passenger and the involved driver; the minimum documentation that protects the operation in case of a later dispute; when to involve authorities, insurance, or platform support; and the post-incident review that converts each case into preventive information. The thesis is direct: an incident protocol doesn't eliminate problems — it makes them manageable in the right timeframe, with the right information, without consuming the coordinator's entire day."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "taxonomia-incidentes-proceso",
+      "text": {
+        "es": "La taxonomía de incidentes: cuál proceso aplica en cada caso",
+        "en": "The incident taxonomy: which process applies to each situation"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Antes de diseñar un protocolo, la operación necesita una taxonomía simple que determine cuál nivel de respuesta corresponde a cada situación. Sin ella, el coordinador trata un objeto olvidado con la misma urgencia que un accidente con lesiones, o despacha una queja de cobro con el mismo proceso que un conflicto de seguridad. Cuatro categorías cubren el 95% de los incidentes en una operación regional: incidentes de seguridad, incidentes de servicio, incidentes de fraude e incidentes de equipamiento. El criterio de clasificación no es la gravedad percibida por quien llama al coordinador —es la naturaleza del problema y el recurso que requiere para resolverse correctamente.",
+        "en": "Before designing a protocol, the operation needs a simple taxonomy that determines which response level each situation requires. Without it, the coordinator treats a forgotten item with the same urgency as an accident with injuries, or dispatches a billing complaint through the same process as a safety conflict. Four categories cover 95% of incidents in a regional operation: safety incidents, service incidents, fraud incidents, and equipment incidents. The classification criterion isn't the perceived severity of the person calling the coordinator — it's the nature of the problem and the resource needed to close it correctly."
+      }
+    },
+    {
+      "type": "list",
+      "style": "bullet",
+      "intro": {
+        "es": "Las cuatro categorías de incidente con su criterio de clasificación y ventana máxima de primera respuesta del coordinador:",
+        "en": "The four incident categories with their classification criteria and maximum coordinator first-response window:"
+      },
+      "items": {
+        "es": [
+          "**Seguridad**: conflicto físico entre conductor y pasajero, accidente con lesiones o daño vehicular significativo, pasajero que subió al vehículo equivocado, amenaza externa al conductor durante el trayecto. Ventana de primera respuesta: 5 minutos. Activa el protocolo de escala si hay lesiones físicas.",
+          "**Servicio**: disputa de cobro, queja de calidad que el pasajero quiere resolver activamente, tiempo de espera que el pasajero escaló de forma explícita, queja de actitud del conductor. Ventana de primera respuesta: 30 minutos. La mayoría se cierra sin escala externa.",
+          "**Fraude**: conductor o pasajero reporta viaje manipulado o inexistente, sospecha de viaje falsificado, disputa sobre cambio de destino durante el trayecto. Primera respuesta: revisión de registros en la plataforma antes de cualquier comunicación con las partes involucradas.",
+          "**Equipamiento**: falla mecánica durante el trayecto, pérdida del teléfono del conductor, falla de la app que afectó el viaje. Resolución: coordinación directa del cierre del trayecto y asistencia de sustitución de vehículo si aplica en la operación."
+        ],
+        "en": [
+          "**Safety**: physical conflict between driver and passenger, accident with injuries or significant vehicle damage, passenger in the wrong vehicle, external threat to driver during the trip. First-response window: 5 minutes. Activates escalation protocol if there are physical injuries.",
+          "**Service**: billing dispute, quality complaint the passenger wants actively resolved, wait time the passenger explicitly escalated, driver attitude complaint. First-response window: 30 minutes. Most close without external escalation.",
+          "**Fraud**: driver or passenger reports a manipulated or non-existent trip, suspected falsified ride, dispute about destination change during the trip. First response: review platform records before any communication with the parties involved.",
+          "**Equipment**: mechanical breakdown mid-trip, driver phone loss, app failure that affected the trip. Resolution: direct coordination of trip closure and vehicle substitute assistance where applicable in the operation."
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "primeros-30-minutos-resultado",
+      "text": {
+        "es": "Los primeros 30 minutos: la ventana donde se determina el resultado",
+        "en": "The first 30 minutes: the window where the outcome is determined"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Para incidentes de seguridad, la ventana de los primeros 30 minutos desde que el coordinador recibe la notificación determina el 70% del resultado final. No porque el problema sea técnicamente irresolvible después —sino porque el pasajero o conductor en crisis evalúa la respuesta de la plataforma en esa ventana, y esa evaluación condiciona toda la comunicación posterior. El coordinador que responde en 4 minutos con una pregunta directa —«¿estás en un lugar seguro en este momento?»— y con una acción concreta —«voy a hablar con el conductor en los próximos 10 minutos y te llamo antes de los 20»— establece que la plataforma está presente. El coordinador que responde en 45 minutos con una disculpa genérica —sin acción concreta ni compromiso de tiempo— establece que la plataforma no tiene proceso.",
+        "en": "For safety incidents, the 30-minute window from when the coordinator receives the notification determines 70% of the final outcome. Not because the problem is technically unresolvable afterward — but because the passenger or driver in crisis evaluates the platform's response in that window, and that evaluation conditions all subsequent communication. The coordinator who responds in 4 minutes with a direct question — 'are you in a safe place right now?' — and a concrete action — 'I'm going to talk to the driver in the next 10 minutes and call you back before 20' — establishes that the platform is present. The coordinator who responds in 45 minutes with a generic apology — no concrete action, no time commitment — establishes that the platform has no process."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Para incidentes de servicio, la ventana relevante es de dos horas. Un pasajero con una disputa de cobro que recibe respuesta en 90 minutos —con resolución o con compromiso concreto de cuándo habrá una— queda en un estado de espera activa que en el 65 al 75% de los casos termina en retención. El mismo pasajero que no recibe respuesta en cuatro horas escala la queja al canal público —Google Maps, Facebook local, grupo vecinal de WhatsApp— y el costo de la respuesta pública es entre cuatro y seis veces el costo de la respuesta interna en el mismo tiempo. La plataforma que tiene el protocolo documentado —incluyendo a qué número llamar, qué preguntar primero y qué compromisos de tiempo son realizables— no depende de que el coordinador de turno sea experimentado para que la primera respuesta sea correcta.",
+        "en": "For service incidents, the relevant window is two hours. A passenger with a billing dispute who receives a response within 90 minutes — with a resolution or a concrete commitment about when one will arrive — enters an active waiting state that in 65 to 75% of cases ends in retention. The same passenger who receives no response in four hours escalates the complaint to a public channel — Google Maps, local Facebook, neighborhood WhatsApp group — and the cost of a public response is four to six times the cost of an internal response in the same timeframe. The platform that has the protocol documented — including which number to call, what to ask first, and which time commitments are actually achievable — doesn't depend on the on-duty coordinator being experienced for the first response to be correct."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "comunicacion-pasajero-afectado",
+      "text": {
+        "es": "Comunicación con el pasajero afectado: lo que resuelve y lo que agrava",
+        "en": "Communication with the affected passenger: what resolves and what escalates"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El error más frecuente en la comunicación con pasajeros durante incidentes es la secuencia equivocada: disculpa antes de entender qué pasó, explicación antes de preguntar qué necesita el pasajero, solución genérica antes de confirmar que es la correcta. La secuencia que funciona tiene cuatro pasos en orden fijo: confirmar que el pasajero está bien (en incidentes de seguridad) o que recibió la notificación del coordinador (en incidentes de servicio); preguntar qué espera como resolución —no asumir que ya sabe lo que quiere—; proponer la resolución disponible con compromiso de tiempo; y confirmar el cierre antes de cerrarlo en el sistema. El coordinador que salta el paso de preguntar qué espera el pasajero resuelve el caso equivocado en el 30 al 40% de los incidentes de servicio: el pasajero que quería un reembolso parcial recibe una disculpa; el que quería solo una explicación recibe un crédito que no pidió.",
+        "en": "The most common error in passenger communication during incidents is a wrong sequence: apology before understanding what happened, explanation before asking what the passenger needs, generic solution before confirming it's the right one. The sequence that works has four steps in fixed order: confirm the passenger is safe (in safety incidents) or that they received the coordinator's notification (in service incidents); ask what they expect as a resolution — don't assume you already know; propose the available resolution with a time commitment; and confirm closure before closing the case in the system. The coordinator who skips the step of asking what the passenger expects solves the wrong problem in 30 to 40% of service incidents: the passenger who wanted a partial refund receives an apology; the one who only wanted an explanation receives a credit they didn't request."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El lenguaje específico importa. «Lo que pasó no estuvo bien» funciona mejor que «te entiendo, ha sido un error». El primero valida sin implicar culpabilidad establecida; el segundo suena a script leído. «Esto es lo que voy a hacer en los próximos 15 minutos» funciona mejor que «vamos a resolver tu problema». El primero compromete tiempo y acción concreta; el segundo no compromete nada. Los coordinadores que manejan incidentes con mayor tasa de resolución sin escalada usan lenguaje específico, compromisos de tiempo concretos y confirmación activa de que el caso está cerrado desde la perspectiva del pasajero antes de cerrarlo en el sistema. La diferencia entre un incidente que genera una reseña de cinco estrellas sobre cómo la plataforma respondió a un problema y uno que genera una queja pública no está en qué pasó —está en cómo se manejó en las dos horas siguientes.",
+        "en": "The specific language matters. 'What happened wasn't right' works better than 'I understand you, this was a mistake.' The first validates without implying established fault; the second sounds like a read script. 'Here's what I'm going to do in the next 15 minutes' works better than 'we're going to resolve your problem.' The first commits to time and concrete action; the second commits to nothing. Coordinators who handle incidents with the highest resolution rate without escalation use specific language, concrete time commitments, and active confirmation that the case is closed from the passenger's perspective before closing it in the system. The difference between an incident that generates a five-star review about how the platform responded to a problem and one that generates a public complaint isn't what happened — it's how it was managed in the following two hours."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "comunicacion-conductor-reporte",
+      "text": {
+        "es": "Comunicación con el conductor: obtener el reporte sin establecer culpabilidad prematura",
+        "en": "Communication with the driver: getting the report without prematurely assigning fault"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La comunicación con el conductor durante un incidente tiene un objetivo diferente al de la comunicación con el pasajero: obtener el reporte completo de los hechos antes de que el recuerdo se diluya, sin que el conductor interprete la conversación como un proceso de sanción automática. El conductor que percibe la llamada del coordinador como un interrogatorio cierra la información; el que la percibe como una recopilación de datos para gestionar el caso correctamente la entrega de forma más completa. La apertura correcta no es «¿qué pasó?» —es «necesito entender lo que ocurrió para poder ayudarte a resolver esto». Esa diferencia de encuadre produce reportes 40 a 60% más completos en los primeros tres minutos de la llamada, según el patrón observado en operaciones con protocolo establecido.",
+        "en": "Communication with the driver during an incident has a different objective than communication with the passenger: obtaining the complete factual report before memory fades, without the driver interpreting the conversation as an automatic sanctioning process. The driver who perceives the coordinator's call as an interrogation closes down information; the one who perceives it as data collection to properly manage the case provides it more completely. The right opener isn't 'what happened?' — it's 'I need to understand what occurred so I can help you resolve this.' That framing difference produces 40 to 60% more complete reports in the first three minutes of the call, consistent with patterns seen in operations with an established protocol."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Los cuatro datos que el coordinador debe obtener en la primera llamada al conductor, en ese orden: hora exacta del evento; ubicación del vehículo en el momento del evento; estado actual del conductor y del pasajero si sigue en el vehículo; y descripción de los hechos en las palabras del conductor sin interpretación del coordinador. Esos cuatro datos son suficientes para iniciar el proceso de incidente, notificar a las partes relevantes y determinar si se requiere escalada. La conversación de seguimiento —con evidencia del sistema, registros del viaje, logs de la app— puede ocurrir en las siguientes dos horas cuando hay menos presión y el conductor puede revisar los datos junto al coordinador. El conductor que siente que la primera llamada fue para entenderlo, no para juzgarlo, colabora más en el seguimiento.",
+        "en": "The four pieces of information the coordinator must obtain in the first call to the driver, in that order: exact time of the event; vehicle location at the time of the event; current status of the driver and passenger if still in the vehicle; and the driver's description of events in their own words without coordinator interpretation. Those four data points are sufficient to start the incident process, notify relevant parties, and determine whether escalation is needed. The follow-up conversation — with system evidence, trip records, app logs — can occur in the following two hours when there's less pressure and the driver can review the data alongside the coordinator. The driver who feels the first call was to understand them, not judge them, cooperates more in the follow-up."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "documentacion-minima-protege",
+      "text": {
+        "es": "La documentación mínima: qué registrar y dónde para que sirva seis meses después",
+        "en": "Minimum documentation: what to record and where so it's useful six months later"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La documentación de incidentes en operaciones regionales tiene con frecuencia el mismo problema: existe en tres lugares al mismo tiempo y en ninguno de forma completa. El coordinador anota algo en el cuaderno de turno, le manda un mensaje al operador por WhatsApp con el resumen, y agrega una nota en el chat del conductor. Seis meses después, si el pasajero abre una disputa o la aseguradora pide el historial del conductor, el reporte del incidente no existe como documento único y completo —existe como fragmentos distribuidos difíciles de reconstruir bajo presión. La solución no requiere un sistema sofisticado: requiere un formato consistente en un lugar único que el coordinador de cualquier turno conozca y pueda usar en los primeros 10 minutos de la gestión.",
+        "en": "Incident documentation in regional operations frequently has the same problem: it exists in three places simultaneously and in none of them completely. The coordinator notes something in the shift log, sends a WhatsApp summary to the operator, and adds a comment in the driver's chat. Six months later, when a passenger opens a dispute or the insurer requests the driver's history, the incident report doesn't exist as a single complete document — it exists as scattered fragments difficult to reconstruct under pressure. The solution doesn't require a sophisticated system: it requires a consistent format in a single location that any shift coordinator knows and can use within the first 10 minutes of managing the case."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El registro mínimo que protege a la operación tiene cinco campos: tipo de incidente según la taxonomía de cuatro categorías; timestamp de cada etapa del proceso —cuándo llegó la notificación, cuándo se contactó al pasajero, cuándo se contactó al conductor, cuándo se cerró el caso—; descripción factual en menos de 200 palabras con las palabras exactas del conductor y del pasajero sin interpretación del coordinador; acción tomada y compromiso dado a cada parte; y resultado con confirmación de cierre desde la perspectiva del pasajero y del conductor. Ese registro, guardado en un formato consistente —una hoja de cálculo compartida con una fila por incidente, un documento de texto en la carpeta de la operación, o un registro en la plataforma si tiene esa funcionalidad— convierte cada incidente en un dato que el agente puede consultar tres meses después para detectar patrones que el promedio de flota no produce.",
+        "en": "The minimum record that protects the operation has five fields: incident type according to the four-category taxonomy; timestamp at each process stage — when notification arrived, when passenger was contacted, when driver was contacted, when the case was closed; factual description in under 200 words using the exact words of the driver and passenger without coordinator interpretation; action taken and commitment given to each party; and outcome with closure confirmation from both passenger and driver perspectives. That record, saved in a consistent format — a shared spreadsheet with one row per incident, a text document in the operation's folder, or a record in the platform if it has that feature — converts each incident into data the agent can query three months later to detect patterns that fleet averages never surface."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "cuando-escalar-autoridades-seguro",
+      "text": {
+        "es": "Cuándo escalar: autoridades, seguro y soporte de plataforma",
+        "en": "When to escalate: authorities, insurance, and platform support"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La mayoría de los incidentes en una operación regional se resuelven sin escalar fuera del coordinador. Pero la claridad sobre cuándo sí se escala —y a quién— reduce el tiempo de decisión en el momento de más presión. Tres situaciones requieren escalada inmediata sin esperar a evaluar más datos: accidente con lesiones físicas que requieran atención médica —servicios de emergencia primero, notificación al operador en los siguientes cinco minutos, apertura del proceso con la aseguradora en la primera hora—; situación de seguridad activa para conductor o pasajero que requiera intervención de autoridades —misma secuencia: emergencias primero, notificación interna segunda—; y disputa de fraude donde el análisis del sistema sugiere manipulación documentada —notificación al soporte de la plataforma con el reporte completo antes de comunicar ninguna decisión al conductor implicado—.",
+        "en": "Most incidents in a regional operation resolve without escalating outside the coordinator. But clarity about when to escalate — and to whom — reduces decision time when pressure is highest. Three situations require immediate escalation without waiting to evaluate more data: accident with physical injuries requiring medical attention — emergency services first, notify the operator within the following five minutes, open the insurance process within the first hour; active safety situation for driver or passenger requiring law enforcement — same sequence: emergency services first, internal notification second; and a fraud dispute where system analysis suggests documented manipulation — notify the platform's support team with the complete report before communicating any decision to the involved driver."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La aseguradora del conductor requiere en la mayoría de los mercados latinoamericanos tres documentos para procesar un siniestro relacionado con un trayecto de plataforma: el reporte del accidente con timestamp y ubicación; el registro de la sesión activa del conductor en la plataforma en el momento del siniestro; y la comunicación del coordinador documentando que el conductor estaba en servicio. El operador que tiene los tres en el formato correcto procesa el siniestro en 48 a 72 horas; el que no los tiene gestiona el proceso en dos a cuatro semanas con múltiples llamadas a todas las partes. El protocolo de escalada no solo agiliza la resolución para la aseguradora —es también la evidencia que protege al conductor y a la plataforma si el pasajero abre una reclamación adicional varios meses después.",
+        "en": "In most Latin American markets, the driver's insurer requires three documents to process a claim related to a platform trip: the accident report with timestamp and location; the record of the driver's active platform session at the time of the incident; and the coordinator's communication documenting that the driver was in service. The operator who has all three in the correct format processes the claim in 48 to 72 hours; the one who doesn't manages the process over two to four weeks with multiple calls to all parties. The escalation protocol doesn't just speed resolution for the insurer — it's also the evidence that protects the driver and the platform if the passenger opens an additional claim several months later."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "revision-postincidente-patron",
+      "text": {
+        "es": "Revisión post-incidente: del caso puntual al patrón visible",
+        "en": "Post-incident review: from isolated case to visible pattern"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La revisión post-incidente es el paso que la mayoría de las operaciones omite porque el incidente ya se resolvió y hay presión para volver al ritmo normal. Es también el paso con mayor retorno sobre el tiempo invertido: diez minutos de revisión estructurada después de cerrar cada incidente produce, en doce meses de operación, un diagnóstico de patrones que el promedio de flota nunca genera. Las cuatro preguntas de la revisión que toma menos de diez minutos: ¿este incidente comparte algún elemento con alguno de los últimos 90 días en tipo, conductor, zona o rango horario? ¿El tiempo de respuesta del coordinador estuvo dentro de la ventana correcta para el tipo de incidente? ¿La documentación del caso es suficiente para consultarla en seis meses si la misma situación se repite con el mismo conductor? ¿Hay algo en el proceso de hoy que funcionó mejor que la última vez, o algo que funcionó peor?",
+        "en": "The post-incident review is the step most operations skip because the incident is already resolved and there's pressure to return to normal rhythm. It's also the step with the highest return on invested time: ten minutes of structured review after closing each incident produces, over twelve months of operation, a pattern diagnostic that fleet averages never generate. The four questions in the review that takes under ten minutes: does this incident share any element with one in the past 90 days — type, driver, zone, or time range? Was the coordinator's response time within the correct window for this incident type? Is the case documentation sufficient to consult six months from now if the same situation recurs with the same driver? Is there something in today's process that worked better than the last time, or something that worked worse?"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La consulta al agente que produce el diagnóstico de patrones de incidentes en tiempo real: «Para los últimos seis meses, cuántos incidentes clasificados como de seguridad ocurrieron y cuál es el rango horario con mayor concentración de ese tipo. Cuántos conductores aparecen en más de un incidente de cualquier categoría en el período. Para los incidentes de servicio, cuál es el tiempo promedio de primera respuesta del coordinador y cuántos escalaron a queja pública. ¿Hay zonas geográficas con concentración de incidentes mayor al promedio de la operación?» Ese reporte, producido trimestralmente, es el insumo para dos o tres decisiones preventivas del semestre siguiente: un ajuste en el protocolo, una conversación directa con el conductor que aparece dos veces, o una revisión de cobertura en la zona con mayor incidencia.",
+        "en": "The agent query that produces the real-time incident pattern diagnostic: 'For the last six months, how many incidents classified as safety occurred and what time range has the highest concentration of that type? How many drivers appear in more than one incident of any category in the period? For service incidents, what is the average coordinator first-response time and how many escalated to a public complaint? Are there geographic zones with incident concentration above the operation average?' That report, produced quarterly, is the input for two or three preventive decisions in the following semester: a protocol adjustment, a direct conversation with the driver who appears twice, or a coverage review in the highest-incidence zone."
+      }
+    },
+    {
+      "type": "quote",
+      "text": {
+        "es": "Tuve mi primer accidente al séptimo mes de operación. Un conductor chocó un auto estacionado a las 10 de la noche con un pasajero adentro. Yo no tenía ningún protocolo —le mandé un WhatsApp al conductor, le escribí al pasajero por la app, y pasé el resto de la noche tratando de coordinar qué hacer con el seguro. Cuatro meses después, cuando pasó el segundo, lo resolví en 90 minutos porque sabía exactamente qué hacer y en qué orden. La diferencia no fue la suerte ni el tipo de accidente —fue el protocolo. Y el pasajero del segundo accidente me mandó un mensaje al día siguiente diciéndome que había sido impresionante cómo se había manejado la situación. Ese mensaje valió más que cualquier campaña de marketing.",
+        "en": "I had my first accident in month seven of operation. A driver hit a parked car at 10pm with a passenger inside. I had no protocol — I sent a WhatsApp to the driver, messaged the passenger through the app, and spent the rest of the night trying to figure out what to do with insurance. Four months later when the second one happened, I resolved it in 90 minutes because I knew exactly what to do and in what order. The difference wasn't luck or the type of accident — it was the protocol. And the passenger from the second accident sent me a message the next day saying how the situation was handled had been impressive. That message was worth more than any marketing campaign."
+      },
+      "attribution": {
+        "es": "Operador con 22 meses de operación en una ciudad de 160,000 habitantes en Jalisco, México",
+        "en": "Operator with 22 months of operation in a city of 160,000 in Jalisco, Mexico"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El protocolo de incidentes no es un documento de riesgos legales ni un procedimiento reservado para emergencias extremas: es el sistema que determina cuánto tiempo y atención consume cada problema que la operación inevitablemente enfrenta. En una flota de 40 a 80 conductores activos pueden ocurrir entre 3 y 8 incidentes de cualquier tipo por mes; sin protocolo, esos incidentes consumen en promedio entre 3 y 7 horas de coordinación cada uno; con protocolo, la misma cantidad consume entre 60 y 120 minutos. La diferencia no es solo de eficiencia operativa —es de calidad de respuesta. El incidente resuelto en 90 minutos con comunicación precisa y cierre confirmado produce un resultado diferente al que se resuelve en cuatro horas con comunicación improvisada y cierre ambiguo, aunque el resultado técnico sea idéntico.",
+        "en": "The incident protocol isn't a legal risk document or a procedure reserved for extreme emergencies: it's the system that determines how much time and attention each problem the operation inevitably faces will consume. In a fleet of 40 to 80 active drivers, between 3 and 8 incidents of any type may occur per month; without a protocol, those incidents consume an average of 3 to 7 hours of coordination each; with a protocol, the same number consumes 60 to 120 minutes. The difference isn't just operational efficiency — it's response quality. The incident resolved in 90 minutes with precise communication and confirmed closure produces a different outcome than the one resolved in four hours with improvised communication and ambiguous closure, even if the technical result is identical."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La plataforma que tiene protocolo convierte el segundo incidente de un tipo dado en una intervención más eficiente que el primero, y el quinto en una que apenas interrumpe el turno del coordinador. La que no tiene protocolo convierte cada incidente en una versión de la misma improvisación, con el mismo costo de tiempo y la misma inconsistencia de resultado. En una ciudad de 100,000 a 300,000 habitantes, la gestión de incidentes no es invisible: el pasajero que tuvo un problema y lo vio resuelto en una hora habla de eso. El que esperó cuatro horas sin respuesta clara también habla de eso. En una ciudad donde todos se conocen, la diferencia entre ambas experiencias es la diferencia entre una plataforma que responde cuando más se la necesita y una que desaparece exactamente en ese momento.",
+        "en": "The platform with a protocol converts the second incident of a given type into a more efficient intervention than the first, and the fifth into one that barely interrupts the coordinator's shift. The one without a protocol converts every incident into a version of the same improvisation, with the same time cost and the same outcome inconsistency. In a city of 100,000 to 300,000 residents, incident management is not invisible: the passenger who had a problem and saw it resolved in an hour talks about that. The one who waited four hours without a clear response also talks about that. In a city where everyone knows each other, the difference between both experiences is the difference between a platform that responds when most needed and one that disappears at exactly that moment."
+      }
+    }
+  ],
+  "cta": {
+    "heading": {
+      "es": "¿Listo para lanzar tu propia app de movilidad?",
+      "en": "Ready to launch your own mobility app?"
+    },
+    "body": {
+      "es": "Configura tu marca, tus tarifas y tus servicios en semanas, no en meses. Cabgo te entrega la plataforma; tú te quedas con la operación, los clientes y los ingresos.",
+      "en": "Set up your brand, pricing and services in weeks, not months. Cabgo ships the platform — you keep the operation, the customers and the revenue."
+    },
+    "buttonLabel": {
+      "es": "Comenzar con Cabgo",
+      "en": "Get started with Cabgo"
+    },
+    "buttonHref": "/empezar"
+  },
+  "seo": {
+    "metaTitle": {
+      "es": "Protocolo de incidentes en ride-hailing regional | Cabgo",
+      "en": "Incident response protocol in regional ride-hailing | Cabgo"
+    },
+    "metaDescription": {
+      "es": "La mayoría de operadores no tiene protocolo de incidentes hasta que lo necesitan. Qué hacer en las primeras dos horas cuando algo sale mal.",
+      "en": "Most regional operators have no incident protocol until they need one. What to do in the first two hours when something goes wrong on a trip."
+    }
+  }
+}
