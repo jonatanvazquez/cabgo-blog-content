@@ -1,0 +1,289 @@
+{
+  "slug": "subir-tarifas-base-retener-pasajeros",
+  "category": "strategy",
+  "title": {
+    "es": "Cómo subir las tarifas base sin destruir la retención de pasajeros",
+    "en": "How to raise base fares without destroying passenger retention"
+  },
+  "excerpt": {
+    "es": "La mayoría de operadores regionales sube las tarifas cuando ya no puede esperar más. Cómo diseñar el proceso de ajuste para retener el 85-90% de los pasajeros frecuentes.",
+    "en": "Most regional operators raise fares when they have no other choice. How to design the adjustment process to retain 85-90% of frequent passengers through the transition."
+  },
+  "heroImage": "https://raw.githubusercontent.com/jonatanvazquez/cabgo-blog-content/main/images/subir-tarifas-base-retener-pasajeros.jpg",
+  "heroImageAlt": {
+    "es": "Composición isométrica en cuadrícula urbana violeta profunda. Centro: smartphone flotante con pantalla de notificación de ajuste de tarifa — encabezado teal, insignia de porcentaje en ámbar dorado y pequeño ícono de calendario con fecha de vigencia. Izquierda: dos siluetas de pasajero — una con tarjeta QR de lealtad rodeada de halo teal brillante, otra sin tarjeta en gris neutro. Derecha: gráfica de línea flotante en 3D con pequeña caída seguida de curva de recuperación completa en teal brillante, marcador ámbar en el punto de la caída. Primer plano: tres tarjetas de ruta (5 km, 10 km, 15 km) con tarifa anterior versus nueva en columnas comparativas.",
+    "en": "Isometric composition on a deep violet city grid. Center: floating smartphone with a fare adjustment notification screen — teal header, amber-gold percentage badge, small calendar icon with effective date. Left: two passenger silhouettes — one with a teal-glowing loyalty QR card, one without in neutral grey. Right: 3D floating line chart with a small dip followed by a full recovery curve in glowing teal, amber marker at the dip point. Foreground: three route cards (5 km, 10 km, 15 km) showing old versus new fare amounts in comparative columns."
+  },
+  "heroImagePrompt": "Isometric composition on a deep violet city grid with subtle dark floor shading. Center focal area: a large floating smartphone tilted slightly forward displaying a fare adjustment notification card — teal header bar with a percentage badge in amber-gold, a small calendar icon below showing the effective date, and two fare rows with old price struck through in grey and new price in teal. Left focal area: two passenger silhouettes standing on adjacent city blocks — the left silhouette holds a small QR code card with a glowing teal halo radiating around them, the right silhouette stands in neutral grey with no card. Right focal area: a clean 3D floating line chart showing a baseline, a small downward dip with an amber diamond marker, then a smooth recovery arc back to baseline in glowing teal. Foreground: three compact route distance cards arranged horizontally — labeled 5 km, 10 km, 15 km — each showing a crossed-out grey price on the left and a teal price on the right. Soft indigo radial background glow centered on the smartphone. Negative space on the lower right.",
+  "publishedAt": "2026-08-08",
+  "readingMinutes": 9,
+  "keywords": {
+    "es": [
+      "cómo subir tarifas ride-hailing sin perder pasajeros frecuentes",
+      "aumento tarifa base taxi app regional LATAM",
+      "retención pasajeros ajuste precio plataforma movilidad",
+      "comunicar aumento tarifa pasajeros taxi app México",
+      "impacto aumento precio frecuencia viajes ride-hailing",
+      "programa lealtad ajuste tarifas plataforma regional",
+      "cuándo subir tarifas operación ride-hailing regional"
+    ],
+    "en": [
+      "how to raise fares ride-hailing without losing passengers",
+      "base fare increase regional taxi app LATAM",
+      "passenger retention fare adjustment mobility platform",
+      "communicating fare increase ride-hailing passengers Mexico",
+      "price increase impact trip frequency regional ride-hailing",
+      "loyalty program fare adjustment regional platform",
+      "when to raise fares regional ride-hailing operation"
+    ]
+  },
+  "author": {
+    "name": "Equipo Cabgo",
+    "role": {
+      "es": "Plataforma de movilidad",
+      "en": "Mobility platform"
+    }
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "En una plataforma de movilidad regional que opera con márgenes ajustados desde el inicio, el primer aumento significativo de tarifas base llega entre los meses 14 y 22 de operación. Las causas son siempre una combinación de las mismas variables: el precio del combustible subió y los conductores están presionando; los competidores locales de taxi tradicional ajustaron sus tarifas; o el crecimiento de la flota requiere inversión en coordinación que el margen actual no financia. El problema no es que el aumento llegue —es inevitable en cualquier operación sostenible— sino que en el 65 al 70% de los casos el operador lo implementa sin proceso: sube la tarifa un lunes sin aviso previo y detecta en los siguientes diez días una caída del 20 al 30% en la frecuencia de viajes de pasajeros que antes eran predecibles. Esa caída tiene causas específicas, predecibles y mayormente evitables si el proceso se diseña antes del día del cambio.",
+        "en": "In a regional mobility platform operating on tight margins from the start, the first significant base fare increase arrives between months 14 and 22 of operation. The causes are always a combination of the same variables: fuel prices went up and drivers are pushing back; local traditional taxi competitors adjusted their fares; or fleet growth requires coordination investment that the current margin doesn't cover. The problem isn't that the increase arrives — it's inevitable in any sustainable operation — but that in 65 to 70% of cases the operator implements it without a process: they raise the fare on a Monday without prior notice and detect in the following ten days a 20 to 30% drop in trip frequency among previously predictable passengers. That drop has specific, predictable, and largely avoidable causes if the process is designed before the change day."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Este artículo está dirigido al operador con 12 a 24 meses de operación que necesita ajustar las tarifas base por primera vez y quiere hacerlo sin perder la base de pasajeros que construyó. Cubre por qué los aumentos de tarifa tienen un impacto desproporcionado en los pasajeros frecuentes frente a los ocasionales; cuáles son las señales que indican que la base de pasajeros puede absorber el cambio; cómo segmentar la comunicación por tipo de pasajero para minimizar el abandono; el rol que los conductores juegan en la transición; qué le pasa al programa de lealtad cuando sube el precio base; y qué datos revisar en los primeros 30 días para confirmar que la transición fue exitosa. La tesis es concreta: el aumento de tarifas no destruye la retención — una mala comunicación del aumento sí la destruye.",
+        "en": "This article is for operators with 12 to 24 months of operation who need to adjust base fares for the first time and want to do so without losing the passenger base they built. It covers why fare increases have a disproportionate impact on frequent passengers versus occasional users; which signals indicate the passenger base is positioned to absorb the change; how to segment communication by passenger type to minimize abandonment; the role drivers play in the transition; what happens to the loyalty program when the base price rises; and what data to review in the first 30 days to confirm the transition succeeded. The thesis is concrete: a fare increase doesn't destroy retention — poorly communicated increases do."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "aumento-inevitable-cuando-llega",
+      "text": {
+        "es": "El aumento inevitable: cuándo y por qué llega en el año 2",
+        "en": "The inevitable increase: when and why it arrives in year two"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El aumento de tarifa base en una plataforma regional no es una decisión estratégica discrecional — es una consecuencia operativa inevitable de tres presiones que llegan en paralelo en la segunda mitad del primer año o en el segundo. La primera es el costo del combustible: en mercados con precios de gasolina variables, cada incremento del 8 al 12% en el precio por litro reduce en un 4 al 7% el ingreso neto por hora del conductor, y un conductor cuyo ingreso neto cae sin que la tarifa lo compense empieza a comparar activamente con alternativas. La segunda presión es la competencia interna entre conductores: cuando la flota crece de 20 a 50 conductores, la demanda no creció en la misma proporción y los viajes por conductor activo caen; la única compensación sin escalar demanda es mejorar el ingreso por viaje, lo que solo puede venir de la tarifa. La tercera es el costo de coordinación: una operación de 50 conductores requiere el doble del tiempo de gestión que una de 25, y ese tiempo tiene costo real en salario del coordinador o en horas del propio operador.",
+        "en": "A base fare increase in a regional platform isn't a discretionary strategic decision — it's an inevitable operational consequence of three pressures that arrive in parallel during the second half of the first year or into the second. The first is fuel cost: in markets with variable gasoline prices, every 8 to 12% increase in the price per liter reduces driver net hourly income by 4 to 7%, and a driver whose net income falls without a fare adjustment actively starts comparing with alternatives. The second pressure is internal driver competition: as the fleet grows from 20 to 50 drivers, demand didn't grow proportionally and trips per active driver fall; the only compensation without scaling demand is improving income per trip, which can only come from the fare. The third is coordination cost: a 50-driver operation requires twice the management time of a 25-driver one, and that time has real cost whether it's in coordinator salary or in the operator's own hours."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El momento en que los tres factores se combinan — y cuando el operador empieza a calcular si el modelo es sostenible al precio actual — es también el momento en que el aumento tiene más riesgo de ejecutarse mal porque la presión interna impulsa a actuar rápido. Los operadores que lo manejan mejor separan la decisión de subir (cuánto y cuándo) de la decisión de comunicar (cómo y a quién primero). Esas son dos procesos distintos que requieren tiempo separado: el primero es financiero y puede resolverse en una tarde; el segundo es operativo y requiere entre 7 y 10 días de ejecución para que sea efectivo.",
+        "en": "The moment all three factors combine — and when the operator starts calculating whether the model is sustainable at the current price — is also when the increase is most at risk of being executed poorly because internal pressure pushes toward acting fast. Operators who handle it best separate the decision to raise (how much and when) from the decision to communicate (how and to whom first). Those are two distinct processes that require separate time: the first is financial and can be resolved in an afternoon; the second is operational and requires 7 to 10 days of execution to be effective."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "costo-subir-sin-proceso-retencion",
+      "text": {
+        "es": "El costo de subir sin proceso: por qué los pasajeros más valiosos son los más sensibles",
+        "en": "The cost of raising without a process: why your most valuable passengers are the most sensitive"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La caída de retención que sigue a un aumento de tarifa sin proceso tiene una distribución asimétrica entre segmentos de pasajeros. Los pasajeros ocasionales —menos de 3 viajes en los últimos 30 días— tienen una retención similar antes y después del aumento porque su relación con la plataforma ya es transaccional: comparan precios en el momento de usar. Los pasajeros frecuentes —más de 8 viajes en el mes— son exactamente quienes más pierden cuando el aumento llega sin comunicación: son los que tenían un hábito establecido y que, al ver la tarifa subir sin explicación, interpretan el cambio como la señal de que la plataforma no los trata de forma diferenciada de cualquier usuario nuevo. La ironía operativa es que el grupo más rentable —los que generan el 60 al 70% del volumen de la operación— es el más sensible a la falta de proceso, no al precio en sí.",
+        "en": "The retention drop following a fare increase without a process has an asymmetric distribution across passenger segments. Occasional passengers — fewer than 3 trips in the last 30 days — have similar retention before and after the increase because their relationship with the platform is already transactional: they compare prices at the moment of use. Frequent passengers — more than 8 trips in the month — are exactly those who lose the most when an increase arrives without communication: they're the ones with an established habit who, upon seeing the fare rise without explanation, interpret the change as a signal that the platform doesn't treat them differently from any new user. The operational irony is that the most profitable group — those generating 60 to 70% of the operation's volume — is the most sensitive to the absence of process, not to the price itself."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La diferencia entre un aumento comunicado y uno no comunicado se mide en la curva de recuperación. Un aumento del 12% sin aviso produce una caída del 22 al 28% en la frecuencia de viajes de pasajeros frecuentes en los primeros 10 días, con recuperación al nivel previo que tarda entre 6 y 10 semanas — y en un 15 al 20% de los casos no se completa porque el pasajero probó una alternativa durante ese período. El mismo aumento comunicado con 7 días de anticipación a los pasajeros más activos produce una caída inicial del 5 al 10% que se recupera en 2 a 3 semanas porque el pasajero ajustó su expectativa antes del cambio. La diferencia de costo entre ambos escenarios, calculada en viajes perdidos durante la curva de recuperación en una operación de 500 viajes mensuales, es de entre 80 y 150 viajes — tres a cinco días completos de operación al nivel previo.",
+        "en": "The difference between a communicated increase and an uncommunicated one is measured in the recovery curve. A 12% increase without notice produces a 22 to 28% drop in frequent passenger trip frequency in the first 10 days, with recovery to the prior level taking 6 to 10 weeks — and in 15 to 20% of cases never completing because the passenger tried an alternative during that period. The same increase communicated 7 days in advance to the most active passengers produces an initial drop of 5 to 10% that recovers in 2 to 3 weeks because the passenger adjusted their expectation before the change. The cost difference between both scenarios, calculated in trips lost during the recovery curve in a 500-monthly-trip operation, is between 80 and 150 trips — three to five full days of operation at the prior level."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "senales-base-pasajeros-absorber-cambio",
+      "text": {
+        "es": "Las señales que indican que la base de pasajeros aguantará el cambio",
+        "en": "The signals that indicate the passenger base can absorb the change"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "No todo momento es igual para subir tarifas. El aumento que llega cuando la base de pasajeros está consolidada produce retención significativamente mayor que el que llega cuando todavía está en construcción. Hay cuatro señales operativas que, presentes al mismo tiempo, indican que la plataforma está en posición óptima para absorber el aumento con el menor impacto posible en retención. Cuando solo dos o tres de esas señales están presentes, el momento correcto es esperar: el costo de un retraso de cuatro a seis semanas es significativamente menor que el costo de una transición mal cronometrada.",
+        "en": "Not every moment is equal for raising fares. An increase that arrives when the passenger base is consolidated produces significantly higher retention than one that arrives while it's still being built. There are four operational signals that, when present simultaneously, indicate the platform is in the optimal position to absorb the increase with the least possible retention impact. When only two or three of those signals are present, the right moment is to wait: the cost of a four-to-six-week delay is significantly lower than the cost of a poorly timed transition."
+      }
+    },
+    {
+      "type": "list",
+      "style": "bullet",
+      "intro": {
+        "es": "Las cuatro señales que, presentes en simultáneo, indican el momento óptimo para el primer aumento de tarifa base:",
+        "en": "The four signals that, present simultaneously, indicate the optimal timing for the first base fare increase:"
+      },
+      "items": {
+        "es": [
+          "**Tasa de recurrencia de pasajeros por encima del 35%**: cuando más de una tercera parte de los pasajeros que usaron la plataforma en los últimos 30 días son recurrentes — al menos dos viajes en ese período — la base tiene suficiente hábito establecido para absorber un aumento moderado sin romper el patrón de uso. Por debajo del 30%, el aumento llega antes de que el hábito esté consolidado y la sensibilidad al precio es mayor.",
+          "**Calificación promedio de flota sostenida por encima de 4.5 en los últimos 90 días**: el pasajero tolera un aumento de precio cuando la calidad del servicio que recibe lo respalda. Una calificación promedio por debajo de 4.4 en el período previo convierte el precio en el elemento visible de una experiencia que el pasajero ya estaba evaluando negativamente — el aumento se convierte en el detonante de salida.",
+          "**Tres meses consecutivos de operación sin pérdidas netas**: el operador que sube tarifas cuando el negocio ya genera excedente tiene margen para absorber la caída temporal de ingresos de las primeras dos semanas; el que sube en déficit enfrenta esa caída en el momento en que menos puede soportarla.",
+          "**Ausencia de un competidor en proceso visible de lanzamiento local**: si hay un competidor que acaba de entrar al mercado o está en período activo de captación, el aumento de tarifa en ese momento entrega al competidor el argumento de precio justo cuando más usuarios nuevos está intentando atraer. La ventana óptima es cuando el panorama competitivo local está estabilizado."
+        ],
+        "en": [
+          "**Passenger recurrence rate above 35%**: when more than a third of the passengers who used the platform in the last 30 days are recurring — at least two trips in that period — the base has enough established habit to absorb a moderate increase without breaking the usage pattern. Below 30%, the increase arrives before the habit is consolidated and price sensitivity is higher.",
+          "**Fleet average rating sustained above 4.5 for the last 90 days**: passengers tolerate a price increase when the service quality they receive supports it. An average rating below 4.4 in the prior period turns the price into the visible element of an experience the passenger was already evaluating negatively — the increase becomes the exit trigger.",
+          "**Three consecutive months of operation without net losses**: the operator who raises fares when the business is already generating surplus has margin to absorb the temporary income drop in the first two weeks; the one who raises in deficit faces that drop precisely when they can least support it.",
+          "**Absence of a competitor in a visible local launch phase**: if a competitor just entered the market or is in an active user-acquisition period, raising fares at that moment hands the competitor the price argument when they are trying hardest to attract new users. The optimal window is when the local competitive landscape is stabilized."
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "comunicar-ajuste-segmento-pasajero",
+      "text": {
+        "es": "Cómo comunicar el ajuste: tres momentos para tres segmentos distintos",
+        "en": "How to communicate the adjustment: three moments for three different segments"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La comunicación del aumento de tarifa no es una sola notificación enviada a todos los pasajeros al mismo tiempo. Es una secuencia de tres momentos dirigidos a tres grupos distintos con el mismo mensaje central pero con encuadres diferentes. El grupo de alta frecuencia — más de 8 viajes en los últimos 30 días — es el primero en recibir la comunicación, siempre antes del cambio y con margen suficiente para que absorban la información sin que coincida con una experiencia de aumento en el momento del pago. El mensaje para este grupo no es una disculpa ni una justificación técnica: es un reconocimiento explícito. «Llevas X meses usando la plataforma y quiero avisarte con anticipación que el próximo [fecha] ajustamos las tarifas base en [porcentaje]%. Esto nos permite seguir manteniendo el nivel de servicio que has tenido y seguir pagando bien a los conductores que conoces.» Ese mensaje, enviado personalmente por WhatsApp del coordinador o del operador — no por notificación automática de app — tiene una tasa de aceptación entre 4 y 6 veces mayor que la notificación genérica.",
+        "en": "Communicating a fare increase isn't a single notification sent to all passengers at the same time. It's a sequence of three moments directed at three distinct groups with the same central message but different framing. The high-frequency group — more than 8 trips in the last 30 days — is the first to receive the communication, always before the change and with enough lead time for them to absorb the information without it coinciding with an increase experience at the moment of payment. The message for this group isn't an apology or a technical justification: it's an explicit acknowledgment. 'You've been using the platform for X months and I want to let you know in advance that on [date] we're adjusting base fares by [percentage]%. This lets us maintain the service level you've had and continue paying the drivers you know well.' That message, sent personally via coordinator or operator WhatsApp — not through an automatic app notification — has an acceptance rate 4 to 6 times higher than a generic notification."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El grupo de frecuencia media — de 3 a 7 viajes en el mes — recibe la comunicación en el momento del aumento o hasta dos días antes, también por mensaje directo pero con menos personalización. El mensaje para este grupo no necesita historia de relación, sí necesita transparencia: qué cambia, cuándo cambia y por qué. El tercer grupo — pasajeros con menos de 3 viajes en los últimos 30 días — recibe la notificación a través de los canales normales de la plataforma en el momento del cambio. Para este grupo, la tasa de retención no varía significativamente con el formato de comunicación porque su relación con la plataforma es transaccional; lo que sí importa es que la notificación existe y es clara, porque la ausencia total de comunicación también genera fricción en el momento del pago.",
+        "en": "The medium-frequency group — 3 to 7 trips in the month — receives communication at the moment of the increase or up to two days before, also by direct message but with less personalization. The message for this group doesn't need relationship history; it needs transparency: what changes, when it changes, and why. The third group — passengers with fewer than 3 trips in the last 30 days — receives notification through the platform's normal channels at the moment of change. For this group, retention rate doesn't vary significantly with communication format because their relationship with the platform is transactional; what does matter is that the notification exists and is clear, because the complete absence of communication also generates friction at the moment of payment."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "conductores-transicion-informados-aliados",
+      "text": {
+        "es": "Los conductores en la transición: de informados a aliados",
+        "en": "Drivers in the transition: from informed to allied"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Los conductores son el canal de comunicación más efectivo que tiene la operación durante un aumento de tarifas — y también el menos controlado si no se gestiona con anticipación. En una ciudad de 100,000 a 300,000 habitantes, el conductor que un pasajero frecuente lleva usando durante seis meses es una fuente de validación más confiable que cualquier notificación del operador. Si ese conductor no sabe que la tarifa va a subir y por qué — o si la interpreta como un aumento que el operador retiene para sí mismo — el pasajero frecuente recibe durante el trayecto una versión del cambio que puede amplificar el descontento en lugar de atenuarlo. El operador que informa a los conductores antes de informar a los pasajeros — con explicación honesta de por qué el aumento es necesario y cuánto de ese aumento se traslada al ingreso del conductor — convierte al conductor en el primer comunicador del cambio en el momento más natural posible: la conversación durante el viaje.",
+        "en": "Drivers are the most effective communication channel the operation has during a fare increase — and also the least controlled if not managed in advance. In a city of 100,000 to 300,000 residents, the driver a frequent passenger has been riding with for six months is a more trusted validation source than any operator notification. If that driver doesn't know the fare is going up and why — or interprets it as an increase the operator is keeping for themselves — the frequent passenger receives during the trip a version of the change that can amplify discontent rather than attenuate it. The operator who informs drivers before informing passengers — with an honest explanation of why the increase is necessary and how much of it translates to driver income — turns the driver into the first communicator of the change at the most natural moment possible: the conversation during the trip."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La información que los conductores necesitan para ser aliados en la transición tiene tres elementos: cuándo entra en vigor el cambio (fecha exacta); cuánto sube la tarifa base y cómo afecta su ingreso por viaje en los escenarios más frecuentes de su operación habitual (5 km, 10 km, 15 km en la ciudad); y una respuesta preparada a la pregunta que inevitablemente les van a hacer los pasajeros en los primeros días: «¿Por qué subió?» El conductor que puede responder esa pregunta con información real y sin incomodidad — «Subieron los costos de combustible y el operador también ajustó mi ingreso base» — convierte la pregunta incómoda en una conversación que refuerza la confianza del pasajero en la plataforma. El que no tiene esa respuesta preparada genera justo lo contrario.",
+        "en": "The information drivers need to be allies in the transition has three elements: when the change takes effect (exact date); how much the base fare rises and how it affects their income per trip in their most common operating scenarios (5 km, 10 km, 15 km in the city); and a prepared answer to the question passengers will inevitably ask in the first days: 'Why did it go up?' The driver who can answer that question with real information and without discomfort — 'Fuel costs went up and the operator also adjusted my base income' — converts an awkward question into a conversation that reinforces the passenger's trust in the platform. The one without a prepared answer produces exactly the opposite."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "programa-lealtad-precio-base-beneficio",
+      "text": {
+        "es": "Programa de lealtad y precio base: cómo mantener el beneficio percibido",
+        "en": "Loyalty program and base price: how to preserve perceived value"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Cuando la plataforma tiene un programa de lealtad activo, el aumento de tarifa base crea un problema específico de percepción: el pasajero que calculó el beneficio de su programa sobre la tarifa anterior siente que el aumento base erosiona el valor del beneficio aunque el porcentaje de descuento no haya cambiado. La retención de suscriptores del programa durante el primer mes post-aumento es entre 15 y 20 puntos porcentuales mayor que la de no suscriptores en el mismo rango de frecuencia — el programa actúa como amortiguador de la sensibilidad al precio. Pero el riesgo de que el suscriptor sienta que «el programa ya no vale lo mismo» es real si no se comunica correctamente. La respuesta no es congelar el precio para los suscriptores — ese mecanismo tiene costo real y complejidad operativa que no siempre justifica el resultado. La respuesta es ajustar la comunicación del programa para que el suscriptor sienta que la plataforma lo tuvo en cuenta durante el ajuste.",
+        "en": "When the platform has an active loyalty program, a base fare increase creates a specific perception problem: the passenger who calculated their program benefit on the prior fare feels the base increase erodes the benefit's value even if the discount percentage hasn't changed. Program subscriber retention during the first month post-increase is 15 to 20 percentage points higher than non-subscribers in the same frequency range — the program acts as a price-sensitivity buffer. But the risk that subscribers feel 'the program isn't worth as much anymore' is real if not communicated correctly. The answer isn't to freeze the price for subscribers — that mechanism has real cost and operational complexity that doesn't always justify the result. The answer is to adjust program communication so subscribers feel the platform took them into account during the adjustment."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La acción concreta es temporal y específica: en el momento del aumento de tarifa base, añadir un beneficio incremental al programa con duración definida. No un descuento sobre el nuevo precio base, sino algo que el suscriptor ya valoraba: un viaje adicional gratuito en el primer mes post-aumento, o acceso prioritario a conductores con calificación superior a 4.8 durante 30 días. El mensaje que acompaña el beneficio es más importante que el beneficio en sí: «Como parte de nuestro programa, cuando ajustamos las tarifas te reconocemos con [beneficio] durante el próximo mes. La tarifa sube el [fecha], pero queremos que los viajeros frecuentes como tú lo sientan lo menos posible en los primeros días.» Ese tipo de comunicación — que reconoce al pasajero frecuente como categoría diferenciada durante el momento de mayor tensión de la relación — produce lealtad más durable que cualquier descuento permanente sobre la tarifa.",
+        "en": "The concrete action is temporary and specific: at the moment of the base fare increase, add an incremental benefit to the program with a defined duration. Not a discount on the new base price, but something the subscriber already valued: a free additional trip in the first month post-increase, or priority access to drivers with ratings above 4.8 for 30 days. The message accompanying the benefit is more important than the benefit itself: 'As part of our program, when we adjust fares we recognize you with [benefit] for the next month. The fare goes up on [date], but we want frequent travelers like you to feel it as little as possible in the first days.' That type of communication — which acknowledges the frequent passenger as a differentiated category during the most tense moment of the relationship — produces more durable loyalty than any permanent fare discount."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "primeros-30-dias-datos-transicion",
+      "text": {
+        "es": "Los primeros 30 días: qué datos confirman que la transición fue exitosa",
+        "en": "The first 30 days: what data confirms the transition succeeded"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La validación de que la transición de tarifa fue exitosa no llega en el primer día ni en la primera semana. El patrón típico de una transición bien comunicada es una caída inicial del 5 al 10% en la frecuencia de viajes de pasajeros frecuentes en la primera semana — que es la expectativa correcta, no la señal de alarma — seguida de recuperación al 95 al 98% del nivel previo en la semana 3 o 4. Los datos que el operador debe revisar diariamente durante las primeras dos semanas son tres: la tasa de retención a 7 días de pasajeros con más de 5 viajes en el mes previo al aumento; la variación en el número de pasajeros activos que completaron al menos un viaje en la primera semana post-aumento comparado con la semana anterior al cambio; y el número de mensajes directos al coordinador con quejas relacionadas con el precio en los primeros 10 días. El tercer indicador es el más rápido en mostrar si la comunicación fue suficiente: menos de 5 mensajes de queja sobre precio en una operación de 400 a 600 viajes mensuales indica que el proceso funcionó.",
+        "en": "Validation that the fare transition succeeded doesn't arrive on the first day or in the first week. The typical pattern for a well-communicated transition is an initial 5 to 10% drop in frequent passenger trip frequency in the first week — which is the correct expectation, not the alarm signal — followed by recovery to 95 to 98% of the prior level by weeks 3 or 4. The data the operator should review daily during the first two weeks is threefold: the 7-day retention rate of passengers with more than 5 trips in the month before the increase; the variation in the number of active passengers who completed at least one trip in the first week post-increase compared to the week before the change; and the number of direct messages to the coordinator with price-related complaints in the first 10 days. The third indicator is the fastest to show whether the communication was sufficient: fewer than 5 price complaint messages in an operation with 400 to 600 monthly trips indicates the process worked."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La consulta al agente que produce el diagnóstico de transición en los primeros 30 días: «Para los pasajeros que completaron más de 5 viajes en el mes anterior al ajuste de tarifas, muéstrame qué porcentaje completó al menos un viaje en cada una de las cuatro semanas siguientes al cambio. Para los que no completaron ningún viaje en la semana 1 pero sí en la semana 2 o 3, ¿cuál es su frecuencia promedio en los 90 días anteriores al cambio? ¿Cuántos pasajeros del programa de lealtad completaron al menos un viaje en la primera semana post-aumento comparado con no suscriptores del mismo rango de frecuencia? Y para los que no regresaron en los 30 días completos: ¿cuál era su frecuencia promedio en el trimestre anterior?» Ese diagnóstico, disponible en 3 a 4 minutos, distingue entre la caída de retención estructural — que requiere intervención de reactivación — y la caída de ajuste esperada que se recupera por sí sola en la semana 3.",
+        "en": "The agent query that produces the transition diagnostic in the first 30 days: 'For passengers who completed more than 5 trips in the month before the fare adjustment, show me what percentage completed at least one trip in each of the four weeks after the change. For those who completed no trips in week 1 but did complete in week 2 or 3, what was their average frequency in the 90 days before the change? How many loyalty program passengers completed at least one trip in the first week post-increase compared to non-subscribers in the same frequency range? And for those who haven't returned in the full 30 days: what was their average frequency in the prior quarter?' That diagnostic, available in 3 to 4 minutes, distinguishes between structural retention loss — which requires a reactivation intervention — and the expected adjustment drop that recovers on its own by week 3."
+      }
+    },
+    {
+      "type": "quote",
+      "text": {
+        "es": "Supe que lo había hecho mal cuando empecé a recibir mensajes de conductores preguntándome por qué los pasajeros les reclamaban el aumento. Subí la tarifa un martes sin avisar a nadie — ni a los conductores ni a los pasajeros. En los siguientes ocho días perdí el 25% de mis viajes diarios habituales y tuve que pasar una semana entera respondiendo mensajes de pasajeros molestos. Seis meses después subí de nuevo la tarifa — con 10 días de anticipación, primero a los conductores, luego a los pasajeros frecuentes, luego a todos. La caída fue de menos del 8% y se recuperó en dos semanas. El segundo aumento fue exactamente el mismo porcentaje que el primero. La diferencia fue solo el proceso.",
+        "en": "I knew I'd done it wrong when I started getting messages from drivers asking why passengers were complaining about the increase. I raised the fare on a Tuesday without telling anyone — not drivers, not passengers. In the next eight days I lost 25% of my usual daily trips and had to spend a whole week responding to messages from upset passengers. Six months later I raised fares again — with 10 days advance notice, first to drivers, then to frequent passengers, then to everyone. The drop was less than 8% and recovered in two weeks. The second increase was the exact same percentage as the first. The only difference was the process."
+      },
+      "attribution": {
+        "es": "Operador con 31 meses de operación en una ciudad de 130,000 habitantes en Michoacán, México",
+        "en": "Operator with 31 months of operation in a city of 130,000 in Michoacán, Mexico"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El ajuste de tarifa base no es el momento de mayor riesgo para la retención de pasajeros en una plataforma regional — es el momento de mayor visibilidad de la relación. El pasajero frecuente que recibe la notificación con anticipación, con explicación directa y sin excusa, evalúa la plataforma en ese momento con la misma lente con la que evalúa a cualquier proveedor de servicio que le avisa de un cambio de precio con tiempo: si la relación previa fue positiva, el aviso anticipado la refuerza. Si la relación previa fue inconsistente, el aviso anticipado no salva la retención — pero la transición sin aviso la destruye en ambos casos. La variable que determina el resultado no es el porcentaje del aumento: es la calidad de la relación operativa que el operador construyó con el pasajero frecuente en los doce meses anteriores, materializada en el proceso del aumento.",
+        "en": "The base fare adjustment isn't the highest-risk moment for passenger retention in a regional platform — it's the moment of highest visibility of the relationship. The frequent passenger who receives advance notification, with a direct explanation and no excuse-making, evaluates the platform at that moment through the same lens they use to evaluate any service provider that notifies them of a price change in advance: if the prior relationship was positive, advance notice reinforces it. If the prior relationship was inconsistent, advance notice doesn't save retention — but notification without advance destroys it in both cases. The variable that determines the outcome isn't the percentage of the increase: it's the quality of the operational relationship the operator built with the frequent passenger in the prior twelve months, materialized in the increase process."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La plataforma que construyó marca local, que gestiona la flota como portafolio de etapas y que tiene un protocolo de incidentes tiene también los activos para manejar el primer aumento de tarifas con impacto mínimo en retención. Esos activos — la confianza del pasajero frecuente, la credibilidad del conductor como comunicador, los datos del agente para diagnosticar la recuperación — no se crean en el momento del aumento: se acumulan en los meses anteriores. El operador que llega al mes 18 con esa base puede subir las tarifas el 12% con proceso y perder el 7% de la frecuencia durante dos semanas. El que llega al mes 18 sin esa base puede subir las mismas tarifas sin proceso y perder el 30% de la frecuencia durante ocho semanas, con un 15% de los pasajeros que no regresan.",
+        "en": "The platform that built local brand, manages the fleet as a portfolio of stages, and has an incident protocol also has the assets to manage the first fare increase with minimum retention impact. Those assets — frequent passenger trust, driver credibility as communicators, agent data to diagnose recovery — aren't created at the moment of the increase: they accumulate in the preceding months. The operator who arrives at month 18 with that foundation can raise fares 12% with a process and lose 7% of frequency for two weeks. The one who arrives at month 18 without that foundation can raise the same fares without a process and lose 30% of frequency for eight weeks, with 15% of passengers not returning."
+      }
+    }
+  ],
+  "cta": {
+    "heading": {
+      "es": "¿Listo para lanzar tu propia app de movilidad?",
+      "en": "Ready to launch your own mobility app?"
+    },
+    "body": {
+      "es": "Configura tu marca, tus tarifas y tus servicios en semanas, no en meses. Cabgo te entrega la plataforma; tú te quedas con la operación, los clientes y los ingresos.",
+      "en": "Set up your brand, pricing and services in weeks, not months. Cabgo ships the platform — you keep the operation, the customers and the revenue."
+    },
+    "buttonLabel": {
+      "es": "Comenzar con Cabgo",
+      "en": "Get started with Cabgo"
+    },
+    "buttonHref": "/empezar"
+  },
+  "seo": {
+    "metaTitle": {
+      "es": "Subir tarifas sin perder pasajeros en ride-hailing | Cabgo",
+      "en": "How to raise fares without losing passengers | Cabgo"
+    },
+    "metaDescription": {
+      "es": "La mayoría de operadores sube tarifas cuando ya no puede esperar más. Cómo diseñar el proceso para retener el 85-90% de los pasajeros frecuentes.",
+      "en": "Most regional operators raise fares when they have no other choice. How to retain 85-90% of frequent passengers through the transition."
+    }
+  }
+}
