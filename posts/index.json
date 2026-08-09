@@ -1,6 +1,25 @@
 {
-  "generatedAt": "2026-08-08T14:10:43.428Z",
+  "generatedAt": "2026-08-09T14:08:46.924Z",
   "posts": [
+    {
+      "slug": "vencimientos-documentos-conductores-sistema-alertas",
+      "category": "product",
+      "title": {
+        "es": "Vencimientos de documentos de conductores: cómo construir el sistema de alertas que protege tu operación",
+        "en": "Driver document expiry: how to build the alert system that protects your operation"
+      },
+      "excerpt": {
+        "es": "La mayoría de operadores descubre que un conductor tiene documentos vencidos durante un incidente. Cómo construir un sistema simple que elimina ese riesgo sin añadir carga al coordinador.",
+        "en": "Most operators discover a driver has expired documents during an incident. How to build a simple system that removes that risk without adding burden to the coordinator."
+      },
+      "heroImage": "https://raw.githubusercontent.com/jonatanvazquez/cabgo-blog-content/main/images/vencimientos-documentos-conductores-sistema-alertas.jpg",
+      "heroImageAlt": {
+        "es": "Composición isométrica con tres tarjetas de documento flotantes en abanico — licencia, seguro, permiso — cada una con campo de fecha de vencimiento visible y una insignia de estado: teal brillante para vigente, ámbar para próximo a vencer, suave rojo para vencido. Izquierda: vehículo conductor con calendario flotante sobre él mostrando una fecha en círculo ámbar y un indicador de cuenta regresiva. Derecha: silueta de coordinador en escritorio con panel de hoja de cálculo que muestra filas de nombres y celdas de fechas en colores teal y ámbar. Primer plano: smartphone flotante con lista de alertas de vencimiento próximo con insignias de notificación.",
+        "en": "Isometric composition with three floating document cards in a fan arrangement — license, insurance, permit — each with a visible expiry date field and a status badge: glowing teal for valid, amber for expiring soon, soft red for expired. Left: driver vehicle with a floating calendar above showing a date circled in amber and a countdown indicator. Right: coordinator silhouette at a desk with a spreadsheet panel showing rows of driver names and color-coded date cells in teal and amber. Foreground: floating smartphone with a list of upcoming expiry alerts and notification badges."
+      },
+      "publishedAt": "2026-08-09",
+      "readingMinutes": 9
+    },
     {
       "slug": "subir-tarifas-base-retener-pasajeros",
       "category": "strategy",

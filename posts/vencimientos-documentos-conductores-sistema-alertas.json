@@ -1,0 +1,268 @@
+{
+  "slug": "vencimientos-documentos-conductores-sistema-alertas",
+  "category": "product",
+  "title": {
+    "es": "Vencimientos de documentos de conductores: cómo construir el sistema de alertas que protege tu operación",
+    "en": "Driver document expiry: how to build the alert system that protects your operation"
+  },
+  "excerpt": {
+    "es": "La mayoría de operadores descubre que un conductor tiene documentos vencidos durante un incidente. Cómo construir un sistema simple que elimina ese riesgo sin añadir carga al coordinador.",
+    "en": "Most operators discover a driver has expired documents during an incident. How to build a simple system that removes that risk without adding burden to the coordinator."
+  },
+  "heroImage": "https://raw.githubusercontent.com/jonatanvazquez/cabgo-blog-content/main/images/vencimientos-documentos-conductores-sistema-alertas.jpg",
+  "heroImageAlt": {
+    "es": "Composición isométrica con tres tarjetas de documento flotantes en abanico — licencia, seguro, permiso — cada una con campo de fecha de vencimiento visible y una insignia de estado: teal brillante para vigente, ámbar para próximo a vencer, suave rojo para vencido. Izquierda: vehículo conductor con calendario flotante sobre él mostrando una fecha en círculo ámbar y un indicador de cuenta regresiva. Derecha: silueta de coordinador en escritorio con panel de hoja de cálculo que muestra filas de nombres y celdas de fechas en colores teal y ámbar. Primer plano: smartphone flotante con lista de alertas de vencimiento próximo con insignias de notificación.",
+    "en": "Isometric composition with three floating document cards in a fan arrangement — license, insurance, permit — each with a visible expiry date field and a status badge: glowing teal for valid, amber for expiring soon, soft red for expired. Left: driver vehicle with a floating calendar above showing a date circled in amber and a countdown indicator. Right: coordinator silhouette at a desk with a spreadsheet panel showing rows of driver names and color-coded date cells in teal and amber. Foreground: floating smartphone with a list of upcoming expiry alerts and notification badges."
+  },
+  "heroImagePrompt": "Isometric composition on a deep violet floor grid with subtle dark shading. Center focal area: three floating document cards arranged in a fan-like spread slightly overlapping — labeled License, Insurance, and Permit — each card has a visible date field at the bottom and a circular status badge in the top corner: the leftmost card badge glows teal (valid), the center card badge glows amber (expiring soon), the rightmost card has a soft red glow (expired); each card casts a clean isometric shadow below it. Left focal area: a small driver vehicle icon on a minimal city block with a large calendar floating above it, one date highlighted inside an amber circle with a small countdown number badge beneath it. Right focal area: a coordinator silhouette figure seated at a clean minimal desk with a spreadsheet panel beside them showing six rows of driver entries — each row has a colored date cell, alternating between glowing teal cells and amber cells. Foreground lower area: a floating smartphone tilted slightly forward showing a notification list with three alert items, each with a colored dot indicator — teal, amber, amber — and small date labels. Soft indigo radial background glow centered on the document cards. Negative space on the lower right.",
+  "publishedAt": "2026-08-09",
+  "readingMinutes": 9,
+  "keywords": {
+    "es": [
+      "gestión documentos vencidos conductores taxi app regional",
+      "licencia vencida conductor ride-hailing LATAM consecuencias legales",
+      "sistema seguimiento vencimientos flota movilidad México",
+      "riesgo legal conductor documentos caducados plataforma movilidad",
+      "alertas vencimiento documentos conductores operación ride-hailing",
+      "cumplimiento documental flota taxi app regional",
+      "seguro vencido conductor accidente taxi app México"
+    ],
+    "en": [
+      "expired driver license ride-hailing liability regional operator",
+      "driver document expiry tracking mobility platform LATAM",
+      "fleet compliance management taxi app Mexico",
+      "driver expired insurance accident ride-hailing legal risk",
+      "document renewal alerts driver fleet regional platform",
+      "ride-hailing operator document compliance system coordinator",
+      "regional taxi app driver license expiry management"
+    ]
+  },
+  "author": {
+    "name": "Equipo Cabgo",
+    "role": {
+      "es": "Plataforma de movilidad",
+      "en": "Mobility platform"
+    }
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "En una flota de 30 a 70 conductores activos, el momento en que la mayoría de los operadores descubren que tienen un conductor con licencia vencida o seguro caducado es durante un incidente: un accidente, una revisión policial, o la llamada de la aseguradora preguntando por los documentos del conductor involucrado. Es el peor momento posible para descubrirlo. Un conductor que operó con licencia vencida durante dos meses no convierte el problema en un asunto entre el conductor y la autoridad — convierte el registro de la plataforma en evidencia de que el operador no tenía un proceso de verificación activo. En mercados donde la regulación de transporte de plataforma es activa, ese hallazgo puede paralizar la operación mientras la autoridad revisa si el problema es puntual o sistémico.",
+        "en": "In a fleet of 30 to 70 active drivers, the moment most operators discover they have a driver with an expired license or lapsed insurance is during an incident: an accident, a police check, or the insurer asking for the involved driver's documents. It is the worst possible moment to find out. A driver who operated with an expired license for two months doesn't turn the problem into something between the driver and the authorities — it turns the platform's records into evidence that the operator had no active verification process. In markets where platform transport regulation is active, that discovery can halt the entire operation while the authority assesses whether the problem is isolated or systemic."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Este artículo está dirigido al operador con 25 a 70 conductores activos que gestiona los vencimientos de documentos de manera reactiva — es decir, que los revisa cuando alguien le avisa — y que quiere convertir ese proceso en proactivo sin añadir más trabajo al coordinador. Cubre qué documentos vencen en una flota regional típica y con qué frecuencia; por qué la memoria del coordinador no es escalable más allá de 20 conductores; cómo construir el sistema de seguimiento mínimo en menos de cuatro horas; el proceso de alerta a 60, 30 y 7 días del vencimiento; el riesgo legal específico en LATAM cuando la aseguradora descubre que el conductor operaba con documentos caducados; y la consulta al agente que genera el reporte completo de vencimientos próximos en toda la flota en menos de cinco minutos semanales. La tesis es directa: el cumplimiento documental no es un problema administrativo — es un riesgo operativo con costo asimétrico que un sistema simple y estático elimina sin añadir carga al coordinador.",
+        "en": "This article is for operators with 25 to 70 active drivers who manage document expiry reactively — meaning they check when someone notifies them — and who want to make that process proactive without adding more work for the coordinator. It covers which documents expire in a typical regional fleet and how often; why the coordinator's memory doesn't scale beyond 20 drivers; how to build the minimum tracking system in under four hours; the alert process at 60, 30, and 7 days from expiry; the specific legal risk in LATAM when the insurer discovers a driver was operating with lapsed documents; and the agent query that generates the complete upcoming-expiry report for the entire fleet in under five weekly minutes. The thesis is direct: document compliance isn't an administrative problem — it's an operational risk with an asymmetric cost that a simple, static system eliminates without adding burden to the coordinator."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "documentos-vencen-flota-consecuencias",
+      "text": {
+        "es": "Los cinco documentos que vencen en una flota y lo que pasa cuando se ignoran",
+        "en": "The five documents that expire in a fleet and what happens when they're ignored"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "En una operación regional de ride-hailing con conductores afiliados y vehículos propios, hay cinco categorías de documento con fechas de vencimiento que, si caducan durante la operación activa del conductor, crean problemas legales, de seguro o regulatorios con consecuencias distintas según el mercado. El costo de cada tipo de documento vencido tiene naturaleza diferente, y entender esa diferencia determina el nivel de urgencia que el sistema de seguimiento debe asignar a cada uno.",
+        "en": "In a regional ride-hailing operation with affiliated drivers and privately owned vehicles, there are five document categories with expiry dates that, if they lapse while the driver is actively operating, create legal, insurance, or regulatory problems with different consequences depending on the market. The cost of each type of expired document has a different nature, and understanding that difference determines the urgency level the tracking system should assign to each one."
+      }
+    },
+    {
+      "type": "list",
+      "style": "bullet",
+      "intro": {
+        "es": "Los cinco documentos con fecha de vencimiento en una flota regional, ordenados por impacto del vencimiento sobre la operación:",
+        "en": "The five documents with expiry dates in a regional fleet, ordered by the operational impact of each lapse:"
+      },
+      "items": {
+        "es": [
+          "**Licencia de conducir**: vigencia de 1 a 10 años según el estado y el tipo de licencia en México; 5 a 10 años en Colombia; 2 a 5 años en Centroamérica. Documento de mayor riesgo legal: el conductor sin licencia vigente que tiene un accidente con pasajero activa responsabilidad civil que en varios sistemas legales latinoamericanos alcanza al operador de la plataforma.",
+          "**Seguro del vehículo**: vence anualmente en casi todos los mercados; pólizas semestrales son frecuentes en flotas de mayor riesgo. El siniestro con seguro vencido puede resultar en rechazo completo de la aseguradora, trasladando la responsabilidad de pago al conductor y, en algunos casos, al operador.",
+          "**Tarjeta de circulación o verificación vehicular**: plazo de 1 a 2 años dependiendo del estado o municipio. Vencida, habilita a la autoridad a retener el vehículo durante un trayecto activo — el pasajero queda en la calle.",
+          "**Verificación técnica o mecánica**: obligatoria en varios estados mexicanos y mercados colombianos; vigencia semestral o anual. Afecta directamente la validez del seguro en algunos mercados si el vehículo no tenía la verificación técnica al momento del siniestro.",
+          "**Permiso municipal de operación de plataforma**: en mercados con regulación activa, tiene plazos de 6 meses a 2 años. Su vencimiento puede impedir operar legalmente en la ciudad mientras se tramita la renovación, con consecuencias que afectan a toda la flota, no solo al conductor individual."
+        ],
+        "en": [
+          "**Driver's license**: valid for 1 to 10 years depending on the state and license type in Mexico; 5 to 10 years in Colombia; 2 to 5 years in Central America. The highest legal-risk document: a driver without a valid license who has an accident with an active passenger triggers civil liability that in several Latin American legal systems reaches the platform operator.",
+          "**Vehicle insurance**: expires annually in almost all markets; semi-annual policies are common in higher-risk fleets. A claim with lapsed insurance may result in a complete insurer denial, shifting payment liability to the driver and, in some cases, to the operator.",
+          "**Vehicle registration or roadworthiness certificate**: 1 to 2 year terms depending on the state or municipality. When expired, it authorizes the authority to impound the vehicle during an active trip — leaving the passenger on the roadside.",
+          "**Technical or mechanical inspection**: mandatory in several Mexican states and Colombian markets; valid for six months to one year. In some markets, a lapsed technical inspection directly affects insurance validity if the vehicle didn't have current inspection at the time of the incident.",
+          "**Municipal platform operating permit**: in markets with active regulation, valid for 6 months to 2 years. Its expiry can prevent legal operation in the city while renewal is processed, with consequences that affect the entire fleet, not just the individual driver."
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "memoria-coordinador-no-escala",
+      "text": {
+        "es": "Por qué la memoria del coordinador no funciona más allá de 20 conductores",
+        "en": "Why the coordinator's memory stops working beyond 20 drivers"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Con 15 a 20 conductores activos, el coordinador puede rastrear los vencimientos con atención personal razonable: conoce a cada conductor por nombre, sabe que Ramón renueva la licencia en julio y que el Nissan de Jorge pasa verificación en marzo. Ese conocimiento implícito funciona hasta que llega uno de tres eventos: el coordinador rota y el nuevo no heredó ese mapa mental; la flota crece de 20 a 45 conductores en seis meses; o el operador empieza a gestionar dos ciudades en paralelo. En los tres casos, el sistema basado en memoria personal falla de la misma forma: el primer vencimiento que nadie recordó es el que produce el problema.",
+        "en": "With 15 to 20 active drivers, the coordinator can track expiry dates with reasonable personal attention: they know each driver by name, know that Ramón renews his license in July and that Jorge's Nissan goes in for inspection in March. That implicit knowledge works until one of three events arrives: the coordinator rotates and the new one didn't inherit that mental map; the fleet grows from 20 to 45 drivers over six months; or the operator starts managing two cities in parallel. In all three cases, the memory-based system fails the same way: the first expiry nobody remembered is the one that creates the problem."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El problema no es la falta de atención del coordinador — es que la gestión de vencimientos es una función de volumen, no de importancia percibida. En el día a día de una operación con 50 conductores y 400 viajes semanales, el documento que vence en 60 días no compite con la queja del pasajero de esta mañana, el conductor que canceló tres viajes seguidos, o el chófer nuevo que no entiende la demanda de su zona. El sistema sin señal externa al coordinador — un recordatorio que aparece antes de que el vencimiento sea urgente — convierte la excepción en la regla para flotas de 30 conductores o más. El coordinador que mira la lista de 50 conductores y trata de recordar quién tiene documentos próximos a vencer no está fallando en su trabajo: está usando la herramienta equivocada para esa tarea.",
+        "en": "The problem isn't a lack of coordinator attention — it's that expiry management is a volume function, not one of perceived importance. In the daily rhythm of a 50-driver operation with 400 weekly trips, the document expiring in 60 days doesn't compete for attention with this morning's passenger complaint, the driver who cancelled three consecutive trips, or the new driver who doesn't understand demand in their zone. A system with no external signal to the coordinator — a reminder that surfaces before the expiry becomes urgent — turns the exception into the rule for fleets of 30 drivers or more. The coordinator scanning a list of 50 drivers and trying to remember who has documents coming due isn't failing at their job: they're using the wrong tool for that task."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "sistema-minimo-seguimiento-cuatro-columnas",
+      "text": {
+        "es": "El sistema mínimo de seguimiento: cuatro columnas y cinco minutos el lunes",
+        "en": "The minimum tracking system: four columns and five minutes on Monday"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El sistema de seguimiento de vencimientos que protege a la operación no requiere software especializado ni tiempo de implementación significativo. Requiere una hoja de cálculo con cuatro columnas por documento activo, una carga inicial de los datos existentes, y una revisión semanal de menos de cinco minutos como primer paso del turno del lunes del coordinador. Las cuatro columnas: nombre del conductor, tipo de documento (licencia / seguro / verificación vehicular / verificación técnica / permiso), fecha de vencimiento, y estado (vigente / próximo / vencido). El filtro semanal es una sola operación: ordenar por fecha de vencimiento y revisar todos los documentos que vencen en los próximos 60 días. Los que no entran en esa ventana no requieren atención esa semana.",
+        "en": "The expiry tracking system that protects the operation doesn't require specialized software or significant implementation time. It requires a spreadsheet with four columns per active document, a one-time load of existing data, and a weekly review of under five minutes as the coordinator's first step each Monday. The four columns: driver name, document type (license / insurance / vehicle registration / technical inspection / permit), expiry date, and status (current / upcoming / expired). The weekly filter is a single operation: sort by expiry date and review all documents expiring in the next 60 days. Documents outside that window require no attention that week."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La carga inicial de los datos es el único esfuerzo de tiempo significativo. En una flota de 40 a 60 conductores con entre 3 y 5 documentos por conductor, la carga completa toma entre 3 y 5 horas si el coordinador tiene acceso a las copias digitales — tiempo que la operación recupera en la primera semana cuando el sistema evita el primer vencimiento. La actualización posterior es mínima: cada vez que un conductor renueva un documento, el coordinador actualiza una celda en 30 segundos. La alternativa — resolver el problema de un vencimiento descubierto durante un incidente — toma entre 2 y 8 horas y produce riesgo legal que el sistema simple habría eliminado completamente. En una operación con dos coordinadores en turnos distintos, la hoja compartida reemplaza el conocimiento implícito que antes dependía de que el coordinador de mayor antigüedad estuviera de turno.",
+        "en": "The initial data load is the only significant time investment. In a fleet of 40 to 60 drivers with 3 to 5 documents per driver, the full load takes 3 to 5 hours if the coordinator has access to digital copies — time the operation recovers in the first week when the system prevents the first expiry from going unnoticed. Updates afterward are minimal: every time a driver renews a document, the coordinator updates one cell in 30 seconds. The alternative — resolving an expiry discovered during an incident — takes 2 to 8 hours and produces legal risk the simple system would have eliminated entirely. In an operation with two coordinators on different shifts, the shared spreadsheet replaces the implicit knowledge that previously depended on the most senior coordinator being on duty."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "proceso-alerta-60-30-7-dias",
+      "text": {
+        "es": "El proceso de alerta: qué hacer a 60, 30 y 7 días del vencimiento",
+        "en": "The alert process: what to do at 60, 30, and 7 days from expiry"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La alerta de vencimiento funciona mejor en tres momentos con tres acciones distintas. A 60 días del vencimiento, el coordinador envía un mensaje al conductor informando que el documento X vence en dos meses y preguntando si ya inició el proceso de renovación. El objetivo de esta alerta no es presionar — es informar que la operación tiene visibilidad sobre el vencimiento. En el 70 al 80% de los casos, el conductor no había iniciado el proceso porque tampoco tenía el vencimiento en mente. La alerta temprana activa el proceso en el momento en que hay tiempo suficiente para completarlo sin afectar la disponibilidad del conductor ni generar urgencia artificial que el conductor perciba como presión.",
+        "en": "The expiry alert works best at three moments with three distinct actions. At 60 days from expiry, the coordinator sends a message to the driver noting that document X expires in two months and asking whether they've started the renewal process. The goal of this alert isn't pressure — it's to let the driver know the operation has visibility over the expiry. In 70 to 80% of cases, the driver hadn't started the process because they also didn't have the expiry date in mind. The early alert activates the process at the moment when there's sufficient time to complete it without affecting driver availability or generating artificial urgency the driver perceives as pressure."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "A 30 días, si el conductor reportó que inició la renovación, el coordinador confirma el estado. Si no reportó avance, el mensaje sube en tono: la plataforma no puede asignar viajes a un conductor con documentos vencidos, y la renovación debe estar completa antes de la fecha de vencimiento. A 7 días, si el documento sigue sin renovarse, el coordinador activa la suspensión preventiva del conductor hasta que el nuevo documento esté cargado en el sistema. La suspensión preventiva — que el conductor supo que llegaba porque fue avisado dos veces — produce una tasa de renovación del 85 al 90% antes de llegar a la fecha límite en operaciones con el proceso documentado. El conductor que llega al día cero sin renovar es el 10 al 15% restante, y en ese caso la suspensión es la única respuesta operativa correcta: operar ese conductor un solo día más convierte el riesgo latente en riesgo activo.",
+        "en": "At 30 days, if the driver reported starting the renewal, the coordinator confirms status. If no progress was reported, the message escalates in tone: the platform cannot assign trips to a driver with expired documents, and renewal must be complete before the expiry date. At 7 days, if the document is still unrenewed, the coordinator activates a preventive suspension until the new document is uploaded to the system. The preventive suspension — which the driver knew was coming because they'd been notified twice — produces a renewal rate of 85 to 90% before the deadline in operations with a documented process. The driver who arrives at day zero without renewing is the remaining 10 to 15%, and in that case suspension is the only correct operational response: running that driver one more day converts a latent risk into an active one."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "riesgo-legal-latam-aseguradora",
+      "text": {
+        "es": "El riesgo legal en LATAM: qué pasa cuando la aseguradora descubre el documento caducado",
+        "en": "Legal risk in LATAM: what happens when the insurer discovers the lapsed document"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La situación legal que los operadores regionales enfrentan cuando un conductor tiene un accidente con seguro vencido varía por mercado, pero el patrón general en México, Colombia y Centroamérica comparte la misma estructura de riesgo. El seguro del vehículo en los mercados latinoamericanos cubre el siniestro si y solo si el conductor estaba habilitado para operar en el momento del evento: habilitación que incluye licencia vigente, seguro vigente y, en mercados con permiso de plataforma, permiso activo. Un siniestro con cualquiera de esos elementos vencido puede resultar en rechazo del seguro, lo que desplaza la responsabilidad de pago hacia el conductor y, en modelos donde la plataforma tiene responsabilidad subsidiaria establecida contractual o jurisprudencialmente, hacia el operador.",
+        "en": "The legal situation regional operators face when a driver has an accident with lapsed insurance varies by market, but the general pattern in Mexico, Colombia, and Central America shares the same risk structure. Vehicle insurance in Latin American markets covers the incident if and only if the driver was authorized to operate at the time of the event — authorization that includes a valid license, active insurance, and where platform permits are required, a valid permit. A claim with any of those elements expired can result in insurer denial, shifting payment liability to the driver and, in models where the platform has established subsidiary responsibility contractually or through case law, to the operator."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El escenario más costoso no es el siniestro en sí — es la investigación posterior. En varios estados de México, la Secretaría de Movilidad tiene atribución para revisar si la plataforma verificó la vigencia de los documentos al momento del servicio. Un operador sin sistema de seguimiento que descubre que un conductor operó con licencia vencida durante 60 días antes de un accidente no puede demostrar que el problema fue puntual versus sistémico. El que tiene el registro completo de alertas enviadas, respuestas del conductor, y la fecha en que el documento fue renovado o el conductor suspendido preventivamente tiene evidencia de debida diligencia que puede ser la diferencia entre una multa administrativa puntual y la suspensión del permiso de operación de la plataforma en esa ciudad. El sistema de seguimiento no es solo gestión operativa — es la documentación de que el operador actuó de buena fe antes del incidente.",
+        "en": "The most costly scenario isn't the incident itself — it's the subsequent investigation. In several Mexican states, the Secretariat of Mobility has authority to review whether the platform verified document validity at the time of service. An operator without a tracking system who discovers a driver operated with an expired license for 60 days before an accident cannot demonstrate the problem was isolated versus systemic. The operator who has a complete record of alerts sent, driver responses, and the date the document was renewed or the driver preventively suspended has evidence of due diligence that can be the difference between a one-time administrative fine and suspension of the platform's operating permit in that city. The tracking system isn't just operational management — it's documentation that the operator acted in good faith before the incident."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "consulta-agente-reporte-vencimientos",
+      "text": {
+        "es": "La consulta al agente que genera el reporte de vencimientos de toda la flota",
+        "en": "The agent query that generates the expiry report for the entire fleet"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Si la operación tiene los documentos de conductores cargados en la plataforma con sus fechas de vencimiento, la consulta que produce el diagnóstico completo en tiempo real es directa: «Para todos los conductores activos en los últimos 30 días, muéstrame qué documentos vencen en los próximos 90 días ordenados por fecha de vencimiento. Para cada uno, indica el nombre del conductor, el tipo de documento, la fecha exacta de vencimiento y si el conductor completó algún viaje en los últimos 7 días. ¿Cuántos conductores tienen más de un documento próximo a vencer en los próximos 60 días? ¿Hay algún conductor con algún documento ya vencido que completó viajes en los últimos 14 días?» Esa última pregunta es la más crítica: si hay conductores operando con documentos vencidos, el sistema ya falló y el primer paso es la suspensión inmediata.",
+        "en": "If the operation has driver documents loaded in the platform with their expiry dates, the query that produces the complete real-time diagnostic is straightforward: 'For all drivers active in the last 30 days, show me which documents expire in the next 90 days sorted by expiry date. For each one, include the driver name, document type, exact expiry date, and whether the driver completed any trips in the last 7 days. How many drivers have more than one document expiring in the next 60 days? Are there any drivers with an already-expired document who completed trips in the last 14 days?' That last question is the most critical: if drivers are operating with expired documents, the system has already failed and the first step is immediate suspension."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El reporte producido en 3 a 4 minutos reemplaza la revisión manual de la hoja de seguimiento y añade un elemento que la hoja no produce automáticamente: la combinación de vencimiento próximo con actividad reciente. Un conductor cuyo seguro vence en 12 días y que completó 28 viajes en la última semana es una prioridad operativa diferente a un conductor cuyo seguro también vence en 12 días pero que solo completó 2 viajes en ese período. El agente puede producir esa distinción en el reporte, lo que permite al coordinador priorizar los mensajes de alerta por impacto operativo en lugar de solo por fecha de vencimiento. La operación que combina la hoja de seguimiento estática con el diagnóstico dinámico del agente tiene las dos capas de visibilidad que el volumen de una flota de 50 conductores requiere.",
+        "en": "The report produced in 3 to 4 minutes replaces the manual review of the tracking spreadsheet and adds one element the spreadsheet doesn't produce automatically: the combination of upcoming expiry with recent activity. A driver whose insurance expires in 12 days and who completed 28 trips in the last week is a different operational priority from a driver whose insurance also expires in 12 days but who completed only 2 trips in that period. The agent can produce that distinction in the report, letting the coordinator prioritize alert messages by operational impact rather than expiry date alone. The operation that combines the static tracking spreadsheet with the agent's dynamic diagnostic has both visibility layers that a 50-driver fleet's volume requires."
+      }
+    },
+    {
+      "type": "quote",
+      "text": {
+        "es": "Durante siete meses, uno de mis conductores más activos — el que tenía la calificación más alta de la flota — operó con la licencia vencida. Ni él ni yo lo sabíamos. Lo descubrimos cuando una patrulla lo paró durante un viaje con pasajero. El conductor perdió el vehículo por tres días, el pasajero nunca volvió a usar la plataforma y yo tuve que explicarle a la aseguradora por qué no tenía un proceso de verificación. Desde ese mes tengo la hoja de vencimientos. Son cuatro horas de carga inicial. En dos años de tenerla no he vuelto a tener ese problema, y tres veces evité que un conductor con seguro próximo a vencer siguiera operando sin saberlo.",
+        "en": "For seven months, one of my most active drivers — the one with the highest rating in the fleet — operated with an expired license. Neither of us knew. We found out when a patrol stopped him during a trip with a passenger. The driver lost the vehicle for three days, the passenger never used the platform again, and I had to explain to the insurer why I had no verification process. Since that month I've had the expiry spreadsheet. It's four hours of initial setup. In two years of having it I've never had that problem again, and three times I prevented a driver with an insurance expiry coming up from continuing to operate without knowing it."
+      },
+      "attribution": {
+        "es": "Operador con 38 meses de operación en una ciudad de 190,000 habitantes en Veracruz, México",
+        "en": "Operator with 38 months of operation in a city of 190,000 in Veracruz, Mexico"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El seguimiento de vencimientos de documentos no es el proceso operativo más urgente en el día a día de una operación de ride-hailing regional — y esa es exactamente la razón por la que la mayoría de los operadores no lo construye hasta que el primer vencimiento ignorado produce consecuencias. El costo de construirlo es bajo: 3 a 5 horas de carga inicial y 5 minutos semanales de revisión. El costo de no tenerlo es asimétrico: cero en el 95% de los meses en que ningún documento vence en mal momento, y muy alto en el 5% en que vence exactamente cuando peor conviene. La estructura del problema hace que el sistema sea siempre mejor que la memoria personal del coordinador — no porque el coordinador sea descuidado, sino porque ninguna memoria humana fue diseñada para manejar 200 fechas de vencimiento en cinco categorías de documento con actualizaciones asíncronas.",
+        "en": "Document expiry tracking isn't the most urgent operational process in the daily rhythm of a regional ride-hailing operation — and that's precisely why most operators don't build it until the first ignored expiry produces consequences. The cost to build it is low: 3 to 5 hours of initial setup and 5 weekly minutes of review. The cost of not having it is asymmetric: zero in the 95% of months when no document lapses at a bad moment, and very high in the 5% when one lapses at exactly the worst possible time. The structure of the problem makes the system always superior to the coordinator's personal memory — not because the coordinator is careless, but because no human memory was designed to manage 200 expiry dates across five document categories with asynchronous updates."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La plataforma que gestiona la flota como un portafolio de etapas, que tiene un protocolo de incidentes y que sube las tarifas con proceso tiene también los activos para construir el sistema de cumplimiento documental sin depender de la improvisación. Ese sistema no hace que los conductores sean más responsables con sus documentos — hace que la operación no dependa de que lo sean. En una flota de 50 conductores activos, la probabilidad estadística de que en cualquier mes haya al menos un conductor con un documento a 30 días de vencer que nadie notó es mayor al 60%. El sistema que convierte esa probabilidad en una alerta visible el lunes por la mañana no elimina el trabajo del coordinador — elimina el trabajo del coordinador en el momento en que menos puede dedicarle atención.",
+        "en": "The platform that manages the fleet as a portfolio of stages, has an incident protocol, and raises fares with a process also has the assets to build document compliance tracking without depending on improvisation. That system doesn't make drivers more responsible with their documents — it makes the operation not dependent on whether they are. In a fleet of 50 active drivers, the statistical probability that in any given month at least one driver has a document within 30 days of expiry that nobody noticed is above 60%. The system that turns that probability into a visible alert on Monday morning doesn't eliminate the coordinator's work — it eliminates the coordinator's work at exactly the moment when they have the least attention to give it."
+      }
+    }
+  ],
+  "cta": {
+    "heading": {
+      "es": "¿Listo para lanzar tu propia app de movilidad?",
+      "en": "Ready to launch your own mobility app?"
+    },
+    "body": {
+      "es": "Configura tu marca, tus tarifas y tus servicios en semanas, no en meses. Cabgo te entrega la plataforma; tú te quedas con la operación, los clientes y los ingresos.",
+      "en": "Set up your brand, pricing and services in weeks, not months. Cabgo ships the platform — you keep the operation, the customers and the revenue."
+    },
+    "buttonLabel": {
+      "es": "Comenzar con Cabgo",
+      "en": "Get started with Cabgo"
+    },
+    "buttonHref": "/empezar"
+  },
+  "seo": {
+    "metaTitle": {
+      "es": "Documentos conductores: alertas de vencimiento | Cabgo",
+      "en": "Driver document expiry tracking for ride-hailing | Cabgo"
+    },
+    "metaDescription": {
+      "es": "La mayoría de operadores descubre documentos vencidos durante un incidente. Cómo construir un sistema de alertas que protege la operación sin carga extra.",
+      "en": "Most operators discover expired driver documents during an incident. A simple tracking system removes this risk without adding work for the coordinator."
+    }
+  }
+}
