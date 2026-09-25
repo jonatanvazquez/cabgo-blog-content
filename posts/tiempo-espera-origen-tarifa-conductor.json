@@ -1,0 +1,329 @@
+{
+  "slug": "tiempo-espera-origen-tarifa-conductor",
+  "category": "strategy",
+  "title": {
+    "es": "Tiempo de espera en origen: cuánto regalar y cuánto cobrar para proteger al conductor",
+    "en": "Pickup waiting time: how much to give away and how much to charge to protect the driver"
+  },
+  "excerpt": {
+    "es": "Cada minuto que un conductor espera en origen lo paga alguien. Cómo definir los minutos de cortesía, calcular la tarifa por minuto y comunicarla sin generar quejas.",
+    "en": "Every minute a driver waits at pickup is paid by someone. How to set the grace period, calculate the per-minute fee and communicate it without triggering complaints."
+  },
+  "heroImage": "https://raw.githubusercontent.com/jonatanvazquez/cabgo-blog-content/main/images/tiempo-espera-origen-tarifa-conductor.jpg",
+  "heroImageAlt": {
+    "es": "Composición isométrica con un auto detenido frente a un edificio residencial, un reloj flotante con un segmento en teal marcando los minutos de cortesía y uno en ámbar para la espera cobrada, y un teléfono con el resumen del viaje desglosado.",
+    "en": "Isometric composition with a car parked in front of a residential building, a floating clock with a teal segment marking the free minutes and an amber segment for charged waiting, and a phone showing an itemized trip summary."
+  },
+  "heroImagePrompt": "Isometric scene on a deep violet floor grid. Left: a compact ride-hailing car parked at the curb in front of a small residential apartment building with a lit entrance door. Center above the car: a large floating circular clock with its first segment glowing teal (free grace minutes) and the following segment glowing amber (charged waiting), with a small hourglass icon beside it. Right: a floating smartphone showing a trip summary receipt with three itemized lines, one line highlighted in amber. A thin glowing dotted path connects the building door to the car. Soft indigo radial glow behind the clock.",
+  "publishedAt": "2026-09-25",
+  "readingMinutes": 8,
+  "keywords": {
+    "es": [
+      "tarifa tiempo de espera taxi app",
+      "cobro espera conductor ride-hailing",
+      "minutos de cortesía taxi",
+      "tiempo de espera en origen plataforma movilidad",
+      "cuánto cobrar por espera taxi",
+      "política de espera conductores flota"
+    ],
+    "en": [
+      "taxi app waiting time fee",
+      "ride-hailing driver waiting charge",
+      "taxi grace period minutes",
+      "pickup waiting time mobility platform",
+      "how much to charge for taxi waiting",
+      "fleet driver waiting policy"
+    ]
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Cada minuto que un conductor espera frente a un domicilio es un minuto que alguien paga. Si tu tarifa no contempla la espera en origen, lo paga el conductor con su tiempo, y lo cobra después de otra forma: rechazando viajes de ciertas colonias, cancelando cuando el pasajero tarda o simplemente dejando tu plataforma por otra que sí le reconoce ese tiempo. Cobrar la espera no es exprimir al pasajero; es decidir de forma explícita quién asume un costo que ya existe.",
+        "en": "Every minute a driver waits in front of a building is a minute somebody pays for. If your fare does not account for waiting at pickup, the driver pays with their time and recovers it some other way: rejecting trips from certain neighborhoods, cancelling when the passenger runs late, or simply leaving your platform for one that does recognize that time. Charging for waiting is not squeezing the passenger; it is deciding explicitly who absorbs a cost that already exists."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Este artículo es para operadores de taxi por app y flotas regionales que quieren poner orden en la espera en origen: cuántos minutos regalar, cómo calcular lo que se cobra después, cómo comunicarlo para que no genere quejas y qué te dicen los datos de espera sobre tu operación. No hablaremos del tiempo que el pasajero espera al conductor, que es otro indicador, sino del tiempo que el conductor espera al pasajero.",
+        "en": "This article is for app-based taxi operators and regional fleets that want to bring order to pickup waiting: how many minutes to give away, how to calculate what gets charged after that, how to communicate it so it does not trigger complaints, and what waiting data tells you about your operation. We will not cover the time the passenger waits for the driver, which is a different indicator, but the time the driver waits for the passenger."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "espera-origen-costo-quien-paga",
+      "text": {
+        "es": "La espera en origen es un costo, y hoy alguien ya lo está pagando",
+        "en": "Pickup waiting is a cost, and someone is already paying it"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "En una ciudad mediana, un conductor activo completa entre 2 y 3 viajes por hora en horas de demanda. Cinco minutos de espera en un viaje equivalen a perder entre el 10 % y el 15 % de esa hora. Si esa espera se repite en uno de cada cuatro viajes, el conductor termina el turno con menos ingresos de los que su calificación y sus kilómetros harían esperar, y no sabe explicar por qué.",
+        "en": "In a mid-sized city, an active driver completes between 2 and 3 trips per hour at peak demand. Five minutes of waiting on one trip means losing 10% to 15% of that hour. If that wait repeats on one out of every four trips, the driver ends the shift earning less than their rating and mileage would suggest, and cannot explain why."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El pasajero, por su parte, no percibe que esté costando nada. Pide el viaje cuando todavía está buscando las llaves porque nada le indica que eso tiene consecuencias. La tarifa de espera no busca castigarlo: busca que el momento de pedir el viaje se parezca más al momento en que de verdad está listo para salir.",
+        "en": "The passenger, meanwhile, does not perceive any cost at all. They order the trip while still looking for their keys, because nothing tells them it has consequences. A waiting fee is not meant to punish them: it is meant to make the moment of ordering a trip closer to the moment they are actually ready to leave."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Hay además un costo que no aparece en ninguna hoja: la tensión en el primer minuto del viaje. Un conductor que esperó ocho minutos sin compensación empieza el trayecto molesto, maneja con prisa para recuperar el tiempo y es menos amable. El pasajero no sabe por qué el servicio se sintió frío, pero lo recuerda al calificar. Poner reglas claras a la espera es también una forma de cuidar la experiencia del resto del viaje.",
+        "en": "There is also a cost that never shows up on a spreadsheet: tension in the first minute of the trip. A driver who waited eight minutes without compensation starts the ride annoyed, drives in a hurry to make up the time and is less friendly. The passenger does not know why the service felt cold, but remembers it when rating. Setting clear rules for waiting is also a way to protect the experience of the rest of the trip."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "minutos-gratuitos-rango-funciona",
+      "text": {
+        "es": "Cuántos minutos gratuitos dar: el rango que funciona en ciudades regionales",
+        "en": "How many free minutes to give: the range that works in regional cities"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Casi todas las operaciones que cobran espera empiezan con un periodo de cortesía. En ciudades regionales, entre 3 y 5 minutos cubre la gran mayoría de los casos razonables: bajar desde un departamento, cerrar la puerta de la casa, cargar una maleta. Menos de 3 minutos genera cobros que el pasajero siente injustos; más de 7 elimina el incentivo casi por completo.",
+        "en": "Almost every operation that charges for waiting starts with a grace period. In regional cities, 3 to 5 minutes covers the vast majority of reasonable cases: coming down from an apartment, locking the front door, loading a suitcase. Less than 3 minutes produces charges the passenger feels are unfair; more than 7 removes the incentive almost entirely."
+      }
+    },
+    {
+      "type": "list",
+      "style": "bullet",
+      "items": {
+        "es": [
+          "Tipo de vivienda dominante: edificios con elevador piden más minutos que casas a pie de calle.",
+          "Servicio: un traslado al aeropuerto con equipaje justifica una cortesía mayor que un viaje corto urbano.",
+          "Hora del día: en horas pico la espera cuesta más al conductor que en horas valle.",
+          "Perfil del pasajero: servicios para adultos mayores suelen necesitar un margen más amplio.",
+          "Competencia local: si los taxis de sitio no cobran espera, empieza con una cortesía generosa."
+        ],
+        "en": [
+          "Dominant housing type: buildings with elevators need more minutes than houses at street level.",
+          "Service: an airport transfer with luggage justifies a longer grace period than a short urban trip.",
+          "Time of day: at peak hours waiting costs the driver more than in off-peak hours.",
+          "Passenger profile: services for older adults usually need a wider margin.",
+          "Local competition: if street-stand taxis do not charge for waiting, start with a generous grace period."
+        ]
+      },
+      "intro": {
+        "es": "Ajusta el periodo de cortesía según estos factores:",
+        "en": "Adjust the grace period according to these factors:"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Lo importante es que el número sea configurable por servicio y que el pasajero vea el que tú definiste, no uno genérico. Una plataforma que muestra siempre «5 minutos» cuando tu operación regala 4 crea exactamente la discusión que quieres evitar.",
+        "en": "What matters is that the number is configurable per service and that the passenger sees the one you set, not a generic value. A platform that always shows \"5 minutes\" when your operation gives away 4 creates exactly the argument you want to avoid."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "calcular-tarifa-minuto-espera",
+      "text": {
+        "es": "Cómo calcular la tarifa por minuto de espera",
+        "en": "How to calculate the per-minute waiting fee"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La referencia más defendible es el ingreso por hora activa del conductor. Si en tu ciudad un conductor genera en promedio el equivalente a 150-200 unidades de moneda local por hora activa, un minuto de espera vale entre 2,5 y 3,3 unidades. Cobrar por debajo de eso no compensa al conductor; cobrar muy por encima convierte la espera en una fuente de ingreso y el pasajero lo nota.",
+        "en": "The most defensible reference is the driver's revenue per active hour. If in your city a driver generates on average the equivalent of 150-200 units of local currency per active hour, one minute of waiting is worth between 2.5 and 3.3 units. Charging less than that does not compensate the driver; charging far more turns waiting into a revenue stream, and passengers notice."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Pon además un tope: pasados 10 a 15 minutos de espera cobrada, el conductor debería poder cancelar sin penalización y con una compensación fija. Así ninguno de los dos queda atrapado en una espera indefinida, y el pasajero sabe que después de cierto punto el viaje se pierde.",
+        "en": "Add a cap as well: after 10 to 15 minutes of charged waiting, the driver should be able to cancel without penalty and with a fixed compensation. That way neither side is trapped in an open-ended wait, and the passenger knows that after a certain point the trip is lost."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Una forma práctica de validar tu número es compararlo con la tarifa por minuto que ya cobras durante el trayecto. Si el minuto de espera cuesta más que el minuto en movimiento, los pasajeros lo sienten como castigo; si cuesta menos de la mitad, el conductor lo siente como limosna. Un rango entre el 60 % y el 100 % del minuto en trayecto suele sentirse justo para los dos lados y es fácil de explicar.",
+        "en": "A practical way to validate your number is to compare it with the per-minute rate you already charge during the ride. If a waiting minute costs more than a moving minute, passengers feel it as a punishment; if it costs less than half, the driver feels it as charity. A range between 60% and 100% of the in-ride minute usually feels fair to both sides and is easy to explain."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "comunicar-cobro-espera-pasajero",
+      "text": {
+        "es": "Comunicar la espera antes del primer cobro, no después",
+        "en": "Communicate waiting before the first charge, not after"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El cobro de espera genera quejas cuando llega por sorpresa en el resumen del viaje. Genera muy pocas cuando el pasajero lo vio antes: en la pantalla de confirmación, en la notificación de «tu conductor llegó» y en el propio resumen, desglosado como una línea aparte. Tres puntos de contacto, un mismo mensaje.",
+        "en": "Waiting charges trigger complaints when they appear as a surprise in the trip summary. They trigger very few when the passenger saw them in advance: on the confirmation screen, in the \"your driver has arrived\" notification, and in the summary itself, broken out as a separate line. Three touchpoints, one message."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Antes de activar el cobro, anúncialo con al menos una semana de anticipación por los canales que ya usas con tus pasajeros frecuentes. Explica el porqué en términos del conductor, no de la plataforma: «para que tu conductor no pierda su tiempo esperando» se entiende mejor que cualquier justificación técnica.",
+        "en": "Before switching the charge on, announce it at least a week in advance through the channels you already use with frequent passengers. Explain the reason in terms of the driver, not the platform: \"so your driver doesn't lose their time waiting\" lands better than any technical justification."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Con los conductores, la comunicación va en sentido contrario: ellos necesitan saber exactamente cuánto reciben por cada minuto de espera y cuándo lo verán reflejado en sus ganancias. Si el conductor no ve ese ingreso con claridad, no cambia su comportamiento, sigue rechazando los viajes que antes le costaban tiempo y la política pierde la mitad de su efecto. Muéstrale el cargo por espera en el resumen de cada viaje y menciónalo en la primera semana de operación.",
+        "en": "With drivers, the communication runs the other way: they need to know exactly how much they receive for each minute of waiting and when they will see it in their earnings. If the driver cannot see that income clearly, their behavior does not change, they keep rejecting the trips that used to cost them time, and the policy loses half its effect. Show them the waiting charge in every trip summary and mention it during their first week of operation."
+      }
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "text": {
+        "es": "Revisa que el resumen del viaje muestre el cargo por espera en una línea separada, tanto para el pasajero como para el conductor. Un cargo que aparece en cero o mezclado con la tarifa base genera más reclamos que el cobro mismo.",
+        "en": "Check that the trip summary shows the waiting charge on a separate line, for both passenger and driver. A charge that shows up as zero or blended into the base fare generates more complaints than the charge itself."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "datos-espera-zona-pasajeros",
+      "text": {
+        "es": "Lo que los datos de espera dicen de tus zonas y tus pasajeros",
+        "en": "What waiting data says about your zones and passengers"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Después de un mes cobrando espera, tienes un mapa que antes no existía: dónde y con quién se espera. Casi siempre aparece un patrón claro que te permite actuar sin tocar la tarifa general.",
+        "en": "After a month of charging for waiting, you have a map that did not exist before: where and with whom drivers wait. A clear pattern almost always emerges, letting you act without touching the general fare."
+      }
+    },
+    {
+      "type": "list",
+      "style": "bullet",
+      "items": {
+        "es": [
+          "Zonas con espera alta constante suelen ser conjuntos cerrados con caseta: conviene un punto de encuentro fijo.",
+          "Pasajeros que pagan espera en casi todos sus viajes necesitan un recordatorio, no una penalización mayor.",
+          "Horarios con espera alta, como la salida de oficinas, piden un periodo de cortesía distinto.",
+          "Conductores que registran espera mucho mayor que el promedio merecen una revisión: pueden estar llegando antes de tiempo."
+        ],
+        "en": [
+          "Zones with consistently high waiting are usually gated communities with a guard booth: a fixed meeting point helps.",
+          "Passengers who pay waiting on almost every trip need a reminder, not a bigger penalty.",
+          "Hours with high waiting, such as office closing time, call for a different grace period.",
+          "Drivers who log far more waiting than average deserve a review: they may be arriving early on purpose."
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "conductor-tambien-cumple",
+      "text": {
+        "es": "El conductor también tiene que cumplir su parte",
+        "en": "The driver has to keep their end of the deal too"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La tarifa de espera solo es justa si el reloj empieza cuando el conductor de verdad está en el punto de recogida. Si marca su llegada a dos cuadras o antes de estacionarse, el pasajero paga minutos que no le correspondían y la confianza en el sistema se pierde rápido. Deja claro en el onboarding que marcar la llegada antes de tiempo es una falta, igual que cobrar de más en efectivo.",
+        "en": "A waiting fee is only fair if the clock starts when the driver is truly at the pickup point. If they mark their arrival two blocks away or before parking, the passenger pays for minutes that were not theirs and trust in the system disappears fast. Make it clear during onboarding that marking arrival early is a violation, just like overcharging in cash."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Cuando un pasajero reclama un cobro de espera, revisa el historial del viaje antes de decidir. Si la llegada se marcó lejos del punto de recogida, devuelve el cargo sin discusión y habla con el conductor. Si el conductor estaba en el lugar, sostén el cobro con amabilidad: ceder siempre enseña a todos que la regla no existe.",
+        "en": "When a passenger disputes a waiting charge, check the trip history before deciding. If arrival was marked far from the pickup point, reverse the charge without argument and talk to the driver. If the driver was on site, uphold the charge politely: always giving in teaches everyone that the rule does not exist."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "También conviene que el conductor avise por mensaje cuando llega y el pasajero no aparece, en lugar de esperar en silencio a que corra el reloj. Ese mensaje cambia la percepción del cobro: el pasajero sabía que lo estaban esperando y decidió tardar. Un recordatorio breve, amable y siempre igual es suficiente, y reduce los reclamos más que cualquier cambio de tarifa.",
+        "en": "It also helps if the driver sends a message on arrival when the passenger does not show up, instead of waiting silently for the clock to run. That message changes how the charge is perceived: the passenger knew someone was waiting and chose to take longer. A short, friendly and always identical reminder is enough, and it reduces disputes more than any fare change."
+      }
+    },
+    {
+      "type": "quote",
+      "text": {
+        "es": "Durante un año no cobramos espera porque pensamos que íbamos a perder pasajeros. Lo que perdíamos eran conductores: se iban a otra app o rechazaban los viajes de ciertas colonias. Pusimos cuatro minutos de cortesía y una tarifa por minuto que el conductor entendía. Los reclamos duraron dos semanas; la espera promedio bajó casi a la mitad en el primer mes.",
+        "en": "For a year we didn't charge for waiting because we thought we would lose passengers. What we were losing was drivers: they moved to another app or rejected trips from certain neighborhoods. We set four free minutes and a per-minute fee the driver could understand. Complaints lasted two weeks; average waiting dropped almost by half in the first month."
+      },
+      "attribution": {
+        "es": "Operador de taxi por app con 31 meses de operación en una ciudad de 210,000 habitantes en Sinaloa, México",
+        "en": "App-based taxi operator with 31 months of operation in a city of 210,000 in Sinaloa, Mexico"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "espera-regla-clara-ambos-lados",
+      "text": {
+        "es": "Una regla clara para los dos lados del viaje",
+        "en": "A clear rule for both sides of the trip"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Cobrar la espera en origen es una decisión de producto tanto como de tarifa. Bien configurada —periodo de cortesía ajustado a tu ciudad, tarifa por minuto anclada al ingreso real del conductor, tope de espera y comunicación en tres momentos— reduce la espera, protege el ingreso de tus conductores y casi no genera quejas.",
+        "en": "Charging for pickup waiting is as much a product decision as a pricing one. Configured well — a grace period adjusted to your city, a per-minute fee anchored to the driver's real earnings, a waiting cap and communication at three moments — it reduces waiting, protects your drivers' income and generates almost no complaints."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Empieza por medir: cuántos minutos esperan hoy tus conductores en origen y en qué zonas. Con esa cifra en la mano, la conversación sobre cuántos minutos regalar y cuánto cobrar deja de ser una intuición y se vuelve una regla que puedes explicar a pasajeros y conductores por igual.",
+        "en": "Start by measuring: how many minutes your drivers wait at pickup today, and in which zones. With that number in hand, the conversation about how many minutes to give away and how much to charge stops being a hunch and becomes a rule you can explain to passengers and drivers alike."
+      }
+    }
+  ],
+  "cta": {
+    "heading": {
+      "es": "¿Listo para lanzar tu propia app de movilidad?",
+      "en": "Ready to launch your own mobility app?"
+    },
+    "body": {
+      "es": "Configura tu marca, tus tarifas y tus servicios en semanas, no en meses. Cabgo te entrega la plataforma; tú te quedas con la operación, los clientes y los ingresos.",
+      "en": "Set up your brand, pricing and services in weeks, not months. Cabgo ships the platform — you keep the operation, the customers and the revenue."
+    },
+    "buttonLabel": {
+      "es": "Comenzar con Cabgo",
+      "en": "Get started with Cabgo"
+    },
+    "buttonHref": "/empezar"
+  },
+  "seo": {
+    "metaTitle": {
+      "es": "Tarifa por tiempo de espera en taxi por app | Cabgo",
+      "en": "Waiting time fees for ride-hailing drivers | Cabgo"
+    },
+    "metaDescription": {
+      "es": "Cuántos minutos de cortesía dar, cómo calcular la tarifa por minuto de espera y cómo comunicarla para proteger el ingreso del conductor sin generar quejas.",
+      "en": "How many grace minutes to give, how to calculate the per-minute waiting fee, and how to communicate it to protect driver income without complaints."
+    }
+  },
+  "author": {
+    "name": "Equipo Cabgo",
+    "role": {
+      "es": "Plataforma de movilidad",
+      "en": "Mobility platform"
+    }
+  }
+}
