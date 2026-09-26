@@ -1,0 +1,327 @@
+{
+  "slug": "zonas-tarifarias-diseno-ciudad-regional",
+  "category": "strategy",
+  "title": {
+    "es": "Zonas tarifarias en tu ciudad: cómo trazarlas para cobrar lo que cuesta cada viaje",
+    "en": "Fare zones in your city: how to draw them so each trip is priced at its real cost"
+  },
+  "excerpt": {
+    "es": "Una tarifa única pierde dinero en el centro y en la periferia. Cómo trazar tres a cinco zonas desde tus propios viajes, cobrar los cruces y saber cuándo redibujarlas.",
+    "en": "A single fare loses money downtown and on the outskirts. How to draw three to five zones from your own trips, price crossings and know when to redraw them."
+  },
+  "heroImage": "https://raw.githubusercontent.com/jonatanvazquez/cabgo-blog-content/main/images/zonas-tarifarias-diseno-ciudad-regional.jpg",
+  "heroImageAlt": {
+    "es": "Mapa isométrico de una ciudad dividido en tres anillos de zonas en tonos distintos, con autos de plataforma en cada zona y etiquetas de precio flotando sobre las fronteras.",
+    "en": "Isometric city map divided into three zone rings in different tones, with ride-hailing cars in each zone and price tags floating over the boundaries."
+  },
+  "heroImagePrompt": "Isometric city map on a deep violet floor grid, divided into three concentric irregular zone rings: a dense central core with small buildings glowing teal, a middle ring in soft indigo, and an outer ring with scattered houses and a road leading to a small nearby town. Two or three compact ride-hailing cars placed in different zones. Floating price tag icons hovering over the zone boundaries, one slightly larger at the outer boundary. A thin glowing dotted route crossing from the core to the outer ring. Soft indigo radial glow at the center.",
+  "publishedAt": "2026-09-26",
+  "readingMinutes": 8,
+  "keywords": {
+    "es": [
+      "zonas tarifarias taxi app",
+      "cómo definir tarifas por zona",
+      "tarifas por zona ride-hailing",
+      "precio por zona ciudad regional",
+      "recargo por salir de la ciudad taxi",
+      "diseño de zonas tarifarias plataforma movilidad"
+    ],
+    "en": [
+      "taxi app fare zones",
+      "how to set zone-based fares",
+      "ride-hailing zone pricing",
+      "zone pricing regional city",
+      "out-of-town taxi surcharge",
+      "fare zone design mobility platform"
+    ]
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Una sola tarifa para toda la ciudad es la decisión más cómoda del lanzamiento y la más cara a los seis meses. En el centro cobra de más frente a lo que el pasajero está dispuesto a pagar por un trayecto corto y congestionado; en la periferia cobra de menos frente a lo que le cuesta al conductor ir y volver vacío. Las zonas tarifarias existen para corregir esas dos pérdidas a la vez, y bien trazadas son la herramienta de precio más rentable que tiene un operador regional.",
+        "en": "A single fare for the whole city is the most comfortable launch decision and the most expensive one six months later. Downtown it charges more than passengers will pay for a short, congested trip; on the outskirts it charges less than it costs the driver to go there and come back empty. Fare zones exist to fix both losses at once, and drawn well they are the most profitable pricing tool a regional operator has."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Este artículo es para operadores de taxi por app y flotas regionales que ya tienen al menos dos o tres meses de viajes registrados y quieren pasar de una tarifa única a un esquema por zonas. Vamos a ver cómo trazar las primeras zonas a partir de los datos, cuántas conviene tener, cómo cobrar los viajes que cruzan de una a otra y cuándo hay que redibujarlas.",
+        "en": "This article is for app-based taxi operators and regional fleets that already have at least two or three months of recorded trips and want to move from a single fare to a zone-based scheme. We will cover how to draw the first zones from data, how many to have, how to price trips that cross from one zone to another, and when to redraw them."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "tarifa-unica-pierde-dos-extremos",
+      "text": {
+        "es": "Por qué una tarifa única pierde dinero en los dos extremos de la ciudad",
+        "en": "Why a single fare loses money at both ends of the city"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La tarifa única asume que todos los kilómetros cuestan lo mismo, y en una ciudad regional casi nunca es cierto. En el centro, un conductor recoge al siguiente pasajero en minutos; en una colonia de la orilla o en una localidad conurbada, el viaje de regreso suele hacerse vacío. Si ambos viajes se cobran igual por kilómetro, el conductor aprende rápido cuáles le convienen y empieza a rechazar los segundos, que es donde tus pasajeros más necesitan el servicio.",
+        "en": "A single fare assumes every kilometer costs the same, and in a regional city that is almost never true. Downtown, a driver picks up the next passenger within minutes; in an edge neighborhood or a nearby satellite town, the return trip is usually empty. If both trips are priced the same per kilometer, drivers learn quickly which ones pay and start rejecting the second kind, which is exactly where your passengers need the service most."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Del otro lado, en el centro la tarifa única tiende a quedar alta para trayectos de dos o tres kilómetros que el pasajero compara con caminar, el transporte público o el taxi de sitio. Ahí pierdes volumen sin que nadie te lo diga: simplemente no se pide el viaje. Las zonas te dejan bajar el precio donde la demanda es sensible y subirlo donde el costo real es mayor, en lugar de promediar ambos y perder en los dos.",
+        "en": "On the other side, downtown the single fare tends to be high for two- or three-kilometer trips that passengers compare against walking, public transit or the street taxi stand. There you lose volume without anyone telling you: the trip simply is not requested. Zones let you lower the price where demand is sensitive and raise it where the real cost is higher, instead of averaging both and losing on both."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "trazar-zonas-desde-los-viajes",
+      "text": {
+        "es": "Cómo trazar las primeras zonas: empieza por los viajes, no por el mapa",
+        "en": "How to draw the first zones: start from trips, not from the map"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El error más común es abrir el mapa y dibujar zonas siguiendo colonias o límites administrativos. Esos límites no dicen nada sobre cómo se mueven tus pasajeros ni sobre cuánto le cuesta a un conductor operar ahí. El orden correcto es el inverso:",
+        "en": "The most common mistake is to open the map and draw zones following neighborhoods or administrative boundaries. Those boundaries say nothing about how your passengers move or how much it costs a driver to operate there. The right order is the reverse:"
+      }
+    },
+    {
+      "type": "list",
+      "style": "number",
+      "items": {
+        "es": [
+          "Exporta dos o tres meses de viajes con origen, destino, hora y tiempo de recogida.",
+          "Marca en el mapa dónde se concentran los orígenes: ahí está tu zona de mayor densidad.",
+          "Identifica las áreas donde el tiempo de recogida supera de forma sostenida al promedio.",
+          "Localiza los destinos desde los que el conductor casi siempre regresa vacío.",
+          "Traza la primera frontera donde cambian esos patrones, no donde cambia el nombre de la colonia."
+        ],
+        "en": [
+          "Export two or three months of trips with origin, destination, time and pickup time.",
+          "Mark on the map where origins concentrate: that is your highest-density zone.",
+          "Identify the areas where pickup time consistently exceeds the average.",
+          "Find the destinations from which drivers almost always return empty.",
+          "Draw the first boundary where those patterns change, not where the neighborhood name changes."
+        ]
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Con eso casi siempre salen tres áreas naturales: un núcleo denso, un anillo intermedio y una periferia o localidades cercanas. Ese es un punto de partida mucho más defendible que cualquier división por intuición, y te da argumentos para explicar cada tarifa si un pasajero o un conductor pregunta por qué.",
+        "en": "That almost always produces three natural areas: a dense core, an intermediate ring and an outer periphery or nearby towns. It is a far more defensible starting point than any division by intuition, and it gives you arguments to explain every fare if a passenger or driver asks why."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "cuantas-zonas-tener",
+      "text": {
+        "es": "Cuántas zonas tener: el error de dibujar veinte",
+        "en": "How many zones to have: the mistake of drawing twenty"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Una vez que el operador descubre las zonas, la tentación es afinar: una para el centro histórico, otra para la zona hotelera, otra para cada fraccionamiento nuevo. Cada zona adicional es una tarifa más que explicar, una frontera más donde el pasajero ve cambiar el precio por cruzar una calle y un número más que revisar cada mes. En ciudades de 100,000 a 500,000 habitantes, entre tres y cinco zonas suelen capturar casi toda la diferencia de costos.",
+        "en": "Once operators discover zones, the temptation is to fine-tune: one for the historic center, another for the hotel strip, another for each new subdivision. Every extra zone is one more fare to explain, one more boundary where the passenger sees the price change by crossing a street, and one more number to review each month. In cities of 100,000 to 500,000 people, three to five zones usually capture almost all of the cost difference."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La excepción son los puntos con lógica propia: el aeropuerto, una terminal de autobuses o un parque industrial con cambios de turno. Esos lugares justifican una zona o una tarifa específica porque su demanda se comporta distinto del resto de la ciudad, no porque sea posible dibujarla.",
+        "en": "The exception is places with their own logic: the airport, a bus terminal or an industrial park with shift changes. Those places justify a specific zone or fare because their demand behaves differently from the rest of the city, not because it is possible to draw one."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Una prueba sencilla para saber si te sobran zonas: pide a un conductor nuevo que te explique, sin mirar nada, cuánto cuesta ir del centro a cada área de la ciudad. Si no puede hacerlo después de su primera semana, el esquema es demasiado complejo para que tus pasajeros lo entiendan también, y cada duda se convierte en una conversación de soporte que alguien tiene que atender.",
+        "en": "A simple test to see whether you have too many zones: ask a new driver to explain, without looking anything up, how much it costs to go from downtown to each area of the city. If they cannot do it after their first week, the scheme is too complex for your passengers to understand as well, and every doubt becomes a support conversation someone has to handle."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "precio-viajes-entre-zonas",
+      "text": {
+        "es": "Cómo cobrar los viajes que cruzan de una zona a otra",
+        "en": "How to price trips that cross from one zone to another"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El diseño de zonas se complica en los viajes que empiezan en una y terminan en otra. Hay tres enfoques razonables, y lo importante es elegir uno y aplicarlo igual en todos los casos. El primero cobra según la zona de origen, que es el más fácil de explicar. El segundo cobra según la zona de destino, útil cuando el costo real está en el regreso vacío desde la periferia. El tercero aplica la tarifa del origen más un recargo fijo por cruzar hacia la zona exterior.",
+        "en": "Zone design gets complicated with trips that start in one zone and end in another. There are three reasonable approaches, and what matters is choosing one and applying it consistently. The first charges by origin zone, which is the easiest to explain. The second charges by destination zone, useful when the real cost is the empty return from the periphery. The third applies the origin fare plus a fixed surcharge for crossing into the outer zone."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Para la mayoría de operaciones regionales el tercer enfoque es el más equilibrado: el pasajero entiende que salir de la ciudad cuesta un poco más, y el conductor recibe una compensación clara por el regreso. Lo que conviene evitar es mezclar enfoques según el caso, porque el pasajero frecuente nota la inconsistencia antes que nadie.",
+        "en": "For most regional operations the third approach is the most balanced: passengers understand that leaving the city costs a bit more, and drivers get clear compensation for the return trip. What you should avoid is mixing approaches case by case, because frequent passengers notice the inconsistency before anyone else."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Sea cual sea el enfoque, publícalo en un lugar donde el pasajero lo pueda consultar antes de pedir el viaje, y asegúrate de que el precio estimado que ve en la app ya incluya el recargo. La mayoría de las quejas por zonas no vienen de la tarifa en sí, sino de un monto final distinto del que el pasajero esperaba al confirmar.",
+        "en": "Whatever approach you choose, publish it somewhere passengers can check before requesting a trip, and make sure the estimated price they see in the app already includes the surcharge. Most zone-related complaints do not come from the fare itself, but from a final amount different from what the passenger expected when confirming."
+      }
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "text": {
+        "es": "Antes de publicar las nuevas tarifas, recalcula los 20 trayectos más frecuentes de tu operación con el esquema nuevo y compáralos con el precio actual. Si alguno sube más de un 20 %, revisa esa frontera antes de lanzarla.",
+        "en": "Before publishing the new fares, recalculate your operation's 20 most frequent routes under the new scheme and compare them with the current price. If any of them rises more than 20%, review that boundary before launching it."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "zonas-y-posicionamiento-conductores",
+      "text": {
+        "es": "Lo que las zonas cambian en dónde se posicionan tus conductores",
+        "en": "What zones change about where your drivers position themselves"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Las zonas no sólo mueven el precio: mueven a la flota. Cuando la periferia paga lo que cuesta, los conductores dejan de rechazar esos viajes y algunos empiezan a esperar cerca de esas áreas en las horas en que la demanda sale del centro. Si además usas un recargo por demanda configurable por zona, puedes activarlo sólo donde falta oferta en lugar de encarecer toda la ciudad en cada pico.",
+        "en": "Zones do not only move the price: they move the fleet. When the periphery pays what it costs, drivers stop rejecting those trips and some start waiting near those areas at the hours when demand leaves downtown. If you also use a demand surcharge configurable by zone, you can turn it on only where supply is short instead of raising prices across the whole city at every peak."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Comunícalo a tus conductores con números concretos: cuánto se gana ahora en un viaje típico a la periferia y cuánto se ganaba antes. Un cambio de tarifas que el conductor no entiende no cambia su comportamiento, y el objetivo de las zonas es precisamente ese cambio.",
+        "en": "Communicate it to your drivers with concrete numbers: how much a typical trip to the periphery pays now versus before. A fare change the driver does not understand does not change their behavior, and that change is precisely the goal of zones."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Un efecto secundario que conviene vigilar es la concentración: si una zona paga claramente mejor, varios conductores pueden acumularse ahí y dejar el centro con poca oferta en horas de alta demanda. Revisa en las primeras semanas el tiempo de recogida del núcleo; si empeora, el diferencial entre zonas es demasiado grande y hay que reducirlo antes de que los pasajeros del centro lo noten.",
+        "en": "A side effect worth watching is concentration: if one zone clearly pays better, several drivers may pile up there and leave downtown short of supply at high-demand hours. During the first weeks, check pickup time in the core; if it worsens, the difference between zones is too large and needs to be reduced before downtown passengers notice."
+      }
+    },
+    {
+      "type": "quote",
+      "text": {
+        "es": "Durante un año cobramos igual en toda la ciudad y nos preguntábamos por qué nadie quería ir a las colonias del norte. Cuando pusimos tres zonas y un recargo por salir hacia los pueblos cercanos, los rechazos en esa zona bajaron a menos de la mitad en seis semanas. No subimos el precio del centro; lo bajamos un poco, y ahí fue donde más crecimos.",
+        "en": "For a year we charged the same across the whole city and wondered why nobody wanted to go to the northern neighborhoods. When we set up three zones and a surcharge for heading out to the nearby towns, rejections in that area dropped by more than half within six weeks. We didn't raise the downtown price; we lowered it slightly, and that's where we grew the most."
+      },
+      "attribution": {
+        "es": "Operador de taxi por app con 22 meses de operación en una ciudad de 280,000 habitantes en Guanajuato, México",
+        "en": "App-based taxi operator with 22 months of operation in a city of 280,000 in Guanajuato, Mexico"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "cuando-redibujar-zonas",
+      "text": {
+        "es": "Cuándo redibujar las zonas: las señales en tus datos",
+        "en": "When to redraw zones: the signals in your data"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Las zonas no son permanentes. Las ciudades crecen, abren fraccionamientos y centros comerciales, y cambian los flujos de trabajo y escuela. Revisa tu esquema cada trimestre y redibújalo cuando aparezca alguna de estas señales:",
+        "en": "Zones are not permanent. Cities grow, new subdivisions and shopping centers open, and commuting and school flows change. Review your scheme every quarter and redraw it when any of these signals appears:"
+      }
+    },
+    {
+      "type": "list",
+      "style": "bullet",
+      "items": {
+        "es": [
+          "La tasa de rechazo de una zona sube de forma sostenida frente a las demás.",
+          "El tiempo de recogida en un área nueva supera el de la periferia actual.",
+          "Un nuevo polo de demanda aparece justo sobre una frontera y parte los viajes en dos tarifas.",
+          "Los pasajeros de una zona reclaman el precio con más frecuencia que el resto.",
+          "La mayoría de los viajes de una zona terminan siempre en otra específica."
+        ],
+        "en": [
+          "The rejection rate in one zone rises steadily compared to the others.",
+          "Pickup time in a new area exceeds that of the current periphery.",
+          "A new demand hub appears right on a boundary and splits trips into two fares.",
+          "Passengers in one zone complain about the price more often than the rest.",
+          "Most trips from one zone always end in another specific zone."
+        ]
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Cuando redibujes, cambia una frontera a la vez y déjala al menos un mes antes de tocar la siguiente. Si mueves tres fronteras en la misma semana, no vas a poder saber cuál de los cambios explica lo que pase con los rechazos, el volumen o las quejas, y la próxima revisión volverá a empezar desde cero.",
+        "en": "When you redraw, change one boundary at a time and leave it for at least a month before touching the next one. If you move three boundaries in the same week, you will not be able to tell which change explains what happens to rejections, volume or complaints, and the next review will start from scratch again."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "zonas-precio-que-refleja-costo",
+      "text": {
+        "es": "Un precio que refleja el costo real de cada viaje",
+        "en": "A price that reflects the real cost of every trip"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Las zonas tarifarias no son una forma de cobrar más: son una forma de cobrar mejor. Un esquema de tres a cinco zonas, trazado a partir de tus propios viajes y con una regla clara para los cruces, sube la aceptación en la periferia, protege el volumen en el centro y le da a tus conductores razones para ir donde antes no querían.",
+        "en": "Fare zones are not a way to charge more: they are a way to charge better. A scheme of three to five zones, drawn from your own trips and with a clear rule for crossings, raises acceptance on the periphery, protects volume downtown and gives your drivers reasons to go where they used to refuse."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Empieza con lo que ya tienes: exporta los viajes de los últimos meses y busca dónde cambian el tiempo de recogida y los regresos vacíos. Ahí están tus primeras fronteras, y con ellas un precio que por fin refleja lo que cuesta cada viaje en tu ciudad.",
+        "en": "Start with what you already have: export the last few months of trips and look for where pickup time and empty returns change. That is where your first boundaries are, and with them a price that finally reflects what each trip costs in your city."
+      }
+    }
+  ],
+  "cta": {
+    "heading": {
+      "es": "¿Listo para lanzar tu propia app de movilidad?",
+      "en": "Ready to launch your own mobility app?"
+    },
+    "body": {
+      "es": "Configura tu marca, tus tarifas y tus servicios en semanas, no en meses. Cabgo te entrega la plataforma; tú te quedas con la operación, los clientes y los ingresos.",
+      "en": "Set up your brand, pricing and services in weeks, not months. Cabgo ships the platform — you keep the operation, the customers and the revenue."
+    },
+    "buttonLabel": {
+      "es": "Comenzar con Cabgo",
+      "en": "Get started with Cabgo"
+    },
+    "buttonHref": "/empezar"
+  },
+  "seo": {
+    "metaTitle": {
+      "es": "Zonas tarifarias en taxi por app: cómo trazarlas | Cabgo",
+      "en": "Fare zones for ride-hailing: how to draw them | Cabgo"
+    },
+    "metaDescription": {
+      "es": "Cómo trazar de tres a cinco zonas tarifarias desde tus propios viajes, cobrar los cruces entre zonas y saber cuándo redibujarlas en una ciudad regional.",
+      "en": "How to draw three to five fare zones from your own trip data, price trips that cross zones, and know when to redraw them in a regional city."
+    }
+  },
+  "author": {
+    "name": "Equipo Cabgo",
+    "role": {
+      "es": "Plataforma de movilidad",
+      "en": "Mobility platform"
+    }
+  }
+}
