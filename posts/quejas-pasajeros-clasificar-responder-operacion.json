@@ -1,0 +1,348 @@
+{
+  "slug": "quejas-pasajeros-clasificar-responder-operacion",
+  "category": "strategy",
+  "title": {
+    "es": "Quejas de pasajeros: cómo clasificarlas y responder para mejorar tu operación",
+    "en": "Passenger complaints: how to classify and answer them to improve your operation"
+  },
+  "excerpt": {
+    "es": "Cada queja es un caso o el síntoma de algo que se repite. Cómo clasificarlas en cinco categorías, responder a tiempo, tratar al conductor, compensar con criterio y revisar patrones cada mes.",
+    "en": "Every complaint is a case or the symptom of something recurring. How to classify them into five categories, reply on time, handle the driver, compensate wisely and review patterns monthly."
+  },
+  "heroImage": "https://raw.githubusercontent.com/jonatanvazquez/cabgo-blog-content/main/images/quejas-pasajeros-clasificar-responder-operacion.jpg",
+  "heroImageAlt": {
+    "es": "Ilustración isométrica de un teléfono con burbujas de mensajes de pasajeros que se ordenan en cinco bandejas de colores junto a un tablero con barras.",
+    "en": "Isometric illustration of a phone with passenger message bubbles sorting into five colored trays next to a board with bars."
+  },
+  "heroImagePrompt": "Isometric scene on a deep violet floor grid: a large smartphone on the left emitting several small speech-bubble message cards that fly toward five small colored sorting trays arranged in a row, each tray glowing a different soft tone (teal, amber, coral, indigo, lavender). On the right, a compact dashboard board with a simple bar chart where one bar is taller and highlighted. A small ride-hailing car parked beside the trays. Soft indigo radial glow at the center.",
+  "publishedAt": "2026-09-27",
+  "readingMinutes": 8,
+  "keywords": {
+    "es": [
+      "quejas de pasajeros taxi app",
+      "cómo responder quejas de clientes transporte",
+      "gestión de quejas ride-hailing",
+      "clasificar quejas de pasajeros",
+      "compensación pasajero viaje",
+      "atención al cliente plataforma de movilidad"
+    ],
+    "en": [
+      "passenger complaints taxi app",
+      "how to respond to transport customer complaints",
+      "ride-hailing complaint management",
+      "classify passenger complaints",
+      "passenger trip compensation",
+      "mobility platform customer service"
+    ]
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Cada queja de un pasajero es una de dos cosas: un problema aislado que se resuelve con una respuesta, o el síntoma de algo que se va a repetir. La mayoría de los operadores regionales las tratan todas igual, contestan una por una y siguen adelante, y así pierden la información más barata que tienen sobre dónde está fallando su servicio.",
+        "en": "Every passenger complaint is one of two things: an isolated problem solved with a reply, or the symptom of something that will happen again. Most regional operators treat them all the same, answer one by one and move on, and in doing so they lose the cheapest information they have about where their service is failing."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Este artículo es para operadores de taxi por app y delivery que ya reciben quejas cada semana y quieren convertirlas en decisiones. Vamos a ver cómo clasificarlas, cuánto tardar en responder, qué hacer con el conductor involucrado, cuándo compensar y cómo revisar el conjunto cada mes para encontrar los patrones que una queja suelta nunca muestra.",
+        "en": "This article is for app-based taxi and delivery operators who already receive complaints every week and want to turn them into decisions. We will cover how to classify them, how fast to reply, what to do with the driver involved, when to compensate, and how to review the whole set each month to find the patterns a single complaint never shows."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "queja-como-dato",
+      "text": {
+        "es": "Por qué una queja vale más como dato que como caso",
+        "en": "Why a complaint is worth more as data than as a case"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Por cada pasajero que se queja, hay varios que tuvieron la misma experiencia y simplemente dejaron de pedir viajes. Eso convierte a quien escribe en una muestra de un problema más grande: te está contando algo que otros ya decidieron no contarte. Si la queja se cierra con una disculpa y nada más, esa información se pierde junto con los pasajeros que no escribieron.",
+        "en": "For every passenger who complains, there are several who had the same experience and simply stopped requesting trips. That turns whoever writes into a sample of a bigger problem: they are telling you something others already decided not to tell you. If the complaint is closed with an apology and nothing else, that information is lost along with the passengers who never wrote."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La diferencia entre un operador que mejora y uno que se estanca rara vez está en cuántas quejas recibe. Está en si alguien las lee juntas. Una queja sobre un cobro inesperado es un caso; doce quejas sobre cobros inesperados en el mismo mes, todas en viajes con parada, son una regla de tarifa mal explicada que se puede corregir en una tarde.",
+        "en": "The difference between an operator that improves and one that stagnates is rarely how many complaints it receives. It is whether anyone reads them together. One complaint about an unexpected charge is a case; twelve complaints about unexpected charges in the same month, all on trips with a stop, are a poorly explained fare rule that can be fixed in an afternoon."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Por eso conviene que las quejas lleguen a un solo lugar. Si unas entran por WhatsApp, otras por redes sociales y otras se las cuentan los conductores de palabra, nadie tiene la foto completa. Definir un canal principal, anunciarlo dentro de la app y registrar ahí también lo que llega por otros medios es el primer paso para poder contarlas.",
+        "en": "That is why complaints should reach a single place. If some come in through WhatsApp, others through social media and others are told verbally by drivers, nobody has the full picture. Defining one main channel, announcing it inside the app and also recording there what arrives through other means is the first step to being able to count them."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "clasificar-quejas",
+      "text": {
+        "es": "Cómo clasificar las quejas: cinco categorías bastan",
+        "en": "How to classify complaints: five categories are enough"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La clasificación sirve para contar, no para archivar. Si tienes veinte categorías, nadie las usa bien y los recuentos no dicen nada. Con cinco se cubre casi todo lo que llega a una operación regional:",
+        "en": "Classification exists for counting, not filing. With twenty categories nobody uses them properly and the counts say nothing. Five cover almost everything that reaches a regional operation:"
+      }
+    },
+    {
+      "type": "list",
+      "style": "bullet",
+      "items": {
+        "es": [
+          "Cobro: el precio final no coincide con lo que el pasajero esperaba.",
+          "Espera: el conductor tardó más de lo estimado o nunca llegó.",
+          "Conducta: trato, lenguaje, manejo o limpieza del vehículo.",
+          "Ruta: el trayecto fue más largo o distinto del razonable.",
+          "App: algo en la aplicación falló o no se entendió."
+        ],
+        "en": [
+          "Charge: the final price does not match what the passenger expected.",
+          "Wait: the driver took longer than estimated or never arrived.",
+          "Conduct: manners, language, driving or vehicle cleanliness.",
+          "Route: the trip was longer or different from what was reasonable.",
+          "App: something in the application failed or was not understood."
+        ]
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Registra también, en cada queja, el identificador del viaje, la zona y la hora. Sin esos tres datos no hay forma de cruzar después las quejas con lo que realmente pasó en el viaje, y la revisión mensual se convierte en una lectura de opiniones en lugar de un diagnóstico.",
+        "en": "For every complaint, also record the trip ID, the zone and the time. Without those three fields there is no way to later match complaints against what actually happened on the trip, and the monthly review becomes a reading of opinions instead of a diagnosis."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Cuando una queja cae en dos categorías, elige la que describe la causa y no el síntoma. Un pasajero que se molesta porque pagó de más tras un desvío tiene una queja de ruta, no de cobro: el precio es la consecuencia. Esa disciplina es la que hace que los recuentos apunten al lugar correcto.",
+        "en": "When a complaint fits two categories, pick the one describing the cause, not the symptom. A passenger upset about overpaying after a detour has a route complaint, not a charge complaint: the price is the consequence. That discipline is what makes the counts point to the right place."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "tiempo-de-respuesta",
+      "text": {
+        "es": "Cuánto tardar en responder y qué decir",
+        "en": "How fast to reply and what to say"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Lo que más enoja a un pasajero no es el problema original, sino sentir que nadie lo leyó. Una primera respuesta en las primeras horas, aunque todavía no tengas la solución, cambia el tono de toda la conversación. Esa respuesta debe hacer tres cosas: confirmar que entendiste qué pasó, decir qué vas a revisar y decir cuándo vuelves con una respuesta.",
+        "en": "What angers a passenger most is not the original problem but feeling that nobody read it. A first reply within the first few hours, even before you have the solution, changes the tone of the whole conversation. That reply should do three things: confirm you understood what happened, say what you will review, and say when you will come back with an answer."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Evita dos errores frecuentes. El primero es responder con una plantilla genérica que no menciona nada del viaje: el pasajero nota que no se leyó su mensaje. El segundo es prometer una causa antes de revisarla. Si dices que fue culpa del conductor y luego el registro del viaje muestra otra cosa, has convertido una queja en una disputa.",
+        "en": "Avoid two common mistakes. The first is replying with a generic template that mentions nothing about the trip: the passenger notices their message was not read. The second is promising a cause before reviewing it. If you say it was the driver's fault and the trip record later shows something else, you have turned a complaint into a dispute."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Cierra cada queja con un mensaje final que diga qué se hizo, aunque la respuesta sea que no hubo error. Un pasajero que recibe la explicación de por qué su viaje costó lo que costó, con la ruta y la duración reales, suele quedarse; uno que no recibe nada después de la primera respuesta asume que su queja se archivó y se lleva esa impresión a su próxima decisión.",
+        "en": "Close every complaint with a final message saying what was done, even when the answer is that there was no error. A passenger who receives an explanation of why their trip cost what it did, with the actual route and duration, usually stays; one who hears nothing after the first reply assumes their complaint was filed away and carries that impression into their next decision."
+      }
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "text": {
+        "es": "Antes de responder una queja de cobro, abre el registro del viaje y compara la ruta, la duración y el precio estimado con el final. La mayoría de estas quejas se aclaran con esa comparación, y el pasajero agradece una explicación con datos de su propio viaje.",
+        "en": "Before replying to a charge complaint, open the trip record and compare the route, duration and estimated price with the final one. Most of these complaints are cleared up with that comparison, and passengers appreciate an explanation based on data from their own trip."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "conductor-involucrado",
+      "text": {
+        "es": "Qué hacer con el conductor involucrado",
+        "en": "What to do with the driver involved"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Una queja no es una condena. Antes de hablar con el conductor, revisa si es la primera vez o si hay un historial. Una queja aislada sobre un conductor con meses de buen servicio se maneja con una conversación breve y la versión de él; tres quejas de conducta en un mes sobre el mismo conductor son otra cosa y requieren una decisión.",
+        "en": "A complaint is not a verdict. Before talking to the driver, check whether it is the first time or whether there is a history. A single complaint about a driver with months of good service is handled with a brief conversation and their side of the story; three conduct complaints in one month about the same driver are something else and require a decision."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Escucha siempre la versión del conductor antes de concluir. Muchas quejas de ruta tienen una explicación razonable, como una calle cerrada o una indicación del propio pasajero, y un conductor que siente que la plataforma le cree al pasajero sin preguntar es un conductor que empieza a buscar otra plataforma. La meta es corregir conductas, no perder conductores por un malentendido.",
+        "en": "Always hear the driver's side before concluding. Many route complaints have a reasonable explanation, such as a closed street or an instruction from the passenger themselves, and a driver who feels the platform believes the passenger without asking is a driver who starts looking for another platform. The goal is to correct behavior, not to lose drivers over a misunderstanding."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Deja por escrito qué conductas llevan a una advertencia, cuáles a una suspensión temporal y cuáles a la baja, y compártelo con los conductores desde su primera semana. Cuando las consecuencias son conocidas de antemano, la conversación después de una queja deja de sentirse como algo personal y se convierte en la aplicación de una regla que todos aceptaron al entrar.",
+        "en": "Put in writing which behaviors lead to a warning, which to a temporary suspension and which to removal, and share it with drivers from their first week. When consequences are known in advance, the conversation after a complaint stops feeling personal and becomes the application of a rule everyone accepted when they joined."
+      }
+    },
+    {
+      "type": "quote",
+      "text": {
+        "es": "Durante meses contestamos cada queja por separado y sentíamos que siempre eran distintas. Cuando empezamos a clasificarlas, vimos que casi un tercio eran de cobro en viajes con parada. Explicamos mejor esa regla en la app y en dos meses esas quejas prácticamente desaparecieron. No cambiamos la tarifa; cambiamos cómo la contábamos.",
+        "en": "For months we answered each complaint separately and felt they were always different. When we started classifying them, we saw almost a third were charge complaints on trips with a stop. We explained that rule better in the app and within two months those complaints practically disappeared. We didn't change the fare; we changed how we explained it."
+      },
+      "attribution": {
+        "es": "Operadora de taxi por app con 16 meses de operación en una ciudad de 190,000 habitantes en Sinaloa, México",
+        "en": "App-based taxi operator with 16 months of operation in a city of 190,000 in Sinaloa, Mexico"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "cuando-compensar",
+      "text": {
+        "es": "Cuándo compensar al pasajero y cuándo no",
+        "en": "When to compensate the passenger and when not to"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La compensación funciona cuando el error es claramente de la operación y el pasajero perdió algo concreto: pagó de más por un desvío, esperó mucho más de lo estimado o el viaje no se completó. En esos casos, un crédito para su próximo viaje suele recuperar la relación mejor que cualquier disculpa, porque le da una razón para volver a pedir.",
+        "en": "Compensation works when the error is clearly the operation's and the passenger lost something concrete: they overpaid due to a detour, waited much longer than estimated or the trip was not completed. In those cases, a credit for their next trip usually recovers the relationship better than any apology, because it gives them a reason to request again."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Donde no conviene compensar por reflejo es en las quejas de expectativa: el pasajero esperaba un precio distinto sin que hubiera error, o la espera estuvo dentro de lo estimado. Compensar ahí enseña que quejarse tiene premio y no corrige nada. Lo que sí corrige es explicar la regla con claridad, y revisar si la app la muestra antes de confirmar el viaje.",
+        "en": "Where you should not compensate by reflex is on expectation complaints: the passenger expected a different price without any error, or the wait was within the estimate. Compensating there teaches that complaining pays off and fixes nothing. What does fix it is explaining the rule clearly, and checking whether the app shows it before the trip is confirmed."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Define también un tope y un formato: un crédito de valor fijo, aplicado al siguiente viaje y con una vigencia corta, es más fácil de administrar que devoluciones caso por caso y deja registro de cuántas compensaciones se dieron cada mes.",
+        "en": "Also set a cap and a format: a fixed-value credit, applied to the next trip and with a short validity, is easier to manage than case-by-case refunds and leaves a record of how many compensations were given each month."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "revision-mensual",
+      "text": {
+        "es": "La revisión mensual: dónde aparecen los patrones",
+        "en": "The monthly review: where the patterns show up"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Una vez al mes, junta todas las quejas del periodo y cuéntalas por categoría, por zona, por hora y por conductor. No hace falta un sistema sofisticado: una hoja con esas columnas basta para que aparezcan las concentraciones. Presta atención especial a estas señales:",
+        "en": "Once a month, gather all complaints for the period and count them by category, zone, hour and driver. No sophisticated system is needed: a sheet with those columns is enough for concentrations to appear. Pay special attention to these signals:"
+      }
+    },
+    {
+      "type": "list",
+      "style": "number",
+      "items": {
+        "es": [
+          "Una categoría que crece mes a mes sin que haya cambiado nada en la operación.",
+          "Varias quejas de espera concentradas en la misma zona y franja horaria.",
+          "Un mismo conductor con quejas repetidas de conducta.",
+          "Quejas de cobro concentradas en un tipo de viaje, como los que tienen parada.",
+          "Quejas de app que aparecen justo después de una actualización."
+        ],
+        "en": [
+          "A category that grows month over month without anything changing in the operation.",
+          "Several wait complaints concentrated in the same zone and time slot.",
+          "The same driver with repeated conduct complaints.",
+          "Charge complaints concentrated on one trip type, such as those with a stop.",
+          "App complaints that appear right after an update."
+        ]
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Cada patrón que encuentres debe terminar en una acción con responsable y fecha: ajustar la cobertura de una zona, hablar con un conductor, explicar mejor una regla o revisar un cambio en la app. Si la revisión no produce acciones, es solo lectura, y al mes siguiente las mismas quejas volverán a aparecer en la misma hoja.",
+        "en": "Every pattern you find should end in an action with an owner and a date: adjust coverage in a zone, talk to a driver, explain a rule better or review a change in the app. If the review produces no actions, it is just reading, and next month the same complaints will show up again on the same sheet."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "quejas-como-ventaja",
+      "text": {
+        "es": "Convertir las quejas en una ventaja",
+        "en": "Turning complaints into an advantage"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Compara siempre el recuento con el volumen de viajes del mismo periodo. Diez quejas de espera en un mes con el doble de viajes que el anterior pueden ser una mejora, no un empeoramiento. Mirar la tasa de quejas por cada cien viajes, y no el número total, evita reaccionar a un crecimiento sano como si fuera un problema.",
+        "en": "Always compare the count with the trip volume for the same period. Ten wait complaints in a month with twice as many trips as the previous one may be an improvement, not a decline. Looking at the rate of complaints per hundred trips, rather than the total, avoids reacting to healthy growth as if it were a problem."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Una operación regional compite en confianza más que en precio. Un pasajero que se quejó y recibió una respuesta rápida, con datos de su propio viaje y una solución concreta, suele confiar más en la plataforma que uno que nunca tuvo un problema. Las quejas bien atendidas son una de las pocas oportunidades de demostrar esa confianza en lugar de solo prometerla.",
+        "en": "A regional operation competes on trust more than on price. A passenger who complained and received a fast reply, with data from their own trip and a concrete solution, often trusts the platform more than one who never had a problem. Well-handled complaints are one of the few chances to demonstrate that trust instead of just promising it."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Empieza por lo más simple: clasifica las quejas de este mes en las cinco categorías y cuéntalas. Esa sola tabla te dirá dónde está el problema que más pasajeros te está costando, y probablemente no sea el que imaginabas.",
+        "en": "Start with the simplest step: classify this month's complaints into the five categories and count them. That single table will tell you where the problem costing you the most passengers is, and it is probably not the one you imagined."
+      }
+    }
+  ],
+  "cta": {
+    "heading": {
+      "es": "¿Listo para lanzar tu propia app de movilidad?",
+      "en": "Ready to launch your own mobility app?"
+    },
+    "body": {
+      "es": "Configura tu marca, tus tarifas y tus servicios en semanas, no en meses. Cabgo te entrega la plataforma; tú te quedas con la operación, los clientes y los ingresos.",
+      "en": "Set up your brand, pricing and services in weeks, not months. Cabgo ships the platform — you keep the operation, the customers and the revenue."
+    },
+    "buttonLabel": {
+      "es": "Comenzar con Cabgo",
+      "en": "Get started with Cabgo"
+    },
+    "buttonHref": "/empezar"
+  },
+  "seo": {
+    "metaTitle": {
+      "es": "Quejas de pasajeros en taxi por app | Cabgo",
+      "en": "Handling passenger complaints in ride-hailing | Cabgo"
+    },
+    "metaDescription": {
+      "es": "Cómo clasificar las quejas de pasajeros en cinco categorías, responder a tiempo, tratar al conductor, compensar con criterio y encontrar patrones cada mes.",
+      "en": "How to classify passenger complaints into five categories, reply on time, handle the driver, compensate wisely and find patterns in a monthly review."
+    }
+  },
+  "author": {
+    "name": "Equipo Cabgo",
+    "role": {
+      "es": "Plataforma de movilidad",
+      "en": "Mobility platform"
+    }
+  }
+}
