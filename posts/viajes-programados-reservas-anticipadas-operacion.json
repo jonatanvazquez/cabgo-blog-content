@@ -1,0 +1,355 @@
+{
+  "slug": "viajes-programados-reservas-anticipadas-operacion",
+  "category": "strategy",
+  "title": {
+    "es": "Viajes programados: cómo operar reservas anticipadas sin plantones",
+    "en": "Scheduled trips: how to run advance bookings without no-shows"
+  },
+  "excerpt": {
+    "es": "Un viaje programado es la promesa más fácil de hacer y la más cara de romper. Cómo asignar, confirmar, cubrir cancelaciones, cobrar y medir las reservas anticipadas.",
+    "en": "A scheduled trip is the easiest promise to make and the most expensive to break. How to assign, confirm, cover cancellations, price and measure advance bookings."
+  },
+  "heroImage": "https://raw.githubusercontent.com/jonatanvazquez/cabgo-blog-content/main/images/viajes-programados-reservas-anticipadas-operacion.jpg",
+  "heroImageAlt": {
+    "es": "Ilustración isométrica de un calendario con una reserva marcada, un reloj de madrugada y un auto de plataforma esperando junto a una terminal.",
+    "en": "Isometric illustration of a calendar with a marked booking, an early-morning clock and a ride-hailing car waiting next to a terminal."
+  },
+  "heroImagePrompt": "Isometric night scene on a deep violet floor grid: a large floating calendar card with one day highlighted by a glowing amber check mark, a round alarm clock showing early morning hours with a soft teal glow, a compact ride-hailing car parked in front of a small airport terminal building with a lit entrance, and a thin glowing dotted route connecting the calendar to the car. Soft indigo radial glow at the center.",
+  "publishedAt": "2026-09-28",
+  "readingMinutes": 8,
+  "keywords": {
+    "es": [
+      "viajes programados taxi app",
+      "reservas anticipadas taxi",
+      "cómo operar reservas de viaje",
+      "taxi programado aeropuerto",
+      "confirmación de conductor reserva",
+      "cargo por reserva taxi"
+    ],
+    "en": [
+      "scheduled trips taxi app",
+      "advance taxi bookings",
+      "how to run trip bookings",
+      "scheduled airport taxi",
+      "driver booking confirmation",
+      "taxi booking fee"
+    ]
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Un viaje programado es la promesa más fácil de hacer y la más cara de romper. El pasajero que reserva a las cinco de la mañana para ir al aeropuerto no está comparando precios: está confiando en que alguien va a llegar. Si ese viaje falla, no pierdes un viaje, pierdes al pasajero, y probablemente a quien le cuente lo que pasó.",
+        "en": "A scheduled trip is the easiest promise to make and the most expensive to break. A passenger who books at five in the morning to go to the airport is not comparing prices: they are trusting that someone will show up. If that trip fails, you don't lose a trip, you lose the passenger, and probably whoever they tell about it."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Este artículo es para operadores de taxi por app en ciudades regionales que ya reciben reservas anticipadas o quieren empezar a ofrecerlas. Vamos a ver qué tipo de demanda llega por esta vía, cómo asignar y confirmar al conductor, qué hacer cuando alguien falla a última hora, cómo cobrar y cómo medir si el servicio está funcionando.",
+        "en": "This article is for app-based taxi operators in regional cities who already receive advance bookings or want to start offering them. We will cover what kind of demand arrives this way, how to assign and confirm the driver, what to do when someone drops out at the last minute, how to charge and how to measure whether the service is working."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "demanda-programada",
+      "text": {
+        "es": "Qué tipo de demanda llega por reserva",
+        "en": "What kind of demand arrives through bookings"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La demanda programada no se parece a la inmediata. Se concentra en momentos que el pasajero conoce con anticipación y en los que no puede permitirse esperar: salidas al aeropuerto o a la terminal de autobuses, citas médicas, turnos de trabajo muy temprano y regresos de eventos. Son viajes con un reloj detrás, y por eso el pasajero está dispuesto a planearlos.",
+        "en": "Scheduled demand does not look like on-demand demand. It concentrates on moments the passenger knows in advance and when they cannot afford to wait: trips to the airport or bus terminal, medical appointments, very early work shifts and returns from events. These are trips with a clock behind them, which is why the passenger is willing to plan them."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "También suelen ser viajes más largos y en horarios de poca oferta. Una reserva a las cuatro de la mañana cae justo cuando menos conductores están conectados, lo que la hace más valiosa para el pasajero y más difícil para la operación. Tratarla igual que un viaje inmediato, esperando que alguien la tome en el último minuto, es la forma más rápida de fallar.",
+        "en": "They also tend to be longer trips at low-supply hours. A booking at four in the morning falls exactly when the fewest drivers are online, which makes it more valuable to the passenger and harder for the operation. Treating it like an on-demand trip, hoping someone picks it up at the last minute, is the fastest way to fail."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Revisa tus viajes de los últimos meses y separa los que ocurren en esas franjas: madrugada, primeras horas de la mañana y horarios de salida de vuelos o autobuses. Esa es, aproximadamente, la demanda que podrías estar convirtiendo en reservas en lugar de dejarla a la suerte de quién está conectado en ese momento.",
+        "en": "Review your trips from the last few months and separate out those that happen in those windows: early morning, first hours of the day and departure times for flights or buses. That is roughly the demand you could be turning into bookings instead of leaving it to the luck of who happens to be online at that moment."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "No hace falta anunciar las reservas como un servicio nuevo desde el primer día. Empieza ofreciéndolas a los pasajeros que ya piden viajes de madrugada o al aeropuerto con frecuencia, y amplía cuando la confirmación y el respaldo funcionen sin sobresaltos.",
+        "en": "There is no need to announce bookings as a new service from day one. Start by offering them to passengers who already frequently request early-morning or airport trips, and expand once confirmation and backup run smoothly."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "asignar-conductor",
+      "text": {
+        "es": "Cómo asignar el conductor de una reserva",
+        "en": "How to assign the driver for a booking"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La decisión más importante es cuándo se asigna el conductor. Asignarlo con mucha anticipación da tranquilidad al pasajero, pero aumenta el riesgo de que al conductor le surja otra cosa. Asignarlo muy tarde reduce ese riesgo, pero deja poco margen si nadie acepta. Para la mayoría de las operaciones regionales funciona un punto medio con estas reglas:",
+        "en": "The most important decision is when the driver is assigned. Assigning far in advance reassures the passenger but raises the risk that something else comes up for the driver. Assigning too late reduces that risk but leaves little margin if nobody accepts. For most regional operations a middle ground works, with these rules:"
+      }
+    },
+    {
+      "type": "list",
+      "style": "number",
+      "items": {
+        "es": [
+          "Asigna la reserva el día anterior o con varias horas de anticipación.",
+          "Prioriza conductores con buen historial de puntualidad y pocas cancelaciones.",
+          "Confirma con el conductor una hora antes de la salida.",
+          "Ten un conductor de respaldo identificado para las reservas de madrugada.",
+          "Avisa al pasajero cuando el conductor ya va en camino."
+        ],
+        "en": [
+          "Assign the booking the day before or several hours in advance.",
+          "Prioritize drivers with a good punctuality record and few cancellations.",
+          "Confirm with the driver one hour before departure.",
+          "Have an identified backup driver for early-morning bookings.",
+          "Notify the passenger when the driver is on the way."
+        ]
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El conductor de respaldo no tiene que estar esperando sin hacer nada: basta con saber quién suele estar conectado a esa hora y tener un acuerdo previo para que tome la reserva si el asignado falla. Lo que no funciona es descubrir a las cuatro de la mañana que no hay nadie a quien llamar.",
+        "en": "The backup driver does not have to sit waiting idle: it is enough to know who is usually online at that hour and have a prior agreement for them to take the booking if the assigned driver drops out. What does not work is discovering at four in the morning that there is nobody to call."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Conviene que el grupo de conductores que toma reservas sea pequeño y conocido. No todos los conductores de la flota tienen que poder aceptarlas: basta con los que han demostrado puntualidad durante varias semanas. Esa selección convierte la reserva en un reconocimiento y hace que quien la toma la cuide más que un viaje cualquiera.",
+        "en": "It helps if the group of drivers who take bookings is small and known. Not every driver in the fleet needs to be able to accept them: those who have shown punctuality for several weeks are enough. That selection turns the booking into a recognition and makes whoever takes it care for it more than an ordinary trip."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "confirmacion",
+      "text": {
+        "es": "La confirmación: el paso que más reservas salva",
+        "en": "Confirmation: the step that saves the most bookings"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La mayoría de los viajes programados que fallan no fallan por falta de conductores, sino por falta de confirmación. El conductor aceptó la reserva el día anterior, se le olvidó, se quedó dormido o tomó otro viaje largo que lo dejó lejos. Una confirmación una hora antes convierte ese problema invisible en uno que todavía tiene solución.",
+        "en": "Most scheduled trips that fail do not fail for lack of drivers but for lack of confirmation. The driver accepted the booking the day before, forgot, overslept or took another long trip that left them far away. A confirmation one hour before turns that invisible problem into one that can still be solved."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Haz que la confirmación sea explícita: no basta con que el viaje siga asignado, el conductor tiene que decir que va. Si no responde en un plazo corto, la reserva pasa al respaldo sin esperar a la hora de salida. Esa regla sola evita la mayoría de los plantones, y el pasajero nunca se entera de que hubo un cambio.",
+        "en": "Make confirmation explicit: it is not enough for the trip to remain assigned, the driver has to say they are going. If they do not respond within a short window, the booking goes to the backup without waiting for departure time. That rule alone prevents most no-shows, and the passenger never finds out there was a change."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Del lado del pasajero, un recordatorio la noche anterior y un aviso cuando el conductor sale reducen las llamadas de «¿sí va a venir?» y los plantones del propio pasajero. Quien recibe un recordatorio y no lo cancela está confirmando, sin decirlo, que sigue necesitando el viaje.",
+        "en": "On the passenger side, a reminder the night before and a notice when the driver sets off reduce the \"is someone coming?\" calls and the passenger's own no-shows. A passenger who receives a reminder and doesn't cancel is confirming, without saying so, that they still need the trip."
+      }
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "text": {
+        "es": "Revisa cada noche las reservas de la madrugada siguiente y confirma que cada una tiene conductor asignado y un respaldo. Son pocas reservas y cinco minutos de revisión, pero son justo las que más daño hacen si fallan.",
+        "en": "Every night, review the next early-morning bookings and confirm that each one has an assigned driver and a backup. They are few bookings and five minutes of review, but they are exactly the ones that do the most damage if they fail."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "cancelaciones-ultima-hora",
+      "text": {
+        "es": "Qué hacer cuando alguien falla a última hora",
+        "en": "What to do when someone drops out at the last minute"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Aun con buenas reglas, habrá cancelaciones de último momento, de un lado o del otro. Cuando el que falla es el conductor, lo primero es el pasajero: reasignar de inmediato, avisarle con un tiempo estimado realista y, si el retraso le cuesta algo, compensarlo. Después, y no antes, se revisa con el conductor qué pasó.",
+        "en": "Even with good rules, there will be last-minute cancellations on one side or the other. When the driver is the one who drops out, the passenger comes first: reassign immediately, notify them with a realistic estimated time and, if the delay costs them something, compensate them. Afterwards, not before, review with the driver what happened."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Cuando el que cancela tarde es el pasajero, el costo lo absorbe un conductor que reservó su tiempo, a veces a una hora en la que no habría estado conectado. Define una regla clara de cancelación para reservas, comunícala antes de confirmar y aplícala con consistencia. Un conductor que pierde su madrugada sin compensación no vuelve a aceptar una reserva.",
+        "en": "When the passenger is the one who cancels late, the cost falls on a driver who reserved their time, sometimes at an hour they would not otherwise have been online. Define a clear cancellation rule for bookings, communicate it before confirming and apply it consistently. A driver who loses their early morning without compensation will not accept another booking."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Lleva un registro de los conductores que fallan una reserva confirmada. Una falla aislada tiene explicación; dos en un mes significan que ese conductor no debería seguir tomando reservas por un tiempo, aunque siga siendo bueno en los viajes inmediatos. Separar las dos cosas evita perder a un buen conductor y, al mismo tiempo, protege la promesa más delicada de tu operación.",
+        "en": "Keep a record of drivers who miss a confirmed booking. A single miss has an explanation; two in a month mean that driver should stop taking bookings for a while, even if they remain good at on-demand trips. Separating the two avoids losing a good driver while protecting the most delicate promise of your operation."
+      }
+    },
+    {
+      "type": "quote",
+      "text": {
+        "es": "Al principio aceptábamos reservas como cualquier otro viaje y rezábamos para que alguien estuviera despierto. Perdimos a dos clientes que iban al aeropuerto en la misma semana. Desde que confirmamos una hora antes y siempre tenemos un conductor de respaldo, no se nos ha caído ninguna, y las reservas se volvieron el viaje mejor pagado de la semana.",
+        "en": "At first we accepted bookings like any other trip and prayed someone would be awake. We lost two customers heading to the airport in the same week. Since we started confirming one hour before and always having a backup driver, we haven't dropped a single one, and bookings became the best-paid trip of the week."
+      },
+      "attribution": {
+        "es": "Operador de taxi por app con 14 meses de operación en una ciudad de 240,000 habitantes en Veracruz, México",
+        "en": "App-based taxi operator with 14 months of operation in a city of 240,000 in Veracruz, Mexico"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "precio-reserva",
+      "text": {
+        "es": "Cómo cobrar un viaje programado",
+        "en": "How to price a scheduled trip"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Un viaje programado tiene un costo real distinto al inmediato: el conductor reserva su tiempo, a veces se desplaza de madrugada y renuncia a otros viajes para cumplir. Muchas operaciones cobran por eso un cargo fijo de reserva además de la tarifa normal, y los pasajeros lo aceptan porque lo que compran es la certeza de que alguien llegará.",
+        "en": "A scheduled trip has a real cost different from an on-demand one: the driver reserves their time, sometimes travels in the early morning and gives up other trips to deliver. Many operations charge a fixed booking fee on top of the normal fare for this, and passengers accept it because what they are buying is the certainty that someone will show up."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Lo que conviene evitar es aplicar el recargo por demanda a una reserva hecha con días de anticipación. El pasajero ve el precio al reservar y espera pagar eso; si el precio final cambia porque justo a esa hora hubo alta demanda, la reserva pierde su principal ventaja. Muestra el precio estimado al confirmar y respétalo.",
+        "en": "What you should avoid is applying demand surcharges to a booking made days in advance. The passenger sees the price when booking and expects to pay that; if the final price changes because demand happened to be high at that hour, the booking loses its main advantage. Show the estimated price at confirmation and honor it."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Una parte del cargo de reserva debería llegar al conductor. Es lo que hace que aceptar una reserva de madrugada tenga sentido para él, y sin ese incentivo las reservas terminan en manos de quien menos opciones tiene, que no siempre es el más puntual.",
+        "en": "Part of the booking fee should go to the driver. It is what makes accepting an early-morning booking worthwhile for them, and without that incentive bookings end up with whoever has the fewest options, who is not always the most punctual."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "medir-reservas",
+      "text": {
+        "es": "Cómo medir si las reservas funcionan",
+        "en": "How to measure whether bookings are working"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Las reservas son pocas comparadas con los viajes inmediatos, así que es fácil no mirarlas. Pero precisamente porque cada una pesa tanto en la confianza del pasajero, conviene seguir unos pocos indicadores cada semana:",
+        "en": "Bookings are few compared to on-demand trips, so it is easy not to look at them. But precisely because each one weighs so much on passenger trust, it is worth tracking a few indicators every week:"
+      }
+    },
+    {
+      "type": "list",
+      "style": "bullet",
+      "items": {
+        "es": [
+          "Porcentaje de reservas completadas sin reasignación.",
+          "Reservas que necesitaron conductor de respaldo.",
+          "Minutos de retraso promedio respecto a la hora pactada.",
+          "Cancelaciones tardías por parte del pasajero.",
+          "Pasajeros que vuelven a reservar en el mes siguiente."
+        ],
+        "en": [
+          "Percentage of bookings completed without reassignment.",
+          "Bookings that needed a backup driver.",
+          "Average minutes of delay versus the agreed time.",
+          "Late cancellations by the passenger.",
+          "Passengers who book again the following month."
+        ]
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Si las reasignaciones crecen, el problema está en quién aceptas como conductor de reservas o en la confirmación. Si los retrasos crecen, revisa en qué zonas ocurren y si la hora de asignación deja margen suficiente para llegar. Y si los pasajeros no vuelven a reservar, la experiencia no está cumpliendo lo que prometiste, aunque los números de puntualidad se vean bien.",
+        "en": "If reassignments grow, the problem lies in whom you accept as booking drivers or in confirmation. If delays grow, check which zones they happen in and whether the assignment time leaves enough margin to arrive. And if passengers don't book again, the experience is not delivering what you promised, even if punctuality numbers look good."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "reservas-como-ventaja",
+      "text": {
+        "es": "Las reservas como ventaja frente a las apps de terceros",
+        "en": "Bookings as an advantage over third-party apps"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Mira también cuántas reservas rechazas o no llegas a asignar. Si en ciertas franjas no hay forma de cubrirlas, es mejor limitar temporalmente las reservas en esas horas que aceptar viajes que no vas a poder cumplir. Decir que no a tiempo cuesta mucho menos que fallar a la hora pactada.",
+        "en": "Also look at how many bookings you reject or fail to assign. If certain windows cannot be covered, it is better to temporarily limit bookings at those hours than to accept trips you cannot deliver. Saying no in time costs much less than failing at the agreed hour."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Las reservas son uno de los pocos servicios donde un operador regional puede ser claramente mejor que una app de terceros. Conoces a tus conductores, sabes quién es puntual y puedes garantizar algo que una plataforma impersonal no promete: que alguien concreto llegará a una hora concreta. Esa garantía, cumplida siempre, construye clientes que no vuelven a pensar en otra opción.",
+        "en": "Bookings are one of the few services where a regional operator can be clearly better than a third-party app. You know your drivers, you know who is punctual and you can guarantee something an impersonal platform does not promise: that a specific person will arrive at a specific time. That guarantee, always kept, builds customers who never think about another option again."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Empieza con lo básico: define quién puede tomar reservas, confirma siempre una hora antes y ten un respaldo para la madrugada. Con esas tres reglas, las reservas dejan de ser el viaje que más miedo da y se convierten en el que más confianza genera.",
+        "en": "Start with the basics: define who can take bookings, always confirm one hour before and have a backup for early mornings. With those three rules, bookings stop being the trip you fear most and become the one that builds the most trust."
+      }
+    }
+  ],
+  "cta": {
+    "heading": {
+      "es": "¿Listo para lanzar tu propia app de movilidad?",
+      "en": "Ready to launch your own mobility app?"
+    },
+    "body": {
+      "es": "Configura tu marca, tus tarifas y tus servicios en semanas, no en meses. Cabgo te entrega la plataforma; tú te quedas con la operación, los clientes y los ingresos.",
+      "en": "Set up your brand, pricing and services in weeks, not months. Cabgo ships the platform — you keep the operation, the customers and the revenue."
+    },
+    "buttonLabel": {
+      "es": "Comenzar con Cabgo",
+      "en": "Get started with Cabgo"
+    },
+    "buttonHref": "/empezar"
+  },
+  "seo": {
+    "metaTitle": {
+      "es": "Viajes programados en taxi por app | Cabgo",
+      "en": "Scheduled trips in ride-hailing | Cabgo"
+    },
+    "metaDescription": {
+      "es": "Cómo asignar, confirmar y cobrar viajes programados, cubrir cancelaciones de última hora y medir si las reservas anticipadas funcionan en tu operación.",
+      "en": "How to assign, confirm and price scheduled trips, cover last-minute cancellations and measure whether advance bookings work in your operation."
+    }
+  },
+  "author": {
+    "name": "Equipo Cabgo",
+    "role": {
+      "es": "Plataforma de movilidad",
+      "en": "Mobility platform"
+    }
+  }
+}
