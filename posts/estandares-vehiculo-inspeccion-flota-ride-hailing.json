@@ -1,0 +1,321 @@
+{
+  "slug": "estandares-vehiculo-inspeccion-flota-ride-hailing",
+  "category": "strategy",
+  "title": {
+    "es": "Estándares de vehículo: cómo revisar tu flota sin burocracia",
+    "en": "Vehicle standards: how to check your fleet without red tape"
+  },
+  "excerpt": {
+    "es": "El pasajero no ve tu tarifa ni tus reglas: ve el auto que llega. Qué exigir al dar de alta un vehículo, cómo revisarlo después y qué hacer cuando deja de cumplir.",
+    "en": "The passenger doesn't see your fare or your rules: they see the car that arrives. What to require at registration, how to check it later and what to do when it falls short."
+  },
+  "heroImage": "https://raw.githubusercontent.com/jonatanvazquez/cabgo-blog-content/main/images/estandares-vehiculo-inspeccion-flota-ride-hailing.jpg",
+  "heroImageAlt": {
+    "es": "Ilustración isométrica de un auto de plataforma sobre una rampa de revisión, con una lista de verificación y una cámara de teléfono tomando fotos.",
+    "en": "Isometric illustration of a ride-hailing car on an inspection ramp, with a checklist and a phone camera taking photos."
+  },
+  "heroImagePrompt": "Isometric scene on a deep violet floor grid: a compact ride-hailing car raised on a small inspection ramp with soft teal highlights on its tires, a large floating clipboard checklist with three glowing amber check marks, a smartphone on a stand with its camera pointed at the car and a subtle photo frame outline, and a small wrench and tire resting beside the ramp. Soft indigo radial glow at the center.",
+  "publishedAt": "2026-09-29",
+  "readingMinutes": 8,
+  "keywords": {
+    "es": [
+      "estándar de vehículo taxi app",
+      "revisión de vehículos flota",
+      "inspección de autos conductores",
+      "requisitos vehículo plataforma de taxi",
+      "calidad del vehículo ride hailing",
+      "mantenimiento flota taxi"
+    ],
+    "en": [
+      "taxi app vehicle standard",
+      "fleet vehicle checks",
+      "driver car inspection",
+      "ride-hailing vehicle requirements",
+      "vehicle quality ride hailing",
+      "taxi fleet maintenance"
+    ]
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El pasajero no ve tu tarifa, tu sistema de asignación ni tus reglas de operación. Ve el auto que llega. Si el asiento está roto, el aire acondicionado no funciona o la puerta no cierra bien, eso es tu marca para esa persona, sin importar lo bien que funcione todo lo demás. El estado del vehículo es la parte de la experiencia que más se nota y la que menos se gestiona en las operaciones regionales.",
+        "en": "The passenger doesn't see your fare, your dispatch system or your operating rules. They see the car that arrives. If the seat is torn, the air conditioning doesn't work or the door doesn't close properly, that is your brand for that person, no matter how well everything else works. Vehicle condition is the most visible part of the experience and the least managed one in regional operations."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Este artículo es para operadores de taxi por app y flotas establecidas que quieren poner un estándar mínimo de vehículo sin espantar a los conductores. Vamos a ver qué exigir al dar de alta un auto, cómo revisarlo después sin burocracia, qué hacer cuando un vehículo deja de cumplir, cómo tratar las quejas de los pasajeros sobre el auto y cómo usar el estándar como algo que suma y no sólo como un filtro.",
+        "en": "This article is for app-based taxi operators and established fleets who want to set a minimum vehicle standard without scaring drivers away. We will cover what to require when registering a car, how to check it afterwards without red tape, what to do when a vehicle stops meeting the standard, how to handle passenger complaints about the car and how to use the standard as something that adds value, not just a filter."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "por-que-importa",
+      "text": {
+        "es": "Por qué el estado del auto pesa tanto",
+        "en": "Why the car's condition matters so much"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Un pasajero perdona una espera un poco más larga o una ruta que no era la más corta. Lo que recuerda es cómo se sintió dentro del auto: si olía mal, si hacía calor, si el conductor tuvo que empujar la puerta para cerrarla. Esas impresiones son las que se comentan en la oficina y en el grupo familiar, y en una ciudad regional las opiniones viajan rápido y pesan más que cualquier anuncio.",
+        "en": "A passenger forgives a slightly longer wait or a route that wasn't the shortest. What they remember is how they felt inside the car: whether it smelled bad, whether it was hot, whether the driver had to push the door to close it. Those impressions are what get discussed at the office and in the family group chat, and in a regional city opinions travel fast and carry more weight than any ad."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Además, el estado del vehículo tiene consecuencias de seguridad. Frenos gastados, llantas lisas o luces que no encienden no son un tema de comodidad: son un riesgo para el pasajero, para el conductor y para tu operación si ocurre un accidente. Tener un estándar escrito y aplicarlo es también la forma de demostrar, si alguna vez hace falta, que tomaste en serio esa responsabilidad.",
+        "en": "Vehicle condition also has safety consequences. Worn brakes, bald tires or lights that don't turn on are not a comfort issue: they are a risk for the passenger, for the driver and for your operation if an accident happens. Having a written standard and applying it is also how you show, if it is ever needed, that you took that responsibility seriously."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Y hay un argumento de negocio directo: los autos en mejor estado reciben mejores calificaciones, y los conductores con mejores calificaciones retienen más pasajeros. El estándar de vehículo no es un costo aparte de la calidad del servicio, es una de sus bases.",
+        "en": "And there is a direct business argument: cars in better condition receive better ratings, and drivers with better ratings retain more passengers. The vehicle standard is not a cost separate from service quality, it is one of its foundations."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "estandar-minimo",
+      "text": {
+        "es": "Qué exigir al dar de alta un vehículo",
+        "en": "What to require when registering a vehicle"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El momento más barato para poner el estándar es el alta. Antes de que el conductor tome su primer viaje ya subió los datos y las fotos de su vehículo, así que es el punto natural para revisar que cumple. Un estándar mínimo razonable para la mayoría de las ciudades regionales incluye:",
+        "en": "The cheapest moment to set the standard is registration. Before the driver takes their first trip they have already uploaded their vehicle's details and photos, so it is the natural point to check that it meets the bar. A reasonable minimum standard for most regional cities includes:"
+      }
+    },
+    {
+      "type": "list",
+      "style": "bullet",
+      "items": {
+        "es": [
+          "Modelo con una antigüedad máxima definida por ti y conocida de antemano.",
+          "Fotos del exterior por los cuatro lados y del interior completo.",
+          "Placas y documentos del vehículo vigentes y legibles.",
+          "Aire acondicionado funcionando en ciudades de clima cálido.",
+          "Cinturones de seguridad en todos los asientos.",
+          "Interior limpio, sin roturas visibles en asientos ni puertas."
+        ],
+        "en": [
+          "A model no older than a maximum age you define and publish in advance.",
+          "Photos of the exterior from all four sides and of the full interior.",
+          "Current, legible plates and vehicle documents.",
+          "Working air conditioning in hot-climate cities.",
+          "Seat belts in every seat.",
+          "Clean interior, with no visible tears in seats or doors."
+        ]
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Lo importante no es que la lista sea larga, sino que sea clara y se aplique igual a todos. Publica el estándar antes de que el conductor empiece el registro, para que quien no cumple lo sepa desde el principio y no pierda tiempo. Un rechazo al final del proceso, sin aviso previo, genera más molestia que una regla exigente anunciada desde el inicio.",
+        "en": "What matters is not that the list is long, but that it is clear and applied equally to everyone. Publish the standard before the driver starts registering, so that anyone who doesn't meet it knows from the start and doesn't waste time. A rejection at the end of the process, without prior notice, causes more frustration than a demanding rule announced from the beginning."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Revisa las fotos con criterio, no sólo que estén subidas. Una foto del interior tomada de noche o desde un ángulo que no deja ver los asientos no sirve para verificar nada. Pide que se repitan las que no dejan ver lo que tienes que confirmar; es una molestia pequeña al principio que ahorra discusiones después.",
+        "en": "Review the photos with judgment, not just that they were uploaded. An interior photo taken at night or from an angle that hides the seats doesn't verify anything. Ask for the ones that don't show what you need to confirm to be retaken; it is a small inconvenience at the start that saves arguments later."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "revision-periodica",
+      "text": {
+        "es": "Revisión periódica sin burocracia",
+        "en": "Periodic checks without red tape"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Un auto que cumplía el estándar el día del alta no necesariamente lo cumple seis meses después. El uso intensivo desgasta rápido: un vehículo de plataforma recorre en un año lo que un auto particular en tres. Por eso el estándar necesita una revisión periódica, pero una que el conductor pueda cumplir sin perder un día de trabajo.",
+        "en": "A car that met the standard on registration day doesn't necessarily meet it six months later. Intensive use wears things quickly: a ride-hailing vehicle covers in a year what a private car covers in three. That is why the standard needs a periodic check, but one the driver can complete without losing a day of work."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La forma más sencilla es pedir fotos actualizadas cada cierto tiempo, por ejemplo cada tres o seis meses, con los mismos ángulos que en el alta. Compararlas con las originales muestra rápidamente si algo cambió. Para lo que las fotos no pueden verificar, como frenos o llantas, puedes pedir el comprobante de un servicio mecánico reciente en lugar de una inspección presencial.",
+        "en": "The simplest approach is to ask for updated photos at regular intervals, for example every three or six months, from the same angles as at registration. Comparing them with the originals quickly shows whether something changed. For what photos can't verify, like brakes or tires, you can ask for proof of a recent mechanical service instead of an in-person inspection."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Guarda el historial de cada revisión junto al vehículo, no en un chat que se pierde. Cuando un conductor cambie de auto, empieza un historial nuevo con las fotos de alta del vehículo nuevo; cuando alguien discuta una suspensión, tendrás las fechas y las fotos para mostrar qué cambió y cuándo, sin depender de la memoria de nadie.",
+        "en": "Keep the history of each check alongside the vehicle, not in a chat that gets lost. When a driver changes cars, start a new history with the registration photos of the new vehicle; when someone disputes a suspension, you will have the dates and photos to show what changed and when, without relying on anyone's memory."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Programa estas revisiones igual que los vencimientos de documentos: con un aviso anticipado, un plazo razonable para cumplir y una consecuencia clara si no se cumple. Si la revisión llega por sorpresa y bloquea al conductor el mismo día, se vive como un castigo, y la próxima vez hará lo mínimo para pasarla en lugar de mantener el auto en buen estado.",
+        "en": "Schedule these checks the same way as document expirations: with advance notice, a reasonable deadline to comply and a clear consequence if they don't. If the check arrives by surprise and blocks the driver the same day, it feels like punishment, and next time they will do the minimum to pass instead of keeping the car in good shape."
+      }
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "text": {
+        "es": "Pide las fotos de revisión en el mismo orden y desde los mismos ángulos que en el alta. Así la comparación toma segundos y cualquier cambio salta a la vista sin tener que ir a ver el auto.",
+        "en": "Ask for check-up photos in the same order and from the same angles as at registration. That way the comparison takes seconds and any change stands out without having to go see the car."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "cuando-no-cumple",
+      "text": {
+        "es": "Qué hacer cuando un vehículo deja de cumplir",
+        "en": "What to do when a vehicle stops meeting the standard"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "No todos los incumplimientos son iguales, y tratarlos igual es un error en las dos direcciones. Un problema de seguridad, como frenos, llantas o luces, justifica suspender al vehículo hasta que se corrija, sin excepciones. Un problema de comodidad, como una mancha en un asiento o un aire acondicionado débil, merece un plazo para arreglarlo mientras el conductor sigue trabajando.",
+        "en": "Not all failures are equal, and treating them the same is a mistake in both directions. A safety issue, such as brakes, tires or lights, justifies suspending the vehicle until it is fixed, with no exceptions. A comfort issue, such as a stained seat or weak air conditioning, deserves a deadline to fix it while the driver keeps working."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Comunica la decisión con el motivo concreto y lo que el conductor tiene que hacer para volver a la normalidad. «Tu vehículo está suspendido» sin más explicación genera enojo y llamadas; «tu vehículo queda en pausa hasta que envíes el comprobante del cambio de llantas» le da un camino. La mayoría de los conductores corrige rápido cuando sabe exactamente qué se espera.",
+        "en": "Communicate the decision with the specific reason and what the driver has to do to get back to normal. \"Your vehicle is suspended\" with no further explanation causes anger and phone calls; \"your vehicle is paused until you send proof of the tire change\" gives them a path. Most drivers fix things quickly when they know exactly what is expected."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Considera también el costo para el conductor. Un arreglo grande puede dejarlo sin ingresos varios días, y en muchos casos el auto es su herramienta de trabajo principal. Algunas operaciones negocian descuentos con talleres locales para sus conductores; es una inversión pequeña que reduce el tiempo fuera de servicio y refuerza la relación con la flota.",
+        "en": "Also consider the cost for the driver. A major repair can leave them without income for several days, and in many cases the car is their main work tool. Some operations negotiate discounts with local repair shops for their drivers; it is a small investment that reduces downtime and strengthens the relationship with the fleet."
+      }
+    },
+    {
+      "type": "quote",
+      "text": {
+        "es": "Durante el primer año nunca revisamos los autos después del alta y empezaron a llegar quejas de calor y asientos rotos. Pusimos fotos cada seis meses y un acuerdo con dos talleres de la ciudad. Las quejas por el vehículo bajaron a casi nada y los conductores lo ven como un apoyo, no como una inspección.",
+        "en": "During the first year we never checked the cars after registration, and complaints about heat and torn seats started coming in. We introduced photos every six months and an agreement with two repair shops in the city. Complaints about the vehicle dropped to almost nothing and drivers see it as support, not an inspection."
+      },
+      "attribution": {
+        "es": "Operador de taxi por app con dos años de operación en una ciudad de 180,000 habitantes en Sinaloa, México",
+        "en": "App-based taxi operator with two years of operation in a city of 180,000 in Sinaloa, Mexico"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "quejas-vehiculo",
+      "text": {
+        "es": "Las quejas sobre el auto como fuente de información",
+        "en": "Complaints about the car as a source of information"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Los pasajeros son tus inspectores más constantes: viajan en los autos todos los días y notan lo que una foto no muestra. Cuando una queja o una calificación baja menciona el vehículo, regístrala aparte de las quejas sobre el conductor o la ruta. Separarlas permite ver patrones que de otro modo se pierden entre el resto de los comentarios.",
+        "en": "Passengers are your most constant inspectors: they ride in the cars every day and notice what a photo doesn't show. When a complaint or a low rating mentions the vehicle, record it separately from complaints about the driver or the route. Separating them lets you see patterns that would otherwise get lost among the rest of the feedback."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Una queja aislada puede ser un mal día; dos o tres sobre el mismo auto en pocas semanas son una señal clara de que ese vehículo necesita revisión antes de la fecha programada. Usa esas señales para adelantar la revisión de ese auto en particular en lugar de esperar al siguiente ciclo, y comunícale al conductor qué comentaron los pasajeros sin exponer quién lo dijo.",
+        "en": "An isolated complaint may be a bad day; two or three about the same car in a few weeks are a clear signal that the vehicle needs a check before its scheduled date. Use those signals to bring forward the check for that particular car instead of waiting for the next cycle, and tell the driver what passengers mentioned without revealing who said it."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Revisa también el lado contrario: los conductores cuyos autos reciben elogios de forma constante. Reconocerlos, aunque sea con un mensaje, refuerza que el estándar no es sólo un castigo para quien falla, sino algo que la operación valora de verdad.",
+        "en": "Also look at the other side: drivers whose cars consistently receive praise. Recognizing them, even with a simple message, reinforces that the standard is not just a punishment for those who fall short, but something the operation genuinely values."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "estandar-como-ventaja",
+      "text": {
+        "es": "El estándar como ventaja frente a las apps de terceros",
+        "en": "The standard as an advantage over third-party apps"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "En una ciudad regional, un estándar de vehículo cumplido de forma constante se convierte en parte de tu reputación. Cuando los pasajeros notan que tus autos están limpios, frescos y en buen estado, empiezan a preferirte incluso si la tarifa es parecida a la de otras opciones. Es una diferencia que las apps de terceros, con flotas enormes y sin revisión cercana, difícilmente pueden igualar.",
+        "en": "In a regional city, a vehicle standard that is consistently met becomes part of your reputation. When passengers notice that your cars are clean, cool and in good condition, they start preferring you even if the fare is similar to other options. It is a difference that third-party apps, with huge fleets and no close oversight, can hardly match."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Ese mismo estándar abre puertas a clientes que exigen más, como contratos corporativos o traslados al aeropuerto, donde la presentación del vehículo es parte de lo que se contrata. Con una flota revisada puedes ofrecer esos servicios con confianza, sabiendo que el auto que llegue estará a la altura.",
+        "en": "That same standard opens doors to more demanding customers, such as corporate contracts or airport transfers, where the vehicle's presentation is part of what is being hired. With a checked fleet you can offer those services with confidence, knowing the car that shows up will be up to the task."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El estado del vehículo no se resuelve con una regla escrita una sola vez. Se sostiene con un estándar claro desde el alta, revisiones periódicas que el conductor pueda cumplir y una respuesta proporcional cuando algo falla. Con esas tres piezas, el auto deja de ser la parte de la experiencia que no controlas.",
+        "en": "Vehicle condition is not solved by a rule written once. It is sustained with a clear standard from registration, periodic checks the driver can comply with and a proportional response when something goes wrong. With those three pieces, the car stops being the part of the experience you don't control."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Empieza por lo más simple: publica tu estándar mínimo, revisa bien las fotos del alta y agenda la primera revisión para dentro de seis meses. Desde ahí podrás ajustar con lo que te digan los pasajeros y los propios conductores.",
+        "en": "Start with the simplest step: publish your minimum standard, review registration photos carefully and schedule the first check six months out. From there you can adjust based on what passengers and drivers themselves tell you."
+      }
+    }
+  ],
+  "cta": {
+    "heading": {
+      "es": "¿Listo para lanzar tu propia app de movilidad?",
+      "en": "Ready to launch your own mobility app?"
+    },
+    "body": {
+      "es": "Configura tu marca, tus tarifas y tus servicios en semanas, no en meses. Cabgo te entrega la plataforma; tú te quedas con la operación, los clientes y los ingresos.",
+      "en": "Set up your brand, pricing and services in weeks, not months. Cabgo ships the platform — you keep the operation, the customers and the revenue."
+    },
+    "buttonLabel": {
+      "es": "Comenzar con Cabgo",
+      "en": "Get started with Cabgo"
+    },
+    "buttonHref": "/empezar"
+  },
+  "seo": {
+    "metaTitle": {
+      "es": "Estándares de vehículo en taxi por app | Cabgo",
+      "en": "Vehicle standards in ride-hailing | Cabgo"
+    },
+    "metaDescription": {
+      "es": "Qué exigir al dar de alta un vehículo, cómo revisar tu flota con fotos periódicas y qué hacer cuando un auto deja de cumplir el estándar mínimo.",
+      "en": "What to require when registering a vehicle, how to check your fleet with periodic photos and what to do when a car stops meeting the minimum standard."
+    }
+  },
+  "author": {
+    "name": "Equipo Cabgo",
+    "role": {
+      "es": "Plataforma de movilidad",
+      "en": "Mobility platform"
+    }
+  }
+}
