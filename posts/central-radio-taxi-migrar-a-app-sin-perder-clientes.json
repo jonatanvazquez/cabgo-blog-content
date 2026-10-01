@@ -1,0 +1,339 @@
+{
+  "slug": "central-radio-taxi-migrar-a-app-sin-perder-clientes",
+  "category": "strategy",
+  "title": {
+    "es": "Migrar una central de radio taxi a app sin perder clientes",
+    "en": "Moving a radio taxi dispatch centre to an app without losing customers"
+  },
+  "excerpt": {
+    "es": "Pasar de central telefónica a app no es apagar el teléfono. Las etapas de una transición ordenada, el nuevo papel de la operadora y qué medir para no perder a los clientes de siempre.",
+    "en": "Moving from a phone dispatch centre to an app isn't switching off the phone. The stages of an orderly transition, the operator's new role and what to measure to keep your regular customers."
+  },
+  "heroImage": "https://raw.githubusercontent.com/jonatanvazquez/cabgo-blog-content/main/images/central-radio-taxi-migrar-a-app-sin-perder-clientes.jpg",
+  "heroImageAlt": {
+    "es": "Ilustración isométrica de una consola de radio con auriculares conectada por una línea luminosa a un teléfono con app de taxi y a un auto de flota.",
+    "en": "Isometric illustration of a radio console with a headset connected by a glowing line to a phone running a taxi app and to a fleet car."
+  },
+  "heroImagePrompt": "Isometric scene on a deep violet floor grid: a retro taxi dispatch radio console with a headset and a desk phone on the left, a glowing amber path flowing from it to a large upright smartphone showing a map with a car pin in the center, and a compact taxi car on the right receiving a trip notification icon above its roof. Soft indigo radial glow at the center.",
+  "publishedAt": "2026-10-01",
+  "readingMinutes": 7,
+  "keywords": {
+    "es": [
+      "central de radio taxi",
+      "migrar central telefónica a app",
+      "app para central de taxi",
+      "de radio taxi a aplicación",
+      "digitalizar flota de taxi",
+      "app de taxi con despacho telefónico"
+    ],
+    "en": [
+      "radio taxi dispatch",
+      "move phone dispatch to an app",
+      "app for taxi dispatch centre",
+      "from radio taxi to app",
+      "digitise a taxi fleet",
+      "taxi app with phone dispatch"
+    ]
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Muchas flotas de taxi en ciudades regionales todavía funcionan con una central telefónica: una operadora contesta, anota la dirección y la lanza por radio a quien esté más cerca. Funciona, y por eso mismo cuesta cambiarlo. La central tiene clientes de años que confían en una voz conocida, y cualquier cambio brusco se percibe como un riesgo de perderlos.",
+        "en": "Many taxi fleets in regional cities still run on a phone dispatch centre: an operator answers, writes down the address and sends it by radio to whoever is closest. It works, and that is exactly why it is hard to change. The centre has customers of many years who trust a familiar voice, and any abrupt change feels like a risk of losing them."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La tesis de este artículo es sencilla: pasar de central a app no es apagar el teléfono y encender la aplicación. Es una transición por etapas en la que ambos canales conviven durante meses, el teléfono alimenta a la app en lugar de competir con ella y los conductores se mueven primero que los pasajeros. Vamos a ver cómo planearla, qué medir en cada etapa y qué errores hacen que los clientes de siempre se vayan a otra flota.",
+        "en": "The thesis of this article is simple: moving from a dispatch centre to an app is not switching off the phone and switching on the app. It is a staged transition in which both channels coexist for months, the phone feeds the app instead of competing with it, and drivers move before passengers do. We'll look at how to plan it, what to measure at each stage, and which mistakes send long-standing customers to another fleet."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "por-que-no-apagar-el-telefono",
+      "text": {
+        "es": "Por qué no conviene apagar el teléfono de un día para otro",
+        "en": "Why you shouldn't switch the phone off overnight"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El cliente de una central no es el mismo que el de una app. Suele ser alguien que pide el mismo viaje varias veces por semana, que conoce a los conductores por su nombre y que valora que alguien le conteste. Una parte de esos clientes descargará la app sin problema; otra parte no lo hará nunca, o lo hará solo cuando vea que le resuelve algo que el teléfono no.",
+        "en": "A dispatch-centre customer is not the same as an app customer. They are usually someone who books the same trip several times a week, knows the drivers by name and values someone answering. Some of those customers will download the app without trouble; others never will, or will only do so once they see it solves something the phone doesn't."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Si el teléfono deja de funcionar antes de tiempo, esos clientes no se mudan a la app: se mudan a la otra central de la ciudad. Por eso la regla de la transición es que el teléfono sigue contestando mientras haya demanda real por esa vía, y que la app gane clientes por sus ventajas, no porque se les quitó la alternativa.",
+        "en": "If the phone stops working too early, those customers don't move to the app: they move to the other dispatch centre in town. That's why the rule of the transition is that the phone keeps answering as long as there is real demand through it, and that the app wins customers on its merits, not because their alternative was taken away."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "También hay una razón de reputación. En una ciudad regional la noticia de que «ya no contestan en la central» corre rápido, y una flota con años de buena fama puede perder en semanas la confianza que tardó una década en construir. Mantener el teléfono durante la transición es, sobre todo, una forma de proteger ese nombre.",
+        "en": "There's also a reputational reason. In a regional city, word that \"the centre doesn't answer anymore\" travels fast, and a fleet with years of good standing can lose in weeks the trust it took a decade to build. Keeping the phone during the transition is, above all, a way of protecting that name."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "etapas-de-la-transicion",
+      "text": {
+        "es": "Las etapas de una transición ordenada",
+        "en": "The stages of an orderly transition"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Una transición que funciona en la mayoría de las flotas regionales tiene cuatro etapas. Lo importante no es la duración exacta de cada una, sino no pasar a la siguiente hasta que la anterior esté estable:",
+        "en": "A transition that works for most regional fleets has four stages. What matters isn't the exact length of each one, but not moving on to the next until the previous one is stable:"
+      }
+    },
+    {
+      "type": "list",
+      "style": "number",
+      "items": {
+        "es": [
+          "Conductores primero: toda la flota trabaja con la app de conductor, aunque los viajes sigan entrando por teléfono.",
+          "La central despacha desde el panel: la operadora captura cada llamada como viaje y la asignación sale por la app.",
+          "Pasajeros frecuentes a la app: se invita a quienes más piden, con ayuda personal para instalarla.",
+          "La app como canal principal: el teléfono queda para quien lo necesita y para incidencias."
+        ],
+        "en": [
+          "Drivers first: the whole fleet works with the driver app, even if trips still come in by phone.",
+          "The centre dispatches from the dashboard: the operator enters every call as a trip and the assignment goes out through the app.",
+          "Frequent passengers to the app: invite those who book most, with personal help to install it.",
+          "The app as the main channel: the phone stays for those who need it and for incidents."
+        ]
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La segunda etapa es la que más cambia la operación y la que menos se ve desde fuera. El cliente sigue llamando igual, pero cada viaje queda registrado con origen, destino, conductor y tarifa. A partir de ese momento la flota tiene datos que la radio nunca le dio: tiempos de llegada, viajes por conductor, horas pico y zonas con más demanda.",
+        "en": "The second stage changes operations the most and is the least visible from outside. Customers keep calling as before, but every trip is recorded with origin, destination, driver and fare. From that moment the fleet has data the radio never gave it: arrival times, trips per driver, peak hours and the busiest zones."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "conductores-primero",
+      "text": {
+        "es": "Por qué los conductores van primero",
+        "en": "Why drivers go first"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Empezar por los conductores tiene una lógica práctica: son menos personas, trabajan con la flota todos los días y su adopción se puede acompañar de cerca. Si los conductores ya reciben los viajes en la app, cualquier pasajero que se pase a ella encuentra el servicio funcionando desde el primer viaje.",
+        "en": "Starting with drivers has a practical logic: they are fewer people, they work with the fleet every day, and their adoption can be supported closely. If drivers already receive trips in the app, any passenger who switches to it finds the service working from the very first ride."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La resistencia de los conductores suele venir de dos dudas: si van a ganar menos y si la app los va a vigilar. Conviene contestarlas antes de que circulen como rumores. Explica que la tarifa la sigue decidiendo la flota, que la app no cobra una comisión sobre cada viaje y que la ubicación sirve para asignar al conductor más cercano, igual que hacía la operadora por radio, pero sin depender de que alguien conteste a tiempo.",
+        "en": "Driver resistance usually comes from two doubts: whether they'll earn less and whether the app will watch them. It's worth answering both before they spread as rumours. Explain that the fleet still sets the fare, that the app doesn't charge a commission on each trip, and that location is used to assign the nearest driver, just as the operator did by radio, but without depending on someone answering in time."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La capacitación funciona mejor en grupos pequeños y en la base, no por mensaje. Una sesión corta en la que cada conductor acepta un viaje de prueba, marca la llegada, inicia y termina el recorrido resuelve más dudas que un manual. Repite la sesión las veces que haga falta y deja a un conductor de referencia por turno al que los demás puedan preguntar.",
+        "en": "Training works better in small groups at the base than by message. A short session in which each driver accepts a test trip, marks arrival, starts and finishes the ride clears up more doubts than a manual. Repeat it as often as needed and leave one reference driver per shift whom the others can ask."
+      }
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "text": {
+        "es": "Deja que los conductores con más antigüedad prueben la app una semana antes que el resto. Si ellos la usan, los demás preguntan menos y se resisten menos.",
+        "en": "Let your most senior drivers try the app a week before everyone else. If they use it, the others ask fewer questions and resist less."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "la-operadora-cambia-de-papel",
+      "text": {
+        "es": "El papel de la operadora cambia, no desaparece",
+        "en": "The operator's role changes, it doesn't disappear"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Uno de los errores más caros de la transición es tratar a las operadoras como un costo que la app va a eliminar. Son las personas que mejor conocen a los clientes, las direcciones difíciles y los conductores problemáticos. Durante la transición su trabajo pasa de lanzar viajes por radio a capturarlos en el panel, resolver incidencias y ayudar a los clientes frecuentes a instalar la app.",
+        "en": "One of the most expensive mistakes of the transition is treating operators as a cost the app will eliminate. They are the people who know the customers, the difficult addresses and the problem drivers best. During the transition their job shifts from sending trips by radio to entering them in the dashboard, resolving incidents and helping frequent customers install the app."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Esa última tarea es la que más acelera la adopción. Una operadora que le dice a un cliente de años «la próxima vez puede pedirlo desde aquí y ve dónde viene el auto» convence más que cualquier campaña. Y si el cliente prefiere seguir llamando, la operadora lo sigue atendiendo sin presionarlo.",
+        "en": "That last task is the one that speeds up adoption the most. An operator telling a long-standing customer \"next time you can book it from here and see where the car is\" is more convincing than any campaign. And if the customer prefers to keep calling, the operator keeps serving them without pressure."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Si la flota ya recibe pedidos por WhatsApp, ese canal puede convivir con el teléfono y con la app. Para muchos clientes de central, escribir un mensaje es un paso más cómodo que instalar una aplicación, y el viaje queda registrado igual.",
+        "en": "If the fleet already receives orders through WhatsApp, that channel can coexist with the phone and the app. For many dispatch-centre customers, sending a message is a more comfortable step than installing an app, and the trip is recorded just the same."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Durante esta etapa conviene que la operadora tenga una regla clara para las direcciones difíciles: si el cliente da una referencia en lugar de una calle, se captura la referencia en las notas del viaje y se marca el punto en el mapa. Esas referencias, que antes vivían solo en la memoria de la central, quedan disponibles para cualquier conductor.",
+        "en": "During this stage the operator should have a clear rule for difficult addresses: if the customer gives a landmark instead of a street, the landmark goes into the trip notes and the point is marked on the map. Those references, which used to live only in the centre's memory, become available to every driver."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "que-medir",
+      "text": {
+        "es": "Qué medir para saber si la transición avanza",
+        "en": "What to measure to know whether the transition is moving forward"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Sin datos, la transición se decide por intuición y por la queja más reciente. Estas señales, revisadas cada semana, dicen con más claridad si conviene avanzar a la siguiente etapa o esperar:",
+        "en": "Without data, the transition gets decided by gut feeling and the latest complaint. These signals, reviewed every week, say more clearly whether to move to the next stage or wait:"
+      }
+    },
+    {
+      "type": "list",
+      "style": "bullet",
+      "items": {
+        "es": [
+          "Porcentaje de viajes que entran por la app frente al teléfono.",
+          "Clientes frecuentes que ya hicieron al menos un viaje por la app.",
+          "Tiempo de llegada del conductor antes y después del despacho por app.",
+          "Viajes cancelados porque nadie los tomó.",
+          "Llamadas que siguen entrando en horas pico."
+        ],
+        "en": [
+          "Share of trips coming in through the app versus the phone.",
+          "Frequent customers who have already taken at least one trip through the app.",
+          "Driver arrival time before and after app dispatch.",
+          "Trips cancelled because no one took them.",
+          "Calls still coming in during peak hours."
+        ]
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El indicador más útil es el segundo. Si los clientes que más piden ya probaron la app, la base está asegurada aunque el porcentaje total todavía sea bajo. Si en cambio la app crece solo con clientes nuevos y los de siempre siguen llamando, la transición está ganando volumen pero no está protegiendo a quien sostiene el negocio.",
+        "en": "The most useful indicator is the second one. If the customers who book most have already tried the app, the base is secured even if the overall share is still low. If instead the app grows only with new customers while the regulars keep calling, the transition is gaining volume but not protecting the people who sustain the business."
+      }
+    },
+    {
+      "type": "quote",
+      "text": {
+        "es": "Durante cuatro meses tuvimos teléfono y app al mismo tiempo. Las operadoras capturaban cada llamada en el panel y les enseñaban la app a los clientes de siempre. Hoy la mayoría pide por la app, pero el teléfono sigue sonando para los que no la quieren, y no perdimos a ninguno de los clientes de años.",
+        "en": "For four months we had phone and app at the same time. The operators entered every call in the dashboard and showed the app to our regular customers. Today most people book through the app, but the phone still rings for those who don't want it, and we didn't lose a single long-standing customer."
+      },
+      "attribution": {
+        "es": "Dueño de una flota de taxi con central telefónica de 15 años en una ciudad de 250,000 habitantes en Veracruz, México",
+        "en": "Owner of a taxi fleet with a 15-year-old phone dispatch centre in a city of 250,000 in Veracruz, Mexico"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "errores-comunes",
+      "text": {
+        "es": "Errores que hacen que los clientes se vayan",
+        "en": "Mistakes that make customers leave"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La mayoría de las transiciones fallidas no fallan por la tecnología, sino por decisiones de operación tomadas con prisa. Los errores más repetidos son apagar el teléfono antes de que los clientes frecuentes estén en la app, cambiar las tarifas al mismo tiempo que el canal y dejar a los conductores con dos sistemas a la vez durante demasiado tiempo.",
+        "en": "Most failed transitions don't fail because of technology but because of operational decisions taken in a hurry. The most repeated mistakes are switching off the phone before frequent customers are on the app, changing fares at the same time as the channel, and leaving drivers with two systems at once for too long."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Cambiar tarifas y canal a la vez es especialmente dañino: el cliente no distingue qué cambió y asocia la app con pagar más. Si hace falta ajustar precios, conviene hacerlo antes o después de la transición, nunca en medio. Y la convivencia de radio y app en el lado del conductor debe durar lo menos posible, porque dos fuentes de viajes generan asignaciones duplicadas y discusiones sobre quién llegó primero.",
+        "en": "Changing fares and channel at the same time is especially damaging: customers can't tell what changed and associate the app with paying more. If prices need adjusting, do it before or after the transition, never in the middle. And the coexistence of radio and app on the driver side should last as little as possible, because two sources of trips create duplicate assignments and arguments about who got there first."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Un último error, menos visible: anunciar la app como un reemplazo en lugar de como una opción más. El mensaje que mejor funciona con los clientes de siempre es que pueden seguir llamando y que, si quieren, ahora también pueden pedir desde el teléfono y ver al conductor acercarse. La decisión queda en sus manos, y por eso la toman.",
+        "en": "One last, less visible mistake: announcing the app as a replacement instead of as one more option. The message that works best with regular customers is that they can keep calling and that, if they want, they can now also book from their phone and watch the driver approach. The decision stays in their hands, and that's why they make it."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "la-central-como-ventaja",
+      "text": {
+        "es": "La central como ventaja, no como pasado",
+        "en": "The dispatch centre as an advantage, not the past"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Una flota que viene de una central tiene algo que una plataforma global no puede copiar: relación directa con sus clientes y conocimiento de la ciudad. Pasar a una app con su propia marca no borra esa ventaja, la vuelve medible y la pone en el teléfono del cliente, con sus colores, sus tarifas y su número de siempre detrás.",
+        "en": "A fleet that comes from a dispatch centre has something a global platform can't copy: a direct relationship with its customers and knowledge of the city. Moving to an app under its own brand doesn't erase that advantage; it makes it measurable and puts it on the customer's phone, with its colours, its fares and its usual number behind it."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Empieza por la etapa más pequeña: que toda la flota reciba viajes en la app de conductor mientras el teléfono sigue sonando igual que siempre. Cuando eso esté estable, la operadora puede empezar a capturar llamadas en el panel, y a partir de ahí cada paso se decide con datos, no con la queja del día.",
+        "en": "Start with the smallest stage: get the whole fleet receiving trips in the driver app while the phone keeps ringing as always. Once that's stable, the operator can start entering calls in the dashboard, and from there every step is decided with data, not with the complaint of the day."
+      }
+    }
+  ],
+  "cta": {
+    "heading": {
+      "es": "¿Listo para lanzar tu propia app de movilidad?",
+      "en": "Ready to launch your own mobility app?"
+    },
+    "body": {
+      "es": "Configura tu marca, tus tarifas y tus servicios en semanas, no en meses. Cabgo te entrega la plataforma; tú te quedas con la operación, los clientes y los ingresos.",
+      "en": "Set up your brand, pricing and services in weeks, not months. Cabgo ships the platform — you keep the operation, the customers and the revenue."
+    },
+    "buttonLabel": {
+      "es": "Comenzar con Cabgo",
+      "en": "Get started with Cabgo"
+    },
+    "buttonHref": "/empezar"
+  },
+  "seo": {
+    "metaTitle": {
+      "es": "Migrar una central de radio taxi a app | Cabgo",
+      "en": "Move a radio taxi dispatch centre to an app | Cabgo"
+    },
+    "metaDescription": {
+      "es": "Cómo pasar de central telefónica a app de taxi por etapas: conductores primero, la operadora en el panel y qué medir para no perder clientes frecuentes.",
+      "en": "How to move from phone dispatch to a taxi app in stages: drivers first, the operator in the dashboard, and what to measure to keep frequent customers."
+    }
+  },
+  "author": {
+    "name": "Equipo Cabgo",
+    "role": {
+      "es": "Plataforma de movilidad",
+      "en": "Mobility platform"
+    }
+  }
+}
