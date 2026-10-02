@@ -1,0 +1,334 @@
+{
+  "slug": "resenas-app-taxi-google-play-app-store",
+  "category": "strategy",
+  "title": {
+    "es": "Reseñas de tu app de taxi: cómo conseguirlas y responderlas",
+    "en": "Your taxi app's reviews: how to earn them and reply to them"
+  },
+  "excerpt": {
+    "es": "La calificación en Google Play y el App Store es la primera impresión de tu servicio. Por qué llegan solas las malas reseñas, a quién pedir una opinión, cómo responder y cómo usarlas para mejorar la operación.",
+    "en": "Your Google Play and App Store rating is the first impression of your service. Why bad reviews arrive on their own, whom to ask for a review, how to reply and how to use them to improve operations."
+  },
+  "heroImage": "https://raw.githubusercontent.com/jonatanvazquez/cabgo-blog-content/main/images/resenas-app-taxi-google-play-app-store.jpg",
+  "heroImageAlt": {
+    "es": "Ilustración isométrica de un teléfono con una ficha de app y estrellas de calificación, burbujas de reseñas y un auto de taxi.",
+    "en": "Isometric illustration of a phone showing an app listing with rating stars, review bubbles and a taxi car."
+  },
+  "heroImagePrompt": "Isometric scene on a deep violet floor grid: a large upright smartphone showing a generic app store listing card with a row of five glowing amber stars, three floating review speech bubbles with star icons rising beside it, a compact taxi car on the right with a small thumbs-up badge above its roof, and a small clipboard chart on the floor. Soft indigo radial glow at the center.",
+  "publishedAt": "2026-10-02",
+  "readingMinutes": 8,
+  "keywords": {
+    "es": [
+      "reseñas app de taxi",
+      "calificación google play app",
+      "responder reseñas app store",
+      "mejorar calificación de mi app",
+      "reseñas negativas app movilidad",
+      "opiniones de pasajeros"
+    ],
+    "en": [
+      "taxi app reviews",
+      "google play app rating",
+      "reply to app store reviews",
+      "improve my app rating",
+      "negative reviews mobility app",
+      "passenger feedback"
+    ]
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Cuando un pasajero nuevo busca tu app de taxi en Google Play o en el App Store, lo primero que ve después del nombre es la calificación. Antes de leer la descripción, antes de mirar las capturas, decide si confía o no en una app que tiene tres estrellas y cuatro comentarios furiosos. Para muchas flotas regionales, esa página es la primera impresión del servicio, y casi nadie la está cuidando.",
+        "en": "When a new passenger looks for your taxi app on Google Play or the App Store, the first thing they see after the name is the rating. Before reading the description or looking at the screenshots, they decide whether to trust an app with three stars and four angry comments. For many regional fleets, that page is the first impression of the service, and almost nobody is looking after it."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La tesis de este artículo es que las reseñas de tu app no son un tema de marketing, sino de operación. Las estrellas se mueven por lo que pasa en la calle: tiempos de llegada, trato del conductor, cobros que no cuadran. Vamos a ver por qué las reseñas negativas llegan solas y las positivas no, cuándo y a quién pedir una calificación, cómo responder lo que ya está publicado y cómo convertir esos comentarios en mejoras de la operación.",
+        "en": "The thesis of this article is that your app's reviews aren't a marketing issue but an operational one. Stars move because of what happens on the street: arrival times, driver manners, charges that don't add up. We'll look at why negative reviews arrive on their own and positive ones don't, when and whom to ask for a rating, how to answer what's already published and how to turn those comments into operational improvements."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "por-que-importan",
+      "text": {
+        "es": "Por qué la calificación pesa más de lo que parece",
+        "en": "Why the rating weighs more than it seems"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "En una ciudad regional, tu app compite en la tienda con plataformas globales que acumulan millones de calificaciones. No vas a ganarles en volumen, pero sí puedes ganar en lo que el pasajero local ve: una calificación alta y comentarios recientes que hablan de su ciudad, de conductores con nombre y de un servicio que responde. Una app con pocas reseñas buenas y recientes transmite más confianza que una con muchas reseñas viejas y tibias.",
+        "en": "In a regional city, your app competes in the store with global platforms that have millions of ratings. You won't beat them on volume, but you can win on what the local passenger sees: a high rating and recent comments that mention their city, drivers with names and a service that responds. An app with a few recent good reviews conveys more trust than one with many old, lukewarm ones."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La calificación también afecta a quien ya te conoce. Un cliente frecuente que recomienda tu app a un familiar pierde fuerza si el familiar abre la tienda y ve dos estrellas. Y para los conductores que piensan en sumarse a la flota, una app con mala fama en la tienda es una señal de que el negocio no va bien, aunque no sea cierto.",
+        "en": "The rating also affects people who already know you. A frequent customer who recommends your app to a relative loses credibility if the relative opens the store and sees two stars. And for drivers thinking of joining the fleet, an app with a bad reputation in the store is a sign the business isn't doing well, even if that isn't true."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Y no hay que olvidar que las tiendas muestran sobre todo las reseñas recientes. Una calificación baja acumulada en una mala temporada puede recuperarse en pocos meses si los comentarios nuevos son buenos, porque lo que ve el visitante es lo que ha pasado últimamente, no lo que pasó hace un año.",
+        "en": "And keep in mind that the stores mainly show recent reviews. A low rating built up during a bad season can recover within a few months if the new comments are good, because what visitors see is what has happened lately, not what happened a year ago."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "asimetria",
+      "text": {
+        "es": "Por qué las malas reseñas llegan solas",
+        "en": "Why bad reviews arrive on their own"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Hay una asimetría que explica casi todas las calificaciones bajas de las apps de movilidad: el pasajero satisfecho llega a su destino, paga y se olvida de la app hasta el próximo viaje. El pasajero molesto, en cambio, tiene una razón para abrir la tienda y escribir. Por eso una operación que funciona bien en el 95 % de los viajes puede tener una calificación que parece describir un servicio mediocre.",
+        "en": "There's an asymmetry that explains almost every low rating for mobility apps: a satisfied passenger reaches their destination, pays and forgets the app until the next trip. An annoyed passenger, on the other hand, has a reason to open the store and write. That's why an operation that works well on 95% of trips can have a rating that seems to describe a mediocre service."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Las quejas que más aparecen en las tiendas tampoco suelen ser de la app en sí. Son de la operación: un conductor que no llegó, un tiempo de espera largo en hora pico, un cobro distinto al estimado, un trato poco amable. Leer las reseñas negativas con esa lente cambia la reacción: en lugar de defenderse, el operador encuentra una lista de problemas reales que sus pasajeros le están describiendo gratis.",
+        "en": "The complaints that appear most in the stores aren't usually about the app itself either. They're about the operation: a driver who didn't arrive, a long wait at peak time, a charge different from the estimate, unfriendly treatment. Reading negative reviews through that lens changes the reaction: instead of getting defensive, the operator finds a list of real problems that passengers are describing for free."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "También hay reseñas que no describen un viaje, sino una confusión: personas que buscaban otra app, conductores que dejan su queja en la app de pasajeros o clientes que califican antes de haber usado el servicio. No conviene ignorarlas. Una respuesta breve que aclare de qué se trata y a dónde dirigirse sirve a quien lee la ficha después y evita que ese comentario parezca una queja sin atender.",
+        "en": "There are also reviews that don't describe a trip but a misunderstanding: people looking for another app, drivers leaving their complaint in the passenger app, or customers rating before they've used the service. They're worth answering. A short reply clarifying what it's about and where to go serves whoever reads the listing later and stops the comment from looking like an unanswered complaint."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "pedir-resenas",
+      "text": {
+        "es": "Cuándo y a quién pedirle una reseña",
+        "en": "When and whom to ask for a review"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La forma de corregir la asimetría no es comprar ni inventar reseñas, algo que las tiendas penalizan y que los pasajeros detectan, sino pedírselas a quien ya está contento, en el momento en que lo está. Estas son las situaciones en que una petición suele funcionar mejor:",
+        "en": "The way to correct the asymmetry isn't to buy or invent reviews, which the stores penalise and passengers can spot, but to ask the people who are already happy, at the moment they are. These are the situations in which a request usually works best:"
+      }
+    },
+    {
+      "type": "list",
+      "style": "bullet",
+      "items": {
+        "es": [
+          "Después del tercer o cuarto viaje, cuando el pasajero ya confía en el servicio.",
+          "Cuando un cliente agradece al conductor o a la central por algo concreto.",
+          "Tras resolver bien una queja: un problema bien atendido genera lealtad.",
+          "Con clientes frecuentes y empresas que usan el servicio cada semana.",
+          "Después de un viaje especial, como un traslado al aeropuerto puntual."
+        ],
+        "en": [
+          "After the third or fourth trip, when the passenger already trusts the service.",
+          "When a customer thanks the driver or the dispatch team for something specific.",
+          "After solving a complaint well: a problem handled properly creates loyalty.",
+          "With frequent customers and companies that use the service every week.",
+          "After a special trip, such as a punctual airport transfer."
+        ]
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La petición funciona mejor cuando es personal y breve. Un mensaje de la central por WhatsApp que diga «nos ayudaría mucho que dejaras tu opinión de la app en la tienda, te dejo el enlace» convierte más que un aviso genérico, porque llega de alguien con quien el cliente ya tuvo trato. Y conviene no pedirlo a quien acaba de tener un mal viaje: primero se resuelve el problema, después se pide la opinión.",
+        "en": "The request works best when it's personal and short. A message from dispatch on WhatsApp saying \"it would really help us if you left your opinion of the app in the store, here's the link\" converts better than a generic notice, because it comes from someone the customer has already dealt with. And it's best not to ask someone who just had a bad trip: solve the problem first, ask for the opinion afterwards."
+      }
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "text": {
+        "es": "Guarda en un mensaje fijo el enlace directo a la ficha de tu app en Google Play y en el App Store. Así la central o los conductores pueden compartirlo en segundos cuando un cliente se muestra satisfecho.",
+        "en": "Keep the direct link to your app's Google Play and App Store listing in a saved message. That way dispatch or drivers can share it in seconds whenever a customer seems happy."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Un detalle que marca la diferencia: los conductores pueden ser los mejores aliados para conseguir reseñas, siempre que no presionen al pasajero. Un conductor que al terminar un buen viaje menciona con naturalidad que la opinión en la tienda ayuda a la flota local suele obtener más respuestas que cualquier campaña, y el pasajero lo vive como un gesto cercano, no como una venta.",
+        "en": "One detail that makes a difference: drivers can be your best allies in getting reviews, as long as they don't pressure the passenger. A driver who, at the end of a good trip, mentions naturally that a store review helps the local fleet usually gets more responses than any campaign, and the passenger experiences it as a friendly gesture, not a sales pitch."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "responder-resenas",
+      "text": {
+        "es": "Cómo responder las reseñas que ya están publicadas",
+        "en": "How to answer reviews that are already published"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Tanto Google Play como el App Store permiten que el desarrollador responda públicamente cada reseña desde su consola. Esa respuesta la leen el autor y todos los que visitan la ficha después. Por eso una buena respuesta no está escrita solo para quien se quejó: está escrita para el próximo pasajero que está decidiendo si descarga la app.",
+        "en": "Both Google Play and the App Store let the developer reply publicly to every review from their console. That reply is read by the author and by everyone who visits the listing afterwards. That's why a good reply isn't written only for the person who complained: it's written for the next passenger deciding whether to download the app."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Las respuestas que mejor funcionan tienen la misma estructura: reconocen el problema sin discutir, explican en una línea qué se hizo o se va a hacer, y ofrecen un canal directo para resolverlo, como el WhatsApp de la central. Evita las respuestas copiadas que dicen lo mismo a todos, y evita también discutir datos del viaje en público: si hace falta revisar un caso, se lleva a un canal privado.",
+        "en": "The replies that work best share the same structure: they acknowledge the problem without arguing, explain in one line what was or will be done, and offer a direct channel to solve it, such as the dispatch WhatsApp. Avoid copy-pasted replies that say the same thing to everyone, and avoid discussing trip details in public too: if a case needs reviewing, take it to a private channel."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Responder también las reseñas positivas tiene valor. Un «gracias, se lo hacemos saber a Pedro» muestra que detrás de la app hay personas y que los conductores son reconocidos. Además, cuando un pasajero ve que su queja recibió respuesta y el problema se corrigió, a veces vuelve y cambia su calificación por iniciativa propia.",
+        "en": "Replying to positive reviews has value too. A \"thank you, we'll let Pedro know\" shows that there are people behind the app and that drivers are recognised. And when a passenger sees that their complaint got a reply and the problem was fixed, they sometimes come back and change their rating on their own."
+      }
+    },
+    {
+      "type": "quote",
+      "text": {
+        "es": "Durante meses no miramos las reseñas de la tienda y teníamos tres estrellas. Empezamos a contestar cada comentario y a pedir la opinión a los clientes de siempre por WhatsApp. En unas semanas aparecieron reseñas que hablaban de conductores por su nombre, y la gente nueva nos decía que nos había elegido por eso.",
+        "en": "For months we didn't look at the store reviews and we had three stars. We started replying to every comment and asking our regular customers for their opinion on WhatsApp. Within a few weeks reviews appeared that mentioned drivers by name, and new people told us they'd chosen us because of that."
+      },
+      "attribution": {
+        "es": "Operador de taxi por app con 2 años de operación en una ciudad de 200,000 habitantes en Guanajuato, México",
+        "en": "App-based taxi operator with 2 years of operation in a city of 200,000 in Guanajuato, Mexico"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "de-resena-a-operacion",
+      "text": {
+        "es": "De la reseña a la operación",
+        "en": "From review to operation"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Las reseñas son una fuente de información que muchas flotas desperdician. Clasificarlas una vez por semana, aunque sea en una hoja sencilla, muestra rápido dónde están los problemas que se repiten. Una forma práctica de agruparlas es esta:",
+        "en": "Reviews are a source of information that many fleets waste. Sorting them once a week, even in a simple spreadsheet, quickly shows where the recurring problems are. A practical way to group them is this:"
+      }
+    },
+    {
+      "type": "list",
+      "style": "number",
+      "items": {
+        "es": [
+          "Tiempo de espera o conductores que no llegan.",
+          "Trato o conducta del conductor.",
+          "Cobros, tarifas o diferencias con el estimado.",
+          "Problemas al registrarse o al pedir el viaje en la app.",
+          "Comentarios positivos sobre conductores concretos."
+        ],
+        "en": [
+          "Waiting time or drivers who don't arrive.",
+          "Driver manners or behaviour.",
+          "Charges, fares or differences from the estimate.",
+          "Problems signing up or booking the trip in the app.",
+          "Positive comments about specific drivers."
+        ]
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Si una categoría crece semana tras semana, ahí hay una decisión operativa pendiente: más conductores en una franja horaria, una conversación con un conductor en particular o una tarifa que hay que explicar mejor. Y la última categoría también importa: los conductores que reciben elogios públicos merecen saberlo, y compartirlo con la flota refuerza justo el comportamiento que mejora las reseñas.",
+        "en": "If a category grows week after week, there's a pending operational decision there: more drivers in a time slot, a conversation with a particular driver or a fare that needs explaining better. And the last category matters too: drivers who receive public praise deserve to know it, and sharing it with the fleet reinforces exactly the behaviour that improves reviews."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Fija también un plazo para responder. Una reseña negativa sin respuesta durante semanas transmite que nadie está mirando; una respondida el mismo día o al siguiente muestra lo contrario. No hace falta un equipo dedicado: basta con que alguien de la central revise la consola de la tienda una vez al día, igual que revisa los mensajes de WhatsApp.",
+        "en": "Set a response time too. A negative review left unanswered for weeks signals that nobody is watching; one answered the same day or the next shows the opposite. You don't need a dedicated team: it's enough for someone at dispatch to check the store console once a day, just as they check WhatsApp messages."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "ficha-de-la-tienda",
+      "text": {
+        "es": "La ficha de la tienda también cuenta",
+        "en": "The store listing matters too"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Las reseñas no viven solas: aparecen junto a la descripción, las capturas y el nombre de la app. Una ficha que explica con claridad en qué ciudad opera el servicio, cómo se pide un viaje y cómo se paga reduce las reseñas negativas causadas por expectativas equivocadas, como el pasajero de otra ciudad que descarga la app y no encuentra conductores. Revisa la ficha con la misma frecuencia que las reseñas.",
+        "en": "Reviews don't live on their own: they appear next to the description, screenshots and the app name. A listing that clearly explains which city the service operates in, how to book a trip and how to pay reduces negative reviews caused by wrong expectations, such as the passenger from another city who downloads the app and finds no drivers. Review the listing as often as the reviews."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "cierre",
+      "text": {
+        "es": "Las estrellas se ganan en la calle",
+        "en": "Stars are earned on the street"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Ninguna estrategia de reseñas compensa una operación que no cumple, pero muchas operaciones que sí cumplen tienen una calificación que no lo refleja. La diferencia está en tres hábitos sencillos: pedir la opinión a quien está contento, responder cada comentario y usar lo que dicen los pasajeros para decidir qué corregir.",
+        "en": "No review strategy makes up for an operation that doesn't deliver, but many operations that do deliver have a rating that doesn't show it. The difference lies in three simple habits: asking happy customers for their opinion, replying to every comment and using what passengers say to decide what to fix."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Empieza esta semana con lo más pequeño: lee las últimas veinte reseñas de tu app, responde las que no tienen respuesta y prepara el mensaje con el enlace a la tienda para tus clientes frecuentes. En un mes, la ficha de tu app empezará a parecerse más al servicio que das en la calle.",
+        "en": "Start this week with the smallest step: read your app's last twenty reviews, reply to those without an answer and prepare the message with the store link for your frequent customers. Within a month, your app's listing will start to look more like the service you provide on the street."
+      }
+    }
+  ],
+  "cta": {
+    "heading": {
+      "es": "¿Listo para lanzar tu propia app de movilidad?",
+      "en": "Ready to launch your own mobility app?"
+    },
+    "body": {
+      "es": "Configura tu marca, tus tarifas y tus servicios en semanas, no en meses. Cabgo te entrega la plataforma; tú te quedas con la operación, los clientes y los ingresos.",
+      "en": "Set up your brand, pricing and services in weeks, not months. Cabgo ships the platform — you keep the operation, the customers and the revenue."
+    },
+    "buttonLabel": {
+      "es": "Comenzar con Cabgo",
+      "en": "Get started with Cabgo"
+    },
+    "buttonHref": "/empezar"
+  },
+  "seo": {
+    "metaTitle": {
+      "es": "Reseñas de tu app de taxi en las tiendas | Cabgo",
+      "en": "Your taxi app's store reviews | Cabgo"
+    },
+    "metaDescription": {
+      "es": "Cómo conseguir más reseñas positivas para tu app de taxi en Google Play y App Store, cómo responder las negativas y cómo usarlas para mejorar.",
+      "en": "How to earn more positive reviews for your taxi app on Google Play and the App Store, how to answer negative ones and use them to improve."
+    }
+  },
+  "author": {
+    "name": "Equipo Cabgo",
+    "role": {
+      "es": "Plataforma de movilidad",
+      "en": "Mobility platform"
+    }
+  }
+}
