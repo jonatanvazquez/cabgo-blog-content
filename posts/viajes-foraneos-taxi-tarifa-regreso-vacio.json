@@ -1,0 +1,302 @@
+{
+  "slug": "viajes-foraneos-taxi-tarifa-regreso-vacio",
+  "category": "strategy",
+  "title": {
+    "es": "Viajes foráneos en taxi: cómo tarifar el regreso vacío",
+    "en": "Out-of-town taxi trips: how to price the empty return"
+  },
+  "excerpt": {
+    "es": "El viaje a otra ciudad no es un viaje urbano largo. Cómo contar el regreso vacío, armar una tabla de tarifas por destino, cotizar sin improvisar y elegir al conductor adecuado.",
+    "en": "A trip to another city isn't a long urban ride. How to account for the empty return, build a fare table by destination, quote without improvising and choose the right driver."
+  },
+  "heroImage": "https://raw.githubusercontent.com/jonatanvazquez/cabgo-blog-content/main/images/viajes-foraneos-taxi-tarifa-regreso-vacio.jpg",
+  "heroImageAlt": {
+    "es": "Ilustración isométrica de un taxi en una carretera entre dos ciudades, con una caseta de peaje y una flecha de regreso.",
+    "en": "Isometric illustration of a taxi on a highway between two cities, with a toll booth and a return arrow."
+  },
+  "heroImagePrompt": "Isometric scene on a deep violet floor grid: a winding two-lane highway connecting a small town cluster on the left to a larger city skyline block on the right, a compact taxi car driving on the road, a small toll booth with a raised barrier midway, and a curved dashed return arrow looping back from the city to the town. Soft indigo radial glow at the center.",
+  "publishedAt": "2026-10-03",
+  "readingMinutes": 8,
+  "keywords": {
+    "es": [
+      "viajes foráneos taxi",
+      "tarifa viaje foráneo",
+      "cobrar regreso vacío taxi",
+      "tarifa fija por destino",
+      "traslado a otra ciudad taxi",
+      "cotizar viaje largo taxi"
+    ],
+    "en": [
+      "out-of-town taxi trips",
+      "long-distance taxi fare",
+      "charge empty return taxi",
+      "fixed fare by destination",
+      "intercity taxi transfer",
+      "quote long taxi trip"
+    ]
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "En casi todas las ciudades regionales hay un tipo de viaje que no aparece en las métricas del día a día pero que pesa mucho en la caja: el viaje foráneo. Es el pasajero que necesita ir a la capital del estado, al aeropuerto de otra ciudad, a una consulta médica en el municipio vecino o a una boda a dos horas de distancia. Son pocos viajes al mes, pero cada uno puede valer lo mismo que diez traslados urbanos, y casi siempre se cotizan de memoria, por teléfono y con miedo a equivocarse.",
+        "en": "In almost every regional city there's a type of trip that doesn't show up in day-to-day metrics but weighs heavily on revenue: the out-of-town trip. It's the passenger who needs to go to the state capital, to an airport in another city, to a medical appointment in the neighbouring town or to a wedding two hours away. There are few of these trips a month, but each one can be worth as much as ten urban rides, and they're almost always quoted from memory, over the phone and with the fear of getting it wrong."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La tesis de este artículo es que el viaje foráneo no es un viaje urbano largo: es otro producto, con otro costo y otro riesgo. Si se cobra con la misma lógica que un traslado dentro de la ciudad, el conductor pierde dinero en el regreso vacío o el pasajero recibe un precio que no entiende. Vamos a ver por qué el regreso cambia toda la cuenta, cómo armar una tabla de tarifas por destino, cómo cotizar sin improvisar, qué cuidar al asignar conductor y cómo convertir estos viajes en clientes recurrentes.",
+        "en": "The thesis of this article is that the out-of-town trip isn't a long urban trip: it's a different product, with a different cost and a different risk. If you charge it with the same logic as a ride inside the city, either the driver loses money on the empty return or the passenger gets a price they don't understand. We'll look at why the return changes the whole calculation, how to build a fare table by destination, how to quote without improvising, what to watch when assigning a driver and how to turn these trips into recurring customers."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "otro-producto",
+      "text": {
+        "es": "Por qué el viaje foráneo es otro producto",
+        "en": "Why the out-of-town trip is a different product"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Un viaje dentro de la ciudad termina en un lugar donde el conductor puede volver a recibir otro servicio en pocos minutos. Un viaje a otra ciudad no: el conductor deja al pasajero a cien kilómetros de su zona de trabajo y, salvo que consiga un pasaje de vuelta, recorre los mismos cien kilómetros sin cobrar. Durante ese tiempo tampoco está disponible para la demanda local, que es la que sostiene el resto del día.",
+        "en": "A trip inside the city ends somewhere the driver can pick up another job within minutes. A trip to another city doesn't: the driver leaves the passenger a hundred kilometres from their working area and, unless they find a return fare, drives the same hundred kilometres without charging. During that time they also aren't available for local demand, which is what sustains the rest of the day."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Además, el foráneo trae costos que el viaje urbano no tiene o que casi no se notan: casetas de peaje, más desgaste del vehículo, horas de manejo en carretera, a veces una comida del conductor o una espera larga en el destino. Y el pasajero tampoco es el mismo: suele planear el viaje con días de anticipación, compara opciones y quiere saber el precio total antes de comprometerse. Tratarlo como un viaje más del día es lo que produce los dos errores clásicos: cobrar de menos o cotizar tan caro que el cliente se va con otro.",
+        "en": "On top of that, the out-of-town trip brings costs that urban rides don't have or barely show: tolls, more wear on the vehicle, hours of highway driving, sometimes a meal for the driver or a long wait at the destination. And the passenger isn't the same either: they usually plan the trip days ahead, compare options and want to know the total price before committing. Treating it as just another trip of the day is what produces the two classic mistakes: undercharging, or quoting so high that the customer goes elsewhere."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "regreso-vacio",
+      "text": {
+        "es": "El regreso vacío: la cuenta que casi nadie hace",
+        "en": "The empty return: the calculation almost nobody makes"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La forma más sencilla de entender el precio de un foráneo es pensar en el viaje completo del vehículo, no en el del pasajero. Si el destino está a 80 kilómetros, el conductor va a manejar 160, más el tiempo de regreso en el que no puede trabajar. Una tarifa calculada solo con los kilómetros de ida le paga la mitad del trabajo real, y un conductor que hace esa cuenta empieza a rechazar estos viajes o a aceptarlos de mala gana.",
+        "en": "The simplest way to understand the price of an out-of-town trip is to think about the vehicle's whole journey, not the passenger's. If the destination is 80 kilometres away, the driver will drive 160, plus the return time in which they can't work. A fare calculated only on the outbound kilometres pays for half the real work, and a driver who does that maths starts turning these trips down or accepting them reluctantly."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Hay tres maneras habituales de resolverlo, y cada operador elige según su mercado. La primera es cobrar ida y vuelta completas y decirlo con claridad. La segunda es cobrar la ida más un porcentaje del regreso, apostando a que algunas veces el conductor conseguirá un pasaje de vuelta. La tercera es ofrecer el viaje redondo como producto: el conductor espera al pasajero en el destino unas horas y lo trae de regreso, con un cargo por espera acordado desde el inicio. Lo importante no es cuál eliges, sino que el criterio sea el mismo para todos y que el conductor sepa cuánto va a ganar antes de salir.",
+        "en": "There are three common ways to solve it, and each operator chooses according to their market. The first is to charge the full round trip and say so clearly. The second is to charge the outbound leg plus a percentage of the return, betting that the driver will sometimes find a return fare. The third is to offer the round trip as a product: the driver waits for the passenger at the destination for a few hours and brings them back, with a waiting charge agreed from the start. What matters isn't which one you choose but that the rule is the same for everyone and that the driver knows how much they'll earn before leaving."
+      }
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "text": {
+        "es": "Antes de publicar cualquier tarifa foránea, pregúntale a dos o tres conductores con experiencia cuánto les cuesta de verdad ir y volver a ese destino: combustible, casetas y horas. Esa conversación evita la mayoría de los rechazos posteriores.",
+        "en": "Before publishing any out-of-town fare, ask two or three experienced drivers how much it really costs them to go to that destination and back: fuel, tolls and hours. That conversation prevents most later refusals."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "tabla-destinos",
+      "text": {
+        "es": "Una tabla de tarifas por destino",
+        "en": "A fare table by destination"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La mayoría de los viajes foráneos de una ciudad regional se concentran en pocos destinos: la capital, el aeropuerto más cercano, dos o tres municipios vecinos y algún centro turístico. Por eso tiene más sentido una tabla de tarifas fijas por destino que calcular cada viaje desde cero. El pasajero recibe un precio claro, la central responde rápido y el conductor sabe de antemano lo que va a cobrar. Para armarla, cada fila debería contemplar estos elementos:",
+        "en": "Most out-of-town trips from a regional city are concentrated on a few destinations: the capital, the nearest airport, two or three neighbouring towns and perhaps a tourist spot. That's why a table of fixed fares by destination makes more sense than calculating every trip from scratch. The passenger gets a clear price, dispatch answers quickly and the driver knows in advance what they'll charge. To build it, each row should cover these elements:"
+      }
+    },
+    {
+      "type": "list",
+      "style": "bullet",
+      "items": {
+        "es": [
+          "Distancia de ida y vuelta, no solo de ida.",
+          "Casetas de peaje en ambos sentidos.",
+          "Tiempo total del vehículo fuera de su zona.",
+          "Un cargo por espera en el destino, si el viaje es redondo.",
+          "Un recargo nocturno o de madrugada, si aplica en tu mercado.",
+          "El número máximo de pasajeros y de maletas incluidos."
+        ],
+        "en": [
+          "Round-trip distance, not just the outbound leg.",
+          "Tolls in both directions.",
+          "Total time the vehicle spends outside its area.",
+          "A waiting charge at the destination, if it's a round trip.",
+          "A night or early-morning surcharge, if it applies in your market.",
+          "The maximum number of passengers and suitcases included."
+        ]
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La tabla no tiene que ser perfecta el primer mes. Conviene empezar con los cinco destinos más pedidos, revisar cada trimestre si los costos de combustible o de casetas cambiaron y ajustar. Los destinos que aparecen una vez al año se pueden seguir cotizando caso por caso, pero con la misma lógica de la tabla para no improvisar.",
+        "en": "The table doesn't have to be perfect in the first month. It's best to start with the five most requested destinations, review each quarter whether fuel or toll costs have changed and adjust. Destinations that come up once a year can still be quoted case by case, but with the same logic as the table so you don't improvise."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "cotizar",
+      "text": {
+        "es": "Cómo cotizar sin improvisar",
+        "en": "How to quote without improvising"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Muchos viajes foráneos se pierden en la conversación, no en el precio. El pasajero pregunta cuánto cuesta ir a la capital, recibe una cifra sin explicación y no vuelve a escribir. Una buena cotización es corta pero completa: dice qué incluye, qué no incluye y cuánto tiempo es válida. Si el precio contempla el regreso vacío, vale la pena decirlo, porque el pasajero entiende mejor un precio cuando sabe de dónde sale.",
+        "en": "Many out-of-town trips are lost in the conversation, not on price. The passenger asks how much it costs to go to the capital, gets a figure with no explanation and never writes again. A good quote is short but complete: it says what's included, what isn't and how long it's valid. If the price covers the empty return, it's worth saying so, because a passenger understands a price better when they know where it comes from."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Para viajes de alto valor también es razonable pedir un anticipo o una confirmación el día anterior. Un conductor que reservó la mañana entera para un traslado al aeropuerto y se encuentra con que el pasajero canceló a última hora pierde más que en cualquier cancelación urbana. Un anticipo pequeño, o al menos un mensaje de confirmación la noche anterior, reduce ese riesgo sin espantar al cliente serio.",
+        "en": "For high-value trips it's also reasonable to ask for a deposit or a confirmation the day before. A driver who reserved the whole morning for an airport transfer and finds that the passenger cancelled at the last minute loses more than in any urban cancellation. A small deposit, or at least a confirmation message the night before, reduces that risk without scaring off a serious customer."
+      }
+    },
+    {
+      "type": "quote",
+      "text": {
+        "es": "Antes cotizábamos los viajes a la capital según quién contestara el teléfono, y cada conductor cobraba distinto. Hicimos una tabla con seis destinos, contando el regreso y las casetas, y la pusimos en un mensaje fijo de la central. Los conductores dejaron de rechazar esos viajes y los clientes dejaron de regatear, porque el precio era el mismo siempre.",
+        "en": "We used to quote trips to the capital depending on who answered the phone, and every driver charged differently. We made a table with six destinations, counting the return and the tolls, and put it in a saved dispatch message. Drivers stopped turning those trips down and customers stopped haggling, because the price was always the same."
+      },
+      "attribution": {
+        "es": "Operadora de taxi por app en una ciudad de 150,000 habitantes en Oaxaca, México",
+        "en": "App-based taxi operator in a city of 150,000 in Oaxaca, Mexico"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "También ayuda acordar qué pasa con los imprevistos antes de salir: un vuelo retrasado, una consulta que se alarga o una parada extra en el camino. Si la cotización ya dice cuánto cuesta cada hora adicional de espera, nadie tiene que negociar en la carretera y el conductor no queda en la posición incómoda de pedir más dinero a mitad del viaje.",
+        "en": "It also helps to agree on what happens with the unexpected before leaving: a delayed flight, an appointment that runs long or an extra stop on the way. If the quote already states how much each additional hour of waiting costs, nobody has to negotiate on the highway and the driver isn't put in the awkward position of asking for more money halfway through the trip."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "asignar-conductor",
+      "text": {
+        "es": "A quién asignar un viaje foráneo",
+        "en": "Who to assign an out-of-town trip to"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "No todos los conductores ni todos los vehículos son adecuados para la carretera. Un foráneo implica horas de manejo continuo, a veces de noche, y un pasajero que pasa mucho tiempo dentro del auto. Asignarlo al primero que esté libre puede funcionar en la ciudad, pero en un viaje largo los errores cuestan más: una llanta en mal estado, un conductor cansado tras un turno completo o un vehículo sin espacio para el equipaje que el cliente mencionó.",
+        "en": "Not every driver or every vehicle is suited to the highway. An out-of-town trip means hours of continuous driving, sometimes at night, and a passenger who spends a long time in the car. Assigning it to whoever is free first may work in the city, but on a long trip mistakes cost more: a tyre in poor condition, a driver tired after a full shift or a vehicle without room for the luggage the customer mentioned."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Muchas flotas resuelven esto con una lista corta de conductores habilitados para foráneos: los que tienen documentos vigentes, vehículo en buen estado, experiencia en carretera y buena calificación de los pasajeros. Los viajes programados con anticipación se asignan desde esa lista, y el conductor confirma que está disponible y descansado. Es también una forma de premiar a los mejores conductores, porque estos viajes suelen ser de los más rentables del mes.",
+        "en": "Many fleets solve this with a short list of drivers cleared for out-of-town trips: those with current documents, a vehicle in good condition, highway experience and good passenger ratings. Trips booked in advance are assigned from that list, and the driver confirms they're available and rested. It's also a way to reward the best drivers, because these trips are usually among the most profitable of the month."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Por seguridad, conviene que la central sepa siempre a qué hora salió el vehículo, cuál es el destino y a qué hora se espera la llegada. Un mensaje del conductor al llegar y otro al emprender el regreso bastan para tener control sin complicar la operación, y dan tranquilidad tanto al pasajero como a la familia del conductor.",
+        "en": "For safety, dispatch should always know what time the vehicle left, what the destination is and when arrival is expected. A message from the driver on arrival and another when starting the return are enough to keep control without complicating operations, and they reassure both the passenger and the driver's family."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "clientes-recurrentes",
+      "text": {
+        "es": "Convertir el foráneo en cliente recurrente",
+        "en": "Turning the out-of-town trip into a recurring customer"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Quien viaja a otra ciudad una vez suele volver a hacerlo: la consulta médica tiene seguimiento, el familiar vuelve a llegar al aeropuerto, la empresa manda a su personal a la capital cada mes. Por eso el foráneo es una de las mejores oportunidades para ganar clientes de largo plazo. Un viaje puntual, un conductor amable y un precio respetado son la mejor publicidad que puede tener una flota regional.",
+        "en": "Someone who travels to another city once usually does it again: the medical appointment has a follow-up, the relative arrives at the airport again, the company sends its staff to the capital every month. That's why the out-of-town trip is one of the best opportunities to win long-term customers. A punctual trip, a friendly driver and a respected price are the best advertising a regional fleet can have."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Vale la pena guardar el contacto de estos clientes, preguntarles si el viaje se repite y ofrecerles reservar el próximo con anticipación. Las empresas que mandan personal con frecuencia pueden pasar a un acuerdo corporativo con tarifa fija por destino y facturación mensual, lo que da a la flota ingresos más previsibles y a los conductores viajes largos programados con días de margen.",
+        "en": "It's worth keeping these customers' contact details, asking them whether the trip will repeat and offering to book the next one in advance. Companies that send staff frequently can move to a corporate agreement with a fixed fare per destination and monthly invoicing, which gives the fleet more predictable revenue and gives drivers long trips scheduled days ahead."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "cierre",
+      "text": {
+        "es": "Un viaje largo merece una cuenta completa",
+        "en": "A long trip deserves a complete calculation"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El viaje foráneo es pequeño en número y grande en dinero, y por eso se gana o se pierde en los detalles: contar el regreso, sumar las casetas, explicar el precio, asignar al conductor correcto y confirmar la víspera. Ninguna de esas tareas requiere tecnología complicada; requieren una regla clara que todos en la flota apliquen igual.",
+        "en": "The out-of-town trip is small in number and large in money, which is why it's won or lost in the details: counting the return, adding the tolls, explaining the price, assigning the right driver and confirming the day before. None of those tasks requires complicated technology; they require a clear rule that everyone in the fleet applies the same way."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Si hoy cotizas estos viajes de memoria, el primer paso es sencillo: reúne a tus conductores con más experiencia, anota los cinco destinos que más te piden y calcula juntos cuánto cuesta de verdad ir y volver. Con esa tabla en la mano, la central responde en minutos, los conductores aceptan sin dudar y el pasajero recibe un precio que puede entender y aceptar.",
+        "en": "If you quote these trips from memory today, the first step is simple: gather your most experienced drivers, write down the five destinations you're asked for most and calculate together how much it really costs to go and come back. With that table in hand, dispatch answers in minutes, drivers accept without hesitation and the passenger gets a price they can understand and accept."
+      }
+    }
+  ],
+  "cta": {
+    "heading": {
+      "es": "¿Listo para lanzar tu propia app de movilidad?",
+      "en": "Ready to launch your own mobility app?"
+    },
+    "body": {
+      "es": "Configura tu marca, tus tarifas y tus servicios en semanas, no en meses. Cabgo te entrega la plataforma; tú te quedas con la operación, los clientes y los ingresos.",
+      "en": "Set up your brand, pricing and services in weeks, not months. Cabgo ships the platform — you keep the operation, the customers and the revenue."
+    },
+    "buttonLabel": {
+      "es": "Comenzar con Cabgo",
+      "en": "Get started with Cabgo"
+    },
+    "buttonHref": "/empezar"
+  },
+  "seo": {
+    "metaTitle": {
+      "es": "Viajes foráneos en taxi: tarifa y regreso | Cabgo",
+      "en": "Out-of-town taxi trips: fares and returns | Cabgo"
+    },
+    "metaDescription": {
+      "es": "Cómo tarifar viajes foráneos en taxi: contar el regreso vacío y las casetas, tabla de tarifas por destino, cotizaciones claras y conductores adecuados.",
+      "en": "How to price out-of-town taxi trips: count the empty return and tolls, a fare table by destination, clear quotes and the right drivers."
+    }
+  },
+  "author": {
+    "name": "Equipo Cabgo",
+    "role": {
+      "es": "Plataforma de movilidad",
+      "en": "Mobility platform"
+    }
+  }
+}
