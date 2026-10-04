@@ -1,0 +1,331 @@
+{
+  "slug": "politica-mascotas-taxi-app-pasajeros",
+  "category": "strategy",
+  "title": {
+    "es": "Política de mascotas en tu taxi por app: reglas claras",
+    "en": "A pet policy for your app-based taxi: clear rules"
+  },
+  "excerpt": {
+    "es": "Pasajeros con perros y gatos generan cancelaciones y quejas cuando no hay reglas. Qué debe decir una política de mascotas, cómo cobrar, cómo cuidar al conductor y cómo comunicarla.",
+    "en": "Passengers with dogs and cats lead to cancellations and complaints when there are no rules. What a pet policy should say, how to charge, how to look after the driver and how to communicate it."
+  },
+  "heroImage": "https://raw.githubusercontent.com/jonatanvazquez/cabgo-blog-content/main/images/politica-mascotas-taxi-app-pasajeros.jpg",
+  "heroImageAlt": {
+    "es": "Ilustración isométrica de un taxi con la puerta trasera abierta, una transportadora de mascota y un perro con correa junto a la banqueta.",
+    "en": "Isometric illustration of a taxi with its rear door open, a pet carrier and a dog on a lead beside the kerb."
+  },
+  "heroImagePrompt": "Isometric scene on a deep violet floor grid: a compact taxi car parked at a kerb with its rear door open and a soft blanket on the back seat, a small pet carrier box on the sidewalk, a friendly medium-sized dog sitting on a lead next to it, and a small clipboard with a paw-print checklist floating above. Soft indigo radial glow at the center.",
+  "publishedAt": "2026-10-04",
+  "readingMinutes": 8,
+  "keywords": {
+    "es": [
+      "taxi con mascotas",
+      "política de mascotas taxi",
+      "viajar con perro en taxi",
+      "cargo extra mascota taxi",
+      "perros de asistencia taxi",
+      "taxi para veterinario"
+    ],
+    "en": [
+      "pet-friendly taxi",
+      "taxi pet policy",
+      "travel with dog in taxi",
+      "taxi pet surcharge",
+      "assistance dogs taxi",
+      "taxi to the vet"
+    ]
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Tarde o temprano, en cualquier flota de taxi por app pasa lo mismo: un pasajero pide un viaje, el conductor llega y en la banqueta lo espera alguien con un perro, una transportadora con un gato o una caja con un cachorro recién adoptado. El conductor duda, el pasajero se molesta, alguien llama a la central y nadie sabe bien cuál es la regla. Lo que sigue suele ser una cancelación, una mala reseña o un conductor que acepta a regañadientes y luego se queja de pelos en el asiento.",
+        "en": "Sooner or later, the same thing happens in every app-based taxi fleet: a passenger books a trip, the driver arrives and waiting on the pavement is someone with a dog, a carrier with a cat or a box with a newly adopted puppy. The driver hesitates, the passenger gets annoyed, someone calls dispatch and nobody really knows what the rule is. What follows is usually a cancellation, a bad review or a driver who reluctantly accepts and later complains about hair on the seat."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La tesis de este artículo es que el problema no son las mascotas, sino la falta de una política escrita. Cada vez más familias viajan con sus animales al veterinario, a la estética o de visita, y en muchas ciudades regionales casi no hay alternativas de transporte para ellos. Una flota que define reglas claras, las comunica antes del viaje y respeta la decisión del conductor convierte un punto de fricción en un servicio que la competencia no ofrece. Vamos a ver qué debe decir esa política, cómo cobrar, cómo cuidar al conductor y cómo comunicarla.",
+        "en": "The thesis of this article is that the problem isn't pets but the lack of a written policy. More and more families travel with their animals to the vet, the groomer or on visits, and in many regional cities there are almost no transport alternatives for them. A fleet that defines clear rules, communicates them before the trip and respects the driver's decision turns a point of friction into a service the competition doesn't offer. We'll look at what that policy should say, how to charge, how to look after the driver and how to communicate it."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "por-que-politica",
+      "text": {
+        "es": "Por qué hace falta una regla escrita",
+        "en": "Why you need a written rule"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Sin una política, cada conductor decide según su ánimo del día, y el pasajero recibe un servicio distinto cada vez. Uno acepta al perro sin problema, otro cancela al verlo y un tercero lo acepta pero cobra un extra que nadie le autorizó. Para el pasajero, la conclusión es que el servicio no es confiable. Para la flota, el resultado son quejas difíciles de resolver, porque no hay una regla contra la cual comparar lo que pasó.",
+        "en": "Without a policy, each driver decides according to their mood that day, and the passenger gets a different service every time. One accepts the dog without any problem, another cancels on seeing it and a third accepts but charges an extra nobody authorised. For the passenger, the conclusion is that the service isn't reliable. For the fleet, the result is complaints that are hard to resolve, because there's no rule to compare what happened against."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Hay además un tema de respeto hacia el conductor. El vehículo suele ser suyo o es su herramienta de trabajo, y un asiento rasguñado o con olor afecta los viajes del resto del turno. Una política clara no obliga al conductor a nada que no le corresponda: le da reglas para aceptar con tranquilidad y un respaldo cuando algo sale mal.",
+        "en": "There's also the question of respect for the driver. The vehicle is usually theirs or is their working tool, and a scratched seat or one that smells affects the rest of the shift's trips. A clear policy doesn't force the driver into anything that isn't theirs to bear: it gives them rules to accept calmly and backing when something goes wrong."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "que-dice",
+      "text": {
+        "es": "Qué debe decir la política",
+        "en": "What the policy should say"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Una buena política de mascotas cabe en media página. No necesita cubrir cada caso posible, sino los que se repiten. Estos son los puntos que la mayoría de las flotas termina incluyendo:",
+        "en": "A good pet policy fits on half a page. It doesn't need to cover every possible case, only the ones that come up repeatedly. These are the points most fleets end up including:"
+      }
+    },
+    {
+      "type": "list",
+      "style": "bullet",
+      "items": {
+        "es": [
+          "Qué animales se aceptan y de qué tamaño, en general mascotas domésticas.",
+          "Que los animales pequeños viajen en transportadora cerrada.",
+          "Que los perros grandes viajen con correa y, si es posible, sobre una manta o funda.",
+          "Que el pasajero avise de la mascota al pedir el viaje, no al llegar el conductor.",
+          "Qué cargo extra se aplica, si se aplica, y cuándo.",
+          "Qué pasa si el animal ensucia o daña el vehículo.",
+          "La excepción de los perros de asistencia, que siempre se aceptan."
+        ],
+        "en": [
+          "Which animals are accepted and what size, generally household pets.",
+          "That small animals travel in a closed carrier.",
+          "That large dogs travel on a lead and, if possible, on a blanket or seat cover.",
+          "That the passenger mentions the pet when booking, not when the driver arrives.",
+          "What extra charge applies, if any, and when.",
+          "What happens if the animal soils or damages the vehicle.",
+          "The exception for assistance dogs, which are always accepted."
+        ]
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El punto del aviso previo es el más importante. La mayoría de los conflictos ocurre porque el conductor se entera de la mascota en la banqueta, cuando ya hizo el recorrido para llegar. Si el pasajero lo dice al pedir, ya sea en un comentario del viaje o por mensaje a la central, el conductor puede decidir antes de aceptar y nadie pierde tiempo.",
+        "en": "The point about advance notice is the most important. Most conflicts happen because the driver finds out about the pet on the pavement, after already driving there. If the passenger mentions it when booking, whether in a trip comment or in a message to dispatch, the driver can decide before accepting and nobody wastes time."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "También conviene fijar un límite razonable de animales por viaje y aclarar qué pasa con especies poco comunes, como aves o reptiles. No hace falta prohibirlas: basta con decir que se aceptan si viajan en transportadora cerrada y si el conductor asignado está de acuerdo. Dejar ese caso por escrito evita que la central tenga que inventar una respuesta cada vez que alguien pregunta, y le da al pasajero una respuesta inmediata en lugar de un «déjame consultarlo».",
+        "en": "It's also worth setting a reasonable limit on animals per trip and clarifying what happens with less common species, such as birds or reptiles. There's no need to ban them: it's enough to say they're accepted if they travel in a closed carrier and the assigned driver agrees. Putting that case in writing saves dispatch from inventing an answer every time someone asks, and gives the passenger an immediate answer instead of a \"let me check\"."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "cobro",
+      "text": {
+        "es": "Cómo cobrar sin espantar al cliente",
+        "en": "How to charge without scaring the customer away"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Muchas flotas cobran un cargo fijo pequeño por viajar con mascota, para compensar la limpieza adicional y el tiempo extra al subir y bajar al animal. Otras no cobran nada en transportadora y solo aplican el cargo a perros grandes sueltos en el asiento. Cualquiera de las dos funciona, siempre que el monto esté publicado y sea el mismo para todos. Lo que no funciona es que el conductor decida el extra en el momento, porque el pasajero lo vive como un abuso aunque el monto sea razonable.",
+        "en": "Many fleets charge a small fixed fee for travelling with a pet, to cover the extra cleaning and the extra time getting the animal in and out. Others charge nothing for carriers and apply the fee only to large dogs loose on the seat. Either works, as long as the amount is published and is the same for everyone. What doesn't work is the driver deciding the extra on the spot, because the passenger experiences it as abuse even if the amount is reasonable."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Conviene separar el cargo por mascota del cargo por limpieza. El primero es previsible y se cobra en todos los viajes con animal. El segundo solo aplica si hubo un daño o una suciedad real, y debe documentarse con fotos tomadas al terminar el viaje. Así el pasajero responsable no paga por el descuidado, y el conductor tiene con qué respaldar su reclamo.",
+        "en": "It's best to separate the pet fee from the cleaning fee. The first is predictable and is charged on every trip with an animal. The second only applies if there was real damage or soiling, and it should be documented with photos taken at the end of the trip. That way the responsible passenger doesn't pay for the careless one, and the driver has something to back up their claim."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Para viajes largos con mascota, como un traslado a una clínica veterinaria en otra ciudad, vale la pena acordar paradas y tiempos antes de salir. Un animal nervioso necesita a veces una pausa para tomar agua o bajar un momento, y si eso ya está previsto en el precio y en el plan del viaje, ni el conductor ni el pasajero se sienten presionados por el reloj.",
+        "en": "For long trips with a pet, such as a transfer to a veterinary clinic in another city, it's worth agreeing on stops and timings before leaving. A nervous animal sometimes needs a break for water or a moment outside, and if that's already built into the price and the trip plan, neither the driver nor the passenger feels pressured by the clock."
+      }
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "text": {
+        "es": "Pide al conductor que tome una foto del asiento al terminar cada viaje con mascota, aunque esté limpio. Si después hay una queja por daño, esa foto resuelve la discusión en minutos.",
+        "en": "Ask the driver to take a photo of the seat at the end of every trip with a pet, even if it's clean. If a damage complaint comes up later, that photo settles the discussion in minutes."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "conductor",
+      "text": {
+        "es": "El conductor también decide",
+        "en": "The driver decides too"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Una política de mascotas no puede obligar a un conductor alérgico, con miedo a los perros o con un vehículo recién tapizado a aceptar cualquier animal. Lo razonable es que cada conductor indique si acepta mascotas, y que la central asigne estos viajes a quienes sí lo hacen. En la mayoría de las flotas siempre hay un grupo de conductores dispuestos, a veces porque ellos mismos tienen mascota y entienden al cliente.",
+        "en": "A pet policy can't force a driver who is allergic, afraid of dogs or has a newly upholstered vehicle to accept any animal. The reasonable thing is for each driver to state whether they accept pets, and for dispatch to assign these trips to those who do. In most fleets there's always a group of willing drivers, sometimes because they have pets themselves and understand the customer."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Ese grupo merece algo a cambio. Puede ser el cargo por mascota completo para ellos, prioridad en ciertos viajes programados o simplemente un reconocimiento público dentro de la flota. Lo importante es que aceptar mascotas no se sienta como un castigo. Y conviene equiparlos con lo básico: una funda o manta para el asiento trasero y algo para limpiar al final del viaje.",
+        "en": "That group deserves something in return. It might be the full pet fee going to them, priority on certain scheduled trips or simply public recognition within the fleet. The important thing is that accepting pets doesn't feel like a punishment. And it's worth equipping them with the basics: a cover or blanket for the back seat and something to clean up at the end of the trip."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Hay una excepción que no admite elección: los perros de asistencia que acompañan a personas con discapacidad. En muchos países su acceso al transporte está protegido por ley, y aunque las reglas cambian de un lugar a otro, la práctica más segura es que la flota los acepte siempre, sin cargo extra, y que todos los conductores lo sepan desde su incorporación.",
+        "en": "There's one exception that admits no choice: assistance dogs accompanying people with disabilities. In many countries their access to transport is protected by law, and although the rules vary from place to place, the safest practice is for the fleet to always accept them, without an extra charge, and for every driver to know this from the day they join."
+      }
+    },
+    {
+      "type": "quote",
+      "text": {
+        "es": "Al principio cada conductor hacía lo que quería con las mascotas y teníamos quejas cada semana. Escribimos la regla en una hoja, preguntamos quién aceptaba animales y a ellos les mandamos esos viajes. Ahora hay clientes que nos eligen solo porque saben que pueden llevar a su perro al veterinario sin discutir.",
+        "en": "At first each driver did whatever they wanted with pets and we had complaints every week. We wrote the rule on one page, asked who accepted animals and sent those trips to them. Now there are customers who choose us just because they know they can take their dog to the vet without an argument."
+      },
+      "attribution": {
+        "es": "Operador de taxi por app en una ciudad de 120,000 habitantes en Jalisco, México",
+        "en": "App-based taxi operator in a city of 120,000 in Jalisco, Mexico"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "comunicar",
+      "text": {
+        "es": "Cómo comunicar la política",
+        "en": "How to communicate the policy"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Una regla que solo conoce la central no sirve. El pasajero tiene que encontrarla antes de pedir el viaje, y el conductor tiene que tenerla clara antes de su primer turno. Estos son los lugares donde conviene publicarla:",
+        "en": "A rule only dispatch knows is useless. The passenger has to find it before booking, and the driver has to be clear on it before their first shift. These are the places where it's worth publishing:"
+      }
+    },
+    {
+      "type": "list",
+      "style": "bullet",
+      "items": {
+        "es": [
+          "En las preguntas frecuentes de la app o del sitio web de la flota.",
+          "En un mensaje fijo de la central, listo para enviar por WhatsApp.",
+          "En el material de incorporación de los conductores nuevos.",
+          "En las redes sociales, con una publicación sencilla y una foto amable.",
+          "En la respuesta a cualquier reseña que mencione mascotas."
+        ],
+        "en": [
+          "In the FAQ of the fleet's app or website.",
+          "In a saved dispatch message, ready to send on WhatsApp.",
+          "In the onboarding material for new drivers.",
+          "On social media, with a simple post and a friendly photo.",
+          "In the reply to any review that mentions pets."
+        ]
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El tono importa. Una política escrita como lista de prohibiciones transmite que la flota no quiere mascotas; la misma política escrita como «así viajamos con tu mascota» transmite que es bienvenida con reglas. Las reglas son idénticas, pero el cliente que tiene un perro lee la segunda versión como una invitación.",
+        "en": "Tone matters. A policy written as a list of prohibitions conveys that the fleet doesn't want pets; the same policy written as \"this is how we travel with your pet\" conveys that pets are welcome, with rules. The rules are identical, but a customer with a dog reads the second version as an invitation."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "oportunidad",
+      "text": {
+        "es": "Una oportunidad de nicho",
+        "en": "A niche opportunity"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "En muchas ciudades regionales, las familias con mascotas no tienen cómo llevarlas al veterinario si no tienen auto propio. Las plataformas grandes suelen dejar la decisión a cada conductor sin una regla visible, y el transporte público rara vez acepta animales. Una flota local que se anuncia como la opción para viajar con mascotas puede ganar clientes muy fieles, porque una vez que una familia encuentra un servicio en el que confía para su animal, rara vez cambia.",
+        "en": "In many regional cities, families with pets have no way to take them to the vet if they don't own a car. Large platforms usually leave the decision to each driver without a visible rule, and public transport rarely accepts animals. A local fleet that advertises itself as the option for travelling with pets can win very loyal customers, because once a family finds a service it trusts for its animal, it rarely switches."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Las alianzas también ayudan: veterinarias, estéticas caninas y tiendas de mascotas suelen tener clientes que necesitan transporte y no saben a quién llamar. Un acuerdo sencillo para recomendar la flota, con la política de mascotas por delante, puede generar viajes recurrentes de un segmento que pocos están atendiendo.",
+        "en": "Partnerships help too: vets, dog groomers and pet shops usually have customers who need transport and don't know whom to call. A simple agreement to recommend the fleet, with the pet policy up front, can generate recurring trips from a segment few are serving."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "cierre",
+      "text": {
+        "es": "Reglas claras, viajes tranquilos",
+        "en": "Clear rules, calm trips"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Viajar con mascotas no tiene por qué ser una fuente de discusiones en la banqueta. Con una política de media página, un aviso previo del pasajero, un cargo publicado y un grupo de conductores dispuestos, la mayoría de los conflictos desaparece antes de que ocurran.",
+        "en": "Travelling with pets doesn't have to be a source of arguments on the pavement. With a half-page policy, advance notice from the passenger, a published fee and a group of willing drivers, most conflicts disappear before they happen."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Si hoy tu flota no tiene una regla escrita, el primer paso es sencillo: pregunta a tus conductores quién acepta mascotas y en qué condiciones, escribe lo que acuerden y publícalo donde tus pasajeros lo vean. Es una de las mejoras más baratas que puedes hacer, y puede traerte clientes que hoy no tienen a quién llamar.",
+        "en": "If your fleet doesn't have a written rule today, the first step is simple: ask your drivers who accepts pets and under what conditions, write down what you agree and publish it where your passengers will see it. It's one of the cheapest improvements you can make, and it can bring you customers who currently have nobody to call."
+      }
+    }
+  ],
+  "cta": {
+    "heading": {
+      "es": "¿Listo para lanzar tu propia app de movilidad?",
+      "en": "Ready to launch your own mobility app?"
+    },
+    "body": {
+      "es": "Configura tu marca, tus tarifas y tus servicios en semanas, no en meses. Cabgo te entrega la plataforma; tú te quedas con la operación, los clientes y los ingresos.",
+      "en": "Set up your brand, pricing and services in weeks, not months. Cabgo ships the platform — you keep the operation, the customers and the revenue."
+    },
+    "buttonLabel": {
+      "es": "Comenzar con Cabgo",
+      "en": "Get started with Cabgo"
+    },
+    "buttonHref": "/empezar"
+  },
+  "seo": {
+    "metaTitle": {
+      "es": "Política de mascotas para taxi por app | Cabgo",
+      "en": "Pet policy for app-based taxis | Cabgo"
+    },
+    "metaDescription": {
+      "es": "Cómo definir una política de mascotas para tu taxi por app: aviso previo, cargo publicado, conductores que aceptan animales y perros de asistencia.",
+      "en": "How to set a pet policy for your app-based taxi: advance notice, a published fee, drivers who accept animals and assistance dogs."
+    }
+  },
+  "author": {
+    "name": "Equipo Cabgo",
+    "role": {
+      "es": "Plataforma de movilidad",
+      "en": "Mobility platform"
+    }
+  }
+}
