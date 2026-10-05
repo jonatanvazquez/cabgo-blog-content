@@ -1,0 +1,324 @@
+{
+  "slug": "mantenimiento-preventivo-flota-taxi-calendario",
+  "category": "strategy",
+  "title": {
+    "es": "Mantenimiento preventivo de tu flota de taxi: un calendario",
+    "en": "Preventive maintenance for your taxi fleet: a schedule"
+  },
+  "excerpt": {
+    "es": "Una descompostura en viernes por la noche cuesta más que cualquier servicio programado. Qué revisar y cada cuánto, quién se encarga según el dueño del auto, cómo programar el taller y qué registrar.",
+    "en": "A Friday-night breakdown costs more than any scheduled service. What to check and how often, who takes care of it depending on the car's owner, how to schedule the workshop and what to record."
+  },
+  "heroImage": "https://raw.githubusercontent.com/jonatanvazquez/cabgo-blog-content/main/images/mantenimiento-preventivo-flota-taxi-calendario.jpg",
+  "heroImageAlt": {
+    "es": "Ilustración isométrica de un taxi elevado en un taller, con un calendario, una llanta y una llave inglesa.",
+    "en": "Isometric illustration of a taxi raised on a workshop lift, with a calendar, a tyre and a wrench."
+  },
+  "heroImagePrompt": "Isometric scene on a deep violet floor grid: a compact taxi car raised on a two-post workshop lift, a stack of two tyres beside it, a large wall calendar with a few days ticked in green floating above, and an oversized wrench lying on the floor. Soft indigo radial glow at the center.",
+  "publishedAt": "2026-10-05",
+  "readingMinutes": 8,
+  "keywords": {
+    "es": [
+      "mantenimiento preventivo flota taxi",
+      "calendario mantenimiento taxi",
+      "mantenimiento vehículos ride-hailing",
+      "cada cuánto cambiar aceite taxi",
+      "taller para flota de taxis",
+      "descomposturas flota"
+    ],
+    "en": [
+      "taxi fleet preventive maintenance",
+      "taxi maintenance schedule",
+      "ride-hailing vehicle maintenance",
+      "taxi oil change interval",
+      "workshop for taxi fleet",
+      "fleet breakdowns"
+    ]
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "En una flota de taxi por app, el vehículo que más dinero cuesta no es el más caro de comprar: es el que se descompone un viernes por la noche. Ese auto deja de producir justo en las horas de más demanda, deja a un pasajero esperando una grúa, obliga al conductor a perder días de ingresos mientras consigue la refacción y, muchas veces, termina con una reparación más cara que la que habría evitado un cambio de balatas a tiempo. Y casi siempre, cuando se revisa qué pasó, la falla estaba anunciada desde semanas antes.",
+        "en": "In an app-based taxi fleet, the vehicle that costs the most isn't the most expensive one to buy: it's the one that breaks down on a Friday night. That car stops earning exactly during peak demand, leaves a passenger waiting for a tow truck, forces the driver to lose days of income while finding the spare part and, very often, ends up with a repair more expensive than the one a timely brake-pad change would have avoided. And almost always, when you look at what happened, the failure had been announced weeks earlier."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La tesis de este artículo es que el mantenimiento preventivo no es un gasto del conductor ni un tema que la flota pueda ignorar: es una parte de la operación, igual que los turnos o las tarifas. Las flotas regionales que lo organizan con un calendario sencillo pierden menos horas de servicio, reciben menos quejas y retienen mejor a sus conductores. Vamos a ver por qué el correctivo sale más caro, qué revisar y cada cuánto, cómo organizarlo según quién es dueño del vehículo, cómo programar los talleres sin dejar huecos en la operación y qué registros conviene llevar.",
+        "en": "The thesis of this article is that preventive maintenance isn't the driver's expense alone, nor a subject the fleet can ignore: it's part of operations, just like shifts or fares. Regional fleets that organise it with a simple schedule lose fewer service hours, receive fewer complaints and retain their drivers better. We'll look at why corrective repair costs more, what to check and how often, how to organise it depending on who owns the vehicle, how to schedule workshop visits without leaving gaps in operations and which records are worth keeping."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "correctivo-cuesta-mas",
+      "text": {
+        "es": "Por qué el correctivo siempre sale más caro",
+        "en": "Why corrective repair always costs more"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Cuando un vehículo se descompone en servicio, el costo no es solo la reparación. Hay que sumar las horas que el auto deja de trabajar, el viaje que se interrumpió, la reseña que deja el pasajero que se quedó a medio camino y, en muchos casos, la grúa. Además, una falla que no se atendió a tiempo suele arrastrar a otras piezas: unas balatas gastadas terminan rayando los discos, una banda que no se cambió daña la bomba de agua, un aceite vencido acelera el desgaste del motor.",
+        "en": "When a vehicle breaks down in service, the cost isn't just the repair. You have to add the hours the car stops working, the trip that was interrupted, the review left by the passenger stranded halfway and, in many cases, the tow truck. On top of that, a failure that isn't dealt with in time usually drags other parts down with it: worn brake pads end up scoring the discs, a belt that wasn't replaced damages the water pump, overdue oil speeds up engine wear."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El mantenimiento preventivo invierte esa lógica. Se hace en un momento elegido, normalmente en horas de baja demanda, con la refacción ya conseguida y sin un pasajero esperando. Cuesta menos, se planea y no aparece de sorpresa en el peor momento del día. Para el conductor, que vive de las horas que su vehículo está en la calle, esa previsibilidad vale tanto como el ahorro en dinero.",
+        "en": "Preventive maintenance reverses that logic. It's done at a chosen moment, usually during low-demand hours, with the spare part already in hand and no passenger waiting. It costs less, it's planned and it doesn't appear as a surprise at the worst time of day. For the driver, who lives off the hours their vehicle spends on the street, that predictability is worth as much as the money saved."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "que-revisar",
+      "text": {
+        "es": "Qué revisar y cada cuánto",
+        "en": "What to check and how often"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Un auto de taxi recorre en un mes lo que un auto particular recorre en varios, así que los intervalos de mantenimiento llegan mucho antes de lo que el conductor está acostumbrado. Lo más práctico es medir por kilómetros, no por meses, y apoyarse siempre en el manual del fabricante de cada modelo. Estas son las revisiones que casi todas las flotas terminan incluyendo en su calendario:",
+        "en": "A taxi covers in one month what a private car covers in several, so maintenance intervals arrive much sooner than the driver is used to. The most practical approach is to measure by kilometres, not by months, and always rely on the manufacturer's manual for each model. These are the checks almost every fleet ends up including in its schedule:"
+      }
+    },
+    {
+      "type": "list",
+      "style": "bullet",
+      "items": {
+        "es": [
+          "Cambio de aceite y filtro según el kilometraje que indique el fabricante.",
+          "Revisión de frenos: balatas, discos y líquido.",
+          "Presión, desgaste y rotación de llantas.",
+          "Niveles de refrigerante, líquido de dirección y limpiaparabrisas.",
+          "Luces, direccionales y claxon.",
+          "Aire acondicionado, que en muchas ciudades es parte del servicio.",
+          "Suspensión y alineación, sobre todo en calles con baches."
+        ],
+        "en": [
+          "Oil and filter change at the mileage the manufacturer specifies.",
+          "Brake check: pads, discs and fluid.",
+          "Tyre pressure, wear and rotation.",
+          "Coolant, steering fluid and washer fluid levels.",
+          "Lights, indicators and horn.",
+          "Air conditioning, which in many cities is part of the service.",
+          "Suspension and alignment, especially on streets with potholes."
+        ]
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Algunas de estas revisiones las puede hacer el propio conductor en dos minutos al empezar el turno, como la presión de llantas, las luces o los niveles. Otras requieren taller. Separar unas de otras evita tanto el exceso, mandar el auto al taller por algo que se revisa en la banqueta, como el descuido, confiar en que el conductor detectará a simple vista un disco de freno gastado.",
+        "en": "Some of these checks the driver can do in two minutes at the start of the shift, such as tyre pressure, lights or fluid levels. Others need a workshop. Separating the two avoids both excess, sending the car to the workshop for something that can be checked at the kerb, and neglect, trusting the driver to spot a worn brake disc at a glance."
+      }
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "text": {
+        "es": "Pide a cada conductor que anote el kilometraje del tablero una vez por semana, por ejemplo cada lunes. Con ese solo dato puedes saber qué vehículos están por llegar a su próximo servicio y avisarles con tiempo.",
+        "en": "Ask each driver to note the odometer reading once a week, for example every Monday. With that single figure you can tell which vehicles are about to reach their next service and warn them in time."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "senales",
+      "text": {
+        "es": "Las señales que el conductor nota primero",
+        "en": "The signs the driver notices first"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El conductor pasa ocho o diez horas al día dentro del vehículo, así que casi siempre es el primero en notar que algo no va bien: un ruido nuevo al frenar, una vibración en el volante a cierta velocidad, un testigo que se enciende en el tablero, el aire acondicionado que ya no enfría igual. El problema es que muchas veces no lo reporta, porque teme perder días de trabajo o porque nadie le ha dicho a quién avisar.",
+        "en": "The driver spends eight or ten hours a day inside the vehicle, so they're almost always the first to notice that something isn't right: a new noise when braking, a vibration in the steering wheel at a certain speed, a warning light on the dashboard, air conditioning that no longer cools the same. The problem is that often they don't report it, because they fear losing days of work or because nobody has told them whom to tell."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Conviene dejar claro un canal sencillo para estos avisos, como un mensaje a la central con una foto o un audio corto, y responder siempre con una decisión: seguir trabajando y revisarlo en la próxima cita, o ir al taller hoy. Un conductor que ve que su aviso se atiende sin castigo vuelve a avisar la próxima vez, y esa es la mejor alarma temprana que puede tener una flota.",
+        "en": "It's worth setting up a simple channel for these alerts, such as a message to dispatch with a photo or a short voice note, and always replying with a decision: keep working and check it at the next appointment, or go to the workshop today. A driver who sees their alert handled without penalty will report again next time, and that is the best early warning a fleet can have."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "quien-paga",
+      "text": {
+        "es": "Quién se encarga según quién es dueño del auto",
+        "en": "Who takes care of it depending on who owns the car"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La forma de organizar el mantenimiento depende del modelo de flota. Cuando los vehículos son de la empresa, la flota decide el calendario, elige el taller y paga las refacciones; el conductor solo tiene que llevar el auto cuando le toca y reportar cualquier ruido raro. Es el modelo más fácil de controlar, pero también el que más carga administrativa le pone al operador.",
+        "en": "How you organise maintenance depends on the fleet model. When the vehicles belong to the company, the fleet sets the schedule, chooses the workshop and pays for the parts; the driver only has to bring the car in when it's due and report any strange noise. It's the easiest model to control, but also the one that puts the most administrative load on the operator."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Cuando el vehículo es del conductor afiliado, el mantenimiento es su responsabilidad y su gasto, pero la flota sigue teniendo interés en que se haga: un auto descompuesto es un conductor menos en la calle y un riesgo para el pasajero. En este modelo la flota no impone el taller, pero sí puede fijar estándares mínimos, recordar los vencimientos, negociar descuentos con talleres locales para todos sus afiliados y pedir constancia de las revisiones importantes, como frenos y llantas.",
+        "en": "When the vehicle belongs to the affiliated driver, maintenance is their responsibility and their expense, but the fleet still has an interest in it being done: a broken-down car is one fewer driver on the street and a risk to the passenger. In this model the fleet doesn't impose the workshop, but it can set minimum standards, send reminders before services fall due, negotiate discounts with local workshops for all its affiliates and ask for proof of the important checks, such as brakes and tyres."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "En los modelos mixtos, donde un dueño tiene varios autos y los trabaja con distintos conductores, conviene dejar por escrito quién reporta las fallas, quién lleva el auto al taller y quién paga cada cosa. La mayoría de los conflictos entre dueños y conductores no son por el costo de una reparación, sino por no haber acordado de antemano a quién le tocaba.",
+        "en": "In mixed models, where one owner has several cars worked by different drivers, it's worth putting in writing who reports faults, who takes the car to the workshop and who pays for what. Most conflicts between owners and drivers aren't about the cost of a repair but about not having agreed in advance whose job it was."
+      }
+    },
+    {
+      "type": "quote",
+      "text": {
+        "es": "Teníamos dos o tres autos parados cada semana por cosas que se veían venir: frenos, llantas, una banda. Empezamos a pedirle a los conductores el kilometraje cada lunes y a avisarles cuando les tocaba el servicio. Hicimos un trato con un taller para que los atendiera temprano, antes del turno. En pocos meses casi no volvimos a tener autos parados en viernes.",
+        "en": "We had two or three cars off the road every week for things you could see coming: brakes, tyres, a belt. We started asking drivers for their mileage every Monday and reminding them when their service was due. We made a deal with a workshop to see them early, before the shift. Within a few months we almost never had cars off the road on a Friday again."
+      },
+      "attribution": {
+        "es": "Operador de taxi por app con 40 conductores en una ciudad de 180,000 habitantes en Veracruz, México",
+        "en": "App-based taxi operator with 40 drivers in a city of 180,000 in Veracruz, Mexico"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "programar-taller",
+      "text": {
+        "es": "Programar el taller sin dejar huecos en la operación",
+        "en": "Scheduling workshop visits without leaving operational gaps"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El peor momento para mandar un auto al taller es el que se elige sin mirar la demanda. Si tres conductores coinciden en el servicio un viernes por la tarde, la flota pierde capacidad justo cuando más la necesita. Lo ideal es repartir los servicios a lo largo de la semana y concentrarlos en las horas valle: media mañana entre semana, o temprano antes de que empiece el turno.",
+        "en": "The worst time to send a car to the workshop is one chosen without looking at demand. If three drivers happen to have their service on a Friday afternoon, the fleet loses capacity exactly when it needs it most. Ideally, services are spread across the week and concentrated in off-peak hours: mid-morning on weekdays, or early before the shift begins."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Un acuerdo con uno o dos talleres de confianza ayuda mucho. Si el taller sabe que va a recibir varios autos al mes, suele aceptar citas tempranas, tener a mano las refacciones de los modelos más comunes en la flota y dar un precio preferente. A cambio, la flota le garantiza volumen y le avisa con anticipación. Para el conductor, saber que el servicio dura dos horas y no un día entero cambia su disposición a hacerlo.",
+        "en": "An agreement with one or two trusted workshops helps a lot. If the workshop knows it will receive several cars a month, it will usually accept early appointments, keep spare parts for the most common models in the fleet on hand and offer a preferential price. In exchange, the fleet guarantees volume and gives advance notice. For the driver, knowing the service takes two hours rather than a whole day changes their willingness to do it."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "También conviene tener previsto qué pasa cuando un auto queda detenido más tiempo del esperado. Algunas flotas con vehículos propios mantienen un auto de reserva; otras reorganizan turnos para que el conductor afectado comparta vehículo con un compañero mientras tanto. Lo importante es que la decisión no se improvise el día que ocurre.",
+        "en": "It's also worth planning what happens when a car is held up longer than expected. Some fleets with their own vehicles keep a spare car; others rearrange shifts so the affected driver shares a vehicle with a colleague in the meantime. What matters is that the decision isn't improvised on the day it happens."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "registros",
+      "text": {
+        "es": "Qué registrar para no depender de la memoria",
+        "en": "What to record so you don't depend on memory"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "No hace falta un sistema complicado para llevar el control del mantenimiento. Una hoja de cálculo con una fila por vehículo es suficiente para la mayoría de las flotas regionales, siempre que se actualice. Los datos que más ayudan son pocos:",
+        "en": "You don't need a complicated system to keep track of maintenance. A spreadsheet with one row per vehicle is enough for most regional fleets, as long as it's kept up to date. The data that helps most is limited:"
+      }
+    },
+    {
+      "type": "list",
+      "style": "bullet",
+      "items": {
+        "es": [
+          "Placa, modelo y año del vehículo.",
+          "Kilometraje de la última lectura semanal.",
+          "Fecha y kilometraje del último servicio.",
+          "Kilometraje del próximo servicio.",
+          "Reparaciones fuera de calendario y su causa."
+        ],
+        "en": [
+          "Vehicle plate, model and year.",
+          "Mileage at the last weekly reading.",
+          "Date and mileage of the last service.",
+          "Mileage of the next service.",
+          "Unscheduled repairs and their cause."
+        ]
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La última columna es la más valiosa a mediano plazo. Si un modelo concreto tiene siempre problemas de suspensión, o si un conductor acumula más reparaciones que el resto con el mismo auto, el registro lo muestra. Con esos datos la flota puede decidir mejor qué modelos aceptar en el futuro, qué conductores necesitan una conversación sobre su forma de manejar y qué talleres dan mejor resultado.",
+        "en": "The last column is the most valuable in the medium term. If a particular model always has suspension problems, or if one driver racks up more repairs than the rest with the same car, the record shows it. With that data the fleet can make better decisions about which models to accept in future, which drivers need a conversation about their driving and which workshops give the best results."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "cierre",
+      "text": {
+        "es": "Un auto parado a tiempo no se para a destiempo",
+        "en": "A car stopped on time doesn't stop at the wrong time"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El mantenimiento preventivo no requiere tecnología especial ni un presupuesto grande. Requiere un calendario por kilometraje, un dato semanal de cada vehículo, un acuerdo claro sobre quién se encarga de qué y uno o dos talleres que atiendan en horas de poca demanda. Con eso, la mayoría de las descomposturas que hoy aparecen de sorpresa se convierten en citas programadas.",
+        "en": "Preventive maintenance doesn't require special technology or a big budget. It requires a schedule by mileage, one weekly figure per vehicle, a clear agreement on who takes care of what and one or two workshops that work during low-demand hours. With that, most of the breakdowns that appear as surprises today become scheduled appointments."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Si hoy tu flota no lleva ningún registro, empieza esta semana con lo más simple: pide el kilometraje de cada auto el lunes, anótalo junto a la fecha del último cambio de aceite y avisa a quien esté por llegar a su próximo servicio. En un mes sabrás qué vehículos te preocupan y tendrás menos sorpresas en las noches de más trabajo.",
+        "en": "If your fleet keeps no records today, start this week with the simplest step: ask for every car's mileage on Monday, write it down next to the date of the last oil change and warn whoever is close to their next service. In a month you'll know which vehicles worry you and you'll have fewer surprises on your busiest nights."
+      }
+    }
+  ],
+  "cta": {
+    "heading": {
+      "es": "¿Listo para lanzar tu propia app de movilidad?",
+      "en": "Ready to launch your own mobility app?"
+    },
+    "body": {
+      "es": "Configura tu marca, tus tarifas y tus servicios en semanas, no en meses. Cabgo te entrega la plataforma; tú te quedas con la operación, los clientes y los ingresos.",
+      "en": "Set up your brand, pricing and services in weeks, not months. Cabgo ships the platform — you keep the operation, the customers and the revenue."
+    },
+    "buttonLabel": {
+      "es": "Comenzar con Cabgo",
+      "en": "Get started with Cabgo"
+    },
+    "buttonHref": "/empezar"
+  },
+  "seo": {
+    "metaTitle": {
+      "es": "Mantenimiento preventivo de flota de taxi | Cabgo",
+      "en": "Preventive maintenance for taxi fleets | Cabgo"
+    },
+    "metaDescription": {
+      "es": "Cómo organizar el mantenimiento preventivo de una flota de taxi: revisiones por kilometraje, quién se encarga, talleres en horas valle y registros simples.",
+      "en": "How to organise preventive maintenance for a taxi fleet: checks by mileage, who takes care of it, off-peak workshop visits and simple records."
+    }
+  },
+  "author": {
+    "name": "Equipo Cabgo",
+    "role": {
+      "es": "Plataforma de movilidad",
+      "en": "Mobility platform"
+    }
+  }
+}
