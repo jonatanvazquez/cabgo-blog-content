@@ -1,0 +1,300 @@
+{
+  "slug": "pedir-taxi-para-otra-persona-operacion",
+  "category": "strategy",
+  "title": {
+    "es": "Pedir un taxi para otra persona: cómo operarlo bien",
+    "en": "Booking a taxi for someone else: how to run it well"
+  },
+  "excerpt": {
+    "es": "Hijas que piden taxi para sus papás, hoteles para sus huéspedes, empresas para su personal. Cómo identificar al pasajero, a quién avisar, cómo resolver el pago y qué cuidar con menores y mayores.",
+    "en": "Daughters booking taxis for their parents, hotels for guests, companies for staff. How to identify the passenger, whom to notify, how to settle payment and what to watch with minors and older people."
+  },
+  "heroImage": "https://raw.githubusercontent.com/jonatanvazquez/cabgo-blog-content/main/images/pedir-taxi-para-otra-persona-operacion.jpg",
+  "heroImageAlt": {
+    "es": "Ilustración isométrica de un taxi frente a una clínica, una persona mayor esperando y un teléfono con un mensaje de llegada.",
+    "en": "Isometric illustration of a taxi outside a clinic, an older person waiting and a phone showing an arrival message."
+  },
+  "heroImagePrompt": "Isometric scene on a deep violet floor grid: a compact taxi car stopped in front of a small clinic building with a green cross sign, an elderly person with a cane waiting at the entrance, and a large floating smartphone on the right showing a chat bubble with a green check mark. Soft indigo radial glow at the center.",
+  "publishedAt": "2026-10-06",
+  "readingMinutes": 8,
+  "keywords": {
+    "es": [
+      "pedir taxi para otra persona",
+      "taxi para familiar",
+      "taxi para adulto mayor",
+      "taxi para menor de edad",
+      "pedir taxi para un huésped",
+      "viaje para un tercero"
+    ],
+    "en": [
+      "book a taxi for someone else",
+      "taxi for a relative",
+      "taxi for older adults",
+      "taxi for a minor",
+      "book a taxi for a guest",
+      "trip for a third party"
+    ]
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Una parte creciente de los viajes en una ciudad regional no los pide quien viaja. Es la hija que pide un taxi para su mamá que va al médico, el papá que manda a su hijo adolescente de regreso de una fiesta, la recepcionista de un hotel que pide un auto para un huésped o el encargado de una empresa que organiza el traslado de un empleado. En todos esos casos hay dos personas: la que paga y decide, y la que se sube al vehículo. Y cuando la operación las trata como si fueran la misma, aparecen los problemas.",
+        "en": "A growing share of trips in a regional city aren't booked by the person travelling. It's the daughter booking a taxi for her mother going to the doctor, the father sending his teenage son home from a party, the hotel receptionist ordering a car for a guest or the company manager arranging a transfer for an employee. In all those cases there are two people: the one who pays and decides, and the one who gets in the vehicle. And when operations treat them as the same person, problems appear."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La tesis de este artículo es que el viaje para un tercero es un caso de uso propio, con sus reglas de identificación, comunicación y pago, y que las flotas que lo atienden bien ganan a los clientes más fieles: los que confían su familia, sus huéspedes o su personal a un servicio. Vamos a ver por qué este viaje es distinto, cómo identificar al pasajero correcto, a quién avisar en cada momento, cómo resolver el pago y qué cuidados extra merecen los menores y las personas mayores.",
+        "en": "The thesis of this article is that the trip for a third party is a use case of its own, with its own rules for identification, communication and payment, and that fleets who handle it well win the most loyal customers: those who entrust their family, their guests or their staff to a service. We'll look at why this trip is different, how to identify the right passenger, whom to notify at each moment, how to settle payment and what extra care minors and older people deserve."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "por-que-distinto",
+      "text": {
+        "es": "Por qué este viaje es distinto",
+        "en": "Why this trip is different"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "En un viaje normal, la persona que pide el taxi está en el punto de recogida, tiene el teléfono en la mano y puede hablar con el conductor si algo no cuadra. En un viaje para un tercero, quien pidió puede estar en otra ciudad, en una oficina o simplemente sin mirar el teléfono. El conductor llega, busca a alguien que no conoce, llama al número que aparece en el pedido y le contesta una persona que no está ahí. Mientras tanto, el pasajero real espera en la banqueta sin saber qué auto es el suyo.",
+        "en": "On a normal trip, the person who booked the taxi is at the pickup point, has the phone in hand and can talk to the driver if something doesn't match. On a trip for a third party, the person who booked may be in another city, in an office or simply not looking at their phone. The driver arrives, looks for someone they don't know, calls the number on the booking and is answered by someone who isn't there. Meanwhile the real passenger waits on the pavement without knowing which car is theirs."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Además, quien pide para otro suele hacerlo precisamente porque esa persona no puede o no sabe pedir sola: un adulto mayor sin teléfono inteligente, un adolescente, un visitante que no conoce la ciudad, alguien enfermo. Es decir, el pasajero de estos viajes es, con frecuencia, más vulnerable que el promedio. Un error de identificación o de comunicación pesa más aquí que en cualquier otro viaje.",
+        "en": "Besides, people who book for someone else usually do so precisely because that person can't or doesn't know how to book alone: an older adult without a smartphone, a teenager, a visitor who doesn't know the city, someone who is ill. In other words, the passenger on these trips is often more vulnerable than average. An identification or communication error weighs more here than on any other trip."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "identificar",
+      "text": {
+        "es": "Identificar al pasajero correcto",
+        "en": "Identifying the right passenger"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La primera regla es que el conductor sepa a quién recoge, no solo dónde. Cuando el pedido se hace para otra persona, conviene que quien lo pide deje en los comentarios del viaje o en el mensaje a la central los datos mínimos del pasajero real. Estos son los que más conflictos evitan:",
+        "en": "The first rule is that the driver knows whom they're picking up, not just where. When a booking is made for someone else, the person booking should leave the real passenger's basic details in the trip comments or in the message to dispatch. These are the ones that prevent the most conflicts:"
+      }
+    },
+    {
+      "type": "list",
+      "style": "bullet",
+      "items": {
+        "es": [
+          "Nombre del pasajero que se va a subir.",
+          "Teléfono del pasajero, si tiene uno.",
+          "Una descripción sencilla: ropa, si lleva bastón o maletas.",
+          "Un punto de referencia exacto: la puerta del hospital, la recepción del hotel.",
+          "Si necesita ayuda para subir o bajar del vehículo."
+        ],
+        "en": [
+          "Name of the passenger who will get in.",
+          "The passenger's phone number, if they have one.",
+          "A simple description: clothing, whether they use a cane or carry luggage.",
+          "An exact reference point: the hospital door, the hotel reception.",
+          "Whether they need help getting in or out of the vehicle."
+        ]
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Del lado del conductor, la regla equivalente es confirmar antes de arrancar. Una pregunta sencilla como «¿usted es la señora Martha, que va a la clínica?» evita que suba la persona equivocada, algo que pasa más de lo que parece en puertas de hospitales, escuelas y terminales, donde varias personas esperan un taxi al mismo tiempo. La confirmación debe ser del nombre y del destino, no solo de que la persona espera un taxi.",
+        "en": "On the driver's side, the equivalent rule is to confirm before setting off. A simple question such as \"are you Mrs Martha, going to the clinic?\" prevents the wrong person getting in, which happens more than it seems at hospital, school and terminal entrances, where several people wait for a taxi at the same time. The confirmation should cover the name and the destination, not just that the person is waiting for a taxi."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "También ayuda que el pasajero real sepa qué auto esperar. Quien pidió el viaje puede reenviarle por mensaje la placa, el color y el nombre del conductor en cuanto se asigna. Si el pasajero no tiene teléfono, la central puede dar esos datos por llamada a quien lo esté acompañando, por ejemplo en la recepción de una clínica.",
+        "en": "It also helps if the real passenger knows which car to expect. The person who booked can forward them the plate, colour and driver's name by message as soon as the trip is assigned. If the passenger has no phone, dispatch can give those details by phone to whoever is with them, for example at a clinic reception."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "comunicacion",
+      "text": {
+        "es": "A quién avisar en cada momento",
+        "en": "Whom to notify at each moment"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "En estos viajes hay dos personas que quieren saber qué está pasando, y no siempre la misma información. Quien pidió quiere saber que el conductor llegó, que su familiar subió y que llegó a su destino. El pasajero quiere saber cuándo llega el auto y cómo reconocerlo. Si la central o el conductor solo hablan con una de las dos, la otra se queda con la incertidumbre y, muchas veces, llama para preguntar.",
+        "en": "On these trips there are two people who want to know what's happening, and they don't always want the same information. The person who booked wants to know that the driver arrived, that their relative got in and that they reached the destination. The passenger wants to know when the car arrives and how to recognise it. If dispatch or the driver only talk to one of them, the other is left uncertain and often calls to ask."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Una práctica sencilla es acordar desde el pedido quién recibe qué aviso. Lo más habitual es que el conductor se comunique con el pasajero para la recogida, y que quien pidió reciba la confirmación de que el viaje empezó y terminó. Para clientes que piden con frecuencia, como un hotel o una familia que manda a un adulto mayor a sus citas cada semana, ese acuerdo se hace una vez y queda como costumbre.",
+        "en": "A simple practice is to agree when booking who gets which notice. The most common arrangement is for the driver to contact the passenger for the pickup, and for the person who booked to receive confirmation that the trip started and ended. For customers who book frequently, such as a hotel or a family that sends an older relative to appointments every week, that agreement is made once and becomes habit."
+      }
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "text": {
+        "es": "Pide al conductor que avise con un mensaje corto a quien hizo el pedido cuando el pasajero llegue a su destino, sobre todo si es un adulto mayor o un menor. Es un gesto de segundos que genera más confianza que cualquier promoción.",
+        "en": "Ask the driver to send a short message to the person who booked when the passenger reaches their destination, especially if it's an older adult or a minor. It's a gesture of seconds that builds more trust than any promotion."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "pago",
+      "text": {
+        "es": "Cómo resolver el pago",
+        "en": "How to settle payment"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El pago es donde más se enredan estos viajes. Si quien pidió da por hecho que pagará el pasajero, y el pasajero da por hecho que ya estaba pagado, el conductor termina el viaje sin cobrar o con una discusión incómoda. Lo mejor es dejarlo claro en el pedido: quién paga, cómo y cuánto, aproximadamente.",
+        "en": "Payment is where these trips get most tangled. If the person who booked assumes the passenger will pay, and the passenger assumes it was already paid, the driver ends the trip without charging or with an awkward argument. It's best to make it clear in the booking: who pays, how and roughly how much."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Las opciones habituales son tres. Que pague el pasajero en efectivo al llegar, lo cual exige que lleve dinero y sepa el monto estimado. Que pague quien pidió por transferencia o con el método que la flota tenga disponible, antes o después del viaje. O, para clientes frecuentes como hoteles, clínicas o empresas, una cuenta con cobro periódico. Cada flota sabe cuáles de estas opciones puede ofrecer; lo importante es que el conductor sepa cuál aplica antes de que el pasajero se suba.",
+        "en": "There are three common options. The passenger pays in cash on arrival, which requires them to carry money and know the estimated amount. The person who booked pays by transfer or by whatever method the fleet has available, before or after the trip. Or, for frequent customers such as hotels, clinics or companies, an account with periodic billing. Each fleet knows which of these options it can offer; what matters is that the driver knows which one applies before the passenger gets in."
+      }
+    },
+    {
+      "type": "quote",
+      "text": {
+        "es": "Muchas de nuestras clientas piden el taxi para sus papás que van al médico. Al principio había confusiones con quién pagaba y con quién era el pasajero. Empezamos a pedir siempre el nombre de quien viaja y a avisarle a la hija cuando su mamá llegaba. Ahora son las clientas más fieles que tenemos, porque saben que su familia está en buenas manos.",
+        "en": "Many of our customers book taxis for their parents going to the doctor. At first there was confusion over who was paying and who the passenger was. We started always asking for the name of the person travelling and letting the daughter know when her mother arrived. Now they're our most loyal customers, because they know their family is in good hands."
+      },
+      "attribution": {
+        "es": "Coordinadora de central de taxi por app en una ciudad de 100,000 habitantes en Michoacán, México",
+        "en": "Dispatch coordinator for an app-based taxi service in a city of 100,000 in Michoacán, Mexico"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "cuidados",
+      "text": {
+        "es": "Menores y personas mayores: cuidados extra",
+        "en": "Minors and older people: extra care"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Cuando el pasajero es menor de edad, conviene que la flota tenga una regla escrita, porque las normas sobre menores que viajan solos cambian según la ciudad y el país. Algunas flotas solo aceptan a menores acompañados; otras aceptan adolescentes a partir de cierta edad si quien pide es un adulto que se identifica y recibe los avisos del viaje. Sea cual sea la regla, el conductor debe conocerla y la central debe aplicarla igual en todos los casos.",
+        "en": "When the passenger is a minor, the fleet should have a written rule, because the rules on minors travelling alone vary by city and country. Some fleets only accept accompanied minors; others accept teenagers above a certain age if the person booking is an adult who identifies themselves and receives the trip notices. Whatever the rule, the driver must know it and dispatch must apply it the same way in every case."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Con personas mayores el cuidado es otro: tiempo y paciencia. Pueden tardar más en llegar al vehículo, necesitar ayuda con una silla de ruedas plegable o con bolsas, o confundirse si el auto se detiene lejos de la puerta. Asignar estos viajes a conductores con buena disposición, pedirles que esperen unos minutos más y que estacionen lo más cerca posible marca la diferencia entre un servicio que la familia vuelve a pedir y uno que evita.",
+        "en": "With older people the care is different: time and patience. They may take longer to reach the vehicle, need help with a folding wheelchair or with bags, or get confused if the car stops far from the door. Assigning these trips to drivers with a good attitude, asking them to wait a few extra minutes and to park as close as possible makes the difference between a service the family books again and one they avoid."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "En ambos casos, la regla de oro es la misma: el viaje no termina cuando el pasajero baja, sino cuando quien pidió sabe que llegó bien. Ese último aviso es lo que convierte un traslado en un servicio de confianza.",
+        "en": "In both cases, the golden rule is the same: the trip doesn't end when the passenger gets out, but when the person who booked knows they arrived safely. That last notice is what turns a transfer into a trusted service."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "clientes-frecuentes",
+      "text": {
+        "es": "Hoteles, clínicas y empresas: los que piden para otros cada semana",
+        "en": "Hotels, clinics and companies: those who book for others every week"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Detrás de muchos viajes para terceros hay un cliente que pide siempre: la recepción de un hotel, la secretaria de una clínica, el área de recursos humanos de una empresa o una escuela que coordina traslados. Para ellos, la flota no es una opción entre muchas, sino un proveedor del que dependen para cumplir con sus propios clientes. Si el taxi llega tarde o al pasajero equivocado, el que queda mal ante su huésped o su paciente es el hotel o la clínica.",
+        "en": "Behind many trips for third parties there is a customer who books all the time: a hotel reception, a clinic secretary, a company's HR department or a school that coordinates transfers. For them, the fleet isn't one option among many but a supplier they depend on to serve their own customers. If the taxi arrives late or picks up the wrong passenger, it's the hotel or clinic that looks bad in front of its guest or patient."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Con estos clientes vale la pena dar un paso más: un contacto directo en la central, un acuerdo sobre cómo se piden los viajes y quién recibe los avisos, y una forma de pago periódica si la flota la ofrece. Una conversación de diez minutos al inicio evita decenas de llamadas confusas después, y convierte a un cliente ocasional en una fuente constante de viajes.",
+        "en": "With these customers it's worth going a step further: a direct contact at dispatch, an agreement on how trips are booked and who receives the notices, and a periodic payment arrangement if the fleet offers one. A ten-minute conversation at the start avoids dozens of confusing calls later, and turns an occasional customer into a steady source of trips."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "cierre",
+      "text": {
+        "es": "Dos personas, un solo viaje bien hecho",
+        "en": "Two people, one trip done right"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El viaje para un tercero es uno de los pocos en los que el cliente que paga no ve el servicio con sus propios ojos. Juzga a la flota por lo que le cuenta su familiar, su huésped o su empleado, y por los avisos que recibe. Por eso los detalles pesan tanto: el nombre confirmado en la puerta, el pago claro desde el inicio y el mensaje de llegada.",
+        "en": "The trip for a third party is one of the few where the paying customer doesn't see the service with their own eyes. They judge the fleet by what their relative, guest or employee tells them, and by the notices they receive. That's why the details weigh so much: the name confirmed at the door, payment made clear from the start and the arrival message."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Si hoy tu flota trata estos viajes como cualquier otro, empieza con dos cambios sencillos: pide siempre el nombre de quien viaja cuando el pedido es para otra persona, y acostumbra a tus conductores a avisar a quien pidió cuando el pasajero llegue. Son dos minutos por viaje, y pueden darte clientes que confían en ti para lo que más les importa.",
+        "en": "If your fleet treats these trips like any other today, start with two simple changes: always ask for the name of the person travelling when the booking is for someone else, and get your drivers used to notifying the person who booked when the passenger arrives. It's two minutes per trip, and it can win you customers who trust you with what matters most to them."
+      }
+    }
+  ],
+  "cta": {
+    "heading": {
+      "es": "¿Listo para lanzar tu propia app de movilidad?",
+      "en": "Ready to launch your own mobility app?"
+    },
+    "body": {
+      "es": "Configura tu marca, tus tarifas y tus servicios en semanas, no en meses. Cabgo te entrega la plataforma; tú te quedas con la operación, los clientes y los ingresos.",
+      "en": "Set up your brand, pricing and services in weeks, not months. Cabgo ships the platform — you keep the operation, the customers and the revenue."
+    },
+    "buttonLabel": {
+      "es": "Comenzar con Cabgo",
+      "en": "Get started with Cabgo"
+    },
+    "buttonHref": "/empezar"
+  },
+  "seo": {
+    "metaTitle": {
+      "es": "Pedir un taxi para otra persona | Cabgo",
+      "en": "Booking a taxi for someone else | Cabgo"
+    },
+    "metaDescription": {
+      "es": "Cómo operar los viajes pedidos para otra persona: identificar al pasajero, avisar a quien pidió, resolver el pago y cuidar a menores y personas mayores.",
+      "en": "How to run trips booked for someone else: identify the passenger, notify the person who booked, settle payment and look after minors and older people."
+    }
+  },
+  "author": {
+    "name": "Equipo Cabgo",
+    "role": {
+      "es": "Plataforma de movilidad",
+      "en": "Mobility platform"
+    }
+  }
+}
