@@ -1,0 +1,309 @@
+{
+  "slug": "pasajeros-con-discapacidad-accesibilidad-taxi",
+  "category": "strategy",
+  "title": {
+    "es": "Pasajeros con discapacidad: accesibilidad en tu flota de taxi",
+    "en": "Passengers with disabilities: accessibility in your taxi fleet"
+  },
+  "excerpt": {
+    "es": "La accesibilidad depende menos de vehículos especiales que de conductores preparados. Qué necesita cada pasajero, cómo orientar a los conductores, cómo organizar el pedido y qué errores evitar.",
+    "en": "Accessibility depends less on special vehicles than on prepared drivers. What each passenger needs, how to brief drivers, how to organise the booking and which mistakes to avoid."
+  },
+  "heroImage": "https://raw.githubusercontent.com/jonatanvazquez/cabgo-blog-content/main/images/pasajeros-con-discapacidad-accesibilidad-taxi.jpg",
+  "heroImageAlt": {
+    "es": "Ilustración isométrica de un taxi con la cajuela abierta, una silla de ruedas y un pasajero con perro de asistencia.",
+    "en": "Isometric illustration of a taxi with its boot open, a wheelchair and a passenger with an assistance dog."
+  },
+  "heroImagePrompt": "Isometric scene on a deep violet floor grid: a compact taxi car parked at a kerb with its boot open and a folded wheelchair beside it, a passenger standing with a calm guide dog in a harness, and a small floating accessibility icon in a glowing circle above the car. Soft indigo radial glow at the center.",
+  "publishedAt": "2026-10-09",
+  "readingMinutes": 8,
+  "keywords": {
+    "es": [
+      "taxi accesible",
+      "pasajeros con discapacidad taxi",
+      "taxi silla de ruedas",
+      "perro de asistencia taxi",
+      "accesibilidad flota taxi",
+      "taxi para personas con discapacidad"
+    ],
+    "en": [
+      "accessible taxi",
+      "passengers with disabilities taxi",
+      "wheelchair taxi",
+      "assistance dog taxi",
+      "taxi fleet accessibility",
+      "taxi for people with disabilities"
+    ]
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Para una persona en silla de ruedas, con baja visión o con dificultades para caminar, el taxi no es una comodidad: muchas veces es la única forma de llegar al médico, al trabajo o a ver a su familia. En las ciudades regionales, donde el transporte público rara vez está adaptado, ese viaje depende casi por completo de que un conductor esté dispuesto y preparado para atenderla. Y cuando no lo está, la persona no solo pierde un viaje: aprende que ese servicio no es para ella.",
+        "en": "For a person in a wheelchair, with low vision or with difficulty walking, a taxi isn't a convenience: it's often the only way to get to the doctor, to work or to see their family. In regional cities, where public transport is rarely adapted, that trip depends almost entirely on a driver being willing and prepared to serve them. And when they aren't, the person doesn't just lose a trip: they learn that the service isn't for them."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La tesis de este artículo es que la accesibilidad en una flota de taxi depende mucho menos de la tecnología o de vehículos especiales que de la preparación y la actitud de los conductores. Con reglas claras, una orientación breve y una forma sencilla de pedir ayuda, cualquier flota regional puede atender bien a pasajeros con discapacidad y ganarse a un grupo de clientes fieles que hoy casi nadie atiende con cuidado. Vamos a ver por qué importa, qué necesitan los distintos pasajeros, cómo preparar a los conductores, cómo organizar el pedido y qué errores evitar.",
+        "en": "The thesis of this article is that accessibility in a taxi fleet depends far less on technology or special vehicles than on drivers' preparation and attitude. With clear rules, a short briefing and a simple way to ask for help, any regional fleet can serve passengers with disabilities well and win a group of loyal customers whom almost nobody serves with care today. We'll look at why it matters, what different passengers need, how to prepare drivers, how to organise the booking and which mistakes to avoid."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "por-que-importa",
+      "text": {
+        "es": "Por qué la accesibilidad importa para una flota regional",
+        "en": "Why accessibility matters for a regional fleet"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Las personas con discapacidad, junto con sus familias, forman un grupo de pasajeros mucho más grande de lo que suele pensarse, y viajan con frecuencia: a terapias, consultas, trabajo y escuela. Además, suelen ser clientes muy fieles. Cuando encuentran un servicio en el que confían, rara vez cambian, porque saben lo difícil que es encontrar otro. Y recomiendan, a otras familias, a su asociación y a su médico.",
+        "en": "People with disabilities, together with their families, make up a much larger group of passengers than is usually thought, and they travel often: to therapy, appointments, work and school. They also tend to be very loyal customers. When they find a service they trust, they rarely switch, because they know how hard it is to find another. And they recommend it, to other families, to their association and to their doctor."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Hay también una razón de reputación y, en muchos lugares, de cumplimiento. Las reglas sobre trato a personas con discapacidad en el transporte varían de un país y una ciudad a otra, pero en casi todos lados negar un servicio por una discapacidad está mal visto y, en muchos casos, prohibido. Una flota que lo hace bien no solo evita problemas: gana una imagen de servicio serio que también perciben los demás pasajeros.",
+        "en": "There's also a reputational reason and, in many places, a compliance one. Rules on how people with disabilities must be treated in transport vary from one country and city to another, but almost everywhere refusing a service because of a disability is frowned upon and, in many cases, prohibited. A fleet that gets it right doesn't just avoid problems: it earns an image of a serious service that other passengers notice too."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "necesidades",
+      "text": {
+        "es": "Qué necesita cada pasajero",
+        "en": "What each passenger needs"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "No existe un único «pasajero con discapacidad». Las necesidades cambian mucho según la persona, y la mejor regla es preguntar antes de ayudar. Aun así, hay situaciones que se repiten y que vale la pena tener presentes:",
+        "en": "There is no single \"passenger with a disability\". Needs vary a lot from person to person, and the best rule is to ask before helping. Even so, there are situations that come up again and again and are worth keeping in mind:"
+      }
+    },
+    {
+      "type": "list",
+      "style": "bullet",
+      "items": {
+        "es": [
+          "Usuarios de silla de ruedas plegable, que necesitan espacio en la cajuela y a veces ayuda para guardarla.",
+          "Personas con movilidad reducida que tardan más en subir y bajar y necesitan que el auto se detenga cerca de la puerta.",
+          "Personas ciegas o con baja visión, que necesitan que el conductor se identifique en voz alta al llegar.",
+          "Personas sordas o con baja audición, que prefieren comunicarse por mensaje de texto.",
+          "Pasajeros que viajan con perro de asistencia, que siempre debe aceptarse.",
+          "Personas con discapacidad intelectual o del espectro autista, que pueden necesitar un trato más calmado y explicaciones claras."
+        ],
+        "en": [
+          "Users of folding wheelchairs, who need boot space and sometimes help stowing it.",
+          "People with reduced mobility who take longer to get in and out and need the car to stop close to the door.",
+          "Blind or low-vision people, who need the driver to identify themselves aloud on arrival.",
+          "Deaf or hard-of-hearing people, who prefer to communicate by text message.",
+          "Passengers travelling with an assistance dog, which must always be accepted.",
+          "People with intellectual disabilities or on the autism spectrum, who may need calmer treatment and clear explanations."
+        ]
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La mayoría de estas necesidades se atienden con tiempo y actitud, no con equipo especial. Esperar un par de minutos más, estacionar lo más cerca posible, ofrecer ayuda sin imponerla y comunicarse por el canal que el pasajero prefiere resuelve casi todos los casos.",
+        "en": "Most of these needs are met with time and attitude, not special equipment. Waiting a couple of extra minutes, parking as close as possible, offering help without imposing it and communicating through the passenger's preferred channel solves almost every case."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Muchas veces el pasajero viaja con un acompañante, y conviene que el conductor lo tenga en cuenta: puede necesitar un asiento extra, espacio para una bolsa con medicinas o tiempo para ayudar a la persona a acomodarse. Saberlo desde el pedido evita sorpresas y permite asignar un vehículo con el espacio suficiente para los dos.",
+        "en": "The passenger often travels with a companion, and the driver should take that into account: they may need an extra seat, room for a bag of medicines or time to help the person settle in. Knowing it from the booking avoids surprises and makes it possible to assign a vehicle with enough room for both."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "preparar-conductores",
+      "text": {
+        "es": "Cómo preparar a los conductores",
+        "en": "How to prepare drivers"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El error más común no viene de la mala intención, sino de no saber qué hacer. Un conductor que nunca ha guardado una silla de ruedas puede dudar, apurarse o cancelar por miedo a hacerlo mal. Una orientación breve, de media hora, con ejemplos concretos, cambia mucho esa reacción. Si en tu ciudad hay una asociación de personas con discapacidad, invitarla a dar esa orientación tiene doble valor: los conductores aprenden de quien lo vive y la asociación conoce tu servicio.",
+        "en": "The most common mistake doesn't come from bad intentions but from not knowing what to do. A driver who has never stowed a wheelchair may hesitate, rush or cancel for fear of doing it wrong. A short briefing of half an hour, with concrete examples, changes that reaction a lot. If your city has an association of people with disabilities, inviting it to give that briefing has double value: drivers learn from people with lived experience and the association gets to know your service."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Algunas reglas básicas conviene que todos los conductores las conozcan: preguntar siempre «¿cómo le puedo ayudar?» antes de tocar a la persona o sus pertenencias; hablar directamente con el pasajero y no con su acompañante; no tocar ni distraer a un perro de asistencia; y avisar en voz alta lo que se va a hacer, como abrir la cajuela o arrancar. Son gestos simples que marcan la diferencia entre un viaje digno y uno incómodo.",
+        "en": "There are some basic rules every driver should know: always ask \"how can I help you?\" before touching the person or their belongings; speak directly to the passenger and not to their companion; don't touch or distract an assistance dog; and say aloud what you're about to do, such as opening the boot or setting off. These are simple gestures that make the difference between a dignified trip and an uncomfortable one."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "También ayuda saber qué vehículos tiene la flota. Una silla de ruedas plegable cabe en la cajuela de muchos sedanes y en casi todas las camionetas, pero no en todos los autos compactos. Si la central sabe qué conductores tienen vehículos con más espacio y están dispuestos a estos viajes, puede asignarlos sin improvisar.",
+        "en": "It also helps to know what vehicles the fleet has. A folding wheelchair fits in the boot of many saloons and almost all SUVs, but not in every compact car. If dispatch knows which drivers have roomier vehicles and are willing to take these trips, it can assign them without improvising."
+      }
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "text": {
+        "es": "Haz una lista corta de conductores con vehículo amplio y buena disposición para viajes con silla de ruedas, y pídeles que lo confirmen. Cuando llegue un pedido así, la central sabrá a quién asignarlo sin buscar a última hora.",
+        "en": "Make a short list of drivers with roomy vehicles and a good attitude towards wheelchair trips, and ask them to confirm it. When such a booking comes in, dispatch will know whom to assign it to without searching at the last minute."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "pedido",
+      "text": {
+        "es": "Organizar el pedido para que funcione",
+        "en": "Organising the booking so it works"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Muchos problemas se evitan desde el pedido. Si el pasajero o su familiar puede indicar al pedir que viaja con silla de ruedas, con perro de asistencia o que necesita ayuda para subir, el conductor llega preparado y la central puede asignar el vehículo adecuado. Basta con un comentario en el viaje o un mensaje a la central; lo importante es que ese dato llegue al conductor antes de que acepte.",
+        "en": "Many problems can be avoided at the booking stage. If the passenger or their relative can indicate when booking that they travel with a wheelchair, an assistance dog or need help getting in, the driver arrives prepared and dispatch can assign the right vehicle. A comment on the trip or a message to dispatch is enough; what matters is that the information reaches the driver before they accept."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Para pasajeros frecuentes, como quien va a terapia tres veces por semana, conviene ir más allá: guardar sus preferencias, tratar de asignarle siempre a los mismos conductores y confirmar el viaje la víspera. Para alguien que depende del taxi para su salud, saber que el mismo conductor de confianza llegará a la hora acordada vale tanto como el viaje en sí.",
+        "en": "For frequent passengers, such as someone going to therapy three times a week, it's worth going further: keeping a note of their preferences, trying to assign the same drivers every time and confirming the trip the day before. For someone who depends on a taxi for their health, knowing the same trusted driver will arrive at the agreed time is worth as much as the trip itself."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El precio también merece claridad. El tiempo extra que un conductor dedica a ayudar a subir a un pasajero o a guardar una silla de ruedas forma parte del servicio, y cobrarlo aparte suele vivirse como una penalización por la discapacidad. Lo más sencillo es que la tarifa sea la misma que para cualquier viaje y que la flota lo diga abiertamente: así el pasajero sabe qué esperar y el conductor no tiene que negociar nada en la banqueta.",
+        "en": "Price deserves clarity too. The extra time a driver spends helping a passenger in or stowing a wheelchair is part of the service, and charging for it separately is usually experienced as a penalty for the disability. The simplest approach is for the fare to be the same as for any trip and for the fleet to say so openly: that way the passenger knows what to expect and the driver doesn't have to negotiate anything on the pavement."
+      }
+    },
+    {
+      "type": "quote",
+      "text": {
+        "es": "Un cliente en silla de ruedas nos contó que dejó de usar taxis porque varios conductores le cancelaban al verlo. Hicimos una lista de cinco conductores con camioneta que aceptaron esos viajes y les dimos una charla con una asociación local. Hoy él viaja con nosotros cada semana y nos ha recomendado a otras familias de su grupo.",
+        "en": "A customer in a wheelchair told us he'd stopped using taxis because several drivers cancelled on seeing him. We made a list of five drivers with SUVs who agreed to take those trips and gave them a talk with a local association. Today he travels with us every week and has recommended us to other families in his group."
+      },
+      "attribution": {
+        "es": "Operador de taxi por app en una ciudad de 200,000 habitantes en Sinaloa, México",
+        "en": "App-based taxi operator in a city of 200,000 in Sinaloa, Mexico"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "aliados",
+      "text": {
+        "es": "Aliados que traen viajes",
+        "en": "Partners who bring trips"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Las personas con discapacidad suelen moverse dentro de una red de instituciones: centros de rehabilitación, clínicas de terapia, escuelas de educación especial, asociaciones y grupos de familias. Muchas de esas instituciones buscan desde hace tiempo un servicio de transporte confiable para recomendar a sus usuarios, y no lo encuentran. Una visita para presentarles tu flota, explicarles cómo se pide el viaje y qué conductores atienden estos casos puede convertirse en una fuente constante de pedidos.",
+        "en": "People with disabilities tend to move within a network of institutions: rehabilitation centres, therapy clinics, special education schools, associations and family groups. Many of those institutions have long been looking for a reliable transport service to recommend to their users, and haven't found one. A visit to present your fleet, explain how to book and which drivers handle these cases can become a steady source of bookings."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Estas alianzas funcionan mejor cuando hay un compromiso concreto: un contacto directo en la central para la institución, la posibilidad de programar viajes recurrentes con anticipación y una forma sencilla de reportar si algo salió mal. A cambio, la institución recomienda el servicio a familias que, de otra forma, nunca lo habrían probado.",
+        "en": "These partnerships work best when there's a concrete commitment: a direct dispatch contact for the institution, the option of scheduling recurring trips in advance and a simple way to report if something went wrong. In return, the institution recommends the service to families who would otherwise never have tried it."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "errores",
+      "text": {
+        "es": "Errores que conviene evitar",
+        "en": "Mistakes to avoid"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El peor error es la cancelación al llegar. Un conductor que ve una silla de ruedas o un perro de asistencia y se va sin explicación deja al pasajero en peor situación que si nunca hubiera aceptado, y es el tipo de experiencia que más se recuerda y se cuenta. Conviene que la flota tenga una regla clara: si un conductor no puede atender un viaje por una razón práctica, como que la silla no cabe en su auto, lo comunica a la central para reasignarlo de inmediato, nunca se va sin decir nada.",
+        "en": "The worst mistake is cancelling on arrival. A driver who sees a wheelchair or an assistance dog and leaves without explanation leaves the passenger worse off than if they'd never accepted, and it's the kind of experience that's most remembered and retold. The fleet should have a clear rule: if a driver can't take a trip for a practical reason, such as the wheelchair not fitting in their car, they tell dispatch so it can be reassigned immediately; they never leave without saying anything."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Otros errores frecuentes son cobrar un extra por la silla de ruedas o por el perro de asistencia, apurar al pasajero, tratarlo con condescendencia o hablar de él con su acompañante como si no estuviera presente. Ninguno requiere mala intención para ocurrir, y por eso vale la pena mencionarlos explícitamente en la orientación de los conductores.",
+        "en": "Other common mistakes are charging extra for the wheelchair or the assistance dog, rushing the passenger, being condescending or talking about them with their companion as if they weren't there. None of them requires bad intentions to happen, which is why it's worth mentioning them explicitly in the driver briefing."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "cierre",
+      "text": {
+        "es": "Un servicio para todos empieza por los conductores",
+        "en": "A service for everyone starts with the drivers"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La accesibilidad no exige comprar vehículos especiales ni grandes inversiones. Exige que los conductores sepan qué hacer, que la central sepa a quién asignar cada viaje y que exista una regla clara contra la cancelación al llegar. Con eso, una flota regional puede convertirse en la opción de confianza para personas que hoy tienen muy pocas.",
+        "en": "Accessibility doesn't require buying special vehicles or making large investments. It requires drivers who know what to do, a dispatch that knows whom to assign each trip to and a clear rule against cancelling on arrival. With that, a regional fleet can become the trusted option for people who have very few today."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Si quieres empezar esta semana, hay tres pasos sencillos: arma la lista de conductores con vehículo amplio y buena disposición, escribe las reglas básicas de trato en una página y busca a la asociación de personas con discapacidad de tu ciudad para ofrecerles tu servicio. Es probable que te encuentres con una demanda que nadie estaba atendiendo.",
+        "en": "If you want to start this week, there are three simple steps: put together the list of drivers with roomy vehicles and a good attitude, write the basic rules of conduct on one page and contact your city's association of people with disabilities to offer them your service. You'll probably find demand that nobody was serving."
+      }
+    }
+  ],
+  "cta": {
+    "heading": {
+      "es": "¿Listo para lanzar tu propia app de movilidad?",
+      "en": "Ready to launch your own mobility app?"
+    },
+    "body": {
+      "es": "Configura tu marca, tus tarifas y tus servicios en semanas, no en meses. Cabgo te entrega la plataforma; tú te quedas con la operación, los clientes y los ingresos.",
+      "en": "Set up your brand, pricing and services in weeks, not months. Cabgo ships the platform — you keep the operation, the customers and the revenue."
+    },
+    "buttonLabel": {
+      "es": "Comenzar con Cabgo",
+      "en": "Get started with Cabgo"
+    },
+    "buttonHref": "/empezar"
+  },
+  "seo": {
+    "metaTitle": {
+      "es": "Accesibilidad en tu flota de taxi | Cabgo",
+      "en": "Accessibility in your taxi fleet | Cabgo"
+    },
+    "metaDescription": {
+      "es": "Cómo atender a pasajeros con discapacidad en tu flota de taxi: necesidades de cada pasajero, orientación a conductores, pedidos preparados y errores a evitar.",
+      "en": "How to serve passengers with disabilities in your taxi fleet: what each passenger needs, driver briefings, prepared bookings and mistakes to avoid."
+    }
+  },
+  "author": {
+    "name": "Equipo Cabgo",
+    "role": {
+      "es": "Plataforma de movilidad",
+      "en": "Mobility platform"
+    }
+  }
+}
