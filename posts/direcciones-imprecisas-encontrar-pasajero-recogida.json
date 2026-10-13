@@ -1,0 +1,306 @@
+{
+  "slug": "direcciones-imprecisas-encontrar-pasajero-recogida",
+  "category": "strategy",
+  "title": {
+    "es": "Direcciones imprecisas: cómo encontrar al pasajero",
+    "en": "Imprecise addresses: how to find the passenger"
+  },
+  "excerpt": {
+    "es": "Colonias sin número, calles con dos nombres y fraccionamientos que no están en el mapa. Cómo ayudar al pasajero a pedir bien, qué debe hacer el conductor y cómo medir las recogidas difíciles.",
+    "en": "Neighbourhoods without numbers, streets with two names and developments missing from the map. How to help passengers book properly, what drivers should do and how to measure difficult pickups."
+  },
+  "heroImage": "https://raw.githubusercontent.com/jonatanvazquez/cabgo-blog-content/main/images/direcciones-imprecisas-encontrar-pasajero-recogida.jpg",
+  "heroImageAlt": {
+    "es": "Ilustración isométrica de un barrio con casas, una tienda en la esquina, un taxi y un marcador de ubicación flotando sobre una casa.",
+    "en": "Isometric illustration of a neighbourhood with houses, a corner shop, a taxi and a location pin floating above a house."
+  },
+  "heroImagePrompt": "Isometric scene on a deep violet floor grid: a small block of simple houses with one house in a distinct teal colour, a tiny corner shop with an awning, a compact taxi car driving along the street, and a large floating map location pin above the teal house. Soft indigo radial glow at the center. No text, no captions, no labels, no words anywhere in the image.",
+  "publishedAt": "2026-10-13",
+  "readingMinutes": 8,
+  "keywords": {
+    "es": [
+      "taxi no encuentra la dirección",
+      "direcciones imprecisas recogida",
+      "referencias para pedir taxi",
+      "colonias sin número taxi",
+      "punto de recogida taxi app",
+      "cancelaciones por recogida"
+    ],
+    "en": [
+      "taxi can't find the address",
+      "imprecise pickup addresses",
+      "landmarks for booking a taxi",
+      "neighbourhoods without house numbers",
+      "taxi app pickup point",
+      "pickup cancellations"
+    ]
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "En las ciudades regionales de América Latina, una buena parte de las direcciones no se parece a lo que espera un mapa. Hay colonias sin número en las casas, calles que cambiaron de nombre hace años y siguen apareciendo con el viejo, fraccionamientos nuevos que todavía no existen en el mapa y comunidades donde la gente se orienta por la tienda de la esquina, la iglesia o el árbol grande. Para una flota de taxi por app, cada una de esas direcciones es un viaje que puede terminar en un conductor dando vueltas, un pasajero molesto y una cancelación.",
+        "en": "In the regional cities of Latin America, a good share of addresses look nothing like what a map expects. There are neighbourhoods with no house numbers, streets that changed name years ago and still appear under the old one, new housing developments that don't exist on the map yet and communities where people find their way by the corner shop, the church or the big tree. For an app-based taxi fleet, each of those addresses is a trip that can end with a driver going round in circles, an annoyed passenger and a cancellation."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La tesis de este artículo es que encontrar al pasajero es una parte del servicio que se puede organizar, y no un problema de suerte o de la experiencia de cada conductor. Las flotas que mejor lo resuelven combinan tres cosas: un punto en el mapa bien colocado, referencias claras escritas por el pasajero y un hábito de contacto rápido cuando algo no cuadra. Vamos a ver por qué este problema pesa tanto en las ciudades regionales, cómo ayudar al pasajero a pedir bien, qué deben hacer los conductores, cómo aprovechar lo que la flota ya sabe y cómo medir los avances.",
+        "en": "The thesis of this article is that finding the passenger is a part of the service that can be organised, not a matter of luck or of each driver's experience. The fleets that handle it best combine three things: a well-placed point on the map, clear landmarks written by the passenger and a habit of quick contact when something doesn't add up. We'll look at why this problem weighs so much in regional cities, how to help passengers book properly, what drivers should do, how to use what the fleet already knows and how to measure progress."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "por-que-pesa",
+      "text": {
+        "es": "Por qué pesa tanto en las ciudades regionales",
+        "en": "Why it weighs so much in regional cities"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "En una gran capital, los mapas digitales suelen estar bastante completos y la mayoría de las calles tienen nombre y número. En una ciudad mediana o en sus alrededores, la realidad es otra. Los fraccionamientos crecen más rápido de lo que se actualizan los mapas, muchas casas se identifican por el lote o la manzana y no por un número, y en las comunidades cercanas una misma calle puede tener tres nombres según a quién le preguntes. El punto que el mapa propone automáticamente puede quedar a varias cuadras del lugar real.",
+        "en": "In a big capital, digital maps are usually fairly complete and most streets have a name and a number. In a mid-sized city or its outskirts, the reality is different. Housing developments grow faster than maps are updated, many houses are identified by lot or block rather than by a number, and in nearby communities the same street can have three names depending on whom you ask. The point the map suggests automatically can end up several blocks from the real place."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El costo de una recogida mal ubicada es mayor de lo que parece. El conductor pierde minutos que no cobra, el pasajero espera más de lo prometido y, muchas veces, alguno de los dos termina cancelando. Además, el conductor que vive varias experiencias así en una misma zona empieza a rechazar los viajes que salen de ahí, y la zona se queda con peor servicio justo por la razón equivocada. Lo que empezó como un problema de direcciones termina convertido en un problema de cobertura.",
+        "en": "The cost of a badly located pickup is higher than it seems. The driver loses minutes they don't get paid for, the passenger waits longer than promised and, often, one of the two ends up cancelling. On top of that, a driver who has several experiences like this in the same area starts rejecting trips that start there, and the area ends up with worse service for exactly the wrong reason. What started as an address problem ends up as a coverage problem."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "También hay un costo de confianza. El pasajero que tuvo que salir a la calle a buscar al conductor, o que recibió tres llamadas para explicar dónde vive, recuerda esa experiencia la próxima vez que necesita un taxi. Si la alternativa es llamar a la base de radio taxi, donde la operadora ya conoce su casa, la app pierde aunque sea más rápida en todo lo demás.",
+        "en": "There's also a cost in trust. The passenger who had to go out into the street to look for the driver, or who got three calls to explain where they live, remembers that experience the next time they need a taxi. If the alternative is calling the radio taxi base, where the operator already knows their house, the app loses even if it's faster at everything else."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "pasajero",
+      "text": {
+        "es": "Ayudar al pasajero a pedir bien",
+        "en": "Helping passengers book properly"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La mayoría de las recogidas difíciles se pueden evitar en el momento en que el pasajero pide el viaje. El pasajero sabe perfectamente dónde está; lo que falta es que esa información llegue al conductor de una forma útil. Estas son las prácticas que más ayudan:",
+        "en": "Most difficult pickups can be avoided at the moment the passenger books the trip. The passenger knows perfectly well where they are; what's missing is for that information to reach the driver in a useful form. These are the practices that help most:"
+      }
+    },
+    {
+      "type": "list",
+      "style": "bullet",
+      "items": {
+        "es": [
+          "Pedir que el pasajero revise y mueva el punto en el mapa antes de confirmar.",
+          "Invitarlo a escribir una referencia: color de la casa, portón, tienda cercana.",
+          "Sugerir que espere en un punto fácil de ver, como una esquina o una entrada principal.",
+          "Recordarle que tenga el teléfono a mano los primeros minutos después de pedir.",
+          "Pedir el nombre del fraccionamiento o de la colonia, no solo la calle.",
+          "Para lugares grandes, indicar la puerta o el acceso exacto donde estará."
+        ],
+        "en": [
+          "Ask the passenger to check and move the map pin before confirming.",
+          "Invite them to write a landmark: house colour, gate, nearby shop.",
+          "Suggest they wait at an easy-to-see spot, such as a corner or a main entrance.",
+          "Remind them to keep their phone handy for the first few minutes after booking.",
+          "Ask for the name of the housing development or neighbourhood, not just the street.",
+          "For large places, state the exact gate or entrance where they'll be."
+        ]
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Estas indicaciones funcionan mejor si se comunican de forma sencilla y repetida: un mensaje corto en el primer viaje del pasajero, una publicación en redes con un ejemplo de buena referencia, un recordatorio de la central cuando un viaje se complicó. No hace falta sermonear al pasajero; basta con mostrarle que una frase como «casa azul con portón negro, frente a la tienda» le ahorra minutos de espera.",
+        "en": "These tips work best if they're communicated simply and repeatedly: a short message on the passenger's first trip, a social media post with an example of a good landmark, a reminder from dispatch when a trip got complicated. There's no need to lecture the passenger; it's enough to show them that a phrase like \"blue house with black gate, opposite the shop\" saves them minutes of waiting."
+      }
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "text": {
+        "es": "Publica en tus redes un ejemplo real de buena referencia de recogida, como «casa azul con portón negro, frente a la tienda». Los pasajeros copian lo que ven, y una sola publicación puede ahorrar muchas vueltas a tus conductores.",
+        "en": "Post a real example of a good pickup landmark on your social media, such as \"blue house with black gate, opposite the shop\". Passengers copy what they see, and a single post can save your drivers a lot of driving around."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "conductor",
+      "text": {
+        "es": "Qué debe hacer el conductor",
+        "en": "What the driver should do"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Del lado del conductor, el hábito más valioso es simple: leer la referencia antes de salir y contactar al pasajero en cuanto algo no cuadre, no después de diez minutos dando vueltas. Una llamada o un mensaje corto al aceptar el viaje, del tipo «voy en camino, ¿me confirma la casa?», resuelve la mayoría de las dudas antes de que se conviertan en un problema. El conductor que espera a llegar al punto del mapa para descubrir que ahí no hay nadie ya perdió tiempo que no va a recuperar.",
+        "en": "On the driver's side, the most valuable habit is simple: read the landmark before setting off and contact the passenger as soon as something doesn't add up, not after ten minutes of driving around. A call or a short message on accepting the trip, along the lines of \"on my way, can you confirm the house?\", resolves most doubts before they become a problem. The driver who waits until reaching the map point to discover there's nobody there has already lost time they won't get back."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "También ayuda que el conductor conozca bien la zona donde trabaja. Los conductores con años en la ciudad suelen saber qué calles cambiaron de nombre, qué fraccionamientos tienen una sola entrada y dónde el mapa se equivoca. Para los conductores nuevos, ese conocimiento no existe todavía, y es justo ahí donde más recogidas fallidas aparecen. Emparejar a los nuevos con un conductor veterano durante sus primeras semanas, o simplemente compartir en el grupo de la flota los puntos difíciles, acelera mucho la curva de aprendizaje.",
+        "en": "It also helps if the driver knows the area they work in well. Drivers with years in the city usually know which streets changed name, which housing developments have only one entrance and where the map gets it wrong. For new drivers, that knowledge doesn't exist yet, and that's exactly where most failed pickups appear. Pairing new drivers with a veteran during their first weeks, or simply sharing the tricky spots in the fleet group chat, speeds up the learning curve a lot."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Por último, conviene acordar cuánto debe esperar un conductor antes de cancelar por no encontrar al pasajero, y qué intentos de contacto debe hacer antes. Una regla clara protege a los dos lados: el pasajero sabe que no lo van a dejar sin intentar llamarlo, y el conductor sabe que no tiene que esperar indefinidamente a alguien que no contesta.",
+        "en": "Finally, it's worth agreeing how long a driver should wait before cancelling for not finding the passenger, and which contact attempts they must make first. A clear rule protects both sides: the passenger knows they won't be left without an attempt to call them, and the driver knows they don't have to wait indefinitely for someone who doesn't answer."
+      }
+    },
+    {
+      "type": "quote",
+      "text": {
+        "es": "En las colonias nuevas el mapa no servía de mucho y perdíamos viajes todos los días. Empezamos a pedir a los pasajeros una referencia en cada viaje y a los conductores que llamaran apenas aceptaban. En pocas semanas las cancelaciones en esas zonas bajaron mucho, y los conductores dejaron de rechazar los viajes de las afueras.",
+        "en": "In the new neighbourhoods the map wasn't much use and we were losing trips every day. We started asking passengers for a landmark on every trip and drivers to call as soon as they accepted. Within a few weeks cancellations in those areas dropped a lot, and drivers stopped rejecting trips from the outskirts."
+      },
+      "attribution": {
+        "es": "Coordinador de operaciones de una flota de taxi por app en una ciudad de 150,000 habitantes en Veracruz, México",
+        "en": "Operations coordinator of an app-based taxi fleet in a city of 150,000 in Veracruz, Mexico"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "conocimiento",
+      "text": {
+        "es": "Aprovechar lo que la flota ya sabe",
+        "en": "Using what the fleet already knows"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Cada recogida difícil que se resuelve deja un aprendizaje: dónde está realmente una casa, qué entrada usar en un fraccionamiento, qué nombre de calle usa la gente y cuál usa el mapa. El problema es que ese aprendizaje suele quedarse en la cabeza de un conductor o en un mensaje perdido en un chat. Una flota que lo recoge y lo comparte de forma ordenada deja de resolver el mismo problema una y otra vez.",
+        "en": "Every difficult pickup that gets resolved leaves a lesson: where a house really is, which entrance to use in a housing development, which street name people use and which one the map uses. The problem is that this knowledge usually stays in one driver's head or in a message lost in a chat. A fleet that collects it and shares it in an orderly way stops solving the same problem over and over."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "No hace falta nada sofisticado. Una lista de puntos difíciles por zona, revisada cada mes con los conductores, ya marca una diferencia. Para los lugares que generan muchos viajes, como hospitales, plazas comerciales, escuelas o fraccionamientos grandes, vale la pena definir un punto de recogida recomendado y comunicarlo tanto a los pasajeros como a los conductores. Es la misma lógica que se usa en el aeropuerto o en la central de autobuses, aplicada a cualquier lugar donde la gente se pierde.",
+        "en": "Nothing sophisticated is needed. A list of tricky spots by area, reviewed every month with drivers, already makes a difference. For places that generate many trips, such as hospitals, shopping centres, schools or large housing developments, it's worth defining a recommended pickup point and communicating it to both passengers and drivers. It's the same logic used at the airport or the bus station, applied to any place where people get lost."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Los pasajeros frecuentes son otra fuente de información. Quien pide un taxi desde su casa varias veces por semana termina dejando, viaje tras viaje, la mejor descripción posible de cómo llegar. Si la flota cuida esa relación y le explica al pasajero que una buena referencia le ahorra tiempo, cada nuevo viaje desde esa casa será más fácil que el anterior.",
+        "en": "Frequent passengers are another source of information. Someone who books a taxi from home several times a week ends up leaving, trip after trip, the best possible description of how to get there. If the fleet looks after that relationship and explains to the passenger that a good landmark saves them time, each new trip from that house will be easier than the last."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "medir",
+      "text": {
+        "es": "Cómo medir si está mejorando",
+        "en": "How to measure whether it's improving"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Para saber si los cambios funcionan, conviene mirar unos pocos indicadores por zona y no solo para toda la ciudad. Las recogidas difíciles se concentran en ciertos barrios, y los promedios generales esconden lo que pasa ahí. Estos son los números más útiles:",
+        "en": "To know whether the changes are working, it's worth looking at a few indicators by area and not just for the whole city. Difficult pickups are concentrated in certain neighbourhoods, and overall averages hide what happens there. These are the most useful numbers:"
+      }
+    },
+    {
+      "type": "list",
+      "style": "bullet",
+      "items": {
+        "es": [
+          "Tiempo entre la llegada del conductor a la zona y el inicio del viaje.",
+          "Cancelaciones después de que el conductor ya estaba en camino.",
+          "Viajes rechazados por los conductores según la zona de origen.",
+          "Quejas de pasajeros que mencionan que el conductor no los encontró.",
+          "Porcentaje de viajes con una referencia escrita por el pasajero."
+        ],
+        "en": [
+          "Time between the driver reaching the area and the trip starting.",
+          "Cancellations after the driver was already on the way.",
+          "Trips rejected by drivers by area of origin.",
+          "Passenger complaints mentioning the driver couldn't find them.",
+          "Share of trips with a landmark written by the passenger."
+        ]
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Revisados cada semana, estos números muestran rápido dónde está el problema y si las medidas ayudan. Si una colonia sigue con muchas cancelaciones aunque los pasajeros escriben referencias, puede que el problema sea que el mapa ubica mal toda la zona, y entonces lo que hace falta es un punto de encuentro acordado. Si las cancelaciones bajan pero los conductores siguen rechazando los viajes de ahí, todavía hay que reconstruir su confianza en esa zona.",
+        "en": "Reviewed every week, these numbers quickly show where the problem lies and whether the measures help. If a neighbourhood still has many cancellations even though passengers write landmarks, the problem may be that the map places the whole area wrongly, and then what's needed is an agreed meeting point. If cancellations drop but drivers still reject trips from there, their trust in that area still needs rebuilding."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "cierre",
+      "text": {
+        "es": "Encontrar al pasajero también es servicio",
+        "en": "Finding the passenger is part of the service"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "En las ciudades regionales, las direcciones imprecisas no van a desaparecer pronto. Los mapas seguirán un paso atrás de los fraccionamientos nuevos y la gente seguirá orientándose por la tienda de la esquina. Lo que sí puede cambiar es cómo la flota maneja esa realidad: pasajeros que dejan una referencia clara, conductores que contactan a tiempo y una central que convierte cada recogida difícil en un aprendizaje compartido.",
+        "en": "In regional cities, imprecise addresses won't disappear any time soon. Maps will stay a step behind new housing developments and people will keep finding their way by the corner shop. What can change is how the fleet handles that reality: passengers who leave a clear landmark, drivers who get in touch in time and dispatch that turns each difficult pickup into shared learning."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Si tus conductores pierden viajes en ciertas colonias, empieza por medir dónde ocurre y por pedir referencias en cada viaje. Es una mejora barata que se nota en las cancelaciones, en la paciencia de los conductores y en la confianza de los pasajeros. Y con Cabgo puedes lanzar tu propia app de taxi con tu marca, pensada para la ciudad donde operas.",
+        "en": "If your drivers lose trips in certain neighbourhoods, start by measuring where it happens and by asking for landmarks on every trip. It's a cheap improvement that shows in cancellations, in drivers' patience and in passengers' trust. And with Cabgo you can launch your own branded taxi app, designed for the city where you operate."
+      }
+    }
+  ],
+  "cta": {
+    "heading": {
+      "es": "¿Listo para lanzar tu propia app de movilidad?",
+      "en": "Ready to launch your own mobility app?"
+    },
+    "body": {
+      "es": "Configura tu marca, tus tarifas y tus servicios en semanas, no en meses. Cabgo te entrega la plataforma; tú te quedas con la operación, los clientes y los ingresos.",
+      "en": "Set up your brand, pricing and services in weeks, not months. Cabgo ships the platform — you keep the operation, the customers and the revenue."
+    },
+    "buttonLabel": {
+      "es": "Comenzar con Cabgo",
+      "en": "Get started with Cabgo"
+    },
+    "buttonHref": "/empezar"
+  },
+  "seo": {
+    "metaTitle": {
+      "es": "Direcciones imprecisas: encontrar al pasajero | Cabgo",
+      "en": "Imprecise addresses: finding the passenger | Cabgo"
+    },
+    "metaDescription": {
+      "es": "Cómo reducir las recogidas fallidas en colonias sin número: referencias del pasajero, contacto temprano del conductor, puntos difíciles y medición por zona.",
+      "en": "How to cut failed pickups in areas without house numbers: passenger landmarks, early driver contact, tricky spots and measuring by area."
+    }
+  },
+  "author": {
+    "name": "Equipo Cabgo",
+    "role": {
+      "es": "Plataforma de movilidad",
+      "en": "Mobility platform"
+    }
+  }
+}
