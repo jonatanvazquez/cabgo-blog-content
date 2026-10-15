@@ -1,0 +1,352 @@
+{
+  "slug": "taxi-supermercado-mercado-compras-pasajeros",
+  "category": "strategy",
+  "title": {
+    "es": "Taxi a la salida del súper y del mercado: viajes de compras",
+    "en": "Taxis outside the supermarket and the market: shopping trips"
+  },
+  "excerpt": {
+    "es": "Los viajes de regreso del supermercado, el mercado y el tianguis son cortos, frecuentes y muy fieles. Dónde aparecen, cómo resolver la recogida y la carga, y qué hacer con la tarifa de los viajes cortos.",
+    "en": "Return trips from the supermarket, the market and the street market are short, frequent and very loyal. Where they appear, how to handle pickup and loading, and what to do about the fare for short trips."
+  },
+  "heroImage": "https://raw.githubusercontent.com/jonatanvazquez/cabgo-blog-content/main/images/taxi-supermercado-mercado-compras-pasajeros.jpg",
+  "heroImageAlt": {
+    "es": "Ilustración isométrica de un supermercado, un taxi con la cajuela abierta, un carrito con bolsas de compras y un toldo de mercado.",
+    "en": "Isometric illustration of a supermarket, a taxi with its boot open, a trolley with shopping bags and a market stall awning."
+  },
+  "heroImagePrompt": "Isometric scene on a deep violet floor grid: a small supermarket building with large glass doors, a compact taxi car parked in front with its boot open, a shopping trolley full of paper grocery bags beside the taxi, and a striped market stall awning to one side. Soft indigo radial glow at the center. No text, no captions, no labels, no words anywhere in the image.",
+  "publishedAt": "2026-10-15",
+  "readingMinutes": 9,
+  "keywords": {
+    "es": [
+      "taxi supermercado",
+      "taxi para compras",
+      "taxi mercado municipal",
+      "taxi con bolsas",
+      "viajes cortos taxi",
+      "tarifa mínima taxi"
+    ],
+    "en": [
+      "supermarket taxi",
+      "taxi for shopping",
+      "taxi from the market",
+      "taxi with shopping bags",
+      "short taxi trips",
+      "taxi minimum fare"
+    ]
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Cualquier conductor de taxi en una ciudad regional lo sabe: a la salida del supermercado, del mercado municipal o del tianguis siempre hay alguien con cuatro bolsas, un garrafón de agua y prisa por llegar a casa. Son viajes cortos, frecuentes y muy predecibles, que se concentran en ciertos días y horarios y que muchas flotas atienden sin pensar demasiado en ellos. Sin embargo, para una parte importante de los pasajeros, sobre todo los que no tienen auto, ese viaje de regreso con las compras es la razón principal por la que usan un taxi cada semana.",
+        "en": "Any taxi driver in a regional city knows it: at the exit of the supermarket, the municipal market or the street market there is always someone with four bags, a large water jug and a hurry to get home. These are short, frequent and very predictable trips, concentrated on certain days and times, and many fleets handle them without giving them much thought. Yet for a large share of passengers, especially those without a car, that trip home with the shopping is the main reason they use a taxi every week."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La tesis de este artículo es que los viajes de compras son una demanda recurrente que se gana con detalles operativos: estar en el lugar correcto a la hora correcta, saber dónde recoger, ayudar con la carga y tener una tarifa clara para trayectos cortos. Una flota que cuida esos detalles convierte al pasajero del sábado en un cliente fijo. Vamos a ver dónde y cuándo aparece esta demanda, cómo resolver la recogida y la carga, qué hacer con la tarifa de los viajes cortos y cómo construir relaciones con los comercios de tu ciudad.",
+        "en": "The thesis of this article is that shopping trips are recurring demand that is won through operational details: being in the right place at the right time, knowing where to pick up, helping with the load and having a clear fare for short trips. A fleet that takes care of those details turns the Saturday passenger into a regular customer. We'll look at where and when this demand appears, how to handle pickup and loading, what to do about the fare for short trips and how to build relationships with the shops in your city."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "demanda-propia",
+      "text": {
+        "es": "Por qué los viajes de compras son una demanda propia",
+        "en": "Why shopping trips are a demand of their own"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El viaje de compras se parece poco al viaje típico que se imagina un operador. No es el trayecto al trabajo de la mañana ni la salida nocturna del fin de semana. Es, casi siempre, un viaje de vuelta: el pasajero llegó al supermercado caminando, en transporte público o con alguien que lo dejó, y lo que no puede hacer es regresar cargando todo lo que compró. La necesidad aparece en el momento en que pasa por la caja.",
+        "en": "The shopping trip looks very little like the typical trip an operator imagines. It isn't the morning commute or the weekend night out. It is almost always a return trip: the passenger got to the supermarket on foot, by public transport or with someone who dropped them off, and what they can't do is go back carrying everything they bought. The need appears the moment they pass through the checkout."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Eso tiene dos consecuencias. La primera es que el pasajero quiere el taxi ya, porque está de pie con bolsas y, a veces, con productos fríos o congelados que no pueden esperar al sol. La segunda es que el viaje es corto: la mayoría de la gente compra cerca de donde vive. Son trayectos de pocos kilómetros, pero con más trabajo que un viaje normal de la misma distancia, porque hay que cargar, acomodar y descargar.",
+        "en": "That has two consequences. The first is that the passenger wants the taxi now, because they're standing with bags and sometimes with chilled or frozen products that can't wait in the sun. The second is that the trip is short: most people shop near where they live. They're trips of a few kilometres, but with more work than a normal trip of the same distance, because there's loading, arranging and unloading to do."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Por último, es una demanda muy fiel. Quien hace la compra grande cada quince días, quien va al mercado los domingos o quien surte su pequeña tienda en la central de abasto repite el mismo viaje una y otra vez. Si la primera experiencia es buena, no tiene ningún motivo para cambiar de flota. Si es mala, la siguiente vez buscará otra opción en la misma puerta del supermercado.",
+        "en": "Finally, it's very loyal demand. Someone who does a big shop every fortnight, who goes to the market on Sundays or who stocks their small shop at the wholesale market repeats the same trip again and again. If the first experience is good, they have no reason to switch fleets. If it's bad, next time they'll look for another option at the same supermarket door."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "donde-cuando",
+      "text": {
+        "es": "Dónde y cuándo aparece la demanda",
+        "en": "Where and when the demand appears"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La demanda de compras tiene un mapa y un calendario muy claros, y conocerlos permite tener conductores cerca antes de que lleguen las solicitudes. Revisa en tu propio historial de viajes de dónde salen los trayectos cortos de los fines de semana y en qué horarios, y compáralo con esta lista de puntos habituales:",
+        "en": "Shopping demand has a very clear map and calendar, and knowing them lets you have drivers nearby before the requests come in. Check your own trip history for where short weekend trips start and at what times, and compare it with this list of usual spots:"
+      }
+    },
+    {
+      "type": "list",
+      "style": "bullet",
+      "items": {
+        "es": [
+          "Supermercados y tiendas de autoservicio, sobre todo los más grandes de la ciudad.",
+          "Mercados municipales, con picos fuertes por la mañana.",
+          "Tianguis y mercados sobre ruedas, en su día fijo de la semana.",
+          "Centros comerciales, con más movimiento por la tarde y el fin de semana.",
+          "Centrales de abasto, donde compran los pequeños comerciantes muy temprano.",
+          "Tiendas de materiales, ferreterías y mueblerías, con cargas más voluminosas."
+        ],
+        "en": [
+          "Supermarkets and self-service stores, especially the largest in the city.",
+          "Municipal markets, with strong peaks in the morning.",
+          "Street markets and travelling markets, on their fixed day of the week.",
+          "Shopping centres, with more activity in the afternoon and at weekends.",
+          "Wholesale markets, where small shopkeepers buy very early in the morning.",
+          "Building supply stores, hardware shops and furniture stores, with bulkier loads."
+        ]
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "En el calendario, los patrones se repiten. Los días de quincena y los fines de semana concentran las compras grandes, las vísperas de días festivos llenan los supermercados y cada tianguis tiene su día. Si ya trabajaste con el patrón de la quincena en tu operación, vas a reconocer la misma forma aquí: la demanda de compras sube justo después del día de pago y se mantiene alta un par de días.",
+        "en": "On the calendar, the patterns repeat. Paydays and weekends concentrate the big shops, the days before public holidays fill the supermarkets and each street market has its own day. If you've already worked with the payday pattern in your operation, you'll recognise the same shape here: shopping demand rises right after payday and stays high for a couple of days."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La información más valiosa, de todos modos, la tienen tus conductores. Ellos saben qué supermercado tiene la fila más larga a la salida, qué mercado se vacía antes del mediodía y qué tianguis termina a las tres de la tarde con todos los puestos levantándose a la vez. Pregúntales y escríbelo en una lista sencilla que la central pueda consultar.",
+        "en": "The most valuable information, though, is held by your drivers. They know which supermarket has the longest queue at the exit, which market empties out before noon and which street market finishes at three in the afternoon with every stall packing up at once. Ask them and write it down in a simple list that dispatch can refer to."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "recogida",
+      "text": {
+        "es": "La recogida en la puerta del supermercado",
+        "en": "Pickup at the supermarket door"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El momento más delicado de un viaje de compras es la recogida. Los estacionamientos de los supermercados son grandes, tienen varias salidas y suelen estar llenos los fines de semana. El pasajero espera en una puerta con su carrito y el conductor llega a otra, o se queda dando vueltas buscando dónde detenerse. Cinco minutos de confusión con bolsas pesadas se sienten como media hora.",
+        "en": "The most delicate moment of a shopping trip is the pickup. Supermarket car parks are large, have several exits and tend to be full at weekends. The passenger waits at one door with their trolley and the driver arrives at another, or keeps circling looking for somewhere to stop. Five minutes of confusion with heavy bags feels like half an hour."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La solución es definir puntos de recogida conocidos para los comercios más frecuentes: la salida principal, una zona de ascenso cercana o el lugar donde el propio supermercado permite detenerse. Si la central los tiene identificados, puede indicárselos al pasajero cuando pide el viaje y al conductor cuando lo acepta. Así los dos llegan al mismo sitio sin necesidad de llamadas.",
+        "en": "The solution is to define known pickup points for the most frequent shops: the main exit, a nearby drop-off area or the place where the supermarket itself allows cars to stop. If dispatch has them identified, it can point them out to the passenger when they book and to the driver when they accept. That way both arrive at the same spot without the need for calls."
+      }
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "text": {
+        "es": "Para los cinco o seis comercios que más viajes generan en tu ciudad, toma una foto del punto de recogida acordado y compártela con los conductores. Una imagen de la puerta correcta evita más confusiones que cualquier explicación por mensaje.",
+        "en": "For the five or six shops that generate the most trips in your city, take a photo of the agreed pickup point and share it with drivers. A picture of the right door prevents more confusion than any explanation by message."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "También ayuda que el pasajero pueda pedir el taxi un poco antes de terminar, mientras hace fila en la caja. Si el conductor llega justo cuando el pasajero sale con el carrito, nadie espera. Explicar esto en tus mensajes a los pasajeros frecuentes es una forma sencilla de mejorar la experiencia sin cambiar nada más.",
+        "en": "It also helps if the passenger can book the taxi a little before they finish, while they're queuing at the checkout. If the driver arrives just as the passenger walks out with the trolley, nobody waits. Explaining this in your messages to frequent passengers is a simple way to improve the experience without changing anything else."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "carga",
+      "text": {
+        "es": "Ayudar con la carga sin perder tiempo",
+        "en": "Helping with the load without losing time"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Un pasajero con bolsas espera algo más que un viaje: espera que el conductor abra la cajuela, le ayude a acomodar las cosas y no ponga cara de fastidio. Ese gesto, que toma un par de minutos, es lo que más recuerda la gente de estos viajes. Conviene que la flota lo diga con claridad a todos sus conductores, porque no todos lo hacen por iniciativa propia.",
+        "en": "A passenger with bags expects more than a ride: they expect the driver to open the boot, help them arrange things and not look annoyed. That gesture, which takes a couple of minutes, is what people remember most about these trips. It's worth the fleet saying it clearly to all its drivers, because not everyone does it on their own initiative."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Al mismo tiempo, hay que poner límites razonables. No todo cabe en un taxi, y un conductor no tiene por qué cargar un refrigerador ni subir veinte garrafones a un tercer piso. Lo mejor es acordar unas reglas sencillas y comunicarlas igual a conductores y pasajeros:",
+        "en": "At the same time, reasonable limits are needed. Not everything fits in a taxi, and a driver shouldn't have to carry a fridge or take twenty water jugs up to a third floor. The best approach is to agree on a few simple rules and communicate them equally to drivers and passengers:"
+      }
+    },
+    {
+      "type": "list",
+      "style": "bullet",
+      "items": {
+        "es": [
+          "El conductor abre la cajuela y ayuda a acomodar las bolsas.",
+          "Las bolsas pesadas van en la cajuela, no en los asientos.",
+          "Los productos fríos se cargan al final y se descargan primero.",
+          "Si la carga no cabe, se avisa antes de salir, no a medio camino.",
+          "Muebles, electrodomésticos o cargas muy grandes no son un viaje de taxi.",
+          "Al llegar, el conductor ayuda a bajar las bolsas hasta la puerta."
+        ],
+        "en": [
+          "The driver opens the boot and helps arrange the bags.",
+          "Heavy bags go in the boot, not on the seats.",
+          "Chilled products are loaded last and unloaded first.",
+          "If the load doesn't fit, say so before setting off, not halfway there.",
+          "Furniture, appliances or very large loads aren't a taxi trip.",
+          "On arrival, the driver helps take the bags down to the door."
+        ]
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Si en tu ciudad hay demanda constante de cargas más grandes, como las compras de los pequeños comerciantes en la central de abasto, vale la pena identificar qué conductores tienen vehículos con más espacio y orientarlos hacia esos puntos en los horarios de mayor movimiento. Es mejor que pasar el viaje a un auto compacto y que el pasajero tenga que pedir otro.",
+        "en": "If your city has constant demand for larger loads, such as small shopkeepers' purchases at the wholesale market, it's worth identifying which drivers have roomier vehicles and steering them towards those spots at the busiest times. That's better than giving the trip to a compact car and leaving the passenger to book another one."
+      }
+    },
+    {
+      "type": "quote",
+      "text": {
+        "es": "Los sábados por la mañana, la mitad de nuestros viajes salen del mercado y de dos supermercados. Les pedimos a los conductores que se bajen a abrir la cajuela y ayuden con las bolsas, y las señoras que hacen la compra cada semana ya piden por nombre a los mismos choferes.",
+        "en": "On Saturday mornings, half of our trips start at the market and two supermarkets. We ask drivers to get out, open the boot and help with the bags, and the women who do the weekly shop now ask for the same drivers by name."
+      },
+      "attribution": {
+        "es": "Coordinador de una flota de taxi por app en una ciudad de 90,000 habitantes en Veracruz, México",
+        "en": "Coordinator of an app-based taxi fleet in a city of 90,000 in Veracruz, Mexico"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "tarifa",
+      "text": {
+        "es": "Viajes cortos y la tarifa mínima",
+        "en": "Short trips and the minimum fare"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El mayor problema económico de los viajes de compras es que son cortos. Un trayecto de dos kilómetros, con cinco minutos de carga y descarga, puede dejarle muy poco al conductor si la tarifa se calcula solo por distancia. Cuando eso pasa, los conductores empiezan a rechazar estos viajes o a aceptarlos de mala gana, y el pasajero lo nota.",
+        "en": "The biggest economic problem with shopping trips is that they're short. A two-kilometre trip, with five minutes of loading and unloading, can leave the driver very little if the fare is calculated by distance alone. When that happens, drivers start rejecting these trips or accepting them grudgingly, and the passenger notices."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La herramienta más directa es una tarifa mínima bien calculada, que cubra el tiempo real del viaje aunque la distancia sea poca. Así el viaje corto vale la pena para el conductor y el pasajero sabe de antemano cuánto va a pagar. Si además decides cobrar algo extra por carga voluminosa, lo importante es que se diga antes de aceptar el viaje, nunca al llegar a la casa con las bolsas ya en la banqueta. Una sorpresa en el precio destruye en un minuto la confianza que ganó la ayuda con las bolsas.",
+        "en": "The most direct tool is a well-calculated minimum fare, one that covers the real time of the trip even when the distance is short. That way the short trip is worthwhile for the driver and the passenger knows in advance how much they'll pay. If you also decide to charge something extra for bulky loads, what matters is that it's stated before the trip is accepted, never on arrival at the house with the bags already on the pavement. A surprise in the price destroys in a minute the trust that helping with the bags earned."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Vale la pena revisar cada cierto tiempo cuántos viajes cortos salen de los puntos de compras y cuántos se rechazan o se cancelan. Si la tasa de rechazo en esos lugares es más alta que en el resto de la ciudad, es una señal clara de que la tarifa mínima no está alcanzando para que el conductor quiera hacer el viaje.",
+        "en": "It's worth reviewing every so often how many short trips start at shopping spots and how many are rejected or cancelled. If the rejection rate at those places is higher than in the rest of the city, it's a clear sign that the minimum fare isn't enough to make the driver want to do the trip."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "comercios",
+      "text": {
+        "es": "Acuerdos con los comercios de tu ciudad",
+        "en": "Agreements with the shops in your city"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Los supermercados y mercados también ganan si sus clientes tienen una forma fácil de volver a casa: quien sabe que conseguirá taxi a la salida compra más y vuelve más seguido. Eso abre la puerta a acuerdos sencillos con los comercios de tu ciudad, sobre todo con los locales, que suelen estar más abiertos a trabajar con una empresa de la misma ciudad que las grandes cadenas.",
+        "en": "Supermarkets and markets also benefit if their customers have an easy way to get home: someone who knows they'll find a taxi at the exit buys more and comes back more often. That opens the door to simple agreements with the shops in your city, especially local ones, which tend to be more open to working with a company from the same city than the big chains."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El acuerdo no tiene que ser complicado. Puede ser un espacio reconocido para que los taxis esperen cerca de la salida, un cartel con el nombre de tu app junto a las cajas o un aviso del propio comercio a sus clientes. A cambio, el comercio ofrece un servicio más a sus compradores sin ningún costo. Empieza con uno o dos comercios, mide cuántos viajes salen de ahí durante un mes y usa ese resultado para hablar con los siguientes.",
+        "en": "The agreement doesn't have to be complicated. It can be a recognised space for taxis to wait near the exit, a sign with your app's name next to the checkouts or a notice from the shop itself to its customers. In return, the shop offers its shoppers one more service at no cost. Start with one or two shops, measure how many trips start there over a month and use that result to talk to the next ones."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Con los pasajeros frecuentes, la relación se construye sola si el servicio es constante. La señora que hace la compra cada sábado o el dueño de la tienda de la esquina que surte su negocio dos veces por semana son exactamente el tipo de pasajero que una flota regional quiere tener: predecible, fiel y que recomienda el servicio a sus vecinos.",
+        "en": "With frequent passengers, the relationship builds itself if the service is consistent. The woman who does the shopping every Saturday or the corner shop owner who restocks their business twice a week are exactly the kind of passenger a regional fleet wants to have: predictable, loyal and willing to recommend the service to their neighbours."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "cierre",
+      "text": {
+        "es": "El viaje más cotidiano de la ciudad",
+        "en": "The most everyday trip in the city"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Los viajes de compras no tienen el atractivo de un traslado al aeropuerto ni el volumen de una noche de fiesta, pero son probablemente los más cotidianos de una ciudad regional. Se repiten cada semana, los hacen las mismas personas y dependen de detalles muy concretos: estar cerca a la hora correcta, saber dónde recoger, ayudar con las bolsas y cobrar un precio claro. Una flota que domina esos detalles se gana una base de pasajeros que no se va.",
+        "en": "Shopping trips don't have the appeal of an airport transfer or the volume of a party night, but they are probably the most everyday trips in a regional city. They repeat every week, they're made by the same people and they depend on very concrete details: being nearby at the right time, knowing where to pick up, helping with the bags and charging a clear price. A fleet that masters those details wins a base of passengers who stay."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Si quieres empezar esta semana, revisa en tu historial qué comercios generan más viajes cortos, define con tus conductores el punto de recogida de cada uno y comprueba que tu tarifa mínima compensa el tiempo de carga. Son tres pasos que se hacen en pocos días y se notan desde el primer fin de semana. Y con Cabgo puedes lanzar tu propia app de taxi con tu marca para que esos pasajeros te encuentren siempre a la salida.",
+        "en": "If you want to start this week, check your history for which shops generate the most short trips, agree on each one's pickup point with your drivers and make sure your minimum fare makes up for the loading time. They're three steps that take a few days and show from the first weekend. And with Cabgo you can launch your own branded taxi app so those passengers always find you at the exit."
+      }
+    }
+  ],
+  "cta": {
+    "heading": {
+      "es": "¿Listo para lanzar tu propia app de movilidad?",
+      "en": "Ready to launch your own mobility app?"
+    },
+    "body": {
+      "es": "Configura tu marca, tus tarifas y tus servicios en semanas, no en meses. Cabgo te entrega la plataforma; tú te quedas con la operación, los clientes y los ingresos.",
+      "en": "Set up your brand, pricing and services in weeks, not months. Cabgo ships the platform — you keep the operation, the customers and the revenue."
+    },
+    "buttonLabel": {
+      "es": "Comenzar con Cabgo",
+      "en": "Get started with Cabgo"
+    },
+    "buttonHref": "/empezar"
+  },
+  "seo": {
+    "metaTitle": {
+      "es": "Taxi en supermercados y mercados: viajes de compras | Cabgo",
+      "en": "Taxis at supermarkets and markets: shopping trips | Cabgo"
+    },
+    "metaDescription": {
+      "es": "Cómo operar los viajes de compras: dónde y cuándo aparece la demanda, la recogida en la puerta del súper, ayuda con la carga y la tarifa de los viajes cortos.",
+      "en": "How to run shopping trips: where and when demand appears, pickup at the supermarket door, helping with the load and the fare for short trips."
+    }
+  },
+  "author": {
+    "name": "Equipo Cabgo",
+    "role": {
+      "es": "Plataforma de movilidad",
+      "en": "Mobility platform"
+    }
+  }
+}
