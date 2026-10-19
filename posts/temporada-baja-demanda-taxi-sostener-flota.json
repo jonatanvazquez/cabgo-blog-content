@@ -1,0 +1,302 @@
+{
+  "slug": "temporada-baja-demanda-taxi-sostener-flota",
+  "category": "strategy",
+  "title": {
+    "es": "Temporada baja: cómo sostener tu flota de taxi cuando cae la demanda",
+    "en": "Low season: how to keep your taxi fleet going when demand drops"
+  },
+  "excerpt": {
+    "es": "Cuando bajan los viajes, el riesgo no es perder unas semanas sino perder conductores. Cómo reconocer la temporada baja, qué medir, cómo proteger el ingreso por hora y qué errores evitar.",
+    "en": "When trips fall, the risk isn't losing a few weeks but losing drivers. How to recognise the low season, what to measure, how to protect hourly income and which mistakes to avoid."
+  },
+  "heroImage": "https://raw.githubusercontent.com/jonatanvazquez/cabgo-blog-content/main/images/temporada-baja-demanda-taxi-sostener-flota.jpg",
+  "heroImageAlt": {
+    "es": "Ilustración isométrica de una calle tranquila con dos taxis estacionados, un calendario con hojas que caen y un gráfico de barras descendente.",
+    "en": "Isometric illustration of a quiet street with two parked taxis, a calendar with falling pages and a descending bar chart."
+  },
+  "heroImagePrompt": "Isometric scene on a deep violet floor grid: a quiet street corner with two compact taxi cars parked side by side, a large wall calendar with a few pages drifting away in the air, and a floating bar chart with bars descending then rising again at the end. Soft indigo radial glow at the center. No people. No text, no captions, no labels, no numbers, no words anywhere in the image.",
+  "publishedAt": "2026-10-19",
+  "readingMinutes": 8,
+  "keywords": {
+    "es": [
+      "temporada baja taxi",
+      "baja demanda taxi",
+      "retener conductores temporada baja",
+      "enero flota de taxi",
+      "ingreso por hora conductor",
+      "cómo sostener una flota de taxi"
+    ],
+    "en": [
+      "taxi low season",
+      "low taxi demand",
+      "retain drivers in low season",
+      "taxi fleet january",
+      "driver income per hour",
+      "how to sustain a taxi fleet"
+    ]
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Toda flota de taxi conoce sus semanas buenas: la quincena, diciembre, las fiestas de la ciudad, el regreso a clases. Pero también tiene semanas en las que el teléfono casi no suena. Enero, después de los gastos de fin de año; las vacaciones de verano en una ciudad universitaria que se vacía; las semanas posteriores a un evento grande. En esos periodos los viajes bajan, los conductores pasan horas conectados sin solicitudes y el operador empieza a preocuparse por perderlos.",
+        "en": "Every taxi fleet knows its good weeks: payday, December, the city's festivals, back to school. But it also has weeks when the phone hardly rings. January, after the year-end spending; the summer holidays in a university city that empties out; the weeks after a big event. In those periods trips fall, drivers spend hours online with no requests and the operator starts worrying about losing them."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La tesis de este artículo es que la temporada baja no se combate con reacciones de pánico, como bajar tarifas a ciegas o llenar la app de promociones, sino con medición y con decisiones que protegen el ingreso de los conductores mientras se mueve la demanda que sí existe. Una flota que atraviesa bien la temporada baja llega a la siguiente temporada alta con sus conductores completos y sus pasajeros intactos. Vamos a ver cómo reconocerla, qué medir, cómo cuidar a los conductores, cómo mover la demanda, qué errores evitar y cómo aprovechar ese tiempo.",
+        "en": "The thesis of this article is that the low season isn't fought with panicked reactions, such as cutting fares blindly or flooding the app with promotions, but with measurement and decisions that protect drivers' income while moving the demand that does exist. A fleet that gets through the low season well reaches the next high season with its drivers intact and its passengers still there. We'll look at how to recognise it, what to measure, how to look after drivers, how to move demand, which mistakes to avoid and how to make use of that time."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "reconocerla",
+      "text": {
+        "es": "Reconocer la temporada baja de tu ciudad",
+        "en": "Recognising your city's low season"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Cada ciudad tiene su propio calendario de temporada baja, y conviene conocerlo antes de que llegue. En muchas ciudades de América Latina, enero es el mes más difícil: la gente gastó en diciembre, las escuelas tardan en arrancar y el ritmo general baja. En las ciudades universitarias, las vacaciones de verano y de invierno pueden reducir la demanda de forma notable, porque una parte importante de los pasajeros se va. En las ciudades turísticas pasa lo contrario: la temporada baja es justo cuando no hay visitantes.",
+        "en": "Every city has its own low-season calendar, and it's worth knowing it before it arrives. In many Latin American cities, January is the hardest month: people spent in December, schools are slow to restart and the general pace slows down. In university cities, the summer and winter holidays can noticeably reduce demand, because a large share of passengers leaves. In tourist cities the opposite happens: the low season is precisely when there are no visitors."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La mejor forma de conocer tu calendario es mirar tu propio historial. Compara los viajes de cada semana del año pasado y marca las que estuvieron claramente por debajo del promedio. Esas semanas probablemente se repetirán este año, con pequeñas variaciones. Si tu flota es nueva y no tiene historial, pregunta a los conductores con más experiencia: ellos recuerdan perfectamente qué meses fueron difíciles.",
+        "en": "The best way to know your calendar is to look at your own history. Compare the trips for each week of last year and mark the ones that were clearly below average. Those weeks will probably repeat this year, with small variations. If your fleet is new and has no history, ask the most experienced drivers: they remember perfectly which months were hard."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "medir",
+      "text": {
+        "es": "Medir antes de reaccionar",
+        "en": "Measure before reacting"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Cuando bajan los viajes, la tentación es actuar de inmediato. Pero antes de cambiar tarifas o lanzar promociones, conviene entender qué está pasando. No es lo mismo que haya menos pasajeros que el que haya los mismos pasajeros repartidos entre demasiados conductores. Estos son los indicadores que más ayudan a entender una temporada baja:",
+        "en": "When trips fall, the temptation is to act immediately. But before changing fares or launching promotions, it's worth understanding what's going on. Having fewer passengers isn't the same as having the same passengers spread across too many drivers. These are the indicators that help most to understand a low season:"
+      }
+    },
+    {
+      "type": "list",
+      "style": "bullet",
+      "items": {
+        "es": [
+          "Viajes por día y por semana, comparados con el mismo periodo del año anterior.",
+          "Viajes por hora conectada de cada conductor.",
+          "Ingreso promedio por conductor activo en la semana.",
+          "Tiempo de espera del pasajero, que puede bajar aunque haya menos viajes.",
+          "Número de pasajeros distintos que piden al menos un viaje.",
+          "Horarios y zonas donde la caída es mayor."
+        ],
+        "en": [
+          "Trips per day and per week, compared with the same period last year.",
+          "Trips per online hour for each driver.",
+          "Average income per active driver in the week.",
+          "Passenger waiting time, which can fall even with fewer trips.",
+          "Number of distinct passengers booking at least one trip.",
+          "Times and areas where the drop is largest."
+        ]
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Si los pasajeros distintos se mantienen pero cada uno pide menos, el problema es la frecuencia, y conviene trabajar con los pasajeros que ya tienes. Si lo que cae es el número de pasajeros, quizá se fueron de la ciudad o están usando otra opción. Y si el número de viajes es razonable pero los viajes por hora conectada se desploman, el problema principal es que hay demasiados conductores conectados para la demanda que existe.",
+        "en": "If distinct passengers hold steady but each one books less, the problem is frequency, and it's worth working with the passengers you already have. If what falls is the number of passengers, perhaps they've left the city or are using another option. And if the number of trips is reasonable but trips per online hour collapse, the main problem is that too many drivers are online for the demand that exists."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "conductores",
+      "text": {
+        "es": "Cuidar el ingreso de los conductores",
+        "en": "Protecting drivers' income"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El mayor riesgo de la temporada baja no es perder viajes durante unas semanas, sino perder conductores para siempre. Un conductor que pasa diez horas conectado y hace cuatro viajes se frustra rápido, y si encuentra otro trabajo o se va a otra plataforma, es difícil que vuelva cuando la demanda suba. Por eso, la prioridad es que cada conductor que trabaja tenga un ingreso razonable por hora.",
+        "en": "The biggest risk of the low season isn't losing trips for a few weeks, but losing drivers for good. A driver who spends ten hours online and does four trips gets frustrated fast, and if they find another job or move to another platform, they're unlikely to come back when demand picks up. That's why the priority is for every driver who works to earn a reasonable income per hour."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La forma más directa de lograrlo es ajustar cuántos conductores están conectados en cada horario. En lugar de que todos se conecten todo el día, la flota puede organizar turnos o sugerir a los conductores los horarios con más demanda, para que menos personas compartan los mismos viajes. Algunos conductores aprovecharán para tomar vacaciones o atender otras actividades, y eso no es malo: es mejor un conductor que descansa dos semanas y vuelve que uno que se va frustrado.",
+        "en": "The most direct way to achieve that is to adjust how many drivers are online at each time of day. Instead of everyone logging on all day, the fleet can organise shifts or suggest the busiest hours to drivers, so fewer people share the same trips. Some drivers will take the chance to go on holiday or attend to other activities, and that's not bad: a driver who rests for two weeks and comes back is better than one who leaves frustrated."
+      }
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "text": {
+        "es": "Comunica la temporada baja a tus conductores antes de que llegue: qué semanas esperas que sean flojas, en qué horarios conviene conectarse y qué está haciendo la flota para mover la demanda. Un conductor que sabe lo que viene se frustra mucho menos que uno que lo descubre solo.",
+        "en": "Tell your drivers about the low season before it arrives: which weeks you expect to be slow, what times are worth logging on and what the fleet is doing to move demand. A driver who knows what's coming gets far less frustrated than one who finds out alone."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "También ayuda revisar los costos que el conductor paga a la flota. Si la comisión o la cuota es fija por semana, en temporada baja puede volverse una carga pesada. Algunas flotas deciden ajustar temporalmente esas condiciones para retener a sus conductores; es una decisión de cada operador, pero conviene tomarla con números y comunicarla con claridad, con fecha de inicio y de fin.",
+        "en": "It also helps to review the costs the driver pays the fleet. If the commission or fee is fixed per week, in the low season it can become a heavy burden. Some fleets decide to adjust those terms temporarily to retain their drivers; it's each operator's decision, but it's worth making it with numbers and communicating it clearly, with a start date and an end date."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "demanda",
+      "text": {
+        "es": "Mover la demanda que sí existe",
+        "en": "Moving the demand that does exist"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Aunque la demanda baje, no desaparece. Siguen existiendo los viajes al hospital, al trabajo, a la central de autobuses y al supermercado. La temporada baja es un buen momento para trabajar con los pasajeros que ya conoces: los que dejaron de pedir hace unas semanas, los frecuentes que podrían pedir un poco más y las empresas o comercios que podrían usar el servicio de forma regular.",
+        "en": "Even when demand falls, it doesn't disappear. There are still trips to the hospital, to work, to the bus station and to the supermarket. The low season is a good time to work with the passengers you already know: those who stopped booking a few weeks ago, the frequent ones who could book a little more and the companies or shops that could use the service regularly."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Un mensaje bien pensado a los pasajeros inactivos, recordándoles el servicio y quizá con un incentivo modesto y acotado, suele dar mejores resultados que una promoción general para todos. Los acuerdos con empresas, hospitales, hoteles o comercios son otra vía: generan viajes constantes que no dependen de la temporada. Y los viajes programados, como los de citas médicas o salidas a la central, se pueden promover más en estas semanas.",
+        "en": "A well-thought-out message to inactive passengers, reminding them of the service and perhaps with a modest, limited incentive, usually works better than a general promotion for everyone. Agreements with companies, hospitals, hotels or shops are another route: they generate steady trips that don't depend on the season. And scheduled trips, such as medical appointments or departures to the bus station, can be promoted more in these weeks."
+      }
+    },
+    {
+      "type": "quote",
+      "text": {
+        "es": "El primer enero perdimos a casi la mitad de los conductores porque se conectaban todo el día y no hacían viajes. Al año siguiente organizamos turnos, les explicamos qué semanas iban a estar flojas y buscamos a los pasajeros que habían dejado de pedir. En febrero teníamos a todos los conductores de vuelta.",
+        "en": "The first January we lost almost half our drivers because they were online all day and getting no trips. The next year we organised shifts, explained which weeks would be slow and reached out to passengers who had stopped booking. By February we had every driver back."
+      },
+      "attribution": {
+        "es": "Dueño de una flota de taxi por app en una ciudad de 100,000 habitantes en Zacatecas, México",
+        "en": "Owner of an app-based taxi fleet in a city of 100,000 in Zacatecas, Mexico"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "errores",
+      "text": {
+        "es": "Errores comunes en temporada baja",
+        "en": "Common low-season mistakes"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El error más frecuente es bajar las tarifas de forma general para atraer pasajeros. En temporada baja, el problema rara vez es el precio: la gente simplemente se mueve menos. Bajar la tarifa reduce el ingreso de cada viaje justo cuando los conductores ya están haciendo menos viajes, y después es muy difícil volver a subirla sin que los pasajeros lo noten. Si se usan incentivos, conviene que sean acotados, temporales y dirigidos a un grupo concreto.",
+        "en": "The most common mistake is cutting fares across the board to attract passengers. In the low season, the problem is rarely the price: people simply travel less. Cutting the fare reduces the income from each trip just when drivers are already doing fewer trips, and afterwards it's very hard to raise it again without passengers noticing. If incentives are used, they should be limited, temporary and aimed at a specific group."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El segundo error es recortar justo lo que sostiene la confianza: el soporte a pasajeros, la atención a los conductores o el cuidado de los vehículos. Ahorrar ahí puede parecer sensato cuando entran menos ingresos, pero una mala experiencia en enero se recuerda en marzo. El tercer error es no hacer nada y esperar a que pase. La temporada baja termina, pero lo que la flota haga durante esas semanas determina con cuántos conductores y pasajeros llega a la siguiente temporada alta.",
+        "en": "The second mistake is cutting precisely what sustains trust: passenger support, attention to drivers or vehicle care. Saving there may seem sensible when less income comes in, but a bad experience in January is remembered in March. The third mistake is doing nothing and waiting for it to pass. The low season ends, but what the fleet does during those weeks determines how many drivers and passengers it has when the next high season arrives."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "aprovechar",
+      "text": {
+        "es": "Aprovechar el tiempo para prepararse",
+        "en": "Using the time to prepare"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La temporada baja también es una oportunidad. Con menos viajes, hay tiempo para hacer lo que en temporada alta siempre se pospone: el mantenimiento preventivo de los vehículos, la revisión de documentos de los conductores que están por vencer, la capacitación de los nuevos y la revisión de las tarifas y zonas con calma. Una flota que usa estas semanas para ordenarse llega a la temporada alta mucho mejor preparada.",
+        "en": "The low season is also an opportunity. With fewer trips, there's time to do what always gets postponed in the high season: preventive vehicle maintenance, reviewing drivers' documents that are about to expire, training new drivers and reviewing fares and zones calmly. A fleet that uses these weeks to get organised reaches the high season much better prepared."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "También es un buen momento para escuchar. Con menos presión, los conductores tienen tiempo de contar qué les funciona y qué no: zonas donde siempre esperan demasiado, pasajeros que se quejan de lo mismo, reglas que nadie entiende. Una conversación tranquila en enero puede producir más mejoras que meses de quejas sueltas en temporada alta. Lo mismo pasa con los pasajeros frecuentes: preguntarles qué mejorarían del servicio cuesta poco y muestra que la flota se interesa por ellos.",
+        "en": "It's also a good time to listen. With less pressure, drivers have time to say what works for them and what doesn't: areas where they always wait too long, passengers who complain about the same thing, rules nobody understands. A calm conversation in January can produce more improvements than months of scattered complaints in the high season. The same goes for frequent passengers: asking them what they'd improve about the service costs little and shows the fleet cares about them."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Por último, la temporada baja es el momento ideal para preparar la siguiente temporada alta. Si sabes que en marzo regresan los estudiantes o que en abril llegan las fiestas de la ciudad, puedes reclutar y capacitar conductores nuevos con calma, sin la prisa de las semanas de mucha demanda. Un conductor que entra en temporada baja aprende la ciudad y la app sin presión, y llega listo cuando más se le necesita.",
+        "en": "Finally, the low season is the ideal time to prepare for the next high season. If you know students come back in March or the city's festivities arrive in April, you can recruit and train new drivers calmly, without the rush of the busy weeks. A driver who joins in the low season learns the city and the app without pressure, and is ready when they're needed most."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "cierre",
+      "text": {
+        "es": "Llegar completos a la siguiente temporada",
+        "en": "Reaching the next season intact"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La temporada baja es inevitable, pero sus efectos no lo son. Una flota que conoce su calendario, que mide antes de reaccionar, que protege el ingreso por hora de sus conductores, que trabaja con los pasajeros que ya tiene y que evita las decisiones de pánico atraviesa esas semanas sin perder lo que le costó construir. Cuando la demanda vuelve, tiene a sus conductores y a sus pasajeros listos.",
+        "en": "The low season is inevitable, but its effects aren't. A fleet that knows its calendar, measures before reacting, protects its drivers' hourly income, works with the passengers it already has and avoids panicked decisions gets through those weeks without losing what it worked hard to build. When demand returns, it has its drivers and passengers ready."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Si quieres empezar hoy, revisa en tu historial cuáles fueron tus semanas más flojas del año pasado, calcula los viajes por hora conectada de tus conductores y prepara un mensaje para explicarles qué viene y qué vas a hacer. Son tres pasos sencillos que cambian la forma de vivir la temporada baja. Y con Cabgo puedes lanzar tu propia app de taxi con tu marca para mantener el contacto con tus pasajeros todo el año.",
+        "en": "If you want to start today, check your history for your slowest weeks last year, work out your drivers' trips per online hour and prepare a message explaining to them what's coming and what you'll do. They're three simple steps that change how you live through the low season. And with Cabgo you can launch your own branded taxi app to stay in touch with your passengers all year round."
+      }
+    }
+  ],
+  "cta": {
+    "heading": {
+      "es": "¿Listo para lanzar tu propia app de movilidad?",
+      "en": "Ready to launch your own mobility app?"
+    },
+    "body": {
+      "es": "Configura tu marca, tus tarifas y tus servicios en semanas, no en meses. Cabgo te entrega la plataforma; tú te quedas con la operación, los clientes y los ingresos.",
+      "en": "Set up your brand, pricing and services in weeks, not months. Cabgo ships the platform — you keep the operation, the customers and the revenue."
+    },
+    "buttonLabel": {
+      "es": "Comenzar con Cabgo",
+      "en": "Get started with Cabgo"
+    },
+    "buttonHref": "/empezar"
+  },
+  "seo": {
+    "metaTitle": {
+      "es": "Temporada baja: cómo sostener tu flota de taxi | Cabgo",
+      "en": "Low season: how to sustain your taxi fleet | Cabgo"
+    },
+    "metaDescription": {
+      "es": "Qué hacer cuando cae la demanda: reconocer la temporada baja, medir viajes por hora, proteger el ingreso de los conductores y evitar bajar tarifas a ciegas.",
+      "en": "What to do when demand drops: recognise the low season, measure trips per hour, protect drivers' income and avoid cutting fares blindly."
+    }
+  },
+  "author": {
+    "name": "Equipo Cabgo",
+    "role": {
+      "es": "Plataforma de movilidad",
+      "en": "Mobility platform"
+    }
+  }
+}
