@@ -1,0 +1,295 @@
+{
+  "slug": "nombre-app-de-taxi-como-elegirlo",
+  "category": "strategy",
+  "title": {
+    "es": "Cómo elegir el nombre de tu app de taxi (y qué no se puede cambiar)",
+    "en": "How to choose your taxi app's name (and what can't be changed)"
+  },
+  "excerpt": {
+    "es": "El nombre de tu app de taxi te acompaña años. Qué hace que funcione, cómo comprobar que esté libre, qué se puede cambiar después y qué no, cómo pensar el ícono y cómo probarlo antes de lanzar.",
+    "en": "Your taxi app's name stays with you for years. What makes it work, how to check it's free, what can be changed later and what can't, how to think about the icon and how to test it before launch."
+  },
+  "heroImage": "https://raw.githubusercontent.com/jonatanvazquez/cabgo-blog-content/main/images/nombre-app-de-taxi-como-elegirlo.jpg",
+  "heroImageAlt": {
+    "es": "Ilustración isométrica de un teléfono grande con íconos de apps en blanco, una tarjeta de presentación y un taxi con una puerta lisa para su logo.",
+    "en": "Isometric illustration of a large phone with blank app icons, a business card and a taxi with a plain door ready for its logo."
+  },
+  "heroImagePrompt": "Isometric scene on a deep violet floor grid: a large smartphone standing upright showing a grid of blank rounded app icons with one highlighted icon glowing, a compact taxi car beside it with a plain empty door panel, and a blank business card floating above. Soft indigo radial glow at the center. No people. No text, no captions, no labels, no letters, no words anywhere in the image.",
+  "publishedAt": "2026-10-20",
+  "readingMinutes": 8,
+  "keywords": {
+    "es": [
+      "nombre para app de taxi",
+      "cómo elegir nombre de app",
+      "nombre de empresa de taxi",
+      "marca de app de taxi",
+      "ícono de app de taxi",
+      "nombre de paquete app"
+    ],
+    "en": [
+      "taxi app name",
+      "how to choose an app name",
+      "taxi company name",
+      "taxi app brand",
+      "taxi app icon",
+      "app package name"
+    ]
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Cuando una flota decide lanzar su propia app de taxi, una de las primeras preguntas es cómo se va a llamar. Parece una decisión sencilla, casi de gusto personal, y muchas veces se resuelve en una tarde: el nombre de la empresa, una palabra que suena bien o algo con «taxi» y el nombre de la ciudad. Pero el nombre de una app acompaña a la flota durante años: aparece en la tienda de aplicaciones, en el ícono del teléfono de cada pasajero, en los autos, en las redes y en cada recomendación de boca en boca.",
+        "en": "When a fleet decides to launch its own taxi app, one of the first questions is what it will be called. It seems like a simple decision, almost a matter of personal taste, and it's often settled in an afternoon: the company name, a word that sounds good or something with \"taxi\" and the city's name. But an app's name stays with the fleet for years: it appears in the app store, on the icon on every passenger's phone, on the cars, on social media and in every word-of-mouth recommendation."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La tesis de este artículo es que un buen nombre de app de taxi no es el más original, sino el que la gente de tu ciudad puede decir, recordar, escribir y encontrar sin esfuerzo. Y hay una parte de la decisión que conviene tomar con especial cuidado, porque después no se puede cambiar. Vamos a ver qué hace funcionar un nombre, cómo comprobar que esté disponible, qué cosas se pueden cambiar más adelante y cuáles no, cómo pensar el ícono y cómo probar el nombre antes de lanzarlo.",
+        "en": "The thesis of this article is that a good taxi app name isn't the most original one, but the one people in your city can say, remember, type and find without effort. And there's one part of the decision that deserves special care, because it can't be changed afterwards. We'll look at what makes a name work, how to check it's available, which things can be changed later and which can't, how to think about the icon and how to test the name before launching it."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "que-funciona",
+      "text": {
+        "es": "Qué hace que un nombre funcione",
+        "en": "What makes a name work"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Un nombre de app de taxi tiene que pasar una prueba muy concreta: alguien lo escucha una vez, de boca de un vecino o de un conductor, y horas después lo busca en la tienda de aplicaciones y lo encuentra a la primera. Si para lograrlo hace falta deletrearlo, adivinar si lleva «k» o «c», o recordar dónde iba el guion, el nombre está perdiendo pasajeros cada día. Estas son las características que más ayudan:",
+        "en": "A taxi app name has to pass a very specific test: someone hears it once, from a neighbour or a driver, and hours later searches for it in the app store and finds it first time. If that requires spelling it out, guessing whether it has a \"k\" or a \"c\", or remembering where the hyphen went, the name is losing passengers every day. These are the characteristics that help most:"
+      }
+    },
+    {
+      "type": "list",
+      "style": "bullet",
+      "items": {
+        "es": [
+          "Corto: una o dos palabras, fáciles de decir en voz alta.",
+          "Fácil de escribir tal como suena, sin letras dudosas.",
+          "Distinto de las apps grandes y de otras flotas de tu ciudad.",
+          "Que se entienda que es transporte, por el nombre o por el ícono.",
+          "Con algo local que la gente reconozca como propio.",
+          "Que no dependa de una moda que en dos años suene vieja."
+        ],
+        "en": [
+          "Short: one or two words, easy to say out loud.",
+          "Easy to type exactly as it sounds, with no doubtful letters.",
+          "Different from the big apps and from other fleets in your city.",
+          "Clear that it's transport, through the name or the icon.",
+          "With something local that people recognise as their own.",
+          "Not dependent on a fad that will sound dated in two years."
+        ]
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El elemento local merece una mención aparte. Muchas flotas regionales ganan precisamente porque son de la ciudad, y el nombre puede decirlo: una referencia a un lugar conocido, una palabra de la región o el nombre con el que la gente ya conoce a la empresa de radio taxi de toda la vida. Si tu flota ya tiene una marca reconocida en la calle, casi siempre conviene conservarla en la app en lugar de inventar una nueva y empezar de cero.",
+        "en": "The local element deserves a separate mention. Many regional fleets win precisely because they're from the city, and the name can say so: a reference to a well-known place, a regional word or the name people already know the long-standing radio taxi company by. If your fleet already has a recognised brand on the street, it's almost always better to keep it in the app than to invent a new one and start from scratch."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "disponible",
+      "text": {
+        "es": "Comprobar que el nombre esté disponible",
+        "en": "Checking the name is available"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Antes de enamorarse de un nombre, conviene comprobar que nadie más lo está usando. Busca el nombre en Google Play y en la App Store, en las redes sociales y en internet, y fíjate especialmente en otras apps de transporte. Un nombre igual o muy parecido al de otra app genera confusión: tus pasajeros pueden descargar la equivocada, y la otra empresa puede reclamar el uso del nombre.",
+        "en": "Before falling in love with a name, it's worth checking that nobody else is using it. Search for the name on Google Play and the App Store, on social media and on the internet, and pay special attention to other transport apps. A name that's the same as or very similar to another app's creates confusion: your passengers may download the wrong one, and the other company may object to the use of the name."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "También conviene revisar si el nombre está registrado como marca en tu país. Las oficinas de marcas suelen tener buscadores públicos, y una consulta rápida puede evitar un problema serio más adelante. Si el nombre es importante para tu negocio, registrar la marca a tu nombre es una inversión que vale la pena; un abogado o un gestor local puede orientarte sobre el proceso en tu país.",
+        "en": "It's also worth checking whether the name is registered as a trademark in your country. Trademark offices usually have public search tools, and a quick search can prevent a serious problem later. If the name matters to your business, registering the trademark in your own name is a worthwhile investment; a local lawyer or agent can advise you on the process in your country."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "permanente",
+      "text": {
+        "es": "Lo que se puede cambiar y lo que no",
+        "en": "What can be changed and what can't"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Aquí está la parte de la decisión que más se suele pasar por alto. Una app en las tiendas tiene dos identificadores distintos. Uno es el nombre visible, el que el pasajero ve debajo del ícono y en la ficha de la tienda: ese se puede cambiar más adelante, con una actualización. El otro es el identificador técnico de la app, a veces llamado nombre de paquete, que suele tener una forma como com.tuempresa.app: ese queda fijo para siempre en cuanto la app se publica.",
+        "en": "Here's the part of the decision that's most often overlooked. An app in the stores has two different identifiers. One is the visible name, the one the passenger sees under the icon and on the store listing: that can be changed later, with an update. The other is the app's technical identifier, sometimes called the package name, which usually looks something like com.yourcompany.app: that stays fixed forever once the app is published."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Si más adelante quisieras cambiar ese identificador, la única forma sería publicar una app nueva, con una ficha nueva en la tienda, y tus pasajeros tendrían que descargarla otra vez. No recibirían la nueva app como una actualización, y las calificaciones y reseñas de la ficha anterior no pasarían a la nueva. Por eso, el identificador técnico se elige con calma, con el nombre de la empresa o de la marca que piensas conservar, y no con el nombre de una prueba o de una idea provisional.",
+        "en": "If you later wanted to change that identifier, the only way would be to publish a new app, with a new store listing, and your passengers would have to download it again. They wouldn't receive the new app as an update, and the ratings and reviews from the old listing wouldn't carry over to the new one. That's why the technical identifier is chosen calmly, with the name of the company or brand you plan to keep, and not with the name of a test or a provisional idea."
+      }
+    },
+    {
+      "type": "callout",
+      "variant": "warning",
+      "text": {
+        "es": "Si tus pasajeros ya usan una app de tu flota publicada antes, el nombre visible puede cambiar, pero el identificador técnico no. Antes de publicar una app nueva, decide si quieres actualizar la que ya tienen o lanzar otra aparte: son caminos muy distintos y el segundo no se puede deshacer.",
+        "en": "If your passengers already use an app of your fleet published earlier, the visible name can change, but the technical identifier can't. Before publishing a new app, decide whether you want to update the one they already have or launch a separate one: they're very different paths and the second can't be undone."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "icono",
+      "text": {
+        "es": "El ícono y los colores",
+        "en": "The icon and the colours"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "En el teléfono del pasajero, el nombre convive con el ícono, y muchas veces el ícono se reconoce antes que el nombre. Un buen ícono de app de taxi es simple, se distingue en tamaño pequeño y funciona tanto sobre fondos claros como oscuros. Conviene evitar logos con mucho texto o detalles finos, porque en el ícono se vuelven una mancha. Una letra, un símbolo sencillo o una silueta reconocible suelen funcionar mejor.",
+        "en": "On the passenger's phone, the name sits alongside the icon, and the icon is often recognised before the name. A good taxi app icon is simple, stands out at a small size and works on both light and dark backgrounds. It's best to avoid logos with lots of text or fine details, because on an icon they turn into a blur. A letter, a simple symbol or a recognisable silhouette usually works better."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Los colores también comunican. Si los autos de tu flota ya tienen un color característico, usarlo en la app refuerza la conexión entre lo que el pasajero ve en la calle y lo que tiene en el teléfono. Y si la flota todavía no tiene una identidad visual, la app es una buena ocasión para definirla y aplicarla después en los autos, en las tarjetas y en las redes.",
+        "en": "Colours also communicate. If your fleet's cars already have a distinctive colour, using it in the app strengthens the connection between what the passenger sees on the street and what they have on their phone. And if the fleet doesn't yet have a visual identity, the app is a good opportunity to define one and then apply it to the cars, the business cards and social media."
+      }
+    },
+    {
+      "type": "quote",
+      "text": {
+        "es": "Pensamos en nombres modernos durante semanas, pero al final nos quedamos con el de la base de radio taxi que la gente conoce desde hace veinte años. La gente nos pedía taxi por ese nombre, y cuando lanzamos la app la buscaron así en la tienda. Lo que hicimos fue cambiar el logo para que se viera bien como ícono.",
+        "en": "We spent weeks thinking about modern names, but in the end we kept the name of the radio taxi base people have known for twenty years. People booked taxis using that name, and when we launched the app they searched for it that way in the store. What we did was change the logo so it looked good as an icon."
+      },
+      "attribution": {
+        "es": "Dueño de una flota de taxi por app en una ciudad de 80,000 habitantes en Hidalgo, México",
+        "en": "Owner of an app-based taxi fleet in a city of 80,000 in Hidalgo, Mexico"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "errores",
+      "text": {
+        "es": "Errores comunes al elegir el nombre",
+        "en": "Common mistakes when choosing the name"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El error más frecuente es copiar a las apps grandes: nombres que imitan el sonido, la terminación o los colores de las plataformas internacionales. Además del riesgo de un reclamo por la marca, esos nombres juegan en contra, porque el pasajero no encuentra una razón para elegir la versión local de algo que ya conoce. Otro error común es el nombre demasiado genérico, como «Taxi App» o «Mi Taxi» seguido del nombre de la ciudad: es fácil de recordar, pero imposible de encontrar en la tienda entre decenas de apps con nombres casi iguales.",
+        "en": "The most common mistake is copying the big apps: names that imitate the sound, the ending or the colours of the international platforms. Besides the risk of a trademark complaint, those names work against you, because the passenger finds no reason to choose the local version of something they already know. Another common mistake is the name that's too generic, like \"Taxi App\" or \"My Taxi\" followed by the city's name: it's easy to remember, but impossible to find in the store among dozens of apps with almost identical names."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "También conviene evitar los nombres que limitan el crecimiento. Si hoy tu flota sólo hace taxi pero mañana podría sumar reparto o servicio a otra ciudad, un nombre atado a un solo servicio o a un solo barrio puede quedarse corto. Y, por último, evita los juegos de palabras que sólo entiende quien los inventó: si hay que explicarlos, no funcionan en la calle.",
+        "en": "It's also worth avoiding names that limit growth. If your fleet only does taxis today but could add deliveries or service in another city tomorrow, a name tied to a single service or a single neighbourhood may fall short. And finally, avoid wordplay only its inventor understands: if it has to be explained, it won't work on the street."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "probar",
+      "text": {
+        "es": "Probar el nombre antes de lanzarlo",
+        "en": "Testing the name before launch"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Antes de decidir, haz una prueba sencilla con personas reales. Di el nombre en voz alta a cinco o seis personas de tu ciudad que no estén involucradas en la decisión, espera unos minutos y pídeles que lo escriban. Si la mayoría lo escribe bien, el nombre pasa la prueba más importante. Si cada quien lo escribe distinto, vas a tener problemas cada vez que alguien lo busque en la tienda.",
+        "en": "Before deciding, run a simple test with real people. Say the name out loud to five or six people in your city who aren't involved in the decision, wait a few minutes and ask them to write it down. If most of them write it correctly, the name passes the most important test. If each person writes it differently, you'll have problems every time someone searches for it in the store."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "También vale la pena preguntar a tus conductores. Ellos van a decir el nombre decenas de veces al día, a pasajeros, en la radio y en la calle. Si les cuesta pronunciarlo o les da vergüenza decirlo, no lo van a usar, y el nombre perderá su mejor canal de difusión. Un nombre que los conductores dicen con gusto se difunde solo.",
+        "en": "It's also worth asking your drivers. They'll say the name dozens of times a day, to passengers, on the radio and on the street. If they find it hard to pronounce or feel embarrassed saying it, they won't use it, and the name will lose its best channel for spreading. A name drivers are happy to say spreads by itself."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Por último, imagina el nombre en todos los lugares donde va a aparecer: en la puerta de un auto, en una tarjeta, en una publicación de redes y en la ficha de la tienda junto a otras apps. Si en todos esos lugares se entiende y se distingue, tienes un buen candidato.",
+        "en": "Finally, picture the name in every place it will appear: on a car door, on a business card, in a social media post and on the store listing next to other apps. If it's clear and stands out in all those places, you have a good candidate."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "cierre",
+      "text": {
+        "es": "Un nombre para años",
+        "en": "A name for years"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El nombre de tu app de taxi es una de las pocas decisiones que vas a tomar una sola vez y que vas a ver todos los días durante años. No necesita ser brillante ni original: necesita ser fácil de decir, de escribir y de encontrar, distinto de los demás, con algo de tu ciudad, y estar libre para que lo uses. Y el identificador técnico de la app merece todavía más cuidado, porque es lo único que no se puede corregir después.",
+        "en": "Your taxi app's name is one of the few decisions you'll make only once and see every day for years. It doesn't need to be brilliant or original: it needs to be easy to say, type and find, different from the rest, with something of your city in it, and free for you to use. And the app's technical identifier deserves even more care, because it's the one thing that can't be corrected afterwards."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Si estás a punto de lanzar, haz la prueba de las cinco personas, busca el nombre en las tiendas y en el registro de marcas, y decide con calma el identificador técnico. Son pasos sencillos que evitan problemas que después no tienen arreglo. Y con Cabgo puedes lanzar tu propia app de taxi con tu marca, con el nombre que tu ciudad ya reconoce.",
+        "en": "If you're about to launch, run the five-person test, search for the name in the stores and in the trademark register, and choose the technical identifier calmly. They're simple steps that prevent problems that can't be fixed later. And with Cabgo you can launch your own branded taxi app, with the name your city already recognises."
+      }
+    }
+  ],
+  "cta": {
+    "heading": {
+      "es": "¿Listo para lanzar tu propia app de movilidad?",
+      "en": "Ready to launch your own mobility app?"
+    },
+    "body": {
+      "es": "Configura tu marca, tus tarifas y tus servicios en semanas, no en meses. Cabgo te entrega la plataforma; tú te quedas con la operación, los clientes y los ingresos.",
+      "en": "Set up your brand, pricing and services in weeks, not months. Cabgo ships the platform — you keep the operation, the customers and the revenue."
+    },
+    "buttonLabel": {
+      "es": "Comenzar con Cabgo",
+      "en": "Get started with Cabgo"
+    },
+    "buttonHref": "/empezar"
+  },
+  "seo": {
+    "metaTitle": {
+      "es": "Cómo elegir el nombre de tu app de taxi | Cabgo",
+      "en": "How to choose your taxi app's name | Cabgo"
+    },
+    "metaDescription": {
+      "es": "Qué hace que un nombre de app de taxi funcione, cómo comprobar que esté libre, qué se puede cambiar después y qué no, y cómo probarlo antes de lanzar.",
+      "en": "What makes a taxi app name work, how to check it's free, what can be changed later and what can't, and how to test it before launch."
+    }
+  },
+  "author": {
+    "name": "Equipo Cabgo",
+    "role": {
+      "es": "Plataforma de movilidad",
+      "en": "Mobility platform"
+    }
+  }
+}
