@@ -1,0 +1,309 @@
+{
+  "slug": "primeras-descargas-app-de-taxi-como-conseguirlas",
+  "category": "strategy",
+  "title": {
+    "es": "Primeras descargas: cómo lograr que tu ciudad instale tu app de taxi",
+    "en": "First downloads: how to get your city to install your taxi app"
+  },
+  "excerpt": {
+    "es": "Una app recién publicada tiene cero pasajeros. Cómo conseguir las primeras descargas con los conductores, los puntos donde la gente espera un taxi y las comunidades locales, y qué medir después.",
+    "en": "A newly published app has zero passengers. How to get the first downloads through drivers, the spots where people wait for a taxi and local communities, and what to measure afterwards."
+  },
+  "heroImage": "https://raw.githubusercontent.com/jonatanvazquez/cabgo-blog-content/main/images/primeras-descargas-app-de-taxi-como-conseguirlas.jpg",
+  "heroImageAlt": {
+    "es": "Ilustración isométrica de un taxi con un código QR en la ventana, un teléfono con una barra de descarga y un cartel en una parada.",
+    "en": "Isometric illustration of a taxi with a QR code in the window, a phone with a download progress bar and a sign at a stop."
+  },
+  "heroImagePrompt": "Isometric scene on a deep violet floor grid: a compact taxi car with a square QR code pattern on its rear side window, a large floating smartphone showing a circular download progress icon, and a small street stand sign with another QR code pattern next to a bench. Soft indigo radial glow at the center. No people. No text, no captions, no labels, no letters, no words anywhere in the image.",
+  "publishedAt": "2026-10-21",
+  "readingMinutes": 8,
+  "keywords": {
+    "es": [
+      "descargas app de taxi",
+      "cómo promocionar app de taxi",
+      "conseguir pasajeros app",
+      "lanzar app de taxi",
+      "código QR taxi",
+      "marketing app de taxi local"
+    ],
+    "en": [
+      "taxi app downloads",
+      "how to promote a taxi app",
+      "get passengers for an app",
+      "launch a taxi app",
+      "taxi QR code",
+      "local taxi app marketing"
+    ]
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El día que una flota publica su propia app de taxi en las tiendas suele sentirse como una meta cumplida. La app está aprobada, el nombre aparece en Google Play y en la App Store, los conductores ya la tienen instalada. Pero en ese momento la app tiene cero pasajeros. Nadie en la ciudad sabe que existe, y una app que nadie descarga no genera un solo viaje, por buena que sea.",
+        "en": "The day a fleet publishes its own taxi app in the stores usually feels like a goal achieved. The app is approved, the name appears on Google Play and the App Store, and the drivers already have it installed. But at that moment the app has zero passengers. Nobody in the city knows it exists, and an app nobody downloads doesn't generate a single trip, however good it is."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La tesis de este artículo es que las primeras descargas no llegan con publicidad masiva, sino con presencia física y personal en la ciudad: los conductores, los comercios, los lugares donde la gente ya espera un taxi y las comunidades locales. Una flota regional tiene una ventaja que las apps grandes no tienen: está en la calle todos los días. Vamos a ver por qué la descarga es el primer obstáculo, cómo convertir a los conductores en el canal principal, qué puntos físicos funcionan, cómo usar las comunidades locales, qué pasa después de la descarga y qué medir.",
+        "en": "The thesis of this article is that the first downloads don't come from mass advertising, but from a physical and personal presence in the city: the drivers, the shops, the places where people already wait for a taxi and the local communities. A regional fleet has an advantage the big apps don't: it's on the street every day. We'll look at why the download is the first obstacle, how to turn drivers into the main channel, which physical spots work, how to use local communities, what happens after the download and what to measure."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "obstaculo",
+      "text": {
+        "es": "Por qué la descarga es el primer obstáculo",
+        "en": "Why the download is the first obstacle"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Pedirle a alguien que descargue una app es pedirle bastante más de lo que parece. Tiene que buscarla en la tienda, esperar a que se instale, darle permisos, registrarse con su teléfono y, sobre todo, confiar en que vale la pena. Mucha gente ya tiene en el teléfono la app de alguna plataforma grande y no ve por qué necesitaría otra. Otros nunca han pedido un taxi por app: lo llaman por teléfono o lo paran en la calle.",
+        "en": "Asking someone to download an app is asking a lot more than it seems. They have to search for it in the store, wait for it to install, grant permissions, register with their phone number and, above all, trust that it's worth it. Many people already have a big platform's app on their phone and don't see why they'd need another one. Others have never booked a taxi by app: they phone for one or hail it in the street."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Por eso la pregunta no es sólo cómo darse a conocer, sino cómo hacer que la descarga ocurra en el momento en que la persona tiene una razón para hacerla. El mejor momento es justo cuando acaba de recibir un buen servicio, o cuando está esperando un taxi y no pasa ninguno. En esos momentos, la descarga deja de ser un favor y se convierte en una solución.",
+        "en": "That's why the question isn't just how to become known, but how to make the download happen at the moment the person has a reason to do it. The best moment is right after they've received good service, or when they're waiting for a taxi and none comes by. At those moments, the download stops being a favour and becomes a solution."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "conductores",
+      "text": {
+        "es": "Los conductores, el canal principal",
+        "en": "Drivers, the main channel"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Ningún anuncio llega a tantas personas con tanta confianza como un conductor que acaba de dar un buen viaje. Cada conductor de tu flota hace varios viajes al día con pasajeros que ya están usando el servicio, y una invitación personal al final del viaje tiene un peso que ninguna publicación en redes puede igualar. El conductor puede ayudar a instalar la app en ese mismo momento, si el pasajero quiere.",
+        "en": "No advert reaches so many people with so much trust as a driver who has just given a good ride. Every driver in your fleet does several trips a day with passengers who are already using the service, and a personal invitation at the end of the trip carries a weight no social media post can match. The driver can help install the app right then, if the passenger wants."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Para que funcione, el conductor necesita herramientas sencillas y una razón para hacerlo. Estas son las que más ayudan:",
+        "en": "For it to work, the driver needs simple tools and a reason to do it. These are the ones that help most:"
+      }
+    },
+    {
+      "type": "list",
+      "style": "bullet",
+      "items": {
+        "es": [
+          "Un código QR visible dentro del auto que lleve directo a la tienda.",
+          "Tarjetas con el nombre de la app para dejar al pasajero.",
+          "Una frase corta y natural para invitar, sin presionar.",
+          "Saber explicar en una línea qué gana el pasajero con la app.",
+          "Un reconocimiento para los conductores que más pasajeros traen.",
+          "Pedir a los pasajeros frecuentes que reserven por la app la próxima vez."
+        ],
+        "en": [
+          "A visible QR code inside the car that goes straight to the store.",
+          "Cards with the app's name to leave with the passenger.",
+          "A short, natural line to invite people, without pressure.",
+          "Knowing how to explain in one line what the passenger gains from the app.",
+          "Recognition for the drivers who bring in the most passengers.",
+          "Asking frequent passengers to book through the app next time."
+        ]
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Lo que el pasajero gana tiene que decirse con claridad: saber cuánto va a pagar antes de subir, ver dónde viene el taxi, no tener que llamar ni esperar en la calle. Si el conductor sólo dice «descargue la app», suena a que le pide un favor; si dice «así ya no tiene que llamar, lo ve llegar en el mapa», le está ofreciendo algo.",
+        "en": "What the passenger gains has to be said clearly: knowing how much they'll pay before getting in, seeing where the taxi is, not having to phone or wait in the street. If the driver just says \"download the app\", it sounds like asking a favour; if they say \"this way you don't have to call, you can watch it arrive on the map\", they're offering something."
+      }
+    },
+    {
+      "type": "quote",
+      "text": {
+        "es": "Pusimos un código QR en el respaldo de cada asiento y pedimos a los conductores que, al terminar el viaje, invitaran al pasajero a descargar la app. En las primeras semanas la mayoría de las descargas vinieron de ahí, no de las redes. La gente ya confiaba en el conductor, y eso pasó a la app.",
+        "en": "We put a QR code on the back of every seat and asked drivers to invite passengers to download the app at the end of the trip. In the first weeks most downloads came from there, not from social media. People already trusted the driver, and that carried over to the app."
+      },
+      "attribution": {
+        "es": "Coordinadora de una flota de taxi por app en una ciudad de 140,000 habitantes en Oaxaca, México",
+        "en": "Coordinator of an app-based taxi fleet in a city of 140,000 in Oaxaca, Mexico"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "puntos-fisicos",
+      "text": {
+        "es": "Puntos físicos donde la gente ya necesita un taxi",
+        "en": "Physical spots where people already need a taxi"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Después de los conductores, los mejores lugares para conseguir descargas son aquellos donde la gente ya está pensando en un taxi: la salida del supermercado, la central de autobuses, el hospital, los salones de eventos, las universidades. Un cartel con un código QR y una frase clara, colocado donde la gente espera, convierte la espera en una descarga. Muchos comercios aceptan poner el cartel sin costo, porque a sus clientes les sirve tener una forma fácil de volver a casa.",
+        "en": "After drivers, the best places to get downloads are those where people are already thinking about a taxi: the supermarket exit, the bus station, the hospital, event venues, universities. A sign with a QR code and a clear line, placed where people wait, turns the wait into a download. Many shops agree to put up the sign at no cost, because it's useful for their customers to have an easy way home."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Conviene que el mensaje del cartel sea concreto y local. No hace falta explicar la tecnología: basta con decir que es el taxi de la ciudad, que se pide desde el teléfono y que se ve llegar. Y si el lugar tiene un punto de recogida acordado, el cartel puede decir exactamente dónde esperar.",
+        "en": "The sign's message should be concrete and local. There's no need to explain the technology: it's enough to say it's the city's taxi, that it's booked from the phone and that you can watch it arrive. And if the spot has an agreed pickup point, the sign can say exactly where to wait."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Otra opción que funciona bien es estar presente en persona en los días de más movimiento: una mesa en la salida del mercado el sábado, o alguien de la flota en la central de autobuses a la hora en que llegan los camiones. Ayudar a la gente a instalar la app ahí mismo, y que un conductor la recoja minutos después, deja una primera impresión difícil de olvidar.",
+        "en": "Another option that works well is to be there in person on the busiest days: a table at the market exit on Saturday, or someone from the fleet at the bus station when the buses arrive. Helping people install the app right there, and having a driver pick them up minutes later, leaves a first impression that's hard to forget."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "comunidades",
+      "text": {
+        "es": "Comunidades y redes locales",
+        "en": "Local communities and networks"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "En una ciudad regional, la información viaja por los grupos de WhatsApp del barrio, las páginas de Facebook de la ciudad, los grupos de padres de la escuela y los avisos de las parroquias. Una publicación honesta en esos espacios, contando que la flota de siempre ahora tiene app, suele llegar más lejos que un anuncio pagado. Lo importante es hablar como lo que eres, una empresa de la ciudad, y no como una plataforma más.",
+        "en": "In a regional city, information travels through neighbourhood WhatsApp groups, the city's Facebook pages, school parents' groups and parish notices. An honest post in those spaces, saying that the long-standing fleet now has an app, usually goes further than a paid ad. What matters is to speak as what you are, a company from the city, and not as just another platform."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Si decides usar un incentivo para las primeras descargas, que sea modesto, con fecha de fin y fácil de entender, como un descuento en el primer viaje. Un incentivo demasiado generoso atrae a personas que sólo buscan la promoción y no vuelven, y deja a los conductores con viajes que no les convienen.",
+        "en": "If you decide to use an incentive for the first downloads, make it modest, time-limited and easy to understand, like a discount on the first trip. An overly generous incentive attracts people who are only after the promotion and don't come back, and leaves drivers with trips that don't pay."
+      }
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "text": {
+        "es": "Antes de salir a buscar descargas, asegúrate de que haya conductores conectados en los horarios y zonas donde vas a promover la app. Una persona que descarga la app y no encuentra taxi en su primer intento difícilmente lo intenta una segunda vez.",
+        "en": "Before going out to get downloads, make sure drivers are online at the times and in the areas where you'll promote the app. Someone who downloads the app and finds no taxi on their first try rarely tries a second time."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "despues",
+      "text": {
+        "es": "Lo que pasa después de la descarga",
+        "en": "What happens after the download"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Una descarga no vale nada si la primera experiencia sale mal. Los primeros minutos con la app deciden si el pasajero se queda: si el registro es corto, si entiende cómo pedir un viaje y, sobre todo, si encuentra un taxi la primera vez que lo intenta. Por eso conviene que el lanzamiento se haga en una zona donde la flota ya tiene conductores suficientes, en lugar de promocionar la app en toda la ciudad desde el primer día.",
+        "en": "A download is worth nothing if the first experience goes badly. The first minutes with the app decide whether the passenger stays: whether registration is short, whether they understand how to book a trip and, above all, whether they find a taxi the first time they try. That's why it's best to launch in an area where the fleet already has enough drivers, rather than promoting the app across the whole city from day one."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El primer viaje merece una atención especial. Pide a los conductores que traten con cuidado a quien usa la app por primera vez: que confirmen el punto de recogida si hay dudas, que expliquen cómo se ve el viaje en el mapa y que, al final, pregunten si todo fue fácil. Un pasajero que tiene una buena primera experiencia se convierte a su vez en alguien que recomienda la app a su familia y a sus vecinos.",
+        "en": "The first trip deserves special attention. Ask drivers to take care with anyone using the app for the first time: to confirm the pickup point if there's any doubt, to explain how the trip shows on the map and, at the end, to ask whether everything was easy. A passenger who has a good first experience in turn becomes someone who recommends the app to their family and neighbours."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "También ayuda tener listo un canal para resolver dudas. En los primeros días, muchas personas van a escribir porque no saben registrarse, no les llegó el código o no entienden algo de la app. Responder rápido, por el canal que la gente ya usa en tu ciudad, evita que una pequeña duda se convierta en una desinstalación.",
+        "en": "It also helps to have a channel ready to answer questions. In the first days, many people will write because they don't know how to register, didn't receive the code or don't understand something in the app. Answering quickly, through the channel people already use in your city, keeps a small question from turning into an uninstall."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "medir",
+      "text": {
+        "es": "Qué medir en las primeras semanas",
+        "en": "What to measure in the first weeks"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Las descargas son sólo el primer paso. Lo que de verdad importa es cuántas de esas personas se registran, cuántas piden su primer viaje y cuántas vuelven a pedir otro. Si muchas personas descargan pero pocas se registran, hay un problema en el registro o en la confianza. Si se registran pero no piden, quizá no encuentran taxi o el precio las sorprende. Y si piden una vez y no vuelven, hay algo en la experiencia que corregir.",
+        "en": "Downloads are only the first step. What really matters is how many of those people register, how many book their first trip and how many book again. If many people download but few register, there's a problem with registration or with trust. If they register but don't book, perhaps they can't find a taxi or the price surprises them. And if they book once and don't come back, there's something in the experience to fix."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "También conviene saber de dónde vienen. Usar códigos QR distintos para los autos, los comercios y las redes permite saber qué canal trae más pasajeros y dónde vale la pena insistir. Con unas pocas semanas de datos, la flota puede concentrar su esfuerzo en lo que funciona en su ciudad.",
+        "en": "It's also worth knowing where they come from. Using different QR codes for the cars, the shops and social media lets you see which channel brings the most passengers and where it's worth pushing harder. With a few weeks of data, the fleet can focus its effort on what works in its city."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "cierre",
+      "text": {
+        "es": "La ciudad como canal",
+        "en": "The city as a channel"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Conseguir las primeras descargas de una app de taxi regional no depende de un gran presupuesto de publicidad, sino de aprovechar lo que la flota ya tiene: conductores que hablan con pasajeros todos los días, presencia en los lugares donde la gente espera un taxi y una relación con la comunidad que las plataformas grandes no pueden copiar. La descarga ocurre cuando alguien tiene una razón para hacerla, y la flota local está en el lugar y el momento justos para dársela.",
+        "en": "Getting the first downloads of a regional taxi app doesn't depend on a big advertising budget, but on making the most of what the fleet already has: drivers who talk to passengers every day, a presence where people wait for taxis and a relationship with the community the big platforms can't copy. The download happens when someone has a reason to do it, and the local fleet is in the right place at the right moment to give them one."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Si estás por lanzar, empieza por lo sencillo: un código QR en cada auto, una frase para los conductores, carteles en tres o cuatro lugares clave y un vistazo semanal a cuántas descargas se convierten en viajes. Y con Cabgo puedes lanzar tu propia app de taxi con tu marca, lista para que tu ciudad la descargue.",
+        "en": "If you're about to launch, start with the simple things: a QR code in every car, a line for drivers, signs in three or four key places and a weekly look at how many downloads turn into trips. And with Cabgo you can launch your own branded taxi app, ready for your city to download."
+      }
+    }
+  ],
+  "cta": {
+    "heading": {
+      "es": "¿Listo para lanzar tu propia app de movilidad?",
+      "en": "Ready to launch your own mobility app?"
+    },
+    "body": {
+      "es": "Configura tu marca, tus tarifas y tus servicios en semanas, no en meses. Cabgo te entrega la plataforma; tú te quedas con la operación, los clientes y los ingresos.",
+      "en": "Set up your brand, pricing and services in weeks, not months. Cabgo ships the platform — you keep the operation, the customers and the revenue."
+    },
+    "buttonLabel": {
+      "es": "Comenzar con Cabgo",
+      "en": "Get started with Cabgo"
+    },
+    "buttonHref": "/empezar"
+  },
+  "seo": {
+    "metaTitle": {
+      "es": "Primeras descargas de tu app de taxi: cómo lograrlas | Cabgo",
+      "en": "First downloads for your taxi app: how to get them | Cabgo"
+    },
+    "metaDescription": {
+      "es": "Cómo conseguir las primeras descargas de tu app de taxi: conductores como canal, códigos QR, puntos donde la gente espera un taxi y qué medir después.",
+      "en": "How to get your taxi app's first downloads: drivers as a channel, QR codes, spots where people wait for a taxi and what to measure afterwards."
+    }
+  },
+  "author": {
+    "name": "Equipo Cabgo",
+    "role": {
+      "es": "Plataforma de movilidad",
+      "en": "Mobility platform"
+    }
+  }
+}
