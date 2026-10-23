@@ -1,0 +1,309 @@
+{
+  "slug": "taxi-por-horas-diligencias-como-cobrar",
+  "category": "strategy",
+  "title": {
+    "es": "Taxi por horas: cómo cobrar y organizar el servicio de diligencias",
+    "en": "Hourly taxi service: how to charge for and organise errand runs"
+  },
+  "excerpt": {
+    "es": "Trámites, compras, proveedores o visitas: hay pasajeros que quieren un taxi por varias horas. Cómo fijar un precio por hora claro, acordar las condiciones antes de empezar y convertirlo en un servicio que se repite.",
+    "en": "Paperwork, shopping, suppliers or visits: some passengers want a taxi for several hours. How to set a clear hourly price, agree the conditions before starting and turn it into a repeat service."
+  },
+  "heroImage": "https://raw.githubusercontent.com/jonatanvazquez/cabgo-blog-content/main/images/taxi-por-horas-diligencias-como-cobrar.jpg",
+  "heroImageAlt": {
+    "es": "Ilustración isométrica de un taxi estacionado frente a un pequeño banco, un reloj de arena grande y una bolsa de compras.",
+    "en": "Isometric illustration of a taxi parked outside a small bank, a large hourglass and a shopping bag."
+  },
+  "heroImagePrompt": "Isometric scene on a deep violet floor grid: a compact taxi car parked and waiting in front of a small bank building with classical columns, a large glowing hourglass floating beside the car, and a paper shopping bag on the pavement. Soft indigo radial glow at the center. No people. No text, no captions, no labels, no letters, no words anywhere in the image.",
+  "publishedAt": "2026-10-23",
+  "readingMinutes": 8,
+  "keywords": {
+    "es": [
+      "taxi por horas",
+      "taxi para diligencias",
+      "precio taxi por hora",
+      "renta de taxi por horas",
+      "taxi para trámites",
+      "servicio de taxi por hora"
+    ],
+    "en": [
+      "hourly taxi",
+      "taxi for errands",
+      "taxi hourly rate",
+      "hire a taxi by the hour",
+      "taxi for paperwork",
+      "hourly taxi service"
+    ]
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "En casi todas las ciudades regionales hay pasajeros que no quieren un viaje de un punto a otro, sino un taxi por varias horas. Una señora que tiene que ir al banco, a la notaría y a dos tiendas; un comerciante que recorre a sus proveedores; una familia que llegó de visita y quiere conocer la ciudad; alguien que tiene trámites en tres oficinas distintas y no quiere pedir un taxi en cada parada. Es un servicio que los taxistas de siempre conocen bien, pero que muchas flotas no tienen organizado.",
+        "en": "In almost every regional city there are passengers who don't want a trip from one point to another, but a taxi for several hours. A woman who has to go to the bank, the notary and two shops; a trader visiting their suppliers; a visiting family who want to see the city; someone with paperwork at three different offices who doesn't want to book a taxi at every stop. It's a service traditional taxi drivers know well, but many fleets don't have it organised."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La tesis de este artículo es que el taxi por horas puede ser un buen negocio para la flota y para el conductor, siempre que se cobre de forma clara y se acuerde antes de empezar. Sin reglas, termina en discusiones sobre el tiempo de espera, conductores que pierden dinero y pasajeros que sienten que les cobraron de más. Vamos a ver quién pide este servicio, por qué se cobra distinto, cómo definir el precio, cómo acordar las condiciones, qué esperar del conductor y cómo hacer que el pasajero vuelva.",
+        "en": "The thesis of this article is that hourly taxi service can be good business for the fleet and the driver, as long as it's charged clearly and agreed before starting. Without rules, it ends in arguments about waiting time, drivers who lose money and passengers who feel overcharged. We'll look at who asks for this service, why it's charged differently, how to set the price, how to agree the conditions, what to expect from the driver and how to make the passenger come back."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "quien",
+      "text": {
+        "es": "Quién pide un taxi por horas",
+        "en": "Who asks for an hourly taxi"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El pasajero de este servicio no es el que va del trabajo a la casa. Tiene una lista de lugares que visitar y necesita que el auto lo espere en cada uno. Algunos casos se repiten mucho en las ciudades regionales:",
+        "en": "The passenger for this service isn't the one going from work to home. They have a list of places to visit and need the car to wait at each one. Some cases come up again and again in regional cities:"
+      }
+    },
+    {
+      "type": "list",
+      "style": "bullet",
+      "items": {
+        "es": [
+          "Personas mayores que hacen trámites, pagos y compras en una sola mañana.",
+          "Comerciantes que recorren proveedores o reparten mercancía pequeña.",
+          "Visitantes que quieren conocer la ciudad o sus alrededores.",
+          "Familias que tienen varios pendientes el mismo día, como citas y compras.",
+          "Empresas que necesitan mover a una persona entre varias reuniones.",
+          "Quien va a un evento y quiere asegurar el regreso con el mismo conductor."
+        ],
+        "en": [
+          "Older people doing paperwork, payments and shopping in a single morning.",
+          "Traders visiting suppliers or delivering small amounts of goods.",
+          "Visitors who want to see the city or its surroundings.",
+          "Families with several errands on the same day, such as appointments and shopping.",
+          "Companies that need to move someone between several meetings.",
+          "Someone going to an event who wants to secure the return with the same driver."
+        ]
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Todos tienen algo en común: valoran más la tranquilidad de tener el mismo auto disponible que el precio de cada trayecto. No quieren esperar un taxi nuevo en cada parada ni explicar a cada conductor a dónde van. Por eso están dispuestos a pagar por ese tiempo, siempre que el precio sea claro.",
+        "en": "They all have something in common: they value the peace of mind of having the same car available more than the price of each leg. They don't want to wait for a new taxi at every stop or explain to each driver where they're going. That's why they're willing to pay for that time, as long as the price is clear."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "distinto",
+      "text": {
+        "es": "Por qué se cobra distinto",
+        "en": "Why it's charged differently"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Un viaje normal se cobra por distancia y tiempo en movimiento. En un servicio por horas, buena parte del tiempo el auto está parado esperando al pasajero, y durante ese tiempo el conductor no puede tomar otros viajes. Si se cobra sólo por kilómetros, el conductor puede pasar tres horas trabajando para cobrar lo mismo que dos viajes cortos. Por eso el precio tiene que reconocer el tiempo, no sólo la distancia.",
+        "en": "A normal trip is charged by distance and moving time. In an hourly service, much of the time the car is parked waiting for the passenger, and during that time the driver can't take other trips. If it's charged only by the kilometre, the driver may spend three hours working to earn the same as two short trips. That's why the price has to recognise the time, not just the distance."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Al mismo tiempo, el pasajero no debe sentir que paga lo mismo que si el auto hubiera estado recorriendo la ciudad todo el tiempo. El equilibrio está en un precio por hora razonable, que para el conductor valga más que estar conectado esperando viajes en un horario flojo, y que para el pasajero salga mejor que pedir varios taxis por separado y esperar cada uno.",
+        "en": "At the same time, the passenger shouldn't feel they're paying as much as if the car had been driving around the city the whole time. The balance lies in a reasonable hourly price, one that's worth more to the driver than being online waiting for trips at a slow time, and that works out better for the passenger than booking several separate taxis and waiting for each one."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "precio",
+      "text": {
+        "es": "Cómo definir el precio",
+        "en": "How to set the price"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "No hay un precio por hora universal: depende de la ciudad, del costo del combustible y de lo que gana normalmente un conductor en una hora activa. Un buen punto de partida es calcular cuánto genera en promedio un conductor de tu flota por hora en un horario normal, y fijar el precio por hora en un nivel parecido o un poco mayor, para que aceptar el servicio no le cueste dinero.",
+        "en": "There's no universal hourly price: it depends on the city, the cost of fuel and what a driver normally earns in an active hour. A good starting point is to work out how much a driver in your fleet earns on average per hour at a normal time, and set the hourly price at a similar level or a little higher, so accepting the service doesn't cost them money."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Muchas flotas usan un esquema sencillo: un mínimo de horas, por ejemplo dos, un precio fijo por hora y un cargo extra si el recorrido sale de la ciudad o supera cierta distancia. Lo importante es que la regla sea simple, que esté escrita y que sea la misma para todos los conductores. Un precio que cambia según quién atiende es la forma más rápida de perder la confianza de los pasajeros.",
+        "en": "Many fleets use a simple scheme: a minimum number of hours, for example two, a fixed hourly price and an extra charge if the route leaves the city or exceeds a certain distance. What matters is that the rule is simple, written down and the same for every driver. A price that changes depending on who answers is the fastest way to lose passengers' trust."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Los recorridos fuera de la ciudad merecen una regla aparte. Un paseo a un pueblo cercano o a un balneario implica más combustible, caminos peores y, a veces, regresar de noche. En esos casos conviene acordar un precio cerrado por el día o sumar al precio por hora un cargo por kilómetro fuera de la ciudad, y dejar claro desde el principio si incluye la comida del conductor cuando el recorrido dura muchas horas.",
+        "en": "Trips outside the city deserve a rule of their own. An outing to a nearby town or a spa resort means more fuel, worse roads and sometimes returning at night. In those cases it's best to agree a fixed price for the day or add a per-kilometre charge outside the city to the hourly price, and to make clear from the start whether it includes the driver's meal when the trip lasts many hours."
+      }
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "text": {
+        "es": "Escribe la regla del taxi por horas en una sola línea que cualquiera entienda, por ejemplo: «mínimo dos horas, precio fijo por hora, la gasolina de salidas de la ciudad se cobra aparte». Si no cabe en una línea, es demasiado complicada para explicarla por teléfono.",
+        "en": "Write the hourly taxi rule in a single line anyone can understand, for example: \"two-hour minimum, fixed hourly price, fuel for trips out of the city charged separately\". If it doesn't fit in one line, it's too complicated to explain over the phone."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "acordar",
+      "text": {
+        "es": "Acordar las condiciones antes de empezar",
+        "en": "Agreeing the conditions before starting"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La mayoría de los problemas del taxi por horas nacen de lo que no se dijo al principio. ¿Cuándo empieza a contar el tiempo, al salir de la base o al recoger al pasajero? ¿Qué pasa si el pasajero tarda más de lo previsto? ¿Se cobra la hora completa o por fracciones? ¿Quién paga el estacionamiento? Si estas preguntas se responden antes de empezar, el servicio fluye; si se dejan para el final, terminan en discusión.",
+        "en": "Most problems with hourly taxi service come from what wasn't said at the start. When does the clock start, on leaving the base or on picking up the passenger? What happens if the passenger takes longer than planned? Is the full hour charged or by fractions? Who pays for parking? If these questions are answered before starting, the service runs smoothly; if they're left for the end, they end in an argument."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Lo ideal es que la central confirme las condiciones por escrito al reservar, aunque sea en un mensaje sencillo: hora de inicio, precio por hora, mínimo, qué incluye y qué no. Así el pasajero sabe lo que va a pagar y el conductor tiene en qué apoyarse si surge alguna duda. Al terminar, conviene que el conductor repase con el pasajero el tiempo total antes de cobrar, para que no haya sorpresas.",
+        "en": "Ideally, dispatch confirms the conditions in writing when booking, even in a simple message: start time, hourly price, minimum, what's included and what isn't. That way the passenger knows what they'll pay and the driver has something to rely on if any question comes up. At the end, the driver should go over the total time with the passenger before charging, so there are no surprises."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "También conviene decidir cómo se paga. Algunas flotas piden pagar al final, otras cobran el mínimo al empezar y el resto al terminar. Cobrar el mínimo por adelantado protege al conductor si el pasajero cancela a la mitad o cambia de planes, y no suele molestar a quien de verdad necesita el servicio. Si se acepta efectivo, que el conductor lleve cambio suficiente evita otra pequeña discusión al final.",
+        "en": "It's also worth deciding how payment works. Some fleets ask for payment at the end, others charge the minimum at the start and the rest at the end. Charging the minimum up front protects the driver if the passenger cancels halfway or changes plans, and it doesn't usually bother anyone who genuinely needs the service. If cash is accepted, having the driver carry enough change avoids another small argument at the end."
+      }
+    },
+    {
+      "type": "quote",
+      "text": {
+        "es": "Teníamos discusiones casi cada semana con los servicios por horas, porque cada conductor cobraba como quería. Pusimos una regla sencilla, mínimo dos horas y un precio fijo por hora, y la mandamos por mensaje al reservar. Desde entonces casi no hay quejas, y hay señoras que nos piden el mismo conductor cada mes para sus pagos.",
+        "en": "We had arguments almost every week over hourly services, because every driver charged however they liked. We set a simple rule, a two-hour minimum and a fixed hourly price, and sent it by message when booking. Since then there are hardly any complaints, and some ladies ask for the same driver every month for their payments."
+      },
+      "attribution": {
+        "es": "Dueña de una flota de taxi por app en una ciudad de 95,000 habitantes en Sinaloa, México",
+        "en": "Owner of an app-based taxi fleet in a city of 95,000 in Sinaloa, Mexico"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "conductor",
+      "text": {
+        "es": "Qué esperar del conductor",
+        "en": "What to expect from the driver"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "En un servicio por horas, el conductor pasa mucho tiempo con el mismo pasajero, y eso cambia la relación. Tiene que ser puntual en cada parada, estar disponible cuando el pasajero sale, cuidar las compras o los documentos que se quedan en el auto y mantener la discreción sobre los lugares que visita. Para muchos pasajeros, sobre todo las personas mayores, el conductor se convierte en un acompañante de confianza.",
+        "en": "In an hourly service, the driver spends a lot of time with the same passenger, and that changes the relationship. They have to be punctual at every stop, available when the passenger comes out, take care of the shopping or documents left in the car and stay discreet about the places visited. For many passengers, especially older people, the driver becomes a trusted companion."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Por eso no todos los conductores son igual de adecuados para este servicio. Conviene identificar a los que tienen paciencia, conocen bien la ciudad y tratan con amabilidad a los pasajeros, y ofrecerles estos servicios en primer lugar. Para ellos también es una ventaja: un servicio por horas bien pagado les da un ingreso seguro en un horario que quizá sería flojo.",
+        "en": "That's why not every driver is equally suited to this service. It's worth identifying those who are patient, know the city well and treat passengers kindly, and offering these services to them first. It's an advantage for them too: a well-paid hourly service gives them a secure income at a time that might otherwise be slow."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La seguridad del conductor también cuenta. Esperar varias horas en distintos puntos de la ciudad no es lo mismo que hacer viajes cortos. Conviene que el conductor avise a la central de cada parada larga, que no espere en lugares que le parezcan inseguros y que pueda pedir al pasajero que lo llame cuando esté por salir, en lugar de quedarse estacionado en la calle todo el tiempo.",
+        "en": "The driver's safety matters too. Waiting for several hours at different points around the city isn't the same as doing short trips. The driver should let dispatch know about each long stop, not wait in places that feel unsafe and be able to ask the passenger to call when they're about to come out, rather than staying parked in the street the whole time."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "repetir",
+      "text": {
+        "es": "Convertirlo en un servicio que se repite",
+        "en": "Turning it into a repeat service"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El taxi por horas tiene una gran ventaja: los pasajeros que lo usan suelen repetir. La persona que hace sus pagos cada mes, el comerciante que recorre a sus proveedores cada semana o la empresa que mueve a sus visitantes necesitan el servicio con regularidad. Si la primera vez sale bien, lo más probable es que vuelvan a pedirlo, y muchas veces con el mismo conductor.",
+        "en": "Hourly taxi service has a big advantage: passengers who use it tend to come back. The person who makes their payments every month, the trader who visits suppliers every week or the company that moves its visitors need the service regularly. If the first time goes well, they'll most likely book it again, often with the same driver."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Para aprovecharlo, conviene que la flota anuncie el servicio de forma clara, en sus redes y en los mensajes a los pasajeros frecuentes, y que facilite reservarlo con anticipación. Un servicio que la gente conoce, con un precio claro y conductores de confianza, se convierte en una fuente de ingresos estable que no depende de los picos de demanda.",
+        "en": "To make the most of it, the fleet should advertise the service clearly, on its social media and in its messages to frequent passengers, and make it easy to book in advance. A service people know about, with a clear price and trusted drivers, becomes a stable source of income that doesn't depend on demand peaks."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "cierre",
+      "text": {
+        "es": "Un servicio de siempre, bien organizado",
+        "en": "A long-standing service, well organised"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El taxi por horas existe desde mucho antes de las apps, y sigue siendo útil para muchas personas en las ciudades regionales. Lo que cambia es la forma de organizarlo: un precio por hora claro y escrito, condiciones acordadas antes de empezar, conductores adecuados y una forma sencilla de reservarlo. Con eso, un servicio que antes generaba discusiones se convierte en uno que los pasajeros recomiendan y repiten.",
+        "en": "Hourly taxi service has existed since long before apps, and it's still useful to many people in regional cities. What changes is how it's organised: a clear, written hourly price, conditions agreed before starting, suitable drivers and a simple way to book it. With that, a service that used to cause arguments becomes one passengers recommend and use again."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Si quieres empezar esta semana, calcula cuánto gana en promedio un conductor por hora, define el mínimo y el precio por hora, escribe la regla en una línea y elige a los conductores que lo atenderán primero. Y con Cabgo puedes lanzar tu propia app de taxi con tu marca, para que tus pasajeros te encuentren tanto para un viaje corto como para una mañana completa de pendientes.",
+        "en": "If you want to start this week, work out how much a driver earns on average per hour, set the minimum and the hourly price, write the rule in one line and choose the drivers who'll handle it first. And with Cabgo you can launch your own branded taxi app, so your passengers find you for a short trip and for a whole morning of errands alike."
+      }
+    }
+  ],
+  "cta": {
+    "heading": {
+      "es": "¿Listo para lanzar tu propia app de movilidad?",
+      "en": "Ready to launch your own mobility app?"
+    },
+    "body": {
+      "es": "Configura tu marca, tus tarifas y tus servicios en semanas, no en meses. Cabgo te entrega la plataforma; tú te quedas con la operación, los clientes y los ingresos.",
+      "en": "Set up your brand, pricing and services in weeks, not months. Cabgo ships the platform — you keep the operation, the customers and the revenue."
+    },
+    "buttonLabel": {
+      "es": "Comenzar con Cabgo",
+      "en": "Get started with Cabgo"
+    },
+    "buttonHref": "/empezar"
+  },
+  "seo": {
+    "metaTitle": {
+      "es": "Taxi por horas: cómo cobrar el servicio | Cabgo",
+      "en": "Hourly taxi service: how to charge for it | Cabgo"
+    },
+    "metaDescription": {
+      "es": "Cómo organizar el taxi por horas para trámites y compras: quién lo pide, cómo fijar un precio por hora claro y qué acordar con el pasajero antes de empezar.",
+      "en": "How to organise hourly taxi service for errands: who asks for it, how to set a clear hourly price and what to agree with the passenger before starting."
+    }
+  },
+  "author": {
+    "name": "Equipo Cabgo",
+    "role": {
+      "es": "Plataforma de movilidad",
+      "en": "Mobility platform"
+    }
+  }
+}
