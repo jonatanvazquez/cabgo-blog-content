@@ -1,0 +1,309 @@
+{
+  "slug": "promociones-por-zona-cupones-taxi-sin-regalar-margen",
+  "category": "strategy",
+  "title": {
+    "es": "Promociones por zona: cupones de taxi que no regalan margen",
+    "en": "Zone promotions: taxi coupons that don't give away margin"
+  },
+  "excerpt": {
+    "es": "Un descuento para toda la ciudad lo gastan los pasajeros de siempre. Cómo usar cupones limitados por zona y distancia para generar viajes nuevos, cómo diseñarlos y cómo saber si funcionaron.",
+    "en": "A citywide discount gets used by your regular passengers. How to use coupons limited by zone and distance to generate new trips, how to design them and how to know whether they worked."
+  },
+  "heroImage": "https://raw.githubusercontent.com/jonatanvazquez/cabgo-blog-content/main/images/promociones-por-zona-cupones-taxi-sin-regalar-margen.jpg",
+  "heroImageAlt": {
+    "es": "Ilustración isométrica de un mapa de ciudad con una zona resaltada, un taxi dentro de ella y un cupón flotante.",
+    "en": "Isometric illustration of a city map with a highlighted zone, a taxi inside it and a floating coupon."
+  },
+  "heroImagePrompt": "Isometric scene on a deep violet floor grid: a small city map block with one district highlighted by a glowing teal boundary, a compact taxi car driving inside the highlighted district, and a large floating ticket-shaped coupon with a perforated edge and a percent symbol shape. Soft indigo radial glow at the center. No people. No text, no captions, no labels, no letters, no numbers, no words anywhere in the image.",
+  "publishedAt": "2026-10-24",
+  "readingMinutes": 8,
+  "keywords": {
+    "es": [
+      "cupones de taxi",
+      "promociones por zona",
+      "descuentos app de taxi",
+      "cupón por distancia",
+      "marketing flota de taxi",
+      "promociones sin perder margen"
+    ],
+    "en": [
+      "taxi coupons",
+      "zone promotions",
+      "taxi app discounts",
+      "distance-based coupon",
+      "taxi fleet marketing",
+      "promotions without losing margin"
+    ]
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Casi todas las flotas de taxi por app usan descuentos en algún momento: para lanzar la app, para recuperar pasajeros que dejaron de pedir o para mover una temporada floja. El problema es que la mayoría de los descuentos se aplican a todos, en toda la ciudad y en cualquier viaje. Así, el cupón pensado para atraer pasajeros nuevos en una colonia alejada termina usándolo el pasajero de siempre en el centro, que habría pedido el taxi de todas formas.",
+        "en": "Almost every app-based taxi fleet uses discounts at some point: to launch the app, to win back passengers who stopped booking or to move a slow season. The problem is that most discounts apply to everyone, across the whole city and on any trip. So the coupon meant to attract new passengers in an outlying neighbourhood ends up being used by the regular passenger in the centre, who would have booked the taxi anyway."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La tesis de este artículo es que un descuento sólo vale la pena donde cambia una decisión: en la zona donde quieres crecer, en el trayecto que la gente todavía no hace en taxi o en la hora en que tus conductores están parados. Limitar la promoción por zona y por distancia permite gastar el mismo presupuesto donde de verdad genera viajes nuevos. Vamos a ver por qué el descuento general regala margen, dónde tiene sentido una promoción por zona, cómo usar la distancia, cómo diseñar el cupón, cómo medir si funcionó y qué errores evitar.",
+        "en": "The thesis of this article is that a discount is only worth it where it changes a decision: in the area where you want to grow, on the trip people don't yet take by taxi or at the time when your drivers are idle. Limiting the promotion by zone and distance lets you spend the same budget where it really generates new trips. We'll look at why a general discount gives away margin, where a zone promotion makes sense, how to use distance, how to design the coupon, how to measure whether it worked and which mistakes to avoid."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "margen",
+      "text": {
+        "es": "Por qué el descuento general regala margen",
+        "en": "Why a general discount gives away margin"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Cuando un cupón vale para cualquier viaje, la mayoría de las veces lo usan los pasajeros que ya pedían taxi con frecuencia. Son los que más abren la app, los que primero se enteran de la promoción y los que más viajes hacen. Para ellos, el descuento no cambia nada: habrían viajado igual, sólo que ahora pagan menos. Ese dinero sale del margen de la flota o del bolsillo del conductor, según cómo esté diseñado.",
+        "en": "When a coupon is valid for any trip, most of the time it's used by passengers who already booked taxis frequently. They're the ones who open the app most, who hear about the promotion first and who take the most trips. For them, the discount changes nothing: they would have travelled anyway, only now they pay less. That money comes out of the fleet's margin or the driver's pocket, depending on how it's designed."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El efecto que se busca con una promoción es otro: que alguien que no iba a pedir un taxi lo pida. Eso pasa con más frecuencia en lugares y momentos concretos, no en toda la ciudad por igual. Por eso, antes de lanzar cualquier descuento, la pregunta útil no es «¿cuánto descontamos?», sino «¿dónde y para qué viaje queremos que la gente cambie de hábito?».",
+        "en": "The effect a promotion is after is different: getting someone who wasn't going to book a taxi to do so. That happens more often in specific places and moments, not evenly across the whole city. That's why, before launching any discount, the useful question isn't \"how much do we discount?\" but \"where, and for which trip, do we want people to change their habits?\""
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "zona",
+      "text": {
+        "es": "Dónde tiene sentido una promoción por zona",
+        "en": "Where a zone promotion makes sense"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Hay situaciones en las que limitar el cupón a ciertas zonas de recogida tiene mucho sentido, porque ahí es donde un empujón cambia el comportamiento. Estas son las más comunes en una ciudad regional:",
+        "en": "There are situations where limiting the coupon to certain pickup zones makes a lot of sense, because that's where a nudge changes behaviour. These are the most common in a regional city:"
+      }
+    },
+    {
+      "type": "list",
+      "style": "bullet",
+      "items": {
+        "es": [
+          "Una colonia o municipio vecino donde acabas de empezar a dar servicio.",
+          "Una zona donde tus conductores suelen esperar mucho sin viajes.",
+          "Un barrio donde una competidora es fuerte y quieres que te prueben.",
+          "Un punto nuevo de demanda, como un centro comercial o una universidad.",
+          "Una zona donde ya hay conductores, pero los pasajeros aún no conocen la app.",
+          "Un evento o feria con fecha concreta en un lugar de la ciudad."
+        ],
+        "en": [
+          "A neighbourhood or nearby town where you've just started providing service.",
+          "An area where your drivers tend to wait a long time without trips.",
+          "A district where a competitor is strong and you want people to try you.",
+          "A new point of demand, such as a shopping centre or a university.",
+          "An area where there are already drivers, but passengers don't know the app yet.",
+          "An event or fair with a specific date at a place in the city."
+        ]
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "En todos estos casos, la promoción tiene un objetivo claro y un lugar concreto. El pasajero del centro que ya usa la app no la ve aplicada a sus viajes de siempre, así que el presupuesto se concentra donde puede generar algo nuevo. Además, una promoción por zona ayuda a los conductores: si sabes que hay conductores ociosos en una colonia, generar demanda justo ahí mejora su ingreso por hora.",
+        "en": "In all these cases, the promotion has a clear goal and a specific place. The passenger in the centre who already uses the app doesn't see it applied to their usual trips, so the budget is concentrated where it can generate something new. A zone promotion also helps drivers: if you know there are idle drivers in a neighbourhood, generating demand right there improves their hourly income."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La zona también puede combinarse con el horario. Una colonia que tiene buena demanda por la mañana puede quedarse vacía a media tarde, justo cuando tus conductores esperan más. Un cupón válido sólo en esa zona y en esas horas mueve viajes al momento en que sobran conductores, sin tocar las horas en que el servicio ya funciona a precio completo.",
+        "en": "Zone can also be combined with time of day. A neighbourhood with good demand in the morning may be empty by mid-afternoon, exactly when your drivers wait the longest. A coupon valid only in that area and at those hours moves trips to the moment when there are spare drivers, without touching the hours when the service already works at full price."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "distancia",
+      "text": {
+        "es": "Usar la distancia para elegir el viaje",
+        "en": "Using distance to choose the trip"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La distancia es la otra palanca. Un cupón limitado a viajes cortos sirve para convencer a la gente de usar el taxi en trayectos que hoy hace caminando, en camión o pidiendo un aventón: ir al mercado, a la escuela o a la clínica del barrio. Son viajes frecuentes y, si el pasajero se acostumbra, puede volverlos rutina.",
+        "en": "Distance is the other lever. A coupon limited to short trips helps persuade people to use a taxi for journeys they now make on foot, by bus or by asking for a lift: going to the market, to school or to the local clinic. They're frequent trips and, if the passenger gets used to it, they can turn them into a routine."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Al revés, un cupón limitado a viajes largos puede servir para promocionar trayectos específicos, como el aeropuerto o una ciudad vecina, donde el precio suele frenar la decisión. Lo importante es que la distancia esté pensada a propósito. Un cupón sin límite de distancia puede terminar regalando una parte grande de un viaje largo que el pasajero iba a hacer de todos modos.",
+        "en": "Conversely, a coupon limited to long trips can be used to promote specific journeys, such as the airport or a nearby city, where the price tends to hold the decision back. What matters is that the distance is chosen on purpose. A coupon with no distance limit can end up giving away a large part of a long trip the passenger was going to take anyway."
+      }
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "text": {
+        "es": "Antes de crear una promoción, escribe en una frase qué viaje quieres que ocurra y que hoy no ocurre. Por ejemplo: «que la gente de la colonia norte pida taxi para ir al mercado los sábados». Si no puedes escribir esa frase, la promoción todavía no está lista.",
+        "en": "Before creating a promotion, write in one sentence which trip you want to happen that doesn't happen today. For example: \"that people in the north neighbourhood book a taxi to go to the market on Saturdays\". If you can't write that sentence, the promotion isn't ready yet."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "disenar",
+      "text": {
+        "es": "Cómo diseñar el cupón",
+        "en": "How to design the coupon"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Un buen cupón por zona tiene pocas reglas y todas claras. Primero, el monto: un descuento fijo pequeño suele bastar para que alguien pruebe, sobre todo en viajes cortos; un porcentaje alto en un viaje largo puede salir muy caro. Segundo, el tope de usos: por pasajero, para que no se convierta en un descuento permanente, y en total, para que el presupuesto no se dispare. Tercero, la fecha de fin, siempre: una promoción sin fecha deja de ser promoción y se vuelve el nuevo precio.",
+        "en": "A good zone coupon has few rules, all of them clear. First, the amount: a small fixed discount is usually enough to get someone to try, especially on short trips; a high percentage on a long trip can be very expensive. Second, the usage cap: per passenger, so it doesn't become a permanent discount, and in total, so the budget doesn't spiral. Third, the end date, always: a promotion without a date stops being a promotion and becomes the new price."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "También hay que decidir quién paga el descuento. Si lo absorbe la flota, el conductor cobra el viaje completo y no tiene motivo para rechazar los viajes con cupón. Si se descuenta del ingreso del conductor sin avisarle, la promoción genera malestar y rechazos justo en la zona donde querías crecer. Sea cual sea la decisión, conviene explicarla a los conductores antes de lanzar.",
+        "en": "You also need to decide who pays for the discount. If the fleet absorbs it, the driver earns the full fare and has no reason to reject trips with a coupon. If it's deducted from the driver's income without warning, the promotion causes resentment and rejections precisely in the area where you wanted to grow. Whatever the decision, it's worth explaining it to drivers before launching."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Por último, piensa en cómo se va a enterar la gente de esa zona. Un cupón por zona no sirve si nadie en esa colonia lo conoce. Los carteles en los comercios del barrio, los grupos de vecinos y los propios conductores que pasan por ahí suelen ser mejores canales que una publicación general en redes.",
+        "en": "Finally, think about how people in that area will find out. A zone coupon is useless if nobody in that neighbourhood knows about it. Signs in local shops, neighbourhood groups and the drivers who pass through there are usually better channels than a general social media post."
+      }
+    },
+    {
+      "type": "quote",
+      "text": {
+        "es": "Antes dábamos cupones para toda la ciudad y se los gastaban los mismos pasajeros de siempre. Empezamos a hacerlos sólo para la colonia nueva donde queríamos crecer, con viajes cortos y un mes de vigencia. Gastamos menos que antes y en esa colonia los viajes subieron, porque la gente que nunca había pedido por la app la probó.",
+        "en": "We used to give coupons for the whole city and the same regular passengers used them up. We started making them only for the new neighbourhood where we wanted to grow, for short trips and valid for a month. We spent less than before and trips went up in that neighbourhood, because people who had never booked through the app tried it."
+      },
+      "attribution": {
+        "es": "Dueño de una flota de taxi por app en una ciudad de 120,000 habitantes en Tabasco, México",
+        "en": "Owner of an app-based taxi fleet in a city of 120,000 in Tabasco, Mexico"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "medir",
+      "text": {
+        "es": "Cómo saber si funcionó",
+        "en": "How to know whether it worked"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Medir una promoción no es contar cuántas veces se usó el cupón. Un cupón muy usado puede ser un fracaso si lo usaron sobre todo pasajeros que ya viajaban. Lo que importa es cuántos viajes nuevos aparecieron en la zona y en el tipo de viaje que querías mover, y cuántos de esos pasajeros siguieron pidiendo después de que terminó el descuento.",
+        "en": "Measuring a promotion isn't counting how many times the coupon was used. A heavily used coupon can be a failure if it was mostly used by passengers who were already travelling. What matters is how many new trips appeared in the area and on the type of trip you wanted to move, and how many of those passengers kept booking after the discount ended."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Una forma sencilla es comparar la zona de la promoción con las semanas anteriores y con otra zona parecida sin promoción. Si los viajes suben en la zona del cupón y no en la otra, y una parte de los pasajeros nuevos sigue pidiendo después, la promoción hizo su trabajo. Si los viajes se desploman al terminar el descuento, sólo adelantaste viajes o atrajiste a gente que sólo buscaba el precio.",
+        "en": "A simple way is to compare the promotion's area with previous weeks and with another similar area without a promotion. If trips go up in the coupon area and not in the other, and some of the new passengers keep booking afterwards, the promotion did its job. If trips collapse when the discount ends, you only brought trips forward or attracted people who were only after the price."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Conviene decidir qué vas a medir antes de lanzar, no después. Anota cuántos viajes salían de esa zona por semana, cuántos pasajeros distintos los pedían y cuánto esperaban los conductores. Con esa foto inicial, al terminar la promoción basta con repetir las mismas cuentas para saber qué cambió. Sin ella, cualquier resultado parece bueno. Y una promoción que parece buena sin serlo se repite y se vuelve cara.",
+        "en": "It's best to decide what you'll measure before launching, not afterwards. Note how many trips started in that area per week, how many distinct passengers booked them and how long drivers were waiting. With that starting snapshot, at the end of the promotion you just repeat the same counts to see what changed. Without it, any result looks good. And a promotion that looks good without being so gets repeated and becomes expensive."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "errores",
+      "text": {
+        "es": "Errores comunes",
+        "en": "Common mistakes"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El primer error es lanzar promociones sin fecha de fin o renovarlas una y otra vez: los pasajeros aprenden a esperar el descuento y dejan de pedir sin él. El segundo es elegir la zona por intuición sin mirar los datos de viajes y conductores, y terminar promocionando una zona donde no hay conductores para atender la demanda nueva. Un pasajero que usa su cupón y no encuentra taxi difícilmente vuelve.",
+        "en": "The first mistake is launching promotions with no end date or renewing them again and again: passengers learn to wait for the discount and stop booking without it. The second is choosing the area by instinct without looking at trip and driver data, and ending up promoting an area where there are no drivers to serve the new demand. A passenger who uses their coupon and can't find a taxi rarely comes back."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El tercer error es medir sólo el uso del cupón y no los viajes después de la promoción. Sin esa comparación, es imposible saber si el dinero sirvió para crecer o sólo para bajar el precio a quien ya pagaba completo. Y el cuarto es no avisar a los conductores, que se enteran por los pasajeros y no saben si el descuento sale de su bolsillo.",
+        "en": "The third mistake is measuring only coupon usage and not trips after the promotion. Without that comparison, it's impossible to know whether the money helped you grow or just lowered the price for people who already paid in full. And the fourth is not telling drivers, who find out from passengers and don't know whether the discount comes out of their pocket."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "cierre",
+      "text": {
+        "es": "Descuentos con propósito",
+        "en": "Discounts with a purpose"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Un descuento bien dirigido puede abrir una zona nueva, llenar las horas muertas de los conductores o convertir un trayecto corto en un hábito. Un descuento general, en cambio, casi siempre termina regalando margen a quien ya era cliente. Limitar las promociones por zona, por distancia y por tiempo, y medir los viajes nuevos que generan, convierte el presupuesto de marketing en crecimiento real.",
+        "en": "A well-targeted discount can open up a new area, fill drivers' dead hours or turn a short trip into a habit. A general discount, on the other hand, almost always ends up giving margin away to people who were already customers. Limiting promotions by zone, distance and time, and measuring the new trips they generate, turns the marketing budget into real growth."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Si quieres empezar esta semana, elige una sola zona donde quieras crecer, escribe la frase del viaje que quieres que ocurra y diseña un cupón pequeño, con tope y fecha de fin. Después compara esa zona con otra parecida. Y con Cabgo puedes lanzar tu propia app de taxi con tu marca y limitar tus cupones por zona de recogida y por distancia, para promocionar justo donde lo necesitas.",
+        "en": "If you want to start this week, choose a single area where you want to grow, write the sentence describing the trip you want to happen and design a small coupon, with a cap and an end date. Then compare that area with a similar one. And with Cabgo you can launch your own branded taxi app and limit your coupons by pickup zone and distance, to promote exactly where you need to."
+      }
+    }
+  ],
+  "cta": {
+    "heading": {
+      "es": "¿Listo para lanzar tu propia app de movilidad?",
+      "en": "Ready to launch your own mobility app?"
+    },
+    "body": {
+      "es": "Configura tu marca, tus tarifas y tus servicios en semanas, no en meses. Cabgo te entrega la plataforma; tú te quedas con la operación, los clientes y los ingresos.",
+      "en": "Set up your brand, pricing and services in weeks, not months. Cabgo ships the platform — you keep the operation, the customers and the revenue."
+    },
+    "buttonLabel": {
+      "es": "Comenzar con Cabgo",
+      "en": "Get started with Cabgo"
+    },
+    "buttonHref": "/empezar"
+  },
+  "seo": {
+    "metaTitle": {
+      "es": "Promociones por zona: cupones de taxi con margen | Cabgo",
+      "en": "Zone promotions: taxi coupons that keep margin | Cabgo"
+    },
+    "metaDescription": {
+      "es": "Cómo usar cupones de taxi limitados por zona y distancia para generar viajes nuevos sin regalar margen: dónde usarlos, cómo diseñarlos y cómo medirlos.",
+      "en": "How to use taxi coupons limited by zone and distance to generate new trips without giving away margin: where to use them, how to design and measure them."
+    }
+  },
+  "author": {
+    "name": "Equipo Cabgo",
+    "role": {
+      "es": "Plataforma de movilidad",
+      "en": "Mobility platform"
+    }
+  }
+}
