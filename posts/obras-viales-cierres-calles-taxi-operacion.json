@@ -1,0 +1,316 @@
+{
+  "slug": "obras-viales-cierres-calles-taxi-operacion",
+  "category": "strategy",
+  "title": {
+    "es": "Obras viales y cierres de calles: cómo adaptar tu flota de taxi",
+    "en": "Roadworks and street closures: how to adapt your taxi fleet"
+  },
+  "excerpt": {
+    "es": "Las obras y los cierres cambian rutas, alargan tiempos y provocan discusiones por el precio. Cómo enterarse antes, avisar a los conductores, ajustar los puntos de recogida y explicárselo a los pasajeros.",
+    "en": "Roadworks and closures change routes, lengthen times and cause arguments about price. How to find out early, warn drivers, adjust pickup points and explain it to passengers."
+  },
+  "heroImage": "https://raw.githubusercontent.com/jonatanvazquez/cabgo-blog-content/main/images/obras-viales-cierres-calles-taxi-operacion.jpg",
+  "heroImageAlt": {
+    "es": "Ilustración isométrica de una calle con vallas de obra y conos, una flecha de desvío y un taxi tomando la ruta alterna.",
+    "en": "Isometric illustration of a street with roadwork barriers and cones, a detour arrow and a taxi taking the alternative route."
+  },
+  "heroImagePrompt": "Isometric scene on a deep violet floor grid: a street intersection with striped orange and white roadwork barriers and traffic cones blocking one road, a small excavator behind the barriers, a large curved detour arrow painted on the road, and a compact taxi car following the detour onto a side street. Soft indigo radial glow at the center. No people. No text, no captions, no labels, no letters, no words anywhere in the image.",
+  "publishedAt": "2026-10-25",
+  "readingMinutes": 8,
+  "keywords": {
+    "es": [
+      "obras viales taxi",
+      "cierre de calles",
+      "desvíos de tráfico taxi",
+      "operación de taxi con obras",
+      "rutas alternas taxi",
+      "tarifa taxi desvío"
+    ],
+    "en": [
+      "roadworks taxi",
+      "street closures",
+      "taxi traffic diversions",
+      "taxi operation during roadworks",
+      "taxi alternative routes",
+      "taxi fare detour"
+    ]
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "En cualquier ciudad regional llega el momento en que una avenida principal se cierra por meses: una obra de drenaje, un puente nuevo, la repavimentación del centro. A eso se suman los cierres de un día, como desfiles, marchas, carreras o la feria del pueblo. Para una flota de taxi, cada cierre cambia las rutas, alarga los tiempos y, sobre todo, genera discusiones: el pasajero no entiende por qué el viaje costó más o por qué el conductor dio la vuelta por otro lado.",
+        "en": "In any regional city there comes a time when a main avenue closes for months: drainage works, a new bridge, resurfacing in the centre. On top of that come one-day closures, such as parades, marches, races or the town fair. For a taxi fleet, every closure changes routes, lengthens journey times and, above all, causes arguments: the passenger doesn't understand why the trip cost more or why the driver went the long way round."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La tesis de este artículo es que las obras y los cierres no se pueden evitar, pero sí anticipar y comunicar. Una flota que se entera antes, que avisa a sus conductores, que ajusta sus puntos de recogida y que explica a los pasajeros lo que está pasando convierte un problema de la ciudad en una oportunidad para demostrar que conoce el terreno mejor que nadie. Vamos a ver cómo afectan los cierres, cómo enterarse a tiempo, qué decirle a los conductores, cómo manejar el precio y la conversación con el pasajero, qué hacer con los puntos de recogida y cómo prepararse para los cierres de un solo día.",
+        "en": "The thesis of this article is that roadworks and closures can't be avoided, but they can be anticipated and communicated. A fleet that finds out early, warns its drivers, adjusts its pickup points and explains to passengers what's going on turns a city problem into a chance to show it knows the ground better than anyone. We'll look at how closures affect the operation, how to find out in time, what to tell drivers, how to handle the price and the conversation with the passenger, what to do about pickup points and how to prepare for one-day closures."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "como-afectan",
+      "text": {
+        "es": "Cómo afectan los cierres a la operación",
+        "en": "How closures affect the operation"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Un cierre importante no sólo afecta a la calle cerrada. El tráfico se desvía a las calles vecinas, que se saturan; los tiempos de llegada del conductor al pasajero se alargan; y los viajes que antes eran directos ahora dan un rodeo. Si la ciudad es pequeña y tiene pocas vías principales, una sola obra puede cambiar la forma de moverse de medio municipio durante semanas.",
+        "en": "A major closure doesn't only affect the closed street. Traffic is diverted onto neighbouring streets, which become congested; the driver's arrival times to the passenger get longer; and trips that used to be direct now take a detour. If the city is small and has few main roads, a single roadworks project can change how half the municipality gets around for weeks."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Esto tiene efectos concretos en la flota. Los conductores tardan más en llegar, así que aumentan las cancelaciones de pasajeros que se cansan de esperar. Los viajes cuestan un poco más por la distancia y el tiempo extra, y algunos pasajeros lo perciben como un abuso. Y los conductores pierden ingreso por hora si quedan atrapados en el tráfico, por lo que algunos empiezan a rechazar los viajes que pasan cerca de la obra.",
+        "en": "This has concrete effects on the fleet. Drivers take longer to arrive, so cancellations rise from passengers tired of waiting. Trips cost a little more because of the extra distance and time, and some passengers see that as overcharging. And drivers lose hourly income if they get stuck in traffic, so some start rejecting trips that pass near the works."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "enterarse",
+      "text": {
+        "es": "Enterarse antes que nadie",
+        "en": "Finding out before anyone else"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La mayoría de las obras grandes se anuncian con anticipación, aunque no siempre en el lugar más visible. Conviene que alguien de la flota revise con regularidad las fuentes donde se publican los cierres de tu ciudad. Estas son las más útiles:",
+        "en": "Most major roadworks are announced in advance, though not always in the most visible place. Someone at the fleet should regularly check the sources where your city's closures are published. These are the most useful:"
+      }
+    },
+    {
+      "type": "list",
+      "style": "bullet",
+      "items": {
+        "es": [
+          "Las redes sociales y la página del municipio o de la dirección de obras.",
+          "La dirección de tránsito o vialidad, que anuncia desvíos y cierres.",
+          "Los medios de comunicación locales y sus páginas en redes.",
+          "Los grupos de vecinos de las colonias afectadas.",
+          "Los propios conductores, que ven las obras antes de que empiecen.",
+          "El calendario de fiestas, desfiles y eventos deportivos de la ciudad."
+        ],
+        "en": [
+          "The social media and website of the municipality or its public works department.",
+          "The traffic department, which announces diversions and closures.",
+          "Local media and their social media pages.",
+          "Neighbourhood groups in the affected areas.",
+          "The drivers themselves, who see the works before they start.",
+          "The city's calendar of festivities, parades and sporting events."
+        ]
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Los conductores son la fuente más rápida. Ven las vallas, los letreros y la maquinaria antes de que salga cualquier anuncio oficial. Pedirles que avisen a la central cuando ven una obra nueva, con una foto y la ubicación, le da a la flota días de ventaja para preparar a todos los demás.",
+        "en": "Drivers are the fastest source. They see the barriers, signs and machinery before any official announcement comes out. Asking them to tell dispatch when they spot new roadworks, with a photo and the location, gives the fleet days of advantage to prepare everyone else."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Además de las fuentes, conviene llevar una lista sencilla de las obras activas: qué calle, desde cuándo y hasta cuándo se espera que dure. Revisarla cada semana evita olvidar un cierre que sigue vigente o seguir avisando de uno que ya terminó.",
+        "en": "Besides the sources, it's worth keeping a simple list of active roadworks: which street, since when and until when it's expected to last. Reviewing it every week avoids forgetting a closure that's still in place or continuing to warn about one that's already over."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "conductores",
+      "text": {
+        "es": "Qué decirle a los conductores",
+        "en": "What to tell drivers"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Cuando hay un cierre importante, cada conductor no debería descubrirlo por su cuenta en medio de un viaje. Un aviso claro de la central, con la calle cerrada, las fechas aproximadas, los desvíos recomendados y las zonas donde conviene evitar quedarse esperando, ahorra muchos minutos perdidos y muchos malos ratos con los pasajeros.",
+        "en": "When there's a major closure, each driver shouldn't discover it alone in the middle of a trip. A clear notice from dispatch, with the closed street, the approximate dates, the recommended diversions and the areas where it's best not to wait for trips, saves many lost minutes and a lot of trouble with passengers."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "También conviene acordar una forma común de explicarle el rodeo al pasajero. Si todos los conductores dicen lo mismo, con calma y desde el principio del viaje, el pasajero entiende que no es un truco para cobrar más. Lo peor es que el conductor tome otra ruta sin decir nada y el pasajero lo descubra al ver el precio final.",
+        "en": "It's also worth agreeing on a common way of explaining the detour to the passenger. If all drivers say the same thing, calmly and from the start of the trip, the passenger understands it isn't a trick to charge more. The worst thing is for the driver to take another route without saying anything and for the passenger to discover it when they see the final price."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Piensa también en el ingreso de tus conductores. Si una zona queda atrapada entre obras, los viajes que salen de ahí tardan el doble y rinden menos por hora. Puede convenir sugerir a los conductores que no se queden esperando en esa zona y que se ubiquen en las calles cercanas que siguen fluyendo, desde donde pueden llegar igual de rápido sin quedar atrapados entre viaje y viaje.",
+        "en": "Think about your drivers' income too. If an area is trapped between roadworks, trips starting there take twice as long and earn less per hour. It may be worth suggesting that drivers don't wait in that area and instead position themselves on nearby streets that are still flowing, from where they can arrive just as quickly without getting stuck between trips."
+      }
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "text": {
+        "es": "Cuando haya una obra larga, manda a tus conductores un mensaje fijo con tres datos: qué calle está cerrada, cuál es el desvío más rápido y una frase para explicarle el rodeo al pasajero. Repítelo cada lunes mientras dure la obra, para los conductores nuevos.",
+        "en": "When there's long-running roadworks, send your drivers a pinned message with three things: which street is closed, the quickest diversion and a line to explain the detour to the passenger. Repeat it every Monday while the works last, for new drivers."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "precio",
+      "text": {
+        "es": "El precio y la conversación con el pasajero",
+        "en": "The price and the conversation with the passenger"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Si tu tarifa depende de la distancia y el tiempo, un rodeo hace que el viaje cueste más, y es lógico que así sea. Pero el pasajero no siempre lo ve así: piensa que el viaje de siempre debería costar lo de siempre. La transparencia es la mejor defensa. Que el precio estimado al pedir el viaje ya tome en cuenta la ruta real ayuda mucho, y que el conductor explique el desvío al subir evita la mayoría de las discusiones.",
+        "en": "If your fare depends on distance and time, a detour makes the trip cost more, and that's reasonable. But the passenger doesn't always see it that way: they think the usual trip should cost the usual amount. Transparency is the best defence. A fare estimate that already accounts for the real route when booking helps a lot, and the driver explaining the diversion when the passenger gets in avoids most arguments."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Si la obra es larga y afecta a muchos viajes, también vale la pena publicar un aviso para los pasajeros en tus redes o en tus mensajes: qué calle está cerrada, cuánto tiempo y por qué algunos viajes tardarán o costarán un poco más. Un pasajero que se enteró antes por tu flota se molesta mucho menos que uno que se entera en el asiento de atrás.",
+        "en": "If the works are long and affect many trips, it's also worth publishing a notice for passengers on your social media or in your messages: which street is closed, for how long and why some trips will take or cost a little more. A passenger who heard about it first from your fleet gets much less annoyed than one who finds out in the back seat."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Si tu flota cobra tarifas fijas por zonas, la obra puede jugar en contra del conductor: el precio no cambia, pero el viaje tarda mucho más. En ese caso, conviene revisar si durante la obra hace falta un pequeño ajuste temporal en los viajes que la cruzan, siempre anunciado con claridad, con fecha de inicio y de fin, y retirado en cuanto la calle se reabra.",
+        "en": "If your fleet charges fixed fares by zone, the works can work against the driver: the price doesn't change, but the trip takes much longer. In that case, it's worth considering whether the trips that cross the works need a small temporary adjustment for the duration, always clearly announced, with a start and end date, and withdrawn as soon as the street reopens."
+      }
+    },
+    {
+      "type": "quote",
+      "text": {
+        "es": "Cuando cerraron el puente principal por cuatro meses, al principio tuvimos muchas quejas por los precios. Mandamos un aviso a los pasajeros explicando el desvío y pedimos a los conductores que lo comentaran al subir. Las quejas bajaron casi a cero, y varios pasajeros nos dijeron que éramos los únicos que avisaban.",
+        "en": "When they closed the main bridge for four months, at first we had a lot of complaints about prices. We sent passengers a notice explaining the diversion and asked drivers to mention it when people got in. Complaints dropped almost to zero, and several passengers told us we were the only ones who warned them."
+      },
+      "attribution": {
+        "es": "Coordinadora de una flota de taxi por app en una ciudad de 110,000 habitantes en Chiapas, México",
+        "en": "Coordinator of an app-based taxi fleet in a city of 110,000 in Chiapas, Mexico"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "recogida",
+      "text": {
+        "es": "Puntos de recogida afectados",
+        "en": "Affected pickup points"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Una obra puede dejar inaccesible un punto de recogida que antes funcionaba bien: la entrada de un mercado, la puerta de un hospital, la esquina de una escuela. Si el pasajero sigue pidiendo el taxi en el mismo lugar de siempre, el conductor no puede llegar y el viaje empieza con llamadas y vueltas. Conviene identificar esos puntos y definir uno alternativo cercano y accesible.",
+        "en": "Roadworks can make a pickup point that used to work well inaccessible: the entrance to a market, a hospital door, a school corner. If the passenger keeps booking the taxi at the usual spot, the driver can't get there and the trip starts with calls and laps around the block. It's worth identifying those points and defining a nearby, accessible alternative."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Una vez definido, hay que comunicarlo a los conductores y, cuando sea posible, a los pasajeros frecuentes de esa zona. Una frase sencilla, como «mientras dure la obra, te recogemos en la esquina de la calle siguiente», evita muchos minutos perdidos. Cuando la obra termine, conviene avisar también que todo vuelve a la normalidad.",
+        "en": "Once defined, it has to be communicated to drivers and, where possible, to frequent passengers in that area. A simple line, such as \"while the works last, we'll pick you up on the corner of the next street\", avoids many lost minutes. When the works end, it's worth announcing that everything is back to normal too."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "un-dia",
+      "text": {
+        "es": "Cierres de un solo día",
+        "en": "One-day closures"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Los desfiles, las marchas, las carreras y las fiestas patronales cierran calles por unas horas, pero suelen concentrar mucha demanda justo alrededor del cierre. La gente llega al evento y luego necesita volver a casa, a veces cuando las calles todavía están cerradas. Saber el recorrido y el horario con anticipación permite colocar conductores en los bordes del cierre, donde los pasajeros pueden llegar caminando.",
+        "en": "Parades, marches, races and patron saint festivities close streets for a few hours, but they tend to concentrate a lot of demand right around the closure. People arrive at the event and then need to get home, sometimes while the streets are still closed. Knowing the route and the timing in advance lets you position drivers at the edges of the closure, where passengers can walk to them."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Para estos días, una lista sencilla en la central ayuda: qué calles se cierran y a qué hora, dónde se ubicarán los conductores y qué punto de recogida se recomienda a los pasajeros. Con eso, un día que podría ser caótico se convierte en uno de buena demanda, bien atendida.",
+        "en": "For these days, a simple list at dispatch helps: which streets close and when, where drivers will be positioned and which pickup point is recommended to passengers. With that, a day that could be chaotic becomes one of good demand, well served."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Cuando termina una obra larga, vale la pena mirar atrás un momento. Compara los tiempos de llegada, las cancelaciones y las quejas durante la obra con las semanas anteriores. Así sabrás qué funcionó, qué avisos sirvieron y qué conviene hacer distinto la próxima vez, porque en una ciudad que crece siempre habrá otra obra.",
+        "en": "When long-running roadworks end, it's worth looking back for a moment. Compare arrival times, cancellations and complaints during the works with the previous weeks. That way you'll know what worked, which notices helped and what to do differently next time, because in a growing city there will always be another project."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "cierre",
+      "text": {
+        "es": "Conocer la ciudad mejor que nadie",
+        "en": "Knowing the city better than anyone"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Las obras y los cierres son parte de la vida de cualquier ciudad, y no hay forma de evitarlos. Lo que sí está en manos de la flota es enterarse antes, avisar a sus conductores, ajustar sus puntos de recogida y explicar a los pasajeros lo que está pasando. Esa preparación evita discusiones por el precio, reduce las cancelaciones y protege el ingreso de los conductores mientras dura el problema.",
+        "en": "Roadworks and closures are part of life in any city, and there's no way to avoid them. What is in the fleet's hands is finding out early, warning its drivers, adjusting its pickup points and explaining to passengers what's happening. That preparation avoids arguments about price, reduces cancellations and protects drivers' income while the problem lasts."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Si quieres empezar esta semana, pide a tus conductores que te avisen de cada obra que vean, revisa las fuentes oficiales de tu ciudad y prepara un mensaje tipo para los cierres largos. Son pasos pequeños que demuestran que tu flota conoce el terreno mejor que nadie. Y con Cabgo puedes lanzar tu propia app de taxi con tu marca, para que tus pasajeros sepan que pueden contar contigo aunque la ciudad esté en obras.",
+        "en": "If you want to start this week, ask your drivers to tell you about every roadworks project they see, check your city's official sources and prepare a template message for long closures. They're small steps that show your fleet knows the ground better than anyone. And with Cabgo you can launch your own branded taxi app, so your passengers know they can count on you even when the city is full of roadworks."
+      }
+    }
+  ],
+  "cta": {
+    "heading": {
+      "es": "¿Listo para lanzar tu propia app de movilidad?",
+      "en": "Ready to launch your own mobility app?"
+    },
+    "body": {
+      "es": "Configura tu marca, tus tarifas y tus servicios en semanas, no en meses. Cabgo te entrega la plataforma; tú te quedas con la operación, los clientes y los ingresos.",
+      "en": "Set up your brand, pricing and services in weeks, not months. Cabgo ships the platform — you keep the operation, the customers and the revenue."
+    },
+    "buttonLabel": {
+      "es": "Comenzar con Cabgo",
+      "en": "Get started with Cabgo"
+    },
+    "buttonHref": "/empezar"
+  },
+  "seo": {
+    "metaTitle": {
+      "es": "Obras viales y cierres de calles: tu flota de taxi | Cabgo",
+      "en": "Roadworks and street closures for taxi fleets | Cabgo"
+    },
+    "metaDescription": {
+      "es": "Cómo adaptar tu flota de taxi a obras y cierres: enterarte antes, avisar a los conductores, ajustar puntos de recogida y explicar el precio al pasajero.",
+      "en": "How to adapt your taxi fleet to roadworks and street closures: find out early, warn drivers, adjust pickup points and explain the price to passengers."
+    }
+  },
+  "author": {
+    "name": "Equipo Cabgo",
+    "role": {
+      "es": "Plataforma de movilidad",
+      "en": "Mobility platform"
+    }
+  }
+}
