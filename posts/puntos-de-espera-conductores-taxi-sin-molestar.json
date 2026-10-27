@@ -1,0 +1,316 @@
+{
+  "slug": "puntos-de-espera-conductores-taxi-sin-molestar",
+  "category": "strategy",
+  "title": {
+    "es": "Puntos de espera: dónde esperan tus conductores sin molestar a nadie",
+    "en": "Waiting spots: where your drivers wait without bothering anyone"
+  },
+  "excerpt": {
+    "es": "Dónde esperan los conductores entre viajes afecta los tiempos de llegada, la relación con los vecinos, la seguridad y el cansancio. Cómo elegir buenos puntos de espera y repartir la flota entre ellos.",
+    "en": "Where drivers wait between trips affects arrival times, relations with neighbours, safety and fatigue. How to choose good waiting spots and spread the fleet across them."
+  },
+  "heroImage": "https://raw.githubusercontent.com/jonatanvazquez/cabgo-blog-content/main/images/puntos-de-espera-conductores-taxi-sin-molestar.jpg",
+  "heroImageAlt": {
+    "es": "Ilustración isométrica de una gasolinera iluminada de noche con dos taxis estacionados a un lado, una farola y un pequeño café.",
+    "en": "Isometric illustration of a petrol station lit up at night with two taxis parked to one side, a street lamp and a small café."
+  },
+  "heroImagePrompt": "Isometric night scene on a deep violet floor grid: a small brightly lit petrol station canopy with two fuel pumps, two compact taxi cars neatly parked side by side in marked bays next to it, a street lamp casting a warm pool of light, and a tiny café kiosk with a coffee cup icon shape. Soft indigo radial glow at the center. No people. No text, no captions, no labels, no letters, no words anywhere in the image.",
+  "publishedAt": "2026-10-27",
+  "readingMinutes": 8,
+  "keywords": {
+    "es": [
+      "puntos de espera taxi",
+      "dónde esperan los taxistas",
+      "sitio de taxi",
+      "seguridad del conductor de noche",
+      "quejas vecinos taxis",
+      "base de taxis"
+    ],
+    "en": [
+      "taxi waiting spots",
+      "where taxi drivers wait",
+      "taxi rank",
+      "driver safety at night",
+      "neighbour complaints taxis",
+      "taxi base"
+    ]
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Entre viaje y viaje, los conductores de una flota de taxi pasan buena parte del día esperando. Algunos se quedan en el último destino, otros vuelven al centro y otros se juntan en la esquina de siempre, frente a la misma tienda, con el motor encendido. Con el tiempo, esos lugares se vuelven parte de la operación sin que nadie los haya elegido, y empiezan a aparecer los problemas: vecinos que se quejan, multas por estacionarse mal, conductores que esperan en zonas inseguras y otros que no tienen dónde ir al baño en todo el turno.",
+        "en": "Between trips, a taxi fleet's drivers spend a good part of the day waiting. Some stay at their last destination, others go back to the centre and others gather at the usual corner, outside the same shop, with the engine running. Over time, those places become part of the operation without anyone having chosen them, and problems start to appear: neighbours who complain, fines for bad parking, drivers waiting in unsafe areas and others with nowhere to use the toilet during the whole shift."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La tesis de este artículo es que los puntos de espera merecen la misma atención que cualquier otra parte de la operación. Elegirlos bien reduce los tiempos de llegada, cuida la relación con los vecinos y la autoridad, mejora la seguridad de los conductores y hace más llevadero un trabajo de muchas horas. Vamos a ver por qué importa dónde esperan, cómo elegir buenos puntos, cómo convivir con vecinos y comercios, qué hacer con la seguridad, cómo cuidar la comodidad del conductor y cómo repartir la flota entre varios puntos.",
+        "en": "The thesis of this article is that waiting spots deserve the same attention as any other part of the operation. Choosing them well reduces arrival times, protects the relationship with neighbours and the authorities, improves drivers' safety and makes a long working day more bearable. We'll look at why it matters where drivers wait, how to choose good spots, how to get along with neighbours and shops, what to do about safety, how to look after drivers' comfort and how to spread the fleet across several spots."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "importa",
+      "text": {
+        "es": "Por qué importa dónde esperan",
+        "en": "Why it matters where drivers wait"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Dónde espera un conductor determina cuánto tarda en llegar al siguiente pasajero. Si todos se concentran en el mismo punto del centro, las colonias alejadas reciben taxis tarde y con el pasajero ya molesto. Si cada uno se queda donde dejó el último viaje, la flota termina dispersa al azar y nunca está donde se necesita. Un buen reparto de puntos de espera es una de las formas más baratas de mejorar los tiempos de llegada.",
+        "en": "Where a driver waits determines how long it takes to reach the next passenger. If they all gather at the same spot in the centre, outlying neighbourhoods get taxis late, with the passenger already annoyed. If each one stays where they dropped off the last trip, the fleet ends up randomly scattered and is never where it's needed. A good spread of waiting spots is one of the cheapest ways to improve arrival times."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Pero no se trata sólo de tiempos. Un grupo de taxis estacionados todos los días frente a la misma casa genera molestias, y esas molestias terminan en quejas a la autoridad, multas o enfrentamientos. Una flota que no piensa en sus puntos de espera suele descubrir el problema cuando ya es un conflicto con los vecinos o con tránsito.",
+        "en": "But it's not only about times. A group of taxis parked every day outside the same house causes annoyance, and that annoyance ends in complaints to the authorities, fines or confrontations. A fleet that doesn't think about its waiting spots usually discovers the problem when it's already a conflict with neighbours or the traffic police."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "elegir",
+      "text": {
+        "es": "Cómo elegir buenos puntos de espera",
+        "en": "How to choose good waiting spots"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Un buen punto de espera combina cuatro cosas: está cerca de la demanda, permite estacionarse sin estorbar, es seguro y tiene lo mínimo para que el conductor pase un rato ahí. No siempre se encuentran las cuatro, pero conviene buscarlas. Estos son los criterios que más ayudan a elegir:",
+        "en": "A good waiting spot combines four things: it's close to demand, allows parking without getting in the way, is safe and has the bare minimum for the driver to spend some time there. You won't always find all four, but it's worth looking for them. These are the criteria that help most when choosing:"
+      }
+    },
+    {
+      "type": "list",
+      "style": "bullet",
+      "items": {
+        "es": [
+          "Cerca de donde salen más viajes en ese horario.",
+          "Con lugar para estacionarse sin bloquear entradas ni carriles.",
+          "Bien iluminado y con movimiento de gente a toda hora.",
+          "Con acceso a un baño, una tienda o un lugar para comer.",
+          "Con salida fácil hacia las avenidas principales.",
+          "Donde la autoridad local permite detenerse o esperar."
+        ],
+        "en": [
+          "Close to where most trips start at that time of day.",
+          "With room to park without blocking entrances or lanes.",
+          "Well lit and with people around at all hours.",
+          "With access to a toilet, a shop or somewhere to eat.",
+          "With easy access to the main roads.",
+          "Where the local authority allows stopping or waiting."
+        ]
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El historial de viajes es la mejor guía para el primer criterio. Si revisas de dónde salen los viajes en cada franja del día, verás que la demanda se concentra en pocos lugares que cambian según la hora: el centro por la mañana, las oficinas y escuelas al mediodía, las zonas de restaurantes por la noche. Los puntos de espera pueden seguir ese mismo ritmo.",
+        "en": "Trip history is the best guide for the first criterion. If you look at where trips start in each part of the day, you'll see demand concentrates in a few places that change with the time: the centre in the morning, offices and schools at midday, restaurant areas at night. Waiting spots can follow that same rhythm."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Antes de fijar un punto, conviene revisar qué permite la autoridad. En muchas ciudades hay calles donde está prohibido detenerse, sitios de taxi autorizados que pertenecen a otros grupos o reglas especiales cerca de aeropuertos, terminales y hospitales. Elegir un punto que la autoridad no permite sólo traslada el problema: de las quejas de los vecinos a las multas de tránsito.",
+        "en": "Before setting a spot, it's worth checking what the authorities allow. In many cities there are streets where stopping is prohibited, authorised taxi ranks that belong to other groups or special rules near airports, terminals and hospitals. Choosing a spot the authorities don't allow only moves the problem: from neighbours' complaints to traffic fines."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "vecinos",
+      "text": {
+        "es": "Convivir con vecinos y comercios",
+        "en": "Getting along with neighbours and shops"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La forma más sencilla de evitar conflictos es pedir permiso antes de que haya un problema. Un comercio con estacionamiento amplio, una gasolinera o una plaza comercial pueden aceptar que los conductores esperen en una zona concreta, sobre todo si eso les trae clientes: los conductores compran café, comida o recargas, y los clientes del comercio tienen un taxi a la mano. Es un acuerdo en el que ganan los dos.",
+        "en": "The simplest way to avoid conflict is to ask permission before there's a problem. A shop with a large car park, a petrol station or a shopping centre may agree to let drivers wait in a specific area, especially if it brings them customers: drivers buy coffee, food or phone top-ups, and the shop's customers have a taxi close at hand. It's an arrangement where both sides win."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Con los vecinos, lo que más molesta suele ser lo mismo: el ruido, la música alta, los motores encendidos, la basura y los autos que bloquean una entrada. Unas reglas básicas para todos los conductores, como apagar el motor, no subir el volumen, no dejar basura y no estacionarse frente a cocheras, resuelven casi todos los problemas antes de que empiecen.",
+        "en": "With neighbours, what bothers them most is usually the same: noise, loud music, running engines, litter and cars blocking a driveway. A few basic rules for every driver, such as switching off the engine, keeping the volume down, not leaving litter and not parking in front of garages, solve almost every problem before it starts."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Si aun así llega una queja, lo mejor es responder rápido y en persona. Hablar con el vecino, escuchar qué le molesta y comprometerse a algo concreto suele bastar para cerrar el tema. Ignorar la queja, en cambio, la convierte en una denuncia, y una denuncia puede terminar con la autoridad prohibiendo que cualquier taxi se detenga en esa calle.",
+        "en": "If a complaint still comes in, it's best to respond quickly and in person. Talking to the neighbour, listening to what bothers them and committing to something concrete is usually enough to close the matter. Ignoring the complaint, on the other hand, turns it into a formal report, and a report can end with the authorities banning any taxi from stopping on that street."
+      }
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "text": {
+        "es": "Haz una lista corta de reglas para los puntos de espera y compártela con todos los conductores: motor apagado, volumen bajo, nada de basura, nunca frente a una cochera. Si un vecino se queja, ya tienes algo concreto que revisar con el conductor.",
+        "en": "Make a short list of rules for waiting spots and share it with every driver: engine off, volume low, no litter, never in front of a garage. If a neighbour complains, you already have something concrete to go over with the driver."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "seguridad",
+      "text": {
+        "es": "Seguridad en los puntos de espera",
+        "en": "Safety at waiting spots"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "De noche, la seguridad pesa más que cualquier otro criterio. Un conductor solo, esperando en una calle oscura con dinero en efectivo, es un blanco fácil. Por eso conviene definir puntos de espera nocturnos distintos de los diurnos: lugares iluminados, con gente alrededor, como gasolineras abiertas toda la noche, hospitales o zonas de restaurantes. Esperar juntos, aunque sea de dos en dos, también ayuda.",
+        "en": "At night, safety outweighs every other criterion. A driver alone, waiting on a dark street with cash, is an easy target. That's why it's worth defining night-time waiting spots different from daytime ones: well-lit places with people around, such as 24-hour petrol stations, hospitals or restaurant areas. Waiting together, even in pairs, also helps."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "También conviene que la central sepa dónde está cada conductor cuando no tiene viaje, y que exista una forma rápida de pedir ayuda si algo pasa. Si un punto se vuelve peligroso, por un asalto reciente o porque cambió el ambiente de la zona, hay que quitarlo de la lista y avisar a todos de inmediato. La información de los propios conductores es la mejor alarma.",
+        "en": "It's also important for dispatch to know where each driver is when they're not on a trip, and for there to be a quick way to ask for help if something happens. If a spot becomes dangerous, because of a recent robbery or because the area has changed, it has to be taken off the list and everyone warned immediately. Information from the drivers themselves is the best alarm."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Una medida sencilla que reduce mucho el riesgo es que los conductores lleven poco efectivo encima. Si tu flota acepta pagos con tarjeta o transferencia, promoverlos entre los pasajeros también protege al conductor, porque tiene menos dinero en el auto mientras espera de noche.",
+        "en": "A simple measure that greatly reduces risk is for drivers to carry little cash. If your fleet accepts card or transfer payments, promoting them among passengers also protects the driver, because there's less money in the car while they wait at night."
+      }
+    },
+    {
+      "type": "quote",
+      "text": {
+        "es": "Los conductores esperaban frente a una casa del centro y los vecinos ya habían llamado dos veces a tránsito. Hablamos con la gasolinera de la esquina y nos dejaron usar un lado del estacionamiento. Ahora tienen baño, café y luz toda la noche, y ya no hemos tenido una sola queja.",
+        "en": "Drivers used to wait outside a house in the centre and the neighbours had already called the traffic police twice. We talked to the petrol station on the corner and they let us use one side of the car park. Now they have a toilet, coffee and light all night, and we haven't had a single complaint since."
+      },
+      "attribution": {
+        "es": "Coordinador de una flota de taxi por app en una ciudad de 130,000 habitantes en Durango, México",
+        "en": "Coordinator of an app-based taxi fleet in a city of 130,000 in Durango, Mexico"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "comodidad",
+      "text": {
+        "es": "La comodidad del conductor",
+        "en": "The driver's comfort"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Un turno de diez o doce horas es largo. Los conductores necesitan ir al baño, comer, estirar las piernas y, a veces, descansar unos minutos. Cuando no hay un lugar para hacerlo, el cansancio se nota en el manejo, en el trato a los pasajeros y, a la larga, en la permanencia en la flota. Un punto de espera con baño y un lugar para comer no es un lujo: es parte de cuidar a los conductores.",
+        "en": "A ten or twelve-hour shift is long. Drivers need to use the toilet, eat, stretch their legs and sometimes rest for a few minutes. When there's nowhere to do that, tiredness shows in their driving, in how they treat passengers and, eventually, in whether they stay with the fleet. A waiting spot with a toilet and somewhere to eat isn't a luxury: it's part of looking after drivers."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Algunas flotas van más allá y acuerdan con un comercio un pequeño descuento para sus conductores, o habilitan un espacio propio donde puedan esperar a cubierto. No hace falta una gran inversión: a veces basta con un acuerdo con la fonda de la esquina. Lo importante es que el conductor sienta que la flota pensó en él, y no sólo en dónde conviene tenerlo estacionado.",
+        "en": "Some fleets go further and arrange a small discount for their drivers with a shop, or set up a space of their own where drivers can wait under cover. It doesn't take a big investment: sometimes an agreement with the corner diner is enough. What matters is that the driver feels the fleet has thought about them, and not only about where it's convenient to have them parked."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "repartir",
+      "text": {
+        "es": "Repartir la flota entre varios puntos",
+        "en": "Spreading the fleet across several spots"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Tener varios puntos de espera sólo sirve si los conductores se reparten entre ellos. Si todos prefieren el mismo, por cómodo o por costumbre, el resto de la ciudad queda descubierto. La central puede sugerir a cada conductor a qué punto ir según dónde haya menos coches esperando, y rotar a los conductores para que nadie se quede siempre con el punto menos atractivo.",
+        "en": "Having several waiting spots only helps if drivers spread out between them. If everyone prefers the same one, out of comfort or habit, the rest of the city is left uncovered. Dispatch can suggest to each driver which spot to go to based on where fewer cars are waiting, and rotate drivers so nobody always gets stuck with the least attractive spot."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Con el tiempo, conviene revisar si los puntos siguen siendo los correctos. La ciudad cambia: abre un centro comercial, cierra una escuela, se mueve la zona de restaurantes. Revisar cada pocos meses de dónde salen los viajes y dónde esperan los conductores permite ajustar los puntos antes de que dejen de funcionar.",
+        "en": "Over time, it's worth checking whether the spots are still the right ones. The city changes: a shopping centre opens, a school closes, the restaurant area moves. Reviewing every few months where trips start and where drivers wait lets you adjust the spots before they stop working."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Pregunta también a los conductores. Ellos saben qué punto es cómodo, cuál es peligroso y dónde los vecinos ya están molestos. Una conversación breve con los más veteranos suele dar una lista de puntos mejor que cualquier análisis hecho desde la oficina. Y quienes participan en elegir el punto suelen cuidarlo mucho más.",
+        "en": "Ask the drivers too. They know which spot is comfortable, which is dangerous and where the neighbours are already annoyed. A short conversation with the most experienced ones usually produces a better list of spots than any analysis done from the office. And those who help choose the spot tend to look after it more."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "cierre",
+      "text": {
+        "es": "Esperar bien también es servicio",
+        "en": "Waiting well is also service"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Los puntos de espera parecen un detalle menor, pero influyen en casi todo: en cuánto tarda el taxi en llegar, en cómo te ven los vecinos y la autoridad, en la seguridad de tus conductores y en cuánto aguantan un turno largo. Una flota que los elige con cuidado, pone reglas claras de convivencia y piensa en la comodidad de su gente da un mejor servicio sin gastar más.",
+        "en": "Waiting spots look like a minor detail, but they influence almost everything: how long the taxi takes to arrive, how neighbours and the authorities see you, your drivers' safety and how well they cope with a long shift. A fleet that chooses them carefully, sets clear rules for getting along and thinks about its people's comfort provides better service without spending more."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Si quieres empezar esta semana, revisa dónde esperan hoy tus conductores, compáralo con dónde salen los viajes y habla con un comercio o una gasolinera para un punto nuevo. Y con Cabgo puedes lanzar tu propia app de taxi con tu marca, para que tus conductores estén siempre cerca de donde tus pasajeros los necesitan.",
+        "en": "If you want to start this week, check where your drivers wait today, compare it with where trips start and talk to a shop or petrol station about a new spot. And with Cabgo you can launch your own branded taxi app, so your drivers are always close to where your passengers need them."
+      }
+    }
+  ],
+  "cta": {
+    "heading": {
+      "es": "¿Listo para lanzar tu propia app de movilidad?",
+      "en": "Ready to launch your own mobility app?"
+    },
+    "body": {
+      "es": "Configura tu marca, tus tarifas y tus servicios en semanas, no en meses. Cabgo te entrega la plataforma; tú te quedas con la operación, los clientes y los ingresos.",
+      "en": "Set up your brand, pricing and services in weeks, not months. Cabgo ships the platform — you keep the operation, the customers and the revenue."
+    },
+    "buttonLabel": {
+      "es": "Comenzar con Cabgo",
+      "en": "Get started with Cabgo"
+    },
+    "buttonHref": "/empezar"
+  },
+  "seo": {
+    "metaTitle": {
+      "es": "Puntos de espera para conductores de taxi | Cabgo",
+      "en": "Waiting spots for taxi drivers | Cabgo"
+    },
+    "metaDescription": {
+      "es": "Cómo elegir dónde esperan tus conductores entre viajes: cerca de la demanda, sin molestar a los vecinos, seguros de noche y con lo mínimo para un turno largo.",
+      "en": "How to choose where your drivers wait between trips: close to demand, without bothering neighbours, safe at night and with the basics for a long shift."
+    }
+  },
+  "author": {
+    "name": "Equipo Cabgo",
+    "role": {
+      "es": "Plataforma de movilidad",
+      "en": "Mobility platform"
+    }
+  }
+}
