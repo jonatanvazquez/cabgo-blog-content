@@ -1,0 +1,316 @@
+{
+  "slug": "autos-hibridos-electricos-flota-taxi-conviene",
+  "category": "strategy",
+  "title": {
+    "es": "¿Conviene un taxi híbrido o eléctrico en una ciudad regional?",
+    "en": "Is a hybrid or electric taxi worth it in a regional city?"
+  },
+  "excerpt": {
+    "es": "Un híbrido o eléctrico puede reducir mucho el gasto de un taxi, pero no en cualquier flota. Cómo hacer las cuentas, qué pasa con la carga y el mantenimiento, y cómo probar antes de cambiar.",
+    "en": "A hybrid or electric car can greatly cut a taxi's costs, but not in every fleet. How to do the maths, what happens with charging and maintenance, and how to test before switching."
+  },
+  "heroImage": "https://raw.githubusercontent.com/jonatanvazquez/cabgo-blog-content/main/images/autos-hibridos-electricos-flota-taxi-conviene.jpg",
+  "heroImageAlt": {
+    "es": "Ilustración isométrica de un taxi conectado a un cargador eléctrico junto a una bomba de gasolina, con una balanza entre ambos.",
+    "en": "Isometric illustration of a taxi plugged into an electric charger next to a petrol pump, with a balance scale between them."
+  },
+  "heroImagePrompt": "Isometric scene on a deep violet floor grid: a compact taxi car plugged into a slim electric vehicle charging post with a glowing cable, a classic petrol pump standing a short distance away, and a large balance scale floating between them with a battery icon shape on one pan and a fuel drop shape on the other. Soft indigo radial glow at the center. No people. No text, no captions, no labels, no letters, no numbers, no words anywhere in the image.",
+  "publishedAt": "2026-10-28",
+  "readingMinutes": 8,
+  "keywords": {
+    "es": [
+      "taxi híbrido",
+      "taxi eléctrico",
+      "conviene auto eléctrico para taxi",
+      "ahorro gasolina taxi",
+      "flota de taxi eléctrica",
+      "carga de autos eléctricos"
+    ],
+    "en": [
+      "hybrid taxi",
+      "electric taxi",
+      "is an electric car worth it for taxi",
+      "taxi fuel savings",
+      "electric taxi fleet",
+      "electric car charging"
+    ]
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Cada vez más conductores y dueños de flotas preguntan si les conviene pasarse a un auto híbrido o eléctrico. El precio de la gasolina sube, algunos fabricantes ofrecen financiamiento atractivo y en varias ciudades ya se ven taxis eléctricos circulando. Pero en una ciudad regional la decisión no es tan sencilla como en una capital: hay menos cargadores, las distancias pueden ser largas y el mantenimiento especializado no siempre está cerca.",
+        "en": "More and more drivers and fleet owners are asking whether it makes sense to switch to a hybrid or electric car. Fuel prices keep rising, some manufacturers offer attractive financing and in several cities electric taxis are already on the road. But in a regional city the decision isn't as simple as in a capital: there are fewer chargers, distances can be long and specialised maintenance isn't always nearby."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La tesis de este artículo es que no hay una respuesta única: un híbrido o un eléctrico puede ser un excelente negocio para un taxi que recorre muchos kilómetros al día dentro de la ciudad, y un mal negocio para uno que hace viajes largos por carretera o que no tiene dónde cargar. La decisión se toma con números propios, no con la publicidad del fabricante. Vamos a ver qué diferencia a cada tipo de auto, cómo hacer las cuentas, qué pasa con la carga y el mantenimiento, cómo influye el tipo de viajes de tu flota y cómo probar antes de cambiar toda la flota.",
+        "en": "The thesis of this article is that there's no single answer: a hybrid or electric car can be an excellent deal for a taxi that covers many kilometres a day within the city, and a bad deal for one that makes long highway trips or has nowhere to charge. The decision is made with your own numbers, not the manufacturer's advertising. We'll look at what sets each type of car apart, how to do the maths, what happens with charging and maintenance, how the type of trips in your fleet matters and how to test before changing the whole fleet."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "tipos",
+      "text": {
+        "es": "Híbrido, híbrido enchufable y eléctrico",
+        "en": "Hybrid, plug-in hybrid and electric"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Antes de hacer cuentas, conviene tener claras las diferencias. Un híbrido convencional usa gasolina, pero recupera energía al frenar y la usa para mover el auto a baja velocidad; no se enchufa y consume menos combustible, sobre todo en ciudad. Un híbrido enchufable tiene una batería más grande que se carga en la corriente y permite recorrer algunas decenas de kilómetros sólo con electricidad antes de usar gasolina. Un eléctrico puro no usa gasolina: depende por completo de la batería y de dónde cargarla.",
+        "en": "Before doing the maths, it's worth being clear on the differences. A conventional hybrid runs on petrol but recovers energy when braking and uses it to move the car at low speed; it isn't plugged in and uses less fuel, especially in the city. A plug-in hybrid has a larger battery charged from the mains and can cover a few dozen kilometres on electricity alone before using petrol. A pure electric car uses no petrol: it depends entirely on the battery and on where to charge it."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Para un taxi en una ciudad regional, el híbrido convencional suele ser el paso más fácil: no exige infraestructura nueva, el conductor carga gasolina como siempre y el ahorro aparece desde el primer día en el tráfico urbano. El eléctrico puede ahorrar más, pero exige resolver la carga. El híbrido enchufable está en medio, y su ventaja depende de que de verdad se cargue todos los días.",
+        "en": "For a taxi in a regional city, the conventional hybrid is usually the easiest step: it needs no new infrastructure, the driver fills up with petrol as always and the savings show from day one in city traffic. The electric car can save more, but it requires solving charging. The plug-in hybrid sits in between, and its advantage depends on it actually being charged every day."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "cuentas",
+      "text": {
+        "es": "Cómo hacer las cuentas",
+        "en": "How to do the maths"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La comparación honesta no es entre el precio de un auto y otro, sino entre lo que cuesta cada uno durante los años que va a trabajar. Un auto más caro al comprarlo puede salir más barato si ahorra lo suficiente en combustible y mantenimiento. Para compararlos, reúne estos datos de tu propia operación:",
+        "en": "The honest comparison isn't between the price of one car and another, but between what each one costs over the years it will work. A car that's more expensive to buy can work out cheaper if it saves enough on fuel and maintenance. To compare them, gather this data from your own operation:"
+      }
+    },
+    {
+      "type": "list",
+      "style": "bullet",
+      "items": {
+        "es": [
+          "Kilómetros que recorre un taxi de tu flota al día y al mes.",
+          "Gasto actual en gasolina por kilómetro.",
+          "Precio de la electricidad o del combustible en tu ciudad.",
+          "Diferencia de precio de compra y opciones de financiamiento.",
+          "Costo de mantenimiento esperado de cada tipo de auto.",
+          "Años que planeas usar el auto y su valor de reventa."
+        ],
+        "en": [
+          "Kilometres a taxi in your fleet covers per day and per month.",
+          "Current fuel cost per kilometre.",
+          "Price of electricity or fuel in your city.",
+          "Purchase price difference and financing options.",
+          "Expected maintenance cost for each type of car.",
+          "Years you plan to use the car and its resale value."
+        ]
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El dato que más pesa es el kilometraje. Un taxi que recorre muchos kilómetros al día recupera más rápido la diferencia de precio, porque el ahorro por kilómetro se multiplica. Uno que trabaja pocas horas puede tardar tantos años en recuperarla que no vale la pena. Por eso conviene hacer la cuenta con el kilometraje real de tus conductores, que puedes sacar de tu propio historial de viajes, y no con un promedio general.",
+        "en": "The figure that weighs most is mileage. A taxi that covers many kilometres a day recovers the price difference faster, because the saving per kilometre multiplies. One that works few hours may take so many years to recover it that it isn't worth it. That's why it's best to do the maths with your drivers' real mileage, which you can get from your own trip history, rather than a general average."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "También importa quién paga el auto y quién se queda con el ahorro. Si el conductor es dueño de su vehículo, el ahorro en gasolina es directamente suyo y la decisión es personal. Si la flota es dueña de los autos y el conductor paga la gasolina, la flota pone el dinero extra y el conductor se queda con el ahorro, salvo que se ajuste la cuota. Conviene aclarar ese reparto antes de comprar, para que el cambio sea justo para los dos.",
+        "en": "It also matters who pays for the car and who keeps the savings. If the driver owns the vehicle, the fuel saving is theirs and the decision is personal. If the fleet owns the cars and the driver pays for fuel, the fleet puts up the extra money and the driver keeps the saving, unless the fee is adjusted. It's worth clarifying that split before buying, so the change is fair to both."
+      }
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "text": {
+        "es": "Antes de hablar con un vendedor, calcula cuántos kilómetros recorre al mes tu taxi más activo y cuánto gasta en gasolina. Con esos dos números puedes comprobar por tu cuenta cualquier promesa de ahorro.",
+        "en": "Before talking to a salesperson, work out how many kilometres your most active taxi covers per month and how much it spends on fuel. With those two numbers you can check any savings claim yourself."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "carga",
+      "text": {
+        "es": "La carga: el punto que decide en una ciudad regional",
+        "en": "Charging: the deciding point in a regional city"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Con un eléctrico, la pregunta clave no es la autonomía que anuncia el fabricante, sino dónde y cuánto tiempo carga el conductor. Si tiene cochera con un contacto adecuado y puede cargar de noche, el auto sale cada mañana con la batería llena y el problema casi desaparece. Si vive en un departamento sin estacionamiento propio, dependerá de cargadores públicos, que en muchas ciudades regionales todavía son pocos.",
+        "en": "With an electric car, the key question isn't the range the manufacturer advertises, but where and for how long the driver charges. If they have a garage with a suitable outlet and can charge overnight, the car leaves every morning with a full battery and the problem almost disappears. If they live in a flat without their own parking, they'll depend on public chargers, which in many regional cities are still few."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El tiempo de carga también es tiempo sin trabajar. Un conductor que tiene que detenerse una hora a media jornada para cargar pierde viajes, y en una hora pico eso pesa. Antes de elegir un eléctrico, conviene comprobar cuántos cargadores hay en tu ciudad, dónde están, qué tan rápidos son y si están disponibles cuando tus conductores los necesitarían.",
+        "en": "Charging time is also time not working. A driver who has to stop for an hour mid-shift to charge loses trips, and at a peak hour that matters. Before choosing an electric car, it's worth checking how many chargers there are in your city, where they are, how fast they are and whether they're available when your drivers would need them."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Algunas flotas resuelven la carga instalando uno o dos cargadores en su propia base o en el estacionamiento donde guardan los autos. Es una inversión, pero permite que los conductores sin cochera carguen de noche sin depender de la red pública. Si la flota crece en eléctricos, este punto suele ser lo que hace posible el cambio.",
+        "en": "Some fleets solve charging by installing one or two chargers at their own base or in the car park where they keep the cars. It's an investment, but it lets drivers without a garage charge overnight without depending on the public network. If the fleet grows its electric cars, this is usually what makes the change possible."
+      }
+    },
+    {
+      "type": "quote",
+      "text": {
+        "es": "Probamos con dos híbridos antes de cambiar más autos. A los seis meses, los conductores de esos dos gastaban bastante menos en gasolina que los demás y no tuvieron problemas de mantenimiento. Con eléctricos todavía no nos animamos, porque en la ciudad casi no hay cargadores y la mayoría de nuestros conductores no tiene cochera.",
+        "en": "We tried two hybrids before changing more cars. After six months, the drivers of those two were spending quite a bit less on petrol than the rest and had no maintenance problems. We're not ready for electric cars yet, because there are hardly any chargers in the city and most of our drivers don't have a garage."
+      },
+      "attribution": {
+        "es": "Dueño de una flota de taxi por app en una ciudad de 140,000 habitantes en Veracruz, México",
+        "en": "Owner of an app-based taxi fleet in a city of 140,000 in Veracruz, Mexico"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "mantenimiento",
+      "text": {
+        "es": "Mantenimiento y talleres",
+        "en": "Maintenance and workshops"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Los híbridos y eléctricos suelen necesitar menos mantenimiento rutinario: los eléctricos no tienen cambios de aceite ni tantas piezas que se desgastan, y los frenos duran más gracias a la recuperación de energía. Pero cuando algo falla, la reparación puede requerir un taller especializado y piezas que no siempre se consiguen rápido en una ciudad pequeña. Un taxi parado una semana esperando una pieza borra buena parte del ahorro.",
+        "en": "Hybrids and electric cars usually need less routine maintenance: electric cars have no oil changes and fewer parts that wear out, and brakes last longer thanks to energy recovery. But when something fails, the repair may need a specialised workshop and parts that aren't always quick to get in a small city. A taxi off the road for a week waiting for a part wipes out a good share of the savings."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Antes de decidir, pregunta en los talleres de tu ciudad si atienden ese modelo, cuánto tarda en llegar una pieza y si la agencia tiene servicio cerca. También conviene revisar qué cubre la garantía de la batería y por cuántos años o kilómetros, porque es la pieza más cara del auto.",
+        "en": "Before deciding, ask the workshops in your city whether they service that model, how long a part takes to arrive and whether the dealer has a service centre nearby. It's also worth checking what the battery warranty covers and for how many years or kilometres, because it's the most expensive part of the car."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Y piensa también en la reventa. En muchas ciudades regionales todavía hay poco mercado de híbridos y eléctricos usados, así que su valor al venderlos puede ser menor de lo esperado.",
+        "en": "And think about resale too. In many regional cities there's still a small market for used hybrids and electric cars, so their value when you sell them may be lower than expected."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "viajes",
+      "text": {
+        "es": "El tipo de viajes de tu flota",
+        "en": "The type of trips in your fleet"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "No todas las flotas usan el auto igual. Una flota que trabaja casi todo el día dentro de la ciudad, con viajes cortos, mucho tráfico y paradas frecuentes, es justo donde los híbridos y eléctricos rinden mejor. Una flota que hace muchos viajes a otras ciudades, por carretera y a velocidad constante, aprovecha menos esas ventajas, y en el caso del eléctrico puede encontrarse sin dónde cargar a mitad del camino.",
+        "en": "Not every fleet uses its cars the same way. A fleet that works almost all day within the city, with short trips, lots of traffic and frequent stops, is exactly where hybrids and electric cars perform best. A fleet that makes many trips to other cities, by highway at steady speed, benefits less from those advantages, and an electric car may find itself with nowhere to charge halfway."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "También importa el clima. El aire acondicionado consume energía, y en ciudades muy calurosas reduce la autonomía de un eléctrico más de lo que el fabricante suele mencionar. Lo mejor es preguntar a otros taxistas o flotas de una ciudad con clima parecido cómo les ha ido en la práctica.",
+        "en": "Climate matters too. Air conditioning uses energy, and in very hot cities it reduces an electric car's range more than the manufacturer usually mentions. It's best to ask other taxi drivers or fleets in a city with a similar climate how it has worked for them in practice."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "probar",
+      "text": {
+        "es": "Probar antes de cambiar toda la flota",
+        "en": "Testing before changing the whole fleet"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La forma más segura de decidir es probar con pocos autos. Uno o dos híbridos o eléctricos, con conductores dispuestos a llevar un registro de lo que gastan y de los problemas que encuentran, dan en pocos meses una respuesta mucho más confiable que cualquier cálculo teórico. Compara su gasto con el de autos parecidos de la flota que hacen el mismo tipo de viajes.",
+        "en": "The safest way to decide is to test with a few cars. One or two hybrids or electric cars, with drivers willing to keep a record of what they spend and the problems they run into, give within a few months a far more reliable answer than any theoretical calculation. Compare their spending with that of similar cars in the fleet doing the same kind of trips."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Si los números salen bien, el cambio se puede hacer poco a poco, a medida que los autos actuales terminan su vida útil. Así no se arriesga todo de golpe y la flota aprende sobre la marcha dónde cargar, qué taller funciona y qué modelo se adapta mejor a la ciudad.",
+        "en": "If the numbers come out well, the change can be made gradually, as the current cars reach the end of their working life. That way you don't risk everything at once, and the fleet learns along the way where to charge, which workshop works and which model suits the city best."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Para que la prueba sirva, el registro tiene que ser sencillo y constante: kilómetros recorridos, gasto en gasolina o electricidad, tiempo perdido cargando, visitas al taller y cualquier problema con el auto. Una hoja compartida que el conductor llena cada semana basta. Al final de la prueba, esos datos dicen con claridad si el cambio vale la pena en tu ciudad.",
+        "en": "For the test to be useful, the record has to be simple and consistent: kilometres covered, spending on fuel or electricity, time lost charging, workshop visits and any problem with the car. A shared sheet the driver fills in each week is enough. At the end of the test, that data shows clearly whether the change is worth it in your city."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "cierre",
+      "text": {
+        "es": "Decidir con números propios",
+        "en": "Deciding with your own numbers"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Un auto híbrido o eléctrico puede reducir mucho el gasto de un taxi, pero sólo si encaja con la forma en que trabaja tu flota: muchos kilómetros en ciudad, un lugar seguro para cargar y un taller que lo pueda atender. Sin esas condiciones, el ahorro prometido puede quedarse en el folleto. La decisión correcta sale de tus propios kilómetros, tus propios viajes y una prueba pequeña antes de cambiar en grande.",
+        "en": "A hybrid or electric car can greatly reduce a taxi's running costs, but only if it fits the way your fleet works: lots of city kilometres, a safe place to charge and a workshop that can service it. Without those conditions, the promised savings may stay in the brochure. The right decision comes from your own kilometres, your own trips and a small test before changing on a large scale."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Si estás considerando el cambio, empieza por calcular el kilometraje real de tus conductores, revisa cuántos cargadores hay en tu ciudad y pregunta a los talleres por el modelo que te interesa. Y con Cabgo puedes lanzar tu propia app de taxi con tu marca, y usar tu historial de viajes para tomar decisiones como ésta con datos reales.",
+        "en": "If you're considering the change, start by working out your drivers' real mileage, check how many chargers there are in your city and ask workshops about the model you're interested in. And with Cabgo you can launch your own branded taxi app and use your trip history to make decisions like this one with real data."
+      }
+    }
+  ],
+  "cta": {
+    "heading": {
+      "es": "¿Listo para lanzar tu propia app de movilidad?",
+      "en": "Ready to launch your own mobility app?"
+    },
+    "body": {
+      "es": "Configura tu marca, tus tarifas y tus servicios en semanas, no en meses. Cabgo te entrega la plataforma; tú te quedas con la operación, los clientes y los ingresos.",
+      "en": "Set up your brand, pricing and services in weeks, not months. Cabgo ships the platform — you keep the operation, the customers and the revenue."
+    },
+    "buttonLabel": {
+      "es": "Comenzar con Cabgo",
+      "en": "Get started with Cabgo"
+    },
+    "buttonHref": "/empezar"
+  },
+  "seo": {
+    "metaTitle": {
+      "es": "¿Conviene un taxi híbrido o eléctrico? | Cabgo",
+      "en": "Is a hybrid or electric taxi worth it? | Cabgo"
+    },
+    "metaDescription": {
+      "es": "Cómo decidir si un taxi híbrido o eléctrico conviene en tu ciudad: las cuentas con tu kilometraje, la carga, el mantenimiento y cómo probar antes de cambiar.",
+      "en": "How to decide whether a hybrid or electric taxi pays off in your city: the maths with your mileage, charging, maintenance and how to test before switching."
+    }
+  },
+  "author": {
+    "name": "Equipo Cabgo",
+    "role": {
+      "es": "Plataforma de movilidad",
+      "en": "Mobility platform"
+    }
+  }
+}
