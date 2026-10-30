@@ -1,0 +1,345 @@
+{
+  "slug": "limpieza-comodidad-taxi-lo-que-nota-el-pasajero",
+  "category": "strategy",
+  "title": {
+    "es": "Limpieza y comodidad en el taxi: lo que el pasajero nota primero",
+    "en": "Cleanliness and comfort in the taxi: what the passenger notices first"
+  },
+  "excerpt": {
+    "es": "El olor, los asientos, la música y la temperatura pesan más en la calificación que casi cualquier otra cosa del viaje. Cómo fijar un estándar mínimo, una rutina de limpieza y una revisión semanal.",
+    "en": "Smell, seats, music and temperature weigh more on the rating than almost anything else in the trip. How to set a minimum standard, a cleaning routine and a weekly review."
+  },
+  "heroImage": "https://raw.githubusercontent.com/jonatanvazquez/cabgo-blog-content/main/images/limpieza-comodidad-taxi-lo-que-nota-el-pasajero.jpg",
+  "heroImageAlt": {
+    "es": "Ilustración isométrica de un taxi con las puertas abiertas junto a una cubeta, un trapo y un pequeño ventilador.",
+    "en": "Isometric illustration of a taxi with its doors open next to a bucket, a cloth and a small fan."
+  },
+  "heroImagePrompt": "Isometric scene on a deep violet floor grid: a yellow taxi car with its rear doors open showing clean seats, a small bucket with a sponge and a folded microfibre cloth on the ground beside it, a compact desk fan with soft air lines, and a few sparkle shapes above the car roof to suggest freshness. Soft indigo radial glow at the center. No people. No text, no captions, no labels, no letters, no numbers, no words anywhere in the image.",
+  "publishedAt": "2026-10-30",
+  "readingMinutes": 8,
+  "keywords": {
+    "es": [
+      "limpieza taxi",
+      "comodidad pasajero taxi",
+      "calificaciones conductores",
+      "estándar de servicio taxi",
+      "olor en el taxi",
+      "música en el taxi"
+    ],
+    "en": [
+      "taxi cleanliness",
+      "taxi passenger comfort",
+      "driver ratings",
+      "taxi service standard",
+      "taxi smell",
+      "music in the taxi"
+    ]
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Un pasajero no sabe si tu flota tiene el mejor sistema de despacho de la ciudad ni si tus tarifas están bien calculadas. Lo que sí sabe, en cuanto abre la puerta, es si el auto huele bien, si el asiento está limpio, si hace demasiado calor y si el conductor lleva la música a todo volumen. Esa primera impresión dura unos segundos y pesa más en la calificación que casi cualquier otra cosa del viaje.",
+        "en": "A passenger doesn't know whether your fleet has the best dispatch system in the city or whether your fares are well calculated. What they do know, the moment they open the door, is whether the car smells good, whether the seat is clean, whether it's too hot and whether the driver has the music at full volume. That first impression lasts a few seconds and weighs more on the rating than almost anything else in the trip."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La tesis de este artículo es que la limpieza y la comodidad a bordo no dependen del gusto de cada conductor: son un estándar de servicio que la flota puede definir, revisar y mejorar con poco dinero. Vamos a ver qué nota primero el pasajero, qué estándar mínimo conviene fijar, cómo organizar la limpieza diaria, qué hacer con la música, la temperatura y la conversación, y cómo usar las calificaciones para saber si el estándar se cumple.",
+        "en": "The thesis of this article is that cleanliness and comfort on board don't depend on each driver's taste: they are a service standard the fleet can define, review and improve with little money. We'll look at what the passenger notices first, what minimum standard is worth setting, how to organise daily cleaning, what to do about music, temperature and conversation, and how to use ratings to know whether the standard is being met."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "primera-impresion",
+      "text": {
+        "es": "Lo que el pasajero nota en los primeros segundos",
+        "en": "What the passenger notices in the first few seconds"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La experiencia de un viaje empieza antes de que el auto se mueva. El pasajero ve el exterior del vehículo al acercarse, abre la puerta, se sienta y respira. En ese momento ya decidió, aunque no lo diga, si el servicio es cuidado o descuidado. Si algo le molesta, lo va a notar el resto del trayecto y lo va a recordar cuando califique.",
+        "en": "The experience of a trip begins before the car moves. The passenger sees the outside of the vehicle as they approach, opens the door, sits down and breathes. At that moment they've already decided, even if they don't say it, whether the service is careful or careless. If something bothers them, they'll notice it for the rest of the journey and remember it when they rate."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Al revisar los comentarios de pasajeros en distintas flotas, las molestias de comodidad se repiten casi siempre en el mismo orden:",
+        "en": "When reviewing passenger comments across different fleets, comfort complaints almost always repeat in the same order:"
+      }
+    },
+    {
+      "type": "list",
+      "style": "bullet",
+      "items": {
+        "es": [
+          "Mal olor: tabaco, comida, humedad o un aromatizante demasiado fuerte.",
+          "Asientos o tapetes sucios, con migajas, manchas o pelo de mascota.",
+          "Temperatura incómoda: demasiado calor o el aire acondicionado al máximo.",
+          "Música o radio muy fuerte, o un contenido que incomoda.",
+          "Basura a la vista: botellas, envolturas o papeles en las puertas.",
+          "Exterior muy sucio, sobre todo en temporada de lluvias."
+        ],
+        "en": [
+          "Bad smell: tobacco, food, damp or an air freshener that's too strong.",
+          "Dirty seats or mats, with crumbs, stains or pet hair.",
+          "Uncomfortable temperature: too hot or the air conditioning on full.",
+          "Music or radio too loud, or content that makes people uncomfortable.",
+          "Visible rubbish: bottles, wrappers or papers in the door pockets.",
+          "A very dirty exterior, especially in the rainy season."
+        ]
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Ninguna de estas cosas requiere un auto nuevo para resolverse. Un vehículo con varios años de uso, limpio, ventilado y en silencio, deja mejor impresión que uno nuevo con olor a cigarro. Por eso la comodidad es una de las mejoras de servicio más baratas que tiene una flota.",
+        "en": "None of these things needs a new car to be fixed. A vehicle several years old that is clean, ventilated and quiet leaves a better impression than a new one smelling of cigarettes. That's why comfort is one of the cheapest service improvements a fleet has."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "estandar",
+      "text": {
+        "es": "Definir un estándar mínimo que todos entiendan",
+        "en": "Defining a minimum standard everyone understands"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Decirle a la flota que los autos deben estar limpios no sirve de mucho, porque cada conductor tiene su propia idea de lo que significa limpio. Lo que funciona es escribir un estándar corto, concreto y verificable: algo que cualquier persona pueda revisar en un minuto con sólo abrir la puerta. Un estándar mínimo razonable podría incluir:",
+        "en": "Telling the fleet that cars must be clean doesn't help much, because every driver has their own idea of what clean means. What works is writing a short, concrete and checkable standard: something anyone can check in a minute just by opening the door. A reasonable minimum standard could include:"
+      }
+    },
+    {
+      "type": "list",
+      "style": "bullet",
+      "items": {
+        "es": [
+          "Interior sin basura, con puertas y portavasos vacíos al iniciar el turno.",
+          "Asientos y tapetes sin manchas visibles ni restos de comida.",
+          "Nada de fumar dentro del vehículo, ni siquiera fuera de turno.",
+          "Aromatizante suave o ninguno; nunca para tapar otro olor.",
+          "Volumen de música bajo por defecto y apagado si el pasajero lo pide.",
+          "Exterior lavado al menos una vez por semana, y más en lluvias."
+        ],
+        "en": [
+          "Interior free of rubbish, with doors and cup holders empty at the start of the shift.",
+          "Seats and mats without visible stains or food remains.",
+          "No smoking inside the vehicle, not even off shift.",
+          "A mild air freshener or none at all; never to cover another smell.",
+          "Music volume low by default and off if the passenger asks.",
+          "Exterior washed at least once a week, and more often in the rainy season."
+        ]
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El estándar tiene que ser el mismo para todos los vehículos de la flota, incluidos los de los conductores con más antigüedad. Conviene entregarlo por escrito al dar de alta a un conductor, repasarlo en la capacitación inicial y tenerlo a la mano en el canal de comunicación con la flota para que nadie pueda decir que no lo conocía.",
+        "en": "The standard must be the same for every vehicle in the fleet, including those of the longest-serving drivers. It's worth handing it over in writing when a driver joins, going through it in the initial training and keeping it handy in the fleet's communication channel so nobody can say they didn't know about it."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "También ayuda explicar el porqué de cada punto. Un conductor que entiende que el olor a tabaco le baja la calificación, y que una calificación baja le quita viajes, cumple la regla con más ganas que uno que sólo la recibe como una orden.",
+        "en": "It also helps to explain the reason behind each point. A driver who understands that the smell of tobacco lowers their rating, and that a low rating costs them trips, follows the rule more willingly than one who only receives it as an order."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "rutina",
+      "text": {
+        "es": "Una rutina de limpieza que quepa en el turno",
+        "en": "A cleaning routine that fits into the shift"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La limpieza falla cuando se deja para cuando haya tiempo, porque en una jornada de trabajo nunca hay tiempo. La solución es convertirla en una rutina corta y fija, ligada a momentos concretos del turno, para que se haga casi sin pensarlo.",
+        "en": "Cleaning fails when it's left for when there's time, because in a working day there never is any. The solution is to turn it into a short, fixed routine tied to specific moments of the shift, so it gets done almost without thinking."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Una rutina sencilla tiene tres momentos. Al empezar el turno, cinco minutos para sacar la basura, pasar un trapo por asientos y tablero y ventilar el auto. Durante el turno, una revisión rápida después de cada viaje: mirar el asiento trasero, recoger lo que haya quedado y, de paso, comprobar que el pasajero no olvidó nada. Al terminar la semana, una limpieza a fondo del interior y un lavado del exterior.",
+        "en": "A simple routine has three moments. At the start of the shift, five minutes to take out the rubbish, wipe the seats and dashboard and air out the car. During the shift, a quick check after each trip: look at the back seat, pick up whatever was left and, while at it, make sure the passenger didn't forget anything. At the end of the week, a thorough clean of the interior and a wash of the exterior."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Conviene que cada vehículo lleve un pequeño kit: bolsas de basura, toallitas húmedas, un trapo de microfibra, un desinfectante suave y una toalla para el asiento en días de lluvia. Es un gasto mínimo y evita que un pasajero con zapatos mojados o un niño con un jugo arruinen el resto del turno.",
+        "en": "It's worth each vehicle carrying a small kit: rubbish bags, wet wipes, a microfibre cloth, a mild disinfectant and a towel for the seat on rainy days. It's a minimal expense and stops a passenger with wet shoes or a child with a juice box from ruining the rest of the shift."
+      }
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "text": {
+        "es": "Si un pasajero deja el auto muy sucio, el conductor no debería seguir trabajando así. Acuerda con la flota qué hacer en ese caso: desconectarse unos minutos para limpiar es mejor que llevar al siguiente pasajero en un auto que le va a dar mala impresión.",
+        "en": "If a passenger leaves the car very dirty, the driver shouldn't keep working like that. Agree with the fleet what to do in that case: going offline for a few minutes to clean is better than carrying the next passenger in a car that will give them a bad impression."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "ambiente",
+      "text": {
+        "es": "Música, temperatura y conversación",
+        "en": "Music, temperature and conversation"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La comodidad no es sólo limpieza. El ambiente dentro del auto también cuenta, y es donde más chocan los gustos del conductor con los del pasajero. El conductor pasa muchas horas en ese espacio y es natural que quiera escuchar su música y tener el auto a su temperatura. Pero durante el viaje, el espacio es del pasajero.",
+        "en": "Comfort isn't only cleanliness. The atmosphere inside the car counts too, and it's where the driver's tastes clash most with the passenger's. The driver spends many hours in that space and it's natural to want to listen to their music and have the car at their temperature. But during the trip, the space belongs to the passenger."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La regla más simple es que el conductor ofrezca y el pasajero decida. Al subir, una pregunta corta resuelve casi todo: si la temperatura está bien y si prefiere la música o el silencio. Muchos pasajeros no se atreven a pedir que bajen el volumen o que apaguen el aire, pero agradecen mucho que se les pregunte.",
+        "en": "The simplest rule is that the driver offers and the passenger decides. When they get in, a short question solves almost everything: whether the temperature is fine and whether they prefer music or silence. Many passengers don't dare ask for the volume to be turned down or the air conditioning switched off, but they really appreciate being asked."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Con la conversación pasa algo parecido. Hay pasajeros que disfrutan platicar y otros que quieren ir en silencio, revisar el teléfono o descansar. Un buen conductor saluda, confirma el destino y deja que el pasajero marque el tono. Los temas que suelen generar conflicto, como la política, la religión o el fútbol, conviene evitarlos salvo que el pasajero los saque.",
+        "en": "Something similar happens with conversation. Some passengers enjoy chatting and others want to travel in silence, check their phone or rest. A good driver greets them, confirms the destination and lets the passenger set the tone. Topics that tend to cause conflict, such as politics, religion or football, are best avoided unless the passenger brings them up."
+      }
+    },
+    {
+      "type": "quote",
+      "text": {
+        "es": "Revisamos los comentarios de un mes y casi la mitad de las quejas eran por olor, música fuerte o aire acondicionado. No tenían nada que ver con las rutas ni con el precio. Hicimos una lista de seis puntos, la revisamos con cada conductor y en pocas semanas esas quejas casi desaparecieron.",
+        "en": "We reviewed a month of comments and almost half the complaints were about smell, loud music or air conditioning. They had nothing to do with routes or price. We made a six-point list, went through it with each driver and within a few weeks those complaints had almost disappeared."
+      },
+      "attribution": {
+        "es": "Encargado de flota de un servicio de taxi por app en una ciudad de 150,000 habitantes en Veracruz, México",
+        "en": "Fleet manager of an app-based taxi service in a city of 150,000 in Veracruz, Mexico"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "revisar",
+      "text": {
+        "es": "Revisar sin convertirlo en una inspección policial",
+        "en": "Checking without turning it into a police inspection"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Un estándar que nadie revisa se olvida en pocas semanas. Pero tampoco hace falta una inspección diaria de cada vehículo, que cansa a todos y genera resentimiento. Lo mejor es combinar una revisión ligera y periódica con lo que los propios pasajeros te dicen en sus calificaciones.",
+        "en": "A standard nobody checks is forgotten within a few weeks. But a daily inspection of every vehicle isn't needed either: it wears everyone out and breeds resentment. The best approach is to combine a light, periodic check with what passengers themselves tell you in their ratings."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Las calificaciones y comentarios de los pasajeros son la mejor herramienta, porque vienen de quien vivió el viaje. Si en tu panel revisas cada semana los comentarios con palabras como olor, sucio, calor o música, vas a encontrar rápido a los conductores que necesitan una conversación. Las revisiones presenciales pueden ser al azar, unas cuantas por semana, y servir más para reconocer a quien cumple que para castigar a quien no.",
+        "en": "Passenger ratings and comments are the best tool, because they come from the person who experienced the trip. If you review comments in your dashboard every week for words such as smell, dirty, heat or music, you'll quickly find the drivers who need a conversation. In-person checks can be random, a few per week, and serve more to recognise those who comply than to punish those who don't."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Cuando un conductor acumula quejas de comodidad, la conversación debe ser privada y concreta: qué dijeron los pasajeros, qué punto del estándar no se está cumpliendo y qué se espera a partir de ahora. Casi siempre basta con eso. Si las quejas siguen, la flota puede aplicar las consecuencias que ya estaban escritas en sus reglas.",
+        "en": "When a driver accumulates comfort complaints, the conversation should be private and specific: what passengers said, which point of the standard isn't being met and what is expected from now on. That's almost always enough. If the complaints continue, the fleet can apply the consequences already written in its rules."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "reconocer",
+      "text": {
+        "es": "Reconocer a quien cuida su auto",
+        "en": "Recognising those who look after their car"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La limpieza también se puede premiar. Los conductores que mantienen el auto impecable y reciben buenos comentarios merecen que se note: una mención en el grupo de la flota, prioridad en los viajes programados o en los clientes corporativos, o un pequeño apoyo para el lavado del mes. No hace falta mucho dinero para que el estándar se vuelva algo de lo que la flota se siente orgullosa.",
+        "en": "Cleanliness can also be rewarded. Drivers who keep their car spotless and get good comments deserve to have it noticed: a mention in the fleet group, priority for scheduled trips or corporate customers, or a small contribution towards the month's car wash. It doesn't take much money for the standard to become something the fleet is proud of."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Además, la comodidad es un argumento de venta. Cuando tu flota es conocida en la ciudad por autos limpios, frescos y tranquilos, ese es un motivo para que el pasajero te elija a ti y no a la competencia, y un motivo para que te recomiende con su familia y sus compañeros de trabajo.",
+        "en": "Comfort is also a selling point. When your fleet is known in the city for clean, cool and quiet cars, that's a reason for passengers to choose you over the competition, and a reason for them to recommend you to their family and colleagues."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "cierre",
+      "text": {
+        "es": "Lo que te llevas",
+        "en": "What to take away"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La limpieza y la comodidad a bordo son la parte del servicio que el pasajero nota primero y que más recuerda al calificar. No dependen de tener autos nuevos ni de grandes inversiones, sino de un estándar corto y escrito, una rutina de limpieza que quepa en el turno, una regla sencilla para la música y la temperatura, y una revisión semanal de lo que dicen los pasajeros.",
+        "en": "Cleanliness and comfort on board are the part of the service the passenger notices first and remembers most when rating. They don't depend on having new cars or big investments, but on a short written standard, a cleaning routine that fits into the shift, a simple rule for music and temperature, and a weekly review of what passengers say."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Si tu flota opera con una app propia, aprovecha las calificaciones y los comentarios de cada viaje para saber qué vehículos cumplen el estándar y cuáles necesitan atención, y usa ese mismo dato para reconocer a los conductores que cuidan su auto. Un pasajero que se sube a un auto limpio y tranquilo tiene muchas más razones para volver a pedir un viaje contigo.",
+        "en": "If your fleet runs on its own app, use the ratings and comments from each trip to know which vehicles meet the standard and which need attention, and use that same data to recognise the drivers who look after their car. A passenger who gets into a clean, quiet car has many more reasons to request a trip with you again."
+      }
+    }
+  ],
+  "cta": {
+    "heading": {
+      "es": "¿Listo para lanzar tu propia app de movilidad?",
+      "en": "Ready to launch your own mobility app?"
+    },
+    "body": {
+      "es": "Configura tu marca, tus tarifas y tus servicios en semanas, no en meses. Cabgo te entrega la plataforma; tú te quedas con la operación, los clientes y los ingresos.",
+      "en": "Set up your brand, pricing and services in weeks, not months. Cabgo ships the platform — you keep the operation, the customers and the revenue."
+    },
+    "buttonLabel": {
+      "es": "Comenzar con Cabgo",
+      "en": "Get started with Cabgo"
+    },
+    "buttonHref": "/empezar"
+  },
+  "seo": {
+    "metaTitle": {
+      "es": "Limpieza y comodidad en el taxi: el estándar | Cabgo",
+      "en": "Taxi cleanliness and comfort: the standard | Cabgo"
+    },
+    "metaDescription": {
+      "es": "Qué nota primero el pasajero al subir a un taxi, qué estándar de limpieza fijar, cómo organizar la rutina y cómo usar las calificaciones para revisarlo.",
+      "en": "What the passenger notices first in a taxi, what cleanliness standard to set, how to organise the routine and how to use ratings to check it."
+    }
+  },
+  "author": {
+    "name": "Equipo Cabgo",
+    "role": {
+      "es": "Plataforma de movilidad",
+      "en": "Mobility platform"
+    }
+  }
+}
