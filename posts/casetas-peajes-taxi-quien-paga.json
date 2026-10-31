@@ -1,0 +1,339 @@
+{
+  "slug": "casetas-peajes-taxi-quien-paga",
+  "category": "strategy",
+  "title": {
+    "es": "Casetas y peajes en el taxi: quién paga y cómo evitar discusiones",
+    "en": "Tolls in the taxi: who pays and how to avoid arguments"
+  },
+  "excerpt": {
+    "es": "La discusión en la caseta arruina el viaje y la calificación. Tres modelos para cobrar los peajes, cómo avisar al pasajero antes, cuándo ofrecer la ruta libre y cómo evitar que el conductor pierda dinero.",
+    "en": "The argument at the toll booth ruins the trip and the rating. Three models for charging tolls, how to tell the passenger beforehand, when to offer the toll-free route and how to keep the driver from losing money."
+  },
+  "heroImage": "https://raw.githubusercontent.com/jonatanvazquez/cabgo-blog-content/main/images/casetas-peajes-taxi-quien-paga.jpg",
+  "heroImageAlt": {
+    "es": "Ilustración isométrica de un taxi llegando a una caseta de peaje con la barrera levantada y una autopista al fondo.",
+    "en": "Isometric illustration of a taxi arriving at a toll booth with the barrier raised and a motorway in the background."
+  },
+  "heroImagePrompt": "Isometric scene on a deep violet floor grid: a yellow taxi car approaching a small toll booth with a striped barrier arm lifted, a short elevated motorway segment curving behind it, and a fork in the road with a narrower side road branching off. Soft indigo radial glow at the center. No people. No text, no captions, no labels, no letters, no numbers, no words anywhere in the image.",
+  "publishedAt": "2026-10-31",
+  "readingMinutes": 8,
+  "keywords": {
+    "es": [
+      "peajes taxi",
+      "casetas taxi quién paga",
+      "tarifa taxi autopista",
+      "ruta libre taxi",
+      "tarifa fija aeropuerto",
+      "política de peajes"
+    ],
+    "en": [
+      "taxi tolls",
+      "who pays taxi tolls",
+      "taxi motorway fare",
+      "toll-free route taxi",
+      "fixed airport fare",
+      "toll policy"
+    ]
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Pocas cosas arruinan tanto un viaje como la discusión en la caseta. El pasajero pidió un taxi al aeropuerto o a la ciudad vecina, el conductor toma la autopista porque es más rápida, y al llegar a la caseta los dos se miran: ¿quién paga? Si nadie lo dejó claro antes, el conductor siente que lo quieren hacer pagar de su bolsa y el pasajero siente que le están cobrando algo que no aceptó.",
+        "en": "Few things ruin a trip as much as the argument at the toll booth. The passenger requested a taxi to the airport or the neighbouring city, the driver takes the motorway because it's faster, and at the toll booth they look at each other: who pays? If nobody made it clear beforehand, the driver feels they're being asked to pay out of their own pocket and the passenger feels they're being charged for something they didn't agree to."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La tesis de este artículo es que los peajes no son un detalle del conductor, sino una regla de tarifa que la flota tiene que definir, escribir y comunicar antes del viaje. Vamos a ver por qué las casetas generan tantos conflictos, qué modelos de cobro existen, cómo elegir el tuyo, cómo avisarle al pasajero sin asustarlo, qué hacer con la ruta libre y cómo manejar los casos raros sin perder al cliente ni al conductor.",
+        "en": "The thesis of this article is that tolls aren't a driver's detail but a fare rule the fleet has to define, write down and communicate before the trip. We'll look at why toll booths cause so many conflicts, what charging models exist, how to choose yours, how to tell the passenger without scaring them, what to do about the toll-free route and how to handle odd cases without losing the customer or the driver."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "conflicto",
+      "text": {
+        "es": "Por qué las casetas generan tantos conflictos",
+        "en": "Why toll booths cause so many conflicts"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El problema de fondo es que el peaje es un costo que aparece a mitad del viaje y que no todos esperan. Para el conductor es evidente que la autopista tiene un costo y que no le corresponde a él absorberlo. Para el pasajero, en cambio, el precio del viaje ya debería incluirlo todo, sobre todo si la app le mostró una cifra antes de pedir.",
+        "en": "The underlying problem is that the toll is a cost that appears halfway through the trip and that not everyone expects. For the driver it's obvious that the motorway has a cost and that it isn't theirs to absorb. For the passenger, on the other hand, the trip price should already include everything, especially if the app showed them a figure before they requested."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "A eso se suma que cada parte tiene incentivos distintos. El conductor prefiere la autopista porque es más rápida y gasta menos tiempo y combustible. El pasajero puede preferir la ruta libre si va sin prisa y quiere ahorrar. Cuando la regla no existe, cada viaje por autopista se convierte en una negociación, y las negociaciones dentro de un auto casi siempre terminan mal.",
+        "en": "On top of that, each side has different incentives. The driver prefers the motorway because it's faster and uses less time and fuel. The passenger may prefer the toll-free route if they're in no hurry and want to save. When there's no rule, every motorway trip turns into a negotiation, and negotiations inside a car almost always end badly."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Las situaciones que más se repiten en las flotas que operan cerca de autopistas son muy parecidas:",
+        "en": "The situations that repeat most in fleets operating near motorways are very similar:"
+      }
+    },
+    {
+      "type": "list",
+      "style": "bullet",
+      "items": {
+        "es": [
+          "El pasajero se niega a pagar una caseta que nadie le mencionó.",
+          "El conductor paga de su bolsa y luego no sabe cómo recuperarlo.",
+          "El pasajero pide la ruta libre a mitad del camino, cuando ya no hay salida.",
+          "El viaje de regreso tiene otra caseta que nadie consideró.",
+          "Dos conductores cobran la misma ruta de forma distinta.",
+          "La queja llega después, cuando el pasajero ya calificó con una estrella."
+        ],
+        "en": [
+          "The passenger refuses to pay a toll nobody mentioned to them.",
+          "The driver pays out of their own pocket and then doesn't know how to recover it.",
+          "The passenger asks for the toll-free route halfway, when there's no exit left.",
+          "The return trip has another toll nobody considered.",
+          "Two drivers charge the same route differently.",
+          "The complaint arrives later, when the passenger has already rated with one star."
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "modelos",
+      "text": {
+        "es": "Tres formas de cobrar los peajes",
+        "en": "Three ways to charge tolls"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "No hay una sola respuesta correcta. Cada flota elige según su ciudad, sus rutas frecuentes y el tipo de pasajero que atiende. Lo importante es elegir una y aplicarla igual en todos los viajes. Estos son los tres modelos más comunes:",
+        "en": "There isn't a single right answer. Each fleet chooses according to its city, its frequent routes and the type of passenger it serves. What matters is choosing one and applying it the same way on every trip. These are the three most common models:"
+      }
+    },
+    {
+      "type": "list",
+      "style": "bullet",
+      "items": {
+        "es": [
+          "Peaje aparte: el pasajero paga la caseta además de la tarifa, en el momento o al final.",
+          "Peaje incluido: la tarifa de ciertas rutas ya contempla las casetas y el conductor las paga.",
+          "Tarifa fija por ruta: un precio cerrado para trayectos frecuentes, como el aeropuerto, que ya lo cubre todo."
+        ],
+        "en": [
+          "Toll on top: the passenger pays the toll in addition to the fare, at the time or at the end.",
+          "Toll included: the fare for certain routes already covers the tolls and the driver pays them.",
+          "Fixed fare per route: a set price for frequent journeys, such as the airport, that already covers everything."
+        ]
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El peaje aparte es el más justo en números, porque cada pasajero paga exactamente lo que usó, pero es el que más fricción genera si no se avisa. El peaje incluido es el más cómodo para el pasajero, pero obliga a la flota a calcular bien las tarifas de esas rutas para que el conductor no pierda. La tarifa fija por ruta funciona muy bien para trayectos que se repiten todos los días, y es la que menos discusiones produce.",
+        "en": "The toll on top is the fairest in numbers, because each passenger pays exactly what they used, but it's the one that causes most friction if not announced. The toll included is the most comfortable for the passenger, but it forces the fleet to calculate the fares for those routes carefully so the driver doesn't lose out. The fixed fare per route works very well for journeys repeated every day, and it's the one that produces fewest arguments."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Muchas flotas combinan los modelos: tarifa fija para el aeropuerto y las rutas foráneas más comunes, y peaje aparte para todo lo demás. Esa mezcla está bien siempre que esté escrita y que el conductor y el pasajero sepan cuál aplica en cada caso.",
+        "en": "Many fleets combine the models: a fixed fare for the airport and the most common out-of-town routes, and toll on top for everything else. That mix is fine as long as it's written down and both driver and passenger know which one applies in each case."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Antes de decidir, revisa tus viajes de los últimos meses: cuántos pasan por una caseta, hacia qué destinos y a qué horas. Si son pocos y muy concentrados, una tarifa fija para esas rutas resuelve casi todo; si son muchos y variados, el peaje aparte bien comunicado suele ser más sencillo de mantener.",
+        "en": "Before deciding, review your trips from recent months: how many go through a toll, to which destinations and at what times. If they're few and very concentrated, a fixed fare for those routes solves almost everything; if they're many and varied, a well-communicated toll on top is usually simpler to maintain."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "avisar",
+      "text": {
+        "es": "Avisar al pasajero antes, no en la caseta",
+        "en": "Telling the passenger beforehand, not at the toll booth"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La regla de oro es que el pasajero se entere de la caseta antes de subir o, como muy tarde, al empezar el viaje. Enterarse en la caseta se siente como una trampa, aunque la regla sea razonable. Enterarse antes se siente como transparencia.",
+        "en": "The golden rule is that the passenger finds out about the toll before getting in or, at the latest, at the start of the trip. Finding out at the toll booth feels like a trap, even if the rule is reasonable. Finding out beforehand feels like transparency."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Hay varias formas de hacerlo. La política de peajes puede estar en la descripción de tus servicios y en las preguntas frecuentes de tu app o tu página. Para las rutas que casi siempre usan autopista, como el aeropuerto, conviene mencionarlo en la información de esa ruta o de esa tarifa. Y en todo caso, el conductor puede confirmarlo con una frase corta al iniciar: «Para llegar más rápido vamos por la autopista; la caseta va aparte. ¿Le parece bien o prefiere la ruta libre?».",
+        "en": "There are several ways to do it. The toll policy can be in your service descriptions and in the FAQ of your app or website. For routes that almost always use the motorway, such as the airport, it's worth mentioning it in the information for that route or fare. And in any case, the driver can confirm it with a short sentence at the start: \"To get there faster we'll take the motorway; the toll is extra. Is that all right or would you prefer the toll-free route?\""
+      }
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "text": {
+        "es": "Escribe la frase que el conductor debe decir sobre las casetas y compártela con toda la flota. Cuando todos usan las mismas palabras, el pasajero recibe el mismo mensaje sin importar con quién viaje, y las discusiones bajan mucho.",
+        "en": "Write down the sentence the driver should say about tolls and share it with the whole fleet. When everyone uses the same words, the passenger gets the same message no matter who they travel with, and arguments drop a lot."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "ruta-libre",
+      "text": {
+        "es": "La ruta libre: cuándo ofrecerla",
+        "en": "The toll-free route: when to offer it"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Darle al pasajero la opción de la ruta libre es una muestra de respeto, pero hay que hacerlo bien. La ruta libre suele ser más larga y más lenta, y en algunas ciudades pasa por zonas con más tráfico o menos seguras de noche. Si el viaje se cobra por distancia y tiempo, la ruta libre puede terminar costando casi lo mismo que la caseta.",
+        "en": "Giving the passenger the option of the toll-free route is a sign of respect, but it has to be done right. The toll-free route is usually longer and slower, and in some cities it passes through areas with more traffic or less safe at night. If the trip is charged by distance and time, the toll-free route can end up costing almost as much as the toll."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Por eso conviene que el conductor explique la diferencia en términos simples: cuánto tiempo más tarda y si de verdad ahorra algo. La decisión es del pasajero, pero tiene que tomarla al principio. Cambiar de ruta a mitad del camino, cuando ya no hay salidas, sólo genera frustración en los dos.",
+        "en": "That's why it's worth the driver explaining the difference in simple terms: how much longer it takes and whether it really saves anything. The decision is the passenger's, but they have to make it at the start. Changing route halfway, when there are no exits left, only frustrates both of them."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Si la flota decide que ciertas rutas siempre van por autopista, por seguridad o por tiempo, también es válido. Lo único que no funciona es dejar que cada conductor lo decida a su manera, porque entonces el mismo trayecto cuesta distinto según quién llegue.",
+        "en": "If the fleet decides certain routes always go by motorway, for safety or for time, that's also valid. The only thing that doesn't work is letting each driver decide their own way, because then the same journey costs differently depending on who shows up."
+      }
+    },
+    {
+      "type": "quote",
+      "text": {
+        "es": "Teníamos una discusión por la caseta casi todas las semanas en los viajes al aeropuerto. Pusimos una tarifa cerrada para esa ruta, con las casetas incluidas, y la anunciamos en la app y en los mensajes de confirmación. Desde entonces casi no hay quejas, y los conductores ya no tienen que cobrar nada en el camino.",
+        "en": "We had an argument about the toll almost every week on airport trips. We set a fixed fare for that route, with tolls included, and announced it in the app and in the confirmation messages. Since then there are hardly any complaints, and drivers no longer have to collect anything along the way."
+      },
+      "attribution": {
+        "es": "Gerente de operación de una flota de taxi por app en una ciudad de 300,000 habitantes en Querétaro, México",
+        "en": "Operations manager of an app-based taxi fleet in a city of 300,000 in Querétaro, Mexico"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "casos",
+      "text": {
+        "es": "Casos raros que conviene tener resueltos",
+        "en": "Odd cases worth having resolved"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Además de la regla general, hay situaciones que se presentan de vez en cuando y que conviene decidir antes de que pasen. Así el conductor no tiene que improvisar con el pasajero enfrente.",
+        "en": "Besides the general rule, there are situations that come up now and then and are worth deciding before they happen. That way the driver doesn't have to improvise with the passenger in front of them."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El primer caso es el viaje de regreso. En los viajes foráneos, el conductor muchas veces regresa vacío y vuelve a pagar la caseta. Si tu tarifa foránea ya contempla el regreso, ese costo debería estar dentro. Si no, hay que decidir quién lo absorbe. El segundo caso es el pasajero que no trae efectivo para la caseta: si el pago del viaje es con tarjeta, la flota puede acordar que el conductor pague la caseta y que se sume al total, siempre que el pasajero lo acepte antes.",
+        "en": "The first case is the return trip. On out-of-town trips the driver often comes back empty and pays the toll again. If your out-of-town fare already covers the return, that cost should be inside it. If not, you have to decide who absorbs it. The second case is the passenger with no cash for the toll: if the trip is paid by card, the fleet can agree that the driver pays the toll and it's added to the total, as long as the passenger accepts beforehand."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El tercer caso es el desacuerdo que ya pasó. Si un pasajero se queja de una caseta que no le avisaron, lo mejor es reconocer la falla de comunicación y resolverlo rápido, aunque eso signifique absorber el costo esa vez. Una caseta cuesta mucho menos que un cliente que se va y le cuenta a otros. Después, la flota debe revisar por qué no se avisó y corregirlo para los siguientes viajes.",
+        "en": "The third case is the disagreement that has already happened. If a passenger complains about a toll they weren't told about, the best thing is to acknowledge the communication failure and resolve it quickly, even if that means absorbing the cost that time. A toll costs much less than a customer who leaves and tells others. Afterwards, the fleet should review why it wasn't announced and fix it for future trips."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "conductor",
+      "text": {
+        "es": "Que el conductor no pierda dinero",
+        "en": "Making sure the driver doesn't lose money"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Una política de peajes que deja al conductor pagando de su bolsa no dura. El conductor va a evitar las autopistas aunque sean la mejor ruta, o va a discutir con el pasajero para no perder. Por eso, cualquiera que sea el modelo, la flota tiene que asegurar que el peaje llegue de vuelta al conductor, ya sea porque lo cobra al pasajero o porque está dentro de la tarifa que recibe.",
+        "en": "A toll policy that leaves the driver paying out of their own pocket won't last. The driver will avoid motorways even when they're the best route, or will argue with the passenger so as not to lose out. That's why, whatever the model, the fleet has to make sure the toll gets back to the driver, either because they charge it to the passenger or because it's inside the fare they receive."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Conviene revisar de vez en cuando las rutas con casetas más frecuentes y comparar lo que cobran los conductores con lo que pagan. Si las casetas suben, la tarifa fija de esas rutas tiene que subir también. Y si un conductor reporta que pagó una caseta que el pasajero no cubrió, la flota debe tener un camino claro para resolverlo, no dejarlo a la buena voluntad de cada uno.",
+        "en": "It's worth reviewing now and then the routes with the most frequent tolls and comparing what drivers charge with what they pay. If tolls go up, the fixed fare for those routes has to go up too. And if a driver reports they paid a toll the passenger didn't cover, the fleet should have a clear way to resolve it, not leave it to each person's goodwill."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "cierre",
+      "text": {
+        "es": "Lo que te llevas",
+        "en": "What to take away"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Las casetas no tienen por qué ser una fuente de conflictos. Con un modelo de cobro elegido y escrito, una frase clara que el conductor usa al empezar, la opción de la ruta libre ofrecida a tiempo y los casos raros decididos de antemano, la mayoría de las discusiones desaparecen antes de empezar.",
+        "en": "Toll booths don't have to be a source of conflict. With a charging model chosen and written down, a clear sentence the driver uses at the start, the toll-free option offered in time and the odd cases decided beforehand, most arguments disappear before they begin."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Si tu flota opera con una app propia, aprovecha la información de tus servicios, tus tarifas por ruta y tus mensajes al pasajero para dejar clara la política de peajes antes de cada viaje. Un pasajero que sabe qué va a pagar viaja tranquilo, y un conductor que sabe que no va a perder dinero toma la mejor ruta sin pensarlo dos veces.",
+        "en": "If your fleet runs on its own app, use your service information, your per-route fares and your messages to the passenger to make the toll policy clear before every trip. A passenger who knows what they'll pay travels calmly, and a driver who knows they won't lose money takes the best route without thinking twice."
+      }
+    }
+  ],
+  "cta": {
+    "heading": {
+      "es": "¿Listo para lanzar tu propia app de movilidad?",
+      "en": "Ready to launch your own mobility app?"
+    },
+    "body": {
+      "es": "Configura tu marca, tus tarifas y tus servicios en semanas, no en meses. Cabgo te entrega la plataforma; tú te quedas con la operación, los clientes y los ingresos.",
+      "en": "Set up your brand, pricing and services in weeks, not months. Cabgo ships the platform — you keep the operation, the customers and the revenue."
+    },
+    "buttonLabel": {
+      "es": "Comenzar con Cabgo",
+      "en": "Get started with Cabgo"
+    },
+    "buttonHref": "/empezar"
+  },
+  "seo": {
+    "metaTitle": {
+      "es": "Peajes en el taxi: quién paga la caseta | Cabgo",
+      "en": "Taxi tolls: who pays at the booth | Cabgo"
+    },
+    "metaDescription": {
+      "es": "Tres modelos para cobrar las casetas en tu flota de taxi, cómo avisar al pasajero antes del viaje, cuándo ofrecer la ruta libre y cómo proteger al conductor.",
+      "en": "Three models for charging tolls in your taxi fleet, how to tell the passenger before the trip, when to offer the toll-free route and how to protect drivers."
+    }
+  },
+  "author": {
+    "name": "Equipo Cabgo",
+    "role": {
+      "es": "Plataforma de movilidad",
+      "en": "Mobility platform"
+    }
+  }
+}
