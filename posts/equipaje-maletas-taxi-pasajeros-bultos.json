@@ -1,0 +1,352 @@
+{
+  "slug": "equipaje-maletas-taxi-pasajeros-bultos",
+  "category": "strategy",
+  "title": {
+    "es": "Equipaje en el taxi: maletas, cajas y bultos sin discusiones",
+    "en": "Luggage in the taxi: suitcases, boxes and bulky items without arguments"
+  },
+  "excerpt": {
+    "es": "Llega un sedán y en la banqueta esperan tres maletas: el viaje se cancela. Cómo describir tus tipos de servicio, qué regla de cobro usar para los bultos y qué debe hacer el conductor al llegar.",
+    "en": "A saloon car arrives and three suitcases are waiting on the pavement: the trip is cancelled. How to describe your service types, what charging rule to use for bulky items and what the driver should do on arrival."
+  },
+  "heroImage": "https://raw.githubusercontent.com/jonatanvazquez/cabgo-blog-content/main/images/equipaje-maletas-taxi-pasajeros-bultos.jpg",
+  "heroImageAlt": {
+    "es": "Ilustración isométrica de un taxi con la cajuela abierta junto a dos maletas, una caja de cartón y una carriola plegada.",
+    "en": "Isometric illustration of a taxi with its boot open next to two suitcases, a cardboard box and a folded pushchair."
+  },
+  "heroImagePrompt": "Isometric scene on a deep violet floor grid: a yellow taxi car with its trunk lid open, two rolling suitcases of different sizes standing beside it, a taped cardboard box, and a folded baby stroller leaning against the rear bumper. Soft indigo radial glow at the center. No people. No text, no captions, no labels, no letters, no numbers, no words anywhere in the image.",
+  "publishedAt": "2026-11-01",
+  "readingMinutes": 8,
+  "keywords": {
+    "es": [
+      "equipaje taxi",
+      "maletas taxi aeropuerto",
+      "cobro por equipaje taxi",
+      "camioneta taxi",
+      "tipos de servicio taxi",
+      "cancelaciones por equipaje"
+    ],
+    "en": [
+      "taxi luggage",
+      "taxi suitcases airport",
+      "taxi luggage charge",
+      "taxi van",
+      "taxi service types",
+      "luggage cancellations"
+    ]
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El pasajero pide un taxi para ir a la central de autobuses. Llega un sedán pequeño, y en la banqueta lo esperan dos maletas grandes, una caja y una carriola. El conductor abre la cajuela, ve que no cabe todo y empieza la discusión: que si debió avisar, que si eso cuesta más, que si mejor pide otro. El viaje termina cancelado, el pasajero se queda en la calle con prisa y el conductor perdió el tiempo de llegar hasta ahí.",
+        "en": "The passenger requests a taxi to go to the bus station. A small saloon car arrives, and on the pavement two large suitcases, a box and a pushchair are waiting. The driver opens the boot, sees that it won't all fit and the argument begins: they should have said, that costs more, better order another. The trip ends up cancelled, the passenger is left on the street in a hurry and the driver wasted the time it took to get there."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La tesis de este artículo es que el equipaje no es un problema del momento, sino algo que la flota puede anticipar con reglas claras y con los tipos de servicio adecuados. Vamos a ver qué situaciones con equipaje se repiten más, cómo ayudar al pasajero a elegir el vehículo correcto, qué regla de cobro conviene para los bultos, cómo debe actuar el conductor al llegar y qué hacer con los casos que no caben en ningún auto.",
+        "en": "The thesis of this article is that luggage isn't an on-the-spot problem but something the fleet can anticipate with clear rules and the right service types. We'll look at which luggage situations repeat most, how to help the passenger choose the right vehicle, what charging rule makes sense for bulky items, how the driver should act on arrival and what to do with the cases that don't fit in any car."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "situaciones",
+      "text": {
+        "es": "Las situaciones con equipaje que más se repiten",
+        "en": "The luggage situations that repeat most"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Casi todas las flotas ven los mismos casos una y otra vez. Algunos dependen del destino, otros de la temporada y otros del tipo de pasajero. Conocerlos ayuda a preparar las respuestas antes de que llegue la queja:",
+        "en": "Almost every fleet sees the same cases again and again. Some depend on the destination, others on the season and others on the type of passenger. Knowing them helps prepare the answers before the complaint arrives:"
+      }
+    },
+    {
+      "type": "list",
+      "style": "bullet",
+      "items": {
+        "es": [
+          "Viajes al aeropuerto o a la central de autobuses con varias maletas grandes.",
+          "Compras grandes del supermercado o del mercado que llenan la cajuela.",
+          "Familias con carriola, silla de bebé y bolsas.",
+          "Mudanzas pequeñas: cajas, una televisión, una silla o un colchón delgado.",
+          "Instrumentos musicales, bicicletas plegables o equipo deportivo.",
+          "Mascotas en transportadora junto con su equipaje."
+        ],
+        "en": [
+          "Trips to the airport or bus station with several large suitcases.",
+          "Large supermarket or market shops that fill the boot.",
+          "Families with a pushchair, a baby seat and bags.",
+          "Small moves: boxes, a television, a chair or a thin mattress.",
+          "Musical instruments, folding bikes or sports equipment.",
+          "Pets in a carrier along with their luggage."
+        ]
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "En todos estos casos el problema es el mismo: el pasajero no sabía si el vehículo iba a ser suficiente, y el conductor no sabía qué iba a encontrar al llegar. La falta de información de los dos lados es lo que convierte una carga normal en un conflicto.",
+        "en": "In all these cases the problem is the same: the passenger didn't know whether the vehicle would be big enough, and the driver didn't know what they'd find on arrival. The lack of information on both sides is what turns a normal load into a conflict."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "tipo-vehiculo",
+      "text": {
+        "es": "Ayudar al pasajero a elegir el vehículo correcto",
+        "en": "Helping the passenger choose the right vehicle"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La mejor forma de evitar el problema es que el pasajero elija desde el principio un vehículo donde quepa lo que lleva. Para eso, los tipos de servicio de tu app tienen que estar bien descritos. No basta con poner «Sedán» y «Camioneta»: el pasajero necesita saber cuántas personas y cuántas maletas caben en cada uno.",
+        "en": "The best way to avoid the problem is for the passenger to choose from the start a vehicle where what they carry will fit. For that, the service types in your app need to be well described. It isn't enough to write \"Saloon\" and \"Van\": the passenger needs to know how many people and how many suitcases fit in each."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Una descripción útil es corta y concreta, por ejemplo: «Sedán: hasta 4 pasajeros y 2 maletas medianas» o «Camioneta: hasta 6 pasajeros o 4 maletas grandes». Con esa información, el pasajero que va al aeropuerto con tres maletas elige solo la camioneta, y el conductor del sedán no se lleva la sorpresa.",
+        "en": "A useful description is short and concrete, for example: \"Saloon: up to 4 passengers and 2 medium suitcases\" or \"Van: up to 6 passengers or 4 large suitcases\". With that information, the passenger going to the airport with three suitcases chooses the van by themselves, and the saloon driver doesn't get the surprise."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Si tu flota todavía no tiene un servicio de vehículo grande, vale la pena revisar cuántos viajes se cancelan por falta de espacio. Muchas veces bastan unos pocos conductores con camioneta, disponibles en los horarios de más salidas al aeropuerto o a la central, para resolver la mayoría de los casos.",
+        "en": "If your fleet doesn't yet have a large-vehicle service, it's worth reviewing how many trips are cancelled for lack of space. Often a few drivers with vans, available at the times with most departures to the airport or the bus station, are enough to solve most cases."
+      }
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "text": {
+        "es": "Revisa las descripciones de tus tipos de servicio con los ojos de un pasajero que va al aeropuerto: si con leerlas no sabe cuántas maletas le caben, cámbialas hoy. Es de los ajustes más baratos y que más cancelaciones evita.",
+        "en": "Review your service type descriptions through the eyes of a passenger going to the airport: if reading them doesn't tell them how many suitcases will fit, change them today. It's one of the cheapest adjustments and one that prevents the most cancellations."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Conviene además que el nombre de cada tipo de servicio diga algo útil. «Camioneta» o «XL» se entiende mejor que un nombre de fantasía. Y si tienes conductores con autos de cajuela amplia aunque sean sedanes, puedes agruparlos en un servicio propio para viajes con equipaje, con su descripción clara y su tarifa.",
+        "en": "It's also worth making each service type's name say something useful. \"Van\" or \"XL\" is clearer than a made-up name. And if you have drivers with roomy boots even though their cars are saloons, you can group them into a service of their own for trips with luggage, with a clear description and its own fare."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "cobro",
+      "text": {
+        "es": "¿Se cobra el equipaje? Una regla clara",
+        "en": "Is luggage charged? A clear rule"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El cobro por equipaje es uno de los temas que más discusiones generan, porque cada conductor tiene su propia idea. Algunos cobran por cada maleta, otros sólo por las grandes y otros no cobran nada. Para el pasajero, esa variación se siente como arbitraria, y para la flota es una fuente de quejas.",
+        "en": "Charging for luggage is one of the topics that causes most arguments, because every driver has their own idea. Some charge for each suitcase, others only for large ones and others charge nothing. For the passenger, that variation feels arbitrary, and for the fleet it's a source of complaints."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Hay dos caminos razonables. El primero es no cobrar por equipaje normal y dejar que el precio lo marque el tipo de vehículo: quien lleva mucho elige la camioneta, que ya tiene una tarifa más alta. El segundo es cobrar un cargo fijo sólo por bultos especiales, como bicicletas, mudanzas pequeñas o artículos muy voluminosos. Lo que conviene evitar es el cobro improvisado en la banqueta, porque es el que más quejas produce.",
+        "en": "There are two reasonable paths. The first is not charging for normal luggage and letting the price be set by the vehicle type: whoever carries a lot chooses the van, which already has a higher fare. The second is charging a fixed fee only for special items, such as bikes, small moves or very bulky articles. What's best avoided is improvised charging on the pavement, because it's the one that produces most complaints."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Elijas el camino que elijas, tiene que estar escrito y publicado donde el pasajero lo vea antes de pedir, y todos los conductores tienen que aplicarlo igual. Una regla que cada uno interpreta a su manera es casi lo mismo que no tener regla.",
+        "en": "Whichever path you choose, it has to be written down and published where the passenger sees it before requesting, and all drivers have to apply it the same way. A rule each driver interprets their own way is almost the same as having no rule."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "También ayuda que la regla de equipaje aparezca en las respuestas que da la central cuando un pasajero pregunta por mensaje. Si quien atiende sabe exactamente qué decir sobre maletas, cajas y bicicletas, el pasajero recibe la misma respuesta siempre, y el conductor no tiene que negociar nada al llegar.",
+        "en": "It also helps if the luggage rule appears in the answers the dispatch centre gives when a passenger asks by message. If whoever answers knows exactly what to say about suitcases, boxes and bikes, the passenger always gets the same answer, and the driver doesn't have to negotiate anything on arrival."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "al-llegar",
+      "text": {
+        "es": "Qué hace el conductor al llegar",
+        "en": "What the driver does on arrival"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Aunque las reglas estén claras, siempre habrá pasajeros que eligen el vehículo equivocado. En ese momento, la actitud del conductor decide si el cliente vuelve o no. Lo que funciona mejor es una secuencia sencilla y amable:",
+        "en": "Even when the rules are clear, there will always be passengers who choose the wrong vehicle. At that moment, the driver's attitude decides whether the customer comes back or not. What works best is a simple, friendly sequence:"
+      }
+    },
+    {
+      "type": "list",
+      "style": "bullet",
+      "items": {
+        "es": [
+          "Saludar y ayudar a acomodar el equipaje antes de opinar.",
+          "Probar con calma si todo cabe, usando cajuela y asiento libre.",
+          "Si no cabe, explicarlo sin culpar al pasajero.",
+          "Proponer una solución: pedir un vehículo más grande o dividir la carga.",
+          "Avisar a la central para que ayude a conseguir el vehículo adecuado.",
+          "Nunca dejar al pasajero solo en la banqueta sin una alternativa."
+        ],
+        "en": [
+          "Greet the passenger and help load the luggage before giving an opinion.",
+          "Calmly test whether everything fits, using the boot and any free seat.",
+          "If it doesn't fit, explain it without blaming the passenger.",
+          "Offer a solution: request a larger vehicle or split the load.",
+          "Tell the dispatch centre so it can help find the right vehicle.",
+          "Never leave the passenger alone on the pavement without an alternative."
+        ]
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Un detalle importante es la seguridad. El equipaje nunca debe tapar la visibilidad trasera ni ir suelto en el asiento donde puede golpear a alguien en un frenón. Si para que todo quepa hay que poner en riesgo la seguridad, la respuesta correcta es un vehículo más grande.",
+        "en": "An important detail is safety. Luggage must never block the rear view or travel loose on the seat where it could hit someone during sudden braking. If making everything fit means putting safety at risk, the right answer is a bigger vehicle."
+      }
+    },
+    {
+      "type": "quote",
+      "text": {
+        "es": "Teníamos muchas cancelaciones en los viajes a la central de autobuses porque llegaban autos chicos para gente con mucho equipaje. Cambiamos las descripciones de los servicios para decir cuántas maletas caben en cada uno y pusimos más camionetas los viernes y domingos. Las cancelaciones en esa ruta bajaron mucho.",
+        "en": "We had lots of cancellations on trips to the bus station because small cars were arriving for people with lots of luggage. We changed the service descriptions to say how many suitcases fit in each one and put more vans on Fridays and Sundays. Cancellations on that route dropped a lot."
+      },
+      "attribution": {
+        "es": "Coordinador de operación de una flota de taxi por app en una ciudad de 250,000 habitantes en San Luis Potosí, México",
+        "en": "Operations coordinator of an app-based taxi fleet in a city of 250,000 in San Luis Potosí, Mexico"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Después de cada caso difícil, vale la pena que el conductor lo cuente a la central en una línea: qué llevaba el pasajero, qué vehículo pidió y cómo se resolvió. Con unas semanas de esas notas, la flota sabe qué rutas y qué horarios necesitan vehículos grandes y puede ajustar sin adivinar.",
+        "en": "After each difficult case, it's worth the driver telling the dispatch centre about it in one line: what the passenger was carrying, which vehicle they requested and how it was resolved. With a few weeks of those notes, the fleet knows which routes and times need large vehicles and can adjust without guessing."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "temporadas",
+      "text": {
+        "es": "Prepararse para las temporadas y los destinos con más equipaje",
+        "en": "Preparing for the seasons and destinations with most luggage"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El equipaje no se reparte igual durante el año. Las vacaciones de verano, la Semana Santa, el fin de año y los puentes largos llenan los aeropuertos y las centrales de autobuses de pasajeros con maletas. Lo mismo pasa al inicio y al final de los ciclos escolares, cuando los estudiantes se mudan con cajas y bolsas, y en los días de quincena, cuando las compras grandes del supermercado se multiplican.",
+        "en": "Luggage isn't spread evenly through the year. Summer holidays, Easter, the end of the year and long weekends fill airports and bus stations with passengers carrying suitcases. The same happens at the start and end of school terms, when students move with boxes and bags, and on paydays, when large supermarket shops multiply."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Si conoces esas fechas, puedes adelantarte. Avisa a los conductores con camioneta para que estén conectados en los horarios de más salidas, recuerda a la flota la regla de equipaje unos días antes y, si tu app lo permite, destaca el servicio de vehículo grande en las rutas al aeropuerto y a la central. Revisa también, después de cada temporada, cuántos viajes se cancelaron por falta de espacio: ese número te dice si necesitas más vehículos grandes para la próxima.",
+        "en": "If you know those dates, you can get ahead of them. Tell drivers with vans to be online at the times with most departures, remind the fleet of the luggage rule a few days before and, if your app allows it, highlight the large-vehicle service on routes to the airport and the bus station. Also review, after each season, how many trips were cancelled for lack of space: that number tells you whether you need more large vehicles next time."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "fuera-de-alcance",
+      "text": {
+        "es": "Lo que no cabe en ningún taxi",
+        "en": "What doesn't fit in any taxi"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Hay cargas que simplemente no son para un taxi: un refrigerador, un sofá, una mudanza completa o materiales de construcción. En esos casos, lo honesto es decirlo desde el principio y no intentar meter la carga a la fuerza, porque se daña el vehículo y se arriesga la seguridad.",
+        "en": "Some loads simply aren't for a taxi: a fridge, a sofa, a full house move or building materials. In those cases, the honest thing is to say so from the start and not try to force the load in, because it damages the vehicle and puts safety at risk."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Si en tu ciudad estos pedidos aparecen con frecuencia, puede ser una oportunidad. Algunas flotas agregan un servicio aparte de carga o mudanza pequeña con vehículos adecuados y una tarifa propia. No hace falta empezar en grande: basta con detectar si la demanda existe, revisando cuántos pasajeros preguntan por este tipo de viaje, antes de invertir.",
+        "en": "If these requests come up often in your city, it may be an opportunity. Some fleets add a separate freight or small-move service with suitable vehicles and its own fare. There's no need to start big: it's enough to detect whether the demand exists, by reviewing how many passengers ask for this type of trip, before investing."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Mientras tanto, lo que sí puede hacer cualquier flota es tener a mano un par de contactos de fleteros o servicios de mudanza de confianza para recomendarlos. El pasajero agradece que no lo dejes sin opción, y esa recomendación también construye la imagen de un servicio que resuelve.",
+        "en": "Meanwhile, what any fleet can do is keep a couple of trusted freight or removal contacts handy to recommend. The passenger appreciates not being left without an option, and that recommendation also builds the image of a service that solves problems."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "cierre",
+      "text": {
+        "es": "Lo que te llevas",
+        "en": "What to take away"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Los conflictos por equipaje casi siempre nacen de la falta de información: el pasajero no sabe qué vehículo le conviene y el conductor no sabe qué va a encontrar. Con tipos de servicio bien descritos, una regla de cobro escrita, una secuencia amable al llegar y claridad sobre lo que no cabe, la mayoría de esos conflictos desaparecen.",
+        "en": "Luggage conflicts almost always come from a lack of information: the passenger doesn't know which vehicle suits them and the driver doesn't know what they'll find. With well-described service types, a written charging rule, a friendly sequence on arrival and clarity about what doesn't fit, most of those conflicts disappear."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Si tu flota opera con una app propia, revisa hoy cómo se describen tus tipos de servicio y si el pasajero puede elegir con facilidad un vehículo más grande cuando lo necesita. Un pasajero que llega a su destino con todas sus maletas y sin discusiones tiene muchas más razones para volver a pedir un viaje contigo.",
+        "en": "If your fleet runs on its own app, review today how your service types are described and whether the passenger can easily choose a bigger vehicle when they need one. A passenger who reaches their destination with all their suitcases and without arguments has many more reasons to request a trip with you again."
+      }
+    }
+  ],
+  "cta": {
+    "heading": {
+      "es": "¿Listo para lanzar tu propia app de movilidad?",
+      "en": "Ready to launch your own mobility app?"
+    },
+    "body": {
+      "es": "Configura tu marca, tus tarifas y tus servicios en semanas, no en meses. Cabgo te entrega la plataforma; tú te quedas con la operación, los clientes y los ingresos.",
+      "en": "Set up your brand, pricing and services in weeks, not months. Cabgo ships the platform — you keep the operation, the customers and the revenue."
+    },
+    "buttonLabel": {
+      "es": "Comenzar con Cabgo",
+      "en": "Get started with Cabgo"
+    },
+    "buttonHref": "/empezar"
+  },
+  "seo": {
+    "metaTitle": {
+      "es": "Equipaje en el taxi: maletas y bultos sin conflicto | Cabgo",
+      "en": "Taxi luggage: suitcases and bulky items | Cabgo"
+    },
+    "metaDescription": {
+      "es": "Cómo evitar cancelaciones por equipaje en tu flota de taxi: tipos de servicio bien descritos, una regla de cobro clara y qué hacer cuando la carga no cabe.",
+      "en": "How to avoid luggage cancellations in your taxi fleet: well-described service types, a clear charging rule and what to do when the load doesn't fit."
+    }
+  },
+  "author": {
+    "name": "Equipo Cabgo",
+    "role": {
+      "es": "Plataforma de movilidad",
+      "en": "Mobility platform"
+    }
+  }
+}
