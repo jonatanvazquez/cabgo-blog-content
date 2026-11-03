@@ -1,0 +1,316 @@
+{
+  "slug": "pasajeros-ebrios-taxi-como-atenderlos",
+  "category": "strategy",
+  "title": {
+    "es": "Pasajeros ebrios en el taxi: cuándo llevarlos y cómo hacerlo bien",
+    "en": "Drunk passengers in the taxi: when to take them and how to do it right"
+  },
+  "excerpt": {
+    "es": "Llevar a alguien a casa después de beber es de los servicios más valiosos del taxi, y de los que más incidentes concentran. Reglas para aceptar o no el viaje, cuidar el auto y proteger al pasajero.",
+    "en": "Getting someone home after drinking is one of a taxi's most valuable services, and one with the most incidents. Rules for accepting the trip or not, protecting the car and keeping the passenger safe."
+  },
+  "heroImage": "https://raw.githubusercontent.com/jonatanvazquez/cabgo-blog-content/main/images/pasajeros-ebrios-taxi-como-atenderlos.jpg",
+  "heroImageAlt": {
+    "es": "Ilustración isométrica de un taxi esperando frente a la entrada iluminada de un bar por la noche, con una luna en el cielo.",
+    "en": "Isometric illustration of a taxi waiting in front of the lit entrance of a bar at night, with a moon in the sky."
+  },
+  "heroImagePrompt": "Isometric night scene on a deep violet floor grid: a yellow taxi car waiting at the curb in front of a small bar building with a glowing doorway and a striped awning, a street lamp casting a soft circle of light, and a crescent moon floating above. Soft indigo radial glow at the center. No people. No text, no captions, no labels, no letters, no numbers, no words, no signs with writing anywhere in the image.",
+  "publishedAt": "2026-11-03",
+  "readingMinutes": 8,
+  "keywords": {
+    "es": [
+      "pasajeros ebrios taxi",
+      "taxi de noche bares",
+      "cargo por limpieza taxi",
+      "negarse a un viaje taxi",
+      "seguridad conductor noche",
+      "taxi fin de semana"
+    ],
+    "en": [
+      "drunk passengers taxi",
+      "night taxi bars",
+      "taxi cleaning fee",
+      "refusing a taxi trip",
+      "driver safety at night",
+      "weekend taxi"
+    ]
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Viernes, dos de la mañana. Un conductor llega a la puerta de un bar y lo espera un pasajero que apenas se sostiene en pie, acompañado de un amigo que insiste en que «sólo va a su casa». El conductor duda: si lo lleva, se arriesga a que vomite en el auto, a una discusión o a algo peor; si no lo lleva, deja a una persona vulnerable en la calle y pierde el viaje. Esa decisión, que se repite cada fin de semana en cualquier ciudad, casi nunca tiene una regla detrás.",
+        "en": "Friday, two in the morning. A driver pulls up at the door of a bar and finds a passenger who can barely stand, with a friend insisting that \"he's just going home\". The driver hesitates: if he takes him, he risks vomit in the car, an argument or something worse; if he doesn't, he leaves a vulnerable person on the street and loses the trip. That decision, repeated every weekend in any city, almost never has a rule behind it."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La tesis de este artículo es que los viajes con pasajeros que bebieron son una parte normal del negocio del taxi, y precisamente por eso merecen reglas claras: cuándo se acepta el viaje, cuándo no, cómo se cuida al conductor y al vehículo, y cómo se protege a un pasajero que no está en condiciones de cuidarse solo. Llevar a alguien a casa después de beber es uno de los servicios más valiosos que puede dar un taxi; hacerlo bien es lo que lo convierte en una ventaja y no en un problema.",
+        "en": "The thesis of this article is that trips with passengers who have been drinking are a normal part of the taxi business, and precisely for that reason they deserve clear rules: when the trip is accepted, when it isn't, how the driver and vehicle are protected, and how a passenger who can't look after themselves is kept safe. Getting someone home after drinking is one of the most valuable services a taxi can provide; doing it well is what turns it into an advantage rather than a problem."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "valor",
+      "text": {
+        "es": "Por qué estos viajes importan",
+        "en": "Why these trips matter"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Cada pasajero que toma un taxi después de beber es un conductor menos manejando en estado de ebriedad. Ese es probablemente el mayor aporte social de un servicio de taxi en la noche, y también una fuente importante de viajes para la flota los jueves, viernes y sábados. Muchas personas eligen un servicio u otro según cómo las trataron la última vez que salieron de una fiesta.",
+        "en": "Every passenger who takes a taxi after drinking is one less driver on the road under the influence. That's probably the biggest social contribution a night taxi service makes, and also an important source of trips for the fleet on Thursdays, Fridays and Saturdays. Many people choose one service or another based on how they were treated the last time they left a party."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El problema es que estos viajes concentran buena parte de los incidentes de la noche: discusiones por la ruta o la tarifa, autos que quedan sucios, pasajeros que se duermen y no saben dónde viven o, en los casos más serios, agresiones. Una flota que no tiene reglas para estos viajes termina con conductores que los rechazan todos o que los aceptan sin ningún cuidado, y ninguna de las dos cosas es buena.",
+        "en": "The problem is that these trips concentrate a good share of the night's incidents: arguments over the route or the fare, cars left dirty, passengers who fall asleep and don't know where they live or, in the most serious cases, assaults. A fleet with no rules for these trips ends up with drivers who reject them all or accept them without any care, and neither is good."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "aceptar",
+      "text": {
+        "es": "Cuándo aceptar el viaje y cuándo no",
+        "en": "When to accept the trip and when not to"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La mayoría de los pasajeros que bebieron sólo están contentos o cansados, y su viaje es igual que cualquier otro. El reto está en reconocer los pocos casos en los que el viaje no es seguro. Conviene que la flota defina por escrito en qué situaciones el conductor puede negarse, para que no dependa del humor de cada noche. Algunas señales razonables:",
+        "en": "Most passengers who have been drinking are just cheerful or tired, and their trip is like any other. The challenge is recognising the few cases where the trip isn't safe. It's worth the fleet defining in writing the situations in which the driver may refuse, so it doesn't depend on each night's mood. Some reasonable signs:"
+      }
+    },
+    {
+      "type": "list",
+      "style": "bullet",
+      "items": {
+        "es": [
+          "El pasajero no puede sostenerse ni caminar solo.",
+          "Está agresivo, amenaza o insulta antes de subir.",
+          "No puede decir a dónde va ni hay alguien que lo sepa.",
+          "Está vomitando o a punto de hacerlo.",
+          "Quiere subir más personas de las que caben.",
+          "Lleva bebidas abiertas y se niega a dejarlas."
+        ],
+        "en": [
+          "The passenger can't stand or walk on their own.",
+          "They're aggressive, threatening or insulting before getting in.",
+          "They can't say where they're going and nobody with them knows.",
+          "They're vomiting or about to.",
+          "They want to bring more people than fit.",
+          "They're carrying open drinks and refuse to leave them."
+        ]
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Aun cuando el conductor decide no llevar al pasajero, la forma importa. Decirlo con calma, sin humillar a nadie, y sugerir una alternativa —que un amigo lo acompañe, esperar unos minutos o pedir un vehículo más grande— evita que la negativa se convierta en un conflicto. Y en los casos en que la persona está realmente en riesgo, lo correcto es avisar a quien la acompaña o, si está sola y muy mal, a los servicios de emergencia.",
+        "en": "Even when the driver decides not to take the passenger, how it's done matters. Saying so calmly, without humiliating anyone, and suggesting an alternative —a friend going with them, waiting a few minutes or ordering a bigger vehicle— keeps the refusal from turning into a conflict. And when the person is genuinely at risk, the right thing is to tell whoever is with them or, if they're alone and in very bad shape, to call the emergency services."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "También conviene decidir qué pasa con el pasajero que se pone agresivo durante el viaje. La regla más sensata es que el conductor nunca discuta ni responda a las provocaciones, que busque un lugar iluminado y concurrido para detenerse si se siente en peligro, y que avise a la central en cuanto pueda. Ningún viaje vale más que la seguridad del conductor.",
+        "en": "It's also worth deciding what happens with a passenger who becomes aggressive during the trip. The most sensible rule is that the driver never argues or responds to provocation, looks for a well-lit, busy place to stop if they feel in danger, and alerts the dispatch centre as soon as possible. No trip is worth more than the driver's safety."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "durante",
+      "text": {
+        "es": "Cómo llevar el viaje sin sobresaltos",
+        "en": "How to make the trip go smoothly"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Con un pasajero que bebió, lo que más ayuda es la previsibilidad. El conductor confirma el destino antes de arrancar, de preferencia con la dirección exacta en la app, y no con un «ya le voy diciendo». Si el pasajero no recuerda la dirección, vale la pena pedirle a su acompañante que la escriba o la confirme antes de que se despidan, porque a mitad del camino ya no habrá a quién preguntar.",
+        "en": "With a passenger who has been drinking, predictability helps most. The driver confirms the destination before setting off, ideally with the exact address in the app, not with an \"I'll tell you as we go\". If the passenger doesn't remember the address, it's worth asking their companion to type it or confirm it before they say goodbye, because halfway there will be nobody left to ask."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Durante el trayecto, conviene manejar con suavidad, sin frenazos ni curvas bruscas, y mantener una ventana un poco abierta. Muchos conductores con experiencia llevan bolsas a la mano y le avisan con naturalidad al pasajero dónde están, sin hacerlo sentir mal. Es un gesto pequeño que evita muchos de los peores finales de turno.",
+        "en": "During the journey, it's best to drive smoothly, without sudden braking or sharp turns, and keep a window slightly open. Many experienced drivers keep bags handy and casually tell the passenger where they are, without making them feel bad. It's a small gesture that prevents many of the worst ends to a shift."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Al llegar, la regla es la misma que con cualquier pasajero vulnerable: esperar a que entre a su casa o a su edificio antes de irse. Si el pasajero se queda dormido y no responde, el conductor no debe dejarlo en la banqueta: lo correcto es avisar a la central, que intentará localizar a un contacto o, si es necesario, pedirá ayuda.",
+        "en": "On arrival, the rule is the same as with any vulnerable passenger: wait until they're inside their home or building before leaving. If the passenger falls asleep and doesn't respond, the driver shouldn't leave them on the pavement: the right thing is to alert the dispatch centre, which will try to reach a contact or, if necessary, call for help."
+      }
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "text": {
+        "es": "Prepara un pequeño kit nocturno para los conductores que trabajan jueves, viernes y sábado: bolsas, toallitas, una toalla para el asiento y un desinfectante. Cuesta muy poco y evita que un solo viaje deje el auto fuera de servicio el resto de la noche.",
+        "en": "Put together a small night kit for drivers working Thursday, Friday and Saturday: bags, wipes, a seat towel and a disinfectant. It costs very little and keeps a single trip from taking the car out of service for the rest of the night."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Y si el pasajero olvida algo en el auto, como el teléfono o la cartera, algo muy común en estos viajes, el conductor debe reportarlo a la central esa misma noche para que se pueda devolver al día siguiente.",
+        "en": "And if the passenger leaves something in the car, such as their phone or wallet, which is very common on these trips, the driver should report it to the dispatch centre that same night so it can be returned the next day."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "danos",
+      "text": {
+        "es": "Daños y limpieza: una regla escrita",
+        "en": "Damage and cleaning: a written rule"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Tarde o temprano, algún pasajero va a ensuciar el auto. Si la flota no tiene una regla, el conductor queda solo frente a una discusión imposible a las tres de la mañana. Lo mejor es tener un cargo por limpieza definido de antemano, publicado en los términos del servicio y explicado a los conductores, para que nadie tenga que inventar una cifra en el momento.",
+        "en": "Sooner or later, a passenger will make a mess of the car. If the fleet has no rule, the driver is left alone facing an impossible argument at three in the morning. It's best to have a cleaning fee defined in advance, published in the service terms and explained to drivers, so nobody has to make up a figure on the spot."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El cargo debe ser razonable, cubrir el costo real de dejar el auto en condiciones y aplicarse con evidencia, como fotos tomadas al terminar el viaje. Y el conductor necesita saber que, si el auto queda fuera de servicio, la flota lo respalda: si tiene que perder el resto de la noche limpiando sin ninguna compensación, la próxima vez rechazará cualquier viaje desde un bar.",
+        "en": "The fee should be reasonable, cover the real cost of getting the car back in shape and be applied with evidence, such as photos taken at the end of the trip. And the driver needs to know that, if the car is out of service, the fleet backs them: if they have to lose the rest of the night cleaning without any compensation, next time they'll reject every trip from a bar."
+      }
+    },
+    {
+      "type": "quote",
+      "text": {
+        "es": "Antes, los conductores rechazaban casi todos los viajes que salían de los bares los sábados. Pusimos un cargo de limpieza claro en los términos, les dimos un kit con bolsas y toallas, y les dejamos escrito cuándo podían negarse. Ahora aceptan muchos más viajes de noche y casi no tenemos discusiones.",
+        "en": "Before, drivers rejected almost every trip leaving the bars on Saturdays. We set a clear cleaning fee in the terms, gave them a kit with bags and towels, and wrote down when they could refuse. Now they accept many more night trips and we have almost no arguments."
+      },
+      "attribution": {
+        "es": "Jefe de operación de una flota de taxi por app en una ciudad de 220,000 habitantes en Tabasco, México",
+        "en": "Head of operations of an app-based taxi fleet in a city of 220,000 in Tabasco, Mexico"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "acompanante",
+      "text": {
+        "es": "El papel del acompañante y de quien pide por otro",
+        "en": "The role of the companion and whoever orders for someone else"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Muchas veces quien pide el taxi no es quien viaja, sino un amigo o familiar que se queda en la fiesta. Esa persona es clave: puede confirmar la dirección, quedarse con el contacto del pasajero y estar pendiente de que llegue. Si tu app permite pedir viajes para otra persona o compartir el seguimiento, vale la pena recordarlo a los clientes que salen de noche.",
+        "en": "Often the person who orders the taxi isn't the one travelling, but a friend or relative staying at the party. That person is key: they can confirm the address, keep the passenger's contact and keep an eye on them getting home. If your app lets people order trips for someone else or share tracking, it's worth reminding customers who go out at night."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El conductor también puede apoyarse en el acompañante antes de arrancar: preguntar si alguien recibirá al pasajero, si tiene llaves y si hay un número al que llamar si se queda dormido. Son tres preguntas rápidas que pueden ahorrar una hora de problemas a mitad de la madrugada.",
+        "en": "The driver can also rely on the companion before setting off: asking whether someone will meet the passenger, whether they have keys and whether there's a number to call if they fall asleep. Three quick questions that can save an hour of trouble in the middle of the night."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "fin-de-semana",
+      "text": {
+        "es": "Prepararse para la noche del fin de semana",
+        "en": "Getting ready for the weekend night"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Las noches de jueves a sábado, los días de quincena, los partidos importantes y las fechas como Navidad o Año Nuevo concentran la mayoría de estos viajes. Si sabes cuándo vienen, puedes prepararte: tener más conductores conectados en las horas de salida de bares y fiestas, recordarles por el grupo de la flota las reglas de la noche y revisar que todos lleven su kit en el auto antes de empezar.",
+        "en": "Thursday to Saturday nights, paydays, big matches and dates like Christmas or New Year concentrate most of these trips. If you know when they're coming, you can prepare: have more drivers online at the times bars and parties let out, remind them of the night rules in the fleet group and check that everyone has their kit in the car before starting."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "También ayuda revisar, al día siguiente, qué pasó durante la noche: cuántos viajes se rechazaron, cuántos terminaron con limpieza, si hubo algún incidente y cómo se resolvió. Con unas cuantas semanas de esa información, la flota sabe en qué zonas y horarios se concentran los problemas y puede ajustar sus reglas sin adivinar.",
+        "en": "It also helps to review, the next day, what happened during the night: how many trips were refused, how many ended with cleaning, whether there was any incident and how it was resolved. With a few weeks of that information, the fleet knows in which areas and at what times problems concentrate and can adjust its rules without guessing."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Por último, vale la pena reconocer a los conductores que manejan bien estas noches. Quien acepta viajes difíciles, los lleva con calma y deja a cada pasajero en su puerta está haciendo un trabajo que la flota debe valorar, aunque sea con algo tan simple como una mención en el grupo o prioridad en los turnos que prefiera.",
+        "en": "Finally, it's worth recognising drivers who handle these nights well. Whoever accepts difficult trips, handles them calmly and drops every passenger at their door is doing a job the fleet should value, even with something as simple as a mention in the group or priority for the shifts they prefer."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "cierre",
+      "text": {
+        "es": "Lo que te llevas",
+        "en": "What to take away"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Los viajes con pasajeros que bebieron no tienen por qué ser una lotería. Con reglas escritas sobre cuándo aceptar y cuándo no, una forma tranquila de llevar el viaje, un kit sencillo para el auto, un cargo de limpieza claro y el apoyo del acompañante, la flota puede atender estos viajes con seguridad para todos.",
+        "en": "Trips with passengers who have been drinking don't have to be a lottery. With written rules on when to accept and when not to, a calm way of handling the trip, a simple kit for the car, a clear cleaning fee and the companion's support, the fleet can serve these trips safely for everyone."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Si tu flota opera con una app propia, aprovecha para dejar visibles en tus términos el cargo de limpieza y en tus mensajes la opción de pedir para otra persona, y repasa con los conductores las reglas de la noche antes del próximo fin de semana. Llevar a alguien a casa sano y salvo después de una fiesta es de los servicios que más se recuerdan.",
+        "en": "If your fleet runs on its own app, take the opportunity to make the cleaning fee visible in your terms and the option to order for someone else visible in your messages, and go over the night rules with drivers before next weekend. Getting someone home safe and sound after a party is one of the services people remember most."
+      }
+    }
+  ],
+  "cta": {
+    "heading": {
+      "es": "¿Listo para lanzar tu propia app de movilidad?",
+      "en": "Ready to launch your own mobility app?"
+    },
+    "body": {
+      "es": "Configura tu marca, tus tarifas y tus servicios en semanas, no en meses. Cabgo te entrega la plataforma; tú te quedas con la operación, los clientes y los ingresos.",
+      "en": "Set up your brand, pricing and services in weeks, not months. Cabgo ships the platform — you keep the operation, the customers and the revenue."
+    },
+    "buttonLabel": {
+      "es": "Comenzar con Cabgo",
+      "en": "Get started with Cabgo"
+    },
+    "buttonHref": "/empezar"
+  },
+  "seo": {
+    "metaTitle": {
+      "es": "Pasajeros ebrios en el taxi: reglas para tu flota | Cabgo",
+      "en": "Drunk passengers in the taxi: fleet rules | Cabgo"
+    },
+    "metaDescription": {
+      "es": "Cuándo aceptar o rechazar un viaje con un pasajero que bebió, cómo llevarlo sin sobresaltos, qué hacer con la limpieza y cómo apoyarte en su acompañante.",
+      "en": "When to accept or refuse a trip with a passenger who has been drinking, how to make it go smoothly, handling cleaning and relying on their companion."
+    }
+  },
+  "author": {
+    "name": "Equipo Cabgo",
+    "role": {
+      "es": "Plataforma de movilidad",
+      "en": "Mobility platform"
+    }
+  }
+}
