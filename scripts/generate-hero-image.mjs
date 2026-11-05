@@ -10,7 +10,7 @@
  *   node scripts/generate-hero-image.mjs --slug=<slug> --force  # overwrite
  *   node scripts/generate-hero-image.mjs --slug=<slug> --dry    # print prompt only
  *
- * Requires GEMINI_API_KEY in the environment (inherited from launchd plist).
+ * GEMINI_API_KEY: del entorno o, si falta, de ~/cabgoai/.env.prod (CABGO_ENV_FILE). Va en la cabecera x-goog-api-key, no en la URL.
  */
 import { readFileSync, writeFileSync, existsSync, mkdirSync } from "node:fs";
 import { dirname, join } from "node:path";
@@ -80,14 +80,26 @@ if (existsSync(outPath) && !FORCE) {
   process.exit(0);
 }
 
-const apiKey = process.env.GEMINI_API_KEY;
+// La llave se lee del entorno o, si no está, de ~/cabgoai/.env.prod (o CABGO_ENV_FILE).
+// Así el prompt del blog no tiene que sacarla con grep, y nunca se imprime.
+function leeLlaveGemini() {
+  if (process.env.GEMINI_API_KEY) return process.env.GEMINI_API_KEY.trim();
+  const envFile = process.env.CABGO_ENV_FILE || join(process.env.HOME || "", "cabgoai/.env.prod");
+  if (!existsSync(envFile)) return "";
+  for (const linea of readFileSync(envFile, "utf8").split("\n")) {
+    const m = linea.match(/^GEMINI_API_KEY=(.*)$/);
+    if (m) return m[1].trim().replace(/^["']|["']$/g, "");
+  }
+  return "";
+}
+const apiKey = leeLlaveGemini();
 if (!apiKey) {
-  console.error("GEMINI_API_KEY not set. Add it to the environment.");
+  console.error("GEMINI_API_KEY no está ni en el entorno ni en ~/cabgoai/.env.prod.");
   process.exit(1);
 }
 
 async function callGemini() {
-  const url = `https://generativelanguage.googleapis.com/v1beta/models/${MODEL}:generateContent?key=${apiKey}`;
+  const url = `https://generativelanguage.googleapis.com/v1beta/models/${MODEL}:generateContent`;
   const body = {
     contents: [{ parts: [{ text: prompt }] }],
     generationConfig: {
@@ -97,7 +109,7 @@ async function callGemini() {
   };
   const res = await fetch(url, {
     method: "POST",
-    headers: { "Content-Type": "application/json" },
+    headers: { "Content-Type": "application/json", "x-goog-api-key": apiKey },
     body: JSON.stringify(body),
   });
   if (!res.ok) {
