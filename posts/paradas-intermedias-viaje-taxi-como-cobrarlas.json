@@ -1,0 +1,323 @@
+{
+  "slug": "paradas-intermedias-viaje-taxi-como-cobrarlas",
+  "category": "strategy",
+  "title": {
+    "es": "Paradas intermedias en el taxi: cómo cobrarlas sin discutir",
+    "en": "Intermediate stops in the taxi: how to charge for them without arguments"
+  },
+  "excerpt": {
+    "es": "«¿Me espera cinco minutos en la farmacia?» Las paradas son un servicio valioso que genera discusiones cuando no hay regla. Cómo cobrar distancia y espera, avisar antes y saber cuándo decir que no.",
+    "en": "\"Could you wait five minutes at the pharmacy?\" Stops are a valuable service that causes arguments when there's no rule. How to charge for distance and waiting, tell passengers beforehand and know when to say no."
+  },
+  "heroImage": "https://raw.githubusercontent.com/jonatanvazquez/cabgo-blog-content/main/images/paradas-intermedias-viaje-taxi-como-cobrarlas.jpg",
+  "heroImageAlt": {
+    "es": "Ilustración isométrica de un taxi detenido frente a una pequeña farmacia, con una ruta que marca varias paradas en el camino.",
+    "en": "Isometric illustration of a taxi stopped in front of a small pharmacy, with a route marking several stops along the way."
+  },
+  "heroImagePrompt": "Isometric scene on a deep violet floor grid: a yellow taxi car parked in front of a small pharmacy shop with a green cross shape on its facade, a dotted route line on the ground connecting three round location pins, and a small clock floating above the car. Soft indigo radial glow at the center. No people. No text, no captions, no labels, no letters, no numbers, no words anywhere in the image.",
+  "publishedAt": "2026-11-05",
+  "readingMinutes": 8,
+  "keywords": {
+    "es": [
+      "paradas taxi cobrar",
+      "parada intermedia taxi",
+      "tiempo de espera taxi",
+      "viaje con varias paradas",
+      "cobro por espera taxi",
+      "taxi diligencias"
+    ],
+    "en": [
+      "taxi stops charge",
+      "intermediate stop taxi",
+      "taxi waiting time",
+      "trip with several stops",
+      "taxi waiting charge",
+      "taxi errands"
+    ]
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "«¿Me puede esperar cinco minutos en la farmacia y luego seguimos?» Es una de las frases más comunes en un taxi y, a la vez, una de las que más discusiones genera al final del viaje. El pasajero cree que la parada era un favor rápido; el conductor siente que perdió quince minutos sin cobrar; y la tarifa que mostró la app al principio ya no se parece a la que aparece al final. Nadie hizo nada mal, pero los dos terminan molestos.",
+        "en": "\"Could you wait five minutes at the pharmacy and then we'll carry on?\" It's one of the most common phrases in a taxi and, at the same time, one that causes the most arguments at the end of the trip. The passenger thinks the stop was a quick favour; the driver feels they lost fifteen minutes without charging; and the fare the app showed at the start no longer resembles the one at the end. Nobody did anything wrong, but both end up annoyed."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La tesis de este artículo es que las paradas intermedias no son un problema, sino un servicio con valor que la flota puede ofrecer y cobrar de forma clara. Lo que genera conflicto no es la parada, sino la falta de una regla. Vamos a ver qué tipos de paradas existen, cómo cobrarlas de forma justa, cómo avisar al pasajero antes de que ocurran, qué hacer con la espera y cuándo conviene decir que no.",
+        "en": "The thesis of this article is that intermediate stops aren't a problem but a valuable service the fleet can offer and charge for clearly. What causes conflict isn't the stop but the lack of a rule. We'll look at what kinds of stops there are, how to charge for them fairly, how to tell the passenger before they happen, what to do about waiting time and when it's best to say no."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "tipos",
+      "text": {
+        "es": "Los tipos de paradas que más se repiten",
+        "en": "The kinds of stops that repeat most"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "No todas las paradas son iguales, y tratarlas igual es parte del problema. Una parada de un minuto para recoger a alguien no cuesta lo mismo que esperar veinte minutos afuera de un banco. Conviene distinguir al menos estos casos:",
+        "en": "Not all stops are the same, and treating them the same is part of the problem. A one-minute stop to pick someone up doesn't cost the same as waiting twenty minutes outside a bank. It's worth distinguishing at least these cases:"
+      }
+    },
+    {
+      "type": "list",
+      "style": "bullet",
+      "items": {
+        "es": [
+          "Recoger o dejar a otra persona en el camino.",
+          "Una compra rápida: farmacia, tienda, cajero automático.",
+          "Un trámite con espera: banco, oficina, consultorio.",
+          "Varios destinos en el mismo viaje, como repartir a un grupo.",
+          "Ida y vuelta con espera en el destino.",
+          "Un desvío que alarga la ruta original."
+        ],
+        "en": [
+          "Picking up or dropping off someone else along the way.",
+          "A quick purchase: pharmacy, shop, cash machine.",
+          "An errand with a wait: bank, office, clinic.",
+          "Several destinations in the same trip, such as dropping off a group.",
+          "A return trip with waiting at the destination.",
+          "A detour that lengthens the original route."
+        ]
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Cada caso tiene un costo distinto para el conductor: algunos sólo agregan distancia, otros agregan tiempo detenido y otros agregan las dos cosas. Si la flota no lo reconoce, el conductor termina absorbiendo ese costo o negociándolo con el pasajero, y ninguna de las dos opciones es buena para el servicio.",
+        "en": "Each case has a different cost for the driver: some only add distance, others add time standing still and others add both. If the fleet doesn't recognise this, the driver ends up absorbing that cost or negotiating it with the passenger, and neither option is good for the service."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "cobrar",
+      "text": {
+        "es": "Cómo cobrar una parada de forma justa",
+        "en": "How to charge for a stop fairly"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La forma más sencilla de cobrar una parada es separar lo que se recorre de lo que se espera. La distancia extra se cobra como cualquier tramo del viaje, y la espera se cobra por minuto a partir de cierto tiempo de gracia. Así el pasajero paga por lo que realmente usó y el conductor recibe lo justo por su tiempo.",
+        "en": "The simplest way to charge for a stop is to separate what is travelled from what is waited. The extra distance is charged like any part of the trip, and the waiting is charged per minute after a certain grace period. That way the passenger pays for what they actually used and the driver receives a fair amount for their time."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El tiempo de gracia importa más de lo que parece. Cobrar desde el primer segundo se siente mezquino; no cobrar nunca se siente injusto para el conductor. Un punto intermedio razonable es dejar unos minutos sin costo por parada y cobrar la espera a partir de ahí. Lo importante es que la regla sea la misma para todos los conductores y que el pasajero la conozca.",
+        "en": "The grace period matters more than it seems. Charging from the first second feels petty; never charging feels unfair to the driver. A reasonable middle ground is leaving a few minutes free per stop and charging for waiting from then on. What matters is that the rule is the same for all drivers and that the passenger knows it."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Si tu app permite agregar paradas al pedir el viaje, el pasajero puede ver desde el principio una tarifa que ya incluye la distancia extra. En ese caso sólo queda por resolver la espera, que se suma al final según los minutos reales. Si la parada se pide a mitad del camino, la regla debe ser la misma, aunque el total cambie respecto al que vio al principio.",
+        "en": "If your app lets passengers add stops when requesting the trip, the passenger can see from the start a fare that already includes the extra distance. In that case only the waiting remains to be resolved, added at the end according to the actual minutes. If the stop is requested halfway, the rule should be the same, even if the total changes from the one they saw at the start."
+      }
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "text": {
+        "es": "Escribe la regla de las paradas en una sola frase que todos los conductores puedan repetir: por ejemplo, «la distancia extra se suma al viaje y la espera, después de los primeros minutos, se cobra por minuto». Si el conductor la dice antes de la parada, casi nunca hay discusión después.",
+        "en": "Write the stops rule in a single sentence every driver can repeat: for example, \"extra distance is added to the trip, and waiting, after the first few minutes, is charged per minute\". If the driver says it before the stop, there's almost never an argument afterwards."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Un último detalle sobre el cobro: el pasajero tiene que poder ver al final cuánto pagó por la distancia y cuánto por la espera. Un recibo con esa separación responde casi todas las dudas antes de que se conviertan en queja, y le da al conductor un respaldo claro si alguien cuestiona el total. Si tu app muestra ese desglose, recuérdaselo a los conductores para que lo enseñen cuando haga falta.",
+        "en": "One last detail about charging: the passenger must be able to see at the end how much they paid for distance and how much for waiting. A receipt with that breakdown answers almost every question before it becomes a complaint, and gives the driver clear backing if someone questions the total. If your app shows that breakdown, remind drivers so they can point to it when needed."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "avisar",
+      "text": {
+        "es": "Avisar antes, no después",
+        "en": "Telling them before, not after"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Igual que con los peajes o el equipaje, la regla de oro es que el pasajero se entere del costo antes de que ocurra la parada. Cuando pide detenerse, el conductor puede responder con naturalidad: «Claro, con gusto. Le comento que después de los primeros minutos la espera se cobra por minuto». Esa frase no suena a cobro, suena a transparencia, y evita la sorpresa al final.",
+        "en": "As with tolls or luggage, the golden rule is that the passenger learns about the cost before the stop happens. When they ask to stop, the driver can reply naturally: \"Of course, happy to. Just so you know, after the first few minutes the waiting is charged per minute.\" That sentence doesn't sound like a charge, it sounds like transparency, and it avoids the surprise at the end."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "También ayuda que la regla esté publicada en la información de tus servicios o en las preguntas frecuentes de la app. El pasajero que pide viajes con paradas a menudo, como quien hace diligencias o lleva a sus hijos a varios lugares, agradece saber de antemano cuánto le va a costar y puede planear mejor sus trayectos.",
+        "en": "It also helps if the rule is published in your service information or in the app's FAQ. Passengers who often request trips with stops, such as those running errands or taking their children to several places, appreciate knowing in advance how much it will cost and can plan their journeys better."
+      }
+    },
+    {
+      "type": "quote",
+      "text": {
+        "es": "Teníamos quejas casi todas las semanas por las paradas: el pasajero decía que el conductor le había cobrado de más y el conductor decía que había esperado media hora. Pusimos una regla sencilla, la escribimos en la app y pedimos a los conductores que la dijeran antes de cada parada. Las quejas por ese tema prácticamente desaparecieron.",
+        "en": "We had complaints almost every week about stops: the passenger said the driver had overcharged them and the driver said they'd waited half an hour. We set a simple rule, wrote it in the app and asked drivers to say it before every stop. Complaints on that subject practically disappeared."
+      },
+      "attribution": {
+        "es": "Coordinadora de una flota de taxi por app en una ciudad de 160,000 habitantes en Zacatecas, México",
+        "en": "Coordinator of an app-based taxi fleet in a city of 160,000 in Zacatecas, Mexico"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "espera",
+      "text": {
+        "es": "Cuando la espera se alarga",
+        "en": "When the wait gets longer"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Las paradas largas merecen una regla aparte. Esperar media hora afuera de un consultorio o un banco no es lo mismo que una parada rápida, porque el conductor deja de recibir otros viajes durante todo ese tiempo. En esos casos conviene acordar con el pasajero, antes de la parada, si el conductor espera con cobro por minuto o si es mejor terminar el viaje ahí y pedir otro para el regreso.",
+        "en": "Long stops deserve a separate rule. Waiting half an hour outside a clinic or a bank isn't the same as a quick stop, because the driver stops receiving other trips during all that time. In those cases it's worth agreeing with the passenger, before the stop, whether the driver waits with per-minute charging or whether it's better to end the trip there and request another one for the return."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "También es razonable fijar un límite de espera. Pasado ese límite, el conductor puede avisar al pasajero que tiene que retirarse y terminar el viaje con lo recorrido y esperado hasta ese momento. Saberlo de antemano evita la situación incómoda de un conductor que no sabe si esperar más o irse, y de un pasajero que sale y ya no encuentra a nadie.",
+        "en": "It's also reasonable to set a waiting limit. Beyond that limit, the driver can tell the passenger they need to leave and end the trip with what has been travelled and waited up to that point. Knowing this in advance avoids the awkward situation of a driver who doesn't know whether to wait longer or leave, and a passenger who comes out to find nobody there."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Para los viajes de ida y vuelta con espera, como llevar a alguien a una cita médica y traerlo de regreso, algunas flotas prefieren una tarifa por hora o un servicio de diligencias aparte. Así el pasajero sabe desde el principio cuánto pagará y el conductor no tiene que calcular nada en el momento.",
+        "en": "For return trips with waiting, such as taking someone to a medical appointment and bringing them back, some fleets prefer an hourly rate or a separate errands service. That way the passenger knows from the start how much they'll pay and the driver doesn't have to calculate anything on the spot."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "En cualquier caso, el conductor debe poder avisar a la central cuando una espera se alarga más de lo previsto, para que alguien de la operación sepa dónde está y pueda ayudar si el pasajero no regresa.",
+        "en": "In any case, the driver should be able to alert the dispatch centre when a wait runs longer than expected, so that someone in operations knows where they are and can help if the passenger doesn't come back."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "limites",
+      "text": {
+        "es": "Cuándo decir que no",
+        "en": "When to say no"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "No todas las paradas se pueden aceptar. Una parada en un lugar donde no se puede detener el auto sin riesgo, una espera en una zona insegura de noche o una parada que convierte un viaje corto en una tarde entera de diligencias pueden rechazarse con amabilidad. La flota debe respaldar al conductor en esos casos y tener claro qué alternativa ofrecerle al pasajero.",
+        "en": "Not every stop can be accepted. A stop where the car can't be safely pulled over, a wait in an unsafe area at night or a stop that turns a short trip into a whole afternoon of errands can be politely declined. The fleet should back the driver in those cases and be clear about what alternative to offer the passenger."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "También conviene acordar qué pasa con el pasajero que pide muchas paradas en un mismo viaje. A partir de cierto número, puede tener más sentido ofrecerle un servicio por horas que seguir sumando paradas. Lo importante es que la decisión no dependa del humor del conductor, sino de una regla que todos conocen.",
+        "en": "It's also worth agreeing what happens with the passenger who asks for many stops in the same trip. Beyond a certain number, it may make more sense to offer them an hourly service than to keep adding stops. What matters is that the decision doesn't depend on the driver's mood, but on a rule everyone knows."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "seguimiento",
+      "text": {
+        "es": "Revisar las paradas para mejorar la regla",
+        "en": "Reviewing stops to improve the rule"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Una regla de paradas no se escribe una vez y se olvida. Conviene revisar cada cierto tiempo cuántos viajes incluyen paradas, cuánto duran en promedio y cuántas terminan en queja. Esos números dicen si el tiempo de gracia es razonable, si el cobro por minuto se siente justo o si hay algún tipo de parada, como las del banco a fin de mes, que merece un trato distinto.",
+        "en": "A stops rule isn't written once and forgotten. It's worth reviewing every so often how many trips include stops, how long they last on average and how many end in a complaint. Those numbers tell you whether the grace period is reasonable, whether per-minute charging feels fair or whether there's a kind of stop, such as at the bank at the end of the month, that deserves different treatment."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "También vale la pena escuchar a los conductores. Ellos saben qué paradas les hacen perder más viajes, en qué zonas es difícil detenerse y qué pasajeros piden paradas con frecuencia. Una conversación breve en la reunión mensual de la flota puede dar más ideas para ajustar la regla que cualquier reporte, y además hace que los conductores sientan que la regla también es suya.",
+        "en": "It's also worth listening to drivers. They know which stops make them lose the most trips, in which areas it's hard to pull over and which passengers often ask for stops. A short conversation at the fleet's monthly meeting can give more ideas for adjusting the rule than any report, and it also makes drivers feel the rule is theirs too."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Y no olvides a los pasajeros frecuentes. Si alguien pide todas las semanas un viaje con las mismas paradas, como llevar a sus hijos a la escuela y luego ir al trabajo, puedes ofrecerle una tarifa fija para ese recorrido o un viaje programado. Lo que para otros es una excepción, para ese pasajero es su rutina, y convertirla en un servicio claro es una forma sencilla de ganarte su lealtad.",
+        "en": "And don't forget frequent passengers. If someone requests a trip with the same stops every week, such as taking their children to school and then going to work, you can offer them a fixed fare for that route or a scheduled trip. What is an exception for others is that passenger's routine, and turning it into a clear service is a simple way to earn their loyalty."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "cierre",
+      "text": {
+        "es": "Lo que te llevas",
+        "en": "What to take away"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Las paradas intermedias son un servicio que los pasajeros valoran mucho y que, bien cobrado, también conviene a los conductores. El conflicto aparece cuando no hay regla: cuando la espera no se cobra, cuando se cobra sin avisar o cuando cada conductor decide a su manera. Con una regla sencilla, dicha antes de cada parada y escrita en tu app, la mayoría de las discusiones desaparecen.",
+        "en": "Intermediate stops are a service passengers value highly and that, charged properly, also suits drivers. Conflict appears when there's no rule: when waiting isn't charged, when it's charged without warning or when each driver decides their own way. With a simple rule, said before each stop and written in your app, most arguments disappear."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Si tu flota opera con una app propia, revisa hoy cómo se suman las paradas y la espera en tus tarifas y si el pasajero puede agregar paradas al pedir el viaje. Un pasajero que puede resolver sus pendientes en un solo viaje, sin sorpresas al final, es un pasajero que vuelve a pedir contigo.",
+        "en": "If your fleet runs on its own app, review today how stops and waiting are added to your fares and whether the passenger can add stops when requesting the trip. A passenger who can sort out their errands in a single trip, without surprises at the end, is a passenger who orders with you again."
+      }
+    }
+  ],
+  "cta": {
+    "heading": {
+      "es": "¿Listo para lanzar tu propia app de movilidad?",
+      "en": "Ready to launch your own mobility app?"
+    },
+    "body": {
+      "es": "Configura tu marca, tus tarifas y tus servicios en semanas, no en meses. Cabgo te entrega la plataforma; tú te quedas con la operación, los clientes y los ingresos.",
+      "en": "Set up your brand, pricing and services in weeks, not months. Cabgo ships the platform — you keep the operation, the customers and the revenue."
+    },
+    "buttonLabel": {
+      "es": "Comenzar con Cabgo",
+      "en": "Get started with Cabgo"
+    },
+    "buttonHref": "/empezar"
+  },
+  "seo": {
+    "metaTitle": {
+      "es": "Paradas en el taxi: cómo cobrarlas sin discutir | Cabgo",
+      "en": "Taxi stops: how to charge without arguments | Cabgo"
+    },
+    "metaDescription": {
+      "es": "Cómo cobrar las paradas intermedias en tu flota de taxi: distancia y espera por separado, un tiempo de gracia, avisar antes y cuándo conviene decir que no.",
+      "en": "How to charge for intermediate stops in your taxi fleet: distance and waiting separately, a grace period, telling passengers beforehand and when to say no."
+    }
+  },
+  "author": {
+    "name": "Equipo Cabgo",
+    "role": {
+      "es": "Plataforma de movilidad",
+      "en": "Mobility platform"
+    }
+  }
+}
