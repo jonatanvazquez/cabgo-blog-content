@@ -1,0 +1,316 @@
+{
+  "slug": "senal-gps-bateria-app-conductores-taxi",
+  "category": "strategy",
+  "title": {
+    "es": "Señal, GPS y batería: por qué falla la app del conductor y cómo evitarlo",
+    "en": "Signal, GPS and battery: why the driver app fails and how to prevent it"
+  },
+  "excerpt": {
+    "es": "El auto se congela en el mapa y el viaje se pierde. Muchos fallos que parecen de la app vienen del teléfono del conductor: datos, batería, permisos de ubicación y versión. Cómo prevenirlos y qué hacer en la calle.",
+    "en": "The car freezes on the map and the trip is lost. Many failures that seem to be the app's come from the driver's phone: data, battery, location permissions and version. How to prevent them and what to do in the street."
+  },
+  "heroImage": "https://raw.githubusercontent.com/jonatanvazquez/cabgo-blog-content/main/images/senal-gps-bateria-app-conductores-taxi.jpg",
+  "heroImageAlt": {
+    "es": "Ilustración isométrica de un teléfono en el soporte de un taxi, con una batería, un cargador y un ícono de señal flotando alrededor.",
+    "en": "Isometric illustration of a phone on a taxi's mount, with a battery, a charger and a signal icon floating around it."
+  },
+  "heroImagePrompt": "Isometric scene on a deep violet floor grid: a large smartphone on a car dashboard mount showing a simple map with a location pin, a big battery shape with charge bars beside it, a coiled car charger cable plugged into a small dashboard socket, and a radio signal tower with curved wave lines in the background. Soft indigo radial glow at the center. No people. No text, no captions, no labels, no letters, no numbers, no words anywhere in the image.",
+  "publishedAt": "2026-11-06",
+  "readingMinutes": 8,
+  "keywords": {
+    "es": [
+      "app conductor falla",
+      "GPS conductor taxi",
+      "batería app taxi",
+      "permiso ubicación conductor",
+      "ahorro de batería app",
+      "señal datos conductores"
+    ],
+    "en": [
+      "driver app failing",
+      "taxi driver GPS",
+      "taxi app battery",
+      "driver location permission",
+      "battery saving app",
+      "driver signal and data"
+    ]
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Un conductor acepta un viaje, arranca hacia el punto de recogida y a la mitad del camino la app se queda congelada. El mapa no avanza, el pasajero ve el auto detenido en una esquina y empieza a escribir preocupado. Cinco minutos después el conductor descubre que se le acabaron los datos, o que el teléfono apagó el GPS para ahorrar batería. El viaje se cancela y nadie sabe bien qué pasó.",
+        "en": "A driver accepts a trip, heads to the pickup point and halfway there the app freezes. The map stops moving, the passenger sees the car stuck on a corner and starts messaging anxiously. Five minutes later the driver discovers they've run out of data, or that the phone switched off GPS to save battery. The trip is cancelled and nobody quite knows what happened."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La tesis de este artículo es que buena parte de los fallos que se atribuyen a «la app» en realidad vienen del teléfono del conductor: la señal, los datos, la batería, los permisos de ubicación o una versión vieja. Son problemas pequeños, fáciles de prevenir y muy costosos cuando ocurren en plena calle. Vamos a ver cuáles son los más comunes, cómo prevenirlos y qué hacer cuando de todas formas pasan.",
+        "en": "The thesis of this article is that a good share of failures blamed on \"the app\" actually come from the driver's phone: signal, data, battery, location permissions or an old version. They're small problems, easy to prevent and very costly when they happen in the middle of the street. We'll look at the most common ones, how to prevent them and what to do when they happen anyway."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "sintomas",
+      "text": {
+        "es": "Los síntomas que más se repiten",
+        "en": "The symptoms that repeat most"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Cuando revisas los reportes de conductores y pasajeros, los mismos síntomas aparecen una y otra vez. Conocerlos ayuda a distinguir un problema del teléfono de un problema real del sistema:",
+        "en": "When you review driver and passenger reports, the same symptoms appear again and again. Knowing them helps tell a phone problem from a real system problem:"
+      }
+    },
+    {
+      "type": "list",
+      "style": "bullet",
+      "items": {
+        "es": [
+          "El auto aparece detenido en el mapa aunque sí está avanzando.",
+          "El conductor deja de recibir viajes sin haberse desconectado.",
+          "La ubicación salta de un lugar a otro o aparece lejos de la calle.",
+          "La app se cierra sola en segundo plano.",
+          "El teléfono se apaga a mitad del turno.",
+          "Las notificaciones de viajes nuevos llegan tarde o no llegan."
+        ],
+        "en": [
+          "The car appears stopped on the map even though it's moving.",
+          "The driver stops receiving trips without having gone offline.",
+          "The location jumps from place to place or appears off the street.",
+          "The app closes by itself in the background.",
+          "The phone switches off mid-shift.",
+          "New trip notifications arrive late or not at all."
+        ]
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Casi todos estos síntomas tienen una causa en el teléfono: falta de señal o de datos, ahorro de batería agresivo, permisos de ubicación incompletos o una versión de la app que no se ha actualizado. Antes de levantar un reporte técnico, vale la pena revisar esas cuatro cosas con el conductor, porque resuelven la mayoría de los casos en minutos.",
+        "en": "Almost all these symptoms have a cause in the phone: lack of signal or data, aggressive battery saving, incomplete location permissions or an app version that hasn't been updated. Before raising a technical report, it's worth checking those four things with the driver, because they solve most cases in minutes."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "datos",
+      "text": {
+        "es": "Señal y datos: lo más básico",
+        "en": "Signal and data: the basics"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Una app de conductor necesita conexión constante para recibir viajes, enviar su ubicación y actualizar el estado del viaje. No consume tantos datos como un video, pero sí necesita que haya datos disponibles todo el tiempo. Un plan que se termina a mitad de mes, o uno que reduce la velocidad al llegar a cierto consumo, es una de las causas más comunes de viajes perdidos.",
+        "en": "A driver app needs a constant connection to receive trips, send its location and update the trip status. It doesn't use as much data as video, but it does need data to be available all the time. A plan that runs out mid-month, or one that slows down after a certain amount, is one of the most common causes of lost trips."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Conviene que la flota recomiende a sus conductores un plan con datos suficientes para el mes y que les explique cómo revisar cuánto les queda. También ayuda conocer las zonas de la ciudad con mala señal: estacionamientos subterráneos, calles entre edificios altos o salidas de la ciudad. Si un conductor espera viajes en uno de esos lugares, es probable que no le lleguen.",
+        "en": "It's worth the fleet recommending its drivers a plan with enough data for the month and explaining how to check how much is left. It also helps to know the areas of the city with poor signal: underground car parks, streets between tall buildings or the edges of the city. If a driver waits for trips in one of those places, they probably won't arrive."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Otro detalle que pocos revisan es el espacio libre del teléfono. Un equipo con la memoria casi llena se vuelve lento, cierra apps sin avisar y a veces no puede instalar las actualizaciones. Borrar videos viejos o mover las fotos a otro lugar de vez en cuando hace que la app del conductor funcione mucho mejor, y es algo que cualquiera puede hacer en cinco minutos en la base.",
+        "en": "Another detail few people check is the phone's free storage. A device with almost full memory becomes slow, closes apps without warning and sometimes can't install updates. Deleting old videos or moving photos elsewhere now and then makes the driver app work much better, and it's something anyone can do in five minutes at the rank."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "bateria",
+      "text": {
+        "es": "La batería y el ahorro de energía",
+        "en": "Battery and power saving"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Un turno de ocho o diez horas con GPS encendido, pantalla activa y datos móviles agota cualquier batería. Por eso el cargador para el auto no es un lujo: es una herramienta de trabajo igual que la llanta de refacción. Un teléfono que se apaga a mitad de un viaje deja al pasajero sin seguimiento y al conductor sin forma de cerrar el viaje.",
+        "en": "An eight or ten-hour shift with GPS on, screen active and mobile data drains any battery. That's why a car charger isn't a luxury: it's a work tool just like the spare tyre. A phone that switches off mid-trip leaves the passenger without tracking and the driver with no way to close the trip."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El otro problema de la batería es menos visible. Muchos teléfonos, sobre todo algunos modelos Android, tienen modos de ahorro de energía que cierran las apps en segundo plano o limitan su acceso a la ubicación para durar más. El conductor no se da cuenta hasta que deja de recibir viajes. La solución suele ser excluir la app del conductor del ahorro de batería en los ajustes del teléfono, un paso que conviene explicar al dar de alta a cada conductor.",
+        "en": "The other battery problem is less visible. Many phones, especially some Android models, have power-saving modes that close apps in the background or limit their access to location to last longer. The driver doesn't notice until they stop receiving trips. The solution is usually to exclude the driver app from battery saving in the phone's settings, a step worth explaining when signing up each driver."
+      }
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "text": {
+        "es": "Haz una hoja de una página con los tres ajustes que todo conductor debe revisar en su teléfono: permiso de ubicación «siempre», la app fuera del ahorro de batería y actualizaciones automáticas. Revísala con cada conductor nuevo y cada vez que alguien cambie de teléfono.",
+        "en": "Make a one-page sheet with the three settings every driver should check on their phone: location permission set to \"always\", the app excluded from battery saving and automatic updates. Go through it with every new driver and whenever someone changes phone."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Conviene también cuidar el soporte del teléfono en el tablero. Un teléfono que va en el asiento o en el bolsillo pierde señal de GPS con más facilidad, se calienta y obliga al conductor a distraerse para verlo. Un soporte firme, cerca del parabrisas y lejos del sol directo, mejora la ubicación, la batería y la seguridad al manejar.",
+        "en": "It's also worth looking after the phone mount on the dashboard. A phone travelling on the seat or in a pocket loses GPS signal more easily, heats up and forces the driver to get distracted looking at it. A firm mount near the windscreen and out of direct sunlight improves location, battery and safety while driving."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "permisos",
+      "text": {
+        "es": "Permisos de ubicación y versión de la app",
+        "en": "Location permissions and app version"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Para funcionar bien, la app del conductor necesita permiso para usar la ubicación incluso cuando no está en primer plano. Si el conductor lo concedió sólo «mientras se usa la app», en cuanto abre WhatsApp o el mapa de otra aplicación su ubicación deja de actualizarse. Para el pasajero, el auto se congela; para el sistema, el conductor desaparece. Es uno de los problemas más comunes y también de los más fáciles de corregir.",
+        "en": "To work properly, the driver app needs permission to use location even when it isn't in the foreground. If the driver granted it only \"while using the app\", as soon as they open WhatsApp or another app's map their location stops updating. For the passenger, the car freezes; for the system, the driver disappears. It's one of the most common problems and also one of the easiest to fix."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La versión de la app también importa. Las actualizaciones corrigen errores y mejoran el consumo de batería, y a veces son necesarias para que funcionen cambios nuevos del servicio. Un conductor que lleva meses sin actualizar puede tener problemas que el resto de la flota ya no tiene. Conviene recordarle a la flota, por el canal habitual, cada vez que haya una versión nueva, y pedir que tengan las actualizaciones automáticas encendidas.",
+        "en": "The app version matters too. Updates fix bugs and improve battery use, and are sometimes needed for new service changes to work. A driver who hasn't updated in months may have problems the rest of the fleet no longer has. It's worth reminding the fleet, through the usual channel, whenever there's a new version, and asking them to keep automatic updates on."
+      }
+    },
+    {
+      "type": "quote",
+      "text": {
+        "es": "Teníamos conductores que se quejaban de que ya no les llegaban viajes. Al revisar sus teléfonos, casi todos tenían la app en ahorro de batería o el permiso de ubicación sólo mientras se usaba. Hicimos una revisión rápida con cada uno en la base y las quejas bajaron muchísimo esa misma semana.",
+        "en": "We had drivers complaining that trips had stopped arriving. When we checked their phones, almost all had the app on battery saving or the location permission only while in use. We did a quick check with each of them at the rank and the complaints dropped enormously that same week."
+      },
+      "attribution": {
+        "es": "Encargado de flota de un servicio de taxi por app en una ciudad de 140,000 habitantes en Sinaloa, México",
+        "en": "Fleet manager of an app-based taxi service in a city of 140,000 in Sinaloa, Mexico"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "en-la-calle",
+      "text": {
+        "es": "Qué hacer cuando falla en plena calle",
+        "en": "What to do when it fails in the street"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Aun con todo prevenido, a veces la app falla en medio de un viaje. Lo importante es que el conductor sepa qué hacer sin improvisar. La primera regla es avisar al pasajero: una llamada o un mensaje corto diciendo que tiene un problema con el teléfono y que va en camino evita que el pasajero cancele o se preocupe por la seguridad. La segunda es avisar a la central, que puede ver el viaje desde el panel y ayudar a resolverlo.",
+        "en": "Even with everything prevented, the app sometimes fails mid-trip. What matters is that the driver knows what to do without improvising. The first rule is to tell the passenger: a call or a short message saying they have a phone problem and are on their way stops the passenger from cancelling or worrying about safety. The second is to tell the dispatch centre, which can see the trip from the dashboard and help resolve it."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Si la app se cerró, casi siempre basta con volver a abrirla: el viaje en curso suele recuperarse. Si el problema es la señal, conviene avanzar unos metros hasta un lugar con mejor cobertura antes de intentar de nuevo. Y si el teléfono se apagó, el conductor debe cargarlo lo antes posible y confirmar con la central cómo cerrar el viaje y cómo se cobra, para que ni él ni el pasajero salgan perdiendo.",
+        "en": "If the app closed, reopening it is almost always enough: the trip in progress usually recovers. If the problem is signal, it's best to move a few metres to a place with better coverage before trying again. And if the phone switched off, the driver should charge it as soon as possible and confirm with the dispatch centre how to close the trip and how it's charged, so neither they nor the passenger lose out."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Cuando un problema se repite con el mismo conductor, vale la pena revisar su teléfono con calma. A veces el equipo ya es demasiado viejo para trabajar todo un turno con GPS y datos, y la solución es un teléfono sencillo pero más reciente. Ayudar al conductor a conseguirlo suele costar menos que los viajes que se pierden cada semana.",
+        "en": "When a problem keeps repeating with the same driver, it's worth checking their phone calmly. Sometimes the device is simply too old to work a whole shift with GPS and data, and the solution is a simple but more recent phone. Helping the driver get one usually costs less than the trips lost every week."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Después de cada incidente así, una nota breve a la central con la hora, la zona y lo que pasó ayuda a detectar si el problema es del teléfono, de la cobertura en esa calle o de algo más.",
+        "en": "After each incident like this, a short note to the dispatch centre with the time, the area and what happened helps detect whether the problem is the phone, the coverage on that street or something else."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "cuando-reportar",
+      "text": {
+        "es": "Cuándo sí es un problema del sistema",
+        "en": "When it really is a system problem"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Revisar el teléfono primero no significa que la app nunca falle. Si varios conductores en distintas zonas reportan lo mismo a la misma hora, con teléfonos distintos y bien configurados, probablemente no es el teléfono. En esos casos conviene reunir los datos básicos antes de reportarlo: qué conductores, a qué hora, qué hacían y qué veían en la pantalla. Un reporte con esa información se resuelve mucho más rápido que un «la app no sirve».",
+        "en": "Checking the phone first doesn't mean the app never fails. If several drivers in different areas report the same thing at the same time, with different, properly configured phones, it probably isn't the phone. In those cases it's worth gathering the basic facts before reporting it: which drivers, at what time, what they were doing and what they saw on the screen. A report with that information gets solved much faster than an \"the app doesn't work\"."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "También ayuda llevar un registro sencillo de los problemas reportados y de cómo se resolvieron. Con unas semanas de notas, la flota sabe qué fallos son de configuración, cuáles de cobertura en ciertas zonas y cuáles merecen un reporte técnico. Y puede preparar mejor a los conductores nuevos para evitar los más comunes desde el primer día.",
+        "en": "It also helps to keep a simple record of reported problems and how they were solved. With a few weeks of notes, the fleet knows which failures are configuration issues, which are coverage in certain areas and which deserve a technical report. And it can better prepare new drivers to avoid the most common ones from day one."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "cierre",
+      "text": {
+        "es": "Lo que te llevas",
+        "en": "What to take away"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Muchos de los fallos que parecen de la app se resuelven en el teléfono del conductor: datos suficientes, cargador en el auto, permiso de ubicación siempre activo, la app fuera del ahorro de batería y la versión al día. Revisar esos puntos con cada conductor nuevo, y cada vez que alguien cambie de teléfono, evita viajes perdidos, pasajeros preocupados y muchas discusiones.",
+        "en": "Many failures that seem to be the app's are solved on the driver's phone: enough data, a charger in the car, location permission always on, the app excluded from battery saving and the version up to date. Checking those points with every new driver, and whenever someone changes phone, avoids lost trips, worried passengers and many arguments."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Si tu flota opera con una app propia, prepara esta semana una revisión rápida de teléfonos en la base y una hoja con los ajustes básicos. Es de las inversiones más baratas que puedes hacer en la calidad de tu servicio, y tus conductores lo notarán en los viajes que dejan de perder.",
+        "en": "If your fleet runs on its own app, prepare a quick phone check at the rank this week and a sheet with the basic settings. It's one of the cheapest investments you can make in your service quality, and your drivers will notice it in the trips they stop losing."
+      }
+    }
+  ],
+  "cta": {
+    "heading": {
+      "es": "¿Listo para lanzar tu propia app de movilidad?",
+      "en": "Ready to launch your own mobility app?"
+    },
+    "body": {
+      "es": "Configura tu marca, tus tarifas y tus servicios en semanas, no en meses. Cabgo te entrega la plataforma; tú te quedas con la operación, los clientes y los ingresos.",
+      "en": "Set up your brand, pricing and services in weeks, not months. Cabgo ships the platform — you keep the operation, the customers and the revenue."
+    },
+    "buttonLabel": {
+      "es": "Comenzar con Cabgo",
+      "en": "Get started with Cabgo"
+    },
+    "buttonHref": "/empezar"
+  },
+  "seo": {
+    "metaTitle": {
+      "es": "Señal, GPS y batería en la app del conductor | Cabgo",
+      "en": "Signal, GPS and battery in the driver app | Cabgo"
+    },
+    "metaDescription": {
+      "es": "Por qué la app del conductor se congela o deja de recibir viajes, cómo prevenirlo con datos, batería, permisos y versión, y qué hacer cuando falla en la calle.",
+      "en": "Why the driver app freezes or stops receiving trips, how to prevent it with data, battery, permissions and version, and what to do when it fails in the street."
+    }
+  },
+  "author": {
+    "name": "Equipo Cabgo",
+    "role": {
+      "es": "Plataforma de movilidad",
+      "en": "Mobility platform"
+    }
+  }
+}
