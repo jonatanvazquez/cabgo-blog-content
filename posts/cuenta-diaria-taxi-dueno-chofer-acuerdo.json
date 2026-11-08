@@ -1,0 +1,316 @@
+{
+  "slug": "cuenta-diaria-taxi-dueno-chofer-acuerdo",
+  "category": "strategy",
+  "title": {
+    "es": "La cuenta del taxi: cómo llegar a un acuerdo justo entre dueño y chofer",
+    "en": "The taxi fee: how to reach a fair deal between owner and driver"
+  },
+  "excerpt": {
+    "es": "Cuentas que no alcanzan, autos en el taller y sospechas sobre cuánto trabaja el vehículo. Cómo fijar una cuenta justa con datos reales, qué debe decir el acuerdo escrito y cómo repartir los gastos.",
+    "en": "Fees that can't be met, cars in the garage and suspicion about how much the vehicle works. How to set a fair fee with real data, what the written agreement should say and how to split the costs."
+  },
+  "heroImage": "https://raw.githubusercontent.com/jonatanvazquez/cabgo-blog-content/main/images/cuenta-diaria-taxi-dueno-chofer-acuerdo.jpg",
+  "heroImageAlt": {
+    "es": "Ilustración isométrica de un taxi junto a una mesa con un acuerdo firmado, unas llaves y un teléfono con una gráfica de viajes.",
+    "en": "Isometric illustration of a taxi beside a table with a signed agreement, a set of keys and a phone showing a trips chart."
+  },
+  "heroImagePrompt": "Isometric scene on a deep violet floor grid: a yellow taxi car parked next to a small wooden table, on the table a sheet of paper with a pen and a signature line, a set of car keys, and a smartphone propped up showing a simple bar chart. Soft indigo radial glow at the center. No people. No text, no captions, no labels, no letters, no numbers, no words anywhere in the image.",
+  "publishedAt": "2026-11-08",
+  "readingMinutes": 8,
+  "keywords": {
+    "es": [
+      "cuenta diaria taxi",
+      "dueño y chofer de taxi",
+      "renta de taxi",
+      "acuerdo chofer taxi",
+      "cuánto cobrar de cuenta",
+      "mantenimiento taxi quién paga"
+    ],
+    "en": [
+      "daily taxi fee",
+      "taxi owner and driver",
+      "taxi rental",
+      "taxi driver agreement",
+      "how much fee to charge",
+      "taxi maintenance who pays"
+    ]
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "En muchas ciudades de Latinoamérica el taxi no lo maneja quien lo compró. El dueño del auto, a veces con dos o tres unidades, se lo entrega a un chofer a cambio de una «cuenta» diaria o semanal, y lo que el chofer gane por encima de esa cuenta es suyo. Es un acuerdo tan antiguo como el oficio, y también una de las fuentes de conflicto más comunes: cuentas que no alcanzan, autos que se descomponen, choferes que desaparecen y dueños que no saben cuánto trabaja realmente su vehículo.",
+        "en": "In many Latin American cities the taxi isn't driven by the person who bought it. The car owner, sometimes with two or three vehicles, hands it to a driver in exchange for a daily or weekly \"fee\", and whatever the driver earns above that fee is theirs. It's an arrangement as old as the trade, and also one of the most common sources of conflict: fees that can't be met, cars that break down, drivers who vanish and owners who don't know how much their vehicle actually works."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La tesis de este artículo es que el acuerdo entre dueño y chofer funciona mucho mejor cuando está escrito, cuando la cuenta se calcula con números reales y cuando los dos ven la misma información sobre el trabajo del auto. Una app de viajes no reemplaza ese acuerdo, pero sí puede quitarle buena parte de las sospechas. Vamos a ver cómo se fija una cuenta justa, qué debe decir el acuerdo, cómo repartir los gastos y cómo resolver los desacuerdos más frecuentes.",
+        "en": "The thesis of this article is that the owner-driver arrangement works much better when it's written down, when the fee is calculated with real numbers and when both see the same information about the car's work. A ride app doesn't replace that arrangement, but it can remove a good part of the suspicion. We'll look at how to set a fair fee, what the agreement should say, how to split costs and how to resolve the most frequent disagreements."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "como-funciona",
+      "text": {
+        "es": "Cómo funciona la cuenta y por qué genera conflictos",
+        "en": "How the fee works and why it causes conflict"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "En su forma más simple, el chofer paga al dueño una cantidad fija por día o por semana y se queda con todo lo demás. El dueño asume el costo del auto, el seguro y buena parte del mantenimiento; el chofer pone su tiempo, su trabajo y, normalmente, el combustible. Sobre el papel es un reparto claro, pero en la práctica cada una de esas piezas da lugar a discusiones.",
+        "en": "In its simplest form, the driver pays the owner a fixed amount per day or per week and keeps everything else. The owner covers the cost of the car, the insurance and a good part of the maintenance; the driver contributes their time, their work and, usually, the fuel. On paper it's a clear split, but in practice each of those pieces leads to arguments."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Los conflictos que más se repiten entre dueños y choferes suelen ser estos:",
+        "en": "The conflicts that repeat most between owners and drivers tend to be these:"
+      }
+    },
+    {
+      "type": "list",
+      "style": "bullet",
+      "items": {
+        "es": [
+          "La cuenta es tan alta que en días flojos el chofer no la alcanza.",
+          "No está claro quién paga una llanta, un golpe o una multa.",
+          "El auto pasa días en el taller y nadie sabe si se cobra la cuenta.",
+          "El dueño sospecha que el chofer trabaja más de lo que reporta.",
+          "El chofer usa el auto para fines personales fuera del turno.",
+          "No hay nada escrito y cada uno recuerda el acuerdo distinto."
+        ],
+        "en": [
+          "The fee is so high that on slow days the driver can't meet it.",
+          "It isn't clear who pays for a tyre, a dent or a fine.",
+          "The car spends days in the garage and nobody knows if the fee applies.",
+          "The owner suspects the driver works more than they report.",
+          "The driver uses the car for personal purposes outside the shift.",
+          "Nothing is written and each remembers the deal differently."
+        ]
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Casi todos estos conflictos tienen la misma raíz: falta de información compartida y falta de un acuerdo escrito. Cuando el dueño no ve cuánto trabaja el auto y el chofer no sabe con claridad qué le corresponde pagar, cualquier imprevisto se convierte en una discusión.",
+        "en": "Almost all these conflicts share the same root: a lack of shared information and the lack of a written agreement. When the owner can't see how much the car works and the driver doesn't clearly know what they're responsible for paying, any setback turns into an argument."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "cuenta-justa",
+      "text": {
+        "es": "Cómo fijar una cuenta justa",
+        "en": "How to set a fair fee"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Una cuenta justa no se saca de lo que cobran otros dueños ni de lo que el dueño necesita para pagar el crédito del auto. Se calcula a partir de lo que el auto puede producir de verdad en un día normal. Si la cuenta se come casi todo lo que el chofer gana en un día promedio, el acuerdo no va a durar: el chofer trabajará jornadas eternas, descuidará el auto o se irá a la primera oportunidad.",
+        "en": "A fair fee isn't taken from what other owners charge or from what the owner needs to pay off the car loan. It's calculated from what the car can really produce on a normal day. If the fee eats up almost everything the driver earns on an average day, the arrangement won't last: the driver will work endless shifts, neglect the car or leave at the first opportunity."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La forma más sencilla de calcularla es mirar los ingresos reales de varias semanas, restar el combustible y los gastos que corren por cuenta del chofer, y repartir lo que queda de forma que los dos ganen. Si el auto trabaja con una app, el historial de viajes da justamente esos números: cuántos viajes hace, en qué horarios y cuánto factura. Sin datos, la cuenta se fija a ojo y alguno de los dos termina perdiendo.",
+        "en": "The simplest way to calculate it is to look at real income over several weeks, subtract fuel and the costs the driver covers, and split what remains so both earn. If the car works with an app, the trip history gives exactly those numbers: how many trips it makes, at what times and how much it bills. Without data, the fee is set by guesswork and one of the two ends up losing."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "También conviene pensar en los días flojos. Algunos acuerdos usan una cuenta más baja entre semana y otra más alta los fines de semana, o una cuenta semanal en lugar de diaria para que los días buenos compensen los malos. Lo importante es que la cuenta refleje cómo se mueve realmente la demanda en la ciudad.",
+        "en": "It's also worth thinking about slow days. Some arrangements use a lower fee on weekdays and a higher one at weekends, or a weekly fee instead of a daily one so the good days make up for the bad ones. What matters is that the fee reflects how demand really moves in the city."
+      }
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "text": {
+        "es": "Antes de fijar o cambiar una cuenta, revisa con el chofer los viajes de las últimas cuatro semanas: cuántos fueron, en qué días y cuánto facturaron. Una cuenta que los dos calcularon juntos con datos reales genera muchas menos discusiones que una impuesta.",
+        "en": "Before setting or changing a fee, review with the driver the trips from the last four weeks: how many there were, on which days and how much they billed. A fee both calculated together with real data causes far fewer arguments than an imposed one."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "acuerdo",
+      "text": {
+        "es": "Qué debe decir el acuerdo escrito",
+        "en": "What the written agreement should say"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Un acuerdo entre dueño y chofer no necesita ser un contrato complicado. Basta con una o dos páginas, firmadas por los dos, que respondan las preguntas que más discusiones generan. Conviene que incluya, como mínimo, el monto de la cuenta y cuándo se paga; quién paga el combustible, el mantenimiento, las llantas y las reparaciones; qué pasa si el auto está en el taller; quién responde por multas y golpes; en qué horarios puede usarse el auto y si puede usarse fuera del trabajo; y con cuánto aviso puede terminar el acuerdo cualquiera de los dos.",
+        "en": "An owner-driver agreement doesn't need to be a complicated contract. One or two pages, signed by both, that answer the questions that cause most arguments are enough. It's worth including, at a minimum, the fee amount and when it's paid; who pays for fuel, maintenance, tyres and repairs; what happens if the car is in the garage; who is responsible for fines and dents; at what times the car can be used and whether it can be used outside work; and how much notice either can give to end the arrangement."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Las reglas laborales y de transporte cambian según el país y la ciudad, así que conviene revisar con un asesor local qué tipo de acuerdo es válido y qué obligaciones tiene cada parte. Lo que sí vale en todas partes es que un acuerdo escrito, aunque sea sencillo, protege a los dos mucho más que uno de palabra.",
+        "en": "Labour and transport rules change by country and city, so it's worth checking with a local adviser what kind of arrangement is valid and what obligations each party has. What holds everywhere is that a written agreement, however simple, protects both far more than a verbal one."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "gastos",
+      "text": {
+        "es": "El reparto de los gastos",
+        "en": "Splitting the costs"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El mantenimiento es donde más se rompen los acuerdos. Si el chofer siente que todo gasto le toca a él, va a posponer los cambios de aceite y las revisiones; si el dueño siente que el chofer maltrata el auto, va a desconfiar de cada reparación. Una regla clara ayuda mucho: el desgaste normal del auto, como el servicio, las llantas por uso o los frenos, lo cubre el dueño; los daños por descuido, como un golpe o una multa, los cubre quien los causó.",
+        "en": "Maintenance is where most arrangements break. If the driver feels every cost falls on them, they'll postpone oil changes and checks; if the owner feels the driver mistreats the car, they'll distrust every repair. A clear rule helps a lot: normal wear on the car, such as servicing, tyres worn through use or brakes, is covered by the owner; damage through carelessness, such as a dent or a fine, is covered by whoever caused it."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "También conviene acordar un calendario de mantenimiento preventivo por kilómetros o por fechas. Un auto que recibe su servicio a tiempo pasa menos días parado, y cada día parado es un día sin cuenta para el dueño y sin ingreso para el chofer. El mantenimiento preventivo, visto así, es una inversión que les conviene a los dos.",
+        "en": "It's also worth agreeing on a preventive maintenance schedule by kilometres or by dates. A car that is serviced on time spends fewer days off the road, and every day off the road is a day without a fee for the owner and without income for the driver. Seen that way, preventive maintenance is an investment that suits both."
+      }
+    },
+    {
+      "type": "quote",
+      "text": {
+        "es": "Tenía tres autos y con los tres choferes discutía cada semana por la cuenta. Empezamos a revisar juntos lo que hacía cada auto en la app y ajustamos la cuenta a lo real, más baja entre semana y más alta el fin de semana. Desde entonces casi no peleamos y los choferes cuidan más los autos.",
+        "en": "I had three cars and argued every week with all three drivers about the fee. We started reviewing together what each car did in the app and adjusted the fee to reality, lower on weekdays and higher at weekends. Since then we hardly argue and the drivers look after the cars better."
+      },
+      "attribution": {
+        "es": "Dueño de tres taxis que trabajan con una flota por app en una ciudad de 170,000 habitantes en Tlaxcala, México",
+        "en": "Owner of three taxis working with an app-based fleet in a city of 170,000 in Tlaxcala, Mexico"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "transparencia",
+      "text": {
+        "es": "Información compartida: lo que cambia una app",
+        "en": "Shared information: what an app changes"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Una de las mayores fuentes de sospecha entre dueño y chofer es no saber cuánto trabaja realmente el auto. Cuando los viajes llegan por una app, existe un registro de cada uno: la hora, la distancia y el monto. Si el dueño y el chofer pueden ver esa información, la conversación deja de ser sobre lo que cada uno cree y pasa a ser sobre lo que de verdad pasó.",
+        "en": "One of the biggest sources of suspicion between owner and driver is not knowing how much the car really works. When trips arrive through an app, there's a record of each one: the time, the distance and the amount. If owner and driver can see that information, the conversation stops being about what each believes and becomes about what really happened."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Esa misma información sirve para ajustar la cuenta con el tiempo, para ver si el auto pasa demasiadas horas parado o si conviene que trabaje en otros horarios, y para que el chofer demuestre que tuvo una semana mala por baja demanda y no por falta de esfuerzo. La transparencia no es vigilar al chofer: es darles a los dos la misma base para negociar.",
+        "en": "That same information helps adjust the fee over time, see whether the car spends too many hours parked or whether it should work at other times, and lets the driver show they had a bad week because of low demand rather than lack of effort. Transparency isn't monitoring the driver: it's giving both the same basis to negotiate."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Y si el dueño tiene varios autos, revisar los números de todos juntos ayuda a ver cuál rinde mejor y por qué, y a repartir horarios o zonas entre los choferes.",
+        "en": "And if the owner has several cars, reviewing the numbers for all of them together helps see which performs best and why, and to share out times or areas among the drivers."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "conflictos",
+      "text": {
+        "es": "Cuando hay desacuerdo",
+        "en": "When there's disagreement"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Aun con todo escrito, habrá desacuerdos. La mejor forma de manejarlos es hablar pronto, con los números a la mano y antes de que el problema crezca. Si la cuenta ya no alcanza porque bajó la demanda en la ciudad, conviene revisarla juntos en lugar de que el chofer se endeude o deje el auto. Si el dueño cree que el auto se está maltratando, conviene revisarlo con el chofer presente y decidir qué se arregla y quién lo paga.",
+        "en": "Even with everything written down, there will be disagreements. The best way to handle them is to talk early, with the numbers to hand and before the problem grows. If the fee no longer adds up because demand fell in the city, it's worth reviewing it together instead of the driver getting into debt or leaving the car. If the owner thinks the car is being mistreated, it's worth checking it with the driver present and deciding what gets fixed and who pays."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Cuando el dueño y el chofer trabajan con una flota, la flota puede ayudar a mediar: tiene la información de los viajes, conoce a los dos y le conviene que el auto siga trabajando. Una conversación a tres, con datos, suele resolver en minutos lo que de otra forma termina en una ruptura.",
+        "en": "When owner and driver work with a fleet, the fleet can help mediate: it has the trip information, knows both and has an interest in keeping the car working. A three-way conversation, with data, often resolves in minutes what would otherwise end in a break-up."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "También vale la pena pensar en el largo plazo. Algunos dueños ofrecen a los choferes que llevan tiempo con ellos y cuidan bien el auto la opción de ir pagando el vehículo poco a poco hasta quedarse con él. No es para todos, pero cuando funciona, convierte a un chofer en un socio comprometido y libera al dueño para invertir en otra unidad.",
+        "en": "It's also worth thinking long term. Some owners offer drivers who have been with them a long time and look after the car well the option of paying off the vehicle little by little until they own it. It isn't for everyone, but when it works, it turns a driver into a committed partner and frees the owner to invest in another vehicle."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "cierre",
+      "text": {
+        "es": "Lo que te llevas",
+        "en": "What to take away"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El acuerdo entre dueño y chofer es la base de muchas flotas de taxi, y funciona mejor cuando se trata como lo que es: un negocio entre dos partes que se necesitan. Una cuenta calculada con datos reales, un acuerdo escrito sencillo, reglas claras para los gastos e información compartida sobre el trabajo del auto evitan la mayoría de los conflictos.",
+        "en": "The owner-driver arrangement is the foundation of many taxi fleets, and it works best when treated as what it is: a business between two parties who need each other. A fee calculated with real data, a simple written agreement, clear rules on costs and shared information about the car's work prevent most conflicts."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Si tu flota opera con una app propia, el historial de viajes de cada auto es la mejor herramienta para que dueños y choferes negocien con números en lugar de sospechas. Un acuerdo justo retiene a los buenos choferes, cuida los autos y hace que toda la flota trabaje con más tranquilidad.",
+        "en": "If your fleet runs on its own app, each car's trip history is the best tool for owners and drivers to negotiate with numbers instead of suspicion. A fair arrangement keeps good drivers, looks after the cars and lets the whole fleet work with more peace of mind."
+      }
+    }
+  ],
+  "cta": {
+    "heading": {
+      "es": "¿Listo para lanzar tu propia app de movilidad?",
+      "en": "Ready to launch your own mobility app?"
+    },
+    "body": {
+      "es": "Configura tu marca, tus tarifas y tus servicios en semanas, no en meses. Cabgo te entrega la plataforma; tú te quedas con la operación, los clientes y los ingresos.",
+      "en": "Set up your brand, pricing and services in weeks, not months. Cabgo ships the platform — you keep the operation, the customers and the revenue."
+    },
+    "buttonLabel": {
+      "es": "Comenzar con Cabgo",
+      "en": "Get started with Cabgo"
+    },
+    "buttonHref": "/empezar"
+  },
+  "seo": {
+    "metaTitle": {
+      "es": "Cuenta del taxi: acuerdo justo entre dueño y chofer | Cabgo",
+      "en": "Taxi fee: a fair owner-driver deal | Cabgo"
+    },
+    "metaDescription": {
+      "es": "Cómo fijar una cuenta diaria justa entre dueño y chofer de taxi con datos reales, qué debe decir el acuerdo escrito, cómo repartir gastos y resolver conflictos.",
+      "en": "How to set a fair daily fee between taxi owner and driver with real data, what the written agreement should say, how to split costs and resolve disagreements."
+    }
+  },
+  "author": {
+    "name": "Equipo Cabgo",
+    "role": {
+      "es": "Plataforma de movilidad",
+      "en": "Mobility platform"
+    }
+  }
+}
