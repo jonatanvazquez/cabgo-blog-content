@@ -1,0 +1,340 @@
+{
+  "slug": "seguro-flota-taxi-coberturas-que-revisar",
+  "category": "strategy",
+  "title": {
+    "es": "Seguro para flota de taxi: las coberturas que tienes que revisar antes del primer choque",
+    "en": "Taxi fleet insurance: the coverages to check before the first crash"
+  },
+  "excerpt": {
+    "es": "Pólizas de uso particular, pasajeros sin cobertura y deducibles que nadie acordó. Cómo fijar un estándar mínimo de seguro para tu flota, llevar el registro y actuar el día del accidente.",
+    "en": "Personal-use policies, uncovered passengers and deductibles nobody agreed on. How to set a minimum insurance standard for your fleet, keep the record and act on the day of the accident."
+  },
+  "heroImage": "https://raw.githubusercontent.com/jonatanvazquez/cabgo-blog-content/main/images/seguro-flota-taxi-coberturas-que-revisar.jpg",
+  "heroImageAlt": {
+    "es": "Ilustración isométrica de un taxi junto a un escudo de protección, una carpeta con una póliza y un botiquín.",
+    "en": "Isometric illustration of a taxi next to a protective shield, a folder holding a policy document and a first-aid kit."
+  },
+  "heroImagePrompt": "Isometric scene on a deep violet floor grid: a yellow taxi car next to a large glowing protective shield, a folder holding a document with a checkmark, and a white first-aid kit with a red cross. Soft indigo radial glow at the center. No people. No text, no captions, no labels, no letters, no numbers, no words anywhere in the image.",
+  "publishedAt": "2026-11-10",
+  "readingMinutes": 8,
+  "keywords": {
+    "es": [
+      "seguro para taxi",
+      "seguro flota de taxi",
+      "coberturas seguro taxi",
+      "seguro taxi por aplicación",
+      "deducible seguro taxi",
+      "accidente taxi con pasajero"
+    ],
+    "en": [
+      "taxi insurance",
+      "taxi fleet insurance",
+      "taxi insurance coverage",
+      "rideshare taxi insurance",
+      "taxi insurance deductible",
+      "taxi accident with passenger"
+    ]
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La mayoría de los operadores de taxi descubre lo que cubre su seguro el día del primer choque serio. Hasta entonces la póliza es un gasto fijo que se renueva sin leer, a veces contratada por el dueño de cada auto con agentes distintos y condiciones que nadie compara. Cuando llega el siniestro aparecen las sorpresas: el pasajero lesionado no estaba cubierto, el deducible es más alto que la ganancia del mes o la aseguradora rechaza el reclamo porque el auto se usaba para transporte con app.",
+        "en": "Most taxi operators find out what their insurance covers on the day of the first serious crash. Until then the policy is a fixed cost renewed without reading, sometimes bought by each car owner from different agents with conditions nobody compares. When the claim arrives the surprises appear: the injured passenger wasn't covered, the deductible is higher than the month's profit, or the insurer rejects the claim because the car was being used for app-based transport."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La tesis de este artículo es que el seguro de una flota se gestiona como cualquier otro proceso de la operación: con un estándar mínimo para todos los autos, un registro al día de cada póliza y un protocolo claro para el día del accidente. No hace falta ser experto en seguros. Hace falta saber qué preguntar, qué documentos tener a la mano y quién paga qué cuando algo sale mal.",
+        "en": "The thesis of this article is that a fleet's insurance is managed like any other operating process: with a minimum standard for every car, an up-to-date record of each policy and a clear protocol for the day of the accident. You don't need to be an insurance expert. You need to know what to ask, which documents to keep at hand and who pays for what when something goes wrong."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "por-que-importa",
+      "text": {
+        "es": "Por qué el seguro es un problema de la operación, no solo del dueño",
+        "en": "Why insurance is an operating problem, not just the owner's"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "En muchas flotas regionales el auto es de un dueño, lo maneja un chofer y los viajes llegan por la plataforma del operador. Cuando hay un accidente, el pasajero no distingue entre esos tres: para él, el responsable es la marca de la app que usó. Si el seguro del auto no responde, el problema de reputación cae sobre el operador aunque no haya firmado la póliza.",
+        "en": "In many regional fleets the car belongs to an owner, a driver operates it and the trips arrive through the operator's platform. When there's an accident, the passenger doesn't distinguish among those three: to them, the responsible party is the brand of the app they used. If the car's insurance doesn't respond, the reputational problem falls on the operator even if it never signed the policy."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Además, un auto parado por un siniestro mal resuelto es capacidad que no vuelve. Un reclamo que tarda meses, un taller que espera la autorización de la aseguradora o un chofer que se queda sin trabajo mientras se discute quién paga el deducible son pérdidas directas de viajes. Por eso conviene que el operador fije reglas mínimas, aunque no sea quien paga cada póliza.",
+        "en": "On top of that, a car sidelined by a badly handled claim is capacity that doesn't come back. A claim that takes months, a garage waiting for the insurer's authorization or a driver left without work while everyone argues about who pays the deductible are direct losses of trips. That's why it makes sense for the operator to set minimum rules, even if it isn't the one paying for each policy."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "coberturas-minimas",
+      "text": {
+        "es": "Las coberturas que no pueden faltar",
+        "en": "The coverages that can't be missing"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Cada país y cada aseguradora usan nombres distintos, pero las preguntas de fondo son las mismas. Antes de aceptar un auto en la flota, pide la póliza y revisa que responda con claridad a estos puntos. Si alguno no aparece por escrito, pregúntalo al agente y pide la respuesta por escrito también.",
+        "en": "Every country and every insurer use different names, but the underlying questions are the same. Before accepting a car into the fleet, ask for the policy and check that it clearly answers these points. If any of them doesn't appear in writing, ask the agent and get the answer in writing too."
+      }
+    },
+    {
+      "type": "list",
+      "style": "bullet",
+      "items": {
+        "es": [
+          "Responsabilidad civil por daños a terceros, en bienes y en personas, con una suma asegurada razonable para tu ciudad.",
+          "Gastos médicos para los ocupantes del auto, incluido el pasajero, no solo el conductor.",
+          "Uso declarado como servicio público o transporte por aplicación, según lo que exija tu ciudad.",
+          "Daños materiales al propio vehículo y su deducible exacto.",
+          "Robo total del vehículo y las condiciones para que proceda.",
+          "Asistencia vial y grúa, con el número al que se llama y su horario.",
+          "Defensa legal o asesoría jurídica para el conductor después de un accidente."
+        ],
+        "en": [
+          "Third-party liability for property damage and bodily injury, with a reasonable insured amount for your city.",
+          "Medical expenses for the car's occupants, including the passenger, not just the driver.",
+          "Declared use as public service or app-based transport, as your city requires.",
+          "Physical damage to the vehicle itself and its exact deductible.",
+          "Total theft of the vehicle and the conditions for the claim to proceed.",
+          "Roadside assistance and towing, with the number to call and its hours.",
+          "Legal defense or legal advice for the driver after an accident."
+        ]
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El punto del uso declarado merece atención especial. Una póliza de uso particular suele ser más barata, y por eso es tentadora, pero muchas aseguradoras la niegan cuando descubren que el auto transportaba pasajeros por pago. Es la trampa más cara de todas: pagaste el seguro durante años y en el momento que más lo necesitas no responde.",
+        "en": "The declared-use point deserves special attention. A personal-use policy is usually cheaper, which makes it tempting, but many insurers deny it when they find out the car was carrying paying passengers. It's the most expensive trap of all: you paid for the insurance for years and at the moment you need it most, it doesn't respond."
+      }
+    },
+    {
+      "type": "callout",
+      "variant": "warning",
+      "text": {
+        "es": "Si un auto entra a tu flota con una póliza de uso particular, no lo actives hasta que el dueño la cambie. Un solo accidente con pasajero a bordo y sin cobertura puede costar más que todo lo que ese auto genere en un año.",
+        "en": "If a car joins your fleet with a personal-use policy, don't activate it until the owner changes it. A single accident with a passenger on board and no coverage can cost more than everything that car generates in a year."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "También vale la pena preguntar por las exclusiones, que suelen estar en letra pequeña al final del contrato. Las más comunes son manejar sin licencia vigente, bajo los efectos del alcohol, con más pasajeros de los permitidos o con un conductor que no aparece declarado en la póliza. Esta última es especialmente relevante en flotas donde el auto rota entre dos o tres choferes por turno: si solo el dueño está registrado como conductor habitual, un accidente en el turno de otra persona puede quedar sin respaldo.",
+        "en": "It's also worth asking about the exclusions, which are usually in the fine print at the end of the contract. The most common are driving without a valid license, under the influence of alcohol, with more passengers than allowed, or with a driver who isn't declared on the policy. That last one is especially relevant in fleets where the car rotates among two or three drivers per shift: if only the owner is registered as the usual driver, an accident during someone else's shift may end up without coverage."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "registro-de-polizas",
+      "text": {
+        "es": "Un registro de pólizas que no dependa de la memoria",
+        "en": "A policy record that doesn't depend on memory"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La póliza vencida es el error más común y el más fácil de evitar. Lleva un registro sencillo, por auto, con la aseguradora, el número de póliza, la fecha de vencimiento, el tipo de uso declarado y el teléfono de siniestros. Pide una copia digital de cada póliza y guárdala donde el coordinador de turno la encuentre en dos minutos, a cualquier hora.",
+        "en": "The expired policy is the most common mistake and the easiest to avoid. Keep a simple record, per car, with the insurer, the policy number, the expiration date, the declared type of use and the claims phone number. Ask for a digital copy of each policy and store it where the shift coordinator can find it in two minutes, at any hour."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Trata el vencimiento del seguro igual que el de la licencia o la revisión del vehículo: con avisos anticipados al dueño y al chofer, y con una regla clara de que un auto sin póliza vigente no recibe viajes. Esa regla tiene que cumplirse aunque el auto sea de un socio de confianza o el chofer prometa que la renovación ya está en trámite.",
+        "en": "Treat the insurance expiration the same as the driver's license or the vehicle inspection: with advance notices to the owner and the driver, and with a clear rule that a car without a valid policy doesn't receive trips. That rule has to hold even if the car belongs to a trusted partner or the driver promises the renewal is already in progress."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El conductor también debe llevar en el auto lo que va a necesitar el día del accidente: la póliza o su número, el teléfono de siniestros y la indicación de no negociar ni firmar nada antes de que llegue el ajustador. Muchos reclamos se complican por un arreglo improvisado en la calle que después la aseguradora no reconoce.",
+        "en": "The driver should also carry in the car what they will need on the day of the accident: the policy or its number, the claims phone line and the instruction not to negotiate or sign anything before the adjuster arrives. Many claims get complicated because of an improvised street settlement that the insurer later doesn't recognize."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "el-dia-del-accidente",
+      "text": {
+        "es": "Qué hacer el día del accidente",
+        "en": "What to do on the day of the accident"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Cuando ocurre un choque con pasajero a bordo, el orden de las prioridades es siempre el mismo: personas primero, documentos después y reputación al final. El coordinador que recibe la llamada necesita un guion corto, porque en ese momento nadie piensa con calma.",
+        "en": "When a crash happens with a passenger on board, the order of priorities is always the same: people first, documents next and reputation last. The coordinator who receives the call needs a short script, because at that moment nobody thinks calmly."
+      }
+    },
+    {
+      "type": "list",
+      "style": "bullet",
+      "items": {
+        "es": [
+          "Confirmar que todos están bien y pedir atención médica si hace falta.",
+          "Asegurar la escena y llamar a la aseguradora antes de mover el auto, si es posible.",
+          "Tomar fotos del lugar, de los vehículos y de los documentos del otro conductor.",
+          "Ayudar al pasajero a llegar a su destino o al lugar donde lo atiendan, sin costo.",
+          "Dejar el viaje y el incidente registrados con hora, lugar y lo que se habló.",
+          "Escribir al pasajero al día siguiente para saber cómo está."
+        ],
+        "en": [
+          "Confirm everyone is okay and request medical attention if needed.",
+          "Secure the scene and call the insurer before moving the car, if possible.",
+          "Take photos of the place, the vehicles and the other driver's documents.",
+          "Help the passenger reach their destination or the place where they'll be treated, at no cost.",
+          "Record the trip and the incident with time, place and what was said.",
+          "Write to the passenger the next day to ask how they are."
+        ]
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Ese último paso parece menor, pero define cómo te recuerda esa persona. Un pasajero que tuvo un susto y recibió atención rápida y un mensaje al día siguiente suele volver a usar el servicio. Uno que se quedó solo en la banqueta mientras el chofer discutía con el otro conductor probablemente no vuelva nunca, y le contará a todos por qué.",
+        "en": "That last step seems minor, but it defines how that person remembers you. A passenger who had a scare and received quick attention and a message the next day usually uses the service again. One who was left alone on the sidewalk while the driver argued with the other motorist probably never comes back, and will tell everyone why."
+      }
+    },
+    {
+      "type": "quote",
+      "text": {
+        "es": "Teníamos doce autos y cada dueño contrataba el seguro por su lado. Después de un choque en el que la póliza no cubría al pasajero, pusimos una lista de coberturas mínimas y dejamos de activar autos que no la cumplieran. Perdimos dos socios, pero desde entonces cada accidente se resuelve en días y no en meses.",
+        "en": "We had twelve cars and every owner bought insurance on their own. After a crash where the policy didn't cover the passenger, we set a list of minimum coverages and stopped activating cars that didn't meet it. We lost two partners, but since then every accident gets resolved in days, not months."
+      },
+      "attribution": {
+        "es": "Operador de taxi por aplicación en una ciudad mediana",
+        "en": "App-based taxi operator in a mid-sized city"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "deducible-quien-paga",
+      "text": {
+        "es": "El deducible: quién paga y cuándo se decide",
+        "en": "The deductible: who pays and when it's decided"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La discusión sobre el deducible es la que más relaciones rompe entre dueños y choferes. Si no se acordó antes, cada accidente se convierte en una negociación tensa en el peor momento posible. La solución es decidirlo por escrito al dar de alta el auto, junto con el resto del acuerdo entre dueño y chofer.",
+        "en": "The argument over the deductible is the one that breaks the most relationships between owners and drivers. If it wasn't agreed beforehand, every accident becomes a tense negotiation at the worst possible moment. The solution is to decide it in writing when the car joins, along with the rest of the agreement between owner and driver."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Hay varias fórmulas razonables: que el dueño lo absorba como parte del riesgo de su inversión, que se reparta en una proporción fija o que dependa de la responsabilidad del chofer en el accidente. Ninguna es perfecta, pero cualquiera es mejor que no tener ninguna. Lo importante es que el chofer la conozca antes de subirse al auto y que el operador sepa cuál aplica en cada caso, para no quedar como árbitro improvisado.",
+        "en": "There are several reasonable formulas: the owner absorbs it as part of the risk of their investment, it's split in a fixed proportion, or it depends on the driver's responsibility in the accident. None is perfect, but any of them is better than none. What matters is that the driver knows it before getting in the car and that the operator knows which one applies in each case, so it doesn't end up as an improvised referee."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Conviene revisar también qué pasa con el ingreso del chofer mientras el auto está en el taller. Algunos operadores le ofrecen otro vehículo disponible; otros acuerdan una pausa en la cuenta diaria. Lo que no funciona es dejarlo sin trabajo y sin respuesta: es la forma más rápida de perder a un buen conductor.",
+        "en": "It's also worth reviewing what happens to the driver's income while the car is at the garage. Some operators offer another available vehicle; others agree to pause the daily fee. What doesn't work is leaving them with no work and no answer: it's the fastest way to lose a good driver."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Por último, documenta cada caso aunque se haya resuelto bien. Un expediente corto con fotos, el número de reclamo, lo que pagó cada parte y cuánto tiempo estuvo el auto fuera de servicio te permite comparar aseguradoras con hechos y no con impresiones, y le da al coordinador nuevo un ejemplo concreto de cómo se maneja un accidente en tu operación.",
+        "en": "Finally, document every case even when it was resolved well. A short file with photos, the claim number, what each party paid and how long the car was out of service lets you compare insurers with facts instead of impressions, and gives a new coordinator a concrete example of how an accident is handled in your operation."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "revisar-cada-ano",
+      "text": {
+        "es": "Revisa el estándar una vez al año",
+        "en": "Review the standard once a year"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Una vez al año, antes de la temporada de renovaciones, revisa los accidentes que tuvo la flota: cuántos fueron, cuánto tardó cada reclamo, qué coberturas se usaron y cuáles faltaron. Con eso puedes ajustar la lista mínima, negociar mejores condiciones con una o dos aseguradoras para toda la flota y detectar a los conductores que acumulan incidentes.",
+        "en": "Once a year, before the renewal season, review the accidents the fleet had: how many there were, how long each claim took, which coverages were used and which were missing. With that you can adjust the minimum list, negotiate better terms with one or two insurers for the whole fleet and spot the drivers who keep piling up incidents."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Negociar como flota suele dar mejores condiciones que cada dueño por separado, aunque no siempre conviene obligar a todos a la misma aseguradora. Una opción intermedia es recomendar una o dos pólizas revisadas y aceptar otras siempre que cumplan el estándar mínimo. Así el dueño conserva su libertad y el operador conserva su control.",
+        "en": "Negotiating as a fleet usually gets better terms than each owner on their own, although forcing everyone into the same insurer isn't always wise. A middle option is to recommend one or two reviewed policies and accept others as long as they meet the minimum standard. That way the owner keeps their freedom and the operator keeps its control."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "lo-que-protege",
+      "text": {
+        "es": "Lo que en realidad protege un buen seguro",
+        "en": "What good insurance actually protects"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Un seguro bien elegido no evita los accidentes, pero sí evita que un accidente se convierta en una crisis. Protege al pasajero, que recibe atención sin discusiones; al chofer, que no carga solo con una deuda que no puede pagar; al dueño, que recupera su auto; y al operador, que conserva la confianza que le costó años construir.",
+        "en": "Well-chosen insurance doesn't prevent accidents, but it does prevent an accident from turning into a crisis. It protects the passenger, who gets care without arguments; the driver, who doesn't carry alone a debt they can't pay; the owner, who gets their car back; and the operator, who keeps the trust it took years to build."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Si esta semana solo puedes hacer una cosa, pide la póliza de cada auto activo y revisa dos datos: la fecha de vencimiento y el tipo de uso declarado. Con eso ya sabrás qué autos están realmente protegidos y cuáles están manejando con suerte. Todo lo demás se construye a partir de esa lista.",
+        "en": "If you can only do one thing this week, ask for the policy of every active car and check two details: the expiration date and the declared type of use. That alone will tell you which cars are truly protected and which ones are driving on luck. Everything else builds from that list."
+      }
+    }
+  ],
+  "cta": {
+    "heading": {
+      "es": "¿Listo para lanzar tu propia app de movilidad?",
+      "en": "Ready to launch your own mobility app?"
+    },
+    "body": {
+      "es": "Configura tu marca, tus tarifas y tus servicios en semanas, no en meses. Cabgo te entrega la plataforma; tú te quedas con la operación, los clientes y los ingresos.",
+      "en": "Set up your brand, pricing and services in weeks, not months. Cabgo ships the platform — you keep the operation, the customers and the revenue."
+    },
+    "buttonLabel": {
+      "es": "Comenzar con Cabgo",
+      "en": "Get started with Cabgo"
+    },
+    "buttonHref": "/empezar"
+  },
+  "seo": {
+    "metaTitle": {
+      "es": "Seguro para flota de taxi: coberturas a revisar | Cabgo",
+      "en": "Taxi fleet insurance: coverages to check | Cabgo"
+    },
+    "metaDescription": {
+      "es": "Qué coberturas exigir en el seguro de cada taxi de tu flota, cómo llevar el registro de pólizas, qué hacer el día del accidente y quién paga el deducible.",
+      "en": "Which coverages to require in each taxi's insurance, how to keep a policy record, what to do on the day of the accident and who pays the deductible."
+    }
+  },
+  "author": {
+    "name": "Equipo Cabgo",
+    "role": {
+      "es": "Plataforma de movilidad",
+      "en": "Mobility platform"
+    }
+  }
+}
