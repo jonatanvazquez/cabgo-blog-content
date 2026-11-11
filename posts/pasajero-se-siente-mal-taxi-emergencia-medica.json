@@ -1,0 +1,307 @@
+{
+  "slug": "pasajero-se-siente-mal-taxi-emergencia-medica",
+  "category": "strategy",
+  "title": {
+    "es": "Cuando un pasajero se siente mal en el taxi: el protocolo que todo conductor debe conocer",
+    "en": "When a passenger feels sick in the taxi: the protocol every driver should know"
+  },
+  "excerpt": {
+    "es": "Mareos, desmayos o un dolor en el pecho a medio viaje. Tres niveles de gravedad, cuándo llamar a emergencias o ir al hospital, qué hace la central y qué pasa con el cobro y la limpieza.",
+    "en": "Dizziness, fainting or chest pain mid-trip. Three levels of severity, when to call emergency services or go to the hospital, what dispatch does and what happens with the fare and cleaning."
+  },
+  "heroImage": "https://raw.githubusercontent.com/jonatanvazquez/cabgo-blog-content/main/images/pasajero-se-siente-mal-taxi-emergencia-medica.jpg",
+  "heroImageAlt": {
+    "es": "Ilustración isométrica de un taxi detenido a un lado de la calle junto a un botiquín, un teléfono con una llamada en curso y una cruz médica luminosa.",
+    "en": "Isometric illustration of a taxi pulled over at the roadside next to a first-aid kit, a phone with an ongoing call and a glowing medical cross."
+  },
+  "heroImagePrompt": "Isometric scene on a deep violet floor grid: a yellow taxi car pulled over at the curb with its hazard lights glowing, a white first-aid kit on the sidewalk, a smartphone showing an incoming call icon, and a glowing red medical cross floating above. Soft indigo radial glow at the center. No people. No text, no captions, no labels, no letters, no numbers, no words anywhere in the image.",
+  "publishedAt": "2026-11-11",
+  "readingMinutes": 8,
+  "keywords": {
+    "es": [
+      "pasajero se siente mal taxi",
+      "emergencia médica en taxi",
+      "qué hacer si un pasajero se desmaya",
+      "protocolo conductor emergencia",
+      "taxi al hospital urgencia",
+      "capacitación conductores primeros auxilios"
+    ],
+    "en": [
+      "passenger feels sick taxi",
+      "medical emergency in a taxi",
+      "what to do if a passenger faints",
+      "driver emergency protocol",
+      "taxi to hospital emergency",
+      "driver first aid training"
+    ]
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Tarde o temprano le pasa a todo conductor: el pasajero que subió normal empieza a sentirse mal a medio camino. A veces es un mareo o unas náuseas que se resuelven abriendo la ventana; otras, un desmayo, un dolor en el pecho o una crisis que no se parece a nada que el conductor haya visto. En esos minutos nadie consulta un manual. El conductor reacciona como puede, y lo que haga depende de si alguien le explicó antes qué se espera de él.",
+        "en": "Sooner or later it happens to every driver: the passenger who got in feeling fine starts to feel sick halfway through the trip. Sometimes it's dizziness or nausea that clears up by opening the window; other times it's fainting, chest pain or a crisis unlike anything the driver has seen. In those minutes nobody checks a manual. The driver reacts however they can, and what they do depends on whether someone explained beforehand what is expected of them."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La tesis de este artículo es que una operación de taxi no necesita conductores paramédicos, pero sí necesita un protocolo de tres o cuatro decisiones claras para cuando un pasajero se siente mal: cuándo detenerse, a quién llamar, cuándo ir directo a un hospital y qué hacer después. Ese protocolo cabe en una hoja, se enseña en diez minutos durante el alta del conductor y evita los dos errores más caros: no hacer nada o hacer de más.",
+        "en": "The thesis of this article is that a taxi operation doesn't need paramedic drivers, but it does need a protocol of three or four clear decisions for when a passenger feels sick: when to stop, whom to call, when to go straight to a hospital and what to do afterwards. That protocol fits on one page, can be taught in ten minutes during driver onboarding and prevents the two most expensive mistakes: doing nothing or doing too much."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "por-que-preparar",
+      "text": {
+        "es": "Por qué conviene prepararlo antes de que pase",
+        "en": "Why it pays to prepare before it happens"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Un pasajero que se siente mal es un caso poco frecuente para cada conductor, pero frecuente para la operación. Con cientos o miles de viajes al mes, siempre hay alguien que sube después de una fiesta, al salir de una cita médica, con la presión baja por el calor o con una condición que no mencionó. Si cada conductor improvisa, la calidad de la respuesta depende de la suerte: uno se detiene y pide ayuda, otro sigue manejando porque «ya casi llegamos» y otro baja al pasajero en la banqueta para no complicarse.",
+        "en": "A passenger who feels sick is a rare event for each driver, but a frequent one for the operation. With hundreds or thousands of trips a month, there is always someone who gets in after a party, leaving a medical appointment, with low blood pressure from the heat or with a condition they didn't mention. If every driver improvises, the quality of the response depends on luck: one stops and calls for help, another keeps driving because \"we're almost there\" and another drops the passenger on the sidewalk to avoid trouble."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Ese último caso es el que más daño hace. Un pasajero que se sintió mal y fue dejado solo cuenta esa historia durante años, y la cuenta con el nombre de tu app. En cambio, un conductor que se detuvo, llamó a emergencias y esperó con la persona hasta que llegó la ayuda se convierte en el mejor argumento de confianza que puede tener una operación local.",
+        "en": "That last case is the one that does the most damage. A passenger who felt sick and was left alone tells that story for years, and tells it with your app's name. A driver who stopped, called emergency services and waited with the person until help arrived, on the other hand, becomes the best trust argument a local operation can have."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "tres-niveles",
+      "text": {
+        "es": "Tres niveles de gravedad, tres respuestas",
+        "en": "Three levels of severity, three responses"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El conductor no tiene que diagnosticar nada. Lo único que necesita es distinguir, en pocos segundos, en cuál de tres situaciones está. Esa distinción decide todo lo demás, y es lo que hay que enseñarle con ejemplos concretos, no con términos médicos.",
+        "en": "The driver doesn't have to diagnose anything. All they need is to tell, within a few seconds, which of three situations they're in. That distinction decides everything else, and it's what you have to teach them with concrete examples, not medical terms."
+      }
+    },
+    {
+      "type": "list",
+      "style": "bullet",
+      "items": {
+        "es": [
+          "Molestia leve: mareo, náuseas o calor. Bajar la velocidad, abrir la ventana, ofrecer detenerse y preguntar cómo sigue.",
+          "Malestar que no cede: el pasajero pide parar, está muy pálido o no mejora. Detenerse en un lugar seguro y avisar a la central.",
+          "Señal de alarma: desmayo, dolor fuerte en el pecho, dificultad para respirar, convulsiones o no responde. Detenerse y llamar al número de emergencias de inmediato.",
+          "En caso de duda entre dos niveles, se actúa como si fuera el más grave.",
+          "Si el pasajero pide ir a un hospital, se cambia el destino y se avisa a la central."
+        ],
+        "en": [
+          "Mild discomfort: dizziness, nausea or heat. Slow down, open the window, offer to stop and ask how they're doing.",
+          "Discomfort that doesn't ease: the passenger asks to stop, is very pale or doesn't improve. Pull over in a safe place and notify dispatch.",
+          "Warning sign: fainting, severe chest pain, trouble breathing, seizures or unresponsiveness. Pull over and call the emergency number immediately.",
+          "When in doubt between two levels, act as if it were the more serious one.",
+          "If the passenger asks to go to a hospital, change the destination and notify dispatch."
+        ]
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La regla de la duda es la más importante de la lista. Un conductor que llama a emergencias por algo que resultó menor no comete ningún error; uno que espera a ver si se le pasa, sí. Díselo así de claro durante la capacitación, porque muchos conductores temen exagerar o meterse en problemas por llamar.",
+        "en": "The doubt rule is the most important one on the list. A driver who calls emergency services for something that turned out to be minor makes no mistake; one who waits to see if it passes does. Tell them that plainly during training, because many drivers are afraid of overreacting or getting into trouble for calling."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Hay un caso que conviene mencionar aparte: el pasajero que se siente mal pero insiste en que no pasa nada y pide seguir el viaje. El conductor no puede obligar a nadie a ir a un hospital, y tampoco debe discutir. Lo correcto es ofrecer detenerse, ofrecer llamar a alguien y avisar a la central para que quede registro. Si durante el trayecto la situación empeora, se pasa al nivel siguiente sin volver a pedir permiso.",
+        "en": "There's one case worth mentioning separately: the passenger who feels sick but insists nothing is wrong and asks to continue the trip. The driver can't force anyone to go to a hospital and shouldn't argue either. The right thing is to offer to stop, offer to call someone and notify dispatch so there's a record. If the situation gets worse along the way, move to the next level without asking for permission again."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "ambulancia-o-hospital",
+      "text": {
+        "es": "¿Ambulancia o llevarlo al hospital?",
+        "en": "Ambulance or drive to the hospital?"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Es la pregunta que más dudas genera, y no tiene una respuesta única para todas las ciudades. En algunas, las ambulancias tardan tanto que la familia prefiere un taxi; en otras, los servicios de emergencia piden expresamente no mover a la persona. Lo que sí puede hacer el operador es fijar un criterio sencillo y adaptado a su ciudad, después de hablar con los servicios de emergencia locales o con un médico de confianza.",
+        "en": "It's the question that causes the most doubt, and it has no single answer for every city. In some, ambulances take so long that families prefer a taxi; in others, emergency services expressly ask that the person not be moved. What the operator can do is set a simple criterion adapted to its city, after talking to local emergency services or a trusted doctor."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Un criterio habitual es este: ante una señal de alarma, se llama primero al número de emergencias y se siguen sus instrucciones, que pueden ser esperar la ambulancia o ir a un hospital cercano. Si el pasajero está consciente, estable y pide ir a urgencias, el conductor puede llevarlo al hospital más cercano en lugar del destino original. Conviene que la central tenga a la mano, por zona, cuáles son los hospitales con urgencias abiertas las 24 horas, para no perder minutos buscando.",
+        "en": "A common criterion is this: with a warning sign, call the emergency number first and follow its instructions, which may be to wait for the ambulance or to go to a nearby hospital. If the passenger is conscious, stable and asks to go to the emergency room, the driver can take them to the nearest hospital instead of the original destination. Dispatch should have at hand, by area, which hospitals have emergency rooms open 24 hours, so no minutes are lost searching."
+      }
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "text": {
+        "es": "Agrega a la hoja del conductor el número de emergencias de tu ciudad y una lista corta de hospitales con urgencias por zona. Pídele que los guarde en su teléfono el día del alta: en un momento de nervios, nadie recuerda un número que nunca marcó.",
+        "en": "Add your city's emergency number and a short list of hospitals with emergency rooms by area to the driver's sheet. Ask them to save them on their phone on onboarding day: in a nervous moment, nobody remembers a number they've never dialed."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Durante la llamada a emergencias, el conductor debe tener claros tres datos: dónde está exactamente, qué le pasa a la persona en palabras sencillas y si respira y responde. Con eso, el operador de emergencias guía el resto. Un consejo práctico es encender las luces intermitentes y, si es de noche, dejar las luces del interior encendidas para que la ambulancia identifique el auto rápidamente.",
+        "en": "During the emergency call, the driver should have three facts clear: exactly where they are, what is happening to the person in simple words, and whether they are breathing and responding. With that, the emergency operator guides the rest. A practical tip is to turn on the hazard lights and, at night, leave the interior lights on so the ambulance can spot the car quickly."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "el-papel-de-la-central",
+      "text": {
+        "es": "El papel de la central durante el incidente",
+        "en": "Dispatch's role during the incident"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El conductor está ocupado con la persona; la central tiene que encargarse de todo lo demás. En cuanto recibe el aviso, el coordinador de turno debería confirmar dónde está el auto, ayudar a decidir entre ambulancia y hospital si el conductor duda, y avisar a un contacto del pasajero si este lo pide o si no puede hablar y existe un contacto registrado.",
+        "en": "The driver is busy with the person; dispatch has to take care of everything else. As soon as it receives the alert, the shift coordinator should confirm where the car is, help decide between ambulance and hospital if the driver is unsure, and notify a contact of the passenger if they ask for it or if they can't speak and a contact is on record."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "También le toca al coordinador resolver el viaje en sí. Si el destino cambió a un hospital, el cobro no debería ser una discusión: muchas operaciones deciden no cobrar el tramo o cobrar solo lo recorrido, y esa decisión se toma antes, no en medio de la emergencia. Lo mismo con el tiempo de espera del conductor en urgencias: si se queda acompañando a la persona, la operación debería reconocerle ese tiempo de alguna manera.",
+        "en": "It's also up to the coordinator to resolve the trip itself. If the destination changed to a hospital, the fare shouldn't be an argument: many operations decide not to charge that leg or to charge only for the distance covered, and that decision is made beforehand, not in the middle of the emergency. The same goes for the driver's waiting time at the emergency room: if they stay with the person, the operation should recognize that time in some way."
+      }
+    },
+    {
+      "type": "quote",
+      "text": {
+        "es": "Una noche un pasajero se desmayó a dos cuadras de su casa. El conductor se detuvo, llamó a emergencias y nos avisó; desde la central llamamos a su esposa. Al día siguiente ella nos escribió para darnos las gracias, y desde entonces toda la familia pide sus viajes con nosotros.",
+        "en": "One night a passenger fainted two blocks from home. The driver pulled over, called emergency services and let us know; from dispatch we called his wife. The next day she wrote to thank us, and since then the whole family books their rides with us."
+      },
+      "attribution": {
+        "es": "Coordinadora de operación de una plataforma de taxi regional",
+        "en": "Operations coordinator at a regional taxi platform"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "despues-del-incidente",
+      "text": {
+        "es": "Lo que viene después: limpieza, registro y seguimiento",
+        "en": "What comes after: cleaning, record and follow-up"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Cuando la emergencia termina, quedan tres tareas. La primera es práctica: si el auto quedó sucio, el conductor necesita poder desconectarse para limpiarlo sin que eso le cueste su calificación ni su turno. Algunas operaciones reconocen un monto fijo por limpieza en estos casos; lo importante es que la regla exista antes y que el conductor no tenga que negociarla.",
+        "en": "When the emergency ends, three tasks remain. The first is practical: if the car got dirty, the driver needs to be able to go offline to clean it without it costing them their rating or their shift. Some operations pay a fixed amount for cleaning in these cases; what matters is that the rule exists beforehand and the driver doesn't have to negotiate it."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La segunda es el registro. Anota qué pasó, a qué hora, dónde, qué hizo el conductor, a quién se llamó y cómo terminó. No hace falta un informe largo, pero sí lo suficiente para responder si alguien pregunta días después, y para revisar si el protocolo funcionó. Evita registrar detalles médicos más allá de lo necesario: son datos sensibles del pasajero y no le corresponden a la operación.",
+        "en": "The second is the record. Note what happened, at what time, where, what the driver did, whom they called and how it ended. It doesn't need to be a long report, but it should be enough to answer if someone asks days later and to review whether the protocol worked. Avoid recording medical details beyond what's necessary: they are the passenger's sensitive data and don't belong to the operation."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La tercera es el seguimiento. Un mensaje breve al día siguiente para preguntar cómo está la persona, sin insistir ni pedir explicaciones, cierra el incidente con cuidado. Y una palabra de reconocimiento al conductor que actuó bien vale más que cualquier bono: es lo que hace que el siguiente conductor, ante la misma situación, también se detenga.",
+        "en": "The third is the follow-up. A short message the next day to ask how the person is doing, without insisting or asking for explanations, closes the incident with care. And a word of recognition to the driver who acted well is worth more than any bonus: it's what makes the next driver, facing the same situation, also pull over."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "como-ensenarlo",
+      "text": {
+        "es": "Cómo enseñarlo en diez minutos",
+        "en": "How to teach it in ten minutes"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "No hace falta un curso. Basta con incluir el tema en el alta de cada conductor: una hoja con los tres niveles, el número de emergencias, la lista de hospitales y las reglas de cobro y limpieza. Después, una práctica corta con dos o tres casos: el pasajero que se marea, el que pide ir al hospital, el que se desmaya. Pregúntale al conductor qué haría y corrige en el momento.",
+        "en": "You don't need a course. It's enough to include the topic in every driver's onboarding: a sheet with the three levels, the emergency number, the hospital list and the fare and cleaning rules. Then a short practice with two or three cases: the passenger who gets dizzy, the one who asks to go to the hospital, the one who faints. Ask the driver what they would do and correct them on the spot."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Si puedes, recomienda a tus conductores un curso básico de primeros auxilios de alguna institución reconocida en tu ciudad, como la Cruz Roja local. No es obligatorio ni lo resuelve todo, pero da seguridad, y un conductor seguro de sí mismo toma mejores decisiones bajo presión. Recuérdales también que su seguridad cuenta: no tienen que hacer nada que los ponga en riesgo ni detenerse en un lugar peligroso.",
+        "en": "If you can, recommend that your drivers take a basic first aid course from a recognized institution in your city, such as the local Red Cross. It isn't mandatory and doesn't solve everything, but it builds confidence, and a confident driver makes better decisions under pressure. Remind them too that their own safety counts: they don't have to do anything that puts them at risk or stop in a dangerous place."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "lo-que-se-gana",
+      "text": {
+        "es": "Lo que gana una operación preparada",
+        "en": "What a prepared operation gains"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Un protocolo para pasajeros que se sienten mal no aparece en ningún indicador semanal y probablemente se use pocas veces al año. Pero cada una de esas veces define cómo te recuerda una familia, cómo se siente un conductor con su trabajo y qué historia circula sobre tu servicio en la ciudad. Pocas inversiones de diez minutos rinden tanto.",
+        "en": "A protocol for passengers who feel sick doesn't show up in any weekly indicator and will probably be used only a few times a year. But each of those times defines how a family remembers you, how a driver feels about their job and what story circulates about your service in the city. Few ten-minute investments pay off as much."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Si esta semana solo puedes hacer una cosa, escribe la hoja de una página con los tres niveles, el número de emergencias y los hospitales de tu ciudad, y envíasela a todos tus conductores activos. Lo demás puede esperar a la próxima capacitación; esa hoja, no.",
+        "en": "If you can only do one thing this week, write the one-page sheet with the three levels, the emergency number and your city's hospitals, and send it to all your active drivers. Everything else can wait for the next training; that sheet can't."
+      }
+    }
+  ],
+  "cta": {
+    "heading": {
+      "es": "¿Listo para lanzar tu propia app de movilidad?",
+      "en": "Ready to launch your own mobility app?"
+    },
+    "body": {
+      "es": "Configura tu marca, tus tarifas y tus servicios en semanas, no en meses. Cabgo te entrega la plataforma; tú te quedas con la operación, los clientes y los ingresos.",
+      "en": "Set up your brand, pricing and services in weeks, not months. Cabgo ships the platform — you keep the operation, the customers and the revenue."
+    },
+    "buttonLabel": {
+      "es": "Comenzar con Cabgo",
+      "en": "Get started with Cabgo"
+    },
+    "buttonHref": "/empezar"
+  },
+  "seo": {
+    "metaTitle": {
+      "es": "Pasajero se siente mal en el taxi: qué hacer | Cabgo",
+      "en": "Passenger feels sick in a taxi: what to do | Cabgo"
+    },
+    "metaDescription": {
+      "es": "Protocolo para cuando un pasajero se siente mal en el taxi: tres niveles de gravedad, ambulancia u hospital, papel de la central, cobro, limpieza y seguimiento.",
+      "en": "Protocol for when a passenger feels sick in a taxi: three severity levels, ambulance or hospital, dispatch's role, fare, cleaning and follow-up."
+    }
+  },
+  "author": {
+    "name": "Equipo Cabgo",
+    "role": {
+      "es": "Plataforma de movilidad",
+      "en": "Mobility platform"
+    }
+  }
+}
