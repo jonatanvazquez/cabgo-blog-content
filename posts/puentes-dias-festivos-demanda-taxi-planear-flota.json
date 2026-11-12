@@ -1,0 +1,309 @@
+{
+  "slug": "puentes-dias-festivos-demanda-taxi-planear-flota",
+  "category": "strategy",
+  "title": {
+    "es": "Puentes y días festivos: cómo planear la flota de taxi para la salida, el valle y el regreso",
+    "en": "Long weekends and holidays: how to plan the taxi fleet for the departure, the valley and the return"
+  },
+  "excerpt": {
+    "es": "Un fin de semana largo no es un sábado multiplicado por tres. Cómo leer la curva de un puente, dónde poner a tus conductores en la salida y el regreso, y por qué el valle es el mejor momento para descansar.",
+    "en": "A long weekend isn't a Saturday multiplied by three. How to read the curve of a long weekend, where to place your drivers for the departure and the return, and why the valley is the best time to rest."
+  },
+  "heroImage": "https://raw.githubusercontent.com/jonatanvazquez/cabgo-blog-content/main/images/puentes-dias-festivos-demanda-taxi-planear-flota.jpg",
+  "heroImageAlt": {
+    "es": "Ilustración isométrica de un taxi junto a una terminal de autobuses, un calendario con días marcados y unas maletas.",
+    "en": "Isometric illustration of a taxi next to a bus terminal, a calendar with highlighted days and a pair of suitcases."
+  },
+  "heroImagePrompt": "Isometric scene on a deep violet floor grid: a yellow taxi car parked in front of a small bus terminal building with a long-distance coach bus, a large wall calendar with three highlighted days, and two travel suitcases on the curb. Soft indigo radial glow at the center. No people. No text, no captions, no labels, no letters, no numbers, no words anywhere in the image.",
+  "publishedAt": "2026-11-12",
+  "readingMinutes": 8,
+  "keywords": {
+    "es": [
+      "puente fin de semana largo taxi",
+      "demanda de taxi días festivos",
+      "planear flota puente",
+      "taxi central de autobuses puente",
+      "incentivos conductores fin de semana largo",
+      "regreso de vacaciones taxi"
+    ],
+    "en": [
+      "long weekend taxi demand",
+      "taxi demand on holidays",
+      "plan taxi fleet long weekend",
+      "taxi bus terminal holiday",
+      "driver incentives long weekend",
+      "holiday return taxi"
+    ]
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Los fines de semana largos engañan a muchos operadores. Se espera que sean como un sábado multiplicado por tres, y no se parecen a eso. El viernes por la tarde explota la salida hacia terminales y carreteras; el sábado y el domingo la ciudad se vacía y los viajes caen por debajo de un día normal; el lunes festivo amanece tranquilo y por la noche se llena de regresos. Quien planea la flota como si fueran tres días iguales tiene conductores de sobra cuando nadie pide y le faltan justo en las dos ventanas que importan.",
+        "en": "Long weekends fool many operators. They're expected to be like a Saturday multiplied by three, and they don't look like that. Friday afternoon explodes with departures to terminals and highways; Saturday and Sunday the city empties and trips fall below a normal day; the holiday Monday starts quiet and fills with returns at night. Whoever plans the fleet as if they were three identical days has drivers to spare when nobody is requesting and runs short exactly in the two windows that matter."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La tesis de este artículo es que un puente no es un pico de demanda sino una curva con forma propia: un arranque fuerte, un valle largo y un regreso concentrado. Planear la flota para esa curva, en lugar de para un promedio, permite atender más viajes en las horas clave sin quemar a los conductores en las horas muertas. Y como los puentes se repiten cada año en las mismas fechas, cada uno es una oportunidad de aprender para el siguiente.",
+        "en": "The thesis of this article is that a long weekend isn't a demand peak but a curve with its own shape: a strong start, a long valley and a concentrated return. Planning the fleet for that curve, rather than for an average, lets you serve more trips in the key hours without burning out drivers in the dead hours. And since long weekends repeat every year on the same dates, each one is a chance to learn for the next."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "la-forma-del-puente",
+      "text": {
+        "es": "La forma real de un fin de semana largo",
+        "en": "The real shape of a long weekend"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Aunque cada ciudad tiene su propio patrón, la mayoría de los puentes siguen una secuencia parecida. Conocerla te permite anticipar dónde va a estar la demanda y, sobre todo, dónde no va a estar. Revisa tus propios datos de los últimos puentes para confirmar cuál de estas fases es más fuerte en tu ciudad.",
+        "en": "Although every city has its own pattern, most long weekends follow a similar sequence. Knowing it lets you anticipate where demand will be and, above all, where it won't. Review your own data from recent long weekends to confirm which of these phases is strongest in your city."
+      }
+    },
+    {
+      "type": "list",
+      "style": "bullet",
+      "items": {
+        "es": [
+          "Víspera por la tarde: salida masiva hacia la central de autobuses, el aeropuerto y las casas de familiares.",
+          "Noche de la víspera: reuniones, cenas y fiestas, con regresos de madrugada.",
+          "Primer día del puente: mañana muy tranquila, demanda baja y dispersa durante el día.",
+          "Días intermedios: viajes de ocio, centros comerciales, parques y restaurantes, sin horas pico claras.",
+          "Último día por la tarde y noche: regreso concentrado desde la central y el aeropuerto.",
+          "Día siguiente: arranque lento, porque mucha gente se reincorpora tarde o trabaja desde casa."
+        ],
+        "en": [
+          "Eve afternoon: mass departure to the bus terminal, the airport and relatives' homes.",
+          "Eve night: gatherings, dinners and parties, with early-morning returns.",
+          "First day of the long weekend: very quiet morning, low and scattered demand during the day.",
+          "Middle days: leisure trips, malls, parks and restaurants, without clear peak hours.",
+          "Last day afternoon and evening: concentrated return from the bus terminal and the airport.",
+          "Following day: slow start, because many people return late or work from home."
+        ]
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Lo que más sorprende a los operadores nuevos es el valle. Durante el día uno y el día dos, una parte importante de tus pasajeros habituales no está en la ciudad. Si mantienes la misma cantidad de conductores conectados que en un sábado normal, el tiempo de espera entre viajes se alarga, el ingreso por hora cae y los conductores terminan el puente frustrados, aunque la operación diga que «fue un buen fin de semana».",
+        "en": "What surprises new operators most is the valley. During day one and day two, a significant share of your regular passengers isn't in the city. If you keep the same number of drivers online as on a normal Saturday, the waiting time between trips grows longer, hourly income drops and drivers end the long weekend frustrated, even if the operation says it was \"a good weekend\"."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "la-salida",
+      "text": {
+        "es": "La salida: preparar la víspera",
+        "en": "The departure: preparing the eve"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La víspera es la ventana más rentable y la más fácil de perder. La demanda se concentra en pocas horas y en pocos destinos: terminales de autobuses, aeropuerto y salidas de la ciudad. Si a esa hora tus conductores están dispersos o desconectados porque también se van de puente, el pasajero pide, espera, cancela y se va con otro servicio.",
+        "en": "The eve is the most profitable window and the easiest to lose. Demand concentrates in a few hours and a few destinations: bus terminals, the airport and the city's exits. If at that time your drivers are scattered or offline because they're also leaving for the long weekend, the passenger requests, waits, cancels and goes with another service."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Pregunta con una semana de anticipación quién va a trabajar la víspera y en qué horario. No es lo mismo saber que tendrás treinta conductores el viernes de 3 a 9 de la noche que descubrirlo a las 5 de la tarde. Con esa información puedes reforzar con un incentivo puntual solo esa ventana, en lugar de pagar un bono por todo el fin de semana que se gasta en las horas en que no hacía falta.",
+        "en": "Ask a week ahead who will work on the eve and during which hours. Knowing you'll have thirty drivers on Friday from 3 to 9 p.m. is very different from finding out at 5 p.m. With that information you can reinforce just that window with a targeted incentive, instead of paying a bonus for the whole weekend that gets spent in the hours when it wasn't needed."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "También ayuda avisar a los pasajeros. Un mensaje el día anterior que recuerde que pueden programar su viaje a la central o al aeropuerto con anticipación reparte la demanda y te da visibilidad de cuántos traslados largos vas a tener. Los viajes programados son, además, los que menos se cancelan.",
+        "en": "Letting passengers know also helps. A message the day before reminding them they can schedule their trip to the terminal or the airport in advance spreads out demand and gives you visibility of how many long transfers you'll have. Scheduled trips are also the ones that get cancelled least."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "el-valle",
+      "text": {
+        "es": "El valle: menos conductores, mejor distribuidos",
+        "en": "The valley: fewer drivers, better distributed"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "En los días intermedios el objetivo cambia: no se trata de tener más conductores, sino los suficientes en los lugares correctos. La demanda se mueve hacia zonas de ocio, centros comerciales, parques y restaurantes, y se aleja de las zonas de oficinas y de los traslados al trabajo. Un conductor que pasa el sábado de puente esperando en la zona de oficinas puede pasar horas sin un solo viaje.",
+        "en": "On the middle days the goal changes: it's not about having more drivers but enough of them in the right places. Demand moves toward leisure areas, malls, parks and restaurants, and away from office districts and commutes. A driver who spends the long-weekend Saturday waiting in the office district can go hours without a single trip."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Es también el mejor momento para dar descanso. Si tus conductores trabajaron fuerte la víspera y van a trabajar fuerte el último día, conviene que el valle sea su respiro. Una flota descansada el último día atiende mejor el regreso, que es cuando más se necesita. Puedes comunicarlo así de claro: «el sábado y el domingo habrá poca demanda; si quieres descansar, son los mejores días».",
+        "en": "It's also the best time to rest. If your drivers worked hard on the eve and will work hard on the last day, the valley should be their break. A rested fleet on the last day handles the return better, which is when it's needed most. You can say it that plainly: \"Saturday and Sunday will be slow; if you want to rest, those are the best days\"."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Hay una excepción importante: las ciudades que reciben turistas durante el puente. En un destino de playa, de montaña o con una feria, el valle no existe y los días intermedios pueden ser los más fuertes del año. Si tu ciudad es de las que reciben visitantes, invierte la lógica: la salida pesa poco y el refuerzo va en los días del medio.",
+        "en": "There's one important exception: cities that receive tourists during the long weekend. In a beach or mountain destination, or one hosting a fair, the valley doesn't exist and the middle days can be the busiest of the year. If your city is one that receives visitors, reverse the logic: the departure matters little and the reinforcement goes into the middle days."
+      }
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "text": {
+        "es": "Después de cada puente, guarda una nota corta con tres datos: a qué hora empezó la salida, cuándo tocó fondo el valle y a qué hora fue el pico del regreso. Al año siguiente, ese mismo puente caerá en fechas parecidas y tendrás tu propio mapa para planearlo.",
+        "en": "After each long weekend, save a short note with three facts: when the departure started, when the valley bottomed out and when the return peaked. The following year that same long weekend will fall on similar dates and you'll have your own map to plan it."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "el-regreso",
+      "text": {
+        "es": "El regreso: la segunda ventana clave",
+        "en": "The return: the second key window"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El regreso suele concentrarse en la tarde y la noche del último día festivo, y llega de golpe: varios autobuses llegan a la central en pocos minutos, los vuelos aterrizan en grupos y las familias salen con maletas y cansancio. Es la ventana en que más se nota si la operación estaba preparada, porque el pasajero que acaba de viajar horas no tiene paciencia para esperar otros veinte minutos.",
+        "en": "The return usually concentrates in the afternoon and evening of the last holiday, and it arrives all at once: several buses reach the terminal within minutes, flights land in clusters and families come out with luggage and fatigue. It's the window where it shows most whether the operation was prepared, because a passenger who just traveled for hours has no patience to wait another twenty minutes."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Para el regreso funciona bien posicionar conductores cerca de la central y del aeropuerto en las horas en que llegan más autobuses y vuelos, y recordarles las reglas de esos lugares: dónde se puede esperar, dónde se recoge y cuánto equipaje cabe en cada auto. Un mensaje a la flota a media tarde del último día, con los horarios de mayor llegada, vale más que cualquier incentivo improvisado a las 10 de la noche.",
+        "en": "For the return, it works well to position drivers near the terminal and the airport during the hours when most buses and flights arrive, and to remind them of the rules of those places: where they can wait, where pickups happen and how much luggage fits in each car. A message to the fleet in the middle of the last afternoon, with the busiest arrival times, is worth more than any improvised incentive at 10 p.m."
+      }
+    },
+    {
+      "type": "quote",
+      "text": {
+        "es": "Durante años pagábamos un bono por todo el puente y los conductores se quejaban de que no había viajes. Ahora pagamos sólo la tarde de la víspera y la noche del regreso. Gastamos menos, los conductores ganan más por hora y casi no nos quedamos cortos.",
+        "en": "For years we paid a bonus for the whole long weekend and drivers complained there were no trips. Now we pay only for the eve afternoon and the return night. We spend less, drivers earn more per hour and we almost never run short."
+      },
+      "attribution": {
+        "es": "Operador de taxi por aplicación en una ciudad del Bajío",
+        "en": "App-based taxi operator in a city in Mexico's Bajío region"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "conductores-de-puente",
+      "text": {
+        "es": "Tus conductores también se van de puente",
+        "en": "Your drivers also go away for the long weekend"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Un error frecuente es planear la demanda y olvidar la oferta. En los puentes, una parte de tus conductores también viaja, visita a su familia o simplemente decide no trabajar. Si no lo sabes con tiempo, puedes encontrarte con una víspera de alta demanda y la mitad de la flota fuera de la ciudad. Por eso la pregunta de disponibilidad no es un trámite: es la base de todo el plan.",
+        "en": "A common mistake is to plan demand and forget supply. On long weekends, part of your drivers also travel, visit family or simply decide not to work. If you don't know in time, you may face a high-demand eve with half the fleet out of town. That's why the availability question isn't a formality: it's the basis of the whole plan."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Una forma sencilla de resolverlo es pedir a cada conductor, con una semana de anticipación, que marque en qué días y franjas va a estar disponible. Con esas respuestas sabes dónde vas a estar corto y puedes concentrar ahí el incentivo, invitar a conductores que normalmente trabajan poco o pedir a los de más confianza que cubran la ventana del regreso. Agradece públicamente a quienes trabajen la víspera y el último día: son los que sostienen la reputación del servicio en los momentos que más se recuerdan.",
+        "en": "A simple way to solve it is to ask each driver, a week ahead, to mark which days and time slots they'll be available. With those answers you know where you'll be short and can focus the incentive there, invite drivers who usually work little, or ask your most trusted drivers to cover the return window. Publicly thank those who work the eve and the last day: they are the ones who uphold the service's reputation at the moments people remember most."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "calendario",
+      "text": {
+        "es": "Un calendario de puentes para todo el año",
+        "en": "A calendar of long weekends for the whole year"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Los puentes no llegan por sorpresa. Están en el calendario oficial y en el escolar desde el inicio del año, y algunos, como las vacaciones de Semana Santa o los festivos de fin de año, mueven todavía más demanda. Haz una lista de todos los fines de semana largos del año en tu país y anota en cada uno qué pasó la vez anterior.",
+        "en": "Long weekends don't arrive by surprise. They're on the official and school calendars from the start of the year, and some, such as Easter vacations or year-end holidays, move even more demand. Make a list of every long weekend of the year in your country and note for each one what happened last time."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Con esa lista puedes avisar a los conductores con anticipación, decidir dónde invertir en incentivos y preparar los mensajes a pasajeros. También te sirve para detectar puentes que en tu ciudad tienen un comportamiento especial: una feria local, un evento religioso o una fiesta patronal pueden convertir un puente normal en el fin de semana más fuerte del año.",
+        "en": "With that list you can warn drivers in advance, decide where to invest in incentives and prepare passenger messages. It also helps you spot long weekends that behave differently in your city: a local fair, a religious event or a patron saint festival can turn an ordinary long weekend into the busiest weekend of the year."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Comparte la lista con tus conductores al inicio del año. Muchos planean sus propias vacaciones alrededor de los puentes, y saber cuáles son los más rentables les ayuda a decidir cuándo descansar y cuándo trabajar. Un conductor que conoce el calendario de la operación toma mejores decisiones que uno que se entera la víspera.",
+        "en": "Share the list with your drivers at the start of the year. Many plan their own vacations around long weekends, and knowing which ones are most profitable helps them decide when to rest and when to work. A driver who knows the operation's calendar makes better decisions than one who finds out the day before."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "despues-del-puente",
+      "text": {
+        "es": "Después del puente: aprender para el próximo",
+        "en": "After the long weekend: learning for the next one"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El lunes o martes siguiente, dedica media hora a revisar qué pasó. Compara los viajes de cada fase con los de un fin de semana normal, mira en qué horas se acumularon las cancelaciones y pregunta a dos o tres conductores cómo les fue. Lo que encuentres va directo a la nota de ese puente para el año siguiente.",
+        "en": "On the following Monday or Tuesday, spend half an hour reviewing what happened. Compare each phase's trips with a normal weekend, look at which hours piled up cancellations and ask two or three drivers how it went. Whatever you find goes straight into that long weekend's note for next year."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Un puente bien planeado no se nota por un número espectacular, sino por lo que no pasó: pasajeros que no esperaron de más en la central, conductores que no pasaron horas sin viajes y un presupuesto de incentivos que se gastó donde hacía falta. Si este fin de semana largo es el próximo en tu calendario, empieza hoy por la pregunta más simple: quién va a trabajar la víspera y a qué hora.",
+        "en": "A well-planned long weekend doesn't show in a spectacular number but in what didn't happen: passengers who didn't wait too long at the terminal, drivers who didn't spend hours without trips and an incentive budget spent where it was needed. If the next long weekend is coming up on your calendar, start today with the simplest question: who will work the eve and at what time."
+      }
+    }
+  ],
+  "cta": {
+    "heading": {
+      "es": "¿Listo para lanzar tu propia app de movilidad?",
+      "en": "Ready to launch your own mobility app?"
+    },
+    "body": {
+      "es": "Configura tu marca, tus tarifas y tus servicios en semanas, no en meses. Cabgo te entrega la plataforma; tú te quedas con la operación, los clientes y los ingresos.",
+      "en": "Set up your brand, pricing and services in weeks, not months. Cabgo ships the platform — you keep the operation, the customers and the revenue."
+    },
+    "buttonLabel": {
+      "es": "Comenzar con Cabgo",
+      "en": "Get started with Cabgo"
+    },
+    "buttonHref": "/empezar"
+  },
+  "seo": {
+    "metaTitle": {
+      "es": "Puentes y festivos: cómo planear la flota de taxi | Cabgo",
+      "en": "Long weekends: how to plan your taxi fleet | Cabgo"
+    },
+    "metaDescription": {
+      "es": "Cómo cambia la demanda de taxi en un puente o fin de semana largo y cómo planear la flota para la salida, el valle y el regreso sin desperdiciar incentivos.",
+      "en": "How taxi demand changes over a long weekend and how to plan the fleet for the departure, the valley and the return without wasting incentives."
+    }
+  },
+  "author": {
+    "name": "Equipo Cabgo",
+    "role": {
+      "es": "Plataforma de movilidad",
+      "en": "Mobility platform"
+    }
+  }
+}
