@@ -1,0 +1,309 @@
+{
+  "slug": "ahorro-combustible-flota-taxi-gasto-gasolina",
+  "category": "strategy",
+  "title": {
+    "es": "Ahorro de combustible en una flota de taxi: dónde se va la gasolina y cómo gastar menos",
+    "en": "Fuel savings in a taxi fleet: where the gas goes and how to spend less"
+  },
+  "excerpt": {
+    "es": "Kilómetros en vacío, vueltas entre viajes, esperas con el motor encendido y autos mal mantenidos. Dónde se va la gasolina de una flota y qué decisiones de operación reducen el gasto sin tocar la tarifa.",
+    "en": "Empty kilometers, driving around between trips, idling and poorly maintained cars. Where a fleet's fuel goes and which operating decisions cut spending without touching the fare."
+  },
+  "heroImage": "https://raw.githubusercontent.com/jonatanvazquez/cabgo-blog-content/main/images/ahorro-combustible-flota-taxi-gasto-gasolina.jpg",
+  "heroImageAlt": {
+    "es": "Ilustración isométrica de un taxi junto a una bomba de gasolina, una gráfica descendente y una llave de mantenimiento.",
+    "en": "Isometric illustration of a taxi next to a fuel pump, a descending chart and a maintenance wrench."
+  },
+  "heroImagePrompt": "Isometric scene on a deep violet floor grid: a yellow taxi car parked beside a fuel pump with its nozzle, a floating bar chart with bars going down, and a large chrome wrench resting next to a car tire. Soft indigo radial glow at the center. No people. No text, no captions, no labels, no letters, no numbers, no words anywhere in the image.",
+  "publishedAt": "2026-11-14",
+  "readingMinutes": 8,
+  "keywords": {
+    "es": [
+      "ahorro de combustible taxi",
+      "gasto de gasolina flota",
+      "kilómetros en vacío taxi",
+      "consumo de gasolina taxi",
+      "reducir costos flota de taxi",
+      "mantenimiento y consumo de combustible"
+    ],
+    "en": [
+      "taxi fuel savings",
+      "fleet fuel spending",
+      "taxi empty kilometers",
+      "taxi fuel consumption",
+      "reduce taxi fleet costs",
+      "maintenance and fuel consumption"
+    ]
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "En una flota de taxi, el combustible suele ser el gasto que más pesa después del propio vehículo, y también el que menos se gestiona. Cada conductor carga cuando puede, donde le queda cerca y lo que le alcanza; el dueño ve el total al final de la semana y lo asume como un costo fijo del oficio. Cuando el precio sube, la única respuesta que se discute es subir la tarifa, y casi nunca se pregunta cuánto de ese gasto se podría evitar.",
+        "en": "In a taxi fleet, fuel is usually the heaviest expense after the vehicle itself, and also the least managed. Each driver fills up when they can, wherever is close and as much as they can afford; the owner sees the total at the end of the week and accepts it as a fixed cost of the trade. When the price goes up, the only response discussed is raising fares, and almost nobody asks how much of that spending could be avoided."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La tesis de este artículo es que una parte importante del gasto de combustible de una flota no viene de los viajes, sino de lo que pasa entre viajes: kilómetros en vacío, esperas con el motor encendido, rutas improvisadas y autos mal mantenidos. Esa parte sí se puede reducir con decisiones de operación, sin tocar la tarifa y sin pedirle al conductor que trabaje más. Y lo que ahorra se queda en el bolsillo de quien paga la gasolina, que muchas veces es el propio conductor.",
+        "en": "The thesis of this article is that a significant part of a fleet's fuel spending doesn't come from trips but from what happens between them: empty kilometers, waiting with the engine running, improvised routes and poorly maintained cars. That part can be reduced through operating decisions, without touching the fare and without asking the driver to work more. And what it saves stays in the pocket of whoever pays for the fuel, which is often the driver."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "donde-se-va",
+      "text": {
+        "es": "Dónde se va realmente la gasolina",
+        "en": "Where the fuel really goes"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Si pides a un conductor que adivine cuánto de su gasolina se va en viajes con pasajero, casi siempre dirá que la mayoría. Cuando se mide, el reparto suele sorprender. Una parte considerable se gasta en ir a buscar al pasajero, en volver hacia una zona con demanda después de un viaje largo y en dar vueltas sin rumbo esperando el siguiente pedido. Ninguno de esos kilómetros se cobra.",
+        "en": "If you ask a driver to guess how much of their fuel goes into trips with a passenger, they'll almost always say most of it. When it's measured, the split tends to surprise. A considerable share is spent going to pick up the passenger, returning to an area with demand after a long trip and driving around aimlessly waiting for the next request. None of those kilometers is paid."
+      }
+    },
+    {
+      "type": "list",
+      "style": "bullet",
+      "items": {
+        "es": [
+          "Kilómetros hacia el punto de recogida, sobre todo si el radio de asignación es muy amplio.",
+          "Vueltas sin destino entre viajes, buscando dónde hay demanda.",
+          "Regresos en vacío tras viajes largos o fuera de la ciudad.",
+          "Esperas con el motor encendido, en especial con el aire acondicionado puesto.",
+          "Rutas más largas por desconocer la zona o por evitar el tráfico sin necesidad.",
+          "Consumo extra por llantas bajas, filtros sucios o una afinación atrasada."
+        ],
+        "en": [
+          "Kilometers to the pickup point, especially if the assignment radius is very wide.",
+          "Aimless driving between trips, looking for where demand is.",
+          "Empty returns after long trips or trips outside the city.",
+          "Waiting with the engine running, especially with the air conditioning on.",
+          "Longer routes from not knowing the area or avoiding traffic unnecessarily.",
+          "Extra consumption from low tires, dirty filters or an overdue tune-up."
+        ]
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La buena noticia es que casi todos estos puntos dependen más de cómo está organizada la operación que del conductor. Un conductor no decide el radio de asignación ni sabe dónde va a haber demanda dentro de una hora; la central sí puede saberlo. Por eso el ahorro de combustible es, sobre todo, una tarea del operador.",
+        "en": "The good news is that almost all these points depend more on how the operation is organized than on the driver. A driver doesn't decide the assignment radius or know where demand will be in an hour; dispatch can know that. That's why fuel savings is, above all, the operator's job."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "kilometros-en-vacio",
+      "text": {
+        "es": "Reducir los kilómetros en vacío",
+        "en": "Reducing empty kilometers"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El primer frente es la distancia hasta el pasajero. Si la operación asigna viajes a conductores que están muy lejos, cada viaje empieza con varios kilómetros sin cobrar. Revisa cuál es el radio de asignación habitual y cuánto recorre en promedio un conductor para llegar al punto de recogida. A veces, ajustar ese radio en las horas con muchos conductores conectados ahorra más combustible que cualquier consejo de manejo.",
+        "en": "The first front is the distance to the passenger. If the operation assigns trips to drivers who are very far away, each trip starts with several unpaid kilometers. Review the usual assignment radius and how far, on average, a driver travels to reach the pickup point. Sometimes adjusting that radius during hours with many drivers online saves more fuel than any driving tip."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El segundo frente son las vueltas entre viajes. Un conductor que no sabe dónde va a haber demanda tiende a moverse para no quedarse quieto, y cada vuelta cuesta gasolina. Compartir con la flota, de forma sencilla, en qué zonas y a qué horas suele concentrarse la demanda le permite estacionarse en un buen punto y esperar con el motor apagado. Estar quieto en el lugar correcto es más rentable que moverse sin rumbo.",
+        "en": "The second front is driving around between trips. A driver who doesn't know where demand will be tends to keep moving so as not to sit still, and every loop costs fuel. Sharing with the fleet, in a simple way, which areas and hours usually concentrate demand lets them park at a good spot and wait with the engine off. Standing still in the right place is more profitable than moving aimlessly."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El tercero son los regresos en vacío. Un viaje largo hacia las afueras o a otra ciudad puede ser bueno, pero solo si se cobra el regreso o si hay posibilidades de conseguir un viaje de vuelta. Define una regla clara para esos viajes y explícasela a los conductores, para que no tengan que decidir solos si les conviene aceptar o no.",
+        "en": "The third is empty returns. A long trip to the outskirts or to another city can be good, but only if the return is charged or there's a chance of getting a trip back. Set a clear rule for those trips and explain it to drivers, so they don't have to decide on their own whether it's worth accepting."
+      }
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "text": {
+        "es": "Pide a tres o cuatro conductores que anoten durante una semana los kilómetros totales del día y los kilómetros con pasajero. La diferencia es tu kilometraje en vacío, y casi siempre es más grande de lo que todos pensaban. Con ese dato es mucho más fácil decidir qué cambiar primero.",
+        "en": "Ask three or four drivers to write down, for one week, the day's total kilometers and the kilometers with a passenger. The difference is your empty mileage, and it's almost always bigger than everyone thought. With that figure it's much easier to decide what to change first."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "manejo-y-espera",
+      "text": {
+        "es": "Manejo y espera: los hábitos que más cuentan",
+        "en": "Driving and waiting: the habits that matter most"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Sin convertirlo en un sermón, vale la pena compartir con los conductores los hábitos que más afectan el consumo. Acelerar y frenar con suavidad, mantener una velocidad constante en avenidas y no dejar el motor encendido durante esperas largas son cambios pequeños que, sumados a lo largo de un mes, se notan en el gasto. Lo importante es presentarlos como lo que son: dinero que se queda con el conductor.",
+        "en": "Without turning it into a lecture, it's worth sharing with drivers the habits that most affect consumption. Accelerating and braking smoothly, keeping a steady speed on avenues and not leaving the engine running during long waits are small changes that, added up over a month, show in the spending. What matters is presenting them as what they are: money that stays with the driver."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El aire acondicionado merece una mención aparte, porque en ciudades calurosas es parte del servicio y el pasajero lo espera. La clave no es apagarlo durante el viaje, sino no tenerlo encendido con el auto vacío y estacionado durante media hora. Un conductor que espera en sombra, con el motor apagado, y enciende el aire cuando sube el pasajero ofrece el mismo servicio con mucho menos gasto.",
+        "en": "Air conditioning deserves a separate mention, because in hot cities it's part of the service and passengers expect it. The key isn't turning it off during the trip, but not running it with the car empty and parked for half an hour. A driver who waits in the shade with the engine off and turns on the air when the passenger gets in offers the same service with far less spending."
+      }
+    },
+    {
+      "type": "quote",
+      "text": {
+        "es": "Les pedimos a los conductores que dejaran de dar vueltas entre viajes y les dimos tres puntos de espera por zona según la hora. Al mes, varios nos dijeron que gastaban bastante menos en gasolina y que hacían casi los mismos viajes. Fue más fácil convencerlos con su propio ticket de gasolina que con cualquier explicación.",
+        "en": "We asked drivers to stop driving around between trips and gave them three waiting points per area depending on the time. After a month, several told us they were spending considerably less on fuel and doing almost the same number of trips. It was easier to convince them with their own fuel receipts than with any explanation."
+      },
+      "attribution": {
+        "es": "Operador de taxi por aplicación en una ciudad costera",
+        "en": "App-based taxi operator in a coastal city"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "mantenimiento",
+      "text": {
+        "es": "El mantenimiento también es combustible",
+        "en": "Maintenance is also fuel"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Un auto con las llantas bajas, el filtro de aire sucio o la afinación atrasada consume más sin que nadie lo note. Son pequeñas pérdidas diarias que, en un vehículo que recorre muchos kilómetros a la semana, terminan costando más que el propio mantenimiento. Incluir la revisión de la presión de las llantas en la rutina semanal y respetar el calendario de afinación es una forma directa de ahorrar combustible.",
+        "en": "A car with low tires, a dirty air filter or an overdue tune-up consumes more without anyone noticing. These are small daily losses that, in a vehicle covering many kilometers a week, end up costing more than the maintenance itself. Including a tire pressure check in the weekly routine and sticking to the tune-up schedule is a direct way to save fuel."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Si el auto pertenece a un dueño y lo maneja un chofer, deja claro quién se encarga de cada revisión. Cuando nadie es responsable de la presión de las llantas, nadie la revisa, y el combustible extra lo paga quien carga la gasolina. Una lista corta de revisiones semanales, con un responsable para cada una, evita esa zona gris.",
+        "en": "If the car belongs to an owner and a driver operates it, make clear who's in charge of each check. When nobody is responsible for tire pressure, nobody checks it, and the extra fuel is paid by whoever fills the tank. A short list of weekly checks, with someone responsible for each, avoids that gray area."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "También ayuda revisar la carga que lleva el auto. Una cajuela llena de herramientas, garrafones o cosas que el conductor ya no usa añade peso todos los días y se traduce en más consumo. Vaciarla de lo innecesario cuesta cinco minutos y no afecta en nada el servicio que recibe el pasajero.",
+        "en": "It also helps to review what the car is carrying. A trunk full of tools, water jugs or things the driver no longer uses adds weight every day and translates into higher consumption. Clearing out what isn't needed takes five minutes and doesn't affect the service the passenger receives at all."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "quien-paga",
+      "text": {
+        "es": "Quién paga la gasolina cambia el incentivo",
+        "en": "Who pays for fuel changes the incentive"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "En muchas flotas regionales el conductor paga la gasolina de su bolsillo, y en otras la paga el dueño del auto. Esa diferencia cambia por completo quién tiene interés en ahorrar. Si la paga el conductor, cualquier mejora de la operación que reduzca kilómetros en vacío le llega directo como más ganancia, y suele adoptarla rápido. Si la paga el dueño, el conductor tiene poco motivo para cuidar el consumo, y conviene acordar alguna forma de compartir el ahorro.",
+        "en": "In many regional fleets the driver pays for fuel out of pocket, and in others the car owner pays. That difference completely changes who has an interest in saving. If the driver pays, any operating improvement that cuts empty kilometers reaches them directly as more earnings, and they usually adopt it quickly. If the owner pays, the driver has little reason to watch consumption, and it's worth agreeing on some way to share the savings."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Una fórmula sencilla es fijar un consumo de referencia por auto y repartir entre dueño y chofer lo que se ahorre por debajo de esa cifra. No hace falta que sea exacto; basta con que los dos vean que cuidar el combustible les conviene a ambos. Lo que no funciona es que una parte pague y la otra decida cómo se gasta, sin ninguna regla que los alinee.",
+        "en": "A simple formula is to set a reference consumption per car and split between owner and driver whatever is saved below that figure. It doesn't need to be exact; it's enough that both see that looking after fuel benefits them both. What doesn't work is one party paying while the other decides how it's spent, with no rule to align them."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "medir-sin-complicarse",
+      "text": {
+        "es": "Medir sin complicarse",
+        "en": "Measuring without overcomplicating it"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "No hace falta un sistema sofisticado para saber si la flota está gastando de más. Basta con comparar, por auto, cuántos kilómetros recorre por cada litro y cuánto gasta en combustible por cada viaje completado. Si un auto gasta mucho más que otros parecidos, algo pasa: un problema mecánico, un hábito de manejo o una forma de trabajar con demasiados kilómetros en vacío.",
+        "en": "You don't need a sophisticated system to know whether the fleet is overspending. It's enough to compare, per car, how many kilometers it covers per liter and how much it spends on fuel per completed trip. If one car spends much more than similar ones, something's going on: a mechanical problem, a driving habit or a way of working with too many empty kilometers."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Hazlo una vez al mes y comparte los resultados con los conductores de forma constructiva, sin exhibir a nadie. La pregunta no es «¿por qué gastas tanto?», sino «¿qué cambia entre tu forma de trabajar y la de quien gasta menos?». Muchas veces la respuesta es una zona de espera mejor o una costumbre sencilla que se puede copiar.",
+        "en": "Do it once a month and share the results with drivers constructively, without singling anyone out. The question isn't \"why do you spend so much?\" but \"what's different between your way of working and that of whoever spends less?\". Often the answer is a better waiting area or a simple habit that can be copied."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Cuando el precio del combustible sube, ese registro te sirve también para decidir con datos. Si ya redujiste los kilómetros en vacío y los autos están bien mantenidos, sabrás con precisión cuánto pesa la gasolina en cada viaje y si de verdad hace falta tocar la tarifa. Subir precios sin haber revisado lo que se desperdicia traslada al pasajero un costo que la operación podía haber evitado.",
+        "en": "When fuel prices go up, that record also helps you decide with data. If you've already cut empty kilometers and the cars are well maintained, you'll know precisely how much fuel weighs in each trip and whether the fare really needs to change. Raising prices without reviewing what's being wasted passes on to the passenger a cost the operation could have avoided."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "lo-que-se-gana",
+      "text": {
+        "es": "Lo que gana toda la operación",
+        "en": "What the whole operation gains"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Ahorrar combustible no es solo una cuestión de números. Un conductor que gasta menos en gasolina gana más por hora sin trabajar más, y eso lo hace quedarse en tu plataforma. Un dueño que ve bajar el gasto confía más en la operación. Y una flota que recorre menos kilómetros en vacío tiene autos que duran más y pasajeros que esperan menos, porque los conductores están mejor ubicados.",
+        "en": "Saving fuel isn't just about numbers. A driver who spends less on fuel earns more per hour without working more, and that keeps them on your platform. An owner who sees spending drop trusts the operation more. And a fleet covering fewer empty kilometers has cars that last longer and passengers who wait less, because drivers are better positioned."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Si esta semana solo puedes hacer una cosa, mide el kilometraje en vacío de unos pocos autos durante siete días. Con ese número sabrás si tu mayor oportunidad está en el radio de asignación, en las vueltas entre viajes o en el mantenimiento. Todo lo demás se decide mejor a partir de ahí.",
+        "en": "If you can only do one thing this week, measure the empty mileage of a few cars over seven days. With that number you'll know whether your biggest opportunity is in the assignment radius, the driving between trips or the maintenance. Everything else is decided better from there."
+      }
+    }
+  ],
+  "cta": {
+    "heading": {
+      "es": "¿Listo para lanzar tu propia app de movilidad?",
+      "en": "Ready to launch your own mobility app?"
+    },
+    "body": {
+      "es": "Configura tu marca, tus tarifas y tus servicios en semanas, no en meses. Cabgo te entrega la plataforma; tú te quedas con la operación, los clientes y los ingresos.",
+      "en": "Set up your brand, pricing and services in weeks, not months. Cabgo ships the platform — you keep the operation, the customers and the revenue."
+    },
+    "buttonLabel": {
+      "es": "Comenzar con Cabgo",
+      "en": "Get started with Cabgo"
+    },
+    "buttonHref": "/empezar"
+  },
+  "seo": {
+    "metaTitle": {
+      "es": "Ahorro de combustible en flota de taxi: guía | Cabgo",
+      "en": "Taxi fleet fuel savings: a practical guide | Cabgo"
+    },
+    "metaDescription": {
+      "es": "Dónde se va la gasolina de una flota de taxi y cómo reducir el gasto: kilómetros en vacío, esperas con motor encendido, mantenimiento y medición simple.",
+      "en": "Where a taxi fleet's fuel goes and how to cut spending: empty kilometers, idling, maintenance and simple measurement, without touching the fare."
+    }
+  },
+  "author": {
+    "name": "Equipo Cabgo",
+    "role": {
+      "es": "Plataforma de movilidad",
+      "en": "Mobility platform"
+    }
+  }
+}
