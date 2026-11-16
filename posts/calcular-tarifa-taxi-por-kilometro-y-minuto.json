@@ -1,0 +1,314 @@
+{
+  "slug": "calcular-tarifa-taxi-por-kilometro-y-minuto",
+  "category": "strategy",
+  "title": {
+    "es": "Cómo calcular la tarifa de taxi por kilómetro y por minuto: guía para operadores",
+    "en": "How to calculate a taxi fare per kilometer and per minute: a guide for operators"
+  },
+  "excerpt": {
+    "es": "Arranque, precio por kilómetro, precio por minuto y tarifa mínima. Qué cubre cada pieza, cómo calcularla con los costos reales de tu flota y cómo revisarla cuando suben el combustible o el mantenimiento.",
+    "en": "Starting charge, price per kilometer, price per minute and minimum fare. What each piece covers, how to calculate it from your fleet's real costs and how to review it when fuel or maintenance goes up."
+  },
+  "heroImage": "https://raw.githubusercontent.com/jonatanvazquez/cabgo-blog-content/main/images/calcular-tarifa-taxi-por-kilometro-y-minuto.jpg",
+  "heroImageAlt": {
+    "es": "Ilustración isométrica de un taxi sobre una carretera con marcadores de distancia, un reloj y una calculadora.",
+    "en": "Isometric illustration of a taxi on a road with distance markers, a clock and a calculator."
+  },
+  "heroImagePrompt": "Isometric scene on a deep violet floor grid: a yellow taxi car driving along a short road segment lined with small distance marker posts, a large round wall clock floating beside it, and a desktop calculator next to the road. Soft indigo radial glow at the center. No people. No text, no captions, no labels, no letters, no numbers, no words anywhere in the image.",
+  "publishedAt": "2026-11-16",
+  "readingMinutes": 8,
+  "keywords": {
+    "es": [
+      "calcular tarifa de taxi",
+      "tarifa por kilómetro taxi",
+      "precio por minuto taxi",
+      "banderazo taxi",
+      "tarifa mínima taxi",
+      "cómo fijar precios app de taxi"
+    ],
+    "en": [
+      "calculate taxi fare",
+      "taxi price per kilometer",
+      "taxi price per minute",
+      "taxi flag fall",
+      "taxi minimum fare",
+      "how to set taxi app prices"
+    ]
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Muchos operadores fijan su tarifa copiando la de la competencia y ajustándola un poco hacia abajo para ganar pasajeros. Funciona mientras nadie hace cuentas. El día que suben el combustible o el mantenimiento, o que los conductores empiezan a rechazar viajes cortos, descubren que no saben de dónde salió su precio ni qué parte de él cubre cada costo. Sin esa claridad, cualquier ajuste se vuelve una discusión a ciegas.",
+        "en": "Many operators set their fare by copying the competition's and nudging it down a little to win passengers. It works as long as nobody does the math. The day fuel or maintenance goes up, or drivers start rejecting short trips, they discover they don't know where their price came from or which part of it covers each cost. Without that clarity, any adjustment becomes a blind argument."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La tesis de este artículo es que una tarifa de taxi bien construida se explica en tres piezas: un cargo de arranque, un precio por kilómetro y un precio por minuto, y cada pieza tiene una razón de ser. Cuando entiendes qué cubre cada una, puedes calcular un precio que sea justo para el conductor, competitivo para el pasajero y sostenible para la operación, y ajustarlo con argumentos cuando cambien los costos.",
+        "en": "The thesis of this article is that a well-built taxi fare can be explained in three pieces: a starting charge, a price per kilometer and a price per minute, and each piece has a reason to exist. When you understand what each one covers, you can calculate a price that's fair to the driver, competitive for the passenger and sustainable for the operation, and adjust it with arguments when costs change."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "tres-piezas",
+      "text": {
+        "es": "Las tres piezas de una tarifa",
+        "en": "The three pieces of a fare"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La mayoría de las tarifas por aplicación combinan los mismos elementos, aunque cada operador los llame distinto. Entender qué paga cada uno es lo que te permite moverlos con criterio en lugar de subir o bajar todo a la vez.",
+        "en": "Most app-based fares combine the same elements, even if each operator names them differently. Understanding what each one pays for is what lets you move them deliberately instead of raising or lowering everything at once."
+      }
+    },
+    {
+      "type": "list",
+      "style": "bullet",
+      "items": {
+        "es": [
+          "Arranque o banderazo: cubre el tiempo y los kilómetros que el conductor gasta en llegar al pasajero.",
+          "Precio por kilómetro: paga el desgaste del vehículo y el combustible del trayecto.",
+          "Precio por minuto: compensa el tiempo del conductor, sobre todo en tráfico lento.",
+          "Tarifa mínima: asegura que ningún viaje corto deje al conductor perdiendo dinero.",
+          "Comisión de la operación: lo que la plataforma retiene para sostenerse."
+        ],
+        "en": [
+          "Starting charge or flag fall: covers the time and kilometers the driver spends reaching the passenger.",
+          "Price per kilometer: pays for vehicle wear and the trip's fuel.",
+          "Price per minute: compensates the driver's time, especially in slow traffic.",
+          "Minimum fare: ensures no short trip leaves the driver losing money.",
+          "Operation's commission: what the platform keeps to sustain itself."
+        ]
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Cada pieza resuelve un problema distinto. Si sólo cobras por kilómetro, el conductor pierde en los atascos, donde recorre poco pero pasa mucho tiempo. Si sólo cobras por minuto, el pasajero paga de más en un trayecto largo y fluido. La combinación de ambas, más un arranque y una mínima, es lo que hace que el precio sea razonable en casi cualquier situación.",
+        "en": "Each piece solves a different problem. If you only charge per kilometer, the driver loses in traffic jams, where they cover little ground but spend a lot of time. If you only charge per minute, the passenger overpays on a long, smooth trip. Combining both, plus a starting charge and a minimum, is what makes the price reasonable in almost any situation."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Antes de calcular, reúne tres datos de tu propia operación: la distancia promedio de un viaje, su duración promedio y la distancia promedio que recorre el conductor para llegar al pasajero. Con esas tres cifras puedes comprobar en todo momento si la fórmula que diseñas produce precios razonables para el viaje típico de tu ciudad, y no sólo para casos extremos.",
+        "en": "Before calculating, gather three figures from your own operation: the average trip distance, its average duration and the average distance the driver covers to reach the passenger. With those three figures you can check at any time whether the formula you design produces reasonable prices for your city's typical trip, not just for extreme cases."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "costo-por-kilometro",
+      "text": {
+        "es": "Calcular el costo por kilómetro",
+        "en": "Calculating the cost per kilometer"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El precio por kilómetro empieza por saber cuánto le cuesta al conductor recorrer un kilómetro. Para eso suma lo que gasta un auto típico de tu flota en un mes: combustible, mantenimiento, llantas, seguro, la depreciación del vehículo o la cuota que paga por usarlo, y divídelo entre los kilómetros que recorre en ese mes. El resultado es el costo real de cada kilómetro, con pasajero o sin él.",
+        "en": "The price per kilometer starts with knowing how much it costs the driver to cover one kilometer. To get there, add up what a typical car in your fleet spends in a month: fuel, maintenance, tires, insurance, the vehicle's depreciation or the fee paid to use it, and divide by the kilometers it covers that month. The result is the real cost of each kilometer, with or without a passenger."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Hay un detalle que muchos olvidan: no todos los kilómetros se cobran. Una parte se recorre en vacío, yendo a buscar al pasajero o esperando el siguiente viaje. Por eso el precio por kilómetro cobrado tiene que cubrir también los kilómetros sin cobrar. Si, por ejemplo, un tercio de los kilómetros se recorre vacío, el precio por kilómetro con pasajero tiene que ser bastante mayor que el costo real de un kilómetro para no perder dinero.",
+        "en": "There's a detail many forget: not every kilometer is paid. Part of it is driven empty, going to pick up the passenger or waiting for the next trip. That's why the price per paid kilometer also has to cover the unpaid ones. If, for example, a third of the kilometers are driven empty, the price per kilometer with a passenger has to be considerably higher than the real cost of a kilometer to avoid losing money."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Ten en cuenta también quién paga cada costo. Si el conductor es dueño del auto, el precio por kilómetro tiene que cubrir la depreciación y el mantenimiento completos. Si maneja un auto ajeno y paga una cuenta diaria al dueño, esa cuenta es parte de su costo fijo y se reparte entre los kilómetros que recorre en el día. En ambos casos, lo importante es que la fórmula refleje lo que realmente sale del bolsillo de quien maneja.",
+        "en": "Also keep in mind who pays each cost. If the driver owns the car, the price per kilometer has to cover full depreciation and maintenance. If they drive someone else's car and pay the owner a daily fee, that fee is part of their fixed cost and is spread across the kilometers they cover in the day. In both cases, what matters is that the formula reflects what actually comes out of the driver's pocket."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "costo-por-minuto",
+      "text": {
+        "es": "Calcular el precio por minuto",
+        "en": "Calculating the price per minute"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El precio por minuto paga, sobre todo, el tiempo del conductor. La pregunta de partida es cuánto debería ganar un conductor por hora trabajada para que le convenga seguir en tu plataforma, después de pagar sus costos. Ese ingreso por hora, dividido entre sesenta, te da una referencia del valor de cada minuto de su tiempo.",
+        "en": "The price per minute mainly pays for the driver's time. The starting question is how much a driver should earn per hour worked for it to be worth staying on your platform, after paying their costs. That hourly income, divided by sixty, gives you a reference for the value of each minute of their time."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "En la práctica, el precio por minuto suele ser más bajo que esa referencia, porque el kilómetro también aporta ingreso. Su función principal es proteger al conductor en los trayectos lentos. En ciudades con mucho tráfico conviene darle más peso al minuto; en ciudades fluidas, más peso al kilómetro. Revisa con tus propios datos qué velocidad promedio tienen los viajes de tu ciudad antes de decidir el equilibrio.",
+        "en": "In practice, the price per minute is usually lower than that reference, because the kilometer also contributes income. Its main job is to protect the driver on slow trips. In cities with heavy traffic, give the minute more weight; in free-flowing cities, give the kilometer more weight. Check your own data for the average trip speed in your city before deciding the balance."
+      }
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "text": {
+        "es": "Toma diez viajes reales de tu operación, cortos, medianos y largos, en horas tranquilas y en hora pico, y calcula cuánto habría cobrado cada uno con tu fórmula. Si alguno deja al conductor por debajo de lo que considera justo, ahí está el ajuste que hace falta.",
+        "en": "Take ten real trips from your operation, short, medium and long, at quiet hours and at rush hour, and calculate what each would have charged with your formula. If any of them leaves the driver below what they consider fair, that's where the adjustment is needed."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Un error frecuente es fijar el precio por minuto pensando sólo en el tráfico y olvidar las esperas. Si tu operación cobra el tiempo de espera en el punto de recogida por separado, el precio por minuto del trayecto puede ser más moderado. Si no lo cobra, conviene que el arranque o el minuto absorban una parte de ese tiempo, porque el conductor lo está trabajando aunque el auto esté detenido.",
+        "en": "A common mistake is setting the price per minute with only traffic in mind and forgetting waiting time. If your operation charges pickup waiting time separately, the trip's price per minute can be more moderate. If it doesn't, the starting charge or the minute should absorb part of that time, because the driver is working it even while the car is stopped."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "arranque-y-minima",
+      "text": {
+        "es": "El arranque y la tarifa mínima",
+        "en": "The starting charge and the minimum fare"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El arranque existe porque cada viaje tiene un costo fijo que no depende de su distancia: el conductor tiene que llegar al pasajero, esperarlo unos minutos y prepararse para el siguiente viaje. Sin un arranque, los viajes muy cortos no cubren ese esfuerzo y los conductores empiezan a rechazarlos, que es justo lo que más molesta a los pasajeros.",
+        "en": "The starting charge exists because each trip has a fixed cost that doesn't depend on its distance: the driver has to reach the passenger, wait a few minutes and get ready for the next trip. Without a starting charge, very short trips don't cover that effort and drivers start rejecting them, which is exactly what annoys passengers most."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La tarifa mínima cumple una función parecida, pero como red de seguridad. Asegura que, por corto que sea el viaje, el conductor reciba al menos lo necesario para que le valga la pena. Conviene fijarla pensando en el viaje corto típico de tu ciudad, no en el más corto posible, y revisarla cada vez que cambien los costos de combustible o la distancia promedio de recogida.",
+        "en": "The minimum fare plays a similar role, but as a safety net. It ensures that, however short the trip, the driver receives at least enough for it to be worthwhile. It's best set with the typical short trip in your city in mind, not the shortest possible one, and reviewed whenever fuel costs or the average pickup distance change."
+      }
+    },
+    {
+      "type": "quote",
+      "text": {
+        "es": "Durante meses teníamos una tarifa que sólo cobraba por kilómetro y los conductores se quejaban de los viajes en el centro, donde todo es tráfico. Añadimos un precio por minuto pequeño y subimos un poco el arranque, sin cambiar el precio de los viajes largos. Los rechazos en el centro bajaron casi de inmediato.",
+        "en": "For months we had a fare that only charged per kilometer and drivers complained about downtown trips, where it's all traffic. We added a small price per minute and raised the starting charge a little, without changing the price of long trips. Rejections downtown dropped almost immediately."
+      },
+      "attribution": {
+        "es": "Operadora de una plataforma de taxi en una capital estatal",
+        "en": "Operator of a taxi platform in a state capital"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Algunas operaciones usan además una tarifa distinta por categoría de vehículo o por horario, por ejemplo una nocturna algo más alta. Es razonable siempre que la diferencia se explique por un costo real, como menos viajes por hora o más riesgo para el conductor, y que el pasajero la vea antes de pedir el viaje. Lo que no funciona es multiplicar categorías y recargos hasta que nadie entiende cuánto va a pagar.",
+        "en": "Some operations also use a different fare by vehicle category or time of day, for example a slightly higher night rate. That's reasonable as long as the difference is explained by a real cost, such as fewer trips per hour or more risk for the driver, and the passenger sees it before requesting the trip. What doesn't work is multiplying categories and surcharges until nobody understands how much they'll pay."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "comparar-y-comunicar",
+      "text": {
+        "es": "Comparar con el mercado y comunicar el precio",
+        "en": "Comparing with the market and communicating the price"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Una vez que tienes tu fórmula, compárala con el mercado: el taxi tradicional de tu ciudad, las otras aplicaciones y lo que el pasajero está acostumbrado a pagar por los trayectos más comunes. No se trata de copiar, sino de saber dónde te ubicas. Si tu precio sale muy por encima, revisa si algún costo está inflado; si sale muy por debajo, pregúntate si los conductores realmente pueden sostenerlo.",
+        "en": "Once you have your formula, compare it with the market: your city's traditional taxis, the other apps and what passengers are used to paying for the most common trips. It's not about copying, but about knowing where you stand. If your price comes out well above, check whether a cost is inflated; if it comes out well below, ask whether drivers can really sustain it."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Al comunicar el precio, la claridad vale más que el detalle. El pasajero quiere saber cuánto va a pagar antes de pedir el viaje, no la fórmula exacta. El conductor, en cambio, sí necesita entender cómo se calcula lo que gana, para confiar en la plataforma. Explica la fórmula a tus conductores con ejemplos reales y avisa con anticipación cada vez que la cambies.",
+        "en": "When communicating the price, clarity is worth more than detail. Passengers want to know how much they'll pay before requesting the trip, not the exact formula. Drivers, on the other hand, do need to understand how their earnings are calculated in order to trust the platform. Explain the formula to your drivers with real examples and give advance notice every time you change it."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "errores-comunes",
+      "text": {
+        "es": "Errores comunes al fijar la tarifa",
+        "en": "Common mistakes when setting the fare"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El primero es calcular sólo con los kilómetros cobrados y olvidar los vacíos, lo que deja una tarifa que parece rentable en el papel y no lo es en la calle. El segundo es bajar el precio para ganar pasajeros sin medir cuántos conductores se van por ese cambio. El tercero es cambiar la tarifa sin avisar, lo que genera desconfianza en conductores y quejas de pasajeros que ven un precio distinto al de la semana anterior.",
+        "en": "The first is calculating only with paid kilometers and forgetting the empty ones, which leaves a fare that looks profitable on paper and isn't on the street. The second is lowering the price to win passengers without measuring how many drivers leave because of that change. The third is changing the fare without notice, which breeds distrust among drivers and complaints from passengers who see a different price from the week before."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Todos tienen la misma solución: decidir con números y explicar la decisión. Una tarifa que el conductor entiende y considera justa se defiende sola, incluso cuando no es la más baja de la ciudad.",
+        "en": "They all have the same solution: decide with numbers and explain the decision. A fare that drivers understand and consider fair defends itself, even when it isn't the lowest in the city."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "revisar",
+      "text": {
+        "es": "Revisar la tarifa con método",
+        "en": "Reviewing the fare methodically"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Una tarifa no es para siempre. Revísala al menos dos veces al año, o antes si cambia mucho el precio del combustible, y hazlo con la misma fórmula: actualiza los costos por kilómetro, revisa el ingreso por hora que necesitan los conductores y recalcula. Así cada ajuste tiene una explicación que puedes dar a conductores y pasajeros, en lugar de una cifra que nadie entiende de dónde salió.",
+        "en": "A fare isn't forever. Review it at least twice a year, or sooner if fuel prices change a lot, and do it with the same formula: update the per-kilometer costs, check the hourly income drivers need and recalculate. That way every adjustment has an explanation you can give to drivers and passengers, instead of a figure nobody understands the origin of."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Si esta semana solo puedes hacer una cosa, calcula el costo real por kilómetro de un auto típico de tu flota, incluyendo los kilómetros en vacío. Con ese número sabrás si tu tarifa actual cubre lo que debe cubrir, y tendrás la base para cualquier decisión de precio que venga después.",
+        "en": "If you can only do one thing this week, calculate the real cost per kilometer of a typical car in your fleet, including the empty kilometers. With that number you'll know whether your current fare covers what it should, and you'll have the basis for any pricing decision that comes next."
+      }
+    }
+  ],
+  "cta": {
+    "heading": {
+      "es": "¿Listo para lanzar tu propia app de movilidad?",
+      "en": "Ready to launch your own mobility app?"
+    },
+    "body": {
+      "es": "Configura tu marca, tus tarifas y tus servicios en semanas, no en meses. Cabgo te entrega la plataforma; tú te quedas con la operación, los clientes y los ingresos.",
+      "en": "Set up your brand, pricing and services in weeks, not months. Cabgo ships the platform — you keep the operation, the customers and the revenue."
+    },
+    "buttonLabel": {
+      "es": "Comenzar con Cabgo",
+      "en": "Get started with Cabgo"
+    },
+    "buttonHref": "/empezar"
+  },
+  "seo": {
+    "metaTitle": {
+      "es": "Cómo calcular la tarifa de taxi por km y minuto | Cabgo",
+      "en": "How to calculate a taxi fare per km and minute | Cabgo"
+    },
+    "metaDescription": {
+      "es": "Arranque, precio por kilómetro, por minuto y tarifa mínima: qué cubre cada pieza y cómo calcularla con los costos reales de tu flota de taxi.",
+      "en": "Starting charge, price per kilometer, per minute and minimum fare: what each piece covers and how to calculate it from your taxi fleet's real costs."
+    }
+  },
+  "author": {
+    "name": "Equipo Cabgo",
+    "role": {
+      "es": "Plataforma de movilidad",
+      "en": "Mobility platform"
+    }
+  }
+}
