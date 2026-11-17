@@ -1,0 +1,330 @@
+{
+  "slug": "dar-de-baja-conductor-taxi-cuando-y-como",
+  "category": "strategy",
+  "title": {
+    "es": "Cómo dar de baja a un conductor de tu flota de taxi: motivos, pasos y cierre ordenado",
+    "en": "How to remove a driver from your taxi fleet: reasons, steps and an orderly close"
+  },
+  "excerpt": {
+    "es": "Bajas inmediatas y bajas con aviso, cómo escuchar y documentar, cómo comunicar la decisión, qué hacer con el saldo y los datos del conductor y cómo aprender de cada caso.",
+    "en": "Immediate removals and removals after warning, how to listen and document, how to communicate the decision, what to do with the driver's balance and data, and how to learn from each case."
+  },
+  "heroImage": "https://raw.githubusercontent.com/jonatanvazquez/cabgo-blog-content/main/images/dar-de-baja-conductor-taxi-cuando-y-como.jpg",
+  "heroImageAlt": {
+    "es": "Ilustración isométrica de un taxi junto a una carpeta con un expediente, un candado abierto y una balanza.",
+    "en": "Isometric illustration of a taxi next to a folder with a case file, an open padlock and a balance scale."
+  },
+  "heroImagePrompt": "Isometric scene on a deep violet floor grid: a yellow taxi car parked beside a closed folder holding a case file, a large open padlock, and a classic two-pan balance scale. Soft indigo radial glow at the center. No people. No text, no captions, no labels, no letters, no numbers, no words anywhere in the image.",
+  "publishedAt": "2026-11-17",
+  "readingMinutes": 8,
+  "keywords": {
+    "es": [
+      "dar de baja a un conductor",
+      "despedir conductor taxi",
+      "suspensión de conductores",
+      "reglas para conductores de taxi",
+      "baja de conductor app de taxi",
+      "gestión de conductores"
+    ],
+    "en": [
+      "remove a driver",
+      "dismiss taxi driver",
+      "driver suspension",
+      "rules for taxi drivers",
+      "driver removal taxi app",
+      "driver management"
+    ]
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Casi todos los operadores dedican tiempo a pensar cómo atraer y retener conductores, y casi ninguno a cómo dar de baja a uno. Por eso, cuando llega el momento, se hace mal: un mensaje seco, una cuenta bloqueada sin explicación, un saldo pendiente que nadie aclara y un conductor que sale hablando mal de la operación en todos los grupos de la ciudad. A veces la baja era justa; lo que la convirtió en un problema fue la forma.",
+        "en": "Almost every operator spends time thinking about how to attract and retain drivers, and almost none on how to remove one. That's why, when the time comes, it's done badly: a curt message, an account blocked without explanation, a pending balance nobody clears up, and a driver who leaves badmouthing the operation in every group in the city. Sometimes the removal was fair; what turned it into a problem was the way it was done."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La tesis de este artículo es que dar de baja a un conductor es un proceso de la operación, igual que el alta, y merece reglas escritas: qué motivos la justifican, qué pasos se siguen antes, cómo se comunica, qué pasa con el dinero y con los datos, y cómo se registra. Un proceso claro protege a los pasajeros, a la operación y también al conductor, que tiene derecho a saber por qué y a cerrar sus cuentas en orden.",
+        "en": "The thesis of this article is that removing a driver is an operating process, just like onboarding, and deserves written rules: which reasons justify it, which steps come first, how it's communicated, what happens with the money and the data, and how it's recorded. A clear process protects passengers, the operation and also the driver, who has the right to know why and to close their accounts in an orderly way."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Ninguna de estas reglas sustituye el sentido común, pero todas ayudan a que el coordinador de turno no tenga que improvisar en un momento tenso.",
+        "en": "None of these rules replaces common sense, but all of them help the shift coordinator avoid improvising at a tense moment."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "motivos",
+      "text": {
+        "es": "Qué motivos justifican una baja",
+        "en": "Which reasons justify a removal"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El primer paso es distinguir entre lo que exige una baja inmediata y lo que pide primero una conversación. Mezclar ambos casos lleva a dos errores opuestos: tolerar demasiado tiempo a alguien que pone en riesgo a los pasajeros, o expulsar sin aviso a un buen conductor que tuvo una mala semana.",
+        "en": "The first step is to distinguish between what requires immediate removal and what first calls for a conversation. Mixing the two leads to opposite mistakes: tolerating for too long someone who puts passengers at risk, or expelling without warning a good driver who had a bad week."
+      }
+    },
+    {
+      "type": "list",
+      "style": "bullet",
+      "items": {
+        "es": [
+          "Inmediata: agresión, acoso o amenaza a un pasajero, comprobada.",
+          "Inmediata: manejar bajo los efectos del alcohol o de drogas.",
+          "Inmediata: fraude con viajes, cobros o documentos falsos.",
+          "Tras aviso: quejas repetidas de trato o de manejo peligroso.",
+          "Tras aviso: documentos vencidos que no se renuevan en el plazo dado.",
+          "Tras aviso: cancelaciones o rechazos sistemáticos que dañan el servicio."
+        ],
+        "en": [
+          "Immediate: proven aggression, harassment or threats toward a passenger.",
+          "Immediate: driving under the influence of alcohol or drugs.",
+          "Immediate: fraud with trips, payments or fake documents.",
+          "After warning: repeated complaints about conduct or dangerous driving.",
+          "After warning: expired documents not renewed within the given deadline.",
+          "After warning: systematic cancellations or rejections that harm the service."
+        ]
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Escribe esta lista y compártela con los conductores desde el alta. Que la conozcan de antemano cambia todo: una baja que cita una regla que el conductor aceptó al entrar se discute mucho menos que una que parece decidida en el momento. Y la lista también protege a la operación de decidir por enojo o por favoritismo.",
+        "en": "Write this list down and share it with drivers from onboarding. Having them know it in advance changes everything: a removal that cites a rule the driver accepted when joining is argued over much less than one that seems decided on the spot. The list also protects the operation from deciding out of anger or favoritism."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Las bajas por documentos vencidos merecen un trato aparte. No suelen ser mala fe, sino olvido o un trámite que se atrasó. Un aviso con tiempo suficiente antes del vencimiento, otro el día en que vence y una pausa en la cuenta hasta que el documento esté al día resuelven la mayoría de los casos sin necesidad de una baja definitiva.",
+        "en": "Removals for expired documents deserve separate treatment. They're rarely bad faith, but rather forgetfulness or a delayed procedure. A notice well before the expiry date, another on the day it expires and a pause on the account until the document is up to date resolve most cases without a definitive removal."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "antes-de-decidir",
+      "text": {
+        "es": "Antes de decidir: escuchar y documentar",
+        "en": "Before deciding: listen and document"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Salvo en los casos de riesgo inmediato, ninguna baja debería decidirse sin escuchar al conductor. Una queja de un pasajero puede tener otra versión, y una calificación baja puede venir de un día con tráfico imposible. Una conversación corta, con los datos del viaje sobre la mesa, aclara muchas cosas y a veces resuelve el problema sin llegar a la baja.",
+        "en": "Except in cases of immediate risk, no removal should be decided without listening to the driver. A passenger complaint can have another version, and a low rating can come from a day of impossible traffic. A short conversation, with the trip data on the table, clears up a lot and sometimes solves the problem without reaching removal."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Documenta cada paso: qué pasó, cuándo, qué se le dijo al conductor, qué compromiso hizo y en qué plazo. Si después de un aviso escrito el problema se repite, la baja llega con un historial que la justifica. Ese registro sirve si el conductor reclama más adelante y también para que cualquier coordinador del equipo pueda entender el caso sin depender de la memoria de una sola persona.",
+        "en": "Document every step: what happened, when, what the driver was told, what commitment they made and by when. If the problem repeats after a written warning, the removal arrives with a history that justifies it. That record helps if the driver complains later, and it lets any coordinator on the team understand the case without depending on one person's memory."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "En los casos de riesgo inmediato, el orden es distinto: primero se suspende la cuenta para proteger a los pasajeros, y después se investiga. La suspensión preventiva no es todavía una baja definitiva; es una pausa mientras se aclara lo ocurrido, y conviene decírselo así al conductor.",
+        "en": "In cases of immediate risk, the order is different: the account is suspended first to protect passengers, and the investigation comes after. A preventive suspension isn't yet a definitive removal; it's a pause while what happened is clarified, and it's best to tell the driver exactly that."
+      }
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "text": {
+        "es": "Separa siempre la suspensión preventiva de la baja definitiva. Suspender protege mientras investigas; dar de baja cierra el caso. Si las confundes, terminas expulsando a alguien sin haber escuchado su versión o dejando activo a alguien que no debería estarlo.",
+        "en": "Always separate preventive suspension from definitive removal. Suspending protects while you investigate; removing closes the case. If you confuse them, you end up expelling someone without hearing their side or leaving active someone who shouldn't be."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Ten en cuenta también el vehículo. Si el auto pertenece a un dueño distinto del conductor, la baja del chofer no debería dejar el auto parado sin aviso: informa al dueño al mismo tiempo, para que pueda organizar con quién seguirá trabajando y no pierda días de servicio por una decisión que no le comunicaron.",
+        "en": "Keep the vehicle in mind too. If the car belongs to an owner other than the driver, the driver's removal shouldn't leave the car idle without warning: inform the owner at the same time, so they can arrange who will keep working with it and don't lose days of service over a decision nobody told them about."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "comunicar",
+      "text": {
+        "es": "Cómo comunicar la baja",
+        "en": "How to communicate the removal"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La forma de comunicar la baja dice mucho de la operación. Un mensaje claro, respetuoso y por escrito, que explique el motivo, cite la regla que se incumplió y diga qué pasa a partir de ahora, deja poco espacio para el conflicto. Evita los mensajes ambiguos, las amenazas y las discusiones públicas en grupos de conductores: la conversación es privada.",
+        "en": "The way the removal is communicated says a lot about the operation. A clear, respectful written message that explains the reason, cites the rule that was broken and says what happens from now on leaves little room for conflict. Avoid ambiguous messages, threats and public arguments in driver groups: the conversation is private."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "No hace falta dar todos los detalles de una investigación, sobre todo si involucran a un pasajero. Basta con explicar el motivo con suficiente claridad para que el conductor entienda la decisión. Si existe una vía para pedir que se revise, menciónala; muchas operaciones permiten una segunda revisión por otra persona del equipo, lo que reduce los errores y la sensación de injusticia.",
+        "en": "You don't need to give every detail of an investigation, especially if a passenger is involved. It's enough to explain the reason clearly enough for the driver to understand the decision. If there's a way to request a review, mention it; many operations allow a second review by another team member, which reduces mistakes and the sense of unfairness."
+      }
+    },
+    {
+      "type": "quote",
+      "text": {
+        "es": "Durante un tiempo dábamos de baja por mensaje y sin explicación, y cada caso terminaba en una pelea en los grupos de conductores. Empezamos a explicar el motivo, a cerrar el saldo el mismo día y a ofrecer una revisión con otra persona. Las bajas siguen pasando, pero ya casi no generan conflicto.",
+        "en": "For a while we removed drivers by message with no explanation, and every case ended in a fight in the driver groups. We started explaining the reason, settling the balance the same day and offering a review with another person. Removals still happen, but they hardly cause conflict anymore."
+      },
+      "attribution": {
+        "es": "Coordinadora de operación de una plataforma regional",
+        "en": "Operations coordinator at a regional platform"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Elige bien el momento. Comunicar una baja en plena hora pico, mientras el conductor está con un pasajero, sólo agrega tensión y riesgo. Lo mejor es hacerlo cuando no esté en servicio, desactivando la cuenta en ese mismo momento para que no reciba más viajes, y con el mensaje escrito listo antes de hablar con él.",
+        "en": "Choose the moment carefully. Communicating a removal at rush hour, while the driver is with a passenger, only adds tension and risk. It's best to do it when they're off duty, deactivating the account at that same moment so they don't receive more trips, and with the written message ready before talking to them."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "dinero-y-datos",
+      "text": {
+        "es": "El dinero y los datos",
+        "en": "Money and data"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Una baja mal cerrada en lo económico es la que más problemas genera. Antes de comunicarla, revisa el saldo del conductor: viajes pendientes de pago, cobros en efectivo que debe entregar, comisiones o cuentas pendientes. Liquida lo que corresponda en el plazo habitual y explícale cómo y cuándo recibirá lo que se le debe. Retener dinero sin explicación convierte una baja justa en una disputa.",
+        "en": "A removal that's badly closed financially is the one that causes the most problems. Before communicating it, review the driver's balance: trips pending payment, cash collections they must hand over, commissions or outstanding fees. Settle what's owed within the usual timeframe and explain how and when they'll receive what they're owed. Withholding money without explanation turns a fair removal into a dispute."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Con los datos pasa algo parecido. El conductor que se va tiene derecho a saber qué información suya conserva la operación y por qué. Conserva sólo lo necesario por motivos legales o fiscales durante el tiempo que marque la ley de tu país, y elimina o restringe el resto. Si el conductor pide que se borren sus datos, atiende la petición dentro de lo que la ley permite y deja registro de lo que se hizo.",
+        "en": "The same goes for data. A departing driver has the right to know what information about them the operation keeps and why. Keep only what's necessary for legal or tax reasons for the time your country's law requires, and delete or restrict the rest. If the driver asks for their data to be deleted, handle the request within what the law allows and keep a record of what was done."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "baja-voluntaria",
+      "text": {
+        "es": "Cuando el conductor se va por su cuenta",
+        "en": "When the driver leaves on their own"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "No todas las bajas las decide la operación. Muchos conductores se van porque encontraron otro trabajo, porque vendieron el auto o porque ya no les conviene. Esas salidas también merecen un cierre ordenado: liquidar el saldo, desactivar la cuenta, recuperar cualquier material de la operación que tuviera y agradecerle el tiempo trabajado. Un conductor que se va bien puede volver más adelante o recomendar a otros.",
+        "en": "Not every removal is decided by the operation. Many drivers leave because they found another job, sold the car or it's no longer worth it. Those departures also deserve an orderly close: settling the balance, deactivating the account, recovering any operation material they had and thanking them for their time. A driver who leaves on good terms may come back later or recommend others."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Aprovecha esa salida para preguntar, con una o dos preguntas cortas, por qué se va y qué habría cambiado su decisión. Las respuestas de quienes se van por su cuenta suelen ser más honestas que las de quienes se quedan, y son la mejor fuente para entender qué está fallando en tu operación antes de que se vayan otros.",
+        "en": "Use that departure to ask, with one or two short questions, why they're leaving and what would have changed their decision. Answers from those who leave on their own are usually more honest than those from people who stay, and they're the best source for understanding what's failing in your operation before others leave."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "registrar-y-aprender",
+      "text": {
+        "es": "Registrar y aprender de cada baja",
+        "en": "Record and learn from every removal"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Cada baja deja información útil. Anota el motivo, cuánto tiempo llevaba el conductor en la operación, por qué canal llegó y si hubo avisos previos. Con unos meses de registros verás patrones: si muchas bajas vienen de un mismo canal de reclutamiento, si se concentran en los primeros meses o si un tipo de queja se repite. Esos patrones te dicen qué mejorar en la selección y en la capacitación.",
+        "en": "Every removal leaves useful information. Note the reason, how long the driver had been with the operation, which channel they came from and whether there were prior warnings. With a few months of records you'll see patterns: whether many removals come from the same recruiting channel, whether they concentrate in the first months or whether a type of complaint repeats. Those patterns tell you what to improve in selection and training."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Revisa también tus propias decisiones. Si una revisión cambia a menudo la decisión inicial, quizá tus criterios no están claros o se aplican con prisa. Un proceso de baja que se revisa de vez en cuando se vuelve más justo y más rápido con el tiempo.",
+        "en": "Review your own decisions as well. If a review often reverses the initial decision, perhaps your criteria aren't clear or are applied in a hurry. A removal process that's reviewed from time to time becomes fairer and faster over time."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Por último, cuida la consistencia. Si dos conductores cometen la misma falta, deben recibir la misma respuesta, sin importar cuántos viajes hagan o cuánto tiempo lleven en la operación. Los conductores comparan casos entre ellos, y una regla que se aplica distinto según la persona pierde su fuerza muy rápido.",
+        "en": "Finally, look after consistency. If two drivers commit the same fault, they should get the same response, regardless of how many trips they do or how long they've been with the operation. Drivers compare cases among themselves, and a rule applied differently depending on the person loses its force very quickly."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "lo-que-protege",
+      "text": {
+        "es": "Lo que protege un buen proceso",
+        "en": "What a good process protects"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Un proceso de baja claro protege primero a los pasajeros, porque saca rápido a quien pone en riesgo su seguridad. Protege también a la operación, porque cada decisión queda justificada y registrada. Y protege a los conductores que se quedan, que ven que las reglas se aplican igual para todos y que nadie sale sin explicación ni sin cobrar lo que le corresponde.",
+        "en": "A clear removal process protects passengers first, because it quickly removes anyone who puts their safety at risk. It also protects the operation, because every decision is justified and recorded. And it protects the drivers who stay, who see that the rules apply equally to everyone and that nobody leaves without an explanation or without being paid what they're owed."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Si esta semana solo puedes hacer una cosa, escribe la lista de motivos de baja, separando los inmediatos de los que llevan aviso previo, y compártela con toda tu flota. Es la base sobre la que se construye el resto del proceso, y evita la mayoría de los conflictos antes de que empiecen.",
+        "en": "If you can only do one thing this week, write the list of removal reasons, separating the immediate ones from those that require prior warning, and share it with your whole fleet. It's the foundation for the rest of the process, and it prevents most conflicts before they start."
+      }
+    }
+  ],
+  "cta": {
+    "heading": {
+      "es": "¿Listo para lanzar tu propia app de movilidad?",
+      "en": "Ready to launch your own mobility app?"
+    },
+    "body": {
+      "es": "Configura tu marca, tus tarifas y tus servicios en semanas, no en meses. Cabgo te entrega la plataforma; tú te quedas con la operación, los clientes y los ingresos.",
+      "en": "Set up your brand, pricing and services in weeks, not months. Cabgo ships the platform — you keep the operation, the customers and the revenue."
+    },
+    "buttonLabel": {
+      "es": "Comenzar con Cabgo",
+      "en": "Get started with Cabgo"
+    },
+    "buttonHref": "/empezar"
+  },
+  "seo": {
+    "metaTitle": {
+      "es": "Cómo dar de baja a un conductor de taxi | Cabgo",
+      "en": "How to remove a driver from your taxi fleet | Cabgo"
+    },
+    "metaDescription": {
+      "es": "Motivos de baja inmediata y con aviso, cómo escuchar y documentar, cómo comunicar la decisión y qué hacer con el saldo y los datos del conductor.",
+      "en": "Reasons for immediate removal and removal after warning, how to listen and document, how to communicate it and what to do with the driver's balance and data."
+    }
+  },
+  "author": {
+    "name": "Equipo Cabgo",
+    "role": {
+      "es": "Plataforma de movilidad",
+      "en": "Mobility platform"
+    }
+  }
+}
