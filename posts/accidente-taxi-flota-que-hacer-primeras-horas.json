@@ -1,0 +1,331 @@
+{
+  "slug": "accidente-taxi-flota-que-hacer-primeras-horas",
+  "category": "strategy",
+  "title": {
+    "es": "Accidente con un taxi de tu flota: qué hacer en las primeras horas",
+    "en": "An accident with one of your fleet's taxis: what to do in the first hours"
+  },
+  "excerpt": {
+    "es": "Un protocolo para los primeros minutos tras un choque: cuidar a las personas y al pasajero, reunir evidencia, avisar a la aseguradora, repartir costos sin pelear y aprender de cada caso.",
+    "en": "A protocol for the first minutes after a crash: caring for people and the passenger, gathering evidence, notifying the insurer, splitting costs without fighting and learning from each case."
+  },
+  "heroImage": "https://raw.githubusercontent.com/jonatanvazquez/cabgo-blog-content/main/images/accidente-taxi-flota-que-hacer-primeras-horas.jpg",
+  "heroImageAlt": {
+    "es": "Ilustración isométrica de un taxi con un triángulo de emergencia, un botiquín y un portapapeles con una lista.",
+    "en": "Isometric illustration of a taxi with an emergency warning triangle, a first-aid kit and a clipboard with a checklist."
+  },
+  "heroImagePrompt": "Isometric scene on a deep violet floor grid: a yellow taxi car with its hazard lights glowing, a red reflective emergency warning triangle placed behind it, a white first-aid kit box, and a clipboard with a checklist of tick boxes. Soft indigo radial glow at the center. No people. No text, no captions, no labels, no letters, no numbers, no words anywhere in the image.",
+  "publishedAt": "2026-11-19",
+  "readingMinutes": 8,
+  "keywords": {
+    "es": [
+      "accidente de taxi qué hacer",
+      "choque taxi flota",
+      "protocolo de accidentes",
+      "conductor de taxi accidente",
+      "aseguradora accidente taxi",
+      "seguridad flota de taxi"
+    ],
+    "en": [
+      "taxi accident what to do",
+      "taxi fleet crash",
+      "accident protocol",
+      "taxi driver accident",
+      "insurer taxi accident",
+      "taxi fleet safety"
+    ]
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Tarde o temprano pasa: un conductor de tu flota llama con la voz cortada para decir que tuvo un choque. Puede ser un golpe leve en un semáforo o algo más serio, con un pasajero a bordo y otro vehículo involucrado. En ese momento nadie piensa con claridad, y las decisiones que se toman en la primera hora pesan durante semanas: en la salud de las personas, en lo que paga el seguro, en la relación con el conductor y en la confianza de los pasajeros.",
+        "en": "Sooner or later it happens: a driver from your fleet calls, voice shaking, to say they had a crash. It might be a minor bump at a traffic light or something more serious, with a passenger on board and another vehicle involved. In that moment nobody thinks clearly, and the decisions made in the first hour weigh for weeks: on people's health, on what the insurance pays, on the relationship with the driver and on passengers' trust."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La tesis de este artículo es que un accidente no se improvisa: se prepara antes, con un protocolo escrito que todos conocen. Quién atiende la llamada, qué se le pide al conductor, cómo se cuida al pasajero, qué evidencia se reúne, cuándo se avisa a la aseguradora y cómo se cierra el caso. Con ese protocolo, la operación responde con calma incluso cuando el conductor no puede hacerlo.",
+        "en": "The thesis of this article is that an accident isn't improvised: it's prepared beforehand, with a written protocol everyone knows. Who takes the call, what the driver is asked to do, how the passenger is cared for, what evidence is gathered, when the insurer is notified and how the case is closed. With that protocol, the operation responds calmly even when the driver can't."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "primeros-minutos",
+      "text": {
+        "es": "Los primeros minutos: personas antes que vehículos",
+        "en": "The first minutes: people before vehicles"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Lo primero es siempre la seguridad de las personas. Antes de hablar de daños, culpables o seguros, el conductor tiene que comprobar si alguien está herido, poner el vehículo en un lugar seguro si se puede mover sin riesgo, encender las luces de emergencia y colocar señales para que otros autos no choquen con ellos. Si hay heridos, la primera llamada es a los servicios de emergencia, no a la operación.",
+        "en": "The first thing is always people's safety. Before talking about damage, fault or insurance, the driver has to check whether anyone is hurt, move the vehicle to a safe spot if it can be moved without risk, turn on the hazard lights and set out warning signs so other cars don't hit them. If anyone is injured, the first call goes to emergency services, not to the operation."
+      }
+    },
+    {
+      "type": "list",
+      "style": "bullet",
+      "items": {
+        "es": [
+          "Comprobar si hay heridos y llamar a emergencias si los hay.",
+          "Encender las luces de emergencia y señalizar el lugar.",
+          "No mover a una persona herida salvo peligro inmediato.",
+          "Mover el vehículo solo si es seguro y la ley local lo permite.",
+          "Avisar a la operación en cuanto la situación esté controlada.",
+          "No discutir culpas ni firmar acuerdos en el lugar."
+        ],
+        "en": [
+          "Check for injuries and call emergency services if there are any.",
+          "Turn on the hazard lights and mark the scene.",
+          "Don't move an injured person unless there's immediate danger.",
+          "Move the vehicle only if it's safe and local law allows it.",
+          "Notify the operation once the situation is under control.",
+          "Don't argue about fault or sign agreements at the scene."
+        ]
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Esta lista debería estar en manos de cada conductor desde el primer día, impresa en la guantera o guardada en su teléfono. En un momento de nervios nadie recuerda una capacitación de hace meses, pero sí puede leer seis pasos cortos. Repásala con la flota de vez en cuando, sobre todo con los conductores nuevos.",
+        "en": "This list should be in every driver's hands from day one, printed in the glove box or saved on their phone. In a moment of stress nobody remembers a training session from months ago, but anyone can read six short steps. Review it with the fleet from time to time, especially with new drivers."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Antes de que ocurra el primer caso, deja preparado un pequeño kit en cada vehículo: triángulos de emergencia, un chaleco reflejante, un botiquín básico y una tarjeta con los teléfonos de emergencia, de la aseguradora y de la persona de guardia. Revisa en tus inspecciones periódicas que el kit siga completo. Es un gasto menor que evita que el conductor se quede sin señalizar el lugar o sin saber a quién llamar justo cuando más lo necesita.",
+        "en": "Before the first case happens, set up a small kit in every vehicle: warning triangles, a reflective vest, a basic first-aid kit and a card with the emergency, insurer and on-call phone numbers. Check during your periodic inspections that the kit is still complete. It's a small expense that keeps the driver from being unable to mark the scene or not knowing whom to call just when it matters most."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "el-pasajero",
+      "text": {
+        "es": "Cuidar al pasajero que iba a bordo",
+        "en": "Caring for the passenger on board"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Si el accidente ocurre durante un viaje, el pasajero es responsabilidad de la operación hasta que llegue a su destino o a un lugar seguro. Aunque no tenga heridas visibles, puede estar asustado o tener molestias que aparecen horas después. El conductor debe preguntarle cómo está, ofrecerle esperar a la atención médica si hace falta y no presionarlo para que se baje o siga el viaje en un vehículo dañado.",
+        "en": "If the accident happens during a trip, the passenger is the operation's responsibility until they reach their destination or a safe place. Even without visible injuries, they may be frightened or have discomfort that shows up hours later. The driver should ask how they are, offer to wait for medical attention if needed, and not pressure them to get out or continue the trip in a damaged vehicle."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Desde la operación, lo más útil es mandar otro vehículo para completar el viaje sin costo para el pasajero y, al día siguiente, llamarlo para saber cómo sigue. Ese gesto cuesta poco y cambia por completo cómo recuerda el incidente. Registra sus datos de contacto y lo que dijo en el momento, porque si más adelante presenta una reclamación, esa información será importante para la aseguradora.",
+        "en": "From the operation's side, the most useful thing is to send another vehicle to complete the trip at no cost to the passenger and, the next day, call to see how they're doing. That gesture costs little and completely changes how they remember the incident. Record their contact details and what they said at the time, because if they file a claim later, that information will matter to the insurer."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "evidencia",
+      "text": {
+        "es": "Qué evidencia reunir en el lugar",
+        "en": "What evidence to gather at the scene"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Una vez que las personas están a salvo, el conductor debe documentar todo lo que pueda. Las fotos y los datos que se reúnen en el lugar son los que después deciden cuánto cubre el seguro y cómo se resuelve una disputa con el otro conductor. Lo que no se registra ese día es muy difícil de reconstruir después.",
+        "en": "Once people are safe, the driver should document everything they can. The photos and details gathered at the scene are what later decide how much the insurance covers and how a dispute with the other driver is settled. What isn't recorded that day is very hard to reconstruct later."
+      }
+    },
+    {
+      "type": "list",
+      "style": "bullet",
+      "items": {
+        "es": [
+          "Fotos de los vehículos desde varios ángulos, con las placas visibles.",
+          "Fotos del lugar: semáforos, señales, marcas en el piso.",
+          "Nombre, teléfono y aseguradora del otro conductor.",
+          "Datos de testigos dispuestos a declarar.",
+          "Número de reporte si interviene una autoridad.",
+          "Hora exacta y ubicación del accidente."
+        ],
+        "en": [
+          "Photos of the vehicles from several angles, with plates visible.",
+          "Photos of the scene: traffic lights, signs, marks on the road.",
+          "Name, phone and insurer of the other driver.",
+          "Details of witnesses willing to give a statement.",
+          "Report number if an authority intervenes.",
+          "Exact time and location of the accident."
+        ]
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La hora y la ubicación suelen quedar registradas en el historial del viaje, lo que ayuda a confirmar la versión del conductor. Aun así, pide que tome sus propias fotos y notas, porque el historial dice dónde estaba el vehículo, pero no qué pasó en la intersección. Guarda todo en un expediente del caso desde el primer día.",
+        "en": "The time and location are usually recorded in the trip history, which helps confirm the driver's account. Even so, ask them to take their own photos and notes, because the history says where the vehicle was, but not what happened at the intersection. Keep everything in a case file from day one."
+      }
+    },
+    {
+      "type": "callout",
+      "variant": "warning",
+      "text": {
+        "es": "Pide a tus conductores que nunca acepten un arreglo en efectivo en el lugar ni firmen documentos sin consultar a la operación. Un acuerdo apresurado puede dejar a la flota sin la cobertura del seguro o responsable de daños que no causó.",
+        "en": "Ask your drivers never to accept a cash settlement at the scene or sign documents without checking with the operation. A rushed agreement can leave the fleet without insurance coverage or liable for damage it didn't cause."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "operacion",
+      "text": {
+        "es": "Qué hace la operación en las horas siguientes",
+        "en": "What the operation does in the following hours"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Designa a una persona responsable de los accidentes en cada turno. Esa persona atiende la llamada del conductor, verifica que se siguieron los primeros pasos, organiza el vehículo de reemplazo para el pasajero y abre el expediente. Tener un responsable claro evita que tres coordinadores llamen al conductor al mismo tiempo y que nadie avise a la aseguradora.",
+        "en": "Designate one person responsible for accidents on each shift. That person takes the driver's call, checks that the first steps were followed, arranges the replacement vehicle for the passenger and opens the case file. Having a clear owner prevents three coordinators from calling the driver at the same time while nobody notifies the insurer."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Avisa a la aseguradora dentro del plazo que marque tu póliza; muchas exigen el aviso en pocas horas o días. Envía las fotos, los datos del otro conductor y el número de reporte. Si el vehículo no puede circular, organiza la grúa y el taller según lo que diga el seguro, y desactiva temporalmente ese vehículo en la operación para que no reciba solicitudes.",
+        "en": "Notify the insurer within the deadline your policy sets; many require notice within a few hours or days. Send the photos, the other driver's details and the report number. If the vehicle can't be driven, arrange the tow and the repair shop according to what the insurance says, and temporarily deactivate that vehicle in the operation so it doesn't receive requests."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Habla también con el conductor sobre su estado. Un choque, aunque sea leve, deja nervios, y salir a manejar al día siguiente no siempre es buena idea. Ofrécele uno o dos días para recuperarse si lo necesita, y deja claro que la conversación sobre responsabilidades vendrá después, con los datos en la mano.",
+        "en": "Talk to the driver about how they're doing, too. A crash, even a minor one, leaves nerves frayed, and going back to driving the next day isn't always a good idea. Offer them a day or two to recover if they need it, and make clear that the conversation about responsibility will come later, with the facts in hand."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Mientras el vehículo está en el taller, piensa también en el ingreso del conductor. Si depende de ese auto para trabajar, unos días parado pueden ser un golpe fuerte para su economía. Algunas operaciones le ofrecen un vehículo de reemplazo, otras le asignan turnos en un auto compartido y otras le adelantan trabajo dentro de la operación, como apoyo en despacho. No hay una sola respuesta, pero hablarlo pronto evita que un buen conductor se vaya a otra plataforma mientras espera la reparación.",
+        "en": "While the vehicle is in the shop, also think about the driver's income. If they depend on that car to work, a few days off the road can hit their finances hard. Some operations offer a replacement vehicle, others assign shifts in a shared car, and others give them work inside the operation, such as helping with dispatch. There's no single answer, but discussing it early keeps a good driver from leaving for another platform while waiting for the repair."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "responsabilidad",
+      "text": {
+        "es": "Responsabilidades y costos sin pelear",
+        "en": "Responsibilities and costs without fighting"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Quién paga el deducible, quién cubre los días sin trabajar y qué pasa si el conductor tuvo la culpa son preguntas que generan conflicto si no están escritas antes. Lo ideal es que el acuerdo con cada conductor diga cómo se reparten esos costos según el caso: cuando la culpa es del otro vehículo, cuando es compartida y cuando es del conductor por una imprudencia clara.",
+        "en": "Who pays the deductible, who covers the days without work and what happens if the driver was at fault are questions that cause conflict if they aren't written down beforehand. Ideally, the agreement with each driver says how those costs are split depending on the case: when the other vehicle is at fault, when fault is shared, and when it's the driver's fault through clear recklessness."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Cuando llegue el momento de hablarlo, hazlo con el expediente completo y en privado. Si el conductor tuvo la culpa por una distracción, el caso puede terminar en capacitación o en un aviso formal; si hubo alcohol o una imprudencia grave, entra en las causas de baja que la operación ya tiene definidas. Lo importante es que la decisión se base en lo que pasó y no en el enojo del momento.",
+        "en": "When the time comes to discuss it, do it with the complete case file and in private. If the driver was at fault through a distraction, the case may end in training or a formal warning; if alcohol or serious recklessness was involved, it falls under the removal reasons the operation already has defined. What matters is that the decision is based on what happened, not on the anger of the moment."
+      }
+    },
+    {
+      "type": "quote",
+      "text": {
+        "es": "El primer choque serio que tuvimos fue un caos: nadie sabía a quién avisar y el conductor firmó un papel con el otro auto sin preguntarnos. Ahora cada conductor tiene la lista de pasos en el teléfono, hay una persona de guardia para accidentes y avisamos a la aseguradora el mismo día. El último caso se cerró sin una sola discusión.",
+        "en": "The first serious crash we had was chaos: nobody knew whom to notify and the driver signed a paper with the other car without asking us. Now every driver has the list of steps on their phone, there's a person on call for accidents, and we notify the insurer the same day. The last case was closed without a single argument."
+      },
+      "attribution": {
+        "es": "Jefe de operación de una flota de taxis regional",
+        "en": "Operations manager of a regional taxi fleet"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "aprender",
+      "text": {
+        "es": "Aprender de cada accidente",
+        "en": "Learn from every accident"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Cada accidente deja información para prevenir el siguiente. Registra dónde ocurrió, a qué hora, qué tipo de choque fue y cuánto tiempo llevaba el conductor en la operación. Con varios casos verás patrones: una intersección peligrosa, choques concentrados en las madrugadas o en conductores con pocas semanas de experiencia. Esos datos te dicen dónde reforzar la capacitación o qué zonas avisar a la flota.",
+        "en": "Every accident leaves information to prevent the next one. Record where it happened, at what time, what type of crash it was and how long the driver had been with the operation. With several cases you'll see patterns: a dangerous intersection, crashes concentrated in the early morning hours or among drivers with only a few weeks of experience. That data tells you where to reinforce training or which areas to warn the fleet about."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Revisa también el propio protocolo después de cada caso serio. Pregunta al conductor y al responsable de turno qué funcionó y qué faltó: un número de la aseguradora que no estaba a mano, una foto que nadie pensó en tomar, un paso que no quedó claro. Un protocolo que se ajusta con cada caso es cada vez más útil.",
+        "en": "Also review the protocol itself after each serious case. Ask the driver and the shift lead what worked and what was missing: an insurer phone number that wasn't at hand, a photo nobody thought to take, a step that wasn't clear. A protocol adjusted after every case becomes more useful each time."
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "cierre",
+      "text": {
+        "es": "Lo que cambia con un protocolo",
+        "en": "What changes with a protocol"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Ninguna flota puede evitar todos los accidentes, pero sí puede decidir cómo responde cuando ocurren. Con un protocolo escrito, el conductor sabe qué hacer en los primeros minutos, el pasajero se siente cuidado, la aseguradora recibe la evidencia a tiempo y la conversación sobre responsabilidades se da con datos y sin gritos. Lo que podría ser una crisis se convierte en un caso que se cierra en orden.",
+        "en": "No fleet can prevent every accident, but every fleet can decide how it responds when one happens. With a written protocol, the driver knows what to do in the first minutes, the passenger feels cared for, the insurer gets the evidence on time and the conversation about responsibility happens with facts and without shouting. What could be a crisis becomes a case closed in an orderly way."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Si esta semana solo puedes hacer una cosa, escribe la lista de pasos para los primeros minutos después de un choque, con el teléfono de emergencias, el de tu aseguradora y el de la persona de guardia, y mándasela a cada conductor de tu flota. Es una hoja que ojalá nunca usen, pero que el día que la necesiten hará toda la diferencia.",
+        "en": "If you can only do one thing this week, write the list of steps for the first minutes after a crash, with the emergency number, your insurer's number and the on-call person's number, and send it to every driver in your fleet. It's a page you hope they never use, but on the day they need it, it will make all the difference."
+      }
+    }
+  ],
+  "cta": {
+    "heading": {
+      "es": "¿Listo para lanzar tu propia app de movilidad?",
+      "en": "Ready to launch your own mobility app?"
+    },
+    "body": {
+      "es": "Configura tu marca, tus tarifas y tus servicios en semanas, no en meses. Cabgo te entrega la plataforma; tú te quedas con la operación, los clientes y los ingresos.",
+      "en": "Set up your brand, pricing and services in weeks, not months. Cabgo ships the platform — you keep the operation, the customers and the revenue."
+    },
+    "buttonLabel": {
+      "es": "Comenzar con Cabgo",
+      "en": "Get started with Cabgo"
+    },
+    "buttonHref": "/empezar"
+  },
+  "seo": {
+    "metaTitle": {
+      "es": "Accidente con un taxi de tu flota: qué hacer | Cabgo",
+      "en": "Accident with a fleet taxi: what to do | Cabgo"
+    },
+    "metaDescription": {
+      "es": "Protocolo para las primeras horas tras un choque de taxi: personas primero, cuidar al pasajero, reunir evidencia, avisar al seguro y repartir costos sin pelear.",
+      "en": "A protocol for the first hours after a taxi crash: people first, care for the passenger, gather evidence, notify the insurer and split costs without fighting."
+    }
+  },
+  "author": {
+    "name": "Equipo Cabgo",
+    "role": {
+      "es": "Plataforma de movilidad",
+      "en": "Mobility platform"
+    }
+  }
+}
